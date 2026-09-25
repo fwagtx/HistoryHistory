@@ -174,17 +174,21 @@ def main():
     print(f"Rendered {frames} frames in {(time.time() - t0) / 60:.1f} min", flush=True)
     out = ROOT / "media" / week / f"{week}-doc.mp4" if not a.seconds else work / "test.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
+    final = out
+    out = work / "final.mp4"
     kbps = encode(chunks, work / "narration.wav", duration, out, work, a.kbps)
+    out = out.replace(final)  # into media/ only when complete
     if a.seconds:
         print(f"{out} · {out.stat().st_size / 1e6:.1f} MB · {kbps} kbps")
         return
-    thumb = ROOT / "media" / week / f"{week}-doc-thumb.png"
+    thumb = work / "thumb.png"
     wk = ROAD["weeks"][int(doc["week"]) - 1]
     still(page, 2.4, thumb, f"DPR=1.5;thumbBait(OUT,{json.dumps(wk)},t)")
     # YouTube thumbnails must be JPG/PNG under 2 MB.
     from PIL import Image
-    jpg = thumb.with_suffix(".jpg")
-    Image.open(thumb).convert("RGB").save(jpg, quality=90)
+    jpg = ROOT / "media" / week / f"{week}-doc-thumb.jpg"
+    Image.open(thumb).convert("RGB").save(work / "thumb.jpg", quality=90)
+    (work / "thumb.jpg").replace(jpg)
     thumb.unlink()
     print(f"{out} · {out.stat().st_size / 1e6:.1f} MB · {kbps} kbps video\n{jpg}", flush=True)
 
