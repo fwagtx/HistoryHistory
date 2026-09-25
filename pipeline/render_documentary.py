@@ -111,7 +111,7 @@ def still(page_path, t, out, fn="docRender(OUT,t)"):
         browser.close()
 
 
-def encode(chunks, narration, duration, out, work):
+def encode(chunks, narration, duration, out, work, kbps=None):
     """Join chunks, mix narration with the drone score, and two-pass encode under MAX_MB."""
     lst = work / "chunks.txt"
     lst.write_text("".join(f"file '{Path(c).resolve()}'\n" for c in chunks))
@@ -124,7 +124,7 @@ def encode(chunks, narration, duration, out, work):
                     f"afade=t=out:st={max(0, duration - 4):.2f}:d=4[m];"
                     "[0:a][m]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]",
                     "-map", "[a]", "-c:a", "aac", "-b:a", "128k", str(audio)], check=True)
-    kbps = int(min(4000, MAX_MB * 8e3 / duration - 140))
+    kbps = kbps or int(min(4000, MAX_MB * 8e3 / duration - 140))
     common = ["-c:v", "libx264", "-preset", "slow", "-tune", "animation", "-b:v", f"{kbps}k", "-maxrate", f"{kbps * 2}k",
               "-bufsize", f"{kbps * 4}k", "-pix_fmt", "yuv420p", "-g", "60"]
     log = str(work / "x264pass")
@@ -141,6 +141,7 @@ def main():
     ap.add_argument("--jobs", type=int, default=3)
     ap.add_argument("--seconds", type=float, help="Render only the first N seconds (for testing)")
     ap.add_argument("--stills", action="store_true", help="Only write one still per shot for review")
+    ap.add_argument("--kbps", type=int, help="Force the video bitrate (for test renders)")
     a = ap.parse_args()
     doc = json.loads(a.script.read_text())
     week = doc["id"].split("-")[0]
@@ -171,9 +172,12 @@ def main():
     with ProcessPoolExecutor(a.jobs) as ex:
         chunks = list(ex.map(render_chunk, jobs))
     print(f"Rendered {frames} frames in {(time.time() - t0) / 60:.1f} min", flush=True)
-    out = ROOT / "media" / week / f"{week}-doc.mp4"
+    out = ROOT / "media" / week / f"{week}-doc.mp4" if not a.seconds else work / "test.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
-    kbps = encode(chunks, work / "narration.wav", duration, out, work)
+    kbps = encode(chunks, work / "narration.wav", duration, out, work, a.kbps)
+    if a.seconds:
+        print(f"{out} · {out.stat().st_size / 1e6:.1f} MB · {kbps} kbps")
+        return
     thumb = ROOT / "media" / week / f"{week}-doc-thumb.png"
     wk = ROAD["weeks"][int(doc["week"]) - 1]
     still(page, 2.4, thumb, f"DPR=1.5;thumbBait(OUT,{json.dumps(wk)},t)")

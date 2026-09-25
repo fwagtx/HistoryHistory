@@ -63,7 +63,7 @@ function drawShot(c, k, t) {
   const sh = DOC.shots[k], o = sh.show, lp = clamp((t - sh.s0) / Math.max(.1, sh.s1 - sh.s0)), ls = t - sh.s0;
   resetCtx(c); c.save();
   switch (o.k) {
-    case 'scene': { const px = (o.pan ?? (k % 2 ? 1 : -1)) * 26 * (ease(lp) - .5); c.translate(px, 0); scene(c, o.scene, t, lp); c.restore(); c.save(); finish(c, t); break; }
+    case 'scene': { const e = ease(lp), px = (o.pan ?? (k % 2 ? 1 : -1)) * 60 * (e - .5), z = 1.02 + .09 * e; c.translate(W / 2 + px, H / 2); c.scale(z, z); c.translate(-W / 2, -H / 2); scene(c, o.scene, t, lp); c.restore(); c.save(); finish(c, t); break; }
     case 'person': personShot(c, sh, t, lp, ls); break;
     case 'map': mapShot(c, sh, t, lp, ls); break;
     case 'chapter': chapterCard(c, sh, t, lp, ls); break;
@@ -85,8 +85,10 @@ function docRender(c, t) {
   if (!_docA) { _docA = document.createElement('canvas'); _docB = document.createElement('canvas'); for (const x of [_docA, _docB]) { x.width = cw; x.height = ch; } }
   const k = shotAt(t), sh = DOC.shots[k], ac = _docA.getContext('2d');
   drawShot(ac, k, t);
-  c.setTransform(1, 0, 0, 1, 0, 0); c.globalAlpha = 1; c.drawImage(_docA, 0, 0);
+  // A touch more exposure than the thumbnails' noir look, so dark scenes survive YouTube compression.
+  c.setTransform(1, 0, 0, 1, 0, 0); c.globalAlpha = 1; c.filter = 'brightness(1.2) contrast(1.05)'; c.drawImage(_docA, 0, 0);
   if (k > 0 && t - sh.s0 < DOC_FADE) { const bc = _docB.getContext('2d'); drawShot(bc, k - 1, t); c.globalAlpha = 1 - ease((t - sh.s0) / DOC_FADE); c.drawImage(_docB, 0, 0); c.globalAlpha = 1; }
+  c.filter = 'none';
   if (k === 0 && t < .8) { c.fillStyle = `rgba(0,0,0,${1 - t / .8})`; c.fillRect(0, 0, cw, ch); }
   if (t > DOC.duration - 1.2) { c.fillStyle = `rgba(0,0,0,${clamp((t - DOC.duration + 1.2) / 1.2)})`; c.fillRect(0, 0, cw, ch); }
   const b = beatAt(t);
