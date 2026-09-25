@@ -164,9 +164,21 @@ function frame(c, kind, wk, t, lp = .5, next) {
     c.textAlign = 'center'; c.textBaseline = 'alphabetic'; c.fillStyle = RED; c.font = `500 24px ${DISPLAY}`; spacing(c, 8); c.fillText(wk.stat.label, W / 2, 250); spacing(c, 0);
     c.fillStyle = INK; fitFont(c, wk.stat.big, 700, 190, 1000); c.fillText(wk.stat.big, W / 2, 440); c.fillStyle = DIM; c.font = "500 28px Archivo, Arial, sans-serif"; c.fillText(wk.stat.sub, W / 2, 500); return;
   }
+  if (kind === 'character') {
+    const id = (wk.cast || [])[typeof next === 'number' ? next : 0], sp = typeof CAST !== 'undefined' && CAST[id];
+    c.globalAlpha = .3; scene(c, wk.scene2, t, lp); c.globalAlpha = 1; c.restore();
+    const g = c.createLinearGradient(0, 0, W, 0); g.addColorStop(0, 'rgba(0,0,0,.35)'); g.addColorStop(1, 'rgba(0,0,0,.85)'); c.fillStyle = g; c.fillRect(0, 0, W, H);
+    if (sp) bust(c, sp, 400 - 30 * (1 - ease(Math.min(1, lp * 2))), 290, 1.35, .45);
+    finish(c, t); if (!sp) return;
+    const a = ease(Math.min(1, lp * 2.5)); c.globalAlpha = a; c.textAlign = 'left'; c.textBaseline = 'alphabetic';
+    c.fillStyle = RED; c.font = `500 22px ${DISPLAY}`; spacing(c, 8); c.fillText('WHO WAS THERE', 740, 286); spacing(c, 0);
+    c.fillStyle = INK; const nm = sp.name.toUpperCase(); fitFont(c, nm, 700, 68, 470); c.fillText(nm, 738, 364);
+    c.fillStyle = RED; c.fillRect(740, 388, 80 * a, 4);
+    c.fillStyle = DIM; c.font = "500 26px Archivo, Arial, sans-serif"; c.fillText(sp.role, 740, 440); c.globalAlpha = 1; return;
+  }
   if (kind === 'end') {
     c.globalAlpha = .35; scene(c, wk.scene, t, lp); c.globalAlpha = 1; c.restore(); c.fillStyle = 'rgba(0,0,0,.55)'; c.fillRect(0, 0, W, H); finish(c, t);
-    if (next) { const tb = document.createElement('canvas'); tb.width = W; tb.height = H; thumb(tb.getContext('2d'), next, 2); c.drawImage(tb, 110, 170, 600, 338); }
+    if (next) { const tb = document.createElement('canvas'); tb.width = W; tb.height = H; (typeof thumbBait === 'function' && next.cb ? thumbBait : thumb)(tb.getContext('2d'), next, 2); c.drawImage(tb, 110, 170, 600, 338); }
     c.strokeStyle = INK; c.lineWidth = 3; c.strokeRect(110, 170, 600, 338);
     c.fillStyle = RED; c.font = `500 20px ${DISPLAY}`; spacing(c, 6); c.textAlign = 'left'; c.textBaseline = 'alphabetic'; c.fillText('NEXT WEDNESDAY', 110, 150); spacing(c, 0);
     crest(c, 930, 330, 110); c.strokeStyle = INK; c.lineWidth = 3; c.beginPath(); c.arc(930, 330, 122, 0, TAU); c.stroke();
@@ -183,4 +195,72 @@ function thumb(c, wk, t = 2) {
   c.fillStyle = INK; fitFont(c, wk.thumb[0], 700, 150, 700); c.fillText(wk.thumb[0], 60, 330);
   c.fillStyle = RED; fitFont(c, wk.thumb[1], 700, 150, 700); c.fillText(wk.thumb[1], 60, 490); c.shadowBlur = 0;
   crest(c, 104, 620, 44); c.fillStyle = INK; c.font = `500 26px ${DISPLAY}`; spacing(c, 4); c.textBaseline = 'middle'; c.fillText('HISTORY PROS', 164, 622); spacing(c, 0);
+}
+
+/* Clickbait thumbnail: brighter scene, heavy outlined type with one yellow
+ * word, a year badge, and an arrow + ring on the scene's focal point.
+ * Every hook must still be true to the documentary (YouTube misleading-
+ * thumbnail policy). */
+const FOCUS = { shipdead: [700, 430, 150], storm: [700, 430, 150], dock: [700, 480, 150], volcano: [760, 260, 150], walls: [900, 400, 120], village: [560, 300, 110], street: [640, 470, 90], cellar: [540, 560, 140], trench: [760, 490, 120], snow: [635, 520, 110], ruins: [720, 520, 130], warship: [740, 440, 140] };
+const YELLOW = '#FFD21F';
+function arrowTo(c, x0, y0, x1, y1, under = false) {
+  const mx = (x0 + x1) / 2, my = under ? Math.max(y0, y1) + 70 : Math.min(y0, y1) - 90, a = Math.atan2(y1 - my, x1 - mx);
+  for (const [col, w] of [['#000', 30], [RED, 18]]) {
+    c.strokeStyle = col; c.lineWidth = w; c.lineCap = 'round'; c.beginPath(); c.moveTo(x0, y0); c.quadraticCurveTo(mx, my, x1 - Math.cos(a) * 30, y1 - Math.sin(a) * 30); c.stroke();
+    const hs = w * 2.4; c.fillStyle = col; c.beginPath(); c.moveTo(x1, y1); c.lineTo(x1 - Math.cos(a - .5) * hs, y1 - Math.sin(a - .5) * hs); c.lineTo(x1 - Math.cos(a + .5) * hs, y1 - Math.sin(a + .5) * hs); c.closePath(); c.fill();
+  }
+}
+function outlined(c, text, x, y, size, hi) {
+  c.font = `700 ${size}px ${DISPLAY}`; c.lineJoin = 'round'; c.textAlign = 'left'; c.textBaseline = 'alphabetic';
+  let cx = x; for (const word of text.split(' ')) {
+    const wd = c.measureText(word + ' ').width;
+    c.strokeStyle = '#000'; c.lineWidth = size * .16; c.strokeText(word, cx, y);
+    c.fillStyle = word.replace(/[.,]/g, '') === hi.replace(/[.,]/g, '') ? YELLOW : '#FFFFFF'; c.fillText(word, cx, y); cx += wd;
+  }
+}
+function thumbBait(c, wk, t = 2) {
+  resetCtx(c);
+  const tmp = document.createElement('canvas'); tmp.width = W; tmp.height = H; const tc = tmp.getContext('2d'); resetCtx(tc); scene(tc, wk.scene, t, .5);
+  c.filter = 'brightness(1.55) contrast(1.35) saturate(1.5)'; c.drawImage(tmp, 190, 0); c.filter = 'none';
+  const g = c.createLinearGradient(0, 0, 760, 0); g.addColorStop(0, 'rgba(0,0,0,.72)'); g.addColorStop(1, 'rgba(0,0,0,0)'); c.fillStyle = g; c.fillRect(0, 0, W, H);
+  const [l1, l2] = wk.cb.lines;
+  const who = wk.cast && typeof person === 'function' && CAST[wk.cast[0]];
+  if (who) { bustBait(c, wk, who, l1, l2); return; }
+  let [fx, fy, fr] = FOCUS[wk.scene] || [760, 420, 130]; fx = Math.min(W - fr - 40, fx + 190);
+  // Keep the text column clear of the ring: the text gets whatever width is left of it.
+  const room = Math.max(420, W - 2 * fr - 40 - 54 - 36);
+  const sz = Math.min(fitFont(c, l1, 700, 165, Math.min(620, room)), fitFont(c, l2, 700, 165, Math.min(620, room)));
+  c.font = `700 ${sz}px ${DISPLAY}`; const tw = Math.max(c.measureText(l1).width, c.measureText(l2).width);
+  fx = Math.min(W - fr - 40, Math.max(fx, 54 + tw + 36 + fr));
+  c.strokeStyle = '#000'; c.lineWidth = 22; c.beginPath(); c.arc(fx, fy, fr, 0, TAU); c.stroke(); c.strokeStyle = RED; c.lineWidth = 12; c.stroke();
+  c.save(); c.translate(54, 0); c.rotate(-.035);
+  outlined(c, l1, 0, 300, sz, wk.cb.hi); outlined(c, l2, 0, 300 + sz * 1.02, sz, wk.cb.hi); c.restore();
+  arrowTo(c, Math.min(560, 54 + tw * .5), 300 + sz * 1.02 + 44, fx - fr * .78, fy + fr * .5);
+  c.font = `700 40px ${DISPLAY}`; const bw = c.measureText(wk.cb.badge).width + 44; c.fillStyle = RED; rrect(c, W - bw - 36, 36, bw, 64, 8); c.fill(); c.fillStyle = '#FFF'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(wk.cb.badge, W - bw / 2 - 36, 70);
+  crest(c, W - 70, H - 70, 42);
+}
+
+/* Character bust with a drop shadow and a red glow, drawn off-canvas so the
+ * whole figure casts one clean shadow. */
+function bust(c, sp, x, y, s, glow = .55) {
+  glowAt(c, x, y + 60 * s, 330 * s, '224,70,58', glow);
+  const b = document.createElement('canvas'); b.width = W; b.height = H; const bc = b.getContext('2d'); person(bc, sp, x, y, s);
+  c.save(); c.shadowColor = 'rgba(0,0,0,.85)'; c.shadowBlur = 40; c.shadowOffsetX = -14; c.drawImage(b, 0, 0); c.restore();
+}
+
+/* Clickbait layout with a character: hook text left, the person right,
+ * arrow from the hook to their face, year badge top-left. */
+function bustBait(c, wk, who, l1, l2) {
+  const hx = 1010, hy = 318, hs = 1.55;
+  bust(c, who, hx, hy, hs);
+  const sz = Math.min(fitFont(c, l1, 700, 175, 640), fitFont(c, l2, 700, 175, 640));
+  c.font = `700 ${sz}px ${DISPLAY}`; const tw = Math.max(c.measureText(l1).width, c.measureText(l2).width);
+  const ty = 330 - (sz - 140) * .3;
+  c.save(); c.translate(54, 0); c.rotate(-.035);
+  outlined(c, l1, 0, ty, sz, wk.cb.hi); outlined(c, l2, 0, ty + sz * 1.02, sz, wk.cb.hi); c.restore();
+  // The arrow swoops under the hook and points up at the face.
+  arrowTo(c, 90 + tw * .35, ty + sz * 1.02 + 56, hx - 96 * hs, hy + 30 * hs, true);
+  c.font = `700 40px ${DISPLAY}`; const bw = c.measureText(wk.cb.badge).width + 44; c.fillStyle = RED; rrect(c, 54, 60, bw, 64, 8); c.fill();
+  c.fillStyle = '#FFF'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(wk.cb.badge, 54 + bw / 2, 94);
+  crest(c, 96, H - 70, 42);
 }
