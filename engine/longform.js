@@ -6,6 +6,8 @@
 const NS = STYLES.noir;
 const RED = '#E0463A', INK = '#F2F2F2', DIM = '#BFC5CA';
 const DISPLAY = "Oswald, 'Arial Narrow', Impact, sans-serif";
+// Scenes are designed at 1280x720; DPR scales every frame up (1.5 = 1920x1080).
+let DPR = 1;
 
 function nightSky(c, top, mid, bot) { const g = c.createLinearGradient(0, 0, 0, H); g.addColorStop(0, top); g.addColorStop(.6, mid); g.addColorStop(1, bot); c.fillStyle = g; c.fillRect(-300, -300, W + 600, H + 600); }
 function glowAt(c, x, y, r, rgb, a) { const g = c.createRadialGradient(x, y, 4, x, y, r); g.addColorStop(0, `rgba(${rgb},${a})`); g.addColorStop(1, `rgba(${rgb},0)`); c.fillStyle = g; c.fillRect(x - r, y - r, 2 * r, 2 * r); }
@@ -107,10 +109,111 @@ const LF = {
   shipdead(c, t, lp) { SCENES.ship(c, NS, lp, t, t, .72, true); },
   dock(c, t, lp) { SCENES.dock(c, NS, lp, t, t); },
   storm(c, t, lp) { SCENES.ship(c, NS, lp, t, t, .55, false); rain(c, t); },
+  bay(c, t) {
+    nightSky(c, '#0b0707', '#3a1a10', '#140a07'); glowAt(c, 1010, 330, 520, '220,90,40', .35);
+    // Vesuvius with its Plinian column spreading like an umbrella pine
+    const r = rng(31);
+    for (let i = 0; i < 70; i++) { const ph = (i / 70 + t * .012) % 1, y = 300 - ph * 330, spread = ph > .6 ? (ph - .6) * 900 : 0, x = 1010 + (r() - .5) * (40 + spread), rad = 30 + ph * 90; c.fillStyle = `rgba(${70 + 30 * (1 - ph) | 0},${62 + 20 * (1 - ph) | 0},58,${.55 * (1 - ph * .4)})`; ellipse(c, x, Math.max(-40, y), rad, rad * .7); }
+    glowAt(c, 1010, 312, 120, '255,120,60', .5);
+    c.fillStyle = '#120c0b'; c.beginPath(); c.moveTo(760, 452); c.lineTo(960, 318); c.lineTo(1060, 312); c.lineTo(1280, 452); c.fill();
+    // sea with the fire reflected
+    const sg = c.createLinearGradient(0, 452, 0, H); sg.addColorStop(0, '#2a1410'); sg.addColorStop(1, '#070506'); c.fillStyle = sg; c.fillRect(-20, 452, W + 40, 300);
+    c.strokeStyle = 'rgba(255,120,60,.25)'; c.lineWidth = 2; for (let i = 0; i < 18; i++) { const y = 462 + i * i * .9, w = 40 + i * 6, x = 1010 + Math.sin(t * 1.5 + i) * 18; c.beginPath(); c.moveTo(x - w, y); c.lineTo(x + w, y); c.stroke(); }
+    // coast and villas on the left
+    c.fillStyle = '#080506'; c.beginPath(); c.moveTo(-20, 430); c.lineTo(220, 420); c.lineTo(380, 452); c.lineTo(-20, 470); c.fill();
+    for (let i = 0; i < 5; i++) { const x = 20 + i * 62; c.fillRect(x, 392 - (i % 2) * 10, 48, 40); c.beginPath(); c.moveTo(x - 4, 392 - (i % 2) * 10); c.lineTo(x + 24, 378 - (i % 2) * 10); c.lineTo(x + 52, 392 - (i % 2) * 10); c.fill(); }
+    // Roman galleys under sail, rowing across
+    const galley = (x, y, s) => { c.save(); c.translate(x, y); c.scale(s, s); c.fillStyle = '#060405'; c.beginPath(); c.moveTo(-120, 0); c.lineTo(110, 0); c.quadraticCurveTo(140, -6, 150, -30); c.lineTo(120, -14); c.lineTo(-100, -14); c.quadraticCurveTo(-130, -20, -140, -40); c.closePath(); c.fill(); c.fillRect(-4, -110, 6, 100); c.beginPath(); c.moveTo(-50, -104); c.quadraticCurveTo(0, -80, 50, -104); c.lineTo(46, -40); c.quadraticCurveTo(0, -30, -46, -40); c.fill(); c.strokeStyle = '#060405'; c.lineWidth = 3; for (let k = 0; k < 9; k++) { const a = Math.sin(t * 3 + k * .3) * .25; c.beginPath(); c.moveTo(-90 + k * 22, -6); c.lineTo(-100 + k * 22 + Math.sin(a) * 30, 30); c.stroke(); } c.restore(); };
+    galley(((t * 14) % 1500) - 200, 560, .9); galley(((t * 9 + 700) % 1500) - 200, 505, .5);
+    drift(c, t, 180, 5, 'rgba(200,190,180,.4)', 30, 10, 2);
+  },
+  forum(c, t) {
+    nightSky(c, '#0d0908', '#3a2218', '#120b09'); glowAt(c, 640, 240, 620, '210,110,60', .3);
+    // a colonnaded street receding to a vanishing point
+    const vx = 640, vy = 330;
+    for (let i = 7; i >= 0; i--) { const k = 1 / (1 + i * .55), h = 420 * k, w = 34 * k; for (const sd of [-1, 1]) { const x = vx + sd * (60 + 520 * k); c.fillStyle = `rgb(${14 + i * 3},${10 + i * 2},${9 + i * 2})`; c.fillRect(x - w / 2, vy + 180 * k - h, w, h); c.fillRect(x - w * .8, vy + 180 * k - h - 10 * k, w * 1.6, 10 * k); } }
+    for (const sd of [-1, 1]) { c.fillStyle = '#0b0807'; c.beginPath(); c.moveTo(vx + sd * 60, vy - 70); c.lineTo(vx + sd * 640, vy - 240); c.lineTo(vx + sd * 640, vy - 200); c.lineTo(vx + sd * 60, vy - 56); c.fill(); }
+    // street with stepping stones and ash drifts
+    c.fillStyle = '#1a1411'; c.beginPath(); c.moveTo(vx - 60, vy + 20); c.lineTo(vx + 60, vy + 20); c.lineTo(W + 200, H); c.lineTo(-200, H); c.fill();
+    c.fillStyle = '#2c2520'; for (let i = 0; i < 3; i++) { const y = 470 + i * i * 30, s = .6 + i * .5; for (const dx of [-60, 0, 60]) ellipse(c, vx + dx * s, y, 22 * s, 8 * s); }
+    c.fillStyle = 'rgba(120,112,104,.35)'; c.beginPath(); c.moveTo(-200, H); c.lineTo(vx - 60, vy + 22); c.lineTo(vx - 20, vy + 24); c.lineTo(200, H); c.fill();
+    // people fleeing
+    const run = (x, y, s, ph) => { c.save(); c.translate(x, y); c.scale(s, s); c.fillStyle = '#050404'; c.beginPath(); c.arc(0, -64, 9, 0, TAU); c.fill(); c.beginPath(); c.moveTo(-8, -54); c.lineTo(10, -54); c.lineTo(8, -20); c.lineTo(-6, -20); c.fill(); c.lineWidth = 6; c.strokeStyle = '#050404'; c.lineCap = 'round'; const a = Math.sin(ph) * .6; c.beginPath(); c.moveTo(0, -22); c.lineTo(Math.sin(a) * 22, 0); c.moveTo(0, -22); c.lineTo(-Math.sin(a) * 22, 0); c.moveTo(0, -48); c.lineTo(Math.sin(-a) * 18, -30); c.moveTo(0, -48); c.lineTo(Math.sin(a) * 18 + 4, -70); c.stroke(); c.restore(); };
+    run(560 + (t * 22 % 90), 610, 1.3, t * 8); run(720 - (t * 18 % 70), 540, .8, t * 8 + 1); run(640, 470, .5, t * 8 + 2);
+    drift(c, t, 320, 8, 'rgba(170,160,150,.55)', 70, 6, 3);
+  },
+  hagia(c, t) {
+    nightSky(c, '#05060a', '#141726', '#090a10'); c.fillStyle = 'rgba(230,228,215,.85)'; c.beginPath(); c.arc(260, 150, 34, 0, TAU); c.fill(); glowAt(c, 260, 150, 180, '220,215,200', .2);
+    glowAt(c, 640, 420, 520, '220,150,80', .22);
+    const cx = 640, by = 470; c.fillStyle = '#0d0e14';
+    c.fillRect(cx - 360, by - 120, 720, 250); c.fillRect(cx - 250, by - 190, 500, 80);
+    c.beginPath(); c.arc(cx, by - 190, 180, Math.PI, 0); c.fill();
+    for (const sd of [-1, 1]) { c.beginPath(); c.arc(cx + sd * 250, by - 120, 110, Math.PI, 0); c.fill(); c.fillRect(cx + sd * 300 - 40, by - 250, 80, 140); }
+    c.fillRect(cx - 12, by - 390, 24, 26);
+    // the ring of forty windows at the base of the dome, lit from inside
+    const f = .85 + .15 * Math.sin(t * 2.2); c.fillStyle = `rgba(255,196,120,${.75 * f})`;
+    for (let i = 0; i < 20; i++) { const a = Math.PI + (i + .5) / 20 * Math.PI, x = cx + Math.cos(a) * 170, y = by - 190 + Math.sin(a) * 30; c.fillRect(x - 3, y - 12, 6, 14); }
+    for (let i = 0; i < 9; i++) c.fillRect(cx - 200 + i * 50, by - 60, 12, 30);
+    glowAt(c, cx, by - 200, 240, '255,190,110', .18 * f);
+    c.fillStyle = '#06070b'; c.fillRect(-20, by + 90, W + 40, 200); for (let x = -10; x < W + 20; x += 34) c.fillRect(x, by + 78, 20, 14);
+    drift(c, t, 40, 17, 'rgba(255,200,140,.35)', -12, 4, 2);
+  },
+  cannon(c, t) {
+    nightSky(c, '#0a0807', '#2a1611', '#0d0908'); glowAt(c, 1030, 420, 420, '210,90,40', .28);
+    // the city walls in the distance, taking hits
+    c.fillStyle = '#100c0b'; c.fillRect(800, 400, W - 780, 120); for (let x = 800; x < W; x += 30) c.fillRect(x, 390, 18, 12); for (let x = 840; x < W; x += 150) { c.fillRect(x, 350, 60, 170); for (let k = 0; k < 3; k++) c.fillRect(x + k * 22, 340, 14, 12); }
+    const cyc = (t % 4) / 4, hit = Math.max(0, 1 - Math.abs(cyc - .12) * 10);
+    for (let i = 0; i < 16; i++) { const ph = (cyc + i / 16) % 1; c.fillStyle = `rgba(90,80,72,${.4 * (1 - ph)})`; ellipse(c, 1010 + Math.sin(i * 2) * 40, 470 - ph * 200, 30 + ph * 80, 20 + ph * 50); }
+    if (hit > 0) glowAt(c, 1000, 470, 160, '255,170,90', .6 * hit);
+    // ground
+    c.fillStyle = '#0b0807'; c.beginPath(); c.moveTo(-20, 520); c.bezierCurveTo(300, 500, 700, 540, W + 20, 520); c.lineTo(W + 20, H); c.lineTo(-20, H); c.fill();
+    // the great bombard on its timber bed
+    c.save(); c.translate(360, 560); c.rotate(-.07);
+    c.fillStyle = '#1c130d'; c.fillRect(-300, 40, 520, 36); c.fillRect(-280, 76, 26, 50); c.fillRect(170, 76, 26, 50);
+    const bg = c.createLinearGradient(0, -60, 0, 60); bg.addColorStop(0, '#6a5230'); bg.addColorStop(.35, '#3a2c19'); bg.addColorStop(1, '#130d08'); c.fillStyle = bg;
+    c.beginPath(); c.moveTo(-290, -46); c.lineTo(120, -58); c.lineTo(250, -64); c.lineTo(250, 64); c.lineTo(120, 58); c.lineTo(-290, 46); c.quadraticCurveTo(-330, 0, -290, -46); c.fill();
+    c.fillStyle = 'rgba(0,0,0,.35)'; for (const x of [-200, -60, 120, 230]) c.fillRect(x, -62, 14, 124);
+    c.fillStyle = '#050302'; ellipse(c, 250, 0, 14, 56);
+    const fl = Math.max(0, 1 - cyc * 7); if (fl > 0) { glowAt(c, 300, 0, 260 * fl + 40, '255,200,120', .9 * fl); c.fillStyle = `rgba(255,230,170,${fl})`; ellipse(c, 290, 0, 60 * fl, 40 * fl); }
+    c.restore();
+    for (let i = 0; i < 24; i++) { const ph = (cyc + i / 24) % 1; c.fillStyle = `rgba(150,140,130,${.35 * (1 - ph) * (cyc < .6 ? 1 : .4)})`; ellipse(c, 620 + ph * 260 + Math.sin(i) * 30, 540 - ph * 180, 40 + ph * 100, 30 + ph * 70); }
+    drift(c, t, 60, 13, 'rgba(255,140,60,.45)', -25, 10, 2);
+  },
+  meetinghouse(c, t) {
+    c.fillStyle = '#0c0907'; c.fillRect(0, 0, W, H);
+    // plank walls and roof beams
+    c.strokeStyle = 'rgba(0,0,0,.45)'; c.lineWidth = 2; for (let x = 0; x < W; x += 46) { c.beginPath(); c.moveTo(x, 0); c.lineTo(x, 470); c.stroke(); }
+    c.fillStyle = '#070504'; for (let i = 0; i < 4; i++) c.fillRect(0, 40 + i * 70, W, 16);
+    // tall windows with cold grey light
+    for (const x of [150, 470, 790, 1110]) { const g = c.createLinearGradient(0, 110, 0, 330); g.addColorStop(0, 'rgba(170,185,200,.55)'); g.addColorStop(1, 'rgba(90,100,115,.25)'); c.fillStyle = g; c.fillRect(x - 50, 110, 100, 220); c.fillStyle = '#070504'; c.fillRect(x - 3, 110, 6, 220); c.fillRect(x - 50, 216, 100, 6); glowAt(c, x, 380, 160, '160,175,190', .12); }
+    // the magistrates' raised bench, candles lit
+    c.fillStyle = '#1a120c'; c.fillRect(360, 360, 560, 110); c.fillStyle = '#0a0705'; c.fillRect(350, 350, 580, 16);
+    const f = .8 + .2 * Math.sin(t * 7) * Math.sin(t * 2.3); for (const x of [420, 640, 860]) { c.fillStyle = '#e8dcc4'; c.fillRect(x - 4, 322, 8, 28); glowAt(c, x, 316, 90, '255,190,110', .55 * f); c.fillStyle = `rgba(255,210,140,${f})`; ellipse(c, x, 314, 4, 9); }
+    for (const x of [470, 570, 700, 800]) { c.fillStyle = '#050403'; c.beginPath(); c.arc(x, 318, 16, 0, TAU); c.fill(); c.fillRect(x - 22, 334, 44, 30); c.beginPath(); c.moveTo(x - 30, 306); c.lineTo(x + 30, 306); c.lineTo(x + 18, 298); c.lineTo(x + 14, 272); c.lineTo(x - 14, 272); c.lineTo(x - 18, 298); c.fill(); }
+    // rows of benches in perspective
+    c.fillStyle = '#140e0a'; c.fillRect(0, 470, W, 250);
+    for (let i = 0; i < 5; i++) { const y = 500 + i * i * 12 + i * 20, h = 12 + i * 5; c.fillStyle = '#060403'; c.fillRect(-20, y, 520 - i * 10, h); c.fillRect(760 + i * 10, y, 540, h); c.fillRect(-20, y - h * 2.4, 520 - i * 10, h * .7); c.fillRect(760 + i * 10, y - h * 2.4, 540, h * .7); }
+    drift(c, t, 50, 23, 'rgba(210,200,180,.25)', -6, 3, 2);
+  },
+  gallows(c, t) {
+    const g = c.createLinearGradient(0, 0, 0, H); g.addColorStop(0, '#0b0a0c'); g.addColorStop(.55, '#3a1d16'); g.addColorStop(.75, '#8a3a22'); g.addColorStop(1, '#1a0d0a'); c.fillStyle = g; c.fillRect(-300, -300, W + 600, H + 600);
+    glowAt(c, 820, 520, 400, '240,120,60', .35);
+    for (let i = 0; i < 6; i++) { c.fillStyle = `rgba(20,14,14,${.35 + i * .05})`; ellipse(c, ((i * 330 + t * 8) % 1700) - 200, 120 + i * 40, 220, 26); }
+    // the rocky ledge
+    c.fillStyle = '#060405'; c.beginPath(); c.moveTo(-20, 620); c.bezierCurveTo(200, 560, 420, 440, 640, 430); c.bezierCurveTo(860, 430, 1000, 520, W + 20, 560); c.lineTo(W + 20, H); c.lineTo(-20, H); c.fill();
+    const r = rng(8); for (let i = 0; i < 14; i++) ellipse(c, 300 + r() * 700, 470 + r() * 120, 20 + r() * 30, 8 + r() * 10);
+    // one bare tree on the hill
+    c.strokeStyle = '#050304'; c.lineCap = 'round';
+    const br = (x, y, a, l, d) => { if (d > 6) return; const sw = Math.sin(t * .8 + d) * .02, x2 = x + Math.cos(a + sw) * l, y2 = y + Math.sin(a + sw) * l; c.lineWidth = Math.max(1, 16 - d * 2.6); c.beginPath(); c.moveTo(x, y); c.lineTo(x2, y2); c.stroke(); br(x2, y2, a - .5 + d * .03, l * .74, d + 1); br(x2, y2, a + .42, l * .7, d + 1); };
+    br(640, 440, -Math.PI / 2 - .05, 110, 0);
+    // crows
+    c.fillStyle = '#050304'; for (let i = 0; i < 5; i++) { const x = ((i * 290 + t * 40) % 1500) - 100, y = 160 + Math.sin(t + i) * 30 + i * 18, w = Math.sin(t * 6 + i) * 8; c.beginPath(); c.moveTo(x - 16, y - w); c.quadraticCurveTo(x, y + 4, x + 16, y - w); c.quadraticCurveTo(x, y + 8, x - 16, y - w); c.fill(); }
+    fog(c, { fog: '160,120,110' }, t, .6);
+  },
 };
 
 function scene(c, name, t, lp = .5) { c.save(); const z = 1 + .05 * lp; c.translate(W / 2, H / 2); c.scale(z, z); c.translate(-W / 2, -H / 2); LF[name](c, t, lp); c.restore(); }
-function resetCtx(c) { c.setTransform(1, 0, 0, 1, 0, 0); c.globalAlpha = 1; c.globalCompositeOperation = 'source-over'; c.shadowBlur = 0; c.fillStyle = '#000'; c.fillRect(0, 0, W, H); }
+function resetCtx(c) { c.setTransform(DPR, 0, 0, DPR, 0, 0); c.globalAlpha = 1; c.globalCompositeOperation = 'source-over'; c.shadowBlur = 0; c.fillStyle = '#000'; c.fillRect(0, 0, W, H); }
 function crest(c, x, y, r) {
   c.save(); c.translate(x, y); c.fillStyle = '#15212D'; c.beginPath(); c.arc(0, 0, r, 0, TAU); c.fill();
   c.strokeStyle = '#C9A24A'; c.lineWidth = r * .06; c.beginPath(); c.arc(0, 0, r * .9, 0, TAU); c.stroke();
@@ -178,7 +281,7 @@ function frame(c, kind, wk, t, lp = .5, next) {
   }
   if (kind === 'end') {
     c.globalAlpha = .35; scene(c, wk.scene, t, lp); c.globalAlpha = 1; c.restore(); c.fillStyle = 'rgba(0,0,0,.55)'; c.fillRect(0, 0, W, H); finish(c, t);
-    if (next) { const tb = document.createElement('canvas'); tb.width = W; tb.height = H; (typeof thumbBait === 'function' && next.cb ? thumbBait : thumb)(tb.getContext('2d'), next, 2); c.drawImage(tb, 110, 170, 600, 338); }
+    if (next) { const tb = document.createElement('canvas'); tb.width = W * DPR; tb.height = H * DPR; (typeof thumbBait === 'function' && next.cb ? thumbBait : thumb)(tb.getContext('2d'), next, 2); c.drawImage(tb, 110, 170, 600, 338); }
     c.strokeStyle = INK; c.lineWidth = 3; c.strokeRect(110, 170, 600, 338);
     c.fillStyle = RED; c.font = `500 20px ${DISPLAY}`; spacing(c, 6); c.textAlign = 'left'; c.textBaseline = 'alphabetic'; c.fillText('NEXT WEDNESDAY', 110, 150); spacing(c, 0);
     crest(c, 930, 330, 110); c.strokeStyle = INK; c.lineWidth = 3; c.beginPath(); c.arc(930, 330, 122, 0, TAU); c.stroke();
@@ -220,8 +323,8 @@ function outlined(c, text, x, y, size, hi) {
 }
 function thumbBait(c, wk, t = 2) {
   resetCtx(c);
-  const tmp = document.createElement('canvas'); tmp.width = W; tmp.height = H; const tc = tmp.getContext('2d'); resetCtx(tc); scene(tc, wk.scene, t, .5);
-  c.filter = 'brightness(1.55) contrast(1.35) saturate(1.5)'; c.drawImage(tmp, 190, 0); c.filter = 'none';
+  const tmp = document.createElement('canvas'); tmp.width = W * DPR; tmp.height = H * DPR; const tc = tmp.getContext('2d'); resetCtx(tc); scene(tc, wk.scene, t, .5);
+  c.filter = 'brightness(1.55) contrast(1.35) saturate(1.5)'; c.drawImage(tmp, 190, 0, W, H); c.filter = 'none';
   const g = c.createLinearGradient(0, 0, 760, 0); g.addColorStop(0, 'rgba(0,0,0,.72)'); g.addColorStop(1, 'rgba(0,0,0,0)'); c.fillStyle = g; c.fillRect(0, 0, W, H);
   const [l1, l2] = wk.cb.lines;
   const who = wk.cast && typeof person === 'function' && CAST[wk.cast[0]];
@@ -244,8 +347,8 @@ function thumbBait(c, wk, t = 2) {
  * whole figure casts one clean shadow. */
 function bust(c, sp, x, y, s, glow = .55) {
   glowAt(c, x, y + 60 * s, 330 * s, '224,70,58', glow);
-  const b = document.createElement('canvas'); b.width = W; b.height = H; const bc = b.getContext('2d'); person(bc, sp, x, y, s);
-  c.save(); c.shadowColor = 'rgba(0,0,0,.85)'; c.shadowBlur = 40; c.shadowOffsetX = -14; c.drawImage(b, 0, 0); c.restore();
+  const b = document.createElement('canvas'); b.width = W * DPR; b.height = H * DPR; const bc = b.getContext('2d'); bc.setTransform(DPR, 0, 0, DPR, 0, 0); person(bc, sp, x, y, s);
+  c.save(); c.shadowColor = 'rgba(0,0,0,.85)'; c.shadowBlur = 40; c.shadowOffsetX = -14; c.drawImage(b, 0, 0, W, H); c.restore();
 }
 
 /* Clickbait layout with a character: hook text left, the person right,

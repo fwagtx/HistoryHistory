@@ -59,7 +59,12 @@ def render(timings, narration, voice, style, out, fps=30, meta=None):
         # Per-short title, fact chips, scene order and cards for the engine.
         data["meta"] = meta
     duration = data[voice]["duration"]
-    html = ENGINE.read_text().replace("__SDATA__", json.dumps(data)).replace("<body>", font_css() + "<body>", 1)
+    # The long-form scene library and the character engine load inside the
+    # main script, after the shared styles they build on.
+    extras = "\n".join((ROOT / "engine" / f).read_text() for f in ("longform.js", "people.js"))
+    html = (ENGINE.read_text().replace("__SDATA__", json.dumps(data))
+            .replace("/* ---------- vertical engine ---------- */", extras + "\n/* ---------- vertical engine ---------- */", 1)
+            .replace("<body>", font_css() + "<body>", 1))
     page_path = Path(out).with_suffix(".engine.html")
     page_path.write_text(html)
 

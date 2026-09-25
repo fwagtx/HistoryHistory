@@ -1,0 +1,103 @@
+{
+ "id": "w4-s20",
+ "date": "2026-10-25",
+ "slot": "12:00",
+ "title": "Which Salem?",
+ "sentences": [
+  "The Salem witch trials didn’t start in the town most people picture.",
+  "In 1692, there were two Salems.",
+  "Salem Town was the busy port that is Salem today.",
+  "Salem Village was a farming community to the north.",
+  "The first fits and accusations came from the village.",
+  "In 1752, Salem Village was renamed Danvers.",
+  "The trials themselves were held in Salem Town.",
+  "Follow for more from Salem."
+ ],
+ "meta": {
+  "title": "Which Salem?",
+  "shots": [
+   {
+    "s": "lf",
+    "scene": "village",
+    "cx0": 300,
+    "cx1": 800
+   },
+   {
+    "s": "text",
+    "label": "1692",
+    "big": "TWO|SALEMS",
+    "sub": "Salem Town and Salem Village"
+   },
+   {
+    "s": "lf",
+    "scene": "meetinghouse",
+    "cx0": 900,
+    "cx1": 500
+   },
+   {
+    "s": "lf",
+    "scene": "village",
+    "cx0": 1000,
+    "cx1": 600
+   },
+   {
+    "s": "person",
+    "who": "puritanM",
+    "bg": "village",
+    "expr": "fear"
+   },
+   "stat",
+   {
+    "s": "lf",
+    "scene": "meetinghouse",
+    "cx0": 200,
+    "cx1": 700
+   },
+   "end"
+  ],
+  "chips": [
+   "WHICH SALEM?",
+   null,
+   "SALEM TOWN",
+   "SALEM VILLAGE",
+   "WHERE IT BEGAN",
+   null,
+   "THE COURT",
+   null
+  ],
+  "stat": {
+   "label": "SALEM VILLAGE TODAY",
+   "big": "DANVERS",
+   "unit": "since 1752",
+   "sub": "Not the Salem most people picture",
+   "filled": 0
+  },
+  "end": {
+   "pill": "WATCH NOW",
+   "line1": "Full documentary",
+   "line2": "on our channel",
+   "sub": "Follow for 3 stories a day"
+  },
+  "keys": [
+   "village",
+   "town",
+   "danvers",
+   "salem"
+  ]
+ },
+ "caption": "The Salem witch trials didn't start in the Salem most people picture.\n\nFull documentary on our YouTube channel. Follow for 3 stories a day.\n#history #salemwitchtrials #salem #historytok #1692",
+ "youtube_title": "Which Salem? | The Salem Witch Trials #shorts",
+ "tags": [
+  "salem witch trials",
+  "history",
+  "1692",
+  "colonial america",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.atlasobscura.com/articles/salem-witch-trials-happened-in-danvers-ma-massachusetts-john-proctor",
+  "https://salemwitchmuseum.com/locations/welcome-to-danvers/",
+  "https://historyofmassachusetts.org/salem-village/",
+  "https://en.wikipedia.org/wiki/Danvers,_Massachusetts"
+ ]
+}

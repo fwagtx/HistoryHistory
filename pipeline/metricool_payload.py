@@ -7,7 +7,9 @@ brand from config/brand.json and switches on each platform's AI label.
 """
 import json
 import sys
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 BRAND = json.loads((ROOT / "config" / "brand.json").read_text())
@@ -31,7 +33,9 @@ def payload(short_path, sha):
         "youtubeData": {"title": s["youtube_title"], "type": "short", "privacy": "public", "tags": s["tags"],
                         "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": True},
     }
-    return {"blogId": BRAND["metricool_brand_id"], "date": f"{when}-05:00", "info": info}
+    # Offset from the brand timezone, so daylight saving (ends Nov 1) is handled.
+    offset = datetime.fromisoformat(when).replace(tzinfo=ZoneInfo(BRAND["timezone"])).strftime("%z")
+    return {"blogId": BRAND["metricool_brand_id"], "date": f"{when}{offset[:3]}:{offset[3:]}", "info": info}
 
 
 if __name__ == "__main__":

@@ -21,7 +21,7 @@ function rim(c, pathFn, w = 7) { c.save(); pathFn(); c.clip(); c.beginPath(); c.
 
 function bodyPath(c, sp, keep) {
   const wide = sp.outfit === 'armor' || sp.outfit === 'uniform' ? 1.08 : sp.sex === 'f' ? .9 : 1;
-  if (!keep) c.beginPath(); c.moveTo(-230 * wide, 420); c.bezierCurveTo(-225 * wide, 230, -170 * wide, 150, -60, 118); c.lineTo(60, 118); c.bezierCurveTo(170 * wide, 150, 225 * wide, 230, 230 * wide, 420); c.closePath();
+  if (!keep) c.beginPath(); c.moveTo(-232 * wide, 640); c.lineTo(-230 * wide, 420); c.bezierCurveTo(-225 * wide, 230, -170 * wide, 150, -60, 118); c.lineTo(60, 118); c.bezierCurveTo(170 * wide, 150, 225 * wide, 230, 230 * wide, 420); c.lineTo(232 * wide, 640); c.closePath();
 }
 function drawBody(c, sp) {
   const col = sp.color || '#2B2F36';
@@ -128,6 +128,12 @@ function drawHat(c, sp) {
   if (h === 'custodian') { fill('#141A2A', () => { c.moveTo(-66, -50); c.bezierCurveTo(-74, -200, 74, -200, 66, -50); c.closePath(); }); c.fillStyle = '#C9C3B0'; c.beginPath(); c.arc(0, -100, 14, 0, TAU); c.fill(); c.fillStyle = '#141A2A'; c.beginPath(); c.arc(0, -178, 12, 0, TAU); c.fill(); }
   if (h === 'crown') { fill('#C9A24A', () => { c.moveTo(-62, -54); c.lineTo(-58, -118); c.quadraticCurveTo(0, -138, 58, -118); c.lineTo(62, -54); c.quadraticCurveTo(0, -66, -62, -54); }); for (let i = -2; i <= 2; i++) { c.fillStyle = i % 2 ? '#8E2A1F' : '#2F5D6E'; c.beginPath(); c.arc(i * 22, -88, 7, 0, TAU); c.fill(); } for (const s of [-1, 1]) { c.strokeStyle = '#C9A24A'; c.lineWidth = 3; c.beginPath(); c.moveTo(s * 60, -56); c.lineTo(s * 64, 10); c.stroke(); for (let k = 0; k < 4; k++) { c.fillStyle = '#EDEAE2'; c.beginPath(); c.arc(s * (61 + k), -40 + k * 16, 4, 0, TAU); c.fill(); } } }
   if (h === 'turban') { fill('#EAE4D6', () => { c.moveTo(-96, -40); c.bezierCurveTo(-110, -150, 110, -150, 96, -40); c.quadraticCurveTo(0, -60, -96, -40); }); c.strokeStyle = '#B8B0A0'; c.lineWidth = 3; for (let i = 0; i < 4; i++) { c.beginPath(); c.moveTo(-90, -60 - i * 16); c.quadraticCurveTo(0, -80 - i * 22, 90, -60 - i * 16); c.stroke(); } fill('#8E2A1F', () => { c.ellipse(0, -140, 30, 18, 0, 0, TAU); }, 4); }
+  if (h === 'tiara') {
+    const shape = () => { c.moveTo(-50, -62); c.bezierCurveTo(-58, -150, -30, -206, 0, -210); c.bezierCurveTo(30, -206, 58, -150, 50, -62); c.closePath(); };
+    fill('#EEE8D8', shape); c.save(); c.beginPath(); shape(); c.clip(); c.fillStyle = '#C9A24A'; for (const y of [-84, -128, -170]) c.fillRect(-70, y - 8, 140, 14); c.fillStyle = '#9B2F2A'; for (const y of [-84, -128]) for (const x of [-30, 0, 30]) { c.beginPath(); c.arc(x, y - 1, 4, 0, TAU); c.fill(); } c.restore();
+    c.beginPath(); shape(); inkStroke(c, 5); fill('#C9A24A', () => c.arc(0, -216, 9, 0, TAU), 3.5);
+  }
+  if (h === 'cap') { fill(sp.hatColor || '#5A1E22', () => { c.moveTo(-66, -48); c.bezierCurveTo(-72, -128, 72, -128, 66, -48); c.quadraticCurveTo(0, -62, -66, -48); c.closePath(); }); }
   if (h === 'hood') { fill(sp.color || '#4A3A2C', () => { c.moveTo(-90, 30); c.bezierCurveTo(-110, -150, 110, -150, 90, 30); c.bezierCurveTo(70, -40, 50, -76, 0, -80); c.bezierCurveTo(-50, -76, -70, -40, -90, 30); c.closePath(); }); }
   if (h === 'coif') { fill('#F1EEE6', () => { c.moveTo(-84, 30); c.bezierCurveTo(-96, -120, 96, -120, 84, 30); c.bezierCurveTo(72, -30, 54, -70, 0, -76); c.bezierCurveTo(-54, -70, -72, -30, -84, 30); c.closePath(); }, 4); }
   if (h === 'bonnet') { fill('#7A6A50', () => { c.moveTo(-96, 20); c.bezierCurveTo(-120, -150, 120, -150, 96, 20); c.bezierCurveTo(80, -40, 60, -78, 0, -82); c.bezierCurveTo(-60, -78, -80, -40, -96, 20); c.closePath(); }); }
@@ -169,5 +175,11 @@ const CAST = {
   sailor1941: { name: 'A U.S. Navy sailor', role: 'Pearl Harbor, 1941', skin: 'fair', age: 'young', expr: 'shock', hair: 'short', hairColor: '#3A2A1E', hat: 'sailor', outfit: 'sailor', color: '#1C2E48', look: .6 },
   tommy1914: { name: 'A British soldier', role: 'Flanders, Christmas 1914', skin: 'fair', age: 'young', expr: 'neutral', hair: 'short', hairColor: '#5A3A22', moustache: 'thin', hat: 'peaked', outfit: 'uniform', color: '#6B6446' },
   german1914: { name: 'A German soldier', role: 'Flanders, Christmas 1914', skin: 'fair', age: 'young', expr: 'neutral', hair: 'short', hairColor: '#8A6A3A', moustache: 'curled', hat: 'pickelhaube', outfit: 'uniform', color: '#6E6E5E' },
+  physician: { name: 'A medieval physician', role: 'Europe, 1348', skin: 'fair', age: 'old', expr: 'grim', hair: 'short', hairColor: '#7A726A', beard: 'full', hat: 'cap', hatColor: '#5A1E22', outfit: 'robe', color: '#6A2A26' },
+  peasantW: { name: 'A peasant woman', role: 'Europe, 1348', skin: 'fair', age: 'adult', sex: 'f', expr: 'sad', hair: 'none', hat: 'coif', outfit: 'dress', color: '#5A4A36', look: -.3 },
+  peasant: { name: 'A peasant farmer', role: 'England, 1351', skin: 'fair', age: 'adult', expr: 'grim', hair: 'short', hairColor: '#4A3222', beard: 'stubble', hat: 'hood', outfit: 'tunic', color: '#6A5A3A' },
+  friar: { name: 'A friar', role: 'Europe, 1349', skin: 'fair', age: 'adult', expr: 'grim', hair: 'bald', hairColor: '#5A3A22', beard: 'none', hat: 'hood', outfit: 'robe', color: '#3F332A' },
+  clement: { name: 'Pope Clement VI', role: 'Avignon, 1348', skin: 'fair', age: 'old', expr: 'neutral', hair: 'none', hat: 'tiara', outfit: 'robe', color: '#E6DFCC', collar: 'none', look: .3 },
+  boccaccio: { name: 'Giovanni Boccaccio', role: 'Florence, 1348', skin: 'fair', age: 'adult', expr: 'grim', hair: 'short', hairColor: '#3A2A1E', hat: 'cap', hatColor: '#8A2A24', outfit: 'robe', color: '#7A2420' },
   puritanM: { name: 'A Puritan official', role: 'England, 1647', skin: 'fair', age: 'adult', expr: 'grim', hair: 'long', hairColor: '#2A1E16', hat: 'capotain', outfit: 'coat', color: '#1D1D22', collar: 'band' },
 };

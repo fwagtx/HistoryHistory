@@ -403,6 +403,17 @@ function micro(c,st,t,cx=W/2,cy=H/2,R=300,annot=true){
   c.font=`400 19px ${st.P.map.font}`;c.globalAlpha=.8;c.fillText('The bacterium behind the plague.',lx,cy-18);c.fillText('Magnified about 1,000×.',lx,cy+10);c.globalAlpha=1;
 }
 let camInfo={lat:45,z:1};
+/* Labelled place pins that pop in one after another; sizes stay constant on screen at any zoom. */
+/* Labelled place pins that pop in one after another. Sizes stay constant on screen at any zoom,
+ * and a label that would overlap an earlier one moves down a line. Add 'l' as a 4th item to label on the left. */
+function drawPins(c,pins,z,t=1){const boxes=[],lh=19/z;c.font=`600 ${15/z}px Archivo, Arial, sans-serif`;
+  pins.forEach(([name,lo,la,side],i)=>{const a=clamp((t-.25-i*.3)/.35);const[x,y]=proj(lo,la),r=5/z,txt=name.toUpperCase(),w=c.measureText(txt).width,left=side==='l';
+    let lx=left?x-r*2-w:x+r*2,ly=y;for(let k=0;k<6&&boxes.some(b=>lx<b[0]+b[2]&&lx+w>b[0]&&Math.abs(ly-b[1])<lh);k++)ly+=lh;boxes.push([lx,ly,w]);
+    if(a<=0)return;c.globalAlpha=a;
+    const g=c.createRadialGradient(x,y,0,x,y,r*5);g.addColorStop(0,'rgba(224,70,58,.55)');g.addColorStop(1,'rgba(224,70,58,0)');c.fillStyle=g;c.fillRect(x-r*5,y-r*5,r*10,r*10);
+    c.fillStyle='#E0463A';c.beginPath();c.arc(x,y,r*(1+.3*(1-a)),0,TAU);c.fill();c.strokeStyle='#F2F2F2';c.lineWidth=1.6/z;c.stroke();
+    if(ly!==y){c.strokeStyle='rgba(242,242,242,.6)';c.lineWidth=1/z;c.beginPath();c.moveTo(x,y);c.lineTo(left?lx+w:lx,ly);c.stroke();}
+    c.textAlign='left';c.textBaseline='middle';c.lineWidth=4/z;c.strokeStyle='rgba(0,0,0,.85)';c.lineJoin='round';c.strokeText(txt,lx,ly);c.fillStyle='#F2F2F2';c.fillText(txt,lx,ly);c.globalAlpha=1;});}
 function drawMap(c,st,date,o={}){
   const M=st.P.map,z=o.z||1;
   c.fillStyle=M.sea;c.fillRect(-2000,-2000,6000,6000);
@@ -421,7 +432,7 @@ function drawMap(c,st,date,o={}){
     c.stroke();c.setLineDash([]);
     if(o.route<1){c.fillStyle=M.route;c.save();c.translate(...head);c.scale(1/z,1/z);c.beginPath();c.moveTo(-9,0);c.lineTo(9,0);c.lineTo(5,6);c.lineTo(-5,6);c.fill();c.fillRect(-1,-14,2,14);c.beginPath();c.moveTo(1,-14);c.lineTo(9,-4);c.lineTo(1,-4);c.fill();c.restore();}}
   c.textBaseline='middle';
-  for(const[name,lo,la,d,major] of CITIES){const[x,y]=proj(lo,la),hit=date>=d;
+  if(!o.pins)for(const[name,lo,la,d,major] of CITIES){const[x,y]=proj(lo,la),hit=date>=d;
     if(!major&&!hit)continue;
     c.fillStyle=hit?`rgb(${M.spread})`:M.label;c.beginPath();c.arc(x,y,(hit?4.2:3.2)/z,0,TAU);c.fill();
     if(hit&&date-d<.3){c.strokeStyle=`rgba(${M.spread},${1-(date-d)/.3})`;c.lineWidth=2/z;c.beginPath();c.arc(x,y,(6+(date-d)*80)/z,0,TAU);c.stroke();}
@@ -629,7 +640,7 @@ const land=document.createElement('canvas');land.width=W*S;land.height=H*S;const
 const SCN={arrive:SCENES.arrive,dock:SCENES.dock,ship:(c,st,lp,ls,t)=>SCENES.ship(c,st,lp,ls,t,.45,false),dead:(c,st,lp,ls,t)=>SCENES.ship(c,st,lp,ls,t,.72,true)};
 function landScene(st,name,lp,ls,t){lctx.setTransform(S,0,0,S,0,0);lctx.globalAlpha=1;lctx.shadowBlur=0;lctx.fillStyle='#000';lctx.fillRect(0,0,W,H);lctx.save();SCN[name](lctx,st,lp,ls,t);lctx.restore();}
 function crop(c,cx,zoom,x,y,w,h,cy=H/2){let ch=H/zoom,cw=ch*w/h;if(cw>W){cw=W;ch=cw*h/w;}c.drawImage(land,clamp(cx-cw/2,0,W-cw)*S,clamp(cy-ch/2,0,H-ch)*S,cw*S,ch*S,x,y,w,h);}
-function mapAt(c,st,lon,lat,z,date,o,x,y,w,h){c.save();c.beginPath();c.rect(x,y,w,h);c.clip();const[px,py]=proj(lon,lat);c.translate(x+w/2,y+h/2);c.scale(z,z);c.translate(-px,-py);drawMap(c,st,date,{...o,z});c.restore();}
+function mapAt(c,st,lon,lat,z,date,o,x,y,w,h){c.save();c.beginPath();c.rect(x,y,w,h);c.clip();const[px,py]=proj(lon,lat);c.translate(x+w/2,y+h/2);c.scale(z,z);c.translate(-px,-py);drawMap(c,st,date,{...o,z});if(o.pins)drawPins(c,o.pins,z,o.pinT??1);c.restore();}
 const STB=()=>SDATA[voice].timings, SDUR=()=>SDATA[voice].duration;
 function vBounds(k){const T=STB();const s=[0,...T.slice(1).map(x=>x[0]-.2)];return[s[k],k+1<s.length?s[k+1]:SDUR()];}
 function vShotAt(t){const T=STB();let k=0;for(let i=1;i<T.length;i++)if(t>=T[i][0]-.2)k=i;return k;}
@@ -659,10 +670,18 @@ const SCENELIB={
  micro:(c,st,lp,ls,t)=>{micro(c,st,t,VW/2,VH/2-20,205+lp*25,false);},
  messina:(c,st,lp,ls,t)=>{const e=ease(lp);mapAt(c,st,lerp(22,15.5,e),lerp(44,38.3,e),lerp(.95,3.3,e),1347.78,{pulse:true,pulseT:ls,route:clamp(.35+lp*1.2)},0,0,VW,VH);},
  spread:(c,st,lp,ls,t,o)=>{mapAt(c,st,17,47,1.02,lerp(o.from??1347.8,o.to??1353.3,ease(clamp(lp*1.1))),{},0,0,VW,VH);},
- map:(c,st,lp,ls,t,o)=>{const e=ease(lp);mapAt(c,st,o.lon??17,o.lat??47,lerp(o.z0??1,o.z1??1.4,e),o.date??1349,{allLabels:(o.z1??1.4)>2},0,0,VW,VH);},
+ map:(c,st,lp,ls,t,o)=>{const e=ease(lp);mapAt(c,st,o.lon??17,o.lat??47,lerp(o.z0??1,o.z1??1.4,e),o.date??1349,{allLabels:!o.pins&&(o.z1??1.4)>2,pins:o.pins,pinT:ls},0,0,VW,VH);},
  stat:(c,st,lp,ls,t)=>statCard(c,st,lp,ls,t),
  end:(c,st,lp,ls,t)=>endCard(c,st,lp,ls,t),
- text:(c,st,lp,ls,t,o)=>textCard(c,st,lp,ls,t,o)};
+ text:(c,st,lp,ls,t,o)=>textCard(c,st,lp,ls,t,o),
+ /* Any long-form scene (volcano, walls, village...), panned across in portrait. */
+ lf:(c,st,lp,ls,t,o)=>{lfScene(o.scene,lp,t);crop(c,lerp(o.cx0??480,o.cx1??800,ease(lp)),o.zoom??1,0,0,VW,VH,o.cy??H/2);},
+ /* An illustrated character over a dimmed scene, slowly pushing in. */
+ person:(c,st,lp,ls,t,o)=>{const bg=o.bg||'dock';if(SCN[bg])landScene(st,bg,lp,ls,t);else lfScene(bg,lp,t);crop(c,o.cx??640,1,0,0,VW,VH);
+  c.fillStyle='rgba(0,0,0,.5)';c.fillRect(0,0,VW,VH);const g=c.createRadialGradient(VW/2,470,20,VW/2,470,340);g.addColorStop(0,'rgba(224,70,58,.42)');g.addColorStop(1,'rgba(224,70,58,0)');c.fillStyle=g;c.fillRect(0,0,VW,VH);
+  const sp=Object.assign({},CAST[o.who],o.expr?{expr:o.expr}:{}),z=1.1+.07*ease(lp),tall={tiara:70,tophat:50,capotain:50,pickelhaube:45,crown:25,turban:20}[sp.hat]||0,y=440+tall-8*ease(lp)+Math.sin(t*1.3)*2;
+  c.save();c.shadowColor='rgba(0,0,0,.85)';c.shadowBlur=30;person(c,sp,VW/2,y,z);c.restore();}};
+function lfScene(name,lp,t){lctx.setTransform(S,0,0,S,0,0);lctx.globalAlpha=1;lctx.shadowBlur=0;lctx.fillStyle='#000';lctx.fillRect(0,0,W,H);scene(lctx,name,t,lp);}
 const SHOTSPEC=(META.shots||['dead','messina','ship','dock','micro','spread','stat','end']).map(x=>typeof x==='string'?{s:x}:x);
 const CARDS=new Set(['stat','end','text']);
 const VSHOTS=SHOTSPEC.map(o=>(c,st,lp,ls,t)=>SCENELIB[o.s](c,st,lp,ls,t,o));

@@ -63,22 +63,32 @@ def load_voice(kokoro, voice):
     return voice
 
 
-def narrate(sentences, voice, mode, out_dir):
+def load(voice):
     from kokoro_onnx import Kokoro
 
     ensure_models()
     kokoro = Kokoro(str(MODELS / "kokoro-v1.0.onnx"), str(MODELS / "voices-v1.0.bin"))
-    pace = PACING[mode]
     lang = "en-gb" if voice.startswith("b") or voice == "mix_scholar" else "en-us"
-    style = load_voice(kokoro, voice)
+    return kokoro, load_voice(kokoro, voice), lang
 
+
+def synth(engine, items, mode):
+    """Speak each item in turn. A string is narrated; a number is held as that many
+    seconds of silence (title and chapter cards). Returns audio and [start, end] per item."""
+    kokoro, style, lang = engine
+    pace = PACING[mode]
     parts = [np.zeros(int(pace["lead"] * SR), np.float32)]
     t = pace["lead"]
     timings = []
-    for sentence in sentences:
-        dramatic = len(sentence.split()) <= 9
+    for item in items:
+        if not isinstance(item, str):
+            timings.append([round(t, 3), round(t + item, 3)])
+            parts.append(np.zeros(int(item * SR), np.float32))
+            t += item
+            continue
+        dramatic = len(item.split()) <= 9
         speed = pace["speed"] * (0.97 if dramatic else 1)
-        audio, _ = kokoro.create(sentence, voice=style, speed=speed, lang=lang)
+        audio, _ = kokoro.create(item, voice=style, speed=speed, lang=lang)
         voiced = np.where(np.abs(audio) > 0.01)[0]
         audio = audio[max(0, voiced[0] - 400): voiced[-1] + 800]
         dur = len(audio) / SR
@@ -87,8 +97,11 @@ def narrate(sentences, voice, mode, out_dir):
         t += dur + gap
         parts += [audio.astype(np.float32), np.zeros(int(gap * SR), np.float32)]
     parts.append(np.zeros(int(1.5 * SR), np.float32))
-    raw = np.concatenate(parts)
+    return np.concatenate(parts), timings
 
+
+def master(raw, out_dir):
+    """Write the raw take and the mastered 48 kHz narration."""
     out_dir.mkdir(parents=True, exist_ok=True)
     raw_path = out_dir / "narration_raw.wav"
     sf.write(raw_path, raw, SR)
@@ -99,6 +112,12 @@ def narrate(sentences, voice, mode, out_dir):
          "-filter_complex", MASTER_FILTER, "-ac", "1", str(mastered)],
         check=True,
     )
+    return mastered
+
+
+def narrate(sentences, voice, mode, out_dir):
+    raw, timings = synth(load(voice), sentences, mode)
+    mastered = master(raw, out_dir)
     timing_data = {"sentences": sentences, voice: {"duration": round(len(raw) / SR, 3), "timings": timings}}
     (out_dir / "timings.json").write_text(json.dumps(timing_data, indent=1))
     return mastered, timing_data

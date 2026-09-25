@@ -145,6 +145,17 @@ function micro(c,st,t,cx=W/2,cy=H/2,R=300,annot=true){
   c.font=`400 19px ${st.P.map.font}`;c.globalAlpha=.8;c.fillText('The bacterium behind the plague.',lx,cy-18);c.fillText('Magnified about 1,000×.',lx,cy+10);c.globalAlpha=1;
 }
 let camInfo={lat:45,z:1};
+/* Labelled place pins that pop in one after another; sizes stay constant on screen at any zoom. */
+/* Labelled place pins that pop in one after another. Sizes stay constant on screen at any zoom,
+ * and a label that would overlap an earlier one moves down a line. Add 'l' as a 4th item to label on the left. */
+function drawPins(c,pins,z,t=1){const boxes=[],lh=19/z;c.font=`600 ${15/z}px Archivo, Arial, sans-serif`;
+  pins.forEach(([name,lo,la,side],i)=>{const a=clamp((t-.25-i*.3)/.35);const[x,y]=proj(lo,la),r=5/z,txt=name.toUpperCase(),w=c.measureText(txt).width,left=side==='l';
+    let lx=left?x-r*2-w:x+r*2,ly=y;for(let k=0;k<6&&boxes.some(b=>lx<b[0]+b[2]&&lx+w>b[0]&&Math.abs(ly-b[1])<lh);k++)ly+=lh;boxes.push([lx,ly,w]);
+    if(a<=0)return;c.globalAlpha=a;
+    const g=c.createRadialGradient(x,y,0,x,y,r*5);g.addColorStop(0,'rgba(224,70,58,.55)');g.addColorStop(1,'rgba(224,70,58,0)');c.fillStyle=g;c.fillRect(x-r*5,y-r*5,r*10,r*10);
+    c.fillStyle='#E0463A';c.beginPath();c.arc(x,y,r*(1+.3*(1-a)),0,TAU);c.fill();c.strokeStyle='#F2F2F2';c.lineWidth=1.6/z;c.stroke();
+    if(ly!==y){c.strokeStyle='rgba(242,242,242,.6)';c.lineWidth=1/z;c.beginPath();c.moveTo(x,y);c.lineTo(left?lx+w:lx,ly);c.stroke();}
+    c.textAlign='left';c.textBaseline='middle';c.lineWidth=4/z;c.strokeStyle='rgba(0,0,0,.85)';c.lineJoin='round';c.strokeText(txt,lx,ly);c.fillStyle='#F2F2F2';c.fillText(txt,lx,ly);c.globalAlpha=1;});}
 function drawMap(c,st,date,o={}){
   const M=st.P.map,z=o.z||1;
   c.fillStyle=M.sea;c.fillRect(-2000,-2000,6000,6000);
@@ -163,7 +174,7 @@ function drawMap(c,st,date,o={}){
     c.stroke();c.setLineDash([]);
     if(o.route<1){c.fillStyle=M.route;c.save();c.translate(...head);c.scale(1/z,1/z);c.beginPath();c.moveTo(-9,0);c.lineTo(9,0);c.lineTo(5,6);c.lineTo(-5,6);c.fill();c.fillRect(-1,-14,2,14);c.beginPath();c.moveTo(1,-14);c.lineTo(9,-4);c.lineTo(1,-4);c.fill();c.restore();}}
   c.textBaseline='middle';
-  for(const[name,lo,la,d,major] of CITIES){const[x,y]=proj(lo,la),hit=date>=d;
+  if(!o.pins)for(const[name,lo,la,d,major] of CITIES){const[x,y]=proj(lo,la),hit=date>=d;
     if(!major&&!hit)continue;
     c.fillStyle=hit?`rgb(${M.spread})`:M.label;c.beginPath();c.arc(x,y,(hit?4.2:3.2)/z,0,TAU);c.fill();
     if(hit&&date-d<.3){c.strokeStyle=`rgba(${M.spread},${1-(date-d)/.3})`;c.lineWidth=2/z;c.beginPath();c.arc(x,y,(6+(date-d)*80)/z,0,TAU);c.stroke();}
