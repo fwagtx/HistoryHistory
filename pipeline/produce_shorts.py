@@ -37,8 +37,10 @@ def produce(short_path, week, force=False):
     # Social-ready encode: small enough to host, sharp enough for 1080x1920 feeds.
     subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-loglevel", "error", "-y", "-i", str(raw),
                     "-c:v", "libx264", "-crf", "22", "-preset", "slow", "-maxrate", "6M", "-bufsize", "12M",
-                    "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(final)],
+                    "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(work / "final.mp4")],
                    check=True)
+    # Move into media/ only when complete, so a half-written file is never committed.
+    (work / "final.mp4").replace(final)
     return f"{sid}: {final.stat().st_size / 1e6:.1f} MB"
 
 
