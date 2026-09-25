@@ -1,0 +1,781 @@
+<!doctype html><html><head><meta charset="utf-8"></head><body>
+<title>HistoryHistory Social Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;800;900&family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600;700&family=Lora:ital,wght@1,400;1,500&family=Oswald:wght@500;700&display=swap">
+<style>
+:root{
+  --ground:#ECEEEA; --surface:#F7F8F5; --ink:#1A1E1C; --muted:#56605B; --rule:#D0D5CF;
+  --accent:#2F5D6E; --accent-ink:#FFFFFF; --accent-soft:#DCE7EA; --bezel:#0D0F0E; --warn:#C2410C;
+  --ui:"Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --display:"EB Garamond", Garamond, Georgia, serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){color-scheme:dark;--ground:#101413;--surface:#181D1C;--ink:#E4E8E4;--muted:#98A29D;--rule:#2A3230;--accent:#86B7C7;--accent-ink:#0D1A1F;--accent-soft:#1D2D33;--bezel:#000;--warn:#FB923C}
+}
+:root[data-theme="dark"]{color-scheme:dark;--ground:#101413;--surface:#181D1C;--ink:#E4E8E4;--muted:#98A29D;--rule:#2A3230;--accent:#86B7C7;--accent-ink:#0D1A1F;--accent-soft:#1D2D33;--bezel:#000;--warn:#FB923C}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font:15px/1.55 var(--ui);padding-inline:clamp(16px,4vw,48px);padding-block:32px 56px}
+.wrap{max-width:1240px;margin:0 auto;display:grid;gap:40px}
+.top{display:grid;gap:8px;max-width:780px}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+h1{font:500 clamp(40px,6vw,64px)/1 var(--display);margin:0;letter-spacing:-.01em;text-wrap:balance}
+h1 em{font-style:italic;color:var(--accent)}
+.lede{margin:0;color:var(--muted);font-size:16px;max-width:66ch}
+h2{font:500 30px/1.1 var(--display);margin:0;text-wrap:balance}
+.sec{display:grid;gap:18px}
+.sec-head{display:grid;gap:6px;max-width:760px}
+.sec-head p{margin:0;color:var(--muted)}
+.kicker{font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px;padding:14px 18px;border:1px solid var(--rule);border-radius:12px;background:var(--surface);position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+.cl{font:500 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:8px}
+.grp{display:inline-flex;align-items:center;flex-wrap:wrap;gap:6px}
+.chipbtn{border:1px solid var(--rule);background:var(--ground);color:var(--ink);border-radius:999px;padding:6px 12px;font:500 13px var(--ui);cursor:pointer}
+.chipbtn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+select{font:500 13px var(--ui);color:var(--ink);background:var(--ground);border:1px solid var(--rule);border-radius:8px;padding:7px 10px}
+.pbtn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:999px;background:var(--accent);color:var(--accent-ink);font:600 14px var(--ui);padding:9px 16px;cursor:pointer}
+.pbtn svg{width:14px;height:14px}
+.gbtn{border:1px solid var(--rule);background:var(--ground);color:var(--ink);border-radius:999px;padding:8px 14px;font:600 13px var(--ui);cursor:pointer}
+.time{font:500 13px var(--mono);font-variant-numeric:tabular-nums;color:var(--muted)}
+.check{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;cursor:pointer}
+.check input{accent-color:var(--accent);width:16px;height:16px}
+button:focus-visible,select:focus-visible,.check input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* phones */
+.phones{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+@media (max-width:980px){.phones{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.phones{grid-template-columns:minmax(0,1fr)}}
+.pcol{display:grid;gap:14px;align-content:start;justify-items:center}
+.plabel{justify-self:stretch;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.plabel b{font-weight:600;font-size:16px}
+.plabel span{font:500 11px var(--mono);letter-spacing:.06em;color:var(--muted)}
+.phone{width:100%;max-width:330px;border-radius:40px;padding:10px;background:var(--bezel);box-shadow:0 30px 60px -30px rgba(0,0,0,.55),inset 0 0 0 1px rgba(255,255,255,.06)}
+.scr{position:relative;border-radius:31px;overflow:hidden;aspect-ratio:9/16;container-type:inline-size;background:#000}
+.scr canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.ui{position:absolute;inset:0;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.55);pointer-events:none;font-family:var(--ui)}
+.ui svg{display:block;fill:#fff}
+.u-top{position:absolute;top:5%;left:0;right:0;display:flex;justify-content:center;gap:5cqw;font-size:4.3cqw;font-weight:600}
+.u-top .dim{opacity:.65}
+.u-top .on{border-bottom:.6cqw solid #fff;padding-bottom:1cqw}
+.u-top.left{justify-content:space-between;padding-inline:4.5cqw;font-size:5.4cqw;font-weight:700}
+.rail{position:absolute;right:2.6cqw;bottom:17%;display:flex;flex-direction:column;align-items:center;gap:4.4cqw;font-size:3.1cqw;font-weight:600}
+.rail .i{display:grid;justify-items:center;gap:.8cqw}
+.rail svg{width:8.6cqw;height:8.6cqw}
+.av{width:11cqw;height:11cqw;border-radius:50%;background:#8C6A3A;border:.5cqw solid #fff;display:grid;place-items:center;font-size:3.4cqw;font-weight:700;position:relative;text-shadow:none}
+.av i{position:absolute;bottom:-2.2cqw;left:50%;transform:translateX(-50%);width:4.6cqw;height:4.6cqw;border-radius:50%;background:#E5484D;font-style:normal;font-size:3.6cqw;line-height:4.4cqw;text-align:center}
+.disc{width:9.5cqw;height:9.5cqw;border-radius:50%;background:radial-gradient(circle,#8C6A3A 0 32%,#222 34% 100%);border:1.4cqw solid #333;animation:spin 5s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.disc{animation:none}}
+.meta{position:absolute;left:3.8cqw;right:19cqw;bottom:3.8cqw;font-size:3.5cqw;line-height:1.35;display:grid;gap:1.4cqw}
+.meta b{font-size:3.9cqw}
+.meta p{margin:0}
+.meta .tags{font-weight:700}
+.row{display:flex;align-items:center;gap:2.2cqw}
+.mini{width:7cqw;height:7cqw;border-radius:50%;background:#8C6A3A;display:grid;place-items:center;font-size:2.6cqw;font-weight:700;text-shadow:none;flex:none}
+.follow{border:.3cqw solid #fff;border-radius:2cqw;padding:.6cqw 2.2cqw;font-size:3.2cqw;font-weight:600}
+.clip{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.safe{position:absolute;inset:0;pointer-events:none}
+.safe div{position:absolute;background:repeating-linear-gradient(135deg,rgba(229,72,77,.38) 0 6px,rgba(229,72,77,.16) 6px 12px);outline:1px dashed rgba(255,120,120,.9)}
+.pnotes{justify-self:stretch;display:grid;gap:10px;font-size:14px}
+.post{border:1px solid var(--rule);border-radius:10px;background:var(--surface);padding:12px 14px;display:grid;gap:8px}
+.post p{margin:0;white-space:pre-line}
+.post .tagline{color:var(--accent);font-weight:600}
+.post-foot{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.post-foot span{font:500 11px var(--mono);color:var(--muted);letter-spacing:.04em}
+.copy{border:1px solid var(--rule);background:var(--ground);color:var(--ink);border-radius:999px;padding:6px 12px;font:600 12.5px var(--ui);cursor:pointer}
+
+/* carousel + fb */
+.duo{display:grid;grid-template-columns:minmax(0,440px) minmax(0,1fr);gap:36px;align-items:start}
+@media (max-width:900px){.duo{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:12px;overflow:hidden;max-width:100%}
+.card-h{display:flex;align-items:center;gap:10px;padding:10px 12px}
+.card-h .mini{width:34px;height:34px;font-size:12px;color:#fff}
+.card-h b{font-size:14px}
+.card-h small{display:block;color:var(--muted);font-size:12px}
+.card-h .more{margin-left:auto;color:var(--muted);font-weight:700;letter-spacing:2px}
+.slidebox{position:relative;background:#000}
+.slidebox canvas{display:block;width:100%;height:auto;aspect-ratio:4/5}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:32px;height:32px;border-radius:50%;border:0;background:rgba(255,255,255,.88);color:#111;cursor:pointer;display:grid;place-items:center;font:700 16px var(--ui)}
+.nav.prev{left:10px}.nav.next{right:10px}
+.nav[disabled]{opacity:0;pointer-events:none}
+.count{position:absolute;top:10px;right:10px;background:rgba(0,0,0,.6);color:#fff;font:600 12px var(--ui);padding:3px 9px;border-radius:999px}
+.dots{display:flex;justify-content:center;gap:5px;padding:10px 0 2px}
+.dots i{width:6px;height:6px;border-radius:50%;background:var(--rule)}
+.dots i.on{background:var(--accent)}
+.acts{display:flex;align-items:center;gap:16px;padding:6px 14px}
+.acts svg{width:24px;height:24px;fill:none;stroke:var(--ink);stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
+.acts .sp{margin-left:auto}
+.cap{padding:2px 14px 14px;font-size:14px;display:grid;gap:4px}
+.cap p{margin:0}
+.cap .m{color:var(--muted)}
+.strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.strip button{padding:0;border:2px solid transparent;border-radius:8px;overflow:hidden;cursor:pointer;background:#000}
+.strip button[aria-current="true"]{border-color:var(--accent)}
+.strip canvas{display:block;width:100%;height:auto;aspect-ratio:4/5}
+.side{display:grid;gap:16px;align-content:start}
+.facts{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px 16px;margin:0;font-size:14px}
+.facts dt{font:500 11px/1.9 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.facts dd{margin:0}
+.fb{max-width:560px}
+.fb-text{padding:0 14px 10px;font-size:15px;margin:0;white-space:pre-line}
+.fb-media{position:relative;background:#000}
+.fb-media canvas{display:block;width:100%;height:auto;aspect-ratio:16/9}
+.fb-play{position:absolute;inset:0;margin:auto;width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,.55);display:grid;place-items:center;border:2px solid rgba(255,255,255,.85)}
+.fb-play svg{width:24px;height:24px;fill:#fff;margin-left:3px}
+.fb-dur{position:absolute;right:10px;bottom:10px;background:rgba(0,0,0,.75);color:#fff;font:600 12px var(--ui);padding:2px 7px;border-radius:4px}
+.fb-bar{padding:10px 14px;border-bottom:1px solid var(--rule);display:grid;gap:2px}
+.fb-bar small{color:var(--muted);font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.fb-bar b{font-size:15px}
+.fb-stats{display:flex;justify-content:space-between;padding:8px 14px;color:var(--muted);font-size:13px}
+.fb-acts{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--rule)}
+.fb-acts span{display:flex;align-items:center;justify-content:center;gap:6px;padding:9px;color:var(--muted);font-weight:600;font-size:14px}
+.fb-acts svg{width:18px;height:18px;fill:var(--muted)}
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:s}
+@media (max-width:760px){.flow{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.flow div{border-top:2px solid var(--accent);padding-top:10px;font-size:14px}
+.flow b{display:block;font-size:14.5px;margin-bottom:2px}
+.flow div::before{counter-increment:s;content:"Step " counter(s);display:block;font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.note{margin:0;color:var(--muted);font-size:13.5px;max-width:80ch}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <p class="eyebrow">HistoryHistory · Social formats</p>
+    <h1>Social <em>Kit</em></h1>
+    <p class="lede">Every long documentary also becomes posts for TikTok, Instagram and Facebook. Here is Part 1 of the Black Death as a 40-second vertical video, an 8-slide Instagram carousel and a Facebook post. Switch the look and the narrator to compare.</p>
+  </header>
+
+  <div class="controls" role="group" aria-label="Preview controls">
+    <span class="grp"><span class="cl">Look</span><span class="grp" id="styles"></span></span>
+    <span class="grp"><label class="cl" for="voice">Narrator</label><select id="voice"></select></span>
+    <span class="grp"><button class="pbtn" id="play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l15 8-15 8z"/></svg><span>Play video</span></button><button class="gbtn" id="restart">Restart</button><span class="time" id="time">00:03 / 00:40</span></span>
+    <label class="check"><input type="checkbox" id="safe"> Show where app buttons cover the video</label>
+  </div>
+
+  <section class="sec" aria-labelledby="h-vert">
+    <div class="sec-head"><span class="kicker">One vertical video · three apps</span><h2 id="h-vert">Short: “The Ships of Death”</h2>
+      <p>One 1080 × 1920 file posts to all three apps. It opens with a hook in the first two seconds and uses large captions, since most people scroll with the sound off. Titles and captions stay clear of each app's buttons, which you can check with the safe-zone switch above.</p></div>
+    <div class="phones">
+      <div class="pcol">
+        <div class="plabel"><b>TikTok</b><span>9:16 · 0:40</span></div>
+        <div class="phone"><div class="scr"><canvas width="540" height="960" data-ph></canvas>
+          <div class="ui">
+            <div class="u-top"><span class="dim">Following</span><span class="on">For You</span></div>
+            <div class="rail"><div class="av">HH<i>+</i></div>
+              <div class="i" data-ic="heart">48.2K</div><div class="i" data-ic="bubble">1,204</div><div class="i" data-ic="mark">8,931</div><div class="i" data-ic="share">3,310</div><div class="disc"></div></div>
+            <div class="meta"><b>@historyhistory</b><p>12 ships. Almost everyone aboard was dead. Part 1 of 3 <span class="tags">#history #blackdeath</span></p><div class="clip">♫ original sound · historyhistory</div></div>
+          </div>
+          <div class="safe" hidden><div style="left:0;right:0;top:0;height:9%"></div><div style="right:0;width:15%;top:40%;bottom:16%"></div><div style="left:0;right:0;bottom:0;height:16%"></div></div>
+        </div></div>
+        <div class="pnotes"><div class="post"><p id="cap-tt"></p><div class="post-foot"><span>TikTok caption</span><button class="copy" data-copy="cap-tt">Copy</button></div></div></div>
+      </div>
+      <div class="pcol">
+        <div class="plabel"><b>Instagram Reels</b><span>9:16 · 0:40</span></div>
+        <div class="phone"><div class="scr"><canvas width="540" height="960" data-ph></canvas>
+          <div class="ui">
+            <div class="u-top left"><span>Reels</span><span data-ic="camera"></span></div>
+            <div class="rail"><div class="i" data-ic="heart">12.4K</div><div class="i" data-ic="bubble">402</div><div class="i" data-ic="send">1,210</div><div class="i" data-ic="dots"></div></div>
+            <div class="meta"><div class="row"><span class="mini">HH</span><b>historyhistory</b><span class="follow">Follow</span></div><p class="clip">October 1347. Twelve ships drift into Messina… <b>more</b></p><div class="clip">♫ historyhistory · Original audio</div></div>
+          </div>
+          <div class="safe" hidden><div style="left:0;right:0;top:0;height:8%"></div><div style="right:0;width:14%;top:48%;bottom:18%"></div><div style="left:0;right:0;bottom:0;height:18%"></div></div>
+        </div></div>
+        <div class="pnotes"><div class="post"><p id="cap-ig"></p><div class="post-foot"><span>Reels caption</span><button class="copy" data-copy="cap-ig">Copy</button></div></div></div>
+      </div>
+      <div class="pcol">
+        <div class="plabel"><b>Facebook Reels</b><span>9:16 · 0:40</span></div>
+        <div class="phone"><div class="scr"><canvas width="540" height="960" data-ph></canvas>
+          <div class="ui">
+            <div class="u-top left"><span>‹ Reels</span><span data-ic="dots"></span></div>
+            <div class="rail"><div class="i" data-ic="like">8.1K</div><div class="i" data-ic="bubble">256</div><div class="i" data-ic="share">890</div></div>
+            <div class="meta"><div class="row"><span class="mini">HH</span><b>HistoryHistory</b><span>· Follow</span></div><p>How did the Black Death reach Europe? It started with twelve ships…</p><div class="clip">♫ HistoryHistory · Original audio</div></div>
+          </div>
+          <div class="safe" hidden><div style="left:0;right:0;top:0;height:8%"></div><div style="right:0;width:14%;top:52%;bottom:20%"></div><div style="left:0;right:0;bottom:0;height:20%"></div></div>
+        </div></div>
+        <div class="pnotes"><div class="post"><p id="cap-fb"></p><div class="post-foot"><span>Facebook caption</span><button class="copy" data-copy="cap-fb">Copy</button></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-car">
+    <div class="sec-head"><span class="kicker">Instagram and Facebook · 8 images</span><h2 id="h-car">Carousel: “The Black Death in 8 slides”</h2>
+      <p>People save and share carousels more than any other post type, and each slide can be read in a few seconds. The slides go from hook to facts to consequences, and the last one sends people to the full video.</p></div>
+    <div class="duo">
+      <article class="card" aria-label="Instagram post preview">
+        <div class="card-h"><span class="mini" style="background:#8C6A3A">HH</span><div><b>historyhistory</b><small>Original · The Black Death</small></div><span class="more">···</span></div>
+        <div class="slidebox"><canvas id="slide" width="540" height="675" aria-label="Carousel slide"></canvas>
+          <button class="nav prev" id="prev" aria-label="Previous slide">‹</button><button class="nav next" id="next" aria-label="Next slide">›</button><span class="count" id="count">1/8</span></div>
+        <div class="dots" id="dots"></div>
+        <div class="acts"><span data-ico="heart"></span><span data-ico="bubble"></span><span data-ico="send"></span><span class="sp" data-ico="mark"></span></div>
+        <div class="cap"><p><b>12,480 likes</b></p><p><b>historyhistory</b> <span id="cap-car"></span></p><p class="m">View all 214 comments</p></div>
+      </article>
+      <div class="side">
+        <div class="strip" id="strip" aria-label="All slides"></div>
+        <dl class="facts">
+          <dt>Size</dt><dd>1080 × 1350 (4:5), the largest shape Instagram shows in the feed</dd>
+          <dt>Post to</dt><dd>Instagram and Facebook as a multi-image post, scheduled in Metricool</dd>
+          <dt>Text</dt><dd>One idea per slide, a heading under 6 words and a body under 30 words</dd>
+          <dt>Sources</dt><dd>Figures use the common estimates: 25–50 million deaths, 30–50% of Europe</dd>
+        </dl>
+        <div class="post"><p id="cap-car-full"></p><div class="post-foot"><span>Carousel caption</span><button class="copy" data-copy="cap-car-full">Copy</button></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-fb">
+    <div class="sec-head"><span class="kicker">Facebook page · feed post</span><h2 id="h-fb">Full documentary post</h2>
+      <p>Facebook audiences skew older and watch longer videos, so the page also posts the full 16:9 documentary with a question to start comments.</p></div>
+    <div class="duo">
+      <article class="card fb" aria-label="Facebook post preview">
+        <div class="card-h"><span class="mini" style="background:#8C6A3A">HH</span><div><b>HistoryHistory</b><small>2h · Public</small></div><span class="more">···</span></div>
+        <p class="fb-text" id="cap-fbpost"></p>
+        <div class="fb-media"><canvas id="fbthumb" width="1280" height="720" aria-label="Video thumbnail"></canvas><span class="fb-play"><svg viewBox="0 0 24 24"><path d="M6 4l15 8-15 8z"/></svg></span><span class="fb-dur">18:42</span></div>
+        <div class="fb-bar"><small>Video · HistoryHistory</small><b>The Black Death, Part 1: The Ships of Messina</b></div>
+        <div class="fb-stats"><span>2.4K reactions</span><span>318 comments · 540 shares</span></div>
+        <div class="fb-acts"><span><i data-ico2="like"></i>Like</span><span><i data-ico2="bubble"></i>Comment</span><span><i data-ico2="share"></i>Share</span></div>
+      </article>
+      <div class="side">
+        <div class="post"><p id="cap-fbpost-copy"></p><div class="post-foot"><span>Facebook post text</span><button class="copy" data-copy="cap-fbpost-copy">Copy</button></div></div>
+        <p class="note">Numbers shown on these mockups (likes, comments, views) are placeholders to show the layout, not predictions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-flow">
+    <div class="sec-head"><span class="kicker">How it posts</span><h2 id="h-flow">One story, five posts, no extra work</h2></div>
+    <div class="flow">
+      <div><b>Write once</b>Claude writes the documentary script, then cuts a 40-second version with a stronger hook.</div>
+      <div><b>Render</b>The pipeline renders the 16:9 video, the 9:16 short and the 8 carousel slides from the same scenes.</div>
+      <div><b>Schedule</b>Metricool posts the short to TikTok, Reels, Facebook Reels and YouTube Shorts, and the carousel to Instagram and Facebook.</div>
+      <div><b>Learn</b>Each week Claude reads Metricool analytics and adjusts hooks, topics and posting times.</div>
+    </div>
+  </section>
+
+  <p class="note">All scenes are drawn in code for this preview. Real posts use public-domain paintings, engravings and maps with the same layouts. The handle “historyhistory” is a placeholder until you choose the channel name.</p>
+</div>
+
+<script>
+const SDATA = __SDATA__;
+const SAUDIO = {};
+const W=1280,H=720,TAU=Math.PI*2,HZ=450;
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const lerp=(a,b,t)=>a+(b-a)*t;
+const ease=t=>t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
+const easeOut=t=>1-Math.pow(1-t,3);
+function rng(seed){let s=seed%2147483647;if(s<=0)s+=2147483646;return()=>{s=s*16807%2147483647;return(s-1)/2147483646;};}
+function withA(hex,a){const n=parseInt(hex.slice(1),16);return `rgba(${n>>16&255},${n>>8&255},${n&255},${a})`;}
+function ellipse(c,x,y,rx,ry){c.beginPath();c.ellipse(x,y,rx,ry,0,0,TAU);c.fill();}
+function spacing(c,px){if('letterSpacing' in c)c.letterSpacing=px+'px';}
+function rrect(c,x,y,w,h,r){c.beginPath();c.moveTo(x+r,y);c.arcTo(x+w,y,x+w,y+h,r);c.arcTo(x+w,y+h,x,y+h,r);c.arcTo(x,y+h,x,y,r);c.arcTo(x,y,x+w,y,r);c.closePath();}
+function wrap(c,text,maxW){const ws=text.split(' ');const lines=[];let cur='';for(const w of ws){const test=cur?cur+' '+w:w;if(c.measureText(test).width>maxW&&cur){lines.push(cur);cur=w;}else cur=test;}if(cur)lines.push(cur);return lines;}
+function runs(c,parts,cx,y){let total=0;parts.forEach(p=>{c.font=p.font;p.w=c.measureText(p.text).width;total+=p.w;});let x=cx-total/2;c.textAlign='left';parts.forEach(p=>{c.font=p.font;c.fillStyle=p.color;c.fillText(p.text,x,y);x+=p.w;});c.textAlign='center';}
+
+/* ---------- map data (lon, lat) ---------- */
+const LON0=-14,LAT1=61,KX=16.4,KY=24;
+const proj=(lon,lat)=>[(lon-LON0)*KX,(LAT1-lat)*KY];
+const LANDS=[
+[[34.4,31.5],[34.75,32.1],[35,32.8],[35.5,33.9],[35.8,34.4],[35.9,35.5],[36.2,36.6],[35.5,36.6],[34.6,36.8],[33.5,36.2],[32,36.3],[30.6,36.8],[29.2,36.3],[28,36.8],[27.3,37.4],[27.2,38.3],[26.4,38.5],[26.8,39.2],[26.1,39.6],[26.3,40.2],[26.7,40.5],[26,40.8],[25,40.9],[24,40.8],[22.9,40.6],[22.6,40.1],[22.9,39.4],[23.3,39],[24,38.2],[23.1,37.4],[22.8,36.5],[21.7,36.8],[21.3,37.6],[21,38.8],[20.6,39.3],[20,39.7],[19.4,40.4],[19.5,41.8],[18.5,42.4],[17.4,43.1],[16,43.5],[15.2,44.2],[14.5,45.2],[13.7,45.6],[12.3,45.3],[12.3,44.5],[13.6,43.6],[14.8,42.1],[16,41.9],[17.1,41.1],[18.5,40.1],[17.3,40.5],[16.6,39.9],[17.1,39],[16.5,38.4],[16,37.95],[15.65,38.2],[15.8,38.8],[15.6,40],[14.9,40.3],[14.3,40.8],[13.6,41.2],[12.5,41.6],[11.2,42.4],[10.5,42.9],[10.2,43.9],[9,44.4],[8.2,43.9],[7.3,43.7],[6.6,43.2],[5.4,43.2],[4.6,43.4],[3.3,43.2],[3.2,42.1],[2.2,41.3],[0.9,41],[0,39.9],[-0.3,39.4],[0.2,38.8],[-0.6,38],[-0.9,37.6],[-2.1,36.7],[-3.4,36.7],[-4.5,36.7],[-5.3,36.2],[-5.6,36],[-6.3,36.5],[-7.4,37.2],[-8.8,37],[-8.8,38],[-9.5,38.7],[-8.8,40.2],[-8.8,42],[-9.3,43],[-8.2,43.6],[-6,43.6],[-3.8,43.5],[-1.8,43.4],[-1.2,44.7],[-1.2,46.2],[-2.2,47.2],[-3,47.6],[-4.7,48],[-4.6,48.6],[-3,48.8],[-1.6,48.6],[-1.6,49.65],[-1.1,49.4],[0.2,49.5],[1.2,50],[1.6,50.9],[2.5,51.1],[3.4,51.4],[4.2,52],[4.7,52.9],[5.2,53.4],[7,53.6],[8.3,53.6],[8.9,54],[8.6,55.5],[8.1,56.6],[8.6,57.1],[10.6,57.7],[10.3,56.6],[10.9,56.3],[9.8,55],[10.9,54.4],[11.9,54.1],[13.4,54.3],[14.2,53.9],[16,54.3],[18.5,54.8],[19.6,54.4],[21.1,55.2],[21,56.5],[21.6,57.4],[23,57],[24.1,57],[24.4,58.3],[23.5,58.6],[23.5,59.2],[25,59.5],[28,59.5],[29.9,59.9],[28.7,60.6],[27,60.5],[25,60.2],[23,59.9],[22.3,60.4],[21.4,61.2],[21.3,63.5],[22.5,64.3],[24.5,65.3],[25.5,66.5],[30,70],[40,68],[45,68.5],[55,68.8],[70,70],[70,10],[34.5,10]],
+[[-14,10],[-14,28.6],[-9.8,29.9],[-9.6,31.5],[-8.5,33.3],[-6.8,34.1],[-6,35.5],[-5.4,35.9],[-4.4,35.2],[-2.9,35.3],[-1.3,35.3],[0.1,35.9],[1.9,36.6],[3.2,36.8],[5.1,36.7],[6.6,37.1],[8.6,36.9],[10.2,37.2],[11.1,36.9],[10.5,36.3],[11.1,35.2],[10.1,34.3],[10.7,33.8],[11.5,33.1],[13.2,32.9],[15.2,32.3],[15.8,31.4],[18.5,30.4],[20.1,31],[20.1,32.2],[21.6,32.9],[23.1,32.6],[25.1,31.7],[27.3,31.4],[29.9,31.3],[31,31.6],[32.3,31.3],[34.4,31.5],[34.5,10]],
+[[5,63.5],[5,62],[5.2,61],[4.9,60.3],[5.4,59.3],[5.6,58.6],[6.7,58],[8,58.1],[9.4,58.9],[10.5,59.4],[10.8,59.9],[11.2,59.1],[11.8,58.3],[12,57.6],[12.6,56.6],[12.9,55.4],[14.2,55.4],[14.6,56],[15.9,56.1],[16.5,56.7],[16.6,57.8],[17,58.6],[18.3,59.3],[18.9,59.9],[17.3,60.7],[17.3,61.7],[17.6,62.5],[18.7,63.5],[21,64.6],[22.5,65.6],[25,65.9],[28,70.5],[24,71],[19,70],[15,68.5],[12,66.5],[8.5,63.8]],
+[[-5.7,50.1],[-3,50.6],[1.4,51.2],[1.7,52.7],[0.3,53.5],[-0.3,54.5],[-1.6,55.6],[-2.1,57.2],[-1.8,57.6],[-4,57.7],[-3,58.6],[-5,58.6],[-6.2,56.8],[-5.6,55.3],[-4.8,54.8],[-3.2,54.2],[-3,53.4],[-4.6,53.3],[-4.2,52.3],[-5.2,51.7],[-3.1,51.4]],
+[[-6,52.2],[-6.2,53.9],[-5.6,54.6],[-7.3,55.3],[-8.5,54.4],[-10,54.2],[-9.9,53.2],[-10.3,51.8],[-8,51.6]],
+[[12.4,37.8],[13.3,38.2],[15.6,38.3],[15.1,37.3],[15.1,36.7],[14.3,37]],
+[[8.4,39.1],[8.2,40.9],[9.2,41.2],[9.8,40.5],[9.6,39.2],[9,39]],
+[[8.6,41.4],[8.6,42.4],[9.4,43],[9.5,42],[9.2,41.4]],
+[[23.5,35.3],[26.3,35.2],[24.8,35]],
+[[32.3,35.1],[34.6,35.7],[33.9,35],[32.4,34.7]],
+[[2.3,39.6],[3.1,39.9],[3.4,39.6],[2.8,39.3]],
+[[11.1,55.3],[12.1,55],[12.6,55.6],[12.3,56.1],[11.5,55.9],[10.9,55.7]]];
+const WATERS=[
+[[27.5,42.5],[28,43.5],[28.7,44.3],[29.7,45.3],[30.7,46.5],[31.8,46.6],[33,46],[32.6,45.4],[33.5,44.5],[35.4,45],[36.6,45.4],[37.7,46.6],[39.2,47.2],[38.3,46.2],[37.5,44.9],[39,44.2],[41.6,41.6],[40,41],[37,41.1],[35,42],[33.3,42],[31.3,41.2],[29.1,41.2],[28,41.6]],
+[[46.8,44.7],[47.5,45.6],[49.2,46.4],[51.2,47],[53,46.7],[53,45.3],[51.3,44.5],[50.3,44.3],[51,43.2],[52.7,42],[52.8,41],[54,40.8],[53.9,39],[53.9,37.3],[51.5,36.8],[50,37.4],[49,38.1],[49.1,40],[49.6,40.5],[48.6,41.8],[47.5,42.9],[47.5,43.9]],
+[[32.6,29.9],[33.6,27.8],[35.5,24],[38.5,19],[42,14.5],[43.4,12.6],[43.9,13.2],[42.2,16.5],[39.5,21],[37.2,25],[35,28],[34.9,29.5]],
+[[47.9,30],[50.5,29.9],[53,27.3],[56.4,26.6],[56.2,24.8],[54,24.1],[51.5,24.5],[50.2,26],[49,27.5]]];
+function toPath(polys){const p=new Path2D();for(const poly of polys){poly.forEach(([lo,la],i)=>{const[x,y]=proj(lo,la);i?p.lineTo(x,y):p.moveTo(x,y);});p.closePath();}return p;}
+const LAND=toPath(LANDS),WATER=toPath(WATERS);
+const CITIES=[
+['Astrakhan',48.03,46.35,1345.9,0],['Kaffa',35.38,45.03,1346.7,1],['Constantinople',28.97,41.01,1347.5,1],['Messina',15.55,38.19,1347.8,1],
+['Cyprus',33.36,35.17,1347.85,0],['Candia',25.13,35.34,1348.0,0],['Alexandria',29.92,31.3,1347.8,0],['Genoa',8.93,44.41,1347.92,1],['Marseille',5.37,43.3,1347.92,1],
+['Venice',12.33,45.44,1348.0,1],['Pisa',10.4,43.72,1348.0,0],['Florence',11.25,43.77,1348.2,0],['Rome',12.5,41.9,1348.3,0],['Naples',14.27,40.85,1348.2,0],['Tunis',10.18,36.8,1348.2,0],
+['Barcelona',2.17,41.39,1348.4,0],['Paris',2.35,48.86,1348.5,1],['Bordeaux',-0.58,44.84,1348.6,0],['Weymouth',-2.46,50.61,1348.5,0],['Lisbon',-9.14,38.72,1348.8,0],['Seville',-5.98,37.39,1348.9,0],
+['London',-0.12,51.5,1348.8,1],['Dublin',-6.26,53.35,1348.6,0],['Budapest',19.04,47.5,1349.2,0],['Vienna',16.37,48.2,1349.3,1],['Cologne',6.96,50.94,1349.5,0],['Bergen',5.32,60.39,1349.6,1],
+['Oslo',10.75,59.91,1349.7,0],['Edinburgh',-3.19,55.95,1349.8,0],['Lübeck',10.69,53.87,1350.2,0],['Stockholm',18.07,59.33,1350.3,0],['Pskov',28.33,57.82,1352.0,0],['Novgorod',31.27,58.52,1352.3,0],['Moscow',37.62,55.75,1353.2,1]];
+const ROUTE=[[35.4,45.0],[32,43.5],[29,41.1],[27.5,40.7],[26.4,40.1],[25.3,38.5],[23.2,36.2],[19.5,37],[16.5,37.8],[15.55,38.19]];
+const MONTHS=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+const fmtDate=d=>{const y=Math.floor(d);return MONTHS[clamp(Math.floor((d-y)*12),0,11)]+' '+y;};
+
+/* ---------- palettes ---------- */
+const PAL={
+archive:{sky:['#5E4B3C','#C9955C','#EBCB8E'],sun:'#FFF1C9',cloud:'rgba(255,236,200,.28)',far:'#8C7054',land:'#5A4432',town:'#4A3829',sea:['#6E6A5A','#3A3A33'],shimmer:'rgba(255,230,180,.55)',ship:'#2B2119',sail:'#D9C4A0',flag:true,figure:'#2A1F17',quay:'#4B3A2C',quayLine:'#3A2C21',gloom:'30,18,10',fog:'235,220,190',
+  micro:{bg0:'#E9D9B8',bg1:'#B8996A',cell:'#8A4A33',edge:'#3A1E14',rim:'#1C140E',label:'#EAD7B0'},
+  map:{sea:'#CDB892',land:'#E8D8B4',coast:'#6B5337',grid:'rgba(107,83,55,.25)',label:'#3B2A1A',spread:'139,30,20',route:'#6B1F14',font:"'EB Garamond', Georgia, serif"}},
+atlas:{sky:['#5E4B3C','#C9955C','#EBCB8E'],sun:'#FFF1C9',cloud:'rgba(255,236,200,.28)',far:'#8C7054',land:'#5A4432',town:'#4A3829',sea:['#6E6A5A','#3A3A33'],shimmer:'rgba(255,230,180,.5)',ship:'#2B2119',sail:'#D9C4A0',flag:true,figure:'#2A1F17',quay:'#4B3A2C',quayLine:'#3A2C21',gloom:'30,18,10',fog:'235,220,190',
+  micro:{bg0:'#EDE3CC',bg1:'#C9B894',cell:'#8E2F22',edge:'#4A1710',rim:'#26302F',label:'#EDE3CC'},
+  map:{sea:'#AFC3C2',land:'#EDE3CC',coast:'#4F5D5C',grid:'rgba(38,48,47,.22)',label:'#26302F',spread:'176,42,30',route:'#26302F',font:"'EB Garamond', Georgia, serif"}},
+noir:{sky:['#07090B','#1A2026','#3A434A'],sun:'#C9D3DA',cloud:'rgba(200,210,220,.08)',far:'#1B2127',land:'#0E1215',town:'#0A0D0F',sea:['#1E252B','#07090B'],shimmer:'rgba(200,215,230,.35)',ship:'#040506',sail:'#1D2328',flag:false,figure:'#030405',quay:'#0B0E10',quayLine:'#151A1E',gloom:'0,0,0',fog:'160,170,180',
+  micro:{bg0:'#3A1210',bg1:'#0A0405',cell:'#C2352B',edge:'#5E0F0B',rim:'#000000',label:'#C9D0D6'},
+  map:{sea:'#0A0D10',land:'#1C2228',coast:'#3D4852',grid:'rgba(120,130,140,.12)',label:'#C9D0D6',spread:'210,45,35',route:'#E0463A',font:"Oswald, 'Arial Narrow', sans-serif"}},
+candle:{sky:['#141733','#3B2F5C','#9C6B6E'],sun:'#F7D8B0',cloud:'rgba(220,200,230,.10)',far:'#2D2A48',land:'#1C1B33',town:'#16152A',windows:'#F2C27A',sea:['#2A2D52','#0E1027'],shimmer:'rgba(247,216,176,.4)',ship:'#0F0F22',sail:'#3A3558',flag:false,figure:'#0D0D1E',quay:'#1A1930',quayLine:'#24233F',gloom:'8,8,24',fog:'200,190,230',
+  micro:{bg0:'#3A3560',bg1:'#12112A',cell:'#E6B98A',edge:'#8A5E3F',rim:'#07071A',label:'#EFE3CF'},
+  map:{sea:'#171A38',land:'#2B2A4E',coast:'#6D6699',grid:'rgba(180,170,230,.10)',label:'#E8DCC8',spread:'242,194,122',route:'#F2C27A',font:"Lora, Georgia, serif"}},
+explainer:{sky:['#8EC5E0','#BFE0EE','#E8F4F7'],sun:'#FFD166',cloud:'rgba(255,255,255,.85)',far:'#9CC7A4',land:'#5E9E6E',town:'#F1DDB6',roof:'#D1603D',sea:['#3A8FB7','#1F5F86'],shimmer:'rgba(255,255,255,.6)',ship:'#6B4226',sail:'#FFFFFF',flag:true,figure:'#2B3A55',quay:'#B08D63',quayLine:'#96734C',gloom:'31,58,77',fog:'255,255,255',
+  micro:{bg0:'#FFFFFF',bg1:'#DDEBF2',cell:'#E4572E',edge:'#9E2E14',rim:'#1F3A4D',label:'#FFFFFF'},
+  map:{sea:'#BFE0EE',land:'#FFFFFF',coast:'#7FA7BD',grid:'rgba(31,58,77,.08)',label:'#1F3A4D',spread:'228,87,46',route:'#1F3A4D',font:"Archivo, Arial, sans-serif"}}
+};
+
+/* ---------- scene painters ---------- */
+function sky(c,P,gloom,t,sunColor){
+  const g=c.createLinearGradient(0,0,0,HZ);g.addColorStop(0,P.sky[0]);g.addColorStop(.62,P.sky[1]);g.addColorStop(1,P.sky[2]);
+  c.fillStyle=g;c.fillRect(-300,-300,W+600,HZ+300);
+  const sx=860,sy=HZ-70,sc=sunColor||P.sun;
+  const gl=c.createRadialGradient(sx,sy,10,sx,sy,360);gl.addColorStop(0,withA(sc,.5*(1-gloom*.6)));gl.addColorStop(1,withA(sc,0));
+  c.fillStyle=gl;c.fillRect(-300,-300,W+600,HZ+300);
+  c.fillStyle=withA(sc,1-gloom*.55);c.beginPath();c.arc(sx,sy,38,0,TAU);c.fill();
+  const r=rng(7);c.fillStyle=P.cloud;
+  for(let i=0;i<9;i++){const y=50+r()*300,w=180+r()*420,x=((r()*1700+t*(5+r()*9))%1900)-320;ellipse(c,x,y,w,9+r()*16);}
+  if(gloom>0){c.fillStyle=`rgba(${P.gloom},${gloom*.55})`;c.fillRect(-300,-300,W+600,HZ+300);}
+}
+function sea(c,P,t,gloom){
+  const g=c.createLinearGradient(0,HZ,0,H);g.addColorStop(0,P.sea[0]);g.addColorStop(1,P.sea[1]);
+  c.fillStyle=g;c.fillRect(-300,HZ,W+600,H-HZ+300);
+  const r=rng(3);c.strokeStyle=P.shimmer;c.lineWidth=2;
+  for(let i=0;i<80;i++){const y=HZ+5+Math.pow(r(),1.6)*(H-HZ+80),x=r()*W*1.3-150+Math.sin(t*.8+i)*10,len=10+(y-HZ)*.16*r();
+    c.globalAlpha=(1-gloom*.7)*(.25+.75*Math.exp(-Math.pow((x-860)/240,2)));c.beginPath();c.moveTo(x,y);c.lineTo(x+len,y);c.stroke();}
+  c.globalAlpha=1;
+  if(gloom>0){c.fillStyle=`rgba(${P.gloom},${gloom*.5})`;c.fillRect(-300,HZ,W+600,H);}
+}
+function coast(c,P,t,gloom){
+  c.fillStyle=P.far;c.beginPath();c.moveTo(600,HZ);c.bezierCurveTo(760,HZ-40,860,HZ-95,1000,HZ-100);c.bezierCurveTo(1120,HZ-104,1260,HZ-70,1600,HZ-60);c.lineTo(1600,HZ);c.closePath();c.fill();
+  const r=rng(11);
+  for(let i=0;i<36;i++){const x=870+r()*420,h=12+r()*34,w=10+r()*18,base=HZ-6-Math.max(0,Math.min(60,(x-870)*.35))*.5;
+    c.fillStyle=P.town;c.fillRect(x,base-h,w,h+8);
+    if(P.roof){c.fillStyle=P.roof;c.beginPath();c.moveTo(x-2,base-h);c.lineTo(x+w/2,base-h-9);c.lineTo(x+w+2,base-h);c.fill();}
+    if(P.windows&&r()<.7){c.fillStyle=P.windows;c.globalAlpha=.55+.35*Math.sin(t*1.7+i*2.1);c.fillRect(x+w*.4,base-h*.6,3,4);c.globalAlpha=1;}}
+  c.fillStyle=P.town;c.fillRect(1010,HZ-100,16,90);c.beginPath();c.moveTo(1005,HZ-100);c.lineTo(1018,HZ-132);c.lineTo(1031,HZ-100);c.fill();
+  c.beginPath();c.arc(1140,HZ-46,22,Math.PI,0);c.fill();c.fillRect(1118,HZ-46,44,36);
+  c.fillStyle=P.land;c.beginPath();c.moveTo(780,HZ+2);c.bezierCurveTo(900,HZ-12,1100,HZ-16,1600,HZ-10);c.lineTo(1600,HZ+16);c.lineTo(780,HZ+8);c.fill();
+  if(gloom>0){c.fillStyle=`rgba(${P.gloom},${gloom*.5})`;c.fillRect(580,HZ-140,1100,160);}
+}
+function cog(c,P,x,y,s,t,o={}){
+  c.save();c.translate(x,y+Math.sin(t*1.3+x*.01)*2*s);c.rotate(Math.sin(t*1.1+x*.02)*.015);c.scale(s,s);
+  c.fillStyle='rgba(0,0,0,.2)';ellipse(c,0,30,112,8);
+  c.fillStyle=P.ship;c.beginPath();c.moveTo(-100,-22);c.lineTo(100,-22);c.quadraticCurveTo(104,8,70,26);c.lineTo(-72,26);c.quadraticCurveTo(-106,6,-100,-22);c.fill();
+  c.fillRect(-104,-46,44,26);c.fillRect(62,-40,40,20);c.fillRect(-3,-215,6,195);c.fillRect(-78,-200,156,5);
+  if(P.roof){c.fillStyle=P.roof;c.fillRect(-100,-12,200,7);}
+  c.fillStyle=o.sail||P.sail;const b=o.limp?5:22;
+  c.beginPath();c.moveTo(-70,-196);c.lineTo(70,-196);c.quadraticCurveTo(70+b,-128,64,-62);c.lineTo(-64,-62);c.quadraticCurveTo(-70-b,-128,-70,-196);c.fill();
+  if(P.flag){c.fillStyle='#F4F1EA';c.fillRect(3,-237,34,21);c.fillStyle='#B3261E';c.fillRect(17,-237,6,21);c.fillRect(3,-229,34,5);}
+  else{c.fillStyle=P.ship;c.beginPath();c.moveTo(3,-237);c.lineTo(36,-229);c.lineTo(3,-221);c.fill();}
+  c.restore();
+}
+function quay(c,P,t){
+  c.fillStyle=P.quay;c.fillRect(-300,612,W+600,200);
+  c.strokeStyle=P.quayLine;c.lineWidth=2;
+  for(let row=0;row<4;row++){const y=612+row*28;c.beginPath();c.moveTo(-300,y);c.lineTo(W+300,y);c.stroke();
+    for(let x=-300+(row%2)*40;x<W+300;x+=80){c.beginPath();c.moveTo(x,y);c.lineTo(x,y+28);c.stroke();}}
+  c.fillStyle=P.quayLine;c.fillRect(1020,560,70,56);c.fillRect(1100,578,48,38);c.fillRect(160,570,60,46);
+  c.beginPath();c.ellipse(1180,592,22,26,0,0,TAU);c.fill();
+}
+function crowd(c,P,t){
+  const r=rng(21);c.fillStyle=P.figure;
+  for(let i=0;i<13;i++){const x=90+i*88+r()*30,h=74+r()*26,y=668,bob=Math.sin(t*1.4+i)*1.6;
+    c.beginPath();c.arc(x,y-h+bob,11,0,TAU);c.fill();
+    c.beginPath();c.moveTo(x-14,y-h+14+bob);c.lineTo(x+14,y-h+14+bob);c.lineTo(x+23,y+12);c.lineTo(x-23,y+12);c.fill();
+    if(r()<.45){c.beginPath();c.moveTo(x-12,y-h+3+bob);c.lineTo(x,y-h-19+bob);c.lineTo(x+12,y-h+3+bob);c.fill();}}
+}
+function fog(c,P,t,amt){const r=rng(9);for(let i=0;i<8;i++){const y=340+r()*300,x=((r()*1600+t*(14+r()*12))%2000)-400;c.fillStyle=`rgba(${P.fog},${amt*(.10+r()*.1)})`;ellipse(c,x,y,380+r()*300,26+r()*30);}}
+function ravens(c,P,t,cx,cy){c.strokeStyle=P.figure;c.lineWidth=3.2;c.lineCap='round';for(let i=0;i<6;i++){const a=t*.55+i*1.05,rr=80+i*20,x=cx+Math.cos(a)*rr*1.5,y=cy+Math.sin(a)*rr*.45,f=Math.sin(t*9+i)*7;
+  c.beginPath();c.moveTo(x-13,y-f);c.quadraticCurveTo(x-5,y-2,x,y+2);c.quadraticCurveTo(x+5,y-2,x+13,y-f);c.stroke();}}
+function micro(c,st,t,cx=W/2,cy=H/2,R=300,annot=true){
+  const M=st.P.micro;c.fillStyle=M.rim;c.fillRect(-300,-300,W+600,H+600);
+  c.save();c.beginPath();c.arc(cx,cy,R,0,TAU);c.clip();
+  const g=c.createRadialGradient(cx,cy,20,cx,cy,R);g.addColorStop(0,M.bg0);g.addColorStop(1,M.bg1);c.fillStyle=g;c.fillRect(cx-R,cy-R,2*R,2*R);
+  const r=rng(5);
+  for(let i=0;i<48;i++){const x=cx+(r()-.5)*2*R+Math.sin(t*.3+i)*9,y=cy+(r()-.5)*2*R+Math.cos(t*.25+i)*9,a=r()*Math.PI+t*.06*(r()-.5),L=28+r()*16;
+    c.save();c.translate(x,y);c.rotate(a);rrect(c,-L/2,-7,L,14,7);c.fillStyle=M.cell;c.fill();c.lineWidth=1.5;c.strokeStyle=M.edge;c.stroke();
+    c.fillStyle=M.edge;c.beginPath();c.arc(-L/2+7,0,4.2,0,TAU);c.arc(L/2-7,0,4.2,0,TAU);c.fill();c.restore();}
+  const v=c.createRadialGradient(cx,cy,R*.55,cx,cy,R);v.addColorStop(0,'rgba(0,0,0,0)');v.addColorStop(1,'rgba(0,0,0,.5)');c.fillStyle=v;c.fillRect(cx-R,cy-R,2*R,2*R);
+  c.restore();
+  if(!annot)return;
+  const lx=cx+R+36;c.strokeStyle=M.label;c.globalAlpha=.7;c.lineWidth=1.2;c.beginPath();c.moveTo(cx+R*.72,cy-R*.35);c.lineTo(lx-8,cy-50);c.lineTo(lx+230,cy-50);c.stroke();c.globalAlpha=1;
+  c.fillStyle=M.label;c.textAlign='left';c.textBaseline='alphabetic';
+  c.font=`italic 500 30px ${st.P.map.font}`;c.fillText('Yersinia pestis',lx,cy-62);
+  c.font=`400 19px ${st.P.map.font}`;c.globalAlpha=.8;c.fillText('The bacterium behind the plague.',lx,cy-18);c.fillText('Magnified about 1,000×.',lx,cy+10);c.globalAlpha=1;
+}
+let camInfo={lat:45,z:1};
+function drawMap(c,st,date,o={}){
+  const M=st.P.map,z=o.z||1;
+  c.fillStyle=M.sea;c.fillRect(-2000,-2000,6000,6000);
+  c.strokeStyle=M.grid;c.lineWidth=1/z;
+  for(let lo=-10;lo<=70;lo+=10){const[x]=proj(lo,0);c.beginPath();c.moveTo(x,-400);c.lineTo(x,1200);c.stroke();}
+  for(let la=30;la<=70;la+=10){const[,y]=proj(0,la);c.beginPath();c.moveTo(-400,y);c.lineTo(1800,y);c.stroke();}
+  c.fillStyle=M.land;c.fill(LAND);c.fillStyle=M.sea;c.fill(WATER);
+  if(date>0){c.save();c.clip(LAND);
+    for(const[,lo,la,d] of CITIES){if(d>date)continue;const age=date-d,rad=Math.min(170,18+age*120),[x,y]=proj(lo,la);
+      const g=c.createRadialGradient(x,y,0,x,y,rad);g.addColorStop(0,`rgba(${M.spread},.62)`);g.addColorStop(1,`rgba(${M.spread},0)`);c.fillStyle=g;c.fillRect(x-rad,y-rad,rad*2,rad*2);}
+    c.restore();c.fillStyle=M.sea;c.fill(WATER);}
+  c.strokeStyle=M.coast;c.lineWidth=1.5/z;c.lineJoin='round';c.stroke(LAND);c.stroke(WATER);
+  if(o.route!=null){const pts=ROUTE.map(p=>proj(p[0],p[1]));let tot=0;const seg=[];for(let i=1;i<pts.length;i++){const d=Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]);seg.push(d);tot+=d;}
+    let left=tot*o.route;c.strokeStyle=M.route;c.lineWidth=2.6/z;c.setLineDash([8/z,6/z]);c.beginPath();c.moveTo(...pts[0]);let head=pts[0];
+    for(let i=1;i<pts.length&&left>0;i++){const f=Math.min(1,left/seg[i-1]);head=[lerp(pts[i-1][0],pts[i][0],f),lerp(pts[i-1][1],pts[i][1],f)];c.lineTo(...head);left-=seg[i-1];}
+    c.stroke();c.setLineDash([]);
+    if(o.route<1){c.fillStyle=M.route;c.save();c.translate(...head);c.scale(1/z,1/z);c.beginPath();c.moveTo(-9,0);c.lineTo(9,0);c.lineTo(5,6);c.lineTo(-5,6);c.fill();c.fillRect(-1,-14,2,14);c.beginPath();c.moveTo(1,-14);c.lineTo(9,-4);c.lineTo(1,-4);c.fill();c.restore();}}
+  c.textBaseline='middle';
+  for(const[name,lo,la,d,major] of CITIES){const[x,y]=proj(lo,la),hit=date>=d;
+    if(!major&&!hit)continue;
+    c.fillStyle=hit?`rgb(${M.spread})`:M.label;c.beginPath();c.arc(x,y,(hit?4.2:3.2)/z,0,TAU);c.fill();
+    if(hit&&date-d<.3){c.strokeStyle=`rgba(${M.spread},${1-(date-d)/.3})`;c.lineWidth=2/z;c.beginPath();c.arc(x,y,(6+(date-d)*80)/z,0,TAU);c.stroke();}
+    if(major||o.allLabels){c.fillStyle=M.label;c.font=`500 ${17/z}px ${M.font}`;c.textAlign='left';c.fillText(name,x+8/z,y-1/z);}}
+  if(o.pulse){const[x,y]=proj(15.55,38.19),p=(o.pulseT%1.6)/1.6;c.strokeStyle=`rgba(${M.spread},${1-p})`;c.lineWidth=3/z;c.beginPath();c.arc(x,y,(8+p*40)/z,0,TAU);c.stroke();}
+}
+function mapCam(c,lon,lat,z){const[x,y]=proj(lon,lat);c.translate(W/2,H/2);c.scale(z,z);c.translate(-x,-y);camInfo={lat,z};}
+function camKB(c,st,lp,px,py){const z=1+st.zoom*ease(lp);c.translate(W/2,H/2);c.scale(z,z);c.translate(-W/2+px*ease(lp),-H/2+py*ease(lp));}
+
+const SHIPS=[{x0:-300,x1:420,y:478,s:.32},{x0:-200,x1:610,y:490,s:.42},{x0:-420,x1:250,y:505,s:.55},{x0:-260,x1:520,y:545,s:.78},{x0:-520,x1:150,y:600,s:1.05}];
+const SCENES={
+  arrive(c,st,lp,ls,t){camKB(c,st,lp,-20,-10);const P=st.P;sky(c,P,0,t);coast(c,P,t,0);sea(c,P,t,0);
+    for(const s of SHIPS)cog(c,P,lerp(s.x0,s.x1,easeOut(clamp(lp*1.1))),s.y,s.s,t);},
+  dock(c,st,lp,ls,t){camKB(c,st,lp,30,0);const P=st.P;sky(c,P,.1,t);coast(c,P,t,.1);sea(c,P,t,.1);
+    cog(c,P,930,530,.55,t);cog(c,P,660,565,.8,t);cog(c,P,340,600,1.0,t);quay(c,P,t);crowd(c,P,t);},
+  ship(c,st,lp,ls,t,g=.45,dead=false){camKB(c,st,lp,-30,-20);const P=st.P;sky(c,P,g,t);coast(c,P,t,g);sea(c,P,t,g);
+    cog(c,P,620,610,1.6,t,{limp:true});fog(c,P,t,dead?1:.7);if(dead)ravens(c,P,t,620,610-215*1.6+10);},
+  micro(c,st,lp,ls,t){const z=1+st.zoom*.6*ease(lp);c.translate(W/2,H/2);c.scale(z,z);c.translate(-W/2,-H/2);micro(c,st,t,st.key==='explainer'?470:W/2-120);},
+  map(c,st,lp,ls,t){const zc=ease(clamp(lp/.3));mapCam(c,lerp(15,23,zc),lerp(40,46.5,zc),lerp(2,1,zc));drawMap(c,st,lerp(1347.75,1353.3,ease(clamp(lp*1.08))),{z:lerp(2,1,zc)});}
+};
+const SHOT_LIST=[null,'arrive','dock','ship','dead','micro','map',null];
+function defaultShot(c,st,k,lp,ls,t){
+  if(k===0)return st.card(c,st,'chapter',lp,ls,t);
+  if(k===7)return st.card(c,st,'title',lp,ls,t);
+  const n=SHOT_LIST[k];
+  if(n==='dead')return SCENES.ship(c,st,lp,ls,t,.72,true);
+  return SCENES[n](c,st,lp,ls,t);
+}
+
+/* ---------- cards ---------- */
+function cardArchive(c,st,kind,lp,ls,t){
+  const g=c.createRadialGradient(W/2,H/2,40,W/2,H/2,820);g.addColorStop(0,'#3A2A1C');g.addColorStop(1,'#120B07');c.fillStyle=g;c.fillRect(0,0,W,H);
+  c.globalAlpha=clamp(ls/.9);c.textAlign='center';c.textBaseline='middle';
+  const acc='#B8893F',ink='#EAD7B0';
+  if(kind==='chapter'){c.fillStyle=acc;c.font="600 22px Cinzel, Georgia, serif";spacing(c,7);c.fillText('CHAPTER I',W/2,H/2-92);spacing(c,0);
+    c.strokeStyle=acc;c.lineWidth=1;c.beginPath();c.moveTo(W/2-260,H/2-92);c.lineTo(W/2-120,H/2-92);c.moveTo(W/2+120,H/2-92);c.lineTo(W/2+260,H/2-92);c.stroke();
+    c.fillStyle=ink;c.font="italic 500 76px 'EB Garamond', Georgia, serif";c.fillText('The Ships of Messina',W/2,H/2);
+    c.font="400 25px 'EB Garamond', Georgia, serif";c.globalAlpha*=.75;c.fillText('Sicily · October 1347',W/2,H/2+74);}
+  else{const s=1+.04*lp;c.translate(W/2,H/2);c.scale(s,s);c.translate(-W/2,-H/2);
+    c.fillStyle=ink;c.font="700 104px Cinzel, Georgia, serif";spacing(c,6);c.fillText('THE BLACK DEATH',W/2,H/2-10);spacing(c,0);
+    c.fillStyle=acc;c.font="500 28px 'EB Garamond', Georgia, serif";spacing(c,4);c.fillText('1346 – 1353',W/2,H/2+72);spacing(c,0);}
+  c.globalAlpha=1;
+}
+function cardNoir(c,st,kind,lp,ls,t){
+  c.fillStyle='#000';c.fillRect(0,0,W,H);c.textAlign='center';c.textBaseline='middle';const red='#D2362A';
+  if(kind==='chapter'){const a=clamp(ls/.4);c.globalAlpha=a;c.fillStyle=red;c.font="500 24px Oswald, 'Arial Narrow', sans-serif";spacing(c,10);c.fillText('PART ONE',W/2,H/2-104);spacing(c,0);
+    const s=lerp(1.12,1,easeOut(clamp(ls/1.4)));c.save();c.translate(W/2,H/2);c.scale(s,s);c.fillStyle='#F2F2F2';c.font="700 132px Oswald, 'Arial Narrow', sans-serif";c.fillText('MESSINA, 1347',0,0);c.restore();
+    c.fillStyle=red;const w=440*easeOut(clamp((ls-.4)/.8));c.fillRect(W/2-w/2,H/2+86,w,4);c.globalAlpha=1;}
+  else{const a=clamp(ls/.25);c.globalAlpha=a;const s=lerp(1.25,1,easeOut(clamp(ls/.5)));c.save();c.translate(W/2,H/2);c.scale(s,s);c.translate(-W/2,-H/2);
+    c.font="500 34px Oswald, 'Arial Narrow', sans-serif";c.fillStyle='#BFC5CA';spacing(c,14);c.fillText('THE',W/2,H/2-110);spacing(c,0);
+    runs(c,[{text:'BLACK ',font:"700 170px Oswald, 'Arial Narrow', sans-serif",color:red},{text:'DEATH',font:"700 170px Oswald, 'Arial Narrow', sans-serif",color:'#F2F2F2'}],W/2,H/2+20);c.restore();c.globalAlpha=1;}
+}
+function stars(c,t,n=90){const r=rng(31);for(let i=0;i<n;i++){const x=r()*W,y=r()*H*.62,s=r()*1.6+.4;c.fillStyle=`rgba(255,244,220,${.25+.5*Math.abs(Math.sin(t*.6+i))*r()})`;c.fillRect(x,y,s,s);}}
+function cardCandle(c,st,kind,lp,ls,t){
+  const g=c.createLinearGradient(0,0,0,H);g.addColorStop(0,'#0E0F24');g.addColorStop(1,'#2A2346');c.fillStyle=g;c.fillRect(0,0,W,H);stars(c,t);
+  c.globalAlpha=clamp(ls/1.6);c.textAlign='center';c.textBaseline='middle';
+  if(kind==='chapter'){c.fillStyle='#F2C27A';c.font="italic 400 28px Lora, Georgia, serif";c.fillText('Chapter One',W/2,H/2-70);
+    c.fillStyle='#EFE3CF';c.font="italic 500 60px Lora, Georgia, serif";c.fillText('The Ships That Came at Dusk',W/2,H/2+4);}
+  else{c.fillStyle='#EFE3CF';c.font="italic 500 88px Lora, Georgia, serif";c.fillText('The Black Death',W/2,H/2-14);
+    c.fillStyle='#F2C27A';c.font="italic 400 28px Lora, Georgia, serif";c.fillText('a slow history for sleep',W/2,H/2+62);}
+  c.globalAlpha=1;
+}
+function cardExplainer(c,st,kind,lp,ls,t){
+  c.fillStyle='#1F3A4D';c.fillRect(0,0,W,H);
+  c.fillStyle='rgba(255,255,255,.05)';for(let i=0;i<14;i++){c.beginPath();c.arc(1040+Math.cos(i)*140,360+Math.sin(i*1.7)*180,40+i*6,0,TAU);c.fill();}
+  const off=(1-easeOut(clamp(ls/.6)))*-70;c.globalAlpha=clamp(ls/.35);c.textAlign='left';c.textBaseline='alphabetic';
+  if(kind==='chapter'){c.fillStyle='#FFD166';rrect(c,120+off,210,112,40,20);c.fill();c.fillStyle='#1F3A4D';c.font="800 20px Archivo, Arial, sans-serif";spacing(c,2);c.fillText('PART 1',140+off,237);spacing(c,0);
+    c.fillStyle='#FFFFFF';c.font="800 70px Archivo, Arial, sans-serif";c.fillText('How the plague',120+off,340);c.fillText('reached Europe',120+off,420);
+    c.fillStyle='#FFD166';c.fillRect(120+off,450,180*easeOut(clamp((ls-.3)/.6)),8);}
+  else{c.fillStyle='#FFFFFF';c.font="900 118px Archivo, Arial, sans-serif";c.fillText('THE BLACK',120+off,330);c.fillText('DEATH',120+off,450);
+    c.fillStyle='#FFD166';c.fillRect(120+off,480,420*easeOut(clamp((ls-.2)/.6)),10);
+    c.fillStyle='#DDEBF2';c.font="600 30px Archivo, Arial, sans-serif";c.fillText('1346–1353  ·  25–50 million dead in Europe',120+off,545);}
+  c.globalAlpha=1;
+}
+function cartouche(c,title,sub,a){c.globalAlpha=a;c.fillStyle='rgba(237,227,204,.94)';c.fillRect(W/2-330,H/2-92,660,184);c.strokeStyle='#26302F';c.lineWidth=2;c.strokeRect(W/2-318,H/2-80,636,160);c.lineWidth=1;c.strokeRect(W/2-310,H/2-72,620,144);
+  c.fillStyle='#26302F';c.textAlign='center';c.textBaseline='middle';c.font="italic 500 60px 'EB Garamond', Georgia, serif";c.fillText(title,W/2,H/2-12);c.font="500 20px 'EB Garamond', Georgia, serif";spacing(c,3);c.fillText(sub,W/2,H/2+46);spacing(c,0);c.globalAlpha=1;}
+function cardAtlas(c,st,kind,lp,ls,t){
+  if(kind==='chapter'){c.save();mapCam(c,24,44,1.15+.08*lp);drawMap(c,st,1346.0,{z:1.2});c.restore();cartouche(c,'The Road to Messina','PLATE I  ·  1346 – 1347',clamp(ls/.9));}
+  else{c.save();mapCam(c,23,46.5,1);drawMap(c,st,1353.3,{z:1});c.restore();c.fillStyle='rgba(237,227,204,.25)';c.fillRect(0,0,W,H);cartouche(c,'The Black Death','1346 – 1353  ·  APPROXIMATE SPREAD',clamp(ls/.9));}
+}
+
+/* ---------- atlas shots (map-driven) ---------- */
+function calloutMap(c,st,text,sub,a){c.globalAlpha=a;c.fillStyle='rgba(237,227,204,.95)';c.strokeStyle='#26302F';c.lineWidth=1.5;c.fillRect(80,90,380,96);c.strokeRect(86,96,368,84);
+  c.fillStyle='#26302F';c.textAlign='left';c.textBaseline='alphabetic';c.font="italic 500 32px 'EB Garamond', Georgia, serif";c.fillText(text,106,136);c.font="400 19px 'EB Garamond', Georgia, serif";c.fillText(sub,106,164);c.globalAlpha=1;}
+const ATLAS_SHOTS={
+  1(c,st,lp,ls,t){const e=ease(lp);c.save();mapCam(c,lerp(27,19,e),lerp(42,39.5,e),lerp(1.8,2.3,e));drawMap(c,st,1347.5,{z:lerp(1.8,2.3,e),route:clamp(lp*1.15)});c.restore();calloutMap(c,st,'From Kaffa to Sicily','Genoese galleys, autumn 1347',clamp((ls-.4)/.6));},
+  2(c,st,lp,ls,t){const e=ease(lp);const z=lerp(2.6,3.4,e);c.save();mapCam(c,15.4,38.6,z);drawMap(c,st,1347.7,{z,route:1,pulse:true,pulseT:ls,allLabels:true});c.restore();calloutMap(c,st,'Messina, Sicily','A busy port on the strait',clamp(ls/.6));},
+  3(c,st,lp,ls,t){const z=lerp(3.4,3.7,lp);c.save();mapCam(c,15.4,38.6,z);drawMap(c,st,1347.8+lp*.03,{z,route:1,pulse:true,pulseT:ls,allLabels:true});c.restore();calloutMap(c,st,'Twelve galleys','Arrived October 1347',clamp(ls/.6));},
+  4(c,st,lp,ls,t){const z=lerp(3.7,3.9,lp);c.save();mapCam(c,15.4,38.6,z);drawMap(c,st,1347.83+lp*.05,{z,route:1,pulse:true,pulseT:ls,allLabels:true});c.restore();calloutMap(c,st,'The crews','Most already dead',clamp(ls/.6));},
+  6(c,st,lp,ls,t){SCENES.map(c,st,lp,ls,t);}
+};
+
+/* ---------- captions ---------- */
+function capAlpha(si,t){const T=TL()[si];return clamp((t-(T[0]-.05))/.2)*clamp((T[1]+.35-t)/.2);}
+const KEY=new Set(['dead','terrible','black','third','half','death','disease','blood','forever']);
+const CAPTIONS={
+  lowerThird(c,si,t){c.font="500 32px 'EB Garamond', Georgia, serif";const lines=wrap(c,SENT[si],960),lh=40,bh=lines.length*lh+36;
+    const g=c.createLinearGradient(0,H-bh-40,0,H);g.addColorStop(0,'rgba(18,11,6,0)');g.addColorStop(.35,'rgba(18,11,6,.7)');g.addColorStop(1,'rgba(18,11,6,.85)');
+    c.globalAlpha=capAlpha(si,t);c.fillStyle=g;c.fillRect(0,H-bh-40,W,bh+40);c.fillStyle='#F3E6C8';c.textAlign='center';c.textBaseline='middle';
+    lines.forEach((l,i)=>c.fillText(l,W/2,H-bh+18+i*lh));c.globalAlpha=1;},
+  subtitle(c,si,t){c.font="600 30px Archivo, Arial, sans-serif";const lines=wrap(c,SENT[si],980);c.globalAlpha=capAlpha(si,t);c.textAlign='center';c.textBaseline='middle';c.lineJoin='round';
+    lines.forEach((l,i)=>{const y=H-44-(lines.length-1-i)*40;c.strokeStyle='rgba(0,0,0,.85)';c.lineWidth=6;c.strokeText(l,W/2,y);c.fillStyle='#FFFFFF';c.fillText(l,W/2,y);});c.globalAlpha=1;},
+  kinetic(c,si,t){const ws=wordsOf(si);const chunks=[];let cur=[];ws.forEach((w,i)=>{cur.push(w);if(cur.length>=4||/[,.]$/.test(w.w)||i===ws.length-1){chunks.push(cur);cur=[];}});
+    let ch=chunks[0];for(const k of chunks)if(k[0].a<=t)ch=k;
+    c.font="700 64px Oswald, 'Arial Narrow', sans-serif";c.textBaseline='middle';c.textAlign='left';
+    const txt=ch.map(w=>w.w.toUpperCase());const sp=18;const widths=txt.map(x=>c.measureText(x).width);const total=widths.reduce((a,b)=>a+b,0)+sp*(txt.length-1);
+    let x=W/2-total/2;const y=H-172;c.shadowColor='rgba(0,0,0,.9)';c.shadowBlur=18;
+    ch.forEach((w,i)=>{if(w.a<=t+.02){const p=clamp((t-w.a)/.14),s=1+.22*(1-easeOut(p));const key=KEY.has(w.w.toLowerCase().replace(/[^a-z]/g,''));
+      c.save();c.translate(x+widths[i]/2,y);c.scale(s,s);c.fillStyle=key?'#E0463A':'#F2F2F2';c.fillText(txt[i],-widths[i]/2,0);c.restore();}x+=widths[i]+sp;});
+    c.shadowBlur=0;},
+  soft(c,si,t){c.font="italic 400 27px Lora, Georgia, serif";const lines=wrap(c,SENT[si],900);c.globalAlpha=capAlpha(si,t)*.82;c.fillStyle='#EFE3CF';c.textAlign='center';c.textBaseline='middle';c.shadowColor='rgba(0,0,0,.8)';c.shadowBlur=14;
+    lines.forEach((l,i)=>c.fillText(l,W/2,H-60-(lines.length-1-i)*36));c.shadowBlur=0;c.globalAlpha=1;},
+  karaoke(c,si,t){const ws=wordsOf(si);c.font="800 32px Archivo, Arial, sans-serif";c.textBaseline='middle';c.textAlign='left';
+    const lines=[];let line=[],lw=0;const spw=c.measureText(' ').width;
+    ws.forEach(w=>{const ww=c.measureText(w.w).width;if(lw+ww>920&&line.length){lines.push({line,lw});line=[];lw=0;}line.push({...w,ww});lw+=ww+spw;});lines.push({line,lw});
+    const lh=46,bh=lines.length*lh+22,bw=Math.max(...lines.map(l=>l.lw))+40,by=H-bh-26;
+    c.globalAlpha=capAlpha(si,t);c.fillStyle='rgba(31,58,77,.92)';rrect(c,W/2-bw/2,by,bw,bh,14);c.fill();
+    lines.forEach((L,li)=>{let x=W/2-L.lw/2+spw/2;const y=by+11+lh/2+li*lh;L.line.forEach(w=>{const on=t>=w.a&&t<w.b+.05;if(on){c.fillStyle='#FFD166';rrect(c,x-6,y-21,w.ww+12,42,8);c.fill();}c.fillStyle=on?'#1F3A4D':(t>=w.a?'#FFFFFF':'rgba(255,255,255,.62)');c.fillText(w.w,x,y+1);x+=w.ww+spw;});});
+    c.globalAlpha=1;}
+};
+
+/* ---------- textures ---------- */
+const noise=document.createElement('canvas');noise.width=noise.height=256;{const n=noise.getContext('2d'),d=n.createImageData(256,256);for(let i=0;i<d.data.length;i+=4){const v=Math.random()*255;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255;}n.putImageData(d,0,0);}
+const paper=document.createElement('canvas');paper.width=W;paper.height=H;{const p=paper.getContext('2d');p.fillStyle='#fff';p.fillRect(0,0,W,H);const r=rng(77);p.strokeStyle='rgba(120,90,50,.18)';for(let i=0;i<900;i++){const x=r()*W,y=r()*H,a=r()*TAU,l=4+r()*18;p.lineWidth=.6+r();p.beginPath();p.moveTo(x,y);p.lineTo(x+Math.cos(a)*l,y+Math.sin(a)*l);p.stroke();}
+  for(let i=0;i<40;i++){const x=r()*W,y=r()*H,rad=40+r()*160;const g=p.createRadialGradient(x,y,0,x,y,rad);g.addColorStop(0,'rgba(150,110,60,.10)');g.addColorStop(1,'rgba(150,110,60,0)');p.fillStyle=g;p.fillRect(x-rad,y-rad,rad*2,rad*2);}}
+function grain(c,amt,t){if(!amt)return;c.save();c.globalAlpha=amt;c.globalCompositeOperation='overlay';const pat=c.createPattern(noise,'repeat');const ox=Math.floor(Math.random()*256),oy=Math.floor(Math.random()*256);c.translate(-ox,-oy);c.fillStyle=pat;c.fillRect(0,0,W+256,H+256);c.restore();}
+function vignette(c,amt,col='0,0,0'){if(!amt)return;const g=c.createRadialGradient(W/2,H/2,H*.35,W/2,H/2,H*.95);g.addColorStop(0,`rgba(${col},0)`);g.addColorStop(1,`rgba(${col},${amt})`);c.fillStyle=g;c.fillRect(0,0,W,H);}
+
+/* ---------- style definitions ---------- */
+const STYLES={
+archive:{name:'Illuminated Archive',short:'Old paintings, slow camera moves',P:PAL.archive,zoom:.12,card:cardArchive,caption:'lowerThird',
+  tagline:'Paintings, engravings and manuscripts brought to life with slow pans and zooms. This is the classic history-documentary look.',
+  specs:[['Captions','Full sentence in a lower-third band'],['Visuals','Public-domain paintings and engravings'],['Pace','Steady, about 150 words a minute'],['Best for','10–25 minute documentaries on any era'],['Automation','Easy. Find images, then pan and zoom'],['Extra cost','None. Runs on Metricool and Claude Max']],
+  post(c,S,t){c.save();c.globalCompositeOperation='multiply';c.globalAlpha=.55;c.drawImage(paper,0,0);c.restore();grain(c,.09,t);vignette(c,.6,'20,10,4');
+    if(S.k>=1&&S.k<=6){c.globalAlpha=.8;c.fillStyle='#F3E6C8';c.font="500 17px Cinzel, Georgia, serif";spacing(c,3);c.textAlign='left';c.textBaseline='alphabetic';c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=8;c.fillText('I · THE SHIPS OF MESSINA',40,50);c.shadowBlur=0;spacing(c,0);c.globalAlpha=1;}}},
+atlas:{name:'Cartographer',short:'Animated maps tell the story',P:PAL.atlas,zoom:.08,card:cardAtlas,caption:'subtitle',shots:ATLAS_SHOTS,
+  tagline:'Animated maps carry the story: trade routes, dates and spreading territory. Other images cut in only where a map cannot show something.',
+  specs:[['Captions','Standard white subtitles'],['Visuals','Maps generated in code from coastline data, plus archive images'],['Pace','Steady, with date counters'],['Best for','Empires, wars, migrations, plagues'],['Automation','Medium. Each topic needs place and date data'],['Extra cost','None. Runs on Metricool and Claude Max']],
+  post(c,S,t){grain(c,.05,t);c.strokeStyle='rgba(38,48,47,.8)';c.lineWidth=2;c.strokeRect(14,14,W-28,H-28);c.lineWidth=1;c.strokeRect(22,22,W-44,H-44);
+    if(S.k>=1&&S.k<=6&&S.k!==5){const d=S.k===6?lerp(1347.75,1353.3,ease(clamp(S.lp*1.08))):[0,1347.5,1347.7,1347.8,1347.85][S.k];
+      c.fillStyle='rgba(237,227,204,.95)';c.fillRect(W-250,40,210,62);c.strokeStyle='#26302F';c.strokeRect(W-244,46,198,50);c.fillStyle='#26302F';c.textAlign='center';c.textBaseline='middle';c.font="600 30px 'EB Garamond', Georgia, serif";spacing(c,3);c.fillText(fmtDate(d),W-145,72);spacing(c,0);
+      const km=camInfo.z>2?100:500;const len=km/(111.32*Math.cos(camInfo.lat*Math.PI/180))*KX*camInfo.z;
+      c.fillStyle='#26302F';c.fillRect(46,H-120,len,5);c.fillStyle='rgba(237,227,204,.95)';c.fillRect(46+len/2,H-119,len/2,3);c.font="500 16px 'EB Garamond', Georgia, serif";c.textAlign='left';c.fillText(km+' km',46,H-138);}}},
+noir:{name:'Dark Chronicle',short:'Cinematic, high contrast, punchy captions',P:PAL.noir,zoom:.16,card:cardNoir,caption:'kinetic',
+  tagline:'Cinematic and high contrast, with word-by-word captions that flash key words in red. Built to keep viewers watching.',
+  specs:[['Captions','Kinetic, word by word, key words in red'],['Visuals','Dark archive photos and code-drawn scenes under heavy film grain'],['Pace','Fast cuts, dramatic pauses'],['Best for','Dark history, mysteries, disasters'],['Automation','Easy. Mostly archive photos'],['Extra cost','None. Runs on Metricool and Claude Max']],
+  post(c,S,t){grain(c,.2,t);vignette(c,.75);c.fillStyle=`rgba(0,0,0,${.05*Math.random()})`;c.fillRect(0,0,W,H);c.fillStyle='#000';c.fillRect(0,0,W,86);c.fillRect(0,H-86,W,86);}},
+candle:{name:'Candlelight Sleep',short:'Slow and calm, made for bedtime',P:PAL.candle,zoom:.06,card:cardCandle,caption:'soft',rate:.9,
+  tagline:'Quiet, slow narration over softly moving dusk scenes. People fall asleep to these, so a single video can run for hours.',
+  specs:[['Captions','Minimal, or none'],['Visuals','Dusk paintings with very slow motion'],['Pace','Slow, about 120 words a minute, 1–3 hour videos'],['Best for','A sleep channel. Longest watch time of any format'],['Automation','Easiest. Long videos with few cuts'],['Extra cost','None. Runs on Metricool and Claude Max']],
+  post(c,S,t){const r=rng(41);for(let i=0;i<46;i++){const x=(r()*W+Math.sin(t*.2+i)*30)%W,y=H-((r()*H+t*(6+r()*8))%H);c.fillStyle=`rgba(255,220,170,${.12+.18*r()})`;c.beginPath();c.arc(x,y,1+r()*2,0,TAU);c.fill();}
+    const f=.85+.15*Math.sin(t*7)*Math.sin(t*3.1);const g=c.createRadialGradient(80,H-40,10,80,H-40,520);g.addColorStop(0,`rgba(242,170,90,${.28*f})`);g.addColorStop(1,'rgba(242,170,90,0)');c.fillStyle=g;c.fillRect(0,0,W,H);
+    grain(c,.06,t);vignette(c,.8,'6,6,20');}},
+explainer:{name:'Flat Explainer',short:'Bright graphics, stats and a timeline',P:PAL.explainer,zoom:.04,card:cardExplainer,caption:'karaoke',
+  tagline:'Bright flat illustrations with on-screen numbers and a running timeline. Clear, friendly and easy for advertisers to accept.',
+  specs:[['Captions','Karaoke style, each word highlighted as it is spoken'],['Visuals','Flat illustrations and charts drawn in code'],['Pace','Brisk, with pop-up stats'],['Best for','"History of X" topics and younger viewers'],['Automation','Hardest to design, but then fully code-driven'],['Extra cost','None. Runs on Metricool and Claude Max']],
+  post(c,S,t){if(S.k<1||S.k>6)return;const d=S.k===6?lerp(1347.75,1353.3,ease(clamp(S.lp*1.08))):1347.8;
+    const x0=380,x1=1200,y=46;c.fillStyle='rgba(31,58,77,.9)';rrect(c,x0-24,y-26,x1-x0+48,62,31);c.fill();c.strokeStyle='rgba(255,255,255,.35)';c.lineWidth=3;c.beginPath();c.moveTo(x0,y);c.lineTo(x1,y);c.stroke();
+    c.font="600 14px Archivo, Arial, sans-serif";c.textAlign='center';c.textBaseline='middle';
+    for(let yr=1346;yr<=1354;yr++){const x=lerp(x0,x1,(yr-1346)/8);c.fillStyle='rgba(255,255,255,.7)';c.fillRect(x-1,y-6,2,12);c.fillText(yr,x,y+20);}
+    const mx=lerp(x0,x1,(d-1346)/8);c.strokeStyle='#FFD166';c.lineWidth=5;c.beginPath();c.moveTo(x0,y);c.lineTo(mx,y);c.stroke();c.fillStyle='#FFD166';c.beginPath();c.arc(mx,y,9,0,TAU);c.fill();
+    const stat={1:['12','ships from Genoa'],2:['Messina','a busy Sicilian port'],4:['Most','of the crew already dead'],5:['1 bacterium','Yersinia pestis'],6:['25–50 million','dead in Europe, 1347–1351']}[S.k];
+    if(stat){const a=easeOut(clamp(S.ls/.5));const bx=40,by=116,s=.8+.2*a;c.save();c.globalAlpha=a;c.translate(bx,by);c.scale(s,s);c.fillStyle='#FFFFFF';rrect(c,0,0,330,112,16);c.fill();c.fillStyle='#E4572E';c.fillRect(0,20,8,72);
+      c.textAlign='left';c.fillStyle='#1F3A4D';c.font="900 44px Archivo, Arial, sans-serif";c.fillText(stat[0],28,46);c.font="600 20px Archivo, Arial, sans-serif";c.fillStyle='#46637A';c.fillText(stat[1],28,86);c.restore();}}}
+};
+Object.entries(STYLES).forEach(([k,s])=>s.key=k);
+
+/* ---------- thumbnails ---------- */
+const THUMBS={
+  archive(c,st){const P=st.P;sky(c,P,.3,3);coast(c,P,3,.3);sea(c,P,3,.3);cog(c,P,880,640,1.75,3,{limp:true});fog(c,P,3,.8);
+    st.post(c,{k:0},3);c.textAlign='left';c.textBaseline='alphabetic';c.shadowColor='rgba(0,0,0,.85)';c.shadowBlur=24;c.fillStyle='#F6E7C4';c.font="700 108px Cinzel, Georgia, serif";c.fillText('THE SHIPS',60,250);c.fillText('OF DEATH',60,370);c.shadowBlur=0;
+    c.fillStyle='#B8893F';c.fillRect(64,405,150,54);c.fillStyle='#1C140E';c.font="700 34px Cinzel, Georgia, serif";c.fillText('1347',82,445);},
+  atlas(c,st){c.save();mapCam(c,26,46,1.08);drawMap(c,st,1352.5,{z:1.08,route:1});c.restore();st.post(c,{k:0},0);
+    c.fillStyle='#FFFFFF';c.fillRect(40,40,560,230);c.fillStyle='#1A1A1A';c.font="900 70px Archivo, Arial, sans-serif";c.textAlign='left';c.textBaseline='alphabetic';c.fillText('HOW THE',64,120);c.fillText('PLAGUE',64,190);c.fillStyle='#B02A1E';c.fillText('TOOK EUROPE',64,258);
+    c.fillStyle='#B02A1E';rrect(c,W-360,H-120,300,70,10);c.fill();c.fillStyle='#FFFFFF';c.font="800 40px Archivo, Arial, sans-serif";c.textAlign='center';c.fillText('1347 → 1353',W-210,H-72);},
+  noir(c,st){const P=st.P;sky(c,P,0,4,'#C0392B');sea(c,P,4,0);cog(c,P,380,620,1.9,4,{limp:true});ravens(c,P,4,380,300);
+    grain(c,.18,0);vignette(c,.7);c.textAlign='right';c.textBaseline='alphabetic';c.shadowColor='rgba(0,0,0,.9)';c.shadowBlur=20;c.font="700 120px Oswald, 'Arial Narrow', sans-serif";c.fillStyle='#F2F2F2';c.fillText('THEY WERE',W-50,300);c.fillStyle='#E0463A';c.font="700 170px Oswald, 'Arial Narrow', sans-serif";c.fillText('ALL DEAD',W-50,470);c.shadowBlur=0;},
+  candle(c,st){const P=st.P;sky(c,P,0,6);stars(c,6,60);coast(c,P,6,0);sea(c,P,6,0);cog(c,P,380,610,1.1,6);st.post(c,{k:0},6);
+    c.textAlign='left';c.textBaseline='alphabetic';c.fillStyle='#EFE3CF';c.shadowColor='rgba(0,0,0,.7)';c.shadowBlur=18;c.font="italic 500 92px Lora, Georgia, serif";c.fillText('The Black Death',60,150);
+    c.fillStyle='#F2C27A';c.font="italic 400 36px Lora, Georgia, serif";c.fillText('2 hours of calm history for sleep',64,210);c.shadowBlur=0;
+    c.fillStyle='rgba(14,15,36,.75)';rrect(c,W-200,H-90,150,50,25);c.fill();c.fillStyle='#EFE3CF';c.font="600 26px Archivo, Arial, sans-serif";c.textAlign='center';c.fillText('2:04:18',W-125,H-55);},
+  explainer(c,st){micro(c,st,2,930,380,300,false);c.fillStyle='#1F3A4D';c.fillRect(0,0,600,H);c.textAlign='left';c.textBaseline='alphabetic';
+    c.fillStyle='#FFD166';c.font="900 190px Archivo, Arial, sans-serif";c.fillText('1 IN 3',44,310);c.fillStyle='#FFFFFF';c.font="900 64px Archivo, Arial, sans-serif";c.fillText('EUROPEANS',50,420);c.fillText('DIED. WHY?',50,494);
+    c.fillStyle='#E4572E';c.beginPath();c.moveTo(560,560);c.lineTo(700,500);c.lineTo(690,535);c.lineTo(760,540);c.lineTo(750,580);c.lineTo(680,575);c.lineTo(670,610);c.closePath();c.fill();}
+};
+
+
+
+/* ---------- vertical engine ---------- */
+const S=2;const VW=540,VH=960,SSENT=SDATA.sentences;
+let voice='bm_george',styleKey='archive',t=3.2,playing=false,dirty=true,slide=0;
+try{const s=JSON.parse(localStorage.getItem('hh-picks')||'null');if(s){if(s.style&&STYLES[s.style])styleKey=s.style;if(s.voice&&SDATA[s.voice])voice=s.voice;}}catch(e){}
+const VS={
+ archive:{bg:'#140D08',ink:'#F3E6C8',accent:'#D4A24C',key:'#E8B75A',chipBg:'rgba(20,12,6,.8)',title:s=>`700 ${s}px Cinzel, Georgia, serif`,cap:s=>`600 ${s}px 'EB Garamond', Georgia, serif`,body:s=>`500 ${s}px 'EB Garamond', Georgia, serif`,head:s=>`600 ${s}px 'EB Garamond', Georgia, serif`,grain:.08,vig:'20,10,4',paper:true,titleText:'THE SHIPS OF DEATH'},
+ atlas:{bg:'#26302F',ink:'#FFFFFF',accent:'#F2A541',key:'#F2A541',chipBg:'rgba(38,48,47,.88)',title:s=>`800 ${s}px Archivo, Arial, sans-serif`,cap:s=>`800 ${s}px Archivo, Arial, sans-serif`,body:s=>`500 ${s}px Archivo, Arial, sans-serif`,head:s=>`800 ${s}px Archivo, Arial, sans-serif`,grain:.04,titleText:'THE SHIPS OF DEATH'},
+ noir:{bg:'#000000',ink:'#F2F2F2',accent:'#E0463A',key:'#E0463A',chipBg:'rgba(0,0,0,.82)',title:s=>`700 ${s}px Oswald, 'Arial Narrow', sans-serif`,cap:s=>`700 ${s}px Oswald, 'Arial Narrow', sans-serif`,body:s=>`500 ${s}px Archivo, Arial, sans-serif`,head:s=>`700 ${s}px Oswald, 'Arial Narrow', sans-serif`,upper:true,grain:.18,vig:'0,0,0',titleText:'THE SHIPS OF DEATH'},
+ candle:{bg:'#0E0F24',ink:'#EFE3CF',accent:'#F2C27A',key:'#F2C27A',chipBg:'rgba(14,15,36,.82)',title:s=>`italic 500 ${s}px Lora, Georgia, serif`,cap:s=>`italic 500 ${s}px Lora, Georgia, serif`,body:s=>`italic 400 ${s}px Lora, Georgia, serif`,head:s=>`italic 500 ${s}px Lora, Georgia, serif`,grain:.05,vig:'6,6,20',soft:true,titleText:'The Ships of Death'},
+ explainer:{bg:'#1F3A4D',ink:'#FFFFFF',accent:'#FFD166',key:'#FFD166',chipBg:'#FFD166',chipInk:'#1F3A4D',title:s=>`900 ${s}px Archivo, Arial, sans-serif`,cap:s=>`900 ${s}px Archivo, Arial, sans-serif`,body:s=>`600 ${s}px Archivo, Arial, sans-serif`,head:s=>`900 ${s}px Archivo, Arial, sans-serif`,grain:0,karaoke:true,titleText:'THE SHIPS OF DEATH'}
+};
+const CHIPS=['SICILY · 1347','MESSINA · OCTOBER 1347','BUBOES: SWOLLEN LYMPH NODES','SHIPS EXPELLED','YERSINIA PESTIS','1347 – 1351',null,null];
+const VKEY=new Set(['dead','dead.','black','egg','late','late.','half','deadliest','pandemic','pestis','rats','fleas','twelve']);
+const land=document.createElement('canvas');land.width=W*S;land.height=H*S;const lctx=land.getContext('2d');
+const SCN={arrive:SCENES.arrive,dock:SCENES.dock,ship:(c,st,lp,ls,t)=>SCENES.ship(c,st,lp,ls,t,.45,false),dead:(c,st,lp,ls,t)=>SCENES.ship(c,st,lp,ls,t,.72,true)};
+function landScene(st,name,lp,ls,t){lctx.setTransform(S,0,0,S,0,0);lctx.globalAlpha=1;lctx.shadowBlur=0;lctx.fillStyle='#000';lctx.fillRect(0,0,W,H);lctx.save();SCN[name](lctx,st,lp,ls,t);lctx.restore();}
+function crop(c,cx,zoom,x,y,w,h,cy=H/2){let ch=H/zoom,cw=ch*w/h;if(cw>W){cw=W;ch=cw*h/w;}c.drawImage(land,clamp(cx-cw/2,0,W-cw)*S,clamp(cy-ch/2,0,H-ch)*S,cw*S,ch*S,x,y,w,h);}
+function mapAt(c,st,lon,lat,z,date,o,x,y,w,h){c.save();c.beginPath();c.rect(x,y,w,h);c.clip();const[px,py]=proj(lon,lat);c.translate(x+w/2,y+h/2);c.scale(z,z);c.translate(-px,-py);drawMap(c,st,date,{...o,z});c.restore();}
+const STB=()=>SDATA[voice].timings, SDUR=()=>SDATA[voice].duration;
+function vBounds(k){const T=STB();const s=[0,...T.slice(1).map(x=>x[0]-.2)];return[s[k],k+1<s.length?s[k+1]:SDUR()];}
+function vShotAt(t){const T=STB();let k=0;for(let i=1;i<T.length;i++)if(t>=T[i][0]-.2)k=i;return k;}
+function vSentAt(t){const T=STB();for(let i=0;i<T.length;i++)if(t>=T[i][0]-.05&&t<=T[i][1]+.25)return i;return -1;}
+function vWords(si){const s=SSENT[si],ws=s.split(' '),T=STB()[si];const tot=ws.reduce((a,w)=>a+w.length+3,0);let acc=0;return ws.map(w=>{const a=T[0]+acc/tot*(T[1]-T[0]);acc+=w.length+3;return{w,a,b:T[0]+acc/tot*(T[1]-T[0])};});}
+function people(c,V,x,y,n,filled,size=26){for(let i=0;i<n;i++){const px=x+(i%5)*size*1.6,py=y+Math.floor(i/5)*size*2.2,on=i<filled;c.fillStyle=on?V.accent:withA(V.ink,.22);c.beginPath();c.arc(px,py,size*.34,0,TAU);c.fill();rrect(c,px-size*.45,py+size*.45,size*.9,size*1.1,size*.3);c.fill();}}
+function statCard(c,st,lp,ls,t){const V=VS[st.key];c.fillStyle=V.bg;c.fillRect(0,0,VW,VH);const g=c.createRadialGradient(VW/2,VH*.42,20,VW/2,VH*.42,520);g.addColorStop(0,withA(V.accent,.16));g.addColorStop(1,withA(V.accent,0));c.fillStyle=g;c.fillRect(0,0,VW,VH);
+  const a=easeOut(clamp(ls/.5));c.globalAlpha=a;c.textAlign='center';c.textBaseline='alphabetic';c.fillStyle=V.accent;c.font=V.body(19);spacing(c,3);c.fillText(V.upper?'THE DEATH TOLL':'THE DEATH TOLL',VW/2,190);spacing(c,0);
+  c.fillStyle=V.ink;c.font=V.head(104);c.fillText('25–50',VW/2,300);c.fillStyle=V.accent;c.font=V.head(46);c.fillText(V.upper?'MILLION DEAD':'million dead',VW/2,356);
+  people(c,V,VW/2-4*26*1.6/2,410,10,Math.round(lerp(0,4,easeOut(clamp((ls-.3)/1.2)))),26);
+  c.fillStyle=withA(V.ink,.85);c.font=V.body(20);c.fillText('Up to half of Europe, 1347–1351',VW/2,520);c.globalAlpha=1;}
+function endCard(c,st,lp,ls,t){const V=VS[st.key];c.fillStyle=V.bg;c.fillRect(0,0,VW,VH);const a=easeOut(clamp(ls/.4));c.globalAlpha=a;c.textAlign='center';c.textBaseline='alphabetic';
+  c.fillStyle=V.accent;rrect(c,VW/2-70,250,140,40,20);c.fill();c.fillStyle=V.chipInk||V.bg;c.font=V.body(18);spacing(c,3);c.fillText('PART 2',VW/2,277);spacing(c,0);
+  c.fillStyle=V.ink;c.font=V.head(54);c.fillText(V.upper?'HOW EUROPE':'How Europe',VW/2,370);c.fillText(V.upper?'FOUGHT BACK':'fought back',VW/2,432);
+  c.fillStyle=withA(V.ink,.8);c.font=V.body(21);c.fillText('Follow so you don’t miss it',VW/2,488);
+  const bx=VW-118+Math.sin(t*6)*6;c.strokeStyle=V.accent;c.lineWidth=5;c.lineCap='round';c.beginPath();c.moveTo(VW/2+40,560);c.quadraticCurveTo(bx-40,570,bx,540);c.stroke();c.beginPath();c.moveTo(bx-14,532);c.lineTo(bx,540);c.lineTo(bx-6,556);c.stroke();c.globalAlpha=1;}
+const VSHOTS=[
+ (c,st,lp,ls,t)=>{landScene(st,'dead',lp,ls,t);crop(c,lerp(560,660,ease(lp)),1,0,0,VW,VH);},
+ (c,st,lp,ls,t)=>{const e=ease(lp);mapAt(c,st,lerp(22,15.5,e),lerp(44,38.3,e),lerp(.95,3.3,e),1347.78,{pulse:true,pulseT:ls,route:clamp(.35+lp*1.2)},0,0,VW,VH);},
+ (c,st,lp,ls,t)=>{landScene(st,'ship',lp,ls,t);crop(c,lerp(560,680,lp),1.05,0,0,VW,VH,330);},
+ (c,st,lp,ls,t)=>{landScene(st,'dock',lp,ls,t);crop(c,lerp(360,880,ease(lp)),1,0,0,VW,VH);},
+ (c,st,lp,ls,t)=>{micro(c,st,t,VW/2,VH/2-20,205+lp*25,false);},
+ (c,st,lp,ls,t)=>{mapAt(c,st,17,47,1.02,lerp(1347.8,1353.3,ease(clamp(lp*1.1))),{},0,0,VW,VH);},
+ statCard,endCard];
+const vA=document.createElement('canvas'),vB=document.createElement('canvas'),master=document.createElement('canvas');[vA,vB,master].forEach(x=>{x.width=VW*S;x.height=VH*S;});
+const vac=vA.getContext('2d'),vbc=vB.getContext('2d'),mc=master.getContext('2d');
+function drawV(c,st,k,t){const[s0,s1]=vBounds(k);const lp=clamp((t-s0)/(s1-s0)),ls=t-s0;c.setTransform(S,0,0,S,0,0);c.globalAlpha=1;c.globalCompositeOperation='source-over';c.shadowBlur=0;c.fillStyle='#000';c.fillRect(0,0,VW,VH);c.save();VSHOTS[k](c,st,lp,ls,t);c.restore();return{lp,ls};}
+function vVignette(c,col,amt){const g=c.createRadialGradient(VW/2,VH/2,VH*.28,VW/2,VH/2,VH*.72);g.addColorStop(0,`rgba(${col},0)`);g.addColorStop(1,`rgba(${col},${amt})`);c.fillStyle=g;c.fillRect(0,0,VW,VH);}
+function vTitle(c,V,y0){c.textAlign='center';c.textBaseline='alphabetic';let fs=40;c.font=V.title(fs);let lines=[V.titleText];if(c.measureText(V.titleText).width>430){const w=V.titleText.split(' ');const h=Math.ceil(w.length/2);lines=[w.slice(0,h).join(' '),w.slice(h).join(' ')];}
+  if(V.karaoke){lines.forEach((l,i)=>{const w=c.measureText(l).width;c.fillStyle='#FFFFFF';rrect(c,VW/2-w/2-14,y0-36+i*50,w+28,46,8);c.fill();c.fillStyle='#1F3A4D';c.fillText(l,VW/2,y0+i*50);});return y0+(lines.length-1)*50;}
+  c.shadowColor='rgba(0,0,0,.8)';c.shadowBlur=14;c.fillStyle=V.ink;lines.forEach((l,i)=>c.fillText(l,VW/2,y0+i*48));c.shadowBlur=0;return y0+(lines.length-1)*48;}
+function vChip(c,V,text,y,a){c.globalAlpha=a;c.font=V.body(15);spacing(c,2);const w=c.measureText(text).width+30;c.fillStyle=V.chipBg;rrect(c,VW/2-w/2,y-20,w,32,16);c.fill();if(!V.chipInk){c.strokeStyle=withA(V.accent,.7);c.lineWidth=1.2;c.stroke();}c.fillStyle=V.chipInk||V.accent;c.textAlign='center';c.textBaseline='middle';c.fillText(text,VW/2,y-3);spacing(c,0);c.globalAlpha=1;}
+function vCaptions(c,V,si,t){const ws=vWords(si);const chunks=[];let cur=[];ws.forEach((w,i)=>{cur.push(w);if(cur.length>=3||/[,.:]$/.test(w.w)||i===ws.length-1){chunks.push(cur);cur=[];}});
+  let ch=chunks[0];for(const k of chunks)if(k[0].a<=t)ch=k;let fs=V.soft?40:48;c.font=V.cap(fs);const txt=ch.map(w=>V.upper?w.w.toUpperCase():w.w);const sp=fs*.28;
+  let widths=txt.map(x=>c.measureText(x).width),total=widths.reduce((a,b)=>a+b,0)+sp*(txt.length-1);if(total>390){fs*=390/total;c.font=V.cap(fs);widths=txt.map(x=>c.measureText(x).width);total=widths.reduce((a,b)=>a+b,0)+sp*(txt.length-1);}
+  let x=VW/2-total/2;const y=640;c.textBaseline='middle';c.textAlign='left';c.lineJoin='round';
+  ch.forEach((w,i)=>{const shown=V.soft||w.a<=t+.02;if(!shown){x+=widths[i]+sp;return;}const p=clamp((t-w.a)/.12),s=V.soft?1:1+.18*(1-easeOut(p));const key=VKEY.has(w.w.toLowerCase().replace(/[^a-z.]/g,''))||VKEY.has(w.w.toLowerCase().replace(/[^a-z]/g,''));
+    const on=t>=w.a&&t<w.b+.05;c.save();c.translate(x+widths[i]/2,y);c.scale(s,s);
+    if(V.karaoke){if(on){c.fillStyle='#FFD166';rrect(c,-widths[i]/2-8,-fs*.62,widths[i]+16,fs*1.2,10);c.fill();c.fillStyle='#1F3A4D';}else{c.strokeStyle='rgba(20,35,48,.95)';c.lineWidth=fs*.2;c.strokeText(txt[i],-widths[i]/2,0);c.fillStyle='#FFFFFF';}c.fillText(txt[i],-widths[i]/2,0);}
+    else{c.globalAlpha=V.soft?clamp((t-(w.a-.3))/.4)*.95+.05:1;c.strokeStyle='rgba(0,0,0,.85)';c.lineWidth=fs*.18;c.strokeText(txt[i],-widths[i]/2,0);c.fillStyle=key?V.key:V.ink;c.fillText(txt[i],-widths[i]/2,0);}
+    c.restore();x+=widths[i]+sp;});c.globalAlpha=1;}
+function renderV(t){const st=STYLES[styleKey],V=VS[styleKey];const k=vShotAt(t);const[s0]=vBounds(k);
+  const cur=drawV(vbc,st,k,t);mc.setTransform(S,0,0,S,0,0);mc.globalAlpha=1;mc.globalCompositeOperation='source-over';
+  if(k>0&&t-s0<.3){drawV(vac,st,k-1,t);mc.drawImage(vA,0,0,VW,VH);mc.globalAlpha=ease((t-s0)/.3);mc.drawImage(vB,0,0,VW,VH);mc.globalAlpha=1;}else mc.drawImage(vB,0,0,VW,VH);
+  if(V.paper){mc.save();mc.globalCompositeOperation='multiply';mc.globalAlpha=.45;mc.drawImage(paper,0,0,VW,VH);mc.restore();}
+  grain(mc,V.grain,t);if(V.vig)vVignette(mc,V.vig,.6);
+  if(k<6){const g=mc.createLinearGradient(0,0,0,300);g.addColorStop(0,'rgba(0,0,0,.72)');g.addColorStop(1,'rgba(0,0,0,0)');mc.fillStyle=g;mc.fillRect(0,0,VW,300);
+    const yEnd=vTitle(mc,V,140);if(CHIPS[k])vChip(mc,V,CHIPS[k],yEnd+58,easeOut(clamp(cur.ls/.35)));}
+  const si=vSentAt(t);if(si>=0&&k<7){const g=mc.createLinearGradient(0,520,0,760);g.addColorStop(0,'rgba(0,0,0,0)');g.addColorStop(.5,'rgba(0,0,0,.35)');g.addColorStop(1,'rgba(0,0,0,0)');if(k<6){mc.fillStyle=g;mc.fillRect(0,520,VW,240);}mc.save();vCaptions(mc,V,si,t);mc.restore();}
+  phones.forEach(p=>p.drawImage(master,0,0,VW,VH));}
+
+/* ---------- carousel ---------- */
+const CW=540,CH=675;
+function panel(c,V,y,label,head,body){c.fillStyle=V.bg;c.fillRect(0,y,CW,CH-y);c.fillStyle=V.accent;c.fillRect(36,y+34,34,4);
+  c.textAlign='left';c.textBaseline='alphabetic';c.fillStyle=V.accent;c.font=V.body(15);spacing(c,2.5);c.fillText(label,36,y+66);spacing(c,0);
+  c.fillStyle=V.ink;c.font=V.head(34);let yy=y+108;wrap(c,V.upper?head.toUpperCase():head,468).forEach(l=>{c.fillText(l,36,yy);yy+=40;});
+  c.fillStyle=withA(V.ink,.84);c.font=V.body(19);yy+=4;wrap(c,body,468).forEach(l=>{c.fillText(l,36,yy);yy+=27;});}
+function slideNum(c,V,i){c.fillStyle='rgba(0,0,0,.45)';rrect(c,CW-66,18,48,26,13);c.fill();c.fillStyle='#fff';c.font="600 13px Archivo, Arial, sans-serif";c.textAlign='center';c.textBaseline='middle';c.fillText(`${i+1}/8`,CW-42,31);}
+const SLIDES=[
+ (c,st,V)=>{landScene(st,'dead',.5,2,2);crop(c,640,1,0,0,CW,CH);if(V.paper){c.save();c.globalCompositeOperation='multiply';c.globalAlpha=.45;c.drawImage(paper,0,0,CW,CH);c.restore();}
+   const g=c.createLinearGradient(0,180,0,CH);g.addColorStop(0,'rgba(0,0,0,0)');g.addColorStop(.45,'rgba(0,0,0,.7)');g.addColorStop(1,'rgba(0,0,0,.92)');c.fillStyle=g;c.fillRect(0,0,CW,CH);
+   c.textAlign='left';c.textBaseline='alphabetic';c.fillStyle=V.accent;c.font=V.body(16);spacing(c,3);c.fillText('THE BLACK DEATH · PART 1',36,440);spacing(c,0);
+   c.fillStyle=V.ink;c.font=V.title(46);let y=494;wrap(c,V.upper||st.key==='archive'?'HOW 12 SHIPS CHANGED THE WORLD':'How 12 ships changed the world',470).forEach(l=>{c.fillText(l,36,y);y+=52;});
+   c.fillStyle=V.accent;rrect(c,36,y-12,128,38,19);c.fill();c.fillStyle=V.chipInk||V.bg;c.font=V.body(16);c.fillText('Swipe  →',56,y+13);},
+ (c,st,V)=>{mapAt(c,st,17.5,40,2.3,1347.7,{route:1,pulse:true,pulseT:.5},0,0,CW,360);panel(c,V,360,'OCTOBER 1347','Twelve ships reach Sicily','Genoese trading galleys sail into Messina from the Black Sea, where the plague was already spreading.');},
+ (c,st,V)=>{landScene(st,'ship',.5,3,3);crop(c,620,1.25,0,0,CW,360,300);panel(c,V,360,'THE CREWS','Dead or dying','Survivors had black swellings called buboes. They gave bubonic plague its name.');},
+ (c,st,V)=>{micro(c,st,2,CW/2,180,150,false);panel(c,V,360,'THE CAUSE','Yersinia pestis','A bacterium carried by fleas that lived on rats. Flea bites passed it to people.');},
+ (c,st,V)=>{mapAt(c,st,15,47,1.0,1352,{},0,0,CW,360);panel(c,V,360,'HOW IT SPREAD','Most of Europe in 4 years','1347 Sicily · 1348 Paris and London · 1349 Norway · 1350 Sweden · 1353 Moscow');},
+ (c,st,V)=>{c.fillStyle=V.bg;c.fillRect(0,0,CW,CH);c.textAlign='center';c.textBaseline='alphabetic';c.fillStyle=V.accent;c.font=V.body(16);spacing(c,3);c.fillText('THE DEATH TOLL',CW/2,120);spacing(c,0);
+   c.fillStyle=V.ink;c.font=V.head(110);c.fillText('25–50',CW/2,240);c.fillStyle=V.accent;c.font=V.head(44);c.fillText(V.upper?'MILLION DEAD':'million dead',CW/2,296);
+   people(c,V,CW/2-4*28*1.6/2,356,10,4,28);c.fillStyle=withA(V.ink,.85);c.font=V.body(20);c.fillText('Between 1347 and 1351, up to',CW/2,500);c.fillText('half of all Europeans died.',CW/2,528);},
+ (c,st,V)=>{c.fillStyle=V.bg;c.fillRect(0,0,CW,CH);c.textAlign='left';c.textBaseline='alphabetic';c.fillStyle=V.accent;c.font=V.body(16);spacing(c,3);c.fillText('WHAT CHANGED',36,82);spacing(c,0);
+   const items=[['Wages rose','So many workers died that survivors could demand better pay.'],['Quarantine was born','In 1377 Ragusa (Dubrovnik) made arriving ships wait 30 days. Venice later made it 40: “quaranta giorni.”'],['Faith was shaken','Prayer could not stop the plague, and many people began to question the Church.']];
+   let y=140;items.forEach(([h,b],i)=>{c.fillStyle=V.accent;c.font=V.head(40);c.fillText(String(i+1),36,y+30);c.fillStyle=V.ink;c.font=V.head(28);c.fillText(V.upper?h.toUpperCase():h,86,y+22);c.fillStyle=withA(V.ink,.82);c.font=V.body(18);let yy=y+52;wrap(c,b,410).forEach(l=>{c.fillText(l,86,yy);yy+=25;});y=yy+30;});},
+ (c,st,V)=>{c.fillStyle=V.bg;c.fillRect(0,0,CW,CH);landScene(st,'arrive',.8,4,4);c.globalAlpha=.35;crop(c,500,1,0,0,CW,CH);c.globalAlpha=1;c.fillStyle=withA(V.bg.length===7?V.bg:'#000000',.55);c.fillRect(0,0,CW,CH);
+   c.textAlign='center';c.textBaseline='alphabetic';c.fillStyle=V.accent;c.font=V.body(16);spacing(c,3);c.fillText('WATCH THE FULL STORY',CW/2,230);spacing(c,0);
+   c.fillStyle=V.ink;c.font=V.title(44);c.fillText(V.upper||st.key==='archive'?'THE SHIPS':'The Ships',CW/2,300);c.fillText(V.upper||st.key==='archive'?'OF MESSINA':'of Messina',CW/2,352);
+   c.fillStyle=withA(V.ink,.85);c.font=V.body(19);c.fillText('The 18-minute documentary is on YouTube.',CW/2,400);
+   c.fillStyle=V.accent;rrect(c,CW/2-150,440,300,50,25);c.fill();c.fillStyle=V.chipInk||V.bg;c.font=V.body(18);c.fillText('Follow @historyhistory',CW/2,472);
+   c.fillStyle=withA(V.ink,.7);c.font=V.body(16);c.fillText('Next: Part 2, how Europe fought back',CW/2,540);}
+];
+function renderSlide(c,i){const st=STYLES[styleKey],V=VS[styleKey];c.setTransform(1,0,0,1,0,0);c.globalAlpha=1;c.globalCompositeOperation='source-over';c.shadowBlur=0;c.fillStyle='#000';c.fillRect(0,0,CW,CH);c.save();SLIDES[i](c,st,V);c.restore();if(V.grain)grain(c,V.grain*.6,0);}
+
+/* ---------- UI ---------- */
+const $=id=>document.getElementById(id);
+const phones=[...document.querySelectorAll('canvas[data-ph]')].map(x=>x.getContext('2d'));
+const ICONS={heart:'<svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.9 4.5 6.6 4.5c2.1 0 3.6 1.2 4.4 2.6.8-1.4 2.3-2.6 4.4-2.6 3.7 0 5.7 3.9 4.2 7.3C19.5 16.4 12 21 12 21z"/></svg>',
+ bubble:'<svg viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.8 2 11.5c0 2.4 1.2 4.6 3.1 6.1L4.5 21l4-1.9c1.1.3 2.3.5 3.5.5 5.5 0 10-3.8 10-8.5S17.5 3 12 3z"/></svg>',
+ mark:'<svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
+ share:'<svg viewBox="0 0 24 24"><path d="M13 5v4C6 10 3 14 3 20c2-3.5 5-5 10-5v4l8-7z"/></svg>',
+ send:'<svg viewBox="0 0 24 24"><path d="M22 3L2 11l7 3 3 7z"/></svg>',
+ like:'<svg viewBox="0 0 24 24"><path d="M2 21h4V10H2zm20-10c0-1.1-.9-2-2-2h-6.3l1-4.6c0-.5-.2-1-.5-1.3L13.2 2 6.6 8.6C6.2 9 6 9.5 6 10v9c0 1.1.9 2 2 2h9c.8 0 1.5-.5 1.8-1.2l3-7.1c.1-.2.2-.5.2-.7z"/></svg>',
+ dots:'<svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>',
+ camera:'<svg viewBox="0 0 24 24" style="width:6cqw;height:6cqw"><path d="M4 7h3l2-2h6l2 2h3v12H4z M12 10a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z" fill-rule="evenodd"/></svg>'};
+const OUT={heart:'<svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.9 4.5 6.6 4.5c2.1 0 3.6 1.2 4.4 2.6.8-1.4 2.3-2.6 4.4-2.6 3.7 0 5.7 3.9 4.2 7.3C19.5 16.4 12 21 12 21z"/></svg>',
+ bubble:'<svg viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.8 2 11.5c0 2.4 1.2 4.6 3.1 6.1L4.5 21l4-1.9c1.1.3 2.3.5 3.5.5 5.5 0 10-3.8 10-8.5S17.5 3 12 3z"/></svg>',
+ send:'<svg viewBox="0 0 24 24"><path d="M22 3L2 11l7 3 3 7zM9 14L22 3"/></svg>',mark:'<svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>'};
+document.querySelectorAll('[data-ic]').forEach(e=>e.insertAdjacentHTML('afterbegin',ICONS[e.dataset.ic]));
+document.querySelectorAll('[data-ico]').forEach(e=>e.innerHTML=OUT[e.dataset.ico]);
+document.querySelectorAll('[data-ico2]').forEach(e=>e.outerHTML=ICONS[e.dataset.ico2]);
+
+const CAPS={
+ 'cap-tt':'12 ships. Almost everyone aboard was dead. This is how the Black Death reached Europe. Part 1 of 3.\n#history #blackdeath #medievalhistory #historytok #learnontiktok',
+ 'cap-ig':'October 1347. Twelve ships drift into Messina, and the crews are dead or dying. Within four years, up to half of Europe is gone.\n\nPart 1 of 3. Full documentary on YouTube, link in bio.\n#history #blackdeath #medieval #historyfacts #plague',
+ 'cap-fb':'How did the Black Death reach Europe? It started with twelve ships in a Sicilian harbor. Part 1 of 3. The full documentary is on our page.',
+ 'cap-car':'The Black Death in 8 slides. Save this for later ↓',
+ 'cap-car-full':'The Black Death in 8 slides.\n\nIn 1347, twelve ships brought the plague to Sicily. Within four years it had killed up to half of Europe, and it changed wages, medicine and faith forever.\n\nWhich slide surprised you most? Save this for later.\n#history #blackdeath #medievalhistory #historyfacts #didyouknow',
+ 'cap-fbpost':'In October 1347, twelve ships sailed into Messina. Almost everyone aboard was dead, and what they carried would kill up to half of Europe.\n\nOur new documentary tells the story from the docks of Sicily to the streets of London. Would you have survived 1348? Tell us in the comments.'};
+CAPS['cap-fbpost-copy']=CAPS['cap-fbpost'];
+Object.entries(CAPS).forEach(([id,v])=>{const e=$(id);if(e)e.textContent=v;});
+document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{const txt=CAPS[b.dataset.copy];const ok=()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1600);};
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(txt).then(ok).catch(()=>{const r=document.createRange();r.selectNodeContents($(b.dataset.copy));const s=getSelection();s.removeAllRanges();s.addRange(r);});});
+
+const VOICE_LIST=[['British men',[['bm_george','George'],['bm_lewis','Lewis'],['bm_daniel','Daniel'],['bm_fable','Fable']]],['British women',[['bf_emma','Emma'],['bf_isabella','Isabella']]],
+ ['American men',[['am_michael','Michael'],['am_onyx','Onyx'],['am_fenrir','Fenrir'],['am_adam','Adam'],['am_puck','Puck']]],['American women',[['af_heart','Heart'],['af_bella','Bella'],['af_nicole','Nicole']]],
+ ['Custom blends',[['mix_scholar','Old Scholar'],['mix_storyteller','Storyteller']]]];
+$('voice').innerHTML=VOICE_LIST.map(([g,vs])=>`<optgroup label="${g}">${vs.filter(v=>SDATA[v[0]]).map(([id,n])=>`<option value="${id}">${n}</option>`).join('')}</optgroup>`).join('');
+$('voice').value=voice;
+const audios={};function audio(){if(!audios[voice]){const a=new Audio(SAUDIO[voice]);a.preload='auto';const me=voice;a.addEventListener('ended',()=>{if(me===voice){playing=false;t=SDUR();syncUI();dirty=true;}});audios[voice]=a;}return audios[voice];}
+const fmt=s=>{s=Math.max(0,s);return String(Math.floor(s/60)).padStart(2,'0')+':'+String(Math.floor(s%60)).padStart(2,'0');};
+function syncUI(){$('play').querySelector('span').textContent=playing?'Pause':'Play video';$('play').querySelector('svg').innerHTML=playing?'<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>':'<path d="M6 4l15 8-15 8z"/>';$('time').textContent=fmt(t)+' / '+fmt(SDUR());}
+function play(){const a=audio();if(t>=SDUR()-.05)t=0;a.currentTime=t;a.play().then(()=>{playing=true;syncUI();}).catch(()=>{playing=false;syncUI();});}
+function pause(){audio().pause();playing=false;syncUI();}
+$('play').onclick=()=>playing?pause():play();
+$('restart').onclick=()=>{audio().pause();t=0;audio().currentTime=0;play();};
+$('voice').onchange=e=>{const was=playing;if(was)audio().pause();const A=SDATA[voice].timings,B=SDATA[e.target.value].timings;let nt=t;for(let i=A.length-1;i>=0;i--){if(t>=A[i][0]){nt=B[i][0]+Math.min(t-A[i][0],B[i][1]-B[i][0]);break;}}
+  voice=e.target.value;t=nt;audio().currentTime=t;if(was)audio().play();playing=was;dirty=true;save();syncUI();};
+$('safe').onchange=e=>document.querySelectorAll('.safe').forEach(s=>s.hidden=!e.target.checked);
+function save(){try{const s=JSON.parse(localStorage.getItem('hh-picks')||'{}')||{};s.voice=voice;s.style=styleKey;localStorage.setItem('hh-picks',JSON.stringify(s));}catch(e){}}
+$('styles').innerHTML=Object.values(STYLES).map(s=>`<button class="chipbtn" data-k="${s.key}">${s.name}</button>`).join('');
+function markStyles(){document.querySelectorAll('#styles .chipbtn').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===styleKey));}
+document.querySelectorAll('#styles .chipbtn').forEach(b=>b.onclick=()=>{styleKey=b.dataset.k;markStyles();save();dirty=true;renderStatic();});
+
+const sc=$('slide').getContext('2d');
+$('dots').innerHTML=SLIDES.map(()=>'<i></i>').join('');
+$('strip').innerHTML=SLIDES.map((_,i)=>`<button aria-label="Slide ${i+1}"><canvas width="270" height="338"></canvas></button>`).join('');
+document.querySelectorAll('#strip button').forEach((b,i)=>b.onclick=()=>{slide=i;showSlide();});
+function showSlide(){renderSlide(sc,slide);$('count').textContent=`${slide+1}/8`;$('prev').disabled=slide===0;$('next').disabled=slide===SLIDES.length-1;
+  document.querySelectorAll('#dots i').forEach((d,i)=>d.classList.toggle('on',i===slide));document.querySelectorAll('#strip button').forEach((b,i)=>b.setAttribute('aria-current',i===slide));}
+$('prev').onclick=()=>{if(slide>0){slide--;showSlide();}};$('next').onclick=()=>{if(slide<SLIDES.length-1){slide++;showSlide();}};
+const off=document.createElement('canvas');off.width=CW;off.height=CH;const oc=off.getContext('2d');
+function renderStatic(){showSlide();document.querySelectorAll('#strip canvas').forEach((cv,i)=>{renderSlide(oc,i);cv.getContext('2d').drawImage(off,0,0,270,338);});
+  const fc=$('fbthumb').getContext('2d');fc.setTransform(1,0,0,1,0,0);fc.globalAlpha=1;fc.shadowBlur=0;fc.fillStyle='#000';fc.fillRect(0,0,W,H);fc.save();THUMBS[styleKey](fc,STYLES[styleKey]);fc.restore();}
+markStyles();syncUI();
+function loop(){if(playing){t=audio().currentTime;syncUI();renderV(t);}else if(dirty){renderV(t);dirty=false;}requestAnimationFrame(loop);}
+renderStatic();renderV(t);loop();
+const fontsReady=Promise.all(["700 20px Cinzel","600 20px 'EB Garamond'","700 20px Oswald","italic 500 20px Lora","800 20px Archivo","900 20px Archivo","500 20px Archivo"].map(f=>document.fonts.load(f).catch(()=>{})));
+Promise.race([fontsReady,new Promise(r=>setTimeout(r,2500))]).then(()=>{dirty=true;renderStatic();});
+</script>
+
+</body></html>
