@@ -177,7 +177,12 @@ def main():
     thumb = ROOT / "media" / week / f"{week}-doc-thumb.png"
     wk = ROAD["weeks"][int(doc["week"]) - 1]
     still(page, 2.4, thumb, f"DPR=1.5;thumbBait(OUT,{json.dumps(wk)},t)")
-    print(f"{out} · {out.stat().st_size / 1e6:.1f} MB · {kbps} kbps video\n{thumb}", flush=True)
+    # YouTube thumbnails must be JPG/PNG under 2 MB.
+    from PIL import Image
+    jpg = thumb.with_suffix(".jpg")
+    Image.open(thumb).convert("RGB").save(jpg, quality=90)
+    thumb.unlink()
+    print(f"{out} · {out.stat().st_size / 1e6:.1f} MB · {kbps} kbps video\n{jpg}", flush=True)
 
 
 if __name__ == "__main__":

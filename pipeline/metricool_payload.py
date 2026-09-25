@@ -38,5 +38,33 @@ def payload(short_path, sha):
     return {"blogId": BRAND["metricool_brand_id"], "date": f"{when}{offset[:3]}:{offset[3:]}", "info": info}
 
 
+
+def doc_payloads(doc_path, sha):
+    """YouTube (Wed 16:00) and Facebook (Wed 11:00) posts for a weekly documentary."""
+    d = json.loads(Path(doc_path).read_text())
+    week = d["id"].split("-")[0]
+    base = f"https://raw.githubusercontent.com/{REPO}/{sha}/media/{week}"
+    chapters = (ROOT / "output" / week / "doc" / "chapters.txt").read_text().strip()
+    desc = d["description"].replace("Chapters are added automatically.", "Chapters:\n" + chapters)
+    out = []
+    for network, slot in (("facebook", "11:00"), ("youtube", "16:00")):
+        when = f"{d['date']}T{slot}:00"
+        offset = datetime.fromisoformat(when).replace(tzinfo=ZoneInfo(BRAND["timezone"])).strftime("%z")
+        info = {
+            "autoPublish": True, "draft": False, "descendants": [], "firstCommentText": "", "hasNotReadNotes": False,
+            "media": [f"{base}/{week}-doc.mp4"], "mediaAltText": [], "providers": [{"network": network}],
+            "publicationDate": {"dateTime": when, "timezone": BRAND["timezone"]},
+            "shortener": False, "smartLinkData": {"ids": []}, "text": desc,
+        }
+        if network == "youtube":
+            info["youtubeData"] = {"title": d["youtube_title"], "type": "video", "privacy": "public", "tags": d["tags"],
+                                   "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": True}
+            info["videoThumbnailUrl"] = f"{base}/{week}-doc-thumb.jpg"
+        else:
+            info["facebookData"] = {"type": "POST", "title": d["title"]}
+        out.append({"blogId": BRAND["metricool_brand_id"], "date": f"{when}{offset[:3]}:{offset[3:]}", "info": info})
+    return out
+
+
 if __name__ == "__main__":
     print(json.dumps(payload(sys.argv[1], sys.argv[2]), ensure_ascii=False))
