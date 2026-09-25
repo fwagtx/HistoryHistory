@@ -53,8 +53,11 @@ def chromium():
     return found[-1] if found else None
 
 
-def render(timings, narration, voice, style, out, fps=30):
+def render(timings, narration, voice, style, out, fps=30, meta=None):
     data = json.loads(Path(timings).read_text())
+    if meta:
+        # Per-short title, fact chips, scene order and cards for the engine.
+        data["meta"] = meta
     duration = data[voice]["duration"]
     html = ENGINE.read_text().replace("__SDATA__", json.dumps(data)).replace("<body>", font_css() + "<body>", 1)
     page_path = Path(out).with_suffix(".engine.html")
@@ -107,8 +110,10 @@ def main():
     ap.add_argument("--style", default="noir", choices=["archive", "atlas", "noir", "candle", "explainer"])
     ap.add_argument("--out", required=True)
     ap.add_argument("--fps", type=int, default=30)
+    ap.add_argument("--short", help="Short JSON whose 'meta' drives titles, chips and scenes")
     a = ap.parse_args()
-    print(render(a.timings, a.narration, a.voice, a.style, a.out, a.fps))
+    meta = json.loads(Path(a.short).read_text())["meta"] if a.short else None
+    print(render(a.timings, a.narration, a.voice, a.style, a.out, a.fps, meta))
 
 
 if __name__ == "__main__":

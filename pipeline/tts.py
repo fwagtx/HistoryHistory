@@ -106,12 +106,13 @@ def narrate(sentences, voice, mode, out_dir):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("script", type=Path, help="JSON list of sentences")
+    ap.add_argument("script", type=Path, help="JSON list of sentences, or a short/episode JSON with a 'sentences' field")
     ap.add_argument("--voice", default="am_adam")
     ap.add_argument("--mode", choices=PACING, default="short")
     ap.add_argument("--out", type=Path, required=True)
     args = ap.parse_args()
-    sentences = json.loads(args.script.read_text())
+    script = json.loads(args.script.read_text())
+    sentences = script["sentences"] if isinstance(script, dict) else script
     path, data = narrate(sentences, args.voice, args.mode, args.out)
     print(f"{path} · {data[args.voice]['duration']}s")
 
