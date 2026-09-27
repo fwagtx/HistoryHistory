@@ -49,7 +49,7 @@
    "say": "In 1839, a Chinese official flushed a thousand tons of opium into the sea, and started a war.",
    "show": {
     "k": "scene",
-    "bg": "harbor",
+    "bg": "town",
     "cast": [
      {
       "id": "lin",
@@ -58,7 +58,7 @@
       "mood": "angry"
      }
     ],
-    "cam": "push",
+    "cam": "still",
     "place": "Canton, China · 1839",
     "tag": {
      "id": "lin",
@@ -68,7 +68,7 @@
      {
       "k": "crate",
       "x": 0.75,
-      "s": 0.5,
+      "s": 0.8,
       "label": "OPIUM"
      }
     ]
@@ -86,7 +86,7 @@
      {
       "k": "sailship",
       "x": 0.5,
-      "s": 0.7,
+      "s": 0.84,
       "flag": "uk",
       "move": [
        0.3,
@@ -136,7 +136,7 @@
    "say": "Hand over the opium. All of it.",
    "show": {
     "k": "scene",
-    "bg": "harbor",
+    "bg": "market",
     "cast": [
      {
       "id": "lin",
@@ -175,13 +175,13 @@
      {
       "k": "crate",
       "x": 0.55,
-      "s": 0.45,
+      "s": 0.72,
       "label": "OPIUM"
      },
      {
       "k": "barrel",
       "x": 0.8,
-      "s": 0.45
+      "s": 0.9
      }
     ],
     "stickers": [
@@ -198,7 +198,7 @@
    "say": "His own diary says he first wrote an apology to the god of the sea.",
    "show": {
     "k": "scene",
-    "bg": "sea",
+    "bg": "deck",
     "cast": [
      {
       "id": "lin",
@@ -226,13 +226,13 @@
      {
       "k": "sailship",
       "x": 0.3,
-      "s": 0.65,
+      "s": 0.78,
       "flag": "uk"
      },
      {
       "k": "junk",
       "x": 0.75,
-      "s": 0.6,
+      "s": 0.72,
       "flip": true
      }
     ],
