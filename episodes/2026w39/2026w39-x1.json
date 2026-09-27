@@ -4,7 +4,7 @@
  "date": "2026-09-27",
  "slot": "19:00",
  "title": "The Man Who Told Alexander the Great to Move",
- "hook": "RUDEST MAN IN GREECE",
+ "hook": "HE TOLD ALEXANDER TO MOVE",
  "music": "playful",
  "cast": {
   "diogenes": {
@@ -20,14 +20,24 @@
    "hair": "curly",
    "hairColor": "#B8863A",
    "outfit": "armor",
-   "color": "#C9A04A",
-   "color2": "#A8322A",
+   "hat": "laurel",
    "name": "Alexander the Great"
   },
-  "plato": {
-   "preset": "philosopher",
-   "color": "#2F6FC2",
-   "name": "Plato"
+  "greek1": {
+   "preset": "greek",
+   "color": "#2F6FC2"
+  },
+  "greek2": {
+   "preset": "greek",
+   "hat": "laurel",
+   "color": "#A8322A",
+   "beard": "goatee"
+  },
+  "rich": {
+   "preset": "greek",
+   "hat": "laurel",
+   "color": "#6A3E8E",
+   "hold": "moneybag"
   }
  },
  "voices": {
@@ -37,11 +47,12 @@
  "beats": [
   {
    "who": "N",
-   "say": "Alexander the Great was about to conquer an empire, and a guy living in a jar told him to move.",
+   "say": "A man living in a clay jar once told Alexander the Great to move.",
    "show": {
     "k": "scene",
     "bg": "greek",
     "cam": "push",
+    "place": "Corinth, Greece · 336 BC",
     "cast": [
      {
       "id": "alexander",
@@ -52,8 +63,137 @@
      {
       "id": "diogenes",
       "x": 0.68,
-      "pose": "sit",
-      "mood": "neutral"
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MOVE!",
+      "at": 2.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Alexander was the new king of Macedonia, and about to conquer a huge empire.",
+   "show": {
+    "k": "map",
+    "lon": 22.8,
+    "lat": 39.3,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "336 BC",
+    "labels": [
+     [
+      "Macedonia",
+      22.3,
+      40.9,
+      0
+     ],
+     [
+      "Corinth",
+      22.9,
+      37.9,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      22.3,
+      40.8,
+      1.2,
+      "rgba(214,48,40,.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Diogenes was a philosopher who owned almost nothing and slept in a big jar, on purpose.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cam": "push",
+    "place": "The streets of Corinth",
+    "cast": [
+     {
+      "id": "diogenes",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "diogenes",
+     "text": "Diogenes, philosopher"
+    },
+    "stickers": [
+     {
+      "text": "HOME = A JAR",
+      "at": 2.5,
+      "color": "#C8702A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He thought happiness needs very little, and he loved mocking the rich.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "rich",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "angry"
+     },
+     {
+      "id": "diogenes",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LESS STUFF = MORE HAPPY",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When Alexander visited Corinth, crowds came to praise him. Diogenes stayed outside, sunbathing.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "greek1",
+      "x": 0.2,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "alexander",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "greek2",
+      "x": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
      }
     ],
     "tag": {
@@ -64,114 +204,34 @@
   },
   {
    "who": "N",
-   "say": "Meet Diogenes, a philosopher who, ancient writers say, lived in a big clay jar on purpose.",
+   "say": "So Alexander went to him.",
    "show": {
     "k": "scene",
-    "bg": "greek",
-    "cam": "close",
-    "cast": [
-     {
-      "id": "diogenes",
-      "x": 0.5,
-      "pose": "shrug",
-      "mood": "happy"
-     }
-    ],
-    "focus": "diogenes",
-    "tag": {
-     "id": "diogenes",
-     "text": "Diogenes"
-    },
-    "stickers": [
-     {
-      "text": "HOME SWEET JAR",
-      "at": 1.2,
-      "color": "#C8702A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "He reportedly carried a lamp in broad daylight, looking for a real human being.",
-   "show": {
-    "k": "scene",
-    "bg": "market",
-    "cam": "pan",
-    "cast": [
-     {
-      "id": "diogenes",
-      "x": 0.4,
-      "pose": "hold",
-      "hold": "lantern",
-      "walk": [
-       0.2,
-       0.55
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "When Plato defined humans as featherless bipeds, Diogenes supposedly brought him a plucked chicken.",
-   "show": {
-    "k": "scene",
-    "bg": "greek",
+    "bg": "field",
     "cam": "push",
-    "cast": [
-     {
-      "id": "plato",
-      "x": 0.3,
-      "pose": "facepalm",
-      "mood": "angry"
-     },
-     {
-      "id": "diogenes",
-      "x": 0.68,
-      "pose": "present",
-      "mood": "smug"
-     }
-    ],
-    "tag": {
-     "id": "plato",
-     "text": "Plato"
-    },
-    "stickers": [
-     {
-      "text": "HERE IS PLATO'S MAN",
-      "at": 1.8,
-      "color": "#A8322A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "So, says Plutarch, young King Alexander finds him sunbathing in Corinth and asks what he wants.",
-   "show": {
-    "k": "scene",
-    "bg": "greek",
-    "cam": "push",
+    "place": "Just outside Corinth",
     "cast": [
      {
       "id": "alexander",
       "x": 0.3,
-      "pose": "present",
-      "mood": "happy",
-      "enter": "left"
+      "pose": "walk",
+      "walk": [
+       0.12,
+       0.3
+      ]
      },
      {
       "id": "diogenes",
-      "x": 0.68,
-      "pose": "sit"
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "happy"
      }
     ]
    }
   },
   {
    "who": "alexander",
-   "say": "Name anything. It's yours.",
+   "say": "Ask me for anything you want.",
    "show": {
     "k": "scene",
     "bg": "greek",
@@ -194,7 +254,7 @@
   },
   {
    "who": "diogenes",
-   "say": "Stand a little out of my sun.",
+   "say": "Stand out of my sunlight.",
    "show": {
     "k": "scene",
     "bg": "greek",
@@ -214,10 +274,13 @@
      }
     ],
     "focus": "diogenes",
+    "fx": [
+     "sparkle"
+    ],
     "stickers": [
      {
-      "text": "DENIED",
-      "at": 0.8,
+      "text": "YOU'RE BLOCKING MY SUN",
+      "at": 0.6,
       "color": "#A8322A"
      }
     ]
@@ -225,32 +288,16 @@
   },
   {
    "who": "N",
-   "say": "Alexander supposedly said that if he weren't Alexander, he'd be Diogenes.",
+   "say": "Plutarch, a Greek writer, says Alexander wasn't angry. He said: if I weren't Alexander, I'd be Diogenes.",
    "show": {
-    "k": "scene",
-    "bg": "greek",
-    "cam": "push",
-    "cast": [
-     {
-      "id": "alexander",
-      "x": 0.35,
-      "pose": "think",
-      "mood": "neutral",
-      "exit": "left",
-      "exitAt": 3.5
-     },
-     {
-      "id": "diogenes",
-      "x": 0.68,
-      "pose": "sit",
-      "mood": "happy"
-     }
-    ]
+    "k": "quote",
+    "text": "If I were not Alexander, I would be Diogenes.",
+    "who": "Alexander, as told by Plutarch, Life of Alexander 14"
    }
   },
   {
    "who": "N",
-   "say": "Follow for more history that sounds made up.",
+   "say": "A king with everything envied a man with nothing. Follow for more.",
    "show": {
     "k": "end",
     "cast": [
@@ -270,7 +317,7 @@
    }
   }
  ],
- "caption": "He could have asked Alexander the Great for anything. He asked for shade.\n\nFollow for 4 stories a day.\n#history #diogenes #alexanderthegreat #historytok #ancientgreece",
+ "caption": "He could ask Alexander the Great for anything. He asked him to move.\n\nFollow for 4 stories a day.\n#history #diogenes #alexanderthegreat #historytok #ancientgreece",
  "youtube_title": "The Man Who Told Alexander the Great to Move #shorts",
  "tags": [
   "diogenes",
