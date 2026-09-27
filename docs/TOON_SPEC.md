@@ -1,6 +1,6 @@
 # History Pros toon script spec
 
-From Oct 5, 2026 every History Pros video uses the **toon** look: hand-drawn cartoon characters on bright backgrounds, a casual and funny storyteller voice, and short character skits. Voice #3 (`am_michael`) narrates. A script is one JSON file; `pipeline/toon_render.py` turns it into a finished video, and `pipeline/validate_toon.py` checks it first.
+From Sep 27, 2026 every History Pros video uses the **toon** look: hand-drawn cartoon characters on bright backgrounds, a casual and funny storyteller voice, and short character skits. Voice #3 (`am_michael`) narrates. A script is one JSON file; `pipeline/toon_render.py` turns it into a finished video, and `pipeline/validate_toon.py` checks it first.
 
 ## Cadence
 

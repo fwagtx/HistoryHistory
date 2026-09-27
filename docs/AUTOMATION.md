@@ -68,7 +68,7 @@ Start three general-purpose agents in the background, one per long-form, using t
 >
 > **Angles to consider** (verify each; drop or hedge what you can't confirm; label legends as legends on screen): `<ANGLES>`.
 >
-> **Research and sources.** Research every factual claim with the web tools (Wikipedia plus at least one other reliable source for key numbers) and list the URLs in "sources". Keep it advertiser-safe.
+> **Research and sources.** Research every factual claim with the web tools: WebSearch always works; Firecrawl may be out of credits and direct Wikipedia fetches are blocked, so don't stall on them (Wikipedia plus at least one other reliable source for key numbers) and list the URLs in "sources". Keep it advertiser-safe.
 >
 > **Characters.** Real people get a "name" and an era-appropriate look, and a "tag" on first appearance.
 >
@@ -116,7 +116,7 @@ Check one URL from the payloads with `curl -sI` (expect 200) before scheduling.
 
 For each day of the week, call `getScheduledPosts` with brandId 7081960 and timezone America/Chicago, one day at a time:
 
-- **Old dark-style posts are still there** (only until Oct 25, 2026): replace them in place. Use `updateScheduledPost` (id + uuid) with the new payload's `info`, including the new `publicationDate`, for as many posts as that day has. Use `createScheduledPost` for the rest. The old Wednesday documentary posts (Facebook 11:00, YouTube 16:00) become that Wednesday's long-form posts.
+- **Old dark-style posts are still there** (only until Oct 25, 2026; they read "Follow for 3 stories a day"): replace them in place. Use `updateScheduledPost` (id + uuid) with the new payload's `info`, including the new `publicationDate`, for as many posts as that day has. Use `createScheduledPost` for the rest. The old Wednesday documentary posts (Facebook 11:00, YouTube 16:00) become that Wednesday's long-form posts.
 - **A post from this week's plan is already there** (same title and time, from an interrupted run): skip it. Never create duplicates.
 - **Otherwise:** create each post with `createScheduledPost` (blogId 7081960, the payload's `date` and `info` as a JSON string).
 
