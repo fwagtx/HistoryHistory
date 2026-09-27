@@ -198,8 +198,7 @@
      {
       "k": "crown",
       "x": 0.7,
-      "s": 0.8,
-      "y": 0.12,
+      "s": 0.9,
       "enter": "pop",
       "label": "CROWN JEWELS"
      }
@@ -326,6 +325,7 @@
      {
       "id": "blood",
       "x": 0.5,
+      "s": 0.6,
       "mood": "smug",
       "hold": "moneybag"
      }
@@ -685,15 +685,7 @@
     "k": "card",
     "label": "Blood's reward, instead of punishment",
     "big": "£500 A YEAR",
-    "sub": "in Irish land, as usually reported, plus a royal pardon",
-    "cast": [
-     {
-      "id": "blood",
-      "x": 0.85,
-      "mood": "smug",
-      "hold": "coin"
-     }
-    ]
+    "sub": "in Irish land, as usually reported, plus a royal pardon"
    }
   },
   {
@@ -968,14 +960,7 @@
     "k": "card",
     "label": "Time the Mona Lisa was missing",
     "big": "2+ YEARS",
-    "sub": "in a trunk, in a room in Paris",
-    "cast": [
-     {
-      "id": "peruggia",
-      "x": 0.85,
-      "mood": "smug"
-     }
-    ]
+    "sub": "in a trunk, in a room in Paris"
    }
   },
   {
@@ -1145,12 +1130,6 @@
       -0.12,
       51.51,
       14
-     ],
-     [
-      "Bridego Bridge",
-      -0.69,
-      51.87,
-      -150
      ]
     ],
     "route": [
@@ -1253,15 +1232,7 @@
     "k": "card",
     "label": "Taken from the mail train",
     "big": "£2.6 MILLION",
-    "sub": "worth tens of millions today",
-    "cast": [
-     {
-      "id": "robber1",
-      "x": 0.85,
-      "mood": "smug",
-      "hold": "moneybag"
-     }
-    ]
+    "sub": "worth tens of millions today"
    }
   },
   {
@@ -1685,25 +1656,26 @@
     "cast": [
      {
       "id": "vaultguy1",
-      "x": 0.25,
+      "x": 0.2,
       "mood": "smug"
      },
      {
       "id": "vaultguy2",
-      "x": 0.4
+      "x": 0.35
      }
     ],
     "objects": [
      {
       "k": "sign",
-      "x": 0.75,
+      "x": 0.85,
       "text": "BRINK'S-MAT"
      },
      {
       "k": "plane",
       "x": 0.6,
       "color": "#F2F2F2",
-      "s": 0.6
+      "s": 0.6,
+      "alt": 650
      }
     ],
     "place": "Heathrow Airport, London · 1983"
@@ -1730,6 +1702,7 @@
      {
       "k": "crate",
       "x": 0.5,
+      "s": 1.3,
       "label": "CASH?"
      }
     ]
@@ -1760,8 +1733,7 @@
       "s": 1.3,
       "front": true
      }
-    ],
-    "cam": "close"
+    ]
    }
   },
   {
