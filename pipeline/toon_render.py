@@ -168,6 +168,16 @@ def encode(chunks, audio, fmt, duration, out, work):
                     "-map", "0:v", "-map", "1:a", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", "-shortest", str(out)], check=True)
 
 
+def write_chapters(script, tv):
+    """YouTube chapters from chapter cards ("1347 The Ships of Death") and list cards ("#7 The Kettle War")."""
+    def name(show):
+        if show["k"] == "list":
+            return f"#{show.get('n', '')} {show.get('title', '')}"
+        return (f"{show.get('year', '')} " if show.get("year") else "") + show.get("title", "")
+    chapters = [(0.0, "Intro")] + [(sh["s0"], name(sh["show"])) for sh in tv["shots"] if sh["show"]["k"] in ("chapter", "list")]
+    (OUT / f"{script['id']}-chapters.txt").write_text("\n".join(f"{int(s // 60)}:{int(s % 60):02d} {n.strip()}" for s, n in chapters) + "\n")
+
+
 def render(script_path, jobs=4, only_stills=False, seconds=None):
     script = json.loads(Path(script_path).read_text())
     fmt = script["format"]
@@ -196,9 +206,7 @@ def render(script_path, jobs=4, only_stills=False, seconds=None):
     if fmt == "long":
         if script.get("thumbnail"):
             thumbnail(page, script["thumbnail"], OUT / f"{script['id']}-thumb.jpg")
-        chapters = [(0.0, "Intro")] + [(sh["s0"], (f"{sh['show'].get('year', '')} " if sh["show"].get("year") else "") + sh["show"].get("title", ""))
-                                       for sh in tv["shots"] if sh["show"]["k"] == "chapter"]
-        (OUT / f"{script['id']}-chapters.txt").write_text("\n".join(f"{int(s // 60)}:{int(s % 60):02d} {n.strip()}" for s, n in chapters) + "\n")
+        write_chapters(script, tv)
     for c in chunks:
         Path(c).unlink(missing_ok=True)
     print(f"  {dest.name}: {duration:.1f}s, {dest.stat().st_size / 1e6:.1f} MB, {(time.time() - t0) / 60:.1f} min", flush=True)
