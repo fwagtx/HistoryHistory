@@ -145,11 +145,6 @@
    "skin": "light",
    "name": "Qin Shi Huang"
   },
-  "redcoat": {
-   "preset": "redcoat",
-   "hat": "kepi",
-   "hatColor": "#262322"
-  },
   "samurai": {
    "preset": "samurai"
   },
@@ -314,7 +309,7 @@
      {
       "k": "jar",
       "x": 0.5,
-      "s": 0.6,
+      "s": 0.96,
       "front": true,
       "label": "PILLS"
      }
@@ -412,12 +407,12 @@
      {
       "k": "jar",
       "x": 0.25,
-      "s": 0.6
+      "s": 0.96
      },
      {
       "k": "banner",
       "x": 0.8,
-      "s": 0.8
+      "s": 1.28
      }
     ]
    }
@@ -470,7 +465,7 @@
      {
       "k": "chariot",
       "x": 0.5,
-      "s": 0.8
+      "s": 1.12
      }
     ],
     "stickers": [
@@ -506,12 +501,12 @@
      {
       "k": "cart",
       "x": 0.72,
-      "s": 0.8
+      "s": 1.12
      },
      {
       "k": "moneypile",
       "x": 0.92,
-      "s": 0.6
+      "s": 0.96
      }
     ],
     "stickers": [
@@ -562,7 +557,7 @@
      {
       "k": "tent",
       "x": 0.08,
-      "s": 0.6
+      "s": 0.96
      }
     ]
    }
@@ -612,7 +607,7 @@
      {
       "k": "rock",
       "x": 0.5,
-      "s": 0.6
+      "s": 0.96
      }
     ]
    }
@@ -699,7 +694,7 @@
      {
       "k": "chariot",
       "x": 0.74,
-      "s": 0.7
+      "s": 0.98
      }
     ]
    }
@@ -772,7 +767,7 @@
      {
       "k": "banner",
       "x": 0.5,
-      "s": 0.8
+      "s": 1.28
      }
     ]
    }
@@ -803,7 +798,7 @@
      {
       "k": "tent",
       "x": 0.88,
-      "s": 0.7
+      "s": 1.12
      }
     ]
    }
@@ -835,7 +830,7 @@
      {
       "k": "palm",
       "x": 0.88,
-      "s": 0.6
+      "s": 0.96
      }
     ]
    }
@@ -870,7 +865,7 @@
      {
       "k": "tent",
       "x": 0.5,
-      "s": 0.7
+      "s": 1.12
      }
     ]
    }
@@ -924,7 +919,7 @@
      {
       "k": "scrollbig",
       "x": 0.78,
-      "s": 0.7,
+      "s": 1.12,
       "text": "NEW LANDS"
      }
     ]
@@ -1050,12 +1045,12 @@
      {
       "k": "moneypile",
       "x": 0.7,
-      "s": 0.6
+      "s": 0.96
      },
      {
       "k": "column",
       "x": 0.92,
-      "s": 0.8
+      "s": 1.28
      }
     ]
    }
@@ -1102,7 +1097,7 @@
      {
       "k": "banner",
       "x": 0.9,
-      "s": 0.8
+      "s": 1.28
      }
     ]
    }
@@ -1128,7 +1123,7 @@
      {
       "k": "desk",
       "x": 0.2,
-      "s": 0.7
+      "s": 1.12
      }
     ]
    }
@@ -1142,7 +1137,7 @@
    "say": "By later centuries, candidates memorized the classics of Confucius, a wise teacher from around 500 BC, and then got locked in a tiny cell for three days and two nights to write essays.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "courtroom",
     "cast": [
      {
       "id": "scholar",
@@ -1162,7 +1157,7 @@
      {
       "k": "desk",
       "x": 0.15,
-      "s": 0.6
+      "s": 0.96
      }
     ],
     "stickers": [
@@ -1183,7 +1178,7 @@
    "say": "The desk turns into a bed. You're welcome.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "courtroom",
     "cast": [
      {
       "id": "examiner",
@@ -1223,7 +1218,7 @@
      {
       "k": "scrollbig",
       "x": 0.82,
-      "s": 0.6,
+      "s": 0.96,
       "text": "NO NOTES"
      }
     ]
@@ -1251,7 +1246,7 @@
      {
       "k": "goldpile",
       "x": 0.75,
-      "s": 0.7
+      "s": 1.12
      }
     ]
    }
@@ -1304,12 +1299,12 @@
      {
       "k": "jar",
       "x": 0.15,
-      "s": 0.6
+      "s": 0.96
      },
      {
       "k": "fire",
       "x": 0.75,
-      "s": 0.6
+      "s": 0.96
      }
     ]
    }
@@ -1378,7 +1373,7 @@
      {
       "k": "fire",
       "x": 0.7,
-      "s": 0.9,
+      "s": 1.4,
       "front": true
      }
     ],
@@ -1432,12 +1427,12 @@
      {
       "k": "bomb",
       "x": 0.6,
-      "s": 0.7
+      "s": 1.12
      },
      {
       "k": "fire",
       "x": 0.85,
-      "s": 0.7
+      "s": 1.12
      }
     ],
     "stickers": [
@@ -1488,7 +1483,7 @@
      {
       "k": "globe",
       "x": 0.9,
-      "s": 0.6
+      "s": 0.96
      }
     ]
    }
@@ -1520,7 +1515,7 @@
      {
       "k": "cart",
       "x": 0.5,
-      "s": 0.8,
+      "s": 1.12,
       "load": "gold",
       "front": true
      }
@@ -1577,7 +1572,7 @@
      {
       "k": "moneypile",
       "x": 0.8,
-      "s": 0.7
+      "s": 1.12
      }
     ]
    }
@@ -1605,7 +1600,7 @@
      {
       "k": "scrollbig",
       "x": 0.78,
-      "s": 0.7,
+      "s": 1.12,
       "text": "JIAOZI"
      }
     ],
@@ -1662,7 +1657,7 @@
      {
       "k": "tent",
       "x": 0.9,
-      "s": 0.7
+      "s": 1.12
      }
     ]
    }
@@ -1947,29 +1942,19 @@
    "show": {
     "k": "scene",
     "bg": "harbor",
-    "cast": [
-     {
-      "id": "zhenghe",
-      "x": 0.2,
-      "pose": "salute",
-      "mood": "happy"
-     }
-    ],
+    "cast": [],
     "cam": "pan",
-    "tag": {
-     "id": "zhenghe",
-     "text": "Admiral Zheng He"
-    },
     "objects": [
      {
       "k": "junk",
-      "x": 0.5,
-      "s": 0.8
+      "x": 0.3,
+      "s": 0.9
      },
      {
       "k": "junk",
-      "x": 0.8,
-      "s": 0.65
+      "x": 0.72,
+      "s": 0.75,
+      "label": "Zheng He's fleet"
      }
     ],
     "stickers": [
@@ -2056,23 +2041,21 @@
    "say": "In 1414, the Sultan of Bengal sent the emperor a gift that had originally come from East Africa: a live giraffe.",
    "show": {
     "k": "scene",
-    "bg": "sea",
-    "cast": [],
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "zhenghe",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "shock"
+     }
+    ],
     "cam": "pan",
     "objects": [
      {
-      "k": "junk",
-      "x": 0.4,
-      "s": 0.8,
-      "move": [
-       0.25,
-       0.55
-      ]
-     },
-     {
       "k": "crate",
-      "x": 0.8,
-      "s": 0.7,
+      "x": 0.65,
+      "s": 1.2,
       "label": "1 GIRAFFE"
      }
     ],
@@ -2082,7 +2065,11 @@
       "at": 1.2,
       "color": "#A8322A"
      }
-    ]
+    ],
+    "tag": {
+     "id": "zhenghe",
+     "text": "Admiral Zheng He"
+    }
    }
   },
   {
@@ -2225,7 +2212,7 @@
      {
       "k": "goldpile",
       "x": 0.2,
-      "s": 0.7
+      "s": 1.12
      },
      {
       "k": "throne",
@@ -2266,7 +2253,7 @@
      {
       "k": "globe",
       "x": 0.5,
-      "s": 0.6,
+      "s": 0.96,
       "front": true
      }
     ]
@@ -2308,26 +2295,20 @@
    "show": {
     "k": "scene",
     "bg": "harbor",
-    "cast": [
-     {
-      "id": "redcoat",
-      "x": 0.25,
-      "pose": "hold"
-     }
-    ],
+    "cast": [],
     "cam": "push",
     "place": "Canton, China · 1830s",
     "objects": [
      {
       "k": "sailship",
-      "x": 0.65,
-      "s": 0.8,
+      "x": 0.45,
+      "s": 0.9,
       "flag": "uk"
      },
      {
       "k": "crate",
-      "x": 0.9,
-      "s": 0.6,
+      "x": 0.85,
+      "s": 1.0,
       "label": "OPIUM"
      }
     ]
@@ -2412,7 +2393,7 @@
      {
       "k": "scrollbig",
       "x": 0.8,
-      "s": 0.6,
+      "s": 0.96,
       "text": "EXAMS: CANCELLED"
      }
     ]

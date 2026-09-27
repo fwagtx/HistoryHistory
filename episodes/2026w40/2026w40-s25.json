@@ -60,17 +60,12 @@
      {
       "k": "crown",
       "x": 0.25,
-      "s": 0.9,
+      "s": 1.44,
       "front": true,
-      "enter": "pop",
-      "label": "CROWN JEWELS"
+      "enter": "pop"
      }
     ],
-    "place": "Tower of London, England · 1671",
-    "tag": {
-     "id": "blood",
-     "text": "Colonel Thomas Blood"
-    }
+    "place": "Tower of London, England · 1671"
    }
   },
   {
@@ -94,10 +89,14 @@
       "text": "LONDON"
      }
     ],
+    "tag": {
+     "id": "blood",
+     "text": "Colonel Thomas Blood"
+    },
     "stickers": [
      {
       "text": "FAKE PRIEST",
-      "at": 1.5,
+      "at": 2.5,
       "color": "#A8322A"
      }
     ]
@@ -146,13 +145,13 @@
      {
       "k": "crown",
       "x": 0.7,
-      "s": 0.7,
+      "s": 1.12,
       "front": true
      },
      {
       "k": "chest",
       "x": 0.2,
-      "s": 0.8
+      "s": 1.28
      }
     ],
     "cam": "shake"
@@ -177,11 +176,11 @@
      {
       "k": "crown",
       "x": 0.68,
-      "s": 0.6,
+      "s": 0.96,
       "front": true
      }
     ],
-    "cam": "close",
+    "cam": "push",
     "stickers": [
      {
       "text": "SQUASHED!",
@@ -247,7 +246,7 @@
      {
       "k": "throne",
       "x": 0.72,
-      "s": 0.8
+      "s": 1.28
      }
     ],
     "tag": {
