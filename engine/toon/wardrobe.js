@@ -1,7 +1,7 @@
 /* More hats, outfits and animals for the toon engine, so any era can be cast.
  * Loads after core.js and extends hat(), outfit() and hairFront() in place. */
 
-const FULL_HATS = new Set(['kabuto', 'm1', 'stahlhelm', 'nemes', 'mongol', 'morion', 'bearskin', 'ushanka', 'pharaoh', 'veil', 'wimple']);
+const FULL_HATS = new Set(['kepi', 'kabuto', 'm1', 'stahlhelm', 'nemes', 'mongol', 'morion', 'bearskin', 'ushanka', 'pharaoh', 'veil', 'wimple']);
 const _hairFront0 = hairFront;
 hairFront = function (c, o) { if (FULL_HATS.has(o.hat)) return; _hairFront0(c, o); };
 
@@ -38,6 +38,7 @@ hat = function (c, o, t) {
     case 'morion':
       hd(c, bez([-96, -26], [-60, -40], [60, -40], [96, -26], 10).concat(bez([96, -26], [110, -60], [80, -40], [60, -40], 6), [[-60, -40]], bez([-80, -40], [-110, -60], [-96, -26], [-96, -26], 4)), { fill: '#B9C1C8', w: 5 });
       hd(c, bez([-50, -40], [-50, -100], [50, -100], [50, -40], 12), { fill: '#C9D0D6', w: 5 }); hd(c, poly([[-40, -90], [0, -130], [40, -90]], 10), { fill: '#C9D0D6', w: 4.5 }); break;
+    case 'kepi': hd(c, poly([[-54, -40], [-40, -110], [30, -104], [54, -40]], 14), { fill: col || '#2B3A5C', w: 5 }); hd(c, ell(-5, -108, 36, 8, 10, -.1), { fill: tone(col || '#2B3A5C', .15), w: 3 }); hd(c, bez([-40, -36], [0, -18], [50, -20], [80, -30], 8).concat([[54, -42]]), { fill: '#141414', w: 4 }); hd(c, rect(-54, -54, 108, 12), { fill: '#141414', w: 3 }); break;
     case 'bearskin': hd(c, bez([-54, -10], [-66, -190], [66, -190], [54, -10], 18), { fill: '#141212', w: 5 }); line(c, qb([-48, -20], [0, 150], [48, -20]), 3, gold); break;
     case 'ushanka': hd(c, bez([-60, -20], [-64, -96], [64, -96], [60, -20], 14), { fill: col || '#6A5A48', w: 5 }); for (const sx of [-1, 1]) hd(c, poly([[sx * 50, -30], [sx * 72, -26], [sx * 70, 44], [sx * 50, 40]], 10), { fill: '#8A7A66', w: 4 }); hd(c, rect(-62, -44, 124, 30), { fill: '#8A7A66', w: 4 }); hd(c, ell(0, -30, 10, 10), { fill: CLR.red, w: 3 }); break;
     case 'beret': hd(c, bez([-56, -30], [-80, -90], [60, -110], [70, -40], 12).concat([[40, -34]]), { fill: col || '#2A2624', w: 5 }); break;

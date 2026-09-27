@@ -1,0 +1,204 @@
+{
+ "id": "2026w41-s07",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "Did Caligula Make His Horse Consul?",
+ "hook": "A HORSE AS CONSUL?",
+ "music": "playful",
+ "cast": {
+  "caligula": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#E7C66A",
+   "color2": "#6A3E8E",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Caligula"
+  },
+  "incitatus": {
+   "animal": "horse",
+   "mood": "smug"
+  },
+  "senator": {
+   "preset": "senator",
+   "hat": null,
+   "hair": "short",
+   "hairColor": "#8A8A8A"
+  }
+ },
+ "voices": {
+  "caligula": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Did a Roman emperor really try to make his horse a government official?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "caligula",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "incitatus",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "caligula",
+     "text": "Emperor Caligula"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to Suetonius, Caligula's favourite racehorse, Incitatus, had a marble stall and an ivory manger.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "incitatus",
+      "x": 0.5,
+      "mood": "happy"
+     }
+    ],
+    "focus": "incitatus",
+    "stickers": [
+     {
+      "text": "MARBLE STALL",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "IVORY MANGER",
+      "at": 2.6,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "caligula",
+   "say": "Only the best for my boy.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "caligula",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     },
+     {
+      "id": "incitatus",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "focus": "caligula"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also got purple blankets, a jewelled collar, a house, and servants to entertain guests invited in his name."
+  },
+  {
+   "who": "N",
+   "say": "And Suetonius adds that Caligula supposedly planned to make him a consul, one of Rome's top jobs.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "shock"
+     },
+     {
+      "id": "incitatus",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CONSUL?!",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But careful: this comes from writers decades later who hated Caligula, and many historians think it's exaggerated, or a stunt to insult the senate.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cam": "still",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RUMOUR?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's wildest rumours.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caligula",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "incitatus",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The horse had a marble stall. The consul part? Probably a rumour.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #caligula #ancientrome #weirdhistory #historytok",
+ "youtube_title": "Did Caligula Really Make His Horse a Consul? #shorts",
+ "tags": [
+  "caligula",
+  "incitatus",
+  "ancient rome",
+  "roman emperor",
+  "history shorts"
+ ],
+ "sources": [
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Caligula*.html",
+  "https://www.history.com/articles/did-caligula-really-make-his-horse-a-consul"
+ ]
+}

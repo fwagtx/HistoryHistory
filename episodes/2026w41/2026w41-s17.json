@@ -1,0 +1,184 @@
+{
+ "id": "2026w41-s17",
+ "format": "short",
+ "date": "2026-10-07",
+ "slot": "09:00",
+ "title": "Britain Fought a War Named After an Ear",
+ "hook": "A WAR OVER AN EAR",
+ "music": "playful",
+ "cast": {
+  "jenkins": {
+   "hat": "tricorn",
+   "outfit": "coat",
+   "color": "#3A4A6A",
+   "skin": "light",
+   "stubble": true,
+   "name": "Captain Robert Jenkins"
+  },
+  "fandino": {
+   "hat": "tricorn",
+   "outfit": "coat",
+   "color": "#8A2A2A",
+   "beard": "goatee",
+   "skin": "olive",
+   "hold": "sword"
+  },
+  "mp": {
+   "preset": "noble",
+   "hair": "curly",
+   "hairColor": "#EFEFEF"
+  }
+ },
+ "voices": {
+  "fandino": "am_fenrir",
+  "jenkins": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Britain and Spain once fought a war named after a man's ear.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "jenkins",
+      "x": 0.5,
+      "pose": "shrug"
+     }
+    ],
+    "tag": {
+     "id": "jenkins",
+     "text": "Captain Robert Jenkins"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1731, a Spanish coast guard boarded Captain Robert Jenkins' ship, which was smuggling.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "jenkins",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "fandino",
+      "x": 0.7,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They cut off his ear, and one report says they handed the piece back to him.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "jenkins",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "fandino",
+      "x": 0.7
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "fandino",
+   "say": "Take it to your king."
+  },
+  {
+   "who": "N",
+   "say": "Seven years later, politicians who wanted war with Spain made Jenkins famous.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "jenkins",
+      "x": 0.35,
+      "hold": "bottle",
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "mp",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The legend says he showed Parliament his ear, pickled in a jar, though historians doubt that part."
+  },
+  {
+   "who": "N",
+   "say": "In 1739, Britain went to war, and it dragged on until 1748.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "jenkins",
+      "x": 0.5,
+      "pose": "facepalm"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more wars with ridiculous names.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "jenkins",
+      "x": 0.35,
+      "hold": "bottle"
+     },
+     {
+      "id": "mp",
+      "x": 0.7,
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The War of Jenkins' Ear is a real war with a real ear.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #jenkinsear #britishhistory #historytok #funnyhistory",
+ "youtube_title": "Britain Fought a War Named After an Ear #shorts",
+ "tags": [
+  "war of jenkins ear",
+  "history",
+  "british history",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/War_of_Jenkins%27_Ear",
+  "https://en.wikipedia.org/wiki/Robert_Jenkins_(master_mariner)",
+  "https://www.britannica.com/event/War-of-Jenkins-Ear"
+ ]
+}

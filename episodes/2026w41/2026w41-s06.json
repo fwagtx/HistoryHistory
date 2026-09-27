@@ -1,0 +1,201 @@
+{
+ "id": "2026w41-s06",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "Rome Had a Million People",
+ "hook": "ONE MILLION ROMANS",
+ "music": "playful",
+ "cast": {
+  "citizen": {
+   "preset": "roman"
+  },
+  "citizenW": {
+   "preset": "peasantW",
+   "hat": "headscarf",
+   "outfit": "dress",
+   "color": "#C8702A",
+   "skin": "olive"
+  }
+ },
+ "voices": {
+  "citizen": "am_liam",
+  "citizenW": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Two thousand years ago, Rome was home to an estimated one million people.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "happy",
+      "walk": [
+       0.15,
+       0.4
+      ]
+     },
+     {
+      "id": "citizenW",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,000,000",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That made it the biggest city in pre-industrial Europe, by a lot."
+  },
+  {
+   "who": "citizen",
+   "say": "Excuse me, coming through!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cam": "shake",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "shock"
+     },
+     {
+      "id": "citizenW",
+      "x": 0.68,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "citizenW",
+   "say": "Watch it! There's a million of us!"
+  },
+  {
+   "who": "N",
+   "say": "The next European city to get that big? London, around 1800. Its first census, in 1801, counted just over a million.",
+   "show": {
+    "k": "map",
+    "lon": 5,
+    "lat": 47,
+    "z0": 1.3,
+    "z1": 1.7,
+    "date": "1801",
+    "labels": [
+     [
+      "Rome",
+      12.5,
+      41.9,
+      0
+     ],
+     [
+      "London",
+      -0.1,
+      51.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      12.5,
+      41.9,
+      1,
+      "rgba(214,48,40,.7)"
+     ],
+     [
+      -0.1,
+      51.5,
+      1,
+      "rgba(60,90,200,.7)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So after Rome's peak, Europe went roughly sixteen hundred years without a city that size.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians argue over the exact number, but the usual estimate lands around a million.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cam": "still",
+    "cast": [
+     {
+      "id": "citizenW",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "citizenW",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Ancient Rome was bigger than any European city for about 1,600 years.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #ancientrome #rome #historyfacts #historytok",
+ "youtube_title": "Ancient Rome Had a Million People #shorts",
+ "tags": [
+  "ancient rome",
+  "population",
+  "london",
+  "history facts",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Demography_of_the_Roman_Empire",
+  "https://www.britannica.com/place/ancient-Rome/The-transformation-of-Rome-and-Italy-during-the-Middle-Republic",
+  "https://en.wikipedia.org/wiki/Demographics_of_London"
+ ]
+}

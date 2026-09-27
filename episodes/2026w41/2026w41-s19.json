@@ -1,0 +1,217 @@
+{
+ "id": "2026w41-s19",
+ "format": "short",
+ "date": "2026-10-07",
+ "slot": "09:00",
+ "title": "The Friendliest Standoff in History",
+ "hook": "FRIENDLIEST WAR EVER",
+ "music": "playful",
+ "cast": {
+  "pickett": {
+   "hat": "kepi",
+   "hatColor": "#2A3A6A",
+   "outfit": "uniform",
+   "color": "#2A3A6A",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "stache": "handlebar",
+   "beard": "goatee",
+   "skin": "light",
+   "name": "Captain George Pickett"
+  },
+  "marine": {
+   "preset": "redcoat",
+   "hat": "kepi",
+   "stache": "bush",
+   "hatColor": "#1E1C1B"
+  },
+  "pig": {
+   "animal": "pig",
+   "mood": "happy"
+  },
+  "kaiser": {
+   "hat": "pickel",
+   "outfit": "napoleon",
+   "color": "#2A3A5A",
+   "beard": "full",
+   "stache": "handlebar",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Kaiser Wilhelm I"
+  }
+ },
+ "voices": {
+  "pickett": "am_fenrir",
+  "marine": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Pig War might be the friendliest standoff in history.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "pickett",
+      "x": 0.3,
+      "pose": "hips"
+     },
+     {
+      "id": "marine",
+      "x": 0.7,
+      "pose": "hips"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1859, one dead pig put American soldiers and British warships face to face on San Juan Island.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pig",
+      "x": 0.5,
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "R.I.P. PIG",
+      "at": 1.5,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pickett",
+   "say": "Nobody leaves this island.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "pickett",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "pickett",
+     "text": "Captain George Pickett"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But while the governments panicked, officers from both sides went to church together.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "pickett",
+      "x": 0.35,
+      "pose": "sit"
+     },
+     {
+      "id": "marine",
+      "x": 0.65,
+      "pose": "sit"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They even shared whisky and cigars.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pickett",
+      "x": 0.35,
+      "hold": "goblet",
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "marine",
+      "x": 0.65,
+      "hold": "goblet",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "marine",
+   "say": "Cheers, old chap."
+  },
+  {
+   "who": "N",
+   "say": "Both sides shared the island for twelve years, until an arbitration by Kaiser Wilhelm the First gave it to America in 1872.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "kaiser",
+      "x": 0.5,
+      "hold": "scroll",
+      "pose": "present"
+     }
+    ],
+    "tag": {
+     "id": "kaiser",
+     "text": "Kaiser Wilhelm I"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The only casualty in all that time was the pig."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's weirdest wars.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pickett",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "marine",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They nearly went to war, then went to church together.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #pigwar #sanjuanisland #historytok #funnyhistory",
+ "youtube_title": "The Friendliest Standoff in History #shorts",
+ "tags": [
+  "pig war",
+  "history",
+  "san juan island",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+  "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+ ]
+}

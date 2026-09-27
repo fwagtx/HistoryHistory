@@ -1,0 +1,255 @@
+{
+ "id": "2026w41-s10",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "The Last Emperor's Name Was a Joke",
+ "hook": "HISTORY HAS JOKES",
+ "music": "playful",
+ "cast": {
+  "augustus": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "side",
+   "hairColor": "#8A5A2A",
+   "skin": "light",
+   "name": "Augustus"
+  },
+  "citizen": {
+   "preset": "roman"
+  },
+  "odoacer": {
+   "outfit": "fur",
+   "hair": "long",
+   "hairColor": "#8A5A2A",
+   "stache": "handlebar",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Odoacer"
+  },
+  "romaug": {
+   "preset": "child",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "skin": "light",
+   "hairColor": "#C8902A",
+   "name": "Romulus Augustulus"
+  },
+  "romulus": {
+   "preset": "roman",
+   "color": "#A8322A",
+   "hair": "curly",
+   "hairColor": "#5A3A22",
+   "name": "Romulus (legend)"
+  }
+ },
+ "voices": {
+  "odoacer": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome's legendary founder was Romulus, and its first emperor was Augustus. Now guess the last western emperor's name.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "romulus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "augustus",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROMULUS",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "AUGUSTUS",
+      "at": 2.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Romulus Augustus. Really.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "romaug",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "sad",
+      "s": 0.9
+     }
+    ],
+    "focus": "romaug",
+    "tag": {
+     "id": "romaug",
+     "text": "Romulus Augustus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was just a boy, put on the throne in 475 by his father, a general named Orestes."
+  },
+  {
+   "who": "N",
+   "say": "People mocked him as Augustulus, meaning 'little Augustus'.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cam": "still",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "romaug",
+      "x": 0.65,
+      "pose": "facepalm",
+      "mood": "sad",
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AUGUSTULUS",
+      "at": 0.8,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 476, the Germanic general Odoacer deposed him, and didn't bother naming a new emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "odoacer",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "romaug",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared",
+      "s": 0.8
+     }
+    ],
+    "tag": {
+     "id": "odoacer",
+     "text": "Odoacer"
+    }
+   }
+  },
+  {
+   "who": "odoacer",
+   "say": "Here's a pension, kid. Go enjoy Naples.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "odoacer",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "romaug",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "shock",
+      "s": 0.8
+     }
+    ],
+    "focus": "odoacer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Romulus retired to a fortress near Naples, and the western Roman Empire was over.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "romaug",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "romaug",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "s": 0.8
+     },
+     {
+      "id": "odoacer",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome's last western emperor had the most on-the-nose name in history.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #fallofrome #romanempire #historyfacts #historytok",
+ "youtube_title": "Rome's Last Emperor Had the Wildest Name #shorts",
+ "tags": [
+  "romulus augustulus",
+  "fall of rome",
+  "odoacer",
+  "roman empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Romulus_Augustulus",
+  "https://www.britannica.com/biography/Romulus-Augustulus",
+  "https://www.history.com/articles/last-roman-emperor-romulus-augustulus",
+  "https://en.wikipedia.org/wiki/Founding_of_Rome"
+ ]
+}

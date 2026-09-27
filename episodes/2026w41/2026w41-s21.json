@@ -1,0 +1,190 @@
+{
+ "id": "2026w41-s21",
+ "format": "short",
+ "date": "2026-10-09",
+ "slot": "09:00",
+ "title": "The King Who Wouldn't Bow to a Sultan",
+ "hook": "HE WOULDN'T BOW",
+ "music": "playful",
+ "cast": {
+  "musa": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#D4A52A",
+   "color2": "#8A5A12",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Musa"
+  },
+  "sultan": {
+   "preset": "sultan",
+   "color": "#6A3E8E",
+   "hatColor": "#F2EEE4",
+   "name": "Sultan al-Nasir Muhammad"
+  },
+  "hajib": {
+   "preset": "merchant",
+   "color": "#3A5A8A",
+   "hatColor": "#F2EEE4",
+   "skin": "olive",
+   "name": "Ibn Amir Hajib"
+  }
+ },
+ "voices": {
+  "musa": "am_fenrir",
+  "sultan": "bm_lewis",
+  "hajib": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A king often called the richest ever was told to kiss the ground. He said no.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "tag": {
+     "id": "musa",
+     "text": "Mansa Musa of Mali"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1324, Mansa Musa of Mali reached Cairo, ruled by Sultan al-Nasir Muhammad."
+  },
+  {
+   "who": "N",
+   "say": "At first he refused to even visit, saying he had come only for the pilgrimage.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "hajib",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "point"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "neutral",
+      "pose": "cross"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "An Egyptian official said Musa spoke only through an interpreter, even though his Arabic was perfect."
+  },
+  {
+   "who": "hajib",
+   "say": "Kiss the ground!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "sultan",
+      "x": 0.2,
+      "pose": "sit",
+      "mood": "smug"
+     },
+     {
+      "id": "hajib",
+      "x": 0.47,
+      "mood": "scared"
+     },
+     {
+      "id": "musa",
+      "x": 0.78,
+      "mood": "angry",
+      "pose": "hips"
+     }
+    ],
+    "cam": "close",
+    "focus": "musa"
+   }
+  },
+  {
+   "who": "musa",
+   "say": "How may this be?"
+  },
+  {
+   "who": "N",
+   "say": "An adviser whispered to him, and Musa found a loophole."
+  },
+  {
+   "who": "musa",
+   "say": "I make obeisance to God who created me!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "sultan",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "shock"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He bowed to God, not the sultan, and the sultan sat him by his side anyway."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history power moves.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "sultan",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The sultan said kiss the ground. Mansa Musa found a loophole.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #mali #historytok #funnyhistory",
+ "youtube_title": "The King Who Wouldn't Bow to a Sultan #shorts",
+ "tags": [
+  "mansa musa",
+  "mamluk sultan",
+  "cairo",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.digitalhistory.uh.edu/active_learning/explorations/1492/mansa_musa_visit.cfm",
+  "https://en.wikipedia.org/wiki/Mansa_Musa",
+  "https://www.britannica.com/biography/Musa-I-of-Mali"
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "id": "2026w41-s14",
+ "format": "short",
+ "date": "2026-10-07",
+ "slot": "09:00",
+ "title": "The War Where Only a Soup Kettle Got Hit",
+ "hook": "THE KETTLE WAR",
+ "music": "playful",
+ "cast": {
+  "cook": {
+   "preset": "sailor",
+   "hat": "chef",
+   "stache": "handlebar"
+  },
+  "joseph": {
+   "outfit": "napoleon",
+   "color": "#EFEFEF",
+   "hat": "bicorne",
+   "hair": "side",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Emperor Joseph II"
+  },
+  "dutch": {
+   "preset": "sailor",
+   "hat": "tricorn",
+   "hatColor": "#E07A2A"
+  }
+ },
+ "voices": {
+  "joseph": "bm_lewis",
+  "cook": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1784, a war started, and the only thing hit was reportedly a soup kettle.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "cook",
+      "x": 0.5,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For about two hundred years, the Dutch had kept the river Scheldt closed to Antwerp's trade ships.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "dutch",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Austria's emperor, Joseph the Second, sent ships down the river anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "joseph",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "joseph",
+     "text": "Emperor Joseph II"
+    }
+   }
+  },
+  {
+   "who": "joseph",
+   "say": "They won't dare fire at my flag."
+  },
+  {
+   "who": "N",
+   "say": "The Dutch warship Dolfijn fired one shot.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "dutch",
+      "x": 0.4,
+      "pose": "aim"
+     }
+    ],
+    "fx": [
+     "explosion"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "cook",
+   "say": "My soup!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "cook",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The emperor's ship surrendered on the spot."
+  },
+  {
+   "who": "N",
+   "say": "A treaty later kept the river closed, and nobody died. Except lunch.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "joseph",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "dutch",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more wars that make no sense.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cook",
+      "x": 0.3,
+      "mood": "sad"
+     },
+     {
+      "id": "dutch",
+      "x": 0.7,
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One shot was fired in the Kettle War. Legend says it hit the soup.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #kettlewar #netherlands #historytok #funnyhistory",
+ "youtube_title": "The War Where Only a Soup Kettle Got Hit #shorts",
+ "tags": [
+  "kettle war",
+  "history",
+  "netherlands",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Kettle_War",
+  "https://historiek.net/keteloorlog-marmietenoorlog-1784/75612/",
+  "https://www.zeeuwseankers.nl/verhaal/de-kluchtige-keteloorlog"
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "id": "2026w41-s25",
+ "format": "short",
+ "date": "2026-10-09",
+ "slot": "09:00",
+ "title": "The Map That Made Mansa Musa Famous",
+ "hook": "PUT ON THE MAP",
+ "music": "playful",
+ "cast": {
+  "musa": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#D4A52A",
+   "color2": "#8A5A12",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Musa"
+  },
+  "cresques": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#2A2A4A",
+   "outfit": "coat",
+   "color": "#6A3A2A",
+   "beard": "full",
+   "hairColor": "#5A3A22",
+   "hold": "pen",
+   "name": "Cresques Abraham"
+  }
+ },
+ "voices": {
+  "musa": "am_fenrir",
+  "cresques": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Around 1375, a mapmaker in Majorca drew an African king holding a giant piece of gold.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "cresques",
+      "x": 0.45,
+      "mood": "neutral",
+      "pose": "think",
+      "hold": "pen"
+     }
+    ],
+    "tag": {
+     "id": "cresques",
+     "text": "Cresques Abraham"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The mapmaker is usually identified as Cresques Abraham, and his map is the Catalan Atlas."
+  },
+  {
+   "who": "cresques",
+   "say": "Richest king? Right here. Throne, crown, gold. Done.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "cresques",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "point",
+      "hold": "pen"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That king was Mansa Musa of Mali, drawn south of the Sahara near Timbuktu.",
+   "show": {
+    "k": "map",
+    "lon": 0,
+    "lat": 29,
+    "z0": 1.3,
+    "z1": 1.6,
+    "route": [
+     [
+      2.9,
+      39.6
+     ],
+     [
+      -4.3,
+      31.3
+     ],
+     [
+      -3.0,
+      16.8
+     ]
+    ],
+    "labels": [
+     [
+      "Majorca",
+      2.9,
+      39.6,
+      14
+     ],
+     [
+      "Timbuktu",
+      -3.0,
+      16.8,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The caption says he's the richest and noblest ruler of those lands.",
+   "show": {
+    "k": "quote",
+    "text": "This king is the richest and noblest of all these lands due to the abundance of gold that is extracted from his lands.",
+    "who": "Catalan Atlas, c. 1375 (translated)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Musa had died decades earlier, but his 1324 pilgrimage through Cairo made his gold famous far beyond Africa.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "sit",
+      "hold": "goldbar"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The atlas survives today in the national library of France."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history you can actually see.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "goldbar"
+     },
+     {
+      "id": "cresques",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A map from around 1375 drew one African king holding gold. Here's why.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #maps #historytok #medievalhistory",
+ "youtube_title": "The Map That Made Mansa Musa Famous #shorts",
+ "tags": [
+  "mansa musa",
+  "catalan atlas",
+  "medieval maps",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Catalan_Atlas",
+  "https://www.britannica.com/biography/Musa-I-of-Mali",
+  "https://www.bbc.com/news/world-africa-47379458",
+  "https://www.gilderlehrman.org/ap-african-american-studies/unit-1/west-africa/catalan-atlas-1375"
+ ]
+}

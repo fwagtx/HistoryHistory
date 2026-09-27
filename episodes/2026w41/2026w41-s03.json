@@ -1,0 +1,231 @@
+{
+ "id": "2026w41-s03",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "Rome Had a Tax on Pee",
+ "hook": "ROME TAXED PEE",
+ "music": "playful",
+ "cast": {
+  "citizen": {
+   "preset": "roman"
+  },
+  "titus": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F6FC2",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Titus"
+  },
+  "vespasian": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#A8322A",
+   "hair": "bald",
+   "hairColor": "#8A8A8A",
+   "skin": "tan",
+   "hold": "coin",
+   "name": "Vespasian"
+  }
+ },
+ "voices": {
+  "vespasian": "bm_george",
+  "titus": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Roman emperor once put a tax on pee. Seriously.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "shock"
+     },
+     {
+      "id": "vespasian",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "vespasian",
+     "text": "Emperor Vespasian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Vespasian taxed the urine collected from Rome's public toilets, which people used for laundry and tanning leather.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PEE TAX",
+      "at": 1.5,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "titus",
+   "say": "Dad, a tax on pee? That's disgusting.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "titus",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "angry"
+     },
+     {
+      "id": "vespasian",
+      "x": 0.68,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "coin"
+     }
+    ],
+    "tag": {
+     "id": "titus",
+     "text": "Titus, his son"
+    }
+   }
+  },
+  {
+   "who": "vespasian",
+   "say": "Smell this coin. Does it stink?"
+  },
+  {
+   "who": "titus",
+   "say": "No?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "titus",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "focus": "titus"
+   }
+  },
+  {
+   "who": "vespasian",
+   "say": "And yet it comes from urine.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "titus",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "vespasian",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "focus": "vespasian",
+    "stickers": [
+     {
+      "text": "MONEY DOESN'T STINK",
+      "at": 1,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That story comes from the Roman writer Suetonius, and it gave us the saying 'money doesn't stink'."
+  },
+  {
+   "who": "N",
+   "say": "And the same penny-pinching emperor started building the Colosseum.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "titus",
+      "x": 0.7,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "An emperor taxed pee, and defended it with a coin.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #ancientrome #vespasian #funnyhistory #historytok",
+ "youtube_title": "Rome Put a Tax on Pee #shorts",
+ "tags": [
+  "vespasian",
+  "urine tax",
+  "pecunia non olet",
+  "ancient rome",
+  "history shorts"
+ ],
+ "sources": [
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Vespasian*.html",
+  "https://en.wikipedia.org/wiki/Pecunia_non_olet",
+  "https://historyfacts.com/world-history/fact/the-roman-empire-taxed-urine/",
+  "https://en.wikipedia.org/wiki/Vespasian"
+ ]
+}

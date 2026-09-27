@@ -1,0 +1,1926 @@
+{
+ "id": "2026w41-l3",
+ "format": "long",
+ "date": "2026-10-09",
+ "title": "Mansa Musa: The Richest Man Who Ever Lived",
+ "music": "playful",
+ "cast": {
+  "musa": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#D4A52A",
+   "color2": "#8A5A12",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Musa"
+  },
+  "sundiata": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F6A3A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "hold": "spear",
+   "name": "Sundiata Keita"
+  },
+  "muhammad": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F4A8A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Muhammad"
+  },
+  "sultan": {
+   "preset": "sultan",
+   "color": "#6A3E8E",
+   "hatColor": "#F2EEE4",
+   "name": "Sultan al-Nasir Muhammad"
+  },
+  "hajib": {
+   "preset": "merchant",
+   "color": "#3A5A8A",
+   "hatColor": "#F2EEE4",
+   "skin": "olive",
+   "name": "Ibn Amir Hajib"
+  },
+  "trader": {
+   "preset": "merchant",
+   "skin": "olive",
+   "hold": "coin",
+   "name": "Cairo gold trader"
+  },
+  "trader2": {
+   "preset": "merchant",
+   "skin": "tan",
+   "color": "#8A3A2A",
+   "hatColor": "#F2EEE4",
+   "beard": "full",
+   "name": "Cairo cloth seller"
+  },
+  "lender": {
+   "preset": "merchant",
+   "skin": "olive",
+   "color": "#5A2A6A",
+   "hold": "moneybag",
+   "beard": "full",
+   "name": "Siraj al-Din"
+  },
+  "mali1": {
+   "skin": "dark",
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#3A6A9A",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "name": "Malian trader"
+  },
+  "saltman": {
+   "skin": "tan",
+   "hat": "turban",
+   "hatColor": "#2A3A6A",
+   "outfit": "robe",
+   "color": "#2A3A6A",
+   "stubble": true,
+   "name": "Salt caravan trader"
+  },
+  "sahili": {
+   "skin": "olive",
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#EDE6D6",
+   "beard": "long",
+   "hairColor": "#6A6A6A",
+   "hold": "book",
+   "name": "Abu Ishaq al-Sahili"
+  },
+  "cresques": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#2A2A4A",
+   "outfit": "coat",
+   "color": "#6A3A2A",
+   "beard": "full",
+   "hairColor": "#5A3A22",
+   "hold": "pen",
+   "name": "Cresques Abraham"
+  },
+  "griot": {
+   "skin": "dark",
+   "hat": "cap",
+   "hatColor": "#C8502A",
+   "outfit": "robe",
+   "color": "#C8502A",
+   "color2": "#F2C94C",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "name": "A jeli (griot)"
+  }
+ },
+ "voices": {
+  "musa": "am_fenrir",
+  "sundiata": "bm_daniel",
+  "muhammad": "am_liam",
+  "sultan": "bm_lewis",
+  "hajib": "bm_george",
+  "trader": "am_puck",
+  "trader2": "am_eric",
+  "lender": "bm_daniel",
+  "mali1": "am_liam",
+  "saltman": "am_echo",
+  "sahili": "bm_george",
+  "cresques": "am_echo",
+  "griot": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "July, 1324, just outside Cairo, and somebody has parked a small city next to the Pyramids of Giza.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cam": "pan",
+    "fx": [
+     "dust"
+    ],
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "enter": "left",
+      "mood": "smug",
+      "hold": "goldbar"
+     }
+    ],
+    "tag": {
+     "id": "musa",
+     "text": "Mansa Musa of Mali"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Accounts say tens of thousands of people, camels loaded with gold, servants in silk, and at the front, a young king from West Africa."
+  },
+  {
+   "who": "N",
+   "say": "Cairo has seen rich people before. Cairo has not seen this.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "happy",
+      "hold": "goldbar"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "trader",
+   "say": "He paid in gold. His servants paid in gold. Everyone is paying in gold!"
+  },
+  {
+   "who": "trader2",
+   "say": "Great! So why is my gold worth less every week?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cam": "close",
+    "focus": "trader2",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "mood": "neutral"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "angry",
+      "pose": "shrug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Because this king handed out so much gold that, according to a man who wrote it down, the price of gold in Egypt actually fell."
+  },
+  {
+   "who": "N",
+   "say": "This is Mansa Musa, the man the internet calls the richest person who ever lived. Today we find out what that even means.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "smug",
+      "hold": "coin",
+      "pose": "present"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RICHEST EVER?",
+      "at": 1.5,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "Mansa Musa: The Richest Man Who Ever Lived?",
+    "sub": "(and why nobody can say how rich)",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1230s",
+    "title": "An Empire Is Born",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "First, some context, because Musa didn't invent West African gold. He inherited it.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "mali1",
+      "x": 0.35,
+      "mood": "happy"
+     },
+     {
+      "id": "griot",
+      "x": 0.68,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Centuries earlier, the Ghana Empire was already so famous for gold that an Arab geographer in the 900s called its king the wealthiest on earth."
+  },
+  {
+   "who": "N",
+   "say": "Then, in the 1230s, a Mande prince named Sundiata Keita defeated the Susu king Sumanguru and built a new power along the upper Niger River.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "fx": [
+     "dust"
+    ],
+    "cast": [
+     {
+      "id": "sundiata",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "shout",
+      "enter": "left"
+     }
+    ],
+    "tag": {
+     "id": "sundiata",
+     "text": "Sundiata Keita"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That power was Mali, and Sundiata's story is still performed today by griots, the singing historians of West Africa."
+  },
+  {
+   "who": "N",
+   "say": "Sundiata's big win is remembered as the Battle of Kirina, around 1235, and he and the kings after him used the title mansa."
+  },
+  {
+   "who": "griot",
+   "say": "And we will remember every single detail. Including the embarrassing ones.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "griot",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By Musa's time, Mali stretched roughly two thousand miles, from the Atlantic coast deep into what is now Niger.",
+   "show": {
+    "k": "map",
+    "lon": -3,
+    "lat": 17,
+    "z0": 2.2,
+    "z1": 2.8,
+    "areas": [
+     [
+      -5,
+      15,
+      7,
+      "rgba(212,165,42,.35)"
+     ]
+    ],
+    "labels": [
+     [
+      "Niani (capital?)",
+      -8.4,
+      11.4,
+      14
+     ],
+     [
+      "Timbuktu",
+      -3.0,
+      16.8,
+      14
+     ],
+     [
+      "Gao",
+      0.0,
+      16.3,
+      14
+     ],
+     [
+      "Walata",
+      -7.0,
+      17.3,
+      -120
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its capital was probably Niani, though historians still argue about exactly where it stood."
+  },
+  {
+   "who": "N",
+   "say": "Musa reportedly said it would take a year to walk from one end of his empire to the other. Probably an exaggeration, but a very on-brand one."
+  },
+  {
+   "who": "N",
+   "say": "Musa was Sundiata's grand-nephew, or maybe his grandson. The family tree is, let's say, a group project."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "c. 1312",
+    "title": "The King Who Sailed Away",
+    "bg": "sea"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how did Musa become king? Well, according to Musa himself, his boss went to sea and never came back.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "muhammad",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "muhammad",
+     "text": "Mansa Muhammad"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Musa told this story in Cairo, and the historian al-Umari wrote it down, so this is Musa's account, not a verified fact."
+  },
+  {
+   "who": "N",
+   "say": "His predecessor, Mansa Muhammad, wanted to know if the Atlantic Ocean had another side."
+  },
+  {
+   "who": "N",
+   "say": "So he sent two hundred ships of men, plus two hundred more loaded with gold, water and food."
+  },
+  {
+   "who": "N",
+   "say": "Only one ship came back. Its captain said that far out at sea there was something like a river with a powerful current.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cam": "shake",
+    "fx": [
+     "rain"
+    ],
+    "cast": [
+     {
+      "id": "muhammad",
+      "x": 0.5,
+      "mood": "shock",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The other ships sailed into it and vanished. The captain wisely turned around."
+  },
+  {
+   "who": "N",
+   "say": "And the Mansa's reaction to that horror story? Get me two thousand ships. I'm going myself."
+  },
+  {
+   "who": "muhammad",
+   "say": "Musa, you rule while I'm gone. I'll be back soon.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "muhammad",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "musa",
+   "say": "Take your time. Honestly. No rush."
+  },
+  {
+   "who": "N",
+   "say": "He never returned, and Musa became mansa, which means king.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "sit"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEW MANSA",
+      "at": 1,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some historians think the voyage was real. Others suspect Musa pushed his predecessor aside and needed a good cover story."
+  },
+  {
+   "who": "N",
+   "say": "And no, there's no solid evidence the fleet ever reached the Americas. It's al-Umari's account, and that's all we have."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1300s",
+    "title": "Gold, Salt and a Very Good Business Model",
+    "bg": "desert"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now, where did the money come from? Mostly from gold fields to the south and west, in places called Bambuk and Bure, through trade and tribute.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "mali1",
+      "x": 0.4,
+      "hold": "goldbar",
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the funny thing is, the gold regions didn't have enough salt, and the Sahara had tons of it, in mines like Taghaza."
+  },
+  {
+   "who": "N",
+   "say": "Salt came south, gold went north, and Mali sat in the middle, taxing the traffic like the world's most profitable toll booth.",
+   "show": {
+    "k": "map",
+    "lon": -2,
+    "lat": 26,
+    "z0": 1.4,
+    "z1": 1.8,
+    "route": [
+     [
+      -3.0,
+      16.8
+     ],
+     [
+      -5.0,
+      23.6
+     ],
+     [
+      -4.3,
+      31.3
+     ],
+     [
+      -5.8,
+      35.8
+     ],
+     [
+      2.2,
+      41.4
+     ],
+     [
+      8.9,
+      44.4
+     ]
+    ],
+    "labels": [
+     [
+      "Timbuktu",
+      -3.0,
+      16.8,
+      14
+     ],
+     [
+      "Taghaza (salt)",
+      -5.0,
+      23.6,
+      14
+     ],
+     [
+      "Sijilmasa",
+      -4.3,
+      31.3,
+      14
+     ],
+     [
+      "Genoa",
+      8.9,
+      44.4,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "saltman",
+   "say": "One slab of salt, fresh from the desert. What are you offering?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "saltman",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "mali1",
+      "x": 0.7,
+      "hold": "coin",
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "mali1",
+   "say": "Gold. And the king takes his cut on the way through.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cam": "close",
+    "focus": "mali1",
+    "cast": [
+     {
+      "id": "saltman",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "shrug"
+     },
+     {
+      "id": "mali1",
+      "x": 0.7,
+      "hold": "coin",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Copper was rare and prized in the region, so Mali taxed the copper trade too."
+  },
+  {
+   "who": "N",
+   "say": "How big was all this? According to the British Museum, Mali accounted for almost half of the Old World's gold.",
+   "show": {
+    "k": "card",
+    "label": "Share of the Old World's gold from Mali (British Museum estimate)",
+    "big": "~HALF",
+    "sub": "one estimate says two thirds of Mediterranean gold came from West Africa",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.85,
+      "mood": "smug",
+      "hold": "goldbar"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A lot of the gold coins in medieval Europe and North Africa started their lives in West Africa."
+  },
+  {
+   "who": "N",
+   "say": "But here's the catch for later: most of the world had no idea where this gold came from. Musa was about to tell them. Loudly."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1324",
+    "title": "The Most Extra Road Trip Ever",
+    "bg": "desert"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Musa was a devout Muslim, and in 1324 he set out on the hajj, the pilgrimage to Mecca.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cam": "pan",
+    "fx": [
+     "dust"
+    ],
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.3,
+      "walk": [
+       0.2,
+       0.5
+      ],
+      "mood": "happy"
+     },
+     {
+      "id": "mali1",
+      "x": 0.7,
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He left his son in charge back home and headed north across the Sahara, through Walata and the oases of Tuat, toward Cairo.",
+   "show": {
+    "k": "map",
+    "lon": 14,
+    "lat": 23,
+    "z0": 1.1,
+    "z1": 1.3,
+    "route": [
+     [
+      -8.4,
+      11.4
+     ],
+     [
+      -7.0,
+      17.3
+     ],
+     [
+      -0.2,
+      27.9
+     ],
+     [
+      12,
+      28
+     ],
+     [
+      31.2,
+      30.0
+     ],
+     [
+      39.6,
+      24.5
+     ],
+     [
+      39.8,
+      21.4
+     ]
+    ],
+    "labels": [
+     [
+      "Niani",
+      -8.4,
+      11.4,
+      14
+     ],
+     [
+      "Walata",
+      -7.0,
+      17.3,
+      14
+     ],
+     [
+      "Tuat",
+      -0.2,
+      27.9,
+      14
+     ],
+     [
+      "Cairo",
+      31.2,
+      30.0,
+      14
+     ],
+     [
+      "Mecca",
+      39.8,
+      21.4,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And he didn't travel light. Chroniclers say the caravan had some sixty thousand people.",
+   "show": {
+    "k": "card",
+    "label": "Size of Musa's caravan, according to chroniclers",
+    "big": "60,000",
+    "sub": "accounts vary; historians treat these numbers as rhetoric, not a census",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.85,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One later writer claimed twelve thousand servants in brocade carried his baggage, and another says five hundred enslaved attendants walked ahead carrying staffs decorated with gold."
+  },
+  {
+   "who": "N",
+   "say": "Then the camels: eighty or more, each said to carry somewhere between fifty and three hundred pounds of gold dust.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "fx": [
+     "sparkle"
+    ],
+    "cast": [
+     {
+      "id": "mali1",
+      "x": 0.3,
+      "hold": "moneybag",
+      "mood": "happy"
+     },
+     {
+      "id": "musa",
+      "x": 0.65,
+      "hold": "goldbar",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "50–300 LB EACH?",
+      "at": 1.5,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Notice that range. Fifty to three hundred is not a measurement, it's a shrug."
+  },
+  {
+   "who": "N",
+   "say": "Nobody was counting with a clipboard. These writers were basically saying: more gold than we had words for."
+  },
+  {
+   "who": "N",
+   "say": "There's also a famous claim that Musa built a mosque every Friday along the way. There's no evidence for that, so file it under legend."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1324",
+    "title": "The Day Cairo Broke Gold",
+    "bg": "egypt"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In July, the caravan camped by the pyramids for three days, then crossed the Nile into Cairo.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.4,
+      "mood": "happy"
+     },
+     {
+      "id": "hajib",
+      "x": 0.72,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "tag": {
+     "id": "hajib",
+     "text": "Ibn Amir Hajib, Cairo official"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cairo was ruled by the Mamluk sultan al-Nasir Muhammad, and protocol said visitors had to kiss the ground in front of him."
+  },
+  {
+   "who": "N",
+   "say": "The official sent to fetch Musa, a man named Ibn Amir Hajib, later told al-Umari how that went."
+  },
+  {
+   "who": "musa",
+   "say": "I came for the Pilgrimage and nothing else.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "hajib",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "scared"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Also, per Hajib, Musa spoke to him only through an interpreter, even though he spoke perfect Arabic. Power move."
+  },
+  {
+   "who": "N",
+   "say": "Eventually Hajib coaxed him to the palace, and the court told him to kiss the ground."
+  },
+  {
+   "who": "hajib",
+   "say": "Kiss the ground!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cam": "close",
+    "focus": "musa",
+    "cast": [
+     {
+      "id": "sultan",
+      "x": 0.25,
+      "pose": "sit",
+      "mood": "smug"
+     },
+     {
+      "id": "hajib",
+      "x": 0.5,
+      "mood": "scared"
+     },
+     {
+      "id": "musa",
+      "x": 0.78,
+      "mood": "angry",
+      "pose": "hips"
+     }
+    ],
+    "tag": {
+     "id": "sultan",
+     "text": "Sultan al-Nasir Muhammad"
+    }
+   }
+  },
+  {
+   "who": "musa",
+   "say": "How may this be?"
+  },
+  {
+   "who": "N",
+   "say": "Then one of Musa's advisers whispered something, and Musa found the loophole."
+  },
+  {
+   "who": "musa",
+   "say": "I make obeisance to God who created me!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "sultan",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "shock"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He bowed, but to God, not the sultan. And the sultan half rose, sat him by his side, and they talked for a long time."
+  },
+  {
+   "who": "N",
+   "say": "The sultan then sent robes of honor for Musa and his whole court, plus saddled horses. Musa, for his part, had already sent many loads of raw gold to the royal treasury.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "fx": [
+     "sparkle"
+    ],
+    "cast": [
+     {
+      "id": "sultan",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "goblet"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "smug",
+      "hold": "goldbar"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two rulers trying to out-gift each other. Diplomacy, but make it shiny."
+  },
+  {
+   "who": "N",
+   "say": "Then came the shopping. Musa and his people gave gifts and bought things everywhere.",
+   "show": {
+    "k": "quote",
+    "text": "This man flooded Cairo with his benefactions. He left no court emir nor holder of a royal office without the gift of a load of gold.",
+    "who": "Ibn Amir Hajib, as recorded by al-Umari (trans. Levtzion & Hopkins)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And that's where the economics kicks in. When everyone suddenly has more gold, each piece of gold buys a little less.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "hold": "coin",
+      "mood": "happy"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ]
+   }
+  },
+  {
+   "who": "trader",
+   "say": "One mithqal of gold for your finest silk!"
+  },
+  {
+   "who": "trader2",
+   "say": "Last year your gold was worth twenty-five silver dirhams. Today? Twenty-two. Take it or leave it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cam": "close",
+    "focus": "trader2",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "mood": "shock",
+      "hold": "coin"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's roughly what al-Umari reported: a mithqal of gold had been worth at least twenty-five silver dirhams, and afterward it didn't go above twenty-two.",
+   "show": {
+    "k": "card",
+    "label": "One mithqal of gold in Cairo, in silver dirhams",
+    "big": "25 → 22",
+    "sub": "and still low about twelve years later, said al-Umari",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.85,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And he said it stayed that low for about twelve years."
+  },
+  {
+   "who": "N",
+   "say": "Now, you'll hear that Musa wrecked Egypt's economy. Easy, internet."
+  },
+  {
+   "who": "N",
+   "say": "The historian Warren Schultz looked at gold prices in Mamluk Egypt and argued this dip was within normal ups and downs.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "hajib",
+      "x": 0.4,
+      "hold": "scroll",
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So it was a real, noticeable dent, big enough to become legend. Just not an apocalypse."
+  },
+  {
+   "who": "N",
+   "say": "One account even says Musa told people that gold grew in his land like plants. Great marketing. Terrible geology."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1325",
+    "title": "The Richest Man Needs a Loan",
+    "bg": "vault"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Mecca, a fight broke out between Malian pilgrims and a group of Turkic pilgrims, and swords were drawn.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cam": "shake",
+    "cast": [
+     {
+      "id": "mali1",
+      "x": 0.3,
+      "mood": "angry",
+      "hold": "sword"
+     },
+     {
+      "id": "musa",
+      "x": 0.65,
+      "mood": "shout",
+      "pose": "point"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Musa talked his men into backing down before it escalated. Richest man in the world, and also the calmest guy in the room."
+  },
+  {
+   "who": "N",
+   "say": "After Mecca and Medina, where Musa kept handing out gifts, things went wrong on the way home.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "fx": [
+     "dust"
+    ],
+    "cam": "shake",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.4,
+      "mood": "sad",
+      "walk": [
+       0.3,
+       0.5
+      ]
+     },
+     {
+      "id": "mali1",
+      "x": 0.72,
+      "mood": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By the time they reached Suez, many pilgrims had died from cold, hunger or bandit raids, and the supplies were badly depleted."
+  },
+  {
+   "who": "N",
+   "say": "Back in Cairo, the man who had flooded the city with gold ran out of cash. The richest man alive was broke. Temporarily."
+  },
+  {
+   "who": "N",
+   "say": "His people resold what they had bought at about half price, and Musa went to the moneylenders.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "lender",
+      "x": 0.3,
+      "hold": "moneybag",
+      "mood": "smug"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "tag": {
+     "id": "lender",
+     "text": "Siraj al-Din, merchant"
+    }
+   }
+  },
+  {
+   "who": "lender",
+   "say": "Fifty thousand dinars? For you, Your Majesty, of course. At a very reasonable interest rate."
+  },
+  {
+   "who": "musa",
+   "say": "How reasonable?",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cam": "close",
+    "focus": "lender",
+    "cast": [
+     {
+      "id": "lender",
+      "x": 0.3,
+      "hold": "moneybag",
+      "mood": "smug"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lender",
+   "say": "Very reasonable. For me."
+  },
+  {
+   "who": "N",
+   "say": "Ibn Khaldun records a loan of fifty thousand dinars from the Kuwayk family, and al-Umari says lenders charged a very high rate.",
+   "show": {
+    "k": "card",
+    "label": "Loan from the merchant Siraj al-Din's family",
+    "big": "50,000 dinars",
+    "sub": "at a very high rate, says al-Umari",
+    "cast": [
+     {
+      "id": "lender",
+      "x": 0.85,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "To pay part of it, Musa sold Siraj al-Din the palace the sultan had given him."
+  },
+  {
+   "who": "N",
+   "say": "The lender then sent agents all the way to Mali to collect. Two of them died there. His son eventually got some of the money back."
+  },
+  {
+   "who": "N",
+   "say": "Other lenders, al-Umari says, got nothing at all. The sources disagree on whether everyone was paid in the end."
+  },
+  {
+   "who": "N",
+   "say": "You may have heard a clever theory that Musa borrowed gold back on purpose to fix Cairo's gold price.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "neutral",
+      "pose": "think",
+      "hold": "letter"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's a fun idea, but the old sources tell a simpler story. He'd just run out of money."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1327",
+    "title": "Timbuktu Gets a Glow-Up",
+    "bg": "town"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Musa didn't come home empty-handed, though. He came home with people.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.35,
+      "mood": "happy"
+     },
+     {
+      "id": "sahili",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "tag": {
+     "id": "sahili",
+     "text": "Abu Ishaq al-Sahili"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the trip he met Abu Ishaq al-Sahili, a poet and legal scholar from Granada in Spain, and convinced him to move to Mali."
+  },
+  {
+   "who": "musa",
+   "say": "Come to Mali. The weather is hot and the pay is gold.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.35,
+      "mood": "smug",
+      "hold": "moneybag",
+      "pose": "present"
+     },
+     {
+      "id": "sahili",
+      "x": 0.7,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sahili",
+   "say": "You had me at gold."
+  },
+  {
+   "who": "N",
+   "say": "Musa also brought back Muslim jurists, and he invested in Timbuktu, a trading city on the edge of the Sahara.",
+   "show": {
+    "k": "map",
+    "lon": -3,
+    "lat": 17,
+    "z0": 3,
+    "z1": 3.6,
+    "labels": [
+     [
+      "Timbuktu",
+      -3.0,
+      16.8,
+      14
+     ],
+     [
+      "Gao",
+      0.0,
+      16.3,
+      14
+     ],
+     [
+      "Djenné",
+      -4.6,
+      13.9,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -3.0,
+      16.8,
+      1.2,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around the same time, one of his generals, Sagmandia, took Gao, the capital of the Songhai kingdom, though sources disagree on exactly when Mali first controlled it."
+  },
+  {
+   "who": "N",
+   "say": "In Timbuktu, according to UNESCO, the Djinguereber Mosque was first built under Musa after his pilgrimage, traditionally dated to the mid-1320s.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "sahili",
+      "x": 0.3,
+      "hold": "scroll"
+     },
+     {
+      "id": "mali1",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DJINGUEREBER MOSQUE",
+      "at": 1,
+      "color": "#8A5A12"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's built of earth, with wooden beams sticking out of the walls, and it's still standing, after later rebuilding and enlarging."
+  },
+  {
+   "who": "N",
+   "say": "For a long time al-Sahili got credit as its architect. Modern historians are much less sure."
+  },
+  {
+   "who": "N",
+   "say": "The only building firmly linked to him is a royal audience hall at Mali's capital, and Ibn Khaldun says Musa paid him twelve thousand mithqals of gold for it."
+  },
+  {
+   "who": "N",
+   "say": "That's roughly fifty kilograms of gold. For one room. I would also move to Mali for that."
+  },
+  {
+   "who": "N",
+   "say": "And the earthen style of these mosques grew out of West African building traditions that are centuries older than Musa.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "sahili",
+      "x": 0.35,
+      "hold": "book",
+      "pose": "sit",
+      "mood": "happy"
+     },
+     {
+      "id": "griot",
+      "x": 0.7,
+      "mood": "happy",
+      "hold": "book"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over the next two centuries, with great mosques like Djinguereber and Sankore and their scholars, Timbuktu became one of the great centers of Islamic learning."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1375",
+    "title": "Put on the Map, Literally",
+    "bg": "library"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Remember when I said Musa told the world about Mali's gold? The world was listening.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "cresques",
+      "x": 0.4,
+      "hold": "pen",
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "tag": {
+     "id": "cresques",
+     "text": "Cresques Abraham, mapmaker"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the island of Majorca, a Jewish mapmaker usually identified as Cresques Abraham produced what we call the Catalan Atlas, conventionally dated to 1375.",
+   "show": {
+    "k": "map",
+    "lon": 2,
+    "lat": 30,
+    "z0": 1.3,
+    "z1": 1.6,
+    "route": [
+     [
+      2.9,
+      39.6
+     ],
+     [
+      -4.3,
+      31.3
+     ],
+     [
+      -3.0,
+      16.8
+     ]
+    ],
+    "labels": [
+     [
+      "Majorca",
+      2.9,
+      39.6,
+      14
+     ],
+     [
+      "Timbuktu",
+      -3.0,
+      16.8,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "cresques",
+   "say": "And down here in Africa, we'll put the king. On a throne. Holding gold. Obviously.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "cresques",
+      "x": 0.4,
+      "hold": "pen",
+      "mood": "happy",
+      "pose": "point"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And there he is: Musa, crowned, on a throne, holding up a big piece of gold, with a caption to match.",
+   "show": {
+    "k": "quote",
+    "text": "This king is the richest and noblest of all these lands due to the abundance of gold that is extracted from his lands.",
+    "who": "Caption beside Mansa Musa, Catalan Atlas, c. 1375 (translated)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Musa had died decades before that map was made, and his legend was still growing.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "fx": [
+     "sparkle"
+    ],
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "pose": "sit",
+      "hold": "goldbar",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even in the nineteenth century, European explorers still pictured Timbuktu as a mysterious city of gold, thanks partly to Musa's legend."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "c. 1337",
+    "title": "So... How Rich Was He?",
+    "bg": "vault"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Musa died around 1337, though some sources point to 1332. Al-Umari heard he had planned to give up the throne and move to Mecca.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back home, not everyone was a fan. Some griots say he wasted Mali's wealth by giving so much of it away abroad.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "griot",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "mali1",
+      "x": 0.72,
+      "mood": "neutral",
+      "pose": "shrug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "griot",
+   "say": "All that gold, and he gave it to Egypt."
+  },
+  {
+   "who": "N",
+   "say": "Fair point, honestly. Now the big question. Was he really the richest person who ever lived?"
+  },
+  {
+   "who": "N",
+   "say": "In 2012 a celebrity wealth website guessed four hundred billion dollars, and that number is all over the internet.",
+   "show": {
+    "k": "card",
+    "label": "A popular internet guess at Musa's wealth (2012)",
+    "big": "$400 BILLION?",
+    "sub": "historians say it can't really be calculated",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.85,
+      "mood": "neutral",
+      "pose": "shrug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians mostly say: nice try. Here's why nobody can put a real number on it."
+  },
+  {
+   "who": "N",
+   "say": "One, there are no account books. Nobody audited Mali's treasury. We only have travelers' stories written down in Egypt.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.35,
+      "hold": "moneybag",
+      "mood": "smug"
+     },
+     {
+      "id": "hajib",
+      "x": 0.7,
+      "hold": "scroll",
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO LEDGERS",
+      "at": 1,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two, those stories are deliberately dramatic. Their whole point was: more gold than you can imagine."
+  },
+  {
+   "who": "N",
+   "say": "Three, where does the king end and the country begin? Was that Musa's gold, or Mali's treasury? Back then, it was kind of both."
+  },
+  {
+   "who": "N",
+   "say": "And four, turning medieval gold into today's dollars is apples and oranges. A mithqal bought very different things in 1324.",
+   "show": {
+    "k": "compare",
+    "bg": "vault",
+    "left": {
+     "label": "1324",
+     "cast": [
+      {
+       "id": "musa",
+       "mood": "smug",
+       "hold": "goldbar"
+      }
+     ]
+    },
+    "right": {
+     "label": "Today",
+     "cast": [
+      {
+       "id": "trader",
+       "mood": "neutral",
+       "pose": "shrug"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the honest answer is: he was absurdly rich, one of the richest rulers of his era, and his exact number is unknowable."
+  },
+  {
+   "who": "N",
+   "say": "He was also, by the account of Ibn Khaldun, a good ruler.",
+   "show": {
+    "k": "quote",
+    "text": "He was an upright man and a great king, and tales of his justice are still told.",
+    "who": "Ibn Khaldun on Mansa Musa (trans. Levtzion & Hopkins)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mali itself declined over the next two centuries, and by about 1550 it no longer mattered much as a political power.",
+   "show": {
+    "k": "map",
+    "lon": 12,
+    "lat": 26,
+    "z0": 1.1,
+    "z1": 1.2,
+    "labels": [
+     [
+      "Mali",
+      -4,
+      15,
+      14
+     ],
+     [
+      "Cairo",
+      31.2,
+      30.0,
+      14
+     ],
+     [
+      "Mecca",
+      39.8,
+      21.4,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -3.0,
+      16.8
+     ],
+     [
+      31.2,
+      30.0
+     ],
+     [
+      39.8,
+      21.4
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But one pilgrimage made a West African king famous across three continents, and seven centuries later, we're still talking about his gold.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "fx": [
+     "confetti"
+    ],
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "goblet"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next time, we tackle something even bigger: the entire history of China. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "next": "The ENTIRE History of China",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "In 1324, Mansa Musa of Mali rode into Cairo with so much gold that its price in Egypt dropped for years, then had to borrow money to get home. We follow the richest-sounding road trip in history, from Sundiata's empire to Timbuktu and the Catalan Atlas, and explain why nobody can put a real number on his fortune.\n\nChapters are added automatically.\n\n#history #mansamusa #mali #africanhistory #money",
+ "thumbnail": {
+  "style": "faces",
+  "title": "RICHEST EVER?",
+  "bg": "desert",
+  "faces": [
+   {
+    "id": "musa",
+    "mood": "smug"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "Mansa Musa: The Richest Man Who Ever Lived?",
+ "tags": [
+  "mansa musa",
+  "mali empire",
+  "richest man ever",
+  "african history",
+  "timbuktu",
+  "catalan atlas",
+  "history",
+  "animated history",
+  "medieval history",
+  "money history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mansa_Musa",
+  "https://www.britannica.com/biography/Musa-I-of-Mali",
+  "https://www.britannica.com/place/Mali-historical-empire-Africa",
+  "https://www.bbc.com/news/world-africa-47379458",
+  "https://www.digitalhistory.uh.edu/active_learning/explorations/1492/mansa_musa_visit.cfm",
+  "https://en.wikipedia.org/wiki/Atlantic_voyage_of_Mansa_Muhammad",
+  "https://whc.unesco.org/en/list/119/",
+  "https://en.wikipedia.org/wiki/Catalan_Atlas",
+  "https://en.wikipedia.org/wiki/Djinguereber_Mosque",
+  "https://en.wikipedia.org/wiki/Sundiata_Keita",
+  "https://www.africanhistoryextra.com/p/the-myth-of-mansa-musas-enslaved",
+  "https://www.gilderlehrman.org/ap-african-american-studies/unit-1/west-africa/catalan-atlas-1375",
+  "https://chssp.ucdavis.edu/sites/g/files/dgvnsk8426/files/inline-files/Mali.pdf"
+ ]
+}

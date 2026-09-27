@@ -1,0 +1,260 @@
+{
+ "id": "2026w41-s01",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "Caesar Raised His Own Ransom",
+ "hook": "CAESAR VS PIRATES",
+ "music": "playful",
+ "cast": {
+  "caesar": {
+   "preset": "senator",
+   "hair": "bald",
+   "hairColor": "#6A4A2A",
+   "color": "#F2EEE4",
+   "color2": "#8E2A5A",
+   "name": "Julius Caesar"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#7A5A3A",
+   "skin": "tan"
+  },
+  "pirate2": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#2F6FC2",
+   "outfit": "tunic",
+   "color": "#5A4A3A",
+   "beard": "goatee",
+   "skin": "olive"
+  }
+ },
+ "voices": {
+  "caesar": "bm_george",
+  "pirate": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Around 75 BC, pirates kidnapped a young Julius Caesar, and it was the worst mistake of their lives.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.25,
+      "pose": "aim",
+      "mood": "smug",
+      "hold": "sword"
+     },
+     {
+      "id": "caesar",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    }
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Your ransom is twenty talents of silver!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "caesar",
+      "x": 0.68,
+      "pose": "cross"
+     }
+    ],
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Twenty? Do you know who I am? Make it fifty.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "caesar",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "focus": "caesar",
+    "stickers": [
+     {
+      "text": "20 TALENTS",
+      "at": 0.3,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "NO, 50!",
+      "at": 1.3,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says he was held for thirty-eight days, and spent them bossing the pirates around.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.55,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.78,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He made them keep quiet while he napped, read them his poems, and called them illiterate barbarians if they didn't clap.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cam": "still",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "scroll"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.72,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Oh, and I'm going to have you all executed.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "focus": "caesar"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pirates laughed. Once the ransom was paid, Caesar raised a fleet, caught them, and kept his promise.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROMISE KEPT",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He negotiated his own ransom UP.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #juliuscaesar #ancientrome #pirates #historytok",
+ "youtube_title": "Pirates Kidnapped Julius Caesar. Big Mistake. #shorts",
+ "tags": [
+  "julius caesar",
+  "pirates",
+  "ancient rome",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/story/the-time-julius-caesar-was-captured-by-pirates",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius*.html",
+  "https://www.history.com/articles/julius-caesar-pirate-kidnap-legend"
+ ]
+}

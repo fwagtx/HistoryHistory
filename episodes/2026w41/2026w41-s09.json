@@ -1,0 +1,223 @@
+{
+ "id": "2026w41-s09",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "The Emperor Who Confused Rome With a Rooster",
+ "hook": "ROME OR ROOSTER?",
+ "music": "playful",
+ "cast": {
+  "alaric": {
+   "outfit": "fur",
+   "hair": "long",
+   "hairColor": "#C8902A",
+   "beard": "full",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Alaric"
+  },
+  "honorius": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Honorius"
+  },
+  "messenger": {
+   "preset": "roman",
+   "color": "#2F7A6A",
+   "hold": "letter"
+  }
+ },
+ "voices": {
+  "honorius": "bm_lewis",
+  "messenger": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When Rome was sacked in 410, the emperor supposedly thought someone meant his pet rooster.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cam": "shake",
+    "cast": [
+     {
+      "id": "alaric",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "shout",
+      "hold": "sword"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "tag": {
+     "id": "alaric",
+     "text": "Alaric, 410 AD"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Honorius was safe in Ravenna while the Visigoths looted Rome for three days.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "honorius",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "honorius",
+     "text": "Emperor Honorius"
+    }
+   }
+  },
+  {
+   "who": "messenger",
+   "say": "Emperor! Roma has perished!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cam": "still",
+    "cast": [
+     {
+      "id": "honorius",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "neutral"
+     },
+     {
+      "id": "messenger",
+      "x": 0.7,
+      "pose": "run",
+      "mood": "scared",
+      "enter": "right"
+     }
+    ]
+   }
+  },
+  {
+   "who": "honorius",
+   "say": "What? She was just eating out of my hand!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "honorius",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "messenger",
+      "x": 0.7,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "focus": "honorius"
+   }
+  },
+  {
+   "who": "messenger",
+   "say": "Not your rooster, sir. The city."
+  },
+  {
+   "who": "honorius",
+   "say": "Oh. Phew.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cam": "still",
+    "cast": [
+     {
+      "id": "honorius",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "messenger",
+      "x": 0.7,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This story comes from the historian Procopius, who wrote more than a century later, and it's almost certainly made up.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "messenger",
+      "x": 0.5,
+      "pose": "think"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROBABLY MADE UP",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the fact that people told it says a lot about what they thought of Honorius."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "honorius",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "messenger",
+      "x": 0.7,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome fell. The emperor was relieved it wasn't his rooster. (Allegedly.)\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #fallofrome #ancientrome #funnyhistory #historytok",
+ "youtube_title": "Rome Fell and the Emperor Worried About His Rooster #shorts",
+ "tags": [
+  "honorius",
+  "sack of rome",
+  "fall of rome",
+  "procopius",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Honorius_(emperor)",
+  "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)",
+  "https://www.britannica.com/event/Sack-of-Rome-410"
+ ]
+}

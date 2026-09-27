@@ -1,0 +1,194 @@
+{
+ "id": "2026w41-s16",
+ "format": "short",
+ "date": "2026-10-07",
+ "slot": "09:00",
+ "title": "This City Has Kept a Stolen Bucket for 700 Years",
+ "hook": "THE BUCKET WAR",
+ "music": "playful",
+ "cast": {
+  "modenese": {
+   "preset": "knight",
+   "hatColor": "#2F6FC2"
+  },
+  "bolognese": {
+   "preset": "knight",
+   "hatColor": "#A8322A"
+  }
+ },
+ "voices": {
+  "modenese": "am_puck",
+  "bolognese": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "An Italian city has kept a stolen bucket for about seven hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "modenese",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE BUCKET",
+      "at": 1.0,
+      "color": "#7A5A3A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1325, Modena and Bologna went to war.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "modenese",
+      "x": 0.3,
+      "pose": "fist"
+     },
+     {
+      "id": "bolognese",
+      "x": 0.7,
+      "pose": "fist"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legend says Modena stole a bucket from Bologna's well, but the real trigger was a captured castle."
+  },
+  {
+   "who": "N",
+   "say": "Bologna brought about thirty-two thousand men. Modena had around seven thousand.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "modenese",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "bolognese",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Modena won anyway, and on the way home, they grabbed a bucket from a well by Bologna's gate.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "modenese",
+      "x": 0.3,
+      "walk": [
+       0.3,
+       0.7
+      ],
+      "pose": "run",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "bolognese",
+   "say": "Give it back!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "bolognese",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "modenese",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "modenese",
+   "say": "No."
+  },
+  {
+   "who": "N",
+   "say": "Today, the original still sits in Modena's town hall.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "modenese",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more petty history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "modenese",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "bolognese",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Modena took Bologna's bucket in 1325. It still has it.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #italy #warofthebucket #historytok #medievalhistory",
+ "youtube_title": "This City Has Kept a Stolen Bucket for 700 Years #shorts",
+ "tags": [
+  "war of the bucket",
+  "history",
+  "modena",
+  "medieval history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/War_of_the_Bucket",
+  "https://en.wikipedia.org/wiki/Battle_of_Zappolino",
+  "https://theconversation.com/the-war-of-the-bucket-what-one-medieval-battle-tells-us-about-history-and-myth-264751",
+  "https://www.visitmodena.it/en/discover-modena/art-and-culture/historic-buildings-and-castles/palazzo-comunale"
+ ]
+}

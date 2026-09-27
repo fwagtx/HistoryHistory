@@ -1,0 +1,193 @@
+{
+ "id": "2026w41-s26",
+ "format": "short",
+ "date": "2026-10-09",
+ "slot": "09:00",
+ "title": "Mansa Musa's Giant Caravan",
+ "hook": "60,000 PEOPLE?",
+ "music": "playful",
+ "cast": {
+  "musa": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#D4A52A",
+   "color2": "#8A5A12",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Musa"
+  },
+  "mali1": {
+   "skin": "dark",
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#3A6A9A",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "name": "Malian courtier"
+  }
+ },
+ "voices": {
+  "musa": "am_fenrir",
+  "mali1": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1324, a king left West Africa for Mecca with, accounts say, sixty thousand people.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.4,
+      "mood": "smug",
+      "walk": [
+       0.25,
+       0.5
+      ]
+     },
+     {
+      "id": "mali1",
+      "x": 0.75,
+      "hold": "moneybag"
+     }
+    ],
+    "cam": "pan",
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "musa",
+     "text": "Mansa Musa of Mali"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's Mansa Musa of Mali, on the hajj, the pilgrimage to Mecca."
+  },
+  {
+   "who": "N",
+   "say": "Later chroniclers claimed twelve thousand servants wore brocade, and five hundred more carried staffs decorated with gold.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "mali1",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "goldbar"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "mali1",
+   "say": "How many camels of gold did we pack?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "mali1",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "cam": "close",
+    "focus": "mali1"
+   }
+  },
+  {
+   "who": "musa",
+   "say": "Enough."
+  },
+  {
+   "who": "N",
+   "say": "Sources say eighty or more camels, each carrying fifty to three hundred pounds of gold dust.",
+   "show": {
+    "k": "card",
+    "label": "Gold dust per camel, according to the chroniclers",
+    "big": "50–300 lb",
+    "sub": "accounts vary a lot"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians treat these numbers as dramatic storytelling, not a head count."
+  },
+  {
+   "who": "N",
+   "say": "But Cairo was still talking about the visit twelve years later.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "goldbar"
+     },
+     {
+      "id": "mali1",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Accounts say 60,000 people crossed the Sahara with this king.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #africanhistory #historytok #mali",
+ "youtube_title": "Mansa Musa's Giant Caravan #shorts",
+ "tags": [
+  "mansa musa",
+  "hajj",
+  "caravan",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Musa-I-of-Mali",
+  "https://en.wikipedia.org/wiki/Mansa_Musa",
+  "https://www.bbc.com/news/world-africa-47379458",
+  "https://www.digitalhistory.uh.edu/active_learning/explorations/1492/mansa_musa_visit.cfm",
+  "https://www.africanhistoryextra.com/p/the-myth-of-mansa-musas-enslaved"
+ ]
+}

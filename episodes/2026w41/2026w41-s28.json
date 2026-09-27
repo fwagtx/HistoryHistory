@@ -1,0 +1,181 @@
+{
+ "id": "2026w41-s28",
+ "format": "short",
+ "date": "2026-10-09",
+ "slot": "09:00",
+ "title": "Mali's Storytellers Roasted Mansa Musa",
+ "hook": "ROASTED BY GRIOTS",
+ "music": "playful",
+ "cast": {
+  "musa": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#D4A52A",
+   "color2": "#8A5A12",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Musa"
+  },
+  "griot": {
+   "skin": "dark",
+   "hat": "cap",
+   "hatColor": "#C8502A",
+   "outfit": "robe",
+   "color": "#C8502A",
+   "color2": "#F2C94C",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "name": "A jeli (griot)"
+  }
+ },
+ "voices": {
+  "musa": "am_fenrir",
+  "griot": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The world remembers Mansa Musa as a golden king. Some storytellers back home are less impressed.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "griot",
+      "x": 0.5,
+      "mood": "neutral",
+      "pose": "cross"
+     }
+    ],
+    "tag": {
+     "id": "griot",
+     "text": "A jeli, or griot"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Mali, griots, called jeliw, keep history alive through songs and stories."
+  },
+  {
+   "who": "N",
+   "say": "They sing far more about Sundiata, the founder of the empire, than about Musa."
+  },
+  {
+   "who": "griot",
+   "say": "Sundiata built an empire. Musa gave the gold to Egypt!",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "griot",
+      "x": 0.5,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On his 1324 pilgrimage, Musa spent and gave away so much gold that its value dropped in Cairo.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "smug",
+      "hold": "goldbar"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "musa",
+   "say": "It's called generosity!",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "shrug"
+     },
+     {
+      "id": "griot",
+      "x": 0.72,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "cam": "close",
+    "focus": "musa"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some jeliw say he wasted Mali's wealth abroad and broke with tradition."
+  },
+  {
+   "who": "N",
+   "say": "Maybe history's richest king, and still getting roasted seven hundred years later.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "griot",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Some of Mali's own storytellers say Mansa Musa wasted the gold.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #griot #historytok #africanhistory",
+ "youtube_title": "Mali's Storytellers Roasted Mansa Musa #shorts",
+ "tags": [
+  "mansa musa",
+  "griots",
+  "mali empire",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.bbc.com/news/world-africa-47379458",
+  "https://en.wikipedia.org/wiki/Mansa_Musa",
+  "https://en.wikipedia.org/wiki/Sundiata_Keita"
+ ]
+}

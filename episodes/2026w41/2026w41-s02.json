@@ -1,0 +1,221 @@
+{
+ "id": "2026w41-s02",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "Rome Was Sold at an Auction",
+ "hook": "EMPIRE FOR SALE",
+ "music": "playful",
+ "cast": {
+  "guard": {
+   "preset": "legionary",
+   "color": "#6A3E8E",
+   "hold": "spear"
+  },
+  "guard2": {
+   "preset": "legionary",
+   "color": "#6A3E8E",
+   "hold": "moneybag"
+  },
+  "julianus": {
+   "preset": "senator",
+   "hat": null,
+   "hair": "short",
+   "hairColor": "#DADADA",
+   "hold": "moneybag",
+   "name": "Didius Julianus"
+  },
+  "sulpicianus": {
+   "preset": "senator",
+   "hat": null,
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "stache": "thin",
+   "name": "Sulpicianus"
+  }
+ },
+ "voices": {
+  "guard": "am_eric",
+  "julianus": "bm_lewis",
+  "sulpicianus": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 193 AD, the Roman Empire was sold at an auction. For real.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "guard2",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "193 AD",
+      "at": 0.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Praetorian Guard had just killed the emperor Pertinax, and put the throne up for bids."
+  },
+  {
+   "who": "sulpicianus",
+   "say": "Twenty thousand sesterces per soldier!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cam": "still",
+    "cast": [
+     {
+      "id": "sulpicianus",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "julianus",
+      "x": 0.7,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "julianus",
+     "text": "Didius Julianus"
+    }
+   }
+  },
+  {
+   "who": "julianus",
+   "say": "Twenty-five thousand!"
+  },
+  {
+   "who": "N",
+   "say": "Cassius Dio, who lived through it, says the senator Didius Julianus jumped the bid by five thousand at once and held up the number on his fingers.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "shout",
+      "hold": "moneybag"
+     }
+    ],
+    "focus": "julianus",
+    "stickers": [
+     {
+      "text": "+5,000",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "guard",
+   "say": "Sold!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cam": "shake",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "julianus",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy",
+      "bounce": true
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It did not end well. Generals in the provinces refused to accept him, and after sixty-six days Julianus was killed in his own palace.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "66 DAYS",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's worst purchases.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "guard",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Roman Empire went to the highest bidder.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #romanempire #ancientrome #weirdhistory #historytok",
+ "youtube_title": "The Day Rome Was Sold at Auction #shorts",
+ "tags": [
+  "roman empire",
+  "didius julianus",
+  "praetorian guard",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Didius_Julianus",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/74*.html",
+  "https://www.thecollector.com/praetorian-guard-sold-roman-empire/"
+ ]
+}

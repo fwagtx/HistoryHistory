@@ -1,0 +1,177 @@
+{
+ "id": "2026w41-s24",
+ "format": "short",
+ "date": "2026-10-09",
+ "slot": "09:00",
+ "title": "Was Mansa Musa Worth $400 Billion?",
+ "hook": "$400 BILLION?",
+ "music": "playful",
+ "cast": {
+  "musa": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#D4A52A",
+   "color2": "#8A5A12",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Musa"
+  },
+  "hajib": {
+   "preset": "merchant",
+   "color": "#3A5A8A",
+   "hatColor": "#F2EEE4",
+   "skin": "olive",
+   "name": "Ibn Amir Hajib"
+  }
+ },
+ "voices": {
+  "musa": "am_fenrir",
+  "hajib": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "You've heard Mansa Musa was worth four hundred billion dollars. Here's the problem.",
+   "show": {
+    "k": "card",
+    "label": "The internet's number for Mansa Musa",
+    "big": "$400 BILLION?",
+    "sub": "a 2012 guess by a celebrity wealth website",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.75,
+      "mood": "smug",
+      "hold": "goldbar"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That number came from a celebrity wealth website in 2012."
+  },
+  {
+   "who": "N",
+   "say": "There are no account books from fourteenth-century Mali. Nobody audited the king.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO LEDGERS",
+      "at": 1,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "What we have are stories written down in Egypt, and they were meant to impress.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "hajib",
+      "x": 0.5,
+      "mood": "neutral",
+      "hold": "scroll",
+      "pose": "think"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His camels supposedly carried anywhere from fifty to three hundred pounds of gold each. That's not data, that's a shrug.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "goldbar"
+     },
+     {
+      "id": "hajib",
+      "x": 0.72,
+      "mood": "shock",
+      "hold": "scroll"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "musa",
+   "say": "Just write down: a lot."
+  },
+  {
+   "who": "N",
+   "say": "And was it his gold or the kingdom's? Back then, kind of both."
+  },
+  {
+   "who": "N",
+   "say": "Historians agree he was absurdly rich. The exact number is unknowable.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "sit",
+      "hold": "coin"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Was Mansa Musa really worth $400 billion? Nobody can know.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #richest #historytok #moneyhistory",
+ "youtube_title": "Was Mansa Musa Worth $400 Billion? #shorts",
+ "tags": [
+  "mansa musa",
+  "richest man ever",
+  "net worth",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mansa_Musa",
+  "https://www.bbc.com/news/world-africa-47379458",
+  "https://www.britannica.com/biography/Musa-I-of-Mali"
+ ]
+}

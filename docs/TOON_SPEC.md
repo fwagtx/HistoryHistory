@@ -135,7 +135,7 @@ The engine vocabulary follows. `pipeline/validate_toon.py` rejects anything else
 - **Royalty:** crown, tiara, laurel.
 - **Ancient:** roman, nemes (pharaoh), goldhelm.
 - **Medieval and Asian:** knight, viking, coif, kabuto, mongol.
-- **Sea and empire:** sailorcap, captain, tricorn, pirate, bicorne, bearskin, morion, cowboy, slouch.
+- **Sea and empire:** sailorcap, captain, tricorn, pirate, bicorne, bearskin, morion, cowboy, slouch, kepi (1850s–1860s soldiers).
 - **Military:** brodie, pickel, m1, stahlhelm, ushanka, aviator.
 - **Plague doctor:** plague (the wide hat), beak (the full mask).
 - **Space:** spacehelm.

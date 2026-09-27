@@ -1,0 +1,207 @@
+{
+ "id": "2026w41-s05",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "Rome's Roof Is Still Winning",
+ "hook": "1,900-YEAR-OLD DOME",
+ "music": "playful",
+ "cast": {
+  "citizenW": {
+   "preset": "peasantW",
+   "hat": "headscarf",
+   "outfit": "dress",
+   "color": "#C8702A",
+   "skin": "olive"
+  },
+  "hadrian": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "hair": "curly",
+   "beard": "full",
+   "hairColor": "#5A3A22",
+   "skin": "tan",
+   "name": "Hadrian"
+  }
+ },
+ "voices": {
+  "hadrian": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This roof is about nineteen hundred years old, and it's still the biggest of its kind on Earth.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "hadrian",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "citizenW",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE PANTHEON",
+      "at": 0.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Pantheon in Rome was rebuilt by Emperor Hadrian between 118 and 128 AD.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "hadrian",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "focus": "hadrian",
+    "tag": {
+     "id": "hadrian",
+     "text": "Emperor Hadrian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its concrete dome is about forty-three metres wide, with no steel reinforcement inside at all.",
+   "show": {
+    "k": "card",
+    "label": "Pantheon dome, across",
+    "big": "43 m",
+    "sub": "no steel inside",
+    "cast": [
+     {
+      "id": "hadrian",
+      "x": 0.8,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's still the largest unreinforced concrete dome ever built."
+  },
+  {
+   "who": "hadrian",
+   "say": "Built to last. Obviously.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "hadrian",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "focus": "hadrian"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2023, MIT researchers found part of the secret: lumps of lime in Roman concrete can help seal cracks when water gets in.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "citizenW",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SELF-HEALING",
+      "at": 2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's been a church since 609, and it's still in use today.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "citizenW",
+      "x": 0.5,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more ancient tech that still works.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hadrian",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "citizenW",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A 1,900-year-old concrete dome that is still a world record.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #pantheon #romanconcrete #ancientrome #historytok",
+ "youtube_title": "This Roman Dome Still Holds a World Record #shorts",
+ "tags": [
+  "pantheon",
+  "roman concrete",
+  "hadrian",
+  "ancient rome",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+  "https://www.britannica.com/topic/Pantheon-building-Rome-Italy",
+  "https://news.mit.edu/2023/roman-concrete-durability-lime-casts-0106",
+  "https://www.science.org/doi/10.1126/sciadv.add1602"
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "id": "2026w41-s13",
+ "format": "short",
+ "date": "2026-10-07",
+ "slot": "09:00",
+ "title": "The Shortest War in History",
+ "hook": "THE 38-MINUTE WAR",
+ "music": "playful",
+ "cast": {
+  "khalid": {
+   "preset": "sultan",
+   "hatColor": "#EFEFEF",
+   "beard": "full",
+   "skin": "brown",
+   "name": "Khalid bin Barghash"
+  },
+  "cave": {
+   "hat": "fedora",
+   "hatColor": "#EFEFEF",
+   "outfit": "suit",
+   "color": "#EFEFEF",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Consul Basil Cave"
+  },
+  "brsailor": {
+   "preset": "sailor"
+  }
+ },
+ "voices": {
+  "khalid": "am_eric",
+  "cave": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The shortest war in recorded history lasted about thirty-eight minutes.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "brsailor",
+      "x": 0.5
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In August 1896, the sultan of Zanzibar died, and Khalid bin Barghash took the palace without British approval.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "khalid",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "khalid",
+     "text": "Khalid bin Barghash"
+    }
+   }
+  },
+  {
+   "who": "cave",
+   "say": "Leave the palace by nine, or we open fire.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "cave",
+      "x": 0.45,
+      "hold": "letter",
+      "pose": "hold",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "cave",
+     "text": "Consul Basil Cave"
+    }
+   }
+  },
+  {
+   "who": "khalid",
+   "say": "You wouldn't dare.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "khalid",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At two minutes past nine, British warships opened fire.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "brsailor",
+      "x": 0.5,
+      "mood": "shock"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By about nine forty, the palace flag was down and it was over."
+  },
+  {
+   "who": "N",
+   "say": "It was no joke: around five hundred people on Khalid's side were killed or wounded. One British sailor was injured.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Afterwards, Britain even made Khalid's supporters pay for the shells.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "cave",
+      "x": 0.5,
+      "hold": "letter",
+      "pose": "present"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history in under a minute.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "brsailor",
+      "x": 0.35
+     },
+     {
+      "id": "cave",
+      "x": 0.68,
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The shortest war ever recorded lasted about 38 minutes.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #zanzibar #shortestwar #historytok #historyfacts",
+ "youtube_title": "The Shortest War in History Lasted 38 Minutes #shorts",
+ "tags": [
+  "anglo zanzibar war",
+  "history",
+  "shortest war",
+  "zanzibar",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+  "https://www.historic-uk.com/HistoryUK/HistoryofBritain/The-Shortest-War-in-History/"
+ ]
+}

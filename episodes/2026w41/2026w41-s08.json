@@ -1,0 +1,274 @@
+{
+ "id": "2026w41-s08",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "Elephants Over the Alps",
+ "hook": "ELEPHANTS OVER THE ALPS",
+ "music": "playful",
+ "cast": {
+  "carthaginian": {
+   "outfit": "tunic",
+   "color": "#6A3E8E",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "beard": "goatee",
+   "skin": "olive",
+   "hold": "spear"
+  },
+  "elephant": {
+   "animal": "elephant",
+   "mood": "neutral"
+  },
+  "hannibal": {
+   "hat": "goldhelm",
+   "outfit": "armor",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "skin": "olive",
+   "hold": "spear",
+   "name": "Hannibal"
+  }
+ },
+ "voices": {
+  "hannibal": "am_liam",
+  "carthaginian": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 218 BC, a general marched war elephants over the Alps to attack Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "neutral",
+      "walk": [
+       0.15,
+       0.35
+      ]
+     },
+     {
+      "id": "elephant",
+      "x": 0.65,
+      "mood": "scared"
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was Hannibal, and he came from Carthage, in North Africa.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "smug"
+     },
+     {
+      "id": "carthaginian",
+      "x": 0.7,
+      "pose": "hold"
+     }
+    ],
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal of Carthage"
+    }
+   }
+  },
+  {
+   "who": "carthaginian",
+   "say": "Over the mountains? With elephants?",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "carthaginian",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "focus": "carthaginian"
+   }
+  },
+  {
+   "who": "hannibal",
+   "say": "Especially with elephants."
+  },
+  {
+   "who": "N",
+   "say": "He started in Spain with thirty-seven elephants, crossed the Pyrenees and the Rhone, then climbed into the Alps.",
+   "show": {
+    "k": "map",
+    "lon": 5,
+    "lat": 42.5,
+    "z0": 1.8,
+    "z1": 2.3,
+    "date": "218 BC",
+    "labels": [
+     [
+      "Spain",
+      -1,
+      38.5,
+      0
+     ],
+     [
+      "Alps",
+      7,
+      45.6,
+      0
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -0.98,
+      37.6
+     ],
+     [
+      0.5,
+      40.5
+     ],
+     [
+      2.2,
+      42.4
+     ],
+     [
+      4.6,
+      43.9
+     ],
+     [
+      6.2,
+      45.0
+     ],
+     [
+      7.3,
+      45.3
+     ],
+     [
+      8.6,
+      45.1
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Britannica says that on the fifteenth day he came down into Italy, with most of those elephants still alive.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "elephant",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "stickers": [
+     {
+      "text": "15 DAYS",
+      "at": 1.5,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Weirdly, historians still argue over which pass he actually used.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cam": "still",
+    "cast": [
+     {
+      "id": "carthaginian",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WHICH PASS?",
+      "at": 1,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's boldest moves.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "elephant",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "37 war elephants. The Alps. What could go wrong?\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #hannibal #elephants #ancientrome #historytok",
+ "youtube_title": "Hannibal Took Elephants Over the Alps #shorts",
+ "tags": [
+  "hannibal",
+  "alps",
+  "war elephants",
+  "punic wars",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE",
+  "https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps",
+  "https://www.pbs.org/wnet/secrets/hannibal-alps-film/3784/"
+ ]
+}
