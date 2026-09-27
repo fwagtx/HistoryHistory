@@ -3,6 +3,7 @@
     python pipeline/toon_week.py plan 2026w41       # dates/slots into every script + episodes/2026w41/week.json
     python pipeline/toon_week.py publish 2026w41    # media_out files → orphan commit on the 'media' branch (force-pushed)
     python pipeline/toon_week.py payloads 2026w41   # Metricool payloads → output/2026w41/payloads.json
+    python pipeline/toon_week.py extra 2026w39-x1   # a one-off short outside the weekly grid
 
 Every payload targets the History Pros brand only (blogId 7081960) and switches on each
 platform's AI-content label.
@@ -66,6 +67,27 @@ def git(*args, env=None, **kw):
     return subprocess.run(["git", *args], cwd=ROOT, check=True, capture_output=True, text=True, env=env, **kw).stdout.strip()
 
 
+def _push_media(files, folder, message):
+    """Commit the files under <folder>/ as a fresh orphan commit on the media branch and force-push it."""
+    with tempfile.TemporaryDirectory() as tmp:
+        env = dict(os.environ, GIT_INDEX_FILE=str(Path(tmp) / "index"))
+        for f in files:
+            sha = git("hash-object", "-w", str(f))
+            git("update-index", "--add", "--cacheinfo", f"100644,{sha},{folder}/{f.name}", env=env)
+        tree = git("write-tree", env=env)
+    commit = git("commit-tree", tree, "-m", message)
+    for attempt in range(4):
+        try:
+            git("push", "-f", "origin", f"{commit}:refs/heads/{MEDIA_BRANCH}")
+            break
+        except subprocess.CalledProcessError:
+            if attempt == 3:
+                raise
+            import time
+            time.sleep(2 ** (attempt + 1))
+    return commit
+
+
 def publish(week_id):
     """Put this week's finished files in a fresh orphan commit on the media branch and force-push it.
     Earlier weeks drop off the branch, which is fine once Metricool has copied them (it copies at scheduling)."""
@@ -77,26 +99,28 @@ def publish(week_id):
     big = [f.name for f in files if f.stat().st_size > 99 * 1024 * 1024]
     if big:
         raise SystemExit(f"over GitHub's 100 MB limit: {big}")
-    with tempfile.TemporaryDirectory() as tmp:
-        env = dict(os.environ, GIT_INDEX_FILE=str(Path(tmp) / "index"))
-        for f in files:
-            sha = git("hash-object", "-w", str(f))
-            git("update-index", "--add", "--cacheinfo", f"100644,{sha},{week_id}/{f.name}", env=env)
-        tree = git("write-tree", env=env)
-    commit = git("commit-tree", tree, "-m", f"Media for {week_id} (History Pros)")
-    for attempt in range(4):
-        try:
-            git("push", "-f", "origin", f"{commit}:refs/heads/{MEDIA_BRANCH}")
-            break
-        except subprocess.CalledProcessError:
-            if attempt == 3:
-                raise
-            import time
-            time.sleep(2 ** (attempt + 1))
+    commit = _push_media(files, week_id, f"Media for {week_id} (History Pros)")
     (ROOT / "output" / week_id).mkdir(parents=True, exist_ok=True)
     (ROOT / "output" / week_id / "media_sha.txt").write_text(commit + "\n")
     print(commit)
     return commit
+
+
+def extra(script_id):
+    """One-off short outside the weekly grid (e.g. episodes/2026w39/2026w39-x1.json): publish its video and
+    write its payload to output/<week>/<id>-payload.json. The media branch then holds only this file."""
+    week_id = script_id.split("-")[0]
+    s = json.loads((ROOT / "episodes" / week_id / f"{script_id}.json").read_text())
+    video = ROOT / "media_out" / f"{script_id}.mp4"
+    if not video.exists():
+        raise SystemExit(f"missing {video}")
+    commit = _push_media([video], week_id, f"Media for {script_id} (History Pros)")
+    out = short_payload(s, f"https://raw.githubusercontent.com/{REPO}/{commit}/{week_id}/{video.name}")
+    assert out["blogId"] == "7081960"
+    dest = ROOT / "output" / week_id / f"{script_id}-payload.json"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(json.dumps(out, indent=1, ensure_ascii=False))
+    print(dest)
 
 
 def _when(day, slot):
@@ -193,4 +217,4 @@ if __name__ == "__main__":
     if cmd == "target":
         target()
     else:
-        {"plan": plan, "publish": publish, "payloads": payloads, "topics": pick_topics}[cmd](sys.argv[2])
+        {"plan": plan, "publish": publish, "payloads": payloads, "topics": pick_topics, "extra": extra}[cmd](sys.argv[2])

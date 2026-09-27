@@ -1,0 +1,289 @@
+{
+ "id": "2026w39-x1",
+ "format": "short",
+ "date": "2026-09-27",
+ "slot": "19:00",
+ "title": "The Man Who Told Alexander the Great to Move",
+ "hook": "RUDEST MAN IN GREECE",
+ "music": "playful",
+ "cast": {
+  "diogenes": {
+   "preset": "philosopher",
+   "outfit": "rags",
+   "color": "#8A7A5A",
+   "hair": "long",
+   "hairColor": "#CFCFCF",
+   "name": "Diogenes"
+  },
+  "alexander": {
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#B8863A",
+   "outfit": "armor",
+   "color": "#C9A04A",
+   "color2": "#A8322A",
+   "name": "Alexander the Great"
+  },
+  "plato": {
+   "preset": "philosopher",
+   "color": "#2F6FC2",
+   "name": "Plato"
+  }
+ },
+ "voices": {
+  "diogenes": "bm_lewis",
+  "alexander": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Alexander the Great was about to conquer an empire, and a guy living in a jar told him to move.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "diogenes",
+      "x": 0.68,
+      "pose": "sit",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "alexander",
+     "text": "Alexander the Great"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meet Diogenes, a philosopher who, ancient writers say, lived in a big clay jar on purpose.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "diogenes",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "focus": "diogenes",
+    "tag": {
+     "id": "diogenes",
+     "text": "Diogenes"
+    },
+    "stickers": [
+     {
+      "text": "HOME SWEET JAR",
+      "at": 1.2,
+      "color": "#C8702A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He reportedly carried a lamp in broad daylight, looking for a real human being.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cam": "pan",
+    "cast": [
+     {
+      "id": "diogenes",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "lantern",
+      "walk": [
+       0.2,
+       0.55
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When Plato defined humans as featherless bipeds, Diogenes supposedly brought him a plucked chicken.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "plato",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "angry"
+     },
+     {
+      "id": "diogenes",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "plato",
+     "text": "Plato"
+    },
+    "stickers": [
+     {
+      "text": "HERE IS PLATO'S MAN",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So, says Plutarch, young King Alexander finds him sunbathing in Corinth and asks what he wants.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy",
+      "enter": "left"
+     },
+     {
+      "id": "diogenes",
+      "x": 0.68,
+      "pose": "sit"
+     }
+    ]
+   }
+  },
+  {
+   "who": "alexander",
+   "say": "Name anything. It's yours.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "diogenes",
+      "x": 0.68,
+      "pose": "sit"
+     }
+    ],
+    "focus": "alexander"
+   }
+  },
+  {
+   "who": "diogenes",
+   "say": "Stand a little out of my sun.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cam": "close",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "diogenes",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "focus": "diogenes",
+    "stickers": [
+     {
+      "text": "DENIED",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Alexander supposedly said that if he weren't Alexander, he'd be Diogenes.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cam": "push",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "neutral",
+      "exit": "left",
+      "exitAt": 3.5
+     },
+     {
+      "id": "diogenes",
+      "x": 0.68,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "diogenes",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "alexander",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He could have asked Alexander the Great for anything. He asked for shade.\n\nFollow for 4 stories a day.\n#history #diogenes #alexanderthegreat #historytok #ancientgreece",
+ "youtube_title": "The Man Who Told Alexander the Great to Move #shorts",
+ "tags": [
+  "diogenes",
+  "alexander the great",
+  "ancient greece",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.livius.org/sources/content/plutarch/plutarchs-alexander/alexander-and-diogenes/",
+  "https://en.wikipedia.org/wiki/Diogenes_and_Alexander",
+  "https://www.loebclassics.com/view/diogenes_laertius-lives_eminent_philosophers_book_vi_chapter_2_diogenes/1925/pb_LCL185.43.xml",
+  "https://iep.utm.edu/diogenes-of-sinope/",
+  "https://www.worldhistory.org/Diogenes_of_Sinope/"
+ ]
+}
