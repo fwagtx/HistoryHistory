@@ -1,0 +1,159 @@
+{
+ "id": "2026w40-s25",
+ "format": "short",
+ "date": "2026-10-02",
+ "slot": "09:00",
+ "title": "Why This Museum Hangs Empty Frames",
+ "hook": "EMPTY FRAMES",
+ "music": "playful",
+ "cast": {
+  "fakecop": {
+   "skin": "peach",
+   "hat": "cap",
+   "hatColor": "#1F2A44",
+   "outfit": "suit",
+   "color": "#1F2A44",
+   "stache": "bush",
+   "name": "Fake police officer"
+  },
+  "nguard": {
+   "skin": "peach",
+   "outfit": "suit",
+   "color": "#6A6A6A",
+   "hair": "long",
+   "hairColor": "#5A3A22",
+   "name": "Night guard"
+  }
+ },
+ "voices": {
+  "fakecop": "am_fenrir",
+  "nguard": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In one Boston museum, empty frames hang on the walls on purpose.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nguard",
+      "x": 0.5,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1990, two men dressed as police knocked at the Isabella Stewart Gardner Museum.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "fakecop",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "point"
+     },
+     {
+      "id": "nguard",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "fakecop",
+     "text": "Not actually a police officer"
+    }
+   }
+  },
+  {
+   "who": "fakecop",
+   "say": "Police. We're here about a disturbance."
+  },
+  {
+   "who": "nguard",
+   "say": "Oh! Come on in, officers."
+  },
+  {
+   "who": "N",
+   "say": "They tied up the guards and spent eighty-one minutes inside, taking thirteen works of art.",
+   "show": {
+    "k": "card",
+    "label": "Time the thieves spent inside",
+    "big": "81 MINUTES",
+    "sub": "13 works taken"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The loot included a Vermeer and Rembrandt's only known seascape, together worth about five hundred million dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "nguard",
+      "x": 0.5,
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$500 MILLION",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Isabella Gardner's will says nothing in her galleries can be changed, so the frames stay."
+  },
+  {
+   "who": "N",
+   "say": "There's a ten million dollar reward, and the case is still unsolved."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history mysteries.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "nguard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "fakecop",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Why does a Boston museum still hang 13 empty frames? Blame two fake cops.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #artheist #boston #historytok #mystery",
+ "youtube_title": "Why This Museum Hangs Empty Frames #shorts",
+ "tags": [
+  "gardner museum heist",
+  "art theft",
+  "boston",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Isabella_Stewart_Gardner_Museum_theft",
+  "https://www.fbi.gov/history/cases-and-criminals/isabella-stewart-gardner-museum-heist",
+  "https://www.smithsonianmag.com/smart-news/five-things-know-about-isabella-stewart-gardner-art-heist-180977448/",
+  "https://www.wbur.org/news/2025/03/18/gardner-museum-heist-anniversay-empty-frames"
+ ]
+}

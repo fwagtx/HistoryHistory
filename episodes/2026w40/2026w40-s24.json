@@ -1,0 +1,166 @@
+{
+ "id": "2026w40-s24",
+ "format": "short",
+ "date": "2026-10-02",
+ "slot": "09:00",
+ "title": "Ireland's Crown Jewels Are Still Missing",
+ "hook": "THEY VANISHED",
+ "music": "playful",
+ "cast": {
+  "edward7": {
+   "preset": "king",
+   "beard": "full",
+   "hairColor": "#8A8A8A",
+   "hair": "bald",
+   "name": "King Edward VII"
+  },
+  "vicars": {
+   "skin": "peach",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "hair": "side",
+   "hairColor": "#8A6A4A",
+   "stache": "handlebar",
+   "glasses": "round",
+   "name": "Sir Arthur Vicars"
+  }
+ },
+ "voices": {
+  "edward7": "bm_george",
+  "vicars": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1907, Ireland's so-called Crown Jewels vanished from a safe in Dublin Castle, and they've never been found.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "vicars",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "tag": {
+     "id": "vicars",
+     "text": "Sir Arthur Vicars"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were the jewelled star and badge of the Order of Saint Patrick."
+  },
+  {
+   "who": "N",
+   "say": "On the sixth of July, the safe was opened, and the jewels were gone. The lock hadn't been forced.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "vicars",
+      "x": 0.5,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "vicars",
+   "say": "They were right here!"
+  },
+  {
+   "who": "N",
+   "say": "Four days later, King Edward the Seventh arrived for a visit.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "edward7",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "hips"
+     },
+     {
+      "id": "vicars",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "tag": {
+     "id": "edward7",
+     "text": "King Edward VII"
+    }
+   }
+  },
+  {
+   "who": "edward7",
+   "say": "So. Where exactly are the jewels?"
+  },
+  {
+   "who": "N",
+   "say": "The ceremony was cancelled, Sir Arthur Vicars lost his job, and no one was ever charged."
+  },
+  {
+   "who": "N",
+   "say": "More than a century later, the case is still unsolved.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "vicars",
+      "x": 0.5,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history mysteries.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "vicars",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "sad"
+     },
+     {
+      "id": "edward7",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Ireland's Crown Jewels vanished in 1907. They've never been found.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #ireland #mystery #historytok #heist",
+ "youtube_title": "Ireland's Crown Jewels Are Still Missing #shorts",
+ "tags": [
+  "irish crown jewels",
+  "dublin castle",
+  "unsolved mystery",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Irish_Crown_Jewels",
+  "https://dublincastle.ie/the-theft-of-the-irish-crown-jewels/",
+  "https://historyireland.com/the-theft-of-the-irish-crown-jewels-1907/",
+  "https://www.nationalgeographic.com/culture/article/ireland-crown-jewels-heist-unsolved-mystery"
+ ]
+}

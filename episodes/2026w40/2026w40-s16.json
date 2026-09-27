@@ -1,0 +1,159 @@
+{
+ "id": "2026w40-s16",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "The King Who Ate Himself to Death",
+ "hook": "DEATH BY DESSERT",
+ "music": "playful",
+ "cast": {
+  "adolf": {
+   "preset": "king",
+   "hair": "curly",
+   "hairColor": "#EFEFEF",
+   "skin": "peach",
+   "name": "King Adolf Frederick"
+  },
+  "chef": {
+   "preset": "worker",
+   "hat": "chef",
+   "apron": true,
+   "stache": "handlebar"
+  }
+ },
+ "voices": {
+  "adolf": "bm_lewis",
+  "chef": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Sweden remembers this king as the man who ate himself to death.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "adolf",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "adolf",
+     "text": "King Adolf Frederick"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On Fat Tuesday, 1771, King Adolf Frederick sat down to a monster feast.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.3,
+      "pose": "present"
+     },
+     {
+      "id": "adolf",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "chef",
+   "say": "Lobster, caviar, sauerkraut, herring and champagne, Your Majesty."
+  },
+  {
+   "who": "adolf",
+   "say": "Excellent. Now, dessert!"
+  },
+  {
+   "who": "N",
+   "say": "Dessert was semla, a cream bun in hot milk, and legend says he had fourteen.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "adolf",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "adolf",
+    "stickers": [
+     {
+      "text": "14 BUNS?",
+      "at": 1.0,
+      "color": "#C9A04A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hours later, the king was dead.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "adolf",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The fourteen buns can't be proven, and doctors suspect his heart, but the legend stuck."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "adolf",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "chef",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Lobster, caviar, champagne and maybe 14 cream buns.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #semla #sweden #historytok #funnyhistory",
+ "youtube_title": "The King Who Ate Himself to Death #shorts",
+ "tags": [
+  "adolf frederick",
+  "history",
+  "sweden",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Adolf_Frederick_of_Sweden",
+  "https://www.snopes.com/fact-check/death-by-cinnamon-bun-the-mystery-of-king-frederick-of-swedens-last-meal/",
+  "https://nordstjernan.com/news/food/6870/"
+ ]
+}

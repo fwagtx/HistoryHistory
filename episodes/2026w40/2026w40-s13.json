@@ -1,0 +1,155 @@
+{
+ "id": "2026w40-s13",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "The Emperor Who Drowned on the Way to the Crusade",
+ "hook": "HE NEVER GOT THERE",
+ "music": "playful",
+ "cast": {
+  "barbarossa": {
+   "preset": "crusader",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#B5452A",
+   "skin": "light",
+   "name": "Emperor Frederick Barbarossa"
+  },
+  "crusader": {
+   "preset": "crusader"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "barbarossa": "bm_lewis",
+  "crusader": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One of the most powerful emperors in Europe never made it to his own crusade.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug",
+      "hold": "sword"
+     }
+    ],
+    "tag": {
+     "id": "barbarossa",
+     "text": "Frederick Barbarossa"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Frederick Barbarossa, Red Beard, led a huge army toward the Holy Land in 1189."
+  },
+  {
+   "who": "N",
+   "say": "He marched all the way into what's now Turkey, then reached the Saleph River.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.68,
+      "pose": "hips"
+     }
+    ]
+   }
+  },
+  {
+   "who": "barbarossa",
+   "say": "I am the Emperor. I will simply go across."
+  },
+  {
+   "who": "N",
+   "say": "Accounts differ, but the old emperor ended up in the river, and he drowned.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.5,
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Without him, most of his army just turned around and went home.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.5,
+      "pose": "walk",
+      "walk": [
+       0.6,
+       0.2
+      ],
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legend says he's still asleep inside a mountain, waiting to come back."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.3,
+      "pose": "wave"
+     },
+     {
+      "id": "crusader",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He marched across half a continent, then a river got him.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #barbarossa #crusades #historytok #funnyhistory",
+ "youtube_title": "The Emperor Who Drowned on the Way to the Crusade #shorts",
+ "tags": [
+  "frederick barbarossa",
+  "history",
+  "third crusade",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Frederick_Barbarossa",
+  "https://www.historyandheadlines.com/june-10-1190-emperor-frederick-barbarossa-drowns-third-crusade/"
+ ]
+}

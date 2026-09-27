@@ -1,0 +1,184 @@
+{
+ "id": "2026w40-s19",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "A Monkey Bite Killed the King of Greece",
+ "hook": "KILLED BY A MONKEY",
+ "music": "playful",
+ "cast": {
+  "alexander": {
+   "outfit": "uniform",
+   "color": "#3A4A6A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "stache": "thin",
+   "skin": "light",
+   "name": "King Alexander of Greece"
+  },
+  "servant": {
+   "preset": "peasant"
+  }
+ },
+ "voices": {
+  "alexander": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1920, the King of Greece was killed by a monkey bite.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.45,
+      "pose": "salute"
+     }
+    ],
+    "tag": {
+     "id": "alexander",
+     "text": "King Alexander"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "King Alexander was walking his German shepherd, Fritz, on the royal estate near Athens.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fritz started fighting a pet monkey, and the king jumped in.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DOG",
+      "at": 0.5,
+      "color": "#6A4A2A"
+     },
+     {
+      "text": "VS",
+      "at": 1.0,
+      "color": "#262322"
+     },
+     {
+      "text": "MONKEY",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a second monkey bit him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "CHOMP",
+      "at": 0.3,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "alexander",
+   "say": "It's fine. Let's not tell anyone.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "servant",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The wounds got infected, and three weeks later he was dead at twenty-seven."
+  },
+  {
+   "who": "N",
+   "say": "Winston Churchill later wrote that a quarter of a million people died of this monkey's bite, because of the war chaos that followed."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.3,
+      "pose": "wave"
+     },
+     {
+      "id": "servant",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A king, a dog and a very bad monkey.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #greece #monkey #historytok #funnyhistory",
+ "youtube_title": "A Monkey Bite Killed the King of Greece #shorts",
+ "tags": [
+  "king alexander of greece",
+  "history",
+  "greece",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Alexander_of_Greece",
+  "https://www.history.com/this-day-in-history/october-25/greece-king-alexander-death-monkey-bite-1920",
+  "https://royalcentral.co.uk/features/the-king-who-was-killed-by-a-monkey-81478/",
+  "https://alphahistory.com/pastpeculiar/1871-lawyer-dies-wrong-pistol/"
+ ]
+}

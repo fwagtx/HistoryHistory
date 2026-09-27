@@ -1,0 +1,167 @@
+{
+ "id": "2026w40-s17",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "Tycho Brahe Was Too Polite to Leave the Table",
+ "hook": "TOO POLITE TO PEE",
+ "music": "playful",
+ "cast": {
+  "tycho": {
+   "outfit": "coat",
+   "color": "#262322",
+   "hair": "bald",
+   "stache": "handlebar",
+   "hairColor": "#C9A04A",
+   "skin": "light",
+   "name": "Tycho Brahe"
+  },
+  "rosenberg": {
+   "preset": "noble",
+   "hold": "goblet"
+  },
+  "kepler": {
+   "outfit": "coat",
+   "color": "#3A3A3A",
+   "beard": "goatee",
+   "stache": "thin",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Johannes Kepler"
+  }
+ },
+ "voices": {
+  "tycho": "bm_george",
+  "rosenberg": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This famous astronomer may have died because he was too polite to go to the bathroom.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "tycho",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "tag": {
+     "id": "tycho",
+     "text": "Tycho Brahe"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tycho Brahe mapped the stars, and wore a metal nose after losing part of his in a duel."
+  },
+  {
+   "who": "N",
+   "say": "In 1601, he went to a banquet in Prague.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "tycho",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "happy"
+     },
+     {
+      "id": "rosenberg",
+      "x": 0.68,
+      "pose": "present"
+     }
+    ]
+   }
+  },
+  {
+   "who": "rosenberg",
+   "say": "More wine, Tycho?"
+  },
+  {
+   "who": "tycho",
+   "say": "I really need to go. But leaving now would be so rude.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "tycho",
+      "pose": "sit",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "tycho"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to his assistant Johannes Kepler, he held it in, got sick, and died eleven days later.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "kepler",
+      "x": 0.45,
+      "pose": "hold",
+      "hold": "pen"
+     }
+    ],
+    "tag": {
+     "id": "kepler",
+     "text": "Johannes Kepler"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think a bladder or kidney problem was the real cause."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tycho",
+      "x": 0.3,
+      "pose": "wave"
+     },
+     {
+      "id": "kepler",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rule one of dinner parties: if you need to go, go.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #tychobrahe #astronomy #historytok #funnyhistory",
+ "youtube_title": "Tycho Brahe Was Too Polite to Leave the Table #shorts",
+ "tags": [
+  "tycho brahe",
+  "history",
+  "astronomy",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tycho_Brahe",
+  "https://www.britannica.com/biography/Tycho-Brahe-Danish-astronomer",
+  "https://www.nbcnews.com/id/wbna49857981",
+  "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0195920"
+ ]
+}

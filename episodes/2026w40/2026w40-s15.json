@@ -1,0 +1,169 @@
+{
+ "id": "2026w40-s15",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "This Composer Was Killed by Conducting",
+ "hook": "KILLED BY CONDUCTING",
+ "music": "playful",
+ "cast": {
+  "lully": {
+   "outfit": "coat",
+   "color": "#3A4A8A",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Jean-Baptiste Lully"
+  },
+  "physician": {
+   "preset": "physician"
+  }
+ },
+ "voices": {
+  "lully": "am_puck",
+  "physician": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This composer was killed by his own conducting.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lully",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "lully",
+     "text": "Jean-Baptiste Lully"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Jean-Baptiste Lully ran the music at the court of King Louis the Fourteenth."
+  },
+  {
+   "who": "N",
+   "say": "Back then, conductors kept time by banging a long staff on the floor.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "lully",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "happy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANG",
+      "at": 0.6,
+      "color": "#3A4A8A"
+     },
+     {
+      "text": "BANG",
+      "at": 1.4,
+      "color": "#3A4A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In January 1687, he slammed it right onto his own foot.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "lully",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "OW!",
+      "at": 0.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The wound turned into gangrene."
+  },
+  {
+   "who": "physician",
+   "say": "Monsieur, the toe must go.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "physician",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "lully",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lully",
+   "say": "Never. I am a dancer!"
+  },
+  {
+   "who": "N",
+   "say": "The story goes he refused, and he died that March."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lully",
+      "x": 0.3,
+      "pose": "wave"
+     },
+     {
+      "id": "physician",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The most dangerous instrument in the orchestra? The conductor's staff.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #lully #baroque #historytok #funnyhistory",
+ "youtube_title": "This Composer Was Killed by Conducting #shorts",
+ "tags": [
+  "jean-baptiste lully",
+  "history",
+  "classical music",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jean-Baptiste_Lully",
+  "https://www.classicfm.com/discover-music/periods-genres/baroque/jean-baptiste-lully-died-gangrene-conducting-staff/"
+ ]
+}

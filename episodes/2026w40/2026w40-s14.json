@@ -1,0 +1,178 @@
+{
+ "id": "2026w40-s14",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "This Emperor Was Killed by His Library",
+ "hook": "DEATH BY LIBRARY",
+ "music": "playful",
+ "cast": {
+  "humayun": {
+   "preset": "sultan",
+   "hat": "turban",
+   "hatColor": "#EFEFEF",
+   "beard": "full",
+   "skin": "tan",
+   "hold": "book",
+   "name": "Emperor Humayun"
+  },
+  "akbar": {
+   "preset": "sultan",
+   "hat": "turban",
+   "skin": "tan",
+   "name": "Akbar"
+  }
+ },
+ "voices": {
+  "humayun": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This Mughal emperor lost his empire, won it back, and then fell down the stairs.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.45,
+      "pose": "present"
+     }
+    ],
+    "tag": {
+     "id": "humayun",
+     "text": "Emperor Humayun"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Humayun spent about fifteen years in exile before retaking Delhi in 1555.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.45,
+      "pose": "walk",
+      "walk": [
+       0.2,
+       0.7
+      ],
+      "mood": "sad"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He loved books, and his library had very steep stairs.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STEEP STAIRS",
+      "at": 1.2,
+      "color": "#3A4A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In January 1556, he heard the call to prayer and sat down on the steps."
+  },
+  {
+   "who": "humayun",
+   "say": "I'll just kneel right here.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "humayun",
+      "pose": "sit"
+     }
+    ],
+    "cam": "close",
+    "focus": "humayun"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Getting up, his foot caught in his robe, and down he went.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "TUMBLE",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He died days later, and his thirteen-year-old son Akbar took over."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.3,
+      "pose": "wave"
+     },
+     {
+      "id": "akbar",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Fifteen years in exile. Six months back on top. Then the stairs.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #humayun #mughalempire #historytok #funnyhistory",
+ "youtube_title": "This Emperor Was Killed by His Library #shorts",
+ "tags": [
+  "humayun",
+  "history",
+  "mughal empire",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Humayun",
+  "https://en.wikipedia.org/wiki/Sher_Mandal",
+  "https://www.encyclopedia.com/people/history/south-asian-history-biographies/humayun"
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "id": "2026w40-s12",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "Attila the Hun Was Defeated by a Nosebleed",
+ "hook": "KILLED BY HIS NOSE",
+ "music": "playful",
+ "cast": {
+  "attila": {
+   "outfit": "fur",
+   "hat": "mongol",
+   "beard": "goatee",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "hold": "goblet",
+   "name": "Attila the Hun"
+  },
+  "hunguard": {
+   "preset": "mongol",
+   "hold": "spear"
+  }
+ },
+ "voices": {
+  "attila": "am_fenrir",
+  "hunguard": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Attila the Hun terrified the Roman Empire, and then a nosebleed took him out.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "attila",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry",
+      "hold": "sword"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "attila",
+     "text": "Attila the Hun"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He invaded Gaul and Italy, and made the Romans pay him mountains of gold."
+  },
+  {
+   "who": "N",
+   "say": "In 453, he threw a huge feast for his wedding to a young woman named Ildico.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "attila",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "hunguard",
+      "x": 0.7
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "hunguard",
+   "say": "Boss, maybe slow down on the wine?"
+  },
+  {
+   "who": "attila",
+   "say": "Nothing can stop Attila!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "attila",
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "attila"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The next morning, his guards broke down the door.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "hunguard",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to the historian Priscus, he'd had a heavy nosebleed lying on his back and choked."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "attila",
+      "x": 0.3,
+      "pose": "wave"
+     },
+     {
+      "id": "hunguard",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Scourge of God vs. his own nose.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #attilathehun #romanempire #historytok #funnyhistory",
+ "youtube_title": "Attila the Hun Was Defeated by a Nosebleed #shorts",
+ "tags": [
+  "attila the hun",
+  "history",
+  "roman empire",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Attila",
+  "https://en.wikipedia.org/wiki/Ildico",
+  "https://historyfacts.com/famous-figures/fact/attila-the-hun-death-nosebleed/"
+ ]
+}

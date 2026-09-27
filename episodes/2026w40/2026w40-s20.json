@@ -1,0 +1,194 @@
+{
+ "id": "2026w40-s20",
+ "format": "short",
+ "date": "2026-10-02",
+ "slot": "09:00",
+ "title": "The Man Who Flattened the Crown Jewels",
+ "hook": "HE FLATTENED THE CROWN",
+ "music": "playful",
+ "cast": {
+  "blood": {
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#262322",
+   "color2": "#F2EEE4",
+   "hair": "long",
+   "hairColor": "#5A3A22",
+   "stache": "thin",
+   "name": "Colonel Thomas Blood"
+  },
+  "charles": {
+   "preset": "king",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "stache": "thin",
+   "name": "King Charles II"
+  }
+ },
+ "voices": {
+  "blood": "am_fenrir",
+  "charles": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1671, a man dressed as a parson walked into the Tower of London and tried to walk out with the crown.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.5,
+      "mood": "smug",
+      "enter": "left"
+     }
+    ],
+    "tag": {
+     "id": "blood",
+     "text": "Colonel Thomas Blood"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Thomas Blood had spent weeks befriending the elderly keeper of the jewels."
+  },
+  {
+   "who": "N",
+   "say": "Then his gang attacked the keeper, Blood flattened the crown with a mallet, and the orb went down someone's trousers.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.5,
+      "mood": "shout",
+      "pose": "fist"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "BONK",
+      "at": 1.0,
+      "color": "#C8302A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "blood",
+   "say": "There. Now it fits in the bag."
+  },
+  {
+   "who": "N",
+   "say": "They were caught before they could get away.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Blood would only explain himself to King Charles the Second.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "angry"
+     },
+     {
+      "id": "blood",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "charles",
+     "text": "King Charles II"
+    }
+   }
+  },
+  {
+   "who": "charles",
+   "say": "So you're the man who tried to steal my crown."
+  },
+  {
+   "who": "N",
+   "say": "Somehow, Blood was pardoned, and even given Irish land said to be worth five hundred pounds a year.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "coin"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more heists that sound made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "charles",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He flattened the Crown of England with a mallet. The king pardoned him.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #crownjewels #heist #historytok #funnyhistory",
+ "youtube_title": "The Man Who Flattened the Crown Jewels #shorts",
+ "tags": [
+  "colonel blood",
+  "crown jewels",
+  "tower of london",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Thomas_Blood",
+  "https://www.nationalarchives.gov.uk/education/resources/the-king-the-crown-the-colonel/",
+  "https://www.worldhistory.org/article/1953/colonel-blood--the-theft-of-the-crown-jewels/",
+  "https://www.history.com/articles/the-man-who-stole-the-crown-jewels"
+ ]
+}

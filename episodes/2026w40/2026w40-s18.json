@@ -1,0 +1,178 @@
+{
+ "id": "2026w40-s18",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "The Lawyer Who Proved His Point Too Well",
+ "hook": "HE PROVED HIS POINT",
+ "music": "playful",
+ "cast": {
+  "vall": {
+   "outfit": "suit",
+   "color": "#262322",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Clement Vallandigham"
+  },
+  "lawyer": {
+   "preset": "businessman",
+   "stache": "bush"
+  },
+  "mcgehan": {
+   "preset": "worker",
+   "hat": "cap",
+   "name": "Thomas McGehan"
+  }
+ },
+ "voices": {
+  "vall": "bm_george",
+  "lawyer": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1871, a lawyer proved his client was innocent in the worst way possible.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "vall",
+     "text": "Clement Vallandigham"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Clement Vallandigham was defending Thomas McGehan, accused of shooting a man in a bar fight.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "mcgehan",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "scared"
+     },
+     {
+      "id": "vall",
+      "x": 0.68,
+      "pose": "present"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His theory: the victim shot himself pulling out his own pistol."
+  },
+  {
+   "who": "N",
+   "say": "At his hotel, he showed his fellow lawyers how.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.35,
+      "pose": "present"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lawyer",
+   "say": "Clem, is that thing loaded?"
+  },
+  {
+   "who": "vall",
+   "say": "No, this is the empty one."
+  },
+  {
+   "who": "N",
+   "say": "It wasn't. He died the next day.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "BANG!",
+      "at": 0.3,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And his client? Eventually acquitted."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "mcgehan",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He won the case. He just wasn't there to see it.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #lawyer #ohiohistory #historytok #funnyhistory",
+ "youtube_title": "The Lawyer Who Proved His Point Too Well #shorts",
+ "tags": [
+  "clement vallandigham",
+  "history",
+  "ohio history",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Clement_Vallandigham",
+  "https://www.goldenlamb.com/news/on-this-day-in-history-clement-vallandigham/",
+  "https://alphahistory.com/pastpeculiar/1871-lawyer-dies-wrong-pistol/"
+ ]
+}

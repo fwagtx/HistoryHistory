@@ -1,0 +1,176 @@
+{
+ "id": "2026w40-s27",
+ "format": "short",
+ "date": "2026-10-02",
+ "slot": "09:00",
+ "title": "The Hijacker Who Jumped and Vanished",
+ "hook": "HE JUST JUMPED",
+ "music": "playful",
+ "cast": {
+  "cooper": {
+   "skin": "peach",
+   "outfit": "suit",
+   "color": "#262322",
+   "tie": "#1E1C1B",
+   "glasses": "square",
+   "hair": "side",
+   "hairColor": "#1E1C1B",
+   "name": "\"Dan Cooper\""
+  },
+  "ingram": {
+   "preset": "child",
+   "name": "Brian Ingram"
+  },
+  "schaffner": {
+   "skin": "peach",
+   "outfit": "dress",
+   "color": "#2F6FC2",
+   "hair": "bun",
+   "hairColor": "#6A4A2A",
+   "name": "Florence Schaffner"
+  }
+ },
+ "voices": {
+  "cooper": "am_echo",
+  "ingram": "af_bella",
+  "schaffner": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1971, a hijacker jumped out of a plane with two hundred thousand dollars and was never seen again.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "cooper",
+      "x": 0.5,
+      "mood": "neutral",
+      "hold": "moneybag"
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "tag": {
+     "id": "cooper",
+     "text": "\"Dan Cooper\" (D.B. Cooper)"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He bought a ticket in Portland as Dan Cooper and handed a flight attendant a note.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "schaffner",
+      "x": 0.3,
+      "mood": "smug",
+      "hold": "letter"
+     },
+     {
+      "id": "cooper",
+      "x": 0.7,
+      "mood": "neutral",
+      "pose": "sit"
+     }
+    ]
+   }
+  },
+  {
+   "who": "schaffner",
+   "say": "Sorry, sir, I don't give out my number."
+  },
+  {
+   "who": "cooper",
+   "say": "Miss, you'd better look at that note."
+  },
+  {
+   "who": "N",
+   "say": "After the passengers were freed in Seattle, the plane took off again, and he jumped from the rear stairs into the night.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "cooper",
+      "x": 0.5,
+      "mood": "neutral",
+      "enter": "drop"
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1980, a kid found five thousand eight hundred dollars of the ransom on a Columbia River beach.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "ingram",
+      "x": 0.5,
+      "mood": "shock",
+      "hold": "moneybag"
+     }
+    ],
+    "tag": {
+     "id": "ingram",
+     "text": "Brian Ingram, age 8"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The serial numbers matched."
+  },
+  {
+   "who": "N",
+   "say": "In 2016 the FBI stopped actively investigating. He's still unidentified."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history mysteries.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ingram",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "cooper",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He jumped from a plane with $200,000 in 1971. Nobody knows who he was.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #dbcooper #mystery #historytok #unsolved",
+ "youtube_title": "The Hijacker Who Jumped and Vanished #shorts",
+ "tags": [
+  "db cooper",
+  "unsolved mystery",
+  "hijacking",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/D._B._Cooper",
+  "https://www.fbi.gov/history/cases-and-criminals/db-cooper-hijacking",
+  "https://www.historylink.org/file/23059",
+  "https://www.nbcnews.com/news/us-news/fbi-ends-active-search-vanished-1970s-skyjacker-d-b-cooper-n608061"
+ ]
+}

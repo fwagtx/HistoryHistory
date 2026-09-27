@@ -1,0 +1,170 @@
+{
+ "id": "2026w40-s22",
+ "format": "short",
+ "date": "2026-10-02",
+ "slot": "09:00",
+ "title": "Robbers Expected Cash and Found 3 Tonnes of Gold",
+ "hook": "WRONG KIND OF RICH",
+ "music": "playful",
+ "cast": {
+  "vaultguy1": {
+   "preset": "worker",
+   "hat": "bandana",
+   "hatColor": "#262322",
+   "color": "#262322",
+   "name": "Brink's-Mat robber"
+  },
+  "vaultguy2": {
+   "preset": "worker",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "color": "#4A4A4A",
+   "stubble": true,
+   "name": "Brink's-Mat robber"
+  }
+ },
+ "voices": {
+  "vaultguy1": "bm_daniel",
+  "vaultguy2": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1983, robbers got into a vault near Heathrow expecting about three million pounds in cash.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "vaultguy1",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "vaultguy2",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They'd had help from an inside man, a security guard."
+  },
+  {
+   "who": "vaultguy1",
+   "say": "Right. Where's the cash?",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "vaultguy1",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "think"
+     },
+     {
+      "id": "vaultguy2",
+      "x": 0.65,
+      "mood": "shock",
+      "hold": "goldbar"
+     }
+    ]
+   }
+  },
+  {
+   "who": "vaultguy2",
+   "say": "Forget the cash. Look at this!"
+  },
+  {
+   "who": "N",
+   "say": "Instead they found about three tonnes of gold bars, worth twenty-six million pounds.",
+   "show": {
+    "k": "card",
+    "label": "What was actually in the Brink's-Mat vault",
+    "big": "3 TONNES",
+    "sub": "about 6,800 gold bars, worth £26 million"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The guard's family link to one robber put police on the trail, and two ringleaders got twenty-five years.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "vaultguy1",
+      "x": 0.5,
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But most of the gold was melted down and never recovered."
+  },
+  {
+   "who": "N",
+   "say": "Legend says some of it ended up in British jewellery. Nobody can prove it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "vaultguy2",
+      "x": 0.5,
+      "mood": "smug",
+      "hold": "coin"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more heists that went sideways.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "vaultguy2",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "goldbar"
+     },
+     {
+      "id": "vaultguy1",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They broke in for £3 million in cash. They found £26 million in gold.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #heist #gold #historytok #truecrime",
+ "youtube_title": "Robbers Expected Cash and Found 3 Tonnes of Gold #shorts",
+ "tags": [
+  "brinks mat",
+  "gold heist",
+  "heathrow",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Brink%27s-Mat_robbery",
+  "https://www.worldhistory.org/article/2778/the-brinks-mat-robbery/",
+  "https://www.crimeandinvestigation.co.uk/articles/brinks-mat-heist-robbery-century"
+ ]
+}
