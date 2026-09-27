@@ -1,5 +1,7 @@
 # History Pros script spec
 
+> Superseded from Oct 5, 2026 by `docs/TOON_SPEC.md` (toon look). Kept for the dark-style episodes already published.
+
 Every video starts as a JSON script in `episodes/<nnn-slug>/`. The pipeline narrates it with Kokoro (`am_adam`), renders it in the Dark Chronicle look, and the files in `media/` are what Metricool publishes. This spec is the contract between writing and rendering.
 
 **Rules for every script**

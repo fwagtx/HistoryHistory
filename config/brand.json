@@ -9,8 +9,27 @@
     "tiktok": "historypros",
     "facebook": "1317456301452316"
   },
-  "look": "noir",
-  "voice": "am_adam",
+  "look": "toon",
+  "voice": "am_michael",
   "publishing": "automatic",
-  "ai_disclosure": true
+  "ai_disclosure": true,
+  "cadence": {
+    "shorts_per_day": 4,
+    "short_slots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "19:00"
+    ],
+    "long_form_days": [
+      "Mon",
+      "Wed",
+      "Fri"
+    ],
+    "long_form_slots": {
+      "facebook": "11:00",
+      "youtube": "16:00"
+    }
+  },
+  "media_branch": "media"
 }

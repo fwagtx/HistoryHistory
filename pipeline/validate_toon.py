@@ -1,0 +1,212 @@
+"""Check toon scripts before rendering (docs/TOON_SPEC.md).
+
+    python pipeline/validate_toon.py episodes/2026w41/*.json
+
+Checks fields, the engine vocabulary (read straight from engine/toon/*.js so it never
+goes stale), word counts, variety rules, and renders one test frame of every shot
+(plus the thumbnail) in a headless browser to catch errors before a long render.
+Exits 1 if any script has errors.
+"""
+import json
+import re
+import sys
+from pathlib import Path
+
+from playwright.sync_api import sync_playwright
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from render_vertical import chromium, font_css  # noqa: E402
+
+ROOT = Path(__file__).resolve().parent.parent
+E = ROOT / "engine" / "toon"
+ENGINE = ["shared.js", "toon/core.js", "toon/wardrobe.js", "toon/scenes.js", "toon/presets.js", "toon/director.js", "toon/thumbs.js"]
+KINDS = {"scene", "map", "title", "chapter", "card", "quote", "list", "compare", "end"}
+MOODS = {"neutral", "happy", "shock", "angry", "scared", "smug", "sad", "shout", "talk"}
+ANIMALS = {"emu", "pig", "horse", "rat", "elephant"}
+MUSIC = {"playful", "tense", "warm"}
+
+
+def vocab():
+    core, wd, sc, pr, di = (open(E / f).read() for f in ("core.js", "wardrobe.js", "scenes.js", "presets.js", "director.js"))
+    cases = lambda text, a, b: set(re.findall(r"case '(\w+)':", text[text.index(a):text.index(b)]))
+    return {
+        "scenes": set(re.findall(r"^  (\w+)\(c(?:, t)?\) \{", core[core.index("const SCN"):], re.M)) | set(re.findall(r"^  (\w+)\(c, t\) \{", sc, re.M)),
+        "hats": cases(core, "function hat(", "/* ---------- outfits") | cases(wd, "hat = function", "const _outfit0") | {"hood", "coif"},
+        "outfits": cases(core, "function outfit(", "/* ---------- props") | cases(wd, "outfit = function", "/* ---------- more animals"),
+        "props": cases(core, "function prop(", "/* ---------- animals") | cases(wd, "prop = function", "default: c.restore()") | {None},
+        "presets": set(re.findall(r"^  (\w+): \{", pr, re.M)),
+        "poses": cases(di, "function poseArms", "/* Place and draw") | {None, "stand"},
+        "fx": set(re.findall(r"f === '(\w+)'", di)),
+    }
+
+
+def check(path, V):
+    errs, warn = [], []
+    try:
+        s = json.loads(Path(path).read_text())
+    except Exception as e:  # noqa: BLE001
+        return [f"not valid JSON: {e}"], [], None
+    fmt = s.get("format")
+    req = ["id", "format", "title", "cast", "beats", "youtube_title", "tags", "sources", "date"]
+    req += ["hook", "caption", "slot"] if fmt == "short" else ["description", "thumbnail"]
+    errs += [f"missing field '{k}'" for k in req if k not in s]
+    if fmt not in ("short", "long"):
+        errs.append("format must be 'short' or 'long'")
+        return errs, warn, s
+    if s.get("music", "playful") not in MUSIC:
+        errs.append(f"music must be one of {sorted(MUSIC)}")
+    cast = s.get("cast", {})
+    for cid, c in cast.items():
+        if c.get("preset") and c["preset"] not in V["presets"]:
+            errs.append(f"cast '{cid}': unknown preset '{c['preset']}'")
+        if c.get("hat") and c["hat"] not in V["hats"]:
+            errs.append(f"cast '{cid}': unknown hat '{c['hat']}'")
+        if c.get("outfit") and c["outfit"] not in V["outfits"]:
+            errs.append(f"cast '{cid}': unknown outfit '{c['outfit']}'")
+        if c.get("hold") not in V["props"]:
+            errs.append(f"cast '{cid}': unknown prop '{c.get('hold')}'")
+        if c.get("animal") and c["animal"] not in ANIMALS:
+            errs.append(f"cast '{cid}': unknown animal '{c['animal']}'")
+        if c.get("mood") and c["mood"] not in MOODS:
+            errs.append(f"cast '{cid}': unknown mood '{c['mood']}'")
+    known = set(cast) | V["presets"] | ANIMALS
+    beats = s.get("beats", [])
+    if not beats or "show" not in beats[0]:
+        errs.append("the first beat needs a 'show'")
+    words, kinds, scenes, dialogue = 0, [], set(), 0
+    for i, b in enumerate(beats):
+        who = b.get("who", "N")
+        if who != "N" and who not in cast:
+            errs.append(f"beat {i}: speaker '{who}' is not in cast")
+        if who != "N" and b.get("say"):
+            dialogue += 1
+        if not b.get("say") and "hold" not in b:
+            errs.append(f"beat {i}: needs 'say' or 'hold'")
+        words += len(b.get("say", "").split())
+        sh = b.get("show")
+        if not sh:
+            continue
+        k = sh.get("k")
+        kinds.append(k)
+        if k not in KINDS:
+            errs.append(f"beat {i}: unknown shot kind '{k}'")
+            continue
+        for bgk in ("bg",):
+            if sh.get(bgk) and sh[bgk] not in V["scenes"]:
+                errs.append(f"beat {i}: unknown scene '{sh[bgk]}'")
+        if k == "scene":
+            if not sh.get("bg"):
+                errs.append(f"beat {i}: scene needs 'bg'")
+            scenes.add(sh.get("bg"))
+        if k == "chapter" and sh.get("bg") and sh["bg"] not in V["scenes"]:
+            errs.append(f"beat {i}: unknown chapter scene '{sh['bg']}'")
+        if k == "map" and ("lon" not in sh or "lat" not in sh):
+            errs.append(f"beat {i}: map needs lon and lat")
+        if k == "map" and not (-14 <= sh.get("lon", 0) <= 70 and 10 <= sh.get("lat", 45) <= 71):
+            errs.append(f"beat {i}: map centre is outside the map data (lon -14..70, lat 10..71)")
+        if len(sh.get("stickers", [])) > 3:
+            errs.append(f"beat {i}: more than 3 stickers")
+        if sh.get("fx"):
+            errs += [f"beat {i}: unknown fx '{f}'" for f in sh["fx"] if f not in V["fx"]]
+        entries = list(sh.get("cast", [])) + [e for side in ("left", "right") for e in (sh.get(side) or {}).get("cast", [])]
+        for e in entries:
+            if e.get("id") not in known:
+                errs.append(f"beat {i}: cast id '{e.get('id')}' is not defined")
+            if e.get("pose") not in V["poses"]:
+                errs.append(f"beat {i}: unknown pose '{e.get('pose')}'")
+            if e.get("hold") not in V["props"]:
+                errs.append(f"beat {i}: unknown prop '{e.get('hold')}'")
+            if e.get("mood") and e["mood"] not in MOODS:
+                errs.append(f"beat {i}: unknown mood '{e['mood']}'")
+            if fmt == "short" and e.get("x") is not None and not (.05 <= e["x"] <= .9) and not e.get("walk"):
+                warn.append(f"beat {i}: x={e['x']} is near the edge of a short (keep 0.12–0.82)")
+    if fmt == "short":
+        if not 60 <= words <= 130:
+            errs.append(f"{words} words; a short needs 75–115")
+        if kinds and kinds[-1] != "end":
+            errs.append("the last shot of a short must be 'end'")
+        if len(scenes) < 2:
+            warn.append("use at least two different scenes")
+    else:
+        if not 1700 <= words <= 2800:
+            errs.append(f"{words} words; long-form needs 1,900–2,400")
+        ch = kinds.count("chapter") + kinds.count("list")
+        if not 5 <= ch <= 12:
+            errs.append(f"{ch} chapter/list cards; use 6–10")
+        for k, n in (("map", 4), ("card", 2), ("quote", 1), ("title", 1), ("end", 1)):
+            if kinds.count(k) < n:
+                (errs if k in ("title", "end") else warn).append(f"only {kinds.count(k)} '{k}' shots (want {n}+)")
+        if len(scenes) < 10:
+            warn.append(f"only {len(scenes)} different scenes (want 12+)")
+        if dialogue < 4:
+            warn.append(f"only {dialogue} dialogue lines (want 2+ skits)")
+        t = s.get("thumbnail", {})
+        if t.get("style") not in ("split", "faces", "redbox"):
+            errs.append("thumbnail.style must be split, faces or redbox")
+    if not s.get("sources"):
+        errs.append("no sources listed")
+    return errs, warn, s
+
+
+def dry_run(scripts):
+    """Render one frame per shot and each thumbnail with fake timings; returns {id: [errors]}."""
+    js = "\n".join((ROOT / "engine" / f).read_text() for f in ENGINE)
+    page = ROOT / "output" / "validate.html"
+    page.parent.mkdir(exist_ok=True)
+    page.write_text(f"<!doctype html><html><head><meta charset='utf-8'>{font_css()}</head><body><script>{js}\nvar TV;</script></body></html>")
+    out = {}
+    with sync_playwright() as p:
+        b = p.chromium.launch(executable_path=chromium())
+        pg = b.new_page()
+        load_errs = []
+        pg.on("pageerror", lambda e: load_errs.append(str(e)))
+        pg.goto(page.resolve().as_uri())
+        if load_errs:
+            raise SystemExit("engine failed to load: " + load_errs[0])
+        for s in scripts:
+            t, beats, shots = .3, [], []
+            for bt in s["beats"]:
+                d = 2.5 if not bt.get("say") else max(1.2, len(bt["say"].split()) * .38)
+                words = [{"w": w, "s": t, "e": t + .3} for w in bt.get("say", "").split()]
+                beats.append({"who": bt.get("who", "N"), "say": bt.get("say", ""), "t0": t, "t1": t + d, "words": words})
+                if "show" in bt:
+                    shots.append({"s0": t, "show": bt["show"]})
+                t += d + .3
+            for i, sh in enumerate(shots):
+                sh["s1"] = shots[i + 1]["s0"] if i + 1 < len(shots) else t
+            tv = {"format": s["format"], "duration": t, "hook": s.get("hook", ""), "cast": s.get("cast", {}), "beats": beats, "shots": shots}
+            w, h = (1920, 1080) if s["format"] == "long" else (1080, 1920)
+            errs = pg.evaluate("""([tv,w,h,thumb])=>{window.TV=tv;const cv=document.createElement('canvas');cv.width=w;cv.height=h;const c=cv.getContext('2d');const errs=[];
+              tv.shots.forEach((sh,i)=>{for(const f of [.2,.7]){try{tvFrame(c,sh.s0+(sh.s1-sh.s0)*f)}catch(e){errs.push('shot '+i+' ('+sh.show.k+'): '+e.message);break;}}});
+              if(thumb){try{renderThumb(thumb)}catch(e){errs.push('thumbnail: '+e.message)}}return errs;}""", [tv, w, h, s.get("thumbnail") if s["format"] == "long" else None])
+            out[s["id"]] = errs
+        b.close()
+    return out
+
+
+def main():
+    V = vocab()
+    paths = [Path(p) for p in sys.argv[1:] if not p.endswith("week.json")]
+    bad, ok = 0, []
+    for p in paths:
+        errs, warn, s = check(p, V)
+        for w in warn:
+            print(f"  warn {p.name}: {w}")
+        if errs:
+            bad += 1
+            for e in errs:
+                print(f"  FAIL {p.name}: {e}")
+        elif s:
+            ok.append(s)
+    if ok:
+        for sid, errs in dry_run(ok).items():
+            if errs:
+                bad += 1
+                for e in errs:
+                    print(f"  FAIL {sid}: {e}")
+    print(f"{len(paths) - bad}/{len(paths)} scripts OK")
+    sys.exit(1 if bad else 0)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,195 @@
+"""Plan, publish and build the Metricool posts for one toon week (docs/AUTOMATION.md).
+
+    python pipeline/toon_week.py plan 2026w41       # dates/slots into every script + episodes/2026w41/week.json
+    python pipeline/toon_week.py publish 2026w41    # media_out files → orphan commit on the 'media' branch (force-pushed)
+    python pipeline/toon_week.py payloads 2026w41   # Metricool payloads → output/2026w41/payloads.json
+
+Every payload targets the History Pros brand only (blogId 7081960) and switches on each
+platform's AI-content label.
+"""
+import json
+import os
+import subprocess
+import sys
+import tempfile
+from datetime import date, datetime, timedelta
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+ROOT = Path(__file__).resolve().parent.parent
+BRAND = json.loads((ROOT / "config" / "brand.json").read_text())
+REPO = "fwagtx/HistoryHistory"
+MEDIA_BRANCH = "media"
+SHORT_SLOTS = ["09:00", "12:00", "15:00", "19:00"]
+LONG_DAYS = {"l1": 0, "l2": 2, "l3": 4}          # Mon, Wed, Fri
+LONG_SLOTS = {"facebook": "11:00", "youtube": "16:00"}
+assert BRAND["metricool_brand_id"] == "7081960", "History Pros only"
+
+
+def monday(week_id):
+    y, w = week_id.split("w")
+    return date.fromisocalendar(int(y), int(w), 1)
+
+
+def scripts(week_id):
+    d = ROOT / "episodes" / week_id
+    shorts = sorted(d.glob(f"{week_id}-s*.json"))
+    longs = sorted(d.glob(f"{week_id}-l*.json"))
+    return shorts, longs
+
+
+def plan(week_id):
+    """Shorts s01–s28 fill Mon 09:00 … Sun 19:00 in order, so each topic's shorts sit around its long-form."""
+    mon = monday(week_id)
+    shorts, longs = scripts(week_id)
+    if len(shorts) != 28 or len(longs) != 3:
+        raise SystemExit(f"{week_id}: expected 28 shorts and 3 long-form scripts, found {len(shorts)} and {len(longs)}")
+    posts = []
+    for i, p in enumerate(shorts):
+        s = json.loads(p.read_text())
+        s["date"] = (mon + timedelta(days=i // 4)).isoformat()
+        s["slot"] = SHORT_SLOTS[i % 4]
+        p.write_text(json.dumps(s, indent=1, ensure_ascii=False) + "\n")
+        posts.append({"id": s["id"], "kind": "short", "date": s["date"], "slot": s["slot"], "title": s["title"]})
+    for p in longs:
+        s = json.loads(p.read_text())
+        s["date"] = (mon + timedelta(days=LONG_DAYS[s["id"].split("-")[1]])).isoformat()
+        p.write_text(json.dumps(s, indent=1, ensure_ascii=False) + "\n")
+        for net, slot in LONG_SLOTS.items():
+            posts.append({"id": s["id"], "kind": f"long-{net}", "date": s["date"], "slot": slot, "title": s["title"]})
+    week = {"week": week_id, "monday": mon.isoformat(), "posts": sorted(posts, key=lambda x: (x["date"], x["slot"]))}
+    (ROOT / "episodes" / week_id / "week.json").write_text(json.dumps(week, indent=1, ensure_ascii=False) + "\n")
+    print(f"{week_id}: {len(week['posts'])} posts from {mon} to {mon + timedelta(days=6)}")
+
+
+def git(*args, env=None, **kw):
+    return subprocess.run(["git", *args], cwd=ROOT, check=True, capture_output=True, text=True, env=env, **kw).stdout.strip()
+
+
+def publish(week_id):
+    """Put this week's finished files in a fresh orphan commit on the media branch and force-push it.
+    Earlier weeks drop off the branch, which is fine once Metricool has copied them (it copies at scheduling)."""
+    files = sorted((ROOT / "media_out").glob(f"{week_id}-*"))
+    need = [f"{week_id}-s{i:02d}.mp4" for i in range(1, 29)] + [f"{week_id}-l{i}{x}" for i in (1, 2, 3) for x in (".mp4", "-thumb.jpg", "-chapters.txt")]
+    missing = [n for n in need if not (ROOT / "media_out" / n).exists()]
+    if missing:
+        raise SystemExit(f"missing finished files: {missing[:6]}{'…' if len(missing) > 6 else ''}")
+    big = [f.name for f in files if f.stat().st_size > 99 * 1024 * 1024]
+    if big:
+        raise SystemExit(f"over GitHub's 100 MB limit: {big}")
+    with tempfile.TemporaryDirectory() as tmp:
+        env = dict(os.environ, GIT_INDEX_FILE=str(Path(tmp) / "index"))
+        for f in files:
+            sha = git("hash-object", "-w", str(f))
+            git("update-index", "--add", "--cacheinfo", f"100644,{sha},{week_id}/{f.name}", env=env)
+        tree = git("write-tree", env=env)
+    commit = git("commit-tree", tree, "-m", f"Media for {week_id} (History Pros)")
+    for attempt in range(4):
+        try:
+            git("push", "-f", "origin", f"{commit}:refs/heads/{MEDIA_BRANCH}")
+            break
+        except subprocess.CalledProcessError:
+            if attempt == 3:
+                raise
+            import time
+            time.sleep(2 ** (attempt + 1))
+    (ROOT / "output" / week_id).mkdir(parents=True, exist_ok=True)
+    (ROOT / "output" / week_id / "media_sha.txt").write_text(commit + "\n")
+    print(commit)
+    return commit
+
+
+def _when(day, slot):
+    when = f"{day}T{slot}:00"
+    off = datetime.fromisoformat(when).replace(tzinfo=ZoneInfo(BRAND["timezone"])).strftime("%z")
+    return when, f"{when}{off[:3]}:{off[3:]}"
+
+
+def short_payload(s, url):
+    when, stamp = _when(s["date"], s["slot"])
+    info = {
+        "autoPublish": True, "draft": False, "descendants": [], "firstCommentText": "", "hasNotReadNotes": False,
+        "media": [url], "mediaAltText": [],
+        "providers": [{"network": n} for n in ("instagram", "facebook", "tiktok", "youtube")],
+        "publicationDate": {"dateTime": when, "timezone": BRAND["timezone"]},
+        "shortener": False, "smartLinkData": {"ids": []}, "text": s["caption"],
+        "instagramData": {"type": "REEL", "showReelOnFeed": True, "isAiGenerated": True},
+        "facebookData": {"type": "REEL"},
+        "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": s["title"][:90], "isAigc": True},
+        "youtubeData": {"title": s["youtube_title"][:100], "type": "short", "privacy": "public", "tags": s["tags"],
+                        "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": True},
+    }
+    return {"id": s["id"], "kind": "short", "blogId": BRAND["metricool_brand_id"], "date": stamp, "info": info}
+
+
+def long_payloads(s, base, chapters):
+    desc = s["description"].replace("Chapters are added automatically.", "Chapters:\n" + chapters.strip())
+    out = []
+    for net, slot in LONG_SLOTS.items():
+        when, stamp = _when(s["date"], slot)
+        info = {
+            "autoPublish": True, "draft": False, "descendants": [], "firstCommentText": "", "hasNotReadNotes": False,
+            "media": [f"{base}/{s['id']}.mp4"], "mediaAltText": [], "providers": [{"network": net}],
+            "publicationDate": {"dateTime": when, "timezone": BRAND["timezone"]},
+            "shortener": False, "smartLinkData": {"ids": []}, "text": desc,
+        }
+        if net == "youtube":
+            info["youtubeData"] = {"title": s["youtube_title"][:100], "type": "video", "privacy": "public", "tags": s["tags"],
+                                   "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": True}
+            info["videoThumbnailUrl"] = f"{base}/{s['id']}-thumb.jpg"
+        else:
+            info["facebookData"] = {"type": "POST", "title": s["title"]}
+        out.append({"id": s["id"], "kind": f"long-{net}", "blogId": BRAND["metricool_brand_id"], "date": stamp, "info": info})
+    return out
+
+
+def payloads(week_id, sha=None):
+    sha = sha or (ROOT / "output" / week_id / "media_sha.txt").read_text().strip()
+    base = f"https://raw.githubusercontent.com/{REPO}/{sha}/{week_id}"
+    shorts, longs = scripts(week_id)
+    out = [short_payload(json.loads(p.read_text()), f"{base}/{p.stem}.mp4") for p in shorts]
+    for p in longs:
+        s = json.loads(p.read_text())
+        out += long_payloads(s, base, (ROOT / "media_out" / f"{s['id']}-chapters.txt").read_text())
+    for x in out:
+        assert x["blogId"] == "7081960"
+    out.sort(key=lambda x: x["date"])
+    dest = ROOT / "output" / week_id / "payloads.json"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(json.dumps(out, indent=1, ensure_ascii=False))
+    print(f"{len(out)} payloads → {dest}")
+
+
+def target(today=None):
+    """The week to produce now: the ISO week that starts 7–13 days from today (production runs two weeks ahead)."""
+    today = today or date.today()
+    mon = today + timedelta(days=(7 - today.weekday()) % 7 or 7) + timedelta(days=7)
+    y, w, _ = mon.isocalendar()
+    print(f"{y}w{w:02d}")
+    return f"{y}w{w:02d}"
+
+
+def pick_topics(week_id):
+    """Take the top 'queued' topic per format from config/topics.json and mark it used for this week."""
+    p = ROOT / "config" / "topics.json"
+    t = json.loads(p.read_text())
+    out = {}
+    for fmt in ("monday", "wednesday", "friday"):
+        done = [x for x in t[fmt] if x.get("week") == week_id]
+        pick = done[0] if done else next((x for x in t[fmt] if x.get("status") == "queued"), None)
+        if not pick:
+            raise SystemExit(f"no queued {fmt} topics left: add more to config/topics.json (docs/AUTOMATION.md, step 2)")
+        pick["status"], pick["week"] = "used", week_id
+        out[fmt] = pick
+    p.write_text(json.dumps(t, indent=1, ensure_ascii=False) + "\n")
+    left = {f: sum(1 for x in t[f] if x.get("status") == "queued") for f in ("monday", "wednesday", "friday")}
+    print(json.dumps({"week": week_id, "topics": {k: v["title"] for k, v in out.items()}, "queued_left": left}, indent=1))
+    return out
+
+
+if __name__ == "__main__":
+    cmd = sys.argv[1]
+    if cmd == "target":
+        target()
+    else:
+        {"plan": plan, "publish": publish, "payloads": payloads, "topics": pick_topics}[cmd](sys.argv[2])

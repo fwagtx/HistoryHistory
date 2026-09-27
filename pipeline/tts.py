@@ -123,6 +123,100 @@ def narrate(sentences, voice, mode, out_dir):
     return mastered, timing_data
 
 
+# ---------------------------------------------------------------------------
+# Toon style (from Oct 2026): voice #3 (am_michael), paced phrase by phrase in
+# the casual storyteller style, with separate voices for characters in skits.
+# ---------------------------------------------------------------------------
+import re
+
+NARRATOR = "am_michael"
+NARRATOR_SPEED = 1.02
+CHARACTER_VOICES = ["bm_george", "am_fenrir", "bm_lewis", "am_puck", "af_heart", "am_echo", "bf_emma",
+                    "am_eric", "af_bella", "bm_daniel", "am_liam", "bf_alice"]
+POLISH = ("highpass=f=75,equalizer=f=140:t=q:w=1:g=2.5,equalizer=f=3200:t=q:w=1.5:g=2,equalizer=f=7500:t=q:w=2:g=-3,"
+          "deesser=i=0.35,acompressor=threshold=-22dB:ratio=3:attack=4:release=120:makeup=2.5,"
+          "aecho=0.85:0.8:18|29:0.05|0.03,loudnorm=I=-16:TP=-1.5:LRA=9,aresample=48000")
+_KOKORO = None
+
+
+def _kokoro():
+    global _KOKORO
+    if _KOKORO is None:
+        from kokoro_onnx import Kokoro
+        ensure_models()
+        _KOKORO = Kokoro(str(MODELS / "kokoro-v1.0.onnx"), str(MODELS / "voices-v1.0.bin"))
+    return _KOKORO
+
+
+def phrases(line):
+    """Split a line into spoken phrases, each with a speed factor and the pause that follows it."""
+    parts = re.findall(r"[^,;:?!.…]+(?:\.\.\.|…|[,;:?!.])*", line.replace("...", "…"))
+    out = []
+    for p in (x.strip() for x in parts):
+        if not p:
+            continue
+        words = len(p.split())
+        speed = 0.92 if words <= 3 else 1.0
+        if p.endswith("?"):
+            speed *= 1.04
+        end = p[-1]
+        pause = {",": .12, ";": .2, ":": .25, "…": .38, "?": .32, "!": .3, ".": .28}.get(end, .1)
+        out.append((p.replace("…", "..."), speed, pause))
+    return out
+
+
+def toon_narrate(beats, voices, out_dir):
+    """Speak every beat. beats: [{"who": "N"|cast id, "say": str} or {"hold": seconds}].
+    voices maps cast ids to Kokoro voices ("N" is the narrator). Returns timings with word times."""
+    k = _kokoro()
+    parts, t, timed = [np.zeros(int(.35 * SR), np.float32)], .35, []
+    for b in beats:
+        if not b.get("say"):
+            hold = float(b.get("hold", 2.5))
+            timed.append({"who": b.get("who", "N"), "say": "", "t0": round(t, 3), "t1": round(t + hold, 3), "words": []})
+            parts.append(np.zeros(int(hold * SR), np.float32)); t += hold
+            continue
+        who = b.get("who", "N")
+        voice = voices.get(who, NARRATOR)
+        base = NARRATOR_SPEED if who == "N" else 1.0
+        lang = "en-gb" if voice.startswith("b") else "en-us"
+        t0, words = t, []
+        for text, speed, pause in phrases(b["say"]):
+            a, _ = k.create(text, voice=voice, speed=base * speed, lang=lang, trim=True)
+            v = np.where(np.abs(a) > .008)[0]
+            if len(v):
+                a = a[max(0, v[0] - 300): v[-1] + 900]
+            a = a.astype(np.float32); f = int(.012 * SR); a[:f] *= np.linspace(0, 1, f); a[-f:] *= np.linspace(1, 0, f)
+            dur = len(a) / SR
+            ws = text.split(); w8 = [len(w) + 2 for w in ws]; tot = sum(w8); acc = t
+            for w, n in zip(ws, w8):
+                words.append({"w": w, "s": round(acc, 3), "e": round(acc + dur * n / tot, 3)}); acc += dur * n / tot
+            parts += [a, np.zeros(int(pause * SR), np.float32)]; t += dur + pause
+        end_pause = .45 if len(b["say"].split()) <= 6 else .3
+        parts.append(np.zeros(int(end_pause * SR), np.float32))
+        timed.append({"who": who, "say": b["say"], "t0": round(t0, 3), "t1": round(t, 3), "words": words}); t += end_pause
+    parts.append(np.zeros(int(1.2 * SR), np.float32))
+    raw = np.concatenate(parts)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    sf.write(out_dir / "voice_raw.wav", raw, SR)
+    subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-loglevel", "error", "-y", "-i", str(out_dir / "voice_raw.wav"),
+                    "-f", "lavfi", "-i", f"anoisesrc=color=pink:amplitude=0.0009:sample_rate={SR}",
+                    "-filter_complex", f"[0:a][1:a]amix=inputs=2:duration=first:normalize=0,{POLISH}", "-ac", "1",
+                    str(out_dir / "voice.wav")], check=True)
+    (out_dir / "voice_raw.wav").unlink()
+    return {"duration": round(len(raw) / SR, 3), "beats": timed}
+
+
+def assign_voices(cast_ids, fixed=None):
+    """Narrator plus a distinct voice per speaking character (scripts may pin voices)."""
+    fixed = dict(fixed or {})
+    out = {"N": fixed.pop("N", NARRATOR)}
+    pool = [v for v in CHARACTER_VOICES if v not in fixed.values() and v != out["N"]]
+    for cid in cast_ids:
+        out[cid] = fixed.get(cid) or pool.pop(0) if (fixed.get(cid) or pool) else NARRATOR
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script", type=Path, help="JSON list of sentences, or a short/episode JSON with a 'sentences' field")

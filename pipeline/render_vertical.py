@@ -22,7 +22,8 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parent.parent
 ENGINE = ROOT / "engine" / "vertical.html"
 FONTS = ROOT / "assets" / "fonts"
-FAMILIES = {"oswald": "Oswald", "archivo": "Archivo", "lora": "Lora", "cinzel": "Cinzel", "eb": "EB Garamond"}
+FAMILIES = {"oswald": "Oswald", "archivo": "Archivo", "lora": "Lora", "cinzel": "Cinzel", "eb": "EB Garamond",
+            "anton": "Anton", "luckiest": "Luckiest Guy", "patrick": "Patrick Hand", "permanent": "Permanent Marker"}
 
 
 def font_css():
