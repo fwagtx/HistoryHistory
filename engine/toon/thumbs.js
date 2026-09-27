@@ -26,8 +26,11 @@ function thumbFaces(c, o) {
   const g = c.createLinearGradient(0, 0, 0, 500); g.addColorStop(0, 'rgba(0,0,0,.35)'); g.addColorStop(1, 'rgba(0,0,0,0)'); c.fillStyle = g; c.fillRect(0, 0, 1920, 500);
   const f = o.faces || [], pos = f.length === 1 ? [[1450, 660, 5.2, -.3]] : f.length === 2 ? [[520, 690, 4.4, .3], [1400, 690, 4.4, -.3]] : [[360, 700, 4.2, .3], [960, 640, 4.8, 0], [1570, 700, 4.2, -.3]];
   f.slice(0, 3).forEach((e, i) => shadowed2(c, () => drawWho(c, e, pos[i][0], pos[i][1], pos[i][2], { look: pos[i][3] })));
-  thumbText(c, o.title || '', f.length === 1 ? 640 : 960, 230, o.titleSize || 230, { sw: .06 });
-  if (f.length === 1) redArrow(c, 660, 420, 1120, 560);
+  if (f.length === 1) { // one big face on the right, the title stacked on the left
+    const words = String(o.title || '').split(' '), half = Math.ceil(words.length / 2), lines = words.length > 1 ? [words.slice(0, half).join(' '), words.slice(half).join(' ')] : words;
+    c.save(); let size = o.titleSize || 230; c.font = `${size}px Anton`; while (lines.some(l => c.measureText(l).width > 900) && size > 90) { size -= 8; c.font = `${size}px Anton`; } c.restore();
+    lines.forEach((l, i) => thumbText(c, l, 60, 300 + i * size * 1.02, size, { sw: .06, align: 'left' }));
+  } else thumbText(c, o.title || '', 960, 230, o.titleSize || 230, { sw: .06 });
 }
 function thumbRedbox(c, o) {
   frameStart(.5); SCN[o.bg || 'field'](c, 1);
