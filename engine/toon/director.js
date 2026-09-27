@@ -178,7 +178,7 @@ function tvFrame(c, t) {
       drawObjects(c, m.objects, t, lt, dur, m.bg, false);
       const placed = drawCast(c, m.cast || [], t, lt, dur, m.bg);
       drawObjects(c, m.objects, t, lt, dur, m.bg, true);
-      fxLayer(c, m.fx, t, true); if (m.tag) { const p = placed.find(e => e.id === m.tag.id); if (p && p._x != null) nameTag(c, m.tag.text, Math.max(isLong() ? 200 : 220, Math.min(W0 - (isLong() ? 200 : 260), p._x)), Math.max(isLong() ? 120 : 460, p._y - 90 * p._s), lt); }
+      fxLayer(c, m.fx, t, true); if (m.tag) { const p = placed.find(e => e.id === m.tag.id); if (p && p._x != null) nameTag(c, m.tag.text, Math.max(isLong() ? 200 : 220, Math.min(W0 - (isLong() ? 200 : 260), p._x)), Math.max(isLong() ? (m.place ? 190 : 120) : (m.place ? 520 : 460), p._y - 90 * p._s), lt); }
       c.restore(); placeBanner(c, m.place, lt); (m.stickers || []).forEach((s, i) => stickerPop(c, s.text, s.x != null ? s.x * W0 : (isLong() ? (m.tag ? W0 * .74 : W0 / 2) : W0 / 2 - 35), s.y != null ? s.y * H0 : (isLong() ? (m.place ? 200 : 130) + i * 120 : (m.tag ? 560 : m.place ? 520 : 470) + i * 125), lt - (s.at ?? .3), s.color)); break; }
     case 'map': mapShot(c, sh, t, lt, lp); break;
     case 'title': titleCard(c, sh, t, lt); break;
