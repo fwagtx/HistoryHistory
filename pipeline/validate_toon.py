@@ -16,6 +16,7 @@ from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from render_vertical import chromium, font_css  # noqa: E402
+from tts import phrases  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 E = ROOT / "engine" / "toon"
@@ -83,6 +84,8 @@ def check(path, V):
         if not b.get("say") and "hold" not in b:
             errs.append(f"beat {i}: needs 'say' or 'hold'")
         words += len(b.get("say", "").split())
+        if b.get("say") and not phrases(b["say"]):
+            errs.append(f"beat {i}: nothing speakable in 'say'")
         sh = b.get("show")
         if not sh:
             continue

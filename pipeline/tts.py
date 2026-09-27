@@ -153,8 +153,8 @@ def phrases(line):
     parts = re.findall(r"[^,;:?!.…]+(?:\.\.\.|…|[,;:?!.])*", line.replace("...", "…"))
     out = []
     for p in (x.strip() for x in parts):
-        if not p:
-            continue
+        if not re.search(r"[A-Za-z0-9]", p):
+            continue  # stray quotes or dashes carry nothing to speak
         words = len(p.split())
         speed = 0.92 if words <= 3 else 1.0
         if p.endswith("?"):
