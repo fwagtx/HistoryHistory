@@ -1,0 +1,233 @@
+{
+ "id": "2026w40-s09",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "China's Oldest Writing Was Sold as Medicine",
+ "hook": "DRAGON BONE MEDICINE",
+ "music": "playful",
+ "cast": {
+  "diviner": {
+   "outfit": "robe",
+   "color": "#5A3A22",
+   "hair": "bun",
+   "hairColor": "#6A6A6A",
+   "beard": "goatee",
+   "skin": "tan",
+   "hold": "torch"
+  },
+  "farmer": {
+   "preset": "farmer",
+   "stubble": true,
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "hold": "pitchfork"
+  },
+  "seller": {
+   "hat": "straw",
+   "outfit": "tunic",
+   "color": "#C8702A",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "stubble": true
+  },
+  "shangking": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#7A5A3A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "skin": "light"
+  },
+  "trader": {
+   "hat": "cap",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#1F8A4A",
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "moneybag"
+  },
+  "wang": {
+   "hat": "cap",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#2F6FC2",
+   "stache": "thin",
+   "glasses": "round",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Wang Yirong"
+  }
+ },
+ "voices": {
+  "diviner": "am_echo",
+  "farmer": "am_liam",
+  "seller": "am_fenrir",
+  "shangking": "bm_lewis",
+  "trader": "am_eric",
+  "wang": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "China's oldest writing was once ground up and sold as medicine.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "seller",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "trader",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "cam": "push",
+    "stickers": [
+     {
+      "text": "DRAGON BONES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1800s, farmers near Anyang dug up old bones and turtle shells, and medicine shops sold them as dragon bones.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story goes that in 1899, a scholar named Wang Yirong bought some as medicine and spotted tiny carvings on them.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "wang",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "cam": "push",
+    "tag": {
+     "id": "wang",
+     "text": "Wang Yirong"
+    }
+   }
+  },
+  {
+   "who": "wang",
+   "say": "Hang on. Dragons don't write.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "wang",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "wang"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were oracle bones from the Shang dynasty, over three thousand years old.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "shangking",
+      "x": 0.3,
+      "pose": "think"
+     },
+     {
+      "id": "diviner",
+      "x": 0.7,
+      "pose": "present"
+     }
+    ],
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "SHANG DYNASTY",
+      "at": 0.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Shang priests carved a king's questions onto bones, heated them until they cracked, and read the answers in the cracks."
+  },
+  {
+   "who": "shangking",
+   "say": "So, ancestors, will it rain tomorrow?"
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history hiding in plain sight.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "wang",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "shangking",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They were grinding up ancient writing as medicine.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #oraclebones #archaeology #ancientchina #historytok",
+ "youtube_title": "China's Oldest Writing Was Sold as Dragon Bone Medicine #shorts",
+ "tags": [
+  "oracle bones",
+  "shang dynasty",
+  "archaeology",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Oracle_bone",
+  "https://www.worldhistory.org/Oracle_Bones/",
+  "https://en.wikipedia.org/wiki/Wang_Yirong",
+  "https://en.wikipedia.org/wiki/Dragon_bones",
+  "https://www.tandfonline.com/doi/full/10.1080/00094633.2020.1834808"
+ ]
+}

@@ -1,0 +1,211 @@
+{
+ "id": "2026w40-s06",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "The Emperor Thought a Giraffe Was a Unicorn",
+ "hook": "A GIRAFFE FOR CHINA",
+ "music": "playful",
+ "cast": {
+  "official": {
+   "hat": "cap",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "yongle": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#E8C25A",
+   "color2": "#A8322A",
+   "beard": "full",
+   "stache": "handlebar",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Yongle Emperor"
+  },
+  "zhenghe": {
+   "hat": "cap",
+   "hatColor": "#A8322A",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "color2": "#E8C25A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Admiral Zheng He"
+  }
+ },
+ "voices": {
+  "official": "bm_daniel",
+  "yongle": "bm_george",
+  "zhenghe": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1414, the emperor of China received a giraffe, and his court decided it was a mythical beast.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "yongle",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "cam": "push",
+    "tag": {
+     "id": "yongle",
+     "text": "Yongle Emperor"
+    },
+    "stickers": [
+     {
+      "text": "1414",
+      "at": 0.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Admiral Zheng He was leading giant fleets across the Indian Ocean for the Yongle Emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "zhenghe",
+      "x": 0.45,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "cam": "pan",
+    "tag": {
+     "id": "zhenghe",
+     "text": "Admiral Zheng He"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Bengal, his fleet met envoys from Malindi in East Africa, and the Sultan of Bengal sent the emperor a giraffe.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "zhenghe",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "shock"
+     }
+    ],
+    "cam": "push",
+    "stickers": [
+     {
+      "text": "A GIRAFFE!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "yongle",
+   "say": "Long neck, hooves, gentle eyes. Is this a qilin?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "yongle",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     },
+     {
+      "id": "official",
+      "x": 0.7,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "official",
+   "say": "Definitely a qilin, Majesty. Heaven loves you."
+  },
+  {
+   "who": "N",
+   "say": "A qilin was a legendary creature said to appear only under a wise ruler.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "yongle",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "yongle",
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Very handy for an emperor who had grabbed the throne from his own nephew. A court painter even made the giraffe's official portrait."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "zhenghe",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "yongle",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Ming China got a giraffe and called it a qilin.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #zhenghe #mingdynasty #giraffe #historytok",
+ "youtube_title": "China's Emperor Got a Giraffe and Called It a Mythical Beast #shorts",
+ "tags": [
+  "zheng he",
+  "giraffe",
+  "ming dynasty",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.smithsonianmag.com/smart-news/peculiar-story-giraffes-medieval-china-180963737/",
+  "https://www.sciencenews.org/blog/wild-things/giraffes-sailed-medieval-china",
+  "https://en.wikipedia.org/wiki/Zheng_He",
+  "https://en.wikipedia.org/wiki/Qilin",
+  "https://en.wikipedia.org/wiki/Timeline_of_the_Ming_treasure_voyages"
+ ]
+}

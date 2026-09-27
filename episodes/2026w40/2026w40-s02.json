@@ -1,0 +1,203 @@
+{
+ "id": "2026w40-s02",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "Farmers Dug a Well and Found an Army",
+ "hook": "8,000 CLAY SOLDIERS",
+ "music": "playful",
+ "cast": {
+  "clay": {
+   "outfit": "armor",
+   "color": "#B5764A",
+   "color2": "#8A5A3A",
+   "hair": "bun",
+   "hairColor": "#8A5A3A",
+   "stache": "thin",
+   "skin": "tan",
+   "hold": "spear"
+  },
+  "farmer": {
+   "preset": "farmer",
+   "stubble": true,
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "hold": "pitchfork"
+  },
+  "farmer2": {
+   "preset": "peasant",
+   "hairColor": "#1E1C1B",
+   "skin": "tan"
+  }
+ },
+ "voices": {
+  "farmer": "am_liam",
+  "farmer2": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1974, farmers digging a well in China hit a clay head, and then found an entire buried army.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "shock"
+     },
+     {
+      "id": "farmer2",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "cam": "push",
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "1974",
+      "at": 0.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "Is this a pot?"
+  },
+  {
+   "who": "farmer2",
+   "say": "Pots don't have mustaches.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer2",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     },
+     {
+      "id": "clay",
+      "x": 0.7,
+      "pose": "salute",
+      "enter": "drop"
+     }
+    ],
+    "cam": "close",
+    "focus": "farmer2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was the Terracotta Army, built to guard the tomb of China's first emperor, Qin Shi Huang.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "clay",
+      "x": 0.2,
+      "pose": "salute"
+     },
+     {
+      "id": "clay",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "clay",
+      "x": 0.78,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The usual estimate is more than eight thousand life-size soldiers, plus horses and chariots.",
+   "show": {
+    "k": "card",
+    "label": "Terracotta soldiers",
+    "big": "8,000+",
+    "sub": "by the usual estimate",
+    "cast": [
+     {
+      "id": "clay",
+      "x": 0.8,
+      "pose": "salute",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The heads came from a handful of molds, but each face was finished by hand, so the soldiers all look different.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "clay",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "clay"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And they were once painted in bright colors, which mostly flaked away once they hit the air."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history hiding underground.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "clay",
+      "x": 0.7,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They were digging for water. They found an army.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #terracottaarmy #archaeology #ancientchina #historytok",
+ "youtube_title": "Farmers Dug a Well and Found 8,000 Clay Soldiers #shorts",
+ "tags": [
+  "terracotta army",
+  "archaeology",
+  "qin shi huang",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Terracotta_Army",
+  "https://www.history.com/articles/5-things-you-may-not-know-about-the-terra-cotta-army",
+  "https://www.npr.org/sections/thetwo-way/2018/05/20/612780909/archaeologist-who-uncovered-chinas-8-000-man-terra-cotta-army-dies-at-82r",
+  "https://www.thevintagenews.com/2023/08/08/terracotta-army-discovery/"
+ ]
+}

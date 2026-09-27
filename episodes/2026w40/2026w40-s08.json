@@ -1,0 +1,177 @@
+{
+ "id": "2026w40-s08",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "You Can't See the Great Wall From the Moon",
+ "hook": "SEEN FROM THE MOON?",
+ "music": "playful",
+ "cast": {
+  "astronaut": {
+   "preset": "astronaut"
+  },
+  "clay": {
+   "outfit": "armor",
+   "color": "#B5764A",
+   "color2": "#8A5A3A",
+   "hair": "bun",
+   "hairColor": "#8A5A3A",
+   "stache": "thin",
+   "skin": "tan",
+   "hold": "spear"
+  }
+ },
+ "voices": {
+  "astronaut": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "You've probably heard you can see the Great Wall of China from the Moon. You can't.",
+   "show": {
+    "k": "scene",
+    "bg": "moon",
+    "cast": [
+     {
+      "id": "astronaut",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "push",
+    "stickers": [
+     {
+      "text": "MYTH",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The myth is older than spaceflight: Ripley's Believe It or Not printed it in 1932."
+  },
+  {
+   "who": "N",
+   "say": "The wall is enormous, over twenty-one thousand kilometers if you count every dynasty's sections.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "clay",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "21,196 KM",
+      "at": 0.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But most of it is only a few meters wide, and it's built from stone and earth the same color as the land around it."
+  },
+  {
+   "who": "clay",
+   "say": "I'm long, okay? Just not wide.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "clay",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "clay"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the Moon is about three hundred eighty-four thousand kilometers away.",
+   "show": {
+    "k": "scene",
+    "bg": "space",
+    "cast": [
+     {
+      "id": "astronaut",
+      "x": 0.45,
+      "pose": "think"
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "astronaut",
+   "say": "I see a beautiful blue marble. No walls.",
+   "show": {
+    "k": "scene",
+    "bg": "moon",
+    "cast": [
+     {
+      "id": "astronaut",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "astronaut"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Apollo astronauts said no human-made object is visible from there."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more myths we all got wrong.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "astronaut",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "clay",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The most famous 'fact' about the Great Wall is a myth.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #greatwall #mythbusting #space #historytok",
+ "youtube_title": "Can You See the Great Wall From the Moon? No. #shorts",
+ "tags": [
+  "great wall of china",
+  "myth",
+  "moon",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+  "https://www.skyatnightmagazine.com/space-science/can-you-see-great-wall-china-from-space",
+  "https://www.ripleys.com/stories/great-wall-of-china-from-space",
+  "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+  "https://www.archaeology.wiki/blog/2012/06/08/great-wall-much-longer-than-in-previous-survey/"
+ ]
+}

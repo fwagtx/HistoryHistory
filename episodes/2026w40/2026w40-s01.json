@@ -1,0 +1,194 @@
+{
+ "id": "2026w40-s01",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "The Emperor Who Died Trying to Live Forever",
+ "hook": "IMMORTALITY PILLS",
+ "music": "playful",
+ "cast": {
+  "alchemist": {
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#DADADA",
+   "beard": "long",
+   "skin": "light",
+   "hold": "bottle"
+  },
+  "qin": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#262322",
+   "color2": "#A8322A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "beard": "goatee",
+   "stache": "thin",
+   "skin": "light",
+   "name": "Qin Shi Huang"
+  }
+ },
+ "voices": {
+  "alchemist": "am_puck",
+  "qin": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "China's first emperor took pills to live forever, and they probably killed him.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "qin",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "push",
+    "tag": {
+     "id": "qin",
+     "text": "Qin Shi Huang"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Qin Shi Huang united China in 221 BC, and then he got obsessed with one thing: not dying."
+  },
+  {
+   "who": "alchemist",
+   "say": "Majesty, your immortality pill!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alchemist",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "qin",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "qin",
+   "say": "Lovely. What's in it?"
+  },
+  {
+   "who": "alchemist",
+   "say": "Mercury! Very shiny!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alchemist",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "cam": "close",
+    "focus": "alchemist",
+    "stickers": [
+     {
+      "text": "MERCURY",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He even sent an alchemist named Xu Fu out to sea to find the elixir of life. Xu Fu never came back.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "alchemist",
+      "x": 0.45,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 210 BC, the emperor died on a tour of his empire at forty-nine, and many historians believe his mercury pills were to blame.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "qin",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "cam": "push",
+    "stickers": [
+     {
+      "text": "210 BC",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that backfired.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "qin",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "alchemist",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He wanted to live forever. His medicine had other plans.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #qinshihuang #chinesehistory #ancientchina #historytok",
+ "youtube_title": "China's First Emperor Drank Mercury to Live Forever #shorts",
+ "tags": [
+  "qin shi huang",
+  "first emperor",
+  "ancient china",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+  "https://en.wikipedia.org/wiki/Chinese_alchemical_elixir_poisoning",
+  "https://www.livescience.com/61286-first-chinese-emperor-sought-immortality.html",
+  "https://en.wikipedia.org/wiki/Xu_Fu",
+  "https://www.travelchinaguide.com/attraction/shaanxi/xian/terra_cotta_army/qin-shihuang-death.htm"
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "id": "2026w40-s05",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "Why China Invented Paper Money",
+ "hook": "HEAVY MONEY PROBLEM",
+ "music": "playful",
+ "cast": {
+  "seller": {
+   "hat": "straw",
+   "outfit": "tunic",
+   "color": "#C8702A",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "stubble": true
+  },
+  "trader": {
+   "hat": "cap",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#1F8A4A",
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "moneybag"
+  }
+ },
+ "voices": {
+  "seller": "am_fenrir",
+  "trader": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "China invented paper money because its coins were way too heavy.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "sad",
+      "hold": "moneybag"
+     },
+     {
+      "id": "seller",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Song dynasty Sichuan, people paid with iron coins, and one bolt of silk could cost dozens of kilos of them."
+  },
+  {
+   "who": "trader",
+   "say": "One bolt of silk, please.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "seller",
+      "x": 0.7,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "seller",
+   "say": "Sure. Bring the wheelbarrow around back.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "seller",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "seller",
+    "stickers": [
+     {
+      "text": "IRON COINS",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So merchants started swapping paper receipts instead of hauling metal around.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1024, the Song government took over and issued the world's first official paper money, called jiaozi.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "cam": "push",
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "1024",
+      "at": 0.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Centuries later, Marco Polo described Chinese paper money, and lots of Europeans thought he was making it up."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "seller",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The world's first paper money was a fix for heavy iron coins.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #money #papermoney #chinesehistory #historytok",
+ "youtube_title": "China Invented Paper Money Because Coins Were Too Heavy #shorts",
+ "tags": [
+  "paper money",
+  "jiaozi",
+  "song dynasty",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jiaozi_(currency)",
+  "https://www.pcgs.com/news/a-thousand-years-of-folding-money",
+  "https://www.britannica.com/topic/Song-dynasty",
+  "https://en.wikipedia.org/wiki/The_Travels_of_Marco_Polo"
+ ]
+}

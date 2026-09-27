@@ -1,0 +1,174 @@
+{
+ "id": "2026w40-s07",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "China's Only Woman Emperor",
+ "hook": "THE ONLY WOMAN EMPEROR",
+ "music": "playful",
+ "cast": {
+  "official": {
+   "hat": "cap",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "wu": {
+   "hat": "crown",
+   "outfit": "gown",
+   "color": "#C8322A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Wu Zetian"
+  }
+ },
+ "voices": {
+  "official": "bm_daniel",
+  "wu": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In over two thousand years of Chinese emperors, exactly one was a woman ruling in her own right.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "wu",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "push",
+    "tag": {
+     "id": "wu",
+     "text": "Wu Zetian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Wu Zetian started out as a low-ranking consort in the Tang palace.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "wu",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She became empress, helped run the government for her sickly husband, and then ruled through her sons."
+  },
+  {
+   "who": "N",
+   "say": "In 690, she dropped the act."
+  },
+  {
+   "who": "wu",
+   "say": "I'm not the emperor's mother. I'm the emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "wu",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "official",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "official",
+   "say": "But there's never been a woman emperor!"
+  },
+  {
+   "who": "wu",
+   "say": "There is now.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "wu",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "wu",
+    "stickers": [
+     {
+      "text": "690",
+      "at": 0.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She founded her own Zhou dynasty and ruled until 705, when she was forced out at around eighty."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more rulers who broke the rules.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "wu",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "official",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "She didn't just marry an emperor. She became one.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #wuzetian #womeninhistory #chinesehistory #historytok",
+ "youtube_title": "The Only Woman Who Ruled China as Emperor #shorts",
+ "tags": [
+  "wu zetian",
+  "tang dynasty",
+  "women in history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Wu_Zetian",
+  "https://origins.osu.edu/read/wu-zetian-woman-emperor-china",
+  "https://en.wikipedia.org/wiki/Wu_Zhou",
+  "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/wu-zetian-624-705"
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "id": "2026w40-s03",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "Gunpowder Was an Immortality Potion Gone Wrong",
+ "hook": "OOPS, GUNPOWDER",
+ "music": "playful",
+ "cast": {
+  "alchemist": {
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#DADADA",
+   "beard": "long",
+   "skin": "light",
+   "hold": "bottle"
+  },
+  "clay": {
+   "outfit": "armor",
+   "color": "#B5764A",
+   "color2": "#8A5A3A",
+   "hair": "bun",
+   "hairColor": "#8A5A3A",
+   "stache": "thin",
+   "skin": "tan",
+   "hold": "spear"
+  }
+ },
+ "voices": {
+  "alchemist": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Gunpowder was invented by people trying to live forever.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "alchemist",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Tang dynasty China, Daoist alchemists mixed all kinds of minerals, hunting for an elixir of immortality."
+  },
+  {
+   "who": "alchemist",
+   "say": "Saltpeter, sulfur, charcoal. This smells like eternal life!",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "alchemist",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "cam": "close",
+    "focus": "alchemist"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It did not smell like eternal life.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "alchemist",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "explosion",
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "BOOM",
+      "at": 0.3,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A Daoist text from around 850 warns that some of these mixtures burst into flames, burning beards and even whole houses."
+  },
+  {
+   "who": "alchemist",
+   "say": "Not immortality. But I'll take it.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "alchemist",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "still",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1044, a Chinese military manual was writing down gunpowder recipes, and the elixir of life had become a weapon.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "clay",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout",
+      "hold": "torch"
+     }
+    ],
+    "cam": "push",
+    "stickers": [
+     {
+      "text": "1044",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more happy accidents from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "alchemist",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "clay",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They were looking for eternal life. They found explosions.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #gunpowder #inventions #ancientchina #historytok",
+ "youtube_title": "Gunpowder Was Invented by People Trying to Live Forever #shorts",
+ "tags": [
+  "gunpowder",
+  "invention",
+  "tang dynasty",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/History_of_gunpowder",
+  "https://en.wikipedia.org/wiki/Four_Great_Inventions",
+  "https://historycooperative.org/who-invented-gunpowder/",
+  "https://www.britannica.com/technology/gunpowder"
+ ]
+}

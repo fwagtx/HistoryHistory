@@ -1,0 +1,210 @@
+{
+ "id": "2026w40-s04",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "China's 1,300-Year Exam From Hell",
+ "hook": "THE 1,300-YEAR EXAM",
+ "music": "playful",
+ "cast": {
+  "examiner": {
+   "hat": "cap",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "scroll"
+  },
+  "scholar": {
+   "outfit": "robe",
+   "color": "#2F6FC2",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "stubble": true,
+   "skin": "light",
+   "hold": "pen"
+  }
+ },
+ "voices": {
+  "examiner": "bm_lewis",
+  "scholar": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "For thirteen hundred years, the way to get a top government job in China was to pass a brutal exam.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "scared",
+      "hold": "book"
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The imperial exams began in 605 and weren't abolished until 1905.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "examiner",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "605 TO 1905",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In later centuries, candidates were locked in a tiny cell for three days and two nights at a time.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "examiner",
+      "x": 0.7,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "scholar",
+   "say": "Wait, where do I sleep?"
+  },
+  {
+   "who": "examiner",
+   "say": "The desk turns into a bed. You're welcome.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "examiner",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "examiner"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Guards searched everyone for cheat notes, and people still smuggled tiny slips in their clothes.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared",
+      "hold": "letter"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "CAUGHT!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most candidates failed, but passing could lift an entire family into the ruling class.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "push",
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow if you would've failed too.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "examiner",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Three days locked in a box. Now write an essay.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #chinesehistory #exams #student #historytok",
+ "youtube_title": "China's Exam Lasted 1,300 Years #shorts",
+ "tags": [
+  "imperial examination",
+  "chinese history",
+  "exams",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Imperial_examination",
+  "https://www.newworldencyclopedia.org/entry/Imperial_Examinations_(Keju)",
+  "https://www.worldhistory.org/article/1335/the-civil-service-examinations-of-imperial-china/",
+  "http://english.cssn.cn/skw_culture/202410/t20241024_5796540.shtml"
+ ]
+}
