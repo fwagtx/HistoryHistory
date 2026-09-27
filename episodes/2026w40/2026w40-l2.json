@@ -1,0 +1,2115 @@
+{
+ "id": "2026w40-l2",
+ "format": "long",
+ "date": "2026-09-30",
+ "title": "The Weirdest Deaths in History",
+ "music": "playful",
+ "cast": {
+  "vall": {
+   "outfit": "suit",
+   "color": "#262322",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Clement Vallandigham"
+  },
+  "lawyer": {
+   "preset": "businessman",
+   "stache": "bush"
+  },
+  "mcgehan": {
+   "preset": "worker",
+   "hat": "cap",
+   "name": "Thomas McGehan"
+  },
+  "judge": {
+   "preset": "judge"
+  },
+  "aeschylus": {
+   "preset": "philosopher",
+   "hair": "bald",
+   "beard": "full",
+   "hairColor": "#DADADA",
+   "skin": "olive",
+   "name": "Aeschylus"
+  },
+  "greekfriend": {
+   "preset": "greek"
+  },
+  "attila": {
+   "outfit": "fur",
+   "hat": "mongol",
+   "beard": "goatee",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "hold": "goblet",
+   "name": "Attila the Hun"
+  },
+  "hunguard": {
+   "preset": "mongol",
+   "hold": "spear"
+  },
+  "barbarossa": {
+   "preset": "crusader",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#B5452A",
+   "skin": "light",
+   "name": "Emperor Frederick Barbarossa"
+  },
+  "crusader": {
+   "preset": "crusader"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "humayun": {
+   "preset": "sultan",
+   "hat": "turban",
+   "hatColor": "#EFEFEF",
+   "beard": "full",
+   "skin": "tan",
+   "hold": "book",
+   "name": "Emperor Humayun"
+  },
+  "akbar": {
+   "preset": "sultan",
+   "hat": "turban",
+   "skin": "tan",
+   "name": "Akbar"
+  },
+  "lully": {
+   "outfit": "coat",
+   "color": "#3A4A8A",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Jean-Baptiste Lully"
+  },
+  "louis": {
+   "preset": "king",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "name": "King Louis XIV"
+  },
+  "physician": {
+   "preset": "physician"
+  },
+  "adolf": {
+   "preset": "king",
+   "hair": "curly",
+   "hairColor": "#EFEFEF",
+   "skin": "peach",
+   "name": "King Adolf Frederick"
+  },
+  "chef": {
+   "preset": "worker",
+   "hat": "chef",
+   "apron": true,
+   "stache": "handlebar"
+  },
+  "tycho": {
+   "outfit": "coat",
+   "color": "#262322",
+   "hair": "bald",
+   "stache": "handlebar",
+   "hairColor": "#C9A04A",
+   "skin": "light",
+   "name": "Tycho Brahe"
+  },
+  "rosenberg": {
+   "preset": "noble",
+   "hold": "goblet"
+  },
+  "kepler": {
+   "outfit": "coat",
+   "color": "#3A3A3A",
+   "beard": "goatee",
+   "stache": "thin",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Johannes Kepler"
+  },
+  "alexander": {
+   "outfit": "uniform",
+   "color": "#3A4A6A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "stache": "thin",
+   "skin": "light",
+   "name": "King Alexander of Greece"
+  },
+  "constantine": {
+   "preset": "king",
+   "stache": "bush",
+   "name": "King Constantine I"
+  },
+  "servant": {
+   "preset": "peasant"
+  }
+ },
+ "voices": {
+  "vall": "bm_george",
+  "lawyer": "am_liam",
+  "aeschylus": "bm_daniel",
+  "greekfriend": "am_puck",
+  "attila": "am_fenrir",
+  "hunguard": "am_eric",
+  "barbarossa": "bm_lewis",
+  "crusader": "am_echo",
+  "humayun": "am_eric",
+  "lully": "am_puck",
+  "physician": "bm_daniel",
+  "adolf": "bm_lewis",
+  "chef": "am_echo",
+  "tycho": "bm_george",
+  "rosenberg": "am_liam",
+  "alexander": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In June 1871, one of the most famous lawyers in Ohio picked up a pistol to prove a point to his colleagues.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.4,
+      "enter": "left",
+      "pose": "present"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.72,
+      "pose": "think"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The point was simple: you can shoot yourself by accident without meaning to."
+  },
+  {
+   "who": "vall",
+   "say": "Gentlemen, watch closely. He stands up, he grabs the gun, like this...",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vall",
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "vall"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He proved his point. Perfectly. Permanently.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.72,
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "BANG!",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And believe it or not, he's not even number one on today's list."
+  },
+  {
+   "who": "N",
+   "say": "Today we're counting down nine of the weirdest deaths in history, featuring a tortoise, fourteen cream buns, a very rude monkey and one extremely polite astronomer.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "aeschylus",
+      "x": 0.15,
+      "pose": "shrug"
+     },
+     {
+      "id": "adolf",
+      "x": 0.38,
+      "pose": "hips",
+      "mood": "happy"
+     },
+     {
+      "id": "tycho",
+      "x": 0.62,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "alexander",
+      "x": 0.85,
+      "pose": "point"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Weirdest Deaths in History",
+    "sub": "Nine real exits. Well, mostly real.",
+    "cast": [
+     {
+      "id": "tycho",
+      "x": 0.2,
+      "mood": "scared"
+     },
+     {
+      "id": "adolf",
+      "x": 0.8,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "9",
+    "title": "Death From Above (Legend)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number nine: the tortoise from the sky.",
+   "show": {
+    "k": "map",
+    "lon": 18.5,
+    "lat": 38.5,
+    "z0": 2.0,
+    "z1": 3.0,
+    "date": "456 BC",
+    "labels": [
+     [
+      "Athens",
+      23.73,
+      37.98,
+      0
+     ],
+     [
+      "Gela",
+      14.25,
+      37.07,
+      0
+     ],
+     [
+      "Sicily",
+      14.0,
+      37.6,
+      -40
+     ]
+    ],
+    "areas": [
+     [
+      14.25,
+      37.07,
+      0.35,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Aeschylus was one of the rock stars of ancient Athens, a founding father of Greek tragedy.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "aeschylus",
+      "x": 0.5,
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "tag": {
+     "id": "aeschylus",
+     "text": "Aeschylus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wrote dozens of plays, seven of which still survive, and he fought the Persians at the Battle of Marathon."
+  },
+  {
+   "who": "N",
+   "say": "Around 456 BC, he died in the town of Gela, on the island of Sicily."
+  },
+  {
+   "who": "N",
+   "say": "And according to a story told by later Roman writers, here's how."
+  },
+  {
+   "who": "greekfriend",
+   "say": "Aeschylus, why are you sitting outside again?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "greekfriend",
+      "x": 0.3,
+      "pose": "shrug"
+     },
+     {
+      "id": "aeschylus",
+      "x": 0.7,
+      "pose": "sit"
+     }
+    ]
+   }
+  },
+  {
+   "who": "aeschylus",
+   "say": "A prophecy says something will fall on me and kill me. So, no roofs. I'm very safe out here."
+  },
+  {
+   "who": "N",
+   "say": "Pliny the Elder claims Aeschylus really was staying outdoors to dodge a prophecy like that."
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile, high above, an eagle had caught a tortoise, and it was looking for a nice hard rock to crack it open on.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "aeschylus",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "EAGLE",
+      "at": 0.8,
+      "color": "#6A4A2A"
+     },
+     {
+      "text": "+ TORTOISE",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "From way up there, it spotted something smooth, shiny and round."
+  },
+  {
+   "who": "N",
+   "say": "Aeschylus's bald head.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "aeschylus",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "aeschylus",
+    "stickers": [
+     {
+      "text": "NOT A ROCK",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bonk.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "aeschylus",
+      "x": 0.5,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "BONK!",
+      "at": 0.3,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now, historians think this is almost certainly a legend, maybe inspired by a picture on his tomb, but it's way too good to leave off the list."
+  },
+  {
+   "who": "N",
+   "say": "Bonus fact: the epitaph said to be on his grave doesn't mention a single one of his plays, only that he fought at Marathon. Priorities."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "8",
+    "title": "The Nosebleed of Attila"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number eight: Attila the Hun, the man later remembered as the Scourge of God.",
+   "show": {
+    "k": "map",
+    "lon": 18,
+    "lat": 46,
+    "z0": 1.3,
+    "z1": 2.2,
+    "date": "453 AD",
+    "labels": [
+     [
+      "Hun heartland",
+      20.0,
+      47.0,
+      0
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      0
+     ],
+     [
+      "Constantinople",
+      28.97,
+      41.01,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      20.0,
+      47.0,
+      2.5,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For years, he terrorized both halves of the Roman Empire.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "attila",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "angry",
+      "hold": "sword"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "attila",
+     "text": "Attila the Hun"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He invaded Gaul and Italy, and he made the Eastern Romans pay him huge amounts of gold just to leave them alone."
+  },
+  {
+   "who": "N",
+   "say": "So how does the most feared man in Europe finally go down?"
+  },
+  {
+   "who": "N",
+   "say": "In 453, Attila threw a massive feast to celebrate his wedding to a young woman named Ildico.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "attila",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "hunguard",
+      "x": 0.7
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "hunguard",
+   "say": "Boss, maybe slow down on the wine?"
+  },
+  {
+   "who": "attila",
+   "say": "Slow down? I am Attila! Nothing in this world can stop me!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "attila",
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "attila"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The next morning, Attila didn't come out, so his guards finally broke down the door.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "hunguard",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to the historian Priscus, whose account was preserved by Jordanes, Attila had a heavy nosebleed while lying on his back, full of wine, and it choked him."
+  },
+  {
+   "who": "N",
+   "say": "He conquered half of Europe, and he was taken out by his own nose."
+  },
+  {
+   "who": "N",
+   "say": "Some historians have wondered if it was secretly an assassination, but there's no solid evidence either way."
+  },
+  {
+   "who": "N",
+   "say": "Jordanes adds that Attila was buried in three coffins, one of gold, one of silver and one of iron, and nobody has ever found them.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "hunguard",
+      "x": 0.5,
+      "pose": "shrug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD",
+      "at": 0.8,
+      "color": "#C9A04A"
+     },
+     {
+      "text": "SILVER",
+      "at": 1.6,
+      "color": "#8A8A8A"
+     },
+     {
+      "text": "IRON",
+      "at": 2.4,
+      "color": "#3A3A3A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "The Emperor and the River"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number seven: Frederick Barbarossa, Holy Roman Emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug",
+      "hold": "sword"
+     }
+    ],
+    "tag": {
+     "id": "barbarossa",
+     "text": "Frederick Barbarossa"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Barbarossa means Red Beard, and this guy had ruled Germany for almost forty years."
+  },
+  {
+   "who": "N",
+   "say": "In 1189, in his late sixties, he set off on the Third Crusade with an enormous army."
+  },
+  {
+   "who": "N",
+   "say": "He marched from Germany across the Balkans and into what's now Turkey, and he even beat a Turkish army at Iconium along the way.",
+   "show": {
+    "k": "map",
+    "lon": 24,
+    "lat": 43,
+    "z0": 1.2,
+    "z1": 1.6,
+    "date": "1189–1190",
+    "labels": [
+     [
+      "Regensburg",
+      12.1,
+      49.0,
+      0
+     ],
+     [
+      "Constantinople",
+      28.97,
+      41.01,
+      0
+     ],
+     [
+      "Iconium",
+      32.49,
+      37.87,
+      0
+     ],
+     [
+      "Saleph River",
+      33.93,
+      36.38,
+      30
+     ]
+    ],
+    "route": [
+     [
+      12.1,
+      49.0
+     ],
+     [
+      18.4,
+      44.8
+     ],
+     [
+      23.3,
+      42.7
+     ],
+     [
+      28.97,
+      41.01
+     ],
+     [
+      30.5,
+      38.8
+     ],
+     [
+      32.49,
+      37.87
+     ],
+     [
+      33.93,
+      36.38
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, on the tenth of June, 1190, the army reached the Saleph River."
+  },
+  {
+   "who": "crusader",
+   "say": "Your Majesty, the crossing is packed. Maybe we wait a bit?",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "barbarossa",
+   "say": "Wait? I am the Emperor. I will simply go across."
+  },
+  {
+   "who": "N",
+   "say": "Accounts differ on exactly what happened next. Some say his horse slipped while he forded the river, others say he went in to cool off.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.5,
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Either way, the old emperor ended up in the water, weighed down, and he drowned."
+  },
+  {
+   "who": "N",
+   "say": "Without him, most of his army simply turned around and went home, and the German part of the crusade fell apart.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.5,
+      "pose": "walk",
+      "walk": [
+       0.5,
+       0.1
+      ],
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And some Germans refused to accept he was gone at all: a later legend says Barbarossa is asleep inside a mountain, waiting to return when Germany needs him."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "Death by Library"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number six takes us to Delhi, in India, and the second Mughal emperor, Humayun.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.5,
+      "pose": "present"
+     }
+    ],
+    "tag": {
+     "id": "humayun",
+     "text": "Emperor Humayun"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name roughly means fortunate, which is funny, because Humayun had some of the worst luck in history."
+  },
+  {
+   "who": "N",
+   "say": "He inherited an empire from his father in 1530, lost it to a rival named Sher Shah Suri, and spent about fifteen years in exile.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.5,
+      "pose": "walk",
+      "walk": [
+       0.2,
+       0.7
+      ],
+      "mood": "sad"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, in 1555, he finally won Delhi back.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And what did he love more than almost anything? Books."
+  },
+  {
+   "who": "N",
+   "say": "His library was a two-story building called the Sher Mandal, and it had some seriously steep stairs.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.5,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "STEEP STAIRS",
+      "at": 1.5,
+      "color": "#3A4A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One evening in January 1556, he was heading down those stairs when he heard the call to prayer."
+  },
+  {
+   "who": "humayun",
+   "say": "Ah, the call to prayer. I'll just kneel right here on the step.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "humayun",
+      "pose": "sit"
+     }
+    ],
+    "cam": "close",
+    "focus": "humayun"
+   }
+  },
+  {
+   "who": "N",
+   "say": "When he got back up, his foot caught in his robe, and down he went.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "TUMBLE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He hit his head and died a few days later, only about six months after getting his empire back."
+  },
+  {
+   "who": "N",
+   "say": "The historian Stanley Lane-Poole summed it up: Humayun tumbled through life, and he tumbled out of it."
+  },
+  {
+   "who": "N",
+   "say": "His thirteen-year-old son Akbar took over, and went on to become one of the greatest emperors in Indian history.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "akbar",
+     "text": "Akbar"
+    }
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "Death by Conducting"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number five: Jean-Baptiste Lully, the superstar composer at the court of King Louis the Fourteenth.",
+   "show": {
+    "k": "map",
+    "lon": 2.35,
+    "lat": 48.85,
+    "z0": 2.5,
+    "z1": 3.5,
+    "date": "1687",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.85,
+      0
+     ],
+     [
+      "Versailles",
+      2.12,
+      48.8,
+      -40
+     ]
+    ],
+    "areas": [
+     [
+      2.35,
+      48.85,
+      0.3,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lully was basically in charge of all the music in France, and he knew it.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lully",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "louis",
+      "x": 0.7,
+      "pose": "hips"
+     }
+    ],
+    "tag": {
+     "id": "lully",
+     "text": "Jean-Baptiste Lully"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, conductors didn't wave a little baton; they kept time by banging a long, heavy staff on the floor."
+  },
+  {
+   "who": "N",
+   "say": "In January 1687, Lully conducted his Te Deum to celebrate the king recovering from surgery.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "lully",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "happy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANG",
+      "at": 0.8,
+      "color": "#3A4A8A"
+     },
+     {
+      "text": "BANG",
+      "at": 1.6,
+      "color": "#3A4A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lully",
+   "say": "And one, and two, and one, and..."
+  },
+  {
+   "who": "N",
+   "say": "Then he brought the staff down right on his own foot.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "lully",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "OW!",
+      "at": 0.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The wound got infected, and it turned into gangrene."
+  },
+  {
+   "who": "physician",
+   "say": "Monsieur, we must remove the toe. Perhaps more.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "physician",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "lully",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lully",
+   "say": "Absolutely not. I am a dancer!"
+  },
+  {
+   "who": "N",
+   "say": "The story goes that Lully refused an amputation, partly because he wanted to keep dancing."
+  },
+  {
+   "who": "N",
+   "say": "He died on the twenty-second of March, 1687, killed, more or less, by his own music."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "The King Who Ate Himself to Death"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number four: King Adolf Frederick of Sweden.",
+   "show": {
+    "k": "map",
+    "lon": 18.07,
+    "lat": 59.33,
+    "z0": 2.0,
+    "z1": 3.2,
+    "date": "1771",
+    "labels": [
+     [
+      "Stockholm",
+      18.07,
+      59.33,
+      0
+     ],
+     [
+      "Sweden",
+      15.0,
+      62.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      18.07,
+      59.33,
+      0.4,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sweden's parliament held most of the real power in his day, so the king had plenty of free time, and a famous hobby: making snuffboxes.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "adolf",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "adolf",
+     "text": "King Adolf Frederick"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the twelfth of February, 1771, it was Fat Tuesday, the last big feast before Lent."
+  },
+  {
+   "who": "N",
+   "say": "And the king went all in."
+  },
+  {
+   "who": "chef",
+   "say": "First course, Your Majesty: lobster, caviar and sauerkraut.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.3,
+      "pose": "present"
+     },
+     {
+      "id": "adolf",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "adolf",
+   "say": "Excellent. Keep it coming!"
+  },
+  {
+   "who": "chef",
+   "say": "Then smoked herring, and champagne."
+  },
+  {
+   "who": "adolf",
+   "say": "And now, dessert!"
+  },
+  {
+   "who": "N",
+   "say": "Dessert was semla, a sweet cream bun that Swedes still eat on Fat Tuesday, and back then it was served in a bowl of hot milk.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "adolf",
+      "x": 0.5,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "adolf",
+    "stickers": [
+     {
+      "text": "SEMLA",
+      "at": 1.0,
+      "color": "#C9A04A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 3,
+   "show": {
+    "k": "card",
+    "label": "Semla buns for dessert, reportedly",
+    "big": "14",
+    "sub": "The palace records are missing, so call it legend",
+    "cast": [
+     {
+      "id": "adolf",
+      "x": 0.82,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legend says he ate fourteen of them."
+  },
+  {
+   "who": "N",
+   "say": "A few hours later, the king was dead.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "adolf",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A young nobleman wrote in his diary that the king died of indigestion from hot semla, sauerkraut, lobster, caviar, duckling and champagne."
+  },
+  {
+   "who": "N",
+   "say": "The fourteen buns part is harder to prove, and he was sixty, so doctors today suspect heart failure or a stroke, but in Sweden he's still the king who ate himself to death."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "Too Polite to Pee"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number three: Tycho Brahe, the Danish astronomer who mapped the stars better than anyone before the telescope.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "tycho",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "tag": {
+     "id": "tycho",
+     "text": "Tycho Brahe"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tycho was already a legend: he lost part of his nose in a sword duel as a student, and wore a metal replacement for the rest of his life.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "tycho",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "tycho",
+    "stickers": [
+     {
+      "text": "METAL NOSE",
+      "at": 1.0,
+      "color": "#C9A04A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also reportedly had a pet elk that drank too much beer and died falling down a flight of stairs. Humayun would understand."
+  },
+  {
+   "who": "N",
+   "say": "In 1601, Tycho was working in Prague for the emperor, with a young assistant named Johannes Kepler.",
+   "show": {
+    "k": "map",
+    "lon": 14.42,
+    "lat": 50.08,
+    "z0": 2.2,
+    "z1": 3.2,
+    "date": "1601",
+    "labels": [
+     [
+      "Prague",
+      14.42,
+      50.08,
+      0
+     ],
+     [
+      "Denmark",
+      10.0,
+      56.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      14.42,
+      50.08,
+      0.35,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That October, Tycho went to a fancy banquet hosted by a nobleman named Rosenberg.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "tycho",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "happy"
+     },
+     {
+      "id": "rosenberg",
+      "x": 0.7,
+      "pose": "present"
+     }
+    ]
+   }
+  },
+  {
+   "who": "rosenberg",
+   "say": "More wine, Tycho?"
+  },
+  {
+   "who": "tycho",
+   "say": "Oh, yes, thank you!"
+  },
+  {
+   "who": "tycho",
+   "say": "I really need to go. But leaving the table now would be so rude.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "tycho",
+      "pose": "sit",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "tycho"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to Kepler, Tycho held it in rather than break etiquette.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "kepler",
+      "x": 0.5,
+      "pose": "hold",
+      "hold": "pen"
+     }
+    ],
+    "tag": {
+     "id": "kepler",
+     "text": "Johannes Kepler"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "By the time he got home, he couldn't go at all."
+  },
+  {
+   "hold": 3,
+   "show": {
+    "k": "card",
+    "label": "Prague, October 1601",
+    "big": "11 DAYS",
+    "sub": "from the banquet to Tycho's death",
+    "cast": [
+     {
+      "id": "tycho",
+      "x": 0.82,
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Eleven days later, Tycho Brahe was dead."
+  },
+  {
+   "who": "N",
+   "say": "Now, historians argue about this one: modern studies point to a bladder, kidney or prostate problem, and the banquet may have just been the last straw."
+  },
+  {
+   "who": "N",
+   "say": "And no, it wasn't poison: when scientists dug him up in 2010, they found nowhere near enough mercury to kill him."
+  },
+  {
+   "who": "N",
+   "say": "So the lesson is clear. If you need to go, go."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "The Lawyer Who Proved His Point"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number two: remember our lawyer from the start? His name was Clement Vallandigham, and he was one of the most famous politicians in Ohio.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "vall",
+     "text": "Clement Vallandigham"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "During the Civil War, he attacked the Union war effort so loudly that he was arrested and literally shipped off to the Confederacy.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.5,
+      "pose": "walk",
+      "walk": [
+       0.3,
+       0.8
+      ],
+      "mood": "angry"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANISHED",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After the war, he went back to being a lawyer, and a very good one."
+  },
+  {
+   "who": "N",
+   "say": "In June 1871, he was defending a man named Thomas McGehan, accused of shooting another man during a bar fight.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "mcgehan",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "scared"
+     },
+     {
+      "id": "judge",
+      "x": 0.72,
+      "pose": "cross"
+     }
+    ],
+    "tag": {
+     "id": "mcgehan",
+     "text": "Thomas McGehan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His defense: the victim had accidentally shot himself while pulling his own pistol out of his pocket as he stood up."
+  },
+  {
+   "who": "N",
+   "say": "At his hotel in Lebanon, Ohio, he decided to show his fellow lawyers exactly how it could have happened.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.35,
+      "pose": "present"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.72,
+      "pose": "think"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lawyer",
+   "say": "Clem, is that thing loaded?"
+  },
+  {
+   "who": "vall",
+   "say": "No, no. This is the empty one.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vall",
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "vall"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was not the empty one.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.72,
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "BANG!",
+      "at": 0.3,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pistol snagged on his clothes and went off, and he died the next day, at fifty."
+  },
+  {
+   "who": "N",
+   "say": "But here's the twist: the demonstration kind of worked."
+  },
+  {
+   "who": "N",
+   "say": "McGehan was eventually acquitted.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "mcgehan",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vallandigham won the case. He just wasn't there to see it."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "The Monkey Bite That Changed History"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And number one: King Alexander of Greece.",
+   "show": {
+    "k": "map",
+    "lon": 23.75,
+    "lat": 38.1,
+    "z0": 2.5,
+    "z1": 3.6,
+    "date": "1920",
+    "labels": [
+     [
+      "Athens",
+      23.73,
+      37.98,
+      0
+     ],
+     [
+      "Tatoi",
+      23.8,
+      38.16,
+      30
+     ]
+    ],
+    "areas": [
+     [
+      23.8,
+      38.16,
+      0.2,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Alexander became king in 1917, at just twenty-three, after the Allies forced his father, Constantine, off the throne.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.35,
+      "pose": "salute"
+     },
+     {
+      "id": "constantine",
+      "x": 0.72,
+      "pose": "walk",
+      "exit": "right",
+      "exitAt": 2.0,
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "alexander",
+     "text": "King Alexander"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the second of October, 1920, Alexander was walking his German shepherd, Fritz, on the royal estate at Tatoi, just outside Athens.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fritz got into a fight with a pet monkey that belonged to the man who looked after the palace vineyards.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DOG",
+      "at": 0.6,
+      "color": "#6A4A2A"
+     },
+     {
+      "text": "VS",
+      "at": 1.2,
+      "color": "#262322"
+     },
+     {
+      "text": "MONKEY",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "alexander",
+   "say": "Fritz! Leave it! Bad dog!"
+  },
+  {
+   "who": "N",
+   "say": "The king jumped in to separate them, and then a second monkey showed up and bit him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "CHOMP",
+      "at": 0.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "alexander",
+   "say": "Ow! Okay, it's fine. Let's not tell anyone about this.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "servant",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His wounds were cleaned, but by that evening they were infected."
+  },
+  {
+   "who": "N",
+   "say": "On the twenty-fifth of October, 1920, King Alexander died. He was twenty-seven.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "servant",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And this is where it gets bigger than a weird death."
+  },
+  {
+   "who": "N",
+   "say": "Without Alexander, his father Constantine came back to the throne, and Greece's war with Turkey ended in disaster in 1922.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "constantine",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Winston Churchill later put it like this."
+  },
+  {
+   "hold": 5,
+   "show": {
+    "k": "quote",
+    "text": "It is perhaps no exaggeration to remark that a quarter of a million persons died of this monkey's bite.",
+    "who": "Winston Churchill, The World Crisis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A king, a dog, a monkey, and maybe a quarter of a million lives.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So, which of these would you least like to go out like? The tortoise, the buns, or holding it in at a party? Tell me in the comments.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "aeschylus",
+      "x": 0.2,
+      "pose": "shrug"
+     },
+     {
+      "id": "adolf",
+      "x": 0.5,
+      "mood": "happy"
+     },
+     {
+      "id": "tycho",
+      "x": 0.8,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And next time, we're counting down the biggest heists in history."
+  },
+  {
+   "hold": 5,
+   "show": {
+    "k": "end",
+    "next": "The Biggest Heists in History",
+    "cast": [
+     {
+      "id": "tycho",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "alexander",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "A tortoise from the sky, fourteen cream buns, a killer conducting staff and a very rude monkey: these are the weirdest deaths in history, counted down from nine to one. Most are rock-solid history, a couple are disputed, and one is almost certainly a legend, and we'll tell you which is which. Chapters are added automatically.\n\n#history #funnyhistory #weirdhistory #tychobrahe #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "HOW DID HE DIE?!",
+  "bg": "palace",
+  "faces": [
+   {
+    "id": "alexander",
+    "mood": "shock"
+   },
+   {
+    "id": "tycho",
+    "mood": "scared"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "The Weirdest Deaths in History",
+ "tags": [
+  "weirdest deaths",
+  "weird deaths in history",
+  "tycho brahe",
+  "king alexander monkey",
+  "adolf frederick semla",
+  "clement vallandigham",
+  "attila the hun",
+  "aeschylus tortoise",
+  "humayun",
+  "lully",
+  "funny history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Alexander_of_Greece",
+  "https://www.history.com/this-day-in-history/october-25/greece-king-alexander-death-monkey-bite-1920",
+  "https://royalcentral.co.uk/features/the-king-who-was-killed-by-a-monkey-81478/",
+  "https://en.wikipedia.org/wiki/Adolf_Frederick_of_Sweden",
+  "https://www.snopes.com/fact-check/death-by-cinnamon-bun-the-mystery-of-king-frederick-of-swedens-last-meal/",
+  "https://nordstjernan.com/news/food/6870/",
+  "https://en.wikipedia.org/wiki/Humayun",
+  "https://en.wikipedia.org/wiki/Sher_Mandal",
+  "https://www.encyclopedia.com/people/history/south-asian-history-biographies/humayun",
+  "https://en.wikipedia.org/wiki/Clement_Vallandigham",
+  "https://www.goldenlamb.com/news/on-this-day-in-history-clement-vallandigham/",
+  "https://alphahistory.com/pastpeculiar/1871-lawyer-dies-wrong-pistol/",
+  "https://en.wikipedia.org/wiki/Attila",
+  "https://en.wikipedia.org/wiki/Ildico",
+  "https://historyfacts.com/famous-figures/fact/attila-the-hun-death-nosebleed/",
+  "https://en.wikipedia.org/wiki/Tycho_Brahe",
+  "https://www.britannica.com/biography/Tycho-Brahe-Danish-astronomer",
+  "https://www.nbcnews.com/id/wbna49857981",
+  "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0195920",
+  "https://en.wikipedia.org/wiki/Frederick_Barbarossa",
+  "https://www.historyandheadlines.com/june-10-1190-emperor-frederick-barbarossa-drowns-third-crusade/",
+  "https://www.metmuseum.org/art/collection/search/370755",
+  "https://www.ebsco.com/research-starters/drama-and-theater-arts/greek-tragedian-aeschylus-dies/",
+  "https://en.wikipedia.org/wiki/Jean-Baptiste_Lully",
+  "https://www.classicfm.com/discover-music/periods-genres/baroque/jean-baptiste-lully-died-gangrene-conducting-staff/"
+ ]
+}
