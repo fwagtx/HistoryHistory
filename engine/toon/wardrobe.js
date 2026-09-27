@@ -126,6 +126,22 @@ const _prop0 = prop;
 prop = function (c, p, h, ang, t, o) {
   c.save(); c.translate(h[0], h[1]);
   switch (p) {
+    case 'flag': if (!o.flag || typeof FLAGS === 'undefined' || !FLAGS[o.flag]) { c.restore(); return _prop0(c, p, h, ang, t, o); } line(c, seg(0, 60, 0, -190), 6, '#6A4428'); drawFlag(c, o.flag, 2, -190, 150, 100, t); break;
+    case 'cigar': c.rotate(-.2); hd(c, rect(-4, -6, 46, 12), { fill: '#7A4A2A', w: 3 }); hd(c, rect(40, -6, 8, 12), { fill: '#C8C0B0', w: 2 }); { const p2 = (t * .6) % 1; hd(c, ell(60 + p2 * 20, -20 - p2 * 60, 8 + p2 * 14, 6 + p2 * 10), { fill: `rgba(220,220,220,${.8 - p2 * .7})`, w: 0 }); } break;
+    case 'pipe': hd(c, rect(-4, -4, 40, 8), { fill: '#5A3A22', w: 3 }); hd(c, poly([[30, -26], [52, -26], [50, 6], [32, 6]], 6), { fill: '#6A4428', w: 3 }); break;
+    case 'telescope': c.rotate(-.5); hd(c, poly([[-20, -8], [100, -14], [100, 14], [-20, 8]], 8), { fill: '#C8A060', w: 3.5 }); hd(c, rect(96, -16, 14, 32), { fill: CLR.gold, w: 3 }); break;
+    case 'map': hd(c, poly([[-10, -40], [60, -46], [64, 30], [-6, 36]], 8), { fill: '#F4E4C0', w: 3.5 }); line(c, poly([[4, -20], [20, -4], [40, -18], [50, 10]], 8, false), 3, CLR.red); hd(c, ell(50, 12, 5, 5), { fill: CLR.red, w: 0 }); break;
+    case 'shield': hd(c, bez([-40, -60], [-44, 40], [0, 70], [0, 76], 8).concat(bez([0, 76], [0, 70], [44, 40], [40, -60], 8)), { fill: o.shieldColor || CLR.red, w: 4 }); hd(c, ell(0, 0, 14, 14), { fill: CLR.gold, w: 3 }); break;
+    case 'axe': line(c, seg(0, 80, 0, -120), 6, '#6A4428'); hd(c, bez([0, -120], [50, -150], [60, -80], [0, -80], 8), { fill: '#C3CAD0', w: 3.5 }); break;
+    case 'bow': line(c, qb([0, -110], [60, 0], [0, 110]), 5, '#6A4428'); line(c, seg(0, -110, 0, 110), 1.5, '#555'); break;
+    case 'hammer': line(c, seg(0, 50, 0, -90), 7, '#6A4428'); hd(c, rect(-28, -112, 56, 26), { fill: '#8C969E', w: 3.5 }); break;
+    case 'pistol': c.rotate(-.3); hd(c, poly([[0, -8], [70, -8], [70, 4], [22, 4], [16, 30], [0, 30]], 8), { fill: '#3A3A3A', w: 3 }); break;
+    case 'chicken': hd(c, ell(24, 0, 34, 26), { fill: '#F6D8C0', w: 3.5 }); hd(c, ell(56, -22, 12, 12), { fill: '#F6D8C0', w: 3 }); line(c, seg(62, -22, 76, -18, 2), 3, CLR.orange); line(c, seg(14, 24, 10, 44, 2), 3, CLR.orange); line(c, seg(34, 24, 36, 44, 2), 3, CLR.orange); break;
+    case 'bread': hd(c, ell(20, 0, 40, 20), { fill: '#D8A060', w: 3.5 }); for (let i = 0; i < 3; i++) line(c, seg(4 + i * 14, -12, 12 + i * 14, 8, 2), 2.5, 'rgba(0,0,0,.3)'); break;
+    case 'medal': line(c, poly([[-10, -30], [0, 0], [10, -30]], 4, false), 4, CLR.blue); hd(c, ell(0, 12, 14, 14), { fill: CLR.gold, w: 3 }); break;
+    case 'binoculars': for (const x of [-12, 16]) hd(c, rect(x - 10, -24, 20, 40), { fill: '#262322', w: 3 }); break;
+    case 'crown': hd(c, poly([[-30, 10], [-34, -30], [-16, -10], [0, -38], [16, -10], [34, -30], [30, 10]], 8), { fill: CLR.gold, w: 3.5 }); break;
+    case 'bomb': hd(c, ell(20, 0, 30, 30), { fill: '#262322', w: 3.5 }); line(c, qb([20, -30], [30, -46], [44, -44]), 3, '#8A6A4A'); break;
     case 'moneybag': hd(c, bez([-30, 0], [-50, 70], [50, 70], [30, 0], 12).concat([[14, -14], [-14, -14]]), { fill: '#C8A060', w: 4 }); line(c, seg(-16, -8, 16, -8, 2), 4, '#6A4428'); c.font = 'bold 34px Anton'; c.fillStyle = '#3A2A10'; c.textAlign = 'center'; c.fillText('$', 0, 46); break;
     case 'goldbar': hd(c, poly([[-30, -6], [30, -6], [38, 18], [-38, 18]], 8), { fill: CLR.gold, w: 4 }); line(c, seg(-20, 2, 14, 2, 2), 2.5, '#FFF3B0'); break;
     case 'coin': hd(c, ell(8, 0, 20, 20), { fill: CLR.gold, w: 4 }); hd(c, ell(8, 0, 12, 12), { fill: '#F6CE5A', w: 2 }); break;

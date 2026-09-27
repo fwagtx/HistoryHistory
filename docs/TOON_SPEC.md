@@ -6,21 +6,21 @@ From Sep 27, 2026 every History Pros video uses the **toon** look: hand-drawn ca
 
 | What | How many | Days and times (America/Chicago) | Platforms |
 |---|---|---|---|
-| Long-form (16:9, 12–16 min) | 3 a week | Mon, Wed, Fri: YouTube 16:00, Facebook 11:00 | YouTube, Facebook |
-| Shorts (9:16, 30–50 s) | 4 a day | 09:00, 12:00, 15:00, 19:00 | TikTok, Instagram Reels, YouTube Shorts, Facebook |
+| Long-form (16:9, about 10 min) | 3 a week | Mon, Wed, Fri: YouTube 16:00, Facebook 11:00 | YouTube, Facebook |
+| Shorts (9:16, 30–50 s) | 5 a day | 09:00, 12:00, 15:00, 18:00, 21:00 | TikTok, Instagram Reels, YouTube Shorts, Facebook Reels |
 
 - **Monday** is "The ENTIRE History of X in N Minutes".
 - **Wednesday** is a list: "The Craziest / Weirdest / Most Ridiculous X".
 - **Friday** is money and power: fortunes, heists, scams, crashes.
 
-Topics come from `config/topics.json`, highest-ranked `queued` topic per format first. Each long-form spawns 9–10 shorts from its most surprising facts. Each week has 28 shorts: 10 from Monday's topic, 9 from Wednesday's and 9 from Friday's.
+Topics come from `config/topics.json`, highest-ranked `queued` topic per format first. Each long-form spawns 11–12 shorts from its most surprising facts. Each week has 35 shorts: 12 from Monday's topic (s01–s12), 12 from Wednesday's (s13–s24) and 11 from Friday's (s25–s35).
 
 ## Rules for every script
 
 1. **Facts first.** Every factual claim is checked against at least one reliable source (encyclopedia, museum, university, major outlet) and listed in `sources`. If historians disagree, say so on screen ("one account says", "historians argue"). Numbers are said the way the narrator should read them ("twenty thousand", "1347").
 2. **Tone.** Casual, funny, confident, like a friend who loves history: short sentences, contractions, quick asides ("I mean, how hard could it be?"). The joke is never a made-up fact. See the reference channels Animated History and Serious History.
 3. **Skit dialogue.** Characters may speak lines that dramatize an event documented in the sources (the Pope being told to sit between fires). A line presented as a real quote must be real: use a `quote` card with the speaker and source. Never invent a quote and present it as genuine.
-4. **Advertiser-safe.** No gore close-ups (violence happens off-screen or as a cartoon "poof"), no sexual content, no living politicians, no current wars (Israel/Palestine, Russia/Ukraine), no Nazi symbols (German WWII soldiers wear the plain `stahlhelm` and `ww2` uniform with no insignia), and never comedy about the Holocaust or other genocides. Those are covered with a solemn tone only.
+4. **Advertiser-safe.** No gore close-ups (violence happens off-screen or as a cartoon "poof"), no sexual content, no living politicians, no current wars (Israel/Palestine, Russia/Ukraine), and never comedy about the Holocaust or other genocides; those are covered with a solemn tone only. Real flags and emblems are shown accurately. The Nazi flag may appear in long-form YouTube videos when the story needs it (brief, factual, never glorifying), but **never in shorts**: TikTok and Instagram remove hate symbols even in history videos, and the validator blocks it.
 5. **Brand.** History Pros only. Writers never schedule or post; publishing happens only in Metricool brand **7081960**.
 
 ## Make it simple (the most important rule)
@@ -58,7 +58,7 @@ History Pros should be the easiest history channel to understand, while still be
 
 ## Script file
 
-`episodes/<YYYY>w<WW>/<id>.json`, one folder per ISO week (Monday–Sunday). IDs: `<YYYY>w<WW>-l1|l2|l3` for the Mon/Wed/Fri long-form videos and `<YYYY>w<WW>-s01…s28` for shorts, so the Oct 5–11, 2026 week is `2026w41` (`2026w41-l1`, `2026w41-s01`). The folder also holds `week.json` (see docs/AUTOMATION.md).
+`episodes/<YYYY>w<WW>/<id>.json`, one folder per ISO week (Monday–Sunday). IDs: `<YYYY>w<WW>-l1|l2|l3` for the Mon/Wed/Fri long-form videos and `<YYYY>w<WW>-s01…s35` for shorts, so the Oct 5–11, 2026 week is `2026w41` (`2026w41-l1`, `2026w41-s01`). The folder also holds `week.json` (see docs/AUTOMATION.md).
 
 ```json
 {
@@ -75,7 +75,7 @@ History Pros should be the easiest history channel to understand, while still be
   {"who": "meredith", "say": "How hard can it be?", "show": {"k": "scene", "bg": "outback", "cam": "close", "cast": [{"id": "meredith", "pose": "hips", "mood": "smug"}]}},
   {"who": "N", "say": "Follow for more history that sounds made up.", "show": {"k": "end", "cast": [{"id": "emu", "x": 0.3}, {"id": "meredith", "x": 0.72, "pose": "wave", "mood": "happy"}]}}
  ],
- "caption": "Australia vs. 20,000 emus. Guess who won.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #emuwar #australia #historytok #funnyhistory",
+ "caption": "Australia vs. 20,000 emus. Guess who won.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #emuwar #australia #historytok #funnyhistory",
  "youtube_title": "Australia Lost a War to Birds #shorts",
  "tags": ["emu war", "history", "australia", "funny history", "history shorts"],
  "sources": ["https://en.wikipedia.org/wiki/Emu_War", "https://..."]
@@ -93,10 +93,10 @@ Long-form adds `"format": "long"`, `description` (2–3 sentences, then "Chapter
 ### Lengths
 
 - **Short:** 7–10 beats, 75–115 words (30–45 s). Beat 1 is the hook. End with a `k: "end"` shot and a line like "Follow for more…". Use at least two different scenes and at least one character.
-- **Long-form:** 1,900–2,400 narrated words (12–16 min).
+- **Long-form:** 1,300–1,600 narrated words (about 10 minutes).
   - **Cold open:** 4–8 beats on the most dramatic or funny moment.
   - **Title:** a `title` card with the video title, handwritten.
-  - **Chapters:** 6–10, each starting with a `chapter` card (`year` plus a punchy title). Monday chapters are years in order; Wednesday list videos use `list` cards "Number 5 … Number 1" as their chapters.
+  - **Chapters:** 5–8, each starting with a `chapter` card (`year` plus a punchy title). Monday chapters are years in order; Wednesday list videos use `list` cards "Number 5 … Number 1" as their chapters.
   - **Ending:** a closing beat plus an `end` card that teases the next long-form video.
   - **Variety:** at least 2 skits (2+ lines of character dialogue), 4 maps, 2 `card` stats, 1 `quote`, and 12+ different scenes.
 
@@ -130,6 +130,23 @@ Long-form adds `"format": "long"`, `description` (2–3 sentences, then "Chapter
   - `shake`
 - `stickers` are `[{"text": "10,000 ROUNDS", "at": 2.2, "color": "#1F8A4A"}]`, popping in at `at` seconds into the shot (max 3 per shot).
 - `tag` is `{"id": "meredith", "text": "Major Meredith"}`, a name label; use it the first time a real person appears.
+
+### Show it: objects, vehicles, flags and famous people
+
+Draw everything the narration mentions. If the line says "tanks rolled into Poland", the shot shows tanks with the right markings on a map or a battlefield; if it says "the Soviet Union", show its flag.
+
+- **`objects` on any `scene` shot:** `[{"k": "tank", "x": 0.3, "s": 1, "emblem": "redstar", "move": [0.1, 0.6], "label": "T-34 tank"}]`.
+  - Fields: `x` (0–1), `s` (size), `flip`, `move` `[from, to]` (drives across during the shot), `y` (lift off the ground, 0–1 of the screen), `front` (draw in front of the characters), `enter: "pop"`, `label` (a name tag above it), `color`, and `flag` (a flag flying on ships, tents, castles and flagpoles) or `emblem` (painted on vehicles: `star`, `whitestar`, `redstar`, `cross`, `roundel`, `sun`, or any flag key).
+  - **Land:** tank (WWII), tank_ww1, truck, jeep, car (1910s–30s), train (steam), cannon, artillery, chariot, wagon, cart (`"load": "gold"`).
+  - **Air:** plane (WWII fighter), biplane (WWI), bomber, zeppelin, rocket (`"launch": true`).
+  - **Sea** (use on `sea`, `ocean`, `harbor` scenes): galley, longship, sailship, junk, battleship, submarine, steamship.
+  - **Things:** flag (a flagpole: `"flag": "uk"`), banner, sign (`"text"`), chest, goldpile, moneypile, barrel, crate (`"label"`), jar, tent, statue, column, pyramid, wall, gate, castle, house, factory, tree, palm, rock, fire, bomb, explosion_cloud, radio, phone, desk, globe, painting (`"empty": true` for an empty frame), scrollbig (`"text"`), throne, crown, guillotine, atom, mushroom.
+- **Flags** (for `objects`, held flags and flag shots): usa, usa1776, uk, france, italy, germany, germany1914, nazi (long-form only), soviet, russia, japan, japan_war, china, china_qing, china_roc, spain, ottoman, poland, netherlands, austria, greece, sweden, mexico, rome, pirate, white (surrender), red.
+- **Held flags:** a cast entry with `"hold": "flag", "flag": "soviet"`.
+- **Flag shot:** `{"k": "flag", "flag": "soviet", "label": "THE SOVIET UNION", "sub": "1922–1991", "bg": "snow"}` introduces a country.
+- **More props:** cigar, pipe, telescope, map, shield, axe, bow, hammer, pistol, chicken, bread, medal, binoculars, crown, bomb (plus the list below).
+- **Famous people presets** (always add a `name` and a `tag`): hitler, stalin, churchill, fdr, truman, eisenhower, mussolini, hirohito, degaulle, lenin, nicholas2, kaiser, napoleon, washington, lincoln, caesar, cleopatra, victoria, henry8, elizabeth1, genghis, columbus, einstein. For anyone else, build the look from hats, outfits, beards (`stache`: bush, thin, handlebar, brush, walrus) and colours that match their portraits.
+- **Rule of thumb:** a short should have at least 2 shots with objects, and a long-form at least one per chapter. Use a `flag` shot or a flag object the first time a country matters to the story.
 
 ### Characters (`cast` at the top)
 

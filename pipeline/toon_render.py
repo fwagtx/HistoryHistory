@@ -29,7 +29,7 @@ from render_vertical import chromium, font_css  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FF = imageio_ffmpeg.get_ffmpeg_exe()
-ENGINE = ["shared.js", "toon/core.js", "toon/wardrobe.js", "toon/scenes.js", "toon/presets.js", "toon/director.js", "toon/thumbs.js"]
+ENGINE = ["shared.js", "toon/core.js", "toon/wardrobe.js", "toon/scenes.js", "toon/presets.js", "toon/objects.js", "toon/director.js", "toon/thumbs.js"]
 OUT = ROOT / "media_out"
 MAX_MB = 95
 FPS = {"short": 30, "long": 24}

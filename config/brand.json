@@ -14,12 +14,13 @@
   "publishing": "automatic",
   "ai_disclosure": true,
   "cadence": {
-    "shorts_per_day": 4,
+    "shorts_per_day": 5,
     "short_slots": [
       "09:00",
       "12:00",
       "15:00",
-      "19:00"
+      "18:00",
+      "21:00"
     ],
     "long_form_days": [
       "Mon",
@@ -29,7 +30,8 @@
     "long_form_slots": {
       "facebook": "11:00",
       "youtube": "16:00"
-    }
+    },
+    "long_form_minutes": 10
   },
   "media_branch": "media"
 }

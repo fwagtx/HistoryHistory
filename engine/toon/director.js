@@ -77,7 +77,7 @@ function drawCast(c, list, t, lt, dur, bg) {
     const P = poseArms(e.pose, look, t + i);
     if (P.shake) x += Math.sin(t * 40 + i) * P.shake * s;
     if (animal) { ANIMALS[animal](c, x, y, s, Object.assign({}, sp, e, { run: walking || e.pose === 'run' || sp.run, flip: e.flip ?? (look < 0) }), t + i); return; }
-    const o = Object.assign({}, sp, { mood: e.mood || sp.mood, look: e.flip ? -look : look, hold: e.hold ?? sp.hold, flip: e.flip, phase: i * .7 }, P);
+    const o = Object.assign({}, sp, { mood: e.mood || sp.mood, look: e.flip ? -look : look, hold: e.hold ?? sp.hold, flag: e.flag ?? sp.flag, flip: e.flip, phase: i * .7 }, P);
     if (walking && !P.legs) o.legs = 'walk';
     if (speakingNow(e.id, t) || e.talk) o.talk = true;
     guy(c, x, y, s, o, t + i * .31);
@@ -175,7 +175,9 @@ function tvFrame(c, t) {
   switch (m.k) {
     case 'scene': { _fxGround = groundY(m.bg); c.save();
       camera(c, sh, lt, lp); drawBg(c, m.bg, t, m.cx); fxLayer(c, m.fx, t, false);
+      drawObjects(c, m.objects, t, lt, dur, m.bg, false);
       const placed = drawCast(c, m.cast || [], t, lt, dur, m.bg);
+      drawObjects(c, m.objects, t, lt, dur, m.bg, true);
       fxLayer(c, m.fx, t, true); if (m.tag) { const p = placed.find(e => e.id === m.tag.id); if (p && p._x != null) nameTag(c, m.tag.text, Math.max(isLong() ? 200 : 220, Math.min(W0 - (isLong() ? 200 : 260), p._x)), Math.max(isLong() ? 120 : 460, p._y - 90 * p._s), lt); }
       c.restore(); placeBanner(c, m.place, lt); (m.stickers || []).forEach((s, i) => stickerPop(c, s.text, s.x != null ? s.x * W0 : (isLong() ? (m.tag ? W0 * .74 : W0 / 2) : W0 / 2 - 35), s.y != null ? s.y * H0 : (isLong() ? (m.place ? 200 : 130) + i * 120 : (m.tag ? 560 : m.place ? 520 : 470) + i * 125), lt - (s.at ?? .3), s.color)); break; }
     case 'map': mapShot(c, sh, t, lt, lp); break;
@@ -186,10 +188,11 @@ function tvFrame(c, t) {
     case 'list': listShot(c, sh, t, lt); break;
     case 'compare': compareShot(c, sh, t, lt); break;
     case 'end': endShot(c, sh, t, lt); break;
+    case 'flag': flagShot(c, sh, t, lt); break;
   }
   c.restore();
   if (isLong()) longSubs(c, t);
-  else { if (['scene', 'map', 'compare'].includes(m.k)) hookBar(c, TV.hook); shortCaptions(c, t); }
+  else { if (['scene', 'map', 'compare', 'flag'].includes(m.k)) hookBar(c, TV.hook); shortCaptions(c, t); }
   if (t < .25) { c.fillStyle = `rgba(0,0,0,${1 - t / .25})`; c.fillRect(0, 0, W0, H0); }
   if (t > TV.duration - .6) { c.fillStyle = `rgba(0,0,0,${Math.min(1, (t - TV.duration + .6) / .6)})`; c.fillRect(0, 0, W0, H0); }
 }

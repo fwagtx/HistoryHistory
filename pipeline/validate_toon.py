@@ -20,15 +20,16 @@ from tts import phrases  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 E = ROOT / "engine" / "toon"
-ENGINE = ["shared.js", "toon/core.js", "toon/wardrobe.js", "toon/scenes.js", "toon/presets.js", "toon/director.js", "toon/thumbs.js"]
-KINDS = {"scene", "map", "title", "chapter", "card", "quote", "list", "compare", "end"}
+ENGINE = ["shared.js", "toon/core.js", "toon/wardrobe.js", "toon/scenes.js", "toon/presets.js", "toon/objects.js", "toon/director.js", "toon/thumbs.js"]
+KINDS = {"scene", "map", "title", "chapter", "card", "quote", "list", "compare", "end", "flag"}
 MOODS = {"neutral", "happy", "shock", "angry", "scared", "smug", "sad", "shout", "talk"}
 ANIMALS = {"emu", "pig", "horse", "rat", "elephant"}
+EMBLEMS = {"star", "whitestar", "redstar", "cross", "roundel", "sun"}
 MUSIC = {"playful", "tense", "warm"}
 
 
 def vocab():
-    core, wd, sc, pr, di = (open(E / f).read() for f in ("core.js", "wardrobe.js", "scenes.js", "presets.js", "director.js"))
+    core, wd, sc, pr, di, ob = (open(E / f).read() for f in ("core.js", "wardrobe.js", "scenes.js", "presets.js", "director.js", "objects.js"))
     cases = lambda text, a, b: set(re.findall(r"case '(\w+)':", text[text.index(a):text.index(b)]))
     return {
         "scenes": set(re.findall(r"^  (\w+)\(c(?:, t)?\) \{", core[core.index("const SCN"):], re.M)) | set(re.findall(r"^  (\w+)\(c, t\) \{", sc, re.M)),
@@ -38,6 +39,8 @@ def vocab():
         "presets": set(re.findall(r"^  (\w+): \{", pr, re.M)),
         "poses": cases(di, "function poseArms", "/* Place and draw") | {None, "stand"},
         "fx": set(re.findall(r"f === '(\w+)'", di)),
+        "objects": set(re.findall(r"^  (\w+)\(c, o, t\) \{", ob, re.M)),
+        "flags": set(re.findall(r"^  (\w+)\(c, w, h\) \{", ob, re.M)),
     }
 
 
@@ -110,6 +113,23 @@ def check(path, V):
             errs.append(f"beat {i}: map needs lon and lat")
         if k == "map" and not (-14 <= sh.get("lon", 0) <= 70 and 10 <= sh.get("lat", 45) <= 71):
             errs.append(f"beat {i}: map centre is outside the map data (lon -14..70, lat 10..71)")
+        for ob in sh.get("objects", []):
+            if ob.get("k") not in V["objects"]:
+                errs.append(f"beat {i}: unknown object '{ob.get('k')}'")
+            for fk in ("flag", "emblem"):
+                if ob.get(fk) and ob[fk] not in V["flags"] and not (fk == "emblem" and ob[fk] in EMBLEMS):
+                    errs.append(f"beat {i}: unknown {fk} '{ob[fk]}'")
+        flags_used = [sh.get("flag")] + [ob.get("flag") for ob in sh.get("objects", [])] + [ob.get("emblem") for ob in sh.get("objects", [])] + [e.get("flag") for e in sh.get("cast", [])]
+        if k == "flag" and sh.get("flag") not in V["flags"]:
+            errs.append(f"beat {i}: flag shot needs a known 'flag'")
+        for e in sh.get("cast", []):
+            if e.get("flag") and e["flag"] not in V["flags"]:
+                errs.append(f"beat {i}: unknown flag '{e['flag']}'")
+        if "nazi" in flags_used:
+            if fmt == "short":
+                errs.append(f"beat {i}: the Nazi flag can't go in a short: TikTok and Instagram remove hate symbols even in history videos (long-form YouTube only)")
+            else:
+                warn.append(f"beat {i}: Nazi flag shown; fine for YouTube in an educational context, but keep it brief and factual")
         if len(sh.get("stickers", [])) > 3:
             errs.append(f"beat {i}: more than 3 stickers")
         if sh.get("fx"):
@@ -146,11 +166,11 @@ def check(path, V):
     else:
         if places < 6:
             warn.append(f"only {places} 'place' banners; add one at each new place or year")
-        if not 1900 <= words <= 2400:
-            errs.append(f"{words} words; long-form needs 1,900–2,400")
+        if not 1300 <= words <= 1600:
+            errs.append(f"{words} words; long-form needs 1,300–1,600 (about 10 minutes)")
         ch = kinds.count("chapter") + kinds.count("list")
-        if not 5 <= ch <= 12:
-            errs.append(f"{ch} chapter/list cards; use 6–10")
+        if not 4 <= ch <= 9:
+            errs.append(f"{ch} chapter/list cards; use 5–8")
         for k, n in (("map", 4), ("card", 2), ("quote", 1), ("title", 1), ("end", 1)):
             if kinds.count(k) < n:
                 (errs if k in ("title", "end") else warn).append(f"only {kinds.count(k)} '{k}' shots (want {n}+)")
@@ -190,6 +210,8 @@ def dry_run(scripts):
           v.props.filter(Boolean).forEach(p=>tryit('prop '+p,()=>guy(c,500,400,1,{hold:p},1)));
           Object.keys(PRESET).forEach(k=>tryit('preset '+k,()=>guy(c,500,400,1,PRESET[k],1)));
           Object.keys(ANIMALS).forEach(a=>tryit('animal '+a,()=>ANIMALS[a](c,500,400,1,{run:true},1)));
+          Object.keys(OBJECTS).forEach(k=>tryit('object '+k,()=>{c.save();c.translate(900,900);c.scale(.4,.4);OBJECTS[k](c,{moving:true,flag:'uk',emblem:'star',fire:true,launch:true,label:'x',text:'SIGN'},1);c.restore()}));
+          Object.keys(FLAGS).forEach(k=>tryit('flag '+k,()=>drawFlag(c,k,100,100,300,200,1)));
           return bad;}""", {k: sorted(x for x in v if x) for k, v in V.items()})
         if smoke:
             raise SystemExit("engine problems:\n  " + "\n  ".join(smoke))

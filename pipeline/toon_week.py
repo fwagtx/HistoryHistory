@@ -21,7 +21,8 @@ ROOT = Path(__file__).resolve().parent.parent
 BRAND = json.loads((ROOT / "config" / "brand.json").read_text())
 REPO = "fwagtx/HistoryHistory"
 MEDIA_BRANCH = "media"
-SHORT_SLOTS = ["09:00", "12:00", "15:00", "19:00"]
+SHORT_SLOTS = BRAND["cadence"]["short_slots"]           # 5 a day
+N_SHORTS = 7 * len(SHORT_SLOTS)                         # 35 a week
 LONG_DAYS = {"l1": 0, "l2": 2, "l3": 4}          # Mon, Wed, Fri
 LONG_SLOTS = {"facebook": "11:00", "youtube": "16:00"}
 assert BRAND["metricool_brand_id"] == "7081960", "History Pros only"
@@ -40,16 +41,16 @@ def scripts(week_id):
 
 
 def plan(week_id):
-    """Shorts s01–s28 fill Mon 09:00 … Sun 19:00 in order, so each topic's shorts sit around its long-form."""
+    """Shorts s01–s35 fill Mon 09:00 … Sun 21:00 in order, so each topic's shorts sit around its long-form."""
     mon = monday(week_id)
     shorts, longs = scripts(week_id)
-    if len(shorts) != 28 or len(longs) != 3:
-        raise SystemExit(f"{week_id}: expected 28 shorts and 3 long-form scripts, found {len(shorts)} and {len(longs)}")
+    if len(shorts) != N_SHORTS or len(longs) != 3:
+        raise SystemExit(f"{week_id}: expected {N_SHORTS} shorts and 3 long-form scripts, found {len(shorts)} and {len(longs)}")
     posts = []
     for i, p in enumerate(shorts):
         s = json.loads(p.read_text())
-        s["date"] = (mon + timedelta(days=i // 4)).isoformat()
-        s["slot"] = SHORT_SLOTS[i % 4]
+        s["date"] = (mon + timedelta(days=i // len(SHORT_SLOTS))).isoformat()
+        s["slot"] = SHORT_SLOTS[i % len(SHORT_SLOTS)]
         p.write_text(json.dumps(s, indent=1, ensure_ascii=False) + "\n")
         posts.append({"id": s["id"], "kind": "short", "date": s["date"], "slot": s["slot"], "title": s["title"]})
     for p in longs:
@@ -92,7 +93,7 @@ def publish(week_id):
     """Put this week's finished files in a fresh orphan commit on the media branch and force-push it.
     Earlier weeks drop off the branch, which is fine once Metricool has copied them (it copies at scheduling)."""
     files = sorted((ROOT / "media_out").glob(f"{week_id}-*"))
-    need = [f"{week_id}-s{i:02d}.mp4" for i in range(1, 29)] + [f"{week_id}-l{i}{x}" for i in (1, 2, 3) for x in (".mp4", "-thumb.jpg", "-chapters.txt")]
+    need = [f"{week_id}-s{i:02d}.mp4" for i in range(1, N_SHORTS + 1)] + [f"{week_id}-l{i}{x}" for i in (1, 2, 3) for x in (".mp4", "-thumb.jpg", "-chapters.txt")]
     missing = [n for n in need if not (ROOT / "media_out" / n).exists()]
     if missing:
         raise SystemExit(f"missing finished files: {missing[:6]}{'…' if len(missing) > 6 else ''}")

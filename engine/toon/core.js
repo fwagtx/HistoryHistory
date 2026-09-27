@@ -177,7 +177,9 @@ function stache(c, o, fx) {
   const col = o.hairColor || '#4A3322';
   if (o.stache === 'bush') hd(c, bez([fx - 26, 26], [fx - 20, 12], [fx + 20, 12], [fx + 26, 26], 10).concat(bez([fx + 18, 24], [fx + 6, 20], [fx - 6, 20], [fx - 18, 24], 6)), { fill: col, w: 3.5 });
   else if (o.stache === 'handlebar') { hd(c, bez([fx - 34, 14], [fx - 24, 28], [fx - 8, 16], [fx, 21], 8).concat(bez([fx, 21], [fx + 8, 16], [fx + 24, 28], [fx + 34, 14], 8), bez([fx + 30, 20], [fx + 16, 26], [fx - 16, 26], [fx - 30, 20], 6)), { fill: col, w: 3.5 }); }
-  else hd(c, [[fx - 16, 22], [fx - 4, 17], [fx + 4, 17], [fx + 16, 22], [fx + 4, 22], [fx - 4, 22]], { fill: col, w: 3 });
+  else if (o.stache === 'brush') hd(c, rect(fx - 9, 14, 18, 11), { fill: col, w: 3 });
+  else if (o.stache === 'walrus') hd(c, bez([fx - 34, 34], [fx - 30, 8], [fx + 30, 8], [fx + 34, 34], 10).concat(bez([fx + 24, 26], [fx + 8, 20], [fx - 8, 20], [fx - 24, 26], 6)), { fill: col, w: 3.5 });
+else hd(c, [[fx - 16, 22], [fx - 4, 17], [fx + 4, 17], [fx + 16, 22], [fx + 4, 22], [fx - 4, 22]], { fill: col, w: 3 });
 }
 function hairBack(c, o) {
   const col = o.hairColor || '#3A2618';

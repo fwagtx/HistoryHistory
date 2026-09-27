@@ -2,8 +2,8 @@
 
 Once a week (Tuesday, via a Claude Code routine), one session produces the whole week that starts **13 days later**:
 
-- 3 long-form videos: Mon, Wed and Fri.
-- 28 shorts: 4 a day.
+- 3 long-form videos of about 10 minutes: Mon, Wed and Fri.
+- 35 shorts: 5 a day.
 
 It schedules all of it in Metricool for **History Pros only** (brand **7081960**). Everything runs in this repo. Follow the steps in order; each step is safe to re-run.
 
@@ -37,9 +37,9 @@ If `queued_left` (printed in step 1) is under 6 for any format, run one research
 Start three general-purpose agents in the background, one per long-form, using the template below. Fill in:
 
 - **Week:** `<week>`.
-- **Monday (`-l1`):** shorts `s01–s10`.
-- **Wednesday (`-l2`):** shorts `s11–s19`.
-- **Friday (`-l3`):** shorts `s20–s28`.
+- **Monday (`-l1`):** shorts `s01–s12`.
+- **Wednesday (`-l2`):** shorts `s13–s24`.
+- **Friday (`-l3`):** shorts `s25–s35`.
 - **Each topic's details:** its `title`, `thumb` idea and `shorts` angles from topics.json.
 - **Each end card's `next`:** the title of the following long-form. Friday's next is the Monday topic of the week after, which is the next queued Monday topic.
 
@@ -50,10 +50,11 @@ Start three general-purpose agents in the background, one per long-form, using t
 > **Read first.** Read CLAUDE.md and docs/TOON_SPEC.md fully and follow the spec exactly. The "Make it simple" section comes first: every video must be very easy to understand. The style is the YouTube channels Animated History and Serious History: casual, funny, confident narration with jokes and quick character skits, but every fact is true.
 >
 > **Long-form file.** Write episodes/`<week>`/`<week>`-`<lN>`.json (format long, date `<DATE>`):
-> - 1,900–2,400 narrated words.
+> - 1,300–1,600 narrated words (about 10 minutes).
 > - Cold open, then the title card.
-> - 7–9 chapter cards, or list cards for Wednesday.
-> - At least 3 skits with 2+ dialogue lines each.
+> - 5–8 chapter cards, or list cards for Wednesday.
+> - At least 3 skits with 2+ dialogue lines each, with a separate voice for each speaking character.
+> - Graphics everywhere: `objects` (vehicles, flags, buildings, things) in at least one shot per chapter, `flag` shots for countries, and famous-people presets for real leaders (docs/TOON_SPEC.md, "Show it").
 > - 4+ maps inside the map coverage, 2+ card stats, 1+ real credited quote, and 12+ different scenes.
 > - An end card with next: `<NEXT TITLE>`.
 > - Thumbnail: `<THUMB IDEA>`.
@@ -63,7 +64,7 @@ Start three general-purpose agents in the background, one per long-form, using t
 > - 7–10 beats and 75–115 words each, with the hook first.
 > - At least one character and 2+ scenes, ending with a k:"end" shot and a follow line.
 > - "hook" is 2–5 words in caps.
-> - Caption: a one-line hook, a blank line, "Full video on our YouTube channel. Follow for 4 stories a day.", then 5 hashtags starting with #history.
+> - Caption: a one-line hook, a blank line, "Full video on our YouTube channel. Follow for 5 stories a day.", then 5 hashtags starting with #history.
 > - youtube_title ends with " #shorts".
 >
 > **Angles to consider** (verify each; drop or hedge what you can't confirm; label legends as legends on screen): `<ANGLES>`.
@@ -109,7 +110,7 @@ python pipeline/toon_render.py episodes/<week>/<week>-l*.json episodes/<week>/<w
 
 ```
 python pipeline/toon_week.py publish <week>    # orphan commit on the media branch, force-pushed; prints the commit SHA
-python pipeline/toon_week.py payloads <week>   # output/<week>/payloads.json (34 posts)
+python pipeline/toon_week.py payloads <week>   # output/<week>/payloads.json (41 posts)
 ```
 
 Check one URL from the payloads with `curl -sI` (expect 200) before scheduling.
@@ -123,7 +124,7 @@ For each day of the week, call `getScheduledPosts` with brandId 7081960 and time
 - **Otherwise:** create each post with `createScheduledPost` (blogId 7081960, the payload's `date` and `info` as a JSON string).
 
 **Verify:** fetch every day again and confirm:
-- 4 shorts a day, plus the Mon/Wed/Fri long-form on Facebook 11:00 and YouTube 16:00 (34 posts in total);
+- 5 shorts a day, plus the Mon/Wed/Fri long-form on Facebook 11:00 and YouTube 16:00 (41 posts in total);
 - all PENDING, with no leftovers from the old style;
 - media ingested (URLs now on static.metricool.com).
 
@@ -133,4 +134,4 @@ Write `episodes/<week>/scheduled.json` with each post's id, uuid, date and title
 
 - Commit `episodes/<week>/`, `config/topics.json` and any engine fixes on the development branch, and push.
 - Delete `media_out/<week>-*` and `output/toon/<week>-*` to free disk space.
-- Report to the user in a few lines: the week, the three long-form titles, 34 posts scheduled, and anything you hedged, dropped or couldn't do.
+- Report to the user in a few lines: the week, the three long-form titles, 41 posts scheduled, and anything you hedged, dropped or couldn't do.
