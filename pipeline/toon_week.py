@@ -123,7 +123,8 @@ def short_payload(s, url):
 
 
 def long_payloads(s, base, chapters):
-    desc = s["description"].replace("Chapters are added automatically.", "Chapters:\n" + chapters.strip())
+    head, _, tail = s["description"].partition("Chapters are added automatically.")
+    desc = head.rstrip() + "\n\nChapters:\n" + chapters.strip() + ("\n\n" + tail.strip() if tail.strip() else "")
     out = []
     for net, slot in LONG_SLOTS.items():
         when, stamp = _when(s["date"], slot)
