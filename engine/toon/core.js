@@ -3,6 +3,10 @@
  * big expressive heads on stick bodies, costume pieces and bright flat backgrounds.
  * Needs shared.js (for the map data) loaded first. */
 
+/* Small helpers shared with the older engines (defined here too, since the toon engine loads without them). */
+var glowAt = typeof glowAt === 'function' ? glowAt : function (c, x, y, r, rgb, a) { const g = c.createRadialGradient(x, y, 4, x, y, r); g.addColorStop(0, `rgba(${rgb},${a})`); g.addColorStop(1, `rgba(${rgb},0)`); c.fillStyle = g; c.fillRect(x - r, y - r, r * 2, r * 2); };
+var tone = typeof tone === 'function' ? tone : function (hex, f) { const n = parseInt(hex.slice(1), 16); const m = v => Math.max(0, Math.min(255, Math.round(f < 0 ? v * (1 + f) : v + (255 - v) * f))); return `rgb(${m(n >> 16 & 255)},${m(n >> 8 & 255)},${m(n & 255)})`; };
+
 const T = { ink: '#1c1917', boil: 0, sid: 0, amp: 1 };
 const TAU2 = Math.PI * 2;
 function frameStart(t = 0) { T.boil = Math.floor(t * 8) % 3; T.sid = 0; }

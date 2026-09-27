@@ -163,6 +163,18 @@ def dry_run(scripts):
         pg.goto(page.resolve().as_uri())
         if load_errs:
             raise SystemExit("engine failed to load: " + load_errs[0])
+        V = vocab()
+        smoke = pg.evaluate("""(v)=>{window.TV={format:'long',cast:{},beats:[],shots:[]};const cv=document.createElement('canvas');cv.width=1920;cv.height=1080;const c=cv.getContext('2d');const bad=[];
+          const tryit=(label,fn)=>{try{fn()}catch(e){bad.push(label+': '+e.message)}};
+          Object.keys(SCN).forEach(s=>tryit('scene '+s,()=>{frameStart(1);SCN[s](c,1)}));
+          v.hats.forEach(h=>tryit('hat '+h,()=>guy(c,500,400,1,{hat:h},1)));
+          v.outfits.forEach(o=>tryit('outfit '+o,()=>guy(c,500,400,1,{outfit:o},1)));
+          v.props.filter(Boolean).forEach(p=>tryit('prop '+p,()=>guy(c,500,400,1,{hold:p},1)));
+          Object.keys(PRESET).forEach(k=>tryit('preset '+k,()=>guy(c,500,400,1,PRESET[k],1)));
+          Object.keys(ANIMALS).forEach(a=>tryit('animal '+a,()=>ANIMALS[a](c,500,400,1,{run:true},1)));
+          return bad;}""", {k: sorted(x for x in v if x) for k, v in V.items()})
+        if smoke:
+            raise SystemExit("engine problems:\n  " + "\n  ".join(smoke))
         for s in scripts:
             t, beats, shots = .3, [], []
             for bt in s["beats"]:
