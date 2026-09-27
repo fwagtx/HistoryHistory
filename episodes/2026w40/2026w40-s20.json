@@ -48,10 +48,6 @@
       "mood": "angry"
      }
     ],
-    "tag": {
-     "id": "vall",
-     "text": "Clement Vallandigham, lawyer"
-    },
     "place": "Ohio, USA · 1871"
    }
   },
@@ -94,13 +90,7 @@
     "k": "card",
     "label": "The lawyer's idea",
     "big": "AN ACCIDENT",
-    "sub": "the victim shot himself pulling out his own gun",
-    "cast": [
-     {
-      "id": "vall",
-      "pose": "point"
-     }
-    ]
+    "sub": "the victim shot himself pulling out his own gun"
    }
   },
   {
@@ -166,7 +156,11 @@
       "x": 0.86,
       "s": 0.8
      }
-    ]
+    ],
+    "tag": {
+     "id": "vall",
+     "text": "Clement Vallandigham, lawyer"
+    }
    }
   },
   {

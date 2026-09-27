@@ -40,10 +40,6 @@
       "mood": "happy"
      }
     ],
-    "tag": {
-     "id": "adolf",
-     "text": "King Adolf Frederick"
-    },
     "place": "Stockholm, Sweden · 1771",
     "objects": [
      {
@@ -72,13 +68,7 @@
     "k": "card",
     "label": "12 February 1771",
     "big": "FAT TUESDAY",
-    "sub": "the last big feast before Lent",
-    "cast": [
-     {
-      "id": "chef",
-      "pose": "present"
-     }
-    ]
+    "sub": "the last big feast before Lent"
    }
   },
   {
@@ -113,7 +103,11 @@
       "s": 0.6,
       "label": "CAVIAR"
      }
-    ]
+    ],
+    "tag": {
+     "id": "adolf",
+     "text": "King Adolf Frederick"
+    }
    }
   },
   {

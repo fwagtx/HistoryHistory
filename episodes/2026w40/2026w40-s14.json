@@ -48,10 +48,6 @@
     "fx": [
      "dust"
     ],
-    "tag": {
-     "id": "attila",
-     "text": "Attila the Hun"
-    },
     "place": "The Hun Empire · 440s AD"
    }
   },
@@ -85,7 +81,11 @@
       "x": 0.85,
       "s": 0.7
      }
-    ]
+    ],
+    "tag": {
+     "id": "attila",
+     "text": "Attila the Hun"
+    }
    }
   },
   {
@@ -222,13 +222,7 @@
     "k": "card",
     "label": "Cause of death, according to Priscus",
     "big": "NOSEBLEED",
-    "sub": "after a night of feasting and wine",
-    "cast": [
-     {
-      "id": "attila",
-      "mood": "shock"
-     }
-    ]
+    "sub": "after a night of feasting and wine"
    }
   },
   {

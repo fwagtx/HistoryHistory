@@ -51,37 +51,26 @@
     "cast": [
      {
       "id": "blood",
-      "x": 0.3,
+      "x": 0.55,
       "enter": "left",
       "mood": "smug"
      }
     ],
     "objects": [
      {
-      "k": "castle",
-      "x": 0.72,
-      "s": 0.9
-     },
-     {
       "k": "crown",
-      "x": 0.62,
-      "s": 0.5,
-      "y": 0.2,
-      "enter": "pop"
+      "x": 0.25,
+      "s": 0.9,
+      "front": true,
+      "enter": "pop",
+      "label": "CROWN JEWELS"
      }
     ],
     "place": "Tower of London, England · 1671",
     "tag": {
      "id": "blood",
      "text": "Colonel Thomas Blood"
-    },
-    "stickers": [
-     {
-      "text": "CROWN JEWELS",
-      "at": 2.0,
-      "color": "#B8860B"
-     }
-    ]
+    }
    }
   },
   {
@@ -278,14 +267,7 @@
     "k": "card",
     "label": "His \"punishment\"",
     "big": "£500 A YEAR",
-    "sub": "in Irish land, as usually reported, plus a pardon",
-    "cast": [
-     {
-      "id": "blood",
-      "mood": "smug",
-      "hold": "coin"
-     }
-    ]
+    "sub": "in Irish land, as usually reported, plus a pardon"
    }
   },
   {
