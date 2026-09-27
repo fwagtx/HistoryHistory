@@ -2,99 +2,73 @@
  "id": "2026w40-s15",
  "format": "short",
  "date": "2026-10-01",
- "slot": "15:00",
- "title": "This Composer Was Killed by Conducting",
- "hook": "KILLED BY CONDUCTING",
+ "slot": "09:00",
+ "title": "The Emperor Who Drowned on the Way to the Crusade",
+ "hook": "HE NEVER GOT THERE",
  "music": "playful",
  "cast": {
-  "lully": {
-   "outfit": "coat",
-   "color": "#3A4A8A",
-   "hair": "long",
-   "hairColor": "#3A2A1A",
+  "barbarossa": {
+   "preset": "crusader",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#B5452A",
    "skin": "light",
-   "name": "Jean-Baptiste Lully"
+   "name": "Emperor Frederick Barbarossa"
   },
-  "physician": {
-   "preset": "physician"
+  "crusader": {
+   "preset": "crusader"
+  },
+  "horse": {
+   "animal": "horse"
   }
  },
  "voices": {
-  "lully": "am_puck",
-  "physician": "bm_daniel"
+  "barbarossa": "bm_lewis",
+  "crusader": "am_echo"
  },
  "beats": [
   {
    "who": "N",
-   "say": "This composer was killed by his own conducting.",
+   "say": "One of the most powerful men in Europe led a giant army toward Jerusalem, and never got there.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "castle",
     "cast": [
      {
-      "id": "lully",
+      "id": "barbarossa",
       "x": 0.45,
-      "pose": "present",
-      "mood": "smug"
+      "pose": "hips",
+      "mood": "smug",
+      "hold": "sword"
      }
     ],
+    "place": "Germany · 1189",
     "tag": {
-     "id": "lully",
-     "text": "Jean-Baptiste Lully"
+     "id": "barbarossa",
+     "text": "Frederick Barbarossa"
     }
    }
   },
   {
    "who": "N",
-   "say": "Jean-Baptiste Lully ran the music at the court of King Louis the Fourteenth."
-  },
-  {
-   "who": "N",
-   "say": "Back then, conductors kept time by banging a long staff on the floor.",
+   "say": "He was Frederick Barbarossa, the emperor who ruled Germany. Barbarossa means Red Beard.",
    "show": {
     "k": "scene",
-    "bg": "church",
+    "bg": "castle",
     "cast": [
      {
-      "id": "lully",
+      "id": "barbarossa",
       "x": 0.45,
-      "pose": "fist",
+      "pose": "point",
       "mood": "happy"
      }
     ],
+    "cam": "close",
+    "focus": "barbarossa",
     "stickers": [
      {
-      "text": "BANG",
-      "at": 0.6,
-      "color": "#3A4A8A"
-     },
-     {
-      "text": "BANG",
-      "at": 1.4,
-      "color": "#3A4A8A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "In January 1687, he slammed it right onto his own foot.",
-   "show": {
-    "k": "scene",
-    "bg": "church",
-    "cast": [
-     {
-      "id": "lully",
-      "x": 0.45,
-      "pose": "scared",
-      "mood": "shock"
-     }
-    ],
-    "cam": "shake",
-    "stickers": [
-     {
-      "text": "OW!",
-      "at": 0.4,
+      "text": "BARBAROSSA = RED BEARD",
+      "at": 0.9,
       "color": "#A8322A"
      }
     ]
@@ -102,36 +76,163 @@
   },
   {
    "who": "N",
-   "say": "The wound turned into gangrene."
-  },
-  {
-   "who": "physician",
-   "say": "Monsieur, the toe must go.",
+   "say": "In 1189, in his late sixties, he joined the Third Crusade, a Christian war to win back Jerusalem.",
    "show": {
-    "k": "scene",
-    "bg": "office",
+    "k": "card",
+    "label": "1189: the Third Crusade",
+    "big": "JERUSALEM",
+    "sub": "the goal of a Christian war",
     "cast": [
      {
-      "id": "physician",
-      "x": 0.3,
+      "id": "crusader",
       "pose": "point"
-     },
-     {
-      "id": "lully",
-      "x": 0.68,
-      "pose": "cross",
-      "mood": "angry"
      }
     ]
    }
   },
   {
-   "who": "lully",
-   "say": "Never. I am a dancer!"
+   "who": "N",
+   "say": "He marched his army across Europe and into what's now Turkey.",
+   "show": {
+    "k": "map",
+    "lon": 24,
+    "lat": 43,
+    "z0": 1.2,
+    "z1": 1.6,
+    "date": "1189–1190",
+    "labels": [
+     [
+      "Germany",
+      11.0,
+      50.0,
+      0
+     ],
+     [
+      "Constantinople",
+      28.97,
+      41.01,
+      0
+     ],
+     [
+      "Saleph River",
+      33.93,
+      36.38,
+      30
+     ]
+    ],
+    "route": [
+     [
+      12.1,
+      49.0
+     ],
+     [
+      18.4,
+      44.8
+     ],
+     [
+      23.3,
+      42.7
+     ],
+     [
+      28.97,
+      41.01
+     ],
+     [
+      30.5,
+      38.8
+     ],
+     [
+      32.49,
+      37.87
+     ],
+     [
+      33.93,
+      36.38
+     ]
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "The story goes he refused, and he died that March."
+   "say": "In June 1190, they reached the Saleph River.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.68,
+      "pose": "hips"
+     }
+    ],
+    "place": "Saleph River, Turkey · June 1190",
+    "stickers": [
+     {
+      "text": "SALEPH RIVER",
+      "at": 0.6,
+      "color": "#3A4A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "barbarossa",
+   "say": "I am the Emperor. I will simply go across."
+  },
+  {
+   "who": "N",
+   "say": "Accounts differ: his horse may have slipped, or he went in to cool off. Either way, the old emperor drowned.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.5,
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Without their leader, most of his army gave up and went home.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.5,
+      "pose": "walk",
+      "walk": [
+       0.6,
+       0.2
+      ],
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOING HOME",
+      "at": 0.8,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the emperor who marched across half a continent was stopped by one river."
   },
   {
    "who": "N",
@@ -140,30 +241,30 @@
     "k": "end",
     "cast": [
      {
-      "id": "lully",
+      "id": "barbarossa",
       "x": 0.3,
       "pose": "wave"
      },
      {
-      "id": "physician",
+      "id": "crusader",
       "x": 0.7,
-      "pose": "shrug"
+      "pose": "salute"
      }
     ]
    }
   }
  ],
- "caption": "The most dangerous instrument in the orchestra? The conductor's staff.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #lully #baroque #historytok #funnyhistory",
- "youtube_title": "This Composer Was Killed by Conducting #shorts",
+ "caption": "He marched across half a continent, then a river got him.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #barbarossa #crusades #historytok #funnyhistory",
+ "youtube_title": "The Emperor Who Drowned on the Way to the Crusade #shorts",
  "tags": [
-  "jean-baptiste lully",
+  "frederick barbarossa",
   "history",
-  "classical music",
+  "third crusade",
   "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Jean-Baptiste_Lully",
-  "https://www.classicfm.com/discover-music/periods-genres/baroque/jean-baptiste-lully-died-gangrene-conducting-staff/"
+  "https://en.wikipedia.org/wiki/Frederick_Barbarossa",
+  "https://www.historyandheadlines.com/june-10-1190-emperor-frederick-barbarossa-drowns-third-crusade/"
  ]
 }

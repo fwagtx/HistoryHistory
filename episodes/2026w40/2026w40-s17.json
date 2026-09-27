@@ -1,133 +1,209 @@
 {
  "id": "2026w40-s17",
  "format": "short",
- "date": "2026-10-02",
- "slot": "09:00",
- "title": "Tycho Brahe Was Too Polite to Leave the Table",
- "hook": "TOO POLITE TO PEE",
+ "date": "2026-10-01",
+ "slot": "15:00",
+ "title": "This Composer Was Killed by Conducting",
+ "hook": "KILLED BY CONDUCTING",
  "music": "playful",
  "cast": {
-  "tycho": {
+  "lully": {
    "outfit": "coat",
-   "color": "#262322",
-   "hair": "bald",
-   "stache": "handlebar",
-   "hairColor": "#C9A04A",
-   "skin": "light",
-   "name": "Tycho Brahe"
-  },
-  "rosenberg": {
-   "preset": "noble",
-   "hold": "goblet"
-  },
-  "kepler": {
-   "outfit": "coat",
-   "color": "#3A3A3A",
-   "beard": "goatee",
-   "stache": "thin",
-   "hair": "short",
+   "color": "#3A4A8A",
+   "hair": "long",
    "hairColor": "#3A2A1A",
    "skin": "light",
-   "name": "Johannes Kepler"
+   "name": "Jean-Baptiste Lully"
+  },
+  "physician": {
+   "preset": "physician"
+  },
+  "louis": {
+   "preset": "king",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "name": "King Louis XIV"
   }
  },
  "voices": {
-  "tycho": "bm_george",
-  "rosenberg": "am_liam"
+  "lully": "am_puck",
+  "physician": "bm_daniel"
  },
  "beats": [
   {
    "who": "N",
-   "say": "This famous astronomer may have died because he was too polite to go to the bathroom.",
+   "say": "This composer was killed by the way he kept the beat.",
    "show": {
     "k": "scene",
-    "bg": "night",
+    "bg": "palace",
     "cast": [
      {
-      "id": "tycho",
+      "id": "lully",
       "x": 0.45,
-      "pose": "point",
-      "mood": "happy"
+      "pose": "present",
+      "mood": "smug"
      }
     ],
-    "fx": [
-     "sparkle"
+    "tag": {
+     "id": "lully",
+     "text": "Jean-Baptiste Lully"
+    },
+    "place": "France · 1680s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Jean-Baptiste Lully was the top composer for King Louis the Fourteenth of France.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "lully",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "louis",
+      "x": 0.68,
+      "pose": "hips"
+     }
     ],
     "tag": {
-     "id": "tycho",
-     "text": "Tycho Brahe"
+     "id": "louis",
+     "text": "King Louis XIV"
     }
    }
   },
   {
    "who": "N",
-   "say": "Tycho Brahe mapped the stars, and wore a metal nose after losing part of his in a duel."
-  },
-  {
-   "who": "N",
-   "say": "In 1601, he went to a banquet in Prague.",
+   "say": "Back then, conductors had no little stick. They kept time by banging a long, heavy staff on the floor.",
    "show": {
-    "k": "scene",
-    "bg": "castle",
+    "k": "card",
+    "label": "How conductors kept time",
+    "big": "BANG! BANG!",
+    "sub": "a long, heavy staff hits the floor",
     "cast": [
      {
-      "id": "tycho",
-      "x": 0.35,
-      "pose": "sit",
+      "id": "lully",
+      "pose": "fist",
       "mood": "happy"
-     },
-     {
-      "id": "rosenberg",
-      "x": 0.68,
-      "pose": "present"
      }
     ]
    }
   },
   {
-   "who": "rosenberg",
-   "say": "More wine, Tycho?"
-  },
-  {
-   "who": "tycho",
-   "say": "I really need to go. But leaving now would be so rude.",
+   "who": "N",
+   "say": "In January 1687, he conducted a hymn of thanks because the king had recovered from surgery.",
    "show": {
     "k": "scene",
-    "bg": "castle",
+    "bg": "church",
     "cast": [
      {
-      "id": "tycho",
-      "pose": "sit",
-      "mood": "scared"
+      "id": "lully",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "happy"
      }
     ],
-    "cam": "close",
-    "focus": "tycho"
+    "place": "Paris · January 1687",
+    "stickers": [
+     {
+      "text": "BANG",
+      "at": 0.6,
+      "color": "#3A4A8A"
+     },
+     {
+      "text": "BANG",
+      "at": 1.4,
+      "color": "#3A4A8A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "According to his assistant Johannes Kepler, he held it in, got sick, and died eleven days later.",
+   "say": "Then he slammed the staff right onto his own foot.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "lully",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "OW!",
+      "at": 0.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The wound got infected and turned into gangrene, which means the flesh starts to die.",
    "show": {
     "k": "scene",
     "bg": "office",
     "cast": [
      {
-      "id": "kepler",
-      "x": 0.45,
-      "pose": "hold",
-      "hold": "pen"
+      "id": "physician",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "lully",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "sad"
      }
     ],
-    "tag": {
-     "id": "kepler",
-     "text": "Johannes Kepler"
-    }
+    "stickers": [
+     {
+      "text": "GANGRENE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "physician",
+   "say": "Monsieur, the toe must go."
+  },
+  {
+   "who": "lully",
+   "say": "Never. I am a dancer!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lully",
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "lully"
    }
   },
   {
    "who": "N",
-   "say": "Historians think a bladder or kidney problem was the real cause."
+   "say": "The story goes he refused the operation, and he died that March.",
+   "show": {
+    "k": "card",
+    "label": "Lully died",
+    "big": "MARCH 1687",
+    "sub": "about two months after the accident"
+   }
   },
   {
    "who": "N",
@@ -136,12 +212,12 @@
     "k": "end",
     "cast": [
      {
-      "id": "tycho",
+      "id": "lully",
       "x": 0.3,
       "pose": "wave"
      },
      {
-      "id": "kepler",
+      "id": "physician",
       "x": 0.7,
       "pose": "shrug"
      }
@@ -149,19 +225,17 @@
    }
   }
  ],
- "caption": "Rule one of dinner parties: if you need to go, go.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #tychobrahe #astronomy #historytok #funnyhistory",
- "youtube_title": "Tycho Brahe Was Too Polite to Leave the Table #shorts",
+ "caption": "The most dangerous instrument in the orchestra? The conductor's staff.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #lully #baroque #historytok #funnyhistory",
+ "youtube_title": "This Composer Was Killed by Conducting #shorts",
  "tags": [
-  "tycho brahe",
+  "jean-baptiste lully",
   "history",
-  "astronomy",
+  "classical music",
   "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Tycho_Brahe",
-  "https://www.britannica.com/biography/Tycho-Brahe-Danish-astronomer",
-  "https://www.nbcnews.com/id/wbna49857981",
-  "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0195920"
+  "https://en.wikipedia.org/wiki/Jean-Baptiste_Lully",
+  "https://www.classicfm.com/discover-music/periods-genres/baroque/jean-baptiste-lully-died-gangrene-conducting-staff/"
  ]
 }

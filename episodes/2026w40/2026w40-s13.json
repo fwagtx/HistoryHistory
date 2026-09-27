@@ -1,123 +1,250 @@
 {
  "id": "2026w40-s13",
  "format": "short",
- "date": "2026-10-01",
- "slot": "09:00",
- "title": "The Emperor Who Drowned on the Way to the Crusade",
- "hook": "HE NEVER GOT THERE",
+ "date": "2026-09-30",
+ "slot": "15:00",
+ "title": "Was This Playwright Killed by a Tortoise?",
+ "hook": "DEATH BY TORTOISE?",
  "music": "playful",
  "cast": {
-  "barbarossa": {
-   "preset": "crusader",
-   "hat": "crown",
+  "aeschylus": {
+   "preset": "philosopher",
+   "hair": "bald",
    "beard": "full",
-   "hairColor": "#B5452A",
-   "skin": "light",
-   "name": "Emperor Frederick Barbarossa"
+   "hairColor": "#DADADA",
+   "skin": "olive",
+   "name": "Aeschylus"
   },
-  "crusader": {
-   "preset": "crusader"
+  "greekfriend": {
+   "preset": "greek"
   },
-  "horse": {
-   "animal": "horse"
+  "pliny": {
+   "preset": "roman",
+   "hold": "scroll",
+   "name": "Pliny the Elder"
   }
  },
  "voices": {
-  "barbarossa": "bm_lewis",
-  "crusader": "am_echo"
+  "aeschylus": "bm_daniel",
+  "greekfriend": "am_puck"
  },
  "beats": [
   {
    "who": "N",
-   "say": "One of the most powerful emperors in Europe never made it to his own crusade.",
+   "say": "An old story says a famous Greek writer was killed by a tortoise that fell from the sky.",
    "show": {
     "k": "scene",
-    "bg": "castle",
+    "bg": "greek",
     "cast": [
      {
-      "id": "barbarossa",
+      "id": "aeschylus",
       "x": 0.45,
-      "pose": "hips",
-      "mood": "smug",
-      "hold": "sword"
+      "enter": "pop",
+      "pose": "shrug",
+      "mood": "shock"
      }
     ],
+    "place": "Athens, Greece · 400s BC",
     "tag": {
-     "id": "barbarossa",
-     "text": "Frederick Barbarossa"
-    }
+     "id": "aeschylus",
+     "text": "Aeschylus"
+    },
+    "stickers": [
+     {
+      "text": "TORTOISE?",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Frederick Barbarossa, Red Beard, led a huge army toward the Holy Land in 1189."
+   "say": "His name was Aeschylus, and he wrote tragedies: serious plays with sad endings.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "aeschylus",
+      "x": 0.45,
+      "pose": "present",
+      "hold": "scroll",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "aeschylus",
+    "stickers": [
+     {
+      "text": "TRAGEDY = SAD PLAY",
+      "at": 0.8,
+      "color": "#3A4A8A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "He marched all the way into what's now Turkey, then reached the Saleph River.",
+   "say": "Around 456 BC, he was living in Gela, a town on the island of Sicily.",
+   "show": {
+    "k": "map",
+    "lon": 18.5,
+    "lat": 38.5,
+    "z0": 2.0,
+    "z1": 3.0,
+    "date": "456 BC",
+    "labels": [
+     [
+      "Athens",
+      23.73,
+      37.98,
+      0
+     ],
+     [
+      "Gela",
+      14.25,
+      37.07,
+      0
+     ],
+     [
+      "Sicily",
+      14.0,
+      37.6,
+      -40
+     ]
+    ],
+    "areas": [
+     [
+      14.25,
+      37.07,
+      0.35,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story goes that a prophecy, a prediction about his future, said something falling would kill him.",
    "show": {
     "k": "scene",
-    "bg": "sea",
+    "bg": "field",
     "cast": [
      {
-      "id": "crusader",
+      "id": "greekfriend",
       "x": 0.3,
       "pose": "point"
      },
      {
-      "id": "barbarossa",
+      "id": "aeschylus",
       "x": 0.68,
-      "pose": "hips"
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "place": "Gela, Sicily · about 456 BC",
+    "stickers": [
+     {
+      "text": "PROPHECY",
+      "at": 1.2,
+      "color": "#3A4A8A"
      }
     ]
    }
   },
   {
-   "who": "barbarossa",
-   "say": "I am the Emperor. I will simply go across."
+   "who": "N",
+   "say": "So he stayed outdoors, far from any roof that could fall on him."
+  },
+  {
+   "who": "aeschylus",
+   "say": "No roofs, no problem.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "aeschylus",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "aeschylus"
+   }
   },
   {
    "who": "N",
-   "say": "Accounts differ, but the old emperor ended up in the river, and he drowned.",
+   "say": "Up above, an eagle was carrying a tortoise, looking for a rock to crack its shell on.",
+   "show": {
+    "k": "card",
+    "label": "The eagle is looking for",
+    "big": "A ROCK",
+    "sub": "to crack open its tortoise lunch"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It spotted Aeschylus's shiny bald head, and let go. Bonk.",
    "show": {
     "k": "scene",
-    "bg": "sea",
+    "bg": "field",
     "cast": [
      {
-      "id": "horse",
+      "id": "aeschylus",
       "x": 0.5,
+      "pose": "scared",
       "mood": "shock"
      }
     ],
     "cam": "shake",
-    "fx": [
-     "rain"
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Without him, most of his army just turned around and went home.",
-   "show": {
-    "k": "scene",
-    "bg": "battlefield",
-    "cast": [
+    "stickers": [
      {
-      "id": "crusader",
-      "x": 0.5,
-      "pose": "walk",
-      "walk": [
-       0.6,
-       0.2
-      ],
-      "mood": "sad"
+      "text": "NOT A ROCK",
+      "at": 0.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "BONK!",
+      "at": 2.2,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Legend says he's still asleep inside a mountain, waiting to come back."
+   "say": "This tale comes from Roman writers like Pliny the Elder, centuries later, and historians say it's almost certainly a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "pliny",
+      "x": 0.45,
+      "pose": "hold",
+      "hold": "scroll"
+     }
+    ],
+    "place": "Rome · centuries later",
+    "tag": {
+     "id": "pliny",
+     "text": "Pliny the Elder"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 2.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the most famous thing about his death probably never happened."
   },
   {
    "who": "N",
@@ -126,30 +253,31 @@
     "k": "end",
     "cast": [
      {
-      "id": "barbarossa",
+      "id": "aeschylus",
       "x": 0.3,
-      "pose": "wave"
+      "pose": "wave",
+      "mood": "happy"
      },
      {
-      "id": "crusader",
+      "id": "greekfriend",
       "x": 0.7,
-      "pose": "salute"
+      "pose": "shrug"
      }
     ]
    }
   }
  ],
- "caption": "He marched across half a continent, then a river got him.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #barbarossa #crusades #historytok #funnyhistory",
- "youtube_title": "The Emperor Who Drowned on the Way to the Crusade #shorts",
+ "caption": "A prophecy, an eagle and a very unlucky bald head. Almost certainly a legend, but what a legend.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #aeschylus #ancientgreece #historytok #funnyhistory",
+ "youtube_title": "Was This Playwright Killed by a Tortoise? #shorts",
  "tags": [
-  "frederick barbarossa",
+  "aeschylus",
   "history",
-  "third crusade",
+  "ancient greece",
   "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Frederick_Barbarossa",
-  "https://www.historyandheadlines.com/june-10-1190-emperor-frederick-barbarossa-drowns-third-crusade/"
+  "https://www.metmuseum.org/art/collection/search/370755",
+  "https://www.ebsco.com/research-starters/drama-and-theater-arts/greek-tragedian-aeschylus-dies/"
  ]
 }

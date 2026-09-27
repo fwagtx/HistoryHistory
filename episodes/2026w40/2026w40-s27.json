@@ -1,176 +1,170 @@
 {
  "id": "2026w40-s27",
  "format": "short",
- "date": "2026-10-04",
- "slot": "15:00",
- "title": "The Hijacker Who Jumped and Vanished",
- "hook": "HE JUST JUMPED",
+ "date": "2026-10-03",
+ "slot": "12:00",
+ "title": "Robbers Expected Cash and Found 3 Tonnes of Gold",
+ "hook": "WRONG KIND OF RICH",
  "music": "playful",
  "cast": {
-  "cooper": {
-   "skin": "peach",
-   "outfit": "suit",
+  "vaultguy1": {
+   "preset": "worker",
+   "hat": "bandana",
+   "hatColor": "#262322",
    "color": "#262322",
-   "tie": "#1E1C1B",
-   "glasses": "square",
-   "hair": "side",
-   "hairColor": "#1E1C1B",
-   "name": "\"Dan Cooper\""
+   "name": "Brink's-Mat robber"
   },
-  "ingram": {
-   "preset": "child",
-   "name": "Brian Ingram"
-  },
-  "schaffner": {
-   "skin": "peach",
-   "outfit": "dress",
-   "color": "#2F6FC2",
-   "hair": "bun",
-   "hairColor": "#6A4A2A",
-   "name": "Florence Schaffner"
+  "vaultguy2": {
+   "preset": "worker",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "color": "#4A4A4A",
+   "stubble": true,
+   "name": "Brink's-Mat robber"
   }
  },
  "voices": {
-  "cooper": "am_echo",
-  "ingram": "af_bella",
-  "schaffner": "af_heart"
+  "vaultguy1": "bm_daniel",
+  "vaultguy2": "am_liam"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1971, a hijacker jumped out of a plane with two hundred thousand dollars and was never seen again.",
+   "say": "In 1983, robbers got into a vault near Heathrow expecting about three million pounds in cash.",
    "show": {
     "k": "scene",
-    "bg": "night",
+    "bg": "vault",
     "cast": [
      {
-      "id": "cooper",
-      "x": 0.5,
-      "mood": "neutral",
-      "hold": "moneybag"
+      "id": "vaultguy1",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "vaultguy2",
+      "x": 0.65,
+      "mood": "smug"
      }
     ],
-    "fx": [
-     "rain"
-    ],
-    "tag": {
-     "id": "cooper",
-     "text": "\"Dan Cooper\" (D.B. Cooper)"
-    }
+    "cam": "pan"
    }
   },
   {
    "who": "N",
-   "say": "He bought a ticket in Portland as Dan Cooper and handed a flight attendant a note.",
+   "say": "They'd had help from an inside man, a security guard."
+  },
+  {
+   "who": "vaultguy1",
+   "say": "Right. Where's the cash?",
    "show": {
     "k": "scene",
-    "bg": "office",
+    "bg": "vault",
     "cast": [
      {
-      "id": "schaffner",
+      "id": "vaultguy1",
       "x": 0.3,
-      "mood": "smug",
-      "hold": "letter"
+      "mood": "neutral",
+      "pose": "think"
      },
      {
-      "id": "cooper",
-      "x": 0.7,
-      "mood": "neutral",
-      "pose": "sit"
+      "id": "vaultguy2",
+      "x": 0.65,
+      "mood": "shock",
+      "hold": "goldbar"
      }
     ]
    }
   },
   {
-   "who": "schaffner",
-   "say": "Sorry, sir, I don't give out my number."
-  },
-  {
-   "who": "cooper",
-   "say": "Miss, you'd better look at that note."
+   "who": "vaultguy2",
+   "say": "Forget the cash. Look at this!"
   },
   {
    "who": "N",
-   "say": "After the passengers were freed in Seattle, the plane took off again, and he jumped from the rear stairs into the night.",
+   "say": "Instead they found about three tonnes of gold bars, part of a haul worth twenty-six million pounds.",
    "show": {
-    "k": "scene",
-    "bg": "night",
-    "cast": [
-     {
-      "id": "cooper",
-      "x": 0.5,
-      "mood": "neutral",
-      "enter": "drop"
-     }
-    ],
-    "fx": [
-     "rain"
-    ],
-    "cam": "shake"
+    "k": "card",
+    "label": "What was actually in the Brink's-Mat vault",
+    "big": "3 TONNES",
+    "sub": "about 6,800 gold bars; with diamonds and cash, a £26 million haul"
    }
   },
   {
    "who": "N",
-   "say": "In 1980, a kid found five thousand eight hundred dollars of the ransom on a Columbia River beach.",
+   "say": "The guard's family link to one robber put police on the trail, and two ringleaders got twenty-five years.",
    "show": {
     "k": "scene",
-    "bg": "harbor",
+    "bg": "courtroom",
     "cast": [
      {
-      "id": "ingram",
+      "id": "vaultguy1",
       "x": 0.5,
-      "mood": "shock",
-      "hold": "moneybag"
+      "mood": "sad"
      }
-    ],
-    "tag": {
-     "id": "ingram",
-     "text": "Brian Ingram, age 8"
-    }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The serial numbers matched."
+   "say": "But most of the gold was melted down and never recovered."
   },
   {
    "who": "N",
-   "say": "In 2016 the FBI stopped actively investigating. He's still unidentified."
+   "say": "Legend says some of it ended up in British jewellery. Nobody can prove it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "vaultguy2",
+      "x": 0.5,
+      "mood": "smug",
+      "hold": "coin"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "Follow for more history mysteries.",
+   "say": "Follow for more heists that went sideways.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "ingram",
+      "id": "vaultguy2",
       "x": 0.3,
       "pose": "wave",
-      "mood": "happy"
+      "mood": "happy",
+      "hold": "goldbar"
      },
      {
-      "id": "cooper",
+      "id": "vaultguy1",
       "x": 0.7,
-      "mood": "neutral"
+      "mood": "shock"
      }
     ]
    }
   }
  ],
- "caption": "He jumped from a plane with $200,000 in 1971. Nobody knows who he was.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #dbcooper #mystery #historytok #unsolved",
- "youtube_title": "The Hijacker Who Jumped and Vanished #shorts",
+ "caption": "They broke in for £3 million in cash. They left with £26 million in gold, diamonds and cash.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #heist #gold #historytok #truecrime",
+ "youtube_title": "Robbers Expected Cash and Found 3 Tonnes of Gold #shorts",
  "tags": [
-  "db cooper",
-  "unsolved mystery",
-  "hijacking",
+  "brinks mat",
+  "gold heist",
+  "heathrow",
   "history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/D._B._Cooper",
-  "https://www.fbi.gov/history/cases-and-criminals/db-cooper-hijacking",
-  "https://www.historylink.org/file/23059",
-  "https://www.nbcnews.com/news/us-news/fbi-ends-active-search-vanished-1970s-skyjacker-d-b-cooper-n608061"
+  "https://en.wikipedia.org/wiki/Brink%27s-Mat_robbery",
+  "https://www.worldhistory.org/article/2778/the-brinks-mat-robbery/",
+  "https://www.crimeandinvestigation.co.uk/articles/brinks-mat-heist-robbery-century"
  ]
 }

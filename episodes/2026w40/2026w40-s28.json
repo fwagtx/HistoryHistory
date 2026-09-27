@@ -1,52 +1,128 @@
 {
  "id": "2026w40-s28",
  "format": "short",
- "date": "2026-10-04",
- "slot": "19:00",
- "title": "He Died Before Saying Where the Painting Was",
- "hook": "HE TOOK THE SECRET",
+ "date": "2026-10-03",
+ "slot": "15:00",
+ "title": "The $100 Million Heist Ruined by a Sandwich",
+ "hook": "BUSTED BY SALAMI",
  "music": "playful",
  "cast": {
-  "goedertier": {
+  "detective": {
    "skin": "peach",
-   "hat": "bowler",
-   "hatColor": "#262322",
-   "outfit": "suit",
-   "color": "#3A3A3A",
-   "stache": "bush",
-   "glasses": "round",
-   "hairColor": "#8A8A8A",
-   "name": "Arsène Goedertier"
-  },
-  "lawyer": {
-   "preset": "businessman",
-   "color": "#4A3A2A",
+   "hat": "fedora",
+   "hatColor": "#6A5A48",
+   "outfit": "coat",
+   "color": "#8A7A5A",
    "glasses": "square",
-   "name": "Georges De Vos"
+   "name": "Belgian detective"
+  },
+  "notarbartolo": {
+   "preset": "businessman",
+   "hair": "bald",
+   "stache": "thin",
+   "glasses": "square",
+   "name": "Leonardo Notarbartolo"
+  },
+  "vancamp": {
+   "preset": "farmer",
+   "name": "August Van Camp"
   }
  },
  "voices": {
-  "goedertier": "bm_daniel",
-  "lawyer": "am_liam"
+  "detective": "bm_george",
+  "notarbartolo": "am_eric",
+  "vancamp": "bm_lewis"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1934, a panel of a famous van Eyck altarpiece vanished from the cathedral in Ghent.",
+   "say": "In 2003, thieves emptied more than a hundred safe deposit boxes in an Antwerp diamond vault.",
    "show": {
     "k": "scene",
-    "bg": "church",
+    "bg": "vault",
     "cast": [
      {
-      "id": "lawyer",
+      "id": "notarbartolo",
       "x": 0.5,
-      "mood": "shock",
-      "pose": "scared"
+      "mood": "smug",
+      "hold": "goldbar"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "tag": {
+     "id": "notarbartolo",
+     "text": "Leonardo Notarbartolo"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The haul was estimated at over a hundred million dollars."
+  },
+  {
+   "who": "N",
+   "say": "The ringleader, Leonardo Notarbartolo, had rented an office in the building and posed as a diamond trader.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "notarbartolo",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then two of the gang dumped their rubbish in some woods by the motorway.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "vancamp",
+      "x": 0.5,
+      "mood": "angry",
+      "pose": "hips"
+     }
+    ],
+    "tag": {
+     "id": "vancamp",
+     "text": "August Van Camp, landowner"
+    }
+   }
+  },
+  {
+   "who": "vancamp",
+   "say": "Who's dumping rubbish on my land?"
+  },
+  {
+   "who": "N",
+   "say": "Police found receipts, videotape and a half-eaten salami sandwich.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "vancamp",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "detective",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "point"
      }
     ],
     "stickers": [
      {
-      "text": "MISSING",
+      "text": "SALAMI",
       "at": 1.0,
       "color": "#C8302A"
      }
@@ -54,112 +130,58 @@
    }
   },
   {
-   "who": "N",
-   "say": "It was called The Just Judges, and ransom letters soon followed."
+   "who": "detective",
+   "say": "Nobody eat that. It's evidence."
   },
   {
    "who": "N",
-   "say": "Months later, a stockbroker named Arsène Goedertier collapsed and called for his lawyer.",
+   "say": "That rubbish helped tie the gang to the crime, and Notarbartolo got ten years.",
    "show": {
     "k": "scene",
-    "bg": "office",
+    "bg": "courtroom",
     "cast": [
      {
-      "id": "goedertier",
-      "x": 0.3,
-      "mood": "sad",
-      "pose": "sit"
-     },
-     {
-      "id": "lawyer",
-      "x": 0.7,
-      "mood": "neutral"
-     }
-    ],
-    "tag": {
-     "id": "goedertier",
-     "text": "Arsène Goedertier"
-    }
-   }
-  },
-  {
-   "who": "goedertier",
-   "say": "Only I know where the Just Judges are."
-  },
-  {
-   "who": "lawyer",
-   "say": "Wonderful! And where is that?"
-  },
-  {
-   "who": "N",
-   "say": "He died without telling anyone.",
-   "show": {
-    "k": "scene",
-    "bg": "office",
-    "cast": [
-     {
-      "id": "lawyer",
-      "x": 0.5,
-      "mood": "shock",
-      "pose": "facepalm"
-     }
-    ],
-    "cam": "close"
-   }
-  },
-  {
-   "who": "N",
-   "say": "His papers held copies of the ransom letters, but no location.",
-   "show": {
-    "k": "scene",
-    "bg": "library",
-    "cast": [
-     {
-      "id": "lawyer",
+      "id": "notarbartolo",
       "x": 0.5,
       "mood": "sad",
-      "hold": "letter"
+      "pose": "shrug"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The panel has never been found, and a copy fills the gap today."
-  },
-  {
-   "who": "N",
-   "say": "Follow for more history mysteries.",
+   "say": "Follow for more heists that went wrong.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "lawyer",
+      "id": "detective",
       "x": 0.3,
       "pose": "wave",
-      "mood": "sad"
+      "mood": "happy"
      },
      {
-      "id": "goedertier",
+      "id": "notarbartolo",
       "x": 0.7,
-      "mood": "smug"
+      "mood": "shock"
      }
     ]
    }
   }
  ],
- "caption": "A stolen masterpiece, a deathbed confession, and no location. It's still missing.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #arttheft #mystery #historytok #belgium",
- "youtube_title": "He Died Before Saying Where the Painting Was #shorts",
+ "caption": "A $100 million diamond heist, undone by the rubbish, including half a salami sandwich.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #heist #diamonds #historytok #truecrime",
+ "youtube_title": "The $100 Million Heist Ruined by a Sandwich #shorts",
  "tags": [
-  "ghent altarpiece",
-  "just judges",
-  "art theft",
+  "antwerp diamond heist",
+  "diamond heist",
+  "true crime",
   "history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/The_Just_Judges",
-  "https://visit.gent.be/en/disappearance-just-judges-panel",
-  "https://www.vrt.be/vrtnws/en/2024/04/10/the-mystery-of-the-disappearance-of-the-just-judges-90-years-on/"
+  "https://en.wikipedia.org/wiki/Antwerp_diamond_heist",
+  "https://www.guinnessworldrecords.com/world-records/112164-largest-diamond-heist",
+  "https://thecinemaholic.com/antwerp-diamond-heist/"
  ]
 }

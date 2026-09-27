@@ -1,136 +1,136 @@
 {
  "id": "2026w40-s18",
  "format": "short",
- "date": "2026-10-02",
- "slot": "12:00",
- "title": "The Lawyer Who Proved His Point Too Well",
- "hook": "HE PROVED HIS POINT",
+ "date": "2026-10-01",
+ "slot": "19:00",
+ "title": "The King Who Ate Himself to Death",
+ "hook": "DEATH BY DESSERT",
  "music": "playful",
  "cast": {
-  "vall": {
-   "outfit": "suit",
-   "color": "#262322",
-   "beard": "full",
-   "hair": "short",
-   "hairColor": "#3A2A1A",
-   "skin": "light",
-   "name": "Clement Vallandigham"
+  "adolf": {
+   "preset": "king",
+   "hair": "curly",
+   "hairColor": "#EFEFEF",
+   "skin": "peach",
+   "name": "King Adolf Frederick"
   },
-  "lawyer": {
-   "preset": "businessman",
-   "stache": "bush"
-  },
-  "mcgehan": {
+  "chef": {
    "preset": "worker",
-   "hat": "bowler",
-   "name": "Thomas McGehan"
+   "hat": "chef",
+   "apron": true,
+   "stache": "handlebar"
   }
  },
  "voices": {
-  "vall": "bm_george",
-  "lawyer": "am_liam"
+  "adolf": "bm_lewis",
+  "chef": "am_echo"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1871, a lawyer tried to prove his client innocent in the worst way possible.",
+   "say": "Sweden remembers this king as the man who ate himself to death.",
    "show": {
     "k": "scene",
-    "bg": "courtroom",
+    "bg": "throne",
     "cast": [
      {
-      "id": "vall",
+      "id": "adolf",
       "x": 0.45,
-      "pose": "point",
-      "mood": "angry"
+      "pose": "sit",
+      "mood": "happy"
      }
     ],
     "tag": {
-     "id": "vall",
-     "text": "Clement Vallandigham"
-    }
+     "id": "adolf",
+     "text": "King Adolf Frederick"
+    },
+    "place": "Stockholm, Sweden · 1771"
    }
   },
   {
    "who": "N",
-   "say": "Clement Vallandigham was defending Thomas McGehan, accused of shooting a man in a bar fight.",
+   "say": "King Adolf Frederick loved a good meal, and one day he went all in.",
    "show": {
     "k": "scene",
-    "bg": "courtroom",
+    "bg": "throne",
     "cast": [
      {
-      "id": "mcgehan",
+      "id": "adolf",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "adolf"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was Fat Tuesday, February 1771, the last big feast before Lent, when Christians eat less for weeks.",
+   "show": {
+    "k": "card",
+    "label": "12 February 1771",
+    "big": "FAT TUESDAY",
+    "sub": "the last big feast before Lent",
+    "cast": [
+     {
+      "id": "chef",
+      "pose": "present"
+     }
+    ]
+   }
+  },
+  {
+   "who": "chef",
+   "say": "Lobster, caviar, sauerkraut, herring and champagne, Your Majesty.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "chef",
       "x": 0.3,
-      "pose": "shrug",
-      "mood": "scared"
+      "pose": "present"
      },
      {
-      "id": "vall",
+      "id": "adolf",
       "x": 0.68,
-      "pose": "present"
+      "pose": "cheer",
+      "mood": "happy"
      }
     ]
    }
   },
   {
-   "who": "N",
-   "say": "His theory: the victim shot himself pulling out his own pistol."
+   "who": "adolf",
+   "say": "Excellent. Now, dessert!"
   },
   {
    "who": "N",
-   "say": "At his hotel, he showed his fellow lawyers how.",
+   "say": "Dessert was semla, a sweet cream bun in hot milk, and legend says he ate fourteen.",
    "show": {
     "k": "scene",
-    "bg": "tavern",
+    "bg": "palace",
     "cast": [
      {
-      "id": "vall",
-      "x": 0.35,
-      "pose": "present"
-     },
-     {
-      "id": "lawyer",
-      "x": 0.68,
-      "pose": "think"
-     }
-    ]
-   }
-  },
-  {
-   "who": "lawyer",
-   "say": "Clem, is that thing loaded?"
-  },
-  {
-   "who": "vall",
-   "say": "No, this is the empty one."
-  },
-  {
-   "who": "N",
-   "say": "It wasn't. He died the next day.",
-   "show": {
-    "k": "scene",
-    "bg": "tavern",
-    "cast": [
-     {
-      "id": "vall",
-      "x": 0.4,
-      "pose": "scared",
-      "mood": "shock"
-     },
-     {
-      "id": "lawyer",
-      "x": 0.68,
-      "mood": "shock"
+      "id": "adolf",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "happy"
      }
     ],
-    "cam": "shake",
-    "fx": [
-     "smoke"
-    ],
+    "cam": "close",
+    "focus": "adolf",
     "stickers": [
      {
-      "text": "BANG!",
-      "at": 0.3,
+      "text": "SEMLA = CREAM BUN",
+      "at": 0.6,
+      "color": "#C9A04A"
+     },
+     {
+      "text": "14 BUNS?",
+      "at": 2.4,
       "color": "#A8322A"
      }
     ]
@@ -138,7 +138,54 @@
   },
   {
    "who": "N",
-   "say": "And his client? Eventually acquitted."
+   "say": "A few hours later, the king was dead.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "adolf",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The fourteen buns can't be proven, and his doctors blamed a stroke.",
+   "show": {
+    "k": "card",
+    "label": "Fourteen buns?",
+    "big": "LEGEND",
+    "sub": "no proof; his doctors blamed a stroke"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the legend stuck, and Swedes still eat semla every Fat Tuesday.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "chef",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "Sweden · today",
+    "stickers": [
+     {
+      "text": "SEMLA DAY",
+      "at": 0.8,
+      "color": "#C9A04A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -147,32 +194,33 @@
     "k": "end",
     "cast": [
      {
-      "id": "mcgehan",
+      "id": "adolf",
       "x": 0.3,
-      "pose": "cheer",
+      "pose": "wave",
       "mood": "happy"
      },
      {
-      "id": "lawyer",
+      "id": "chef",
       "x": 0.7,
-      "pose": "facepalm"
+      "pose": "shrug"
      }
     ]
    }
   }
  ],
- "caption": "His client walked free. He just wasn't there to see it.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #lawyer #ohiohistory #historytok #funnyhistory",
- "youtube_title": "The Lawyer Who Proved His Point Too Well #shorts",
+ "caption": "Lobster, caviar, champagne and maybe 14 cream buns.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #semla #sweden #historytok #funnyhistory",
+ "youtube_title": "The King Who Ate Himself to Death #shorts",
  "tags": [
-  "clement vallandigham",
+  "adolf frederick",
   "history",
-  "ohio history",
+  "sweden",
   "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Clement_Vallandigham",
-  "https://www.goldenlamb.com/news/on-this-day-in-history-clement-vallandigham/",
-  "https://alphahistory.com/pastpeculiar/1871-lawyer-dies-wrong-pistol/"
+  "https://en.wikipedia.org/wiki/Adolf_Frederick_of_Sweden",
+  "https://www.snopes.com/fact-check/death-by-cinnamon-bun-the-mystery-of-king-frederick-of-swedens-last-meal/",
+  "https://nordstjernan.com/news/food/6870/",
+  "https://livrustkammaren.se/en/royal-history/royal-histories/the-king-who-died-of-sweet-rolls-or-what/"
  ]
 }

@@ -2,149 +2,232 @@
  "id": "2026w40-s19",
  "format": "short",
  "date": "2026-10-02",
- "slot": "15:00",
- "title": "A Monkey Bite Killed the King of Greece",
- "hook": "KILLED BY A MONKEY",
+ "slot": "09:00",
+ "title": "Tycho Brahe Was Too Polite to Leave the Table",
+ "hook": "TOO POLITE TO PEE",
  "music": "playful",
  "cast": {
-  "alexander": {
-   "outfit": "uniform",
-   "color": "#3A4A6A",
+  "tycho": {
+   "outfit": "coat",
+   "color": "#262322",
+   "hair": "bald",
+   "stache": "handlebar",
+   "hairColor": "#C9A04A",
+   "skin": "light",
+   "name": "Tycho Brahe"
+  },
+  "rosenberg": {
+   "preset": "noble",
+   "hold": "goblet"
+  },
+  "kepler": {
+   "outfit": "coat",
+   "color": "#3A3A3A",
+   "beard": "goatee",
+   "stache": "thin",
    "hair": "short",
    "hairColor": "#3A2A1A",
-   "stache": "thin",
    "skin": "light",
-   "name": "King Alexander of Greece"
-  },
-  "servant": {
-   "preset": "peasant"
+   "name": "Johannes Kepler"
   }
  },
  "voices": {
-  "alexander": "am_liam"
+  "tycho": "bm_george",
+  "rosenberg": "am_liam"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1920, the King of Greece was killed by a monkey bite.",
+   "say": "This famous astronomer may have died because he was too polite to go to the bathroom.",
    "show": {
     "k": "scene",
-    "bg": "throne",
+    "bg": "night",
     "cast": [
      {
-      "id": "alexander",
+      "id": "tycho",
       "x": 0.45,
-      "pose": "salute"
+      "pose": "point",
+      "mood": "happy"
      }
     ],
+    "fx": [
+     "sparkle"
+    ],
     "tag": {
-     "id": "alexander",
-     "text": "King Alexander"
+     "id": "tycho",
+     "text": "Tycho Brahe"
     }
    }
   },
   {
    "who": "N",
-   "say": "King Alexander was walking his German shepherd, Fritz, on the royal estate near Athens.",
+   "say": "Tycho Brahe was a star scientist from Denmark who mapped the night sky.",
    "show": {
     "k": "scene",
-    "bg": "field",
+    "bg": "night",
     "cast": [
      {
-      "id": "alexander",
-      "x": 0.4,
-      "pose": "walk",
-      "mood": "happy"
-     }
-    ],
-    "cam": "pan"
-   }
-  },
-  {
-   "who": "N",
-   "say": "Fritz started fighting a pet monkey, and the king jumped in.",
-   "show": {
-    "k": "scene",
-    "bg": "field",
-    "cast": [
-     {
-      "id": "alexander",
+      "id": "tycho",
       "x": 0.45,
-      "pose": "scared",
-      "mood": "shock"
+      "pose": "think",
+      "mood": "smug"
      }
     ],
+    "cam": "close",
+    "focus": "tycho",
     "stickers": [
      {
-      "text": "DOG",
-      "at": 0.5,
-      "color": "#6A4A2A"
-     },
-     {
-      "text": "VS",
-      "at": 1.0,
-      "color": "#262322"
-     },
-     {
-      "text": "MONKEY",
-      "at": 1.5,
-      "color": "#A8322A"
+      "text": "ASTRONOMER",
+      "at": 0.8,
+      "color": "#3A4A8A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Then a second monkey bit him.",
+   "say": "In 1601, he was working in Prague for the emperor.",
    "show": {
-    "k": "scene",
-    "bg": "field",
-    "cast": [
-     {
-      "id": "alexander",
-      "x": 0.45,
-      "pose": "scared",
-      "mood": "shock"
-     }
+    "k": "map",
+    "lon": 14.42,
+    "lat": 50.08,
+    "z0": 2.2,
+    "z1": 3.2,
+    "date": "1601",
+    "labels": [
+     [
+      "Prague",
+      14.42,
+      50.08,
+      0
+     ],
+     [
+      "Denmark",
+      10.0,
+      56.0,
+      0
+     ]
     ],
-    "cam": "shake",
-    "stickers": [
-     {
-      "text": "CHOMP",
-      "at": 0.3,
-      "color": "#A8322A"
-     }
+    "areas": [
+     [
+      14.42,
+      50.08,
+      0.35,
+      "rgba(200,60,40,0.35)"
+     ]
     ]
    }
   },
   {
-   "who": "alexander",
-   "say": "It's fine. Let's not tell anyone.",
+   "who": "N",
+   "say": "That October, a nobleman named Rosenberg invited him to a fancy dinner.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "castle",
     "cast": [
      {
-      "id": "alexander",
+      "id": "tycho",
       "x": 0.35,
-      "pose": "shrug",
-      "mood": "sad"
+      "pose": "sit",
+      "mood": "happy"
      },
      {
-      "id": "servant",
+      "id": "rosenberg",
       "x": 0.68,
-      "pose": "think"
+      "pose": "present"
+     }
+    ],
+    "place": "Prague · October 1601",
+    "tag": {
+     "id": "rosenberg",
+     "text": "Rosenberg"
+    }
+   }
+  },
+  {
+   "who": "rosenberg",
+   "say": "More wine, Tycho?"
+  },
+  {
+   "who": "tycho",
+   "say": "I really need to go. But leaving the table now would be so rude.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "tycho",
+      "pose": "sit",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "tycho"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Leaving a fancy dinner early was bad manners, so he held it in.",
+   "show": {
+    "k": "card",
+    "label": "At a fancy dinner in 1601, leaving early was",
+    "big": "RUDE",
+    "sub": "so Tycho held it in",
+    "cast": [
+     {
+      "id": "tycho",
+      "mood": "scared"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The wounds got infected, and three weeks later he was dead at twenty-seven."
+   "say": "By the time he got home, he couldn't pee at all. Eleven days later, he was dead.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "tycho",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "11 DAYS",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "Winston Churchill later wrote that a quarter of a million people died of this monkey's bite, because of the war chaos that followed."
+   "say": "We know this from his assistant, Johannes Kepler, and historians think a bladder or kidney illness was the real cause.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "kepler",
+      "x": 0.45,
+      "pose": "hold",
+      "hold": "pen"
+     }
+    ],
+    "tag": {
+     "id": "kepler",
+     "text": "Johannes Kepler, his assistant"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So his last lesson wasn't about stars: if you need to go, go."
   },
   {
    "who": "N",
@@ -153,12 +236,12 @@
     "k": "end",
     "cast": [
      {
-      "id": "alexander",
+      "id": "tycho",
       "x": 0.3,
       "pose": "wave"
      },
      {
-      "id": "servant",
+      "id": "kepler",
       "x": 0.7,
       "pose": "shrug"
      }
@@ -166,18 +249,19 @@
    }
   }
  ],
- "caption": "A king, a dog and a very bad monkey.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #greece #monkey #historytok #funnyhistory",
- "youtube_title": "A Monkey Bite Killed the King of Greece #shorts",
+ "caption": "Rule one of dinner parties: if you need to go, go.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #tychobrahe #astronomy #historytok #funnyhistory",
+ "youtube_title": "Tycho Brahe Was Too Polite to Leave the Table #shorts",
  "tags": [
-  "king alexander of greece",
+  "tycho brahe",
   "history",
-  "greece",
+  "astronomy",
   "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Alexander_of_Greece",
-  "https://www.history.com/this-day-in-history/october-25/greece-king-alexander-death-monkey-bite-1920",
-  "https://royalcentral.co.uk/features/the-king-who-was-killed-by-a-monkey-81478/"
+  "https://en.wikipedia.org/wiki/Tycho_Brahe",
+  "https://www.britannica.com/biography/Tycho-Brahe-Danish-astronomer",
+  "https://www.nbcnews.com/id/wbna49857981",
+  "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0195920"
  ]
 }

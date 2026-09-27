@@ -1,194 +1,255 @@
 {
  "id": "2026w40-s21",
  "format": "short",
- "date": "2026-10-03",
- "slot": "09:00",
- "title": "The Day the Mona Lisa Disappeared",
- "hook": "SHE WAS STOLEN",
+ "date": "2026-10-02",
+ "slot": "15:00",
+ "title": "A Monkey Bite Killed the King of Greece",
+ "hook": "KILLED BY A MONKEY",
  "music": "playful",
  "cast": {
-  "beroud": {
-   "skin": "peach",
-   "hat": "beret",
-   "hatColor": "#2A2A4A",
-   "outfit": "coat",
-   "color": "#4A3A6A",
-   "beard": "full",
-   "hairColor": "#5A3A22",
-   "hold": "pen",
-   "name": "Louis Béroud"
-  },
-  "geri": {
-   "preset": "businessman",
-   "stache": "thin",
-   "hairColor": "#3A2A1E",
-   "name": "Alfredo Geri"
-  },
-  "lguard": {
-   "skin": "peach",
-   "hat": "kepi",
-   "hatColor": "#1F2A44",
-   "outfit": "coat",
-   "color": "#1F2A44",
-   "stache": "handlebar",
-   "name": "Louvre guard"
-  },
-  "peruggia": {
-   "skin": "light",
-   "outfit": "labcoat",
-   "color": "#F2EEE4",
+  "alexander": {
+   "outfit": "uniform",
+   "color": "#3A4A6A",
    "hair": "short",
-   "hairColor": "#1E1C1B",
+   "hairColor": "#3A2A1A",
+   "stache": "thin",
+   "skin": "light",
+   "name": "King Alexander of Greece"
+  },
+  "servant": {
+   "preset": "peasant"
+  },
+  "constantine": {
+   "preset": "king",
    "stache": "bush",
-   "name": "Vincenzo Peruggia"
+   "name": "King Constantine I"
   }
  },
  "voices": {
-  "beroud": "am_echo",
-  "geri": "am_eric",
-  "lguard": "bm_lewis",
-  "peruggia": "am_puck"
+  "alexander": "am_liam"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1911, the Mona Lisa was stolen by a man who'd helped build her glass case.",
+   "say": "In 1920, the King of Greece died from a monkey bite.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "throne",
     "cast": [
      {
-      "id": "peruggia",
-      "x": 0.5,
-      "mood": "smug",
-      "pose": "hips"
+      "id": "alexander",
+      "x": 0.45,
+      "pose": "salute"
      }
     ],
     "tag": {
-     "id": "peruggia",
-     "text": "Vincenzo Peruggia"
+     "id": "alexander",
+     "text": "King Alexander"
+    },
+    "place": "Athens, Greece · 1920"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Alexander had become king at twenty-three, after his father Constantine was forced off the throne.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.35,
+      "pose": "salute"
+     },
+     {
+      "id": "constantine",
+      "x": 0.72,
+      "pose": "walk",
+      "exit": "right",
+      "exitAt": 2.0,
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "constantine",
+     "text": "His father, Constantine"
     }
    }
   },
   {
    "who": "N",
-   "say": "Vincenzo Peruggia had worked at the Louvre, so nobody looked at him twice."
-  },
-  {
-   "who": "N",
-   "say": "On a Monday when the museum was closed, he took her off the wall, hid her under his work smock, and walked out.",
+   "say": "In October 1920, he was walking his German shepherd, Fritz, on the royal estate outside Athens.",
    "show": {
     "k": "scene",
-    "bg": "street",
+    "bg": "palace",
     "cast": [
      {
-      "id": "peruggia",
+      "id": "alexander",
       "x": 0.4,
       "pose": "walk",
       "mood": "happy"
      }
     ],
-    "cam": "pan"
+    "cam": "pan",
+    "place": "Royal estate near Athens · Oct 1920"
    }
   },
   {
    "who": "N",
-   "say": "The next day, a painter came to sketch her and found an empty wall.",
+   "say": "Fritz got into a fight with a pet monkey, and the king jumped in to pull them apart.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DOG",
+      "at": 0.5,
+      "color": "#6A4A2A"
+     },
+     {
+      "text": "VS",
+      "at": 1.0,
+      "color": "#262322"
+     },
+     {
+      "text": "MONKEY",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a second monkey bit him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "CHOMP",
+      "at": 0.3,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "alexander",
+   "say": "It's fine. Let's not tell anyone.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
-      "id": "beroud",
-      "x": 0.3,
-      "mood": "shock",
-      "pose": "point"
+      "id": "alexander",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
      },
      {
-      "id": "lguard",
-      "x": 0.7,
-      "mood": "neutral"
+      "id": "servant",
+      "x": 0.68,
+      "pose": "think"
      }
     ]
    }
   },
   {
-   "who": "beroud",
-   "say": "Excuse me. Where is the Mona Lisa?"
-  },
-  {
-   "who": "lguard",
-   "say": "Being photographed, probably. Relax."
-  },
-  {
    "who": "N",
-   "say": "She was actually in a trunk in Peruggia's room, for more than two years.",
-   "show": {
-    "k": "card",
-    "label": "Time the Mona Lisa was missing",
-    "big": "2+ YEARS",
-    "sub": "1911 to 1913"
-   }
-  },
-  {
-   "who": "N",
-   "say": "In 1913 he tried to sell her in Florence, and the dealer called the police.",
+   "say": "But the bites got infected, and three weeks later he died, at just twenty-seven.",
    "show": {
     "k": "scene",
-    "bg": "office",
+    "bg": "church",
     "cast": [
      {
-      "id": "peruggia",
-      "x": 0.3,
-      "mood": "scared"
-     },
-     {
-      "id": "geri",
-      "x": 0.7,
-      "mood": "smug",
-      "pose": "point"
+      "id": "servant",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
      }
     ],
-    "tag": {
-     "id": "geri",
-     "text": "Alfredo Geri, art dealer"
-    }
+    "cam": "still"
    }
   },
   {
    "who": "N",
-   "say": "Follow for more heists that sound made up.",
+   "say": "His father came back as king, and Greece's war with Turkey ended in disaster.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "constantine",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Greece and Turkey · 1922"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Winston Churchill, the British statesman, later wrote that a quarter of a million people died of this monkey's bite.",
+   "show": {
+    "k": "quote",
+    "text": "It is perhaps no exaggeration to remark that a quarter of a million persons died of this monkey's bite.",
+    "who": "Winston Churchill, The World Crisis: The Aftermath (1929)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "peruggia",
+      "id": "alexander",
       "x": 0.3,
-      "pose": "wave",
-      "mood": "happy"
+      "pose": "wave"
      },
      {
-      "id": "beroud",
+      "id": "servant",
       "x": 0.7,
-      "mood": "shock"
+      "pose": "shrug"
      }
     ]
    }
   }
  ],
- "caption": "The Mona Lisa vanished for two years, and she was in a trunk the whole time.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #monalisa #louvre #historytok #heist",
- "youtube_title": "The Day the Mona Lisa Disappeared #shorts",
+ "caption": "A king, a dog and a very bad monkey.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #greece #monkey #historytok #funnyhistory",
+ "youtube_title": "A Monkey Bite Killed the King of Greece #shorts",
  "tags": [
-  "mona lisa",
-  "louvre",
-  "art theft",
+  "king alexander of greece",
   "history",
+  "greece",
+  "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Vincenzo_Peruggia",
-  "https://www.history.com/articles/the-heist-that-made-the-mona-lisa-famous",
-  "https://guides.loc.gov/chronicling-america-theft-mona-lisa",
-  "https://www.theartnewspaper.com/2024/02/06/missing-mona-lisa-the-story-behind-the-1911-theft"
+  "https://en.wikipedia.org/wiki/Alexander_of_Greece",
+  "https://www.history.com/this-day-in-history/october-25/greece-king-alexander-death-monkey-bite-1920",
+  "https://royalcentral.co.uk/features/the-king-who-was-killed-by-a-monkey-81478/"
  ]
 }

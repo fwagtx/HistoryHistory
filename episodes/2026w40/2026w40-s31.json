@@ -1,0 +1,177 @@
+{
+ "id": "2026w40-s31",
+ "format": "short",
+ "date": "2026-10-04",
+ "slot": "12:00",
+ "title": "Train Robbers Played Monopoly With Real Money",
+ "hook": "REAL MONEY MONOPOLY",
+ "music": "playful",
+ "cast": {
+  "robber1": {
+   "preset": "worker",
+   "hat": "cap",
+   "hatColor": "#2A2A2A",
+   "color": "#3A4A5A",
+   "name": "Train robber"
+  },
+  "robber2": {
+   "preset": "worker",
+   "hat": "bandana",
+   "hatColor": "#8A2A2A",
+   "color": "#5A4A3A",
+   "stubble": true,
+   "name": "Train robber"
+  }
+ },
+ "voices": {
+  "robber1": "bm_george",
+  "robber2": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1963, a gang robbed a mail train, then reportedly played Monopoly with real cash.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "robber1",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "happy",
+      "hold": "moneybag"
+     },
+     {
+      "id": "robber2",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They stopped a Glasgow to London mail train and took about two point six million pounds.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "robber1",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "robber2",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The driver was seriously hurt, so this was no harmless caper."
+  },
+  {
+   "who": "N",
+   "say": "The gang hid out at Leatherslade Farm.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "robber1",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "happy"
+     },
+     {
+      "id": "robber2",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "robber1",
+   "say": "I'll buy Mayfair."
+  },
+  {
+   "who": "robber2",
+   "say": "With real cash? Go on then."
+  },
+  {
+   "who": "N",
+   "say": "They wiped the farm for fingerprints, but police still found prints on a ketchup bottle and the Monopoly set.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "robber1",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "robber2",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OOPS",
+      "at": 1.0,
+      "color": "#C8302A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seven of them got thirty years, and most of the money was never recovered."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more heists that went wrong.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "robber1",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "robber2",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Great Train Robbers got caught partly because of a Monopoly set.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #greattrainrobbery #heist #historytok #truecrime",
+ "youtube_title": "Train Robbers Played Monopoly With Real Money #shorts",
+ "tags": [
+  "great train robbery",
+  "monopoly",
+  "british history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Great_Train_Robbery_(1963)",
+  "https://www.britannica.com/event/Great-Train-Robbery",
+  "https://www.thamesvalley.police.uk/police-forces/thames-valley-police/areas/au/about-us/thames-valley-police-museum/the-great-train-robbery/"
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "id": "2026w40-s33",
+ "format": "short",
+ "date": "2026-10-04",
+ "slot": "19:00",
+ "title": "He Died Before Saying Where the Painting Was",
+ "hook": "HE TOOK THE SECRET",
+ "music": "playful",
+ "cast": {
+  "goedertier": {
+   "skin": "peach",
+   "hat": "bowler",
+   "hatColor": "#262322",
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "stache": "bush",
+   "glasses": "round",
+   "hairColor": "#8A8A8A",
+   "name": "Arsène Goedertier"
+  },
+  "lawyer": {
+   "preset": "businessman",
+   "color": "#4A3A2A",
+   "glasses": "square",
+   "name": "Georges De Vos"
+  }
+ },
+ "voices": {
+  "goedertier": "bm_daniel",
+  "lawyer": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1934, a panel of a famous van Eyck altarpiece vanished from the cathedral in Ghent.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "lawyer",
+      "x": 0.5,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MISSING",
+      "at": 1.0,
+      "color": "#C8302A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was called The Just Judges, and ransom letters soon followed."
+  },
+  {
+   "who": "N",
+   "say": "Months later, a stockbroker named Arsène Goedertier collapsed and called for his lawyer.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "goedertier",
+      "x": 0.3,
+      "mood": "sad",
+      "pose": "sit"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "goedertier",
+     "text": "Arsène Goedertier"
+    }
+   }
+  },
+  {
+   "who": "goedertier",
+   "say": "Only I know where the Just Judges are."
+  },
+  {
+   "who": "lawyer",
+   "say": "Wonderful! And where is that?"
+  },
+  {
+   "who": "N",
+   "say": "He died without telling anyone.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lawyer",
+      "x": 0.5,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His papers held copies of the ransom letters, but no location.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lawyer",
+      "x": 0.5,
+      "mood": "sad",
+      "hold": "letter"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The panel has never been found, and a copy fills the gap today."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history mysteries.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lawyer",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "sad"
+     },
+     {
+      "id": "goedertier",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A stolen masterpiece, a deathbed confession, and no location. It's still missing.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #arttheft #mystery #historytok #belgium",
+ "youtube_title": "He Died Before Saying Where the Painting Was #shorts",
+ "tags": [
+  "ghent altarpiece",
+  "just judges",
+  "art theft",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/The_Just_Judges",
+  "https://visit.gent.be/en/disappearance-just-judges-panel",
+  "https://www.vrt.be/vrtnws/en/2024/04/10/the-mystery-of-the-disappearance-of-the-just-judges-90-years-on/"
+ ]
+}

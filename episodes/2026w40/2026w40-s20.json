@@ -2,193 +2,255 @@
  "id": "2026w40-s20",
  "format": "short",
  "date": "2026-10-02",
- "slot": "19:00",
- "title": "The Man Who Flattened the Crown Jewels",
- "hook": "HE FLATTENED THE CROWN",
+ "slot": "12:00",
+ "title": "The Lawyer Who Proved His Point Too Well",
+ "hook": "HE PROVED HIS POINT",
  "music": "playful",
  "cast": {
-  "blood": {
-   "skin": "light",
-   "hat": "capotain",
-   "hatColor": "#262322",
-   "outfit": "robe",
+  "vall": {
+   "outfit": "suit",
    "color": "#262322",
-   "color2": "#F2EEE4",
-   "hair": "long",
-   "hairColor": "#5A3A22",
-   "stache": "thin",
-   "name": "Colonel Thomas Blood"
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Clement Vallandigham"
   },
-  "charles": {
-   "preset": "king",
-   "hair": "long",
-   "hairColor": "#1E1C1B",
-   "stache": "thin",
-   "name": "King Charles II"
+  "lawyer": {
+   "preset": "businessman",
+   "stache": "bush"
+  },
+  "mcgehan": {
+   "preset": "worker",
+   "hat": "bowler",
+   "name": "Thomas McGehan"
+  },
+  "judge": {
+   "preset": "judge"
   }
  },
  "voices": {
-  "blood": "am_fenrir",
-  "charles": "bm_lewis"
+  "vall": "bm_george",
+  "lawyer": "am_liam"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1671, a man dressed as a parson walked into the Tower of London and tried to walk out with the crown.",
+   "say": "In 1871, a lawyer tried to prove his client innocent, and shot himself doing it.",
    "show": {
     "k": "scene",
-    "bg": "castle",
+    "bg": "courtroom",
     "cast": [
      {
-      "id": "blood",
-      "x": 0.5,
-      "mood": "smug",
-      "enter": "left"
+      "id": "vall",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
      }
     ],
     "tag": {
-     "id": "blood",
-     "text": "Colonel Thomas Blood"
-    }
+     "id": "vall",
+     "text": "Clement Vallandigham"
+    },
+    "place": "Ohio, USA · 1871"
    }
   },
   {
    "who": "N",
-   "say": "Thomas Blood had spent weeks befriending the elderly keeper of the jewels."
+   "say": "Clement Vallandigham was a famous lawyer and politician in Ohio."
   },
   {
    "who": "N",
-   "say": "Then his gang attacked the keeper, Blood flattened the crown with a mallet, and the orb went down someone's trousers.",
+   "say": "His client, Thomas McGehan, was on trial for shooting a man during a bar fight.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "courtroom",
     "cast": [
      {
-      "id": "blood",
-      "x": 0.5,
-      "mood": "shout",
-      "pose": "fist"
+      "id": "mcgehan",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "scared"
+     },
+     {
+      "id": "judge",
+      "x": 0.68,
+      "pose": "cross"
+     }
+    ],
+    "tag": {
+     "id": "mcgehan",
+     "text": "Thomas McGehan"
+    },
+    "stickers": [
+     {
+      "text": "ON TRIAL",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vallandigham's idea: the victim shot himself by accident, pulling his own pistol from his pocket as he stood up.",
+   "show": {
+    "k": "card",
+    "label": "The lawyer's idea",
+    "big": "AN ACCIDENT",
+    "sub": "the victim shot himself pulling out his own gun",
+    "cast": [
+     {
+      "id": "vall",
+      "pose": "point"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At his hotel, he decided to show other lawyers how it could happen.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.35,
+      "pose": "walk",
+      "walk": [
+       0.2,
+       0.45
+      ]
+     },
+     {
+      "id": "lawyer",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "place": "Hotel in Lebanon, Ohio · June 1871"
+   }
+  },
+  {
+   "who": "lawyer",
+   "say": "Clem, is that thing loaded?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.35,
+      "pose": "present"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ]
+   }
+  },
+  {
+   "who": "vall",
+   "say": "No, this is the empty one."
+  },
+  {
+   "who": "N",
+   "say": "It wasn't. The pistol caught on his clothes and went off, and he died the next day.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vall",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.68,
+      "mood": "shock"
      }
     ],
     "cam": "shake",
     "fx": [
-     "sparkle"
+     "smoke"
     ],
     "stickers": [
      {
-      "text": "BONK",
-      "at": 1.0,
-      "color": "#C8302A"
+      "text": "BANG!",
+      "at": 0.3,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
-   "who": "blood",
-   "say": "There. Now it fits in the bag."
-  },
-  {
    "who": "N",
-   "say": "They were caught before they could get away.",
+   "say": "And his client? He was eventually found not guilty.",
    "show": {
     "k": "scene",
-    "bg": "street",
+    "bg": "courtroom",
     "cast": [
      {
-      "id": "blood",
-      "x": 0.4,
-      "pose": "run",
-      "mood": "scared"
-     }
-    ],
-    "fx": [
-     "dust"
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Blood would only explain himself to King Charles the Second.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "charles",
-      "x": 0.3,
-      "pose": "sit",
-      "mood": "angry"
-     },
-     {
-      "id": "blood",
-      "x": 0.7,
-      "mood": "smug"
-     }
-    ],
-    "tag": {
-     "id": "charles",
-     "text": "King Charles II"
-    }
-   }
-  },
-  {
-   "who": "charles",
-   "say": "So you're the man who tried to steal my crown."
-  },
-  {
-   "who": "N",
-   "say": "Somehow, Blood was pardoned, and even given Irish land said to be worth five hundred pounds a year.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "blood",
-      "x": 0.5,
-      "mood": "happy",
+      "id": "mcgehan",
+      "x": 0.45,
       "pose": "cheer",
-      "hold": "coin"
+      "mood": "happy"
      }
     ],
     "fx": [
      "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "NOT GUILTY",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Follow for more heists that sound made up.",
+   "say": "So in a way, his idea worked. He just didn't live to see it."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "blood",
+      "id": "mcgehan",
       "x": 0.3,
-      "pose": "wave",
+      "pose": "cheer",
       "mood": "happy"
      },
      {
-      "id": "charles",
+      "id": "lawyer",
       "x": 0.7,
-      "mood": "shock"
+      "pose": "facepalm"
      }
     ]
    }
   }
  ],
- "caption": "He flattened the Crown of England with a mallet. The king pardoned him.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #crownjewels #heist #historytok #funnyhistory",
- "youtube_title": "The Man Who Flattened the Crown Jewels #shorts",
+ "caption": "His client walked free. He just wasn't there to see it.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #lawyer #ohiohistory #historytok #funnyhistory",
+ "youtube_title": "The Lawyer Who Proved His Point Too Well #shorts",
  "tags": [
-  "colonel blood",
-  "crown jewels",
-  "tower of london",
+  "clement vallandigham",
   "history",
+  "ohio history",
+  "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Thomas_Blood",
-  "https://www.nationalarchives.gov.uk/education/resources/the-king-the-crown-the-colonel/",
-  "https://www.worldhistory.org/article/1953/colonel-blood--the-theft-of-the-crown-jewels/",
-  "https://www.history.com/articles/the-man-who-stole-the-crown-jewels"
+  "https://en.wikipedia.org/wiki/Clement_Vallandigham",
+  "https://www.goldenlamb.com/news/on-this-day-in-history-clement-vallandigham/",
+  "https://alphahistory.com/pastpeculiar/1871-lawyer-dies-wrong-pistol/"
  ]
 }
