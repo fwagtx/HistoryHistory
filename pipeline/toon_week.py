@@ -89,14 +89,16 @@ def _push_media(files, folder, message):
     return commit
 
 
-def publish(week_id):
+def publish(week_id, partial=False):
     """Put this week's finished files in a fresh orphan commit on the media branch and force-push it.
     Earlier weeks drop off the branch, which is fine once Metricool has copied them (it copies at scheduling)."""
     files = sorted((ROOT / "media_out").glob(f"{week_id}-*"))
     need = [f"{week_id}-s{i:02d}.mp4" for i in range(1, N_SHORTS + 1)] + [f"{week_id}-l{i}{x}" for i in (1, 2, 3) for x in (".mp4", "-thumb.jpg", "-chapters.txt")]
     missing = [n for n in need if not (ROOT / "media_out" / n).exists()]
-    if missing:
+    if missing and not partial:
         raise SystemExit(f"missing finished files: {missing[:6]}{'…' if len(missing) > 6 else ''}")
+    if missing:
+        print(f"partial publish: {len(missing)} files not rendered yet", file=sys.stderr)
     big = [f.name for f in files if f.stat().st_size > 99 * 1024 * 1024]
     if big:
         raise SystemExit(f"over GitHub's 100 MB limit: {big}")
@@ -173,10 +175,12 @@ def payloads(week_id, sha=None):
     sha = sha or (ROOT / "output" / week_id / "media_sha.txt").read_text().strip()
     base = f"https://raw.githubusercontent.com/{REPO}/{sha}/{week_id}"
     shorts, longs = scripts(week_id)
-    out = [short_payload(json.loads(p.read_text()), f"{base}/{p.stem}.mp4") for p in shorts]
+    done = lambda name: (ROOT / "media_out" / name).exists()
+    out = [short_payload(json.loads(p.read_text()), f"{base}/{p.stem}.mp4") for p in shorts if done(f"{p.stem}.mp4")]
     for p in longs:
         s = json.loads(p.read_text())
-        out += long_payloads(s, base, (ROOT / "media_out" / f"{s['id']}-chapters.txt").read_text())
+        if done(f"{s['id']}.mp4") and done(f"{s['id']}-chapters.txt"):
+            out += long_payloads(s, base, (ROOT / "media_out" / f"{s['id']}-chapters.txt").read_text())
     for x in out:
         assert x["blogId"] == "7081960"
     out.sort(key=lambda x: x["date"])
@@ -218,4 +222,5 @@ if __name__ == "__main__":
     if cmd == "target":
         target()
     else:
-        {"plan": plan, "publish": publish, "payloads": payloads, "topics": pick_topics, "extra": extra}[cmd](sys.argv[2])
+        args = [sys.argv[2]] + ([True] if cmd == "publish" and "--partial" in sys.argv else [])
+        {"plan": plan, "publish": publish, "payloads": payloads, "topics": pick_topics, "extra": extra}[cmd](*args)
