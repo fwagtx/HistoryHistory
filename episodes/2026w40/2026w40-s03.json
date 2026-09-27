@@ -2,7 +2,7 @@
  "id": "2026w40-s03",
  "format": "short",
  "date": "2026-09-28",
- "slot": "09:00",
+ "slot": "15:00",
  "title": "Gunpowder Was an Immortality Potion Gone Wrong",
  "hook": "OOPS, GUNPOWDER",
  "music": "playful",
@@ -37,7 +37,7 @@
    "say": "Gunpowder was invented by people trying to live forever.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "market",
     "cast": [
      {
       "id": "alchemist",
@@ -56,10 +56,10 @@
   },
   {
    "who": "alchemist",
-   "say": "Saltpeter, sulfur, charcoal. This smells like eternal life!",
+   "say": "Saltpeter, sulfur, honey. This smells like eternal life!",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "market",
     "cast": [
      {
       "id": "alchemist",
@@ -78,7 +78,7 @@
    "say": "It did not smell like eternal life.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "market",
     "cast": [
      {
       "id": "alchemist",
@@ -103,14 +103,14 @@
   },
   {
    "who": "N",
-   "say": "A Daoist text from around 850 warns that some of these mixtures burst into flames, burning beards and even whole houses."
+   "say": "A Daoist text, probably from the 800s, warns that some of these mixtures burst into flames, burning hands, faces and even whole houses."
   },
   {
    "who": "alchemist",
    "say": "Not immortality. But I'll take it.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "market",
     "cast": [
      {
       "id": "alchemist",
@@ -184,6 +184,7 @@
   "https://en.wikipedia.org/wiki/History_of_gunpowder",
   "https://en.wikipedia.org/wiki/Four_Great_Inventions",
   "https://historycooperative.org/who-invented-gunpowder/",
-  "https://www.britannica.com/technology/gunpowder"
+  "https://www.britannica.com/technology/gunpowder",
+  "https://en.wikipedia.org/wiki/Zhenyuan_Miaodao_Yaolue"
  ]
 }

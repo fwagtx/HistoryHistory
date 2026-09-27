@@ -75,8 +75,8 @@
    "hold": "torch"
   },
   "examiner": {
-   "hat": "cap",
-   "hatColor": "#262322",
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
    "outfit": "robe",
    "color": "#6A3E8E",
    "stache": "thin",
@@ -142,8 +142,8 @@
    "hold": "spear"
   },
   "official": {
-   "hat": "cap",
-   "hatColor": "#262322",
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
    "outfit": "robe",
    "color": "#2F7A6A",
    "beard": "goatee",
@@ -218,8 +218,8 @@
    "skin": "light"
   },
   "trader": {
-   "hat": "cap",
-   "hatColor": "#262322",
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
    "outfit": "robe",
    "color": "#1F8A4A",
    "stache": "thin",
@@ -260,8 +260,8 @@
    "name": "Zhang Qian"
   },
   "zhenghe": {
-   "hat": "cap",
-   "hatColor": "#A8322A",
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
    "outfit": "robe",
    "color": "#A8322A",
    "color2": "#E8C25A",
@@ -423,7 +423,7 @@
   },
   {
    "who": "N",
-   "say": "Many historians think those mercury pills are probably what killed him, at just forty-nine years old.",
+   "say": "Many historians think those mercury pills may be what killed him, at just forty-nine, though others doubt the pills even contained mercury.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -440,14 +440,14 @@
   },
   {
    "who": "N",
-   "say": "The man who wanted to live forever was likely poisoned by his own immortality medicine. And that's just one weird chapter in four thousand years of Chinese history."
+   "say": "The man who wanted to live forever may have been poisoned by his own immortality medicine. And that's just one weird chapter in four thousand years of Chinese history."
   },
   {
    "who": "N",
    "say": "So grab some tea, because we're doing all of it: dynasties, dragon bones, a giraffe, and way too many walls.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "market",
     "cast": [
      {
       "id": "host",
@@ -464,21 +464,7 @@
    "show": {
     "k": "title",
     "text": "The ENTIRE History of China in 16 Minutes",
-    "sub": "2070 BC to 1912",
-    "cast": [
-     {
-      "id": "qin",
-      "x": 0.18,
-      "pose": "wave",
-      "mood": "happy"
-     },
-     {
-      "id": "puyi",
-      "x": 0.84,
-      "pose": "hips",
-      "mood": "smug"
-     }
-    ]
+    "sub": "2070 BC to 1912"
    }
   },
   {
@@ -492,7 +478,7 @@
   },
   {
    "who": "N",
-   "say": "Chinese tradition says it all starts with the Xia dynasty, around 2070 BC, founded by Yu the Great, a hero who tamed the great floods.",
+   "say": "Chinese tradition says it all starts with the Xia dynasty, founded by Yu the Great, a legendary hero who tamed the great floods, and one modern estimate dates it to around 2070 BC.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -529,7 +515,7 @@
   },
   {
    "who": "N",
-   "say": "The first dynasty we can actually prove is the Shang, from about 1600 BC.",
+   "say": "The first dynasty backed by its own writing is the Shang, from about 1600 BC.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -583,7 +569,7 @@
   },
   {
    "who": "N",
-   "say": "A priest carved the question into an ox shoulder blade or a turtle shell, heated it until it cracked, and the king read the cracks like a text from grandpa.",
+   "say": "A diviner heated an ox shoulder blade or a turtle shell until it cracked, the king read the cracks like a text from grandpa, and the question and answer were carved into the bone.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -611,7 +597,7 @@
   },
   {
    "who": "N",
-   "say": "Those carvings, on what we now call oracle bones, are the oldest Chinese writing ever found."
+   "say": "Those carvings, on what we now call oracle bones, are the oldest known body of Chinese writing."
   },
   {
    "who": "N",
@@ -646,11 +632,11 @@
   },
   {
    "who": "N",
-   "say": "Later, the Zhou kings lost control, and China split into rival states that fought for centuries, a stretch historians call the Warring States period."
+   "say": "Later, the Zhou kings lost control, and China split into rival states that fought for centuries, a stretch historians call the Spring and Autumn and Warring States periods."
   },
   {
    "who": "N",
-   "say": "In the middle of all that chaos, in 551 BC, a teacher named Confucius was born.",
+   "say": "In the middle of all that chaos, traditionally in 551 BC, a teacher named Confucius was born.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -683,7 +669,7 @@
   },
   {
    "who": "N",
-   "say": "He wasn't famous while he lived, but his students wrote down his sayings, and they shaped Chinese schools, families and government for more than two thousand years.",
+   "say": "He never got the big government career he wanted, but his students wrote down his sayings, and they shaped Chinese schools, families and government for more than two thousand years.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -806,7 +792,7 @@
   },
   {
    "who": "N",
-   "say": "And he was terrified of dying. He sent an alchemist named Xu Fu out to sea to find the elixir of life. Xu Fu never came back.",
+   "say": "And he was terrified of dying. He sent a court magician named Xu Fu out to sea to find the elixir of life. On his second voyage, Xu Fu never came back.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -912,7 +898,7 @@
   },
   {
    "who": "N",
-   "say": "They were made almost like an assembly line, with heads from a handful of molds, then each face was finished by hand, so every soldier looks like his own person.",
+   "say": "They were made almost like an assembly line, with faces from a handful of basic molds, then each face was finished by hand, so every soldier looks like his own person.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -1099,7 +1085,7 @@
     "lat": 38,
     "z0": 1.15,
     "z1": 1.4,
-    "date": "about 100 BC",
+    "date": "about 100 AD",
     "labels": [
      [
       "To China",
@@ -1252,10 +1238,10 @@
   },
   {
    "who": "N",
-   "say": "In 581, the Sui dynasty reunited China. It only lasted thirty-seven years, but it was busy.",
+   "say": "In 581, the Sui dynasty took power, and by 589 it had reunited China. It only lasted thirty-seven years, but it was busy.",
    "show": {
     "k": "scene",
-    "bg": "city",
+    "bg": "market",
     "cast": [
      {
       "id": "official",
@@ -1289,7 +1275,7 @@
    "say": "By later centuries, candidates memorized the Confucian classics, then got locked in a tiny cell for three days and two nights at a time to write their essays.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "library",
     "cast": [
      {
       "id": "scholar",
@@ -1316,7 +1302,7 @@
    "say": "The desk turns into a bed. You're welcome.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "library",
     "cast": [
      {
       "id": "examiner",
@@ -1331,10 +1317,10 @@
   },
   {
    "who": "N",
-   "say": "Of course people cheated, with tiny notes hidden in their clothes and brushes. Get caught, and you were thrown out.",
+   "say": "Of course people cheated, with tiny notes hidden in their clothes and brushes. Get caught, and you were thrown out, or worse.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "library",
     "cast": [
      {
       "id": "scholar",
@@ -1495,10 +1481,10 @@
   },
   {
    "who": "N",
-   "say": "Meanwhile, Tang alchemists were still chasing immortality, mixing saltpeter, sulfur and charcoal.",
+   "say": "Meanwhile, Tang alchemists were still chasing immortality, heating saltpeter and sulfur with things like honey.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "market",
     "cast": [
      {
       "id": "alchemist",
@@ -1513,10 +1499,10 @@
   },
   {
    "who": "N",
-   "say": "A Daoist text from around 850 warns that some of these mixtures burst into flames, burning people's beards and even their houses.",
+   "say": "A Daoist text, probably from the 800s, warns that some of these mixtures burst into flames, burning people's hands and faces and even whole houses.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "market",
     "cast": [
      {
       "id": "alchemist",
@@ -1586,7 +1572,7 @@
   },
   {
    "who": "N",
-   "say": "In Sichuan, people paid with iron coins, which were so heavy that buying a single bolt of silk could take dozens of kilos of them."
+   "say": "In Sichuan, people paid with iron coins, which were so heavy that one account says a single bolt of silk could cost around fifty kilos of them."
   },
   {
    "who": "trader",
@@ -1641,7 +1627,7 @@
    "say": "So merchants started trading paper receipts instead, and in 1024 the Song government took over and issued the world's first official paper money.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "palace",
     "cast": [
      {
       "id": "trader",
@@ -1670,7 +1656,7 @@
   },
   {
    "who": "N",
-   "say": "And gunpowder went from beard-burner to weapon: a military manual from 1044 contains the oldest known written gunpowder formulas."
+   "say": "And gunpowder went from lab accident to weapon: a military manual from 1044 contains the oldest known written gunpowder formulas."
   },
   {
    "hold": 2.5,
@@ -1729,9 +1715,9 @@
       0
      ],
      [
-      "Hungary",
-      19.5,
-      47.2,
+      "Kyiv",
+      30.52,
+      50.45,
       0
      ]
     ],
@@ -1834,7 +1820,7 @@
   },
   {
    "who": "N",
-   "say": "The Japanese called it kamikaze, the divine wind, though historians say the samurai defending the coast deserve plenty of credit too."
+   "say": "Japanese tradition calls it kamikaze, the divine wind, though historians say the samurai defending the coast deserve plenty of credit too."
   },
   {
    "who": "N",
@@ -1965,7 +1951,7 @@
   },
   {
    "who": "N",
-   "say": "Back home, he described paper money and enormous cities, and a lot of Europeans simply didn't believe him."
+   "say": "Back home, he described paper money and enormous cities, and, the story goes, a lot of Europeans simply didn't believe him."
   },
   {
    "hold": 2.5,
@@ -2230,7 +2216,7 @@
   },
   {
    "who": "N",
-   "say": "And no, you can't see it from the Moon with your naked eye. It's long, but only a few meters wide, and Apollo astronauts said no human-made object was visible from there. That one's a myth.",
+   "say": "And no, you can't see it from the Moon with your naked eye. It's long, but only a few meters wide, and Apollo astronaut Alan Bean said no human-made object was visible from there. That one's a myth.",
    "show": {
     "k": "scene",
     "bg": "moon",
@@ -2263,10 +2249,10 @@
   },
   {
    "who": "N",
-   "say": "In 1644, rebels took Beijing, the last Ming emperor died, and the Manchus from the northeast swept in to found the Qing, China's last dynasty.",
+   "say": "In 1644, rebels took Beijing, the last Ming emperor died, and the Manchus, whose Qing dynasty had already risen in the northeast, swept in. The Qing would be China's last dynasty.",
    "show": {
     "k": "scene",
-    "bg": "castle",
+    "bg": "palace",
     "cast": [
      {
       "id": "official",
@@ -2371,7 +2357,7 @@
   },
   {
    "who": "N",
-   "say": "When China cracked down, Britain went to war. China lost the First Opium War, from 1839 to 1842, and had to hand over Hong Kong and open its ports."
+   "say": "When China cracked down, Britain went to war. China lost the First Opium War, from 1839 to 1842, and had to hand over Hong Kong Island and open five ports to British trade."
   },
   {
    "who": "N",
@@ -2392,7 +2378,7 @@
   },
   {
    "who": "N",
-   "say": "It lasted from 1850 to 1864, and historians estimate twenty to thirty million people died, making it one of the deadliest wars in human history."
+   "say": "It lasted from 1850 to 1864, and estimates start at twenty to thirty million deaths, mostly from famine and disease, making it one of the deadliest wars in human history."
   },
   {
    "who": "N",
@@ -2469,7 +2455,7 @@
   },
   {
    "who": "N",
-   "say": "More than two thousand years of emperors began with a man who swallowed mercury to live forever, and ended with a little boy who just wanted to go home.",
+   "say": "More than two thousand years of emperors began with a man who, the story goes, swallowed mercury to live forever, and ended with a little boy who just wanted to go home.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -2603,6 +2589,9 @@
   "https://www.britannica.com/biography/Hong-Xiuquan",
   "https://en.wikipedia.org/wiki/Taiping_Rebellion",
   "https://www.britannica.com/biography/Puyi",
-  "https://www.historyhit.com/puyi-last-emperor-of-china/"
+  "https://www.historyhit.com/puyi-last-emperor-of-china/",
+  "https://en.wikipedia.org/wiki/Zhenyuan_Miaodao_Yaolue",
+  "https://www.britannica.com/event/Taiping-Rebellion",
+  "https://www.newworldencyclopedia.org/entry/Zhang_Qian"
  ]
 }

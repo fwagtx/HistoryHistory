@@ -12,6 +12,10 @@ hat = function (c, o, t) {
     case 'bicorne': // Napoleon-style, worn sideways
       hd(c, bez([-100, -30], [-80, -110], [80, -110], [100, -30], 14).concat(bez([100, -30], [40, -54], [-40, -54], [-100, -30], 10)), { fill: col || '#1E1C1B', w: 5 });
       hd(c, ell(0, -64, 14, 14), { fill: CLR.blue, w: 3 }); hd(c, ell(0, -64, 8, 8), { fill: '#FFF', w: 2 }); hd(c, ell(0, -64, 3.5, 3.5), { fill: CLR.red, w: 0 }); break;
+    case 'futou': // Chinese scholar-official's black cap with long side wings (Song to Ming)
+      for (const sx of [-1, 1]) hd(c, poly([[sx * 50, -46], [sx * 128, -52], [sx * 130, -40], [sx * 50, -34]], 8), { fill: col || '#1E1C1B', w: 3.5 });
+      hd(c, bez([-40, -40], [-44, -112], [44, -112], [40, -40], 14), { fill: col || '#1E1C1B', w: 5 });
+      hd(c, rect(-56, -50, 112, 30), { fill: col || '#1E1C1B', w: 5 }); break;
     case 'kabuto':
       hd(c, bez([-58, -4], [-62, -84], [62, -84], [58, -4], 16), { fill: col || '#2A2624', w: 5 });
       for (const sx of [-1, 1]) hd(c, poly([[sx * 50, -30], [sx * 92, -20], [sx * 96, 10], [sx * 54, 0]], 10), { fill: col || '#2A2624', w: 4 });
