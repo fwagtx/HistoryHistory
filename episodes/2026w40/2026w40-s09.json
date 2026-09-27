@@ -7,22 +7,6 @@
  "hook": "DRAGON BONE MEDICINE",
  "music": "playful",
  "cast": {
-  "diviner": {
-   "outfit": "robe",
-   "color": "#5A3A22",
-   "hair": "bun",
-   "hairColor": "#6A6A6A",
-   "beard": "goatee",
-   "skin": "tan",
-   "hold": "torch"
-  },
-  "farmer": {
-   "preset": "farmer",
-   "stubble": true,
-   "hairColor": "#1E1C1B",
-   "skin": "tan",
-   "hold": "pitchfork"
-  },
   "seller": {
    "hat": "straw",
    "outfit": "tunic",
@@ -30,6 +14,23 @@
    "hairColor": "#1E1C1B",
    "skin": "tan",
    "stubble": true
+  },
+  "trader": {
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#1F8A4A",
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "moneybag"
+  },
+  "farmer": {
+   "preset": "farmer",
+   "stubble": true,
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "hold": "pitchfork"
   },
   "shangking": {
    "hat": "crown",
@@ -41,15 +42,14 @@
    "beard": "full",
    "skin": "light"
   },
-  "trader": {
-   "hat": "futou",
-   "hatColor": "#1E1C1B",
+  "diviner": {
    "outfit": "robe",
-   "color": "#1F8A4A",
-   "stache": "thin",
-   "hairColor": "#1E1C1B",
-   "skin": "light",
-   "hold": "moneybag"
+   "color": "#5A3A22",
+   "hair": "bun",
+   "hairColor": "#6A6A6A",
+   "beard": "goatee",
+   "skin": "tan",
+   "hold": "torch"
   },
   "wang": {
    "hat": "futou",
@@ -68,8 +68,7 @@
   "farmer": "am_liam",
   "seller": "am_fenrir",
   "shangking": "bm_lewis",
-  "trader": "am_eric",
-  "wang": "bm_lewis"
+  "trader": "am_eric"
  },
  "beats": [
   {
@@ -98,6 +97,15 @@
       "at": 0.8,
       "color": "#A8322A"
      }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.5,
+      "s": 0.45,
+      "front": true,
+      "label": "DRAGON BONES"
+     }
     ]
    }
   },
@@ -115,7 +123,15 @@
       "mood": "happy"
      }
     ],
-    "cam": "pan"
+    "cam": "pan",
+    "place": "Anyang, China · 1800s",
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ]
    }
   },
   {
@@ -136,7 +152,14 @@
     "tag": {
      "id": "wang",
      "text": "Wang Yirong"
-    }
+    },
+    "stickers": [
+     {
+      "text": "1899",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
@@ -161,6 +184,16 @@
    "who": "N",
    "say": "They were oracle bones from the Shang dynasty, over three thousand years old.",
    "show": {
+    "k": "card",
+    "label": "Oracle bones",
+    "big": "3,000+",
+    "sub": "years old, from the Shang dynasty"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Shang fortune-tellers heated bones until they cracked, read the answer in the cracks, and carved the king's question on them.",
+   "show": {
     "k": "scene",
     "bg": "throne",
     "cast": [
@@ -176,18 +209,16 @@
      }
     ],
     "cam": "still",
-    "stickers": [
+    "place": "Shang China · 3,000+ years ago",
+    "objects": [
      {
-      "text": "SHANG DYNASTY",
-      "at": 0.6,
-      "color": "#2F6FC2"
+      "k": "fire",
+      "x": 0.5,
+      "s": 0.45,
+      "front": true
      }
     ]
    }
-  },
-  {
-   "who": "N",
-   "say": "Shang diviners heated bones until they cracked, read the answers in the cracks, then carved the king's questions into them."
   },
   {
    "who": "shangking",
@@ -195,7 +226,7 @@
   },
   {
    "who": "N",
-   "say": "Follow for more history hiding in plain sight.",
+   "say": "So the medicine cabinet was hiding China's oldest library. Follow for more history hiding in plain sight.",
    "show": {
     "k": "end",
     "cast": [
@@ -214,7 +245,7 @@
    }
   }
  ],
- "caption": "They were grinding up ancient writing as medicine.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #oraclebones #archaeology #ancientchina #historytok",
+ "caption": "They were grinding up ancient writing as medicine.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #oraclebones #archaeology #ancientchina #historytok",
  "youtube_title": "China's Oldest Writing Was Sold as Dragon Bone Medicine #shorts",
  "tags": [
   "oracle bones",

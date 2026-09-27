@@ -47,19 +47,32 @@
       "hold": "bottle"
      }
     ],
-    "cam": "push"
+    "cam": "push",
+    "place": "China · 800s AD",
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.2,
+      "s": 0.5
+     },
+     {
+      "k": "jar",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "In Tang dynasty China, Daoist alchemists mixed all kinds of minerals, hunting for an elixir of immortality."
+   "say": "In Tang dynasty China, Daoist alchemists, early chemists with a spiritual side, mixed minerals to make a pill for eternal life."
   },
   {
    "who": "alchemist",
    "say": "Saltpeter, sulfur, honey. This smells like eternal life!",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "library",
     "cast": [
      {
       "id": "alchemist",
@@ -70,7 +83,24 @@
      }
     ],
     "cam": "close",
-    "focus": "alchemist"
+    "focus": "alchemist",
+    "stickers": [
+     {
+      "text": "SALTPETER",
+      "at": 0.3,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "SULFUR",
+      "at": 1.2,
+      "color": "#C8902A"
+     },
+     {
+      "text": "HONEY",
+      "at": 2.1,
+      "color": "#1F8A4A"
+     }
+    ]
    }
   },
   {
@@ -78,7 +108,7 @@
    "say": "It did not smell like eternal life.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "library",
     "cast": [
      {
       "id": "alchemist",
@@ -98,12 +128,42 @@
       "at": 0.3,
       "color": "#A8322A"
      }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.8,
+      "s": 0.6,
+      "front": true
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "A Daoist text, probably from the 800s, warns that some of these mixtures burst into flames, burning hands, faces and even whole houses."
+   "say": "A Daoist text, probably from the 800s, warns that some of these mixtures burst into flames, burning hands, faces and even whole houses.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [],
+    "cam": "push",
+    "fx": [
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.5,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.5,
+      "s": 0.7,
+      "front": true
+     }
+    ]
+   }
   },
   {
    "who": "alchemist",
@@ -127,14 +187,14 @@
   },
   {
    "who": "N",
-   "say": "By 1044, a Chinese military manual was writing down gunpowder recipes, and the elixir of life had become a weapon.",
+   "say": "By 1044, a Chinese army manual was writing down gunpowder recipes, and the elixir of life had become a weapon.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
     "cast": [
      {
       "id": "clay",
-      "x": 0.45,
+      "x": 0.3,
       "pose": "fist",
       "mood": "shout",
       "hold": "torch"
@@ -147,12 +207,19 @@
       "at": 0.6,
       "color": "#A8322A"
      }
+    ],
+    "objects": [
+     {
+      "k": "bomb",
+      "x": 0.7,
+      "s": 0.6
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Follow for more happy accidents from history.",
+   "say": "A search for eternal life changed war forever. Follow for more happy accidents from history.",
    "show": {
     "k": "end",
     "cast": [
@@ -171,7 +238,7 @@
    }
   }
  ],
- "caption": "They were looking for eternal life. They found explosions.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #gunpowder #inventions #ancientchina #historytok",
+ "caption": "They were looking for eternal life. They found explosions.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #gunpowder #inventions #ancientchina #historytok",
  "youtube_title": "Gunpowder Was Invented by People Trying to Live Forever #shorts",
  "tags": [
   "gunpowder",

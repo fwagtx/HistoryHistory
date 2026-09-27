@@ -38,7 +38,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "This famous astronomer may have died because he was too polite to go to the bathroom.",
+   "say": "This astronomer may have died because he was too polite to use the bathroom.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -55,13 +55,21 @@
     ],
     "tag": {
      "id": "tycho",
-     "text": "Tycho Brahe"
-    }
+     "text": "Tycho Brahe, astronomer"
+    },
+    "place": "Prague · 1601",
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Tycho Brahe was a star scientist from Denmark who mapped the night sky.",
+   "say": "Tycho Brahe was a Danish scientist who mapped the stars.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -70,16 +78,17 @@
       "id": "tycho",
       "x": 0.45,
       "pose": "think",
-      "mood": "smug"
+      "mood": "smug",
+      "hold": "telescope"
      }
     ],
     "cam": "close",
     "focus": "tycho",
     "stickers": [
      {
-      "text": "ASTRONOMER",
-      "at": 0.8,
-      "color": "#3A4A8A"
+      "text": "STAR MAPPER",
+      "at": 1.2,
+      "color": "#2F6FC2"
      }
     ]
    }
@@ -120,7 +129,7 @@
   },
   {
    "who": "N",
-   "say": "That October, a nobleman named Rosenberg invited him to a fancy dinner.",
+   "say": "That October, a nobleman invited him to a fancy dinner.",
    "show": {
     "k": "scene",
     "bg": "castle",
@@ -137,11 +146,14 @@
       "pose": "present"
      }
     ],
-    "place": "Prague · October 1601",
-    "tag": {
-     "id": "rosenberg",
-     "text": "Rosenberg"
-    }
+    "place": "A banquet in Prague · October 1601",
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.8
+     }
+    ]
    }
   },
   {
@@ -150,7 +162,7 @@
   },
   {
    "who": "tycho",
-   "say": "I really need to go. But leaving the table now would be so rude.",
+   "say": "I really need to go. But leaving now would be rude.",
    "show": {
     "k": "scene",
     "bg": "castle",
@@ -167,7 +179,7 @@
   },
   {
    "who": "N",
-   "say": "Leaving a fancy dinner early was bad manners, so he held it in.",
+   "say": "So he held it in.",
    "show": {
     "k": "card",
     "label": "At a fancy dinner in 1601, leaving early was",
@@ -176,6 +188,7 @@
     "cast": [
      {
       "id": "tycho",
+      "pose": "sit",
       "mood": "scared"
      }
     ]
@@ -183,23 +196,30 @@
   },
   {
    "who": "N",
-   "say": "By the time he got home, he couldn't pee at all. Eleven days later, he was dead.",
+   "say": "By the time he got home, he couldn't pee. Eleven days later, he was dead.",
    "show": {
     "k": "scene",
     "bg": "town",
     "cast": [
      {
       "id": "tycho",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "scared",
       "mood": "sad"
      }
     ],
     "cam": "still",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ],
     "stickers": [
      {
-      "text": "11 DAYS",
-      "at": 1.6,
+      "text": "11 DAYS LATER",
+      "at": 2.5,
       "color": "#A8322A"
      }
     ]
@@ -207,14 +227,14 @@
   },
   {
    "who": "N",
-   "say": "We know this from his assistant, Johannes Kepler, and historians think a bladder or kidney illness was the real cause.",
+   "say": "His assistant Johannes Kepler recorded this, but historians suspect a bladder or kidney illness.",
    "show": {
     "k": "scene",
     "bg": "office",
     "cast": [
      {
       "id": "kepler",
-      "x": 0.45,
+      "x": 0.6,
       "pose": "hold",
       "hold": "pen"
      }
@@ -222,12 +242,26 @@
     "tag": {
      "id": "kepler",
      "text": "Johannes Kepler, his assistant"
-    }
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.24,
+      "s": 0.8
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.24,
+      "s": 0.5,
+      "y": 0.12,
+      "text": "He held it in"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "So his last lesson wasn't about stars: if you need to go, go."
+   "say": "His last lesson wasn't about stars: if you need to go, go."
   },
   {
    "who": "N",
@@ -249,7 +283,7 @@
    }
   }
  ],
- "caption": "Rule one of dinner parties: if you need to go, go.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #tychobrahe #astronomy #historytok #funnyhistory",
+ "caption": "Rule one of dinner parties: if you need to go, go.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tychobrahe #astronomy #historytok #funnyhistory",
  "youtube_title": "Tycho Brahe Was Too Polite to Leave the Table #shorts",
  "tags": [
   "tycho brahe",

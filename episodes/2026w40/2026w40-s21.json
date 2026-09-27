@@ -38,23 +38,30 @@
     "cast": [
      {
       "id": "alexander",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "salute"
      }
     ],
     "tag": {
      "id": "alexander",
-     "text": "King Alexander"
+     "text": "King Alexander of Greece"
     },
-    "place": "Athens, Greece · 1920"
+    "place": "Athens, Greece · 1920",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "greece"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Alexander had become king at twenty-three, after his father Constantine was forced off the throne.",
+   "say": "Alexander became king at twenty-three, after his father Constantine was forced off the throne.",
    "show": {
     "k": "scene",
-    "bg": "throne",
+    "bg": "palace",
     "cast": [
      {
       "id": "alexander",
@@ -63,40 +70,60 @@
      },
      {
       "id": "constantine",
-      "x": 0.72,
+      "x": 0.7,
       "pose": "walk",
       "exit": "right",
-      "exitAt": 2.0,
-      "mood": "angry"
+      "exitAt": 2.5
      }
     ],
-    "tag": {
-     "id": "constantine",
-     "text": "His father, Constantine"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "In October 1920, he was walking his German shepherd, Fritz, on the royal estate outside Athens.",
-   "show": {
-    "k": "scene",
-    "bg": "palace",
-    "cast": [
+    "objects": [
      {
-      "id": "alexander",
-      "x": 0.4,
-      "pose": "walk",
-      "mood": "happy"
+      "k": "crown",
+      "x": 0.5,
+      "s": 0.5,
+      "y": 0.35,
+      "enter": "pop"
      }
-    ],
-    "cam": "pan",
-    "place": "Royal estate near Athens · Oct 1920"
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Fritz got into a fight with a pet monkey, and the king jumped in to pull them apart.",
+   "say": "In October 1920, he was walking his dog Fritz near Athens.",
+   "show": {
+    "k": "map",
+    "lon": 23.75,
+    "lat": 38.1,
+    "z0": 2.5,
+    "z1": 3.6,
+    "date": "October 1920",
+    "labels": [
+     [
+      "Athens",
+      23.73,
+      37.98,
+      0
+     ],
+     [
+      "Royal estate (Tatoi)",
+      23.8,
+      38.16,
+      30
+     ]
+    ],
+    "areas": [
+     [
+      23.8,
+      38.16,
+      0.2,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fritz fought a pet monkey, and the king jumped in to separate them.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -108,20 +135,23 @@
       "mood": "shock"
      }
     ],
+    "place": "Royal estate, Tatoi · 1920",
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.14,
+      "s": 0.8
+     }
+    ],
     "stickers": [
      {
       "text": "DOG",
-      "at": 0.5,
+      "at": 0.6,
       "color": "#6A4A2A"
      },
      {
-      "text": "VS",
-      "at": 1.0,
-      "color": "#262322"
-     },
-     {
-      "text": "MONKEY",
-      "at": 1.5,
+      "text": "VS. MONKEY",
+      "at": 1.4,
       "color": "#A8322A"
      }
     ]
@@ -144,8 +174,8 @@
     "cam": "shake",
     "stickers": [
      {
-      "text": "CHOMP",
-      "at": 0.3,
+      "text": "CHOMP!",
+      "at": 0.4,
       "color": "#A8322A"
      }
     ]
@@ -174,14 +204,14 @@
   },
   {
    "who": "N",
-   "say": "But the bites got infected, and three weeks later he died, at just twenty-seven.",
+   "say": "But the bites got infected, and three weeks later he died, aged twenty-seven.",
    "show": {
     "k": "scene",
     "bg": "church",
     "cast": [
      {
       "id": "servant",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "sit",
       "mood": "sad"
      }
@@ -198,7 +228,7 @@
     "cast": [
      {
       "id": "constantine",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "facepalm",
       "mood": "sad"
      }
@@ -206,12 +236,24 @@
     "fx": [
      "smoke"
     ],
-    "place": "Greece and Turkey · 1922"
+    "place": "Turkey · 1922",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "greece"
+     },
+     {
+      "k": "cannon",
+      "x": 0.82,
+      "s": 0.8
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Winston Churchill, the British statesman, later wrote that a quarter of a million people died of this monkey's bite.",
+   "say": "Britain's Winston Churchill later wrote that a quarter of a million people died of this monkey's bite.",
    "show": {
     "k": "quote",
     "text": "It is perhaps no exaggeration to remark that a quarter of a million persons died of this monkey's bite.",
@@ -238,7 +280,7 @@
    }
   }
  ],
- "caption": "A king, a dog and a very bad monkey.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #greece #monkey #historytok #funnyhistory",
+ "caption": "A king, a dog and a very bad monkey.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #greece #monkey #historytok #funnyhistory",
  "youtube_title": "A Monkey Bite Killed the King of Greece #shorts",
  "tags": [
   "king alexander of greece",

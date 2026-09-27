@@ -7,15 +7,6 @@
  "hook": "A GIRAFFE FOR CHINA",
  "music": "playful",
  "cast": {
-  "official": {
-   "hat": "futou",
-   "hatColor": "#1E1C1B",
-   "outfit": "robe",
-   "color": "#2F7A6A",
-   "beard": "goatee",
-   "hairColor": "#1E1C1B",
-   "skin": "light"
-  },
   "yongle": {
    "hat": "crown",
    "outfit": "robe",
@@ -37,6 +28,15 @@
    "hairColor": "#1E1C1B",
    "skin": "tan",
    "name": "Admiral Zheng He"
+  },
+  "official": {
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
   }
  },
  "voices": {
@@ -47,7 +47,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1414, the emperor of China received a giraffe, and his court decided it was a mythical beast.",
+   "say": "In 1414, the emperor of China got a giraffe, and his court decided it was a magical beast.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -60,6 +60,7 @@
      }
     ],
     "cam": "push",
+    "place": "Ming China · 1414",
     "tag": {
      "id": "yongle",
      "text": "Yongle Emperor"
@@ -75,14 +76,14 @@
   },
   {
    "who": "N",
-   "say": "Admiral Zheng He was leading giant fleets across the Indian Ocean for the Yongle Emperor.",
+   "say": "The Yongle Emperor sent his admiral, Zheng He, across the Indian Ocean with giant fleets.",
    "show": {
     "k": "scene",
     "bg": "harbor",
     "cast": [
      {
       "id": "zhenghe",
-      "x": 0.45,
+      "x": 0.3,
       "pose": "salute",
       "mood": "happy"
      }
@@ -91,24 +92,41 @@
     "tag": {
      "id": "zhenghe",
      "text": "Admiral Zheng He"
-    }
+    },
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.72,
+      "s": 0.7
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "In Bengal, his fleet met envoys from Malindi in East Africa, and the Sultan of Bengal sent the emperor a giraffe.",
+   "say": "In Bengal, the fleet met envoys from East Africa, and Bengal's sultan sent the emperor a giraffe.",
    "show": {
     "k": "scene",
     "bg": "sea",
-    "cast": [
+    "cast": [],
+    "cam": "pan",
+    "objects": [
      {
-      "id": "zhenghe",
+      "k": "junk",
       "x": 0.45,
-      "pose": "present",
-      "mood": "shock"
+      "s": 0.75,
+      "move": [
+       0.3,
+       0.6
+      ]
+     },
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.5,
+      "label": "1 GIRAFFE"
      }
     ],
-    "cam": "push",
     "stickers": [
      {
       "text": "A GIRAFFE!",
@@ -123,7 +141,7 @@
    "say": "Long neck, hooves, gentle eyes. Is this a qilin?",
    "show": {
     "k": "scene",
-    "bg": "throne",
+    "bg": "palace",
     "cast": [
      {
       "id": "yongle",
@@ -147,7 +165,17 @@
   },
   {
    "who": "N",
-   "say": "A qilin was a legendary creature said to appear only under a wise ruler.",
+   "say": "A qilin was a magical beast from Chinese legend that appears only under a wise ruler.",
+   "show": {
+    "k": "card",
+    "label": "Qilin",
+    "big": "QILIN",
+    "sub": "a legendary beast that shows up for wise rulers"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Very handy for an emperor who had grabbed the throne from his own nephew. Court artists even painted the giraffe's portrait.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -163,12 +191,15 @@
     "focus": "yongle",
     "fx": [
      "sparkle"
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.8,
+      "s": 0.5
+     }
     ]
    }
-  },
-  {
-   "who": "N",
-   "say": "Very handy for an emperor who had grabbed the throne from his own nephew. Court artists even painted the giraffe's portrait."
   },
   {
    "who": "N",
@@ -192,7 +223,7 @@
    }
   }
  ],
- "caption": "Ming China got a giraffe and called it a qilin.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #zhenghe #mingdynasty #giraffe #historytok",
+ "caption": "Ming China got a giraffe and called it a qilin.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #zhenghe #mingdynasty #giraffe #historytok",
  "youtube_title": "China Got a Giraffe and Called It a Mythical Beast #shorts",
  "tags": [
   "zheng he",

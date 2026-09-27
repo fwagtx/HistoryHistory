@@ -36,32 +36,28 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1871, a lawyer tried to prove his client innocent, and shot himself doing it.",
+   "say": "In 1871, Clement Vallandigham, a famous Ohio lawyer, shot himself proving his client innocent.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
     "cast": [
      {
       "id": "vall",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "point",
       "mood": "angry"
      }
     ],
     "tag": {
      "id": "vall",
-     "text": "Clement Vallandigham"
+     "text": "Clement Vallandigham, lawyer"
     },
     "place": "Ohio, USA · 1871"
    }
   },
   {
    "who": "N",
-   "say": "Clement Vallandigham was a famous lawyer and politician in Ohio."
-  },
-  {
-   "who": "N",
-   "say": "His client, Thomas McGehan, was on trial for shooting a man during a bar fight.",
+   "say": "His client was on trial for shooting a man in a bar fight.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -85,7 +81,7 @@
     "stickers": [
      {
       "text": "ON TRIAL",
-      "at": 1.2,
+      "at": 1.5,
       "color": "#A8322A"
      }
     ]
@@ -93,7 +89,7 @@
   },
   {
    "who": "N",
-   "say": "Vallandigham's idea: the victim shot himself by accident, pulling his own pistol from his pocket as he stood up.",
+   "say": "His idea: the victim shot himself by accident, pulling his own pistol from his pocket.",
    "show": {
     "k": "card",
     "label": "The lawyer's idea",
@@ -109,7 +105,7 @@
   },
   {
    "who": "N",
-   "say": "At his hotel, he decided to show other lawyers how it could happen.",
+   "say": "At his hotel, he showed other lawyers how it could happen.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -120,7 +116,7 @@
       "pose": "walk",
       "walk": [
        0.2,
-       0.45
+       0.4
       ]
      },
      {
@@ -129,7 +125,20 @@
       "pose": "think"
      }
     ],
-    "place": "Hotel in Lebanon, Ohio · June 1871"
+    "place": "His hotel in Lebanon, Ohio",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.7
+     },
+     {
+      "k": "sign",
+      "x": 0.12,
+      "s": 0.7,
+      "text": "HOTEL"
+     }
+    ]
    }
   },
   {
@@ -142,12 +151,20 @@
      {
       "id": "vall",
       "x": 0.35,
-      "pose": "present"
+      "pose": "present",
+      "hold": "pistol"
      },
      {
       "id": "lawyer",
       "x": 0.68,
       "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.86,
+      "s": 0.8
      }
     ]
    }
@@ -158,10 +175,10 @@
   },
   {
    "who": "N",
-   "say": "It wasn't. The pistol caught on his clothes and went off, and he died the next day.",
+   "say": "It wasn't. The gun caught on his clothes, went off, and he died the next day.",
    "show": {
     "k": "scene",
-    "bg": "tavern",
+    "bg": "white",
     "cast": [
      {
       "id": "vall",
@@ -171,18 +188,15 @@
      },
      {
       "id": "lawyer",
-      "x": 0.68,
+      "x": 0.7,
       "mood": "shock"
      }
     ],
     "cam": "shake",
-    "fx": [
-     "smoke"
-    ],
     "stickers": [
      {
       "text": "BANG!",
-      "at": 0.3,
+      "at": 0.4,
       "color": "#A8322A"
      }
     ]
@@ -197,7 +211,7 @@
     "cast": [
      {
       "id": "mcgehan",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "cheer",
       "mood": "happy"
      }
@@ -216,7 +230,7 @@
   },
   {
    "who": "N",
-   "say": "So in a way, his idea worked. He just didn't live to see it."
+   "say": "So his idea kind of worked. He just didn't live to see it."
   },
   {
    "who": "N",
@@ -239,7 +253,7 @@
    }
   }
  ],
- "caption": "His client walked free. He just wasn't there to see it.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #lawyer #ohiohistory #historytok #funnyhistory",
+ "caption": "His client walked free. He just wasn't there to see it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #lawyer #ohiohistory #historytok #funnyhistory",
  "youtube_title": "The Lawyer Who Proved His Point Too Well #shorts",
  "tags": [
   "clement vallandigham",

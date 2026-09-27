@@ -30,57 +30,135 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1963, a gang robbed a mail train, then reportedly played Monopoly with real cash.",
+   "say": "In 1963, robbers stole millions from a British train, then played Monopoly with it.",
    "show": {
     "k": "scene",
-    "bg": "village",
-    "cast": [
+    "bg": "field",
+    "cast": [],
+    "objects": [
      {
-      "id": "robber1",
-      "x": 0.3,
-      "pose": "sit",
-      "mood": "happy",
-      "hold": "moneybag"
-     },
+      "k": "train",
+      "x": 0.5,
+      "move": [
+       0.8,
+       0.4
+      ]
+     }
+    ],
+    "place": "Buckinghamshire, England · 1963",
+    "stickers": [
      {
-      "id": "robber2",
-      "x": 0.7,
-      "pose": "sit",
-      "mood": "smug"
+      "text": "ROYAL MAIL",
+      "at": 1.6,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "They stopped a Glasgow to London mail train and took about two point six million pounds.",
+   "say": "It carried bags of used banknotes from Glasgow to London.",
+   "show": {
+    "k": "map",
+    "lon": -2.0,
+    "lat": 53.7,
+    "z0": 1.8,
+    "z1": 2.2,
+    "labels": [
+     [
+      "Glasgow",
+      -4.25,
+      55.86,
+      14
+     ],
+     [
+      "London",
+      -0.12,
+      51.51,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -4.25,
+      55.86
+     ],
+     [
+      -2.6,
+      53.8
+     ],
+     [
+      -1.5,
+      52.6
+     ],
+     [
+      -0.69,
+      51.87
+     ],
+     [
+      -0.12,
+      51.51
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At three a.m., they rigged a signal to red and the train stopped.",
    "show": {
     "k": "scene",
     "bg": "night",
     "cast": [
      {
       "id": "robber1",
-      "x": 0.3,
-      "mood": "smug"
-     },
-     {
-      "id": "robber2",
-      "x": 0.65,
+      "x": 0.25,
       "mood": "smug"
      }
     ],
-    "fx": [
-     "smoke"
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.62
+     }
+    ],
+    "stickers": [
+     {
+      "text": "3 AM",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The driver was seriously hurt, so this was no harmless caper."
+   "say": "The driver was badly hurt. This was no harmless caper.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.5
+     }
+    ],
+    "cam": "still"
+   }
   },
   {
    "who": "N",
-   "say": "The gang hid out at Leatherslade Farm.",
+   "say": "They took about two point six million pounds, worth tens of millions today.",
+   "show": {
+    "k": "card",
+    "label": "Taken from the mail train",
+    "big": "£2.6 MILLION",
+    "sub": "worth tens of millions today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "At their farm hideout, they reportedly played Monopoly with real money.",
    "show": {
     "k": "scene",
     "bg": "village",
@@ -88,21 +166,33 @@
      {
       "id": "robber1",
       "x": 0.3,
-      "pose": "sit",
-      "mood": "happy"
+      "mood": "happy",
+      "hold": "moneybag"
      },
      {
       "id": "robber2",
-      "x": 0.7,
-      "pose": "sit",
+      "x": 0.68,
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.5,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true
      }
     ]
    }
   },
   {
    "who": "robber1",
-   "say": "I'll buy Mayfair."
+   "say": "I'll buy Mayfair, the priciest one."
   },
   {
    "who": "robber2",
@@ -110,57 +200,52 @@
   },
   {
    "who": "N",
-   "say": "They wiped the farm for fingerprints, but police still found prints on a ketchup bottle and the Monopoly set.",
+   "say": "They wiped the farm, but police found fingerprints on a ketchup bottle and the Monopoly set.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
     "cast": [
      {
       "id": "robber1",
-      "x": 0.3,
+      "x": 0.35,
       "mood": "shock"
      },
      {
       "id": "robber2",
-      "x": 0.7,
-      "mood": "scared"
+      "x": 0.65,
+      "mood": "sad"
      }
     ],
     "stickers": [
      {
-      "text": "OOPS",
-      "at": 1.0,
-      "color": "#C8302A"
+      "text": "FINGERPRINTS",
+      "at": 1.8,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Seven of them got thirty years, and most of the money was never recovered."
-  },
-  {
-   "who": "N",
-   "say": "Follow for more heists that went wrong.",
+   "say": "Most of the gang got caught. Most of the money didn't. Follow for more heists.",
    "show": {
     "k": "end",
     "cast": [
      {
       "id": "robber1",
       "x": 0.3,
-      "pose": "wave",
-      "mood": "happy"
+      "mood": "sad"
      },
      {
       "id": "robber2",
       "x": 0.7,
-      "mood": "shock"
+      "mood": "sad"
      }
     ]
    }
   }
  ],
- "caption": "The Great Train Robbers got caught partly because of a Monopoly set.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #greattrainrobbery #heist #historytok #truecrime",
+ "caption": "The Great Train Robbers got caught partly because of a Monopoly set.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #greattrainrobbery #heist #historytok #truecrime",
  "youtube_title": "Train Robbers Played Monopoly With Real Money #shorts",
  "tags": [
   "great train robbery",

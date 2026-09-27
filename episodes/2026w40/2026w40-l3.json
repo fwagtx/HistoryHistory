@@ -52,14 +52,7 @@
    "outfit": "coat",
    "color": "#8A7A5A",
    "glasses": "square",
-   "name": "Belgian detective"
-  },
-  "edward7": {
-   "preset": "king",
-   "beard": "full",
-   "hairColor": "#8A8A8A",
-   "hair": "bald",
-   "name": "King Edward VII"
+   "name": "Police detective"
   },
   "edwards": {
    "skin": "peach",
@@ -85,26 +78,9 @@
    "hairColor": "#3A2A1E",
    "name": "Alfredo Geri"
   },
-  "goedertier": {
-   "skin": "peach",
-   "hat": "bowler",
-   "hatColor": "#262322",
-   "outfit": "suit",
-   "color": "#3A3A3A",
-   "stache": "bush",
-   "glasses": "round",
-   "hairColor": "#8A8A8A",
-   "name": "Arsène Goedertier"
-  },
   "ingram": {
    "preset": "child",
    "name": "Brian Ingram"
-  },
-  "lawyer": {
-   "preset": "businessman",
-   "color": "#4A3A2A",
-   "glasses": "square",
-   "name": "Georges De Vos"
   },
   "lguard": {
    "skin": "peach",
@@ -180,16 +156,6 @@
    "color": "#4A4A4A",
    "stubble": true,
    "name": "Brink's-Mat robber"
-  },
-  "vicars": {
-   "skin": "peach",
-   "outfit": "suit",
-   "color": "#2A2E3A",
-   "hair": "side",
-   "hairColor": "#8A6A4A",
-   "stache": "handlebar",
-   "glasses": "round",
-   "name": "Sir Arthur Vicars"
   }
  },
  "voices": {
@@ -198,13 +164,10 @@
   "charles": "bm_lewis",
   "cooper": "am_echo",
   "detective": "bm_george",
-  "edward7": "bm_george",
   "edwards": "bm_george",
   "fakecop": "am_fenrir",
   "geri": "am_eric",
-  "goedertier": "bm_daniel",
   "ingram": "af_bella",
-  "lawyer": "am_liam",
   "lguard": "bm_lewis",
   "nguard": "am_puck",
   "notarbartolo": "am_eric",
@@ -214,65 +177,65 @@
   "schaffner": "af_heart",
   "vancamp": "bm_lewis",
   "vaultguy1": "bm_daniel",
-  "vaultguy2": "am_liam",
-  "vicars": "bm_daniel"
+  "vaultguy2": "am_liam"
  },
  "beats": [
   {
    "who": "N",
-   "say": "May the ninth, 1671, the Tower of London, and a friendly local parson has dropped by to visit.",
+   "say": "May the ninth, 1671. A friendly parson is visiting the Tower of London, where England keeps its Crown Jewels.",
    "show": {
     "k": "scene",
     "bg": "castle",
     "cast": [
      {
       "id": "blood",
-      "x": 0.5,
+      "x": 0.35,
       "enter": "left",
       "mood": "smug"
      }
     ],
-    "cam": "pan",
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.7,
+      "s": 0.8,
+      "y": 0.12,
+      "enter": "pop",
+      "label": "CROWN JEWELS"
+     }
+    ],
+    "place": "Tower of London, England · 1671",
     "tag": {
      "id": "blood",
      "text": "Colonel Thomas Blood"
-    }
+    },
+    "cam": "pan"
    }
   },
   {
    "who": "N",
-   "say": "He's brought his nephew, a few pals, and, according to the story, a wooden mallet under his cloak."
-  },
-  {
-   "who": "N",
-   "say": "Minutes later, the Crown of England is on the floor, and the parson is bashing it flat so it fits in a bag.",
+   "say": "Minutes later, the Crown of England is on the floor, and the parson is bashing it flat with a mallet.",
    "show": {
     "k": "scene",
     "bg": "vault",
     "cast": [
      {
       "id": "blood",
-      "x": 0.5,
-      "mood": "shout",
-      "pose": "fist"
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "hammer",
+      "mood": "shout"
      }
     ],
-    "cam": "shake",
-    "fx": [
-     "sparkle"
-    ],
-    "stickers": [
+    "objects": [
      {
-      "text": "BONK",
-      "at": 1.2,
-      "color": "#C8302A"
-     },
-     {
-      "text": "BONK",
-      "at": 1.8,
-      "color": "#C8302A"
+      "k": "crown",
+      "x": 0.62,
+      "s": 1.1,
+      "front": true
      }
-    ]
+    ],
+    "cam": "shake"
    }
   },
   {
@@ -281,58 +244,74 @@
   },
   {
    "who": "N",
-   "say": "And the wildest part? Months later, the king didn't punish him. He rewarded him with Irish land.",
+   "say": "And the wildest part? The king didn't punish him. He rewarded him.",
    "show": {
     "k": "scene",
     "bg": "throne",
     "cast": [
      {
       "id": "charles",
-      "x": 0.35,
-      "pose": "sit",
-      "mood": "smug"
+      "x": 0.6,
+      "mood": "happy",
+      "pose": "present"
      },
      {
       "id": "blood",
-      "x": 0.7,
-      "mood": "happy",
-      "pose": "present"
+      "x": 0.3,
+      "mood": "smug"
      }
     ],
-    "tag": {
-     "id": "charles",
-     "text": "King Charles II"
-    }
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REWARDED?!",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Welcome to the biggest, boldest and occasionally dumbest heists in history.",
+   "say": "Welcome to the biggest, boldest and sometimes dumbest heists in history. Seven stories, from 1671 to 2003.",
    "show": {
     "k": "scene",
     "bg": "vault",
     "cast": [
      {
       "id": "blood",
-      "x": 0.3,
-      "mood": "smug",
-      "hold": "moneybag"
+      "x": 0.25,
+      "hold": "moneybag",
+      "mood": "smug"
      },
      {
-      "id": "notarbartolo",
-      "x": 0.7,
-      "mood": "smug",
-      "hold": "goldbar"
+      "id": "peruggia",
+      "x": 0.5,
+      "mood": "happy"
+     },
+     {
+      "id": "cooper",
+      "x": 0.75
      }
     ],
-    "fx": [
-     "sparkle"
-    ],
-    "stickers": [
+    "objects": [
      {
-      "text": "STOLEN!",
-      "at": 1.4,
-      "color": "#C8302A"
+      "k": "goldpile",
+      "x": 0.1
+     },
+     {
+      "k": "chest",
+      "x": 0.9
+     },
+     {
+      "k": "painting",
+      "x": 0.62,
+      "s": 0.6
      }
     ]
    }
@@ -364,7 +343,7 @@
   },
   {
    "who": "N",
-   "say": "Let's rewind. England's Crown Jewels were kept at the Tower of London, right on the Thames.",
+   "say": "Let's rewind. England's Crown Jewels, the crown and treasures used to crown its kings, were kept at the Tower of London.",
    "show": {
     "k": "map",
     "lon": -0.3,
@@ -397,57 +376,71 @@
   },
   {
    "who": "N",
-   "say": "And the security system was, well, one old man."
-  },
-  {
-   "who": "N",
-   "say": "Talbot Edwards, keeper of the jewels, was seventy-seven years old and lived upstairs with his family.",
+   "say": "The Tower is an old castle by the River Thames. And the security system was one old man.",
    "show": {
     "k": "scene",
     "bg": "castle",
     "cast": [
      {
       "id": "edwards",
-      "x": 0.5,
+      "x": 0.45,
       "mood": "happy",
       "pose": "wave"
      }
     ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.8
+     }
+    ],
+    "place": "Tower of London · 1671",
     "tag": {
      "id": "edwards",
-     "text": "Talbot Edwards, keeper of the jewels"
+     "text": "Talbot Edwards, jewel keeper"
     }
    }
   },
   {
    "who": "N",
-   "say": "For a fee, he'd show the jewels to visitors. Yes. You could just ask."
+   "say": "Talbot Edwards, keeper of the jewels, was seventy-seven. For a fee, he'd show the jewels to visitors. You could just ask."
   },
   {
    "who": "N",
-   "say": "Enter Thomas Blood, an Irish-born adventurer who'd already been caught up in plots against the government.",
+   "say": "Enter Thomas Blood, an Irish-born adventurer who'd already been mixed up in plots against the government.",
    "show": {
     "k": "scene",
     "bg": "street",
     "cast": [
      {
       "id": "blood",
-      "x": 0.45,
+      "x": 0.4,
       "mood": "smug",
-      "pose": "hips",
-      "enter": "right"
+      "pose": "hips"
      }
     ],
-    "cam": "pan"
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "text": "LONDON"
+     }
+    ],
+    "tag": {
+     "id": "blood",
+     "text": "Thomas Blood"
+    }
    }
   },
   {
    "who": "N",
-   "say": "In the spring of 1671 he showed up dressed as a parson, with a woman posing as his wife."
-  },
-  {
-   "who": "N",
-   "say": "She suddenly felt ill, the Edwards family helped her, and a friendship was born."
+   "say": "In spring 1671 he came to visit, dressed as a parson, a kind of priest, and made friends with the Edwards family."
   },
   {
    "who": "edwards",
@@ -458,14 +451,14 @@
     "cast": [
      {
       "id": "edwards",
-      "x": 0.3,
+      "x": 0.65,
       "mood": "happy"
      },
      {
       "id": "blood",
-      "x": 0.7,
-      "mood": "smug",
-      "pose": "present"
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
      }
     ]
    }
@@ -476,25 +469,33 @@
   },
   {
    "who": "N",
-   "say": "Over the next weeks Blood kept visiting, and offered to match his nephew with the Edwards's daughter.",
+   "say": "It was all a setup. On the ninth of May, Blood arrived with his son playing the nephew, plus three other men.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "castle",
     "cast": [
      {
       "id": "blood",
-      "x": 0.5,
+      "x": 0.3,
       "mood": "smug",
-      "pose": "think"
+      "pose": "walk"
      }
     ],
-    "cam": "close",
-    "focus": "blood"
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "4 ACCOMPLICES",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
    }
-  },
-  {
-   "who": "N",
-   "say": "On the big day, the ninth of May, Blood arrived with his son playing the nephew, plus three other men."
   },
   {
    "who": "N",
@@ -506,56 +507,107 @@
      {
       "id": "blood",
       "x": 0.35,
+      "pose": "run",
       "mood": "shout"
-     },
-     {
-      "id": "robber1",
-      "x": 0.7,
-      "mood": "smug",
-      "hold": "goldbar"
      }
     ],
-    "cam": "shake",
-    "fx": [
-     "dust"
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.6,
+      "s": 0.9
+     },
+     {
+      "k": "chest",
+      "x": 0.82
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Blood flattened the crown with a mallet. One man shoved the orb down his trousers. Another tried to saw the sceptre in half.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "hammer",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.65,
+      "s": 1.1,
+      "front": true
+     }
+    ],
+    "cam": "close",
+    "stickers": [
+     {
+      "text": "CROWN: FLATTENED",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "ORB: IN TROUSERS",
+      "at": 3.0,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SCEPTRE: SAWN",
+      "at": 5.0,
+      "color": "#A8322A"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Blood flattened the crown with the mallet, one man shoved the orb down his trousers, and another tried to saw the sceptre in half."
-  },
-  {
-   "who": "N",
-   "say": "Then, in perfect sitcom timing, Edwards's son came home from abroad, and the alarm went up.",
+   "say": "Then, with perfect sitcom timing, Edwards's son came home, and the alarm went up.",
    "show": {
     "k": "scene",
     "bg": "street",
     "cast": [
      {
       "id": "blood",
-      "x": 0.3,
-      "pose": "run",
-      "mood": "scared",
       "walk": [
        0.2,
-       0.7
-      ]
+       0.6
+      ],
+      "pose": "run",
+      "mood": "scared"
      }
     ],
-    "fx": [
-     "dust"
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.85,
+      "s": 0.7
+     }
     ],
-    "cam": "pan"
+    "stickers": [
+     {
+      "text": "ALARM!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Blood was caught before he got out of the Tower area, reportedly still hanging on to the crown."
+   "say": "Blood was caught near the Tower, reportedly still holding the crown. And according to the story, he wasn't even embarrassed."
   },
   {
    "who": "N",
-   "say": "And according to the story, he wasn't even embarrassed.",
+   "say": "It was a gallant attempt, he supposedly said, because it was for a crown.",
    "show": {
     "k": "quote",
     "text": "It was a gallant attempt, however unsuccessful! It was for a crown!",
@@ -564,24 +616,32 @@
   },
   {
    "who": "N",
-   "say": "Blood refused to explain himself to anyone but the king. And somehow, King Charles the Second agreed to see him.",
+   "say": "Blood would explain himself only to the king, Charles the Second. And somehow, the king agreed to see him.",
    "show": {
     "k": "scene",
     "bg": "throne",
     "cast": [
      {
       "id": "charles",
-      "x": 0.3,
-      "pose": "sit",
-      "mood": "neutral"
+      "x": 0.62,
+      "pose": "think"
      },
      {
       "id": "blood",
-      "x": 0.7,
-      "mood": "smug",
-      "pose": "hips"
+      "x": 0.3,
+      "mood": "smug"
      }
-    ]
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8
+     }
+    ],
+    "tag": {
+     "id": "charles",
+     "text": "King Charles II"
+    }
    }
   },
   {
@@ -593,32 +653,34 @@
     "cast": [
      {
       "id": "charles",
-      "x": 0.3,
-      "pose": "sit",
-      "mood": "angry"
-     },
-     {
-      "id": "blood",
-      "x": 0.7,
-      "mood": "happy",
-      "pose": "present"
+      "x": 0.5,
+      "mood": "angry",
+      "pose": "point"
      }
     ],
-    "cam": "close",
-    "focus": "charles"
+    "cam": "close"
    }
   },
   {
    "who": "blood",
-   "say": "Your Majesty, I'd call it borrowing, with enthusiasm."
+   "say": "Your Majesty, I'd call it borrowing, with enthusiasm.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "cam": "close"
+   }
   },
   {
    "who": "N",
-   "say": "Nobody knows exactly what was said. But Blood walked out pardoned, with Irish land said to be worth five hundred pounds a year."
-  },
-  {
-   "who": "N",
-   "say": "Historians still argue about why. Maybe charm, maybe he was useful as a spy. Either way, the jewels got proper armed guards after that.",
+   "say": "Nobody knows exactly what was said. But Blood walked out pardoned, with Irish land said to be worth five hundred pounds a year.",
    "show": {
     "k": "card",
     "label": "Blood's reward, instead of punishment",
@@ -635,164 +697,32 @@
    }
   },
   {
-   "hold": 2.5,
-   "show": {
-    "k": "chapter",
-    "year": "1907",
-    "title": "The Jewels That Vanished",
-    "bg": "castle"
-   }
-  },
-  {
    "who": "N",
-   "say": "Two hundred and thirty-six years later, over in Dublin, someone else went after crown jewels. And this time, they got away with it.",
-   "show": {
-    "k": "map",
-    "lon": -6.5,
-    "lat": 53.3,
-    "z0": 3,
-    "z1": 4,
-    "labels": [
-     [
-      "Dublin Castle",
-      -6.27,
-      53.34,
-      14
-     ]
-    ],
-    "areas": [
-     [
-      -6.27,
-      53.34,
-      0.3,
-      "rgba(31,138,74,.35)"
-     ]
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Ireland's so-called Crown Jewels weren't a crown at all. They were the jewelled star and badge of the Order of Saint Patrick."
-  },
-  {
-   "who": "N",
-   "say": "Think diamonds, rubies and emeralds, worn by the order's top knight on very fancy occasions."
-  },
-  {
-   "who": "N",
-   "say": "They sat in a safe in Dublin Castle, in the care of Sir Arthur Vicars, the Ulster King of Arms.",
+   "say": "Historians still argue why. Maybe charm, maybe he was useful as a spy. Either way, the jewels got proper armed guards after that.",
    "show": {
     "k": "scene",
     "bg": "castle",
     "cast": [
      {
-      "id": "vicars",
-      "x": 0.5,
-      "mood": "smug",
-      "pose": "hips"
-     }
-    ],
-    "tag": {
-     "id": "vicars",
-     "text": "Sir Arthur Vicars"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "Great title. Less great with keys."
-  },
-  {
-   "who": "N",
-   "say": "On the sixth of July, 1907, the safe was opened, and the jewels were simply gone.",
-   "show": {
-    "k": "scene",
-    "bg": "office",
-    "cast": [
-     {
-      "id": "vicars",
-      "x": 0.5,
-      "mood": "shock",
-      "pose": "scared"
-     }
-    ],
-    "cam": "close",
-    "stickers": [
-     {
-      "text": "GONE",
-      "at": 1.3,
-      "color": "#C8302A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "vicars",
-   "say": "They were right here! I'm almost sure they were right here!"
-  },
-  {
-   "who": "N",
-   "say": "The lock hadn't been forced. Whoever took them either had a key or knew where to find one."
-  },
-  {
-   "who": "N",
-   "say": "And the timing was terrible. Four days later, King Edward the Seventh arrived for a visit.",
-   "show": {
-    "k": "scene",
-    "bg": "palace",
-    "cast": [
-     {
-      "id": "edward7",
-      "x": 0.35,
-      "mood": "angry",
-      "pose": "hips"
+      "id": "charles",
+      "x": 0.3,
+      "pose": "shrug"
      },
      {
-      "id": "vicars",
-      "x": 0.7,
-      "mood": "scared"
+      "id": "blood",
+      "x": 0.62,
+      "mood": "happy",
+      "pose": "cheer"
      }
     ],
-    "tag": {
-     "id": "edward7",
-     "text": "King Edward VII"
-    }
-   }
-  },
-  {
-   "who": "edward7",
-   "say": "So. Where exactly are my Irish jewels?"
-  },
-  {
-   "who": "N",
-   "say": "The ceremony that needed them was cancelled, Vicars lost his job, and rumours flew in every direction."
-  },
-  {
-   "who": "N",
-   "say": "One suspect was a member of his own staff, Francis Shackleton, brother of the polar explorer Ernest Shackleton. He was never charged."
-  },
-  {
-   "who": "N",
-   "say": "Nobody was ever charged. More than a century later, the jewels have never been found.",
-   "show": {
-    "k": "scene",
-    "bg": "castle",
-    "cast": [
+    "objects": [
      {
-      "id": "vicars",
-      "x": 0.5,
-      "mood": "sad",
-      "pose": "shrug"
+      "k": "crown",
+      "x": 0.85,
+      "s": 0.8
      }
-    ],
-    "fx": [
-     "rain"
     ]
    }
-  },
-  {
-   "who": "N",
-   "say": "So if you ever find a diamond star in your great-grandma's attic, maybe make a phone call."
   },
   {
    "hold": 2.5,
@@ -805,7 +735,7 @@
   },
   {
    "who": "N",
-   "say": "Paris, August 1911, the Louvre. The Mona Lisa is famous among art lovers, but not yet famous-famous.",
+   "say": "Paris, August 1911. The Louvre, one of the biggest art museums in the world.",
    "show": {
     "k": "map",
     "lon": 2.35,
@@ -824,6 +754,29 @@
   },
   {
    "who": "N",
+   "say": "Its Mona Lisa, painted by Leonardo da Vinci, was famous among art lovers, but not yet famous-famous.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "s": 1.1,
+      "label": "MONA LISA"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "france"
+     }
+    ],
+    "place": "The Louvre, Paris, France · 1911"
+   }
+  },
+  {
+   "who": "N",
    "say": "Vincenzo Peruggia was an Italian handyman who had worked at the Louvre. He'd even helped fit the painting's glass case.",
    "show": {
     "k": "scene",
@@ -831,9 +784,15 @@
     "cast": [
      {
       "id": "peruggia",
-      "x": 0.5,
+      "x": 0.35,
       "mood": "smug",
       "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.7
      }
     ],
     "tag": {
@@ -844,7 +803,33 @@
   },
   {
    "who": "N",
-   "say": "On Monday, the twenty-first of August, when the museum was closed, he took the Mona Lisa off the wall."
+   "say": "On Monday, the twenty-first of August, when the museum was closed, he took the Mona Lisa off the wall.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "peruggia",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.7,
+      "empty": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MUSEUM CLOSED",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -852,28 +837,26 @@
   },
   {
    "who": "N",
-   "say": "He left the frame in a stairwell, hid the painting under his white work smock, and strolled out.",
+   "say": "He hid the painting under his white work smock and strolled out.",
    "show": {
     "k": "scene",
     "bg": "street",
     "cast": [
      {
       "id": "peruggia",
-      "x": 0.3,
-      "pose": "walk",
-      "mood": "happy",
       "walk": [
        0.2,
-       0.75
-      ]
+       0.7
+      ],
+      "pose": "walk",
+      "mood": "happy"
      }
     ],
-    "cam": "pan",
-    "stickers": [
+    "objects": [
      {
-      "text": "NOTHING TO SEE HERE",
-      "at": 1.2,
-      "color": "#1F8A4A"
+      "k": "sign",
+      "x": 0.88,
+      "text": "PARIS"
      }
     ]
    }
@@ -888,13 +871,18 @@
      {
       "id": "beroud",
       "x": 0.3,
-      "mood": "shock",
-      "pose": "point"
+      "mood": "shock"
      },
      {
       "id": "lguard",
-      "x": 0.7,
-      "mood": "neutral"
+      "x": 0.72
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "empty": true
      }
     ],
     "tag": {
@@ -915,60 +903,72 @@
     "bg": "palace",
     "cast": [
      {
-      "id": "beroud",
-      "x": 0.3,
-      "mood": "angry",
-      "pose": "hips"
-     },
-     {
       "id": "lguard",
-      "x": 0.7,
+      "x": 0.5,
       "mood": "smug",
       "pose": "shrug"
      }
     ],
-    "cam": "close",
-    "focus": "lguard"
+    "cam": "close"
    }
   },
   {
    "who": "N",
-   "say": "She was not being photographed. The Louvre shut for a week while police searched."
-  },
-  {
-   "who": "N",
-   "say": "Police even questioned the poet Guillaume Apollinaire and a young painter named Pablo Picasso. Neither had done it.",
+   "say": "She was not being photographed. The Louvre shut for a week while police searched.",
    "show": {
     "k": "scene",
-    "bg": "courtroom",
+    "bg": "city",
     "cast": [
      {
-      "id": "beroud",
-      "x": 0.5,
-      "mood": "scared"
+      "id": "lguard",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
      }
     ],
-    "stickers": [
+    "objects": [
      {
-      "text": "WRONG GUYS",
-      "at": 1.4,
-      "color": "#C8302A"
+      "k": "sign",
+      "x": 0.7,
+      "text": "CLOSED"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Meanwhile, crowds lined up to stare at the empty spot on the wall. The painting got more famous by being gone."
+   "say": "When it reopened, crowds lined up just to stare at the empty spot. The painting got more famous by being gone.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "beroud",
+      "x": 0.2
+     },
+     {
+      "id": "lguard",
+      "x": 0.82,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "empty": true
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "And where was she? In Peruggia's room in Paris, hidden in a trunk, for more than two years.",
+   "say": "And where was she? Hidden in a trunk in Peruggia's room in Paris, for more than two years.",
    "show": {
     "k": "card",
     "label": "Time the Mona Lisa was missing",
     "big": "2+ YEARS",
-    "sub": "August 1911 to December 1913",
+    "sub": "in a trunk, in a room in Paris",
     "cast": [
      {
       "id": "peruggia",
@@ -980,7 +980,7 @@
   },
   {
    "who": "N",
-   "say": "In December 1913, Peruggia took her to Florence and offered her to an art dealer named Alfredo Geri.",
+   "say": "In December 1913, Peruggia took her to Florence, in Italy, and offered her to an art dealer, Alfredo Geri.",
    "show": {
     "k": "map",
     "lon": 6.5,
@@ -1030,190 +1030,90 @@
     "cast": [
      {
       "id": "peruggia",
-      "x": 0.3,
+      "x": 0.25,
       "mood": "happy",
       "pose": "present"
      },
      {
       "id": "geri",
-      "x": 0.7,
-      "mood": "smug"
+      "x": 0.72,
+      "mood": "happy"
      }
     ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.48
+     },
+     {
+      "k": "flag",
+      "x": 0.92,
+      "flag": "italy"
+     }
+    ],
+    "place": "Florence, Italy · 1913",
     "tag": {
      "id": "geri",
-     "text": "Alfredo Geri"
+     "text": "Alfredo Geri, art dealer"
     }
    }
   },
   {
    "who": "N",
-   "say": "The friend was the director of the Uffizi Gallery. The police arrived soon after."
+   "say": "The friend ran the Uffizi, Florence's great art museum. The police arrived soon after.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "peruggia",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "POLICE!",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "Peruggia said he did it to return her to Italy. He got a short prison sentence, and the Mona Lisa went home to Paris more famous than ever.",
+   "say": "Peruggia said he did it to bring her home to Italy. He got a short prison sentence, and she went back to Paris more famous than ever.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
-      "id": "peruggia",
-      "x": 0.5,
-      "mood": "sad",
-      "pose": "shrug"
-     }
-    ],
-    "fx": [
-     "confetti"
-    ]
-   }
-  },
-  {
-   "hold": 2.5,
-   "show": {
-    "k": "chapter",
-    "year": "1934",
-    "title": "The Missing Judges",
-    "bg": "church"
-   }
-  },
-  {
-   "who": "N",
-   "say": "Belgium, 1934. In Saint Bavo's Cathedral in Ghent hangs the Ghent Altarpiece, painted by the van Eyck brothers in the 1400s.",
-   "show": {
-    "k": "map",
-    "lon": 4.0,
-    "lat": 51.0,
-    "z0": 3,
-    "z1": 4,
-    "labels": [
-     [
-      "Ghent",
-      3.72,
-      51.05,
-      14
-     ],
-     [
-      "Brussels",
-      4.35,
-      50.85,
-      14
-     ]
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "It's been stolen, sold and fought over so often that it's often called the most stolen artwork in history."
-  },
-  {
-   "who": "N",
-   "say": "On the night of the tenth of April, 1934, one panel vanished: The Just Judges.",
-   "show": {
-    "k": "scene",
-    "bg": "church",
-    "cast": [
-     {
-      "id": "lawyer",
-      "x": 0.5,
-      "mood": "shock",
-      "pose": "scared"
-     }
-    ],
-    "stickers": [
-     {
-      "text": "MISSING",
-      "at": 1.3,
-      "color": "#C8302A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Soon, ransom letters arrived, demanding a huge sum for its return."
-  },
-  {
-   "who": "N",
-   "say": "To prove he was serious, the thief even gave back the painting on the panel's reverse side. Generous. Sort of."
-  },
-  {
-   "who": "N",
-   "say": "Then, in November 1934, a stockbroker named Arsène Goedertier collapsed and called for his lawyer.",
-   "show": {
-    "k": "scene",
-    "bg": "office",
-    "cast": [
-     {
-      "id": "goedertier",
-      "x": 0.35,
-      "mood": "sad",
-      "pose": "sit"
-     },
-     {
-      "id": "lawyer",
-      "x": 0.7,
-      "mood": "neutral"
-     }
-    ],
-    "tag": {
-     "id": "goedertier",
-     "text": "Arsène Goedertier"
-    }
-   }
-  },
-  {
-   "who": "goedertier",
-   "say": "Only I know where the Just Judges are."
-  },
-  {
-   "who": "lawyer",
-   "say": "Wonderful! And where is that?",
-   "show": {
-    "k": "scene",
-    "bg": "office",
-    "cast": [
-     {
-      "id": "goedertier",
-      "x": 0.35,
-      "mood": "sad",
-      "pose": "sit"
-     },
-     {
-      "id": "lawyer",
-      "x": 0.7,
+      "id": "beroud",
+      "x": 0.25,
       "mood": "happy",
-      "pose": "point"
+      "pose": "cheer"
      }
     ],
-    "cam": "close",
-    "focus": "lawyer"
-   }
-  },
-  {
-   "who": "N",
-   "say": "And then he died without telling anyone."
-  },
-  {
-   "who": "N",
-   "say": "His papers held copies of the ransom letters, but no location. The panel has never been found.",
-   "show": {
-    "k": "scene",
-    "bg": "library",
-    "cast": [
+    "objects": [
      {
-      "id": "lawyer",
-      "x": 0.5,
-      "mood": "sad",
-      "pose": "facepalm"
+      "k": "painting",
+      "x": 0.55,
+      "s": 1.1
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "flag": "france"
      }
     ]
    }
-  },
-  {
-   "who": "N",
-   "say": "Today, a copy finished in the 1940s fills the gap, and people are still searching for the original."
   },
   {
    "hold": 2.5,
@@ -1279,35 +1179,72 @@
   },
   {
    "who": "N",
-   "say": "It's carrying bags of used banknotes. A lot of bags."
+   "say": "It's carrying bags of used banknotes. A lot of bags.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.5,
+      "move": [
+       0.9,
+       0.5
+      ],
+      "label": "ROYAL MAIL TRAIN"
+     }
+    ],
+    "place": "Buckinghamshire, England · 1963"
+   }
   },
   {
    "who": "N",
-   "say": "Near a bridge in Buckinghamshire, a gang tampered with a signal to show red, and the train stopped.",
+   "say": "Near a bridge in Buckinghamshire, the gang rigged a signal to show red, and the train stopped.",
    "show": {
     "k": "scene",
     "bg": "night",
     "cast": [
      {
       "id": "robber1",
-      "x": 0.3,
+      "x": 0.2,
       "mood": "smug"
      },
      {
       "id": "robber2",
-      "x": 0.65,
-      "mood": "smug"
+      "x": 0.35
      }
     ],
-    "fx": [
-     "smoke"
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.7
+     }
     ],
-    "cam": "pan"
+    "stickers": [
+     {
+      "text": "STOP!",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The driver, Jack Mills, was struck on the head and seriously injured. This part is not a caper. A real man paid for it."
+   "say": "The driver, Jack Mills, was struck on the head and seriously injured. This part is not a caper. A real man paid for it.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.5
+     }
+    ],
+    "cam": "still"
+   }
   },
   {
    "who": "N",
@@ -1316,12 +1253,12 @@
     "k": "card",
     "label": "Taken from the mail train",
     "big": "£2.6 MILLION",
-    "sub": "roughly £50 million in today's money, by common estimates",
+    "sub": "worth tens of millions today",
     "cast": [
      {
       "id": "robber1",
       "x": 0.85,
-      "mood": "shock",
+      "mood": "smug",
       "hold": "moneybag"
      }
     ]
@@ -1337,15 +1274,25 @@
      {
       "id": "robber1",
       "x": 0.3,
-      "pose": "sit",
-      "mood": "happy",
-      "hold": "moneybag"
+      "mood": "happy"
      },
      {
       "id": "robber2",
       "x": 0.7,
-      "pose": "sit",
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.5,
+      "s": 0.8
+     },
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.8,
+      "front": true
      }
     ]
    }
@@ -1362,20 +1309,14 @@
     "bg": "village",
     "cast": [
      {
-      "id": "robber1",
-      "x": 0.3,
-      "pose": "sit",
-      "mood": "happy"
-     },
-     {
       "id": "robber2",
-      "x": 0.7,
+      "x": 0.5,
+      "mood": "happy",
       "pose": "shrug",
-      "mood": "smug"
+      "hold": "moneybag"
      }
     ],
-    "cam": "close",
-    "focus": "robber2"
+    "cam": "close"
    }
   },
   {
@@ -1383,35 +1324,94 @@
    "say": "They cleaned the farm to remove fingerprints. Mostly. Police still found prints on a ketchup bottle and on the Monopoly set.",
    "show": {
     "k": "scene",
-    "bg": "courtroom",
+    "bg": "office",
     "cast": [
      {
-      "id": "robber1",
+      "id": "detective",
       "x": 0.3,
-      "mood": "shock"
-     },
+      "pose": "think"
+     }
+    ],
+    "objects": [
      {
-      "id": "robber2",
-      "x": 0.7,
-      "mood": "scared"
+      "k": "desk",
+      "x": 0.65
      }
     ],
     "stickers": [
      {
-      "text": "OOPS",
-      "at": 1.3,
-      "color": "#C8302A"
+      "text": "KETCHUP BOTTLE",
+      "at": 1.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "MONOPOLY SET",
+      "at": 3.5,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Most of the gang were caught, and seven of them got thirty years."
+   "say": "Most of the gang were caught, and seven of them got thirty years.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "robber1",
+      "x": 0.3,
+      "mood": "sad"
+     },
+     {
+      "id": "robber2",
+      "x": 0.6,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.88,
+      "flag": "uk"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "30 YEARS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "Ronnie Biggs escaped from prison in 1965 and spent decades on the run, finally ending up in Brazil."
+   "say": "One robber, Ronnie Biggs, escaped from prison in 1965 and spent decades on the run, ending up in Brazil.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "robber2",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.15
+     },
+     {
+      "k": "sign",
+      "x": 0.75,
+      "text": "BRAZIL"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -1428,21 +1428,33 @@
   },
   {
    "who": "N",
-   "say": "Now to America. The twenty-fourth of November, 1971. A man in a dark suit buys a plane ticket in Portland, Oregon, as Dan Cooper.",
+   "say": "Now to America. November 1971. A man in a dark suit buys a plane ticket in Portland, Oregon, as Dan Cooper.",
    "show": {
     "k": "scene",
-    "bg": "office",
+    "bg": "city",
     "cast": [
      {
       "id": "cooper",
-      "x": 0.5,
-      "mood": "neutral",
-      "pose": "hips"
+      "x": 0.25
      }
     ],
+    "objects": [
+     {
+      "k": "plane",
+      "x": 0.62,
+      "color": "#F2F2F2",
+      "alt": 40
+     },
+     {
+      "k": "flag",
+      "x": 0.92,
+      "flag": "usa"
+     }
+    ],
+    "place": "Portland, Oregon, USA · 1971",
     "tag": {
      "id": "cooper",
-     "text": "\"Dan Cooper\" (D.B. Cooper)"
+     "text": "\"Dan Cooper\""
     }
    }
   },
@@ -1455,19 +1467,17 @@
    "say": "On board, he hands flight attendant Florence Schaffner a note. She assumes it's his phone number.",
    "show": {
     "k": "scene",
-    "bg": "night",
+    "bg": "office",
     "cast": [
      {
-      "id": "schaffner",
+      "id": "cooper",
       "x": 0.3,
-      "mood": "smug",
       "hold": "letter"
      },
      {
-      "id": "cooper",
-      "x": 0.7,
-      "mood": "neutral",
-      "pose": "sit"
+      "id": "schaffner",
+      "x": 0.68,
+      "mood": "smug"
      }
     ],
     "tag": {
@@ -1485,23 +1495,15 @@
    "say": "Miss, you'd better look at that note.",
    "show": {
     "k": "scene",
-    "bg": "night",
+    "bg": "office",
     "cast": [
      {
-      "id": "schaffner",
-      "x": 0.3,
-      "mood": "shock",
-      "hold": "letter"
-     },
-     {
       "id": "cooper",
-      "x": 0.7,
-      "mood": "neutral",
-      "pose": "sit"
+      "x": 0.5,
+      "mood": "neutral"
      }
     ],
-    "cam": "close",
-    "focus": "cooper"
+    "cam": "close"
    }
   },
   {
@@ -1511,19 +1513,37 @@
     "k": "card",
     "label": "Cooper's ransom",
     "big": "$200,000",
-    "sub": "paid in twenty-dollar bills, plus four parachutes",
-    "cast": [
-     {
-      "id": "cooper",
-      "x": 0.85,
-      "mood": "neutral"
-     }
-    ]
+    "sub": "plus four parachutes"
    }
   },
   {
    "who": "N",
-   "say": "In Seattle, he let the passengers go, took the money, and had the plane take off again."
+   "say": "In Seattle, he let the passengers go, took the money, and had the plane take off again.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "schaffner",
+      "x": 0.3,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "plane",
+      "x": 0.62,
+      "color": "#F2F2F2",
+      "alt": 40
+     },
+     {
+      "k": "moneypile",
+      "x": 0.2,
+      "s": 0.7
+     }
+    ],
+    "place": "Seattle, Washington · 1971"
+   }
   },
   {
    "who": "N",
@@ -1531,19 +1551,28 @@
    "show": {
     "k": "scene",
     "bg": "night",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "cooper",
+      "k": "plane",
       "x": 0.5,
-      "mood": "neutral",
-      "hold": "moneybag",
-      "enter": "drop"
+      "color": "#F2F2F2",
+      "move": [
+       0.8,
+       0.3
+      ]
      }
     ],
     "fx": [
      "rain"
     ],
-    "cam": "shake"
+    "stickers": [
+     {
+      "text": "JUMP!",
+      "at": 3.0,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
@@ -1559,9 +1588,15 @@
     "cast": [
      {
       "id": "ingram",
-      "x": 0.5,
+      "x": 0.35,
       "mood": "shock",
-      "hold": "moneybag"
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.62
      }
     ],
     "tag": {
@@ -1576,7 +1611,28 @@
   },
   {
    "who": "N",
-   "say": "In 2016 the FBI stopped actively investigating. It's often called the only unsolved air hijacking in American history."
+   "say": "In 2016 the FBI stopped actively investigating. It's often called the only unsolved air hijacking in American history.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.8,
+      "text": "UNSOLVED"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "usa"
+     }
+    ]
+   }
   },
   {
    "hold": 2.5,
@@ -1589,7 +1645,7 @@
   },
   {
    "who": "N",
-   "say": "November the twenty-sixth, 1983, a warehouse near Heathrow Airport, run by the security firm Brink's-Mat.",
+   "say": "November the twenty-sixth, 1983. A warehouse near Heathrow Airport, run by the security firm Brink's-Mat.",
    "show": {
     "k": "map",
     "lon": -0.6,
@@ -1622,15 +1678,40 @@
   },
   {
    "who": "N",
-   "say": "A gang got into the vault with help from an inside man, a security guard named Anthony Black."
+   "say": "A gang got in with help from an inside man, a security guard named Anthony Black.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "vaultguy1",
+      "x": 0.25,
+      "mood": "smug"
+     },
+     {
+      "id": "vaultguy2",
+      "x": 0.4
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "text": "BRINK'S-MAT"
+     },
+     {
+      "k": "plane",
+      "x": 0.6,
+      "color": "#F2F2F2",
+      "s": 0.6
+     }
+    ],
+    "place": "Heathrow Airport, London · 1983"
+   }
   },
   {
    "who": "N",
-   "say": "They'd been told to expect about three million pounds in cash."
-  },
-  {
-   "who": "vaultguy1",
-   "say": "Right. Where's the cash?",
+   "say": "They'd been told to expect about three million pounds in cash.",
    "show": {
     "k": "scene",
     "bg": "vault",
@@ -1638,17 +1719,25 @@
      {
       "id": "vaultguy1",
       "x": 0.3,
-      "mood": "neutral",
-      "pose": "think"
+      "mood": "happy"
      },
      {
       "id": "vaultguy2",
-      "x": 0.7,
-      "mood": "shock",
-      "hold": "goldbar"
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "label": "CASH?"
      }
     ]
    }
+  },
+  {
+   "who": "vaultguy1",
+   "say": "Right. Where's the cash?"
   },
   {
    "who": "vaultguy2",
@@ -1658,46 +1747,57 @@
     "bg": "vault",
     "cast": [
      {
-      "id": "vaultguy1",
-      "x": 0.3,
-      "mood": "shock"
-     },
-     {
       "id": "vaultguy2",
-      "x": 0.7,
-      "mood": "happy",
-      "hold": "goldbar",
-      "pose": "present"
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "point"
      }
     ],
-    "cam": "close",
-    "focus": "vaultguy2",
-    "fx": [
-     "sparkle"
-    ]
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.65,
+      "s": 1.3,
+      "front": true
+     }
+    ],
+    "cam": "close"
    }
   },
   {
    "who": "N",
-   "say": "Instead, they found six thousand eight hundred gold bars. About three tonnes. With some diamonds and cash, the haul was worth twenty-six million pounds.",
+   "say": "Instead: six thousand eight hundred gold bars. About three tonnes, the weight of two cars. With some diamonds and cash, the haul was worth twenty-six million pounds.",
    "show": {
     "k": "card",
     "label": "What was actually in the vault",
     "big": "3 TONNES",
-    "sub": "about 6,800 gold bars; with diamonds and cash, a £26 million haul",
-    "cast": [
-     {
-      "id": "vaultguy2",
-      "x": 0.85,
-      "mood": "happy",
-      "hold": "goldbar"
-     }
-    ]
+    "sub": "6,800 gold bars, about the weight of two cars. Total haul: £26 million"
    }
   },
   {
    "who": "N",
-   "say": "Nobody plans for three tonnes of gold. That's not a getaway car, that's a moving van."
+   "say": "Nobody plans for three tonnes of gold. That's not a getaway car, that's a moving van.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.5,
+      "move": [
+       0.1,
+       0.7
+      ],
+      "label": "GETAWAY VAN"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.9,
+      "s": 0.7
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -1708,15 +1808,56 @@
     "cast": [
      {
       "id": "vaultguy1",
-      "x": 0.5,
+      "x": 0.3,
       "mood": "sad"
+     },
+     {
+      "id": "vaultguy2",
+      "x": 0.6,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.88,
+      "flag": "uk"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "25 YEARS",
+      "at": 1.5,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "But the gold? Most of it was melted down, sold on, and never recovered."
+   "say": "But the gold? Most of it was melted down, sold on, and never recovered.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.4
+     },
+     {
+      "k": "goldpile",
+      "x": 0.65
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MELTED DOWN",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -1726,17 +1867,23 @@
     "bg": "market",
     "cast": [
      {
-      "id": "vaultguy2",
-      "x": 0.5,
-      "mood": "smug",
-      "hold": "coin"
+      "id": "vaultguy1",
+      "x": 0.3,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.7,
+      "s": 0.6
      }
     ],
     "stickers": [
      {
-      "text": "LEGEND!",
-      "at": 1.3,
-      "color": "#D4A52A"
+      "text": "LEGEND",
+      "at": 2.0,
+      "color": "#2F6FC2"
      }
     ]
    }
@@ -1756,39 +1903,43 @@
    "show": {
     "k": "scene",
     "bg": "city",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "fakecop",
-      "x": 0.4,
-      "mood": "neutral"
+      "k": "flag",
+      "x": 0.15,
+      "flag": "usa"
+     },
+     {
+      "k": "sign",
+      "x": 0.75,
+      "text": "BOSTON"
      }
     ],
-    "cam": "pan"
+    "place": "Boston, USA · 1990"
    }
   },
   {
    "who": "N",
-   "say": "Two men dressed as police officers buzz the side door of the Isabella Stewart Gardner Museum.",
+   "say": "Two men dressed as police officers buzz the side door of the Isabella Stewart Gardner Museum, an art museum.",
    "show": {
     "k": "scene",
     "bg": "street",
     "cast": [
      {
       "id": "fakecop",
-      "x": 0.3,
-      "mood": "neutral",
-      "pose": "point"
-     },
-     {
-      "id": "nguard",
-      "x": 0.7,
-      "mood": "neutral"
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
      }
     ],
-    "tag": {
-     "id": "fakecop",
-     "text": "Not actually a police officer"
-    }
+    "stickers": [
+     {
+      "text": "FAKE COPS",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
@@ -1803,24 +1954,30 @@
     "bg": "street",
     "cast": [
      {
-      "id": "fakecop",
-      "x": 0.3,
-      "mood": "smug"
-     },
-     {
       "id": "nguard",
-      "x": 0.7,
+      "x": 0.5,
       "mood": "happy",
       "pose": "wave"
      }
     ],
-    "cam": "close",
-    "focus": "nguard"
+    "cam": "close"
    }
   },
   {
    "who": "N",
-   "say": "Letting them in broke the rules. Soon both guards on duty were tied up in the basement, unhurt but stuck."
+   "say": "Letting them in broke the rules. Soon both guards on duty were tied up in the basement, unhurt but stuck.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "nguard",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "sit"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -1829,19 +1986,35 @@
     "k": "card",
     "label": "Time the thieves spent inside",
     "big": "81 MINUTES",
-    "sub": "13 works taken, none ever recovered",
-    "cast": [
-     {
-      "id": "fakecop",
-      "x": 0.85,
-      "mood": "smug"
-     }
-    ]
+    "sub": "13 works of art taken"
    }
   },
   {
    "who": "N",
-   "say": "They included Vermeer's The Concert and Rembrandt's only known seascape, The Storm on the Sea of Galilee."
+   "say": "They included Vermeer's The Concert and Rembrandt's only known seascape, The Storm on the Sea of Galilee.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "fakecop",
+      "x": 0.15,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.45,
+      "label": "VERMEER"
+     },
+     {
+      "k": "painting",
+      "x": 0.75,
+      "label": "REMBRANDT"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -1849,25 +2022,53 @@
    "show": {
     "k": "scene",
     "bg": "library",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "nguard",
-      "x": 0.5,
-      "mood": "shock"
+      "k": "moneypile",
+      "x": 0.35
+     },
+     {
+      "k": "painting",
+      "x": 0.7,
+      "s": 0.8
      }
     ],
     "stickers": [
      {
       "text": "$500 MILLION",
-      "at": 1.2,
-      "color": "#D4A52A"
+      "at": 1.0,
+      "color": "#B8860B"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "And here's the eerie part. Isabella Gardner's will said nothing in her galleries could ever be changed."
+   "say": "And here's the eerie part. Isabella Gardner's will said nothing in her galleries could ever be changed.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.3,
+      "empty": true
+     },
+     {
+      "k": "painting",
+      "x": 0.7,
+      "empty": true
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.6,
+      "text": "CHANGE NOTHING"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -1877,16 +2078,10 @@
    "who": "N",
    "say": "The museum offers a ten million dollar reward. The case is still unsolved.",
    "show": {
-    "k": "scene",
-    "bg": "palace",
-    "cast": [
-     {
-      "id": "nguard",
-      "x": 0.5,
-      "mood": "sad",
-      "pose": "shrug"
-     }
-    ]
+    "k": "card",
+    "label": "Reward offered by the museum",
+    "big": "$10 MILLION",
+    "sub": "the case is still unsolved"
    }
   },
   {
@@ -1939,7 +2134,34 @@
   },
   {
    "who": "N",
-   "say": "Over a weekend in February 2003, thieves opened more than a hundred of the safe deposit boxes in the vault under the Antwerp Diamond Centre."
+   "say": "Over a weekend in February 2003, thieves opened more than a hundred safe deposit boxes in the vault under the Antwerp Diamond Centre.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.25
+     },
+     {
+      "k": "moneypile",
+      "x": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.75
+     }
+    ],
+    "place": "Antwerp, Belgium · 2003",
+    "stickers": [
+     {
+      "text": "100+ BOXES",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -1948,15 +2170,7 @@
     "k": "card",
     "label": "Estimated haul",
     "big": "$100 MILLION+",
-    "sub": "the true total is still disputed",
-    "cast": [
-     {
-      "id": "notarbartolo",
-      "x": 0.85,
-      "mood": "smug",
-      "hold": "goldbar"
-     }
-    ]
+    "sub": "diamonds, gold and jewellery"
    }
   },
   {
@@ -1964,13 +2178,20 @@
    "say": "The man at the centre of it was an Italian named Leonardo Notarbartolo, who'd rented an office in the building and posed as a diamond trader.",
    "show": {
     "k": "scene",
-    "bg": "office",
+    "bg": "city",
     "cast": [
      {
       "id": "notarbartolo",
-      "x": 0.5,
-      "mood": "smug",
-      "pose": "hips"
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "text": "ANTWERP"
      }
     ],
     "tag": {
@@ -1981,7 +2202,7 @@
   },
   {
    "who": "N",
-   "say": "It was a meticulous job. And then came the snack."
+   "say": "It was a careful, well-planned job. And then came the snack."
   },
   {
    "who": "N",
@@ -1989,48 +2210,91 @@
    "show": {
     "k": "scene",
     "bg": "field",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "vancamp",
+      "k": "tree",
+      "x": 0.15
+     },
+     {
+      "k": "tree",
+      "x": 0.85
+     },
+     {
+      "k": "crate",
       "x": 0.5,
-      "mood": "angry",
-      "pose": "hips"
+      "s": 0.6,
+      "label": "RUBBISH"
      }
-    ],
-    "tag": {
-     "id": "vancamp",
-     "text": "August Van Camp, landowner"
-    }
+    ]
    }
   },
   {
    "who": "vancamp",
-   "say": "Who keeps dumping rubbish on my land?"
-  },
-  {
-   "who": "N",
-   "say": "He called the police, who found receipts, videotape and a half-eaten salami sandwich.",
+   "say": "Who keeps dumping rubbish on my land?",
    "show": {
     "k": "scene",
     "bg": "field",
     "cast": [
      {
       "id": "vancamp",
-      "x": 0.3,
-      "mood": "shock"
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85
      },
      {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.6,
+      "label": "RUBBISH"
+     }
+    ],
+    "tag": {
+     "id": "vancamp",
+     "text": "The landowner"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He called the police, who found receipts, videotape and a half-eaten salami sandwich.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
       "id": "detective",
-      "x": 0.7,
-      "mood": "smug",
-      "pose": "point"
+      "x": 0.3,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.65
      }
     ],
     "stickers": [
      {
-      "text": "SALAMI",
-      "at": 1.3,
-      "color": "#C8302A"
+      "text": "RECEIPTS",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "VIDEOTAPE",
+      "at": 2.2,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "SALAMI SANDWICH",
+      "at": 3.4,
+      "color": "#A8322A"
      }
     ]
    }
@@ -2041,23 +2305,29 @@
   },
   {
    "who": "N",
-   "say": "That rubbish helped police tie the gang to the crime. Notarbartolo got ten years in prison."
-  },
-  {
-   "who": "N",
-   "say": "Most of the loot was never found, and he has since claimed the story was very different from the police version. Of course he has.",
+   "say": "That rubbish helped police tie the gang to the crime. Notarbartolo got ten years in prison.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
     "cast": [
      {
       "id": "notarbartolo",
-      "x": 0.5,
-      "mood": "smug",
-      "pose": "shrug"
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "10 YEARS",
+      "at": 1.5,
+      "color": "#A8322A"
      }
     ]
    }
+  },
+  {
+   "who": "N",
+   "say": "Most of the loot was never found, and he has since claimed the story was very different from the police version. Of course he has."
   },
   {
    "who": "N",
@@ -2088,24 +2358,63 @@
   },
   {
    "who": "N",
-   "say": "Plenty of these thieves were caught, most of the loot still vanished, and the real losers were guards, drivers and whole countries missing their treasures."
-  },
-  {
-   "who": "N",
-   "say": "And somewhere out there, a Vermeer, a van Eyck panel and a diamond star are still waiting to come home.",
+   "say": "Plenty of these thieves were caught. But most of the loot still vanished, and the real losers were guards, drivers and museums.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "courtroom",
     "cast": [
      {
-      "id": "vicars",
-      "x": 0.3,
+      "id": "blood",
+      "x": 0.2,
+      "mood": "smug"
+     },
+     {
+      "id": "peruggia",
+      "x": 0.4,
       "mood": "sad"
      },
      {
-      "id": "nguard",
-      "x": 0.7,
+      "id": "robber1",
+      "x": 0.6,
       "mood": "sad"
+     },
+     {
+      "id": "notarbartolo",
+      "x": 0.8,
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And somewhere out there, a Vermeer, a Rembrandt and a lot of Brink's-Mat gold are still waiting to be found.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.3,
+      "empty": true
+     },
+     {
+      "k": "painting",
+      "x": 0.55,
+      "empty": true
+     },
+     {
+      "k": "goldpile",
+      "x": 0.82,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL MISSING",
+      "at": 1.5,
+      "color": "#A8322A"
      }
     ]
    }
@@ -2133,7 +2442,7 @@
    }
   }
  ],
- "description": "A fake parson who flattened the Crown of England, a handyman who walked out with the Mona Lisa, robbers who expected cash and found three tonnes of gold, and a diamond heist partly undone by a salami sandwich. We count through the biggest heists in history, from 1671 to 2003, and the treasures that are still missing.\n\nChapters are added automatically.\n\n#history #heist #monalisa #truecrime #moneyhistory",
+ "description": "A fake parson who flattened the Crown of England, a handyman who walked out with the Mona Lisa, robbers who expected cash and found three tonnes of gold, and a diamond heist partly undone by a salami sandwich. Seven of the biggest heists in history, from 1671 to 2003, told simply, and the treasures that are still missing.\n\nChapters are added automatically.\n\n#history #heist #monalisa #truecrime #moneyhistory",
  "thumbnail": {
   "style": "redbox",
   "bg": "vault",
@@ -2169,17 +2478,10 @@
   "https://www.nationalarchives.gov.uk/education/resources/the-king-the-crown-the-colonel/",
   "https://www.worldhistory.org/article/1953/colonel-blood--the-theft-of-the-crown-jewels/",
   "https://www.history.com/articles/the-man-who-stole-the-crown-jewels",
-  "https://en.wikipedia.org/wiki/Irish_Crown_Jewels",
-  "https://dublincastle.ie/the-theft-of-the-irish-crown-jewels/",
-  "https://historyireland.com/the-theft-of-the-irish-crown-jewels-1907/",
-  "https://www.nationalgeographic.com/culture/article/ireland-crown-jewels-heist-unsolved-mystery",
   "https://en.wikipedia.org/wiki/Vincenzo_Peruggia",
   "https://www.history.com/articles/the-heist-that-made-the-mona-lisa-famous",
   "https://guides.loc.gov/chronicling-america-theft-mona-lisa",
   "https://www.theartnewspaper.com/2024/02/06/missing-mona-lisa-the-story-behind-the-1911-theft",
-  "https://en.wikipedia.org/wiki/The_Just_Judges",
-  "https://visit.gent.be/en/disappearance-just-judges-panel",
-  "https://www.vrt.be/vrtnws/en/2024/04/10/the-mystery-of-the-disappearance-of-the-just-judges-90-years-on/",
   "https://en.wikipedia.org/wiki/Great_Train_Robbery_(1963)",
   "https://www.britannica.com/event/Great-Train-Robbery",
   "https://www.btp.police.uk/police-forces/british-transport-police/areas/about-us/about-us/our-history/crime-history/great-train-robbery/",

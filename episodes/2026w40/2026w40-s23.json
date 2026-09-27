@@ -1,0 +1,313 @@
+{
+ "id": "2026w40-s23",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "The Harshest Lawmaker Was Smothered by His Fans",
+ "hook": "SMOTHERED BY FANS",
+ "music": "playful",
+ "cast": {
+  "draco": {
+   "preset": "philosopher",
+   "beard": "full",
+   "hairColor": "#DADADA",
+   "skin": "olive",
+   "hold": "scroll",
+   "name": "Draco"
+  },
+  "fan1": {
+   "preset": "greek"
+  },
+  "fan2": {
+   "preset": "peasantW"
+  },
+  "thief": {
+   "preset": "peasant",
+   "hold": "ball"
+  },
+  "judge": {
+   "preset": "judge"
+  }
+ },
+ "voices": {
+  "draco": "bm_daniel",
+  "fan1": "am_puck",
+  "fan2": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Ancient Athens's harshest lawmaker was, legend says, smothered by his own fans.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "draco",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "draco",
+     "text": "Draco, lawmaker"
+    },
+    "place": "Athens, Greece · about 621 BC",
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.14,
+      "s": 0.8
+     },
+     {
+      "k": "column",
+      "x": 0.84,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Draco wrote Athens's first written laws, around 621 BC.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "draco",
+      "x": 0.62,
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.24,
+      "s": 0.7,
+      "text": "The laws of Draco"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were brutal. Later writers say even stealing a cabbage could mean death.",
+   "show": {
+    "k": "card",
+    "label": "Punishment for stealing a cabbage",
+    "big": "DEATH",
+    "sub": "according to later Greek writers",
+    "cast": [
+     {
+      "id": "thief",
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's why a super-strict rule is still called draconian today.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "judge",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.18,
+      "s": 0.7,
+      "text": "DRACONIAN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DRACONIAN = SUPER STRICT",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later, Draco went to Aegina, an island near Athens.",
+   "show": {
+    "k": "map",
+    "lon": 23.6,
+    "lat": 37.85,
+    "z0": 2.8,
+    "z1": 3.6,
+    "date": "about 600 BC",
+    "labels": [
+     [
+      "Athens",
+      23.73,
+      37.98,
+      0
+     ],
+     [
+      "Aegina",
+      23.43,
+      37.73,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      23.43,
+      37.73,
+      0.12,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story goes that in a theater there, fans honored him by throwing hats, shirts and cloaks onto him.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "fan1",
+      "x": 0.2,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "draco",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "fan2",
+      "x": 0.78,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "The theater on Aegina",
+    "fx": [
+     "confetti"
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HATS!",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "CLOAKS!",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "fan1",
+   "say": "We love you, Draco!"
+  },
+  {
+   "who": "N",
+   "say": "So many landed on him that he was smothered. Poof.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "fan1",
+      "x": 0.25,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "fan2",
+      "x": 0.75,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "POOF",
+      "at": 0.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This story comes from an encyclopedia written about fifteen hundred years later, so it's probably a legend.",
+   "show": {
+    "k": "card",
+    "label": "Death by fan mail?",
+    "big": "LEGEND",
+    "sub": "from the Suda, a Byzantine encyclopedia of the 900s AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "draco",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "fan1",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The strictest lawmaker in Athens, buried under a pile of hats. Probably.\n\nFollow for 5 stories a day.\n#history #draco #ancientgreece #historytok #funnyhistory",
+ "youtube_title": "The Harshest Lawmaker Was Smothered by His Fans #shorts",
+ "tags": [
+  "draco",
+  "draconian",
+  "ancient greece",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Draco_(legislator)",
+  "https://en.wikipedia.org/wiki/List_of_unusual_deaths_in_antiquity",
+  "https://www.thecollector.com/athens-draconian-laws-under-draco/",
+  "https://www.ebsco.com/research-starters/law/dracos-code",
+  "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Draco_(statesman)",
+  "https://english.alarabiya.net/life-style/art-and-culture/2018/10/23/How-did-the-Athenians-accidentally-kill-their-greatest-legislator-"
+ ]
+}

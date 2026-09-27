@@ -7,6 +7,15 @@
  "hook": "SHE WAS STOLEN",
  "music": "playful",
  "cast": {
+  "peruggia": {
+   "skin": "light",
+   "outfit": "labcoat",
+   "color": "#F2EEE4",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "stache": "bush",
+   "name": "Vincenzo Peruggia"
+  },
   "beroud": {
    "skin": "peach",
    "hat": "beret",
@@ -18,12 +27,6 @@
    "hold": "pen",
    "name": "Louis Béroud"
   },
-  "geri": {
-   "preset": "businessman",
-   "stache": "thin",
-   "hairColor": "#3A2A1E",
-   "name": "Alfredo Geri"
-  },
   "lguard": {
    "skin": "peach",
    "hat": "kepi",
@@ -33,37 +36,49 @@
    "stache": "handlebar",
    "name": "Louvre guard"
   },
-  "peruggia": {
-   "skin": "light",
-   "outfit": "labcoat",
-   "color": "#F2EEE4",
-   "hair": "short",
-   "hairColor": "#1E1C1B",
-   "stache": "bush",
-   "name": "Vincenzo Peruggia"
+  "geri": {
+   "preset": "businessman",
+   "stache": "thin",
+   "hairColor": "#3A2A1E",
+   "name": "Alfredo Geri"
   }
  },
  "voices": {
+  "peruggia": "am_puck",
   "beroud": "am_echo",
-  "geri": "am_eric",
   "lguard": "bm_lewis",
-  "peruggia": "am_puck"
+  "geri": "am_eric"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1911, the Mona Lisa was stolen by a man who'd helped build her glass case.",
+   "say": "In 1911, a handyman walked out of the Louvre museum in Paris with the Mona Lisa.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
       "id": "peruggia",
-      "x": 0.5,
+      "x": 0.3,
       "mood": "smug",
-      "pose": "hips"
+      "pose": "point"
      }
     ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.7,
+      "s": 0.8,
+      "label": "MONA LISA"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "flag": "france",
+      "s": 0.6
+     }
+    ],
+    "place": "The Louvre, Paris, France · 1911",
     "tag": {
      "id": "peruggia",
      "text": "Vincenzo Peruggia"
@@ -72,28 +87,69 @@
   },
   {
    "who": "N",
-   "say": "Vincenzo Peruggia had worked at the Louvre, so nobody looked at him twice."
+   "say": "Vincenzo Peruggia, an Italian worker, had helped build her glass case."
   },
   {
    "who": "N",
-   "say": "On a Monday when the museum was closed, he took her off the wall, hid her under his work smock, and walked out.",
+   "say": "On a Monday, when the museum was closed, he took her off the wall.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "peruggia",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.7,
+      "s": 0.8,
+      "empty": true
+     }
+    ],
+    "cam": "close",
+    "stickers": [
+     {
+      "text": "MUSEUM CLOSED",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He hid her under his work smock and walked out.",
    "show": {
     "k": "scene",
     "bg": "street",
     "cast": [
      {
       "id": "peruggia",
-      "x": 0.4,
+      "walk": [
+       0.2,
+       0.75
+      ],
       "pose": "walk",
       "mood": "happy"
      }
     ],
-    "cam": "pan"
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "text": "PARIS"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The next day, a painter came to sketch her and found an empty wall.",
+   "say": "Next day, a painter found an empty wall.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -101,13 +157,19 @@
      {
       "id": "beroud",
       "x": 0.3,
-      "mood": "shock",
-      "pose": "point"
+      "mood": "shock"
      },
      {
       "id": "lguard",
-      "x": 0.7,
-      "mood": "neutral"
+      "x": 0.68
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "s": 0.7,
+      "empty": true
      }
     ]
    }
@@ -118,21 +180,40 @@
   },
   {
    "who": "lguard",
-   "say": "Being photographed, probably. Relax."
-  },
-  {
-   "who": "N",
-   "say": "She was actually in a trunk in Peruggia's room, for more than two years.",
+   "say": "Being photographed, probably. Relax.",
    "show": {
-    "k": "card",
-    "label": "Time the Mona Lisa was missing",
-    "big": "2+ YEARS",
-    "sub": "1911 to 1913"
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "lguard",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close"
    }
   },
   {
    "who": "N",
-   "say": "In 1913 he tried to sell her in Florence, and the dealer called the police.",
+   "say": "She was hidden in a trunk in Peruggia's room for over two years.",
+   "show": {
+    "k": "card",
+    "label": "Time the Mona Lisa was missing",
+    "big": "2+ YEARS",
+    "sub": "in a trunk, in a Paris flat",
+    "cast": [
+     {
+      "id": "peruggia",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1913, he tried to sell her in Florence, Italy. The art dealer called the police.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -140,43 +221,53 @@
      {
       "id": "peruggia",
       "x": 0.3,
-      "mood": "scared"
+      "mood": "happy",
+      "pose": "present"
      },
      {
       "id": "geri",
       "x": 0.7,
-      "mood": "smug",
-      "pose": "point"
+      "mood": "shock"
      }
     ],
-    "tag": {
-     "id": "geri",
-     "text": "Alfredo Geri, art dealer"
-    }
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "flag": "italy",
+      "s": 0.55
+     }
+    ],
+    "place": "Florence, Italy · 1913"
    }
   },
   {
    "who": "N",
-   "say": "Follow for more heists that sound made up.",
+   "say": "She came home more famous than ever. Follow for more heists.",
    "show": {
     "k": "end",
     "cast": [
      {
       "id": "peruggia",
       "x": 0.3,
-      "pose": "wave",
-      "mood": "happy"
+      "mood": "sad"
      },
      {
       "id": "beroud",
       "x": 0.7,
-      "mood": "shock"
+      "pose": "cheer",
+      "mood": "happy"
      }
     ]
    }
   }
  ],
- "caption": "The Mona Lisa vanished for two years, and she was in a trunk the whole time.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #monalisa #louvre #historytok #heist",
+ "caption": "The Mona Lisa vanished for two years, and she was in a trunk the whole time.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #monalisa #louvre #historytok #heist",
  "youtube_title": "The Day the Mona Lisa Disappeared #shorts",
  "tags": [
   "mona lisa",

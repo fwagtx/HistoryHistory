@@ -32,30 +32,84 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1934, a panel of a famous van Eyck altarpiece vanished from the cathedral in Ghent.",
+   "say": "In 1934, someone stole part of a famous painting in Belgium, and it's still missing.",
    "show": {
     "k": "scene",
     "bg": "church",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "lawyer",
-      "x": 0.5,
-      "mood": "shock",
-      "pose": "scared"
+      "k": "painting",
+      "x": 0.3,
+      "s": 0.7
+     },
+     {
+      "k": "painting",
+      "x": 0.7,
+      "s": 0.7,
+      "empty": true
      }
     ],
+    "place": "Ghent, Belgium · 1934",
     "stickers": [
      {
-      "text": "MISSING",
-      "at": 1.0,
-      "color": "#C8302A"
+      "text": "STOLEN",
+      "at": 1.5,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "It was called The Just Judges, and ransom letters soon followed."
+   "say": "The Ghent Altarpiece is a giant painting made of panels, from the 1400s.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.3,
+      "text": "GHENT"
+     },
+     {
+      "k": "painting",
+      "x": 0.7,
+      "s": 0.8,
+      "label": "GHENT ALTARPIECE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On a night in April, one panel vanished: The Just Judges.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "s": 0.9,
+      "empty": true,
+      "label": "THE JUST JUDGES"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ransom letters soon arrived, demanding a huge sum to give it back.",
+   "show": {
+    "k": "card",
+    "label": "The thief wanted",
+    "big": "RANSOM",
+    "sub": "a huge sum, in secret letters"
+   }
   },
   {
    "who": "N",
@@ -66,14 +120,20 @@
     "cast": [
      {
       "id": "goedertier",
-      "x": 0.3,
-      "mood": "sad",
-      "pose": "sit"
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "scared"
      },
      {
       "id": "lawyer",
-      "x": 0.7,
-      "mood": "neutral"
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.7
      }
     ],
     "tag": {
@@ -88,11 +148,7 @@
   },
   {
    "who": "lawyer",
-   "say": "Wonderful! And where is that?"
-  },
-  {
-   "who": "N",
-   "say": "He died without telling anyone.",
+   "say": "Wonderful! And where is that?",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -100,8 +156,8 @@
      {
       "id": "lawyer",
       "x": 0.5,
-      "mood": "shock",
-      "pose": "facepalm"
+      "mood": "happy",
+      "pose": "point"
      }
     ],
     "cam": "close"
@@ -109,23 +165,43 @@
   },
   {
    "who": "N",
-   "say": "His papers held copies of the ransom letters, but no location.",
+   "say": "He died without telling anyone. His papers held copies of the ransom letters, but no location.",
    "show": {
     "k": "scene",
     "bg": "library",
     "cast": [
      {
       "id": "lawyer",
-      "x": 0.5,
-      "mood": "sad",
-      "hold": "letter"
+      "x": 0.3,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.68,
+      "s": 0.6,
+      "text": "RANSOM LETTERS"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The panel has never been found, and a copy fills the gap today."
+   "say": "The panel has never been found. Today, a copy fills the gap.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "s": 0.9,
+      "label": "A COPY"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -134,21 +210,20 @@
     "k": "end",
     "cast": [
      {
-      "id": "lawyer",
+      "id": "goedertier",
       "x": 0.3,
-      "pose": "wave",
-      "mood": "sad"
+      "mood": "smug"
      },
      {
-      "id": "goedertier",
+      "id": "lawyer",
       "x": 0.7,
-      "mood": "smug"
+      "pose": "shrug"
      }
     ]
    }
   }
  ],
- "caption": "A stolen masterpiece, a deathbed confession, and no location. It's still missing.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #arttheft #mystery #historytok #belgium",
+ "caption": "A stolen masterpiece, a deathbed confession, and no location. It's still missing.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #arttheft #mystery #historytok #belgium",
  "youtube_title": "He Died Before Saying Where the Painting Was #shorts",
  "tags": [
   "ghent altarpiece",

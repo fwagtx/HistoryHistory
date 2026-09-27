@@ -1,0 +1,293 @@
+{
+ "id": "2026w40-s11",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "China Flushed 1,000 Tons of Opium Into the Sea",
+ "hook": "1,000 TONS OF OPIUM",
+ "music": "playful",
+ "cast": {
+  "lin": {
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#2F3F7A",
+   "color2": "#E8C25A",
+   "beard": "goatee",
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Lin Zexu"
+  },
+  "trader": {
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#1F8A4A",
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "moneybag"
+  },
+  "brit": {
+   "preset": "merchant",
+   "hat": "tophat",
+   "outfit": "coat",
+   "color": "#A8322A",
+   "skin": "peach",
+   "name": "British merchant"
+  }
+ },
+ "voices": {
+  "lin": "bm_lewis",
+  "brit": "bm_george",
+  "trader": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1839, a Chinese official flushed a thousand tons of opium into the sea, and started a war.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "lin",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "cam": "push",
+    "place": "Canton, China · 1839",
+    "tag": {
+     "id": "lin",
+     "text": "Lin Zexu"
+    },
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "OPIUM"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Opium is an addictive drug. British merchants smuggled it into China from India, to pay for tea.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.7,
+      "flag": "uk",
+      "move": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OPIUM IN",
+      "at": 0.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "TEA OUT",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the emperor sent an official, Lin Zexu, to stop it.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lin",
+      "x": 0.3,
+      "pose": "salute",
+      "mood": "neutral"
+     },
+     {
+      "id": "brit",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "lin",
+   "say": "Hand over the opium. All of it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "lin",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "brit",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "lin"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He seized about twenty thousand chests, mixed the opium with lime and salt, and flushed it out to sea.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.25,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "push",
+    "place": "Humen, China · June 1839",
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.55,
+      "s": 0.45,
+      "label": "OPIUM"
+     },
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "20,000 CHESTS",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His own diary says he first wrote an apology to the god of the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "lin",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "sad",
+      "hold": "scroll"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Britain sent warships. China lost the First Opium War and had to hand over Hong Kong Island.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.65,
+      "flag": "uk"
+     },
+     {
+      "k": "junk",
+      "x": 0.75,
+      "s": 0.6,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1839 TO 1842",
+      "at": 0.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "HONG KONG",
+      "at": 1.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that escalated fast.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lin",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "brit",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "China dumped a mountain of opium into the sea. Britain answered with warships.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #opiumwar #chinesehistory #linzexu #historytok",
+ "youtube_title": "China Flushed 1,000 Tons of Opium Into the Sea #shorts",
+ "tags": [
+  "opium war",
+  "lin zexu",
+  "qing dynasty",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen",
+  "https://chiculture.org.hk/en/photo-story/107",
+  "https://www.britannica.com/biography/Lin-Zexu",
+  "https://www.laphamsquarterly.org/contributors/zexu",
+  "https://www.newworldencyclopedia.org/entry/Lin_Zexu",
+  "https://www.britannica.com/event/Treaty-of-Nanjing",
+  "https://www.nationalarchives.gov.uk/education/resources/hong-kong-and-the-opium-wars/"
+ ]
+}

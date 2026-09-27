@@ -7,13 +7,6 @@
  "hook": "THEY VANISHED",
  "music": "playful",
  "cast": {
-  "edward7": {
-   "preset": "king",
-   "beard": "full",
-   "hairColor": "#8A8A8A",
-   "hair": "bald",
-   "name": "King Edward VII"
-  },
   "vicars": {
    "skin": "peach",
    "outfit": "suit",
@@ -23,25 +16,86 @@
    "stache": "handlebar",
    "glasses": "round",
    "name": "Sir Arthur Vicars"
+  },
+  "edward7": {
+   "preset": "king",
+   "beard": "full",
+   "hairColor": "#8A8A8A",
+   "hair": "bald",
+   "name": "King Edward VII"
   }
  },
  "voices": {
-  "edward7": "bm_george",
-  "vicars": "bm_daniel"
+  "vicars": "bm_daniel",
+  "edward7": "bm_george"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1907, Ireland's so-called Crown Jewels vanished from a safe in Dublin Castle, and they've never been found.",
+   "say": "In 1907, Ireland's so-called Crown Jewels vanished from Dublin Castle. They've never been found.",
    "show": {
     "k": "scene",
     "bg": "castle",
     "cast": [
      {
       "id": "vicars",
-      "x": 0.5,
-      "mood": "smug",
-      "pose": "hips"
+      "x": 0.3,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.8,
+      "flag": "uk"
+     }
+    ],
+    "place": "Dublin Castle, Ireland · 1907"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, Ireland was part of the United Kingdom.",
+   "show": {
+    "k": "flag",
+    "flag": "uk",
+    "label": "THE UNITED KINGDOM",
+    "sub": "Ireland was part of it in 1907",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They weren't a crown. They were a jeweled star and badge for Ireland's top knight.",
+   "show": {
+    "k": "card",
+    "label": "The Irish \"Crown Jewels\"",
+    "big": "★ + BADGE",
+    "sub": "diamonds, rubies and emeralds"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They sat in a safe, guarded by an official, Sir Arthur Vicars.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "vicars",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.7,
+      "open": false,
+      "label": "SAFE"
      }
     ],
     "tag": {
@@ -52,23 +106,34 @@
   },
   {
    "who": "N",
-   "say": "They were the jewelled star and badge of the Order of Saint Patrick."
-  },
-  {
-   "who": "N",
-   "say": "On the sixth of July, the safe was opened, and the jewels were gone. The lock hadn't been forced.",
+   "say": "On the sixth of July, the safe was opened. Empty. The lock hadn't been forced.",
    "show": {
     "k": "scene",
-    "bg": "office",
+    "bg": "vault",
     "cast": [
      {
       "id": "vicars",
-      "x": 0.5,
+      "x": 0.4,
       "mood": "shock",
       "pose": "scared"
      }
     ],
-    "cam": "close"
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.7,
+      "open": false
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "GONE",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
@@ -84,14 +149,22 @@
     "cast": [
      {
       "id": "edward7",
-      "x": 0.3,
+      "x": 0.6,
       "mood": "angry",
       "pose": "hips"
      },
      {
       "id": "vicars",
-      "x": 0.7,
+      "x": 0.28,
       "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.88,
+      "flag": "uk",
+      "s": 0.55
      }
     ],
     "tag": {
@@ -102,28 +175,27 @@
   },
   {
    "who": "edward7",
-   "say": "So. Where exactly are the jewels?"
+   "say": "So. Where exactly are my jewels?"
   },
   {
    "who": "N",
-   "say": "The ceremony was cancelled, Sir Arthur Vicars lost his job, and no one was ever charged."
-  },
-  {
-   "who": "N",
-   "say": "More than a century later, the case is still unsolved.",
+   "say": "Vicars lost his job, but no one was ever charged. It's still a mystery.",
    "show": {
     "k": "scene",
     "bg": "castle",
     "cast": [
      {
       "id": "vicars",
-      "x": 0.5,
-      "mood": "sad",
-      "pose": "shrug"
+      "x": 0.35,
+      "mood": "sad"
      }
     ],
-    "fx": [
-     "rain"
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "text": "UNSOLVED"
+     }
     ]
    }
   },
@@ -136,19 +208,18 @@
      {
       "id": "vicars",
       "x": 0.3,
-      "pose": "wave",
       "mood": "sad"
      },
      {
       "id": "edward7",
       "x": 0.7,
-      "mood": "angry"
+      "mood": "smug"
      }
     ]
    }
   }
  ],
- "caption": "Ireland's Crown Jewels vanished in 1907. They've never been found.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #ireland #mystery #historytok #heist",
+ "caption": "Ireland's Crown Jewels vanished in 1907. They've never been found.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ireland #mystery #historytok #heist",
  "youtube_title": "Ireland's Crown Jewels Are Still Missing #shorts",
  "tags": [
   "irish crown jewels",

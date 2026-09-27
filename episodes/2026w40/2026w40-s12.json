@@ -1,0 +1,279 @@
+{
+ "id": "2026w40-s12",
+ "format": "short",
+ "date": "2026-09-28",
+ "slot": "09:00",
+ "title": "The Palace Almost Nobody Was Allowed to Enter",
+ "hook": "9,999½ ROOMS?",
+ "music": "playful",
+ "cast": {
+  "yongle": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#E8C25A",
+   "color2": "#A8322A",
+   "beard": "full",
+   "stache": "handlebar",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Yongle Emperor"
+  },
+  "official": {
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "worker": {
+   "preset": "worker",
+   "hat": "straw",
+   "hairColor": "#1E1C1B",
+   "skin": "tan"
+  },
+  "host": {
+   "preset": "host"
+  }
+ },
+ "voices": {
+  "yongle": "bm_george",
+  "official": "bm_daniel",
+  "worker": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "For almost five hundred years, China's emperors lived in a palace most people were never allowed to enter.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "push",
+    "place": "Beijing, China · 1420",
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KEEP OUT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's Beijing's Forbidden City, built for the Ming dynasty's Yongle Emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "yongle",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "push",
+    "tag": {
+     "id": "yongle",
+     "text": "Yongle Emperor"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It took from 1406 to 1420 and, by one estimate, a million workers.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.25,
+      "pose": "hold",
+      "mood": "sad",
+      "hold": "hammer"
+     }
+    ],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.62,
+      "s": 0.55
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.4,
+      "label": "BRICKS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1406 TO 1420",
+      "at": 0.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "~1,000,000 WORKERS",
+      "at": 1.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Why forbidden? Even officials and royals had limited access. Only the emperor could go anywhere.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "yongle",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "official",
+   "say": "Majesty, may I see the rest of the palace?"
+  },
+  {
+   "who": "yongle",
+   "say": "Absolutely not.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "yongle",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "yongle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legend says it has nine thousand nine hundred ninety-nine and a half rooms, since only Heaven gets ten thousand.",
+   "show": {
+    "k": "card",
+    "label": "Rooms, according to legend",
+    "big": "9,999½",
+    "sub": "real counts: closer to 9,000"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Twenty-four emperors ruled from here. Today it's a museum that sells tickets to anyone.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.45,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "24 EMPERORS",
+      "at": 0.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "NOW A MUSEUM",
+      "at": 2.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history you can visit.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "yongle",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "official",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Nearly 500 years of 'keep out.' Now anyone can buy a ticket.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #forbiddencity #beijing #chinesehistory #historytok",
+ "youtube_title": "The Palace Almost Nobody Was Allowed to Enter #shorts",
+ "tags": [
+  "forbidden city",
+  "ming dynasty",
+  "beijing",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/topic/Forbidden-City",
+  "https://en.wikipedia.org/wiki/Forbidden_City",
+  "https://en.wikipedia.org/wiki/History_of_the_Forbidden_City",
+  "https://www.nationalgeographic.com/history/history-magazine/article/emperors-ruled-from-chinas-forbidden-city-for-nearly-5-centuries",
+  "https://www.chinahighlights.com/beijing/forbidden-city/",
+  "https://www.historyhit.com/what-was-the-forbidden-city-and-why-was-it-built/"
+ ]
+}

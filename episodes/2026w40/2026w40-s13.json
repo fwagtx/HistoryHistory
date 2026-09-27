@@ -31,28 +31,36 @@
  "beats": [
   {
    "who": "N",
-   "say": "An old story says a famous Greek writer was killed by a tortoise that fell from the sky.",
+   "say": "Legend says a famous Greek writer was killed by a falling tortoise.",
    "show": {
     "k": "scene",
-    "bg": "greek",
+    "bg": "field",
     "cast": [
      {
       "id": "aeschylus",
-      "x": 0.45,
+      "x": 0.5,
       "enter": "pop",
       "pose": "shrug",
       "mood": "shock"
      }
     ],
-    "place": "Athens, Greece · 400s BC",
-    "tag": {
-     "id": "aeschylus",
-     "text": "Aeschylus"
-    },
+    "place": "Gela, Sicily · about 456 BC",
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.2,
+      "s": 0.8
+     },
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.8
+     }
+    ],
     "stickers": [
      {
-      "text": "TORTOISE?",
-      "at": 1.6,
+      "text": "DEATH BY TORTOISE?",
+      "at": 1.2,
       "color": "#A8322A"
      }
     ]
@@ -60,33 +68,40 @@
   },
   {
    "who": "N",
-   "say": "His name was Aeschylus, and he wrote tragedies: serious plays with sad endings.",
+   "say": "Aeschylus wrote tragedies: serious plays with sad endings.",
    "show": {
     "k": "scene",
     "bg": "greek",
     "cast": [
      {
       "id": "aeschylus",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "present",
       "hold": "scroll",
       "mood": "happy"
      }
     ],
-    "cam": "close",
-    "focus": "aeschylus",
-    "stickers": [
+    "tag": {
+     "id": "aeschylus",
+     "text": "Aeschylus, playwright"
+    },
+    "objects": [
      {
-      "text": "TRAGEDY = SAD PLAY",
-      "at": 0.8,
-      "color": "#3A4A8A"
+      "k": "column",
+      "x": 0.15,
+      "s": 0.8
+     },
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.8
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Around 456 BC, he was living in Gela, a town on the island of Sicily.",
+   "say": "Around 456 BC, he lived in Gela, a town on Sicily.",
    "show": {
     "k": "map",
     "lon": 18.5,
@@ -126,10 +141,10 @@
   },
   {
    "who": "N",
-   "say": "The story goes that a prophecy, a prediction about his future, said something falling would kill him.",
+   "say": "A prophecy said something falling would kill him, so he stayed outdoors, away from roofs.",
    "show": {
     "k": "scene",
-    "bg": "field",
+    "bg": "village",
     "cast": [
      {
       "id": "greekfriend",
@@ -138,24 +153,26 @@
      },
      {
       "id": "aeschylus",
-      "x": 0.68,
+      "x": 0.66,
       "pose": "scared",
       "mood": "scared"
      }
     ],
-    "place": "Gela, Sicily · about 456 BC",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ],
     "stickers": [
      {
-      "text": "PROPHECY",
-      "at": 1.2,
-      "color": "#3A4A8A"
+      "text": "NO ROOFS!",
+      "at": 2.5,
+      "color": "#A8322A"
      }
     ]
    }
-  },
-  {
-   "who": "N",
-   "say": "So he stayed outdoors, far from any roof that could fall on him."
   },
   {
    "who": "aeschylus",
@@ -177,7 +194,7 @@
   },
   {
    "who": "N",
-   "say": "Up above, an eagle was carrying a tortoise, looking for a rock to crack its shell on.",
+   "say": "Above, an eagle was carrying a tortoise, looking for a rock to crack it on.",
    "show": {
     "k": "card",
     "label": "The eagle is looking for",
@@ -187,23 +204,33 @@
   },
   {
    "who": "N",
-   "say": "It spotted Aeschylus's shiny bald head, and let go. Bonk.",
+   "say": "It spotted his shiny bald head, and let go. Bonk.",
    "show": {
     "k": "scene",
     "bg": "field",
     "cast": [
      {
       "id": "aeschylus",
-      "x": 0.5,
+      "x": 0.55,
       "pose": "scared",
       "mood": "shock"
      }
     ],
     "cam": "shake",
+    "fx": [
+     "sparkle"
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.2,
+      "s": 0.8
+     }
+    ],
     "stickers": [
      {
       "text": "NOT A ROCK",
-      "at": 0.5,
+      "at": 0.6,
       "color": "#A8322A"
      },
      {
@@ -216,14 +243,14 @@
   },
   {
    "who": "N",
-   "say": "This tale comes from Roman writers like Pliny the Elder, centuries later, and historians say it's almost certainly a legend.",
+   "say": "But this tale comes from Roman writers centuries later, and historians call it almost certainly a legend.",
    "show": {
     "k": "scene",
     "bg": "rome",
     "cast": [
      {
       "id": "pliny",
-      "x": 0.45,
+      "x": 0.62,
       "pose": "hold",
       "hold": "scroll"
      }
@@ -231,13 +258,14 @@
     "place": "Rome · centuries later",
     "tag": {
      "id": "pliny",
-     "text": "Pliny the Elder"
+     "text": "Pliny the Elder, Roman writer"
     },
-    "stickers": [
+    "objects": [
      {
-      "text": "LEGEND",
-      "at": 2.5,
-      "color": "#A8322A"
+      "k": "scrollbig",
+      "x": 0.22,
+      "s": 0.7,
+      "text": "Eagle + tortoise"
      }
     ]
    }
@@ -267,7 +295,7 @@
    }
   }
  ],
- "caption": "A prophecy, an eagle and a very unlucky bald head. Almost certainly a legend, but what a legend.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #aeschylus #ancientgreece #historytok #funnyhistory",
+ "caption": "A prophecy, an eagle and a very unlucky bald head. Almost certainly a legend, but what a legend.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aeschylus #ancientgreece #historytok #funnyhistory",
  "youtube_title": "Was This Playwright Killed by a Tortoise? #shorts",
  "tags": [
   "aeschylus",

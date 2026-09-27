@@ -7,16 +7,6 @@
  "hook": "IMMORTALITY PILLS",
  "music": "playful",
  "cast": {
-  "alchemist": {
-   "outfit": "robe",
-   "color": "#2F7A6A",
-   "color2": "#E8C25A",
-   "hair": "bun",
-   "hairColor": "#DADADA",
-   "beard": "long",
-   "skin": "light",
-   "hold": "bottle"
-  },
   "qin": {
    "hat": "crown",
    "outfit": "robe",
@@ -28,6 +18,16 @@
    "stache": "thin",
    "skin": "light",
    "name": "Qin Shi Huang"
+  },
+  "alchemist": {
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#DADADA",
+   "beard": "long",
+   "skin": "light",
+   "hold": "bottle"
   }
  },
  "voices": {
@@ -50,15 +50,54 @@
      }
     ],
     "cam": "push",
+    "place": "China · 221 BC",
     "tag": {
      "id": "qin",
      "text": "Qin Shi Huang"
-    }
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Qin Shi Huang united China in 221 BC, and then he got obsessed with one thing: not dying."
+   "say": "His name was Qin Shi Huang. In 221 BC, he united China's warring kingdoms and became its very first emperor.",
+   "show": {
+    "k": "card",
+    "label": "China's first emperor",
+    "big": "221 BC",
+    "sub": "Qin Shi Huang unites China"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he got obsessed with one thing: not dying.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "qin",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "qin",
+    "stickers": [
+     {
+      "text": "NOT DYING",
+      "at": 0.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
   },
   {
    "who": "alchemist",
@@ -69,7 +108,7 @@
     "cast": [
      {
       "id": "alchemist",
-      "x": 0.3,
+      "x": 0.28,
       "pose": "present",
       "mood": "happy"
      },
@@ -79,7 +118,16 @@
       "pose": "think"
      }
     ],
-    "cam": "still"
+    "cam": "still",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.5,
+      "s": 0.45,
+      "front": true,
+      "label": "PILLS"
+     }
+    ]
    }
   },
   {
@@ -91,7 +139,7 @@
    "say": "Mercury! Very shiny!",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "throne",
     "cast": [
      {
       "id": "alchemist",
@@ -105,7 +153,7 @@
     "focus": "alchemist",
     "stickers": [
      {
-      "text": "MERCURY",
+      "text": "MERCURY = POISON",
       "at": 0.6,
       "color": "#A8322A"
      }
@@ -114,24 +162,29 @@
   },
   {
    "who": "N",
-   "say": "He even sent a court magician named Xu Fu out to sea to find the elixir of life. On his second trip, Xu Fu never came back.",
+   "say": "He even sent a court magician named Xu Fu across the sea to find the elixir of life. On his second trip, Xu Fu never came back.",
    "show": {
     "k": "scene",
     "bg": "sea",
-    "cast": [
+    "cast": [],
+    "cam": "pan",
+    "objects": [
      {
-      "id": "alchemist",
-      "x": 0.45,
-      "pose": "wave",
-      "mood": "happy"
+      "k": "junk",
+      "x": 0.5,
+      "s": 0.75,
+      "move": [
+       0.35,
+       0.75
+      ],
+      "label": "Xu Fu"
      }
-    ],
-    "cam": "pan"
+    ]
    }
   },
   {
    "who": "N",
-   "say": "In 210 BC, the emperor died on a tour of his empire at forty-nine, and many historians suspect his mercury pills were to blame.",
+   "say": "In 210 BC, the emperor died on a tour of his empire, at forty-nine. Many historians suspect those mercury pills.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -175,7 +228,7 @@
    }
   }
  ],
- "caption": "He wanted to live forever. His medicine had other plans.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #qinshihuang #chinesehistory #ancientchina #historytok",
+ "caption": "He wanted to live forever. His medicine had other plans.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #qinshihuang #chinesehistory #ancientchina #historytok",
  "youtube_title": "China's First Emperor Took Mercury to Live Forever #shorts",
  "tags": [
   "qin shi huang",

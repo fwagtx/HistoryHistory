@@ -30,75 +30,165 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1983, robbers got into a vault near Heathrow expecting about three million pounds in cash.",
+   "say": "In 1983, robbers broke into a warehouse expecting cash, and found three tonnes of gold instead.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "factory",
     "cast": [
      {
       "id": "vaultguy1",
       "x": 0.3,
-      "mood": "smug"
-     },
-     {
-      "id": "vaultguy2",
-      "x": 0.65,
+      "pose": "point",
       "mood": "smug"
      }
     ],
-    "cam": "pan"
-   }
-  },
-  {
-   "who": "N",
-   "say": "They'd had help from an inside man, a security guard."
-  },
-  {
-   "who": "vaultguy1",
-   "say": "Right. Where's the cash?",
-   "show": {
-    "k": "scene",
-    "bg": "vault",
-    "cast": [
+    "objects": [
      {
-      "id": "vaultguy1",
-      "x": 0.3,
-      "mood": "neutral",
-      "pose": "think"
+      "k": "plane",
+      "x": 0.7,
+      "color": "#F2F2F2",
+      "s": 0.6
      },
      {
-      "id": "vaultguy2",
-      "x": 0.65,
-      "mood": "shock",
-      "hold": "goldbar"
+      "k": "sign",
+      "x": 0.75,
+      "text": "BRINK'S-MAT"
+     }
+    ],
+    "place": "Heathrow Airport, London · 1983",
+    "stickers": [
+     {
+      "text": "£££",
+      "at": 1.8,
+      "color": "#1F8A4A"
      }
     ]
    }
   },
   {
-   "who": "vaultguy2",
-   "say": "Forget the cash. Look at this!"
+   "who": "N",
+   "say": "It belonged to Brink's-Mat, a security company. One of its own guards helped the gang."
   },
   {
    "who": "N",
-   "say": "Instead they found about three tonnes of gold bars, part of a haul worth twenty-six million pounds.",
+   "say": "They'd been told to expect about three million pounds in cash.",
    "show": {
-    "k": "card",
-    "label": "What was actually in the Brink's-Mat vault",
-    "big": "3 TONNES",
-    "sub": "about 6,800 gold bars; with diamonds and cash, a £26 million haul"
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "vaultguy1",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "vaultguy2",
+      "x": 0.65
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.6,
+      "label": "CASH?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "£3 MILLION?",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "vaultguy1",
+   "say": "Right. Where's the cash?"
+  },
+  {
+   "who": "vaultguy2",
+   "say": "Forget the cash. Look at this!",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "vaultguy2",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.65,
+      "s": 1.1,
+      "front": true
+     }
+    ],
+    "cam": "close"
    }
   },
   {
    "who": "N",
-   "say": "The guard's family link to one robber put police on the trail, and two ringleaders got twenty-five years.",
+   "say": "Instead: six thousand eight hundred gold bars, about the weight of two cars.",
+   "show": {
+    "k": "card",
+    "label": "What was really in the vault",
+    "big": "3 TONNES",
+    "sub": "6,800 gold bars, about the weight of two cars"
+   }
+  },
+  {
+   "who": "N",
+   "say": "With some diamonds and cash, the haul was worth twenty-six million pounds.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.5,
+      "move": [
+       0.2,
+       0.8
+      ],
+      "label": "GETAWAY VAN"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "£26 MILLION",
+      "at": 1.0,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Police caught the guard fast: his sister lived with a robber. Two ringleaders got twenty-five years.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
     "cast": [
      {
       "id": "vaultguy1",
-      "x": 0.5,
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "vaultguy2",
+      "x": 0.65,
       "mood": "sad"
      }
     ]
@@ -106,27 +196,27 @@
   },
   {
    "who": "N",
-   "say": "But most of the gold was melted down and never recovered."
-  },
-  {
-   "who": "N",
-   "say": "Legend says some of it ended up in British jewellery. Nobody can prove it.",
+   "say": "But most of the gold was melted down and never found.",
    "show": {
     "k": "scene",
-    "bg": "market",
-    "cast": [
+    "bg": "factory",
+    "cast": [],
+    "objects": [
      {
-      "id": "vaultguy2",
-      "x": 0.5,
-      "mood": "smug",
-      "hold": "coin"
+      "k": "fire",
+      "x": 0.4
+     },
+     {
+      "k": "goldpile",
+      "x": 0.65,
+      "s": 0.7
      }
     ],
     "stickers": [
      {
-      "text": "LEGEND",
+      "text": "STILL MISSING",
       "at": 1.0,
-      "color": "#D4A52A"
+      "color": "#A8322A"
      }
     ]
    }
@@ -138,14 +228,13 @@
     "k": "end",
     "cast": [
      {
-      "id": "vaultguy2",
+      "id": "vaultguy1",
       "x": 0.3,
-      "pose": "wave",
-      "mood": "happy",
-      "hold": "goldbar"
+      "hold": "goldbar",
+      "mood": "smug"
      },
      {
-      "id": "vaultguy1",
+      "id": "vaultguy2",
       "x": 0.7,
       "mood": "shock"
      }
@@ -153,7 +242,7 @@
    }
   }
  ],
- "caption": "They broke in for £3 million in cash. They left with £26 million in gold, diamonds and cash.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #heist #gold #historytok #truecrime",
+ "caption": "They broke in for £3 million in cash. They left with £26 million in gold, diamonds and cash.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #heist #gold #historytok #truecrime",
  "youtube_title": "Robbers Expected Cash and Found 3 Tonnes of Gold #shorts",
  "tags": [
   "brinks mat",

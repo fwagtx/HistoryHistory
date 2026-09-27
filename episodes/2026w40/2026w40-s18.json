@@ -35,7 +35,7 @@
     "cast": [
      {
       "id": "adolf",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "sit",
       "mood": "happy"
      }
@@ -44,25 +44,25 @@
      "id": "adolf",
      "text": "King Adolf Frederick"
     },
-    "place": "Stockholm, Sweden · 1771"
+    "place": "Stockholm, Sweden · 1771",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "sweden"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "King Adolf Frederick loved a good meal, and one day he went all in.",
+   "say": "King Adolf Frederick of Sweden loved a good meal, and one day he went all in.",
    "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "adolf",
-      "x": 0.45,
-      "pose": "cheer",
-      "mood": "happy"
-     }
-    ],
-    "cam": "close",
-    "focus": "adolf"
+    "k": "flag",
+    "flag": "sweden",
+    "label": "SWEDEN",
+    "sub": "1771",
+    "bg": "snow"
    }
   },
   {
@@ -95,9 +95,23 @@
      },
      {
       "id": "adolf",
-      "x": 0.68,
+      "x": 0.66,
       "pose": "cheer",
       "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.6,
+      "label": "LOBSTER"
+     },
+     {
+      "k": "crate",
+      "x": 0.84,
+      "s": 0.6,
+      "label": "CAVIAR"
      }
     ]
    }
@@ -111,26 +125,31 @@
    "say": "Dessert was semla, a sweet cream bun in hot milk, and legend says he ate fourteen.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "tavern",
     "cast": [
      {
+      "id": "chef",
+      "x": 0.3,
+      "pose": "present",
+      "hold": "bread"
+     },
+     {
       "id": "adolf",
-      "x": 0.45,
+      "x": 0.66,
       "pose": "hold",
+      "hold": "bread",
       "mood": "happy"
      }
     ],
-    "cam": "close",
-    "focus": "adolf",
     "stickers": [
      {
       "text": "SEMLA = CREAM BUN",
-      "at": 0.6,
-      "color": "#C9A04A"
+      "at": 0.8,
+      "color": "#6A4A2A"
      },
      {
-      "text": "14 BUNS?",
-      "at": 2.4,
+      "text": "x 14?",
+      "at": 3.0,
       "color": "#A8322A"
      }
     ]
@@ -145,12 +164,19 @@
     "cast": [
      {
       "id": "adolf",
-      "x": 0.45,
+      "x": 0.55,
       "pose": "sit",
       "mood": "sad"
      }
     ],
-    "cam": "still"
+    "cam": "still",
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.2,
+      "s": 0.6
+     }
+    ]
    }
   },
   {
@@ -172,17 +198,18 @@
     "cast": [
      {
       "id": "chef",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "present",
-      "mood": "happy"
+      "mood": "happy",
+      "hold": "bread"
      }
     ],
     "place": "Sweden · today",
-    "stickers": [
+    "objects": [
      {
-      "text": "SEMLA DAY",
-      "at": 0.8,
-      "color": "#C9A04A"
+      "k": "flag",
+      "x": 0.82,
+      "flag": "sweden"
      }
     ]
    }
@@ -208,7 +235,7 @@
    }
   }
  ],
- "caption": "Lobster, caviar, champagne and maybe 14 cream buns.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #semla #sweden #historytok #funnyhistory",
+ "caption": "Lobster, caviar, champagne and maybe 14 cream buns.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #semla #sweden #historytok #funnyhistory",
  "youtube_title": "The King Who Ate Himself to Death #shorts",
  "tags": [
   "adolf frederick",

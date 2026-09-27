@@ -35,10 +35,14 @@
     "cast": [
      {
       "id": "attila",
-      "x": 0.45,
+      "x": 0.4,
       "pose": "fist",
       "mood": "angry",
       "hold": "sword"
+     },
+     {
+      "id": "horse",
+      "x": 0.74
      }
     ],
     "fx": [
@@ -48,15 +52,15 @@
      "id": "attila",
      "text": "Attila the Hun"
     },
-    "place": "Hun lands, Central Europe · 440s AD"
+    "place": "The Hun Empire · 440s AD"
    }
   },
   {
    "who": "N",
-   "say": "The Huns were a people of fierce horse-riding warriors, and Attila was their king.",
+   "say": "The Huns were fierce horse warriors, and Attila was their king.",
    "show": {
     "k": "scene",
-    "bg": "steppe",
+    "bg": "camp",
     "cast": [
      {
       "id": "hunguard",
@@ -65,23 +69,28 @@
      },
      {
       "id": "attila",
-      "x": 0.68,
+      "x": 0.66,
       "pose": "hips",
       "mood": "smug"
      }
     ],
-    "stickers": [
+    "objects": [
      {
-      "text": "KING OF THE HUNS",
-      "at": 0.8,
-      "color": "#A8322A"
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.7
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "He invaded Gaul, which is now France, and Italy, and made the Romans pay him mountains of gold.",
+   "say": "He invaded France and Italy, and made the Romans pay him mountains of gold.",
    "show": {
     "k": "map",
     "lon": 13,
@@ -107,12 +116,6 @@
       12.5,
       42.5,
       0
-     ],
-     [
-      "Constantinople",
-      28.97,
-      41.01,
-      0
      ]
     ],
     "areas": [
@@ -122,26 +125,12 @@
       2.5,
       "rgba(200,60,40,0.35)"
      ]
-    ],
-    "route": [
-     [
-      20.0,
-      47.0
-     ],
-     [
-      8.0,
-      48.5
-     ],
-     [
-      3.0,
-      48.0
-     ]
     ]
    }
   },
   {
    "who": "N",
-   "say": "In 453, he threw a huge feast for his wedding to a young woman named Ildico.",
+   "say": "In 453, he threw a huge wedding feast, marrying a young woman named Ildico.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -161,11 +150,15 @@
      "confetti"
     ],
     "place": "Attila's camp · 453 AD",
-    "stickers": [
+    "objects": [
      {
-      "text": "WEDDING FEAST",
-      "at": 1.0,
-      "color": "#C9A04A"
+      "k": "barrel",
+      "x": 0.14
+     },
+     {
+      "k": "goldpile",
+      "x": 0.86,
+      "s": 0.8
      }
     ]
    }
@@ -193,31 +186,38 @@
   },
   {
    "who": "N",
-   "say": "The next morning he didn't come out, so his guards broke down the door.",
+   "say": "Next morning, he didn't come out, so guards broke down the door.",
    "show": {
     "k": "scene",
     "bg": "night",
     "cast": [
      {
       "id": "hunguard",
-      "x": 0.5,
+      "x": 0.55,
       "pose": "scared",
       "mood": "shock"
      }
     ],
     "cam": "shake",
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.2,
+      "s": 0.8
+     }
+    ],
     "stickers": [
      {
-      "text": "NEXT MORNING",
-      "at": 0.5,
-      "color": "#3A4A8A"
+      "text": "THE NEXT MORNING",
+      "at": 0.4,
+      "color": "#2F6FC2"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Priscus, a Roman historian of that time, says Attila had a heavy nosebleed while lying on his back, and choked.",
+   "say": "Priscus, a historian of the time, says Attila had a nosebleed lying on his back, and choked.",
    "show": {
     "k": "card",
     "label": "Cause of death, according to Priscus",
@@ -225,7 +225,7 @@
     "sub": "after a night of feasting and wine",
     "cast": [
      {
-      "id": "hunguard",
+      "id": "attila",
       "mood": "shock"
      }
     ]
@@ -233,7 +233,7 @@
   },
   {
    "who": "N",
-   "say": "So the man who scared an empire was beaten by his own nose.",
+   "say": "The man who scared an empire, beaten by his own nose.",
    "show": {
     "k": "scene",
     "bg": "steppe",
@@ -243,6 +243,13 @@
       "x": 0.5,
       "pose": "facepalm",
       "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.2,
+      "s": 0.8
      }
     ]
    }
@@ -267,7 +274,7 @@
    }
   }
  ],
- "caption": "The Scourge of God vs. his own nose.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #attilathehun #romanempire #historytok #funnyhistory",
+ "caption": "The Scourge of God vs. his own nose.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #attilathehun #romanempire #historytok #funnyhistory",
  "youtube_title": "Attila the Hun Was Defeated by a Nosebleed #shorts",
  "tags": [
   "attila the hun",

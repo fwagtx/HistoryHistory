@@ -2,10 +2,10 @@
  "id": "2026w40-l1",
  "format": "long",
  "date": "2026-09-28",
- "title": "The ENTIRE History of China in 16 Minutes",
- "youtube_title": "The ENTIRE History of China in 16 Minutes",
+ "title": "The ENTIRE History of China in 10 Minutes",
+ "youtube_title": "The ENTIRE History of China in 10 Minutes",
  "music": "playful",
- "description": "From the legendary Xia dynasty around 2070 BC to a six-year-old emperor stepping down in 1912, this is the whole story of imperial China: oracle bones, the First Emperor and his mercury pills, the Terracotta Army, the Silk Road, exam cells, the only woman emperor, gunpowder, paper money, Mongols, a giraffe for the Ming court, and the fall of the last dynasty. Every fact is checked against historians and museums, and legends are labelled as legends.\n\nChapters are added automatically.\n\n#history #china #chinesehistory #animatedhistory #greatwall",
+ "description": "From the First Emperor and his mercury pills in 221 BC to a six-year-old emperor stepping down in 1912, this is the whole story of imperial China in eight simple stories: the Terracotta Army, the Silk Road, a 1,300-year exam, gunpowder by accident, the first paper money, the Mongols, giant treasure ships and a giraffe, the Opium War and the last emperor. Every fact is checked, and legends are labelled as legends.\n\nChapters are added automatically.\n\n#history #china #chinesehistory #animatedhistory #greatwall",
  "tags": [
   "history of china",
   "chinese history",
@@ -31,9 +31,6 @@
    "skin": "light",
    "hold": "bottle"
   },
-  "astronaut": {
-   "preset": "astronaut"
-  },
   "cixi": {
    "hat": "tiara",
    "outfit": "gown",
@@ -53,26 +50,6 @@
    "stache": "thin",
    "skin": "tan",
    "hold": "spear"
-  },
-  "confucius": {
-   "outfit": "robe",
-   "color": "#7A5A3A",
-   "color2": "#2F6FC2",
-   "hair": "bun",
-   "hairColor": "#6A6A6A",
-   "beard": "long",
-   "skin": "light",
-   "hold": "scroll",
-   "name": "Confucius"
-  },
-  "diviner": {
-   "outfit": "robe",
-   "color": "#5A3A22",
-   "hair": "bun",
-   "hairColor": "#6A6A6A",
-   "beard": "goatee",
-   "skin": "tan",
-   "hold": "torch"
   },
   "examiner": {
    "hat": "futou",
@@ -97,10 +74,7 @@
    "skin": "tan"
   },
   "genghis": {
-   "preset": "mongol",
-   "beard": "long",
-   "hairColor": "#8A8A8A",
-   "hold": "sword",
+   "preset": "genghis",
    "name": "Genghis Khan"
   },
   "host": {
@@ -125,17 +99,6 @@
    "skin": "light",
    "hold": "letter",
    "name": "Lord Macartney"
-  },
-  "marco": {
-   "hat": "beret",
-   "hatColor": "#A8322A",
-   "outfit": "tunic",
-   "color": "#2F6FC2",
-   "hair": "curly",
-   "hairColor": "#5A3A22",
-   "beard": "goatee",
-   "skin": "light",
-   "name": "Marco Polo"
   },
   "nomad": {
    "preset": "mongol",
@@ -207,16 +170,6 @@
    "skin": "tan",
    "stubble": true
   },
-  "shangking": {
-   "hat": "crown",
-   "outfit": "robe",
-   "color": "#7A5A3A",
-   "color2": "#E8C25A",
-   "hair": "bun",
-   "hairColor": "#1E1C1B",
-   "beard": "full",
-   "skin": "light"
-  },
   "trader": {
    "hat": "futou",
    "hatColor": "#1E1C1B",
@@ -226,16 +179,6 @@
    "hairColor": "#1E1C1B",
    "skin": "light",
    "hold": "moneybag"
-  },
-  "wu": {
-   "hat": "crown",
-   "outfit": "gown",
-   "color": "#C8322A",
-   "color2": "#E8C25A",
-   "hair": "bun",
-   "hairColor": "#1E1C1B",
-   "skin": "light",
-   "name": "Wu Zetian"
   },
   "yongle": {
    "hat": "crown",
@@ -279,21 +222,25 @@
    "hairColor": "#1E1C1B",
    "skin": "tan",
    "name": "Zhu Yuanzhang"
+  },
+  "horse": {
+   "animal": "horse",
+   "mood": "happy"
+  },
+  "roman": {
+   "preset": "senator",
+   "name": "A rich Roman"
   }
  },
  "voices": {
   "alchemist": "am_puck",
-  "astronaut": "am_liam",
   "cixi": "bf_emma",
-  "confucius": "bm_daniel",
-  "diviner": "am_echo",
   "examiner": "bm_lewis",
   "farmer": "am_liam",
   "farmer2": "am_eric",
   "genghis": "am_fenrir",
   "kublai": "bm_george",
   "macartney": "bm_daniel",
-  "marco": "am_puck",
   "nomad": "am_fenrir",
   "official": "bm_daniel",
   "puyi": "af_bella",
@@ -302,9 +249,7 @@
   "samurai": "am_echo",
   "scholar": "am_puck",
   "seller": "am_fenrir",
-  "shangking": "bm_lewis",
   "trader": "am_eric",
-  "wu": "af_heart",
   "yongle": "bm_george",
   "zhangqian": "am_liam",
   "zhenghe": "am_liam",
@@ -313,42 +258,43 @@
  "beats": [
   {
    "who": "N",
-   "say": "210 BC. The most powerful man in the world has exactly one problem: he is going to die, and he would really rather not.",
+   "say": "210 BC. The most powerful man in the world has one problem: he's going to die, and he'd really rather not.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
       "id": "qin",
-      "x": 0.5,
+      "x": 0.45,
       "pose": "hips",
       "mood": "smug"
      }
     ],
     "cam": "push",
+    "place": "Imperial China · 210 BC",
     "tag": {
      "id": "qin",
      "text": "Qin Shi Huang, First Emperor"
     },
-    "stickers": [
+    "objects": [
      {
-      "text": "210 BC",
-      "at": 0.6,
-      "color": "#A8322A"
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.8
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Qin Shi Huang, the First Emperor of China, has conquered every rival kingdom, and now he wants to conquer death itself."
+   "say": "He's Qin Shi Huang, the first emperor of all China, and now he wants to beat death itself."
   },
   {
    "who": "alchemist",
    "say": "Your Majesty, your daily immortality pill!",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "throne",
     "cast": [
      {
       "id": "alchemist",
@@ -363,7 +309,16 @@
       "pose": "think"
      }
     ],
-    "cam": "still"
+    "cam": "still",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true,
+      "label": "PILLS"
+     }
+    ]
    }
   },
   {
@@ -375,7 +330,7 @@
    "say": "Mercury, Majesty! Shiny, liquid, magical mercury!",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "throne",
     "cast": [
      {
       "id": "alchemist",
@@ -389,7 +344,7 @@
     "focus": "alchemist",
     "stickers": [
      {
-      "text": "MERCURY",
+      "text": "MERCURY = POISON",
       "at": 1.0,
       "color": "#A8322A"
      }
@@ -423,7 +378,7 @@
   },
   {
    "who": "N",
-   "say": "Many historians think those mercury pills may be what killed him, at just forty-nine, though others doubt the pills even contained mercury.",
+   "say": "Many historians think those pills helped kill him at just forty-nine, though others doubt they even contained mercury.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -440,11 +395,7 @@
   },
   {
    "who": "N",
-   "say": "The man who wanted to live forever may have been poisoned by his own immortality medicine. And that's just one weird chapter in four thousand years of Chinese history."
-  },
-  {
-   "who": "N",
-   "say": "So grab some tea, because we're doing all of it: dynasties, dragon bones, a giraffe, and way too many walls.",
+   "say": "So grab some tea. Today it's more than two thousand years of Chinese emperors, from the first one to the very last, in eight simple stories.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -456,152 +407,41 @@
       "mood": "happy"
      }
     ],
-    "cam": "pan"
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.25,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ]
    }
   },
   {
-   "hold": 3,
+   "hold": 2.5,
    "show": {
     "k": "title",
-    "text": "The ENTIRE History of China in 16 Minutes",
-    "sub": "2070 BC to 1912"
+    "text": "The ENTIRE History of China in 10 Minutes",
+    "sub": "221 BC to 1912"
    }
   },
   {
    "hold": 2.5,
    "show": {
     "k": "chapter",
-    "year": "2070 BC",
-    "title": "Dynasty Zero?",
-    "bg": "field"
+    "year": "221 BC",
+    "title": "One China, One Emperor",
+    "bg": "battlefield"
    }
   },
   {
    "who": "N",
-   "say": "Chinese tradition says it all starts with the Xia dynasty, founded by Yu the Great, a legendary hero who tamed the great floods, and one modern estimate dates it to around 2070 BC.",
-   "show": {
-    "k": "scene",
-    "bg": "field",
-    "cast": [
-     {
-      "id": "farmer",
-      "x": 0.3,
-      "pose": "point",
-      "mood": "shock"
-     },
-     {
-      "id": "farmer2",
-      "x": 0.7,
-      "pose": "scared",
-      "mood": "scared"
-     }
-    ],
-    "fx": [
-     "rain"
-    ],
-    "cam": "pan",
-    "stickers": [
-     {
-      "text": "LEGEND? MAYBE",
-      "at": 1.5,
-      "color": "#A8322A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Here's the catch: nobody has ever found writing from the Xia, so historians still argue about whether it was a real dynasty, a legend, or a bit of both."
-  },
-  {
-   "who": "N",
-   "say": "The first dynasty backed by its own writing is the Shang, from about 1600 BC.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "shangking",
-      "x": 0.5,
-      "pose": "hips",
-      "mood": "smug"
-     }
-    ],
-    "cam": "push",
-    "stickers": [
-     {
-      "text": "SHANG: 1600 BC",
-      "at": 0.6,
-      "color": "#2F6FC2"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Shang kings made big decisions by asking their dead ancestors for advice, and the method was cracking bones."
-  },
-  {
-   "who": "shangking",
-   "say": "Ancestors, will it rain tomorrow?",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "shangking",
-      "x": 0.3,
-      "pose": "think"
-     },
-     {
-      "id": "diviner",
-      "x": 0.7,
-      "pose": "present",
-      "mood": "neutral"
-     }
-    ],
-    "cam": "still"
-   }
-  },
-  {
-   "who": "diviner",
-   "say": "The crack says... maybe?"
-  },
-  {
-   "who": "N",
-   "say": "A diviner heated an ox shoulder blade or a turtle shell until it cracked, the king read the cracks like a text from grandpa, and the question and answer were carved into the bone.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "diviner",
-      "x": 0.5,
-      "pose": "hold",
-      "mood": "shock"
-     }
-    ],
-    "cam": "close",
-    "focus": "diviner",
-    "fx": [
-     "smoke"
-    ],
-    "stickers": [
-     {
-      "text": "CRACK!",
-      "at": 1.2,
-      "color": "#A8322A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Those carvings, on what we now call oracle bones, are the oldest known body of Chinese writing."
-  },
-  {
-   "who": "N",
-   "say": "In 1046 BC, the Zhou overthrew the Shang, and they explained why with a brand new idea: the Mandate of Heaven.",
+   "say": "Before 221 BC, China wasn't one country. It was seven big kingdoms that had been fighting each other for centuries.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -614,136 +454,66 @@
       "hold": "spear"
      },
      {
-      "id": "shangking",
+      "id": "nomad",
       "x": 0.7,
-      "pose": "scared",
-      "mood": "scared"
+      "pose": "fist",
+      "mood": "angry",
+      "hold": "spear"
      }
     ],
     "cam": "shake",
     "fx": [
      "dust"
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Heaven chooses who rules. Rule badly, and Heaven switches sides. Which is handy, because it means whoever wins was right all along."
-  },
-  {
-   "who": "N",
-   "say": "Later, the Zhou kings lost control, and China split into rival states that fought for centuries, a stretch historians call the Spring and Autumn and Warring States periods."
-  },
-  {
-   "who": "N",
-   "say": "In the middle of all that chaos, traditionally in 551 BC, a teacher named Confucius was born.",
-   "show": {
-    "k": "scene",
-    "bg": "library",
-    "cast": [
+    ],
+    "place": "Northern China · 230 BC",
+    "objects": [
      {
-      "id": "confucius",
+      "k": "chariot",
       "x": 0.5,
-      "pose": "present",
-      "mood": "happy"
+      "s": 0.8
      }
     ],
-    "cam": "push",
-    "tag": {
-     "id": "confucius",
-     "text": "Confucius"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "His big ideas: respect your family, be honest, study hard, and rulers should set a good example."
-  },
-  {
-   "hold": 3,
-   "show": {
-    "k": "quote",
-    "text": "Is it not pleasant to learn with a constant perseverance and application?",
-    "who": "Confucius, Analects 1.1 (trans. James Legge)"
-   }
-  },
-  {
-   "who": "N",
-   "say": "He never got the big government career he wanted, but his students wrote down his sayings, and they shaped Chinese schools, families and government for more than two thousand years.",
-   "show": {
-    "k": "scene",
-    "bg": "library",
-    "cast": [
+    "stickers": [
      {
-      "id": "confucius",
-      "x": 0.3,
-      "pose": "point",
-      "mood": "smug"
-     },
-     {
-      "id": "scholar",
-      "x": 0.7,
-      "pose": "think"
+      "text": "7 KINGDOMS",
+      "at": 0.6,
+      "color": "#A8322A"
      }
-    ],
-    "cam": "still"
-   }
-  },
-  {
-   "hold": 2.5,
-   "show": {
-    "k": "chapter",
-    "year": "221 BC",
-    "title": "The First Emperor",
-    "bg": "palace"
-   }
-  },
-  {
-   "who": "N",
-   "say": "Then the state of Qin conquered its rivals one by one, and in 221 BC its king did something nobody had done before.",
-   "show": {
-    "k": "scene",
-    "bg": "battlefield",
-    "cast": [
-     {
-      "id": "clay",
-      "x": 0.35,
-      "pose": "cheer",
-      "mood": "shout"
-     },
-     {
-      "id": "qin",
-      "x": 0.68,
-      "pose": "point",
-      "mood": "smug"
-     }
-    ],
-    "cam": "pan",
-    "fx": [
-     "dust"
     ]
    }
   },
   {
    "who": "N",
-   "say": "He united China and gave himself a shiny new title: Qin Shi Huang, the First Emperor."
+   "say": "The king of one of them, Qin, beat the other six one by one, and in 221 BC, he gave himself a brand new title: First Emperor."
   },
   {
    "who": "N",
-   "say": "Then he standardized everything: one kind of writing, one set of weights, one coin, even one width for cart axles, so every wagon fit the same ruts.",
+   "say": "Then he made everything match: one kind of writing, one set of weights, one coin, even one width for cart axles, so every wagon fit the same ruts.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
       "id": "qin",
-      "x": 0.45,
+      "x": 0.3,
       "pose": "present",
       "mood": "happy",
       "hold": "scroll"
      }
     ],
     "cam": "push",
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.8
+     },
+     {
+      "k": "moneypile",
+      "x": 0.92,
+      "s": 0.6
+     }
+    ],
     "stickers": [
      {
       "text": "ONE SCRIPT",
@@ -765,53 +535,54 @@
   },
   {
    "who": "N",
-   "say": "He also joined up older walls in the north to keep out nomad raiders, an early ancestor of the Great Wall."
+   "say": "Why? A country that writes, pays and travels the same way is much easier to run."
   },
   {
    "who": "N",
-   "say": "He could be ruthless, too. The old histories say he burned books and executed scholars who criticized him, though modern historians argue about how much of that is exaggerated.",
+   "say": "He also joined up older walls in the north to keep out nomad raiders, an early ancestor of the Great Wall.",
    "show": {
     "k": "scene",
-    "bg": "library",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "nomad",
+      "x": 0.2,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "cam": "pan",
+    "place": "China's northern border",
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.6,
+      "s": 1.0
+     },
+     {
+      "k": "tent",
+      "x": 0.08,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And since he couldn't live forever, he planned for the afterlife instead.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
     "cast": [
      {
       "id": "qin",
-      "x": 0.35,
-      "pose": "point",
-      "mood": "angry"
-     },
-     {
-      "id": "scholar",
-      "x": 0.7,
-      "pose": "scared",
-      "mood": "scared"
-     }
-    ],
-    "cam": "still"
-   }
-  },
-  {
-   "who": "N",
-   "say": "And he was terrified of dying. He sent a court magician named Xu Fu out to sea to find the elixir of life. On his second voyage, Xu Fu never came back.",
-   "show": {
-    "k": "scene",
-    "bg": "sea",
-    "cast": [
-     {
-      "id": "alchemist",
       "x": 0.5,
-      "pose": "wave",
-      "mood": "happy",
-      "exit": "right",
-      "exitAt": 3
+      "pose": "think",
+      "mood": "neutral"
      }
     ],
-    "cam": "pan"
+    "cam": "push"
    }
-  },
-  {
-   "who": "N",
-   "say": "So the emperor planned for the afterlife instead."
   },
   {
    "who": "N",
@@ -836,11 +607,12 @@
     "fx": [
      "dust"
     ],
-    "stickers": [
+    "place": "Near Xi'an, China · 1974",
+    "objects": [
      {
-      "text": "1974",
-      "at": 0.5,
-      "color": "#A8322A"
+      "k": "rock",
+      "x": 0.5,
+      "s": 0.6
      }
     ]
    }
@@ -876,11 +648,7 @@
   },
   {
    "who": "N",
-   "say": "They had found the Terracotta Army: thousands of life-size clay soldiers, plus horses and chariots, buried to guard the emperor's tomb."
-  },
-  {
-   "who": "N",
-   "say": "The usual estimate is more than eight thousand soldiers, and parts of the site still haven't been dug up.",
+   "say": "They'd found the Terracotta Army: by the usual estimate, more than eight thousand life-size clay soldiers, plus horses and chariots, guarding the emperor's tomb.",
    "show": {
     "k": "card",
     "label": "Terracotta soldiers (estimate)",
@@ -898,40 +666,47 @@
   },
   {
    "who": "N",
-   "say": "They were made almost like an assembly line, with faces from a handful of basic molds, then each face was finished by hand, so every soldier looks like his own person.",
+   "say": "Their faces started from a handful of molds, then each was finished by hand, so every soldier looks like his own person.",
    "show": {
     "k": "scene",
     "bg": "camp",
     "cast": [
      {
       "id": "clay",
-      "x": 0.2,
+      "x": 0.15,
       "pose": "salute"
      },
      {
       "id": "clay",
-      "x": 0.4,
+      "x": 0.35,
       "pose": "hold",
       "mood": "smug"
      },
      {
       "id": "clay",
-      "x": 0.6,
+      "x": 0.55,
       "pose": "salute",
       "mood": "happy"
      },
      {
       "id": "clay",
-      "x": 0.8,
+      "x": 0.9,
       "pose": "cross"
      }
     ],
-    "cam": "pan"
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.74,
+      "s": 0.7
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "He had boasted that his dynasty would last ten thousand generations. After his death in 210 BC, it lasted four more years.",
+   "say": "He boasted his dynasty would last ten thousand generations. After he died in 210 BC, it lasted four more years.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -959,43 +734,86 @@
    }
   },
   {
+   "who": "N",
+   "say": "But his big idea, one China under one emperor, lasted more than two thousand years."
+  },
+  {
    "hold": 2.5,
    "show": {
     "k": "chapter",
-    "year": "206 BC",
-    "title": "The Han and the Silk Road",
-    "bg": "market"
+    "year": "138 BC",
+    "title": "The Road Made of Silk",
+    "bg": "steppe"
    }
   },
   {
    "who": "N",
-   "say": "Next came the Han dynasty, which ruled for about four hundred years and was such a big deal that China's largest ethnic group still calls itself the Han.",
+   "say": "Next came the Han dynasty. It ruled for about four hundred years, and China's largest ethnic group still calls itself the Han.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "palace",
     "cast": [
      {
-      "id": "trader",
+      "id": "official",
       "x": 0.3,
       "pose": "present",
       "mood": "happy"
      },
      {
-      "id": "seller",
+      "id": "trader",
       "x": 0.7,
       "pose": "wave",
       "mood": "happy"
      }
     ],
-    "cam": "pan"
+    "cam": "pan",
+    "place": "Han China · 138 BC",
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.5,
+      "s": 0.8
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "In 138 BC, Emperor Wu sent an envoy named Zhang Qian west, to find allies against the Xiongnu, the nomads raiding the northern border.",
+   "say": "The Han had a big problem: the Xiongnu, horse-riding nomads who kept raiding the northern border.",
    "show": {
     "k": "scene",
     "bg": "steppe",
+    "cast": [
+     {
+      "id": "nomad",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "horse",
+      "x": 0.62
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 138 BC, Emperor Wu sent an envoy named Zhang Qian west, to find allies against them.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
     "cast": [
      {
       "id": "zhangqian",
@@ -1011,8 +829,15 @@
     "cam": "pan",
     "tag": {
      "id": "zhangqian",
-     "text": "Zhang Qian"
-    }
+     "text": "Zhang Qian, envoy"
+    },
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ]
    }
   },
   {
@@ -1040,7 +865,14 @@
       "mood": "shock"
      }
     ],
-    "cam": "still"
+    "cam": "still",
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ]
    }
   },
   {
@@ -1074,7 +906,29 @@
   },
   {
    "who": "N",
-   "say": "He escaped, finished the mission anyway, and came home after thirteen years with news of kingdoms nobody in China had heard of."
+   "say": "He escaped, finished the mission anyway, and came home after thirteen years with news of kingdoms nobody in China had heard of.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "zhangqian",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "cam": "push",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.7,
+      "text": "NEW LANDS"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -1178,54 +1032,37 @@
   },
   {
    "who": "N",
-   "say": "Rich Romans loved silk, and the Roman writer Pliny the Elder grumbled that luxuries from the East were draining the empire's money."
-  },
-  {
-   "who": "N",
-   "say": "The Han also counted their people, and a census in the year 2 AD found more than fifty-seven million of them.",
-   "show": {
-    "k": "card",
-    "label": "Han census, 2 AD",
-    "big": "57,671,400",
-    "sub": "people, in about 12.4 million households",
-    "cast": [
-     {
-      "id": "zhangqian",
-      "x": 0.12,
-      "pose": "present",
-      "mood": "shock"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "They also gave the world paper. The court official Cai Lun is traditionally credited with it in 105 AD, but archaeologists have found older paper, so he probably improved it rather than invented it.",
+   "say": "Rich Romans loved silk, and the Roman writer Pliny the Elder grumbled that luxuries from the East were draining the empire's money.",
    "show": {
     "k": "scene",
-    "bg": "library",
+    "bg": "rome",
     "cast": [
      {
-      "id": "scholar",
-      "x": 0.5,
-      "pose": "present",
-      "mood": "happy",
-      "hold": "scroll"
+      "id": "roman",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "angry"
      }
     ],
     "cam": "push",
-    "stickers": [
+    "place": "Rome · first century AD",
+    "objects": [
      {
-      "text": "PAPER!",
-      "at": 1.5,
-      "color": "#1F8A4A"
+      "k": "moneypile",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.92,
+      "s": 0.8
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Then, in 220 AD, the Han fell apart, and China split into three rival kingdoms, then into centuries of division."
+   "say": "So one man's very long business trip connected China to the other side of the world."
   },
   {
    "hold": 2.5,
@@ -1238,10 +1075,10 @@
   },
   {
    "who": "N",
-   "say": "In 581, the Sui dynasty took power, and by 589 it had reunited China. It only lasted thirty-seven years, but it was busy.",
+   "say": "After the Han fell apart in 220 AD, China stayed split for centuries, until the Sui dynasty reunited it in 589.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "battlefield",
     "cast": [
      {
       "id": "official",
@@ -1259,23 +1096,53 @@
     "cam": "pan",
     "fx": [
      "confetti"
+    ],
+    "place": "China · 589",
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.8
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The Sui linked up the Grand Canal between north and south, and in 605 they launched something that would outlive them by thirteen centuries: the imperial examinations."
-  },
-  {
-   "who": "N",
-   "say": "The idea was that government jobs should go to whoever knew the most, not to whoever had the richest dad."
-  },
-  {
-   "who": "N",
-   "say": "By later centuries, candidates memorized the Confucian classics, then got locked in a tiny cell for three days and two nights at a time to write their essays.",
+   "say": "In 605, the Sui started something that would outlive them by thirteen centuries: the imperial exams.",
    "show": {
     "k": "scene",
     "bg": "library",
+    "cast": [
+     {
+      "id": "examiner",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug",
+      "hold": "scroll"
+     }
+    ],
+    "cam": "push",
+    "place": "China · 605",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.2,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The idea: government jobs should go to whoever knew the most, not to whoever had the richest dad."
+  },
+  {
+   "who": "N",
+   "say": "By later centuries, candidates memorized the classics of Confucius, a wise teacher from around 500 BC, and then got locked in a tiny cell for three days and two nights to write essays.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
     "cast": [
      {
       "id": "scholar",
@@ -1290,7 +1157,21 @@
       "mood": "smug"
      }
     ],
-    "cam": "push"
+    "cam": "push",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "3 DAYS, 2 NIGHTS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
@@ -1302,7 +1183,7 @@
    "say": "The desk turns into a bed. You're welcome.",
    "show": {
     "k": "scene",
-    "bg": "library",
+    "bg": "vault",
     "cast": [
      {
       "id": "examiner",
@@ -1317,7 +1198,7 @@
   },
   {
    "who": "N",
-   "say": "Of course people cheated, with tiny notes hidden in their clothes and brushes. Get caught, and you were thrown out, or worse.",
+   "say": "Of course people cheated, with tiny notes hidden in their clothes. Get caught, and you were thrown out, or worse.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1337,12 +1218,47 @@
       "at": 1.2,
       "color": "#A8322A"
      }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.82,
+      "s": 0.6,
+      "text": "NO NOTES"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The exams ran from 605 all the way to 1905, about thirteen hundred years.",
+   "say": "Most people failed, but passing could lift a whole family into the ruling class.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "push",
+    "fx": [
+     "confetti"
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The exams ran from 605 to 1905. For thirteen hundred years, China was run by its best test-takers.",
    "show": {
     "k": "card",
     "label": "China's imperial exams",
@@ -1362,139 +1278,76 @@
    "hold": 2.5,
    "show": {
     "k": "chapter",
-    "year": "690",
-    "title": "The Only Woman Emperor",
-    "bg": "throne"
+    "year": "800s",
+    "title": "Oops, Gunpowder",
+    "bg": "market"
    }
   },
   {
    "who": "N",
-   "say": "In 618, the Tang dynasty took over, and it's often called a golden age, with famous poets and a capital, Chang'an, that was one of the biggest cities on Earth.",
-   "show": {
-    "k": "scene",
-    "bg": "street",
-    "cast": [
-     {
-      "id": "trader",
-      "x": 0.3,
-      "pose": "wave",
-      "mood": "happy"
-     },
-     {
-      "id": "official",
-      "x": 0.7,
-      "pose": "present",
-      "mood": "happy"
-     }
-    ],
-    "cam": "pan"
-   }
-  },
-  {
-   "who": "N",
-   "say": "And the Tang era produced the only woman in Chinese history to rule as emperor in her own right: Wu Zetian.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "wu",
-      "x": 0.5,
-      "pose": "hips",
-      "mood": "smug"
-     }
-    ],
-    "cam": "push",
-    "tag": {
-     "id": "wu",
-     "text": "Wu Zetian"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "She started as a low-ranking consort, became empress, helped run the government for her sickly husband, and then ruled through her sons."
-  },
-  {
-   "who": "N",
-   "say": "In 690, she stopped pretending."
-  },
-  {
-   "who": "wu",
-   "say": "I'm not the emperor's mother anymore. I'm the emperor.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "wu",
-      "x": 0.3,
-      "pose": "point",
-      "mood": "smug"
-     },
-     {
-      "id": "official",
-      "x": 0.7,
-      "pose": "scared",
-      "mood": "shock"
-     }
-    ],
-    "cam": "still"
-   }
-  },
-  {
-   "who": "official",
-   "say": "But Your Majesty, there's never been a woman emperor."
-  },
-  {
-   "who": "wu",
-   "say": "There is now.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "wu",
-      "x": 0.5,
-      "pose": "cross",
-      "mood": "smug"
-     }
-    ],
-    "cam": "close",
-    "focus": "wu",
-    "stickers": [
-     {
-      "text": "EMPEROR WU",
-      "at": 0.6,
-      "color": "#A8322A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "She founded her own Zhou dynasty and ruled for fifteen years, until she was pushed out in 705, at around eighty."
-  },
-  {
-   "who": "N",
-   "say": "Later historians painted her as a villain, but many modern scholars point out that her empire was stable and powerful, and she promoted officials through the exams."
-  },
-  {
-   "who": "N",
-   "say": "Meanwhile, Tang alchemists were still chasing immortality, heating saltpeter and sulfur with things like honey.",
+   "say": "Under the Tang dynasty, often called China's golden age, Daoist alchemists, early chemists with a spiritual side, were still hunting for a pill to live forever.",
    "show": {
     "k": "scene",
     "bg": "market",
     "cast": [
      {
       "id": "alchemist",
-      "x": 0.5,
+      "x": 0.4,
       "pose": "hold",
       "mood": "happy",
       "hold": "bottle"
      }
     ],
-    "cam": "push"
+    "cam": "push",
+    "place": "Tang China · 800s AD",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "alchemist",
+   "say": "Saltpeter, sulfur, a little honey. This smells like eternal life!",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "alchemist",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "cam": "close",
+    "focus": "alchemist",
+    "stickers": [
+     {
+      "text": "SALTPETER",
+      "at": 0.3,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "SULFUR",
+      "at": 1.3,
+      "color": "#C8902A"
+     },
+     {
+      "text": "HONEY",
+      "at": 2.3,
+      "color": "#1F8A4A"
+     }
+    ]
    }
   },
   {
@@ -1502,11 +1355,11 @@
    "say": "A Daoist text, probably from the 800s, warns that some of these mixtures burst into flames, burning people's hands and faces and even whole houses.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "village",
     "cast": [
      {
       "id": "alchemist",
-      "x": 0.5,
+      "x": 0.3,
       "pose": "scared",
       "mood": "shock"
      }
@@ -1515,6 +1368,19 @@
     "fx": [
      "explosion",
      "smoke"
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.8
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.9,
+      "front": true
+     }
     ],
     "stickers": [
      {
@@ -1527,24 +1393,109 @@
   },
   {
    "who": "alchemist",
-   "say": "Well, it's not immortality. But it's definitely something."
+   "say": "Well, it's not immortality. But it's definitely something.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "alchemist",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "still",
+    "fx": [
+     "smoke"
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "That something was gunpowder."
+   "say": "That something was gunpowder. By 1044, a Chinese military manual held the oldest known written gunpowder formulas.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "clay",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout",
+      "hold": "torch"
+     }
+    ],
+    "cam": "push",
+    "place": "Song China · 1044",
+    "objects": [
+     {
+      "k": "bomb",
+      "x": 0.6,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1044",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A search for eternal life ended up changing war forever."
   },
   {
    "hold": 2.5,
    "show": {
     "k": "chapter",
-    "year": "960",
+    "year": "1024",
     "title": "Money Made of Paper",
     "bg": "market"
    }
   },
   {
    "who": "N",
-   "say": "The Tang collapsed in 907, and after a messy half century, the Song dynasty took over in 960.",
+   "say": "The Song dynasty took over in 960, and they were basically the nerds of Chinese history. I mean that as a compliment.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     },
+     {
+      "id": "official",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "cam": "push",
+    "place": "Song China · 960",
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Sichuan, in western China, people paid with iron coins, and one account says a single bolt of silk could cost around fifty kilos of them.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -1553,26 +1504,35 @@
       "id": "trader",
       "x": 0.3,
       "pose": "hold",
-      "mood": "neutral",
+      "mood": "sad",
       "hold": "moneybag"
      },
      {
       "id": "seller",
       "x": 0.7,
-      "pose": "present",
-      "mood": "happy"
+      "pose": "cross",
+      "mood": "smug"
      }
     ],
-    "cam": "push"
+    "cam": "push",
+    "place": "Sichuan, China · around 1000",
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.5,
+      "s": 0.8,
+      "load": "gold",
+      "front": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "50 KG OF COINS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
    }
-  },
-  {
-   "who": "N",
-   "say": "The Song were basically the nerds of Chinese history, and I mean that as a compliment."
-  },
-  {
-   "who": "N",
-   "say": "In Sichuan, people paid with iron coins, which were so heavy that one account says a single bolt of silk could cost around fifty kilos of them."
   },
   {
    "who": "trader",
@@ -1602,7 +1562,7 @@
    "say": "Sure. Bring the wheelbarrow of coins around the back.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "street",
     "cast": [
      {
       "id": "seller",
@@ -1613,11 +1573,11 @@
     ],
     "cam": "close",
     "focus": "seller",
-    "stickers": [
+    "objects": [
      {
-      "text": "IRON COINS = HEAVY",
-      "at": 0.8,
-      "color": "#A8322A"
+      "k": "moneypile",
+      "x": 0.8,
+      "s": 0.7
      }
     ]
    }
@@ -1631,7 +1591,7 @@
     "cast": [
      {
       "id": "trader",
-      "x": 0.5,
+      "x": 0.4,
       "pose": "cheer",
       "mood": "happy",
       "hold": "letter"
@@ -1640,6 +1600,14 @@
     "cam": "push",
     "fx": [
      "sparkle"
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.7,
+      "text": "JIAOZI"
+     }
     ],
     "stickers": [
      {
@@ -1652,48 +1620,56 @@
   },
   {
    "who": "N",
-   "say": "The Song also printed with movable type, invented by a craftsman named Bi Sheng in the 1040s, and by around 1100 Chinese sailors were steering by magnetic compass."
-  },
-  {
-   "who": "N",
-   "say": "And gunpowder went from lab accident to weapon: a military manual from 1044 contains the oldest known written gunpowder formulas."
+   "say": "Every paper bill in the world today runs on that same idea."
   },
   {
    "hold": 2.5,
    "show": {
     "k": "chapter",
-    "year": "1271",
+    "year": "1206",
     "title": "The Mongols Move In",
     "bg": "steppe"
    }
   },
   {
    "who": "N",
-   "say": "Unfortunately for the Song, up north a man named Temujin had united the Mongol tribes, and in 1206 he took the title Genghis Khan.",
+   "say": "Up north, a man named Temujin united the Mongol tribes, horse-riding nomads of the grasslands, and in 1206 he took the title Genghis Khan.",
    "show": {
     "k": "scene",
     "bg": "steppe",
     "cast": [
      {
       "id": "genghis",
-      "x": 0.5,
+      "x": 0.35,
       "pose": "fist",
       "mood": "shout"
+     },
+     {
+      "id": "horse",
+      "x": 0.68
      }
     ],
     "cam": "push",
     "fx": [
      "dust"
     ],
+    "place": "Mongolia · 1206",
     "tag": {
      "id": "genghis",
      "text": "Genghis Khan"
-    }
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.7
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The Mongols built the largest connected land empire in history, reaching from Korea into Eastern Europe, and in 1258 they sacked Baghdad.",
+   "say": "The Mongols built the largest connected land empire in history, reaching from Korea into Eastern Europe.",
    "show": {
     "k": "map",
     "lon": 42,
@@ -1760,21 +1736,33 @@
    "say": "His grandson Kublai Khan declared a new Chinese dynasty, the Yuan, in 1271, and finished off the Song by 1279.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "throne",
     "cast": [
      {
       "id": "kublai",
-      "x": 0.5,
+      "x": 0.45,
       "pose": "hips",
       "mood": "smug"
      }
     ],
     "cam": "push",
+    "place": "Yuan China · 1271",
     "tag": {
      "id": "kublai",
      "text": "Kublai Khan"
-    }
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ]
    }
+  },
+  {
+   "who": "N",
+   "say": "It was the first time a foreign dynasty ruled all of China."
   },
   {
    "who": "N",
@@ -1785,7 +1773,7 @@
     "cast": [
      {
       "id": "samurai",
-      "x": 0.5,
+      "x": 0.25,
       "pose": "cheer",
       "mood": "happy"
      }
@@ -1793,6 +1781,14 @@
     "cam": "shake",
     "fx": [
      "rain"
+    ],
+    "place": "Japan · 1274 and 1281",
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.7,
+      "s": 0.8
+     }
     ]
    }
   },
@@ -1820,145 +1816,34 @@
   },
   {
    "who": "N",
-   "say": "Japanese tradition calls it kamikaze, the divine wind, though historians say the samurai defending the coast deserve plenty of credit too."
-  },
-  {
-   "who": "N",
-   "say": "Also in 1271, a young Venetian named Marco Polo set out for Asia with his father and uncle.",
-   "show": {
-    "k": "map",
-    "lon": 40,
-    "lat": 38,
-    "z0": 1.2,
-    "z1": 1.45,
-    "date": "1271",
-    "labels": [
-     [
-      "Venice",
-      12.3,
-      45.4,
-      0
-     ],
-     [
-      "Acre",
-      35.07,
-      32.92,
-      0
-     ],
-     [
-      "Hormuz",
-      56.3,
-      27.1,
-      0
-     ],
-     [
-      "Balkh",
-      66.9,
-      36.76,
-      0
-     ]
-    ],
-    "route": [
-     [
-      12.3,
-      45.4
-     ],
-     [
-      16,
-      41
-     ],
-     [
-      21,
-      37.5
-     ],
-     [
-      28,
-      35.5
-     ],
-     [
-      35.07,
-      32.92
-     ],
-     [
-      36.2,
-      36.8
-     ],
-     [
-      40,
-      38.5
-     ],
-     [
-      44,
-      38
-     ],
-     [
-      48,
-      36
-     ],
-     [
-      52,
-      32
-     ],
-     [
-      56.3,
-      27.1
-     ],
-     [
-      58,
-      31
-     ],
-     [
-      62,
-      34.5
-     ],
-     [
-      66.9,
-      36.76
-     ],
-     [
-      70,
-      37.5
-     ]
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "He later claimed he served Kublai Khan for seventeen years. Some historians doubt he got that far, but plenty of his details check out.",
+   "say": "Japanese tradition calls it kamikaze, the divine wind, though historians say the samurai defending the coast deserve plenty of credit too.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "japan",
     "cast": [
      {
-      "id": "marco",
-      "x": 0.3,
-      "pose": "present",
-      "mood": "happy",
-      "hold": "book"
-     },
-     {
-      "id": "kublai",
-      "x": 0.7,
-      "pose": "think"
+      "id": "samurai",
+      "x": 0.5,
+      "pose": "salute",
+      "mood": "smug"
      }
     ],
-    "cam": "still",
-    "tag": {
-     "id": "marco",
-     "text": "Marco Polo"
-    }
+    "cam": "push",
+    "stickers": [
+     {
+      "text": "KAMIKAZE = DIVINE WIND",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
    }
-  },
-  {
-   "who": "N",
-   "say": "Back home, he described paper money and enormous cities, and, the story goes, a lot of Europeans simply didn't believe him."
   },
   {
    "hold": 2.5,
    "show": {
     "k": "chapter",
-    "year": "1368",
-    "title": "Giraffes and Walls",
+    "year": "1405",
+    "title": "Giant Ships and a Giraffe",
     "bg": "harbor"
    }
   },
@@ -1967,19 +1852,25 @@
    "say": "The Yuan lasted less than a century. In 1368, a rebel named Zhu Yuanzhang drove the Mongols out and founded the Ming dynasty.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "battlefield",
     "cast": [
      {
       "id": "zhu",
-      "x": 0.5,
+      "x": 0.35,
       "pose": "cheer",
       "mood": "happy"
+     },
+     {
+      "id": "nomad",
+      "x": 0.75,
+      "pose": "run",
+      "mood": "scared",
+      "exit": "right",
+      "exitAt": 2.5
      }
     ],
-    "cam": "push",
-    "fx": [
-     "confetti"
-    ],
+    "cam": "pan",
+    "place": "China · 1368",
     "tag": {
      "id": "zhu",
      "text": "Zhu Yuanzhang"
@@ -2023,7 +1914,32 @@
   },
   {
    "who": "N",
-   "say": "His son, the Yongle Emperor, moved the capital to Beijing and built the Forbidden City."
+   "say": "His son, the Yongle Emperor, moved the capital to Beijing and built the Forbidden City.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "yongle",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "push",
+    "place": "Beijing · 1420",
+    "tag": {
+     "id": "yongle",
+     "text": "Yongle Emperor"
+    },
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.7,
+      "s": 0.9
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -2034,7 +1950,7 @@
     "cast": [
      {
       "id": "zhenghe",
-      "x": 0.5,
+      "x": 0.2,
       "pose": "salute",
       "mood": "happy"
      }
@@ -2043,12 +1959,31 @@
     "tag": {
      "id": "zhenghe",
      "text": "Admiral Zheng He"
-    }
+    },
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.5,
+      "s": 0.8
+     },
+     {
+      "k": "junk",
+      "x": 0.8,
+      "s": 0.65
+     }
+    ],
+    "stickers": [
+     {
+      "text": "20,000+ MEN",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Between 1405 and 1433, his fleets reached India, Arabia, and the coast of East Africa.",
+   "say": "Between 1405 and 1433, his fleets reached India, Arabia and the coast of East Africa.",
    "show": {
     "k": "map",
     "lon": 55,
@@ -2122,15 +2057,25 @@
    "show": {
     "k": "scene",
     "bg": "sea",
-    "cast": [
+    "cast": [],
+    "cam": "pan",
+    "objects": [
      {
-      "id": "zhenghe",
-      "x": 0.5,
-      "pose": "present",
-      "mood": "shock"
+      "k": "junk",
+      "x": 0.4,
+      "s": 0.8,
+      "move": [
+       0.25,
+       0.55
+      ]
+     },
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.7,
+      "label": "1 GIRAFFE"
      }
     ],
-    "cam": "push",
     "stickers": [
      {
       "text": "A GIRAFFE!",
@@ -2160,11 +2105,7 @@
       "mood": "happy"
      }
     ],
-    "cam": "still",
-    "tag": {
-     "id": "yongle",
-     "text": "Yongle Emperor"
-    }
+    "cam": "still"
    }
   },
   {
@@ -2173,28 +2114,54 @@
   },
   {
    "who": "N",
-   "say": "The court hailed it as a qilin, a legendary creature said to appear only under a wise ruler. Great news for an emperor who had taken the throne from his own nephew."
-  },
-  {
-   "who": "N",
-   "say": "But after 1433 the great voyages stopped, and the Ming turned inward.",
+   "say": "A qilin is a magical animal from Chinese legend, said to appear only under a wise ruler. Great news for an emperor who had taken the throne from his own nephew.",
    "show": {
     "k": "scene",
-    "bg": "sea",
+    "bg": "throne",
     "cast": [
      {
-      "id": "zhenghe",
+      "id": "yongle",
       "x": 0.5,
-      "pose": "shrug",
-      "mood": "sad"
+      "pose": "cheer",
+      "mood": "happy"
      }
     ],
-    "cam": "pan"
+    "cam": "close",
+    "focus": "yongle",
+    "fx": [
+     "sparkle"
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Instead, they rebuilt the Great Wall in brick and stone, and most of the wall tourists visit today is Ming."
+   "say": "But after 1433 the great voyages stopped, and the Ming turned inward. They rebuilt the Great Wall in brick and stone, and most of the wall tourists visit today is Ming.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "clay",
+      "x": 0.15,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "cam": "pan",
+    "place": "Great Wall, northern China · Ming era",
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.4,
+      "s": 1.0
+     },
+     {
+      "k": "wall",
+      "x": 0.8,
+      "s": 1.0
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -2215,30 +2182,6 @@
    }
   },
   {
-   "who": "N",
-   "say": "And no, you can't see it from the Moon with your naked eye. It's long, but only a few meters wide, and Apollo astronaut Alan Bean said no human-made object was visible from there. That one's a myth.",
-   "show": {
-    "k": "scene",
-    "bg": "moon",
-    "cast": [
-     {
-      "id": "astronaut",
-      "x": 0.5,
-      "pose": "shrug",
-      "mood": "neutral"
-     }
-    ],
-    "cam": "push",
-    "stickers": [
-     {
-      "text": "MYTH",
-      "at": 1.5,
-      "color": "#A8322A"
-     }
-    ]
-   }
-  },
-  {
    "hold": 2.5,
    "show": {
     "k": "chapter",
@@ -2249,46 +2192,68 @@
   },
   {
    "who": "N",
-   "say": "In 1644, rebels took Beijing, the last Ming emperor died, and the Manchus, whose Qing dynasty had already risen in the northeast, swept in. The Qing would be China's last dynasty.",
+   "say": "In 1644, rebels took Beijing, and the Manchus, a people from the northeast, swept in and founded the Qing dynasty. It would be China's last.",
    "show": {
-    "k": "scene",
-    "bg": "palace",
-    "cast": [
-     {
-      "id": "official",
-      "x": 0.5,
-      "pose": "scared",
-      "mood": "scared"
-     }
-    ],
-    "cam": "shake",
-    "fx": [
-     "smoke"
-    ]
+    "k": "flag",
+    "flag": "china_qing",
+    "label": "THE QING DYNASTY",
+    "sub": "1644 – 1912",
+    "bg": "palace"
    }
   },
   {
    "who": "N",
-   "say": "Under emperors like Kangxi and Qianlong, the Qing grew huge and rich."
+   "say": "Under emperors like Kangxi and Qianlong, the Qing grew huge and rich.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "qianlong",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "push",
+    "place": "Beijing · 1793",
+    "tag": {
+     "id": "qianlong",
+     "text": "Qianlong Emperor"
+    },
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.8
+     }
+    ]
+   }
   },
   {
    "who": "N",
    "say": "In 1793, Britain sent Lord Macartney to ask for more trade, carrying fancy gifts like clocks and telescopes.",
    "show": {
     "k": "scene",
-    "bg": "throne",
+    "bg": "palace",
     "cast": [
      {
       "id": "macartney",
       "x": 0.3,
       "pose": "present",
       "mood": "happy",
-      "enter": "left"
+      "enter": "left",
+      "hold": "telescope"
      },
      {
       "id": "qianlong",
       "x": 0.7,
-      "pose": "hips",
+      "pose": "cross",
       "mood": "neutral"
      }
     ],
@@ -2296,7 +2261,15 @@
     "tag": {
      "id": "macartney",
      "text": "Lord Macartney"
-    }
+    },
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true
+     }
+    ]
    }
   },
   {
@@ -2318,15 +2291,11 @@
      }
     ],
     "cam": "close",
-    "focus": "qianlong",
-    "tag": {
-     "id": "qianlong",
-     "text": "Qianlong Emperor"
-    }
+    "focus": "qianlong"
    }
   },
   {
-   "hold": 3,
+   "hold": 3.5,
    "show": {
     "k": "quote",
     "text": "As your Ambassador can see for himself, we possess all things.",
@@ -2335,33 +2304,77 @@
   },
   {
    "who": "N",
-   "say": "Britain wanted Chinese tea, but China didn't want much from Britain, so British merchants smuggled in opium from India to pay for it.",
+   "say": "Britain wanted Chinese tea, but China didn't want much from Britain. So British merchants smuggled in opium, an addictive drug, from India to pay for it.",
    "show": {
     "k": "scene",
     "bg": "harbor",
     "cast": [
      {
       "id": "redcoat",
-      "x": 0.35,
+      "x": 0.25,
       "pose": "hold"
-     },
-     {
-      "id": "trader",
-      "x": 0.7,
-      "pose": "fist",
-      "mood": "angry"
      }
     ],
-    "cam": "push"
+    "cam": "push",
+    "place": "Canton, China · 1830s",
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.8,
+      "flag": "uk"
+     },
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.6,
+      "label": "OPIUM"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "When China cracked down, Britain went to war. China lost the First Opium War, from 1839 to 1842, and had to hand over Hong Kong Island and open five ports to British trade."
+   "say": "When China cracked down, Britain sent warships. China lost the First Opium War, from 1839 to 1842, and had to hand over Hong Kong Island and open five ports to British trade.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.8,
+      "flag": "uk"
+     },
+     {
+      "k": "junk",
+      "x": 0.75,
+      "s": 0.75,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1839 TO 1842",
+      "at": 0.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "HONG KONG",
+      "at": 2.5,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "Then came the Taiping Rebellion, led by a man who believed he was the younger brother of Jesus.",
+   "say": "Then came the Taiping Rebellion, from 1850 to 1864. Estimates start at twenty to thirty million deaths, mostly from famine and disease.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -2378,10 +2391,6 @@
   },
   {
    "who": "N",
-   "say": "It lasted from 1850 to 1864, and estimates start at twenty to thirty million deaths, mostly from famine and disease, making it one of the deadliest wars in human history."
-  },
-  {
-   "who": "N",
    "say": "By then the Empress Dowager Cixi held the real power at court, and the old system was cracking. In 1905, even the imperial exams were abolished.",
    "show": {
     "k": "scene",
@@ -2389,7 +2398,7 @@
     "cast": [
      {
       "id": "cixi",
-      "x": 0.5,
+      "x": 0.45,
       "pose": "hips",
       "mood": "smug"
      }
@@ -2398,7 +2407,15 @@
     "tag": {
      "id": "cixi",
      "text": "Empress Dowager Cixi"
-    }
+    },
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.6,
+      "text": "EXAMS: CANCELLED"
+     }
+    ]
    }
   },
   {
@@ -2416,10 +2433,18 @@
      }
     ],
     "cam": "push",
+    "place": "Beijing · 1908",
     "tag": {
      "id": "puyi",
      "text": "Puyi, age 2"
-    }
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ]
    }
   },
   {
@@ -2428,7 +2453,7 @@
   },
   {
    "who": "N",
-   "say": "In 1911, revolution broke out, and on February 12, 1912, six-year-old Puyi abdicated.",
+   "say": "In 1911, revolution broke out, and on February 12, 1912, six-year-old Puyi gave up the throne.",
    "show": {
     "k": "scene",
     "bg": "city",
@@ -2441,9 +2466,7 @@
      }
     ],
     "cam": "pan",
-    "fx": [
-     "confetti"
-    ],
+    "place": "China · 1912",
     "stickers": [
      {
       "text": "FEB 12, 1912",
@@ -2451,6 +2474,17 @@
       "color": "#A8322A"
      }
     ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "China became a republic, with a new flag and no emperor.",
+   "show": {
+    "k": "flag",
+    "flag": "china_roc",
+    "label": "THE REPUBLIC OF CHINA",
+    "sub": "founded 1912",
+    "bg": "city"
    }
   },
   {
@@ -2475,10 +2509,6 @@
     ],
     "cam": "pan"
    }
-  },
-  {
-   "who": "N",
-   "say": "China's story kept going, of course, but that's where we stop today."
   },
   {
    "who": "N",
@@ -2507,10 +2537,10 @@
  "thumbnail": {
   "style": "split",
   "years": [
-   "2070 BC",
+   "221 BC",
    "1912"
   ],
-  "word": "4,000 YEARS",
+  "word": "2,000 YEARS",
   "left": {
    "id": "qin",
    "mood": "smug"
@@ -2534,44 +2564,26 @@
   "https://www.livescience.com/61286-first-chinese-emperor-sought-immortality.html",
   "https://en.wikipedia.org/wiki/Xu_Fu",
   "https://www.britannica.com/topic/Qin-dynasty",
-  "https://en.wikipedia.org/wiki/Xia_dynasty",
-  "https://en.wikipedia.org/wiki/Xia%E2%80%93Shang%E2%80%93Zhou_Chronology_Project",
-  "https://www.britannica.com/topic/Shang-dynasty",
-  "https://www.worldhistory.org/Oracle_Bones/",
-  "https://en.wikipedia.org/wiki/Oracle_bone",
-  "https://en.wikipedia.org/wiki/Mandate_of_Heaven",
   "https://www.britannica.com/biography/Confucius",
-  "https://standardebooks.org/ebooks/confucius/analects/james-legge/text/chapter-1",
   "https://en.wikipedia.org/wiki/Terracotta_Army",
   "https://www.history.com/articles/5-things-you-may-not-know-about-the-terra-cotta-army",
   "https://www.npr.org/sections/thetwo-way/2018/05/20/612780909/archaeologist-who-uncovered-chinas-8-000-man-terra-cotta-army-dies-at-82r",
   "https://www.britannica.com/biography/Zhang-Qian",
   "https://en.wikipedia.org/wiki/Silk_Road",
-  "https://en.wikipedia.org/wiki/Census_in_China",
-  "https://en.wikipedia.org/wiki/Economy_of_the_Han_dynasty",
-  "https://en.wikipedia.org/wiki/Cai_Lun",
-  "https://en.wikipedia.org/wiki/Paper",
   "https://en.wikipedia.org/wiki/Sui_dynasty",
   "https://en.wikipedia.org/wiki/Imperial_examination",
   "https://www.newworldencyclopedia.org/entry/Imperial_Examinations_(Keju)",
   "https://www.worldhistory.org/article/1335/the-civil-service-examinations-of-imperial-china/",
   "https://www.britannica.com/topic/Tang-dynasty",
-  "https://en.wikipedia.org/wiki/Wu_Zetian",
-  "https://origins.osu.edu/read/wu-zetian-woman-emperor-china",
   "https://en.wikipedia.org/wiki/History_of_gunpowder",
   "https://www.britannica.com/topic/Song-dynasty",
   "https://en.wikipedia.org/wiki/Jiaozi_(currency)",
   "https://www.pcgs.com/news/a-thousand-years-of-folding-money",
-  "https://en.wikipedia.org/wiki/Bi_Sheng",
-  "https://en.wikipedia.org/wiki/Compass",
   "https://www.britannica.com/biography/Genghis-Khan",
   "https://en.wikipedia.org/wiki/Mongol_Empire",
-  "https://en.wikipedia.org/wiki/Siege_of_Baghdad",
   "https://www.britannica.com/topic/Yuan-dynasty",
   "https://www.britannica.com/event/kamikaze-of-1274-and-1281",
   "https://www.worldhistory.org/article/1415/the-mongol-invasions-of-japan-1274--1281-ce/",
-  "https://afe.easia.columbia.edu/mongols/pop/menu/class_marco.htm",
-  "https://www.asianstudies.org/publications/eaa/archives/debunking-the-myth-did-marco-polo-go-to-china/",
   "https://www.britannica.com/biography/Hongwu",
   "https://en.wikipedia.org/wiki/Forbidden_City",
   "https://en.wikipedia.org/wiki/Zheng_He",
@@ -2579,19 +2591,22 @@
   "https://www.sciencenews.org/blog/wild-things/giraffes-sailed-medieval-china",
   "https://en.wikipedia.org/wiki/Ming_Great_Wall",
   "https://www.archaeology.wiki/blog/2012/06/08/great-wall-much-longer-than-in-previous-survey/",
-  "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
-  "https://www.skyatnightmagazine.com/space-science/can-you-see-great-wall-china-from-space",
   "https://www.britannica.com/topic/Qing-dynasty",
   "https://www.lrb.co.uk/the-paper/v44/n16/pamela-crossley/we-possess-all-things",
   "http://academics.wellesley.edu/Polisci/wj/China/208/READINGS/qianlong.html",
   "https://www.britannica.com/event/Treaty-of-Nanjing",
   "https://www.nationalarchives.gov.uk/education/resources/hong-kong-and-the-opium-wars/",
-  "https://www.britannica.com/biography/Hong-Xiuquan",
   "https://en.wikipedia.org/wiki/Taiping_Rebellion",
   "https://www.britannica.com/biography/Puyi",
   "https://www.historyhit.com/puyi-last-emperor-of-china/",
   "https://en.wikipedia.org/wiki/Zhenyuan_Miaodao_Yaolue",
   "https://www.britannica.com/event/Taiping-Rebellion",
-  "https://www.newworldencyclopedia.org/entry/Zhang_Qian"
+  "https://www.newworldencyclopedia.org/entry/Zhang_Qian",
+  "https://www.britannica.com/event/Warring-States",
+  "https://en.wikipedia.org/wiki/Seven_Warring_States",
+  "https://www.worldhistory.org/Warring_States_Period/",
+  "https://www.britannica.com/topic/Yuan-dynasty",
+  "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/yuan-dynasty",
+  "https://www.britannica.com/topic/Forbidden-City"
  ]
 }

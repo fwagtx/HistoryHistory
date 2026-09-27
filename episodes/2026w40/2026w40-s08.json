@@ -51,23 +51,37 @@
   },
   {
    "who": "N",
-   "say": "The myth is older than spaceflight: Ripley's Believe It or Not spread it in 1932."
+   "say": "The myth is older than spaceflight: Ripley's Believe It or Not spread it in 1932.",
+   "show": {
+    "k": "card",
+    "label": "Myth first spread by Ripley's",
+    "big": "1932",
+    "sub": "decades before anyone reached the Moon"
+   }
   },
   {
    "who": "N",
-   "say": "The wall is enormous, over twenty-one thousand kilometers if you count every dynasty's sections.",
+   "say": "The wall is enormous: over twenty-one thousand kilometers if you add up every dynasty's sections.",
    "show": {
     "k": "scene",
-    "bg": "field",
+    "bg": "steppe",
     "cast": [
      {
       "id": "clay",
-      "x": 0.45,
+      "x": 0.2,
       "pose": "hips",
       "mood": "smug"
      }
     ],
     "cam": "pan",
+    "place": "The Great Wall, northern China",
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.62,
+      "s": 0.7
+     }
+    ],
     "stickers": [
      {
       "text": "21,196 KM",
@@ -90,13 +104,20 @@
     "cast": [
      {
       "id": "clay",
-      "x": 0.45,
+      "x": 0.35,
       "pose": "shrug",
       "mood": "sad"
      }
     ],
     "cam": "close",
-    "focus": "clay"
+    "focus": "clay",
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
    }
   },
   {
@@ -112,12 +133,26 @@
       "pose": "think"
      }
     ],
-    "cam": "push"
+    "cam": "push",
+    "objects": [
+     {
+      "k": "rocket",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "384,000 KM",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "astronaut",
-   "say": "I see a beautiful blue marble. No walls.",
+   "say": "Beautiful blue marble. No walls.",
    "show": {
     "k": "scene",
     "bg": "moon",
@@ -135,7 +170,27 @@
   },
   {
    "who": "N",
-   "say": "Apollo astronauts said no human-made object is visible from there."
+   "say": "Apollo astronauts said no human-made object is visible from there.",
+   "show": {
+    "k": "scene",
+    "bg": "space",
+    "cast": [
+     {
+      "id": "astronaut",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "cam": "still",
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -158,7 +213,7 @@
    }
   }
  ],
- "caption": "The most famous 'fact' about the Great Wall is a myth.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #greatwall #mythbusting #space #historytok",
+ "caption": "The most famous 'fact' about the Great Wall is a myth.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #greatwall #mythbusting #space #historytok",
  "youtube_title": "Can You See the Great Wall From the Moon? No. #shorts",
  "tags": [
   "great wall of china",

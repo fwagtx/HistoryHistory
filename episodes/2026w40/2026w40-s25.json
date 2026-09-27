@@ -19,6 +19,15 @@
    "stache": "thin",
    "name": "Colonel Thomas Blood"
   },
+  "edwards": {
+   "skin": "peach",
+   "outfit": "coat",
+   "color": "#6A4A2A",
+   "hair": "long",
+   "hairColor": "#D8D8D8",
+   "stache": "bush",
+   "name": "Talbot Edwards"
+  },
   "charles": {
    "preset": "king",
    "hair": "long",
@@ -29,100 +38,227 @@
  },
  "voices": {
   "blood": "am_fenrir",
+  "edwards": "bm_george",
   "charles": "bm_lewis"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1671, a man dressed as a parson walked into the Tower of London and tried to walk out with the crown.",
+   "say": "In 1671, a man tried to steal England's crown. The king rewarded him.",
    "show": {
     "k": "scene",
     "bg": "castle",
     "cast": [
      {
       "id": "blood",
-      "x": 0.5,
-      "mood": "smug",
-      "enter": "left"
+      "x": 0.3,
+      "enter": "left",
+      "mood": "smug"
      }
     ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.9
+     },
+     {
+      "k": "crown",
+      "x": 0.62,
+      "s": 0.5,
+      "y": 0.2,
+      "enter": "pop"
+     }
+    ],
+    "place": "Tower of London, England · 1671",
     "tag": {
      "id": "blood",
      "text": "Colonel Thomas Blood"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "Thomas Blood had spent weeks befriending the elderly keeper of the jewels."
-  },
-  {
-   "who": "N",
-   "say": "Then his gang attacked the keeper, Blood flattened the crown with a mallet, and the orb went down someone's trousers.",
-   "show": {
-    "k": "scene",
-    "bg": "vault",
-    "cast": [
-     {
-      "id": "blood",
-      "x": 0.5,
-      "mood": "shout",
-      "pose": "fist"
-     }
-    ],
-    "cam": "shake",
-    "fx": [
-     "sparkle"
-    ],
+    },
     "stickers": [
      {
-      "text": "BONK",
-      "at": 1.0,
-      "color": "#C8302A"
+      "text": "CROWN JEWELS",
+      "at": 2.0,
+      "color": "#B8860B"
      }
     ]
    }
   },
   {
-   "who": "blood",
-   "say": "There. Now it fits in the bag."
-  },
-  {
    "who": "N",
-   "say": "They were caught before they could get away.",
+   "say": "Thomas Blood, an Irish-born adventurer, disguised himself as a parson, a kind of priest.",
    "show": {
     "k": "scene",
     "bg": "street",
     "cast": [
      {
       "id": "blood",
-      "x": 0.4,
-      "pose": "run",
-      "mood": "scared"
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
      }
     ],
-    "fx": [
-     "dust"
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "text": "LONDON"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE PRIEST",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Blood would only explain himself to King Charles the Second.",
+   "say": "He spent weeks befriending the old jewel keeper.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.28,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "edwards",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "edwards",
+     "text": "Jewel keeper, age 77"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Blood's gang attacked the keeper and grabbed the treasure.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.35,
+      "pose": "run",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.7,
+      "s": 0.7,
+      "front": true
+     },
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.8
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Blood bashed the crown flat with a mallet to hide it.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.68,
+      "s": 0.6,
+      "front": true
+     }
+    ],
+    "cam": "close",
+    "stickers": [
+     {
+      "text": "SQUASHED!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "blood",
+   "say": "There. Now it fits."
+  },
+  {
+   "who": "N",
+   "say": "But the keeper's son came home, and the gang was caught.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "blood",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CAUGHT",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Blood would explain himself only to King Charles the Second.",
    "show": {
     "k": "scene",
     "bg": "throne",
     "cast": [
      {
       "id": "charles",
-      "x": 0.3,
-      "pose": "sit",
-      "mood": "angry"
+      "x": 0.65,
+      "pose": "think"
      },
      {
       "id": "blood",
-      "x": 0.7,
+      "x": 0.3,
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.8
      }
     ],
     "tag": {
@@ -137,21 +273,18 @@
   },
   {
    "who": "N",
-   "say": "Somehow, Blood was pardoned, and even given Irish land said to be worth five hundred pounds a year.",
+   "say": "The king pardoned him and even gave him Irish land. Historians still argue why.",
    "show": {
-    "k": "scene",
-    "bg": "throne",
+    "k": "card",
+    "label": "His \"punishment\"",
+    "big": "£500 A YEAR",
+    "sub": "in Irish land, as usually reported, plus a pardon",
     "cast": [
      {
       "id": "blood",
-      "x": 0.5,
-      "mood": "happy",
-      "pose": "cheer",
+      "mood": "smug",
       "hold": "coin"
      }
-    ],
-    "fx": [
-     "confetti"
     ]
    }
   },
@@ -176,7 +309,7 @@
    }
   }
  ],
- "caption": "He flattened the Crown of England with a mallet. The king pardoned him.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #crownjewels #heist #historytok #funnyhistory",
+ "caption": "He flattened the Crown of England with a mallet. The king pardoned him.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crownjewels #heist #historytok #funnyhistory",
  "youtube_title": "The Man Who Flattened the Crown Jewels #shorts",
  "tags": [
   "colonel blood",

@@ -39,16 +39,23 @@
     "cast": [
      {
       "id": "lully",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "present",
       "mood": "smug"
      }
     ],
     "tag": {
      "id": "lully",
-     "text": "Jean-Baptiste Lully"
+     "text": "Jean-Baptiste Lully, composer"
     },
-    "place": "France · 1680s"
+    "place": "France · 1680s",
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.16,
+      "s": 0.7
+     }
+    ]
    }
   },
   {
@@ -66,14 +73,21 @@
      },
      {
       "id": "louis",
-      "x": 0.68,
+      "x": 0.66,
       "pose": "hips"
      }
     ],
     "tag": {
      "id": "louis",
      "text": "King Louis XIV"
-    }
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.86,
+      "s": 0.6
+     }
+    ]
    }
   },
   {
@@ -87,8 +101,7 @@
     "cast": [
      {
       "id": "lully",
-      "pose": "fist",
-      "mood": "happy"
+      "pose": "fist"
      }
     ]
    }
@@ -102,22 +115,22 @@
     "cast": [
      {
       "id": "lully",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "fist",
       "mood": "happy"
      }
     ],
     "place": "Paris · January 1687",
-    "stickers": [
+    "objects": [
      {
-      "text": "BANG",
-      "at": 0.6,
-      "color": "#3A4A8A"
+      "k": "column",
+      "x": 0.14,
+      "s": 0.8
      },
      {
-      "text": "BANG",
-      "at": 1.4,
-      "color": "#3A4A8A"
+      "k": "column",
+      "x": 0.84,
+      "s": 0.8
      }
     ]
    }
@@ -131,7 +144,7 @@
     "cast": [
      {
       "id": "lully",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "scared",
       "mood": "shock"
      }
@@ -160,16 +173,16 @@
      },
      {
       "id": "lully",
-      "x": 0.68,
+      "x": 0.66,
       "pose": "scared",
-      "mood": "sad"
+      "mood": "scared"
      }
     ],
-    "stickers": [
+    "objects": [
      {
-      "text": "GANGRENE",
-      "at": 0.8,
-      "color": "#A8322A"
+      "k": "desk",
+      "x": 0.86,
+      "s": 0.6
      }
     ]
    }
@@ -225,7 +238,7 @@
    }
   }
  ],
- "caption": "The most dangerous instrument in the orchestra? The conductor's staff.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #lully #baroque #historytok #funnyhistory",
+ "caption": "The most dangerous instrument in the orchestra? The conductor's staff.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #lully #baroque #historytok #funnyhistory",
  "youtube_title": "This Composer Was Killed by Conducting #shorts",
  "tags": [
   "jean-baptiste lully",

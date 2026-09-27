@@ -29,50 +29,70 @@
  "beats": [
   {
    "who": "N",
-   "say": "This emperor spent fifteen years winning back his kingdom, then lost to a staircase.",
+   "say": "This emperor won back his empire after fifteen years, then lost to a staircase.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
       "id": "humayun",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "present"
      }
     ],
     "tag": {
      "id": "humayun",
      "text": "Emperor Humayun"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "Humayun ruled the Mughal Empire in northern India. His name roughly means fortunate.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "humayun",
-      "x": 0.45,
-      "pose": "sit",
-      "mood": "happy"
-     }
-    ],
-    "place": "Delhi, India · 1530",
+    },
+    "place": "Delhi, India · 1556",
     "stickers": [
      {
-      "text": "HUMAYUN = FORTUNATE",
-      "at": 1.0,
-      "color": "#C9A04A"
+      "text": "STAIRS: 1, EMPEROR: 0",
+      "at": 2.2,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "It didn't fit. He lost his empire to a rival and spent about fifteen years in exile, far from home.",
+   "say": "Humayun ruled India's Mughal Empire. His name roughly means fortunate.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "humayun",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.18,
+      "s": 0.7,
+      "y": 0.2
+     },
+     {
+      "k": "goldpile",
+      "x": 0.84,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HUMAYUN = FORTUNATE",
+      "at": 2.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But he lost his empire and spent about fifteen years in exile.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -83,7 +103,7 @@
       "pose": "walk",
       "walk": [
        0.2,
-       0.7
+       0.6
       ],
       "mood": "sad"
      }
@@ -91,10 +111,17 @@
     "fx": [
      "dust"
     ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.84,
+      "s": 0.8
+     }
+    ],
     "stickers": [
      {
       "text": "15 YEARS IN EXILE",
-      "at": 1.0,
+      "at": 1.2,
       "color": "#A8322A"
      }
     ]
@@ -102,58 +129,64 @@
   },
   {
    "who": "N",
-   "say": "In 1555, he finally won Delhi back.",
+   "say": "In 1555, he finally won it back.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
       "id": "humayun",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "cheer",
       "mood": "happy"
      }
     ],
     "fx": [
      "confetti"
-    ],
-    "place": "Delhi · 1555"
+    ]
    }
   },
   {
    "who": "N",
-   "say": "He loved books, and his library had very steep stairs.",
+   "say": "He loved books, and his library had steep stairs.",
    "show": {
     "k": "scene",
     "bg": "library",
     "cast": [
      {
       "id": "humayun",
-      "x": 0.45,
+      "x": 0.55,
       "pose": "hold",
       "mood": "happy"
      }
     ],
-    "place": "His library, Delhi · January 1556",
+    "place": "His library in Delhi",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.2,
+      "s": 0.8
+     }
+    ],
     "stickers": [
      {
       "text": "STEEP STAIRS",
       "at": 1.2,
-      "color": "#3A4A8A"
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "One evening in January 1556, he heard the call to prayer, the daily call for Muslims to pray.",
+   "say": "One evening, on those stairs, he heard the Muslim call to prayer.",
    "show": {
     "k": "scene",
     "bg": "town",
     "cast": [
      {
       "id": "humayun",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "think"
      }
     ],
@@ -162,14 +195,14 @@
      {
       "text": "CALL TO PRAYER",
       "at": 0.8,
-      "color": "#1F8A4A"
+      "color": "#2F6FC2"
      }
     ]
    }
   },
   {
    "who": "humayun",
-   "say": "I'll just kneel right here on the step.",
+   "say": "I'll kneel right here on the step.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -185,14 +218,14 @@
   },
   {
    "who": "N",
-   "say": "When he got up, his foot caught in his robe, and he fell down the stairs.",
+   "say": "Getting up, he tripped on his robe and fell down the stairs.",
    "show": {
     "k": "scene",
     "bg": "library",
     "cast": [
      {
       "id": "humayun",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "scared",
       "mood": "shock"
      }
@@ -200,7 +233,7 @@
     "cam": "shake",
     "stickers": [
      {
-      "text": "TUMBLE",
+      "text": "TUMBLE!",
       "at": 0.6,
       "color": "#A8322A"
      }
@@ -209,7 +242,7 @@
   },
   {
    "who": "N",
-   "say": "He hit his head and died a few days later, about six months after winning his empire back.",
+   "say": "He died days later, about six months after getting his empire back.",
    "show": {
     "k": "card",
     "label": "Back on the throne for about",
@@ -219,14 +252,14 @@
   },
   {
    "who": "N",
-   "say": "His thirteen-year-old son Akbar took over, and became one of India's greatest emperors.",
+   "say": "His son Akbar, just thirteen, became one of India's greatest emperors.",
    "show": {
     "k": "scene",
     "bg": "throne",
     "cast": [
      {
       "id": "akbar",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "hips",
       "mood": "smug"
      }
@@ -234,7 +267,15 @@
     "tag": {
      "id": "akbar",
      "text": "Akbar, age 13"
-    }
+    },
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.18,
+      "s": 0.7,
+      "y": 0.2
+     }
+    ]
    }
   },
   {
@@ -258,7 +299,7 @@
    }
   }
  ],
- "caption": "Fifteen years in exile. Six months back on top. Then the stairs.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #humayun #mughalempire #historytok #funnyhistory",
+ "caption": "Fifteen years in exile. Six months back on top. Then the stairs.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #humayun #mughalempire #historytok #funnyhistory",
  "youtube_title": "This Emperor Was Killed by His Library #shorts",
  "tags": [
   "humayun",

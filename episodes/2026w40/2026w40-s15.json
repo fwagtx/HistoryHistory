@@ -29,46 +29,54 @@
  "beats": [
   {
    "who": "N",
-   "say": "One of the most powerful men in Europe led a giant army toward Jerusalem, and never got there.",
+   "say": "One of Europe's most powerful men marched an army toward Jerusalem, and never arrived.",
    "show": {
     "k": "scene",
     "bg": "castle",
     "cast": [
      {
       "id": "barbarossa",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "hips",
       "mood": "smug",
       "hold": "sword"
      }
     ],
     "place": "Germany · 1189",
-    "tag": {
-     "id": "barbarossa",
-     "text": "Frederick Barbarossa"
-    }
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.2,
+      "y": 0.25,
+      "enter": "pop"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "He was Frederick Barbarossa, the emperor who ruled Germany. Barbarossa means Red Beard.",
+   "say": "This was Frederick Barbarossa, Germany's emperor. Barbarossa means Red Beard.",
    "show": {
     "k": "scene",
-    "bg": "castle",
+    "bg": "throne",
     "cast": [
      {
       "id": "barbarossa",
-      "x": 0.45,
+      "x": 0.5,
       "pose": "point",
       "mood": "happy"
      }
     ],
     "cam": "close",
     "focus": "barbarossa",
+    "tag": {
+     "id": "barbarossa",
+     "text": "Emperor Frederick Barbarossa"
+    },
     "stickers": [
      {
-      "text": "BARBAROSSA = RED BEARD",
-      "at": 0.9,
+      "text": "RED BEARD",
+      "at": 2.4,
       "color": "#A8322A"
      }
     ]
@@ -76,23 +84,47 @@
   },
   {
    "who": "N",
-   "say": "In 1189, in his late sixties, he joined the Third Crusade, a Christian war to win back Jerusalem.",
+   "say": "In 1189, in his late sixties, he joined the Third Crusade, a Christian war for Jerusalem.",
    "show": {
-    "k": "card",
-    "label": "1189: the Third Crusade",
-    "big": "JERUSALEM",
-    "sub": "the goal of a Christian war",
+    "k": "scene",
+    "bg": "field",
     "cast": [
      {
       "id": "crusader",
+      "x": 0.35,
+      "hold": "flag",
+      "flagColor": "#F4ECD8"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.66,
       "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "tent",
+      "x": 0.86,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THIRD CRUSADE",
+      "at": 1.0,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "He marched his army across Europe and into what's now Turkey.",
+   "say": "He marched across Europe into what's now Turkey.",
    "show": {
     "k": "map",
     "lon": 24,
@@ -166,27 +198,27 @@
      },
      {
       "id": "barbarossa",
-      "x": 0.68,
+      "x": 0.66,
       "pose": "hips"
      }
     ],
     "place": "Saleph River, Turkey · June 1190",
-    "stickers": [
+    "objects": [
      {
-      "text": "SALEPH RIVER",
-      "at": 0.6,
-      "color": "#3A4A8A"
+      "k": "rock",
+      "x": 0.14,
+      "s": 0.7
      }
     ]
    }
   },
   {
    "who": "barbarossa",
-   "say": "I am the Emperor. I will simply go across."
+   "say": "I am the Emperor. I'll just go across."
   },
   {
    "who": "N",
-   "say": "Accounts differ: his horse may have slipped, or he went in to cool off. Either way, the old emperor drowned.",
+   "say": "Maybe his horse slipped, maybe he went in to cool off. Accounts differ. Either way, he drowned.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -200,12 +232,19 @@
     "cam": "shake",
     "fx": [
      "rain"
+    ],
+    "stickers": [
+     {
+      "text": "SPLASH!",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Without their leader, most of his army gave up and went home.",
+   "say": "Without him, most of his army gave up and went home.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -221,18 +260,25 @@
       "mood": "sad"
      }
     ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
     "stickers": [
      {
       "text": "GOING HOME",
       "at": 0.8,
-      "color": "#262322"
+      "color": "#6A4A2A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "So the emperor who marched across half a continent was stopped by one river."
+   "say": "He crossed half a continent, and one river stopped him."
   },
   {
    "who": "N",
@@ -254,7 +300,7 @@
    }
   }
  ],
- "caption": "He marched across half a continent, then a river got him.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #barbarossa #crusades #historytok #funnyhistory",
+ "caption": "He marched across half a continent, then a river got him.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #barbarossa #crusades #historytok #funnyhistory",
  "youtube_title": "The Emperor Who Drowned on the Way to the Crusade #shorts",
  "tags": [
   "frederick barbarossa",

@@ -7,6 +7,15 @@
  "hook": "THE 1,300-YEAR EXAM",
  "music": "playful",
  "cast": {
+  "scholar": {
+   "outfit": "robe",
+   "color": "#2F6FC2",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "stubble": true,
+   "skin": "light",
+   "hold": "pen"
+  },
   "examiner": {
    "hat": "futou",
    "hatColor": "#1E1C1B",
@@ -16,15 +25,6 @@
    "hairColor": "#1E1C1B",
    "skin": "light",
    "hold": "scroll"
-  },
-  "scholar": {
-   "outfit": "robe",
-   "color": "#2F6FC2",
-   "hair": "bun",
-   "hairColor": "#1E1C1B",
-   "stubble": true,
-   "skin": "light",
-   "hold": "pen"
   }
  },
  "voices": {
@@ -34,7 +34,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "For thirteen hundred years, the way to get a top government job in China was to pass a brutal exam.",
+   "say": "For thirteen hundred years, China's top government jobs went to people who passed one brutal exam.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -47,37 +47,25 @@
       "hold": "book"
      }
     ],
-    "cam": "push"
+    "cam": "push",
+    "place": "China · 605 to 1905",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The imperial exams began in 605 and weren't abolished until 1905.",
+   "say": "The imperial exams began in 605. The idea: jobs should go to whoever knew the most, not whoever had the richest dad.",
    "show": {
-    "k": "scene",
-    "bg": "library",
-    "cast": [
-     {
-      "id": "scholar",
-      "x": 0.3,
-      "pose": "facepalm",
-      "mood": "sad"
-     },
-     {
-      "id": "examiner",
-      "x": 0.7,
-      "pose": "hips",
-      "mood": "smug"
-     }
-    ],
-    "cam": "still",
-    "stickers": [
-     {
-      "text": "605 TO 1905",
-      "at": 0.6,
-      "color": "#A8322A"
-     }
-    ]
+    "k": "card",
+    "label": "China's imperial exams",
+    "big": "1,300 years",
+    "sub": "from 605 until 1905"
    }
   },
   {
@@ -85,7 +73,7 @@
    "say": "In later centuries, candidates were locked in a tiny cell for three days and two nights at a time.",
    "show": {
     "k": "scene",
-    "bg": "library",
+    "bg": "vault",
     "cast": [
      {
       "id": "scholar",
@@ -100,19 +88,26 @@
       "mood": "smug"
      }
     ],
-    "cam": "push"
+    "cam": "push",
+    "stickers": [
+     {
+      "text": "3 DAYS, 2 NIGHTS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "scholar",
-   "say": "Wait, where do I sleep?"
+   "say": "Where do I sleep?"
   },
   {
    "who": "examiner",
    "say": "The desk turns into a bed. You're welcome.",
    "show": {
     "k": "scene",
-    "bg": "library",
+    "bg": "vault",
     "cast": [
      {
       "id": "examiner",
@@ -122,7 +117,14 @@
      }
     ],
     "cam": "close",
-    "focus": "examiner"
+    "focus": "examiner",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
    }
   },
   {
@@ -147,12 +149,20 @@
       "at": 1.2,
       "color": "#A8322A"
      }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.45,
+      "text": "NO NOTES"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Most candidates failed, but passing could lift an entire family into the ruling class.",
+   "say": "Most people failed. But passing could lift a whole family into the ruling class.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -167,12 +177,19 @@
     "cam": "push",
     "fx": [
      "confetti"
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.5
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Follow if you would've failed too.",
+   "say": "So for centuries, China was run by its best test-takers. Follow if you'd have failed.",
    "show": {
     "k": "end",
     "cast": [
@@ -192,7 +209,7 @@
    }
   }
  ],
- "caption": "Three days locked in a box. Now write an essay.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #chinesehistory #exams #student #historytok",
+ "caption": "Three days locked in a box. Now write an essay.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #chinesehistory #exams #student #historytok",
  "youtube_title": "China's Exam Lasted 1,300 Years #shorts",
  "tags": [
   "imperial examination",

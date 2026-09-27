@@ -1,0 +1,246 @@
+{
+ "id": "2026w40-s35",
+ "format": "short",
+ "date": "2026-10-02",
+ "slot": "09:00",
+ "title": "Thieves Stole 4,300 Diamonds in Minutes",
+ "hook": "4,300 DIAMONDS",
+ "music": "playful",
+ "cast": {
+  "augustus": {
+   "preset": "king",
+   "hair": "curly",
+   "hairColor": "#4A3222",
+   "outfit": "armor",
+   "color": "#2F4A8A",
+   "skin": "light",
+   "name": "Augustus the Strong"
+  },
+  "dpolice": {
+   "skin": "peach",
+   "hat": "cap",
+   "hatColor": "#1F2A44",
+   "outfit": "coat",
+   "color": "#1F2A44",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "name": "Dresden police officer"
+  }
+ },
+ "voices": {
+  "augustus": "bm_lewis",
+  "dpolice": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 2019, thieves stole royal jewels with over four thousand diamonds from a German museum.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.3,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.62,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "flag": "germany",
+      "s": 0.5
+     }
+    ],
+    "place": "Dresden, Germany · 2019",
+    "stickers": [
+     {
+      "text": "4,300+ DIAMONDS",
+      "at": 1.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's the Green Vault in Dresden, a treasure room started in 1723 by Augustus the Strong, a ruler of Saxony.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "augustus",
+     "text": "Augustus the Strong"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Early one November morning, thieves broke in through a window and smashed a display case.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.5,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BREAK-IN",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within minutes they were gone, with jewels valued at over a hundred million euros.",
+   "show": {
+    "k": "card",
+    "label": "The treasure taken",
+    "big": "€113 MILLION",
+    "sub": "estimated value of the stolen jewels"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Police traced a gang from a Berlin crime family.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "dpolice",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "text": "BERLIN"
+     }
+    ],
+    "tag": {
+     "id": "dpolice",
+     "text": "Police"
+    }
+   }
+  },
+  {
+   "who": "dpolice",
+   "say": "Right. Where are the jewels?"
+  },
+  {
+   "who": "N",
+   "say": "In a 2022 deal, many pieces came back. In 2023, five men were convicted.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "dpolice",
+      "x": 0.3,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.65,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But some treasures, including the famous Dresden White Diamond, are still missing.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.7,
+      "open": false,
+      "label": "?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL MISSING",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more heists that went wrong.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.3,
+      "mood": "angry"
+     },
+     {
+      "id": "dpolice",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Royal jewels with over 4,300 diamonds, stolen from a German museum in minutes. Some are still missing.\n\nMore heists in our full video on YouTube. Follow for 5 stories a day.\n#history #heist #diamonds #historytok #truecrime",
+ "youtube_title": "Thieves Stole 4,300 Diamonds in Minutes #shorts",
+ "tags": [
+  "green vault",
+  "dresden heist",
+  "jewel heist",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.smithsonianmag.com/smart-news/five-convicted-green-vault-heist-180982196/",
+  "https://www.cnn.com/style/article/green-vault-heist-sentence-germany-intl/index.html",
+  "https://www.aljazeera.com/news/2023/5/16/german-court-sentences-five-people-over-spectacular-museum-heist",
+  "https://nationaljeweler.com/articles/11552-authorities-recover-some-royal-jewels-from-green-vault-heist",
+  "https://www.smithsonianmag.com/smart-news/dazzling-jewels-stolen-in-green-vault-heist-go-back-on-display-in-dresden-180984925/",
+  "https://www.amny.com/world/jewels-stolen-in-germanys-green-vault-heist-back-on-display/",
+  "https://www.naturaldiamonds.com/historic-diamonds/dresden-green-vault-heist/"
+ ]
+}

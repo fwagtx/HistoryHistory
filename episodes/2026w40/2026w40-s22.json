@@ -1,0 +1,322 @@
+{
+ "id": "2026w40-s22",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "The King Who Died From His Favorite Fish",
+ "hook": "DEATH BY FISH?",
+ "music": "playful",
+ "cast": {
+  "henry": {
+   "preset": "king",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "King Henry I of England"
+  },
+  "physician": {
+   "preset": "physician"
+  },
+  "matilda": {
+   "preset": "queen",
+   "name": "Empress Matilda"
+  },
+  "stephen": {
+   "preset": "knight",
+   "name": "Stephen of Blois"
+  }
+ },
+ "voices": {
+  "henry": "bm_george",
+  "physician": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "England's king loved a food his doctor warned him about. It may have killed him.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "henry",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy"
+     },
+     {
+      "id": "physician",
+      "x": 0.72,
+      "pose": "facepalm"
+     }
+    ],
+    "tag": {
+     "id": "henry",
+     "text": "King Henry I of England"
+    },
+    "place": "Normandy, France · 1135",
+    "stickers": [
+     {
+      "text": "DEATH BY FISH?",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Henry the First was a son of William the Conqueror.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "henry",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.18,
+      "s": 0.6,
+      "y": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His only legitimate son drowned in a shipwreck, so Henry made his daughter Matilda his heir.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "matilda",
+      "x": 0.3,
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.68,
+      "s": 0.8
+     }
+    ],
+    "tag": {
+     "id": "matilda",
+     "text": "Matilda, his heir"
+    },
+    "stickers": [
+     {
+      "text": "THE WHITE SHIP",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1135, he was hunting in Normandy, in northern France.",
+   "show": {
+    "k": "map",
+    "lon": 0.5,
+    "lat": 50.2,
+    "z0": 2.2,
+    "z1": 3.0,
+    "date": "1135",
+    "labels": [
+     [
+      "England",
+      -1.5,
+      52.3,
+      0
+     ],
+     [
+      "Normandy",
+      0.0,
+      48.9,
+      0
+     ],
+     [
+      "Lyons-la-Forêt",
+      1.47,
+      49.4,
+      30
+     ]
+    ],
+    "areas": [
+     [
+      1.47,
+      49.4,
+      0.3,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His favorite dish was lampreys, slimy eel-like fish that usually made him sick.",
+   "show": {
+    "k": "card",
+    "label": "Henry's favorite food",
+    "big": "LAMPREYS",
+    "sub": "slimy, eel-like fish with no jaws",
+    "cast": [
+     {
+      "id": "henry",
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "physician",
+   "say": "Your Majesty, no more lampreys!",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "physician",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "henry",
+      "x": 0.66,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.86,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody knows for sure, but a writer of the time says the king ate far too many, fell ill and died.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "henry",
+      "x": 0.6,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.22,
+      "s": 0.7,
+      "text": "A surfeit of lampreys"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1 DECEMBER 1135",
+      "at": 2.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then real disaster: her cousin Stephen grabbed the crown, and almost twenty years of civil war followed.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "stephen",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry",
+      "hold": "sword"
+     },
+     {
+      "id": "matilda",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "England · 1135 to 1154",
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE ANARCHY",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "henry",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "physician",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His doctor said no more lampreys. The king said one more plate.\n\nFollow for 5 stories a day.\n#history #henryi #medievalhistory #historytok #funnyhistory",
+ "youtube_title": "The King Who Died From His Favorite Fish #shorts",
+ "tags": [
+  "henry i of england",
+  "lampreys",
+  "medieval history",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Henry_I_of_England",
+  "https://www.researchgate.net/publication/370942771_Forbidden_Fish_Did_King_Henry_I_Die_of_Lamprey_Poisoning",
+  "https://www.readingmuseum.org.uk/blog/burial-henry-i",
+  "https://www.normandythenandnow.com/death-of-an-almost-perfect-king-at-lyons-la-foret-by-jamieson-b-hurry/",
+  "https://www.historyhit.com/how-did-the-white-ship-disaster-end-a-dynasty/",
+  "https://www.readingmuseum.org.uk/blog/death-and-anarchy-white-ship-disaster",
+  "https://www.missedhistory.com/article/king-henry-i-died-lampreys",
+  "https://the-past.com/feature/the-anarchy-the-first-english-civil-war-1135-1153/",
+  "https://oceanservice.noaa.gov/facts/sea-lamprey.html"
+ ]
+}

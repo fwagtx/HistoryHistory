@@ -32,44 +32,64 @@
  "beats": [
   {
    "who": "N",
-   "say": "In one Boston museum, empty frames hang on the walls on purpose.",
+   "say": "A museum in Boston hangs empty frames on its walls, on purpose.",
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "nguard",
-      "x": 0.5,
-      "mood": "sad",
-      "pose": "shrug"
+      "k": "painting",
+      "x": 0.3,
+      "s": 0.75,
+      "empty": true
+     },
+     {
+      "k": "painting",
+      "x": 0.7,
+      "s": 0.75,
+      "empty": true
      }
     ],
-    "cam": "pan"
+    "place": "Boston, USA · 1990",
+    "stickers": [
+     {
+      "text": "EMPTY?!",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "In 1990, two men dressed as police knocked at the Isabella Stewart Gardner Museum.",
+   "say": "One night in 1990, two men dressed as police knocked at the Isabella Stewart Gardner Museum.",
    "show": {
     "k": "scene",
     "bg": "street",
     "cast": [
      {
       "id": "fakecop",
-      "x": 0.3,
-      "mood": "neutral",
-      "pose": "point"
-     },
-     {
-      "id": "nguard",
-      "x": 0.7,
-      "mood": "neutral"
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
      }
     ],
-    "tag": {
-     "id": "fakecop",
-     "text": "Not actually a police officer"
-    }
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "usa",
+      "s": 0.55
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE COPS",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
@@ -78,47 +98,104 @@
   },
   {
    "who": "nguard",
-   "say": "Oh! Come on in, officers."
-  },
-  {
-   "who": "N",
-   "say": "They tied up the guards and spent eighty-one minutes inside, taking thirteen works of art.",
+   "say": "Oh! Come on in, officers.",
    "show": {
-    "k": "card",
-    "label": "Time the thieves spent inside",
-    "big": "81 MINUTES",
-    "sub": "13 works taken"
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "nguard",
+      "x": 0.55,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close"
    }
   },
   {
    "who": "N",
-   "say": "The loot included a Vermeer and Rembrandt's only known seascape, and the whole haul is valued at about five hundred million dollars.",
+   "say": "That broke the rules. Soon both guards were tied up in the basement, unhurt.",
    "show": {
     "k": "scene",
-    "bg": "library",
+    "bg": "vault",
     "cast": [
      {
       "id": "nguard",
-      "x": 0.5,
-      "mood": "shock"
-     }
-    ],
-    "stickers": [
-     {
-      "text": "$500 MILLION",
-      "at": 1.0,
-      "color": "#D4A52A"
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "sit"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Isabella Gardner's will says nothing in her galleries can be changed, so the frames stay."
+   "say": "The thieves spent eighty-one minutes inside and took thirteen works of art.",
+   "show": {
+    "k": "card",
+    "label": "Time the thieves spent inside",
+    "big": "81 MINUTES",
+    "sub": "13 works of art taken"
+   }
   },
   {
    "who": "N",
-   "say": "There's a ten million dollar reward, and the case is still unsolved."
+   "say": "Including a Vermeer and a Rembrandt, all valued at about five hundred million dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.3,
+      "s": 0.7,
+      "label": "VERMEER"
+     },
+     {
+      "k": "painting",
+      "x": 0.7,
+      "s": 0.7,
+      "label": "REMBRANDT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$500 MILLION",
+      "at": 1.8,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Isabella Gardner's will said nothing in her galleries could be changed. So the empty frames stay.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "s": 0.9,
+      "empty": true
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "There's a ten million dollar reward. The case is still unsolved.",
+   "show": {
+    "k": "card",
+    "label": "Reward for the art",
+    "big": "$10 MILLION",
+    "sub": "still unclaimed"
+   }
   },
   {
    "who": "N",
@@ -127,21 +204,20 @@
     "k": "end",
     "cast": [
      {
-      "id": "nguard",
+      "id": "fakecop",
       "x": 0.3,
-      "pose": "wave",
-      "mood": "happy"
+      "mood": "smug"
      },
      {
-      "id": "fakecop",
+      "id": "nguard",
       "x": 0.7,
-      "mood": "smug"
+      "mood": "shock"
      }
     ]
    }
   }
  ],
- "caption": "Why does a Boston museum still hang empty frames? Blame two fake cops.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #artheist #boston #historytok #mystery",
+ "caption": "Why does a Boston museum still hang empty frames? Blame two fake cops.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #artheist #boston #historytok #mystery",
  "youtube_title": "Why This Museum Hangs Empty Frames #shorts",
  "tags": [
   "gardner museum heist",

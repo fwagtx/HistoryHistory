@@ -7,15 +7,6 @@
  "hook": "BUSTED BY SALAMI",
  "music": "playful",
  "cast": {
-  "detective": {
-   "skin": "peach",
-   "hat": "fedora",
-   "hatColor": "#6A5A48",
-   "outfit": "coat",
-   "color": "#8A7A5A",
-   "glasses": "square",
-   "name": "Belgian detective"
-  },
   "notarbartolo": {
    "preset": "businessman",
    "hair": "bald",
@@ -26,30 +17,77 @@
   "vancamp": {
    "preset": "farmer",
    "name": "August Van Camp"
+  },
+  "detective": {
+   "skin": "peach",
+   "hat": "fedora",
+   "hatColor": "#6A5A48",
+   "outfit": "coat",
+   "color": "#8A7A5A",
+   "glasses": "square",
+   "name": "Belgian detective"
   }
  },
  "voices": {
-  "detective": "bm_george",
   "notarbartolo": "am_eric",
-  "vancamp": "bm_lewis"
+  "vancamp": "bm_lewis",
+  "detective": "bm_george"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 2003, thieves emptied more than a hundred safe deposit boxes in an Antwerp diamond vault.",
+   "say": "In 2003, thieves stole over a hundred million dollars in diamonds, and a sandwich helped catch them.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "city",
     "cast": [
      {
       "id": "notarbartolo",
-      "x": 0.5,
-      "mood": "smug",
-      "hold": "goldbar"
+      "x": 0.3,
+      "mood": "smug"
      }
     ],
-    "fx": [
-     "sparkle"
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "text": "ANTWERP"
+     }
+    ],
+    "place": "Antwerp, Belgium · 2003",
+    "stickers": [
+     {
+      "text": "DIAMOND CITY",
+      "at": 1.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Antwerp, in Belgium, is one of the world's diamond capitals."
+  },
+  {
+   "who": "N",
+   "say": "The leader, Leonardo Notarbartolo, rented an office there, posing as a diamond trader.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "notarbartolo",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.8
+     }
     ],
     "tag": {
      "id": "notarbartolo",
@@ -59,72 +97,116 @@
   },
   {
    "who": "N",
-   "say": "The haul was estimated at over a hundred million dollars."
-  },
-  {
-   "who": "N",
-   "say": "The ringleader, Leonardo Notarbartolo, had rented an office in the building and posed as a diamond trader.",
+   "say": "One weekend, they opened over a hundred safe deposit boxes in the vault below.",
    "show": {
     "k": "scene",
-    "bg": "office",
-    "cast": [
+    "bg": "vault",
+    "cast": [],
+    "objects": [
      {
-      "id": "notarbartolo",
-      "x": 0.5,
-      "mood": "smug",
-      "pose": "hips"
+      "k": "chest",
+      "x": 0.3,
+      "s": 0.8
+     },
+     {
+      "k": "moneypile",
+      "x": 0.62,
+      "s": 0.8
+     },
+     {
+      "k": "goldpile",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "100+ BOXES",
+      "at": 1.0,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Then two of the gang dumped their rubbish in some woods by the motorway.",
+   "say": "Then two of them dumped bags of rubbish in some woods.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.2
+     },
+     {
+      "k": "tree",
+      "x": 0.82
+     },
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.5,
+      "label": "TRASH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "vancamp",
+   "say": "Who's dumping rubbish on my land?",
    "show": {
     "k": "scene",
     "bg": "field",
     "cast": [
      {
       "id": "vancamp",
-      "x": 0.5,
+      "x": 0.4,
       "mood": "angry",
-      "pose": "hips"
+      "pose": "point"
      }
     ],
-    "tag": {
-     "id": "vancamp",
-     "text": "August Van Camp, landowner"
-    }
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85
+     },
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.5,
+      "label": "TRASH"
+     }
+    ],
+    "cam": "close"
    }
-  },
-  {
-   "who": "vancamp",
-   "say": "Who's dumping rubbish on my land?"
   },
   {
    "who": "N",
    "say": "Police found receipts, videotape and a half-eaten salami sandwich.",
    "show": {
     "k": "scene",
-    "bg": "field",
+    "bg": "office",
     "cast": [
      {
-      "id": "vancamp",
-      "x": 0.3,
-      "mood": "shock"
-     },
-     {
       "id": "detective",
-      "x": 0.7,
-      "mood": "smug",
-      "pose": "point"
+      "x": 0.35,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.65,
+      "s": 0.8
      }
     ],
     "stickers": [
      {
-      "text": "SALAMI",
-      "at": 1.0,
-      "color": "#C8302A"
+      "text": "SALAMI SANDWICH",
+      "at": 1.5,
+      "color": "#A8322A"
      }
     ]
    }
@@ -135,16 +217,15 @@
   },
   {
    "who": "N",
-   "say": "That rubbish helped tie the gang to the crime, and Notarbartolo got ten years.",
+   "say": "The rubbish helped tie the gang to the crime. Notarbartolo got ten years. Most loot was never found.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
     "cast": [
      {
       "id": "notarbartolo",
-      "x": 0.5,
-      "mood": "sad",
-      "pose": "shrug"
+      "x": 0.4,
+      "mood": "sad"
      }
     ]
    }
@@ -158,19 +239,19 @@
      {
       "id": "detective",
       "x": 0.3,
-      "pose": "wave",
-      "mood": "happy"
+      "mood": "smug"
      },
      {
-      "id": "notarbartolo",
+      "id": "vancamp",
       "x": 0.7,
-      "mood": "shock"
+      "pose": "wave",
+      "mood": "happy"
      }
     ]
    }
   }
  ],
- "caption": "A $100 million diamond heist, undone by the rubbish, including half a salami sandwich.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #heist #diamonds #historytok #truecrime",
+ "caption": "A $100 million diamond heist, undone by rubbish, including half a salami sandwich.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #heist #diamonds #historytok #truecrime",
  "youtube_title": "The $100 Million Heist Ruined by a Sandwich #shorts",
  "tags": [
   "antwerp diamond heist",

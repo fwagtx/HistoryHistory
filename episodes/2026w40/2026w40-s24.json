@@ -1,0 +1,303 @@
+{
+ "id": "2026w40-s24",
+ "format": "short",
+ "date": "2026-09-30",
+ "slot": "09:00",
+ "title": "This Viking Was Killed by an Enemy Who Was Already Dead",
+ "hook": "BEATEN BY A DEAD MAN",
+ "music": "playful",
+ "cast": {
+  "sigurd": {
+   "preset": "viking",
+   "name": "Sigurd the Mighty"
+  },
+  "mael": {
+   "outfit": "tunic",
+   "color": "#4A6A3A",
+   "beard": "full",
+   "hairColor": "#8A4A2A",
+   "skin": "light",
+   "hold": "spear",
+   "name": "Máel Brigte"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "viking2": {
+   "preset": "viking"
+  }
+ },
+ "voices": {
+  "sigurd": "am_fenrir",
+  "mael": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Viking ruler was killed by an enemy who was already dead.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sigurd",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "smug",
+      "hold": "axe"
+     },
+     {
+      "id": "horse",
+      "x": 0.74
+     }
+    ],
+    "tag": {
+     "id": "sigurd",
+     "text": "Sigurd the Mighty"
+    },
+    "place": "Northern Scotland · about 892 AD",
+    "stickers": [
+     {
+      "text": "BEATEN BY A DEAD MAN",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sigurd the Mighty ruled Orkney, islands off the top of Scotland.",
+   "show": {
+    "k": "map",
+    "lon": -3.5,
+    "lat": 58.3,
+    "z0": 2.4,
+    "z1": 3.2,
+    "date": "about 892 AD",
+    "labels": [
+     [
+      "Orkney",
+      -3.0,
+      59.0,
+      0
+     ],
+     [
+      "Scotland",
+      -4.5,
+      57.2,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -3.0,
+      59.0,
+      0.5,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He challenged a local ruler, Máel Brigte the Buck-Toothed, to battle, forty men a side.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "sigurd",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "mael",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "mael",
+     "text": "Máel Brigte the Buck-Toothed"
+    }
+   }
+  },
+  {
+   "who": "mael",
+   "say": "Forty men each. Deal?"
+  },
+  {
+   "who": "N",
+   "say": "Sigurd cheated and brought eighty. He won, and tied his enemy's head to his saddle as a trophy.",
+   "show": {
+    "k": "card",
+    "label": "Sigurd's army",
+    "big": "80",
+    "sub": "instead of the agreed 40",
+    "cast": [
+     {
+      "id": "viking2",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the ride home, the dead man's big tooth scratched Sigurd's leg.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "sigurd",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SCRATCH",
+      "at": 1.4,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SCRATCH",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sigurd",
+   "say": "Ow. It's just a scratch.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "sigurd",
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "sigurd"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The scratch got infected, and it killed him.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "viking2",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still",
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This comes from a Norse saga written about three hundred years later, so the details may be legend.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "viking2",
+      "x": 0.62,
+      "pose": "hold",
+      "hold": "scroll"
+     }
+    ],
+    "place": "Iceland · around 1200 AD",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.24,
+      "s": 0.7,
+      "text": "Orkneyinga saga"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sigurd",
+      "x": 0.3,
+      "pose": "facepalm"
+     },
+     {
+      "id": "mael",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He won the battle. The loser's tooth won the war.\n\nFollow for 5 stories a day.\n#history #vikings #scotland #historytok #funnyhistory",
+ "youtube_title": "This Viking Was Killed by an Enemy Who Was Already Dead #shorts",
+ "tags": [
+  "sigurd the mighty",
+  "vikings",
+  "orkney",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sigurd_Eysteinsson",
+  "https://en.wikipedia.org/wiki/M%C3%A1el_Brigte_of_Moray",
+  "https://www.ancient-origins.net/weird-facts/sigurd-mighty-0016904",
+  "https://generalist.academy/2020/09/23/the-biter-bit/",
+  "https://en.wikipedia.org/wiki/Earldom_of_Orkney"
+ ]
+}

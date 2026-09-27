@@ -7,6 +7,15 @@
  "hook": "EMPEROR AT AGE TWO",
  "music": "playful",
  "cast": {
+  "puyi": {
+   "preset": "child",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#E8C25A",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Puyi"
+  },
   "cixi": {
    "hat": "tiara",
    "outfit": "gown",
@@ -25,15 +34,6 @@
    "beard": "goatee",
    "hairColor": "#1E1C1B",
    "skin": "light"
-  },
-  "puyi": {
-   "preset": "child",
-   "hat": "crown",
-   "outfit": "robe",
-   "color": "#E8C25A",
-   "hairColor": "#1E1C1B",
-   "skin": "light",
-   "name": "Puyi"
   }
  },
  "voices": {
@@ -60,12 +60,31 @@
     "tag": {
      "id": "puyi",
      "text": "Puyi"
-    }
+    },
+    "place": "Beijing, China · 1908",
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.55
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "In 1908, the dying Empress Dowager Cixi picked two-year-old Puyi to be the next emperor.",
+   "say": "The Qing were China's last dynasty. In 1908, the dying Empress Dowager Cixi picked two-year-old Puyi as the next emperor.",
+   "show": {
+    "k": "flag",
+    "flag": "china_qing",
+    "label": "THE QING DYNASTY",
+    "sub": "China's last dynasty",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "cixi",
+   "say": "Congratulations, darling. You're the emperor.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -87,12 +106,17 @@
     "tag": {
      "id": "cixi",
      "text": "Empress Dowager Cixi"
-    }
+    },
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.5,
+      "s": 0.35,
+      "y": 0.1,
+      "enter": "pop"
+     }
+    ]
    }
-  },
-  {
-   "who": "cixi",
-   "say": "Congratulations, darling. You're the emperor."
   },
   {
    "who": "puyi",
@@ -114,11 +138,11 @@
   },
   {
    "who": "N",
-   "say": "According to his own memoir, he cried through his enthronement, while his father kept telling him it would soon be over."
+   "say": "According to his own memoir, he cried through the ceremony, while his father kept telling him it would soon be over."
   },
   {
    "who": "N",
-   "say": "Then revolution broke out in 1911.",
+   "say": "Then, in 1911, a revolution broke out against the emperors.",
    "show": {
     "k": "scene",
     "bg": "city",
@@ -133,36 +157,30 @@
     "cam": "shake",
     "fx": [
      "smoke"
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "On February 12, 1912, six-year-old Puyi abdicated, ending more than two thousand years of Chinese emperors.",
-   "show": {
-    "k": "scene",
-    "bg": "palace",
-    "cast": [
-     {
-      "id": "puyi",
-      "x": 0.45,
-      "pose": "shrug",
-      "mood": "sad"
-     }
     ],
-    "cam": "push",
-    "stickers": [
+    "objects": [
      {
-      "text": "FEB 12, 1912",
-      "at": 0.6,
-      "color": "#A8322A"
+      "k": "fire",
+      "x": 0.8,
+      "s": 0.5
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Follow for more of history's youngest rulers.",
+   "say": "On February 12, 1912, six-year-old Puyi gave up the throne, ending more than two thousand years of Chinese emperors.",
+   "show": {
+    "k": "flag",
+    "flag": "china_roc",
+    "label": "REPUBLIC OF CHINA",
+    "sub": "February 12, 1912: no more emperors",
+    "bg": "city"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The last emperor retired before first grade. Follow for more of history's youngest rulers.",
    "show": {
     "k": "end",
     "cast": [
@@ -181,7 +199,7 @@
    }
   }
  ],
- "caption": "Emperor at two. Retired at six.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #puyi #lastemperor #qingdynasty #historytok",
+ "caption": "Emperor at two. Retired at six.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #puyi #lastemperor #qingdynasty #historytok",
  "youtube_title": "China's Last Emperor Was Six When He Quit #shorts",
  "tags": [
   "puyi",

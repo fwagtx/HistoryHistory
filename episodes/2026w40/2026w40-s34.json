@@ -1,0 +1,287 @@
+{
+ "id": "2026w40-s34",
+ "format": "short",
+ "date": "2026-10-02",
+ "slot": "09:00",
+ "title": "The Man Who Sold the Eiffel Tower",
+ "hook": "HE SOLD THE EIFFEL TOWER",
+ "music": "playful",
+ "cast": {
+  "lustig": {
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#262322",
+   "outfit": "suit",
+   "color": "#2A2A2A",
+   "tie": "#8A2A2A",
+   "hair": "side",
+   "hairColor": "#1E1C1B",
+   "stache": "thin",
+   "name": "Victor Lustig"
+  },
+  "poisson": {
+   "preset": "businessman",
+   "hat": "bowler",
+   "hatColor": "#4A3A2A",
+   "color": "#5A4A3A",
+   "stache": "bush",
+   "hairColor": "#6A4A2A",
+   "name": "André Poisson"
+  }
+ },
+ "voices": {
+  "lustig": "bm_george",
+  "poisson": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1925, a con man sold the Eiffel Tower. He didn't own it.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "text": "FOR SALE"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "flag": "france",
+      "s": 0.5
+     }
+    ],
+    "place": "Paris, France · 1925",
+    "tag": {
+     "id": "lustig",
+     "text": "Victor Lustig"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Victor Lustig read that the tower was rusty and costly to repair.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.4,
+      "hold": "book",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "text": "RUSTY TOWER!"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Built for the 1889 World's Fair, it was never meant to be permanent.",
+   "show": {
+    "k": "card",
+    "label": "The Eiffel Tower was built in",
+    "big": "1889",
+    "sub": "with a permit to stand for just 20 years"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he posed as a government official and invited scrap dealers to a fancy hotel.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "poisson",
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.5,
+      "text": "OFFICIAL"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE OFFICIAL",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lustig",
+   "say": "The government is selling the tower for scrap. Shh."
+  },
+  {
+   "who": "N",
+   "say": "André Poisson wanted the deal. Lustig hinted at a bribe.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "poisson",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "moneybag"
+     },
+     {
+      "id": "lustig",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "poisson",
+     "text": "André Poisson, scrap dealer"
+    }
+   }
+  },
+  {
+   "who": "poisson",
+   "say": "A bribe? He must be a real official!"
+  },
+  {
+   "who": "N",
+   "say": "Poisson paid, Lustig fled to Austria, and Poisson was too embarrassed to call police.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "lustig",
+      "walk": [
+       0.3,
+       0.8
+      ],
+      "pose": "run",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.3,
+      "move": [
+       0.1,
+       0.45
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TOO EMBARRASSED",
+      "at": 2.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1935 he was arrested in America for faking money, and sent to Alcatraz.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "usa",
+      "s": 0.5
+     }
+    ],
+    "place": "USA · 1935",
+    "stickers": [
+     {
+      "text": "ALCATRAZ",
+      "at": 2.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history scams.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "poisson",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1925 a con man sold the Eiffel Tower for scrap. He did not own the Eiffel Tower.\n\nMore heists in our full video on YouTube. Follow for 5 stories a day.\n#history #eiffeltower #scam #historytok #conman",
+ "youtube_title": "The Man Who Sold the Eiffel Tower #shorts",
+ "tags": [
+  "victor lustig",
+  "eiffel tower",
+  "con man",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.smithsonianmag.com/history/man-who-sold-eiffel-tower-twice-180958370/",
+  "https://www.smithsonianmag.com/history/the-smoothest-con-man-that-ever-lived-29861908/",
+  "https://www.toureiffel.paris/en/news/history-and-culture/who-sold-eiffel-tower",
+  "https://en.wikipedia.org/wiki/Victor_Lustig",
+  "https://www.mentalfloss.com/article/12809/smooth-operator-how-victor-lustig-sold-eiffel-tower",
+  "https://themobmuseum.org/blog/the-long-con-of-underworld-grifter-count-victor-lustig/",
+  "https://www.history.com/articles/eiffel-tower-survival",
+  "https://guides.loc.gov/chronicling-america-eiffel-tower"
+ ]
+}

@@ -37,7 +37,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1974, farmers digging a well in China hit pieces of a clay figure, and then found an entire buried army.",
+   "say": "In 1974, farmers digging a well in China found a buried army.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -58,28 +58,25 @@
     "fx": [
      "dust"
     ],
-    "stickers": [
+    "place": "Near Xi'an, China · 1974",
+    "objects": [
      {
-      "text": "1974",
-      "at": 0.5,
-      "color": "#A8322A"
+      "k": "rock",
+      "x": 0.52,
+      "s": 0.5
      }
     ]
    }
   },
   {
    "who": "farmer",
-   "say": "Is this a pot?"
-  },
-  {
-   "who": "farmer2",
-   "say": "Pots don't have mustaches.",
+   "say": "Uh, is this a pot?",
    "show": {
     "k": "scene",
     "bg": "field",
     "cast": [
      {
-      "id": "farmer2",
+      "id": "farmer",
       "x": 0.3,
       "pose": "point",
       "mood": "shock"
@@ -91,13 +88,30 @@
       "enter": "drop"
      }
     ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "farmer2",
+   "say": "Pots don't have mustaches.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "farmer2",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
     "cam": "close",
     "focus": "farmer2"
    }
   },
   {
    "who": "N",
-   "say": "It was the Terracotta Army, built to guard the tomb of China's first emperor, Qin Shi Huang.",
+   "say": "It was the Terracotta Army: clay soldiers built to guard the tomb of China's first emperor, Qin Shi Huang.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -120,7 +134,14 @@
       "mood": "happy"
      }
     ],
-    "cam": "pan"
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "TERRACOTTA = BAKED CLAY",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
    }
   },
   {
@@ -128,44 +149,69 @@
    "say": "The usual estimate is more than eight thousand life-size soldiers, plus horses and chariots.",
    "show": {
     "k": "card",
-    "label": "Terracotta soldiers",
+    "label": "Clay soldiers",
     "big": "8,000+",
-    "sub": "by the usual estimate",
-    "cast": [
-     {
-      "id": "clay",
-      "x": 0.8,
-      "pose": "salute",
-      "mood": "smug"
-     }
-    ]
+    "sub": "plus horses and chariots"
    }
   },
   {
    "who": "N",
-   "say": "The faces started from a handful of basic molds, but each face was finished by hand, so the soldiers all look different.",
+   "say": "Their faces started from a handful of molds, then each was finished by hand, so every soldier looks different.",
    "show": {
     "k": "scene",
     "bg": "camp",
     "cast": [
      {
       "id": "clay",
-      "x": 0.45,
+      "x": 0.3,
       "pose": "hips",
       "mood": "smug"
+     },
+     {
+      "id": "clay",
+      "x": 0.7,
+      "pose": "think",
+      "mood": "happy"
      }
     ],
-    "cam": "close",
-    "focus": "clay"
+    "cam": "push",
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "And they were once painted in bright colors, which mostly flaked away once they hit the air."
+   "say": "They were even painted in bright colors, which mostly flaked off once they hit the air.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "clay",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "clay",
+    "stickers": [
+     {
+      "text": "PAINT: GONE",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "Follow for more history hiding underground.",
+   "say": "So farmers looking for water found an emperor's afterlife army. Follow for more history hiding underground.",
    "show": {
     "k": "end",
     "cast": [
@@ -185,7 +231,7 @@
    }
   }
  ],
- "caption": "They were digging for water. They found an army.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #terracottaarmy #archaeology #ancientchina #historytok",
+ "caption": "They were digging for water. They found an army.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #terracottaarmy #archaeology #ancientchina #historytok",
  "youtube_title": "Farmers Dug a Well and Found a Buried Clay Army #shorts",
  "tags": [
   "terracotta army",

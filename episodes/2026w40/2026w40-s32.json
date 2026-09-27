@@ -17,10 +17,6 @@
    "hairColor": "#1E1C1B",
    "name": "\"Dan Cooper\""
   },
-  "ingram": {
-   "preset": "child",
-   "name": "Brian Ingram"
-  },
   "schaffner": {
    "skin": "peach",
    "outfit": "dress",
@@ -28,57 +24,100 @@
    "hair": "bun",
    "hairColor": "#6A4A2A",
    "name": "Florence Schaffner"
+  },
+  "ingram": {
+   "preset": "child",
+   "name": "Brian Ingram"
   }
  },
  "voices": {
   "cooper": "am_echo",
-  "ingram": "af_bella",
-  "schaffner": "af_heart"
+  "schaffner": "af_heart",
+  "ingram": "af_bella"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1971, a hijacker jumped out of a plane with two hundred thousand dollars and was never seen again.",
+   "say": "In 1971, a hijacker jumped from a plane with two hundred thousand dollars and vanished.",
    "show": {
     "k": "scene",
     "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "plane",
+      "x": 0.5,
+      "color": "#F2F2F2",
+      "s": 0.9,
+      "move": [
+       0.2,
+       0.7
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$200,000",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He bought a ticket in Portland, Oregon, using the name Dan Cooper.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
     "cast": [
      {
       "id": "cooper",
-      "x": 0.5,
-      "mood": "neutral",
-      "hold": "moneybag"
+      "x": 0.3,
+      "mood": "neutral"
      }
     ],
-    "fx": [
-     "rain"
+    "objects": [
+     {
+      "k": "plane",
+      "x": 0.65,
+      "color": "#F2F2F2",
+      "s": 0.7,
+      "alt": 40
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "flag": "usa",
+      "s": 0.5
+     }
     ],
+    "place": "Portland, Oregon, USA · 1971",
     "tag": {
      "id": "cooper",
-     "text": "\"Dan Cooper\" (D.B. Cooper)"
+     "text": "\"Dan Cooper\""
     }
    }
   },
   {
    "who": "N",
-   "say": "He bought a ticket in Portland as Dan Cooper and handed a flight attendant a note.",
+   "say": "On board, he handed a flight attendant a note. She assumed it was his number.",
    "show": {
     "k": "scene",
     "bg": "office",
     "cast": [
      {
-      "id": "schaffner",
+      "id": "cooper",
       "x": 0.3,
-      "mood": "smug",
       "hold": "letter"
      },
      {
-      "id": "cooper",
-      "x": 0.7,
-      "mood": "neutral",
-      "pose": "sit"
+      "id": "schaffner",
+      "x": 0.68,
+      "mood": "smug"
      }
-    ]
+    ],
+    "cam": "close"
    }
   },
   {
@@ -87,78 +126,97 @@
   },
   {
    "who": "cooper",
-   "say": "Miss, you'd better look at that note."
+   "say": "Miss, you'd better read that note."
   },
   {
    "who": "N",
-   "say": "After the passengers were freed in Seattle, the plane took off again, and he jumped from the rear stairs into the night.",
+   "say": "It said he had a bomb. He demanded the money and four parachutes.",
+   "show": {
+    "k": "card",
+    "label": "Cooper's demands",
+    "big": "$200,000",
+    "sub": "plus four parachutes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Seattle he freed the passengers. Then the plane took off, and he jumped out the back.",
    "show": {
     "k": "scene",
     "bg": "night",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "cooper",
+      "k": "plane",
       "x": 0.5,
-      "mood": "neutral",
-      "enter": "drop"
+      "color": "#F2F2F2",
+      "s": 0.9,
+      "move": [
+       0.8,
+       0.3
+      ]
      }
     ],
     "fx": [
      "rain"
     ],
-    "cam": "shake"
+    "stickers": [
+     {
+      "text": "JUMP!",
+      "at": 3.0,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "In 1980, a kid found five thousand eight hundred dollars of the ransom on a Columbia River beach.",
+   "say": "In 1980, a boy found five thousand eight hundred dollars of it by a river. The serial numbers matched.",
    "show": {
     "k": "scene",
     "bg": "harbor",
     "cast": [
      {
       "id": "ingram",
-      "x": 0.5,
+      "x": 0.35,
       "mood": "shock",
-      "hold": "moneybag"
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.65,
+      "s": 0.6
      }
     ],
     "tag": {
      "id": "ingram",
-     "text": "Brian Ingram, age 8"
+     "text": "Brian Ingram, 8"
     }
    }
   },
   {
    "who": "N",
-   "say": "The serial numbers matched."
-  },
-  {
-   "who": "N",
-   "say": "In 2016 the FBI stopped actively investigating. He's still unidentified."
-  },
-  {
-   "who": "N",
-   "say": "Follow for more history mysteries.",
+   "say": "Nobody knows who Cooper was. Follow for more history mysteries.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "ingram",
+      "id": "cooper",
       "x": 0.3,
-      "pose": "wave",
-      "mood": "happy"
+      "pose": "shrug"
      },
      {
-      "id": "cooper",
+      "id": "ingram",
       "x": 0.7,
-      "mood": "neutral"
+      "mood": "happy"
      }
     ]
    }
   }
  ],
- "caption": "He jumped from a plane with $200,000 in 1971. Nobody knows who he was.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #dbcooper #mystery #historytok #unsolved",
+ "caption": "He jumped from a plane with $200,000 in 1971. Nobody knows who he was.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #dbcooper #mystery #historytok #unsolved",
  "youtube_title": "The Hijacker Who Jumped and Vanished #shorts",
  "tags": [
   "db cooper",
