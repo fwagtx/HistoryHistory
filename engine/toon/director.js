@@ -164,6 +164,7 @@ function shortCaptions(c, t) {
   c.restore();
 }
 function longSubs(c, t) { const b = TV.beats.find(b => b.who !== 'N' && t >= b.t0 - .05 && t <= b.t1 + .3); if (!b) return; c.save(); c.font = '60px "Patrick Hand", sans-serif'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.lineJoin = 'round'; wrapLines(c, b.say, 1500).forEach((l, i, arr) => { const y = 1010 - (arr.length - 1 - i) * 66; c.strokeStyle = '#111'; c.lineWidth = 11; c.strokeText(l, 960, y); c.fillStyle = '#FFF'; c.fillText(l, 960, y); }); c.restore(); }
+function placeBanner(c, text, lt) { if (!text) return; const a = Math.min(1, Math.max(0, (lt - .05) / .25)); if (!a) return; c.save(); c.globalAlpha = a; const long = isLong(); let size = long ? 46 : 48; c.font = `${size}px "Patrick Hand", sans-serif`; while (c.measureText(text).width > (long ? 900 : 800) && size > 30) { size -= 2; c.font = `${size}px "Patrick Hand", sans-serif`; } const w = c.measureText(text).width + 56, h = size + 26, x = long ? 50 : 505 - w / 2, y = long ? 44 : 352; hd(c, rect(x, y, w, h), { fill: '#FFE8A3', w: 4, amp: .5 }); c.fillStyle = T.ink; c.textAlign = 'left'; c.textBaseline = 'middle'; c.fillText(text, x + 28, y + h / 2 + 2); c.restore(); }
 function hookBar(c, text) { if (!text) return; c.save(); let size = 70; c.font = `${size}px Anton, sans-serif`; while (c.measureText(text).width > 820 && size > 40) { size -= 4; c.font = `${size}px Anton, sans-serif`; } const w = c.measureText(text).width + 70; hd(c, rect(505 - w / 2, 300 - size - 10, w, size + 44), { fill: '#FFFFFF', w: 6, amp: .6 }); c.fillStyle = T.ink; c.textAlign = 'center'; c.fillText(text, 505, 308); c.restore(); }
 
 function shotAtT(t) { let k = 0; TV.shots.forEach((s, i) => { if (t >= s.s0) k = i; }); return k; }
@@ -176,7 +177,7 @@ function tvFrame(c, t) {
       camera(c, sh, lt, lp); drawBg(c, m.bg, t, m.cx); fxLayer(c, m.fx, t, false);
       const placed = drawCast(c, m.cast || [], t, lt, dur, m.bg);
       fxLayer(c, m.fx, t, true); if (m.tag) { const p = placed.find(e => e.id === m.tag.id); if (p && p._x != null) nameTag(c, m.tag.text, Math.max(isLong() ? 200 : 220, Math.min(W0 - (isLong() ? 200 : 260), p._x)), Math.max(isLong() ? 120 : 460, p._y - 90 * p._s), lt); }
-      c.restore(); (m.stickers || []).forEach((s, i) => stickerPop(c, s.text, s.x != null ? s.x * W0 : (isLong() ? (m.tag ? W0 * .74 : W0 / 2) : W0 / 2 - 35), s.y != null ? s.y * H0 : (isLong() ? 130 + i * 120 : (m.tag ? 560 : 470) + i * 125), lt - (s.at ?? .3), s.color)); break; }
+      c.restore(); placeBanner(c, m.place, lt); (m.stickers || []).forEach((s, i) => stickerPop(c, s.text, s.x != null ? s.x * W0 : (isLong() ? (m.tag ? W0 * .74 : W0 / 2) : W0 / 2 - 35), s.y != null ? s.y * H0 : (isLong() ? (m.place ? 200 : 130) + i * 120 : (m.tag ? 560 : 470) + i * 125), lt - (s.at ?? .3), s.color)); break; }
     case 'map': mapShot(c, sh, t, lt, lp); break;
     case 'title': titleCard(c, sh, t, lt); break;
     case 'chapter': chapterCard(c, sh, t, lt); break;

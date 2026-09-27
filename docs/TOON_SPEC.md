@@ -23,6 +23,39 @@ Topics come from `config/topics.json`, highest-ranked `queued` topic per format 
 4. **Advertiser-safe.** No gore close-ups (violence happens off-screen or as a cartoon "poof"), no sexual content, no living politicians, no current wars (Israel/Palestine, Russia/Ukraine), no Nazi symbols (German WWII soldiers wear the plain `stahlhelm` and `ww2` uniform with no insignia), and never comedy about the Holocaust or other genocides. Those are covered with a solemn tone only.
 5. **Brand.** History Pros only. Writers never schedule or post; publishing happens only in Metricool brand **7081960**.
 
+## Make it simple (the most important rule)
+
+History Pros should be the easiest history channel to understand, while still being smart and funny. Write for a curious 12-year-old who knows nothing about the topic. If a viewer would need to pause or look something up, rewrite it.
+
+**Story shape.** Every short, and every chapter of a long-form, is one clear mini-story told in order:
+1. **Hook:** the surprising payoff, in plain words ("A man living in a jar told Alexander the Great to get out of his way.").
+2. **Set the scene:** who, where and when, one short sentence each. The first shot in each new place carries a `place` banner ("Corinth, Greece · 336 BC").
+3. **The story, step by step:** one step per beat, in time order, cause then effect. Say *why* people did things.
+4. **The payoff:** the funny or shocking moment, set up so it lands.
+5. **Takeaway:** one line on why it matters or what it tells us ("So one of the most powerful men alive envied a man who owned nothing.").
+6. **Follow line.**
+
+**One story per short.** Don't stack three anecdotes into 40 seconds. Pick the best one and tell it properly; the extras can be other shorts.
+
+**Explain everyone and everything.**
+- The first time a person appears, say who they are in a few words ("Diogenes, a Greek philosopher who owned almost nothing").
+- No unexplained names, places, terms or inside jokes. Explain a term in the same sentence ("a qilin, a magical animal from Chinese legend").
+- Compare big numbers to something familiar ("about the weight of two cars").
+
+**Plain words.** Short sentences (under about 18 words), one idea each, everyday vocabulary. Clever is good; confusing is not.
+
+**Hedge once, clearly.** When a story is uncertain, say so once and say where it comes from ("This story comes from Plutarch, a Greek writer who lived 400 years later."). Don't sprinkle "supposedly" and "reportedly" on every line.
+
+**The picture matches the words.**
+- Every shot shows exactly what the line is about: the place, the people, the object.
+- When the story moves, the background moves. In shorts never use the same background for more than 2 shots in a row (3 in long-form), and use at least 3 different backgrounds, maps or cards per short.
+- Use a map, a `place` banner or a card when a new place or year comes up.
+- Use stickers to label the key word or number on screen ("336 BC", "MERCURY PILLS").
+
+**Humor serves the story.** Jokes come from the real situation and never replace an explanation. About one joke every 2–3 beats is plenty.
+
+**Final test.** Read only the narration: could a 12-year-old retell the story in two sentences and say why it matters? If not, rewrite.
+
 ## Script file
 
 `episodes/<YYYY>w<WW>/<id>.json`, one folder per ISO week (Monday–Sunday). IDs: `<YYYY>w<WW>-l1|l2|l3` for the Mon/Wed/Fri long-form videos and `<YYYY>w<WW>-s01…s28` for shorts, so the Oct 5–11, 2026 week is `2026w41` (`2026w41-l1`, `2026w41-s01`). The folder also holds `week.json` (see docs/AUTOMATION.md).
@@ -71,7 +104,7 @@ Long-form adds `"format": "long"`, `description` (2–3 sentences, then "Chapter
 
 | k | Fields | What it shows |
 |---|---|---|
-| `scene` | `bg`, `cast`, `cam`, `focus`, `fx`, `stickers`, `tag`, `cx` (short only: which part of the 1920-wide scene to frame, default 960) | A background with characters |
+| `scene` | `bg`, `cast`, `cam`, `focus`, `fx`, `stickers`, `tag`, `place` (a where-and-when banner, e.g. "Corinth, Greece · 336 BC"), `cx` (short only: which part of the 1920-wide scene to frame, default 960) | A background with characters |
 | `map` | `lon`, `lat`, `z0`, `z1`, `date`, `labels` `[[name, lon, lat, dx]]`, `route` `[[lon, lat], …]`, `areas` `[[lon, lat, radius_deg, "rgba(...)"]]` | Cartoon map with real coastlines. Coverage: Europe, Mediterranean, Middle East (lon −14 to 70, lat 10 to 71). z 1–1.5 is a continent, 2–4 a region. For the Americas, East Asia or sub-Saharan Africa use a scene instead of a map. |
 | `title` | `text`, `sub`, `cast` | Handwritten title on white |
 | `chapter` | `year`, `title`, `bg` (optional scene thumbnail) | Chapter card |

@@ -75,6 +75,7 @@ def check(path, V):
     if not beats or "show" not in beats[0]:
         errs.append("the first beat needs a 'show'")
     words, kinds, scenes, dialogue = 0, [], set(), 0
+    vis, places = [], 0
     for i, b in enumerate(beats):
         who = b.get("who", "N")
         if who != "N" and who not in cast:
@@ -91,6 +92,8 @@ def check(path, V):
             continue
         k = sh.get("k")
         kinds.append(k)
+        vis.append(sh.get("bg") if k == "scene" else k)
+        places += bool(sh.get("place"))
         if k not in KINDS:
             errs.append(f"beat {i}: unknown shot kind '{k}'")
             continue
@@ -123,15 +126,27 @@ def check(path, V):
                 errs.append(f"beat {i}: unknown mood '{e['mood']}'")
             if fmt == "short" and e.get("x") is not None and not (.05 <= e["x"] <= .9) and not e.get("walk"):
                 warn.append(f"beat {i}: x={e['x']} is near the edge of a short (keep 0.12–0.82)")
+    run, longest, prev = 0, 0, None
+    for v in vis:
+        run = run + 1 if v == prev and v not in ("map", "card", "chapter", "list", "quote", "title", "end") else 1
+        longest, prev = max(longest, run), v
+    if longest > (2 if fmt == "short" else 3):
+        errs.append(f"the same background is used for {longest} shots in a row; change the picture when the story moves (docs/TOON_SPEC.md, Make it simple)")
     if fmt == "short":
-        if not 60 <= words <= 130:
+        if len(set(v for v in vis if v != "end")) < 3:
+            errs.append("a short needs at least 3 different backgrounds, maps or cards")
+        if not places:
+            errs.append("no 'place' banner: say where and when on the first shot of each new place")
+        if not 75 <= words <= 115:
             errs.append(f"{words} words; a short needs 75–115")
         if kinds and kinds[-1] != "end":
             errs.append("the last shot of a short must be 'end'")
         if len(scenes) < 2:
             warn.append("use at least two different scenes")
     else:
-        if not 1700 <= words <= 2800:
+        if places < 6:
+            warn.append(f"only {places} 'place' banners; add one at each new place or year")
+        if not 1900 <= words <= 2400:
             errs.append(f"{words} words; long-form needs 1,900–2,400")
         ch = kinds.count("chapter") + kinds.count("list")
         if not 5 <= ch <= 12:

@@ -47,7 +47,7 @@ Start three general-purpose agents in the background, one per long-form, using t
 >
 > **Your topic:** `<TITLE>` (`<FORMAT: Monday "ENTIRE history" / Wednesday list / Friday money & power>`) plus `<N>` shorts from the same topic.
 >
-> **Read first.** Read CLAUDE.md and docs/TOON_SPEC.md fully and follow the spec exactly. The style is the YouTube channels Animated History and Serious History: casual, funny, confident narration with jokes and quick character skits, but every fact is true.
+> **Read first.** Read CLAUDE.md and docs/TOON_SPEC.md fully and follow the spec exactly. The "Make it simple" section comes first: every video must be very easy to understand. The style is the YouTube channels Animated History and Serious History: casual, funny, confident narration with jokes and quick character skits, but every fact is true.
 >
 > **Long-form file.** Write episodes/`<week>`/`<week>`-`<lN>`.json (format long, date `<DATE>`):
 > - 1,900–2,400 narrated words.
@@ -86,6 +86,8 @@ When the writers finish, start three fresh agents, one per topic. Each one reads
 - Dates and numbers must match sources.
 - Legends must be labeled as legends.
 - Thumbnail text must be true.
+
+**Clarity pass.** In the same pass, each agent checks every script against the "Make it simple" checklist in docs/TOON_SPEC.md (story shape, one story per short, everyone and every term explained, plain words, hedging said once, picture matches the words with `place` banners and changing backgrounds) and rewrites anything unclear.
 
 Each agent re-runs the validator and reports every change it made.
 
