@@ -43,7 +43,7 @@ def vocab():
         "flags": set(re.findall(r"^  (\w+)\(c, w, h\) \{", ob, re.M)),
     }
 
-MODERN_BG = {"city", "street", "factory"}          # 1800s+ looks: brick blocks, street lamps, smokestacks
+MODERN_BG = {"city", "street", "factory", "vault"}   # 1800s+ looks: brick blocks, street lamps, smokestacks, steel bank vaults
 
 
 def year_of(text):
@@ -112,6 +112,8 @@ def check(path, V):
             y = year_of(src)
             if y is not None:
                 era = y
+        if era is not None and era < 1000 and any(o.get("k") == "moneypile" for o in sh.get("objects", [])):
+            errs.append(f"beat {i}: 'moneypile' draws paper banknotes, which didn't exist in {abs(era)}{' BC' if era < 0 else ''}; use chest, goldpile or coin props")
         if k == "scene" and sh.get("bg") in MODERN_BG and era is not None and era < 1800:
             errs.append(f"beat {i}: '{sh['bg']}' is a modern background but the story is in {abs(era)}{' BC' if era < 0 else ''}; use an era-appropriate scene (rome, greek, egypt, town, village, market, castle, palace, japan…)")
         if k not in KINDS:
