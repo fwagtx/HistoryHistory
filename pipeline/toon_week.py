@@ -86,6 +86,10 @@ def _push_media(files, folder, message):
                 raise
             import time
             time.sleep(2 ** (attempt + 1))
+    # The media only needs to live on GitHub: drop the local copy so the small session disk doesn't fill up.
+    subprocess.run(["git", "update-ref", "-d", f"refs/remotes/origin/{MEDIA_BRANCH}"], cwd=ROOT, capture_output=True)
+    subprocess.run(["git", "reflog", "expire", "--expire=now", "--all"], cwd=ROOT, capture_output=True)
+    subprocess.run(["git", "prune", "--expire=now"], cwd=ROOT, capture_output=True)
     return commit
 
 

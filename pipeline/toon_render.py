@@ -209,6 +209,10 @@ def render(script_path, jobs=4, only_stills=False, seconds=None):
         write_chapters(script, tv)
     for c in chunks:
         Path(c).unlink(missing_ok=True)
+    for tmp in ("video.mp4", "mix.wav", "chunks.txt"):      # the disk is small: keep only the narration cache
+        (work / tmp).unlink(missing_ok=True)
+    for tmp in work.glob("x264pass*"):
+        tmp.unlink()
     print(f"  {dest.name}: {duration:.1f}s, {dest.stat().st_size / 1e6:.1f} MB, {(time.time() - t0) / 60:.1f} min", flush=True)
     return dest
 
