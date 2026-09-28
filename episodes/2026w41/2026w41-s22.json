@@ -56,11 +56,11 @@
     "cast": [
      {
       "id": "greek",
-      "x": 0.4,
+      "x": 0.3,
       "pose": "run",
       "walk": [
-       0.3,
-       0.6
+       0.15,
+       0.42
       ],
       "mood": "shock"
      }
@@ -68,7 +68,7 @@
     "objects": [
      {
       "k": "sign",
-      "x": 0.7,
+      "x": 0.72,
       "s": 0.8,
       "text": "BORDER"
      }
@@ -119,36 +119,36 @@
    "say": "The story goes that a Greek soldier chased his dog across the border, near the town of Petrich.",
    "show": {
     "k": "map",
-    "lon": 23.2,
-    "lat": 41.6,
-    "z0": 2.6,
-    "z1": 3.4,
+    "lon": 23.8,
+    "lat": 41.5,
+    "z0": 2.4,
+    "z1": 3.0,
     "labels": [
+     [
+      "BULGARIA",
+      23.0,
+      43.0,
+      0
+     ],
      [
       "Petrich",
       23.2,
-      41.4,
+      41.43,
       0
      ],
      [
-      "Bulgaria",
-      24.5,
-      42.6,
-      0
-     ],
-     [
-      "Greece",
-      22.5,
-      40.2,
+      "GREECE",
+      22.4,
+      40.95,
       0
      ]
     ],
     "areas": [
      [
       23.2,
-      41.35,
+      41.4,
       0.3,
-      "rgba(200,60,40,0.35)"
+      "rgba(200,60,40,0.4)"
      ]
     ]
    }

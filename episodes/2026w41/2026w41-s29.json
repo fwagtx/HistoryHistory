@@ -158,28 +158,10 @@
    "who": "N",
    "say": "And was it his gold, or the kingdom's? Back then, kind of both.",
    "show": {
-    "k": "compare",
-    "bg": "palace",
-    "left": {
-     "label": "Musa's?",
-     "cast": [
-      {
-       "id": "musa",
-       "mood": "smug",
-       "hold": "goldbar"
-      }
-     ]
-    },
-    "right": {
-     "label": "Mali's?",
-     "cast": [
-      {
-       "id": "hajib",
-       "mood": "neutral",
-       "pose": "shrug"
-      }
-     ]
-    }
+    "k": "card",
+    "label": "Whose gold was it: the king's or the kingdom's?",
+    "big": "BOTH?",
+    "sub": "back then, hard to tell apart"
    }
   },
   {

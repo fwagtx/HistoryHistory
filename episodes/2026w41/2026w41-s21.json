@@ -118,18 +118,25 @@
     "cast": [],
     "objects": [
      {
-      "k": "battleship",
-      "x": 0.45,
-      "s": 0.6,
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.5,
       "flag": "uk"
      },
      {
-      "k": "cannon",
-      "x": 0.8,
-      "s": 0.5
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.4,
+      "flag": "uk"
      }
     ],
-    "cam": "shake"
+    "stickers": [
+     {
+      "text": "BRITISH WARSHIPS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {

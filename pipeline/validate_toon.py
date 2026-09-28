@@ -43,6 +43,17 @@ def vocab():
         "flags": set(re.findall(r"^  (\w+)\(c, w, h\) \{", ob, re.M)),
     }
 
+MODERN_BG = {"city", "street", "factory"}          # 1800s+ looks: brick blocks, street lamps, smokestacks
+
+
+def year_of(text):
+    """The year a place banner or chapter card talks about ("Rome · 64 AD" → 64, "221 BC" → -221), or None."""
+    m = re.search(r"(\d{1,4})\s*(?:s\b)?\s*(BC|BCE|AD|CE)?", str(text or ""))
+    if not m:
+        return None
+    y = int(m.group(1))
+    return -y if (m.group(2) or "").startswith("B") else y
+
 
 def check(path, V):
     errs, warn = [], []
@@ -78,7 +89,7 @@ def check(path, V):
     if not beats or "show" not in beats[0]:
         errs.append("the first beat needs a 'show'")
     words, kinds, scenes, dialogue = 0, [], set(), 0
-    vis, places = [], 0
+    vis, places, era = [], 0, None
     for i, b in enumerate(beats):
         who = b.get("who", "N")
         if who != "N" and who not in cast:
@@ -97,6 +108,12 @@ def check(path, V):
         kinds.append(k)
         vis.append(sh.get("bg") if k == "scene" else k)
         places += bool(sh.get("place"))
+        for src in (sh.get("place"), sh.get("year") if k == "chapter" else None, sh.get("date") if k == "map" else None):
+            y = year_of(src)
+            if y is not None:
+                era = y
+        if k == "scene" and sh.get("bg") in MODERN_BG and era is not None and era < 1800:
+            errs.append(f"beat {i}: '{sh['bg']}' is a modern background but the story is in {abs(era)}{' BC' if era < 0 else ''}; use an era-appropriate scene (rome, greek, egypt, town, village, market, castle, palace, japan…)")
         if k not in KINDS:
             errs.append(f"beat {i}: unknown shot kind '{k}'")
             continue

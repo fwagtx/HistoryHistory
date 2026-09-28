@@ -66,10 +66,10 @@
    "say": "For about two hundred years, the Dutch kept the river Scheldt closed, cutting the port of Antwerp off from the sea.",
    "show": {
     "k": "map",
-    "lon": 4.4,
-    "lat": 51.6,
+    "lon": 4.2,
+    "lat": 51.4,
     "z0": 2.2,
-    "z1": 3.0,
+    "z1": 2.8,
     "labels": [
      [
       "Antwerp",
@@ -78,18 +78,18 @@
       0
      ],
      [
-      "River Scheldt",
-      3.9,
-      51.42,
-      -40
+      "DUTCH",
+      5.2,
+      52.2,
+      0
      ]
     ],
     "areas": [
      [
       4.1,
       51.35,
-      0.25,
-      "rgba(200,60,40,0.35)"
+      0.4,
+      "rgba(200,60,40,0.4)"
      ]
     ]
    }
@@ -205,13 +205,13 @@
     "cast": [
      {
       "id": "joseph",
-      "x": 0.35,
+      "x": 0.24,
       "pose": "shrug",
       "mood": "sad"
      },
      {
       "id": "dutch",
-      "x": 0.7,
+      "x": 0.78,
       "pose": "cheer",
       "mood": "happy"
      }
