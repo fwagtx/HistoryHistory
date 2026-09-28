@@ -79,6 +79,30 @@ function watermark(W, H) {  // transparent corner mark for videos / end screens
   frameStart(.4); guy(c, 140, 200, 1.9, hero('legionary', { hatLift: 16, look: .3, gaze: .6 }), .4);
   c.restore(); return cv;
 }
+function ytBanner(safeGuide) {  // 2560x1440; everything important inside the 1546x423 centre strip every device shows
+  const W = 2560, H = 1440, cv = document.createElement('canvas'); cv.width = W; cv.height = H; const c = cv.getContext('2d');
+  const tmp = document.createElement('canvas'); tmp.width = BW; tmp.height = BH; frameStart(.4); scene(tmp.getContext('2d'), 'rome', 1);
+  c.drawImage(tmp, 0, 0, W, H);
+  const SX = (W - 1546) / 2, SY = (H - 423) / 2;
+  // paper band behind the name, the full desktop width
+  c.save(); c.translate(0, SY + 20); c.rotate(-.006); hd(c, rect(-40, 0, W + 80, 383), { fill: 'rgba(244,236,216,.93)', w: 8 }); c.restore();
+  frameStart(.4);
+  // TV / desktop extras at the edges
+  guy(c, 300, 700, 2.0, hero('samurai', { hatLift: 14, look: .3, gaze: .6 }), .4);
+  guy(c, 2260, 700, 2.0, hero('pirate', { look: -.3, gaze: -.6 }), .4);
+  // inside the safe strip: the legionary and the pharaoh either side of the name
+  guy(c, SX + 175, SY + 250, 2.0, hero('legionary', { hatLift: 16, look: .3, gaze: .6 }), .4);
+  guy(c, SX + 1546 - 175, SY + 250, 2.0, hero('viking', { hatLift: 10, look: -.3, gaze: -.6 }), .4);
+  c.save(); let size = 200, wH, wP; const gap = 34, fit = () => { c.font = `${size}px Anton`; wH = c.measureText('HISTORY').width; wP = c.measureText('PROS').width; };
+  fit(); while (wH + gap + wP > 860) { size -= 4; fit(); } c.restore();
+  const x0 = W / 2 - (wH + gap + wP) / 2;
+  thumbText(c, 'HISTORY', x0, SY + 205, size, { sw: .1, align: 'left' });
+  thumbText(c, 'PROS', x0 + wH + gap, SY + 205, size, { sw: .1, align: 'left', fill: '#F2B632' });
+  marker(c, 'History, explained simply.', W / 2, SY + 290, 60, T.ink);
+  marker(c, '5 new stories every day', W / 2, SY + 366, 50, '#D63A2F');
+  if (safeGuide) { c.strokeStyle = '#ff00ff'; c.lineWidth = 6; c.setLineDash([24, 16]); c.strokeRect(SX, SY, 1546, 423); c.strokeRect(0, SY, W, 423); }
+  return cv;
+}
 window.LOGOS = () => ({
   'toon-avatar-gold': avatar(1024, hero('legionary', { hatLift: 16 }), '#F2B632').toDataURL(),
   'toon-avatar-teal': avatar(1024, hero('legionary', { hatLift: 16 }), '#2F8F86').toDataURL(),
@@ -91,6 +115,7 @@ window.LOGOS = () => ({
   'toon-avatar-shout': shoutAvatar(1024, '#2F8F86').toDataURL(),
   'toon-watermark': watermark(1240, 400).toDataURL(),
   'toon-banner': banner(2560, 1440).toDataURL(),
+  'youtube-banner.jpg': ytBanner(false).toDataURL('image/jpeg', .92),
 });
 """
 
@@ -111,8 +136,8 @@ def main():
             if errs:
                 raise RuntimeError(errs[0])
             for name, url in pg.evaluate("LOGOS()").items():
-                (OUT / f"{name}.png").write_bytes(base64.b64decode(url.split(",", 1)[1]))
-                print("wrote", f"assets/logos/{name}.png")
+                (OUT / (name if "." in name else f"{name}.png")).write_bytes(base64.b64decode(url.split(",", 1)[1]))
+                print("wrote", name)
             b.close()
     finally:
         page.unlink(missing_ok=True)
