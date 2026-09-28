@@ -27,8 +27,7 @@
   }
  },
  "voices": {
-  "musa": "am_fenrir",
-  "hajib": "bm_george"
+  "musa": "am_fenrir"
  },
  "beats": [
   {
@@ -38,24 +37,16 @@
     "k": "card",
     "label": "The internet's number for Mansa Musa",
     "big": "$400 BILLION?",
-    "sub": "a 2012 guess by a celebrity wealth website",
-    "cast": [
-     {
-      "id": "musa",
-      "x": 0.75,
-      "mood": "smug",
-      "hold": "goldbar"
-     }
-    ]
+    "sub": "a 2012 guess by a celebrity wealth website"
    }
   },
   {
    "who": "N",
-   "say": "That number came from a celebrity wealth website in 2012."
+   "say": "Musa ruled Mali, in West Africa, in the 1300s. That number came from a celebrity website in 2012."
   },
   {
    "who": "N",
-   "say": "There are no account books from fourteenth-century Mali. Nobody audited the king.",
+   "say": "But there are no account books from his kingdom. Nobody audited the king.",
    "show": {
     "k": "scene",
     "bg": "vault",
@@ -67,9 +58,26 @@
       "hold": "moneybag"
      }
     ],
+    "place": "Mali, West Africa · 1300s",
+    "tag": {
+     "id": "musa",
+     "text": "Mansa Musa, king of Mali"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.18,
+      "s": 0.8
+     },
+     {
+      "k": "goldpile",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ],
     "stickers": [
      {
-      "text": "NO LEDGERS",
+      "text": "NO ACCOUNT BOOKS",
       "at": 1,
       "color": "#A8322A"
      }
@@ -90,31 +98,55 @@
       "hold": "scroll",
       "pose": "think"
      }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.2,
+      "s": 0.6,
+      "text": "So much gold!"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "His camels supposedly carried anywhere from fifty to three hundred pounds of gold each. That's not data, that's a shrug.",
+   "say": "His animals supposedly carried fifty to three hundred pounds of gold each. That's not data. That's a shrug.",
    "show": {
     "k": "scene",
     "bg": "desert",
     "cast": [
      {
       "id": "musa",
-      "x": 0.35,
+      "x": 0.3,
       "mood": "happy",
       "hold": "goldbar"
      },
      {
       "id": "hajib",
-      "x": 0.72,
+      "x": 0.66,
       "mood": "shock",
       "hold": "scroll"
      }
     ],
     "fx": [
      "dust"
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.5,
+      "load": "gold",
+      "s": 0.6,
+      "front": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "50–300 LB?",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
     ]
    }
   },
@@ -124,11 +156,35 @@
   },
   {
    "who": "N",
-   "say": "And was it his gold or the kingdom's? Back then, kind of both."
+   "say": "And was it his gold, or the kingdom's? Back then, kind of both.",
+   "show": {
+    "k": "compare",
+    "bg": "palace",
+    "left": {
+     "label": "Musa's?",
+     "cast": [
+      {
+       "id": "musa",
+       "mood": "smug",
+       "hold": "goldbar"
+      }
+     ]
+    },
+    "right": {
+     "label": "Mali's?",
+     "cast": [
+      {
+       "id": "hajib",
+       "mood": "neutral",
+       "pose": "shrug"
+      }
+     ]
+    }
+   }
   },
   {
    "who": "N",
-   "say": "Historians agree he was absurdly rich. The exact number is unknowable.",
+   "say": "So historians agree he was hugely rich. The exact number is unknowable.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -139,6 +195,13 @@
       "mood": "smug",
       "pose": "sit",
       "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.18,
+      "s": 0.7
      }
     ]
    }
@@ -160,7 +223,7 @@
    }
   }
  ],
- "caption": "Was Mansa Musa really worth $400 billion? Nobody can know.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #richest #historytok #moneyhistory",
+ "caption": "Was Mansa Musa really worth $400 billion? Nobody can know.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mansamusa #richest #historytok #moneyhistory",
  "youtube_title": "Was Mansa Musa Worth $400 Billion? #shorts",
  "tags": [
   "mansa musa",

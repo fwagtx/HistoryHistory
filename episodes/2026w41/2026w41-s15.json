@@ -38,18 +38,55 @@
    "show": {
     "k": "scene",
     "bg": "harbor",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "brsailor",
-      "x": 0.5
+      "k": "battleship",
+      "x": 0.5,
+      "s": 0.5,
+      "flag": "uk"
      }
     ],
-    "cam": "pan"
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "38 MINUTES",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "In August 1896, the sultan of Zanzibar died, and Khalid bin Barghash took the palace without British approval.",
+   "say": "Zanzibar is an island off East Africa. In 1896, Britain controlled who could be its sultan, or king.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "text": "ZANZIBAR"
+     },
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.55
+     },
+     {
+      "k": "palm",
+      "x": 0.88,
+      "s": 0.55
+     }
+    ],
+    "place": "Zanzibar, East Africa · August 1896"
+   }
+  },
+  {
+   "who": "N",
+   "say": "When the sultan died, Khalid bin Barghash took the palace without British approval.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -59,6 +96,13 @@
       "x": 0.5,
       "pose": "hips",
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.5
      }
     ],
     "tag": {
@@ -76,15 +120,23 @@
     "cast": [
      {
       "id": "cave",
-      "x": 0.45,
+      "x": 0.35,
       "hold": "letter",
       "pose": "hold",
       "mood": "angry"
      }
     ],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.78,
+      "s": 0.4,
+      "flag": "uk"
+     }
+    ],
     "tag": {
      "id": "cave",
-     "text": "Consul Basil Cave"
+     "text": "British consul Basil Cave"
     }
    }
   },
@@ -101,31 +153,47 @@
       "pose": "cross",
       "mood": "angry"
      }
-    ]
+    ],
+    "cam": "close"
    }
   },
   {
    "who": "N",
-   "say": "At two minutes past nine, British warships opened fire.",
+   "say": "At two minutes past nine, British warships opened fire. By about nine forty, the palace flag was down.",
    "show": {
     "k": "scene",
     "bg": "harbor",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "brsailor",
-      "x": 0.5,
-      "mood": "shock"
+      "k": "battleship",
+      "x": 0.33,
+      "s": 0.42,
+      "flag": "uk"
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.75,
+      "s": 0.45
      }
     ],
     "fx": [
      "smoke"
     ],
-    "cam": "shake"
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "9:02 AM",
+      "at": 0.5,
+      "color": "#262322"
+     },
+     {
+      "text": "9:40 AM",
+      "at": 3.0,
+      "color": "#262322"
+     }
+    ]
    }
-  },
-  {
-   "who": "N",
-   "say": "By about nine forty, the palace flag was down and it was over."
   },
   {
    "who": "N",
@@ -134,6 +202,18 @@
     "k": "scene",
     "bg": "palace",
     "cast": [],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.3,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
     "fx": [
      "smoke"
     ],
@@ -149,9 +229,17 @@
     "cast": [
      {
       "id": "cave",
-      "x": 0.5,
+      "x": 0.62,
       "hold": "letter",
       "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.28,
+      "s": 0.5,
+      "text": "THE BILL"
      }
     ]
    }
@@ -163,19 +251,20 @@
     "k": "end",
     "cast": [
      {
-      "id": "brsailor",
-      "x": 0.35
+      "id": "khalid",
+      "x": 0.3,
+      "mood": "shock"
      },
      {
       "id": "cave",
-      "x": 0.68,
+      "x": 0.7,
       "pose": "wave"
      }
     ]
    }
   }
  ],
- "caption": "The shortest war ever recorded lasted about 38 minutes.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #zanzibar #shortestwar #historytok #historyfacts",
+ "caption": "The shortest war ever recorded lasted about 38 minutes.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #zanzibar #shortestwar #historytok #historyfacts",
  "youtube_title": "The Shortest War in History Lasted 38 Minutes #shorts",
  "tags": [
   "anglo zanzibar war",

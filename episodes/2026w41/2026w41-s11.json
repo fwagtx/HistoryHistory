@@ -1,0 +1,253 @@
+{
+ "id": "2026w41-s11",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "The Colosseum's 100-Day Opening Party",
+ "hook": "100 DAYS OF GAMES",
+ "music": "playful",
+ "cast": {
+  "citizen": {
+   "preset": "roman"
+  },
+  "citizenW": {
+   "preset": "peasantW",
+   "hat": "headscarf",
+   "outfit": "dress",
+   "color": "#C8702A",
+   "skin": "olive"
+  },
+  "elephant": {
+   "animal": "elephant",
+   "mood": "neutral"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "titus": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F6FC2",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Titus"
+  }
+ },
+ "voices": {
+  "titus": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When the Colosseum opened, the party lasted one hundred days.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "citizenW",
+      "x": 0.55,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Rome · 80 AD",
+    "fx": [
+     "confetti"
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.6,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Colosseum is a giant stone arena in Rome, with room for about fifty thousand people.",
+   "show": {
+    "k": "card",
+    "label": "Seats in the Colosseum",
+    "big": "50,000",
+    "sub": "about as many as a big baseball stadium"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Titus opened it in 80 AD. He'd just become emperor, and he wanted the crowds to love him.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "titus",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "titus",
+     "text": "Emperor Titus"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "titus",
+   "say": "Let the games begin!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "titus",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close",
+    "focus": "titus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mornings were for animal shows, and afternoons were for gladiator fights.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "elephant",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MORNING: ANIMALS",
+      "at": 0.5,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "AFTERNOON: GLADIATORS",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cassius Dio, a Roman historian, says nine thousand animals appeared during the games.",
+   "show": {
+    "k": "card",
+    "label": "Animals in the opening games",
+    "big": "9,000",
+    "sub": "according to Cassius Dio"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He even says the arena was flooded, so ships could fight a pretend sea battle. Historians still debate how that worked.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.3,
+      "s": 0.6,
+      "flag": "rome"
+     },
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.6,
+      "color": "#6A3E8E",
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INSIDE THE ARENA?",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Rome's most famous arena opened with a party longer than three months."
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "titus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "elephant",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Colosseum opened with a 100-day party.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #colosseum #ancientrome #romanempire #historytok",
+ "youtube_title": "The Colosseum's 100-Day Opening Party #shorts",
+ "tags": [
+  "colosseum",
+  "history",
+  "ancient rome",
+  "titus",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Inaugural_games_of_the_Colosseum",
+  "https://www.thecollector.com/inaugural-games-colosseum/",
+  "https://penelope.uchicago.edu/encyclopaedia_romana/gladiators/naumachiae.html",
+  "https://toldinstone.com/wp-content/uploads/2018/09/Colosseum-PDF.pdf"
+ ]
+}

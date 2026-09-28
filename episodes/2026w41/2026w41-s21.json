@@ -62,12 +62,27 @@
       "x": 0.7,
       "pose": "hips"
      }
-    ]
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "usa",
+      "s": 0.55
+     },
+     {
+      "k": "flag",
+      "x": 0.7,
+      "flag": "uk",
+      "s": 0.55
+     }
+    ],
+    "place": "San Juan Island · 1859"
    }
   },
   {
    "who": "N",
-   "say": "In 1859, one dead pig put American soldiers and British warships face to face on San Juan Island.",
+   "say": "In 1859, an American farmer shot a British company's pig on an island both countries claimed.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -78,6 +93,13 @@
       "mood": "sad"
      }
     ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
     "stickers": [
      {
       "text": "R.I.P. PIG",
@@ -85,6 +107,29 @@
       "color": "#262322"
      }
     ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soon American soldiers and British warships were face to face.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.45,
+      "s": 0.6,
+      "flag": "uk"
+     },
+     {
+      "k": "cannon",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake"
    }
   },
   {
@@ -99,6 +144,13 @@
       "x": 0.45,
       "pose": "fist",
       "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
      }
     ],
     "tag": {
@@ -148,6 +200,13 @@
       "pose": "cheer",
       "mood": "happy"
      }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
     ]
    }
   },
@@ -157,7 +216,7 @@
   },
   {
    "who": "N",
-   "say": "Both sides shared the island for twelve years, until an arbitration by Kaiser Wilhelm the First gave it to America in 1872.",
+   "say": "They shared the island for twelve years, until a panel picked by Germany's Kaiser Wilhelm the First gave it to America in 1872.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -167,6 +226,20 @@
       "x": 0.5,
       "hold": "scroll",
       "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "germany1914",
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.7,
+      "flag": "usa",
+      "s": 0.5
      }
     ],
     "tag": {
@@ -201,7 +274,7 @@
    }
   }
  ],
- "caption": "They nearly went to war, then went to church together.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #pigwar #sanjuanisland #historytok #funnyhistory",
+ "caption": "They nearly went to war, then went to church together.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pigwar #sanjuanisland #historytok #funnyhistory",
  "youtube_title": "The Friendliest Standoff in History #shorts",
  "tags": [
   "pig war",

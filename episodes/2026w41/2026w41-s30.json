@@ -31,34 +31,43 @@
   }
  },
  "voices": {
-  "musa": "am_fenrir",
   "cresques": "am_echo"
  },
  "beats": [
   {
    "who": "N",
-   "say": "Around 1375, a mapmaker in Majorca drew an African king holding a giant piece of gold.",
+   "say": "Around 1375, a mapmaker drew an African king holding a giant piece of gold.",
    "show": {
     "k": "scene",
     "bg": "office",
     "cast": [
      {
       "id": "cresques",
-      "x": 0.45,
+      "x": 0.35,
       "mood": "neutral",
       "pose": "think",
       "hold": "pen"
      }
     ],
+    "place": "Majorca, Spain · about 1375",
     "tag": {
      "id": "cresques",
-     "text": "Cresques Abraham"
-    }
+     "text": "Cresques Abraham, mapmaker"
+    },
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.74,
+      "empty": true,
+      "s": 0.8,
+      "label": "Catalan Atlas"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The mapmaker is usually identified as Cresques Abraham, and his map is the Catalan Atlas."
+   "say": "The mapmaker was probably Cresques Abraham, and his map is called the Catalan Atlas."
   },
   {
    "who": "cresques",
@@ -69,38 +78,31 @@
     "cast": [
      {
       "id": "cresques",
-      "x": 0.45,
+      "x": 0.4,
       "mood": "happy",
       "pose": "point",
       "hold": "pen"
      }
     ],
-    "cam": "close"
+    "cam": "close",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.76,
+      "s": 0.7
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "That king was Mansa Musa of Mali, drawn south of the Sahara near Timbuktu.",
+   "say": "That king was Mansa Musa of Mali, drawn south of the Sahara, near Timbuktu.",
    "show": {
     "k": "map",
-    "lon": 0,
-    "lat": 29,
-    "z0": 1.3,
-    "z1": 1.6,
-    "route": [
-     [
-      2.9,
-      39.6
-     ],
-     [
-      -4.3,
-      31.3
-     ],
-     [
-      -3.0,
-      16.8
-     ]
-    ],
+    "lon": -1,
+    "lat": 28,
+    "z0": 1.1,
+    "z1": 1.15,
     "labels": [
      [
       "Majorca",
@@ -114,24 +116,29 @@
       16.8,
       14
      ]
+    ],
+    "route": [
+     [
+      2.9,
+      39.6
+     ],
+     [
+      -4.3,
+      31.3
+     ],
+     [
+      -3.0,
+      16.8
+     ]
     ]
    }
   },
   {
    "who": "N",
-   "say": "The caption says he's the richest and noblest ruler of those lands.",
-   "show": {
-    "k": "quote",
-    "text": "This king is the richest and noblest of all these lands due to the abundance of gold that is extracted from his lands.",
-    "who": "Catalan Atlas, c. 1375 (translated)"
-   }
-  },
-  {
-   "who": "N",
-   "say": "Musa had died decades earlier, but his 1324 pilgrimage through Cairo made his gold famous far beyond Africa.",
+   "say": "On the map, he sits on a throne with a crown, holding up gold.",
    "show": {
     "k": "scene",
-    "bg": "throne",
+    "bg": "white",
     "cast": [
      {
       "id": "musa",
@@ -143,6 +150,51 @@
     ],
     "fx": [
      "sparkle"
+    ],
+    "tag": {
+     "id": "musa",
+     "text": "Mansa Musa, king of Mali"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The caption calls him the richest and noblest king of those lands.",
+   "show": {
+    "k": "quote",
+    "text": "This king is the richest and noblest of all these lands due to the abundance of gold that is extracted from his lands.",
+    "who": "Catalan Atlas, c. 1375 (translated)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Musa had died decades earlier, but his 1324 trip through Cairo made his gold famous far beyond Africa.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "load": "gold",
+      "s": 0.7,
+      "label": "Gold"
+     }
     ]
    }
   },
@@ -172,7 +224,7 @@
    }
   }
  ],
- "caption": "A map from around 1375 drew one African king holding gold. Here's why.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #maps #historytok #medievalhistory",
+ "caption": "A map from around 1375 drew one African king holding gold. Here's why.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mansamusa #maps #historytok #medievalhistory",
  "youtube_title": "The Map That Made Mansa Musa Famous #shorts",
  "tags": [
   "mansa musa",

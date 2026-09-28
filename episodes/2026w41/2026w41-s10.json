@@ -20,6 +20,13 @@
   "citizen": {
    "preset": "roman"
   },
+  "citizenW": {
+   "preset": "peasantW",
+   "hat": "headscarf",
+   "outfit": "dress",
+   "color": "#C8702A",
+   "skin": "olive"
+  },
   "odoacer": {
    "outfit": "fur",
    "hair": "long",
@@ -28,6 +35,14 @@
    "skin": "light",
    "hold": "sword",
    "name": "Odoacer"
+  },
+  "orestes": {
+   "preset": "legionary",
+   "outfit": "armor",
+   "beard": "full",
+   "hairColor": "#5A3A22",
+   "skin": "light",
+   "name": "Orestes"
   },
   "romaug": {
    "preset": "child",
@@ -54,35 +69,26 @@
    "who": "N",
    "say": "Rome's legendary founder was Romulus, and its first emperor was Augustus. Now guess the last western emperor's name.",
    "show": {
-    "k": "scene",
+    "k": "compare",
     "bg": "rome",
-    "cam": "push",
-    "cast": [
-     {
-      "id": "romulus",
-      "x": 0.3,
-      "pose": "wave",
-      "mood": "happy"
-     },
-     {
-      "id": "augustus",
-      "x": 0.68,
-      "pose": "wave",
-      "mood": "smug"
-     }
-    ],
-    "stickers": [
-     {
-      "text": "ROMULUS",
-      "at": 0.8,
-      "color": "#A8322A"
-     },
-     {
-      "text": "AUGUSTUS",
-      "at": 2.2,
-      "color": "#2F6FC2"
-     }
-    ]
+    "left": {
+     "label": "FOUNDER",
+     "cast": [
+      {
+       "id": "romulus",
+       "mood": "happy"
+      }
+     ]
+    },
+    "right": {
+     "label": "FIRST EMPEROR",
+     "cast": [
+      {
+       "id": "augustus",
+       "mood": "smug"
+      }
+     ]
+    }
    }
   },
   {
@@ -91,26 +97,70 @@
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "close",
     "cast": [
      {
       "id": "romaug",
-      "x": 0.5,
+      "x": 0.45,
+      "s": 0.8,
       "pose": "shrug",
-      "mood": "sad",
-      "s": 0.9
+      "mood": "shock"
      }
     ],
-    "focus": "romaug",
+    "place": "Ravenna, Italy · 475 AD",
     "tag": {
      "id": "romaug",
      "text": "Romulus Augustus"
-    }
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROMULUS + AUGUSTUS",
+      "at": 0.5,
+      "color": "#2F6FC2"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "He was just a boy, put on the throne in 475 by his father, a general named Orestes."
+   "say": "He was just a boy, put on the throne in 475 by his father, a general named Orestes.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "orestes",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "romaug",
+      "x": 0.65,
+      "s": 0.8,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "orestes",
+     "text": "Orestes, his father"
+    },
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.65,
+      "s": 0.35,
+      "y": 0.35
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -118,7 +168,6 @@
    "show": {
     "k": "scene",
     "bg": "street",
-    "cam": "still",
     "cast": [
      {
       "id": "citizen",
@@ -127,47 +176,52 @@
       "mood": "happy"
      },
      {
-      "id": "romaug",
-      "x": 0.65,
-      "pose": "facepalm",
-      "mood": "sad",
-      "s": 0.8
+      "id": "citizenW",
+      "x": 0.6,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.82,
+      "s": 0.6
      }
     ],
     "stickers": [
      {
-      "text": "AUGUSTULUS",
-      "at": 0.8,
-      "color": "#C8902A"
+      "text": "LITTLE AUGUSTUS",
+      "at": 0.6,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "In 476, the Germanic general Odoacer deposed him, and didn't bother naming a new emperor.",
+   "say": "In 476, a Germanic general named Odoacer removed him, and didn't bother naming a new emperor.",
    "show": {
     "k": "scene",
-    "bg": "palace",
-    "cam": "push",
+    "bg": "throne",
     "cast": [
      {
       "id": "odoacer",
-      "x": 0.3,
+      "x": 0.35,
       "pose": "hips",
       "mood": "smug"
      },
      {
       "id": "romaug",
       "x": 0.68,
+      "s": 0.8,
       "pose": "scared",
-      "mood": "scared",
-      "s": 0.8
+      "mood": "scared"
      }
     ],
     "tag": {
      "id": "odoacer",
-     "text": "Odoacer"
+     "text": "Odoacer, Germanic general"
     }
    }
   },
@@ -177,41 +231,59 @@
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "close",
     "cast": [
      {
       "id": "odoacer",
-      "x": 0.3,
+      "x": 0.5,
       "pose": "present",
       "mood": "happy"
-     },
-     {
-      "id": "romaug",
-      "x": 0.68,
-      "pose": "wave",
-      "mood": "shock",
-      "s": 0.8
      }
     ],
-    "focus": "odoacer"
+    "cam": "close",
+    "focus": "odoacer",
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Romulus retired to a fortress near Naples, and that's usually counted as the end of the western Roman Empire.",
+   "say": "The boy retired to a fortress near Naples.",
    "show": {
     "k": "scene",
     "bg": "harbor",
-    "cam": "pan",
     "cast": [
      {
       "id": "romaug",
-      "x": 0.5,
-      "pose": "sit",
-      "mood": "happy",
-      "s": 0.8
+      "x": 0.35,
+      "s": 0.8,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "place": "Near Naples, Italy",
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.5
      }
     ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And that's usually counted as the end of the western Roman Empire.",
+   "show": {
+    "k": "flag",
+    "flag": "rome",
+    "label": "THE WESTERN ROMAN EMPIRE",
+    "sub": "ends 476 AD",
+    "bg": "field"
    }
   },
   {
@@ -223,21 +295,20 @@
      {
       "id": "romaug",
       "x": 0.3,
+      "s": 0.8,
       "pose": "wave",
-      "mood": "happy",
-      "s": 0.8
+      "mood": "happy"
      },
      {
       "id": "odoacer",
       "x": 0.7,
-      "pose": "wave",
-      "mood": "happy"
+      "pose": "shrug"
      }
     ]
    }
   }
  ],
- "caption": "Rome's last western emperor had the most on-the-nose name in history.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #fallofrome #romanempire #historyfacts #historytok",
+ "caption": "Rome's last western emperor had the most on-the-nose name in history.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #fallofrome #romanempire #historyfacts #historytok",
  "youtube_title": "Rome's Last Emperor Had the Wildest Name #shorts",
  "tags": [
   "romulus augustulus",

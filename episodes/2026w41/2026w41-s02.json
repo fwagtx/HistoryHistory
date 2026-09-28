@@ -25,6 +25,24 @@
    "hold": "moneybag",
    "name": "Didius Julianus"
   },
+  "legionary": {
+   "preset": "legionary"
+  },
+  "legionary2": {
+   "preset": "legionary",
+   "hold": "shield"
+  },
+  "severus": {
+   "preset": "legionary",
+   "hat": "laurel",
+   "outfit": "armor",
+   "beard": "full",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "skin": "brown",
+   "hold": "sword",
+   "name": "Septimius Severus"
+  },
   "sulpicianus": {
    "preset": "senator",
    "hat": null,
@@ -46,33 +64,70 @@
    "show": {
     "k": "scene",
     "bg": "camp",
-    "cam": "push",
     "cast": [
      {
       "id": "guard",
-      "x": 0.3,
+      "x": 0.35,
       "pose": "hips",
       "mood": "smug"
      },
      {
       "id": "guard2",
-      "x": 0.68,
+      "x": 0.65,
       "pose": "present",
       "mood": "happy"
      }
     ],
-    "stickers": [
+    "place": "Rome · 193 AD",
+    "objects": [
      {
-      "text": "193 AD",
-      "at": 0.5,
-      "color": "#A8322A"
+      "k": "flag",
+      "x": 0.15,
+      "flag": "rome"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.6
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The Praetorian Guard had just killed the emperor Pertinax, and put the throne up for bids."
+   "say": "The Praetorian Guard, the emperor's own bodyguards, had just killed the emperor Pertinax. Now they wanted cash.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "guard2",
+      "x": 0.72,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THRONE FOR SALE",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
   },
   {
    "who": "sulpicianus",
@@ -80,7 +135,6 @@
    "show": {
     "k": "scene",
     "bg": "camp",
-    "cam": "still",
     "cast": [
      {
       "id": "sulpicianus",
@@ -95,9 +149,10 @@
       "mood": "angry"
      }
     ],
+    "cam": "still",
     "tag": {
      "id": "julianus",
-     "text": "Didius Julianus"
+     "text": "Didius Julianus, rich senator"
     }
    }
   },
@@ -107,28 +162,12 @@
   },
   {
    "who": "N",
-   "say": "Cassius Dio, who lived through it, says the senator Didius Julianus jumped the bid by five thousand at once and held up the number on his fingers.",
+   "say": "Cassius Dio, a senator who lived through it, says Julianus jumped the bid by five thousand in one go.",
    "show": {
-    "k": "scene",
-    "bg": "camp",
-    "cam": "close",
-    "cast": [
-     {
-      "id": "julianus",
-      "x": 0.5,
-      "pose": "cheer",
-      "mood": "shout",
-      "hold": "moneybag"
-     }
-    ],
-    "focus": "julianus",
-    "stickers": [
-     {
-      "text": "+5,000",
-      "at": 1.5,
-      "color": "#1F8A4A"
-     }
-    ]
+    "k": "card",
+    "label": "Winning bid, for EACH guard",
+    "big": "25,000",
+    "sub": "sesterces (Roman coins)"
    }
   },
   {
@@ -137,46 +176,98 @@
    "show": {
     "k": "scene",
     "bg": "camp",
-    "cam": "shake",
     "cast": [
      {
       "id": "guard",
-      "x": 0.35,
+      "x": 0.3,
       "pose": "cheer",
       "mood": "happy"
      },
      {
       "id": "julianus",
-      "x": 0.68,
+      "x": 0.65,
       "pose": "cheer",
       "mood": "happy",
       "bounce": true
      }
     ],
+    "cam": "shake",
     "fx": [
      "confetti"
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.82,
+      "s": 0.6
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "It did not end well. Generals in the provinces refused to accept him, and after sixty-six days Julianus was killed in his own palace.",
+   "say": "But Roman generals with their own armies refused to accept him, and one of them, Septimius Severus, marched on Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "severus",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "legionary",
+      "x": 0.55,
+      "pose": "walk"
+     },
+     {
+      "id": "legionary2",
+      "x": 0.75,
+      "pose": "walk"
+     }
+    ],
+    "tag": {
+     "id": "severus",
+     "text": "Septimius Severus, general"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After just sixty-six days, Julianus was killed in his own palace. You can buy a throne, but not loyalty.",
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "push",
     "cast": [
      {
       "id": "julianus",
-      "x": 0.5,
+      "x": 0.45,
       "pose": "scared",
       "mood": "scared"
+     }
+    ],
+    "cam": "shake",
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.4,
+      "front": true
      }
     ],
     "stickers": [
      {
       "text": "66 DAYS",
-      "at": 1.5,
+      "at": 0.8,
       "color": "#A8322A"
      }
     ]
@@ -204,7 +295,7 @@
    }
   }
  ],
- "caption": "The Roman Empire went to the highest bidder.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #romanempire #ancientrome #weirdhistory #historytok",
+ "caption": "The Roman Empire went to the highest bidder.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #romanempire #ancientrome #weirdhistory #historytok",
  "youtube_title": "The Day Rome Was Sold at Auction #shorts",
  "tags": [
   "roman empire",

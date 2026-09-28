@@ -51,27 +51,100 @@
       "id": "duncan",
       "x": 0.7
      }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.42,
+      "flag": "netherlands",
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "335 YEARS?",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "In 1651, Dutch Admiral Maarten Tromp reportedly declared war on the Isles of Scilly over seized Dutch ships.",
+   "say": "In 1651, the losing side of England's civil war held the Isles of Scilly and kept seizing Dutch ships.",
+   "show": {
+    "k": "map",
+    "lon": -3.0,
+    "lat": 51.0,
+    "z0": 1.8,
+    "z1": 2.4,
+    "labels": [
+     [
+      "Isles of Scilly",
+      -6.32,
+      49.93,
+      0
+     ],
+     [
+      "Netherlands",
+      5.3,
+      52.1,
+      0
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      4.3,
+      52.1
+     ],
+     [
+      2.0,
+      51.2
+     ],
+     [
+      -2.0,
+      50.0
+     ],
+     [
+      -6.2,
+      49.95
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Dutch Admiral Maarten Tromp demanded payment, and one letter says he declared war.",
    "show": {
     "k": "scene",
     "bg": "sea",
     "cast": [
      {
       "id": "tromp",
-      "x": 0.45,
+      "x": 0.35,
       "pose": "point",
       "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "netherlands"
      }
     ],
     "tag": {
      "id": "tromp",
      "text": "Admiral Maarten Tromp"
-    }
+    },
+    "place": "Isles of Scilly · 1651"
    }
   },
   {
@@ -94,26 +167,41 @@
       ],
       "pose": "walk"
      }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.25,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "In the 1980s, local historian Roy Duncan asked the Dutch embassy, and nobody could find a peace treaty.",
+   "say": "In the 1980s, historian Roy Duncan asked the Dutch embassy. Nobody could find a peace treaty.",
    "show": {
     "k": "scene",
     "bg": "office",
     "cast": [
      {
       "id": "duncan",
-      "x": 0.45,
+      "x": 0.55,
       "hold": "letter",
       "pose": "hold"
      }
     ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.22,
+      "s": 0.6
+     }
+    ],
     "tag": {
      "id": "duncan",
-     "text": "Roy Duncan"
+     "text": "Roy Duncan, local historian"
     }
    }
   },
@@ -123,7 +211,7 @@
   },
   {
    "who": "N",
-   "say": "The Dutch ambassador came over and officially made peace.",
+   "say": "In 1986, the Dutch ambassador came and made peace official. Historians say it probably wasn't a real war. The party was, though.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -141,14 +229,19 @@
       "mood": "happy"
      }
     ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.45,
+      "y": 0.35,
+      "text": "PEACE 1986"
+     }
+    ],
     "fx": [
      "confetti"
     ]
    }
-  },
-  {
-   "who": "N",
-   "say": "Historians say it was probably never a real war, but the peace party definitely was."
   },
   {
    "who": "N",
@@ -171,7 +264,7 @@
    }
   }
  ],
- "caption": "A 'war' that lasted 335 years without a single shot.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #islesofscilly #netherlands #historytok #historyfacts",
+ "caption": "A 'war' that lasted 335 years without a single shot.\n\nFollow for 5 stories a day.\n#history #islesofscilly #netherlands #historytok #historyfacts",
  "youtube_title": "The 335-Year War Where Nobody Fired a Shot #shorts",
  "tags": [
   "335 years war",

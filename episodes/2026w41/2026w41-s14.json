@@ -60,33 +60,57 @@
       "enter": "pop"
      }
     ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "usa",
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.7,
+      "flag": "uk",
+      "s": 0.6
+     }
+    ],
     "cam": "close",
-    "focus": "pig"
+    "focus": "pig",
+    "place": "San Juan Island · 1859"
    }
   },
   {
    "who": "N",
-   "say": "Both countries claimed San Juan Island, right between Washington and Vancouver Island.",
+   "say": "Both countries claimed San Juan Island, between today's Washington State and Canada.",
    "show": {
     "k": "scene",
-    "bg": "village",
-    "cast": [
+    "bg": "sea",
+    "cast": [],
+    "objects": [
      {
-      "id": "pickett",
-      "x": 0.3,
-      "pose": "point"
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.8,
+      "text": "WHOSE ISLAND?"
      },
      {
-      "id": "baynes",
+      "k": "flag",
+      "x": 0.12,
+      "flag": "usa",
+      "s": 0.55
+     },
+     {
+      "k": "flag",
       "x": 0.7,
-      "pose": "point"
+      "flag": "uk",
+      "s": 0.55
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Then an American farmer, Lyman Cutlar, caught a British company's pig in his garden, and shot it.",
+   "say": "One day, an American farmer, Lyman Cutlar, found a British company's pig in his garden. So he shot it.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -95,19 +119,27 @@
       "id": "cutlar",
       "x": 0.3,
       "pose": "aim",
-      "mood": "angry"
+      "mood": "angry",
+      "hold": "rifle"
      },
      {
       "id": "pig",
       "x": 0.68,
       "mood": "shock",
       "exit": "right",
-      "exitAt": 2.5
+      "exitAt": 3.5
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.5
      }
     ],
     "tag": {
      "id": "cutlar",
-     "text": "Lyman Cutlar"
+     "text": "Lyman Cutlar, farmer"
     }
    }
   },
@@ -116,12 +148,13 @@
    "say": "I'll give you ten dollars for it.",
    "show": {
     "k": "scene",
-    "bg": "field",
+    "bg": "village",
     "cast": [
      {
       "id": "cutlar",
       "x": 0.3,
-      "pose": "present"
+      "pose": "present",
+      "hold": "coin"
      },
      {
       "id": "griffin",
@@ -132,7 +165,7 @@
     ],
     "tag": {
      "id": "griffin",
-     "text": "Charles Griffin"
+     "text": "Charles Griffin, the pig's owner"
     }
    }
   },
@@ -142,22 +175,42 @@
   },
   {
    "who": "N",
-   "say": "Soon four hundred sixty-one American soldiers faced British warships carrying over two thousand men.",
+   "say": "Soon, four hundred sixty-one American soldiers faced British warships carrying over two thousand men.",
    "show": {
     "k": "scene",
     "bg": "camp",
     "cast": [
      {
       "id": "pickett",
-      "x": 0.45,
+      "x": 0.4,
       "pose": "hips",
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.72,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "usa",
+      "s": 0.6
      }
     ],
     "tag": {
      "id": "pickett",
      "text": "Captain George Pickett"
-    }
+    },
+    "stickers": [
+     {
+      "text": "461 SOLDIERS",
+      "at": 1.5,
+      "color": "#2F6FC2"
+     }
+    ]
    }
   },
   {
@@ -169,15 +222,44 @@
     "cast": [
      {
       "id": "baynes",
-      "x": 0.5,
+      "x": 0.55,
       "pose": "facepalm"
      }
-    ]
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.2,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "baynes",
+     "text": "Rear Admiral Robert Baynes"
+    }
    }
   },
   {
    "who": "N",
-   "say": "The only casualty of the whole war? The pig."
+   "say": "The only casualty of the whole war? The pig.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pig",
+      "x": 0.5,
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "R.I.P. PIG",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -199,7 +281,7 @@
    }
   }
  ],
- "caption": "The Pig War: one dead pig, 461 soldiers and a lot of warships.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #pigwar #sanjuanisland #historytok #funnyhistory",
+ "caption": "The Pig War: one dead pig, 461 soldiers and a lot of warships.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pigwar #sanjuanisland #historytok #funnyhistory",
  "youtube_title": "America and Britain Almost Fought Over a Pig #shorts",
  "tags": [
   "pig war",

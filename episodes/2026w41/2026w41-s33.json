@@ -18,6 +18,16 @@
    "hairColor": "#1E1C1B",
    "name": "Mansa Musa"
   },
+  "sundiata": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F6A3A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "hold": "spear",
+   "name": "Sundiata Keita"
+  },
   "griot": {
    "skin": "dark",
    "hat": "turban",
@@ -44,15 +54,23 @@
     "cast": [
      {
       "id": "griot",
-      "x": 0.5,
+      "x": 0.45,
       "mood": "neutral",
       "pose": "cross"
      }
     ],
+    "place": "Mali, West Africa",
     "tag": {
      "id": "griot",
      "text": "A jeli, or griot"
-    }
+    },
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ]
    }
   },
   {
@@ -61,7 +79,33 @@
   },
   {
    "who": "N",
-   "say": "They sing far more about Sundiata, the founder of the empire, than about Musa."
+   "say": "They sing far more about Sundiata, who founded the empire in the 1230s, than about Musa.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "sundiata",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "sundiata",
+     "text": "Sundiata Keita, founder of Mali"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.55
+     }
+    ]
+   }
   },
   {
    "who": "griot",
@@ -89,13 +133,27 @@
     "cast": [
      {
       "id": "musa",
-      "x": 0.5,
+      "x": 0.35,
       "mood": "smug",
       "hold": "goldbar"
      }
     ],
     "fx": [
      "sparkle"
+    ],
+    "place": "Cairo, Egypt · 1324",
+    "tag": {
+     "id": "musa",
+     "text": "Mansa Musa, king of Mali"
+    },
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.74,
+      "load": "gold",
+      "s": 0.7,
+      "label": "Gold"
+     }
     ]
    }
   },
@@ -125,7 +183,28 @@
   },
   {
    "who": "N",
-   "say": "Some jeliw say he wasted Mali's wealth abroad and broke with tradition."
+   "say": "Some jeliw say he wasted Mali's wealth abroad and broke with tradition.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "griot",
+      "x": 0.5,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.6,
+      "open": false,
+      "label": "Empty"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -139,6 +218,13 @@
       "x": 0.5,
       "mood": "sad",
       "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.18,
+      "s": 0.6
      }
     ]
    }
@@ -164,7 +250,7 @@
    }
   }
  ],
- "caption": "Some of Mali's own storytellers say Mansa Musa wasted the gold.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #griot #historytok #africanhistory",
+ "caption": "Some of Mali's own storytellers say Mansa Musa wasted the gold.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mansamusa #griot #historytok #africanhistory",
  "youtube_title": "Mali's Storytellers Roasted Mansa Musa #shorts",
  "tags": [
   "mansa musa",

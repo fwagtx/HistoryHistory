@@ -16,6 +16,9 @@
    "hold": "sword",
    "name": "Alaric"
   },
+  "citizen": {
+   "preset": "roman"
+  },
   "honorius": {
    "hat": "crown",
    "outfit": "robe",
@@ -23,7 +26,8 @@
    "hair": "short",
    "hairColor": "#6A4A2A",
    "skin": "light",
-   "name": "Honorius"
+   "name": "Honorius",
+   "hold": "chicken"
   },
   "messenger": {
    "preset": "roman",
@@ -38,42 +42,126 @@
  "beats": [
   {
    "who": "N",
-   "say": "When Rome was sacked in 410, the emperor supposedly thought someone meant his pet rooster.",
+   "say": "When Rome was looted in 410, the emperor supposedly thought someone meant his pet rooster.",
    "show": {
     "k": "scene",
-    "bg": "rome",
-    "cam": "shake",
+    "bg": "throne",
     "cast": [
      {
-      "id": "alaric",
+      "id": "honorius",
       "x": 0.45,
-      "pose": "cheer",
-      "mood": "shout",
-      "hold": "sword"
+      "pose": "sit",
+      "mood": "happy",
+      "hold": "chicken"
      }
     ],
-    "fx": [
-     "smoke"
-    ],
-    "tag": {
-     "id": "alaric",
-     "text": "Alaric, 410 AD"
-    }
+    "place": "Ravenna, Italy · 410 AD",
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.4,
+      "y": 0.2
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Emperor Honorius was safe in Ravenna while the Visigoths looted Rome for three days.",
+   "say": "The Visigoths, a Germanic people led by King Alaric, looted the city of Rome for three days.",
    "show": {
     "k": "scene",
-    "bg": "throne",
-    "cam": "push",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "alaric",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "shout",
+      "hold": "sword"
+     },
+     {
+      "id": "citizen",
+      "x": 0.72,
+      "pose": "run",
+      "mood": "scared",
+      "exit": "right",
+      "exitAt": 2
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ],
+    "place": "Rome · 410 AD",
+    "tag": {
+     "id": "alaric",
+     "text": "Alaric, king of the Visigoths"
+    },
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.15,
+      "s": 0.5,
+      "load": "gold"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the western emperor, Honorius, was safe in Ravenna, a city far away in northern Italy.",
+   "show": {
+    "k": "map",
+    "lon": 12.4,
+    "lat": 43,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "410 AD",
+    "labels": [
+     [
+      "Ravenna",
+      12.2,
+      44.4,
+      0
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      12.5,
+      41.9,
+      0.5,
+      "rgba(214,48,40,.6)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "messenger",
+   "say": "Emperor! Roma has perished!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
     "cast": [
      {
       "id": "honorius",
-      "x": 0.5,
+      "x": 0.35,
       "pose": "sit",
-      "mood": "happy"
+      "mood": "happy",
+      "hold": "chicken"
+     },
+     {
+      "id": "messenger",
+      "x": 0.7,
+      "pose": "run",
+      "mood": "scared",
+      "enter": "right"
      }
     ],
     "tag": {
@@ -83,50 +171,21 @@
    }
   },
   {
-   "who": "messenger",
-   "say": "Emperor! Roma has perished!",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cam": "still",
-    "cast": [
-     {
-      "id": "honorius",
-      "x": 0.3,
-      "pose": "sit",
-      "mood": "neutral"
-     },
-     {
-      "id": "messenger",
-      "x": 0.7,
-      "pose": "run",
-      "mood": "scared",
-      "enter": "right"
-     }
-    ]
-   }
-  },
-  {
    "who": "honorius",
    "say": "What? She was just eating out of my hand!",
    "show": {
     "k": "scene",
-    "bg": "throne",
-    "cam": "close",
+    "bg": "palace",
     "cast": [
      {
       "id": "honorius",
-      "x": 0.35,
+      "x": 0.45,
       "pose": "scared",
-      "mood": "shock"
-     },
-     {
-      "id": "messenger",
-      "x": 0.7,
-      "pose": "facepalm",
-      "mood": "sad"
+      "mood": "shock",
+      "hold": "chicken"
      }
     ],
+    "cam": "close",
     "focus": "honorius"
    }
   },
@@ -136,26 +195,7 @@
   },
   {
    "who": "honorius",
-   "say": "Oh. Phew.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cam": "still",
-    "cast": [
-     {
-      "id": "honorius",
-      "x": 0.35,
-      "pose": "shrug",
-      "mood": "happy"
-     },
-     {
-      "id": "messenger",
-      "x": 0.7,
-      "pose": "facepalm",
-      "mood": "shock"
-     }
-    ]
-   }
+   "say": "Oh. Phew."
   },
   {
    "who": "N",
@@ -163,26 +203,26 @@
    "show": {
     "k": "scene",
     "bg": "library",
-    "cam": "push",
     "cast": [
      {
       "id": "messenger",
-      "x": 0.5,
-      "pose": "think"
+      "x": 0.65,
+      "pose": "shrug"
      }
     ],
-    "stickers": [
+    "objects": [
      {
-      "text": "PROBABLY MADE UP",
-      "at": 0.8,
-      "color": "#A8322A"
+      "k": "scrollbig",
+      "x": 0.3,
+      "s": 0.7,
+      "text": "Probably made up"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "But the fact that people told it says a lot about what they thought of Honorius."
+   "say": "But people told it because it matched what they thought of Honorius."
   },
   {
    "who": "N",
@@ -194,19 +234,19 @@
       "id": "honorius",
       "x": 0.3,
       "pose": "wave",
-      "mood": "happy"
+      "mood": "happy",
+      "hold": "chicken"
      },
      {
       "id": "messenger",
       "x": 0.7,
-      "pose": "facepalm",
-      "mood": "sad"
+      "pose": "facepalm"
      }
     ]
    }
   }
  ],
- "caption": "Rome fell. The emperor was relieved it wasn't his rooster. (Allegedly.)\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #fallofrome #ancientrome #funnyhistory #historytok",
+ "caption": "Rome fell. The emperor was relieved it wasn't his rooster. (Allegedly.)\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #fallofrome #ancientrome #funnyhistory #historytok",
  "youtube_title": "Rome Fell and the Emperor Worried About His Rooster #shorts",
  "tags": [
   "honorius",

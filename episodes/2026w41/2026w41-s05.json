@@ -23,6 +23,9 @@
    "hairColor": "#5A3A22",
    "skin": "tan",
    "name": "Hadrian"
+  },
+  "scientist": {
+   "preset": "scientist"
   }
  },
  "voices": {
@@ -31,29 +34,64 @@
  "beats": [
   {
    "who": "N",
-   "say": "This roof is about nineteen hundred years old, and it's still the biggest of its kind on Earth.",
+   "say": "This roof is about nineteen hundred years old, and it's still a world record.",
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "push",
     "cast": [
-     {
-      "id": "hadrian",
-      "x": 0.35,
-      "pose": "present",
-      "mood": "happy"
-     },
      {
       "id": "citizenW",
       "x": 0.7,
-      "pose": "cheer",
+      "pose": "point",
       "mood": "shock"
+     }
+    ],
+    "place": "The Pantheon, Rome",
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15
+     },
+     {
+      "k": "column",
+      "x": 0.35
+     },
+     {
+      "k": "column",
+      "x": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Pantheon is a temple in Rome, rebuilt by Emperor Hadrian between 118 and 128 AD.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "hadrian",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "hadrian",
+     "text": "Emperor Hadrian"
+    },
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.7
      }
     ],
     "stickers": [
      {
-      "text": "THE PANTHEON",
-      "at": 0.6,
+      "text": "118–128 AD",
+      "at": 1.0,
       "color": "#2F6FC2"
      }
     ]
@@ -61,47 +99,51 @@
   },
   {
    "who": "N",
-   "say": "The Pantheon in Rome was rebuilt by Emperor Hadrian between 118 and 128 AD.",
+   "say": "Its concrete dome is about forty-three metres wide. Almost four buses, end to end.",
+   "show": {
+    "k": "card",
+    "label": "Width of the Pantheon's dome",
+    "big": "43 METRES",
+    "sub": "almost four buses, end to end"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And there's no steel inside. It's still the largest unreinforced concrete dome ever built.",
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "close",
     "cast": [
      {
       "id": "hadrian",
-      "x": 0.5,
+      "x": 0.7,
       "pose": "hips",
       "mood": "smug"
      }
     ],
-    "focus": "hadrian",
-    "tag": {
-     "id": "hadrian",
-     "text": "Emperor Hadrian"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "Its concrete dome is about forty-three metres wide, with no steel reinforcement inside at all.",
-   "show": {
-    "k": "card",
-    "label": "Pantheon dome, across",
-    "big": "43 m",
-    "sub": "no steel inside",
-    "cast": [
+    "objects": [
      {
-      "id": "hadrian",
-      "x": 0.8,
-      "pose": "present",
-      "mood": "happy"
+      "k": "column",
+      "x": 0.2
+     },
+     {
+      "k": "column",
+      "x": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO STEEL",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "STILL #1",
+      "at": 2.0,
+      "color": "#A8322A"
      }
     ]
    }
-  },
-  {
-   "who": "N",
-   "say": "It's still the largest unreinforced concrete dome ever built."
   },
   {
    "who": "hadrian",
@@ -109,7 +151,6 @@
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "close",
     "cast": [
      {
       "id": "hadrian",
@@ -118,33 +159,65 @@
       "mood": "smug"
      }
     ],
+    "cam": "close",
     "focus": "hadrian"
    }
   },
   {
    "who": "N",
-   "say": "In 2023, MIT researchers found part of the secret: lumps of lime in Roman concrete can help seal cracks when water gets in.",
+   "say": "In 2023, MIT researchers found part of the secret: little lumps of lime inside Roman concrete.",
    "show": {
     "k": "scene",
     "bg": "library",
-    "cam": "push",
     "cast": [
      {
       "id": "scientist",
-      "x": 0.35,
+      "x": 0.6,
       "pose": "point",
       "mood": "happy"
+     }
+    ],
+    "place": "MIT, USA · 2023",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.25,
+      "s": 0.7
      },
      {
-      "id": "citizenW",
+      "k": "rock",
+      "x": 0.25,
+      "s": 0.3,
+      "y": 0.12
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When water seeps into a crack, those lumps can help seal it back up.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "scientist",
       "x": 0.7,
-      "pose": "think"
+      "pose": "present",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.3,
+      "s": 0.35
      }
     ],
     "stickers": [
      {
       "text": "SELF-HEALING",
-      "at": 2,
+      "at": 0.8,
       "color": "#1F8A4A"
      }
     ]
@@ -152,17 +225,26 @@
   },
   {
    "who": "N",
-   "say": "It's been a church since 609, and it's still in use today.",
+   "say": "It's been a church since 609, and people still use it today.",
    "show": {
     "k": "scene",
     "bg": "church",
-    "cam": "pan",
     "cast": [
      {
       "id": "citizenW",
       "x": 0.5,
       "pose": "wave",
       "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15
+     },
+     {
+      "k": "column",
+      "x": 0.85
      }
     ]
    }
@@ -180,16 +262,15 @@
       "mood": "happy"
      },
      {
-      "id": "citizenW",
+      "id": "scientist",
       "x": 0.7,
-      "pose": "cheer",
-      "mood": "happy"
+      "pose": "cheer"
      }
     ]
    }
   }
  ],
- "caption": "A 1,900-year-old concrete dome that is still a world record.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #pantheon #romanconcrete #ancientrome #historytok",
+ "caption": "A 1,900-year-old concrete dome that is still a world record.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pantheon #romanconcrete #ancientrome #historytok",
  "youtube_title": "This Roman Dome Still Holds a World Record #shorts",
  "tags": [
   "pantheon",

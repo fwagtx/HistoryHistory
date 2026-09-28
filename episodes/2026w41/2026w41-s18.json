@@ -30,43 +30,60 @@
     "cast": [
      {
       "id": "modenese",
-      "x": 0.5,
+      "x": 0.55,
       "pose": "cheer",
       "mood": "smug"
      }
     ],
-    "stickers": [
+    "objects": [
      {
-      "text": "THE BUCKET",
-      "at": 1.0,
-      "color": "#7A5A3A"
+      "k": "barrel",
+      "x": 0.25,
+      "s": 0.6,
+      "label": "THE BUCKET"
      }
-    ]
+    ],
+    "place": "Modena, Italy · today"
    }
   },
   {
    "who": "N",
-   "say": "In 1325, Modena and Bologna went to war.",
+   "say": "In 1325, the neighboring cities of Modena and Bologna went to war over a captured castle.",
    "show": {
-    "k": "scene",
-    "bg": "battlefield",
-    "cast": [
-     {
-      "id": "modenese",
-      "x": 0.3,
-      "pose": "fist"
-     },
-     {
-      "id": "bolognese",
-      "x": 0.7,
-      "pose": "fist"
-     }
+    "k": "map",
+    "lon": 11.1,
+    "lat": 44.6,
+    "z0": 3.0,
+    "z1": 3.8,
+    "labels": [
+     [
+      "Modena",
+      10.93,
+      44.65,
+      0
+     ],
+     [
+      "Bologna",
+      11.34,
+      44.49,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      10.93,
+      44.65,
+      0.12,
+      "rgba(47,111,194,0.35)"
+     ],
+     [
+      11.34,
+      44.49,
+      0.12,
+      "rgba(168,50,42,0.35)"
+     ]
     ]
    }
-  },
-  {
-   "who": "N",
-   "say": "Legend says Modena stole a bucket from Bologna's well, but the real trigger was a captured castle."
   },
   {
    "who": "N",
@@ -79,7 +96,8 @@
       "id": "modenese",
       "x": 0.3,
       "pose": "fist",
-      "mood": "shout"
+      "mood": "shout",
+      "hold": "sword"
      },
      {
       "id": "bolognese",
@@ -88,28 +106,65 @@
       "mood": "scared"
      }
     ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
     "fx": [
      "dust"
     ],
-    "cam": "shake"
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "32,000 vs 7,000",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Modena won anyway, and on the way home, they grabbed a bucket from a well by Bologna's gate.",
+   "say": "But Modena had trained professional soldiers, and it won anyway.",
+   "show": {
+    "k": "card",
+    "label": "Battle of Zappolino, 1325",
+    "big": "MODENA WINS",
+    "sub": "against an army over four times bigger"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the way home, they grabbed a bucket from a well by Bologna's gate, as a trophy.",
    "show": {
     "k": "scene",
     "bg": "town",
     "cast": [
      {
       "id": "modenese",
-      "x": 0.3,
+      "x": 0.6,
       "walk": [
-       0.3,
-       0.7
+       0.45,
+       0.75
       ],
       "pose": "run",
       "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.22,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.6,
+      "s": 0.45,
+      "front": true
      }
     ]
    }
@@ -119,7 +174,7 @@
    "say": "Give it back!",
    "show": {
     "k": "scene",
-    "bg": "town",
+    "bg": "castle",
     "cast": [
      {
       "id": "bolognese",
@@ -149,9 +204,24 @@
     "cast": [
      {
       "id": "modenese",
-      "x": 0.5,
+      "x": 0.6,
       "pose": "present",
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.28,
+      "s": 0.6,
+      "label": "THE BUCKET"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL NOT GIVING IT BACK",
+      "at": 1.5,
+      "color": "#2F6FC2"
      }
     ]
    }
@@ -176,7 +246,7 @@
    }
   }
  ],
- "caption": "Modena took Bologna's bucket in 1325. It still has it.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #italy #warofthebucket #historytok #medievalhistory",
+ "caption": "Modena took Bologna's bucket in 1325. It still has it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #italy #warofthebucket #historytok #medievalhistory",
  "youtube_title": "This City Has Kept a Stolen Bucket for 700 Years #shorts",
  "tags": [
   "war of the bucket",

@@ -20,6 +20,10 @@
    "animal": "elephant",
    "mood": "neutral"
   },
+  "elephant2": {
+   "animal": "elephant",
+   "mood": "neutral"
+  },
   "hannibal": {
    "hat": "goldhelm",
    "outfit": "armor",
@@ -28,11 +32,14 @@
    "skin": "olive",
    "hold": "spear",
    "name": "Hannibal"
+  },
+  "legionary": {
+   "preset": "legionary"
   }
  },
  "voices": {
-  "hannibal": "am_liam",
-  "carthaginian": "am_echo"
+  "carthaginian": "am_echo",
+  "hannibal": "am_liam"
  },
  "beats": [
   {
@@ -41,36 +48,37 @@
    "show": {
     "k": "scene",
     "bg": "snow",
-    "cam": "pan",
     "cast": [
      {
       "id": "hannibal",
-      "x": 0.3,
-      "pose": "walk",
-      "mood": "neutral",
-      "walk": [
-       0.15,
-       0.35
-      ]
+      "x": 0.25,
+      "pose": "point"
      },
      {
       "id": "elephant",
-      "x": 0.65,
+      "x": 0.62,
       "mood": "scared"
      }
     ],
+    "place": "The Alps · 218 BC",
     "fx": [
      "snow"
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.7
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "His name was Hannibal, and he came from Carthage, in North Africa.",
+   "say": "His name was Hannibal. He came from Carthage, a rich city in North Africa that was at war with Rome.",
    "show": {
     "k": "scene",
     "bg": "warroom",
-    "cam": "push",
     "cast": [
      {
       "id": "hannibal",
@@ -87,7 +95,14 @@
     "tag": {
      "id": "hannibal",
      "text": "Hannibal of Carthage"
-    }
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
    }
   },
   {
@@ -96,13 +111,12 @@
    "show": {
     "k": "scene",
     "bg": "warroom",
-    "cam": "close",
     "cast": [
      {
       "id": "hannibal",
       "x": 0.35,
-      "pose": "hips",
-      "mood": "smug"
+      "pose": "point",
+      "mood": "happy"
      },
      {
       "id": "carthaginian",
@@ -111,6 +125,7 @@
       "mood": "shock"
      }
     ],
+    "cam": "close",
     "focus": "carthaginian"
    }
   },
@@ -120,19 +135,19 @@
   },
   {
    "who": "N",
-   "say": "He started in Spain with thirty-seven elephants, crossed the Pyrenees and the Rhone, then climbed into the Alps.",
+   "say": "He started in Spain with thirty-seven elephants, crossed the Pyrenees mountains and the Rhone river, then climbed the Alps.",
    "show": {
     "k": "map",
     "lon": 5,
     "lat": 42.5,
-    "z0": 1.8,
-    "z1": 2.3,
+    "z0": 1.0,
+    "z1": 1.1,
     "date": "218 BC",
     "labels": [
      [
       "Spain",
-      -1,
-      38.5,
+      -3.5,
+      40,
       0
      ],
      [
@@ -145,7 +160,7 @@
       "Rome",
       12.5,
       41.9,
-      0
+      -240
      ]
     ],
     "route": [
@@ -176,17 +191,58 @@
      [
       8.6,
       45.1
+     ],
+     [
+      10,
+      45
      ]
     ]
    }
   },
   {
    "who": "N",
-   "say": "Britannica says that on the fifteenth day he came down into Italy, with most of those elephants still alive.",
+   "say": "Snow, cliffs, landslides and angry mountain tribes.",
    "show": {
     "k": "scene",
     "bg": "snow",
-    "cam": "push",
+    "cast": [
+     {
+      "id": "elephant",
+      "x": 0.35,
+      "mood": "scared"
+     },
+     {
+      "id": "elephant2",
+      "x": 0.65,
+      "mood": "sad"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "snow"
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.12,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "37 ELEPHANTS",
+      "at": 0.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Britannica says that on the fifteenth day, he came down into Italy with most of those elephants still alive.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
     "cast": [
      {
       "id": "hannibal",
@@ -200,38 +256,51 @@
       "mood": "happy"
      }
     ],
-    "fx": [
-     "snow"
+    "place": "Northern Italy · 218 BC",
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.7
+     }
     ],
     "stickers": [
      {
-      "text": "15 DAYS",
-      "at": 1.5,
-      "color": "#2F6FC2"
+      "text": "DAY 15",
+      "at": 0.8,
+      "color": "#1F8A4A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Weirdly, historians still argue over which pass he actually used.",
+   "say": "Two years later, he crushed a huge Roman army at Cannae. And historians still argue over which pass he used.",
    "show": {
     "k": "scene",
-    "bg": "library",
-    "cam": "still",
+    "bg": "battlefield",
     "cast": [
      {
-      "id": "carthaginian",
-      "x": 0.5,
-      "pose": "shrug",
-      "mood": "neutral"
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
      }
     ],
-    "stickers": [
+    "fx": [
+     "dust"
+    ],
+    "objects": [
      {
-      "text": "WHICH PASS?",
-      "at": 1,
-      "color": "#A8322A"
+      "k": "flag",
+      "x": 0.85,
+      "flag": "rome"
      }
     ]
    }
@@ -250,14 +319,14 @@
      },
      {
       "id": "elephant",
-      "x": 0.7,
+      "x": 0.68,
       "mood": "happy"
      }
     ]
    }
   }
  ],
- "caption": "37 war elephants. The Alps. What could go wrong?\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #hannibal #elephants #ancientrome #historytok",
+ "caption": "37 war elephants. The Alps. What could go wrong?\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #elephants #ancientrome #historytok",
  "youtube_title": "Hannibal Took Elephants Over the Alps #shorts",
  "tags": [
   "hannibal",

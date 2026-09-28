@@ -2,10 +2,10 @@
  "id": "2026w41-l1",
  "format": "long",
  "date": "2026-10-05",
- "title": "The ENTIRE History of Rome in 15 Minutes",
- "youtube_title": "The ENTIRE History of Rome in 15 Minutes",
+ "title": "The ENTIRE History of Rome in 10 Minutes",
+ "youtube_title": "The ENTIRE History of Rome in 10 Minutes",
  "music": "playful",
- "description": "From a legend about twins and a wolf in 753 BC to a boy emperor quietly retired in 476 AD, this is the whole story of Rome: kings, a republic, Hannibal's elephants, Caesar's pirates, an emperor who taxed pee, and the day the Praetorian Guard sold the empire at auction. Every fact is checked against the ancient writers and modern historians, and legends are labelled as legends.\n\nChapters are added automatically.\n\n#history #rome #romanempire #juliuscaesar #animatedhistory",
+ "description": "From a legend about twins and a wolf in 753 BC to a boy emperor quietly retired in 476 AD, this is the whole story of Rome in about ten minutes: kings, a republic, Hannibal's elephants, Caesar and the pirates, an emperor who taxed pee, and the day the empire was sold at auction. Every fact is checked against ancient writers and modern historians, and legends are labelled as legends.\n\nChapters are added automatically.\n\n#history #rome #romanempire #juliuscaesar #animatedhistory",
  "tags": [
   "roman empire",
   "history of rome",
@@ -72,11 +72,7 @@
    "mood": "neutral"
   },
   "caesar": {
-   "preset": "senator",
-   "hair": "bald",
-   "hairColor": "#6A4A2A",
-   "color": "#F2EEE4",
-   "color2": "#8E2A5A",
+   "preset": "caesar",
    "name": "Julius Caesar"
   },
   "pirate": {
@@ -119,20 +115,6 @@
    "skin": "light",
    "name": "Augustus"
   },
-  "caligula": {
-   "hat": "laurel",
-   "outfit": "toga",
-   "color": "#E7C66A",
-   "color2": "#6A3E8E",
-   "hair": "short",
-   "hairColor": "#6A4A2A",
-   "skin": "light",
-   "name": "Caligula"
-  },
-  "incitatus": {
-   "animal": "horse",
-   "mood": "smug"
-  },
   "vespasian": {
    "hat": "laurel",
    "outfit": "toga",
@@ -161,16 +143,6 @@
    "skin": "tan",
    "name": "Trajan"
   },
-  "hadrian": {
-   "hat": "laurel",
-   "outfit": "toga",
-   "color": "#F2EEE4",
-   "hair": "curly",
-   "beard": "full",
-   "hairColor": "#5A3A22",
-   "skin": "tan",
-   "name": "Hadrian"
-  },
   "commodus": {
    "hat": "laurel",
    "outfit": "armor",
@@ -180,13 +152,6 @@
    "skin": "light",
    "hold": "sword",
    "name": "Commodus"
-  },
-  "dio": {
-   "preset": "senator",
-   "hair": "short",
-   "hairColor": "#3A2A1A",
-   "beard": "goatee",
-   "name": "Cassius Dio"
   },
   "guard": {
    "preset": "legionary",
@@ -239,7 +204,8 @@
    "hair": "short",
    "hairColor": "#6A4A2A",
    "skin": "light",
-   "name": "Honorius"
+   "name": "Honorius",
+   "hold": "chicken"
   },
   "messenger": {
    "preset": "roman",
@@ -273,6 +239,50 @@
    "outfit": "dress",
    "color": "#C8702A",
    "skin": "olive"
+  },
+  "cleopatra": {
+   "preset": "cleopatra",
+   "name": "Cleopatra"
+  },
+  "legionary": {
+   "preset": "legionary"
+  },
+  "legionary2": {
+   "preset": "legionary",
+   "hold": "shield"
+  },
+  "elephant2": {
+   "animal": "elephant",
+   "mood": "neutral"
+  },
+  "severus": {
+   "preset": "legionary",
+   "hat": "laurel",
+   "outfit": "armor",
+   "beard": "full",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "skin": "brown",
+   "hold": "sword",
+   "name": "Septimius Severus"
+  },
+  "gaul": {
+   "outfit": "fur",
+   "hair": "long",
+   "hairColor": "#C8902A",
+   "stache": "handlebar",
+   "skin": "light",
+   "hold": "spear"
+  },
+  "scipio": {
+   "preset": "legionary",
+   "hat": "roman",
+   "outfit": "armor",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "hold": "sword",
+   "name": "Scipio"
   }
  },
  "voices": {
@@ -291,7 +301,6 @@
   "odoacer": "am_fenrir",
   "remus": "am_puck",
   "romulus": "am_liam",
-  "dio": "bm_daniel",
   "augustus": "am_eric"
  },
  "beats": [
@@ -301,33 +310,43 @@
    "show": {
     "k": "scene",
     "bg": "camp",
-    "cam": "push",
     "cast": [
      {
       "id": "guard",
-      "x": 0.35,
+      "x": 0.4,
       "pose": "hips",
       "mood": "smug"
      },
      {
       "id": "guard2",
-      "x": 0.6,
+      "x": 0.62,
       "pose": "present",
       "mood": "happy"
      }
     ],
-    "stickers": [
+    "place": "The Praetorian camp, Rome · 193 AD",
+    "objects": [
      {
-      "text": "193 AD",
-      "at": 0.6,
-      "color": "#A8322A"
+      "k": "goldpile",
+      "x": 0.82,
+      "s": 0.9
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "rome"
+     },
+     {
+      "k": "tent",
+      "x": 0.95,
+      "s": 0.7
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The Praetorian Guard, the emperor's own bodyguards, have just killed the emperor Pertinax, and now they're taking bids."
+   "say": "The Praetorian Guard, the emperor's own bodyguards, have just killed the emperor Pertinax. Now they're taking bids."
   },
   {
    "who": "guard",
@@ -335,8 +354,6 @@
    "show": {
     "k": "scene",
     "bg": "camp",
-    "cam": "close",
-    "focus": "guard",
     "cast": [
      {
       "id": "guard",
@@ -344,7 +361,9 @@
       "pose": "point",
       "mood": "shout"
      }
-    ]
+    ],
+    "cam": "close",
+    "focus": "guard"
    }
   },
   {
@@ -352,8 +371,7 @@
    "say": "Twenty thousand sesterces each!",
    "show": {
     "k": "scene",
-    "bg": "camp",
-    "cam": "still",
+    "bg": "rome",
     "cast": [
      {
       "id": "sulpicianus",
@@ -363,20 +381,17 @@
       "enter": "left"
      },
      {
-      "id": "guard",
-      "x": 0.5
-     },
-     {
       "id": "julianus",
-      "x": 0.78,
+      "x": 0.75,
       "pose": "fist",
       "mood": "angry",
       "enter": "right"
      }
     ],
+    "cam": "still",
     "tag": {
      "id": "julianus",
-     "text": "Didius Julianus"
+     "text": "Didius Julianus, a rich senator"
     }
    }
   },
@@ -386,18 +401,29 @@
   },
   {
    "who": "N",
-   "say": "According to Cassius Dio, Julianus didn't just nudge the price up. He jumped by five thousand in one go, shouting it and holding up the number on his fingers."
+   "say": "Sesterces were Roman coins. And that price was for every single guard.",
+   "show": {
+    "k": "card",
+    "label": "Winning bid, for EACH guard",
+    "big": "25,000",
+    "sub": "sesterces (Roman coins)",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.86,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ]
+   }
   },
   {
    "who": "guard",
-   "say": "Sold, to the guy shouting from outside the wall!",
+   "say": "Sold!",
    "show": {
     "k": "scene",
     "bg": "camp",
-    "cam": "shake",
-    "fx": [
-     "confetti"
-    ],
     "cast": [
      {
       "id": "guard",
@@ -407,36 +433,53 @@
      },
      {
       "id": "julianus",
-      "x": 0.65,
+      "x": 0.62,
       "pose": "cheer",
       "mood": "happy",
       "bounce": true
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "confetti"
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.8
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Spoiler: this did not go well for him."
-  },
-  {
-   "who": "N",
-   "say": "So how did the greatest empire in the world end up on the auction block? To answer that, we have to go back. Way back. Wolves-and-twins back.",
+   "say": "Spoiler: this did not go well for him. So how did the greatest empire on Earth end up for sale? Let's go back. Way back.",
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "pan",
     "cast": [
      {
       "id": "citizen",
-      "x": 0.3,
-      "pose": "shrug",
-      "mood": "neutral"
+      "x": 0.35,
+      "pose": "shrug"
      },
      {
       "id": "citizenW",
-      "x": 0.7,
+      "x": 0.65,
       "pose": "think"
+     }
+    ],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.08
+     },
+     {
+      "k": "statue",
+      "x": 0.9,
+      "s": 0.8
      }
     ]
    }
@@ -445,18 +488,18 @@
    "hold": 2.5,
    "show": {
     "k": "title",
-    "text": "The ENTIRE History of Rome in 15 Minutes",
+    "text": "The ENTIRE History of Rome in 10 Minutes",
     "sub": "753 BC to 476 AD",
     "cast": [
      {
       "id": "caesar",
-      "x": 0.2,
+      "x": 0.14,
       "pose": "wave",
       "mood": "happy"
      },
      {
       "id": "odoacer",
-      "x": 0.82,
+      "x": 0.87,
       "pose": "hips",
       "mood": "smug"
      }
@@ -468,13 +511,13 @@
    "show": {
     "k": "chapter",
     "year": "753 BC",
-    "title": "The Wolf Twins (legend)",
+    "title": "A Wolf, Twins and a City",
     "bg": "field"
    }
   },
   {
    "who": "N",
-   "say": "So. Italy. More specifically, a few hills next to a river called the Tiber.",
+   "say": "Rome began as a few hills next to a river called the Tiber, in the middle of Italy.",
    "show": {
     "k": "map",
     "lon": 12.5,
@@ -490,10 +533,16 @@
       0
      ],
      [
-      "Tiber",
+      "Tiber river",
       12.3,
       42.4,
       30
+     ],
+     [
+      "ITALY",
+      14.5,
+      41.2,
+      0
      ]
     ],
     "areas": [
@@ -508,15 +557,14 @@
   },
   {
    "who": "N",
-   "say": "Roman legend says twin brothers, Romulus and Remus, were sons of the war god Mars, got abandoned as babies, and were nursed by a she-wolf.",
+   "say": "Roman legend says twin brothers, Romulus and Remus, were abandoned as babies and raised by a she-wolf.",
    "show": {
     "k": "scene",
     "bg": "field",
-    "cam": "push",
     "cast": [
      {
       "id": "romulus",
-      "x": 0.35,
+      "x": 0.38,
       "s": 0.8,
       "pose": "wave",
       "mood": "happy",
@@ -531,6 +579,7 @@
       "enter": "pop"
      }
     ],
+    "place": "Beside the Tiber river · legend",
     "stickers": [
      {
       "text": "LEGEND!",
@@ -539,8 +588,20 @@
      },
      {
       "text": "RAISED BY A WOLF",
-      "at": 2.4,
+      "at": 2.2,
       "color": "#2F6FC2"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.9
+     },
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.8
      }
     ]
    }
@@ -551,11 +612,10 @@
   },
   {
    "who": "N",
-   "say": "When the twins grew up, they decided to build a city, but they could not agree on which hill.",
+   "say": "When they grew up, they wanted to build a city, but they couldn't agree on which hill.",
    "show": {
     "k": "scene",
     "bg": "field",
-    "cam": "still",
     "cast": [
      {
       "id": "romulus",
@@ -568,6 +628,15 @@
       "x": 0.7,
       "pose": "point",
       "mood": "angry"
+     }
+    ],
+    "cam": "still",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.8,
+      "text": "WHICH HILL?"
      }
     ]
    }
@@ -582,55 +651,52 @@
   },
   {
    "who": "N",
-   "say": "They tried to settle it by watching the birds for a sign from the gods, and naturally both of them claimed they'd won.",
+   "say": "In the most famous version, Romulus killed his brother and named the city after himself. Rome.",
    "show": {
     "k": "scene",
-    "bg": "field",
-    "cam": "pan",
+    "bg": "village",
     "cast": [
      {
       "id": "romulus",
-      "x": 0.3,
-      "pose": "cheer",
+      "x": 0.35,
+      "pose": "present",
       "mood": "smug"
+     }
+    ],
+    "cam": "push",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.62,
+      "text": "ROMA"
      },
      {
-      "id": "remus",
-      "x": 0.7,
-      "pose": "cheer",
-      "mood": "smug"
+      "k": "house",
+      "x": 0.85,
+      "s": 0.7
      }
     ],
     "stickers": [
      {
-      "text": "I WON",
-      "at": 1.5,
+      "text": "ROME = ROMULUS",
+      "at": 1.4,
       "color": "#A8322A"
-     },
-     {
-      "text": "NO, I WON",
-      "at": 2.6,
-      "color": "#2F6FC2"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "In the most famous version, it ends with Romulus killing his own brother and naming the city after himself. Rome."
-  },
-  {
-   "who": "N",
-   "say": "The traditional birthday is April twenty-first, 753 BC, with the year worked out by a Roman scholar named Varro about seven hundred years later.",
+   "say": "Later Romans counted April twenty-first, 753 BC, as Rome's birthday. Archaeologists say people lived there even earlier, but a wolf is a better story.",
    "show": {
     "k": "card",
     "label": "Rome's traditional birthday",
     "big": "753 BC",
-    "sub": "worked out by Varro, centuries after the fact",
+    "sub": "April 21, worked out by Romans centuries later",
     "cast": [
      {
       "id": "romulus",
-      "x": 0.85,
+      "x": 0.86,
       "pose": "present",
       "mood": "happy"
      }
@@ -639,15 +705,10 @@
   },
   {
    "who": "N",
-   "say": "Archaeologists say people were living on those hills long before that, but hey, a wolf is a better story."
-  },
-  {
-   "who": "N",
-   "say": "According to tradition, Rome was then ruled by seven kings, and the last one was called Tarquin the Proud. The nickname tells you how that went.",
+   "say": "At first, Rome was ruled by kings. Tradition says there were seven, and the last was Tarquin the Proud. The nickname tells you how that went.",
    "show": {
     "k": "scene",
     "bg": "throne",
-    "cam": "push",
     "cast": [
      {
       "id": "tarquin",
@@ -656,10 +717,20 @@
       "mood": "smug"
      }
     ],
+    "cam": "push",
     "tag": {
      "id": "tarquin",
-     "text": "Tarquin the Proud"
-    }
+     "text": "Tarquin the Proud, last king"
+    },
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.2,
+      "s": 0.6,
+      "y": 0.2,
+      "enter": "pop"
+     }
+    ]
    }
   },
   {
@@ -667,8 +738,8 @@
    "show": {
     "k": "chapter",
     "year": "509 BC",
-    "title": "Kings Out, Republic In",
-    "bg": "throne"
+    "title": "No More Kings",
+    "bg": "rome"
    }
   },
   {
@@ -677,11 +748,10 @@
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "still",
     "cast": [
      {
       "id": "tarquin",
-      "x": 0.5,
+      "x": 0.45,
       "pose": "scared",
       "mood": "shock",
       "exit": "left",
@@ -693,16 +763,24 @@
       "pose": "fist",
       "mood": "angry"
      }
+    ],
+    "place": "Rome · about 509 BC",
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.2,
+      "s": 0.5,
+      "front": true
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Instead, they elected two consuls, who each served for just one year. Two bosses, so neither one could get too powerful. Genius. Mostly.",
+   "say": "Instead, they elected two leaders called consuls, each for just one year. Two bosses, so neither could get too powerful.",
    "show": {
     "k": "scene",
-    "bg": "rome",
-    "cam": "push",
+    "bg": "courtroom",
     "cast": [
      {
       "id": "senator",
@@ -728,72 +806,121 @@
       "at": 2.2,
       "color": "#A8322A"
      }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.1
+     },
+     {
+      "k": "column",
+      "x": 0.9
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Rome was now a republic, steered by a senate full of rich men in togas who loved a long speech."
+   "say": "This was the Roman Republic: no king, just elected leaders and a senate, a council of rich and powerful men. Its symbol was four letters, SPQR, the Senate and People of Rome.",
+   "show": {
+    "k": "flag",
+    "flag": "rome",
+    "label": "THE ROMAN REPUBLIC",
+    "sub": "SPQR: the Senate and People of Rome",
+    "bg": "field"
+   }
   },
   {
    "who": "N",
-   "say": "Then, around 387 BC, an army of Gauls from the north smashed a Roman army and sacked the city.",
+   "say": "Then, around 387 BC, an army of Gauls, warrior tribes from the north, beat the Romans and captured the city.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
-    "cam": "shake",
-    "fx": [
-     "smoke"
-    ],
     "cast": [
      {
       "id": "brennus",
-      "x": 0.4,
+      "x": 0.35,
       "pose": "fist",
       "mood": "shout",
       "enter": "left"
      },
      {
+      "id": "gaul",
+      "x": 0.55,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
       "id": "senator",
-      "x": 0.75,
+      "x": 0.8,
       "pose": "scared",
       "mood": "scared"
      }
     ],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ],
     "tag": {
      "id": "brennus",
      "text": "Brennus, chief of the Gauls"
-    }
+    },
+    "place": "Rome · about 387 BC",
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.95,
+      "s": 0.7
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The Romans agreed to pay a thousand pounds of gold to make them leave, and when they complained that the Gauls' weights were rigged, the chief, Brennus, threw his sword onto the scales too.",
+   "say": "The Romans agreed to pay a thousand pounds of gold to make them leave. When they complained the Gauls' weights were rigged, Brennus threw his sword onto the scale too.",
    "show": {
     "k": "scene",
     "bg": "market",
-    "cam": "close",
-    "focus": "brennus",
     "cast": [
      {
       "id": "brennus",
-      "x": 0.4,
+      "x": 0.35,
       "pose": "present",
       "mood": "smug",
       "hold": "sword"
      },
      {
       "id": "senator",
-      "x": 0.72,
+      "x": 0.75,
       "pose": "facepalm",
       "mood": "sad"
+     }
+    ],
+    "cam": "push",
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.55,
+      "s": 0.8
+     },
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,000 POUNDS OF GOLD",
+      "at": 0.8,
+      "color": "#C8902A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "And, according to Livy, he added two very rude words in Latin.",
+   "say": "And according to the Roman historian Livy, he said this.",
    "show": {
     "k": "quote",
     "text": "Woe to the conquered!",
@@ -851,13 +978,13 @@
    "show": {
     "k": "chapter",
     "year": "218 BC",
-    "title": "Hannibal's Elephants",
+    "title": "Elephants Over the Alps",
     "bg": "snow"
    }
   },
   {
    "who": "N",
-   "say": "Next, Rome bumped into Carthage, a rich trading city in North Africa, and the two of them fought three wars, called the Punic Wars.",
+   "say": "Next, Rome ran into Carthage, a rich trading city in North Africa. The two fought three wars, called the Punic Wars.",
    "show": {
     "k": "map",
     "lon": 11,
@@ -876,6 +1003,12 @@
       "Carthage",
       10.3,
       36.85,
+      0
+     ],
+     [
+      "Sicily",
+      14,
+      37.5,
       0
      ]
     ],
@@ -897,11 +1030,42 @@
   },
   {
    "who": "N",
-   "say": "In the second war, a Carthaginian general named Hannibal had a truly unhinged idea.",
+   "say": "Carthage had the strongest navy around, and Rome barely had one. So, says the Greek historian Polybius, the Romans copied a wrecked Carthaginian warship and built about a hundred of their own.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "place": "The Mediterranean Sea · 260s BC",
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.28,
+      "s": 0.8,
+      "flag": "rome"
+     },
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.8,
+      "color": "#6A3E8E",
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "COPY + PASTE",
+      "at": 1.5,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the second war, a Carthaginian general named Hannibal had a truly wild idea.",
    "show": {
     "k": "scene",
     "bg": "warroom",
-    "cam": "push",
     "cast": [
      {
       "id": "hannibal",
@@ -912,14 +1076,21 @@
      {
       "id": "carthaginian",
       "x": 0.7,
-      "pose": "hold",
-      "mood": "neutral"
+      "pose": "hold"
      }
     ],
+    "cam": "push",
     "tag": {
      "id": "hannibal",
-     "text": "Hannibal of Carthage"
-    }
+     "text": "Hannibal, general of Carthage"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ]
    }
   },
   {
@@ -928,8 +1099,6 @@
    "show": {
     "k": "scene",
     "bg": "warroom",
-    "cam": "close",
-    "focus": "hannibal",
     "cast": [
      {
       "id": "hannibal",
@@ -943,7 +1112,9 @@
       "pose": "scared",
       "mood": "shock"
      }
-    ]
+    ],
+    "cam": "close",
+    "focus": "hannibal"
    }
   },
   {
@@ -956,7 +1127,7 @@
   },
   {
    "who": "N",
-   "say": "In 218 BC, he marched out of Spain, over the Pyrenees, across the Rhone river, and straight over the Alps, with thousands of soldiers and thirty-seven war elephants.",
+   "say": "In 218 BC, he marched out of Spain, over the Pyrenees mountains, across the Rhone river and up into the Alps, with thousands of soldiers and thirty-seven war elephants.",
    "show": {
     "k": "map",
     "lon": 6,
@@ -966,7 +1137,7 @@
     "date": "218 BC",
     "labels": [
      [
-      "New Carthage",
+      "New Carthage, Spain",
       -0.98,
       37.6,
       0
@@ -1040,58 +1211,70 @@
   },
   {
    "who": "N",
-   "say": "Snow, cliffs, landslides, angry mountain tribes. Britannica says that on the fifteenth day he came down into Italy with most of those elephants still with him.",
+   "say": "Snow, cliffs, landslides, angry mountain tribes. Britannica says that on the fifteenth day he came down into Italy, with most of those elephants still alive.",
    "show": {
     "k": "scene",
     "bg": "snow",
-    "cam": "pan",
-    "fx": [
-     "snow"
-    ],
     "cast": [
      {
       "id": "hannibal",
-      "x": 0.25,
+      "x": 0.2,
       "pose": "walk",
-      "mood": "neutral",
       "walk": [
        0.1,
-       0.4
+       0.3
       ]
      },
      {
       "id": "elephant",
-      "x": 0.65,
+      "x": 0.5,
       "mood": "scared",
       "walk": [
-       0.45,
-       0.7
+       0.4,
+       0.55
+      ]
+     },
+     {
+      "id": "elephant2",
+      "x": 0.8,
+      "mood": "sad",
+      "walk": [
+       0.7,
+       0.82
       ]
      }
     ],
+    "cam": "pan",
+    "fx": [
+     "snow"
+    ],
+    "place": "The Alps · 218 BC",
     "stickers": [
      {
       "text": "37 ELEPHANTS",
-      "at": 1,
+      "at": 1.0,
       "color": "#2F6FC2"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.95,
+      "s": 0.9
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Fun fact: historians still argue about which pass he actually used. Nobody has found the elephant footprints."
+   "say": "Fun fact: historians still argue about which mountain pass he used."
   },
   {
    "who": "N",
-   "say": "Then, in 216 BC at Cannae, he crushed an enormous Roman army. Ancient writers put the Roman losses at somewhere between about fifty and seventy thousand men.",
+   "say": "Then, in 216 BC at Cannae in southern Italy, he crushed a huge Roman army.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
-    "cam": "shake",
-    "fx": [
-     "dust"
-    ],
     "cast": [
      {
       "id": "hannibal",
@@ -1101,14 +1284,73 @@
      },
      {
       "id": "elephant",
-      "x": 0.6,
+      "x": 0.55,
       "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.85,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ],
+    "place": "Cannae, Italy · 216 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ancient writers put the Roman losses at somewhere between about fifty and seventy thousand men.",
+   "show": {
+    "k": "card",
+    "label": "Roman soldiers lost at Cannae (ancient estimates)",
+    "big": "50,000+",
+    "sub": "ancient writers say 50,000 to 70,000, in a single day"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Rome refused to quit. It kept raising new armies, and Hannibal spent about fifteen years in Italy without ever taking the city.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "salute"
+     },
+     {
+      "id": "legionary2",
+      "x": 0.5,
+      "pose": "salute"
+     },
+     {
+      "id": "senator",
+      "x": 0.72,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.9,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "flag": "rome"
      }
     ],
     "stickers": [
      {
-      "text": "CANNAE, 216 BC",
-      "at": 0.6,
+      "text": "NEVER QUIT",
+      "at": 1.2,
       "color": "#A8322A"
      }
     ]
@@ -1116,50 +1358,62 @@
   },
   {
    "who": "N",
-   "say": "But Rome just refused to quit. It kept raising new armies, and Hannibal spent about fifteen years in Italy without ever taking the city."
-  },
-  {
-   "who": "N",
    "say": "In 202 BC, the Roman general Scipio finally beat him at Zama in Africa, and in 146 BC Rome destroyed Carthage completely.",
    "show": {
     "k": "scene",
     "bg": "desert",
-    "cam": "push",
     "cast": [
      {
-      "id": "hannibal",
-      "x": 0.4,
-      "pose": "facepalm",
-      "mood": "sad"
+      "id": "scipio",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
      },
      {
-      "id": "elephant",
-      "x": 0.7,
+      "id": "hannibal",
+      "x": 0.68,
+      "pose": "facepalm",
       "mood": "sad"
+     }
+    ],
+    "place": "Zama, North Africa · 202 BC",
+    "tag": {
+     "id": "scipio",
+     "text": "Scipio, Roman general"
+    },
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.92,
+      "s": 0.8
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "flag": "rome"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Rome was now the boss of the Mediterranean. And with nobody left to fight, the Romans started fighting each other."
+   "say": "Rome now ruled the Mediterranean. And with no big enemy left, the Romans started fighting each other."
   },
   {
    "hold": 2.5,
    "show": {
     "k": "chapter",
     "year": "44 BC",
-    "title": "Et Tu?",
+    "title": "Caesar and the Ides of March",
     "bg": "rome"
    }
   },
   {
    "who": "N",
-   "say": "Enter the most famous Roman of them all: Gaius Julius Caesar.",
+   "say": "Enter the most famous Roman of all: Julius Caesar, a politician and general.",
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "push",
     "cast": [
      {
       "id": "caesar",
@@ -1169,49 +1423,54 @@
       "enter": "drop"
      }
     ],
+    "cam": "push",
     "tag": {
      "id": "caesar",
      "text": "Julius Caesar"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "But first, a quick flashback to around 75 BC, because young Caesar has the best pirate story in all of history."
-  },
-  {
-   "who": "N",
-   "say": "Sailing to the island of Rhodes to study public speaking, he was captured by pirates in the Aegean Sea.",
-   "show": {
-    "k": "scene",
-    "bg": "deck",
-    "cam": "pan",
-    "cast": [
+    },
+    "objects": [
      {
-      "id": "pirate",
-      "x": 0.25,
-      "pose": "aim",
-      "mood": "smug",
-      "hold": "sword"
+      "k": "statue",
+      "x": 0.15,
+      "s": 0.8
      },
      {
-      "id": "caesar",
-      "x": 0.55,
-      "pose": "hips",
-      "mood": "neutral"
-     },
-     {
-      "id": "pirate2",
-      "x": 0.8,
-      "pose": "hips",
-      "mood": "happy"
+      "k": "column",
+      "x": 0.88
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "He sent his companions off to raise the ransom money, so for weeks it was just Caesar, a doctor, two servants, and a boat full of pirates."
+   "say": "Around 75 BC, young Caesar was sailing to the Greek island of Rhodes when pirates captured him.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "place": "Aegean Sea · about 75 BC",
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.3,
+      "s": 0.8,
+      "flag": "pirate"
+     },
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.6,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KIDNAPPED!",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
   },
   {
    "who": "pirate",
@@ -1219,20 +1478,26 @@
    "show": {
     "k": "scene",
     "bg": "deck",
-    "cam": "close",
-    "focus": "pirate",
     "cast": [
      {
       "id": "pirate",
-      "x": 0.35,
+      "x": 0.3,
       "pose": "point",
       "mood": "shout"
      },
      {
       "id": "caesar",
       "x": 0.68,
-      "pose": "cross",
-      "mood": "neutral"
+      "pose": "cross"
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate",
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.6
      }
     ]
    }
@@ -1243,8 +1508,6 @@
    "show": {
     "k": "scene",
     "bg": "deck",
-    "cam": "close",
-    "focus": "caesar",
     "cast": [
      {
       "id": "pirate",
@@ -1259,6 +1522,8 @@
       "mood": "smug"
      }
     ],
+    "cam": "close",
+    "focus": "caesar",
     "stickers": [
      {
       "text": "20 TALENTS",
@@ -1275,11 +1540,10 @@
   },
   {
    "who": "N",
-   "say": "According to Plutarch, he was held for thirty-eight days, bossed the pirates around, told them to keep quiet while he napped, and made them listen to his poems.",
+   "say": "According to Plutarch, a Greek writer, Caesar was held for thirty-eight days, bossed the pirates around, and read them his poems.",
    "show": {
     "k": "scene",
-    "bg": "sea",
-    "cam": "push",
+    "bg": "deck",
     "cast": [
      {
       "id": "caesar",
@@ -1300,44 +1564,66 @@
       "pose": "sit",
       "mood": "sad"
      }
-    ]
-   }
-  },
-  {
-   "who": "caesar",
-   "say": "You don't like my poems? Illiterate barbarians. I'm going to have you all executed, you know."
-  },
-  {
-   "who": "pirate2",
-   "say": "Ha! This guy is hilarious.",
-   "show": {
-    "k": "scene",
-    "bg": "sea",
-    "cam": "close",
-    "focus": "pirate2",
-    "cast": [
+    ],
+    "cam": "push",
+    "stickers": [
      {
-      "id": "pirate2",
-      "x": 0.5,
-      "pose": "cheer",
-      "mood": "happy"
+      "text": "38 DAYS",
+      "at": 1.0,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
-   "who": "N",
-   "say": "He was not joking. Once the ransom was paid, he raised a fleet, caught them, and had every one of them executed.",
+   "who": "caesar",
+   "say": "Quiet, I'm napping. And one day I'll have you all executed.",
    "show": {
     "k": "scene",
-    "bg": "harbor",
-    "cam": "still",
+    "bg": "night",
     "cast": [
      {
       "id": "caesar",
       "x": 0.5,
       "pose": "cross",
       "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "caesar",
+    "stickers": [
+     {
+      "text": "ZZZ",
+      "at": 0.5,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They laughed. Once the ransom was paid, he raised a fleet, caught them, and kept his promise.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.3,
+      "s": 0.7,
+      "flag": "rome",
+      "move": [
+       0.15,
+       0.35
+      ]
+     },
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "pirate",
+      "flip": true
      }
     ],
     "stickers": [
@@ -1351,7 +1637,7 @@
   },
   {
    "who": "N",
-   "say": "Anyway. Grown-up Caesar conquered Gaul, which is basically modern France, then in 49 BC led his army into Italy and won a civil war against his rival Pompey.",
+   "say": "Grown-up Caesar conquered Gaul, which is basically modern France. Then in 49 BC he led his army into Italy and won a civil war.",
    "show": {
     "k": "map",
     "lon": 6,
@@ -1403,48 +1689,53 @@
   },
   {
    "who": "N",
-   "say": "After one very quick war in the east, he summed it up in his victory parade with a sign that had just three words on it: I came, I saw, I conquered.",
+   "say": "After one very quick war in the east, his victory parade carried a sign with just three words: I came, I saw, I conquered.",
    "show": {
     "k": "scene",
     "bg": "city",
-    "cam": "push",
-    "fx": [
-     "confetti"
-    ],
     "cast": [
      {
       "id": "caesar",
-      "x": 0.45,
+      "x": 0.3,
       "pose": "cheer",
       "mood": "happy"
      },
      {
       "id": "citizen",
-      "x": 0.75,
+      "x": 0.8,
       "pose": "cheer",
       "mood": "happy"
      }
     ],
-    "stickers": [
+    "cam": "push",
+    "fx": [
+     "confetti"
+    ],
+    "objects": [
      {
-      "text": "VENI, VIDI, VICI",
-      "at": 1.6,
-      "color": "#A8322A"
+      "k": "chariot",
+      "x": 0.55,
+      "s": 0.7
+     },
+     {
+      "k": "sign",
+      "x": 0.12,
+      "s": 0.8,
+      "text": "VENI VIDI VICI"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Eventually the senate named him dictator for life. And a lot of senators did not love the 'for life' part."
+   "say": "Then the senate named him dictator for life. A lot of senators hated the 'for life' part."
   },
   {
    "who": "N",
-   "say": "On the Ides of March, 44 BC, a group of senators, including his friend Brutus, surrounded him at a senate meeting and stabbed him to death.",
+   "say": "On the Ides of March, which means March fifteenth, 44 BC, a group of senators, including his friend Brutus, stabbed him to death at a senate meeting.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
-    "cam": "shake",
     "cast": [
      {
       "id": "brutus",
@@ -1465,26 +1756,53 @@
       "mood": "angry"
      }
     ],
-    "stickers": [
-     {
-      "text": "IDES OF MARCH",
-      "at": 0.5,
-      "color": "#A8322A"
-     }
-    ],
+    "cam": "shake",
+    "place": "Rome · March 15, 44 BC",
     "tag": {
      "id": "brutus",
      "text": "Marcus Brutus"
-    }
+    },
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.06
+     },
+     {
+      "k": "column",
+      "x": 0.95
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "And no, he probably never said 'Et tu, Brute?' That line comes from Shakespeare, sixteen hundred years later."
-  },
-  {
-   "who": "N",
-   "say": "Suetonius says Caesar mostly said nothing at all, though some writers claimed he told Brutus, in Greek, 'You too, my child?'"
+   "say": "And he probably never said 'Et tu, Brute?' That line comes from Shakespeare, sixteen hundred years later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.3,
+      "s": 0.8,
+      "text": "Et tu, Brute? (Shakespeare)"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT REAL",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
   },
   {
    "hold": 2.5,
@@ -1497,33 +1815,52 @@
   },
   {
    "who": "N",
-   "say": "The senators thought killing Caesar would save the republic. Instead, it caused even more civil wars.",
+   "say": "Killing Caesar didn't save the republic. It started even more civil wars.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "legionary2",
+      "x": 0.7,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
     "cam": "pan",
     "fx": [
      "smoke"
     ],
-    "cast": [
+    "objects": [
      {
-      "id": "senator",
-      "x": 0.4,
-      "pose": "facepalm",
-      "mood": "sad"
+      "k": "flag",
+      "x": 0.1,
+      "flag": "rome"
      },
      {
-      "id": "brutus",
-      "x": 0.7,
-      "pose": "shrug",
-      "mood": "scared"
+      "k": "flag",
+      "x": 0.9,
+      "flag": "rome"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROMAN VS ROMAN",
+      "at": 1.0,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The winner was Caesar's adopted son, Octavian, who was only eighteen when Caesar died, and who later beat Mark Antony and Cleopatra at the naval battle of Actium in 31 BC.",
+   "say": "The winner was Caesar's adopted son, Octavian. In 31 BC, his fleet beat Mark Antony and Cleopatra, the queen of Egypt, at the sea battle of Actium.",
    "show": {
     "k": "map",
     "lon": 20,
@@ -1563,11 +1900,43 @@
   },
   {
    "who": "N",
-   "say": "In 27 BC, the senate gave him a shiny new name, Augustus. He said he had restored the republic. He had actually just become the first emperor.",
+   "say": "Antony and Cleopatra fled back to Egypt, and the war was basically over.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "place": "Egypt · 31 BC",
+    "tag": {
+     "id": "cleopatra",
+     "text": "Cleopatra, queen of Egypt"
+    },
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "palm",
+      "x": 0.55,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 27 BC, the senate gave him a shiny new name: Augustus. He said he had restored the republic. Really, he had become Rome's first emperor.",
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "push",
     "cast": [
      {
       "id": "augustus",
@@ -1577,12 +1946,26 @@
       "enter": "pop"
      }
     ],
-    "tag": {
-     "id": "augustus",
-     "text": "Augustus"
-    },
+    "cam": "push",
     "fx": [
      "sparkle"
+    ],
+    "tag": {
+     "id": "augustus",
+     "text": "Augustus, first emperor"
+    },
+    "place": "Rome · 27 BC",
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "statue",
+      "x": 0.15,
+      "s": 0.8
+     }
     ]
    }
   },
@@ -1591,9 +1974,7 @@
    "say": "Emperor? Me? No, no. I'm just the first citizen.",
    "show": {
     "k": "scene",
-    "bg": "palace",
-    "cam": "close",
-    "focus": "augustus",
+    "bg": "throne",
     "cast": [
      {
       "id": "augustus",
@@ -1601,16 +1982,14 @@
       "pose": "shrug",
       "mood": "smug"
      }
-    ]
+    ],
+    "cam": "close",
+    "focus": "augustus"
    }
   },
   {
    "who": "N",
-   "say": "He ruled for about forty years, and in 8 BC the month called Sextilis was renamed August in his honour."
-  },
-  {
-   "who": "N",
-   "say": "He also rebuilt the city so thoroughly that his biographer made this famous claim.",
+   "say": "He ruled for about forty years, the month of August is named after him, and he rebuilt so much that his biographer made this famous claim.",
    "show": {
     "k": "quote",
     "text": "He could justly boast that he had found it built of brick and left it in marble.",
@@ -1619,96 +1998,43 @@
   },
   {
    "who": "N",
-   "say": "His reign kicked off about two hundred years of relative calm, the Pax Romana. Which does not mean every emperor was a winner.",
-   "show": {
-    "k": "scene",
-    "bg": "street",
-    "cam": "pan",
-    "cast": [
-     {
-      "id": "citizen",
-      "x": 0.3,
-      "pose": "walk",
-      "mood": "happy",
-      "walk": [
-       0.15,
-       0.4
-      ]
-     },
-     {
-      "id": "citizenW",
-      "x": 0.7,
-      "pose": "wave",
-      "mood": "happy"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Take Caligula. Suetonius says he gave his favourite racehorse, Incitatus, a marble stall, an ivory manger and a jewelled collar, and that he supposedly planned to make the horse a consul.",
-   "show": {
-    "k": "scene",
-    "bg": "palace",
-    "cam": "push",
-    "cast": [
-     {
-      "id": "caligula",
-      "x": 0.35,
-      "pose": "present",
-      "mood": "happy"
-     },
-     {
-      "id": "incitatus",
-      "x": 0.68,
-      "mood": "smug"
-     }
-    ],
-    "tag": {
-     "id": "caligula",
-     "text": "Caligula"
-    },
-    "stickers": [
-     {
-      "text": "RUMOUR?",
-      "at": 2.5,
-      "color": "#A8322A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Many historians think those stories were exaggerated by writers who hated him. Still, great horse."
-  },
-  {
-   "who": "N",
-   "say": "Then there's Vespasian, who came out on top after a chaotic civil war in 69 AD, the Year of the Four Emperors, and who started building the Colosseum.",
+   "say": "Later, an emperor named Vespasian, who started building the Colosseum, needed money. Fast.",
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "push",
     "cast": [
      {
       "id": "vespasian",
-      "x": 0.5,
+      "x": 0.4,
       "pose": "hips",
       "mood": "smug"
      }
     ],
+    "cam": "push",
     "tag": {
      "id": "vespasian",
-     "text": "Vespasian"
-    }
+     "text": "Emperor Vespasian"
+    },
+    "place": "Rome · about 70 AD",
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8
+     },
+     {
+      "k": "goldpile",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "He needed money, so he got creative, and taxed the urine collected from Rome's public toilets, which people used for laundry and tanning leather.",
+   "say": "So he taxed the urine collected from public toilets, which people used for laundry and for tanning leather.",
    "show": {
     "k": "scene",
     "bg": "street",
-    "cam": "still",
     "cast": [
      {
       "id": "citizen",
@@ -1722,6 +2048,18 @@
       "pose": "present",
       "mood": "happy",
       "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.1,
+      "s": 0.8
+     },
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.8
      }
     ],
     "stickers": [
@@ -1739,7 +2077,6 @@
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "close",
     "cast": [
      {
       "id": "titus",
@@ -1755,6 +2092,7 @@
       "hold": "coin"
      }
     ],
+    "cam": "close",
     "tag": {
      "id": "titus",
      "text": "Titus, his son"
@@ -1775,8 +2113,6 @@
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "close",
-    "focus": "vespasian",
     "cast": [
      {
       "id": "titus",
@@ -1792,18 +2128,26 @@
       "hold": "coin"
      }
     ],
-    "stickers": [
+    "cam": "close",
+    "focus": "vespasian",
+    "objects": [
      {
-      "text": "MONEY DOESN'T STINK",
-      "at": 1,
-      "color": "#1F8A4A"
+      "k": "moneypile",
+      "x": 0.9,
+      "s": 0.6
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "That exchange is in Suetonius, and it's where the saying 'money doesn't stink' comes from."
+   "say": "That story comes from Suetonius, a Roman biographer, and it gave us the saying 'money doesn't stink'.",
+   "show": {
+    "k": "card",
+    "label": "A Latin saying born from a pee tax",
+    "big": "MONEY DOESN'T STINK",
+    "sub": "pecunia non olet"
+   }
   },
   {
    "hold": 2.5,
@@ -1816,11 +2160,10 @@
   },
   {
    "who": "N",
-   "say": "By 117 AD, under the soldier emperor Trajan, who was born in Roman Spain, the empire hit its biggest size ever.",
+   "say": "By 117 AD, under the soldier emperor Trajan, the empire reached its biggest size ever.",
    "show": {
     "k": "scene",
     "bg": "camp",
-    "cam": "push",
     "cast": [
      {
       "id": "trajan",
@@ -1829,21 +2172,38 @@
       "mood": "happy"
      },
      {
-      "id": "guard",
-      "x": 0.75,
-      "pose": "salute",
-      "mood": "happy"
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "salute"
+     },
+     {
+      "id": "legionary2",
+      "x": 0.85,
+      "pose": "salute"
      }
     ],
+    "cam": "push",
     "tag": {
      "id": "trajan",
-     "text": "Trajan"
-    }
+     "text": "Emperor Trajan"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "rome"
+     },
+     {
+      "k": "tent",
+      "x": 0.28,
+      "s": 0.7
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "It stretched from northern Britain to Egypt, and from Portugal all the way to Mesopotamia.",
+   "say": "It stretched from northern Britain to Egypt, and from Portugal to Mesopotamia, which is modern Iraq.",
    "show": {
     "k": "map",
     "lon": 18,
@@ -1855,25 +2215,25 @@
      [
       "Britain",
       -1.5,
-      53,
+      51.5,
       0
      ],
      [
       "Egypt",
+      31,
       30,
-      27,
       0
      ],
      [
       "Mesopotamia",
       44,
       33,
-      0
+      -440
      ],
      [
-      "Dacia",
-      24,
-      46,
+      "Portugal",
+      -8,
+      39.5,
       0
      ],
      [
@@ -1961,74 +2321,63 @@
   },
   {
    "who": "N",
-   "say": "That's roughly five million square kilometres, ruled from one city.",
+   "say": "That's roughly five million square kilometres, about half the size of the United States, all ruled from one city.",
    "show": {
     "k": "card",
     "label": "Roman Empire in 117 AD",
     "big": "5,000,000 km²",
-    "sub": "about five million square kilometres",
-    "cast": [
-     {
-      "id": "trajan",
-      "x": 0.85,
-      "pose": "cheer",
-      "mood": "happy"
-     }
-    ]
+    "sub": "about half the size of the USA"
    }
   },
   {
    "who": "N",
-   "say": "And that city was huge. Rome itself may have had around a million people, the largest city of pre-industrial Europe. London only matched it around 1800.",
+   "say": "And Rome itself may have had around a million people. No city in Europe matched that again until London, around 1800.",
    "show": {
     "k": "card",
     "label": "People living in Rome (estimate)",
     "big": "1,000,000",
-    "sub": "no European city matched it until London, about 1800",
-    "cast": [
-     {
-      "id": "citizen",
-      "x": 0.12,
-      "pose": "shrug",
-      "mood": "shock"
-     }
-    ]
+    "sub": "no European city matched it until London, about 1800"
    }
   },
   {
    "who": "N",
-   "say": "The Romans built roads, aqueducts, and concrete so good that the Pantheon, rebuilt by the next emperor, Hadrian, still has the largest unreinforced concrete dome on the planet.",
+   "say": "Roman concrete was so good that the Pantheon, a temple rebuilt by the next emperor, Hadrian, still has the world's largest unreinforced concrete dome.",
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "pan",
     "cast": [
      {
-      "id": "hadrian",
-      "x": 0.4,
-      "pose": "present",
-      "mood": "happy"
-     },
-     {
       "id": "citizenW",
-      "x": 0.72,
+      "x": 0.75,
       "pose": "cheer",
       "mood": "shock"
      }
     ],
-    "tag": {
-     "id": "hadrian",
-     "text": "Hadrian"
-    },
+    "cam": "pan",
+    "place": "The Pantheon, Rome · about 125 AD",
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12
+     },
+     {
+      "k": "column",
+      "x": 0.27
+     },
+     {
+      "k": "column",
+      "x": 0.42
+     }
+    ],
     "stickers": [
      {
       "text": "43 METRES WIDE",
-      "at": 1.6,
+      "at": 1.4,
       "color": "#2F6FC2"
      },
      {
-      "text": "STILL STANDING",
-      "at": 3,
+      "text": "NO STEEL INSIDE",
+      "at": 2.6,
       "color": "#1F8A4A"
      }
     ]
@@ -2036,11 +2385,7 @@
   },
   {
    "who": "N",
-   "say": "It has been a church since 609, and it's still in use. And in 2023, MIT researchers found one of the secrets: little lumps of lime in the mix that help seal up cracks when water seeps in."
-  },
-  {
-   "who": "N",
-   "say": "Hadrian also decided the empire was big enough, gave up Trajan's newest conquests in the east, and in 122 AD started building a wall right across northern Britain."
+   "say": "It has been a church since 609, and it's still in use today."
   },
   {
    "hold": 2.5,
@@ -2053,11 +2398,10 @@
   },
   {
    "who": "N",
-   "say": "Now, remember our auction? Let's see how Rome got there. It starts with Commodus, emperor until 192, who loved fighting as a gladiator in the arena.",
+   "say": "Then things went downhill. The emperor Commodus loved fighting as a gladiator in the arena.",
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "push",
     "cast": [
      {
       "id": "commodus",
@@ -2067,79 +2411,68 @@
       "hold": "sword"
      }
     ],
+    "cam": "push",
     "tag": {
      "id": "commodus",
-     "text": "Commodus"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "The senator and historian Cassius Dio watched from the stands, and says Commodus paid himself a million sesterces from the gladiator fund for every day he fought.",
-   "show": {
-    "k": "scene",
-    "bg": "rome",
-    "cam": "still",
-    "cast": [
+     "text": "Emperor Commodus"
+    },
+    "place": "Rome · about 190 AD",
+    "objects": [
      {
-      "id": "dio",
-      "x": 0.3,
-      "pose": "facepalm",
-      "mood": "sad"
+      "k": "wall",
+      "x": 0.5,
+      "s": 0.5
      },
      {
-      "id": "commodus",
-      "x": 0.68,
-      "pose": "cheer",
-      "mood": "happy",
-      "hold": "moneybag"
-     }
-    ],
-    "tag": {
-     "id": "dio",
-     "text": "Cassius Dio"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "Once, after killing an ostrich in the arena, he walked up to the senators and just grinned at them, as if to say: you're next."
-  },
-  {
-   "who": "dio",
-   "say": "Don't laugh. Whatever you do, do not laugh.",
-   "show": {
-    "k": "scene",
-    "bg": "rome",
-    "cam": "close",
-    "focus": "dio",
-    "cast": [
-     {
-      "id": "dio",
-      "x": 0.4,
-      "pose": "scared",
-      "mood": "scared"
-     },
-     {
-      "id": "senator",
-      "x": 0.7,
-      "pose": "scared",
-      "mood": "happy"
+      "k": "statue",
+      "x": 0.9,
+      "s": 0.7
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Dio says they were all trying so hard not to laugh that he chewed the laurel leaves from his own wreath, and told the senators around him to do the same."
+   "say": "The senator and historian Cassius Dio says Commodus paid himself a million sesterces for every day he fought.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "commodus",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.65,
+      "s": 0.8
+     },
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,000,000 A DAY",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "Commodus was assassinated in 192. The next emperor, Pertinax, lasted just eighty-seven days before his own guards killed him.",
+   "say": "He was murdered in 192. The next emperor, Pertinax, lasted just eighty-seven days before his own guards killed him.",
    "show": {
     "k": "scene",
     "bg": "throne",
-    "cam": "pan",
     "cast": [
      {
       "id": "guard",
@@ -2154,6 +2487,14 @@
       "mood": "angry"
      }
     ],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ],
     "stickers": [
      {
       "text": "87 DAYS",
@@ -2165,7 +2506,7 @@
   },
   {
    "who": "N",
-   "say": "And then came that auction. Here's how Dio, who was actually in Rome at the time, described it.",
+   "say": "And then came our auction. Here's how Dio, who was in Rome at the time, described it.",
    "show": {
     "k": "quote",
     "text": "Just as if it had been in some market or auction-room, both the City and its entire empire were auctioned off.",
@@ -2174,30 +2515,47 @@
   },
   {
    "who": "N",
-   "say": "The winning bid was twenty-five thousand sesterces for every single guardsman.",
+   "say": "But generals out in the provinces had armies too, and one of them, Septimius Severus, marched on Rome.",
    "show": {
-    "k": "card",
-    "label": "Winning bid, per guardsman",
-    "big": "25,000",
-    "sub": "sesterces, paid by Didius Julianus",
+    "k": "scene",
+    "bg": "field",
     "cast": [
      {
-      "id": "julianus",
-      "x": 0.85,
-      "pose": "present",
-      "mood": "happy",
-      "hold": "moneybag"
+      "id": "severus",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "legionary",
+      "x": 0.6,
+      "pose": "walk"
+     },
+     {
+      "id": "legionary2",
+      "x": 0.78,
+      "pose": "walk"
+     }
+    ],
+    "tag": {
+     "id": "severus",
+     "text": "Septimius Severus, general"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.1,
+      "flag": "rome"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "But generals out in the provinces had armies too, and one of them, Septimius Severus, marched on Rome.",
+   "say": "After just sixty-six days on the throne, Julianus was killed in the palace. Buddy, you bought an empire at a yard sale.",
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "shake",
     "cast": [
      {
       "id": "julianus",
@@ -2205,33 +2563,28 @@
       "pose": "scared",
       "mood": "scared"
      }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "After just sixty-six days on the throne, Julianus was killed in the palace. Dio says his last words were: 'But what evil have I done?'"
-  },
-  {
-   "who": "N",
-   "say": "Buddy, you bought an empire at a yard sale.",
-   "show": {
-    "k": "scene",
-    "bg": "palace",
-    "cam": "close",
-    "cast": [
+    ],
+    "cam": "shake",
+    "objects": [
      {
-      "id": "guard",
-      "x": 0.5,
-      "pose": "facepalm",
-      "mood": "sad"
+      "k": "crown",
+      "x": 0.8,
+      "s": 0.5,
+      "front": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "66 DAYS",
+      "at": 0.8,
+      "color": "#A8322A"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "And it got messier. Between 235 and 284, at least twenty-six men claimed to be emperor, one emperor, Valerian, was captured by the Persians, and for a while the empire split into three.",
+   "say": "And it got messier. Between 235 and 284 AD, at least twenty-six men claimed to be emperor.",
    "show": {
     "k": "card",
     "label": "Emperors and claimants, 235 to 284 AD",
@@ -2251,80 +2604,48 @@
    "hold": 2.5,
    "show": {
     "k": "chapter",
-    "year": "330 AD",
-    "title": "A New Rome",
-    "bg": "harbor"
+    "year": "476 AD",
+    "title": "The End?",
+    "bg": "night"
    }
   },
   {
    "who": "N",
-   "say": "Then the fixers showed up. In 293, the emperor Diocletian split the job between four rulers, because one person clearly could not handle it.",
+   "say": "Then came Constantine, the first Roman emperor to become a Christian. In 330, he moved the capital east to a new city he named after himself: Constantinople, today's Istanbul.",
    "show": {
     "k": "scene",
-    "bg": "warroom",
-    "cam": "push",
-    "cast": [
-     {
-      "id": "king",
-      "x": 0.2,
-      "pose": "salute",
-      "mood": "happy"
-     },
-     {
-      "id": "legionary",
-      "x": 0.4,
-      "pose": "salute",
-      "mood": "smug"
-     },
-     {
-      "id": "senator",
-      "x": 0.6,
-      "pose": "salute",
-      "mood": "neutral"
-     },
-     {
-      "id": "roman",
-      "x": 0.8,
-      "pose": "salute",
-      "mood": "happy"
-     }
-    ],
-    "stickers": [
-     {
-      "text": "4 BOSSES",
-      "at": 1,
-      "color": "#1F8A4A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Then came Constantine, who won the battle of the Milvian Bridge in 312, gave Christians freedom of worship the next year, and became the first Roman emperor to convert to Christianity.",
-   "show": {
-    "k": "scene",
-    "bg": "church",
-    "cam": "push",
+    "bg": "greek",
     "cast": [
      {
       "id": "constantine",
-      "x": 0.5,
+      "x": 0.35,
       "pose": "present",
       "mood": "happy"
      }
     ],
+    "cam": "push",
     "tag": {
      "id": "constantine",
-     "text": "Constantine"
+     "text": "Emperor Constantine"
     },
-    "fx": [
-     "sparkle"
+    "place": "Constantinople · 330 AD",
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "gate",
+      "x": 0.75,
+      "s": 0.45
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "On May eleventh, 330 AD, he dedicated a brand-new capital on the site of the old Greek city of Byzantium, and named it after himself: Constantinople, today's Istanbul.",
+   "say": "Naming a city after yourself? Romulus would be proud.",
    "show": {
     "k": "map",
     "lon": 24,
@@ -2376,11 +2697,7 @@
   },
   {
    "who": "N",
-   "say": "Naming the city after yourself? Romulus would be proud."
-  },
-  {
-   "who": "N",
-   "say": "By 395, the empire was being run as two halves, east and west, each with its own emperor. And only one of those halves was in real trouble.",
+   "say": "By 395, the empire was run as two halves, east and west, each with its own emperor. Only the west was in real trouble.",
    "show": {
     "k": "compare",
     "bg": "white",
@@ -2407,24 +2724,11 @@
    }
   },
   {
-   "hold": 2.5,
-   "show": {
-    "k": "chapter",
-    "year": "476 AD",
-    "title": "The End?",
-    "bg": "night"
-   }
-  },
-  {
    "who": "N",
-   "say": "In 410, Alaric and the Visigoths sacked Rome for three days, the first time in almost eight hundred years the city had fallen to a foreign enemy.",
+   "say": "In 410, Alaric and the Visigoths, a Germanic people, looted Rome for three days. It was the first time in almost eight hundred years a foreign enemy had taken the city.",
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "shake",
-    "fx": [
-     "smoke"
-    ],
     "cast": [
      {
       "id": "alaric",
@@ -2443,19 +2747,36 @@
       "exitAt": 2
      }
     ],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ],
+    "place": "Rome · 410 AD",
     "tag": {
      "id": "alaric",
      "text": "Alaric, king of the Visigoths"
-    }
+    },
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.1,
+      "s": 0.8
+     },
+     {
+      "k": "cart",
+      "x": 0.9,
+      "s": 0.7,
+      "load": "gold"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The western emperor, Honorius, wasn't even there. His court was safe in Ravenna, far away in the north-east of Italy.",
+   "say": "The western emperor, Honorius, was safe far away in Ravenna, and there's a famous story about how he took the news.",
    "show": {
     "k": "scene",
     "bg": "throne",
-    "cam": "push",
     "cast": [
      {
       "id": "honorius",
@@ -2471,10 +2792,12 @@
       "enter": "right"
      }
     ],
+    "cam": "push",
     "tag": {
      "id": "honorius",
-     "text": "Honorius"
-    }
+     "text": "Emperor Honorius"
+    },
+    "place": "Ravenna, Italy · 410 AD"
    }
   },
   {
@@ -2487,8 +2810,6 @@
    "show": {
     "k": "scene",
     "bg": "throne",
-    "cam": "close",
-    "focus": "honorius",
     "cast": [
      {
       "id": "honorius",
@@ -2502,7 +2823,9 @@
       "pose": "facepalm",
       "mood": "sad"
      }
-    ]
+    ],
+    "cam": "close",
+    "focus": "honorius"
    }
   },
   {
@@ -2510,24 +2833,25 @@
    "say": "Not your chicken, sir. The city."
   },
   {
-   "who": "honorius",
-   "say": "Oh. Phew.",
+   "who": "N",
+   "say": "That story, about a pet chicken named Roma, comes from the historian Procopius, and it's almost certainly made up. But it tells you what people thought of Honorius.",
    "show": {
     "k": "scene",
-    "bg": "throne",
-    "cam": "still",
+    "bg": "library",
     "cast": [
      {
       "id": "honorius",
-      "x": 0.4,
+      "x": 0.65,
       "pose": "shrug",
       "mood": "happy"
-     },
+     }
+    ],
+    "objects": [
      {
-      "id": "messenger",
-      "x": 0.72,
-      "pose": "facepalm",
-      "mood": "shock"
+      "k": "scrollbig",
+      "x": 0.28,
+      "s": 0.8,
+      "text": "The chicken story"
      }
     ],
     "stickers": [
@@ -2541,15 +2865,10 @@
   },
   {
    "who": "N",
-   "say": "That story, about a pet chicken named Roma, comes from the historian Procopius, and it's almost certainly made up. But it tells you what people thought of Honorius."
-  },
-  {
-   "who": "N",
-   "say": "Finally, in 476, a Germanic general named Odoacer marched into power in Italy and deposed the boy usually counted as the last emperor of the west, Romulus Augustus.",
+   "say": "Finally, in 476, a Germanic general named Odoacer took power in Italy and removed the boy usually counted as the last western emperor, Romulus Augustus.",
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "push",
     "cast": [
      {
       "id": "odoacer",
@@ -2565,20 +2884,27 @@
       "mood": "scared"
      }
     ],
+    "cam": "push",
     "tag": {
      "id": "odoacer",
-     "text": "Odoacer"
-    }
+     "text": "Odoacer, Germanic general"
+    },
+    "place": "Ravenna, Italy · 476 AD",
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "People called him Augustulus, 'little Augustus'. And yes, his name combined the founder of Rome and its first emperor. History has jokes.",
+   "say": "People called him Augustulus, 'little Augustus'. And yes, his name mixed Rome's founder and its first emperor. History has jokes.",
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "close",
-    "focus": "romaug",
     "cast": [
      {
       "id": "romaug",
@@ -2588,6 +2914,8 @@
       "mood": "sad"
      }
     ],
+    "cam": "close",
+    "focus": "romaug",
     "tag": {
      "id": "romaug",
      "text": "Romulus Augustulus"
@@ -2596,7 +2924,9 @@
      {
       "text": "ROMULUS + AUGUSTUS",
       "at": 1.2,
-      "color": "#2F6FC2"
+      "color": "#2F6FC2",
+      "x": 0.78,
+      "y": 0.55
      }
     ]
    }
@@ -2607,7 +2937,6 @@
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "still",
     "cast": [
      {
       "id": "odoacer",
@@ -2622,16 +2951,46 @@
       "pose": "wave",
       "mood": "shock"
      }
+    ],
+    "cam": "still",
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.52,
+      "s": 0.4,
+      "y": 0.1
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Odoacer didn't even bother calling himself emperor. He sent the imperial regalia off to the emperor in Constantinople, and let the boy retire on a pension to a fortress near Naples, where he may have lived for decades."
+   "say": "Odoacer didn't even call himself emperor. He sent the boy to retire on a pension at a fortress near Naples, where he may have lived for decades.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "romaug",
+      "x": 0.4,
+      "s": 0.8,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "place": "Near Naples, Italy",
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "So is that the end of Rome? Not exactly.",
+   "say": "So is that the end of Rome? Not exactly. The eastern half still called itself the Roman Empire, and it kept going until 1453.",
    "show": {
     "k": "map",
     "lon": 22,
@@ -2683,15 +3042,10 @@
   },
   {
    "who": "N",
-   "say": "The eastern half, which still called itself the Roman Empire, kept going for nearly another thousand years, until Constantinople fell in 1453."
-  },
-  {
-   "who": "N",
-   "say": "From a wolf legend to a boy emperor with a pension, that's more than twelve hundred years. Not bad for a village on a few hills.",
+   "say": "From a wolf legend to a boy emperor, that's more than twelve hundred years. Not bad for a village on a few hills.",
    "show": {
     "k": "scene",
     "bg": "field",
-    "cam": "pan",
     "cast": [
      {
       "id": "romulus",
@@ -2707,8 +3061,16 @@
       "mood": "happy"
      }
     ],
+    "cam": "pan",
     "fx": [
      "confetti"
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "flag": "rome"
+     }
     ]
    }
   },
@@ -2721,13 +3083,13 @@
     "cast": [
      {
       "id": "caesar",
-      "x": 0.3,
+      "x": 0.66,
       "pose": "wave",
       "mood": "happy"
      },
      {
-      "id": "incitatus",
-      "x": 0.7,
+      "id": "elephant",
+      "x": 0.86,
       "mood": "happy"
      }
     ]
@@ -2804,6 +3166,12 @@
   "https://en.wikipedia.org/wiki/Battle_of_Cannae",
   "https://en.wikipedia.org/wiki/Trajan",
   "https://en.wikipedia.org/wiki/Claudius",
-  "https://news.mit.edu/2023/roman-concrete-durability-lime-casts-0106"
+  "https://news.mit.edu/2023/roman-concrete-durability-lime-casts-0106",
+  "https://en.wikipedia.org/wiki/First_Punic_War",
+  "https://www.usni.org/magazines/naval-history-magazine/2016/august/aiding-ascendancy-roman-navy",
+  "https://www.unrv.com/roman-republic/spqr.php",
+  "https://www.britannica.com/topic/Ides-of-March",
+  "https://www.history.com/this-day-in-history/march-15/the-ides-of-march",
+  "https://www.britannica.com/event/Battle-of-Actium-ancient-Roman-history"
  ]
 }

@@ -26,6 +26,13 @@
    "beard": "full",
    "hairColor": "#1E1C1B",
    "name": "Mansa Muhammad"
+  },
+  "hajib": {
+   "preset": "merchant",
+   "color": "#3A5A8A",
+   "hatColor": "#F2EEE4",
+   "skin": "olive",
+   "name": "Ibn Amir Hajib"
   }
  },
  "voices": {
@@ -35,56 +42,131 @@
  "beats": [
   {
    "who": "N",
-   "say": "Mansa Musa became king because his boss sailed off into the Atlantic. At least, that's Musa's story.",
+   "say": "Mansa Musa became king because the king before him sailed into the Atlantic. Or so Musa said.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.45,
+      "mood": "smug"
+     }
+    ],
+    "place": "Coast of West Africa · early 1300s",
+    "tag": {
+     "id": "musa",
+     "text": "Mansa Musa, king of Mali"
+    },
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Musa told it in Cairo in 1324, and the historian al-Umari wrote it down.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "hajib",
+      "x": 0.3,
+      "hold": "scroll",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.7,
+      "text": "Musa's story"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The old king, Mansa Muhammad, wondered if the ocean had another side.",
    "show": {
     "k": "scene",
     "bg": "harbor",
     "cast": [
      {
       "id": "muhammad",
-      "x": 0.3,
+      "x": 0.4,
       "mood": "happy",
       "pose": "point"
-     },
-     {
-      "id": "musa",
-      "x": 0.7,
-      "mood": "neutral"
      }
     ],
     "tag": {
      "id": "muhammad",
      "text": "Mansa Muhammad"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "Musa told it in Cairo in 1324, and the historian al-Umari wrote it down."
-  },
-  {
-   "who": "N",
-   "say": "His predecessor, Mansa Muhammad, sent hundreds of ships to find the other side of the ocean.",
-   "show": {
-    "k": "scene",
-    "bg": "sea",
-    "cast": [
+    },
+    "objects": [
      {
-      "id": "muhammad",
-      "x": 0.5,
-      "mood": "shock",
-      "s": 0.8
+      "k": "sailship",
+      "x": 0.78,
+      "s": 0.45
      }
-    ],
-    "cam": "shake",
-    "fx": [
-     "rain"
     ]
    }
   },
   {
    "who": "N",
-   "say": "Only one came back. Its captain said the rest vanished into a current like a river in the sea."
+   "say": "So he sent hundreds of ships. Only one came back.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.45
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HUNDREDS OF SHIPS",
+      "at": 0.5,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its captain said the rest vanished into a current like a river in the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "cam": "shake",
+    "fx": [
+     "rain"
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.5,
+      "label": "The one ship that returned"
+     }
+    ]
+   }
   },
   {
    "who": "muhammad",
@@ -111,11 +193,11 @@
   },
   {
    "who": "musa",
-   "say": "Sure. I'll just run the empire, I guess."
+   "say": "Sure. I'll run the empire."
   },
   {
    "who": "N",
-   "say": "The Mansa never returned, and Musa took the throne.",
+   "say": "He never returned, and Musa took the throne.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -126,12 +208,20 @@
       "mood": "smug",
       "pose": "sit"
      }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.2,
+      "y": 0.3,
+      "enter": "pop"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Some historians suspect a cover story for a power grab, and there is no evidence it reached the Americas."
+   "say": "Some historians suspect a cover story for a power grab. And no evidence says it reached the Americas."
   },
   {
    "who": "N",
@@ -154,7 +244,7 @@
    }
   }
  ],
- "caption": "Mali's king sailed into the Atlantic with 2,000 ships. Or so the story goes.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #mali #historytok #historymystery",
+ "caption": "Mali's king sailed into the Atlantic with 2,000 ships. Or so the story goes.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mansamusa #mali #historytok #historymystery",
  "youtube_title": "The King Who Sailed Into the Atlantic #shorts",
  "tags": [
   "mansa musa",

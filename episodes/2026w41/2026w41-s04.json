@@ -41,26 +41,56 @@
    "say": "Imagine your country's leader moonlighting as a gladiator. Rome actually had one.",
    "show": {
     "k": "scene",
-    "bg": "palace",
-    "cam": "push",
+    "bg": "rome",
     "cast": [
      {
       "id": "commodus",
-      "x": 0.5,
+      "x": 0.45,
       "pose": "fist",
-      "mood": "shout",
-      "hold": "sword"
+      "mood": "shout"
+     }
+    ],
+    "place": "Rome · about 190 AD",
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.5,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.82,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Commodus was a Roman emperor, and yes, he's the villain in the movie Gladiator.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "commodus",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
      }
     ],
     "tag": {
      "id": "commodus",
      "text": "Emperor Commodus"
-    }
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
    }
-  },
-  {
-   "who": "N",
-   "say": "Emperor Commodus, the villain in the movie Gladiator, really did fight in the arena."
   },
   {
    "who": "commodus",
@@ -68,7 +98,6 @@
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "close",
     "cast": [
      {
       "id": "commodus",
@@ -78,42 +107,21 @@
       "hold": "sword"
      }
     ],
-    "focus": "commodus"
+    "cam": "close",
+    "focus": "commodus",
+    "fx": [
+     "dust"
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The senator Cassius Dio, who watched it happen, says Commodus paid himself a million sesterces for every day he fought.",
+   "say": "Cassius Dio, a senator who watched from the stands, says Commodus paid himself a million sesterces for every day he fought.",
    "show": {
-    "k": "scene",
-    "bg": "rome",
-    "cam": "still",
-    "cast": [
-     {
-      "id": "dio",
-      "x": 0.3,
-      "pose": "facepalm",
-      "mood": "sad"
-     },
-     {
-      "id": "commodus",
-      "x": 0.7,
-      "pose": "present",
-      "mood": "smug",
-      "hold": "moneybag"
-     }
-    ],
-    "tag": {
-     "id": "dio",
-     "text": "Cassius Dio"
-    },
-    "stickers": [
-     {
-      "text": "1,000,000 A DAY",
-      "at": 1.8,
-      "color": "#C8902A"
-     }
-    ]
+    "k": "card",
+    "label": "Commodus's pay, per day in the arena",
+    "big": "1,000,000",
+    "sub": "sesterces, from the gladiator fund"
    }
   },
   {
@@ -121,8 +129,7 @@
    "say": "Once, he killed an ostrich, walked up to the senators, and grinned at them like they were next.",
    "show": {
     "k": "scene",
-    "bg": "rome",
-    "cam": "push",
+    "bg": "courtroom",
     "cast": [
      {
       "id": "commodus",
@@ -131,18 +138,22 @@
       "mood": "smug"
      },
      {
-      "id": "senator",
-      "x": 0.55,
+      "id": "dio",
+      "x": 0.6,
       "pose": "scared",
       "mood": "scared"
      },
      {
-      "id": "dio",
-      "x": 0.78,
+      "id": "senator",
+      "x": 0.8,
       "pose": "scared",
       "mood": "scared"
      }
-    ]
+    ],
+    "tag": {
+     "id": "dio",
+     "text": "Cassius Dio, senator"
+    }
    }
   },
   {
@@ -150,8 +161,7 @@
    "say": "Don't laugh. Do not laugh.",
    "show": {
     "k": "scene",
-    "bg": "rome",
-    "cam": "close",
+    "bg": "courtroom",
     "cast": [
      {
       "id": "dio",
@@ -160,35 +170,64 @@
       "mood": "happy"
      }
     ],
+    "cam": "close",
     "focus": "dio"
    }
   },
   {
    "who": "N",
-   "say": "Dio says he chewed laurel leaves from his own wreath just to hide his giggles.",
+   "say": "Dio says he chewed laurel leaves from his own wreath, just to hide his giggles.",
    "show": {
     "k": "scene",
-    "bg": "rome",
-    "cam": "still",
+    "bg": "white",
     "cast": [
      {
       "id": "dio",
-      "x": 0.35,
+      "x": 0.45,
       "pose": "hold",
-      "mood": "happy"
-     },
-     {
-      "id": "senator",
-      "x": 0.7,
-      "pose": "facepalm",
       "mood": "happy"
      }
     ],
     "stickers": [
      {
-      "text": "CHEW, DON'T LAUGH",
-      "at": 1.2,
+      "text": "CHEW, CHEW",
+      "at": 0.6,
       "color": "#1F8A4A"
+     },
+     {
+      "text": "DON'T LAUGH",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Commodus was murdered in 192. Dio lived to write the whole story down.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "dio",
+      "x": 0.6,
+      "pose": "hold",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.3,
+      "s": 0.7
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.3,
+      "s": 0.5,
+      "y": 0.12,
+      "text": "Roman History"
      }
     ]
    }
@@ -202,21 +241,19 @@
      {
       "id": "commodus",
       "x": 0.3,
-      "pose": "cheer",
-      "mood": "smug",
-      "hold": "sword"
+      "pose": "wave",
+      "mood": "smug"
      },
      {
       "id": "dio",
       "x": 0.7,
-      "pose": "wave",
-      "mood": "happy"
+      "pose": "shrug"
      }
     ]
    }
   }
  ],
- "caption": "The emperor fought as a gladiator, and paid himself for it.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #commodus #gladiator #ancientrome #historytok",
+ "caption": "The emperor fought as a gladiator, and paid himself for it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #commodus #gladiator #ancientrome #historytok",
  "youtube_title": "The Emperor Who Fought as a Gladiator #shorts",
  "tags": [
   "commodus",

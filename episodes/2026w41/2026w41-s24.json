@@ -1,0 +1,313 @@
+{
+ "id": "2026w41-s24",
+ "format": "short",
+ "date": "2026-10-07",
+ "slot": "09:00",
+ "title": "The War Named After Oranges",
+ "hook": "THE WAR OF THE ORANGES",
+ "music": "playful",
+ "cast": {
+  "godoy": {
+   "outfit": "napoleon",
+   "color": "#2A3A6A",
+   "hair": "curly",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Manuel Godoy"
+  },
+  "queen": {
+   "preset": "queen",
+   "hairColor": "#3A2A1A",
+   "name": "Queen María Luisa of Spain"
+  },
+  "port": {
+   "outfit": "uniform",
+   "color": "#2A3A6A",
+   "hat": "bicorne",
+   "stache": "thin",
+   "skin": "olive"
+  }
+ },
+ "voices": {
+  "godoy": "bm_daniel",
+  "queen": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1801, a war got its name from a gift of oranges.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "godoy",
+      "x": 0.55,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.2,
+      "s": 0.7,
+      "color": "#3E8A3A"
+     },
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.7,
+      "label": "ORANGES"
+     }
+    ],
+    "place": "Spain–Portugal border · May 1801"
+   }
+  },
+  {
+   "who": "N",
+   "say": "France's leader, Napoleon, wanted Portugal to stop trading with Britain, and he pushed Spain to invade.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "france",
+      "s": 0.55
+     },
+     {
+      "k": "flag",
+      "x": 0.4,
+      "flag": "spain",
+      "s": 0.55
+     },
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.75,
+      "text": "PORTUGAL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spain's army was led by Manuel Godoy, the king's chief minister.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "godoy",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.68,
+      "flag": "spain",
+      "s": 0.55
+     }
+    ],
+    "tag": {
+     "id": "godoy",
+     "text": "Manuel Godoy, Spain's chief minister"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In May, Spanish troops quickly took the Portuguese town of Olivenza.",
+   "show": {
+    "k": "map",
+    "lon": -8.0,
+    "lat": 38.3,
+    "z0": 2.0,
+    "z1": 2.5,
+    "labels": [
+     [
+      "Olivenza",
+      -7.1,
+      38.68,
+      0
+     ],
+     [
+      "Elvas",
+      -7.16,
+      38.88,
+      0
+     ],
+     [
+      "Lisbon",
+      -9.14,
+      38.72,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -7.1,
+      38.68,
+      0.15,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Near the town of Elvas, Godoy picked oranges and sent them to Spain's queen, María Luisa.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "queen",
+      "x": 0.62,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.25,
+      "s": 0.5,
+      "label": "ORANGES"
+     }
+    ],
+    "tag": {
+     "id": "queen",
+     "text": "Queen María Luisa of Spain"
+    }
+   }
+  },
+  {
+   "who": "godoy",
+   "say": "Next stop, Lisbon!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "godoy",
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He never needed to go. The war lasted just eighteen days.",
+   "show": {
+    "k": "card",
+    "label": "The War of the Oranges, 1801",
+    "big": "18 DAYS",
+    "sub": "from declaration to peace treaty"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the peace treaty, Portugal gave Olivenza to Spain and closed its ports to British ships.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "port",
+      "x": 0.22,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "godoy",
+      "x": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.51,
+      "s": 0.45,
+      "y": 0.3,
+      "text": "Treaty of Badajoz"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Olivenza is still Spanish, and Portugal has never officially accepted that.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.6,
+      "s": 0.85,
+      "text": "OLIVENZA"
+     },
+     {
+      "k": "flag",
+      "x": 0.13,
+      "flag": "spain",
+      "s": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "godoy",
+      "x": 0.3,
+      "pose": "present"
+     },
+     {
+      "id": "queen",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A war named after a bag of oranges. And a border fight that never ended.\n\nFollow for 5 stories a day.\n#history #waroforanges #spain #portugal #historytok",
+ "youtube_title": "The War Named After Oranges #shorts",
+ "tags": [
+  "war of the oranges",
+  "history",
+  "spain",
+  "portugal",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/War_of_the_Oranges",
+  "https://www.britannica.com/event/War-of-the-Oranges",
+  "https://en.wikipedia.org/wiki/Treaty_of_Badajoz_(1801)",
+  "https://en.wikipedia.org/wiki/Olivenza",
+  "https://en.wikipedia.org/wiki/Manuel_Godoy"
+ ]
+}

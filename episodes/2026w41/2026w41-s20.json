@@ -21,6 +21,10 @@
   },
   "emu2": {
    "animal": "emu"
+  },
+  "birdman": {
+   "preset": "scientist",
+   "glasses": "round"
   }
  },
  "voices": {
@@ -46,7 +50,15 @@
       "x": 0.75,
       "s": 0.9
      }
-    ]
+    ],
+    "stickers": [
+     {
+      "text": "THE BOSS?",
+      "at": 1.2,
+      "color": "#262322"
+     }
+    ],
+    "place": "Western Australia · 1932"
    }
   },
   {
@@ -58,8 +70,15 @@
     "cast": [
      {
       "id": "meredith",
-      "x": 0.45,
+      "x": 0.55,
       "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.22,
+      "s": 0.6
      }
     ],
     "tag": {
@@ -70,7 +89,24 @@
   },
   {
    "who": "N",
-   "say": "They said each pack seemed to have its own leader, a black-plumed bird about six feet tall, keeping watch.",
+   "say": "Observers said each pack had a leader, a black-feathered bird about six feet tall, keeping watch.",
+   "show": {
+    "k": "card",
+    "label": "Emu pack leader",
+    "big": "6 FEET",
+    "sub": "tall, keeping watch while the others ate",
+    "cast": [
+     {
+      "id": "emu",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "emu",
+   "say": "Humans incoming. Scatter!",
    "show": {
     "k": "scene",
     "bg": "wheat",
@@ -78,7 +114,7 @@
      {
       "id": "emu",
       "x": 0.4,
-      "s": 1.3,
+      "s": 1.2,
       "pose": "point"
      },
      {
@@ -87,30 +123,23 @@
       "s": 0.9,
       "mood": "happy"
      }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.5
+     }
     ]
    }
   },
   {
-   "who": "emu",
-   "say": "Humans incoming. Scatter!"
-  },
-  {
    "who": "N",
-   "say": "So the soldiers mounted a gun on a truck.",
+   "say": "So the soldiers mounted a gun on a truck and gave chase.",
    "show": {
     "k": "scene",
     "bg": "outback",
     "cast": [
-     {
-      "id": "meredith",
-      "x": 0.3,
-      "walk": [
-       0.15,
-       0.5
-      ],
-      "pose": "run",
-      "mood": "shout"
-     },
      {
       "id": "emu",
       "x": 0.7,
@@ -121,6 +150,18 @@
       "pose": "run"
      }
     ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.3,
+      "s": 0.6,
+      "move": [
+       0.1,
+       0.35
+      ],
+      "label": "LEWIS GUN CREW"
+     }
+    ],
     "fx": [
      "dust"
     ]
@@ -128,20 +169,39 @@
   },
   {
    "who": "meredith",
-   "say": "Faster! Faster!"
-  },
-  {
-   "who": "N",
-   "say": "The truck couldn't keep up, and the ride was so rough the gunner couldn't fire a single shot.",
+   "say": "Faster! Faster!",
    "show": {
     "k": "scene",
     "bg": "outback",
     "cast": [
      {
       "id": "meredith",
-      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The truck couldn't keep up, and the ride was so rough the gunner couldn't fire a single shot.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "meredith",
+      "x": 0.5,
       "pose": "facepalm",
       "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.22,
+      "s": 0.5
      }
     ],
     "cam": "shake"
@@ -149,7 +209,31 @@
   },
   {
    "who": "N",
-   "say": "An ornithologist later joked that the Emu command had evidently ordered guerrilla tactics."
+   "say": "An ornithologist, a bird scientist, later joked that the Emu command had evidently ordered guerrilla tactics.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "birdman",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     },
+     {
+      "id": "emu",
+      "x": 0.75,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.2,
+      "s": 0.6
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -171,7 +255,7 @@
    }
   }
  ],
- "caption": "The emus were organised. The army was not.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #emuwar #australia #historytok #funnyhistory",
+ "caption": "The emus were organised. The army was not.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #emuwar #australia #historytok #funnyhistory",
  "youtube_title": "The Emus Had Leaders #shorts",
  "tags": [
   "emu war",

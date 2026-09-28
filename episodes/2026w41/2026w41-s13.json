@@ -36,7 +36,7 @@
     "cast": [
      {
       "id": "meredith",
-      "x": 0.3,
+      "x": 0.35,
       "enter": "left"
      },
      {
@@ -44,12 +44,20 @@
       "x": 0.72,
       "enter": "pop"
      }
-    ]
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.2,
+      "s": 0.55
+     }
+    ],
+    "place": "Western Australia · 1932"
    }
   },
   {
    "who": "N",
-   "say": "An estimated twenty thousand emus were eating their way through wheat farms in Western Australia.",
+   "say": "Emus are giant birds that can't fly, and about twenty thousand were eating farmers' wheat.",
    "show": {
     "k": "scene",
     "bg": "wheat",
@@ -65,21 +73,42 @@
       "mood": "happy"
      }
     ],
-    "cx": 900
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "20,000 EMUS",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "So the army sent Major Meredith, two soldiers, two Lewis guns and ten thousand rounds.",
+   "say": "So the army sent Major Meredith, two Lewis machine guns and ten thousand rounds.",
    "show": {
     "k": "scene",
     "bg": "outback",
     "cast": [
      {
       "id": "meredith",
-      "x": 0.45,
+      "x": 0.55,
       "pose": "hold",
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.25,
+      "s": 0.6,
+      "label": "AMMO"
      }
     ],
     "tag": {
@@ -113,7 +142,7 @@
   },
   {
    "who": "N",
-   "say": "Very. The emus split into tiny groups and ran in every direction.",
+   "say": "Very. The emus split into small groups and ran in every direction.",
    "show": {
     "k": "scene",
     "bg": "wheat",
@@ -148,7 +177,7 @@
   },
   {
    "who": "N",
-   "say": "And when over a thousand emus headed straight for his ambush, the gun jammed.",
+   "say": "Then over a thousand emus walked straight into his ambush, and after about a dozen birds, the gun jammed.",
    "show": {
     "k": "scene",
     "bg": "outback",
@@ -160,11 +189,18 @@
       "mood": "shock"
      }
     ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
     "cam": "shake",
     "stickers": [
      {
       "text": "JAMMED",
-      "at": 1.5,
+      "at": 2.5,
       "color": "#A8322A"
      }
     ]
@@ -172,7 +208,36 @@
   },
   {
    "who": "N",
-   "say": "Meredith later said these birds could face machine guns with the invulnerability of tanks."
+   "say": "Within a week, the soldiers were pulled out.",
+   "show": {
+    "k": "card",
+    "label": "Round one, November 1932",
+    "big": "EMUS WIN",
+    "sub": "the army was pulled out after a week"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meredith later said the birds could face machine guns with the invulnerability of tanks.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "meredith",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.2,
+      "s": 0.6
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -195,7 +260,7 @@
    }
   }
  ],
- "caption": "Australia vs. 20,000 emus. Guess who won.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #emuwar #australia #historytok #funnyhistory",
+ "caption": "Australia vs. 20,000 emus. Guess who won.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #emuwar #australia #historytok #funnyhistory",
  "youtube_title": "Australia Sent the Army After Emus #shorts",
  "tags": [
   "emu war",

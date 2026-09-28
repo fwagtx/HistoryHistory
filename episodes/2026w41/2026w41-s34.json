@@ -1,0 +1,322 @@
+{
+ "id": "2026w41-s34",
+ "format": "short",
+ "date": "2026-10-09",
+ "slot": "09:00",
+ "title": "Timbuktu: The Desert City of Books",
+ "hook": "A CITY OF BOOKS",
+ "music": "playful",
+ "cast": {
+  "musa": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#D4A52A",
+   "color2": "#8A5A12",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Musa"
+  },
+  "leo": {
+   "skin": "olive",
+   "hat": "turban",
+   "hatColor": "#EDE6D6",
+   "outfit": "robe",
+   "color": "#5A3A6A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "name": "Leo Africanus"
+  },
+  "scholar": {
+   "skin": "dark",
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#2F6A8A",
+   "beard": "long",
+   "hairColor": "#6A6A6A",
+   "hold": "book",
+   "name": "Timbuktu scholar"
+  },
+  "bookseller": {
+   "skin": "dark",
+   "hat": "turban",
+   "hatColor": "#2A3A6A",
+   "outfit": "robe",
+   "color": "#2A6A8A",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "hold": "book",
+   "name": "Timbuktu bookseller"
+  },
+  "librarian": {
+   "skin": "dark",
+   "hat": "cap",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#3A7A5A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "stubble": true,
+   "name": "Timbuktu librarian"
+  }
+ },
+ "voices": {
+  "leo": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In one desert city in Africa, books were once big business.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "bookseller",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "place": "Timbuktu, Mali · early 1500s",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "text": "TIMBUKTU",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The city was Timbuktu, on the edge of the Sahara Desert.",
+   "show": {
+    "k": "map",
+    "lon": -4,
+    "lat": 16,
+    "z0": 1.4,
+    "z1": 1.6,
+    "labels": [
+     [
+      "Timbuktu",
+      -3.0,
+      16.8,
+      14
+     ],
+     [
+      "Sahara Desert",
+      -6,
+      22,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -3.0,
+      16.8,
+      1.2,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mansa Musa, king of Mali, built its great mosque, and scholars gathered at mosques like Sankore.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "happy"
+     },
+     {
+      "id": "musa",
+      "x": 0.62,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "tag": {
+     "id": "musa",
+     "text": "Mansa Musa"
+    },
+    "stickers": [
+     {
+      "text": "SANKORE",
+      "at": 2.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the early 1500s, a traveler called Leo Africanus visited the city's markets.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "bookseller",
+      "x": 0.68,
+      "mood": "smug",
+      "hold": "book"
+     }
+    ],
+    "tag": {
+     "id": "leo",
+     "text": "Leo Africanus, traveler"
+    },
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.5,
+      "front": true,
+      "label": "BOOKS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "leo",
+   "say": "You make more money from books than from anything else?"
+  },
+  {
+   "who": "N",
+   "say": "Probably an exaggeration: gold and salt were huge business too.",
+   "show": {
+    "k": "card",
+    "label": "Leo Africanus: Timbuktu's most profitable trade",
+    "big": "BOOKS?!",
+    "sub": "probably exaggerated, say historians"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Families kept hundreds of thousands of handwritten books, on law, medicine, maths and stars.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "librarian",
+      "x": 0.35,
+      "hold": "book",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.45,
+      "y": 0.2,
+      "text": "Stars, maths"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2012, when armed groups took the city, librarians smuggled about three hundred fifty thousand manuscripts to safety, hidden under fruit.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "librarian",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "walk"
+     }
+    ],
+    "place": "Timbuktu to Bamako · 2012–2013",
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.68,
+      "s": 0.8,
+      "move": [
+       0.9,
+       0.6
+      ],
+      "label": "Hidden manuscripts"
+     },
+     {
+      "k": "crate",
+      "x": 0.68,
+      "s": 0.4,
+      "y": 0.1,
+      "label": "FRUIT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "350,000 MANUSCRIPTS",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "librarian",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "book"
+     },
+     {
+      "id": "scholar",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In Timbuktu, books were big business, and in 2012 librarians smuggled them to safety.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #timbuktu #mali #africanhistory #historytok",
+ "youtube_title": "Timbuktu: The Desert City of Books #shorts",
+ "tags": [
+  "timbuktu",
+  "timbuktu manuscripts",
+  "mali empire",
+  "african history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://brians.wsu.edu/2016/11/04/leo-africanus-description-of-timbuktu-from-the-description-of-africa-1526/",
+  "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/al-bekri-and-leo-africanus",
+  "https://whc.unesco.org/en/list/119/",
+  "https://www.loc.gov/loc/lcib/0307-8/timbuktu.html",
+  "https://smithsonianmag.com/history/Race-Save-Mali-Artifacts-180947965/",
+  "https://www.npr.org/2016/04/23/475420855/timbuktus-badass-librarians-checking-out-books-under-al-qaidas-nose",
+  "https://www.cnn.com/2022/05/11/africa/timbuktu-mali-manuscript-digitization-google-spc-intl"
+ ]
+}

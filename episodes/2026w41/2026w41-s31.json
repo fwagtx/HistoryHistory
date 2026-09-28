@@ -27,7 +27,10 @@
    "color2": "#3A6A9A",
    "beard": "goatee",
    "hairColor": "#1E1C1B",
-   "name": "Malian courtier"
+   "name": "Malian trader"
+  },
+  "horse": {
+   "animal": "horse"
   }
  },
  "voices": {
@@ -44,36 +47,95 @@
     "cast": [
      {
       "id": "musa",
-      "x": 0.4,
+      "x": 0.3,
       "mood": "smug",
       "walk": [
-       0.25,
-       0.5
+       0.2,
+       0.4
       ]
      },
      {
-      "id": "mali1",
-      "x": 0.75,
-      "hold": "moneybag"
+      "id": "horse",
+      "x": 0.62
      }
     ],
     "cam": "pan",
     "fx": [
      "dust"
     ],
+    "place": "The Sahara Desert · 1324",
     "tag": {
      "id": "musa",
-     "text": "Mansa Musa of Mali"
-    }
+     "text": "Mansa Musa, king of Mali"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.55
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "That's Mansa Musa of Mali, on the hajj, the pilgrimage to Mecca."
+   "say": "That's Mansa Musa, king of Mali, on the hajj, the Muslim pilgrimage to Mecca.",
+   "show": {
+    "k": "map",
+    "lon": 35,
+    "lat": 22,
+    "z0": 1.1,
+    "z1": 1.2,
+    "labels": [
+     [
+      "Cairo",
+      31.2,
+      30.0,
+      14
+     ],
+     [
+      "Mecca",
+      39.8,
+      21.4,
+      -130
+     ]
+    ],
+    "route": [
+     [
+      -8.4,
+      11.4
+     ],
+     [
+      -7.0,
+      17.3
+     ],
+     [
+      -0.2,
+      27.9
+     ],
+     [
+      12,
+      28
+     ],
+     [
+      31.2,
+      30.0
+     ],
+     [
+      39.6,
+      24.5
+     ],
+     [
+      39.8,
+      21.4
+     ]
+    ],
+    "date": "1324"
+   }
   },
   {
    "who": "N",
-   "say": "Later chroniclers claimed twelve thousand servants wore brocade, and five hundred more carried staffs decorated with gold.",
+   "say": "One later writer claimed twelve thousand servants wore brocade, a fancy silk cloth.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -86,18 +148,30 @@
      },
      {
       "id": "musa",
-      "x": 0.7,
+      "x": 0.66,
       "mood": "smug"
      }
     ],
     "fx": [
      "sparkle"
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.7
+     }
     ]
    }
   },
   {
    "who": "mali1",
-   "say": "How many camels of gold did we pack?",
+   "say": "How many loads of gold did we pack?",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -124,17 +198,48 @@
   },
   {
    "who": "N",
-   "say": "Sources say eighty or more camels, each carrying fifty to three hundred pounds of gold dust.",
+   "say": "Sources say eighty or more camels carried gold, each loaded with fifty to three hundred pounds of gold dust.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.3
+     },
+     {
+      "id": "mali1",
+      "x": 0.55,
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.78,
+      "load": "gold",
+      "s": 0.7,
+      "label": "Camel loads of gold"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "80+ LOADS",
+      "at": 1,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians treat these numbers as dramatic storytelling, not a head count.",
    "show": {
     "k": "card",
     "label": "Gold dust per camel, according to the chroniclers",
     "big": "50–300 lb",
     "sub": "accounts vary a lot"
    }
-  },
-  {
-   "who": "N",
-   "say": "Historians treat these numbers as dramatic storytelling, not a head count."
   },
   {
    "who": "N",
@@ -145,9 +250,17 @@
     "cast": [
      {
       "id": "musa",
-      "x": 0.5,
+      "x": 0.45,
       "mood": "happy",
       "pose": "wave"
+     }
+    ],
+    "place": "Cairo, Egypt",
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.8,
+      "s": 0.6
      }
     ]
    }
@@ -174,7 +287,7 @@
    }
   }
  ],
- "caption": "Accounts say 60,000 people crossed the Sahara with this king.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #africanhistory #historytok #mali",
+ "caption": "Accounts say 60,000 people crossed the Sahara with this king.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mansamusa #africanhistory #historytok #mali",
  "youtube_title": "Mansa Musa's Giant Caravan #shorts",
  "tags": [
   "mansa musa",

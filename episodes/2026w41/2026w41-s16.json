@@ -34,7 +34,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1784, a war started, and the only thing hit was reportedly a soup kettle.",
+   "say": "In 1784, a war started, and legend says the only thing hit was a soup kettle.",
    "show": {
     "k": "scene",
     "bg": "deck",
@@ -45,28 +45,58 @@
       "pose": "hold",
       "mood": "happy"
      }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "For about two hundred years, the Dutch had kept the river Scheldt closed to Antwerp's trade ships.",
-   "show": {
-    "k": "scene",
-    "bg": "harbor",
-    "cast": [
+    ],
+    "objects": [
      {
-      "id": "dutch",
-      "x": 0.5,
-      "pose": "cross",
-      "mood": "smug"
+      "k": "fire",
+      "x": 0.2,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.6
      }
+    ],
+    "place": "River Scheldt · 1784"
+   }
+  },
+  {
+   "who": "N",
+   "say": "For about two hundred years, the Dutch kept the river Scheldt closed, cutting the port of Antwerp off from the sea.",
+   "show": {
+    "k": "map",
+    "lon": 4.4,
+    "lat": 51.6,
+    "z0": 2.2,
+    "z1": 3.0,
+    "labels": [
+     [
+      "Antwerp",
+      4.4,
+      51.22,
+      0
+     ],
+     [
+      "River Scheldt",
+      3.9,
+      51.42,
+      -40
+     ]
+    ],
+    "areas": [
+     [
+      4.1,
+      51.35,
+      0.25,
+      "rgba(200,60,40,0.35)"
+     ]
     ]
    }
   },
   {
    "who": "N",
-   "say": "So Austria's emperor, Joseph the Second, sent ships down the river anyway.",
+   "say": "Antwerp belonged to Austria, so its emperor, Joseph the Second, sent ships down the river anyway.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -76,6 +106,14 @@
       "x": 0.5,
       "pose": "fist",
       "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.18,
+      "flag": "austria",
+      "s": 0.6
      }
     ],
     "tag": {
@@ -94,15 +132,29 @@
    "show": {
     "k": "scene",
     "bg": "sea",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "dutch",
-      "x": 0.4,
-      "pose": "aim"
+      "k": "sailship",
+      "x": 0.28,
+      "s": 0.55,
+      "flag": "netherlands"
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.7,
+      "s": 0.4
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55,
+      "flag": "austria",
+      "flip": true
      }
     ],
     "fx": [
-     "explosion"
+     "smoke"
     ],
     "cam": "shake"
    }
@@ -121,8 +173,22 @@
       "mood": "shock"
      }
     ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
     "fx": [
      "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "SOUP: 0",
+      "at": 0.5,
+      "color": "#A8322A"
+     }
     ]
    }
   },
@@ -132,7 +198,7 @@
   },
   {
    "who": "N",
-   "say": "A treaty later kept the river closed, and nobody died. Except lunch.",
+   "say": "A treaty later kept the river closed, and the Dutch paid Austria millions to settle it. Nobody died. Except lunch.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -148,6 +214,13 @@
       "x": 0.7,
       "pose": "cheer",
       "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.5
      }
     ]
    }
@@ -172,7 +245,7 @@
    }
   }
  ],
- "caption": "One shot was fired in the Kettle War. Legend says it hit the soup.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #kettlewar #netherlands #historytok #funnyhistory",
+ "caption": "One shot was fired in the Kettle War. Legend says it hit the soup.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #kettlewar #netherlands #historytok #funnyhistory",
  "youtube_title": "The War Where Only a Soup Kettle Got Hit #shorts",
  "tags": [
   "kettle war",

@@ -1,0 +1,304 @@
+{
+ "id": "2026w41-s23",
+ "format": "short",
+ "date": "2026-10-07",
+ "slot": "09:00",
+ "title": "The Army That Attacked Itself",
+ "hook": "AN ARMY VS. ITSELF",
+ "music": "playful",
+ "cast": {
+  "hussar": {
+   "outfit": "napoleon",
+   "color": "#2F6FC2",
+   "hat": "kepi",
+   "hatColor": "#262322",
+   "stache": "handlebar",
+   "skin": "light",
+   "hold": "sword"
+  },
+  "infantry": {
+   "outfit": "uniform",
+   "color": "#EFEFEF",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "skin": "light",
+   "hold": "rifle"
+  },
+  "joseph": {
+   "outfit": "napoleon",
+   "color": "#EFEFEF",
+   "hat": "bicorne",
+   "hair": "side",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Emperor Joseph II"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "hussar": "am_fenrir",
+  "infantry": "am_puck",
+  "joseph": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1788, an army may have lost a battle to itself.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hussar",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "infantry",
+      "x": 0.7,
+      "pose": "aim",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "place": "Karánsebes, now in Romania · September 1788"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Austria was at war with the Ottoman Empire, and its army camped near a town called Karánsebes.",
+   "show": {
+    "k": "map",
+    "lon": 22.0,
+    "lat": 45.4,
+    "z0": 1.8,
+    "z1": 2.6,
+    "labels": [
+     [
+      "Karánsebes",
+      22.22,
+      45.42,
+      0
+     ],
+     [
+      "Vienna",
+      16.37,
+      48.2,
+      0
+     ],
+     [
+      "Ottoman Empire",
+      25.0,
+      43.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      22.22,
+      45.42,
+      0.4,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One night, cavalry scouts found no enemies, just people selling schnapps, a strong liquor.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "hussar",
+      "x": 0.55,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.25,
+      "s": 0.6,
+      "label": "SCHNAPPS"
+     },
+     {
+      "k": "fire",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "infantry",
+   "say": "Share some with us!",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "infantry",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "hussar",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "hussar",
+   "say": "Get your own!"
+  },
+  {
+   "who": "N",
+   "say": "A shot went off, someone yelled \"Turks!\", and in the dark, soldiers started running and shooting at each other.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "infantry",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared",
+      "walk": [
+       0.3,
+       0.1
+      ]
+     },
+     {
+      "id": "hussar",
+      "x": 0.7,
+      "pose": "run",
+      "mood": "shock",
+      "walk": [
+       0.7,
+       0.85
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.5,
+      "s": 0.5,
+      "fire": true
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "\"TURKS!\"",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One account says even Emperor Joseph the Second, who was there, fell off his horse into a stream.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "joseph",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "horse",
+      "x": 0.72,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "austria",
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "joseph",
+     "text": "Emperor Joseph II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Careful, though: the main account was written nearly sixty years later, and historians think it grew in the telling.",
+   "show": {
+    "k": "card",
+    "label": "Casualties at Karánsebes",
+    "big": "DISPUTED",
+    "sub": "some say 10,000; historians say far fewer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hussar",
+      "x": 0.3,
+      "pose": "shrug"
+     },
+     {
+      "id": "infantry",
+      "x": 0.7,
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The enemy never showed up. The army fought anyway.\n\nFollow for 5 stories a day.\n#history #karansebes #austria #historytok #funnyhistory",
+ "youtube_title": "The Army That Attacked Itself #shorts",
+ "tags": [
+  "battle of karansebes",
+  "history",
+  "austria",
+  "funny history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_Kar%C3%A1nsebes",
+  "https://warhistory.org/article/karansebes-20-september-1788-myth",
+  "https://www.historiascripta.org/renaissance/a-catastrophic-case-of-friendly-fire-battle-of-karansebes-1788/",
+  "https://www.warhistoryonline.com/history/karansebes-battle-only-one-army.html"
+ ]
+}

@@ -34,13 +34,12 @@
  },
  "voices": {
   "musa": "am_fenrir",
-  "sultan": "bm_lewis",
   "hajib": "bm_george"
  },
  "beats": [
   {
    "who": "N",
-   "say": "A king often called the richest ever was told to kiss the ground. He said no.",
+   "say": "A West African king was told to kiss the ground in front of Egypt's sultan. He found a loophole.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -52,19 +51,84 @@
       "pose": "cross"
      }
     ],
+    "place": "Cairo, Egypt · 1324",
     "tag": {
      "id": "musa",
-     "text": "Mansa Musa of Mali"
-    }
+     "text": "Mansa Musa, king of Mali"
+    },
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.8
+     },
+     {
+      "k": "column",
+      "x": 0.86,
+      "s": 0.8
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "In 1324, Mansa Musa of Mali reached Cairo, ruled by Sultan al-Nasir Muhammad."
+   "say": "Mansa Musa, the gold-rich king of Mali, stopped in Cairo on his way to Mecca.",
+   "show": {
+    "k": "map",
+    "lon": 35,
+    "lat": 22,
+    "z0": 1.1,
+    "z1": 1.2,
+    "labels": [
+     [
+      "Cairo",
+      31.2,
+      30.0,
+      14
+     ],
+     [
+      "Mecca",
+      39.8,
+      21.4,
+      -130
+     ]
+    ],
+    "route": [
+     [
+      -8.4,
+      11.4
+     ],
+     [
+      -7.0,
+      17.3
+     ],
+     [
+      -0.2,
+      27.9
+     ],
+     [
+      12,
+      28
+     ],
+     [
+      31.2,
+      30.0
+     ],
+     [
+      39.6,
+      24.5
+     ],
+     [
+      39.8,
+      21.4
+     ]
+    ],
+    "date": "1324"
+   }
   },
   {
    "who": "N",
-   "say": "At first he refused to even visit, saying he had come only for the pilgrimage.",
+   "say": "At first he refused to visit the sultan at all, saying he had come only for the pilgrimage.",
    "show": {
     "k": "scene",
     "bg": "egypt",
@@ -77,16 +141,28 @@
      },
      {
       "id": "musa",
-      "x": 0.7,
+      "x": 0.68,
       "mood": "neutral",
       "pose": "cross"
      }
+    ],
+    "tag": {
+     "id": "hajib",
+     "text": "Ibn Amir Hajib, Cairo official"
+    },
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.86,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.5
+     }
     ]
    }
-  },
-  {
-   "who": "N",
-   "say": "An Egyptian official said Musa spoke only through an interpreter, even though his Arabic was perfect."
   },
   {
    "who": "hajib",
@@ -108,13 +184,17 @@
      },
      {
       "id": "musa",
-      "x": 0.78,
+      "x": 0.76,
       "mood": "angry",
       "pose": "hips"
      }
     ],
     "cam": "close",
-    "focus": "musa"
+    "focus": "musa",
+    "tag": {
+     "id": "sultan",
+     "text": "Sultan al-Nasir Muhammad"
+    }
    }
   },
   {
@@ -123,7 +203,7 @@
   },
   {
    "who": "N",
-   "say": "An adviser whispered to him, and Musa found a loophole."
+   "say": "An adviser whispered to him, and Musa found his answer."
   },
   {
    "who": "musa",
@@ -150,7 +230,40 @@
   },
   {
    "who": "N",
-   "say": "He bowed to God, not the sultan, and the sultan sat him by his side anyway."
+   "say": "He bowed to God, not to the sultan. The sultan let it go, and sat him by his side.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "sultan",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "goblet"
+     },
+     {
+      "id": "musa",
+      "x": 0.68,
+      "mood": "smug",
+      "hold": "goldbar"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Having already sent loads of gold to the royal treasury probably helped."
   },
   {
    "who": "N",
@@ -173,7 +286,7 @@
    }
   }
  ],
- "caption": "The sultan said kiss the ground. Mansa Musa found a loophole.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #mali #historytok #funnyhistory",
+ "caption": "The sultan said kiss the ground. Mansa Musa found a loophole.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mansamusa #mali #historytok #funnyhistory",
  "youtube_title": "The King Who Wouldn't Bow to a Sultan #shorts",
  "tags": [
   "mansa musa",

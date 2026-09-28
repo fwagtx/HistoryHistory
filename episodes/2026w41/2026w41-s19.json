@@ -39,39 +39,52 @@
    "say": "Britain and Spain once fought a war named after a man's ear.",
    "show": {
     "k": "scene",
-    "bg": "deck",
-    "cast": [
+    "bg": "field",
+    "cast": [],
+    "objects": [
      {
-      "id": "jenkins",
-      "x": 0.5,
-      "pose": "shrug"
+      "k": "flag",
+      "x": 0.14,
+      "flag": "uk",
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.58,
+      "flag": "spain",
+      "s": 0.6
      }
     ],
-    "tag": {
-     "id": "jenkins",
-     "text": "Captain Robert Jenkins"
-    }
+    "stickers": [
+     {
+      "text": "THE WAR OF JENKINS' EAR",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "In 1731, a Spanish coast guard boarded Captain Robert Jenkins' ship, which was smuggling.",
+   "say": "In 1731, a Spanish coast guard stopped a British ship captained by Robert Jenkins, which was smuggling.",
    "show": {
     "k": "scene",
-    "bg": "deck",
-    "cast": [
+    "bg": "sea",
+    "cast": [],
+    "objects": [
      {
-      "id": "jenkins",
-      "x": 0.3,
-      "mood": "shock"
-     },
-     {
-      "id": "fandino",
-      "x": 0.7,
-      "pose": "point",
-      "mood": "angry"
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.7,
+      "flag": "uk",
+      "move": [
+       0.35,
+       0.55
+      ],
+      "label": "Rebecca"
      }
-    ]
+    ],
+    "place": "Caribbean Sea · 1731"
    }
   },
   {
@@ -95,7 +108,11 @@
     "fx": [
      "smoke"
     ],
-    "cam": "shake"
+    "cam": "shake",
+    "tag": {
+     "id": "jenkins",
+     "text": "Captain Robert Jenkins"
+    }
    }
   },
   {
@@ -112,7 +129,6 @@
      {
       "id": "jenkins",
       "x": 0.35,
-      "hold": "bottle",
       "pose": "present",
       "mood": "smug"
      },
@@ -122,28 +138,74 @@
       "pose": "scared",
       "mood": "shock"
      }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.52,
+      "s": 0.4,
+      "front": true
+     }
+    ],
+    "place": "London · 1738"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The legend says he showed Parliament his ear, pickled in a jar, though historians doubt that part.",
+   "show": {
+    "k": "card",
+    "label": "Jenkins' ear in a jar?",
+    "big": "LEGEND",
+    "sub": "but the story helped start a war"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1739, Britain declared war, and the fighting dragged on until 1748.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.5,
+      "flag": "uk"
+     },
+     {
+      "k": "cannon",
+      "x": 0.72,
+      "s": 0.6,
+      "fire": true
+     }
+    ],
+    "fx": [
+     "smoke"
     ]
    }
   },
   {
    "who": "N",
-   "say": "The legend says he showed Parliament his ear, pickled in a jar, though historians doubt that part."
-  },
-  {
-   "who": "N",
-   "say": "In 1739, Britain went to war, and it dragged on until 1748.",
+   "say": "All that, and the most famous part is still one man's ear.",
    "show": {
     "k": "scene",
-    "bg": "sea",
+    "bg": "tavern",
     "cast": [
      {
       "id": "jenkins",
-      "x": 0.5,
-      "pose": "facepalm"
+      "x": 0.55,
+      "pose": "sit",
+      "mood": "sad"
      }
     ],
-    "fx": [
-     "smoke"
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.25,
+      "s": 0.4
+     }
     ]
    }
   },
@@ -155,8 +217,7 @@
     "cast": [
      {
       "id": "jenkins",
-      "x": 0.35,
-      "hold": "bottle"
+      "x": 0.35
      },
      {
       "id": "mp",
@@ -167,7 +228,7 @@
    }
   }
  ],
- "caption": "The War of Jenkins' Ear is a real war with a real ear.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #jenkinsear #britishhistory #historytok #funnyhistory",
+ "caption": "The War of Jenkins' Ear is a real war with a real ear.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #jenkinsear #britishhistory #historytok #funnyhistory",
  "youtube_title": "Britain Fought a War Named After an Ear #shorts",
  "tags": [
   "war of jenkins ear",

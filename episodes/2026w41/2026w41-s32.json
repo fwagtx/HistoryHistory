@@ -37,7 +37,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "Mansa Musa once paid roughly fifty kilograms of gold for a single room.",
+   "say": "Mansa Musa once paid about fifty kilograms of gold for a single room.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -52,18 +52,35 @@
     "fx": [
      "sparkle"
     ],
+    "place": "Mali, West Africa · 1320s",
     "tag": {
      "id": "musa",
-     "text": "Mansa Musa of Mali"
-    }
+     "text": "Mansa Musa, king of Mali"
+    },
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Coming home from Mecca, he met Abu Ishaq al-Sahili, a poet and scholar from Granada.",
+   "say": "Musa was the king of Mali, famous for his gold."
+  },
+  {
+   "who": "N",
+   "say": "On his pilgrimage to Mecca, he met Abu Ishaq al-Sahili, a poet and scholar from Granada, in Spain.",
    "show": {
     "k": "scene",
-    "bg": "town",
+    "bg": "desert",
     "cast": [
      {
       "id": "musa",
@@ -72,15 +89,23 @@
      },
      {
       "id": "sahili",
-      "x": 0.7,
+      "x": 0.64,
       "mood": "happy",
       "pose": "wave"
      }
     ],
+    "place": "On the road to Mecca · 1324",
     "tag": {
      "id": "sahili",
-     "text": "Abu Ishaq al-Sahili"
-    }
+     "text": "al-Sahili, poet"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ]
    }
   },
   {
@@ -88,7 +113,7 @@
    "say": "Come to Mali. The weather is hot, and the pay is gold.",
    "show": {
     "k": "scene",
-    "bg": "town",
+    "bg": "desert",
     "cast": [
      {
       "id": "musa",
@@ -113,7 +138,7 @@
   },
   {
    "who": "N",
-   "say": "Ibn Khaldun says Musa paid him twelve thousand mithqals of gold for a royal audience hall.",
+   "say": "Ibn Khaldun says Musa paid him twelve thousand mithqals of gold for a royal audience hall, where the king met visitors.",
    "show": {
     "k": "card",
     "label": "Paid for one royal audience hall",
@@ -123,32 +148,38 @@
   },
   {
    "who": "N",
-   "say": "Tradition also credits him with Timbuktu's Djinguereber Mosque, first built in the 1320s from earth and wood.",
+   "say": "Tradition also credits him with Timbuktu's Djinguereber Mosque, but modern historians doubt it.",
    "show": {
     "k": "scene",
-    "bg": "desert",
+    "bg": "town",
     "cast": [
      {
       "id": "sahili",
-      "x": 0.35,
-      "hold": "book"
+      "x": 0.3,
+      "hold": "book",
+      "mood": "neutral"
+     }
+    ],
+    "place": "Timbuktu, Mali",
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.72,
+      "s": 0.7
      },
      {
-      "id": "musa",
-      "x": 0.7,
-      "mood": "happy",
-      "pose": "point"
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.55,
+      "y": 0.2,
+      "text": "DJINGUEREBER"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Modern historians doubt that, since this earthen style grew from older West African traditions."
-  },
-  {
-   "who": "N",
-   "say": "The mosque still stands in Timbuktu today."
+   "say": "Its earthen style grew from older West African traditions, and the mosque still stands today."
   },
   {
    "who": "N",
@@ -172,7 +203,7 @@
    }
   }
  ],
- "caption": "Mansa Musa paid about 50 kg of gold for one room.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #timbuktu #historytok #architecture",
+ "caption": "Mansa Musa paid about 50 kg of gold for one room.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mansamusa #timbuktu #historytok #architecture",
  "youtube_title": "Mansa Musa Paid 50 kg of Gold for One Room #shorts",
  "tags": [
   "mansa musa",

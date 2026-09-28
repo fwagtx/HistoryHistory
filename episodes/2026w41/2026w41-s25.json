@@ -34,21 +34,20 @@
   }
  },
  "voices": {
-  "musa": "am_fenrir",
   "trader": "am_puck",
   "trader2": "am_eric"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1324, one man brought so much gold to Cairo that gold itself got cheaper.",
+   "say": "In 1324, one king brought so much gold to Cairo that gold itself got cheaper.",
    "show": {
     "k": "scene",
     "bg": "egypt",
     "cast": [
      {
       "id": "musa",
-      "x": 0.5,
+      "x": 0.4,
       "mood": "smug",
       "hold": "goldbar",
       "enter": "pop"
@@ -57,19 +56,86 @@
     "fx": [
      "sparkle"
     ],
+    "place": "Cairo, Egypt · 1324",
     "tag": {
      "id": "musa",
-     "text": "Mansa Musa of Mali"
-    }
+     "text": "Mansa Musa, king of Mali"
+    },
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "cart",
+      "x": 0.72,
+      "load": "gold",
+      "s": 0.8,
+      "label": "Gold"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Mansa Musa, king of Mali, stopped in Cairo on his way to Mecca."
+   "say": "He was Mansa Musa, king of Mali in West Africa, on his way to Mecca.",
+   "show": {
+    "k": "map",
+    "lon": 35,
+    "lat": 22,
+    "z0": 1.1,
+    "z1": 1.2,
+    "labels": [
+     [
+      "Cairo",
+      31.2,
+      30.0,
+      14
+     ],
+     [
+      "Mecca",
+      39.8,
+      21.4,
+      -130
+     ]
+    ],
+    "route": [
+     [
+      -8.4,
+      11.4
+     ],
+     [
+      -7.0,
+      17.3
+     ],
+     [
+      -0.2,
+      27.9
+     ],
+     [
+      12,
+      28
+     ],
+     [
+      31.2,
+      30.0
+     ],
+     [
+      39.6,
+      24.5
+     ],
+     [
+      39.8,
+      21.4
+     ]
+    ],
+    "date": "1324"
+   }
   },
   {
    "who": "N",
-   "say": "He and his people handed out gold and spent it everywhere.",
+   "say": "He and his people handed out gold and spent it all over the city.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -85,6 +151,14 @@
       "x": 0.7,
       "mood": "neutral",
       "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.7,
+      "front": true
      }
     ]
    }
@@ -118,21 +192,21 @@
   },
   {
    "who": "N",
-   "say": "The historian al-Umari said a mithqal of gold fell from at least twenty-five silver dirhams to twenty-two or less.",
+   "say": "Because when a city suddenly has lots more gold, each piece of gold buys a little less.",
    "show": {
     "k": "card",
     "label": "One mithqal of gold in Cairo, in silver dirhams",
     "big": "25 → 22",
-    "sub": "according to al-Umari"
+    "sub": "and still low about 12 years later, said al-Umari"
    }
   },
   {
    "who": "N",
-   "say": "And he wrote that it stayed that low for about twelve years."
+   "say": "The historian al-Umari said gold's value fell from twenty-five silver coins to twenty-two, and stayed low for about twelve years."
   },
   {
    "who": "N",
-   "say": "Some historians say the dip was within normal swings. Still, what a flex.",
+   "say": "Some historians call the dip normal ups and downs. Still, what a flex.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -144,12 +218,24 @@
       "pose": "sit",
       "hold": "coin"
      }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.18,
+      "s": 0.7
+     },
+     {
+      "k": "chest",
+      "x": 0.8,
+      "s": 0.8
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Follow for more money history that sounds made up.",
+   "say": "Follow for more money history.",
    "show": {
     "k": "end",
     "cast": [
@@ -169,7 +255,7 @@
    }
   }
  ],
- "caption": "He spent so much gold in Cairo that gold got cheaper.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #gold #historytok #moneyhistory",
+ "caption": "He spent so much gold in Cairo that gold got cheaper.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mansamusa #gold #historytok #moneyhistory",
  "youtube_title": "The King Who Made Gold Cheaper #shorts",
  "tags": [
   "mansa musa",

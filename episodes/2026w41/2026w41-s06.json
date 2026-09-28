@@ -29,37 +29,41 @@
    "show": {
     "k": "scene",
     "bg": "city",
-    "cam": "pan",
     "cast": [
      {
       "id": "citizen",
-      "x": 0.3,
-      "pose": "walk",
-      "mood": "happy",
-      "walk": [
-       0.15,
-       0.4
-      ]
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
      },
      {
       "id": "citizenW",
-      "x": 0.68,
-      "pose": "wave",
-      "mood": "happy"
+      "x": 0.65,
+      "pose": "point"
      }
     ],
-    "stickers": [
+    "place": "Rome · about 2,000 years ago",
+    "objects": [
      {
-      "text": "1,000,000",
-      "at": 0.8,
-      "color": "#A8322A"
+      "k": "column",
+      "x": 0.1
+     },
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.6
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "That made it the biggest city in pre-industrial Europe, by a lot."
+   "say": "That made it the biggest city in Europe, for a very, very long time.",
+   "show": {
+    "k": "card",
+    "label": "People living in ancient Rome (estimate)",
+    "big": "1,000,000"
+   }
   },
   {
    "who": "citizen",
@@ -67,19 +71,34 @@
    "show": {
     "k": "scene",
     "bg": "street",
-    "cam": "shake",
     "cast": [
      {
       "id": "citizen",
       "x": 0.3,
-      "pose": "run",
-      "mood": "shock"
+      "pose": "walk",
+      "mood": "angry",
+      "walk": [
+       0.2,
+       0.4
+      ]
      },
      {
       "id": "citizenW",
-      "x": 0.68,
-      "pose": "fist",
+      "x": 0.7,
+      "pose": "hips",
       "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.84,
+      "s": 0.5
+     },
+     {
+      "k": "jar",
+      "x": 0.12,
+      "s": 0.5
      }
     ]
    }
@@ -90,77 +109,106 @@
   },
   {
    "who": "N",
-   "say": "The next European city to get that big? London, around 1800. Its first census, in 1801, put the wider London area at about a million.",
+   "say": "How long did the record last? The next European city that big was London, around 1800.",
    "show": {
     "k": "map",
-    "lon": 5,
+    "lon": 6,
     "lat": 47,
-    "z0": 1.3,
-    "z1": 1.7,
-    "date": "1801",
+    "z0": 1.1,
+    "z1": 1.2,
+    "date": "about 1800",
     "labels": [
      [
       "Rome",
       12.5,
       41.9,
-      0
+      -240
      ],
      [
       "London",
-      -0.1,
+      -0.13,
       51.5,
       0
      ]
     ],
     "areas": [
      [
-      12.5,
-      41.9,
-      1,
-      "rgba(214,48,40,.7)"
+      -0.13,
+      51.5,
+      0.8,
+      "rgba(214,48,40,.6)"
      ],
      [
-      -0.1,
-      51.5,
-      1,
-      "rgba(60,90,200,.7)"
+      12.5,
+      41.9,
+      0.8,
+      "rgba(214,48,40,.6)"
      ]
     ]
    }
   },
   {
    "who": "N",
-   "say": "So after Rome's peak, Europe went roughly sixteen hundred years without a city that size.",
+   "say": "Britain's first census, in 1801, counted about a million people in the wider London area.",
    "show": {
     "k": "scene",
-    "bg": "village",
-    "cam": "push",
+    "bg": "town",
     "cast": [
      {
-      "id": "citizen",
-      "x": 0.5,
-      "pose": "shrug",
-      "mood": "sad"
+      "id": "citizenW",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "London · 1801",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "uk"
+     },
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.6
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Historians argue over the exact number, but the usual estimate lands around a million.",
+   "say": "So after Rome's peak, Europe waited roughly sixteen hundred years for another city that size.",
    "show": {
     "k": "scene",
-    "bg": "library",
-    "cam": "still",
+    "bg": "village",
     "cast": [
      {
-      "id": "citizenW",
-      "x": 0.5,
-      "pose": "think",
-      "mood": "neutral"
+      "id": "citizen",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,600 YEARS",
+      "at": 0.8,
+      "color": "#2F6FC2"
      }
     ]
    }
+  },
+  {
+   "who": "N",
+   "say": "Historians argue over the exact number, but most estimates land around a million."
   },
   {
    "who": "N",
@@ -177,14 +225,13 @@
      {
       "id": "citizenW",
       "x": 0.7,
-      "pose": "wave",
-      "mood": "happy"
+      "pose": "cheer"
      }
     ]
    }
   }
  ],
- "caption": "Ancient Rome was bigger than any European city for about 1,600 years.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #ancientrome #rome #historyfacts #historytok",
+ "caption": "Ancient Rome was bigger than any European city for about 1,600 years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #rome #historyfacts #historytok",
  "youtube_title": "Ancient Rome Had a Million People #shorts",
  "tags": [
   "ancient rome",

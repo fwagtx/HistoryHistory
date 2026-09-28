@@ -25,6 +25,9 @@
    "hold": "moneybag",
    "beard": "full",
    "name": "Siraj al-Din"
+  },
+  "horse": {
+   "animal": "horse"
   }
  },
  "voices": {
@@ -37,46 +40,96 @@
    "say": "The man called the richest in history once had to borrow money to get home.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "street",
     "cast": [
      {
       "id": "musa",
-      "x": 0.5,
+      "x": 0.55,
       "mood": "sad",
       "pose": "shrug"
      }
     ],
+    "place": "Cairo, Egypt · 1325",
     "tag": {
      "id": "musa",
-     "text": "Mansa Musa of Mali"
-    }
+     "text": "Mansa Musa, king of Mali"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.2,
+      "open": false,
+      "label": "Empty"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Mansa Musa gave away so much gold on his 1324 pilgrimage that, on the way back through Egypt, he ran out.",
+   "say": "Mansa Musa, king of Mali, gave away tons of gold on his pilgrimage to Mecca.",
    "show": {
     "k": "scene",
     "bg": "desert",
     "cast": [
      {
       "id": "musa",
-      "x": 0.5,
-      "mood": "sad",
-      "walk": [
-       0.3,
-       0.55
-      ]
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "goldbar"
+     },
+     {
+      "id": "horse",
+      "x": 0.6
      }
     ],
     "fx": [
      "dust"
+    ],
+    "place": "The road to Mecca · 1324",
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.8,
+      "load": "gold",
+      "s": 0.8,
+      "label": "Gold"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "So he went to Cairo's moneylenders.",
+   "say": "On the way back, many pilgrims died from cold, hunger or bandits.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.45,
+      "mood": "sad",
+      "walk": [
+       0.3,
+       0.5
+      ]
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back in Cairo, he was out of cash. So, a moneylender.",
    "show": {
     "k": "scene",
     "bg": "vault",
@@ -96,7 +149,15 @@
     "tag": {
      "id": "lender",
      "text": "Siraj al-Din, merchant"
-    }
+    },
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.5,
+      "front": true
+     }
+    ]
    }
   },
   {
@@ -128,7 +189,7 @@
   },
   {
    "who": "N",
-   "say": "Ibn Khaldun records the fifty thousand dinar loan, and al-Umari says lenders charged a very high rate.",
+   "say": "Ibn Khaldun records it, and al-Umari says the rate was very high.",
    "show": {
     "k": "card",
     "label": "Musa's loan from one merchant family",
@@ -138,23 +199,31 @@
   },
   {
    "who": "N",
-   "say": "Musa paid part of it by selling the lender a palace the sultan had given him."
-  },
-  {
-   "who": "N",
-   "say": "The lender's agents chased the rest all the way to Mali, and his son got back only some of it.",
+   "say": "Musa paid part of it by selling the lender a palace the sultan had given him.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "palace",
     "cast": [
      {
       "id": "lender",
       "x": 0.4,
-      "mood": "sad",
-      "hold": "letter"
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.76,
+      "text": "SOLD!",
+      "s": 0.8
      }
     ]
    }
+  },
+  {
+   "who": "N",
+   "say": "The lender chased the rest all the way to Mali, and got back only some."
   },
   {
    "who": "N",
@@ -178,7 +247,7 @@
    }
   }
  ],
- "caption": "The man called the richest who ever lived had to take out a loan.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #money #historytok #moneyhistory",
+ "caption": "The man called the richest who ever lived had to take out a loan.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mansamusa #money #historytok #moneyhistory",
  "youtube_title": "The 'Richest Man Ever' Needed a Loan #shorts",
  "tags": [
   "mansa musa",

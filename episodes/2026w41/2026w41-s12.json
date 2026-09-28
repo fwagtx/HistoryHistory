@@ -1,0 +1,283 @@
+{
+ "id": "2026w41-s12",
+ "format": "short",
+ "date": "2026-10-05",
+ "slot": "09:00",
+ "title": "Nero Didn't Fiddle While Rome Burned",
+ "hook": "NO FIDDLE",
+ "music": "playful",
+ "cast": {
+  "citizen": {
+   "preset": "roman"
+  },
+  "citizenW": {
+   "preset": "peasantW",
+   "hat": "headscarf",
+   "outfit": "dress",
+   "color": "#C8702A",
+   "skin": "olive"
+  },
+  "nero": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "curly",
+   "hairColor": "#C8702A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Nero"
+  },
+  "tacitus": {
+   "preset": "senator",
+   "hat": null,
+   "hair": "short",
+   "hairColor": "#6A6A6A",
+   "hold": "scroll",
+   "name": "Tacitus"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "Nero, Rome's emperor, did not fiddle while Rome burned. The fiddle didn't even exist yet.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "place": "Rome · July 64 AD",
+    "fx": [
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.78,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 64 AD, a huge fire broke out near the Circus Maximus, Rome's chariot-racing track.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.72,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.3,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.55,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It burned for more than six days.",
+   "show": {
+    "k": "card",
+    "label": "How long the Great Fire of Rome burned",
+    "big": "6+ DAYS",
+    "sub": "and much of the city was destroyed"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The historian Tacitus says Nero was at Antium, fifty kilometres away, and returned as the fire neared his palace.",
+   "show": {
+    "k": "map",
+    "lon": 12.55,
+    "lat": 41.7,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "64 AD",
+    "labels": [
+     [
+      "Rome",
+      12.5,
+      41.9,
+      0
+     ],
+     [
+      "Antium",
+      12.63,
+      41.45,
+      0
+     ]
+    ],
+    "route": [
+     [
+      12.63,
+      41.45
+     ],
+     [
+      12.5,
+      41.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He opened public buildings and his own gardens to the homeless.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "citizenW",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "nero",
+     "text": "Emperor Nero"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But a rumour said he sang about the fall of Troy while the city burned.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "citizenW",
+      "x": 0.62,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RUMOUR",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even Tacitus calls it a rumour. And Nero played the lyre, a small harp, not a fiddle.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "tacitus",
+      "x": 0.65,
+      "pose": "hold",
+      "hold": "scroll"
+     }
+    ],
+    "tag": {
+     "id": "tacitus",
+     "text": "Tacitus, Roman historian"
+    },
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.28,
+      "s": 0.7,
+      "text": "Just a rumour"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Nero's most famous moment probably never happened."
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "tacitus",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Nero didn't fiddle while Rome burned. The fiddle didn't exist yet.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #nero #ancientrome #greatfireofrome #historytok",
+ "youtube_title": "Nero Didn't Fiddle While Rome Burned #shorts",
+ "tags": [
+  "nero",
+  "great fire of rome",
+  "history",
+  "ancient rome",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.history.com/articles/did-nero-really-fiddle-while-rome-burned",
+  "https://en.wikipedia.org/wiki/Great_Fire_of_Rome",
+  "https://en.wikisource.org/wiki/The_Annals_(Tacitus)/Book_15",
+  "https://dcc.dickinson.edu/tacitus-annals/15-39",
+  "https://www.thecollector.com/great-fire-of-rome/"
+ ]
+}

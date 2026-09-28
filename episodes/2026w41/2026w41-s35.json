@@ -1,0 +1,305 @@
+{
+ "id": "2026w41-s35",
+ "format": "short",
+ "date": "2026-10-09",
+ "slot": "09:00",
+ "title": "The Town Built Out of Salt",
+ "hook": "HOUSES MADE OF SALT",
+ "music": "playful",
+ "cast": {
+  "mali1": {
+   "skin": "dark",
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#3A6A9A",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "name": "Malian trader"
+  },
+  "saltman": {
+   "skin": "tan",
+   "hat": "turban",
+   "hatColor": "#2A3A6A",
+   "outfit": "robe",
+   "color": "#2A3A6A",
+   "stubble": true,
+   "name": "Salt caravan trader"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "ibn": {
+   "skin": "tan",
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#3A6A5A",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "name": "Ibn Battuta"
+  },
+  "worker": {
+   "skin": "dark",
+   "hat": "headscarf",
+   "hatColor": "#E8D8B0",
+   "outfit": "tunic",
+   "color": "#B8A078",
+   "name": "Salt miner"
+  }
+ },
+ "voices": {
+  "ibn": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In the middle of the Sahara, there was a town where the houses were made of salt.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "ibn",
+      "x": 0.3,
+      "mood": "shock"
+     }
+    ],
+    "place": "Taghaza, Sahara Desert · 1352",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.68,
+      "s": 0.8,
+      "color": "#EFEDE6",
+      "label": "Houses made of salt"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1352, Ibn Battuta, a famous traveler from Morocco, crossed the desert to visit the Mali Empire.",
+   "show": {
+    "k": "map",
+    "lon": -5,
+    "lat": 21,
+    "z0": 1.15,
+    "z1": 1.25,
+    "labels": [
+     [
+      "Sijilmasa",
+      -4.3,
+      31.3,
+      14
+     ],
+     [
+      "Taghaza",
+      -5.0,
+      23.6,
+      14
+     ],
+     [
+      "Mali",
+      -8.4,
+      11.4,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -4.3,
+      31.3
+     ],
+     [
+      -5.0,
+      23.6
+     ],
+     [
+      -7.0,
+      17.3
+     ],
+     [
+      -8.4,
+      11.4
+     ]
+    ],
+    "date": "1352"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Twenty-five days in, his caravan reached Taghaza, a salt mine.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "ibn",
+      "x": 0.28,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "horse",
+      "x": 0.68
+     }
+    ],
+    "tag": {
+     "id": "ibn",
+     "text": "Ibn Battuta, traveler"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wrote that its houses and mosque were built from blocks of salt, with camel-skin roofs.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "ibn",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.8,
+      "color": "#EFEDE6",
+      "label": "Salt blocks"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ibn",
+   "say": "Salty water, and flies everywhere. Lovely.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "ibn",
+      "x": 0.45,
+      "mood": "angry",
+      "pose": "facepalm"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Enslaved workers dug out the salt in big slabs, and a camel could carry two.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.25,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.6,
+      "s": 1.1,
+      "label": "Salt slabs"
+     },
+     {
+      "k": "crate",
+      "x": 0.58,
+      "s": 0.6,
+      "y": 0.1,
+      "label": "SALT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Why bother? In Mali, one load could sell for up to forty mithqals of gold.",
+   "show": {
+    "k": "card",
+    "label": "One load of salt in Mali, per Ibn Battuta",
+    "big": "UP TO 40",
+    "sub": "gold mithqals; nearer the desert, 8 to 10"
+   }
+  },
+  {
+   "who": "N",
+   "say": "People even cut salt into pieces and used it as money.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "saltman",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "mali1",
+      "x": 0.68,
+      "hold": "coin",
+      "mood": "happy"
+     }
+    ],
+    "place": "Mali · 1350s",
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.7,
+      "front": true,
+      "label": "SALT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ibn",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "saltman",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A desert town built from salt, and why salt was worth gold in medieval Mali.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mali #ibnbattuta #africanhistory #historytok",
+ "youtube_title": "The Town Built Out of Salt #shorts",
+ "tags": [
+  "taghaza",
+  "ibn battuta",
+  "salt trade",
+  "mali empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/journey-mali-1350-1351",
+  "https://faculty.tnstate.edu/tcorse/h120/ibn_battuta.htm",
+  "https://en.wikipedia.org/wiki/Taghaza",
+  "https://en.wikipedia.org/wiki/Trans-Saharan_trade"
+ ]
+}

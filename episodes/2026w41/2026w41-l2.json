@@ -59,37 +59,6 @@
    "hat": "chef",
    "stache": "handlebar"
   },
-  "tromp": {
-   "hat": "capotain",
-   "outfit": "coat",
-   "color": "#262322",
-   "beard": "goatee",
-   "stache": "handlebar",
-   "skin": "light",
-   "name": "Admiral Maarten Tromp"
-  },
-  "royalist": {
-   "hat": "capotain",
-   "outfit": "coat",
-   "color": "#6A2A3A",
-   "hair": "long",
-   "stache": "thin",
-   "skin": "light"
-  },
-  "duncan": {
-   "preset": "businessman",
-   "hairColor": "#DADADA",
-   "glasses": "square",
-   "name": "Roy Duncan"
-  },
-  "huydecoper": {
-   "preset": "businessman",
-   "color": "#262322",
-   "hair": "short",
-   "hairColor": "#8A8A8A",
-   "tie": "#E07A2A",
-   "name": "Ambassador Rein Huydecoper"
-  },
   "modenese": {
    "preset": "knight",
    "hatColor": "#2F6FC2"
@@ -219,7 +188,6 @@
   "emu": "am_puck",
   "joseph": "bm_lewis",
   "cook": "am_echo",
-  "tromp": "bm_daniel",
   "jenkins": "bm_lewis",
   "fandino": "am_fenrir",
   "walpole": "bm_daniel",
@@ -241,17 +209,39 @@
     "cast": [
      {
       "id": "meredith",
-      "x": 0.35,
-      "enter": "left",
+      "x": 0.55,
       "pose": "aim"
      },
      {
       "id": "gunner",
-      "x": 0.18,
-      "enter": "left"
+      "x": 0.82
      }
     ],
-    "cam": "pan"
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.25,
+      "move": [
+       0.02,
+       0.25
+      ],
+      "s": 0.9
+     }
+    ],
+    "cam": "pan",
+    "place": "Western Australia · November 1932",
+    "stickers": [
+     {
+      "text": "2 MACHINE GUNS",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "10,000 ROUNDS",
+      "at": 3.0,
+      "color": "#1F8A4A"
+     }
+    ]
    }
   },
   {
@@ -277,6 +267,13 @@
       "x": 0.3,
       "enter": "pop"
      }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.6
+     }
     ]
    }
   },
@@ -291,6 +288,13 @@
       "id": "meredith",
       "pose": "hips",
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.15,
+      "s": 0.7
      }
     ],
     "cam": "close",
@@ -335,74 +339,76 @@
   },
   {
    "who": "N",
-   "say": "And that's not even the only ridiculous war in history."
-  },
-  {
-   "who": "N",
-   "say": "Today we're counting down seven ridiculous wars, fought over a kettle, a bucket, an ear, a pig and, yes, emus.",
+   "say": "Today we're counting down six of the most ridiculous wars in history, fought over a soup kettle, a bucket, an ear, a pig and, yes, emus.",
    "show": {
     "k": "scene",
     "bg": "white",
     "cast": [
      {
       "id": "cook",
-      "x": 0.2,
+      "x": 0.14,
       "pose": "shrug"
      },
      {
+      "id": "modenese",
+      "x": 0.32,
+      "pose": "cheer"
+     },
+     {
       "id": "jenkins",
-      "x": 0.4,
+      "x": 0.5,
       "pose": "point"
      },
      {
       "id": "pig",
-      "x": 0.6
+      "x": 0.68
      },
      {
       "id": "emu",
-      "x": 0.8,
+      "x": 0.86,
       "mood": "smug"
      }
     ]
    }
   },
   {
-   "hold": 2.5,
    "show": {
     "k": "title",
     "text": "The Most Ridiculous Wars in History",
-    "sub": "Seven wars. All real. Well, mostly.",
+    "sub": "Six wars. All real. Well, mostly.",
     "cast": [
      {
       "id": "emu",
-      "x": 0.8,
-      "mood": "smug"
+      "x": 0.9,
+      "mood": "smug",
+      "s": 0.8
      },
      {
       "id": "pig",
-      "x": 0.2
+      "x": 0.1,
+      "s": 0.8
      }
     ]
-   }
+   },
+   "hold": 2.5
   },
   {
-   "hold": 2.5,
    "show": {
     "k": "list",
-    "n": "7",
+    "n": "6",
     "title": "The Kettle War"
-   }
+   },
+   "hold": 2.5
   },
   {
    "who": "N",
-   "say": "Number seven: the Kettle War of 1784.",
+   "say": "Number six: the Kettle War of 1784.",
    "show": {
     "k": "map",
     "lon": 4.4,
     "lat": 51.6,
     "z0": 2.2,
     "z1": 3.2,
-    "date": "1784",
     "labels": [
      [
       "Antwerp",
@@ -427,7 +433,7 @@
      [
       4.1,
       51.35,
-      0.25,
+      0.5,
       "rgba(200,60,40,0.35)"
      ]
     ]
@@ -435,11 +441,42 @@
   },
   {
    "who": "N",
-   "say": "Quick setup: for about two hundred years, the Dutch had kept the river Scheldt closed to trade ships, which cut the port of Antwerp off from the sea."
+   "say": "Antwerp is a port city on the river Scheldt, in what's now Belgium."
   },
   {
    "who": "N",
-   "say": "By 1784, Antwerp belonged to the Austrian Habsburgs, and their emperor, Joseph the Second, was sick of it.",
+   "say": "But for about two hundred years, the Dutch had kept that river closed to trade ships, which cut Antwerp off from the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "dutch",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.6,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.8,
+      "text": "RIVER CLOSED"
+     }
+    ],
+    "place": "River Scheldt · 1784"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1784, Antwerp belonged to Austria, and its emperor, Joseph the Second, was sick of it.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -451,9 +488,22 @@
       "mood": "angry"
      }
     ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "austria",
+      "s": 0.8
+     },
+     {
+      "k": "crown",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
     "tag": {
      "id": "joseph",
-     "text": "Emperor Joseph II"
+     "text": "Emperor Joseph II of Austria"
     }
    }
   },
@@ -463,22 +513,22 @@
   },
   {
    "who": "N",
-   "say": "So he sent three ships down the Scheldt, including a ship called Le Louis, flying the emperor's own flag.",
+   "say": "So he sent ships down the Scheldt, including one called Le Louis, flying the emperor's own flag.",
    "show": {
     "k": "scene",
-    "bg": "deck",
-    "cast": [
+    "bg": "sea",
+    "cast": [],
+    "objects": [
      {
-      "id": "cook",
-      "x": 0.4,
-      "pose": "hold",
-      "mood": "happy"
-     },
-     {
-      "id": "joseph",
-      "x": 0.72,
-      "hold": "flag",
-      "pose": "hold"
+      "k": "sailship",
+      "x": 0.45,
+      "s": 0.8,
+      "flag": "austria",
+      "move": [
+       0.2,
+       0.55
+      ],
+      "label": "Le Louis"
      }
     ],
     "cam": "pan"
@@ -486,7 +536,7 @@
   },
   {
    "who": "N",
-   "say": "His logic was simple: surely the Dutch would never dare fire on the emperor's flag."
+   "say": "His thinking: surely the Dutch would never dare fire at the emperor's flag."
   },
   {
    "who": "N",
@@ -494,6 +544,32 @@
    "show": {
     "k": "scene",
     "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.25,
+      "s": 0.7,
+      "flag": "netherlands",
+      "label": "Dolfijn"
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.7,
+      "flag": "austria",
+      "flip": true,
+      "label": "Le Louis"
+     }
+    ]
+   }
+  },
+  {
+   "who": "dutch",
+   "say": "Stop right there!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
     "cast": [
      {
       "id": "dutch",
@@ -503,15 +579,18 @@
      },
      {
       "id": "cook",
-      "x": 0.75,
+      "x": 0.62,
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.12,
+      "s": 0.7
      }
     ]
    }
-  },
-  {
-   "who": "dutch",
-   "say": "Stop right there!"
   },
   {
    "who": "cook",
@@ -523,20 +602,30 @@
    "show": {
     "k": "scene",
     "bg": "sea",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "dutch",
-      "x": 0.3,
-      "pose": "aim"
+      "k": "sailship",
+      "x": 0.25,
+      "s": 0.7,
+      "flag": "netherlands"
      },
      {
-      "id": "cook",
+      "k": "explosion_cloud",
+      "x": 0.72,
+      "s": 0.5,
+      "y": 0.1
+     },
+     {
+      "k": "sailship",
       "x": 0.75,
-      "mood": "shock"
+      "s": 0.7,
+      "flag": "austria",
+      "flip": true
      }
     ],
     "fx": [
-     "explosion"
+     "smoke"
     ],
     "cam": "shake"
    }
@@ -555,19 +644,39 @@
       "mood": "shock"
      }
     ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.8
+     }
+    ],
     "fx": [
      "smoke"
     ],
     "stickers": [
      {
-      "text": "SOUP: 0",
-      "at": 1.5,
-      "color": "#A8322A"
+      "text": "SOUP KETTLE",
+      "at": 0.8,
+      "color": "#7A5A3A",
+      "x": 0.72
      },
      {
       "text": "DUTCH: 1",
-      "at": 2.5,
-      "color": "#E07A2A"
+      "at": 2.0,
+      "color": "#E07A2A",
+      "x": 0.72
+     },
+     {
+      "text": "SOUP: 0",
+      "at": 2.8,
+      "color": "#A8322A",
+      "x": 0.72
      }
     ]
    }
@@ -582,7 +691,7 @@
   },
   {
    "who": "N",
-   "say": "The emperor did declare war a few weeks later, but France stepped in to calm everyone down.",
+   "say": "Joseph did declare war, but France stepped in to calm everyone down.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -598,12 +707,52 @@
       "x": 0.7,
       "pose": "shrug"
      }
-    ]
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.5,
+      "flag": "france",
+      "s": 0.8
+     }
+    ],
+    "place": "Fontainebleau, France · 1785"
    }
   },
   {
    "who": "N",
-   "say": "In the Treaty of Fontainebleau in 1785, the Scheldt stayed closed, and the Dutch paid the emperor millions of guilders to make the whole thing go away."
+   "say": "In a treaty signed in 1785, the river stayed closed, and the Dutch paid the emperor millions of guilders to make it all go away.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "joseph",
+      "x": 0.62,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.25,
+      "s": 0.9
+     },
+     {
+      "k": "chest",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MILLIONS OF GUILDERS",
+      "at": 1.5,
+      "color": "#C9A04A"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -619,6 +768,13 @@
       "mood": "sad"
      }
     ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
     "stickers": [
      {
       "text": "R.I.P. SOUP",
@@ -629,259 +785,12 @@
    }
   },
   {
-   "hold": 2.5,
-   "show": {
-    "k": "list",
-    "n": "6",
-    "title": "The 335 Years' War"
-   }
-  },
-  {
-   "who": "N",
-   "say": "Number six is a war that supposedly lasted three hundred and thirty-five years without a single shot being fired.",
-   "show": {
-    "k": "map",
-    "lon": -1.0,
-    "lat": 51.5,
-    "z0": 1.8,
-    "z1": 2.4,
-    "date": "1651",
-    "labels": [
-     [
-      "Isles of Scilly",
-      -6.32,
-      49.93,
-      0
-     ],
-     [
-      "Netherlands",
-      5.3,
-      52.1,
-      0
-     ],
-     [
-      "London",
-      -0.13,
-      51.5,
-      0
-     ]
-    ],
-    "route": [
-     [
-      4.3,
-      52.1
-     ],
-     [
-      2.0,
-      51.2
-     ],
-     [
-      -2.0,
-      50.0
-     ],
-     [
-      -6.2,
-      49.95
-     ]
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "And I say supposedly, because historians aren't sure this war ever really existed, so file this one under legend with paperwork."
-  },
-  {
-   "who": "N",
-   "say": "In 1651, England was wrapping up a civil war, and some of the last Royalists were holding out on the Isles of Scilly, a tiny island chain off Cornwall.",
-   "show": {
-    "k": "scene",
-    "bg": "harbor",
-    "cast": [
-     {
-      "id": "royalist",
-      "x": 0.5,
-      "pose": "hips",
-      "mood": "smug"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Royalist ships had been seizing Dutch ships and cargo, so the Dutch sent Admiral Maarten Tromp to demand compensation.",
-   "show": {
-    "k": "scene",
-    "bg": "sea",
-    "cast": [
-     {
-      "id": "tromp",
-      "x": 0.35,
-      "pose": "point",
-      "mood": "angry"
-     },
-     {
-      "id": "royalist",
-      "x": 0.72,
-      "pose": "shrug"
-     }
-    ],
-    "tag": {
-     "id": "tromp",
-     "text": "Admiral Maarten Tromp"
-    }
-   }
-  },
-  {
-   "who": "tromp",
-   "say": "Pay us back for our ships, or else!"
-  },
-  {
-   "who": "royalist",
-   "say": "Or else what?"
-  },
-  {
-   "who": "N",
-   "say": "According to a letter from the time, when Tromp got no satisfying answer, he said he had declared war on the islands."
-  },
-  {
-   "who": "N",
-   "say": "A few months later, the Royalists surrendered to the English Parliament's navy anyway, and the Dutch sailed home without firing a shot.",
-   "show": {
-    "k": "scene",
-    "bg": "ocean",
-    "cast": [
-     {
-      "id": "tromp",
-      "x": 0.5,
-      "walk": [
-       0.5,
-       1.1
-      ],
-      "pose": "walk"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "And then everybody forgot about it, for more than three centuries.",
-   "show": {
-    "k": "card",
-    "label": "Time spent at 'war'",
-    "big": "335 YEARS",
-    "sub": "1651 to 1986, zero shots fired"
-   }
-  },
-  {
-   "who": "N",
-   "say": "In the mid-1980s, a local historian named Roy Duncan looked into the old story and wrote to the Dutch embassy in London.",
-   "show": {
-    "k": "scene",
-    "bg": "office",
-    "cast": [
-     {
-      "id": "duncan",
-      "x": 0.5,
-      "hold": "letter",
-      "pose": "hold"
-     }
-    ],
-    "tag": {
-     "id": "duncan",
-     "text": "Roy Duncan"
-    }
-   }
-  },
-  {
-   "who": "duncan",
-   "say": "Quick question: are we still at war with you?"
-  },
-  {
-   "who": "N",
-   "say": "Embassy staff checked, and they couldn't find a peace treaty anywhere.",
-   "show": {
-    "k": "scene",
-    "bg": "library",
-    "cast": [
-     {
-      "id": "huydecoper",
-      "x": 0.5,
-      "hold": "book",
-      "pose": "think",
-      "mood": "shock"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "So the Dutch ambassador, Rein Huydecoper, visited the islands, and on the seventeenth of April 1986, peace was officially declared.",
-   "show": {
-    "k": "scene",
-    "bg": "harbor",
-    "cast": [
-     {
-      "id": "huydecoper",
-      "x": 0.35,
-      "pose": "wave",
-      "mood": "happy"
-     },
-     {
-      "id": "duncan",
-      "x": 0.65,
-      "pose": "cheer",
-      "mood": "happy"
-     }
-    ],
-    "fx": [
-     "confetti"
-    ],
-    "tag": {
-     "id": "huydecoper",
-     "text": "Ambassador Rein Huydecoper"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "The ambassador joked about the terror the islanders must have lived with."
-  },
-  {
-   "hold": 4.5,
-   "show": {
-    "k": "quote",
-    "text": "…to know we could have attacked at any moment.",
-    "who": "Dutch ambassador Rein Huydecoper, joking at the 1986 peace ceremony"
-   }
-  },
-  {
-   "who": "N",
-   "say": "Skeptics point out that an admiral isn't a country and Scilly was part of England, so it was probably never a real war. But it was a great excuse for a party.",
-   "show": {
-    "k": "scene",
-    "bg": "harbor",
-    "cast": [
-     {
-      "id": "duncan",
-      "x": 0.4,
-      "pose": "shrug",
-      "mood": "happy"
-     },
-     {
-      "id": "huydecoper",
-      "x": 0.65,
-      "pose": "cheer"
-     }
-    ]
-   }
-  },
-  {
-   "hold": 2.5,
    "show": {
     "k": "list",
     "n": "5",
     "title": "The War of the Bucket"
-   }
+   },
+   "hold": 2.5
   },
   {
    "who": "N",
@@ -892,7 +801,6 @@
     "lat": 44.6,
     "z0": 3.0,
     "z1": 4.0,
-    "date": "1325",
     "labels": [
      [
       "Modena",
@@ -917,25 +825,25 @@
      [
       10.93,
       44.65,
-      0.12,
-      "rgba(47,111,194,0.35)"
+      0.25,
+      "rgba(47,111,194,0.45)"
      ],
      [
       11.34,
       44.49,
-      0.12,
-      "rgba(168,50,42,0.35)"
+      0.25,
+      "rgba(168,50,42,0.45)"
      ]
     ]
    }
   },
   {
    "who": "N",
-   "say": "Modena and Bologna are two cities about twenty-five miles apart, and in the thirteen hundreds they could not stand each other."
+   "say": "Modena and Bologna are two cities about twenty-five miles apart, and back then they could not stand each other."
   },
   {
    "who": "N",
-   "say": "Bologna backed the Pope, Modena backed the Holy Roman Emperor, and the border between them was basically one long argument.",
+   "say": "Bologna backed the Pope. Modena backed the Holy Roman Emperor, a powerful German ruler who also claimed northern Italy.",
    "show": {
     "k": "compare",
     "bg": "town",
@@ -965,7 +873,7 @@
   },
   {
    "who": "N",
-   "say": "Now, the legend goes like this: some soldiers from Modena snuck into Bologna and stole a wooden bucket from the town well.",
+   "say": "The legend says soldiers from Modena snuck into Bologna and stole a wooden bucket from the town well, and that started a war.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -975,19 +883,28 @@
       "x": 0.3,
       "walk": [
        0.3,
-       0.8
+       0.75
       ],
       "pose": "run",
       "mood": "smug"
      }
     ],
-    "stickers": [
+    "objects": [
      {
-      "text": "THE BUCKET",
-      "at": 1.2,
-      "color": "#7A5A3A"
+      "k": "barrel",
+      "x": 0.3,
+      "s": 0.6,
+      "front": true,
+      "label": "THE BUCKET"
+     },
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.8,
+      "text": "BOLOGNA"
      }
-    ]
+    ],
+    "place": "Bologna, Italy · 1325"
    }
   },
   {
@@ -1009,6 +926,13 @@
       "pose": "shrug",
       "mood": "smug"
      }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.6
+     }
     ]
    }
   },
@@ -1018,55 +942,40 @@
   },
   {
    "who": "N",
-   "say": "And that, supposedly, started a war."
-  },
-  {
-   "who": "N",
-   "say": "Here's the twist: that part is mostly a myth.",
-   "show": {
-    "k": "scene",
-    "bg": "library",
-    "cast": [
-     {
-      "id": "passerino",
-      "x": 0.5,
-      "pose": "think"
-     }
-    ],
-    "cam": "close",
-    "focus": "passerino"
-   }
-  },
-  {
-   "who": "N",
-   "say": "The real trigger was that Modena grabbed an important Bolognese castle called Monteveglio in September 1325.",
+   "say": "The real story is a bit different. The real trigger was a castle.",
    "show": {
     "k": "scene",
     "bg": "castle",
     "cast": [
      {
-      "id": "modenese",
-      "x": 0.4,
-      "hold": "flag",
-      "pose": "cheer",
-      "mood": "happy"
-     },
-     {
       "id": "passerino",
-      "x": 0.65,
+      "x": 0.75,
       "pose": "hips",
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.3,
+      "s": 0.5,
+      "flag": "red"
      }
     ],
     "tag": {
      "id": "passerino",
      "text": "Passerino Bonacolsi, lord of Modena"
-    }
+    },
+    "place": "Monteveglio castle · September 1325"
    }
   },
   {
    "who": "N",
-   "say": "So in November, Bologna marched out with an army of around thirty-two thousand men, against about seven thousand from Modena.",
+   "say": "In September 1325, Modena grabbed an important Bolognese castle called Monteveglio."
+  },
+  {
+   "who": "N",
+   "say": "So in November, Bologna marched out with around thirty-two thousand men, against about seven thousand from Modena.",
    "show": {
     "k": "card",
     "label": "Battle of Zappolino, 1325",
@@ -1076,11 +985,11 @@
   },
   {
    "who": "N",
-   "say": "Easy win for Bologna, right?"
+   "say": "Easy win for Bologna, right? Nope."
   },
   {
    "who": "N",
-   "say": "Nope. Modena had professional German soldiers sent by the emperor, while the giant Bolognese army was mostly untrained.",
+   "say": "Modena had professional German soldiers sent by the emperor, while the giant Bolognese army was mostly untrained.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -1089,7 +998,8 @@
       "id": "modenese",
       "x": 0.3,
       "pose": "fist",
-      "mood": "shout"
+      "mood": "shout",
+      "hold": "sword"
      },
      {
       "id": "bolognese",
@@ -1098,23 +1008,39 @@
       "mood": "scared"
      }
     ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
     "fx": [
      "dust"
     ],
-    "cam": "shake"
+    "cam": "shake",
+    "place": "Zappolino · November 1325"
    }
   },
   {
    "who": "N",
-   "say": "The Battle of Zappolino was over within a couple of hours, and the Bolognese were routed."
-  },
-  {
-   "who": "N",
-   "say": "For the people who were there, this was no joke: around two thousand men lost their lives.",
+   "say": "The Bolognese were routed within a couple of hours, and this part was no joke: around two thousand men died.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
     "cast": [],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ],
     "cam": "still",
     "fx": [
      "smoke"
@@ -1123,23 +1049,29 @@
   },
   {
    "who": "N",
-   "say": "On the way home, the Modenese took a bucket from a well just outside one of Bologna's gates, as a trophy.",
+   "say": "On the way home, the winners took a bucket from a well just outside Bologna's gates, as a trophy.",
    "show": {
     "k": "scene",
     "bg": "town",
     "cast": [
      {
       "id": "modenese",
-      "x": 0.5,
+      "x": 0.65,
       "pose": "cheer",
       "mood": "happy"
      }
     ],
-    "stickers": [
+    "objects": [
      {
-      "text": "TROPHY",
-      "at": 1.0,
-      "color": "#E8C25A"
+      "k": "gate",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.45,
+      "s": 0.6,
+      "label": "TROPHY"
      }
     ]
    }
@@ -1150,22 +1082,27 @@
   },
   {
    "who": "N",
-   "say": "They even held a victory race right outside Bologna's walls, just to rub it in."
-  },
-  {
-   "who": "N",
-   "say": "And the bucket? Modena still has it. The original sits in the town hall, and a replica hangs in the city's famous bell tower.",
+   "say": "And Modena still has it. The original sits in the town hall, and a copy hangs in the city's bell tower.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
       "id": "passerino",
-      "x": 0.5,
+      "x": 0.65,
       "pose": "present",
       "mood": "smug"
      }
     ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.3,
+      "s": 0.7,
+      "label": "THE BUCKET"
+     }
+    ],
+    "place": "Modena town hall · today",
     "stickers": [
      {
       "text": "STILL NOT GIVING IT BACK",
@@ -1176,56 +1113,75 @@
    }
   },
   {
-   "who": "N",
-   "say": "Seven hundred years later, and they are still not giving it back."
-  },
-  {
-   "hold": 2.5,
    "show": {
     "k": "list",
     "n": "4",
     "title": "The War of Jenkins' Ear"
-   }
+   },
+   "hold": 2.5
   },
   {
    "who": "N",
-   "say": "Number four: the War of Jenkins' Ear, which is a real name that real historians use, I promise.",
+   "say": "Number four: the War of Jenkins' Ear. Yes, historians really call it that.",
    "show": {
     "k": "scene",
-    "bg": "deck",
-    "cast": [
+    "bg": "field",
+    "cast": [],
+    "objects": [
      {
-      "id": "jenkins",
-      "x": 0.5,
-      "pose": "wave",
-      "mood": "happy"
+      "k": "flag",
+      "x": 0.3,
+      "flag": "uk"
+     },
+     {
+      "k": "flag",
+      "x": 0.7,
+      "flag": "spain"
      }
     ],
-    "tag": {
-     "id": "jenkins",
-     "text": "Captain Robert Jenkins"
-    }
+    "stickers": [
+     {
+      "text": "BRITAIN",
+      "at": 0.8,
+      "color": "#2F6FC2",
+      "x": 0.3
+     },
+     {
+      "text": "SPAIN",
+      "at": 1.5,
+      "color": "#A8322A",
+      "x": 0.7
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "It's April 1731, and a British captain named Robert Jenkins is sailing his ship, the Rebecca, home from Jamaica.",
+   "say": "It's 1731, and Robert Jenkins, a British sea captain, is sailing his ship, the Rebecca, home from Jamaica.",
    "show": {
     "k": "scene",
     "bg": "sea",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "jenkins",
-      "x": 0.4,
-      "pose": "point"
+      "k": "sailship",
+      "x": 0.45,
+      "s": 0.8,
+      "flag": "uk",
+      "move": [
+       0.25,
+       0.55
+      ],
+      "label": "Rebecca"
      }
     ],
-    "cam": "pan"
+    "cam": "pan",
+    "place": "Caribbean Sea · 1731"
    }
   },
   {
    "who": "N",
-   "say": "A Spanish coast guard ship stops him on suspicion of smuggling, and to be fair, historians say his ship really was a smuggler.",
+   "say": "A Spanish coast guard ship stops him on suspicion of smuggling, and to be fair, historians say he probably was.",
    "show": {
     "k": "scene",
     "bg": "deck",
@@ -1243,9 +1199,17 @@
       "mood": "smug"
      }
     ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.6,
+      "label": "CARGO?"
+     }
+    ],
     "tag": {
      "id": "fandino",
-     "text": "Juan de León Fandiño"
+     "text": "Juan de León Fandiño, Spanish captain"
     }
    }
   },
@@ -1280,15 +1244,32 @@
   },
   {
    "who": "jenkins",
-   "say": "Wait, you're giving me my ear back?"
+   "say": "Wait, you're giving me my ear back?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "jenkins",
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "jenkins",
+    "tag": {
+     "id": "jenkins",
+     "text": "Captain Robert Jenkins"
+    }
+   }
   },
   {
    "who": "N",
-   "say": "Yep. One newspaper report from 1731 says they handed him the piece of his ear and told him to take it to the king."
+   "say": "Yep. A newspaper report from 1731 says they handed him the piece of his ear and told him to take it to the king."
   },
   {
    "who": "N",
-   "say": "Jenkins made it home and took his complaint to the royal court, and then, well, nothing much happened for seven years.",
+   "say": "Jenkins complained to the king's government, and then nothing much happened for seven years.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -1303,19 +1284,26 @@
       "x": 0.7,
       "pose": "shrug"
      }
-    ]
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "place": "London · 1731"
    }
   },
   {
    "who": "N",
-   "say": "By 1738, British merchants were furious about Spanish ships searching their vessels, and the politicians who wanted war with Spain needed a mascot.",
+   "say": "By 1738, British merchants were furious that Spanish ships kept searching their ships, and politicians who wanted war needed a symbol.",
    "show": {
     "k": "map",
     "lon": -3.0,
     "lat": 46.0,
     "z0": 1.3,
     "z1": 1.7,
-    "date": "1738",
     "labels": [
      [
       "London",
@@ -1352,7 +1340,7 @@
   },
   {
    "who": "N",
-   "say": "The famous story says Jenkins went before a committee of Parliament and showed them his ear, pickled in a jar.",
+   "say": "The famous story says he showed Parliament his ear, pickled in a jar.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -1360,7 +1348,6 @@
      {
       "id": "jenkins",
       "x": 0.35,
-      "hold": "bottle",
       "pose": "present",
       "mood": "smug"
      },
@@ -1370,7 +1357,16 @@
       "pose": "scared",
       "mood": "shock"
      }
-    ]
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.52,
+      "s": 0.5,
+      "front": true
+     }
+    ],
+    "place": "Parliament, London · 1738"
    }
   },
   {
@@ -1383,7 +1379,7 @@
   },
   {
    "who": "N",
-   "say": "Some historians say there's no solid evidence for that dramatic jar scene, but the story spread like wildfire anyway."
+   "say": "Historians doubt the jar scene, but the story spread like wildfire."
   },
   {
    "who": "N",
@@ -1394,14 +1390,27 @@
     "cast": [
      {
       "id": "walpole",
-      "x": 0.5,
+      "x": 0.55,
       "pose": "facepalm",
       "mood": "sad"
      }
     ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.2,
+      "s": 0.8
+     },
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "uk",
+      "s": 0.7
+     }
+    ],
     "tag": {
      "id": "walpole",
-     "text": "Sir Robert Walpole"
+     "text": "Sir Robert Walpole, Prime Minister"
     }
    }
   },
@@ -1411,31 +1420,107 @@
   },
   {
    "who": "N",
-   "say": "And this one was not small."
-  },
-  {
-   "who": "N",
-   "say": "The biggest British attack, on Cartagena in South America in 1741, was a disaster with heavy losses.",
+   "say": "And it was not a small war. The biggest British attack, on Cartagena in South America in 1741, was a disaster with heavy losses.",
    "show": {
     "k": "scene",
     "bg": "ocean",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "jenkins",
-      "x": 0.5,
-      "pose": "scared",
-      "mood": "scared"
+      "k": "sailship",
+      "x": 0.28,
+      "s": 0.7,
+      "flag": "uk"
+     },
+     {
+      "k": "sailship",
+      "x": 0.55,
+      "s": 0.5,
+      "flag": "uk"
+     },
+     {
+      "k": "sailship",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "spain",
+      "flip": true
      }
     ],
     "fx": [
      "smoke"
     ],
-    "cam": "still"
+    "cam": "still",
+    "place": "Cartagena, South America · 1741"
    }
   },
   {
    "who": "N",
-   "say": "The fighting soon merged into a much bigger European war, the War of the Austrian Succession, and only formally ended in 1748."
+   "say": "The fighting merged into a much bigger European war, and only formally ended in 1748.",
+   "show": {
+    "k": "map",
+    "lon": 8.0,
+    "lat": 48.0,
+    "z0": 1.0,
+    "z1": 1.3,
+    "labels": [
+     [
+      "Britain",
+      -1.5,
+      52.5,
+      0
+     ],
+     [
+      "Spain",
+      -3.7,
+      40.4,
+      0
+     ],
+     [
+      "France",
+      2.3,
+      47.0,
+      0
+     ],
+     [
+      "Austria",
+      15.0,
+      47.8,
+      0
+     ],
+     [
+      "Prussia",
+      13.4,
+      52.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -1.5,
+      52.5,
+      2.5,
+      "rgba(168,50,42,0.25)"
+     ],
+     [
+      -3.7,
+      40.4,
+      3.0,
+      "rgba(232,194,90,0.3)"
+     ],
+     [
+      2.3,
+      47.0,
+      3.0,
+      "rgba(47,111,194,0.25)"
+     ],
+     [
+      15.0,
+      47.8,
+      2.5,
+      "rgba(200,60,40,0.25)"
+     ]
+    ]
+   }
   },
   {
    "who": "N",
@@ -1448,19 +1533,30 @@
       "id": "jenkins",
       "x": 0.5,
       "pose": "sit",
-      "hold": "bottle",
       "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.25,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.8
      }
     ]
    }
   },
   {
-   "hold": 2.5,
    "show": {
     "k": "list",
     "n": "3",
     "title": "The Anglo-Zanzibar War"
-   }
+   },
+   "hold": 2.5
   },
   {
    "who": "N",
@@ -1468,14 +1564,13 @@
    "show": {
     "k": "scene",
     "bg": "harbor",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "brsailor",
-      "x": 0.3
-     },
-     {
-      "id": "cave",
-      "x": 0.65
+      "k": "battleship",
+      "x": 0.5,
+      "s": 0.8,
+      "flag": "uk"
      }
     ],
     "cam": "pan"
@@ -1483,21 +1578,38 @@
   },
   {
    "who": "N",
-   "say": "Zanzibar, an island off the coast of East Africa, in August 1896.",
+   "say": "Zanzibar is an island off the coast of East Africa.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [],
-    "cam": "push"
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "text": "ZANZIBAR"
+     },
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.8
+     },
+     {
+      "k": "palm",
+      "x": 0.9,
+      "s": 0.8
+     }
+    ],
+    "place": "Zanzibar, East Africa · August 1896"
    }
   },
   {
    "who": "N",
-   "say": "Zanzibar had a sultan but was a British protectorate, and the deal said any new sultan needed British approval."
+   "say": "In 1896, it had its own sultan, or king, but it was a British protectorate, which meant any new sultan needed Britain's approval."
   },
   {
    "who": "N",
-   "say": "On the twenty-fifth of August, the pro-British sultan died suddenly, and Khalid bin Barghash moved into the palace and took the throne without asking.",
+   "say": "On the twenty-fifth of August, the sultan died suddenly, and Khalid bin Barghash, from the royal family, took the throne without asking.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -1507,6 +1619,13 @@
       "x": 0.5,
       "pose": "hips",
       "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.6
      }
     ],
     "tag": {
@@ -1521,21 +1640,25 @@
   },
   {
    "who": "N",
-   "say": "The British wanted someone else, so they sent an ultimatum: take down your flag and leave the palace by nine in the morning on the twenty-seventh, or we open fire.",
+   "say": "Britain wanted someone else, so it sent an ultimatum: leave the palace by nine in the morning on the twenty-seventh, or we open fire.",
    "show": {
     "k": "scene",
     "bg": "harbor",
     "cast": [
      {
       "id": "cave",
-      "x": 0.4,
+      "x": 0.35,
       "hold": "letter",
       "pose": "hold",
       "mood": "angry"
-     },
+     }
+    ],
+    "objects": [
      {
-      "id": "brsailor",
-      "x": 0.7
+      "k": "battleship",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "uk"
      }
     ],
     "tag": {
@@ -1562,32 +1685,84 @@
       "mood": "angry"
      }
     ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "red",
+      "s": 0.8
+     }
+    ],
     "cam": "close",
     "focus": "khalid"
    }
   },
   {
    "who": "N",
-   "say": "Around two thousand eight hundred defenders barricaded themselves in and around the palace, while five British warships lined up in the harbor."
-  },
-  {
-   "who": "N",
-   "say": "Nine o'clock came. At two minutes past nine, the ships opened fire.",
+   "say": "About two thousand eight hundred defenders held the palace, while five British warships lined up in the harbor.",
    "show": {
     "k": "scene",
     "bg": "harbor",
-    "cast": [
+    "cast": [],
+    "objects": [
      {
-      "id": "brsailor",
-      "x": 0.5,
-      "pose": "scared",
-      "mood": "shock"
+      "k": "battleship",
+      "x": 0.25,
+      "s": 0.55,
+      "flag": "uk"
+     },
+     {
+      "k": "battleship",
+      "x": 0.72,
+      "s": 0.55,
+      "flag": "uk"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "5 WARSHIPS",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "2,800 DEFENDERS",
+      "at": 2.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At two minutes past nine, the ships opened fire.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.3,
+      "s": 0.6,
+      "flag": "uk"
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.75,
+      "s": 0.5
      }
     ],
     "fx": [
      "smoke"
     ],
-    "cam": "shake"
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "9:02 AM",
+      "at": 0.5,
+      "color": "#262322"
+     }
+    ]
    }
   },
   {
@@ -1602,11 +1777,23 @@
   },
   {
    "who": "N",
-   "say": "Now, the length is the ridiculous part, but the war itself was not a joke.",
+   "say": "The length is the ridiculous part, but the war itself was not a joke.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.3,
+      "s": 0.8
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ],
     "fx": [
      "smoke"
     ],
@@ -1615,41 +1802,35 @@
   },
   {
    "who": "N",
-   "say": "Around five hundred people on Khalid's side were killed or wounded, many of them when the palace caught fire, while on the British side one sailor was injured."
+   "say": "Around five hundred people on Khalid's side were killed or wounded. On the British side, one sailor was injured."
   },
   {
    "who": "N",
-   "say": "Khalid escaped to the German consulate and was later carried off on a German warship.",
-   "show": {
-    "k": "scene",
-    "bg": "ocean",
-    "cast": [
-     {
-      "id": "khalid",
-      "x": 0.5,
-      "walk": [
-       0.5,
-       1.1
-      ],
-      "pose": "walk",
-      "mood": "scared"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "And then came the coldest part: Britain made Khalid's supporters pay for the shells that had been fired at them, plus damages from looting.",
+   "say": "Khalid escaped to the German consulate, and Britain later made his supporters pay for the shells that had been fired at them.",
    "show": {
     "k": "scene",
     "bg": "office",
     "cast": [
      {
       "id": "cave",
-      "x": 0.5,
+      "x": 0.62,
       "hold": "letter",
       "pose": "present",
       "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.25,
+      "s": 0.8
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.25,
+      "s": 0.5,
+      "y": 0.12,
+      "text": "THE BILL: for the shells"
      }
     ],
     "stickers": [
@@ -1662,16 +1843,16 @@
    }
   },
   {
-   "hold": 2.5,
    "show": {
     "k": "list",
     "n": "2",
     "title": "The Pig War"
-   }
+   },
+   "hold": 2.5
   },
   {
    "who": "N",
-   "say": "Number two: the Pig War, and yes, there is a pig.",
+   "say": "Number two: the Pig War. And yes, there is a pig.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1680,40 +1861,93 @@
       "id": "pig",
       "x": 0.5,
       "enter": "pop",
-      "mood": "happy"
+      "mood": "happy",
+      "s": 1.4
      }
     ],
-    "cam": "close",
-    "focus": "pig"
-   }
-  },
-  {
-   "who": "N",
-   "say": "In 1859, the United States and Britain both claimed San Juan Island, which sits between today's Washington State and Vancouver Island in Canada.",
-   "show": {
-    "k": "scene",
-    "bg": "village",
-    "cast": [
+    "objects": [
      {
-      "id": "bluecoat",
-      "x": 0.3,
-      "pose": "point"
-     },
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
      {
-      "id": "marine",
-      "x": 0.7,
-      "pose": "point"
+      "text": "THE PIG",
+      "at": 1.0,
+      "color": "#262322",
+      "x": 0.5
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "A treaty said the border ran down the middle of the channel, but there were two channels, and the island sat right between them."
+   "say": "In 1859, the United States and Britain both claimed San Juan Island, which sits between today's Washington State and Canada.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "bluecoat",
+      "x": 0.35,
+      "pose": "point"
+     },
+     {
+      "id": "marine",
+      "x": 0.65,
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.1,
+      "flag": "usa",
+      "s": 0.8
+     },
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "uk",
+      "s": 0.8
+     }
+    ],
+    "place": "San Juan Island · 1859"
+   }
   },
   {
    "who": "N",
-   "say": "On the fifteenth of June 1859, an American farmer named Lyman Cutlar found a pig rooting around in his garden.",
+   "say": "A treaty said the border ran down the middle of the channel, but there were two channels, and the island sat between them.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "text": "WHOSE ISLAND?"
+     },
+     {
+      "k": "flag",
+      "x": 0.2,
+      "flag": "usa",
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "uk",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the fifteenth of June 1859, an American farmer named Lyman Cutlar found a pig rooting around in his garden. Again.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1730,15 +1964,18 @@
       "mood": "happy"
      }
     ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
     "tag": {
      "id": "cutlar",
-     "text": "Lyman Cutlar"
+     "text": "Lyman Cutlar, American farmer"
     }
    }
-  },
-  {
-   "who": "N",
-   "say": "And it was not the first time."
   },
   {
    "who": "cutlar",
@@ -1765,6 +2002,13 @@
       "exitAt": 1.0
      }
     ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
     "fx": [
      "smoke"
     ]
@@ -1772,10 +2016,10 @@
   },
   {
    "who": "N",
-   "say": "The pig belonged to Charles Griffin, who ran a sheep farm on the island for Britain's Hudson's Bay Company.",
+   "say": "The pig belonged to Charles Griffin, who ran a sheep farm on the island for a British company, the Hudson's Bay Company.",
    "show": {
     "k": "scene",
-    "bg": "field",
+    "bg": "village",
     "cast": [
      {
       "id": "griffin",
@@ -1784,9 +2028,17 @@
       "mood": "angry"
      }
     ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "flag": "uk",
+      "s": 0.7
+     }
+    ],
     "tag": {
      "id": "griffin",
-     "text": "Charles Griffin"
+     "text": "Charles Griffin, British farm manager"
     }
    }
   },
@@ -1826,18 +2078,6 @@
   },
   {
    "who": "N",
-   "say": "There's a story, probably made up, that the two men had this exchange."
-  },
-  {
-   "who": "cutlar",
-   "say": "It was eating my potatoes!"
-  },
-  {
-   "who": "griffin",
-   "say": "Then keep your potatoes out of my pig!"
-  },
-  {
-   "who": "N",
    "say": "When British officials threatened to arrest Cutlar, the American settlers asked the U.S. Army for protection."
   },
   {
@@ -1855,13 +2095,33 @@
      },
      {
       "id": "bluecoat",
-      "x": 0.7
+      "x": 0.62
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "usa",
+      "s": 0.8
      }
     ],
     "tag": {
      "id": "pickett",
      "text": "Captain George Pickett"
-    }
+    },
+    "stickers": [
+     {
+      "text": "64 SOLDIERS",
+      "at": 1.5,
+      "color": "#2F6FC2"
+     }
+    ]
    }
   },
   {
@@ -1875,25 +2135,59 @@
     "k": "card",
     "label": "San Juan Island, August 1859",
     "big": "461",
-    "sub": "US soldiers, facing British warships with over 2,000 men"
+    "sub": "US soldiers and 14 cannons, facing British warships with over 2,000 men"
    }
   },
   {
    "who": "N",
-   "say": "All over one dead pig."
+   "say": "All over one dead pig.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.6,
+      "flag": "uk"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "uk"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OVER ONE PIG",
+      "at": 0.6,
+      "color": "#A8322A",
+      "x": 0.5
+     }
+    ]
+   }
   },
   {
    "who": "N",
-   "say": "Luckily, the British naval commander in the Pacific, Rear Admiral Robert Baynes, took one look and refused to start shooting.",
+   "say": "Luckily, the British admiral in charge, Rear Admiral Robert Baynes, took one look and refused to start shooting.",
    "show": {
     "k": "scene",
     "bg": "deck",
     "cast": [
      {
       "id": "baynes",
-      "x": 0.5,
+      "x": 0.55,
       "pose": "facepalm",
       "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.7
      }
     ],
     "tag": {
@@ -1907,16 +2201,16 @@
    "say": "He told the local governor he would not do this."
   },
   {
-   "hold": 4.0,
    "show": {
     "k": "quote",
     "text": "Involve two great nations in a war over a squabble about a pig.",
     "who": "Rear Admiral Robert Lambert Baynes, 1859"
-   }
+   },
+   "hold": 4.0
   },
   {
    "who": "N",
-   "say": "Meanwhile, on the island, things got weirdly friendly: officers from both sides went to church together and shared whisky and cigars.",
+   "say": "Meanwhile, on the island, officers from both sides went to church together and shared whisky and cigars.",
    "show": {
     "k": "scene",
     "bg": "tavern",
@@ -1935,16 +2229,28 @@
       "pose": "cheer",
       "mood": "happy"
      }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.1,
+      "s": 0.7
+     },
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.7
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The two countries agreed to share the island, and that joint military occupation lasted twelve years."
+   "say": "The two countries shared the island for twelve years."
   },
   {
    "who": "N",
-   "say": "Finally, the question went to Germany's Kaiser Wilhelm the First, and in 1872 his arbitration commission gave the islands to the United States.",
+   "say": "Finally, they asked Germany's emperor, Kaiser Wilhelm the First, to settle it, and in 1872 a panel he chose gave the islands to the United States.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -1956,15 +2262,30 @@
       "pose": "present"
      }
     ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "germany1914",
+      "s": 0.8
+     },
+     {
+      "k": "flag",
+      "x": 0.78,
+      "flag": "usa",
+      "s": 0.8
+     }
+    ],
     "tag": {
      "id": "kaiser",
-     "text": "Kaiser Wilhelm I"
-    }
+     "text": "Kaiser Wilhelm I of Germany"
+    },
+    "place": "Berlin · 1872"
    }
   },
   {
    "who": "N",
-   "say": "Final body count of the Pig War: one pig.",
+   "say": "Final body count: one pig.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1973,6 +2294,13 @@
       "id": "pig",
       "x": 0.5,
       "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.8
      }
     ],
     "stickers": [
@@ -1986,12 +2314,12 @@
    }
   },
   {
-   "hold": 2.5,
    "show": {
     "k": "list",
     "n": "1",
     "title": "The Great Emu War"
-   }
+   },
+   "hold": 2.5
   },
   {
    "who": "N",
@@ -2014,23 +2342,37 @@
   },
   {
    "who": "N",
-   "say": "After World War One, Australia gave thousands of veterans land to farm in Western Australia, often pretty marginal land.",
+   "say": "After World War One, Australia gave thousands of ex-soldiers land to farm in Western Australia, often pretty poor land.",
    "show": {
     "k": "scene",
     "bg": "wheat",
     "cast": [
      {
       "id": "farmer",
-      "x": 0.5,
+      "x": 0.45,
       "hold": "pitchfork",
       "pose": "hold"
      }
-    ]
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.8,
+      "text": "WHEAT FARM"
+     }
+    ],
+    "place": "Western Australia · 1932"
    }
   },
   {
    "who": "N",
-   "say": "Then the Great Depression hit, wheat prices kept falling, and in 1932 an estimated twenty thousand emus showed up.",
+   "say": "Then the Great Depression hit, wheat prices fell, and in 1932 an estimated twenty thousand emus showed up.",
    "show": {
     "k": "card",
     "label": "Western Australia, 1932",
@@ -2039,14 +2381,15 @@
     "cast": [
      {
       "id": "emu",
-      "x": 0.8
+      "x": 0.9,
+      "s": 0.8
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Emus migrate after breeding season, and these ones discovered that farms had water, cleared land and lots of delicious wheat.",
+   "say": "Emus are huge birds that can't fly, and these ones found that farms had water and lots of tasty wheat.",
    "show": {
     "k": "scene",
     "bg": "wheat",
@@ -2066,6 +2409,14 @@
       "x": 0.7,
       "mood": "happy"
      }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.6,
+      "label": "WATER"
+     }
     ]
    }
   },
@@ -2075,7 +2426,7 @@
   },
   {
    "who": "N",
-   "say": "Many of the farmers were ex-soldiers, and they knew exactly what works against a big advancing army: machine guns.",
+   "say": "Many farmers were ex-soldiers, and they knew what works against a big advancing army: machine guns.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -2090,6 +2441,13 @@
       "id": "pearce",
       "x": 0.68,
       "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.7
      }
     ],
     "tag": {
@@ -2116,21 +2474,34 @@
   },
   {
    "who": "N",
-   "say": "So the army sent Major Meredith of the Royal Australian Artillery, two soldiers, two Lewis machine guns and ten thousand rounds of ammunition.",
+   "say": "So the army sent Major Meredith, two soldiers, two Lewis machine guns and ten thousand rounds of ammunition.",
    "show": {
     "k": "scene",
     "bg": "outback",
     "cast": [
      {
       "id": "meredith",
-      "x": 0.4,
+      "x": 0.62,
       "pose": "hold",
       "mood": "smug"
      },
      {
       "id": "gunner",
-      "x": 0.7,
+      "x": 0.8,
       "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.25,
+      "s": 0.8
+     },
+     {
+      "k": "crate",
+      "x": 0.45,
+      "s": 0.5,
+      "label": "AMMO"
      }
     ],
     "tag": {
@@ -2141,55 +2512,25 @@
      {
       "text": "2 LEWIS GUNS",
       "at": 2.0,
-      "color": "#1F8A4A"
+      "color": "#1F8A4A",
+      "x": 0.3
      },
      {
       "text": "10,000 ROUNDS",
       "at": 3.5,
-      "color": "#1F8A4A"
+      "color": "#1F8A4A",
+      "x": 0.3
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "They even brought along a newsreel cameraman to film the big victory."
+   "say": "They even brought along a cameraman to film the big victory."
   },
   {
    "who": "N",
-   "say": "The operation started on the second of November 1932.",
-   "show": {
-    "k": "scene",
-    "bg": "wheat",
-    "cast": [
-     {
-      "id": "farmer",
-      "x": 0.2,
-      "pose": "run",
-      "walk": [
-       0.1,
-       0.4
-      ]
-     },
-     {
-      "id": "emu",
-      "x": 0.6
-     },
-     {
-      "id": "emu2",
-      "x": 0.8
-     }
-    ],
-    "cam": "pan"
-   }
-  },
-  {
-   "who": "N",
-   "say": "The first flock of about fifty emus was out of range, so local settlers tried to herd them into an ambush."
-  },
-  {
-   "who": "N",
-   "say": "The emus split into small groups and ran in every direction.",
+   "say": "It began on the second of November. Settlers tried to herd the first flock toward the guns, but the emus split up and ran in every direction.",
    "show": {
     "k": "scene",
     "bg": "wheat",
@@ -2217,6 +2558,13 @@
       "mood": "shock"
      }
     ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
     "fx": [
      "dust"
     ]
@@ -2228,7 +2576,7 @@
   },
   {
    "who": "N",
-   "say": "Two days later, Meredith set up an ambush near a dam, and more than a thousand emus came heading straight for his guns.",
+   "say": "Two days later, more than a thousand emus came heading straight for an ambush near a dam.",
    "show": {
     "k": "scene",
     "bg": "outback",
@@ -2251,16 +2599,19 @@
       "id": "emu3",
       "x": 0.85
      }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.05,
+      "s": 0.6
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "This was it. The gunners waited until the birds were close, and opened fire."
-  },
-  {
-   "who": "N",
-   "say": "After about a dozen birds, the gun jammed.",
+   "say": "The gunners waited until the birds were close, and opened fire. After about a dozen birds, the gun jammed.",
    "show": {
     "k": "scene",
     "bg": "outback",
@@ -2272,11 +2623,18 @@
       "mood": "shock"
      }
     ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.2,
+      "s": 0.6
+     }
+    ],
     "cam": "shake",
     "stickers": [
      {
       "text": "JAMMED",
-      "at": 0.8,
+      "at": 2.5,
       "color": "#A8322A"
      }
     ]
@@ -2284,34 +2642,40 @@
   },
   {
    "who": "N",
-   "say": "And the rest of the flock scattered."
-  },
-  {
-   "who": "N",
-   "say": "Meredith then mounted a gun on a truck, but the truck couldn't keep up, and the ride was so rough the gunner couldn't fire a single shot.",
+   "say": "So Meredith mounted a gun on a truck. But the truck couldn't keep up, and the ride was so rough the gunner couldn't fire a single shot.",
    "show": {
     "k": "scene",
     "bg": "outback",
     "cast": [
      {
-      "id": "meredith",
-      "x": 0.3,
-      "walk": [
-       0.1,
-       0.5
-      ],
-      "pose": "run",
-      "mood": "shout"
-     },
-     {
       "id": "emu",
       "x": 0.7,
       "walk": [
-       0.7,
-       1.2
+       0.62,
+       0.9
       ],
       "pose": "run",
       "mood": "smug"
+     },
+     {
+      "id": "emu2",
+      "x": 0.85,
+      "walk": [
+       0.78,
+       1.05
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.3,
+      "move": [
+       0.05,
+       0.4
+      ],
+      "s": 0.8,
+      "label": "LEWIS GUN CREW"
      }
     ],
     "fx": [
@@ -2322,7 +2686,7 @@
   },
   {
    "who": "N",
-   "say": "Army observers even reported that each pack seemed to have its own leader, a big black-plumed bird about six feet tall, keeping watch while the others ate.",
+   "say": "Army observers even said each pack had a leader, a tall black-feathered bird keeping watch while the others ate.",
    "show": {
     "k": "scene",
     "bg": "wheat",
@@ -2343,6 +2707,14 @@
       "x": 0.85,
       "s": 0.9
      }
+    ],
+    "stickers": [
+     {
+      "text": "THE LOOKOUT",
+      "at": 1.2,
+      "color": "#262322",
+      "x": 0.45
+     }
     ]
    }
   },
@@ -2352,11 +2724,7 @@
   },
   {
    "who": "N",
-   "say": "Within a week, about two and a half thousand rounds had been fired, and estimates of birds killed range from fifty to five hundred."
-  },
-  {
-   "who": "N",
-   "say": "Meredith noted that his men had suffered no casualties. Their pride was another story.",
+   "say": "The newspapers had a field day, and on the eighth of November the soldiers were pulled out.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -2373,16 +2741,24 @@
       "pose": "shrug",
       "mood": "sad"
      }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "radio",
+      "x": 0.88,
+      "s": 0.5
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The newspapers had a field day, and on the eighth of November the soldiers were pulled out."
-  },
-  {
-   "who": "N",
-   "say": "But the emus kept eating, the farmers kept complaining, and within a week the army was back.",
+   "say": "But the emus kept eating, and within a week the army was back. This time, it went a bit better.",
    "show": {
     "k": "scene",
     "bg": "wheat",
@@ -2398,16 +2774,19 @@
       "x": 0.7,
       "mood": "smug"
      }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.12,
+      "s": 0.6
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The second round went a bit better, and by early December they were killing around a hundred emus a week."
-  },
-  {
-   "who": "N",
-   "say": "When Meredith was recalled on the tenth of December, he claimed nine hundred eighty-six kills, plus two and a half thousand wounded birds, a figure that's highly disputed."
+   "say": "When Meredith was recalled on the tenth of December, he claimed nine hundred eighty-six kills, a figure that's highly disputed."
   },
   {
    "who": "N",
@@ -2428,41 +2807,50 @@
    }
   },
   {
-   "hold": 6.0,
    "show": {
     "k": "quote",
     "text": "If we had a military division with the bullet-carrying capacity of these birds it would face any army in the world… They can face machine guns with the invulnerability of tanks.",
     "who": "Major G.P.W. Meredith, as reported in the press"
-   }
+   },
+   "hold": 6.0
   },
   {
    "who": "N",
-   "say": "Farmers asked for the army again in 1934, 1943 and 1948, and the government said no every time.",
+   "say": "In the end, bounties and big fences did the job the machine guns couldn't.",
    "show": {
     "k": "scene",
-    "bg": "office",
+    "bg": "field",
     "cast": [
      {
       "id": "farmer",
-      "x": 0.4,
-      "pose": "point"
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "happy"
      },
      {
-      "id": "pearce",
-      "x": 0.7,
-      "pose": "cross",
-      "mood": "angry"
+      "id": "emu",
+      "x": 0.78,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.55,
+      "s": 0.5,
+      "color": "#8A6A4A"
+     },
+     {
+      "k": "moneypile",
+      "x": 0.12,
+      "s": 0.5
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "In the end, bounties and big fences did the job the machine guns couldn't."
-  },
-  {
-   "who": "N",
-   "say": "So the final score reads: emus one, machine guns zero.",
+   "say": "Final score: emus one, machine guns zero.",
    "show": {
     "k": "scene",
     "bg": "outback",
@@ -2486,32 +2874,51 @@
     ],
     "fx": [
      "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "EMUS 1",
+      "at": 0.6,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "GUNS 0",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "So there you have it: a kettle, a legend, a bucket, an ear, a very short war, a pig, and an army that got outrun by birds.",
+   "say": "So there you have it: a kettle, a bucket, an ear, a very short war, a pig, and an army outrun by birds.",
    "show": {
     "k": "scene",
     "bg": "field",
     "cast": [
      {
       "id": "cook",
-      "x": 0.15
+      "x": 0.12
      },
      {
-      "id": "pig",
-      "x": 0.35
+      "id": "modenese",
+      "x": 0.3
      },
      {
       "id": "jenkins",
-      "x": 0.55,
-      "hold": "bottle"
+      "x": 0.48
+     },
+     {
+      "id": "khalid",
+      "x": 0.64
+     },
+     {
+      "id": "pig",
+      "x": 0.78
      },
      {
       "id": "emu",
-      "x": 0.78,
+      "x": 0.9,
       "mood": "smug"
      }
     ]
@@ -2519,7 +2926,7 @@
   },
   {
    "who": "N",
-   "say": "If there's one lesson here, it's that humans will start a war over almost anything, and sometimes the other side has feathers."
+   "say": "The lesson? People will start a war over almost anything, and sometimes the other side has feathers."
   },
   {
    "who": "N",
@@ -2530,12 +2937,12 @@
     "cast": [
      {
       "id": "emu",
-      "x": 0.3,
+      "x": 0.74,
       "mood": "smug"
      },
      {
       "id": "meredith",
-      "x": 0.7,
+      "x": 0.9,
       "pose": "wave",
       "mood": "happy"
      }
@@ -2543,7 +2950,7 @@
    }
   }
  ],
- "description": "A pig, a bucket, a soup kettle, a sailor's ear and twenty thousand emus: these are the most ridiculous wars in history, counted down from seven to one. Six of them definitely happened, one might be a legend with paperwork, and yes, that includes the one where the Australian army lost a fight with birds. Chapters are added automatically.\n\n#history #funnyhistory #emuwar #pigwar #historypros",
+ "description": "A soup kettle, a bucket, a sailor's ear, a pig and twenty thousand emus: these are six of the most ridiculous wars in history, counted down from six to one. Some are funny, some turned deadly, and yes, one is the time the Australian army lost a fight with birds. Chapters are added automatically.\n\n#history #funnyhistory #emuwar #pigwar #historypros",
  "thumbnail": {
   "style": "redbox",
   "bg": "outback",
@@ -2570,7 +2977,6 @@
   "kettle war",
   "war of jenkins ear",
   "anglo zanzibar war",
-  "335 years war",
   "funny history",
   "history documentary",
   "animated history"
@@ -2585,8 +2991,6 @@
   "https://en.wikipedia.org/wiki/Kettle_War",
   "https://historiek.net/keteloorlog-marmietenoorlog-1784/75612/",
   "https://www.zeeuwseankers.nl/verhaal/de-kluchtige-keteloorlog",
-  "https://en.wikipedia.org/wiki/Three_Hundred_and_Thirty_Five_Years%27_War",
-  "https://www.historic-uk.com/HistoryUK/HistoryofEngland/The-335-Year-War-the-Longest-War-in-History/",
   "https://en.wikipedia.org/wiki/War_of_the_Bucket",
   "https://en.wikipedia.org/wiki/Battle_of_Zappolino",
   "https://theconversation.com/the-war-of-the-bucket-what-one-medieval-battle-tells-us-about-history-and-myth-264751",

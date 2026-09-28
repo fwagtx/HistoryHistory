@@ -1,0 +1,313 @@
+{
+ "id": "2026w41-s22",
+ "format": "short",
+ "date": "2026-10-07",
+ "slot": "09:00",
+ "title": "A Runaway Dog Started a War",
+ "hook": "THE WAR OF THE STRAY DOG",
+ "music": "playful",
+ "cast": {
+  "greek": {
+   "preset": "tommy",
+   "hat": "cap",
+   "hatColor": "#6A6A4A",
+   "color": "#8A8A5A",
+   "stache": "thin",
+   "skin": "olive"
+  },
+  "bulg": {
+   "preset": "tommy",
+   "hat": "cap",
+   "hatColor": "#4A5A3A",
+   "color": "#5E6B3A",
+   "stache": "bush",
+   "skin": "light"
+  },
+  "pangalos": {
+   "outfit": "uniform",
+   "color": "#6A6A4A",
+   "hat": "kepi",
+   "hatColor": "#4A4A3A",
+   "hair": "short",
+   "hairColor": "#2A2A2A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "General Theodoros Pangalos"
+  },
+  "league": {
+   "preset": "businessman",
+   "hat": "tophat",
+   "stache": "thin",
+   "glasses": "round"
+  }
+ },
+ "voices": {
+  "greek": "am_liam",
+  "bulg": "am_fenrir",
+  "league": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1925, a runaway dog helped start a war.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "greek",
+      "x": 0.4,
+      "pose": "run",
+      "walk": [
+       0.3,
+       0.6
+      ],
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.8,
+      "text": "BORDER"
+     }
+    ],
+    "place": "Greece–Bulgaria border · October 1925",
+    "stickers": [
+     {
+      "text": "WOOF?",
+      "at": 1.2,
+      "color": "#7A5A3A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's the famous story, anyway. Greece and Bulgaria were tense neighbors.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "greece",
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.64,
+      "s": 0.8,
+      "text": "BULGARIA"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GREECE",
+      "at": 0.6,
+      "color": "#2F6FC2",
+      "x": 0.22
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story goes that a Greek soldier chased his dog across the border, near the town of Petrich.",
+   "show": {
+    "k": "map",
+    "lon": 23.2,
+    "lat": 41.6,
+    "z0": 2.6,
+    "z1": 3.4,
+    "labels": [
+     [
+      "Petrich",
+      23.2,
+      41.4,
+      0
+     ],
+     [
+      "Bulgaria",
+      24.5,
+      42.6,
+      0
+     ],
+     [
+      "Greece",
+      22.5,
+      40.2,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      23.2,
+      41.35,
+      0.3,
+      "rgba(200,60,40,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bulgarian guards opened fire, and the soldier was killed.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "bulg",
+      "x": 0.6,
+      "hold": "rifle",
+      "pose": "aim",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Greece's leader, General Theodoros Pangalos, sent troops into Bulgaria.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "pangalos",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.18,
+      "flag": "greece",
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "pangalos",
+     "text": "General Pangalos, Greek leader"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bulgaria asked the League of Nations for help. That was a club of countries set up to stop wars.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "league",
+      "x": 0.55,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.22,
+      "s": 0.6
+     }
+    ],
+    "place": "League of Nations, Geneva · 1925"
+   }
+  },
+  {
+   "who": "league",
+   "say": "Stop. Go home. And pay."
+  },
+  {
+   "who": "N",
+   "say": "Greece pulled out and paid about forty-five thousand pounds. But around fifty people had already died.",
+   "show": {
+    "k": "card",
+    "label": "The League of Nations' ruling",
+    "big": "£45,000",
+    "sub": "paid by Greece to Bulgaria"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was a rare time the League actually stopped a war.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "greek",
+      "x": 0.35,
+      "pose": "walk",
+      "walk": [
+       0.35,
+       0.15
+      ],
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.68,
+      "s": 0.8,
+      "text": "PEACE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "greek",
+      "x": 0.3,
+      "pose": "shrug"
+     },
+     {
+      "id": "league",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A dog ran across a border. Then an army followed.\n\nFollow for 5 stories a day.\n#history #warofthestraydog #greece #bulgaria #historytok",
+ "youtube_title": "A Runaway Dog Started a War #shorts",
+ "tags": [
+  "war of the stray dog",
+  "history",
+  "incident at petrich",
+  "league of nations",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Incident_at_Petrich",
+  "https://www.bta.bg/en/news/archives/990234-october-19-1925-border-incident-near-petrich-leads-to-greek-incursion-into-bul",
+  "https://www.balkanhistory.org/war-of-the-stray-dog.html",
+  "https://newhistories.sites.sheffield.ac.uk/volumes/2011-12/volume-3/issue-6-war-peace/the-bullied-child-greece-and-the-league-of-nations"
+ ]
+}

@@ -38,7 +38,6 @@
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "push",
     "cast": [
      {
       "id": "caligula",
@@ -52,37 +51,74 @@
       "mood": "smug"
      }
     ],
-    "tag": {
-     "id": "caligula",
-     "text": "Emperor Caligula"
-    }
+    "place": "Rome · about 40 AD",
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "According to Suetonius, Caligula's favourite racehorse, Incitatus, had a marble stall and an ivory manger.",
+   "say": "Caligula was a young Roman emperor.",
    "show": {
     "k": "scene",
-    "bg": "palace",
-    "cam": "close",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "caligula",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "caligula",
+     "text": "Emperor Caligula"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to Suetonius, a Roman biographer, his favourite racehorse, Incitatus, had a marble stall and an ivory manger.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
     "cast": [
      {
       "id": "incitatus",
-      "x": 0.5,
-      "mood": "happy"
+      "x": 0.45,
+      "mood": "smug"
      }
     ],
-    "focus": "incitatus",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.7,
+      "text": "INCITATUS"
+     }
+    ],
     "stickers": [
      {
       "text": "MARBLE STALL",
-      "at": 1.2,
+      "at": 1.0,
       "color": "#2F6FC2"
-     },
-     {
-      "text": "IVORY MANGER",
-      "at": 2.6,
-      "color": "#C8902A"
      }
     ]
    }
@@ -92,52 +128,63 @@
    "say": "Only the best for my boy.",
    "show": {
     "k": "scene",
-    "bg": "palace",
-    "cam": "close",
+    "bg": "village",
     "cast": [
      {
       "id": "caligula",
       "x": 0.35,
-      "pose": "hold",
+      "pose": "present",
       "mood": "happy"
      },
      {
       "id": "incitatus",
       "x": 0.68,
-      "mood": "smug"
+      "mood": "happy"
      }
     ],
+    "cam": "close",
     "focus": "caligula"
    }
   },
   {
    "who": "N",
-   "say": "He also got purple blankets, a jewelled collar, a house, and servants to entertain guests invited in his name."
+   "say": "He also had purple blankets, a jewelled collar, a house, and servants.",
+   "show": {
+    "k": "card",
+    "label": "What the horse owned",
+    "big": "A HOUSE",
+    "sub": "plus servants, purple blankets and a jewelled collar"
+   }
   },
   {
    "who": "N",
-   "say": "And Suetonius adds that Caligula supposedly planned to make him a consul, one of Rome's top jobs.",
+   "say": "Suetonius adds that Caligula supposedly planned to make him a consul, one of Rome's two top jobs.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
-    "cam": "push",
     "cast": [
      {
-      "id": "senator",
-      "x": 0.3,
-      "pose": "facepalm",
-      "mood": "shock"
+      "id": "incitatus",
+      "x": 0.5,
+      "mood": "smug"
      },
      {
-      "id": "incitatus",
-      "x": 0.68,
-      "mood": "smug"
+      "id": "senator",
+      "x": 0.78,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12
      }
     ],
     "stickers": [
      {
       "text": "CONSUL?!",
-      "at": 1.5,
+      "at": 0.8,
       "color": "#A8322A"
      }
     ]
@@ -145,27 +192,30 @@
   },
   {
    "who": "N",
-   "say": "But careful: this comes from writers decades later who hated Caligula, and many historians think it's exaggerated, or a stunt to insult the senate.",
+   "say": "But Suetonius wrote decades later. Many historians think it's exaggerated, or a stunt to insult the senate.",
    "show": {
     "k": "scene",
     "bg": "library",
-    "cam": "still",
     "cast": [
      {
       "id": "senator",
-      "x": 0.5,
-      "pose": "think",
-      "mood": "neutral"
+      "x": 0.65,
+      "pose": "think"
      }
     ],
-    "stickers": [
+    "objects": [
      {
-      "text": "RUMOUR?",
-      "at": 0.8,
-      "color": "#A8322A"
+      "k": "scrollbig",
+      "x": 0.3,
+      "s": 0.7,
+      "text": "Rumour?"
      }
     ]
    }
+  },
+  {
+   "who": "N",
+   "say": "The horse was spoiled. The job was probably just a rumour."
   },
   {
    "who": "N",
@@ -188,7 +238,7 @@
    }
   }
  ],
- "caption": "The horse had a marble stall. The consul part? Probably a rumour.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #caligula #ancientrome #weirdhistory #historytok",
+ "caption": "The horse had a marble stall. The consul part? Probably a rumour.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #caligula #ancientrome #weirdhistory #historytok",
  "youtube_title": "Did Caligula Really Make His Horse a Consul? #shorts",
  "tags": [
   "caligula",

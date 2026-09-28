@@ -32,8 +32,8 @@
   }
  },
  "voices": {
-  "vespasian": "bm_george",
-  "titus": "am_puck"
+  "titus": "am_puck",
+  "vespasian": "bm_george"
  },
  "beats": [
   {
@@ -42,17 +42,46 @@
    "show": {
     "k": "scene",
     "bg": "street",
-    "cam": "push",
     "cast": [
      {
       "id": "citizen",
-      "x": 0.3,
-      "pose": "facepalm",
+      "x": 0.4,
+      "pose": "shrug",
       "mood": "shock"
+     }
+    ],
+    "place": "Rome · about 70 AD",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.15,
+      "s": 0.8
      },
      {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PEE TAX",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vespasian had just won a civil war to become emperor, and he needed money.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
       "id": "vespasian",
-      "x": 0.68,
+      "x": 0.45,
       "pose": "hips",
       "mood": "smug"
      }
@@ -60,30 +89,51 @@
     "tag": {
      "id": "vespasian",
      "text": "Emperor Vespasian"
-    }
+    },
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8
+     },
+     {
+      "k": "goldpile",
+      "x": 0.18,
+      "s": 0.4
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "Emperor Vespasian taxed the urine collected from Rome's public toilets, which people used for laundry and tanning leather.",
+   "say": "Romans collected urine from public toilets, because it was used for washing clothes and tanning leather. So Vespasian taxed it.",
    "show": {
     "k": "scene",
-    "bg": "street",
-    "cam": "pan",
+    "bg": "market",
     "cast": [
      {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
       "id": "vespasian",
-      "x": 0.5,
+      "x": 0.68,
       "pose": "present",
       "mood": "happy",
       "hold": "moneybag"
      }
     ],
-    "stickers": [
+    "objects": [
      {
-      "text": "PEE TAX",
-      "at": 1.5,
-      "color": "#C8902A"
+      "k": "jar",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "jar",
+      "x": 0.84,
+      "s": 0.6
      }
     ]
    }
@@ -94,7 +144,6 @@
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "close",
     "cast": [
      {
       "id": "titus",
@@ -118,75 +167,91 @@
   },
   {
    "who": "vespasian",
-   "say": "Smell this coin. Does it stink?"
-  },
-  {
-   "who": "titus",
-   "say": "No?",
+   "say": "Smell this coin. Does it stink?",
    "show": {
     "k": "scene",
     "bg": "palace",
-    "cam": "close",
     "cast": [
      {
-      "id": "titus",
+      "id": "vespasian",
       "x": 0.5,
-      "pose": "shrug",
-      "mood": "shock"
+      "pose": "present",
+      "mood": "smug",
+      "hold": "coin"
      }
     ],
-    "focus": "titus"
+    "cam": "close",
+    "focus": "vespasian"
    }
+  },
+  {
+   "who": "titus",
+   "say": "No?"
   },
   {
    "who": "vespasian",
    "say": "And yet it comes from urine.",
    "show": {
     "k": "scene",
-    "bg": "palace",
-    "cam": "close",
+    "bg": "vault",
     "cast": [
      {
-      "id": "titus",
-      "x": 0.3,
-      "pose": "scared",
-      "mood": "shock"
-     },
-     {
       "id": "vespasian",
-      "x": 0.68,
+      "x": 0.4,
       "pose": "present",
       "mood": "happy",
       "hold": "coin"
      }
     ],
-    "focus": "vespasian",
-    "stickers": [
+    "objects": [
      {
-      "text": "MONEY DOESN'T STINK",
-      "at": 1,
-      "color": "#1F8A4A"
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "jar",
+      "x": 0.15,
+      "s": 0.6
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "That story comes from the Roman writer Suetonius, and it gave us the saying 'money doesn't stink'."
+   "say": "That story comes from Suetonius, a Roman biographer, and it's where the saying 'money doesn't stink' comes from.",
+   "show": {
+    "k": "card",
+    "label": "A Latin saying born from a pee tax",
+    "big": "MONEY DOESN'T STINK",
+    "sub": "pecunia non olet"
+   }
   },
   {
    "who": "N",
-   "say": "And the same penny-pinching emperor started building the Colosseum.",
+   "say": "And this same penny-pinching emperor started building the Colosseum.",
    "show": {
     "k": "scene",
     "bg": "rome",
-    "cam": "pan",
     "cast": [
      {
       "id": "vespasian",
-      "x": 0.5,
+      "x": 0.3,
       "pose": "cheer",
       "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "moneypile",
+      "x": 0.82,
+      "s": 0.5,
+      "front": true
      }
     ]
    }
@@ -201,19 +266,19 @@
       "id": "vespasian",
       "x": 0.3,
       "pose": "wave",
-      "mood": "happy"
+      "mood": "happy",
+      "hold": "coin"
      },
      {
       "id": "titus",
       "x": 0.7,
-      "pose": "facepalm",
-      "mood": "sad"
+      "pose": "facepalm"
      }
     ]
    }
   }
  ],
- "caption": "An emperor taxed pee, and defended it with a coin.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #ancientrome #vespasian #funnyhistory #historytok",
+ "caption": "An emperor taxed pee, and defended it with a coin.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #vespasian #funnyhistory #historytok",
  "youtube_title": "Rome Put a Tax on Pee #shorts",
  "tags": [
   "vespasian",
