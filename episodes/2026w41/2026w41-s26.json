@@ -1,10 +1,10 @@
 {
  "id": "2026w41-s26",
  "format": "short",
- "date": "2026-10-11",
- "slot": "12:00",
- "title": "Mansa Musa's Giant Caravan",
- "hook": "60,000 PEOPLE?",
+ "date": "2026-10-10",
+ "slot": "09:00",
+ "title": "The King Who Wouldn't Bow to a Sultan",
+ "hook": "HE WOULDN'T BOW",
  "music": "playful",
  "cast": {
   "musa": {
@@ -18,48 +18,39 @@
    "hairColor": "#1E1C1B",
    "name": "Mansa Musa"
   },
-  "mali1": {
-   "skin": "dark",
-   "hat": "turban",
+  "sultan": {
+   "preset": "sultan",
+   "color": "#6A3E8E",
    "hatColor": "#F2EEE4",
-   "outfit": "robe",
-   "color": "#F2EEE4",
-   "color2": "#3A6A9A",
-   "beard": "goatee",
-   "hairColor": "#1E1C1B",
-   "name": "Malian courtier"
+   "name": "Sultan al-Nasir Muhammad"
+  },
+  "hajib": {
+   "preset": "merchant",
+   "color": "#3A5A8A",
+   "hatColor": "#F2EEE4",
+   "skin": "olive",
+   "name": "Ibn Amir Hajib"
   }
  },
  "voices": {
   "musa": "am_fenrir",
-  "mali1": "am_liam"
+  "sultan": "bm_lewis",
+  "hajib": "bm_george"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1324, a king left West Africa for Mecca with, accounts say, sixty thousand people.",
+   "say": "A king often called the richest ever was told to kiss the ground. He said no.",
    "show": {
     "k": "scene",
-    "bg": "desert",
+    "bg": "palace",
     "cast": [
      {
       "id": "musa",
-      "x": 0.4,
-      "mood": "smug",
-      "walk": [
-       0.25,
-       0.5
-      ]
-     },
-     {
-      "id": "mali1",
-      "x": 0.75,
-      "hold": "moneybag"
+      "x": 0.5,
+      "mood": "angry",
+      "pose": "cross"
      }
-    ],
-    "cam": "pan",
-    "fx": [
-     "dust"
     ],
     "tag": {
      "id": "musa",
@@ -69,92 +60,101 @@
   },
   {
    "who": "N",
-   "say": "That's Mansa Musa of Mali, on the hajj, the pilgrimage to Mecca."
+   "say": "In 1324, Mansa Musa of Mali reached Cairo, ruled by Sultan al-Nasir Muhammad."
   },
   {
    "who": "N",
-   "say": "Later chroniclers claimed twelve thousand servants wore brocade, and five hundred more carried staffs decorated with gold.",
+   "say": "At first he refused to even visit, saying he had come only for the pilgrimage.",
    "show": {
     "k": "scene",
-    "bg": "camp",
+    "bg": "egypt",
     "cast": [
      {
-      "id": "mali1",
+      "id": "hajib",
       "x": 0.3,
-      "mood": "happy",
-      "hold": "goldbar"
+      "mood": "scared",
+      "pose": "point"
      },
      {
       "id": "musa",
       "x": 0.7,
-      "mood": "smug"
+      "mood": "neutral",
+      "pose": "cross"
      }
-    ],
-    "fx": [
-     "sparkle"
     ]
    }
   },
   {
-   "who": "mali1",
-   "say": "How many camels of gold did we pack?",
+   "who": "N",
+   "say": "An Egyptian official said Musa spoke only through an interpreter, even though his Arabic was perfect."
+  },
+  {
+   "who": "hajib",
+   "say": "Kiss the ground!",
    "show": {
     "k": "scene",
-    "bg": "camp",
+    "bg": "throne",
     "cast": [
      {
-      "id": "mali1",
+      "id": "sultan",
+      "x": 0.2,
+      "pose": "sit",
+      "mood": "smug"
+     },
+     {
+      "id": "hajib",
+      "x": 0.47,
+      "mood": "scared"
+     },
+     {
+      "id": "musa",
+      "x": 0.78,
+      "mood": "angry",
+      "pose": "hips"
+     }
+    ],
+    "cam": "close",
+    "focus": "musa"
+   }
+  },
+  {
+   "who": "musa",
+   "say": "How may this be?"
+  },
+  {
+   "who": "N",
+   "say": "An adviser whispered to him, and Musa found a loophole."
+  },
+  {
+   "who": "musa",
+   "say": "I make obeisance to God who created me!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "sultan",
       "x": 0.3,
+      "pose": "sit",
       "mood": "shock"
      },
      {
       "id": "musa",
       "x": 0.7,
       "mood": "smug",
-      "pose": "hips"
+      "pose": "present"
      }
     ],
-    "cam": "close",
-    "focus": "mali1"
-   }
-  },
-  {
-   "who": "musa",
-   "say": "Enough."
-  },
-  {
-   "who": "N",
-   "say": "Sources say eighty or more camels, each carrying fifty to three hundred pounds of gold dust.",
-   "show": {
-    "k": "card",
-    "label": "Gold dust per camel, according to the chroniclers",
-    "big": "50–300 lb",
-    "sub": "accounts vary a lot"
+    "cam": "close"
    }
   },
   {
    "who": "N",
-   "say": "Historians treat these numbers as dramatic storytelling, not a head count."
+   "say": "He bowed to God, not the sultan, and the sultan sat him by his side anyway."
   },
   {
    "who": "N",
-   "say": "But Cairo was still talking about the visit twelve years later.",
-   "show": {
-    "k": "scene",
-    "bg": "egypt",
-    "cast": [
-     {
-      "id": "musa",
-      "x": 0.5,
-      "mood": "happy",
-      "pose": "wave"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Follow for more history that sounds made up.",
+   "say": "Follow for more history power moves.",
    "show": {
     "k": "end",
     "cast": [
@@ -162,11 +162,10 @@
       "id": "musa",
       "x": 0.3,
       "pose": "wave",
-      "mood": "happy",
-      "hold": "goldbar"
+      "mood": "smug"
      },
      {
-      "id": "mali1",
+      "id": "sultan",
       "x": 0.7,
       "mood": "happy"
      }
@@ -174,20 +173,18 @@
    }
   }
  ],
- "caption": "Accounts say 60,000 people crossed the Sahara with this king.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #africanhistory #historytok #mali",
- "youtube_title": "Mansa Musa's Giant Caravan #shorts",
+ "caption": "The sultan said kiss the ground. Mansa Musa found a loophole.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #mali #historytok #funnyhistory",
+ "youtube_title": "The King Who Wouldn't Bow to a Sultan #shorts",
  "tags": [
   "mansa musa",
-  "hajj",
-  "caravan",
+  "mamluk sultan",
+  "cairo",
   "history",
   "history shorts"
  ],
  "sources": [
-  "https://www.britannica.com/biography/Musa-I-of-Mali",
-  "https://en.wikipedia.org/wiki/Mansa_Musa",
-  "https://www.bbc.com/news/world-africa-47379458",
   "https://www.digitalhistory.uh.edu/active_learning/explorations/1492/mansa_musa_visit.cfm",
-  "https://www.africanhistoryextra.com/p/the-myth-of-mansa-musas-enslaved"
+  "https://en.wikipedia.org/wiki/Mansa_Musa",
+  "https://www.britannica.com/biography/Musa-I-of-Mali"
  ]
 }

@@ -2,134 +2,62 @@
  "id": "2026w41-s16",
  "format": "short",
  "date": "2026-10-08",
- "slot": "19:00",
- "title": "This City Has Kept a Stolen Bucket for 700 Years",
- "hook": "THE BUCKET WAR",
+ "slot": "12:00",
+ "title": "The War Where Only a Soup Kettle Got Hit",
+ "hook": "THE KETTLE WAR",
  "music": "playful",
  "cast": {
-  "modenese": {
-   "preset": "knight",
-   "hatColor": "#2F6FC2"
+  "cook": {
+   "preset": "sailor",
+   "hat": "chef",
+   "stache": "handlebar"
   },
-  "bolognese": {
-   "preset": "knight",
-   "hatColor": "#A8322A"
+  "joseph": {
+   "outfit": "napoleon",
+   "color": "#EFEFEF",
+   "hat": "bicorne",
+   "hair": "side",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Emperor Joseph II"
+  },
+  "dutch": {
+   "preset": "sailor",
+   "hat": "tricorn",
+   "hatColor": "#E07A2A"
   }
  },
  "voices": {
-  "modenese": "am_puck",
-  "bolognese": "bm_lewis"
+  "joseph": "bm_lewis",
+  "cook": "am_echo"
  },
  "beats": [
   {
    "who": "N",
-   "say": "An Italian city has kept a stolen bucket for about seven hundred years.",
+   "say": "In 1784, a war started, and the only thing hit was reportedly a soup kettle.",
    "show": {
     "k": "scene",
-    "bg": "town",
+    "bg": "deck",
     "cast": [
      {
-      "id": "modenese",
+      "id": "cook",
       "x": 0.5,
-      "pose": "cheer",
-      "mood": "smug"
-     }
-    ],
-    "stickers": [
-     {
-      "text": "THE BUCKET",
-      "at": 1.0,
-      "color": "#7A5A3A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "In 1325, Modena and Bologna went to war.",
-   "show": {
-    "k": "scene",
-    "bg": "battlefield",
-    "cast": [
-     {
-      "id": "modenese",
-      "x": 0.3,
-      "pose": "fist"
-     },
-     {
-      "id": "bolognese",
-      "x": 0.7,
-      "pose": "fist"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Legend says Modena stole a bucket from Bologna's well, but the real trigger was a captured castle."
-  },
-  {
-   "who": "N",
-   "say": "Bologna brought about thirty-two thousand men. Modena had around seven thousand.",
-   "show": {
-    "k": "scene",
-    "bg": "battlefield",
-    "cast": [
-     {
-      "id": "modenese",
-      "x": 0.3,
-      "pose": "fist",
-      "mood": "shout"
-     },
-     {
-      "id": "bolognese",
-      "x": 0.7,
-      "pose": "scared",
-      "mood": "scared"
-     }
-    ],
-    "fx": [
-     "dust"
-    ],
-    "cam": "shake"
-   }
-  },
-  {
-   "who": "N",
-   "say": "Modena won anyway, and on the way home, they grabbed a bucket from a well by Bologna's gate.",
-   "show": {
-    "k": "scene",
-    "bg": "town",
-    "cast": [
-     {
-      "id": "modenese",
-      "x": 0.3,
-      "walk": [
-       0.3,
-       0.7
-      ],
-      "pose": "run",
+      "pose": "hold",
       "mood": "happy"
      }
     ]
    }
   },
   {
-   "who": "bolognese",
-   "say": "Give it back!",
+   "who": "N",
+   "say": "For about two hundred years, the Dutch had kept the river Scheldt closed to Antwerp's trade ships.",
    "show": {
     "k": "scene",
-    "bg": "town",
+    "bg": "harbor",
     "cast": [
      {
-      "id": "bolognese",
-      "x": 0.3,
-      "pose": "fist",
-      "mood": "angry"
-     },
-     {
-      "id": "modenese",
-      "x": 0.7,
+      "id": "dutch",
+      "x": 0.5,
       "pose": "cross",
       "mood": "smug"
      }
@@ -137,58 +65,125 @@
    }
   },
   {
-   "who": "modenese",
-   "say": "No."
+   "who": "N",
+   "say": "So Austria's emperor, Joseph the Second, sent ships down the river anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "joseph",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "joseph",
+     "text": "Emperor Joseph II"
+    }
+   }
+  },
+  {
+   "who": "joseph",
+   "say": "They won't dare fire at my flag."
   },
   {
    "who": "N",
-   "say": "Today, the original still sits in Modena's town hall.",
+   "say": "The Dutch warship Dolfijn fired one shot.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "dutch",
+      "x": 0.4,
+      "pose": "aim"
+     }
+    ],
+    "fx": [
+     "explosion"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "cook",
+   "say": "My soup!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "cook",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The emperor's ship surrendered on the spot."
+  },
+  {
+   "who": "N",
+   "say": "A treaty later kept the river closed, and nobody died. Except lunch.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
-      "id": "modenese",
-      "x": 0.5,
-      "pose": "present",
-      "mood": "smug"
+      "id": "joseph",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "dutch",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Follow for more petty history.",
+   "say": "Follow for more wars that make no sense.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "modenese",
+      "id": "cook",
       "x": 0.3,
-      "mood": "smug"
+      "mood": "sad"
      },
      {
-      "id": "bolognese",
+      "id": "dutch",
       "x": 0.7,
-      "mood": "angry"
+      "pose": "wave"
      }
     ]
    }
   }
  ],
- "caption": "Modena took Bologna's bucket in 1325. It still has it.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #italy #warofthebucket #historytok #medievalhistory",
- "youtube_title": "This City Has Kept a Stolen Bucket for 700 Years #shorts",
+ "caption": "One shot was fired in the Kettle War. Legend says it hit the soup.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #kettlewar #netherlands #historytok #funnyhistory",
+ "youtube_title": "The War Where Only a Soup Kettle Got Hit #shorts",
  "tags": [
-  "war of the bucket",
+  "kettle war",
   "history",
-  "modena",
-  "medieval history",
+  "netherlands",
+  "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/War_of_the_Bucket",
-  "https://en.wikipedia.org/wiki/Battle_of_Zappolino",
-  "https://theconversation.com/the-war-of-the-bucket-what-one-medieval-battle-tells-us-about-history-and-myth-264751",
-  "https://www.visitmodena.it/en/discover-modena/art-and-culture/historic-buildings-and-castles/palazzo-comunale"
+  "https://en.wikipedia.org/wiki/Kettle_War",
+  "https://historiek.net/keteloorlog-marmietenoorlog-1784/75612/",
+  "https://www.zeeuwseankers.nl/verhaal/de-kluchtige-keteloorlog"
  ]
 }

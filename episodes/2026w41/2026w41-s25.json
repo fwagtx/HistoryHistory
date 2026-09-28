@@ -1,10 +1,10 @@
 {
  "id": "2026w41-s25",
  "format": "short",
- "date": "2026-10-11",
- "slot": "09:00",
- "title": "The Map That Made Mansa Musa Famous",
- "hook": "PUT ON THE MAP",
+ "date": "2026-10-09",
+ "slot": "19:00",
+ "title": "The King Who Made Gold Cheaper",
+ "hook": "HE BROKE GOLD",
  "music": "playful",
  "cast": {
   "musa": {
@@ -18,117 +18,121 @@
    "hairColor": "#1E1C1B",
    "name": "Mansa Musa"
   },
-  "cresques": {
-   "skin": "light",
-   "hat": "beret",
-   "hatColor": "#2A2A4A",
-   "outfit": "coat",
-   "color": "#6A3A2A",
+  "trader": {
+   "preset": "merchant",
+   "skin": "olive",
+   "hold": "coin",
+   "name": "Cairo gold trader"
+  },
+  "trader2": {
+   "preset": "merchant",
+   "skin": "tan",
+   "color": "#8A3A2A",
+   "hatColor": "#F2EEE4",
    "beard": "full",
-   "hairColor": "#5A3A22",
-   "hold": "pen",
-   "name": "Cresques Abraham"
+   "name": "Cairo cloth seller"
   }
  },
  "voices": {
   "musa": "am_fenrir",
-  "cresques": "am_echo"
+  "trader": "am_puck",
+  "trader2": "am_eric"
  },
  "beats": [
   {
    "who": "N",
-   "say": "Around 1375, a mapmaker in Majorca drew an African king holding a giant piece of gold.",
+   "say": "In 1324, one man brought so much gold to Cairo that gold itself got cheaper.",
    "show": {
     "k": "scene",
-    "bg": "office",
+    "bg": "egypt",
     "cast": [
      {
-      "id": "cresques",
-      "x": 0.45,
-      "mood": "neutral",
-      "pose": "think",
-      "hold": "pen"
+      "id": "musa",
+      "x": 0.5,
+      "mood": "smug",
+      "hold": "goldbar",
+      "enter": "pop"
      }
     ],
+    "fx": [
+     "sparkle"
+    ],
     "tag": {
-     "id": "cresques",
-     "text": "Cresques Abraham"
+     "id": "musa",
+     "text": "Mansa Musa of Mali"
     }
    }
   },
   {
    "who": "N",
-   "say": "The mapmaker is usually identified as Cresques Abraham, and his map is the Catalan Atlas."
-  },
-  {
-   "who": "cresques",
-   "say": "Richest king? Right here. Throne, crown, gold. Done.",
-   "show": {
-    "k": "scene",
-    "bg": "office",
-    "cast": [
-     {
-      "id": "cresques",
-      "x": 0.45,
-      "mood": "happy",
-      "pose": "point",
-      "hold": "pen"
-     }
-    ],
-    "cam": "close"
-   }
+   "say": "Mansa Musa, king of Mali, stopped in Cairo on his way to Mecca."
   },
   {
    "who": "N",
-   "say": "That king was Mansa Musa of Mali, drawn south of the Sahara near Timbuktu.",
+   "say": "He and his people handed out gold and spent it everywhere.",
    "show": {
-    "k": "map",
-    "lon": 0,
-    "lat": 29,
-    "z0": 1.3,
-    "z1": 1.6,
-    "route": [
-     [
-      2.9,
-      39.6
-     ],
-     [
-      -4.3,
-      31.3
-     ],
-     [
-      -3.0,
-      16.8
-     ]
-    ],
-    "labels": [
-     [
-      "Majorca",
-      2.9,
-      39.6,
-      14
-     ],
-     [
-      "Timbuktu",
-      -3.0,
-      16.8,
-      14
-     ]
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "coin"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "neutral",
+      "pose": "think"
+     }
     ]
    }
   },
   {
-   "who": "N",
-   "say": "The caption says he's the richest and noblest ruler of those lands.",
+   "who": "trader",
+   "say": "Gold for everyone? Wonderful!"
+  },
+  {
+   "who": "trader2",
+   "say": "Wait. Then why does my gold buy less every week?",
    "show": {
-    "k": "quote",
-    "text": "This king is the richest and noblest of all these lands due to the abundance of gold that is extracted from his lands.",
-    "who": "Catalan Atlas, c. 1375 (translated)"
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "angry",
+      "pose": "shrug"
+     }
+    ],
+    "cam": "close",
+    "focus": "trader2"
    }
   },
   {
    "who": "N",
-   "say": "Musa had died decades earlier, but his 1324 pilgrimage through Cairo made his gold famous far beyond Africa.",
+   "say": "The historian al-Umari said a mithqal of gold fell from at least twenty-five silver dirhams to twenty-two or less.",
+   "show": {
+    "k": "card",
+    "label": "One mithqal of gold in Cairo, in silver dirhams",
+    "big": "25 → 22",
+    "sub": "according to al-Umari"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And he wrote that it stayed that low for about twelve years."
+  },
+  {
+   "who": "N",
+   "say": "Some historians say the dip was within normal swings. Still, what a flex.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -138,21 +142,14 @@
       "x": 0.5,
       "mood": "smug",
       "pose": "sit",
-      "hold": "goldbar"
+      "hold": "coin"
      }
-    ],
-    "fx": [
-     "sparkle"
     ]
    }
   },
   {
    "who": "N",
-   "say": "The atlas survives today in the national library of France."
-  },
-  {
-   "who": "N",
-   "say": "Follow for more history you can actually see.",
+   "say": "Follow for more money history that sounds made up.",
    "show": {
     "k": "end",
     "cast": [
@@ -164,27 +161,27 @@
       "hold": "goldbar"
      },
      {
-      "id": "cresques",
+      "id": "trader",
       "x": 0.7,
-      "mood": "happy"
+      "mood": "shock"
      }
     ]
    }
   }
  ],
- "caption": "A map from around 1375 drew one African king holding gold. Here's why.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #maps #historytok #medievalhistory",
- "youtube_title": "The Map That Made Mansa Musa Famous #shorts",
+ "caption": "He spent so much gold in Cairo that gold got cheaper.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #gold #historytok #moneyhistory",
+ "youtube_title": "The King Who Made Gold Cheaper #shorts",
  "tags": [
   "mansa musa",
-  "catalan atlas",
-  "medieval maps",
+  "gold",
+  "cairo",
   "history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Catalan_Atlas",
+  "https://en.wikipedia.org/wiki/Mansa_Musa",
   "https://www.britannica.com/biography/Musa-I-of-Mali",
-  "https://www.bbc.com/news/world-africa-47379458",
-  "https://www.gilderlehrman.org/ap-african-american-studies/unit-1/west-africa/catalan-atlas-1375"
+  "https://www.digitalhistory.uh.edu/active_learning/explorations/1492/mansa_musa_visit.cfm",
+  "https://www.bbc.com/news/world-africa-47379458"
  ]
 }

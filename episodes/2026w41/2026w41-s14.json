@@ -1,170 +1,197 @@
 {
  "id": "2026w41-s14",
  "format": "short",
- "date": "2026-10-08",
- "slot": "12:00",
- "title": "The War Where Only a Soup Kettle Got Hit",
- "hook": "THE KETTLE WAR",
+ "date": "2026-10-07",
+ "slot": "19:00",
+ "title": "America and Britain Almost Fought Over a Pig",
+ "hook": "THE PIG WAR",
  "music": "playful",
  "cast": {
-  "cook": {
-   "preset": "sailor",
-   "hat": "chef",
-   "stache": "handlebar"
+  "pig": {
+   "animal": "pig",
+   "mood": "happy"
   },
-  "joseph": {
-   "outfit": "napoleon",
-   "color": "#EFEFEF",
-   "hat": "bicorne",
-   "hair": "side",
-   "hairColor": "#EFEFEF",
+  "cutlar": {
+   "preset": "farmer",
+   "hat": "straw",
+   "name": "Lyman Cutlar"
+  },
+  "griffin": {
+   "hat": "bowler",
+   "outfit": "coat",
+   "color": "#3A5A3A",
+   "beard": "full",
    "skin": "light",
-   "name": "Emperor Joseph II"
+   "name": "Charles Griffin"
   },
-  "dutch": {
-   "preset": "sailor",
-   "hat": "tricorn",
-   "hatColor": "#E07A2A"
+  "pickett": {
+   "hat": "kepi",
+   "hatColor": "#2A3A6A",
+   "outfit": "uniform",
+   "color": "#2A3A6A",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "stache": "handlebar",
+   "beard": "goatee",
+   "skin": "light",
+   "name": "Captain George Pickett"
+  },
+  "baynes": {
+   "preset": "captain",
+   "hat": "bicorne",
+   "name": "Rear Admiral Robert Lambert Baynes"
   }
  },
  "voices": {
-  "joseph": "bm_lewis",
-  "cook": "am_echo"
+  "cutlar": "am_liam",
+  "griffin": "bm_daniel"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1784, a war started, and the only thing hit was reportedly a soup kettle.",
+   "say": "In 1859, America and Britain almost went to war over a pig.",
    "show": {
     "k": "scene",
-    "bg": "deck",
+    "bg": "field",
     "cast": [
      {
-      "id": "cook",
+      "id": "pig",
       "x": 0.5,
-      "pose": "hold",
-      "mood": "happy"
+      "enter": "pop"
+     }
+    ],
+    "cam": "close",
+    "focus": "pig"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Both countries claimed San Juan Island, right between Washington and Vancouver Island.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "pickett",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "baynes",
+      "x": 0.7,
+      "pose": "point"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "For about two hundred years, the Dutch had kept the river Scheldt closed to Antwerp's trade ships.",
+   "say": "Then an American farmer, Lyman Cutlar, caught a British company's pig in his garden, and shot it.",
    "show": {
     "k": "scene",
-    "bg": "harbor",
+    "bg": "field",
     "cast": [
      {
-      "id": "dutch",
-      "x": 0.5,
-      "pose": "cross",
-      "mood": "smug"
+      "id": "cutlar",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "angry"
+     },
+     {
+      "id": "pig",
+      "x": 0.68,
+      "mood": "shock",
+      "exit": "right",
+      "exitAt": 2.5
      }
-    ]
+    ],
+    "tag": {
+     "id": "cutlar",
+     "text": "Lyman Cutlar"
+    }
    }
   },
   {
-   "who": "N",
-   "say": "So Austria's emperor, Joseph the Second, sent ships down the river anyway.",
+   "who": "cutlar",
+   "say": "I'll give you ten dollars for it.",
    "show": {
     "k": "scene",
-    "bg": "throne",
+    "bg": "field",
     "cast": [
      {
-      "id": "joseph",
-      "x": 0.5,
+      "id": "cutlar",
+      "x": 0.3,
+      "pose": "present"
+     },
+     {
+      "id": "griffin",
+      "x": 0.7,
       "pose": "fist",
       "mood": "angry"
      }
     ],
     "tag": {
-     "id": "joseph",
-     "text": "Emperor Joseph II"
+     "id": "griffin",
+     "text": "Charles Griffin"
     }
    }
   },
   {
-   "who": "joseph",
-   "say": "They won't dare fire at my flag."
+   "who": "griffin",
+   "say": "A hundred!"
   },
   {
    "who": "N",
-   "say": "The Dutch warship Dolfijn fired one shot.",
+   "say": "Soon four hundred sixty-one American soldiers faced British warships carrying over two thousand men.",
    "show": {
     "k": "scene",
-    "bg": "sea",
+    "bg": "camp",
     "cast": [
      {
-      "id": "dutch",
-      "x": 0.4,
-      "pose": "aim"
+      "id": "pickett",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
      }
     ],
-    "fx": [
-     "explosion"
-    ],
-    "cam": "shake"
+    "tag": {
+     "id": "pickett",
+     "text": "Captain George Pickett"
+    }
    }
   },
   {
-   "who": "cook",
-   "say": "My soup!",
+   "who": "N",
+   "say": "Luckily, the British admiral refused to start a war over what he called a squabble about a pig.",
    "show": {
     "k": "scene",
     "bg": "deck",
     "cast": [
      {
-      "id": "cook",
+      "id": "baynes",
       "x": 0.5,
-      "pose": "scared",
-      "mood": "shock"
-     }
-    ],
-    "fx": [
-     "smoke"
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "The emperor's ship surrendered on the spot."
-  },
-  {
-   "who": "N",
-   "say": "A treaty later kept the river closed, and nobody died. Except lunch.",
-   "show": {
-    "k": "scene",
-    "bg": "palace",
-    "cast": [
-     {
-      "id": "joseph",
-      "x": 0.35,
-      "pose": "shrug",
-      "mood": "sad"
-     },
-     {
-      "id": "dutch",
-      "x": 0.7,
-      "pose": "cheer",
-      "mood": "happy"
+      "pose": "facepalm"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Follow for more wars that make no sense.",
+   "say": "The only casualty of the whole war? The pig."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more ridiculous history.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "cook",
+      "id": "pig",
       "x": 0.3,
       "mood": "sad"
      },
      {
-      "id": "dutch",
+      "id": "pickett",
       "x": 0.7,
       "pose": "wave"
      }
@@ -172,18 +199,17 @@
    }
   }
  ],
- "caption": "One shot was fired in the Kettle War. Legend says it hit the soup.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #kettlewar #netherlands #historytok #funnyhistory",
- "youtube_title": "The War Where Only a Soup Kettle Got Hit #shorts",
+ "caption": "The Pig War: one dead pig, 461 soldiers and a lot of warships.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #pigwar #sanjuanisland #historytok #funnyhistory",
+ "youtube_title": "America and Britain Almost Fought Over a Pig #shorts",
  "tags": [
-  "kettle war",
+  "pig war",
   "history",
-  "netherlands",
+  "san juan island",
   "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Kettle_War",
-  "https://historiek.net/keteloorlog-marmietenoorlog-1784/75612/",
-  "https://www.zeeuwseankers.nl/verhaal/de-kluchtige-keteloorlog"
+  "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+  "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
  ]
 }

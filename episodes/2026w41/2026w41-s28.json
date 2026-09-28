@@ -1,10 +1,10 @@
 {
  "id": "2026w41-s28",
  "format": "short",
- "date": "2026-10-11",
- "slot": "19:00",
- "title": "Mali's Storytellers Roasted Mansa Musa",
- "hook": "ROASTED BY GRIOTS",
+ "date": "2026-10-10",
+ "slot": "15:00",
+ "title": "The King Who Sailed Into the Atlantic",
+ "hook": "2,000 SHIPS. GONE.",
  "music": "playful",
  "cast": {
   "musa": {
@@ -18,118 +18,104 @@
    "hairColor": "#1E1C1B",
    "name": "Mansa Musa"
   },
-  "griot": {
+  "muhammad": {
    "skin": "dark",
-   "hat": "turban",
-   "hatColor": "#C8502A",
+   "hat": "crown",
    "outfit": "robe",
-   "color": "#C8502A",
-   "color2": "#F2C94C",
-   "beard": "goatee",
+   "color": "#2F4A8A",
+   "beard": "full",
    "hairColor": "#1E1C1B",
-   "name": "A jeli (griot)"
+   "name": "Mansa Muhammad"
   }
  },
  "voices": {
   "musa": "am_fenrir",
-  "griot": "am_eric"
+  "muhammad": "am_liam"
  },
  "beats": [
   {
    "who": "N",
-   "say": "The world remembers Mansa Musa as a golden king. Some storytellers back home are less impressed.",
+   "say": "Mansa Musa became king because his boss sailed off into the Atlantic. At least, that's Musa's story.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "harbor",
     "cast": [
      {
-      "id": "griot",
-      "x": 0.5,
-      "mood": "neutral",
-      "pose": "cross"
+      "id": "muhammad",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "neutral"
      }
     ],
     "tag": {
-     "id": "griot",
-     "text": "A jeli, or griot"
+     "id": "muhammad",
+     "text": "Mansa Muhammad"
     }
    }
   },
   {
    "who": "N",
-   "say": "In Mali, griots, called jeliw, keep history alive through songs and stories."
+   "say": "Musa told it in Cairo in 1324, and the historian al-Umari wrote it down."
   },
   {
    "who": "N",
-   "say": "They sing far more about Sundiata, the founder of the empire, than about Musa."
-  },
-  {
-   "who": "griot",
-   "say": "Sundiata built an empire. Musa gave the gold to Egypt!",
+   "say": "His predecessor, Mansa Muhammad, sent hundreds of ships to find the other side of the ocean.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "sea",
     "cast": [
      {
-      "id": "griot",
+      "id": "muhammad",
       "x": 0.5,
-      "mood": "angry",
-      "pose": "point"
+      "mood": "shock",
+      "s": 0.8
      }
     ],
-    "cam": "close"
-   }
-  },
-  {
-   "who": "N",
-   "say": "On his 1324 pilgrimage, Musa spent and gave away so much gold that its value dropped in Cairo.",
-   "show": {
-    "k": "scene",
-    "bg": "egypt",
-    "cast": [
-     {
-      "id": "musa",
-      "x": 0.5,
-      "mood": "smug",
-      "hold": "goldbar"
-     }
-    ],
+    "cam": "shake",
     "fx": [
-     "sparkle"
+     "rain"
     ]
    }
   },
   {
-   "who": "musa",
-   "say": "It's called generosity!",
+   "who": "N",
+   "say": "Only one came back. Its captain said the rest vanished into a current like a river in the sea."
+  },
+  {
+   "who": "muhammad",
+   "say": "Fine. Get two thousand ships. I'm going myself.",
    "show": {
     "k": "scene",
-    "bg": "egypt",
+    "bg": "harbor",
     "cast": [
      {
-      "id": "musa",
-      "x": 0.35,
-      "mood": "shock",
-      "pose": "shrug"
+      "id": "muhammad",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "fist"
      },
      {
-      "id": "griot",
-      "x": 0.72,
-      "mood": "smug",
-      "pose": "hips"
+      "id": "musa",
+      "x": 0.7,
+      "mood": "shock"
      }
     ],
     "cam": "close",
-    "focus": "musa"
+    "focus": "muhammad"
    }
   },
   {
-   "who": "N",
-   "say": "Some jeliw say he wasted Mali's wealth abroad and broke with tradition."
+   "who": "musa",
+   "say": "Sure. I'll just run the empire, I guess."
   },
   {
    "who": "N",
-   "say": "Maybe history's richest king, and still getting roasted seven hundred years later.",
+   "say": "The Mansa never returned, and Musa took the throne.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -137,7 +123,7 @@
      {
       "id": "musa",
       "x": 0.5,
-      "mood": "sad",
+      "mood": "smug",
       "pose": "sit"
      }
     ]
@@ -145,7 +131,11 @@
   },
   {
    "who": "N",
-   "say": "Follow for more history.",
+   "say": "Some historians suspect a cover story for a power grab, and there is no evidence it reached the Americas."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history mysteries.",
    "show": {
     "k": "end",
     "cast": [
@@ -153,10 +143,10 @@
       "id": "musa",
       "x": 0.3,
       "pose": "wave",
-      "mood": "happy"
+      "mood": "smug"
      },
      {
-      "id": "griot",
+      "id": "muhammad",
       "x": 0.7,
       "mood": "happy"
      }
@@ -164,18 +154,18 @@
    }
   }
  ],
- "caption": "Some of Mali's own storytellers say Mansa Musa wasted the gold.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #griot #historytok #africanhistory",
- "youtube_title": "Mali's Storytellers Roasted Mansa Musa #shorts",
+ "caption": "Mali's king sailed into the Atlantic with 2,000 ships. Or so the story goes.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #mali #historytok #historymystery",
+ "youtube_title": "The King Who Sailed Into the Atlantic #shorts",
  "tags": [
   "mansa musa",
-  "griots",
+  "atlantic voyage",
   "mali empire",
   "history",
   "history shorts"
  ],
  "sources": [
-  "https://www.bbc.com/news/world-africa-47379458",
+  "https://en.wikipedia.org/wiki/Atlantic_voyage_of_Mansa_Muhammad",
   "https://en.wikipedia.org/wiki/Mansa_Musa",
-  "https://en.wikipedia.org/wiki/Sundiata_Keita"
+  "https://www.bbc.com/news/world-africa-47379458"
  ]
 }

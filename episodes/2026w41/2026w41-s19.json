@@ -2,216 +2,183 @@
  "id": "2026w41-s19",
  "format": "short",
  "date": "2026-10-09",
- "slot": "15:00",
- "title": "The Friendliest Standoff in History",
- "hook": "FRIENDLIEST WAR EVER",
+ "slot": "09:00",
+ "title": "Britain Fought a War Named After an Ear",
+ "hook": "A WAR OVER AN EAR",
  "music": "playful",
  "cast": {
-  "pickett": {
-   "hat": "kepi",
-   "hatColor": "#2A3A6A",
-   "outfit": "uniform",
-   "color": "#2A3A6A",
-   "hair": "long",
-   "hairColor": "#6A4A2A",
-   "stache": "handlebar",
+  "jenkins": {
+   "hat": "tricorn",
+   "outfit": "coat",
+   "color": "#3A4A6A",
+   "skin": "light",
+   "stubble": true,
+   "name": "Captain Robert Jenkins"
+  },
+  "fandino": {
+   "hat": "tricorn",
+   "outfit": "coat",
+   "color": "#8A2A2A",
    "beard": "goatee",
-   "skin": "light",
-   "name": "Captain George Pickett"
+   "skin": "olive",
+   "hold": "sword"
   },
-  "marine": {
-   "preset": "redcoat",
-   "hat": "kepi",
-   "stache": "bush",
-   "hatColor": "#1E1C1B"
-  },
-  "pig": {
-   "animal": "pig",
-   "mood": "happy"
-  },
-  "kaiser": {
-   "hat": "pickel",
-   "outfit": "napoleon",
-   "color": "#2A3A5A",
-   "beard": "full",
-   "stache": "handlebar",
-   "hairColor": "#EFEFEF",
-   "skin": "light",
-   "name": "Kaiser Wilhelm I"
+  "mp": {
+   "preset": "noble",
+   "hair": "curly",
+   "hairColor": "#EFEFEF"
   }
  },
  "voices": {
-  "pickett": "am_fenrir",
-  "marine": "bm_daniel"
+  "fandino": "am_fenrir",
+  "jenkins": "bm_lewis"
  },
  "beats": [
   {
    "who": "N",
-   "say": "The Pig War might be the friendliest standoff in history.",
+   "say": "Britain and Spain once fought a war named after a man's ear.",
    "show": {
     "k": "scene",
-    "bg": "camp",
+    "bg": "deck",
     "cast": [
      {
-      "id": "pickett",
-      "x": 0.3,
-      "pose": "hips"
-     },
-     {
-      "id": "marine",
-      "x": 0.7,
-      "pose": "hips"
+      "id": "jenkins",
+      "x": 0.5,
+      "pose": "shrug"
      }
-    ]
+    ],
+    "tag": {
+     "id": "jenkins",
+     "text": "Captain Robert Jenkins"
+    }
    }
   },
   {
    "who": "N",
-   "say": "In 1859, one dead pig put American soldiers and British warships face to face on San Juan Island.",
+   "say": "In 1731, a Spanish coast guard boarded Captain Robert Jenkins' ship, which was smuggling.",
    "show": {
     "k": "scene",
-    "bg": "field",
+    "bg": "deck",
     "cast": [
      {
-      "id": "pig",
-      "x": 0.5,
-      "mood": "sad"
-     }
-    ],
-    "stickers": [
+      "id": "jenkins",
+      "x": 0.3,
+      "mood": "shock"
+     },
      {
-      "text": "R.I.P. PIG",
-      "at": 1.5,
-      "color": "#262322"
-     }
-    ]
-   }
-  },
-  {
-   "who": "pickett",
-   "say": "Nobody leaves this island.",
-   "show": {
-    "k": "scene",
-    "bg": "camp",
-    "cast": [
-     {
-      "id": "pickett",
-      "x": 0.45,
-      "pose": "fist",
+      "id": "fandino",
+      "x": 0.7,
+      "pose": "point",
       "mood": "angry"
      }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They cut off his ear, and one report says they handed the piece back to him.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "jenkins",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "fandino",
+      "x": 0.7
+     }
     ],
-    "tag": {
-     "id": "pickett",
-     "text": "Captain George Pickett"
-    }
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
    }
   },
   {
+   "who": "fandino",
+   "say": "Take it to your king."
+  },
+  {
    "who": "N",
-   "say": "But while the governments panicked, officers from both sides went to church together.",
+   "say": "Seven years later, politicians who wanted war with Spain made Jenkins famous.",
    "show": {
     "k": "scene",
-    "bg": "church",
+    "bg": "courtroom",
     "cast": [
      {
-      "id": "pickett",
+      "id": "jenkins",
       "x": 0.35,
-      "pose": "sit"
+      "hold": "bottle",
+      "pose": "present",
+      "mood": "smug"
      },
      {
-      "id": "marine",
-      "x": 0.65,
-      "pose": "sit"
+      "id": "mp",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "They even shared whisky and cigars.",
-   "show": {
-    "k": "scene",
-    "bg": "tavern",
-    "cast": [
-     {
-      "id": "pickett",
-      "x": 0.35,
-      "hold": "goblet",
-      "pose": "cheer",
-      "mood": "happy"
-     },
-     {
-      "id": "marine",
-      "x": 0.65,
-      "hold": "goblet",
-      "pose": "cheer",
-      "mood": "happy"
-     }
-    ]
-   }
-  },
-  {
-   "who": "marine",
-   "say": "Cheers, old chap."
+   "say": "The legend says he showed Parliament his ear, pickled in a jar, though historians doubt that part."
   },
   {
    "who": "N",
-   "say": "Both sides shared the island for twelve years, until an arbitration by Kaiser Wilhelm the First gave it to America in 1872.",
+   "say": "In 1739, Britain went to war, and it dragged on until 1748.",
    "show": {
     "k": "scene",
-    "bg": "throne",
+    "bg": "sea",
     "cast": [
      {
-      "id": "kaiser",
+      "id": "jenkins",
       "x": 0.5,
-      "hold": "scroll",
-      "pose": "present"
+      "pose": "facepalm"
      }
     ],
-    "tag": {
-     "id": "kaiser",
-     "text": "Kaiser Wilhelm I"
-    }
+    "fx": [
+     "smoke"
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The only casualty in all that time was the pig."
-  },
-  {
-   "who": "N",
-   "say": "Follow for more of history's weirdest wars.",
+   "say": "Follow for more wars with ridiculous names.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "pickett",
-      "x": 0.3,
-      "pose": "wave",
-      "mood": "happy"
+      "id": "jenkins",
+      "x": 0.35,
+      "hold": "bottle"
      },
      {
-      "id": "marine",
+      "id": "mp",
       "x": 0.7,
-      "pose": "wave",
-      "mood": "happy"
+      "pose": "wave"
      }
     ]
    }
   }
  ],
- "caption": "They nearly went to war, then went to church together.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #pigwar #sanjuanisland #historytok #funnyhistory",
- "youtube_title": "The Friendliest Standoff in History #shorts",
+ "caption": "The War of Jenkins' Ear is a real war with a real ear.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #jenkinsear #britishhistory #historytok #funnyhistory",
+ "youtube_title": "Britain Fought a War Named After an Ear #shorts",
  "tags": [
-  "pig war",
+  "war of jenkins ear",
   "history",
-  "san juan island",
+  "british history",
   "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Pig_War_(1859)",
-  "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+  "https://en.wikipedia.org/wiki/War_of_Jenkins%27_Ear",
+  "https://en.wikipedia.org/wiki/Robert_Jenkins_(master_mariner)",
+  "https://www.britannica.com/event/War-of-Jenkins-Ear"
  ]
 }

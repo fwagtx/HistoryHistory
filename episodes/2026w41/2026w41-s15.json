@@ -2,186 +2,190 @@
  "id": "2026w41-s15",
  "format": "short",
  "date": "2026-10-08",
- "slot": "15:00",
- "title": "The 335-Year War Where Nobody Fired a Shot",
- "hook": "A 335-YEAR WAR?",
+ "slot": "09:00",
+ "title": "The Shortest War in History",
+ "hook": "THE 38-MINUTE WAR",
  "music": "playful",
  "cast": {
-  "tromp": {
-   "hat": "capotain",
-   "outfit": "coat",
-   "color": "#262322",
-   "beard": "goatee",
-   "stache": "handlebar",
+  "khalid": {
+   "preset": "sultan",
+   "hatColor": "#EFEFEF",
+   "beard": "full",
+   "skin": "brown",
+   "name": "Khalid bin Barghash"
+  },
+  "cave": {
+   "hat": "fedora",
+   "hatColor": "#EFEFEF",
+   "outfit": "suit",
+   "color": "#EFEFEF",
+   "stache": "bush",
    "skin": "light",
-   "name": "Admiral Maarten Tromp"
+   "name": "Consul Basil Cave"
   },
-  "duncan": {
-   "preset": "businessman",
-   "hairColor": "#DADADA",
-   "glasses": "square",
-   "name": "Roy Duncan"
-  },
-  "huydecoper": {
-   "preset": "businessman",
-   "color": "#262322",
-   "hair": "short",
-   "hairColor": "#8A8A8A",
-   "tie": "#E07A2A",
-   "name": "Ambassador Rein Huydecoper"
+  "brsailor": {
+   "preset": "sailor"
   }
  },
  "voices": {
-  "tromp": "bm_daniel",
-  "duncan": "bm_george"
+  "khalid": "am_eric",
+  "cave": "bm_george"
  },
  "beats": [
   {
    "who": "N",
-   "say": "The Netherlands and some tiny British islands were supposedly at war for three hundred thirty-five years.",
+   "say": "The shortest war in recorded history lasted about thirty-eight minutes.",
    "show": {
     "k": "scene",
     "bg": "harbor",
     "cast": [
      {
-      "id": "tromp",
-      "x": 0.3
-     },
-     {
-      "id": "duncan",
-      "x": 0.7
+      "id": "brsailor",
+      "x": 0.5
      }
-    ]
+    ],
+    "cam": "pan"
    }
   },
   {
    "who": "N",
-   "say": "In 1651, Dutch Admiral Maarten Tromp reportedly declared war on the Isles of Scilly over seized Dutch ships.",
+   "say": "In August 1896, the sultan of Zanzibar died, and Khalid bin Barghash took the palace without British approval.",
    "show": {
     "k": "scene",
-    "bg": "sea",
+    "bg": "throne",
     "cast": [
      {
-      "id": "tromp",
-      "x": 0.45,
-      "pose": "point",
-      "mood": "angry"
+      "id": "khalid",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
      }
     ],
     "tag": {
-     "id": "tromp",
-     "text": "Admiral Maarten Tromp"
+     "id": "khalid",
+     "text": "Khalid bin Barghash"
     }
    }
   },
   {
-   "who": "tromp",
-   "say": "Pay up, or it's war!"
-  },
-  {
-   "who": "N",
-   "say": "Then the Dutch sailed home without firing a shot, and everybody forgot.",
+   "who": "cave",
+   "say": "Leave the palace by nine, or we open fire.",
    "show": {
     "k": "scene",
-    "bg": "ocean",
+    "bg": "harbor",
     "cast": [
      {
-      "id": "tromp",
-      "x": 0.4,
-      "walk": [
-       0.4,
-       0.8
-      ],
-      "pose": "walk"
+      "id": "cave",
+      "x": 0.45,
+      "hold": "letter",
+      "pose": "hold",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "cave",
+     "text": "Consul Basil Cave"
+    }
+   }
+  },
+  {
+   "who": "khalid",
+   "say": "You wouldn't dare.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "khalid",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "angry"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "In the 1980s, local historian Roy Duncan asked the Dutch embassy, and nobody could find a peace treaty.",
+   "say": "At two minutes past nine, British warships opened fire.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "brsailor",
+      "x": 0.5,
+      "mood": "shock"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By about nine forty, the palace flag was down and it was over."
+  },
+  {
+   "who": "N",
+   "say": "It was no joke: around five hundred people on Khalid's side were killed or wounded. One British sailor was injured.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Afterwards, Britain even made Khalid's supporters pay for the shells.",
    "show": {
     "k": "scene",
     "bg": "office",
     "cast": [
      {
-      "id": "duncan",
-      "x": 0.45,
+      "id": "cave",
+      "x": 0.5,
       "hold": "letter",
-      "pose": "hold"
+      "pose": "present"
      }
-    ],
-    "tag": {
-     "id": "duncan",
-     "text": "Roy Duncan"
-    }
-   }
-  },
-  {
-   "who": "duncan",
-   "say": "So, are we still at war?"
-  },
-  {
-   "who": "N",
-   "say": "The Dutch ambassador came over and officially made peace.",
-   "show": {
-    "k": "scene",
-    "bg": "harbor",
-    "cast": [
-     {
-      "id": "huydecoper",
-      "x": 0.35,
-      "pose": "wave",
-      "mood": "happy"
-     },
-     {
-      "id": "duncan",
-      "x": 0.68,
-      "pose": "cheer",
-      "mood": "happy"
-     }
-    ],
-    "fx": [
-     "confetti"
     ]
    }
   },
   {
    "who": "N",
-   "say": "Historians say it was probably never a real war, but the peace party definitely was."
-  },
-  {
-   "who": "N",
-   "say": "Follow for more strange history.",
+   "say": "Follow for more history in under a minute.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "tromp",
-      "x": 0.3,
-      "pose": "shrug"
+      "id": "brsailor",
+      "x": 0.35
      },
      {
-      "id": "duncan",
-      "x": 0.7,
-      "pose": "wave",
-      "mood": "happy"
+      "id": "cave",
+      "x": 0.68,
+      "pose": "wave"
      }
     ]
    }
   }
  ],
- "caption": "A 'war' that lasted 335 years without a single shot.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #islesofscilly #netherlands #historytok #historyfacts",
- "youtube_title": "The 335-Year War Where Nobody Fired a Shot #shorts",
+ "caption": "The shortest war ever recorded lasted about 38 minutes.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #zanzibar #shortestwar #historytok #historyfacts",
+ "youtube_title": "The Shortest War in History Lasted 38 Minutes #shorts",
  "tags": [
-  "335 years war",
+  "anglo zanzibar war",
   "history",
-  "isles of scilly",
-  "netherlands",
+  "shortest war",
+  "zanzibar",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Three_Hundred_and_Thirty_Five_Years%27_War",
-  "https://www.historic-uk.com/HistoryUK/HistoryofEngland/The-335-Year-War-the-Longest-War-in-History/"
+  "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+  "https://www.historic-uk.com/HistoryUK/HistoryofBritain/The-Shortest-War-in-History/"
  ]
 }

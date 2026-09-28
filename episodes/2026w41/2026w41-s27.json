@@ -1,10 +1,10 @@
 {
  "id": "2026w41-s27",
  "format": "short",
- "date": "2026-10-11",
- "slot": "15:00",
- "title": "Mansa Musa Paid 50 kg of Gold for One Room",
- "hook": "50 KG OF GOLD. ONE ROOM.",
+ "date": "2026-10-10",
+ "slot": "12:00",
+ "title": "The 'Richest Man Ever' Needed a Loan",
+ "hook": "RICHEST AND BROKE",
  "music": "playful",
  "cast": {
   "musa": {
@@ -18,39 +18,33 @@
    "hairColor": "#1E1C1B",
    "name": "Mansa Musa"
   },
-  "sahili": {
+  "lender": {
+   "preset": "merchant",
    "skin": "olive",
-   "hat": "turban",
-   "hatColor": "#F2EEE4",
-   "outfit": "robe",
-   "color": "#EDE6D6",
-   "beard": "long",
-   "hairColor": "#6A6A6A",
-   "hold": "book",
-   "name": "Abu Ishaq al-Sahili"
+   "color": "#5A2A6A",
+   "hold": "moneybag",
+   "beard": "full",
+   "name": "Siraj al-Din"
   }
  },
  "voices": {
   "musa": "am_fenrir",
-  "sahili": "bm_george"
+  "lender": "bm_daniel"
  },
  "beats": [
   {
    "who": "N",
-   "say": "Mansa Musa once paid roughly fifty kilograms of gold for a single room.",
+   "say": "The man called the richest in history once had to borrow money to get home.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "vault",
     "cast": [
      {
       "id": "musa",
       "x": 0.5,
-      "mood": "smug",
-      "hold": "moneybag"
+      "mood": "sad",
+      "pose": "shrug"
      }
-    ],
-    "fx": [
-     "sparkle"
     ],
     "tag": {
      "id": "musa",
@@ -60,95 +54,107 @@
   },
   {
    "who": "N",
-   "say": "Coming home from Mecca, he met Abu Ishaq al-Sahili, a poet and scholar from Granada.",
-   "show": {
-    "k": "scene",
-    "bg": "town",
-    "cast": [
-     {
-      "id": "musa",
-      "x": 0.3,
-      "mood": "happy"
-     },
-     {
-      "id": "sahili",
-      "x": 0.7,
-      "mood": "happy",
-      "pose": "wave"
-     }
-    ],
-    "tag": {
-     "id": "sahili",
-     "text": "Abu Ishaq al-Sahili"
-    }
-   }
-  },
-  {
-   "who": "musa",
-   "say": "Come to Mali. The weather is hot, and the pay is gold.",
-   "show": {
-    "k": "scene",
-    "bg": "town",
-    "cast": [
-     {
-      "id": "musa",
-      "x": 0.3,
-      "mood": "smug",
-      "pose": "present",
-      "hold": "moneybag"
-     },
-     {
-      "id": "sahili",
-      "x": 0.7,
-      "mood": "neutral",
-      "pose": "think"
-     }
-    ],
-    "cam": "close"
-   }
-  },
-  {
-   "who": "sahili",
-   "say": "You had me at gold."
-  },
-  {
-   "who": "N",
-   "say": "Ibn Khaldun says Musa paid him twelve thousand mithqals of gold for a royal audience hall.",
-   "show": {
-    "k": "card",
-    "label": "Paid for one royal audience hall",
-    "big": "12,000 mithqals",
-    "sub": "about 50 kg of gold, per Ibn Khaldun"
-   }
-  },
-  {
-   "who": "N",
-   "say": "Tradition also credits him with Timbuktu's Djinguereber Mosque, first built in the 1320s from earth and wood.",
+   "say": "Mansa Musa gave away so much gold on his 1324 pilgrimage that, on the way back through Egypt, he ran out.",
    "show": {
     "k": "scene",
     "bg": "desert",
     "cast": [
      {
-      "id": "sahili",
-      "x": 0.35,
-      "hold": "book"
-     },
-     {
       "id": "musa",
-      "x": 0.7,
-      "mood": "happy",
-      "pose": "point"
+      "x": 0.5,
+      "mood": "sad",
+      "walk": [
+       0.3,
+       0.55
+      ]
      }
+    ],
+    "fx": [
+     "dust"
     ]
    }
   },
   {
    "who": "N",
-   "say": "Modern historians doubt that, since this earthen style grew from older West African traditions."
+   "say": "So he went to Cairo's moneylenders.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "lender",
+      "x": 0.3,
+      "mood": "smug",
+      "hold": "moneybag"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "lender",
+     "text": "Siraj al-Din, merchant"
+    }
+   }
+  },
+  {
+   "who": "lender",
+   "say": "Fifty thousand dinars? Of course, Your Majesty. Plus interest."
+  },
+  {
+   "who": "musa",
+   "say": "How much interest?",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "lender",
+      "x": 0.3,
+      "mood": "smug",
+      "hold": "moneybag"
+     },
+     {
+      "id": "musa",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "lender"
+   }
   },
   {
    "who": "N",
-   "say": "The mosque still stands in Timbuktu today."
+   "say": "Ibn Khaldun records the fifty thousand dinar loan, and al-Umari says lenders charged a very high rate.",
+   "show": {
+    "k": "card",
+    "label": "Musa's loan from one merchant family",
+    "big": "50,000 dinars",
+    "sub": "recorded by Ibn Khaldun"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Musa paid part of it by selling the lender a palace the sultan had given him."
+  },
+  {
+   "who": "N",
+   "say": "The lender's agents chased the rest all the way to Mali, and his son got back only some of it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "lender",
+      "x": 0.4,
+      "mood": "sad",
+      "hold": "letter"
+     }
+    ]
+   }
   },
   {
    "who": "N",
@@ -160,31 +166,30 @@
       "id": "musa",
       "x": 0.3,
       "pose": "wave",
-      "mood": "happy",
-      "hold": "goldbar"
+      "mood": "happy"
      },
      {
-      "id": "sahili",
+      "id": "lender",
       "x": 0.7,
-      "mood": "happy"
+      "mood": "sad",
+      "hold": "moneybag"
      }
     ]
    }
   }
  ],
- "caption": "Mansa Musa paid about 50 kg of gold for one room.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #timbuktu #historytok #architecture",
- "youtube_title": "Mansa Musa Paid 50 kg of Gold for One Room #shorts",
+ "caption": "The man called the richest who ever lived had to take out a loan.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #money #historytok #moneyhistory",
+ "youtube_title": "The 'Richest Man Ever' Needed a Loan #shorts",
  "tags": [
   "mansa musa",
-  "timbuktu",
-  "djinguereber mosque",
+  "debt",
+  "medieval money",
   "history",
   "history shorts"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Mansa_Musa",
-  "https://en.wikipedia.org/wiki/Djinguereber_Mosque",
-  "https://whc.unesco.org/en/list/119/",
+  "https://www.bbc.com/news/world-africa-47379458",
   "https://www.britannica.com/biography/Musa-I-of-Mali"
  ]
 }

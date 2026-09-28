@@ -1,184 +1,187 @@
 {
  "id": "2026w41-s17",
  "format": "short",
- "date": "2026-10-09",
- "slot": "09:00",
- "title": "Britain Fought a War Named After an Ear",
- "hook": "A WAR OVER AN EAR",
+ "date": "2026-10-08",
+ "slot": "15:00",
+ "title": "The 335-Year War Where Nobody Fired a Shot",
+ "hook": "A 335-YEAR WAR?",
  "music": "playful",
  "cast": {
-  "jenkins": {
-   "hat": "tricorn",
+  "tromp": {
+   "hat": "capotain",
    "outfit": "coat",
-   "color": "#3A4A6A",
-   "skin": "light",
-   "stubble": true,
-   "name": "Captain Robert Jenkins"
-  },
-  "fandino": {
-   "hat": "tricorn",
-   "outfit": "coat",
-   "color": "#8A2A2A",
+   "color": "#262322",
    "beard": "goatee",
-   "skin": "olive",
-   "hold": "sword"
+   "stache": "handlebar",
+   "skin": "light",
+   "name": "Admiral Maarten Tromp"
   },
-  "mp": {
-   "preset": "noble",
-   "hair": "curly",
-   "hairColor": "#EFEFEF"
+  "duncan": {
+   "preset": "businessman",
+   "hairColor": "#DADADA",
+   "glasses": "square",
+   "name": "Roy Duncan"
+  },
+  "huydecoper": {
+   "preset": "businessman",
+   "color": "#262322",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "tie": "#E07A2A",
+   "name": "Ambassador Rein Huydecoper"
   }
  },
  "voices": {
-  "fandino": "am_fenrir",
-  "jenkins": "bm_lewis"
+  "tromp": "bm_daniel",
+  "duncan": "bm_george"
  },
  "beats": [
   {
    "who": "N",
-   "say": "Britain and Spain once fought a war named after a man's ear.",
+   "say": "The Netherlands and some tiny British islands were supposedly at war for three hundred thirty-five years.",
    "show": {
     "k": "scene",
-    "bg": "deck",
+    "bg": "harbor",
     "cast": [
      {
-      "id": "jenkins",
-      "x": 0.5,
-      "pose": "shrug"
-     }
-    ],
-    "tag": {
-     "id": "jenkins",
-     "text": "Captain Robert Jenkins"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "In 1731, a Spanish coast guard boarded Captain Robert Jenkins' ship, which was smuggling.",
-   "show": {
-    "k": "scene",
-    "bg": "deck",
-    "cast": [
-     {
-      "id": "jenkins",
-      "x": 0.3,
-      "mood": "shock"
+      "id": "tromp",
+      "x": 0.3
      },
      {
-      "id": "fandino",
-      "x": 0.7,
-      "pose": "point",
-      "mood": "angry"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "They cut off his ear, and one report says they handed the piece back to him.",
-   "show": {
-    "k": "scene",
-    "bg": "deck",
-    "cast": [
-     {
-      "id": "jenkins",
-      "x": 0.3,
-      "pose": "scared",
-      "mood": "shock"
-     },
-     {
-      "id": "fandino",
+      "id": "duncan",
       "x": 0.7
      }
-    ],
-    "fx": [
-     "smoke"
-    ],
-    "cam": "shake"
-   }
-  },
-  {
-   "who": "fandino",
-   "say": "Take it to your king."
-  },
-  {
-   "who": "N",
-   "say": "Seven years later, politicians who wanted war with Spain made Jenkins famous.",
-   "show": {
-    "k": "scene",
-    "bg": "courtroom",
-    "cast": [
-     {
-      "id": "jenkins",
-      "x": 0.35,
-      "hold": "bottle",
-      "pose": "present",
-      "mood": "smug"
-     },
-     {
-      "id": "mp",
-      "x": 0.7,
-      "pose": "scared",
-      "mood": "shock"
-     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "The legend says he showed Parliament his ear, pickled in a jar, though historians doubt that part."
-  },
-  {
-   "who": "N",
-   "say": "In 1739, Britain went to war, and it dragged on until 1748.",
+   "say": "In 1651, Dutch Admiral Maarten Tromp reportedly declared war on the Isles of Scilly over seized Dutch ships.",
    "show": {
     "k": "scene",
     "bg": "sea",
     "cast": [
      {
-      "id": "jenkins",
-      "x": 0.5,
-      "pose": "facepalm"
+      "id": "tromp",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
      }
     ],
-    "fx": [
-     "smoke"
+    "tag": {
+     "id": "tromp",
+     "text": "Admiral Maarten Tromp"
+    }
+   }
+  },
+  {
+   "who": "tromp",
+   "say": "Pay up, or it's war!"
+  },
+  {
+   "who": "N",
+   "say": "Then the Dutch sailed home without firing a shot, and everybody forgot.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "tromp",
+      "x": 0.4,
+      "walk": [
+       0.4,
+       0.8
+      ],
+      "pose": "walk"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Follow for more wars with ridiculous names.",
+   "say": "In the 1980s, local historian Roy Duncan asked the Dutch embassy, and nobody could find a peace treaty.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "duncan",
+      "x": 0.45,
+      "hold": "letter",
+      "pose": "hold"
+     }
+    ],
+    "tag": {
+     "id": "duncan",
+     "text": "Roy Duncan"
+    }
+   }
+  },
+  {
+   "who": "duncan",
+   "say": "So, are we still at war?"
+  },
+  {
+   "who": "N",
+   "say": "The Dutch ambassador came over and officially made peace.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "huydecoper",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "duncan",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians say it was probably never a real war, but the peace party definitely was."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more strange history.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "jenkins",
-      "x": 0.35,
-      "hold": "bottle"
+      "id": "tromp",
+      "x": 0.3,
+      "pose": "shrug"
      },
      {
-      "id": "mp",
+      "id": "duncan",
       "x": 0.7,
-      "pose": "wave"
+      "pose": "wave",
+      "mood": "happy"
      }
     ]
    }
   }
  ],
- "caption": "The War of Jenkins' Ear is a real war with a real ear.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #jenkinsear #britishhistory #historytok #funnyhistory",
- "youtube_title": "Britain Fought a War Named After an Ear #shorts",
+ "caption": "A 'war' that lasted 335 years without a single shot.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #islesofscilly #netherlands #historytok #historyfacts",
+ "youtube_title": "The 335-Year War Where Nobody Fired a Shot #shorts",
  "tags": [
-  "war of jenkins ear",
+  "335 years war",
   "history",
-  "british history",
-  "funny history",
+  "isles of scilly",
+  "netherlands",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/War_of_Jenkins%27_Ear",
-  "https://en.wikipedia.org/wiki/Robert_Jenkins_(master_mariner)",
-  "https://www.britannica.com/event/War-of-Jenkins-Ear"
+  "https://en.wikipedia.org/wiki/Three_Hundred_and_Thirty_Five_Years%27_War",
+  "https://www.historic-uk.com/HistoryUK/HistoryofEngland/The-335-Year-War-the-Longest-War-in-History/"
  ]
 }

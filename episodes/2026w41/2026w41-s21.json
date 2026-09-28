@@ -1,190 +1,217 @@
 {
  "id": "2026w41-s21",
  "format": "short",
- "date": "2026-10-10",
- "slot": "09:00",
- "title": "The King Who Wouldn't Bow to a Sultan",
- "hook": "HE WOULDN'T BOW",
+ "date": "2026-10-09",
+ "slot": "15:00",
+ "title": "The Friendliest Standoff in History",
+ "hook": "FRIENDLIEST WAR EVER",
  "music": "playful",
  "cast": {
-  "musa": {
-   "skin": "dark",
-   "hat": "crown",
-   "outfit": "robe",
-   "color": "#D4A52A",
-   "color2": "#8A5A12",
+  "pickett": {
+   "hat": "kepi",
+   "hatColor": "#2A3A6A",
+   "outfit": "uniform",
+   "color": "#2A3A6A",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "stache": "handlebar",
    "beard": "goatee",
-   "hair": "short",
-   "hairColor": "#1E1C1B",
-   "name": "Mansa Musa"
+   "skin": "light",
+   "name": "Captain George Pickett"
   },
-  "sultan": {
-   "preset": "sultan",
-   "color": "#6A3E8E",
-   "hatColor": "#F2EEE4",
-   "name": "Sultan al-Nasir Muhammad"
+  "marine": {
+   "preset": "redcoat",
+   "hat": "kepi",
+   "stache": "bush",
+   "hatColor": "#1E1C1B"
   },
-  "hajib": {
-   "preset": "merchant",
-   "color": "#3A5A8A",
-   "hatColor": "#F2EEE4",
-   "skin": "olive",
-   "name": "Ibn Amir Hajib"
+  "pig": {
+   "animal": "pig",
+   "mood": "happy"
+  },
+  "kaiser": {
+   "hat": "pickel",
+   "outfit": "napoleon",
+   "color": "#2A3A5A",
+   "beard": "full",
+   "stache": "handlebar",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Kaiser Wilhelm I"
   }
  },
  "voices": {
-  "musa": "am_fenrir",
-  "sultan": "bm_lewis",
-  "hajib": "bm_george"
+  "pickett": "am_fenrir",
+  "marine": "bm_daniel"
  },
  "beats": [
   {
    "who": "N",
-   "say": "A king often called the richest ever was told to kiss the ground. He said no.",
+   "say": "The Pig War might be the friendliest standoff in history.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "camp",
     "cast": [
      {
-      "id": "musa",
-      "x": 0.5,
-      "mood": "angry",
-      "pose": "cross"
-     }
-    ],
-    "tag": {
-     "id": "musa",
-     "text": "Mansa Musa of Mali"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "In 1324, Mansa Musa of Mali reached Cairo, ruled by Sultan al-Nasir Muhammad."
-  },
-  {
-   "who": "N",
-   "say": "At first he refused to even visit, saying he had come only for the pilgrimage.",
-   "show": {
-    "k": "scene",
-    "bg": "egypt",
-    "cast": [
-     {
-      "id": "hajib",
+      "id": "pickett",
       "x": 0.3,
-      "mood": "scared",
-      "pose": "point"
+      "pose": "hips"
      },
      {
-      "id": "musa",
+      "id": "marine",
       "x": 0.7,
-      "mood": "neutral",
-      "pose": "cross"
+      "pose": "hips"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "An Egyptian official said Musa spoke only through an interpreter, even though his Arabic was perfect."
-  },
-  {
-   "who": "hajib",
-   "say": "Kiss the ground!",
+   "say": "In 1859, one dead pig put American soldiers and British warships face to face on San Juan Island.",
    "show": {
     "k": "scene",
-    "bg": "throne",
+    "bg": "field",
     "cast": [
      {
-      "id": "sultan",
-      "x": 0.2,
-      "pose": "sit",
-      "mood": "smug"
-     },
-     {
-      "id": "hajib",
-      "x": 0.47,
-      "mood": "scared"
-     },
-     {
-      "id": "musa",
-      "x": 0.78,
-      "mood": "angry",
-      "pose": "hips"
+      "id": "pig",
+      "x": 0.5,
+      "mood": "sad"
      }
     ],
-    "cam": "close",
-    "focus": "musa"
+    "stickers": [
+     {
+      "text": "R.I.P. PIG",
+      "at": 1.5,
+      "color": "#262322"
+     }
+    ]
    }
   },
   {
-   "who": "musa",
-   "say": "How may this be?"
+   "who": "pickett",
+   "say": "Nobody leaves this island.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "pickett",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "pickett",
+     "text": "Captain George Pickett"
+    }
+   }
   },
   {
    "who": "N",
-   "say": "An adviser whispered to him, and Musa found a loophole."
+   "say": "But while the governments panicked, officers from both sides went to church together.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "pickett",
+      "x": 0.35,
+      "pose": "sit"
+     },
+     {
+      "id": "marine",
+      "x": 0.65,
+      "pose": "sit"
+     }
+    ]
+   }
   },
   {
-   "who": "musa",
-   "say": "I make obeisance to God who created me!",
+   "who": "N",
+   "say": "They even shared whisky and cigars.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pickett",
+      "x": 0.35,
+      "hold": "goblet",
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "marine",
+      "x": 0.65,
+      "hold": "goblet",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "marine",
+   "say": "Cheers, old chap."
+  },
+  {
+   "who": "N",
+   "say": "Both sides shared the island for twelve years, until an arbitration by Kaiser Wilhelm the First gave it to America in 1872.",
    "show": {
     "k": "scene",
     "bg": "throne",
     "cast": [
      {
-      "id": "sultan",
-      "x": 0.3,
-      "pose": "sit",
-      "mood": "shock"
-     },
-     {
-      "id": "musa",
-      "x": 0.7,
-      "mood": "smug",
+      "id": "kaiser",
+      "x": 0.5,
+      "hold": "scroll",
       "pose": "present"
      }
     ],
-    "cam": "close"
+    "tag": {
+     "id": "kaiser",
+     "text": "Kaiser Wilhelm I"
+    }
    }
   },
   {
    "who": "N",
-   "say": "He bowed to God, not the sultan, and the sultan sat him by his side anyway."
+   "say": "The only casualty in all that time was the pig."
   },
   {
    "who": "N",
-   "say": "Follow for more history power moves.",
+   "say": "Follow for more of history's weirdest wars.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "musa",
+      "id": "pickett",
       "x": 0.3,
       "pose": "wave",
-      "mood": "smug"
+      "mood": "happy"
      },
      {
-      "id": "sultan",
+      "id": "marine",
       "x": 0.7,
+      "pose": "wave",
       "mood": "happy"
      }
     ]
    }
   }
  ],
- "caption": "The sultan said kiss the ground. Mansa Musa found a loophole.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #mansamusa #mali #historytok #funnyhistory",
- "youtube_title": "The King Who Wouldn't Bow to a Sultan #shorts",
+ "caption": "They nearly went to war, then went to church together.\n\nFull video on our YouTube channel. Follow for 4 stories a day.\n#history #pigwar #sanjuanisland #historytok #funnyhistory",
+ "youtube_title": "The Friendliest Standoff in History #shorts",
  "tags": [
-  "mansa musa",
-  "mamluk sultan",
-  "cairo",
+  "pig war",
   "history",
+  "san juan island",
+  "funny history",
   "history shorts"
  ],
  "sources": [
-  "https://www.digitalhistory.uh.edu/active_learning/explorations/1492/mansa_musa_visit.cfm",
-  "https://en.wikipedia.org/wiki/Mansa_Musa",
-  "https://www.britannica.com/biography/Musa-I-of-Mali"
+  "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+  "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
  ]
 }
