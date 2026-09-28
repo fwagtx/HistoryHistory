@@ -102,6 +102,18 @@ function horse(c, x, y, s = 1, o = {}, t = 0) {
   hd(c, ell(182, -92, 6, 7), { fill: T.ink, w: 0 });
   c.restore();
 }
+function camel(c, x, y, s = 1, o = {}, t = 0) {
+  c.save(); c.translate(x, y); c.scale(s * (o.flip ? -1 : 1), s); const col = o.color || '#C9A36A', dark = '#8A6A3A', run = o.run ? Math.sin(t * 8) : 0;
+  for (const [k, ph] of [[-75, 0], [-45, 1], [55, 1], [85, 0]]) { const a = (ph ? run : -run) * .45; const leg = [[k, 25], [k + Math.sin(a) * 30, 105], [k + Math.sin(a) * 34, 170]]; line(c, leg, 13, T.ink); line(c, leg, 8, col); hd(c, ell(k + Math.sin(a) * 34 + 4, 172, 14, 7), { fill: dark, w: 3 }); }
+  hd(c, ell(0, 0, 120, 52), { fill: col, w: 5 });
+  hd(c, bez([-60, -30], [-50, -120], [45, -120], [55, -30], 12), { fill: col, w: 5 });
+  hd(c, bez([85, -10], [130, -40], [150, -120], [170, -150], 10).concat([[205, -150], [210, -130]], bez([200, -128], [170, -120], [150, -40], [110, 20], 10)), { fill: col, w: 5 });
+  hd(c, ell(205, -142, 40, 20, 0, .15), { fill: col, w: 5 }); hd(c, ell(186, -158, 8, 12), { fill: col, w: 3 });
+  hd(c, ell(212, -150, 5, 6), { fill: T.ink, w: 0 }); line(c, qb([232, -132], [238, -128], [244, -134]), 3);
+  line(c, [[-118, -6], [-150, 30], [-145, 70]], 8, dark);
+  if (o.load) { hd(c, rect(-70, -112, 120, 34), { fill: '#A8322A', w: 4 }); for (const sx of [-1, 1]) hd(c, rect(sx * 70 - 30 - 5, -80, 50, 60), { fill: o.load === 'gold' ? CLR.gold : '#E8DCC0', w: 4 }); }
+  c.restore();
+}
 function rat(c, x, y, s = 1, o = {}, t = 0) {
   c.save(); c.translate(x, y); c.scale(s * (o.flip ? -1 : 1), s);
   line(c, qb([-60, 10], [-120, 30], [-140, -10 + Math.sin(t * 6) * 10]), 4, '#C98A8A');
@@ -119,7 +131,7 @@ function elephant(c, x, y, s = 1, o = {}, t = 0) {
   hd(c, ell(176, -76, 7, 8), { fill: T.ink, w: 0 });
   c.restore();
 }
-const ANIMALS = { emu, pig, horse, rat, elephant };
+const ANIMALS = { emu, pig, horse, rat, elephant, camel };
 
 /* ---------- more props (money topics and more) ---------- */
 const _prop0 = prop;
@@ -142,7 +154,7 @@ prop = function (c, p, h, ang, t, o) {
     case 'binoculars': for (const x of [-12, 16]) hd(c, rect(x - 10, -24, 20, 40), { fill: '#262322', w: 3 }); break;
     case 'crown': hd(c, poly([[-30, 10], [-34, -30], [-16, -10], [0, -38], [16, -10], [34, -30], [30, 10]], 8), { fill: CLR.gold, w: 3.5 }); break;
     case 'bomb': hd(c, ell(20, 0, 30, 30), { fill: '#262322', w: 3.5 }); line(c, qb([20, -30], [30, -46], [44, -44]), 3, '#8A6A4A'); break;
-    case 'moneybag': hd(c, bez([-30, 0], [-50, 70], [50, 70], [30, 0], 12).concat([[14, -14], [-14, -14]]), { fill: '#C8A060', w: 4 }); line(c, seg(-16, -8, 16, -8, 2), 4, '#6A4428'); c.font = 'bold 34px Anton'; c.fillStyle = '#3A2A10'; c.textAlign = 'center'; c.fillText('$', 0, 46); break;
+    case 'moneybag': hd(c, bez([-30, 0], [-50, 70], [50, 70], [30, 0], 12).concat([[14, -14], [-14, -14]]), { fill: '#C8A060', w: 4 }); line(c, seg(-16, -8, 16, -8, 2), 4, '#6A4428'); hd(c, ell(0, 34, 13, 13), { fill: CLR.gold, w: 3 }); hd(c, ell(0, 34, 6, 6), { fill: '#F6CE5A', w: 1.5 }); break;
     case 'goldbar': hd(c, poly([[-30, -6], [30, -6], [38, 18], [-38, 18]], 8), { fill: CLR.gold, w: 4 }); line(c, seg(-20, 2, 14, 2, 2), 2.5, '#FFF3B0'); break;
     case 'coin': hd(c, ell(8, 0, 20, 20), { fill: CLR.gold, w: 4 }); hd(c, ell(8, 0, 12, 12), { fill: '#F6CE5A', w: 2 }); break;
     case 'goblet': hd(c, poly([[-18, -40], [18, -40], [10, -6], [-10, -6]], 8), { fill: CLR.gold, w: 3.5 }); line(c, seg(0, -6, 0, 14, 2), 5, CLR.gold); hd(c, ell(0, 16, 14, 5), { fill: CLR.gold, w: 3 }); break;

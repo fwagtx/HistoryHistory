@@ -166,7 +166,7 @@ Each id maps to a character spec: `{"preset": …}` plus any overrides, or a ful
 - `hold`
 - `mood`: neutral, happy, shock, angry, scared, smug, sad, shout
 - `eyes`: dot or big
-- `animal`: emu, pig, horse, rat, elephant (animals take `mood`, and emus take `helmet`)
+- `animal`: emu, pig, horse, rat, elephant, camel (animals take `mood`; emus take `helmet`; camels take `load`: "gold" or "salt")
 
 The engine vocabulary follows. `pipeline/validate_toon.py` rejects anything else.
 
@@ -208,7 +208,7 @@ The engine vocabulary follows. `pipeline/validate_toon.py` rejects anything else
 **Poses:** point, wave, cheer, shrug, hips, think, fist, salute, scared, facepalm, aim, hold, present, cross, sit, walk, run.
 
 **Scenes (`bg`):**
-- **Outdoors:** field, sea, harbor, town, village, castle, desert, volcano, outback, wheat, rome, egypt, greek, battlefield, trench, city, street, market, camp, deck, palace, steppe, japan, jungle, snow, arctic, factory.
+- **Outdoors:** field, sea, harbor, town (European), village (European, with a church), castle, desert, sahel (Timbuktu-style mud-brick town with a mud mosque), islamic (Cairo/Baghdad-style domes and minarets), volcano, outback, wheat, rome, egypt, greek, battlefield, trench, city, street, market, camp, deck, palace, steppe, japan, jungle, snow, arctic, factory.
 - **Night:** night, ocean, titanic.
 - **Space:** moon, space.
 - **Indoors:** throne, church, tavern, warroom, vault, courtroom, library, office.

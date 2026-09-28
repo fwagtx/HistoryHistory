@@ -16,8 +16,8 @@
  */
 const ezB = x => { const c1 = 1.70158, c3 = c1 + 1; x = Math.max(0, Math.min(1, x)); return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
 const ezIO = x => { x = Math.max(0, Math.min(1, x)); return x < .5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2; };
-const ANIMAL_FOOT = { emu: 172, pig: 74, horse: 150, rat: 26, elephant: 140 };
-const ANIMAL_SCALE = { emu: .8, pig: .6, horse: .75, rat: .4, elephant: .7 };
+const ANIMAL_FOOT = { emu: 172, pig: 74, horse: 150, rat: 26, elephant: 140, camel: 179 };
+const ANIMAL_SCALE = { emu: .8, pig: .6, horse: .75, rat: .4, elephant: .7, camel: .75 };
 const isLong = () => TV.format === 'long';
 const CW = () => isLong() ? 1920 : 1080, CH = () => isLong() ? 1080 : 1920;
 const VZ = 1.78, VDY = -330;

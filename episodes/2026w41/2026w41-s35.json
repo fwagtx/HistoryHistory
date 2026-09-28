@@ -28,7 +28,8 @@
    "name": "Salt caravan trader"
   },
   "horse": {
-   "animal": "horse"
+   "animal": "camel",
+   "load": "salt"
   },
   "ibn": {
    "skin": "tan",
@@ -133,7 +134,7 @@
    "say": "Twenty-five days in, his caravan reached Taghaza, a salt mine.",
    "show": {
     "k": "scene",
-    "bg": "desert",
+    "bg": "outback",
     "cast": [
      {
       "id": "ibn",
@@ -157,7 +158,7 @@
    "say": "He wrote that its houses and mosque were built from blocks of salt, with camel-skin roofs.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "desert",
     "cast": [
      {
       "id": "ibn",
@@ -182,7 +183,7 @@
    "say": "Salty water, and flies everywhere. Lovely.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "desert",
     "cast": [
      {
       "id": "ibn",
@@ -199,7 +200,7 @@
    "say": "Enslaved workers dug out the salt in big slabs, and a camel could carry two.",
    "show": {
     "k": "scene",
-    "bg": "field",
+    "bg": "outback",
     "cast": [
      {
       "id": "worker",
@@ -239,7 +240,7 @@
    "say": "People even cut salt into pieces and used it as money.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "sahel",
     "cast": [
      {
       "id": "saltman",

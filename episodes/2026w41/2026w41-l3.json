@@ -124,7 +124,8 @@
    "name": "A jeli (griot)"
   },
   "horse": {
-   "animal": "horse"
+   "animal": "camel",
+   "load": "gold"
   }
  },
  "voices": {
@@ -196,7 +197,7 @@
    "say": "He paid in gold. His servants paid in gold. Everyone is paying in gold!",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "islamic",
     "cast": [
      {
       "id": "trader",
@@ -234,7 +235,7 @@
    "say": "Great! So why is my gold worth less every week?",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "islamic",
     "cast": [
      {
       "id": "trader",
@@ -406,7 +407,7 @@
    "say": "Mali's kings used the title mansa, which means king. So Mansa Musa just means King Musa.",
    "show": {
     "k": "scene",
-    "bg": "village",
+    "bg": "sahel",
     "cast": [
      {
       "id": "griot",
@@ -540,7 +541,7 @@
    "say": "One slab of salt, fresh from the desert. What are you offering?",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "sahel",
     "cast": [
      {
       "id": "saltman",
@@ -576,7 +577,7 @@
    "say": "Gold. And the king takes his cut on the way through.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "sahel",
     "cast": [
      {
       "id": "saltman",
@@ -1230,7 +1231,7 @@
    "say": "Here's the catch. When a city suddenly has lots more gold, each piece of gold buys a little less.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "islamic",
     "cast": [
      {
       "id": "trader",
@@ -1270,7 +1271,7 @@
    "say": "Last year your gold was worth twenty-five silver coins. Today? Twenty-two.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "islamic",
     "cast": [
      {
       "id": "trader",
@@ -1387,7 +1388,7 @@
    "say": "Back in Cairo, the man who had flooded the city with gold ran out of money.",
    "show": {
     "k": "scene",
-    "bg": "town",
+    "bg": "islamic",
     "cast": [
      {
       "id": "musa",
@@ -1419,7 +1420,7 @@
    "say": "Fifty thousand dinars? For you, Your Majesty, of course. At a very reasonable rate.",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "islamic",
     "cast": [
      {
       "id": "lender",
@@ -1445,7 +1446,7 @@
    "say": "How reasonable?",
    "show": {
     "k": "scene",
-    "bg": "market",
+    "bg": "islamic",
     "cast": [
      {
       "id": "lender",
@@ -1565,7 +1566,7 @@
    "say": "Musa didn't just bring home debts. He brought home people.",
    "show": {
     "k": "scene",
-    "bg": "town",
+    "bg": "sahel",
     "cast": [
      {
       "id": "musa",
@@ -1603,7 +1604,7 @@
    "say": "Come to Mali. The weather is hot and the pay is gold.",
    "show": {
     "k": "scene",
-    "bg": "town",
+    "bg": "sahel",
     "cast": [
      {
       "id": "musa",

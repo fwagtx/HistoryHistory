@@ -23,7 +23,7 @@ E = ROOT / "engine" / "toon"
 ENGINE = ["shared.js", "toon/core.js", "toon/wardrobe.js", "toon/scenes.js", "toon/presets.js", "toon/objects.js", "toon/director.js", "toon/thumbs.js"]
 KINDS = {"scene", "map", "title", "chapter", "card", "quote", "list", "compare", "end", "flag"}
 MOODS = {"neutral", "happy", "shock", "angry", "scared", "smug", "sad", "shout", "talk"}
-ANIMALS = {"emu", "pig", "horse", "rat", "elephant"}
+ANIMALS = {"emu", "pig", "horse", "rat", "elephant", "camel"}
 EMBLEMS = {"star", "whitestar", "redstar", "cross", "roundel", "sun"}
 MUSIC = {"playful", "tense", "warm"}
 
@@ -50,12 +50,22 @@ MODERN_BG = {"city", "street", "factory", "vault"}   # 1800s+ looks: brick block
 
 
 def year_of(text):
-    """The year a place banner or chapter card talks about ("Rome · 64 AD" → 64, "221 BC" → -221), or None."""
-    m = re.search(r"(\d{1,4})\s*(?:s\b)?\s*(BC|BCE|AD|CE)?", str(text or ""))
-    if not m:
-        return None
-    y = int(m.group(1))
-    return -y if (m.group(2) or "").startswith("B") else y
+    """The year a place banner, chapter card or map date talks about, or None.
+    "Rome · 64 AD" → 64, "221 BC" → -221, "Tatoi · 2 October 1920" → 1920, "Mali · 1350s" → 1350,
+    "about 2,000 years ago" → 26 (counted back from 2026)."""
+    t = re.sub(r"(?<=\d),(?=\d{3})", "", str(text or ""))
+    m = re.search(r"(\d+)\s*years?\s+ago", t)
+    if m:
+        return 2026 - int(m.group(1))
+    m = re.search(r"(\d{1,4})\s*(?:s\b)?\s*(BC|BCE|AD|CE)\b", t)
+    if m:
+        y = int(m.group(1))
+        return -y if m.group(2).startswith("B") else y
+    nums = re.findall(r"(?<!\d)(\d{3,4})(?!\d)", t)
+    if nums:
+        return int(nums[-1])
+    m = re.search(r"(?<!\d)(\d{1,4})(?!\d)", t)
+    return int(m.group(1)) if m and not re.search(r"\d\s+[A-Z][a-z]+\s+\d{3,4}", t) else None
 
 
 def check(path, V):
@@ -93,6 +103,12 @@ def check(path, V):
         errs.append("the first beat needs a 'show'")
     words, kinds, scenes, dialogue = 0, [], set(), 0
     vis, places, era = [], 0, None
+    for b0 in s.get("beats", []):                      # before the first banner, the story is set in its first year
+        sh0 = b0.get("show") or {}
+        y0 = year_of(sh0.get("place")) or (year_of(sh0.get("year")) if sh0.get("k") == "chapter" else None) or (year_of(sh0.get("date")) if sh0.get("k") == "map" else None)
+        if y0 is not None:
+            era = y0
+            break
     for i, b in enumerate(beats):
         who = b.get("who", "N")
         if who != "N" and who not in cast:
@@ -121,6 +137,8 @@ def check(path, V):
         for f in filter(None, used):
             if f in FLAG_FROM and era is not None and era < FLAG_FROM[f][0] and not (f == "russia" and era < 1917):
                 errs.append(f"beat {i}: the '{f}' flag is the modern one, but the story is in {abs(era)}{' BC' if era < 0 else ''}; use {FLAG_FROM[f][1]}")
+        if k == "scene" and sh.get("bg") in ("village", "church") and era is not None and era < 400:
+            errs.append(f"beat {i}: '{sh['bg']}' has a church, but the story is in {abs(era)}{' BC' if era < 0 else ''}; use field, rome, greek, egypt or market")
         if k == "scene" and sh.get("bg") in MODERN_BG and era is not None and era < 1800:
             errs.append(f"beat {i}: '{sh['bg']}' is a modern background but the story is in {abs(era)}{' BC' if era < 0 else ''}; use an era-appropriate scene (rome, greek, egypt, town, village, market, castle, palace, japan…)")
         if k not in KINDS:
