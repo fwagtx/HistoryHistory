@@ -28,22 +28,6 @@ function ring(c, S, col) {  // hand-drawn outline round the avatar
   hd(c, ell(S / 2, S / 2, S / 2 - 18, S / 2 - 18, 60), { w: 22, color: col, amp: 1.2 });
 }
 
-function avatarFlat(S, bg) {
-  const cv = document.createElement('canvas'); cv.width = cv.height = S; const c = cv.getContext('2d');
-  c.fillStyle = bg; c.fillRect(0, 0, S, S);
-  c.save(); c.beginPath(); c.arc(S / 2, S / 2, S / 2 - 18, 0, TAU2); c.clip();
-  c.fillStyle = 'rgba(255,255,255,.14)'; c.beginPath(); c.arc(S / 2, S * .44, S * .36, 0, TAU2); c.fill();
-  bust(c, S / 2, S * .56, S / 262); c.restore();
-  ring(c, S, T.ink); return cv;
-}
-function avatarScene(S, name) {
-  const cv = document.createElement('canvas'); cv.width = cv.height = S; const c = cv.getContext('2d');
-  c.fillStyle = '#7CC4F0'; c.fillRect(0, 0, S, S);
-  c.save(); c.beginPath(); c.arc(S / 2, S / 2, S / 2 - 18, 0, TAU2); c.clip();
-  sceneSquare(c, name, S, 3);
-  bust(c, S / 2, S * .56, S / 262); c.restore();
-  ring(c, S, T.ink); return cv;
-}
 function banner(W, H) {
   const cv = document.createElement('canvas'); cv.width = W; cv.height = H; const c = cv.getContext('2d');
   const tmp = document.createElement('canvas'); tmp.width = BW; tmp.height = BH; frameStart(.4); scene(tmp.getContext('2d'), 'rome', 1);
@@ -56,10 +40,56 @@ function banner(W, H) {
   marker(c, 'history, explained simply', 480, 828, 58, T.ink);
   c.restore(); return cv;
 }
+function hero(id, extra = {}) { return Object.assign({}, PRESET[id], { eyes: 'big', mood: 'happy', look: .12, gaze: .4, hold: null, hold2: null, ra: [-150, -40], la: [-18, -6] }, extra); }
+function avatar(S, who, bg, sceneName, cy = .56) {
+  const cv = document.createElement('canvas'); cv.width = cv.height = S; const c = cv.getContext('2d');
+  c.fillStyle = bg; c.fillRect(0, 0, S, S);
+  c.save(); c.beginPath(); c.arc(S / 2, S / 2, S / 2 - 18, 0, TAU2); c.clip();
+  if (sceneName) sceneSquare(c, sceneName, S, 3);
+  else { c.fillStyle = 'rgba(255,255,255,.14)'; c.beginPath(); c.arc(S / 2, S * .44, S * .36, 0, TAU2); c.fill(); }
+  frameStart(.4); guy(c, S / 2, S * cy, S / 262, who, .4); c.restore();
+  ring(c, S, T.ink); return cv;
+}
+function squad(S, bg) {  // three eras in one circle
+  const cv = document.createElement('canvas'); cv.width = cv.height = S; const c = cv.getContext('2d');
+  c.fillStyle = bg; c.fillRect(0, 0, S, S);
+  c.save(); c.beginPath(); c.arc(S / 2, S / 2, S / 2 - 18, 0, TAU2); c.clip();
+  c.fillStyle = 'rgba(255,255,255,.14)'; c.beginPath(); c.arc(S / 2, S * .5, S * .40, 0, TAU2); c.fill();
+  const k = S / 1024; frameStart(.4);
+  guy(c, 250 * k, 600 * k, 2.6 * k, hero('viking', { hatLift: 10, look: .35, gaze: .6 }), .4);
+  guy(c, 774 * k, 600 * k, 2.6 * k, hero('pharaoh', { hatLift: 14, look: -.35, gaze: -.6 }), .4);
+  guy(c, 512 * k, 520 * k, 3.2 * k, hero('legionary', { hatLift: 16 }), .4);
+  c.restore(); ring(c, S, T.ink); return cv;
+}
+function shoutAvatar(S, bg) {  // mascot shouting the name in a speech bubble
+  const cv = document.createElement('canvas'); cv.width = cv.height = S; const c = cv.getContext('2d');
+  c.fillStyle = bg; c.fillRect(0, 0, S, S);
+  c.save(); c.beginPath(); c.arc(S / 2, S / 2, S / 2 - 18, 0, TAU2); c.clip();
+  const k = S / 1024; c.save(); c.scale(k, k);
+  frameStart(.4); guy(c, 360, 690, 3.1, hero('legionary', { hatLift: 16, mood: 'shout', look: .3, gaze: .6 }), .4);
+  c.save(); c.translate(500, 150); c.rotate(.05);
+  const pts = poly([[0, 0], [360, 0], [360, 230], [140, 230], [40, 320], [80, 230], [0, 230]], 30); hd(c, pts, { fill: '#FFFFFF', w: 7 });
+  thumbText(c, 'HISTORY', 180, 108, 84, { shadow: false, sw: 0, fill: T.ink }); thumbText(c, 'PROS!', 180, 205, 92, { shadow: false, sw: 0, fill: '#D63A2F' });
+  c.restore(); c.restore(); c.restore(); ring(c, S, T.ink); return cv;
+}
+function watermark(W, H) {  // transparent corner mark for videos / end screens
+  const cv = document.createElement('canvas'); cv.width = W; cv.height = H; const c = cv.getContext('2d');
+  const k = H / 400; c.save(); c.scale(k, k);
+  thumbText(c, 'HISTORY PROS', 285, 320, 150, { sw: .1, align: 'left' });
+  frameStart(.4); guy(c, 140, 200, 1.9, hero('legionary', { hatLift: 16, look: .3, gaze: .6 }), .4);
+  c.restore(); return cv;
+}
 window.LOGOS = () => ({
-  'toon-avatar-gold': avatarFlat(1024, '#F2B632').toDataURL(),
-  'toon-avatar-teal': avatarFlat(1024, '#2F8F86').toDataURL(),
-  'toon-avatar-rome': avatarScene(1024, 'rome').toDataURL(),
+  'toon-avatar-gold': avatar(1024, hero('legionary', { hatLift: 16 }), '#F2B632').toDataURL(),
+  'toon-avatar-teal': avatar(1024, hero('legionary', { hatLift: 16 }), '#2F8F86').toDataURL(),
+  'toon-avatar-rome': avatar(1024, hero('legionary', { hatLift: 16 }), '#7CC4F0', 'rome').toDataURL(),
+  'toon-avatar-viking': avatar(1024, hero('viking', { hatLift: 10 }), '#2F6FC2').toDataURL(),
+  'toon-avatar-pharaoh': avatar(1024, hero('pharaoh', { hatLift: 14 }), '#7CC4F0', 'egypt').toDataURL(),
+  'toon-avatar-samurai': avatar(1024, hero('samurai', { hatLift: 14 }), '#D63A2F', null, .63).toDataURL(),
+  'toon-avatar-pirate': avatar(1024, hero('pirate'), '#1F2E55').toDataURL(),
+  'toon-avatar-squad': squad(1024, '#F2B632').toDataURL(),
+  'toon-avatar-shout': shoutAvatar(1024, '#2F8F86').toDataURL(),
+  'toon-watermark': watermark(1240, 400).toDataURL(),
   'toon-banner': banner(2560, 1440).toDataURL(),
 });
 """
