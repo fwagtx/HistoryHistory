@@ -104,6 +104,7 @@ python pipeline/toon_render.py episodes/<week>/<week>-l*.json episodes/<week>/<w
 - **Before the full render:** look at a contact sheet of the stills (PIL is installed). Fix anything broken, such as overlaps, a character off-screen or unreadable text.
 - **Render times:** a short takes about 1 minute and a 14-minute long-form about 25 minutes.
 - **After the render:** check every file in `media_out/` exists. Long-form files must be under 95 MB.
+- **Thumbnails:** every short gets `<id>-thumb.jpg` (1080x1920 cover: the hook, a where/when tag and the subject's most dramatic scene), every long-form its 16:9 `thumbnail`. Look at a contact sheet of all 38. Each must make sense on its own at phone size: who or what the story is about, plus the hook. If a hook only works after watching (e.g. "HE BROKE GOLD"), give the short a `"thumbnail": {"text": "HE MADE GOLD CHEAP"}` and re-run `python pipeline/toon_render.py <script> --thumbs` (seconds, no narration).
 - **Audio check:** check one of each with ffmpeg: about -16 LUFS integrated, and duration matching the narration.
 
 ## 6. Publish the media
@@ -127,6 +128,7 @@ For each day of the week, call `getScheduledPosts` with brandId 7081960 and time
 - 5 shorts a day, plus the Mon/Wed/Fri long-form on Facebook 11:00 and YouTube 16:00 (41 posts in total);
 - all PENDING, with no leftovers from the old style;
 - media ingested (URLs now on static.metricool.com).
+- every post has a thumbnail (`videoThumbnailUrl` on static.metricool.com) except the Facebook long-form post.
 
 Write `episodes/<week>/scheduled.json` with each post's id, uuid, date and title.
 

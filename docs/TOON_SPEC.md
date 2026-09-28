@@ -223,6 +223,19 @@ The engine vocabulary follows. `pipeline/validate_toon.py` rejects anything else
 - `{"style": "redbox", "bg": "outback", "lines": ["THEY LOST", "TO BIRDS?"], "main": {"id": "emu", "mood": "smug"}, "second": {"id": "meredith", "mood": "scared", "hold": "lewis"}}` works for Wednesday and Friday.
 - Thumbnail text is 1–3 words, all caps, and true.
 
+### Thumbnails (shorts)
+
+Shorts get a 1080x1920 cover automatically (it is the YouTube Shorts thumbnail and the Reel/TikTok cover): the `hook` as big text, the first `place` banner as a small where/when tag, and the most dramatic scene of the character named in the hook or title, with that scene's background and first object. Faces that would look bored (neutral, smug, sad) are drawn shocked or grinning instead.
+
+Add a `thumbnail` only to change something. Any field overrides the automatic one:
+
+```json
+"thumbnail": {"text": "HE MADE GOLD CHEAP", "sub": "Cairo · 1324", "bg": "egypt", "faces": [{"id": "musa", "mood": "happy"}], "object": {"k": "goldpile"}}
+```
+
+- The text must make sense before watching: say who or what, not a riddle. "HE BROKE GOLD" fails; "HE MADE GOLD CHEAP" works.
+- 2–5 words, true, and no stronger than the video.
+
 ## Checking and rendering
 
 ```

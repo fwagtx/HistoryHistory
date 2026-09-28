@@ -46,3 +46,49 @@ function renderThumb(o) {
   if (o.style === 'split') thumbSplit(c, o); else if (o.style === 'redbox') thumbRedbox(c, o); else thumbFaces(c, o);
   const s = document.createElement('canvas'); s.width = 1280; s.height = 720; s.getContext('2d').drawImage(cv, 0, 0, 1280, 720); return s.toDataURL('image/jpeg', .9);
 }
+
+/* Shorts cover (1080x1920, also used as the Reel/TikTok cover).
+ *   {text, sub, bg, faces:[{id, mood, hold}], object:{k, flag, s}}
+ * Big hook text at the top, a where/when tag under it, the story's own scene behind,
+ * and one or two big faces. Everything important sits in the middle 3:4 area so feed crops keep it. */
+function renderShortThumb(o) {
+  const W = 1080, H = 1920, cv = document.createElement('canvas'); cv.width = W; cv.height = H; const c = cv.getContext('2d');
+  frameStart(.4);
+  const tmp = document.createElement('canvas'); tmp.width = BW; tmp.height = BH; scene(tmp.getContext('2d'), o.bg || 'field', 1);
+  const k = H / BH; c.save(); c.filter = 'blur(5px) saturate(1.15)'; c.drawImage(tmp, (W - BW * k) / 2, 0, BW * k, H); c.restore();
+  let g = c.createLinearGradient(0, 0, 0, 1000); g.addColorStop(0, 'rgba(0,0,0,.55)'); g.addColorStop(1, 'rgba(0,0,0,0)'); c.fillStyle = g; c.fillRect(0, 0, W, 1000);
+  g = c.createLinearGradient(0, 1500, 0, H); g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(0,0,0,.35)'); c.fillStyle = g; c.fillRect(0, 1500, W, 420);
+  const faces = (o.faces || []).slice(0, 2);
+  // the key object, behind the people
+  if (o.object && OBJECTS[o.object.k]) {
+    const ok = o.object.k, s = 2.6 * (OBJ_SCALE[ok] || .5) * (o.object.s ?? 1), ox = faces.length === 1 ? 830 : 540;
+    c.save(); c.translate(ox, faces.length ? 1560 : 1500); c.scale(s, s); OBJECTS[ok](c, Object.assign({}, o.object), .4); c.restore();
+  }
+  frameStart(.4);
+  const lift = { hatLift: 14 };
+  if (faces.length === 1) shadowed2(c, () => drawWho(c, faces[0], o.object ? 430 : 540, 1150, 5.0, Object.assign({ look: o.object ? .25 : 0 }, lift)));
+  else if (faces.length === 2) {
+    shadowed2(c, () => drawWho(c, faces[1], 800, 1260, 3.8, Object.assign({ look: -.35 }, lift)));
+    shadowed2(c, () => drawWho(c, faces[0], 300, 1180, 4.3, Object.assign({ look: .35 }, lift)));
+  }
+  // hook text: up to two lines, second line in gold
+  const words = String(o.text || '').toUpperCase().split(/\s+/).filter(Boolean);
+  let lines = [words.join(' ')];
+  c.save(); let size = 200; c.font = `${size}px Anton`;
+  if (c.measureText(lines[0]).width > 960 && words.length > 1) {
+    let best = null; for (let i = 1; i < words.length; i++) { const a = words.slice(0, i).join(' '), b = words.slice(i).join(' '), m = Math.max(c.measureText(a).width, c.measureText(b).width); if (!best || m < best[0]) best = [m, a, b]; }
+    lines = [best[1], best[2]];
+  }
+  while (lines.some(l => c.measureText(l).width > 980) && size > 90) { size -= 6; c.font = `${size}px Anton`; }
+  c.restore();
+  const top = 150 + size;
+  lines.forEach((l, i) => thumbText(c, l, W / 2, top + i * size * 1.02, size, { sw: .1, fill: lines.length > 1 && i === 1 ? '#F2B632' : '#FFFFFF' }));
+  if (o.sub) {
+    const y = top + (lines.length - 1) * size * 1.02 + 60;
+    c.save(); let fs = 54; c.font = `${fs}px "Permanent Marker"`; while (c.measureText(o.sub).width > 860 && fs > 30) { fs -= 2; c.font = `${fs}px "Permanent Marker"`; }
+    const tw = c.measureText(o.sub).width + 60; c.translate(W / 2, y + fs * .55); c.rotate(-.025);
+    hd(c, rect(-tw / 2, -fs * .75, tw, fs * 1.5), { fill: '#FFFFFF', w: 6 }); c.restore();
+    marker(c, o.sub, W / 2, y + fs * .75, fs, T.ink);
+  }
+  return cv.toDataURL('image/jpeg', .9);
+}

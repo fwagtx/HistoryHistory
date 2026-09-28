@@ -97,7 +97,7 @@ def publish(week_id, partial=False):
     """Put this week's finished files in a fresh orphan commit on the media branch and force-push it.
     Earlier weeks drop off the branch, which is fine once Metricool has copied them (it copies at scheduling)."""
     files = sorted((ROOT / "media_out").glob(f"{week_id}-*"))
-    need = [f"{week_id}-s{i:02d}.mp4" for i in range(1, N_SHORTS + 1)] + [f"{week_id}-l{i}{x}" for i in (1, 2, 3) for x in (".mp4", "-thumb.jpg", "-chapters.txt")]
+    need = [f"{week_id}-s{i:02d}{x}" for i in range(1, N_SHORTS + 1) for x in (".mp4", "-thumb.jpg")] + [f"{week_id}-l{i}{x}" for i in (1, 2, 3) for x in (".mp4", "-thumb.jpg", "-chapters.txt")]
     missing = [n for n in need if not (ROOT / "media_out" / n).exists()]
     if missing and not partial:
         raise SystemExit(f"missing finished files: {missing[:6]}{'…' if len(missing) > 6 else ''}")
@@ -136,7 +136,7 @@ def _when(day, slot):
     return when, f"{when}{off[:3]}:{off[3:]}"
 
 
-def short_payload(s, url):
+def short_payload(s, url, thumb=None):
     when, stamp = _when(s["date"], s["slot"])
     info = {
         "autoPublish": True, "draft": False, "descendants": [], "firstCommentText": "", "hasNotReadNotes": False,
@@ -150,6 +150,8 @@ def short_payload(s, url):
         "youtubeData": {"title": s["youtube_title"][:100], "type": "short", "privacy": "public", "tags": s["tags"],
                         "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": False},
     }
+    if thumb:   # cover for the Short, Reel and TikTok
+        info["videoThumbnailUrl"] = thumb
     return {"id": s["id"], "kind": "short", "blogId": BRAND["metricool_brand_id"], "date": stamp, "info": info}
 
 
@@ -180,7 +182,8 @@ def payloads(week_id, sha=None):
     base = f"https://raw.githubusercontent.com/{REPO}/{sha}/{week_id}"
     shorts, longs = scripts(week_id)
     done = lambda name: (ROOT / "media_out" / name).exists()
-    out = [short_payload(json.loads(p.read_text()), f"{base}/{p.stem}.mp4") for p in shorts if done(f"{p.stem}.mp4")]
+    out = [short_payload(json.loads(p.read_text()), f"{base}/{p.stem}.mp4", f"{base}/{p.stem}-thumb.jpg" if done(f"{p.stem}-thumb.jpg") else None)
+           for p in shorts if done(f"{p.stem}.mp4")]
     for p in longs:
         s = json.loads(p.read_text())
         if done(f"{s['id']}.mp4") and done(f"{s['id']}-chapters.txt"):

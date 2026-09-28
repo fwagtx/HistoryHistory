@@ -3,7 +3,11 @@
     python pipeline/toon_render.py episodes/005-emu-war/w5-s1.json            # full render
     python pipeline/toon_render.py episodes/005-emu-war/w5-l1.json --stills   # one still per shot for review
 
-Writes media_out/<id>.mp4 (and <id>-thumb.jpg plus <id>-chapters.txt for long-form).
+    python pipeline/toon_render.py episodes/2026w41/*.json --thumbs       # thumbnails only (no narration or video)
+
+Writes media_out/<id>.mp4 and <id>-thumb.jpg (plus <id>-chapters.txt for long-form).
+Long-form thumbnails come from the script's "thumbnail"; shorts get a 1080x1920 cover built from
+their hook, first place banner and most dramatic scene (override with a short "thumbnail", see the spec).
 media_out/ is not committed: finished files are published on the 'media' branch (see docs/AUTOMATION.md).
 Script format: docs/TOON_SPEC.md.
 """
@@ -120,12 +124,60 @@ def stills(page_path, tv, out_dir, fmt):
         b.close()
 
 
-def thumbnail(page_path, spec, out):
+DRAMA = ("shock", "shout", "scared", "angry", "smug")
+
+
+def short_thumb_spec(script):
+    """Cover for a short: hook text, where/when tag, and the subject's most dramatic scene (people, background, object).
+    The subject is the cast member named in the hook or title; a short's own "thumbnail" overrides any field."""
+    shows = [b["show"] for b in script["beats"] if b.get("show")]
+    scenes = [sh for sh in shows if sh["k"] == "scene"]
+    named = f"{script.get('hook', '')} {script.get('title', '')} {script.get('youtube_title', '')}".lower()
+    cast_def = script.get("cast", {})
+    subject = lambda i: i.lower() in named or any(w in named for w in str((cast_def.get(i) or {}).get("name", "")).lower().split() if len(w) > 3)
+    def score(sh):
+        ids = [m["id"] for m in sh.get("cast", [])]
+        return (any(subject(i) for i in ids), any(m.get("mood") in DRAMA for m in sh.get("cast", [])), len(ids) > 0)
+    pick = max(scenes, key=score, default={})    # first scene wins ties
+    cast = sorted(pick.get("cast", []), key=lambda m: (not subject(m["id"]), m["id"] != pick.get("focus"), m.get("mood") not in DRAMA))
+    faces = []
+    for m in cast[:2]:
+        f = {k: m[k] for k in ("id", "mood", "hold") if m.get(k)}
+        if f.get("mood") in (None, "neutral", "smug", "sad", "angry"):   # half-closed or flat faces read as bored in a feed
+            f["mood"] = {"smug": "happy", "angry": "shout"}.get(f.get("mood"), "shock")
+        faces.append(f)
+    objs = [o for sh in [pick] + scenes for o in sh.get("objects", [])]
+    spec = {"text": script["hook"], "sub": next((sh["place"] for sh in shows if sh.get("place")), ""),
+            "bg": pick.get("bg") or "field", "faces": faces,
+            "object": {k: v for k, v in objs[0].items() if k in ("k", "flag", "load")} if objs else None}
+    spec.update(script.get("thumbnail") or {})
+    return spec
+
+
+def thumbnail(page_path, spec, out, fmt="long"):
     with sync_playwright() as p:
         b, pg = _open(p, page_path, 1920, 1080)
-        u = pg.evaluate("(o)=>renderThumb(o)", spec)
+        u = pg.evaluate("(o)=>renderShortThumb(o)" if fmt == "short" else "(o)=>renderThumb(o)", spec)
         Path(out).write_bytes(base64.b64decode(u.split(",", 1)[1]))
         b.close()
+
+
+def render_thumb(script_path):
+    """Thumbnail only: needs the cast, not the narration."""
+    script = json.loads(Path(script_path).read_text())
+    work = ROOT / "output" / "toon" / script["id"]
+    work.mkdir(parents=True, exist_ok=True)
+    tv = {"format": script["format"], "duration": 1, "hook": script.get("hook", ""), "cast": script.get("cast", {}),
+          "beats": [], "shots": [], "id": script["id"]}
+    page = page_html(tv, work)
+    OUT.mkdir(exist_ok=True)
+    out = OUT / f"{script['id']}-thumb.jpg"
+    if script["format"] == "short":
+        thumbnail(page, short_thumb_spec(script), out, "short")
+    elif script.get("thumbnail"):
+        thumbnail(page, script["thumbnail"], out)
+    print(f"  thumbnail → {out}")
+    return out
 
 
 def mix_audio(script, tv, work):
@@ -203,6 +255,8 @@ def render(script_path, jobs=4, only_stills=False, seconds=None):
     encode(chunks, audio, fmt, duration, final, work)
     dest = OUT / f"{script['id']}.mp4"
     final.replace(dest)
+    if fmt == "short":
+        thumbnail(page, short_thumb_spec(script), OUT / f"{script['id']}-thumb.jpg", "short")
     if fmt == "long":
         if script.get("thumbnail"):
             thumbnail(page, script["thumbnail"], OUT / f"{script['id']}-thumb.jpg")
@@ -223,10 +277,14 @@ def main():
     ap.add_argument("--jobs", type=int, default=4)
     ap.add_argument("--stills", action="store_true")
     ap.add_argument("--seconds", type=float)
+    ap.add_argument("--thumbs", action="store_true", help="thumbnails only")
     a = ap.parse_args()
     for s in a.scripts:
         print(s, flush=True)
-        render(s, a.jobs, a.stills, a.seconds)
+        if a.thumbs:
+            render_thumb(s)
+        else:
+            render(s, a.jobs, a.stills, a.seconds)
 
 
 if __name__ == "__main__":
