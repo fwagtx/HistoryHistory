@@ -144,7 +144,7 @@ def short_payload(s, url):
         "facebookData": {"type": "REEL"},
         "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": s["title"][:90], "isAigc": True},
         "youtubeData": {"title": s["youtube_title"][:100], "type": "short", "privacy": "public", "tags": s["tags"],
-                        "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": True},
+                        "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": False},
     }
     return {"id": s["id"], "kind": "short", "blogId": BRAND["metricool_brand_id"], "date": stamp, "info": info}
 
@@ -163,7 +163,7 @@ def long_payloads(s, base, chapters):
         }
         if net == "youtube":
             info["youtubeData"] = {"title": s["youtube_title"][:100], "type": "video", "privacy": "public", "tags": s["tags"],
-                                   "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": True}
+                                   "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": False}
             info["videoThumbnailUrl"] = f"{base}/{s['id']}-thumb.jpg"
         else:
             info["facebookData"] = {"type": "POST", "title": s["title"]}

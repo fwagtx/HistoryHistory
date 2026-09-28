@@ -12,5 +12,5 @@ This repo produces and publishes content for the History Pros brand only.
 
 - Look: toon (hand-drawn cartoon, bright colors, casual and funny) from Sep 27, 2026; the earlier Dark Chronicle (`noir`) videos stay as they are. Narrator: voice #3, Michael (`am_michael`), with separate voices for characters in skits. Timezone: America/Chicago.
 - Cadence: 5 shorts a day (09:00, 12:00, 15:00, 18:00, 21:00) and 3 long-form videos of about 10 minutes a week (Mon, Wed, Fri: YouTube 16:00, Facebook 11:00). Every video must be very simple to understand and full of graphics (see "Make it simple" and "Show it" in the spec). Script format: `docs/TOON_SPEC.md`. Weekly production: `docs/AUTOMATION.md`.
-- Publishing is fully automatic. Every post must carry the platform's AI-content label: YouTube `isAiGeneratedContent`, Instagram `isAiGenerated`, TikTok `isAigc`.
+- Publishing is fully automatic. Instagram/Facebook (`isAiGenerated`) and TikTok (`isAigc`) posts carry the AI-content label, because the narration is a realistic AI voice. YouTube's altered-content label (`isAiGeneratedContent`) is **off** (owner's decision, Sep 27, 2026): the videos are clearly animated cartoons, which YouTube doesn't require to be labelled.
 - Every script gets a fact-check pass before narration.

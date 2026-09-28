@@ -155,12 +155,12 @@ def encode(chunks, audio, fmt, duration, out, work):
     joined = work / "video.mp4"
     subprocess.run([FF, "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(joined)], check=True)
     if fmt == "short":
-        v = ["-c:v", "libx264", "-preset", "slow", "-tune", "animation", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M", "-pix_fmt", "yuv420p"]
+        v = ["-c:v", "libx264", "-preset", "medium", "-tune", "animation", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M", "-pix_fmt", "yuv420p"]
         subprocess.run([FF, "-loglevel", "error", "-y", "-i", str(joined), "-i", str(audio), *v, "-c:a", "aac", "-b:a", "160k",
                         "-movflags", "+faststart", "-shortest", str(out)], check=True)
         return
     kbps = int(min(3500, MAX_MB * 8e3 / duration - 170))
-    common = ["-c:v", "libx264", "-preset", "slow", "-tune", "animation", "-b:v", f"{kbps}k", "-maxrate", f"{kbps * 2}k",
+    common = ["-c:v", "libx264", "-preset", "medium", "-tune", "animation", "-b:v", f"{kbps}k", "-maxrate", f"{kbps * 2}k",
               "-bufsize", f"{kbps * 4}k", "-pix_fmt", "yuv420p", "-g", "48"]
     log = str(work / "x264pass")
     subprocess.run([FF, "-loglevel", "error", "-y", "-i", str(joined), *common, "-pass", "1", "-passlogfile", log, "-an", "-f", "mp4", "/dev/null"], check=True)
