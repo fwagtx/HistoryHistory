@@ -341,7 +341,7 @@
   },
   {
    "who": "N",
-   "say": "Today we're counting down six of the most ridiculous wars in history, fought over a soup kettle, a bucket, an ear, a pig and, yes, emus.",
+   "say": "Today we're counting down six of the most ridiculous wars in history, named after a soup kettle, a bucket, an ear, a pig and, yes, emus.",
    "show": {
     "k": "scene",
     "bg": "white",
@@ -377,7 +377,7 @@
    "show": {
     "k": "title",
     "text": "The Most Ridiculous Wars in History",
-    "sub": "Six wars. All real. Well, mostly.",
+    "sub": "Six wars. All real. Yes, really.",
     "cast": [
      {
       "id": "emu",
@@ -494,7 +494,7 @@
      {
       "k": "flag",
       "x": 0.15,
-      "flag": "austria",
+      "flag": "austria_habsburg",
       "s": 0.8
      },
      {
@@ -525,7 +525,7 @@
       "k": "sailship",
       "x": 0.45,
       "s": 0.8,
-      "flag": "austria",
+      "flag": "austria_habsburg",
       "move": [
        0.2,
        0.55
@@ -559,7 +559,7 @@
       "k": "sailship",
       "x": 0.75,
       "s": 0.7,
-      "flag": "austria",
+      "flag": "austria_habsburg",
       "flip": true,
       "label": "Le Louis"
      }
@@ -622,7 +622,7 @@
       "k": "sailship",
       "x": 0.75,
       "s": 0.7,
-      "flag": "austria",
+      "flag": "austria_habsburg",
       "flip": true
      }
     ],
@@ -714,7 +714,7 @@
      {
       "k": "flag",
       "x": 0.5,
-      "flag": "france",
+      "flag": "france_royal",
       "s": 0.8
      }
     ],
@@ -726,7 +726,7 @@
    "say": "In a treaty signed in 1785, the river stayed closed, and the Dutch paid the emperor millions of guilders to make it all go away.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "throne",
     "cast": [
      {
       "id": "joseph",
@@ -737,7 +737,7 @@
     ],
     "objects": [
      {
-      "k": "moneypile",
+      "k": "goldpile",
       "x": 0.25,
       "s": 0.9
      },
@@ -758,7 +758,7 @@
   },
   {
    "who": "N",
-   "say": "Total casualties: zero people, one kettle, and one lunch.",
+   "say": "Casualties from that one shot: zero people, one kettle, and one lunch.",
    "show": {
     "k": "scene",
     "bg": "deck",
@@ -1133,12 +1133,12 @@
      {
       "k": "flag",
       "x": 0.3,
-      "flag": "uk"
+      "flag": "uk1606"
      },
      {
       "k": "flag",
       "x": 0.7,
-      "flag": "spain"
+      "flag": "spain_burgundy"
      }
     ],
     "stickers": [
@@ -1169,7 +1169,7 @@
       "k": "sailship",
       "x": 0.45,
       "s": 0.8,
-      "flag": "uk",
+      "flag": "uk1606",
       "move": [
        0.25,
        0.55
@@ -1178,7 +1178,7 @@
      }
     ],
     "cam": "pan",
-    "place": "Caribbean Sea · 1731"
+    "place": "Near Cuba · 1731"
    }
   },
   {
@@ -1406,7 +1406,7 @@
      {
       "k": "flag",
       "x": 0.8,
-      "flag": "uk",
+      "flag": "uk1606",
       "s": 0.7
      }
     ],
@@ -1432,19 +1432,19 @@
       "k": "sailship",
       "x": 0.28,
       "s": 0.7,
-      "flag": "uk"
+      "flag": "uk1606"
      },
      {
       "k": "sailship",
       "x": 0.55,
       "s": 0.5,
-      "flag": "uk"
+      "flag": "uk1606"
      },
      {
       "k": "sailship",
       "x": 0.82,
       "s": 0.5,
-      "flag": "spain",
+      "flag": "spain_burgundy",
       "flip": true
      }
     ],
@@ -1572,7 +1572,7 @@
       "k": "battleship",
       "x": 0.5,
       "s": 0.8,
-      "flag": "uk"
+      "flag": "uk1606"
      }
     ],
     "cam": "pan"
@@ -1906,7 +1906,7 @@
      {
       "k": "flag",
       "x": 0.1,
-      "flag": "usa",
+      "flag": "usa1859",
       "s": 0.8
      },
      {
@@ -1935,7 +1935,7 @@
      {
       "k": "flag",
       "x": 0.2,
-      "flag": "usa",
+      "flag": "usa1859",
       "s": 0.7
      },
      {
@@ -2109,7 +2109,7 @@
      {
       "k": "flag",
       "x": 0.8,
-      "flag": "usa",
+      "flag": "usa1859",
       "s": 0.8
      }
     ],
@@ -2274,7 +2274,7 @@
      {
       "k": "flag",
       "x": 0.78,
-      "flag": "usa",
+      "flag": "usa1859",
       "s": 0.8
      }
     ],
@@ -2932,10 +2932,10 @@
   },
   {
    "who": "N",
-   "say": "Next up: Mansa Musa, the richest man who ever lived. See you there.",
+   "say": "Next up: Mansa Musa, maybe the richest man who ever lived. See you there.",
    "show": {
     "k": "end",
-    "next": "Mansa Musa: The Richest Man Who Ever Lived",
+    "next": "Mansa Musa: The Richest Man Who Ever Lived?",
     "cast": [
      {
       "id": "emu",
@@ -2952,7 +2952,7 @@
    }
   }
  ],
- "description": "A soup kettle, a bucket, a sailor's ear, a pig and twenty thousand emus: these are six of the most ridiculous wars in history, counted down from six to one. Some are funny, some turned deadly, and yes, one is the time the Australian army lost a fight with birds. Chapters are added automatically.\n\n#history #funnyhistory #emuwar #pigwar #historypros",
+ "description": "A soup kettle, a bucket, a sailor's ear, a 38-minute war, a pig and twenty thousand emus: these are six of the most ridiculous wars in history, counted down from six to one. Some are funny, some turned deadly, and yes, one is the time the Australian army lost a fight with birds. Chapters are added automatically.\n\n#history #funnyhistory #emuwar #pigwar #historypros",
  "thumbnail": {
   "style": "redbox",
   "bg": "outback",

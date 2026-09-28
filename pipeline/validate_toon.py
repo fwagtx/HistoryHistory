@@ -43,6 +43,9 @@ def vocab():
         "flags": set(re.findall(r"^  (\w+)\(c, w, h\) \{", ob, re.M)),
     }
 
+FLAG_FROM = {"uk": (1801, "uk1606"), "usa": (1960, "usa48 (1912–59), usa1859 (1850s–1900s) or usa1776"), "france": (1790, "france_royal"),
+             "spain": (1785, "spain_burgundy"), "germany": (1949, "germany1914"), "china": (1949, "china_roc or china_qing"),
+             "russia": (1991, "soviet"), "italy": (1946, "italy_kingdom")}   # modern flag: first year it fits, and the older one to use
 MODERN_BG = {"city", "street", "factory", "vault"}   # 1800s+ looks: brick blocks, street lamps, smokestacks, steel bank vaults
 
 
@@ -114,6 +117,10 @@ def check(path, V):
                 era = y
         if era is not None and era < 1000 and any(o.get("k") == "moneypile" for o in sh.get("objects", [])):
             errs.append(f"beat {i}: 'moneypile' draws paper banknotes, which didn't exist in {abs(era)}{' BC' if era < 0 else ''}; use chest, goldpile or coin props")
+        used = [sh.get("flag") if k == "flag" else None] + [o.get(x) for o in sh.get("objects", []) for x in ("flag", "emblem")] + [e.get("flag") for e in sh.get("cast", [])]
+        for f in filter(None, used):
+            if f in FLAG_FROM and era is not None and era < FLAG_FROM[f][0] and not (f == "russia" and era < 1917):
+                errs.append(f"beat {i}: the '{f}' flag is the modern one, but the story is in {abs(era)}{' BC' if era < 0 else ''}; use {FLAG_FROM[f][1]}")
         if k == "scene" and sh.get("bg") in MODERN_BG and era is not None and era < 1800:
             errs.append(f"beat {i}: '{sh['bg']}' is a modern background but the story is in {abs(era)}{' BC' if era < 0 else ''}; use an era-appropriate scene (rome, greek, egypt, town, village, market, castle, palace, japan…)")
         if k not in KINDS:
