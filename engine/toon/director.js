@@ -131,7 +131,7 @@ function mapShot(c, sh, t, lt, lp) {
   const m = sh.show, zc = v => Math.min(3.2, v), z = zc(m.z0 ?? 1.2) + (zc(m.z1 ?? m.z0 ?? 1.2) - zc(m.z0 ?? 1.2)) * ezIO(lp), W0 = CW(), H0 = CH();
   c.save();
   if (!isLong()) { c.translate(540, 960); c.scale(1.78, 1.78); c.translate(-960, -540); }
-  c.save(); c.scale(BW / W, BH / H); mapCam(c, m.lon, m.lat, z); drawMap(c, TMAP, m.date ?? 0, { z, pins: [] });
+  c.save(); c.scale(BW / W, BH / H); mapCam(c, m.lon, m.lat, z); drawMap(c, TMAP, m.plague ? Number(m.plague) : 0, { z, pins: [] });   /* `date` is only a label; the old plague shading needs an explicit `plague` year */
   if (m.areas) { c.save(); c.clip(LAND); for (const [lo, la, r, col] of m.areas) { const [x, y] = proj(lo, la), [x2] = proj(lo + r, la), rad = Math.abs(x2 - x) * Math.min(1, lt / 1.2 + .2); const g = c.createRadialGradient(x, y, 0, x, y, rad); g.addColorStop(0, col || 'rgba(214,48,40,.45)'); g.addColorStop(.8, col || 'rgba(214,48,40,.35)'); g.addColorStop(1, 'rgba(214,48,40,0)'); c.fillStyle = g; c.fillRect(x - rad, y - rad, rad * 2, rad * 2); } c.restore(); c.fillStyle = TMAP.P.map.sea; c.fill(WATER); c.strokeStyle = TMAP.P.map.coast; c.lineWidth = 1.5 / z; c.stroke(LAND); }
   if (m.route) mapRoute(c, m.route, Math.min(1, .1 + lt / Math.max(2, (sh.s1 - sh.s0) * .8)), z);
   const placedL = []; (m.labels || []).forEach((l, i) => { if (lt <= .3 + i * .4) return; const fs = isLong() ? 58 : 40; let [lx, ly] = proj(l[1], l[2]), dy = 0; for (let k = 0; k < 4 && placedL.some(p => Math.abs(p[0] - lx) < fs * 6 / z && Math.abs(p[1] - (ly + dy)) < fs * 1.1 / z); k++) dy += fs * 1.15 / z; placedL.push([lx, ly + dy]); if (dy) { c.save(); c.translate(0, dy); } mapLabel(c, l[0], l[1], l[2], z, fs, l[3] ?? 14); if (dy) c.restore(); });
