@@ -110,6 +110,7 @@ function guy(c, x, y, s = 1, o = {}, t = 0) {
   for (const sx of [-1, 1]) if (Math.abs(look) < .6 || sx * look < 0) hd(c, ell(sx * (R - 2) - look * 6, 6, 8, 11), { fill: skin, w: 3.5 });
   face(c, o, t, skin);
   hairFront(c, o);
+  if (o.hatLift) c.translate(0, -o.hatLift);  // lift the brim off the eyes (logo close-ups)
   hat(c, o, t);
   c.restore();
 }
