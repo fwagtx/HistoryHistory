@@ -33,9 +33,11 @@ hat = function (c, o, t) {
       hd(c, bez([-58, -8], [-62, -94], [62, -94], [58, -8], 16).concat([[70, 20], [64, 26], [48, 4], [-48, 4], [-64, 26], [-70, 20]]), { fill: col || '#5C6660', w: 5 }); break;
     case 'nemes': case 'pharaoh':
       hd(c, bez([-50, -30], [-90, 30], [-80, 110], [-60, 120], 10).concat([[-40, 30]]), { fill: '#E9C24A', w: 4.5 }); hd(c, bez([50, -30], [90, 30], [80, 110], [60, 120], 10).concat([[40, 30]]), { fill: '#E9C24A', w: 4.5 });
-      hd(c, bez([-60, -2], [-64, -86], [64, -86], [60, -2], 16), { fill: '#E9C24A', w: 5 });
-      c.save(); c.strokeStyle = '#2F5FA8'; c.lineWidth = 6; for (let i = 0; i < 5; i++) { c.beginPath(); c.moveTo(-58, -70 + i * 14); c.quadraticCurveTo(0, -84 + i * 14, 58, -70 + i * 14); c.stroke(); } c.restore();
-      hd(c, rect(-60, -14, 120, 12), { fill: '#2F5FA8', w: 3.5 }); hd(c, poly([[-6, -14], [0, -34], [6, -14]], 6), { fill: gold, w: 3 }); break;
+      { const dome = bez([-60, -16], [-64, -96], [64, -96], [60, -16], 16);   // band sits above the brows so the eyes stay visible
+        hd(c, dome, { fill: '#E9C24A', w: 5 });
+        c.save(); hpath(c, dome, true, 0, 0); c.clip(); c.strokeStyle = '#2F5FA8'; c.lineWidth = 6;   // stripes stay inside the cloth
+        for (let i = 0; i < 4; i++) { c.beginPath(); c.moveTo(-62, -72 + i * 13); c.quadraticCurveTo(0, -84 + i * 13, 62, -72 + i * 13); c.stroke(); } c.restore(); }
+      hd(c, rect(-60, -28, 120, 12), { fill: '#2F5FA8', w: 3.5 }); hd(c, poly([[-6, -28], [0, -48], [6, -28]], 6), { fill: gold, w: 3 }); break;
     case 'mongol':
       hd(c, poly([[-50, -40], [-20, -120], [20, -120], [50, -40]], 14), { fill: col || '#A8322A', w: 5 }); hd(c, ell(0, -126, 8, 8), { fill: gold, w: 3 });
       hd(c, bez([-66, -20], [-70, -60], [70, -60], [66, -20], 12).concat(bez([66, -20], [30, -30], [-30, -30], [-66, -20], 8)), { fill: '#7A5A3A', w: 5 }); break;
