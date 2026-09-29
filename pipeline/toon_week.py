@@ -6,7 +6,8 @@
     python pipeline/toon_week.py extra 2026w39-x1   # a one-off short outside the weekly grid
 
 Every payload targets the History Pros brand only (blogId 7081960), with every platform's
-AI-content label off (owner's decision).
+AI-content label off (owner's decision). Shorts go to Instagram, Facebook, TikTok, YouTube and
+Pinterest; each long-form gets a Facebook post, a YouTube video and a Pinterest pin.
 """
 import json
 import os
@@ -24,7 +25,8 @@ MEDIA_BRANCH = "media"
 SHORT_SLOTS = BRAND["cadence"]["short_slots"]           # 5 a day
 N_SHORTS = 7 * len(SHORT_SLOTS)                         # 35 a week
 LONG_DAYS = {"l1": 0, "l2": 2, "l3": 4}          # Mon, Wed, Fri
-LONG_SLOTS = {"facebook": "11:00", "youtube": "16:00"}
+LONG_SLOTS = {"facebook": "11:00", "youtube": "16:00", "pinterest": "16:00"}
+PIN = BRAND["pinterest"]                          # the "History Pros" board; pins link to the YouTube channel
 assert BRAND["metricool_brand_id"] == "7081960", "History Pros only"
 
 
@@ -136,12 +138,27 @@ def _when(day, slot):
     return when, f"{when}{off[:3]}:{off[3:]}"
 
 
+def pin_data(title):
+    return {"boardId": PIN["board_id"], "pinTitle": title.replace("#shorts", "").strip()[:100], "pinLink": PIN["link"]}
+
+
+def pin_text(text, limit=500):
+    """Pinterest descriptions stop at 500 characters: keep whole sentences and point to the full video."""
+    tail = "\n\nWatch the full video on our YouTube channel.\n#history #historypros"
+    if len(text) <= limit:
+        return text
+    body = text.split("\n\n")[0]
+    while len(body) + len(tail) > limit and ". " in body:
+        body = body.rsplit(". ", 1)[0] + "."
+    return (body[: limit - len(tail)] + tail).strip()
+
+
 def short_payload(s, url, thumb=None):
     when, stamp = _when(s["date"], s["slot"])
     info = {
         "autoPublish": True, "draft": False, "descendants": [], "firstCommentText": "", "hasNotReadNotes": False,
         "media": [url], "mediaAltText": [],
-        "providers": [{"network": n} for n in ("instagram", "facebook", "tiktok", "youtube")],
+        "providers": [{"network": n} for n in ("instagram", "facebook", "tiktok", "youtube", "pinterest")],
         "publicationDate": {"dateTime": when, "timezone": BRAND["timezone"]},
         "shortener": False, "smartLinkData": {"ids": []}, "text": s["caption"],
         "instagramData": {"type": "REEL", "showReelOnFeed": True, "isAiGenerated": False},
@@ -149,8 +166,10 @@ def short_payload(s, url, thumb=None):
         "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": s["title"][:90], "isAigc": False},
         "youtubeData": {"title": s["youtube_title"][:100], "type": "short", "privacy": "public", "tags": s["tags"],
                         "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": False},
+        "pinterestData": pin_data(s["youtube_title"]),
     }
-    if thumb:   # cover for the Short, Reel and TikTok
+    assert len(s["caption"]) <= 500, f"{s['id']}: caption over Pinterest's 500 characters"
+    if thumb:   # cover for the Short, Reel, TikTok and pin
         info["videoThumbnailUrl"] = thumb
     return {"id": s["id"], "kind": "short", "blogId": BRAND["metricool_brand_id"], "date": stamp, "info": info}
 
@@ -165,9 +184,11 @@ def long_payloads(s, base, chapters):
             "autoPublish": True, "draft": False, "descendants": [], "firstCommentText": "", "hasNotReadNotes": False,
             "media": [f"{base}/{s['id']}.mp4"], "mediaAltText": [], "providers": [{"network": net}],
             "publicationDate": {"dateTime": when, "timezone": BRAND["timezone"]},
-            "shortener": False, "smartLinkData": {"ids": []}, "text": desc,
+            "shortener": False, "smartLinkData": {"ids": []}, "text": pin_text(desc) if net == "pinterest" else desc,
         }
-        if net == "youtube":
+        if net == "pinterest":
+            info["pinterestData"] = pin_data(s["youtube_title"])
+        elif net == "youtube":
             info["youtubeData"] = {"title": s["youtube_title"][:100], "type": "video", "privacy": "public", "tags": s["tags"],
                                    "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": False}
         else:
