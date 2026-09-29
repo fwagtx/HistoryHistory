@@ -1,0 +1,275 @@
+{
+ "id": "2026w42-s17",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "Genghis Khan Hired the Man Who Shot His Horse",
+ "hook": "HE SHOT GENGHIS KHAN'S HORSE",
+ "music": "playful",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "jebe": {
+   "preset": "mongol",
+   "hold": "bow",
+   "color": "#2F4A6A",
+   "name": "Jebe"
+  },
+  "rider": {
+   "preset": "mongol",
+   "color": "#6A5A2A",
+   "hold": "spear"
+  },
+  "temujin": {
+   "preset": "mongol",
+   "color": "#8A5A34",
+   "name": "Temüjin"
+  }
+ },
+ "voices": {
+  "jebe": "am_echo",
+  "temujin": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "An enemy archer shot Genghis Khan's horse, and Genghis gave him a job.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "jebe",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "smug"
+     },
+     {
+      "id": "horse",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "white"
+     }
+    ],
+    "place": "Köyiten, Mongolia · 1201"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1201, Temüjin, the future Genghis Khan, fought a big battle against rival tribes.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout",
+      "hold": "sword"
+     },
+     {
+      "id": "rider",
+      "x": 0.7,
+      "pose": "aim"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "temujin",
+     "text": "Temüjin, the future Genghis Khan"
+    },
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "During the fight, an arrow killed the horse he was riding.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.45,
+      "mood": "shock"
+     },
+     {
+      "id": "temujin",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "NOT THE HORSE!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Afterwards, he asked the prisoners who had fired it.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "angry"
+     },
+     {
+      "id": "jebe",
+      "x": 0.68
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "temujin",
+   "say": "Who shot my horse?"
+  },
+  {
+   "who": "jebe",
+   "say": "I did. Kill me, or let me serve you.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "jebe",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "jebe"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Temüjin loved the honesty. He spared him and renamed him Jebe, which means arrow.",
+   "show": {
+    "k": "card",
+    "label": "His new name",
+    "big": "JEBE",
+    "sub": "means 'arrow'",
+    "cast": [
+     {
+      "id": "jebe",
+      "x": 0.8,
+      "s": 0.8,
+      "pose": "aim"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Jebe became one of the greatest Mongol generals, winning battles from China to the edge of Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "jebe",
+      "x": 0.45,
+      "pose": "salute",
+      "mood": "happy"
+     },
+     {
+      "id": "genghis",
+      "x": 0.72,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ],
+    "tag": {
+     "id": "jebe",
+     "text": "Jebe, 'the Arrow'"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.3
+     },
+     {
+      "id": "jebe",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He shot Genghis Khan's horse. Genghis made him a general.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #jebe #mongols #historytok",
+ "youtube_title": "Genghis Khan Hired the Man Who Shot His Horse #shorts",
+ "tags": [
+  "genghis khan",
+  "jebe",
+  "mongol generals",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jebe",
+  "https://www.thecollector.com/genghis-khans-legendary-generals/"
+ ]
+}

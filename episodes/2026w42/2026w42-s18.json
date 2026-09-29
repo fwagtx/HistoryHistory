@@ -1,0 +1,341 @@
+{
+ "id": "2026w42-s18",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "The Insult That Cost an Empire Everything",
+ "hook": "HE INSULTED GENGHIS KHAN",
+ "music": "playful",
+ "cast": {
+  "camel": {
+   "animal": "camel",
+   "load": "gold"
+  },
+  "envoy": {
+   "preset": "mongol",
+   "color": "#5A6A3A",
+   "hold": "letter"
+  },
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "inalchuq": {
+   "preset": "sultan",
+   "color": "#8A2A2A",
+   "name": "Inalchuq"
+  },
+  "shah": {
+   "preset": "sultan",
+   "color": "#2F5A8A",
+   "hat": "crown",
+   "name": "Shah Muhammad II"
+  }
+ },
+ "voices": {
+  "genghis": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One ruler insulted Genghis Khan, and it cost him his whole empire.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "place": "Khwarazmian Empire · 1218",
+    "tag": {
+     "id": "shah",
+     "text": "Shah Muhammad II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1218, Genghis sent about four hundred fifty traders to Otrar, a rich city in Central Asia.",
+   "show": {
+    "k": "map",
+    "lon": 62.0,
+    "lat": 40.0,
+    "z0": 1.8,
+    "z1": 2.3,
+    "date": "1218",
+    "labels": [
+     [
+      "Otrar",
+      68.1,
+      42.85,
+      0
+     ],
+     [
+      "Bukhara",
+      64.4,
+      39.77,
+      0
+     ],
+     [
+      "Samarkand",
+      66.96,
+      39.65,
+      30
+     ]
+    ],
+    "areas": [
+     [
+      58.0,
+      37.0,
+      7.0,
+      "rgba(47,111,194,0.30)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The governor called them spies and had them killed. Only one camel driver escaped.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "inalchuq",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "camel",
+      "x": 0.68,
+      "walk": [
+       0.6,
+       0.85
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "inalchuq",
+     "text": "Inalchuq, governor of Otrar"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Genghis tried talking first, and sent three envoys to the shah.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "neutral"
+     },
+     {
+      "id": "envoy",
+      "x": 0.65,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "genghis",
+   "say": "Punish your governor, and we're fine.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "genghis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Instead, the shah had one envoy killed and sent the other two home with shaved beards.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "envoy",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "BEARDS: SHAVED",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1219, Genghis invaded. Within about two years, the shah's great cities had fallen.",
+   "show": {
+    "k": "map",
+    "lon": 62.0,
+    "lat": 40.0,
+    "z0": 1.8,
+    "z1": 2.4,
+    "date": "1219",
+    "labels": [
+     [
+      "Otrar",
+      68.1,
+      42.85,
+      0
+     ],
+     [
+      "Bukhara",
+      64.4,
+      39.77,
+      0
+     ],
+     [
+      "Samarkand",
+      66.96,
+      39.65,
+      30
+     ]
+    ],
+    "route": [
+     [
+      70.0,
+      44.5
+     ],
+     [
+      68.1,
+      42.85
+     ],
+     [
+      64.4,
+      39.77
+     ],
+     [
+      66.96,
+      39.65
+     ]
+    ],
+    "areas": [
+     [
+      58.0,
+      37.0,
+      7.0,
+      "rgba(168,50,42,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lesson learned: never insult the man with the biggest army in Asia.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.3
+     },
+     {
+      "id": "genghis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One shah insulted Genghis Khan. It cost him his whole empire.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #mongols #khwarazm #historytok",
+ "youtube_title": "The Insult That Cost an Empire Everything #shorts",
+ "tags": [
+  "genghis khan",
+  "khwarazmian empire",
+  "otrar",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Otrar_Catastrophe",
+  "https://en.wikipedia.org/wiki/Inalchuq",
+  "https://bigthink.com/the-past/genghis-khan-insult/",
+  "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire"
+ ]
+}

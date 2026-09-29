@@ -1,0 +1,245 @@
+{
+ "id": "2026w42-s06",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "Europeans Ate Mummies as Medicine",
+ "hook": "EUROPEANS ATE MUMMIES",
+ "music": "playful",
+ "cast": {
+  "apothecary": {
+   "outfit": "robe",
+   "color": "#5A4A3A",
+   "hat": "beret",
+   "hatColor": "#2A2A2A",
+   "beard": "goatee",
+   "skin": "light",
+   "hold": "bottle"
+  },
+  "patient": {
+   "preset": "peasant"
+  },
+  "physician": {
+   "preset": "physician"
+  }
+ },
+ "voices": {
+  "apothecary": "bm_lewis",
+  "patient": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "For centuries, Europeans ate ground-up Egyptian mummies as medicine.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "apothecary",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "Europe · 1500s",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.68,
+      "s": 0.6,
+      "label": "MUMMY POWDER"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MEDICINE?!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It started with a mix-up. Medieval doctors prized a black tar from Persia called mumia.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "physician",
+      "x": 0.65,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.3,
+      "s": 0.8,
+      "text": "MUMIA = BLACK TAR"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Egyptian mummies were often coated in dark, sticky stuff that looked just like it. So people started grinding up the mummies.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [],
+    "place": "Egypt",
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.45,
+      "s": 0.8,
+      "label": "mummy"
+     },
+     {
+      "k": "pyramid",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MIX-UP",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "apothecary",
+   "say": "Headache? Take a spoonful of mummy.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "apothecary",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "patient",
+      "x": 0.68,
+      "pose": "hold"
+     }
+    ],
+    "cam": "close",
+    "focus": "apothecary",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "patient",
+   "say": "Whose mummy?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "apothecary",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "patient",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "patient"
+   }
+  },
+  {
+   "who": "N",
+   "say": "London's official list of medicines in 1618 still included mummy.",
+   "show": {
+    "k": "card",
+    "label": "London's official medicine list",
+    "big": "1618",
+    "sub": "'mummy' was on it"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Demand got so high that dealers sold fake mummies made from much newer bodies.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.3,
+      "s": 0.7,
+      "label": "MUMMY"
+     },
+     {
+      "k": "crate",
+      "x": 0.6,
+      "s": 0.7,
+      "label": "ALSO MUMMY"
+     },
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that makes you glad you live now.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "apothecary",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "patient",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Doctors once prescribed powdered mummy.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mummies #ancientegypt #weirdhistory #historytok",
+ "youtube_title": "Europeans Used to Eat Mummies as Medicine #shorts",
+ "tags": [
+  "mummies",
+  "mumia",
+  "medical history",
+  "weird history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mummia",
+  "https://www.nationalgeographic.com/history/article/mummy-eating-medical-cannibalism-gory-history",
+  "https://www.sciencehistory.org/stories/magazine/mummies-and-the-usefulness-of-death/",
+  "https://www.medicalnewstoday.com/articles/mumia-the-strange-history-of-human-remains-as-medicine"
+ ]
+}

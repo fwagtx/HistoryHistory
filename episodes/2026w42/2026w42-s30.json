@@ -1,0 +1,280 @@
+{
+ "id": "2026w42-s30",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "The Banker Who Paid for an Emperor",
+ "hook": "BANKER PAID FOR AN EMPEROR",
+ "music": "playful",
+ "cast": {
+  "fugger": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#D4A52A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "name": "Jakob Fugger"
+  },
+  "elector": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#A8322A",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "color2": "#F2EEE4",
+   "beard": "full",
+   "hairColor": "#7A7A7A",
+   "name": "A prince-elector"
+  },
+  "francis": {
+   "skin": "light",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2A3A8A",
+   "color2": "#D4A52A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "name": "Francis I of France"
+  },
+  "charles": {
+   "skin": "light",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#1E1C1B",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "stubble": true,
+   "name": "Charles V"
+  }
+ },
+ "voices": {
+  "fugger": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1519, a German banker helped pay for an emperor's election.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "fugger",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "place": "Augsburg, Germany · 1519",
+    "tag": {
+     "id": "fugger",
+     "text": "Jakob Fugger, banker"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.76,
+      "s": 0.8
+     },
+     {
+      "k": "house",
+      "x": 0.14,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seven princes called electors chose the Holy Roman Emperor, and they expected gifts.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "elector",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "tag": {
+     "id": "elector",
+     "text": "A prince-elector"
+    },
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two kings wanted the job: Francis of France and Charles of Spain.",
+   "show": {
+    "k": "compare",
+    "bg": "castle",
+    "left": {
+     "label": "Francis I of France",
+     "cast": [
+      {
+       "id": "francis",
+       "mood": "smug"
+      }
+     ]
+    },
+    "right": {
+     "label": "Charles of Spain",
+     "cast": [
+      {
+       "id": "charles",
+       "mood": "happy"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Jakob Fugger backed Charles with about five hundred and forty-three thousand florins.",
+   "show": {
+    "k": "card",
+    "label": "Fugger's money behind Charles",
+    "big": "543,000 florins",
+    "sub": "most of the roughly 850,000 raised",
+    "cast": [
+     {
+      "id": "fugger",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Charles won, and became Emperor Charles the Fifth.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "tag": {
+     "id": "charles",
+     "text": "Emperor Charles V"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "austria_habsburg",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Years later, the emperor still hadn't paid everything back.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "fugger",
+      "x": 0.3,
+      "mood": "angry",
+      "hold": "letter"
+     },
+     {
+      "id": "charles",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "place": "1523"
+   }
+  },
+  {
+   "who": "fugger",
+   "say": "Your Majesty, you wouldn't have that crown without me.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "fugger",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "point",
+      "hold": "letter"
+     }
+    ],
+    "cam": "close",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's close to what his real 1523 letter said. Then he asked for his money."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "fugger",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "moneybag"
+     },
+     {
+      "id": "charles",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1519 a banker funded the bribes that made Charles V emperor. Then he sent the bill.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #fugger #charlesv #money #historytok",
+ "youtube_title": "The Banker Who Paid for an Emperor #shorts",
+ "tags": [
+  "jakob fugger",
+  "charles v",
+  "holy roman empire",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Fugger_family",
+  "https://www.ebsco.com/research-starters/history/jakob-ii-fugger/",
+  "https://www.atlasobscura.com/articles/how-money-in-politics-worked-in-1519",
+  "https://www.europeana.eu/en/stories/meet-the-fuggers-jakob-the-rich-and-his-family",
+  "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor"
+ ]
+}

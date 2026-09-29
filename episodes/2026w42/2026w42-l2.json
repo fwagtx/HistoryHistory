@@ -1,0 +1,2898 @@
+{
+ "id": "2026w42-l2",
+ "format": "long",
+ "date": "2026-10-14",
+ "title": "The Craziest Things Genghis Khan Did",
+ "music": "playful",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "temujin": {
+   "preset": "mongol",
+   "color": "#8A5A34",
+   "name": "Temüjin"
+  },
+  "baby": {
+   "preset": "child",
+   "hat": "mongol",
+   "outfit": "fur",
+   "color": "#8A5A34",
+   "skin": "tan"
+  },
+  "yesugei": {
+   "preset": "mongol",
+   "beard": "full",
+   "color": "#6A4A2A",
+   "hold": "bow",
+   "name": "Yesügei"
+  },
+  "tatar": {
+   "preset": "mongol",
+   "color": "#2F4A6A",
+   "hatColor": "#2F4A6A",
+   "stache": "handlebar"
+  },
+  "hoelun": {
+   "preset": "peasantW",
+   "outfit": "robe",
+   "color": "#7A3A5A",
+   "apron": false,
+   "skin": "tan",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "name": "Hoelun"
+  },
+  "qasar": {
+   "preset": "mongol",
+   "color": "#3A6A4A",
+   "hold": "bow",
+   "name": "Qasar"
+  },
+  "behter": {
+   "preset": "mongol",
+   "color": "#6A2A2A",
+   "stache": "handlebar",
+   "name": "Behter"
+  },
+  "guard": {
+   "preset": "mongol",
+   "color": "#5A5A6A",
+   "hold": "spear"
+  },
+  "guard2": {
+   "preset": "mongol",
+   "color": "#4A3A5A",
+   "hold": "torch"
+  },
+  "sorqan": {
+   "preset": "mongol",
+   "beard": "long",
+   "hairColor": "#BFBFBF",
+   "color": "#5A4A3A",
+   "name": "Sorqan-Shira"
+  },
+  "jebe": {
+   "preset": "mongol",
+   "hold": "bow",
+   "color": "#2F4A6A",
+   "name": "Jebe"
+  },
+  "subutai": {
+   "preset": "mongol",
+   "hold": "sword",
+   "color": "#4A3A2A",
+   "beard": "goatee",
+   "name": "Subutai"
+  },
+  "nobleboy": {
+   "preset": "mongol",
+   "color": "#C8A040",
+   "hatColor": "#C8A040",
+   "mood": "smug"
+  },
+  "rider": {
+   "preset": "mongol",
+   "color": "#6A5A2A",
+   "hold": "spear"
+  },
+  "qiu": {
+   "outfit": "robe",
+   "color": "#6A7A8A",
+   "hair": "bun",
+   "hairColor": "#EFEFEF",
+   "beard": "long",
+   "skin": "light",
+   "name": "Qiu Chuji"
+  },
+  "monk": {
+   "preset": "monk"
+  },
+  "shah": {
+   "preset": "sultan",
+   "color": "#2F5A8A",
+   "hat": "crown",
+   "name": "Shah Muhammad II"
+  },
+  "inalchuq": {
+   "preset": "sultan",
+   "color": "#8A2A2A",
+   "name": "Inalchuq"
+  },
+  "merchant": {
+   "preset": "merchant",
+   "hat": "turban",
+   "skin": "olive"
+  },
+  "envoy": {
+   "preset": "mongol",
+   "color": "#5A6A3A",
+   "hold": "letter"
+  },
+  "juvaini": {
+   "hat": "turban",
+   "outfit": "robe",
+   "color": "#3A5A4A",
+   "beard": "full",
+   "skin": "olive",
+   "hold": "book",
+   "name": "Ata-Malik Juvaini"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "camel": {
+   "animal": "camel",
+   "load": "gold"
+  }
+ },
+ "voices": {
+  "genghis": "am_fenrir",
+  "temujin": "am_fenrir",
+  "yesugei": "bm_george",
+  "behter": "am_eric",
+  "hoelun": "bf_emma",
+  "guard": "am_liam",
+  "sorqan": "bm_daniel",
+  "jebe": "am_echo",
+  "qiu": "bm_lewis",
+  "shah": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1218, a caravan of about four hundred fifty traders rode into Otrar, a rich trading city in Central Asia.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.3,
+      "walk": [
+       0.1,
+       0.35
+      ],
+      "pose": "walk"
+     },
+     {
+      "id": "camel",
+      "x": 0.55,
+      "walk": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.85,
+      "s": 0.6,
+      "load": "gold"
+     }
+    ],
+    "cam": "pan",
+    "place": "Otrar, Central Asia · 1218",
+    "stickers": [
+     {
+      "text": "450 TRADERS",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Otrar sat on the Silk Road, the great chain of trade routes linking China to the Middle East.",
+   "show": {
+    "k": "map",
+    "lon": 60.0,
+    "lat": 41.0,
+    "z0": 1.3,
+    "z1": 1.7,
+    "date": "1218",
+    "labels": [
+     [
+      "Otrar",
+      68.1,
+      42.85,
+      0
+     ],
+     [
+      "Baghdad",
+      44.4,
+      33.3,
+      0
+     ],
+     [
+      "to China",
+      69.0,
+      44.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      70.0,
+      44.0
+     ],
+     [
+      68.1,
+      42.85
+     ],
+     [
+      64.4,
+      39.77
+     ],
+     [
+      59.0,
+      37.5
+     ],
+     [
+      51.4,
+      35.7
+     ],
+     [
+      44.4,
+      33.3
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They'd been sent by Genghis Khan, the ruler of the Mongols, to do business.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.62,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "genghis",
+     "text": "Genghis Khan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the city's governor, Inalchuq, called them spies, took their goods, and had them killed.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "inalchuq",
+      "x": 0.55,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "inalchuq",
+     "text": "Inalchuq, governor of Otrar"
+    },
+    "stickers": [
+     {
+      "text": "\"SPIES!\"",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Only one camel driver escaped to tell the Khan.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.35,
+      "walk": [
+       0.2,
+       0.7
+      ],
+      "pose": "run",
+      "mood": "scared"
+     },
+     {
+      "id": "camel",
+      "x": 0.6,
+      "walk": [
+       0.45,
+       0.9
+      ]
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "genghis",
+   "say": "Fine. Let's try talking first.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "angry"
+     },
+     {
+      "id": "envoy",
+      "x": 0.72,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "genghis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he sent three envoys to the shah, the emperor who ruled Otrar.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.62,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "envoy",
+      "x": 0.3,
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "shah",
+     "text": "Shah Muhammad II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The shah had one envoy killed, and sent the other two home with their beards shaved off.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "envoy",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "BEARDS: SHAVED",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That was the worst decision of his life.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "genghis",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today we're counting down seven of the craziest things Genghis Khan ever did, and that insult is only the beginning.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.15,
+      "pose": "shrug"
+     },
+     {
+      "id": "jebe",
+      "x": 0.32,
+      "pose": "aim"
+     },
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "qiu",
+      "x": 0.68,
+      "pose": "think"
+     },
+     {
+      "id": "shah",
+      "x": 0.85,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "title",
+    "text": "The Craziest Things Genghis Khan Did",
+    "sub": "Seven stories. All true. Mostly terrifying.",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.88,
+      "mood": "smug",
+      "s": 0.8
+     },
+     {
+      "id": "horse",
+      "x": 0.12,
+      "s": 0.8
+     }
+    ]
+   },
+   "hold": 2.5
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "His Name Wasn't Genghis"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number seven: his name wasn't even Genghis.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "baby",
+      "x": 0.5,
+      "enter": "pop",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT GENGHIS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was born around 1162 in Mongolia, a huge sea of grass where people lived in felt tents and moved with their herds.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.35
+     },
+     {
+      "id": "hoelun",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.7
+     },
+     {
+      "k": "tree",
+      "x": 0.08,
+      "s": 0.6
+     }
+    ],
+    "place": "Mongolia · around 1162",
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His real name was Temüjin, which probably means blacksmith.",
+   "show": {
+    "k": "card",
+    "label": "His birth name",
+    "big": "TEMÜJIN",
+    "sub": "probably 'blacksmith'",
+    "cast": [
+     {
+      "id": "baby",
+      "x": 0.88,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And here's the weird part: his dad, a chief named Yesügei, named him after an enemy warrior he'd just defeated.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "yesugei",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "tatar",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.55,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "yesugei",
+     "text": "Yesügei, his father"
+    }
+   }
+  },
+  {
+   "who": "yesugei",
+   "say": "I beat a guy called Temüjin. So, congratulations, you're Temüjin now.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "yesugei",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "baby",
+      "x": 0.62,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "yesugei"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Imagine being named after your dad's favorite trophy."
+  },
+  {
+   "who": "N",
+   "say": "Back then, the Mongols were lots of separate tribes, and they fought each other all the time.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "tatar",
+      "x": 0.7,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The name Genghis Khan came much later, in 1206, when the Mongol tribes held a giant meeting and made him ruler of them all.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "rider",
+      "x": 0.25,
+      "pose": "cheer"
+     },
+     {
+      "id": "jebe",
+      "x": 0.75,
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ],
+    "place": "Onon River, Mongolia · 1206",
+    "fx": [
+     "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "1206",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians aren't sure what Chinggis, the Mongol spelling, meant. The best guesses are ocean, fierce, or universal.",
+   "show": {
+    "k": "card",
+    "label": "Chinggis Khan means...",
+    "big": "???",
+    "sub": "ocean? fierce? universal? historians still argue",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "shrug"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "He Killed His Brother Over a Fish"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number six. Temüjin's childhood was rough.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When he was about nine, his father was poisoned by enemies, and the rest of the clan abandoned his family.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "hoelun",
+      "x": 0.3,
+      "mood": "sad"
+     },
+     {
+      "id": "temujin",
+      "x": 0.5,
+      "mood": "shock",
+      "s": 0.8
+     },
+     {
+      "id": "qasar",
+      "x": 0.65,
+      "s": 0.75,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABANDONED",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His mother, Hoelun, kept her kids alive on roots and berries, while the boys fished and hunted.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hoelun",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "neutral"
+     },
+     {
+      "id": "temujin",
+      "x": 0.6,
+      "pose": "aim"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.7
+     },
+     {
+      "k": "rock",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "hoelun",
+     "text": "Hoelun, his mother"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But his older half-brother, Behter, kept taking what the younger boys caught: once a fish, once a bird.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "behter",
+      "x": 0.62,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "temujin",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.45,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "behter",
+     "text": "Behter, his half-brother"
+    },
+    "stickers": [
+     {
+      "text": "1 FISH",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "1 BIRD",
+      "at": 2.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "temujin",
+   "say": "That was my fish!"
+  },
+  {
+   "who": "behter",
+   "say": "Was your fish."
+  },
+  {
+   "who": "N",
+   "say": "Behter was the oldest son, so once he grew up, he could take charge of the whole family."
+  },
+  {
+   "who": "N",
+   "say": "So Temüjin, about fourteen, and his brother Qasar ambushed Behter and killed him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "angry"
+     },
+     {
+      "id": "qasar",
+      "x": 0.5,
+      "pose": "aim",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think it was really about who would lead the family. But still: a fish started it."
+  },
+  {
+   "who": "N",
+   "say": "His mother was horrified. The Secret History of the Mongols, the oldest Mongol account of his life, gives her a long, furious speech.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hoelun",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "temujin",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "hoelun",
+   "say": "You two are like wild beasts!"
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "He Escaped a Wooden Neck Lock"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number five: the great neck-lock escape.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NECK LOCK",
+      "at": 1.0,
+      "color": "#6A4A2A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A few years later, a rival clan called the Tayichiud captured teenage Temüjin.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "guard",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "guard2",
+      "x": 0.75,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Mongolia · around 1177"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Why? His father had been a powerful chief, so his son looked like a future threat."
+  },
+  {
+   "who": "N",
+   "say": "They locked a cangue around his neck: a heavy wooden board with a hole in it, like a prison you wear.",
+   "show": {
+    "k": "card",
+    "label": "The cangue",
+    "big": "WOODEN COLLAR",
+    "sub": "a heavy board locked around the neck",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.88,
+      "s": 0.8,
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One night, while his captors held a feast, he was left with one young guard.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "happy"
+     },
+     {
+      "id": "temujin",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Temüjin whacked the guard on the head with the board, and ran.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.5,
+      "walk": [
+       0.4,
+       0.9
+      ],
+      "pose": "run",
+      "mood": "happy"
+     },
+     {
+      "id": "guard",
+      "x": 0.25,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "BONK",
+      "at": 0.6,
+      "color": "#E07A2A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "guard",
+   "say": "Help! The prisoner's escaped!"
+  },
+  {
+   "who": "N",
+   "say": "He hid in the Onon River, lying in the water with only his face sticking out, while men with torches searched the bank.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "guard2",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "angry"
+     },
+     {
+      "id": "guard",
+      "x": 0.65,
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "cam": "pan",
+    "place": "Onon River · night"
+   }
+  },
+  {
+   "who": "N",
+   "say": "One searcher, Sorqan-Shira, spotted him and kept quiet.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "sorqan",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "sorqan",
+     "text": "Sorqan-Shira"
+    },
+    "cam": "close",
+    "focus": "sorqan"
+   }
+  },
+  {
+   "who": "sorqan",
+   "say": "Stay down. I didn't see you."
+  },
+  {
+   "who": "N",
+   "say": "That was a huge risk. If he'd been caught helping, Sorqan-Shira would have been in serious trouble."
+  },
+  {
+   "who": "N",
+   "say": "Later his family took off the collar, burned it, and hid Temüjin in a cart piled with wool.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "sorqan",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.62,
+      "s": 0.8,
+      "label": "WOOL"
+     },
+     {
+      "k": "fire",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HIDING SPOT",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When the searchers started pulling the wool out, Sorqan-Shira said it was far too hot for anyone to hide in there. They bought it.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "neutral"
+     },
+     {
+      "id": "sorqan",
+      "x": 0.55,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.82,
+      "s": 0.7,
+      "label": "WOOL"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "He Hired the Man Who Shot His Horse"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number four. In 1201, Temüjin fought a big battle against an alliance of rival tribes.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout",
+      "hold": "sword"
+     },
+     {
+      "id": "rider",
+      "x": 0.7,
+      "pose": "aim"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Köyiten, Mongolia · 1201",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the other side was a young archer named Jirqo'adai, fighting for the Tayichiud, the same clan that had once locked Temüjin up.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "jebe",
+      "x": 0.45,
+      "pose": "aim",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "jebe"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the fight, an enemy archer shot Temüjin's horse right out from under him.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.4,
+      "mood": "shock"
+     },
+     {
+      "id": "temujin",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "NOT THE HORSE!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After the battle, he asked the prisoners who had fired that arrow.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "angry"
+     },
+     {
+      "id": "jebe",
+      "x": 0.62,
+      "mood": "neutral"
+     },
+     {
+      "id": "rider",
+      "x": 0.82,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "temujin",
+   "say": "Who shot my horse?"
+  },
+  {
+   "who": "jebe",
+   "say": "I did. Kill me if you want. Or spare me, and I'll fight for you.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "jebe",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "jebe"
+   }
+  },
+  {
+   "who": "temujin",
+   "say": "Honest. I like that."
+  },
+  {
+   "who": "N",
+   "say": "Most rulers would have executed him. Temüjin gave him a job.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "jebe",
+      "x": 0.65,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He even gave him a new name: Jebe, which means arrow.",
+   "show": {
+    "k": "card",
+    "label": "His new name",
+    "big": "JEBE",
+    "sub": "means 'arrow' or 'weapon'",
+    "cast": [
+     {
+      "id": "jebe",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "aim"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Jebe became one of the greatest generals in history. Remember him. He's coming back.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "jebe",
+      "x": 0.5,
+      "pose": "aim",
+      "mood": "smug",
+      "s": 1.1
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ],
+    "tag": {
+     "id": "jebe",
+     "text": "Jebe, 'the Arrow'"
+    }
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "He Promoted Nobodies"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number three: he promoted nobodies, on purpose.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In his world, you usually got to lead because of who your father was.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "nobleboy",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RICH DAD",
+      "at": 1.2,
+      "color": "#C8A040"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Genghis Khan didn't care. He promoted people for being good at the job, and for being loyal.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "nobleboy",
+      "x": 0.62,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two of his top generals, Jelme and his brother Subutai, were the sons of a blacksmith.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "subutai",
+      "x": 0.45,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.2,
+      "s": 0.5
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "subutai",
+     "text": "Subutai, a blacksmith's son"
+    },
+    "stickers": [
+     {
+      "text": "BLACKSMITH'S SON",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also split his army into units of ten, a hundred, a thousand and ten thousand.",
+   "show": {
+    "k": "card",
+    "label": "Genghis Khan's army, 1206",
+    "big": "10,000",
+    "sub": "the biggest unit, built from tens, hundreds and thousands"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he mixed up the tribes inside those units, so soldiers were loyal to their unit and to him, not their old clan.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.25,
+      "pose": "cheer"
+     },
+     {
+      "id": "jebe",
+      "x": 0.45,
+      "pose": "cheer"
+     },
+     {
+      "id": "guard",
+      "x": 0.65,
+      "pose": "cheer"
+     },
+     {
+      "id": "subutai",
+      "x": 0.82,
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.08,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Former enemies? Congratulations, you're roommates now."
+  },
+  {
+   "who": "N",
+   "say": "He even let priests of every religion off paying taxes, as long as they prayed for him.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "merchant",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.6,
+      "text": "NO TAX"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also started a network of relay stations with fresh horses, so messengers could carry news across the empire at amazing speed.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.4,
+      "walk": [
+       0.1,
+       0.7
+      ],
+      "pose": "run",
+      "mood": "happy",
+      "hold": "letter"
+     },
+     {
+      "id": "horse",
+      "x": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.95,
+      "s": 0.5
+     }
+    ],
+    "cam": "pan",
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "EXPRESS MAIL",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "He Went Looking for Immortality"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number two: Genghis Khan tried to find the secret to living forever.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.18,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By around 1220 he was about sixty, and even the ruler of a giant empire can't beat getting old.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He'd heard about Qiu Chuji, a famous Chinese Taoist master. Taoism is a Chinese religion that's big on living a long, balanced life.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "qiu",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "qiu",
+     "text": "Qiu Chuji, Taoist master"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Genghis invited him over. The monk was over seventy, and the trip took him about two years.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "qiu",
+      "x": 0.4,
+      "walk": [
+       0.2,
+       0.55
+      ],
+      "pose": "walk",
+      "mood": "sad"
+     },
+     {
+      "id": "camel",
+      "x": 0.72,
+      "walk": [
+       0.5,
+       0.8
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "2 YEARS",
+      "at": 1.5,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1222 they finally met near the Hindu Kush mountains, in what's now Afghanistan.",
+   "show": {
+    "k": "map",
+    "lon": 67.0,
+    "lat": 37.0,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "1222",
+    "labels": [
+     [
+      "Hindu Kush",
+      69.5,
+      35.3,
+      0
+     ],
+     [
+      "Samarkand",
+      66.96,
+      39.65,
+      0
+     ],
+     [
+      "Afghanistan",
+      66.0,
+      33.8,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      69.5,
+      35.3,
+      1.0,
+      "rgba(168,50,42,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "genghis",
+   "say": "So. Do you have the medicine to live forever?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "qiu",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.52,
+      "s": 0.35
+     }
+    ],
+    "place": "Near the Hindu Kush · 1222"
+   }
+  },
+  {
+   "who": "qiu",
+   "say": "There are ways to protect life. But there is no medicine for immortality."
+  },
+  {
+   "who": "N",
+   "say": "Telling the most dangerous man on Earth no? Bold.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "genghis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Genghis liked his honesty. They talked many times, and he sent the monk home with high honors.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "qiu",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.85,
+      "s": 0.5,
+      "text": "HONORED"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "He Erased an Empire Over a Caravan"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "And number one. Remember that caravan from the start?",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.4,
+      "mood": "sad"
+     },
+     {
+      "id": "camel",
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.15,
+      "s": 0.6,
+      "load": "gold"
+     }
+    ],
+    "place": "Otrar · 1219"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The shah ruled the Khwarazmian Empire, which covered much of what's now Iran, Uzbekistan and Afghanistan.",
+   "show": {
+    "k": "map",
+    "lon": 58.0,
+    "lat": 38.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1219",
+    "labels": [
+     [
+      "Khwarazmian Empire",
+      58.0,
+      36.0,
+      0
+     ],
+     [
+      "Otrar",
+      68.1,
+      42.85,
+      0
+     ],
+     [
+      "Bukhara",
+      64.4,
+      39.77,
+      0
+     ],
+     [
+      "Samarkand",
+      66.96,
+      39.65,
+      30
+     ],
+     [
+      "Caspian Sea",
+      50.5,
+      42.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      58.0,
+      36.5,
+      7.0,
+      "rgba(47,111,194,0.30)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was one of the richest empires in the Muslim world, full of big trading cities."
+  },
+  {
+   "who": "N",
+   "say": "In 1219, Genghis Khan invaded, with armies coming in from several directions at once.",
+   "show": {
+    "k": "map",
+    "lon": 62.0,
+    "lat": 40.0,
+    "z0": 1.8,
+    "z1": 2.3,
+    "date": "1219",
+    "labels": [
+     [
+      "Otrar",
+      68.1,
+      42.85,
+      0
+     ],
+     [
+      "Bukhara",
+      64.4,
+      39.77,
+      0
+     ],
+     [
+      "Samarkand",
+      66.96,
+      39.65,
+      30
+     ]
+    ],
+    "route": [
+     [
+      70.0,
+      44.5
+     ],
+     [
+      68.1,
+      42.85
+     ],
+     [
+      64.4,
+      39.77
+     ],
+     [
+      66.96,
+      39.65
+     ]
+    ],
+    "areas": [
+     [
+      58.0,
+      36.5,
+      7.0,
+      "rgba(47,111,194,0.30)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The cities fell one after another: Otrar, Bukhara, Samarkand. Governor Inalchuq was captured and put to death.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "subutai",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout",
+      "hold": "sword"
+     },
+     {
+      "id": "inalchuq",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At Bukhara, the Persian historian Juvaini, writing about forty years later, says Genghis told the city's rich men this.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "juvaini",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "juvaini",
+     "text": "Ata-Malik Juvaini, historian"
+    },
+    "place": "Bukhara · 1220"
+   }
+  },
+  {
+   "show": {
+    "k": "quote",
+    "text": "I am the punishment of God. If you had not committed great sins, God would not have sent a punishment like me upon you.",
+    "who": "Genghis Khan at Bukhara, 1220, as recorded by the Persian historian Juvaini"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "This part was no joke. Whole cities were destroyed, and a huge number of people were killed.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.3,
+      "s": 0.8
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians still argue about the exact numbers, but this was one of the deadliest wars of its time."
+  },
+  {
+   "who": "N",
+   "say": "And the shah? He ran.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.4,
+      "walk": [
+       0.2,
+       0.8
+      ],
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Genghis sent twenty thousand riders after him, led by Subutai and, yes, Jebe. The man who shot his horse.",
+   "show": {
+    "k": "map",
+    "lon": 55.0,
+    "lat": 38.0,
+    "z0": 1.8,
+    "z1": 2.3,
+    "date": "1220",
+    "labels": [
+     [
+      "Samarkand",
+      66.96,
+      39.65,
+      0
+     ],
+     [
+      "Caspian Sea",
+      50.5,
+      42.0,
+      0
+     ],
+     [
+      "Shah's island",
+      49.0,
+      38.4,
+      0
+     ]
+    ],
+    "route": [
+     [
+      66.96,
+      39.65
+     ],
+     [
+      61.0,
+      36.5
+     ],
+     [
+      54.0,
+      36.2
+     ],
+     [
+      49.3,
+      38.4
+     ]
+    ],
+    "areas": [
+     [
+      49.0,
+      38.4,
+      0.6,
+      "rgba(168,50,42,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The shah fled all the way to a tiny island in the Caspian Sea, where he died of illness at the end of 1220.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "palm",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "place": "Caspian Sea · 1220"
+   }
+  },
+  {
+   "who": "shah",
+   "say": "In hindsight, I should have just paid for the caravan."
+  },
+  {
+   "who": "N",
+   "say": "Then Jebe and Subutai just kept riding. They circled the Caspian Sea, beat an army in Georgia, and crushed a huge army of Rus princes at the Kalka River in 1223.",
+   "show": {
+    "k": "map",
+    "lon": 47.0,
+    "lat": 44.0,
+    "z0": 1.5,
+    "z1": 1.9,
+    "date": "1221–1223",
+    "labels": [
+     [
+      "Georgia",
+      44.0,
+      42.0,
+      0
+     ],
+     [
+      "Kalka River",
+      37.8,
+      47.3,
+      0
+     ],
+     [
+      "Caspian Sea",
+      50.5,
+      42.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      53.0,
+      36.5
+     ],
+     [
+      47.5,
+      38.5
+     ],
+     [
+      44.8,
+      41.7
+     ],
+     [
+      47.0,
+      43.5
+     ],
+     [
+      42.0,
+      46.0
+     ],
+     [
+      37.8,
+      47.3
+     ],
+     [
+      46.0,
+      48.5
+     ],
+     [
+      52.0,
+      50.0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That ride, one of the longest cavalry raids in history, covered about fifty-five hundred miles.",
+   "show": {
+    "k": "card",
+    "label": "Jebe and Subutai's great raid, 1221–1223",
+    "big": "5,500",
+    "sub": "miles, roughly twice across the United States",
+    "cast": [
+     {
+      "id": "jebe",
+      "x": 0.1,
+      "s": 0.8,
+      "pose": "cheer"
+     },
+     {
+      "id": "subutai",
+      "x": 0.9,
+      "s": 0.8,
+      "pose": "cheer"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One murdered caravan, and a whole empire was wiped off the map.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Genghis Khan died in 1227, during a war in northwest China. The most common story says a fall from his horse did it.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "horse",
+      "x": 0.8,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "place": "Western Xia, China · 1227"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And where is he buried? Nobody knows. His tomb has never been found.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.8,
+      "text": "TOMB: ???"
+     },
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEVER FOUND",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There's a famous legend that everyone who saw his funeral was killed to keep the spot secret. But that's just a legend. No record from the time backs it up.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "neutral"
+     },
+     {
+      "id": "horse",
+      "x": 0.68
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#6A4A2A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "What we do know: in 2003, a DNA study found that about one in two hundred men alive today share one family line, and the scientists think it probably came from Genghis Khan's family.",
+   "show": {
+    "k": "card",
+    "label": "The 2003 DNA study",
+    "big": "16,000,000",
+    "sub": "men may share one family line, possibly his",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.9,
+      "s": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His sons and grandsons kept expanding the empire, until it stretched from Korea to Eastern Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So a kid who fought his brother over a fish ended up founding what became the biggest land empire in history.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "baby",
+      "x": 0.2,
+      "mood": "happy"
+     },
+     {
+      "id": "temujin",
+      "x": 0.4,
+      "pose": "point"
+     },
+     {
+      "id": "genghis",
+      "x": 0.62,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "jebe",
+      "x": 0.82,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.95,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next up: the richest people in history, ranked. See you there.",
+   "show": {
+    "k": "end",
+    "next": "The Richest People in History (Ranked)",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.75,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.88
+     }
+    ]
+   }
+  }
+ ],
+ "description": "A fish, a wooden neck lock, a horse-killing archer who became a top general, a quest for immortality, and one insulted caravan that cost an empire everything: these are seven of the craziest things Genghis Khan did, counted down from seven to one. Every story is real, and the one famous legend is labelled as a legend. Chapters are added automatically.\n\n#history #genghiskhan #mongols #funnyhistory #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "INSANE KHAN",
+  "bg": "steppe",
+  "faces": [
+   {
+    "id": "genghis",
+    "mood": "shout"
+   },
+   {
+    "id": "shah",
+    "mood": "scared"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "The Craziest Things Genghis Khan Did",
+ "tags": [
+  "genghis khan",
+  "mongol empire",
+  "mongols",
+  "temujin",
+  "jebe",
+  "khwarazmian empire",
+  "crazy history",
+  "funny history",
+  "history documentary",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Genghis_Khan",
+  "https://www.britannica.com/biography/Genghis-Khan",
+  "https://en.wikipedia.org/wiki/Rise_of_Genghis_Khan",
+  "https://en.wikipedia.org/wiki/Yesugei",
+  "https://historyfacts.com/famous-figures/fact/genghis-khan-real-name/",
+  "https://en.wikipedia.org/wiki/Behter",
+  "https://en.wikipedia.org/wiki/Sorqan_Shira",
+  "https://en.wikipedia.org/wiki/Jebe",
+  "https://www.thecollector.com/genghis-khans-legendary-generals/",
+  "https://en.wikipedia.org/wiki/Mingghan",
+  "https://en.wikipedia.org/wiki/Subutai",
+  "https://en.wikipedia.org/wiki/Religion_in_the_Mongol_Empire",
+  "https://en.wikipedia.org/wiki/Qiu_Chuji",
+  "https://en.wikipedia.org/wiki/Travels_to_the_West_of_Qiu_Chang_Chun",
+  "https://en.wikipedia.org/wiki/Otrar_Catastrophe",
+  "https://en.wikipedia.org/wiki/Inalchuq",
+  "https://bigthink.com/the-past/genghis-khan-insult/",
+  "https://historynet.com/facing-the-wrath-of-the-khan/",
+  "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
+  "https://en.wikiquote.org/wiki/Genghis_Khan",
+  "https://www.britannica.com/event/Battle-of-the-Kalka-River",
+  "https://en.wikipedia.org/wiki/Battle_of_the_Kalka_River",
+  "https://www.history.com/this-day-in-history/august-18/genghis-khan-dies",
+  "https://en.wikipedia.org/wiki/Burial_place_of_Genghis_Khan",
+  "https://www.snopes.com/fact-check/genghis-khan-tomb-executions/",
+  "https://en.wikipedia.org/wiki/Genetic_descent_from_Genghis_Khan",
+  "https://www.discovermagazine.com/1-in-200-men-direct-descendants-of-genghis-khan-14"
+ ]
+}

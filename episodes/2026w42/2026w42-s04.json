@@ -1,0 +1,237 @@
+{
+ "id": "2026w42-s04",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "The Tallest Building for 3,800 Years",
+ "hook": "TALLEST BUILDING FOR 3,800 YEARS",
+ "music": "playful",
+ "cast": {
+  "khufu": {
+   "preset": "pharaoh",
+   "color": "#C8902A",
+   "name": "Khufu"
+  },
+  "worker": {
+   "preset": "egyptian",
+   "hold": "hammer",
+   "hair": "bald"
+  },
+  "monk": {
+   "preset": "monk"
+  }
+ },
+ "voices": {
+  "khufu": "am_fenrir",
+  "worker": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Great Pyramid of Giza was the tallest thing humans had built for about three thousand eight hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "khufu",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "place": "Giza, Egypt · about 2560 BC",
+    "tag": {
+     "id": "khufu",
+     "text": "Pharaoh Khufu"
+    },
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.68,
+      "s": 1.1
+     }
+    ],
+    "stickers": [
+     {
+      "text": "3,800 YEARS",
+      "at": 1.4,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pharaoh Khufu built it as his tomb, around 2560 BC. When it was new, it stood about a hundred and forty-seven metres tall.",
+   "show": {
+    "k": "card",
+    "label": "The Great Pyramid, when new",
+    "big": "147 m",
+    "sub": "taller than a 40-storey building"
+   }
+  },
+  {
+   "who": "khufu",
+   "say": "Make it taller.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "khufu",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "worker",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "khufu",
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "worker",
+   "say": "Your Majesty, it's already the tallest thing on Earth.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "khufu",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "worker",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "worker"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Empires rose and fell. Rome came and went. Still, nothing people built was taller.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.4,
+      "pose": "shrug"
+     }
+    ],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15
+     },
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Finally, around 1311, Lincoln Cathedral in England got a spire that historians think was even taller.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Lincoln, England · 1311",
+    "stickers": [
+     {
+      "text": "NEW RECORD",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in 1548, a storm blew that spire down. The pyramid is still standing.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "khufu",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "worker",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Nothing beat the Great Pyramid for 3,800 years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #greatpyramid #ancientegypt #pyramids #historytok",
+ "youtube_title": "The Great Pyramid Held the Height Record for 3,800 Years #shorts",
+ "tags": [
+  "great pyramid",
+  "tallest building",
+  "ancient egypt",
+  "lincoln cathedral",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/place/Great-Pyramid-of-Giza",
+  "https://en.wikipedia.org/wiki/History_of_the_world%27s_tallest_buildings",
+  "https://www.history.com/articles/tallest-buildings-in-the-world",
+  "https://en.wikipedia.org/wiki/Lincoln_Cathedral"
+ ]
+}

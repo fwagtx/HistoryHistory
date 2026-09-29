@@ -1,0 +1,268 @@
+{
+ "id": "2026w42-s16",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "A Stranger Hid Genghis Khan in a Wool Cart",
+ "hook": "GENGHIS KHAN HID IN WOOL",
+ "music": "playful",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "guard": {
+   "preset": "mongol",
+   "color": "#5A5A6A",
+   "hold": "spear"
+  },
+  "guard2": {
+   "preset": "mongol",
+   "color": "#4A3A5A",
+   "hold": "torch"
+  },
+  "sorqan": {
+   "preset": "mongol",
+   "beard": "long",
+   "hairColor": "#BFBFBF",
+   "color": "#5A4A3A",
+   "name": "Sorqan-Shira"
+  },
+  "temujin": {
+   "preset": "mongol",
+   "color": "#8A5A34",
+   "name": "Temüjin"
+  }
+ },
+ "voices": {
+  "sorqan": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Genghis Khan once escaped his enemies by hiding in a cart full of wool.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.65,
+      "s": 0.8,
+      "label": "WOOL"
+     }
+    ],
+    "place": "Mongolia · around 1177",
+    "tag": {
+     "id": "temujin",
+     "text": "Temüjin, the future Genghis Khan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was a teenager called Temüjin, on the run from the Tayichiud clan, who had captured him.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.5,
+      "walk": [
+       0.3,
+       0.75
+      ],
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A man serving the Tayichiud, Sorqan-Shira, found him hiding in a river and didn't tell.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "sorqan",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "sorqan",
+     "text": "Sorqan-Shira"
+    }
+   }
+  },
+  {
+   "who": "sorqan",
+   "say": "Stay down. I didn't see you."
+  },
+  {
+   "who": "N",
+   "say": "Later, his family took off the wooden collar on Temüjin's neck, burned it, and hid him under the wool.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "sorqan",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.62,
+      "s": 0.8,
+      "label": "WOOL"
+     },
+     {
+      "k": "fire",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the searchers came and started pulling out the wool.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "guard2",
+      "x": 0.62,
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.85,
+      "s": 0.6,
+      "label": "WOOL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sorqan",
+   "say": "In this heat? Nobody could hide in there.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "sorqan",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "sorqan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They left. Years later, Sorqan-Shira's son became one of Genghis Khan's top commanders.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "sorqan",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sorqan",
+      "x": 0.3
+     },
+     {
+      "id": "genghis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The future Genghis Khan survived by hiding under a pile of wool.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #mongols #escape #historytok",
+ "youtube_title": "A Stranger Hid Genghis Khan in a Wool Cart #shorts",
+ "tags": [
+  "genghis khan",
+  "sorqan shira",
+  "temujin",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sorqan_Shira",
+  "https://en.wikipedia.org/wiki/Rise_of_Genghis_Khan"
+ ]
+}

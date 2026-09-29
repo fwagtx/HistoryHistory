@@ -1,0 +1,328 @@
+{
+ "id": "2026w42-s07",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "King Tut Died at 19",
+ "hook": "KING TUT DIED AT 19",
+ "music": "playful",
+ "cast": {
+  "tut": {
+   "preset": "pharaoh",
+   "beard": null,
+   "color": "#C8902A",
+   "name": "Tutankhamun"
+  },
+  "priest": {
+   "preset": "egyptian",
+   "hair": "bald",
+   "outfit": "robe",
+   "color": "#F2EEE4"
+  },
+  "carter": {
+   "hat": "fedora",
+   "hatColor": "#6A5A4A",
+   "outfit": "suit",
+   "color": "#8A7A5A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Howard Carter"
+  },
+  "carnarvon": {
+   "hat": "bowler",
+   "outfit": "suit",
+   "color": "#3A3A4A",
+   "hair": "short",
+   "hairColor": "#6A5A4A",
+   "stache": "thin",
+   "skin": "peach",
+   "name": "Lord Carnarvon"
+  }
+ },
+ "voices": {
+  "carter": "bm_george",
+  "carnarvon": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Tutankhamun, Egypt's most famous pharaoh, became king at about nine and died at about nineteen.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "tut",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "happy",
+      "s": 0.85
+     }
+    ],
+    "place": "Egypt · about 1332 BC",
+    "tag": {
+     "id": "tut",
+     "text": "Tutankhamun"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.45,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KING AT 9",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His advisers helped run the country and brought back Egypt's old gods.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "tut",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "happy",
+      "s": 0.85
+     },
+     {
+      "id": "priest",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After about ten years as king, Tut died, and historians still argue about what killed him.",
+   "show": {
+    "k": "card",
+    "label": "Tutankhamun's age at death",
+    "big": "19",
+    "sub": "about 19 years old"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He got a small tomb, which was later buried under rubble and forgotten for over three thousand years.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.3,
+      "s": 1
+     },
+     {
+      "k": "rock",
+      "x": 0.6,
+      "s": 0.8
+     },
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FORGOTTEN",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in November 1922, a British archaeologist named Howard Carter found it.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "carter",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "carnarvon",
+      "x": 0.65,
+      "pose": "think"
+     }
+    ],
+    "place": "Valley of the Kings · 1922",
+    "tag": {
+     "id": "carter",
+     "text": "Howard Carter"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "uk"
+     }
+    ]
+   }
+  },
+  {
+   "who": "carnarvon",
+   "say": "Can you see anything?",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "carnarvon",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     },
+     {
+      "id": "carter",
+      "x": 0.65,
+      "pose": "hold",
+      "mood": "shock",
+      "hold": "lantern"
+     }
+    ],
+    "cam": "close",
+    "focus": "carnarvon"
+   }
+  },
+  {
+   "who": "carter",
+   "say": "Yes. Wonderful things.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "carter",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "shock",
+      "hold": "lantern"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "chariot",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Inside were over five thousand objects, including his famous gold mask. A minor king became the most famous pharaoh of all.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "tut",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.85
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "5,000+ OBJECTS",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tut",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "s": 0.85
+     },
+     {
+      "id": "carter",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A teenage king, forgotten for 3,000 years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #kingtut #tutankhamun #ancientegypt #historytok",
+ "youtube_title": "King Tut Was Only 19 When He Died #shorts",
+ "tags": [
+  "tutankhamun",
+  "king tut",
+  "howard carter",
+  "ancient egypt",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tutankhamun",
+  "https://education.nationalgeographic.org/resource/king-tut/",
+  "https://www.britishmuseum.org/visit/object-trails/tutankhamun-ancient-and-modern-perspectives",
+  "https://www.smithsonianmag.com/history/uncovering-tutankhamuns-tomb-180957168/",
+  "https://www.britannica.com/biography/Howard-Carter"
+ ]
+}

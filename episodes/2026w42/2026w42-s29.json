@@ -1,0 +1,262 @@
+{
+ "id": "2026w42-s29",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "Was This Knight Britain's Richest Man Ever?",
+ "hook": "RICHEST BRITON EVER?",
+ "music": "playful",
+ "cast": {
+  "rufus": {
+   "hat": "knight",
+   "outfit": "armor",
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#B5442A",
+   "beard": "full",
+   "name": "Alan Rufus"
+  },
+  "william": {
+   "preset": "king",
+   "skin": "light",
+   "hairColor": "#6A4A2A",
+   "stache": "thin",
+   "name": "William the Conqueror"
+  }
+ },
+ "voices": {
+  "william": "bm_george",
+  "rufus": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One study says the richest person in British history was a knight from 1066.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rufus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "place": "Richmond, Yorkshire · 1070s",
+    "tag": {
+     "id": "rufus",
+     "text": "Alan Rufus, Breton lord"
+    },
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.9
+     },
+     {
+      "k": "goldpile",
+      "x": 0.14,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was Alan Rufus, a nobleman from Brittany, which is now part of France.",
+   "show": {
+    "k": "map",
+    "lon": -1,
+    "lat": 51,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1066",
+    "route": [
+     [
+      -3.0,
+      48.2
+     ],
+     [
+      -0.1,
+      49.3
+     ],
+     [
+      0.57,
+      50.85
+     ]
+    ],
+    "labels": [
+     [
+      "Brittany",
+      -3.0,
+      48.2,
+      14
+     ],
+     [
+      "Hastings",
+      0.57,
+      50.85,
+      14
+     ],
+     [
+      "England",
+      -1.6,
+      52.6,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He came with his relative, William the Conqueror, who invaded England that year.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "rufus",
+      "x": 0.68,
+      "mood": "happy",
+      "hold": "sword"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "Hastings, England · 1066",
+    "tag": {
+     "id": "william",
+     "text": "William the Conqueror"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "william",
+   "say": "Thanks for the help. Have a big piece of northern England.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "rufus",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.5,
+      "y": 0.1,
+      "text": "THE NORTH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "rufus",
+   "say": "Don't mind if I do."
+  },
+  {
+   "who": "N",
+   "say": "Alan got huge estates and began building Richmond Castle, which still stands.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rufus",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2007, two researchers estimated he held about seven percent of England's national income.",
+   "show": {
+    "k": "card",
+    "label": "Alan Rufus's share of England's national income",
+    "big": "about 7%",
+    "sub": "Beresford & Rubinstein (2007)",
+    "cast": [
+     {
+      "id": "rufus",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They compared that to eighty-one billion pounds today. It's an estimate, not a bank balance."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's richest people.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rufus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "william",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The richest Briton ever, according to one study, came over with William the Conqueror.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #normanconquest #medievalhistory #money #historytok",
+ "youtube_title": "Was This Knight Britain's Richest Man Ever? #shorts",
+ "tags": [
+  "alan rufus",
+  "norman conquest",
+  "richest briton",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Alan_Rufus",
+  "https://www.managementtoday.co.uk/richest-briton-ever-was-er-french/article/751535",
+  "https://www.nzherald.co.nz/world/william-the-conquerors-nephew-richest-brit-ever/ODLN32MC6GVI6ENI4LCNMFQBNU/",
+  "https://en.wikipedia.org/wiki/Richmond_Castle"
+ ]
+}

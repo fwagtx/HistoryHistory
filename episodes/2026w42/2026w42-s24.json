@@ -1,0 +1,314 @@
+{
+ "id": "2026w42-s24",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "The Mongols Had Express Mail on Horseback",
+ "hook": "MONGOL EXPRESS MAIL",
+ "music": "playful",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "guard": {
+   "preset": "mongol",
+   "color": "#5A5A6A",
+   "hold": "spear"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "rider": {
+   "preset": "mongol",
+   "color": "#6A5A2A",
+   "hold": "spear"
+  }
+ },
+ "voices": {
+  "rider": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Mongols ran an express mail service on horseback.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.45,
+      "walk": [
+       0.2,
+       0.7
+      ],
+      "pose": "run",
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Mongol Empire · 1200s",
+    "cam": "pan",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Genghis Khan's empire was enormous, so orders took ages to cross it.",
+   "show": {
+    "k": "map",
+    "lon": 50.0,
+    "lat": 45.0,
+    "z0": 1.0,
+    "z1": 1.2,
+    "date": "1227",
+    "labels": [
+     [
+      "Caspian Sea",
+      50.5,
+      42.0,
+      0
+     ],
+     [
+      "Samarkand",
+      66.96,
+      39.65,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      62.0,
+      45.0,
+      10.0,
+      "rgba(168,50,42,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His answer was the Yam: a chain of relay stations, roughly every twenty to thirty miles.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.5
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EVERY 20-30 MILES",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Each station had food, a place to sleep, and fresh horses.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.12,
+      "s": 0.4
+     },
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "rider",
+   "say": "Fresh horse, please. I'm in a hurry!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout",
+      "hold": "letter"
+     },
+     {
+      "id": "horse",
+      "x": 0.72
+     }
+    ],
+    "cam": "close",
+    "focus": "rider"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some accounts say urgent messages could cover about two hundred miles in a day.",
+   "show": {
+    "k": "card",
+    "label": "Urgent messages, some accounts say",
+    "big": "200 MILES",
+    "sub": "in one day",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Official travelers carried a metal pass called a paiza, a sort of medieval passport.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.45,
+      "pose": "present",
+      "hold": "medal",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "white"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PAIZA",
+      "at": 1.0,
+      "color": "#C8A040"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Genghis Khan started it, and his son Ögedei expanded it across the empire.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "globe",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "genghis",
+     "text": "Genghis Khan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.3
+     },
+     {
+      "id": "genghis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Mongol Empire had a horseback express mail system.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mongols #genghiskhan #pony #historytok",
+ "youtube_title": "The Mongols Had Express Mail on Horseback #shorts",
+ "tags": [
+  "mongol empire",
+  "yam",
+  "genghis khan",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Yam_(route)",
+  "https://en.wikipedia.org/wiki/Paiza",
+  "https://www.historyonthenet.com/mongol-empire-special-features"
+ ],
+ "thumbnail": {
+  "bg": "steppe",
+  "faces": [
+   {
+    "id": "rider",
+    "mood": "happy"
+   }
+  ],
+  "object": {
+   "k": "tent"
+  }
+ }
+}

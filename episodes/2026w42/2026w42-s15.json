@@ -1,0 +1,308 @@
+{
+ "id": "2026w42-s15",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "Genghis Khan Escaped a Wooden Neck Lock",
+ "hook": "GENGHIS KHAN'S NECK-LOCK ESCAPE",
+ "music": "playful",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "guard": {
+   "preset": "mongol",
+   "color": "#5A5A6A",
+   "hold": "spear"
+  },
+  "guard2": {
+   "preset": "mongol",
+   "color": "#4A3A5A",
+   "hold": "torch"
+  },
+  "temujin": {
+   "preset": "mongol",
+   "color": "#8A5A34",
+   "name": "Temüjin"
+  }
+ },
+ "voices": {
+  "guard": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Young Genghis Khan once escaped his enemies while locked in a wooden neck board.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.45,
+      "pose": "run",
+      "walk": [
+       0.3,
+       0.7
+      ],
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "place": "Mongolia · around 1177",
+    "tag": {
+     "id": "temujin",
+     "text": "Temüjin, the future Genghis Khan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then he was called Temüjin, and a rival clan, the Tayichiud, had captured him.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "guard",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "guard2",
+      "x": 0.75,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They locked a cangue on him: a heavy wooden board around the neck.",
+   "show": {
+    "k": "card",
+    "label": "The cangue",
+    "big": "WOODEN COLLAR",
+    "sub": "a heavy board locked around the neck",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.8,
+      "s": 0.8,
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One night, during a feast, just one young guard was watching him.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "happy"
+     },
+     {
+      "id": "temujin",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Temüjin hit the guard with the board, and ran.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.55,
+      "walk": [
+       0.45,
+       0.8
+      ],
+      "pose": "run",
+      "mood": "happy"
+     },
+     {
+      "id": "guard",
+      "x": 0.25,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "BONK",
+      "at": 0.6,
+      "color": "#E07A2A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "guard",
+   "say": "Help! He's gone!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shout"
+     },
+     {
+      "id": "guard2",
+      "x": 0.72,
+      "hold": "torch",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "guard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He hid in the Onon River with only his face above water, while searchers with torches walked the bank.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "guard2",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He got away, and years later he founded the Mongol Empire.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3
+     },
+     {
+      "id": "genghis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Locked in a wooden neck board, teenage Genghis Khan still got away.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #escape #mongols #historytok",
+ "youtube_title": "Genghis Khan Escaped a Wooden Neck Lock #shorts",
+ "tags": [
+  "genghis khan",
+  "temujin",
+  "escape",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rise_of_Genghis_Khan",
+  "https://en.wikipedia.org/wiki/Sorqan_Shira",
+  "https://en.wikipedia.org/wiki/Genghis_Khan"
+ ]
+}

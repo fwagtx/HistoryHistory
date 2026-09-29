@@ -1,0 +1,294 @@
+{
+ "id": "2026w42-s11",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "The Oldest Peace Treaty in the World",
+ "hook": "THE OLDEST PEACE TREATY",
+ "music": "playful",
+ "cast": {
+  "ramesses": {
+   "preset": "pharaoh",
+   "color": "#A8322A",
+   "hold": "bow",
+   "name": "Ramesses II"
+  },
+  "muwatalli": {
+   "preset": "king",
+   "skin": "olive",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "name": "Muwatalli II"
+  },
+  "hattusili": {
+   "preset": "king",
+   "skin": "olive",
+   "beard": "full",
+   "hairColor": "#5A5A5A",
+   "outfit": "robe",
+   "color": "#2F6FC2",
+   "name": "Hattusili III"
+  }
+ },
+ "voices": {
+  "ramesses": "am_onyx",
+  "muwatalli": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The oldest peace treaty that still survives was made by Egypt and its biggest rival, about 3,300 years ago.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "ramesses",
+      "x": 0.25,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "hattusili",
+      "x": 0.75,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "About 1259 BC",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.7,
+      "text": "PEACE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OLDEST TREATY",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1274 BC, Pharaoh Ramesses the Second fought the Hittites, an empire from what's now Turkey, at Kadesh in Syria.",
+   "show": {
+    "k": "map",
+    "lon": 35,
+    "lat": 33,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1274 BC",
+    "labels": [
+     [
+      "Egypt",
+      31,
+      28,
+      0
+     ],
+     [
+      "Kadesh",
+      36.5,
+      34.6,
+      0
+     ],
+     [
+      "Hittite Empire",
+      34,
+      39.3,
+      0
+     ]
+    ],
+    "route": [
+     [
+      31.2,
+      30
+     ],
+     [
+      32.5,
+      31.2
+     ],
+     [
+      34.5,
+      31.6
+     ],
+     [
+      35.3,
+      33.2
+     ],
+     [
+      36.5,
+      34.6
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Thousands of chariots clashed. Ramesses walked into a trap, then fought his way out.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "ramesses",
+      "x": 0.45,
+      "pose": "aim",
+      "mood": "shock"
+     }
+    ],
+    "place": "Kadesh, Syria · 1274 BC",
+    "tag": {
+     "id": "ramesses",
+     "text": "Ramesses II"
+    },
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.2,
+      "s": 0.7,
+      "move": [
+       0.12,
+       0.3
+      ]
+     },
+     {
+      "k": "chariot",
+      "x": 0.78,
+      "s": 0.7,
+      "flip": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "ramesses",
+   "say": "Carve it on every temple. I won!",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "ramesses",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close",
+    "focus": "ramesses",
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "muwatalli",
+   "say": "Funny. Our scribes say we won.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "muwatalli",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "muwatalli",
+    "tag": {
+     "id": "muwatalli",
+     "text": "Muwatalli II, Hittite king"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Really, it was a draw. About fifteen years later, Ramesses and the next Hittite king, Hattusili the Third, made peace.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "ramesses",
+      "x": 0.25,
+      "pose": "salute",
+      "mood": "happy"
+     },
+     {
+      "id": "hattusili",
+      "x": 0.72,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "hattusili",
+     "text": "Hattusili III"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Copies survive in both Egyptian and Hittite, and a replica is on display at the United Nations. Enemies to allies.",
+   "show": {
+    "k": "card",
+    "label": "Oldest surviving peace treaty",
+    "big": "1259 BC",
+    "sub": "about; a replica is at the UN"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ramesses",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "hattusili",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They both claimed victory, then made history's oldest surviving peace deal.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ramesses #ancientegypt #hittites #historytok",
+ "youtube_title": "Egypt Signed the Oldest Surviving Peace Treaty #shorts",
+ "tags": [
+  "ramesses ii",
+  "battle of kadesh",
+  "peace treaty",
+  "hittites",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty",
+  "https://www.un.org/ungifts/replica-peace-treaty-between-hattusilis-and-ramses-ii",
+  "https://www.britannica.com/event/Battle-of-Kadesh",
+  "https://en.wikipedia.org/wiki/Battle_of_Kadesh"
+ ]
+}

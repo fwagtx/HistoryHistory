@@ -1,0 +1,260 @@
+{
+ "id": "2026w42-s34",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "The Steel King Who Paid for 2,509 Libraries",
+ "hook": "CARNEGIE FUNDED 2,509 LIBRARIES",
+ "music": "playful",
+ "cast": {
+  "carnegie": {
+   "skin": "light",
+   "hat": "tophat",
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#E8E4DA",
+   "name": "Andrew Carnegie"
+  },
+  "kid": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "outfit": "rags",
+   "hairColor": "#8A5A2A",
+   "name": "Young Andrew Carnegie"
+  }
+ },
+ "voices": {
+  "carnegie": "bm_daniel",
+  "kid": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One of the richest men in history spent his fortune on thousands of libraries.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "place": "USA · 1900s",
+    "tag": {
+     "id": "carnegie",
+     "text": "Andrew Carnegie, steel boss"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.76,
+      "s": 0.8
+     },
+     {
+      "k": "moneypile",
+      "x": 0.14,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Andrew Carnegie grew up poor in Scotland and moved to America at twelve.",
+   "show": {
+    "k": "map",
+    "lon": -6,
+    "lat": 55,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "1848",
+    "labels": [
+     [
+      "Dunfermline, Scotland",
+      -3.46,
+      56.07,
+      14
+     ],
+     [
+      "To America",
+      -13.5,
+      55.5,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -3.46,
+      56.07
+     ],
+     [
+      -8,
+      55.6
+     ],
+     [
+      -13.8,
+      55.4
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "As a working boy, he borrowed books from a local man who opened his library to boys like him.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "place": "Allegheny, Pennsylvania · 1850s",
+    "tag": {
+     "id": "kid",
+     "text": "Young Andrew Carnegie"
+    },
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.8,
+      "label": "Free books!"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later he got rich from steel, and in 1889 he wrote this.",
+   "show": {
+    "k": "quote",
+    "text": "The man who dies thus rich dies disgraced.",
+    "who": "Andrew Carnegie, \"The Gospel of Wealth\" (1889)"
+   }
+  },
+  {
+   "who": "carnegie",
+   "say": "So, who wants a library?",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "kid",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "text": "LIBRARY",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "kid",
+   "say": "Me! With lots of books, please!"
+  },
+  {
+   "who": "N",
+   "say": "Towns got the building if they promised to pay to run it.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.9,
+      "label": "Carnegie Library"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Between 1883 and 1929, his money built two thousand five hundred and nine libraries around the world.",
+   "show": {
+    "k": "card",
+    "label": "Carnegie libraries built, 1883–1929",
+    "big": "2,509",
+    "sub": "1,689 of them in the United States",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.8,
+      "mood": "happy",
+      "hold": "book"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "book"
+     },
+     {
+      "id": "kid",
+      "x": 0.7,
+      "mood": "happy",
+      "hold": "book"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He thought dying rich was a disgrace, so he built 2,509 libraries.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #carnegie #libraries #money #historytok",
+ "youtube_title": "The Steel King Who Paid for 2,509 Libraries #shorts",
+ "tags": [
+  "andrew carnegie",
+  "carnegie library",
+  "gospel of wealth",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Carnegie_library",
+  "https://carnegie.org/publication/the-gospel-of-wealth/",
+  "https://www.digitalhistory.uh.edu/disp_textbook.cfm?smtid=2&psid=3170",
+  "https://en.wikipedia.org/wiki/Andrew_Carnegie"
+ ]
+}

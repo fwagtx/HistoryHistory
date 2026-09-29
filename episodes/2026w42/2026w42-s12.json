@@ -1,0 +1,290 @@
+{
+ "id": "2026w42-s12",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "In Egypt, Killing a Cat Could Cost Your Life",
+ "hook": "KILLING A CAT IN EGYPT",
+ "music": "playful",
+ "cast": {
+  "roman": {
+   "preset": "roman",
+   "color": "#A8322A"
+  },
+  "priest": {
+   "preset": "egyptian",
+   "hair": "bald",
+   "outfit": "robe",
+   "color": "#F2EEE4"
+  },
+  "citizen": {
+   "preset": "egyptian",
+   "hair": "long",
+   "outfit": "dress",
+   "color": "#F2EEE4"
+  },
+  "diodorus": {
+   "preset": "philosopher",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "name": "Diodorus"
+  }
+ },
+ "voices": {
+  "citizen": "bf_emma",
+  "roman": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In ancient Egypt, killing a cat, even by accident, could get you killed.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "priest",
+      "x": 0.6,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "place": "Egypt · about 59 BC",
+    "cam": "shake",
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.6,
+      "label": "cat goddess"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SACRED CATS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Egyptians linked cats with gods like the goddess Bastet. Herodotus, a Greek historian, says families shaved their eyebrows when a pet cat died.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.72,
+      "s": 0.8,
+      "label": "Bastet"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO EYEBROWS",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around 59 BC, another Greek historian, Diodorus, visited Egypt. At the time, Egypt was nervous about Rome and tried hard to please Romans.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "diodorus",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "diodorus",
+     "text": "Diodorus, Greek historian"
+    },
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a Roman visitor accidentally killed a cat.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OOPS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "citizen",
+   "say": "He killed a cat!",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "roman",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "citizen"
+   }
+  },
+  {
+   "who": "roman",
+   "say": "It was an accident!",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "roman"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Diodorus says he saw it himself. The king's officials begged the crowd, but they killed the Roman anyway.",
+   "show": {
+    "k": "card",
+    "label": "Diodorus, Library of History 1.83",
+    "big": "EYEWITNESS",
+    "sub": "he says he saw it himself"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Not even fear of Rome could beat Egypt's love of cats.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "diodorus",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.6,
+      "label": "cat statue"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "diodorus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "citizen",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In ancient Egypt, cats outranked Roman visitors.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientegypt #cats #ancientrome #historytok",
+ "youtube_title": "Ancient Egyptians Took Cats VERY Seriously #shorts",
+ "tags": [
+  "ancient egypt",
+  "cats",
+  "diodorus",
+  "bastet",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.livius.org/sources/content/diodorus/",
+  "https://laudatortemporisacti.blogspot.com/2022/09/an-ancient-lynching.html",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/1D*.html",
+  "https://en.wikipedia.org/wiki/Cats_in_ancient_Egypt",
+  "https://www.gutenberg.org/files/2707/2707-h/2707-h.htm"
+ ],
+ "thumbnail": {
+  "bg": "egypt",
+  "faces": [
+   {
+    "id": "roman",
+    "mood": "scared"
+   },
+   {
+    "id": "citizen",
+    "mood": "angry"
+   }
+  ],
+  "object": {
+   "k": "statue"
+  }
+ }
+}

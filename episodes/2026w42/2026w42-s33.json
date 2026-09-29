@@ -1,0 +1,282 @@
+{
+ "id": "2026w42-s33",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "Carnegie Sold His Company With One Slip of Paper",
+ "hook": "CARNEGIE'S $480 MILLION SALE",
+ "music": "playful",
+ "cast": {
+  "carnegie": {
+   "skin": "light",
+   "hat": "tophat",
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#E8E4DA",
+   "name": "Andrew Carnegie"
+  },
+  "morgan": {
+   "skin": "light",
+   "hat": "tophat",
+   "outfit": "suit",
+   "color": "#1E1C1B",
+   "stache": "bush",
+   "hair": "short",
+   "hairColor": "#6A6A6A",
+   "name": "J.P. Morgan"
+  },
+  "kid": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "outfit": "rags",
+   "hairColor": "#8A5A2A",
+   "name": "Young Andrew Carnegie"
+  }
+ },
+ "voices": {
+  "morgan": "bm_lewis",
+  "carnegie": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1901, a steel boss wrote one number on a slip of paper, and a banker just said yes.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.3,
+      "mood": "smug",
+      "hold": "letter"
+     },
+     {
+      "id": "morgan",
+      "x": 0.7,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "place": "New York · 1901",
+    "tag": {
+     "id": "carnegie",
+     "text": "Andrew Carnegie, steel boss"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Andrew Carnegie came to America from Scotland at twelve, and his first job paid one dollar twenty a week.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "hold"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Pittsburgh area · 1848",
+    "tag": {
+     "id": "kid",
+     "text": "Young Andrew Carnegie"
+    },
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.76,
+      "label": "COTTON",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He grew up to build a steel empire that made rails and bridges across America.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.6,
+      "move": [
+       0.85,
+       0.55
+      ],
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.14,
+      "flag": "usa1859",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The banker J.P. Morgan wanted to buy it and build an even bigger company.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "tag": {
+     "id": "morgan",
+     "text": "J.P. Morgan, banker"
+    },
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "carnegie",
+   "say": "Here's my price. No haggling.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "letter"
+     },
+     {
+      "id": "morgan",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "carnegie"
+   }
+  },
+  {
+   "who": "morgan",
+   "say": "Accepted."
+  },
+  {
+   "who": "N",
+   "say": "The price was four hundred and eighty million dollars, and Carnegie's own share was about two hundred and twenty-five million.",
+   "show": {
+    "k": "card",
+    "label": "Price of Carnegie Steel, 1901",
+    "big": "$480,000,000",
+    "sub": "Carnegie's share: about $225 million",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Morgan reportedly congratulated him on being the richest man in the world.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.8
+     },
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "morgan",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He wrote his price on a slip of paper. The banker said yes.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #carnegie #jpmorgan #money #historytok",
+ "youtube_title": "Carnegie Sold His Company With One Slip of Paper #shorts",
+ "tags": [
+  "andrew carnegie",
+  "jp morgan",
+  "us steel",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Carnegie_Steel_Company",
+  "https://bankingjournal.aba.com/2024/03/banking-and-the-deal-of-the-century/",
+  "https://www.britannica.com/money/Carnegie-Steel-Company",
+  "https://en.wikipedia.org/wiki/Andrew_Carnegie"
+ ]
+}

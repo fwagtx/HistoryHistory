@@ -1,0 +1,273 @@
+{
+ "id": "2026w42-s32",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "How Rockefeller Became America's First Billionaire",
+ "hook": "AMERICA'S FIRST BILLIONAIRE",
+ "music": "playful",
+ "cast": {
+  "reporter": {
+   "skin": "light",
+   "hat": "bonnet",
+   "hatColor": "#6A3E8E",
+   "outfit": "coat",
+   "color": "#6A3E8E",
+   "hair": "bun",
+   "hairColor": "#5A3A22",
+   "hold": "pen",
+   "name": "Newspaper reporter"
+  },
+  "rockefeller": {
+   "skin": "light",
+   "hair": "bald",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "name": "John D. Rockefeller"
+  }
+ },
+ "voices": {
+  "reporter": "bf_emma",
+  "rockefeller": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1916, newspapers reported that one American's fortune had passed a billion dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "reporter",
+      "x": 0.3,
+      "mood": "shock",
+      "hold": "pen"
+     },
+     {
+      "id": "rockefeller",
+      "x": 0.68,
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "place": "New York · 1916",
+    "tag": {
+     "id": "rockefeller",
+     "text": "John D. Rockefeller"
+    },
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.85,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "usa48",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "John D. Rockefeller started out as a teenage bookkeeper in Cleveland, Ohio.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "rockefeller",
+      "x": 0.4,
+      "mood": "neutral",
+      "hold": "book",
+      "pose": "sit"
+     }
+    ],
+    "place": "Cleveland, Ohio · 1855",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1870 he founded Standard Oil, which sold kerosene, a lamp fuel made from oil.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "rockefeller",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15
+     },
+     {
+      "k": "train",
+      "x": 0.8,
+      "s": 0.7,
+      "label": "Standard Oil"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It grew until it controlled about ninety percent of America's oil refining.",
+   "show": {
+    "k": "card",
+    "label": "Standard Oil's share of U.S. oil refining, around 1880",
+    "big": "~90%",
+    "sub": "critics called it a monopoly",
+    "cast": [
+     {
+      "id": "rockefeller",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1911, the Supreme Court broke it into thirty-four companies.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "reporter",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "rockefeller",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "place": "Washington, D.C. · 1911",
+    "stickers": [
+     {
+      "text": "34 COMPANIES",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "reporter",
+   "say": "Is that a disaster for you, Mister Rockefeller?"
+  },
+  {
+   "who": "rockefeller",
+   "say": "Not really. I own a piece of all of them.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "rockefeller",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "shrug",
+      "hold": "coin"
+     }
+    ],
+    "cam": "close",
+    "focus": "rockefeller"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Those pieces soared in value, which is why he's often called America's first billionaire.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "rockefeller",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.8
+     },
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$1 BILLION",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's richest people.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rockefeller",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "coin"
+     },
+     {
+      "id": "reporter",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The government broke up his company, and he got even richer.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rockefeller #standardoil #money #historytok",
+ "youtube_title": "How Rockefeller Became America's First Billionaire #shorts",
+ "tags": [
+  "rockefeller",
+  "standard oil",
+  "first billionaire",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/today-in-history/September-29-Rockefeller-Becomes-Worlds-First-Billionaire",
+  "https://money.com/first-american-billionaire-dispute/",
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+  "https://en.wikipedia.org/wiki/Standard_Oil"
+ ]
+}

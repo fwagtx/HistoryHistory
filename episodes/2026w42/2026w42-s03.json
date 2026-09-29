@@ -1,0 +1,297 @@
+{
+ "id": "2026w42-s03",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "The First Strike in History",
+ "hook": "THE FIRST STRIKE IN HISTORY",
+ "music": "playful",
+ "cast": {
+  "tombworker": {
+   "preset": "egyptian",
+   "hold": "hammer",
+   "stubble": true,
+   "color": "#D8C8A8"
+  },
+  "worker2": {
+   "preset": "egyptian",
+   "hold": "hammer",
+   "hair": "bald"
+  },
+  "amennakhte": {
+   "preset": "egyptian",
+   "hold": "scroll",
+   "hair": "short",
+   "color": "#F2EEE4",
+   "name": "Amennakhte"
+  },
+  "ramesses3": {
+   "preset": "pharaoh",
+   "color": "#2F6FC2",
+   "name": "Ramesses III"
+  }
+ },
+ "voices": {
+  "tombworker": "am_liam",
+  "amennakhte": "am_adam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The first recorded strike in history happened in ancient Egypt, over three thousand years ago.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "tombworker",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "angry"
+     },
+     {
+      "id": "worker2",
+      "x": 0.55,
+      "pose": "sit",
+      "mood": "angry"
+     }
+    ],
+    "place": "Deir el-Medina, Egypt · 1157 BC",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.76,
+      "s": 0.8,
+      "text": "NO GRAIN, NO WORK"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ON STRIKE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The strikers were the skilled workers who carved and painted the royal tombs in the Valley of the Kings.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "tombworker",
+      "x": 0.4,
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.8
+     },
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TOMB BUILDERS",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were paid in grain. But under Pharaoh Ramesses the Third, the grain kept arriving late.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "ramesses3",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "ramesses3",
+     "text": "Ramesses III"
+    },
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.6,
+      "label": "GRAIN?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "tombworker",
+   "say": "We are hungry! Eighteen days of this month have passed!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "tombworker",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "amennakhte",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "cam": "close",
+    "focus": "tombworker"
+   }
+  },
+  {
+   "who": "amennakhte",
+   "say": "Then we stop working.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "tombworker",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "amennakhte",
+      "x": 0.7,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "amennakhte",
+    "tag": {
+     "id": "amennakhte",
+     "text": "Amennakhte, scribe"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they put down their tools, walked out and sat behind a temple until officials listened.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "tombworker",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "angry",
+      "walk": [
+       0.2,
+       0.4
+      ]
+     },
+     {
+      "id": "worker2",
+      "x": 0.55,
+      "pose": "walk",
+      "mood": "angry",
+      "walk": [
+       0.45,
+       0.6
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The scribe Amennakhte wrote it all down on papyrus. And eventually, the grain arrived.",
+   "show": {
+    "k": "card",
+    "label": "First recorded strike in history",
+    "big": "1157 BC",
+    "sub": "Deir el-Medina, Egypt"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the oldest strike on record was about the simplest thing: getting paid.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "tombworker",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "GRAIN"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tombworker",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "amennakhte",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "3,000 years ago, Egypt's tomb builders went on strike.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientegypt #strike #workers #historytok",
+ "youtube_title": "The First Strike in History Was in Ancient Egypt #shorts",
+ "tags": [
+  "first strike",
+  "deir el-medina",
+  "ancient egypt",
+  "ramesses iii",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Deir_el-Medina_strikes",
+  "https://libcom.org/article/records-strike-egypt-under-ramses-iii-c1157bce",
+  "https://www.guinnessworldrecords.com/world-records/first-recorded-strike",
+  "https://papyrus-stories.com/2022/03/15/the-first-recorded-strike-in-history/"
+ ]
+}

@@ -1,0 +1,303 @@
+{
+ "id": "2026w42-s14",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "Genghis Khan Killed His Brother Over a Fish",
+ "hook": "GENGHIS KHAN'S FISH FIGHT",
+ "music": "playful",
+ "cast": {
+  "behter": {
+   "preset": "mongol",
+   "color": "#6A2A2A",
+   "stache": "handlebar",
+   "name": "Behter"
+  },
+  "hoelun": {
+   "preset": "peasantW",
+   "outfit": "robe",
+   "color": "#7A3A5A",
+   "apron": false,
+   "skin": "tan",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "name": "Hoelun"
+  },
+  "qasar": {
+   "preset": "mongol",
+   "color": "#3A6A4A",
+   "hold": "bow",
+   "name": "Qasar"
+  },
+  "temujin": {
+   "preset": "mongol",
+   "color": "#8A5A34",
+   "name": "Temüjin"
+  }
+ },
+ "voices": {
+  "behter": "am_eric",
+  "temujin": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Before he was Genghis Khan, a teenage Temüjin killed his own half-brother over a fish.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "behter",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Mongolia · around 1177",
+    "tag": {
+     "id": "temujin",
+     "text": "Temüjin, the future Genghis Khan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His father had been poisoned, and their clan had abandoned the family.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "hoelun",
+      "x": 0.4,
+      "mood": "sad"
+     },
+     {
+      "id": "temujin",
+      "x": 0.62,
+      "mood": "sad",
+      "s": 0.85
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABANDONED",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the kids survived by fishing and hunting.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.45,
+      "pose": "aim",
+      "hold": "bow"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.7
+     },
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But his older half-brother, Behter, kept taking their catch.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "behter",
+      "x": 0.62,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "temujin",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.45,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "behter",
+     "text": "Behter, his half-brother"
+    },
+    "stickers": [
+     {
+      "text": "1 FISH",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "temujin",
+   "say": "That was my fish!"
+  },
+  {
+   "who": "behter",
+   "say": "Was your fish."
+  },
+  {
+   "who": "N",
+   "say": "So Temüjin and his brother Qasar ambushed Behter and killed him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.35,
+      "pose": "aim",
+      "mood": "angry"
+     },
+     {
+      "id": "qasar",
+      "x": 0.6,
+      "pose": "aim",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their mother, Hoelun, was furious. The oldest Mongol chronicle gives her a long, angry speech about it.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hoelun",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "temujin",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "hoelun",
+     "text": "Hoelun, his mother"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think the real fight was over who'd lead the family. Still, it started with a fish.",
+   "show": {
+    "k": "card",
+    "label": "The real reason?",
+    "big": "POWER",
+    "sub": "but a fish started it",
+    "cast": [
+     {
+      "id": "behter",
+      "x": 0.8,
+      "s": 0.8,
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hoelun",
+      "x": 0.3
+     },
+     {
+      "id": "temujin",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Before he conquered half of Asia, he fought his brother over a fish.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #mongols #darkhistory #historytok",
+ "youtube_title": "Genghis Khan Killed His Brother Over a Fish #shorts",
+ "tags": [
+  "genghis khan",
+  "temujin",
+  "behter",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Behter",
+  "https://en.wikipedia.org/wiki/Rise_of_Genghis_Khan",
+  "https://en.wikipedia.org/wiki/Genghis_Khan"
+ ]
+}

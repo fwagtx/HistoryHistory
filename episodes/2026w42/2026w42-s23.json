@@ -1,0 +1,286 @@
+{
+ "id": "2026w42-s23",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "16 Million Men May Be Related to Genghis Khan",
+ "hook": "16 MILLION GENGHIS KHAN RELATIVES?",
+ "music": "playful",
+ "cast": {
+  "baby": {
+   "preset": "child",
+   "hat": "mongol",
+   "outfit": "fur",
+   "color": "#8A5A34",
+   "skin": "tan"
+  },
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "guard": {
+   "preset": "mongol",
+   "color": "#5A5A6A",
+   "hold": "spear"
+  },
+  "jebe": {
+   "preset": "mongol",
+   "hold": "bow",
+   "color": "#2F4A6A",
+   "name": "Jebe"
+  },
+  "rider": {
+   "preset": "mongol",
+   "color": "#6A5A2A",
+   "hold": "spear"
+  },
+  "scientist": {
+   "preset": "scientist",
+   "name": "Geneticist"
+  },
+  "temujin": {
+   "preset": "mongol",
+   "color": "#8A5A34",
+   "name": "Temüjin"
+  }
+ },
+ "voices": {
+  "scientist": "bf_alice"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "About sixteen million men alive today may be related to Genghis Khan.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "place": "Mongolia · 1200s",
+    "stickers": [
+     {
+      "text": "16,000,000?",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2003, scientists studied DNA from over two thousand men across Asia.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "place": "DNA lab · 2003",
+    "tag": {
+     "id": "scientist",
+     "text": "Geneticist, 2003"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "They looked at the Y chromosome, a piece of DNA passed from father to son almost unchanged.",
+   "show": {
+    "k": "card",
+    "label": "Y chromosome",
+    "big": "DAD → SON",
+    "sub": "passed down almost unchanged"
+   }
+  },
+  {
+   "who": "scientist",
+   "say": "Wait. Why do so many of these match?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "scientist"
+   }
+  },
+  {
+   "who": "N",
+   "say": "About eight percent of men across a huge region, from northeast China to Uzbekistan, shared one family line.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.25
+     },
+     {
+      "id": "guard",
+      "x": 0.5
+     },
+     {
+      "id": "jebe",
+      "x": 0.75
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "8%",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It traced back about a thousand years, to Mongolia.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The scientists think it probably spread through Genghis Khan and his male relatives, who had very big families.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "baby",
+      "x": 0.62,
+      "mood": "happy"
+     },
+     {
+      "id": "temujin",
+      "x": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's about one in every two hundred men on Earth.",
+   "show": {
+    "k": "card",
+    "label": "Men worldwide",
+    "big": "1 IN 200",
+    "sub": "may carry this family line",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.8,
+      "s": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.3
+     },
+     {
+      "id": "genghis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "About 1 in 200 men may share Genghis Khan's family line.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #dna #science #historytok",
+ "youtube_title": "16 Million Men May Be Related to Genghis Khan #shorts",
+ "tags": [
+  "genghis khan",
+  "dna",
+  "genetics",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Genetic_descent_from_Genghis_Khan",
+  "https://www.discovermagazine.com/1-in-200-men-direct-descendants-of-genghis-khan-14",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC1180246/"
+ ]
+}

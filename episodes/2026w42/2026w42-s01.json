@@ -1,0 +1,232 @@
+{
+ "id": "2026w42-s01",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "Cleopatra Was Closer to the Moon Landing Than the Pyramids",
+ "hook": "CLEOPATRA AND THE MOON LANDING",
+ "music": "playful",
+ "cast": {
+  "cleopatra": {
+   "preset": "cleopatra",
+   "name": "Cleopatra"
+  },
+  "khufu": {
+   "preset": "pharaoh",
+   "color": "#C8902A",
+   "name": "Khufu"
+  },
+  "astronaut": {
+   "preset": "astronaut"
+  }
+ },
+ "voices": {
+  "cleopatra": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "place": "Egypt · 69 to 30 BC",
+    "tag": {
+     "id": "cleopatra",
+     "text": "Cleopatra, queen of Egypt"
+    },
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.7,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CLOSER TO US!",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Great Pyramid was built for a pharaoh named Khufu, around 2560 BC.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "khufu",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "place": "Giza, Egypt · about 2560 BC",
+    "tag": {
+     "id": "khufu",
+     "text": "Pharaoh Khufu"
+    },
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.68,
+      "s": 1
+     },
+     {
+      "k": "palm",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cleopatra, the last queen of ancient Egypt, was born in 69 BC. That's nearly two and a half thousand years later.",
+   "show": {
+    "k": "card",
+    "label": "Great Pyramid to Cleopatra",
+    "big": "2,500 YEARS",
+    "sub": "about 2560 BC to 69 BC"
+   }
+  },
+  {
+   "who": "cleopatra",
+   "say": "This pyramid is ancient. Who even built it?",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "cleopatra",
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.72,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "To her, the pyramid was already older than the Roman Colosseum is to us."
+  },
+  {
+   "who": "N",
+   "say": "Then in 1969, American astronauts landed on the Moon. That's only about two thousand years after Cleopatra.",
+   "show": {
+    "k": "scene",
+    "bg": "moon",
+    "cast": [
+     {
+      "id": "astronaut",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "place": "The Moon · 1969",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.6,
+      "flag": "usa"
+     },
+     {
+      "k": "rocket",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABOUT 2,000 YEARS",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ancient Egypt lasted so long that the ancient Egyptians had their own ancient history.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.6,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.3,
+      "s": 0.8,
+      "text": "ANCIENT HISTORY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that messes with your sense of time.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "astronaut",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Cleopatra is closer in time to you than to the Great Pyramid's builders.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #cleopatra #ancientegypt #pyramids #historytok",
+ "youtube_title": "Cleopatra Was Closer to the Moon Landing Than the Pyramids #shorts",
+ "tags": [
+  "cleopatra",
+  "great pyramid",
+  "moon landing",
+  "ancient egypt",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt",
+  "https://www.britannica.com/place/Great-Pyramid-of-Giza",
+  "https://www.worldatlas.com/articles/so-cleopatra-lived-closer-in-time-to-the-first-lunar-landing-than-the-great-pyramids.html",
+  "https://en.wikipedia.org/wiki/Colosseum",
+  "https://en.wikipedia.org/wiki/Apollo_11"
+ ]
+}

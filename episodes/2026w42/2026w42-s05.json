@@ -1,0 +1,274 @@
+{
+ "id": "2026w42-s05",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "Cleopatra's Family Was Greek",
+ "hook": "CLEOPATRA'S FAMILY WAS GREEK",
+ "music": "playful",
+ "cast": {
+  "cleopatra": {
+   "preset": "cleopatra",
+   "name": "Cleopatra"
+  },
+  "ptolemy": {
+   "preset": "greek",
+   "hat": "crown",
+   "name": "Ptolemy I"
+  },
+  "egyptian": {
+   "preset": "egyptian",
+   "hair": "long",
+   "outfit": "dress",
+   "color": "#F2EEE4"
+  }
+ },
+ "voices": {
+  "ptolemy": "bm_george",
+  "egyptian": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Cleopatra, the most famous queen of Egypt, came from a Greek family.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "place": "Alexandria, Egypt · 51 BC",
+    "tag": {
+     "id": "cleopatra",
+     "text": "Cleopatra VII"
+    },
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15
+     },
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GREEK FAMILY",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her family came from Macedonia, in northern Greece. Her ancestor Ptolemy was a general of Alexander the Great.",
+   "show": {
+    "k": "map",
+    "lon": 26,
+    "lat": 36,
+    "z0": 1.8,
+    "z1": 2.1,
+    "date": "323 BC",
+    "labels": [
+     [
+      "Macedonia",
+      22.5,
+      40.8,
+      0
+     ],
+     [
+      "Alexandria",
+      29.9,
+      31.2,
+      0
+     ]
+    ],
+    "route": [
+     [
+      22.5,
+      40.8
+     ],
+     [
+      24,
+      38
+     ],
+     [
+      27,
+      34
+     ],
+     [
+      29.9,
+      31.2
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After Alexander died in 323 BC, Ptolemy took Egypt. His family ruled it for almost three hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "ptolemy",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "ptolemy",
+     "text": "Ptolemy I"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.45,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "egyptian",
+   "say": "Does the king speak Egyptian?",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "egyptian",
+      "x": 0.3,
+      "pose": "think"
+     },
+     {
+      "id": "ptolemy",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "egyptian",
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "ptolemy",
+   "say": "Greek is fine, thank you.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "egyptian",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "ptolemy",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "ptolemy",
+    "stickers": [
+     {
+      "text": "GREEK ONLY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then came Cleopatra. The Greek writer Plutarch says she was the first of her family to learn Egyptian, and talked to many peoples without a translator.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.6,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.25,
+      "s": 0.8,
+      "text": "SPEAKS EGYPTIAN"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody knows for sure who her mother was, so historians still debate her full family tree."
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "ptolemy",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Egypt's most famous queen came from a Greek family.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #cleopatra #ancientegypt #ancientgreece #historytok",
+ "youtube_title": "Cleopatra's Family Was Greek, Not Egyptian #shorts",
+ "tags": [
+  "cleopatra",
+  "ptolemaic dynasty",
+  "ancient egypt",
+  "plutarch",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt",
+  "https://en.wikipedia.org/wiki/Cleopatra",
+  "https://www.asor.org/anetoday/2024/02/cleopatras-languages",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Antony*.html",
+  "https://en.wikipedia.org/wiki/Ptolemaic_dynasty"
+ ]
+}

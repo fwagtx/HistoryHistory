@@ -1,0 +1,249 @@
+{
+ "id": "2026w42-s09",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "The Woman Pharaoh's Fake Beard",
+ "hook": "THE WOMAN PHARAOH'S FAKE BEARD",
+ "music": "playful",
+ "cast": {
+  "hatshepsut": {
+   "preset": "pharaoh",
+   "hair": "long",
+   "color": "#C8902A",
+   "name": "Hatshepsut"
+  },
+  "official": {
+   "preset": "egyptian",
+   "hold": "scroll",
+   "color": "#6A3E8E",
+   "hair": "bald"
+  },
+  "thutmose": {
+   "preset": "pharaoh",
+   "color": "#2F6FC2",
+   "name": "Thutmose III"
+  }
+ },
+ "voices": {
+  "hatshepsut": "af_heart",
+  "official": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One of Egypt's most successful pharaohs was a woman, and her statues show her wearing a fake beard.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "hatshepsut",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "place": "Thebes, Egypt · 1479 BC",
+    "tag": {
+     "id": "hatshepsut",
+     "text": "Hatshepsut"
+    },
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.3,
+      "s": 1,
+      "label": "Hatshepsut"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE BEARD",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1479 BC, a little boy became king, and his aunt and stepmother, Hatshepsut, ruled for him.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "hatshepsut",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "thutmose",
+      "x": 0.68,
+      "pose": "sit",
+      "mood": "sad",
+      "s": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.68,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within a few years, she simply declared herself pharaoh.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "hatshepsut",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.45,
+      "s": 0.4,
+      "y": 0.35,
+      "enter": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "who": "official",
+   "say": "But Your Majesty, pharaohs have beards.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "hatshepsut",
+      "x": 0.68,
+      "pose": "cross"
+     }
+    ],
+    "cam": "close",
+    "focus": "official"
+   }
+  },
+  {
+   "who": "hatshepsut",
+   "say": "Then fetch me a beard.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "hatshepsut",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "hatshepsut"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pharaohs, even the men, wore a fake ceremonial beard. So statues showed her with one too. She ruled for about twenty years.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "hatshepsut",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "palm",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After she died, her stepson Thutmose the Third had many of her statues smashed. Some were glued back together, and they're in a New York museum today.",
+   "show": {
+    "k": "card",
+    "label": "Hatshepsut's statues",
+    "big": "SMASHED",
+    "sub": "and later rebuilt by the Metropolitan Museum"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hatshepsut",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "official",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "She made herself pharaoh, beard and all.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hatshepsut #ancientegypt #pharaoh #historytok",
+ "youtube_title": "The Woman Who Made Herself Pharaoh #shorts",
+ "tags": [
+  "hatshepsut",
+  "female pharaoh",
+  "ancient egypt",
+  "thutmose iii",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hatshepsut",
+  "https://www.metmuseum.org/art/collection/search/544449",
+  "https://www.metmuseum.org/art/collection/search/544442",
+  "https://www.metmuseum.org/art/collection/search/548519"
+ ]
+}

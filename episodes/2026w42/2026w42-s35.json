@@ -1,0 +1,246 @@
+{
+ "id": "2026w42-s35",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "The Richest Man Used a Diamond as a Paperweight",
+ "hook": "A DIAMOND PAPERWEIGHT",
+ "music": "playful",
+ "cast": {
+  "nizam": {
+   "skin": "tan",
+   "hat": "turban",
+   "hatColor": "#3A2A2A",
+   "outfit": "coat",
+   "color": "#E8E0CC",
+   "stache": "thin",
+   "hairColor": "#2A2A2A",
+   "name": "Mir Osman Ali Khan"
+  },
+  "servant": {
+   "skin": "tan",
+   "hat": "headscarf",
+   "hatColor": "#2F7A6A",
+   "outfit": "dress",
+   "color": "#2F7A6A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "name": "Palace servant"
+  }
+ },
+ "voices": {
+  "nizam": "am_liam",
+  "servant": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The man Time magazine called the world's richest used a giant diamond as a paperweight.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "nizam",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "sit"
+     }
+    ],
+    "place": "Hyderabad, India · 1930s",
+    "tag": {
+     "id": "nizam",
+     "text": "Mir Osman Ali Khan, Nizam of Hyderabad"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.68,
+      "s": 0.9
+     },
+     {
+      "k": "chest",
+      "x": 0.14,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TIME: RICHEST MAN",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Mir Osman Ali Khan, the Nizam, meaning ruler, of Hyderabad, a huge state in India.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nizam",
+      "x": 0.5,
+      "mood": "neutral",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.8
+     },
+     {
+      "k": "goldpile",
+      "x": 0.16,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story goes that the diamond was found in the toe of his late father's old shoe.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "servant",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "present"
+     },
+     {
+      "id": "nizam",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "tag": {
+     "id": "servant",
+     "text": "Palace servant"
+    }
+   }
+  },
+  {
+   "who": "servant",
+   "say": "Your Highness, look what was in the old shoe!"
+  },
+  {
+   "who": "nizam",
+   "say": "Excellent. Now my letters won't blow away.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "nizam",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "cam": "close",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's the Jacob Diamond, about one hundred and eighty-five carats.",
+   "show": {
+    "k": "card",
+    "label": "The Jacob Diamond",
+    "big": "185 carats",
+    "sub": "about 37 grams of diamond",
+    "cast": [
+     {
+      "id": "nizam",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Oddly, he was famous for being thrifty, and reportedly wore the same old fez for thirty-five years.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nizam",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.2,
+      "y": 0.28,
+      "enter": "pop"
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today the diamond belongs to the Government of India."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's richest people.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "nizam",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "servant",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Time called him the world's richest man. His paperweight was a 185-carat diamond.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hyderabad #nizam #diamonds #historytok",
+ "youtube_title": "The Richest Man Used a Diamond as a Paperweight #shorts",
+ "tags": [
+  "nizam of hyderabad",
+  "jacob diamond",
+  "richest man",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mir_Osman_Ali_Khan",
+  "https://en.wikipedia.org/wiki/Jacob_Diamond",
+  "https://www.livehistoryindia.com/story/art-history/diamond-in-a-shoe-the-jacob-diamond",
+  "https://theprint.in/theprint-profile/mir-osman-ali-khan-hyderabad-nizam-who-wore-cotton-pyjamas-used-a-diamond-as-paper-weight/634761/"
+ ]
+}

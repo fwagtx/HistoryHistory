@@ -1,0 +1,254 @@
+{
+ "id": "2026w42-s08",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "The Pharaoh Honey Legend",
+ "hook": "THE PHARAOH HONEY LEGEND",
+ "music": "playful",
+ "cast": {
+  "pepi": {
+   "preset": "pharaoh",
+   "beard": null,
+   "color": "#1F8A4A",
+   "name": "Pepi II"
+  },
+  "servant": {
+   "preset": "egyptian",
+   "hair": "short"
+  }
+ },
+ "voices": {
+  "pepi": "am_puck",
+  "servant": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "You may have heard that a pharaoh covered servants in honey, so flies would bug them instead of him. It's a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "pepi",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 0.85
+     },
+     {
+      "id": "servant",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "place": "Egypt · about 2250 BC",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.8,
+      "s": 0.5,
+      "label": "honey"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story is about Pepi the Second, a real pharaoh who became king at about six years old.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "pepi",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ],
+    "tag": {
+     "id": "pepi",
+     "text": "Pepi II"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.45,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KING AT 6",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ancient lists say he ruled for over ninety years. Many historians think it was more like sixty-four.",
+   "show": {
+    "k": "card",
+    "label": "How long Pepi II ruled",
+    "big": "64 OR 94?",
+    "sub": "years; historians disagree"
+   }
+  },
+  {
+   "who": "pepi",
+   "say": "Bring me the honey servants!",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "pepi",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout",
+      "s": 0.85
+     },
+     {
+      "id": "servant",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "pepi",
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "servant",
+   "say": "Worst. Job. In Egypt.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "servant",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "servant",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But no ancient Egyptian record mentions honey servants. The story only shows up in much later retellings.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "pepi",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.3,
+      "s": 0.8,
+      "text": "NO RECORD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The true part is strange enough: a child king who may have ruled longer than almost anyone in history.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "pepi",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.85
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for real history, and the legends it isn't.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pepi",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "s": 0.85
+     },
+     {
+      "id": "servant",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The honey servants story? Probably never happened.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientegypt #pharaoh #mythbusting #historytok",
+ "youtube_title": "Did a Pharaoh Really Cover Servants in Honey? #shorts",
+ "tags": [
+  "pepi ii",
+  "pharaoh",
+  "ancient egypt",
+  "history myths",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pepi_II_Neferkare",
+  "https://travel2egypt.org/ancient-egypt-myths/",
+  "https://www.ancient-origins.net/weird-facts/pepi-ii-slaves-0016752",
+  "https://ancientegyptonline.co.uk/pepiii/"
+ ]
+}

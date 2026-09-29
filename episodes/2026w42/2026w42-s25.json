@@ -1,0 +1,284 @@
+{
+ "id": "2026w42-s25",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "The Emperor Who Kept Egypt for Himself",
+ "hook": "AUGUSTUS KEPT EGYPT",
+ "music": "playful",
+ "cast": {
+  "augustus": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "side",
+   "hairColor": "#8A5A2A",
+   "skin": "light",
+   "name": "Augustus"
+  },
+  "senator": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A5A",
+   "hair": "short",
+   "hairColor": "#7A7A7A",
+   "skin": "olive",
+   "name": "Roman senator"
+  }
+ },
+ "voices": {
+  "senator": "bm_lewis",
+  "augustus": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome's first emperor kept the empire's richest province for himself.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips",
+      "enter": "pop"
+     }
+    ],
+    "place": "Alexandria, Egypt · 30 BC",
+    "tag": {
+     "id": "augustus",
+     "text": "Augustus, first Roman emperor"
+    },
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.75,
+      "flag": "rome",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Augustus, and in 30 BC he took Egypt, after defeating Mark Antony and Cleopatra, Egypt's queen.",
+   "show": {
+    "k": "map",
+    "lon": 22,
+    "lat": 36,
+    "z0": 1.3,
+    "z1": 1.5,
+    "date": "30 BC",
+    "route": [
+     [
+      12.5,
+      41.9
+     ],
+     [
+      20.7,
+      38.95
+     ],
+     [
+      29.9,
+      31.2
+     ]
+    ],
+    "labels": [
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ],
+     [
+      "Actium",
+      20.7,
+      38.95,
+      14
+     ],
+     [
+      "Egypt",
+      29.9,
+      31.2,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Egypt grew huge amounts of grain, and that grain helped feed the city of Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.7,
+      "flag": "rome"
+     },
+     {
+      "k": "crate",
+      "x": 0.16,
+      "label": "GRAIN",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he didn't share it. He ran Egypt through his own hand-picked governor.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.8
+     },
+     {
+      "k": "chest",
+      "x": 0.84,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "senator",
+   "say": "Can I at least visit Egypt?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.3,
+      "mood": "sad",
+      "pose": "shrug"
+     },
+     {
+      "id": "augustus",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "cam": "close",
+    "focus": "senator"
+   }
+  },
+  {
+   "who": "augustus",
+   "say": "Not without my permission."
+  },
+  {
+   "who": "N",
+   "say": "That part is real. The Roman historian Tacitus says senators needed the emperor's permission to enter Egypt.",
+   "show": {
+    "k": "card",
+    "label": "Senators allowed into Egypt without the emperor's OK",
+    "big": "ZERO",
+    "sub": "Tacitus, Annals 2.59",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians debate whether Egypt was legally his, but it was run like his private estate.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.2,
+      "s": 0.8
+     },
+     {
+      "k": "crate",
+      "x": 0.8,
+      "label": "GRAIN",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's richest people.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "senator",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome's first emperor kept Egypt, the richest province, on a very short leash.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #augustus #romanempire #ancientegypt #historytok",
+ "youtube_title": "The Emperor Who Kept Egypt for Himself #shorts",
+ "tags": [
+  "augustus",
+  "roman egypt",
+  "roman empire",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Egypt_(Roman_province)",
+  "https://www.thecollector.com/ptolemaic-egypt-annexation-augustus/",
+  "https://classics.mit.edu/Tacitus/annals.2.ii.html",
+  "https://en.wikipedia.org/wiki/Res_Gestae_Divi_Augusti"
+ ]
+}

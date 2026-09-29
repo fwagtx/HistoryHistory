@@ -1,0 +1,263 @@
+{
+ "id": "2026w42-s10",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "How Hieroglyphs Were Cracked",
+ "hook": "HOW HIEROGLYPHS WERE CRACKED",
+ "music": "playful",
+ "cast": {
+  "soldier": {
+   "outfit": "napoleon",
+   "hat": "bicorne",
+   "skin": "light",
+   "hold": "rifle"
+  },
+  "champollion": {
+   "outfit": "coat",
+   "color": "#2A2A3A",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "book",
+   "name": "Jean-François Champollion"
+  },
+  "brother": {
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "glasses": "round"
+  }
+ },
+ "voices": {
+  "champollion": "am_eric",
+  "brother": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "For more than a thousand years, nobody on Earth could read Egyptian hieroglyphs.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "pose": "think"
+     }
+    ],
+    "place": "Egypt",
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.7,
+      "s": 0.8
+     },
+     {
+      "k": "statue",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "???",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in 1799, French soldiers rebuilding a fort near the town of Rosetta found a broken stone slab.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "place": "Rosetta, Egypt · 1799",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "france"
+     },
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.8,
+      "label": "THE STONE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It had the same message in three scripts: hieroglyphs, another Egyptian script, and ancient Greek. Scholars could read the Greek.",
+   "show": {
+    "k": "card",
+    "label": "The Rosetta Stone",
+    "big": "3 SCRIPTS",
+    "sub": "one message, and the Greek was the key"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A young Frenchman, Jean-François Champollion, spent years comparing them.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "champollion",
+      "x": 0.6,
+      "pose": "think"
+     }
+    ],
+    "tag": {
+     "id": "champollion",
+     "text": "Jean-François Champollion"
+    },
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.25,
+      "s": 0.8,
+      "text": "ROSETTA STONE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "champollion",
+   "say": "I've got it!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "champollion",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "shout"
+     },
+     {
+      "id": "brother",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "place": "Paris · 1822",
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "brother",
+   "say": "Got what? Are you okay?"
+  },
+  {
+   "who": "N",
+   "say": "The story goes that he burst into his brother's office, shouted that, and fainted. Weeks later, in 1822, he announced that hieroglyphs mix sound signs and idea signs.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "champollion",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SOUNDS + IDEAS",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One broken rock unlocked three thousand years of history.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "champollion",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "champollion",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One broken rock unlocked ancient Egypt.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rosettastone #hieroglyphs #ancientegypt #historytok",
+ "youtube_title": "How the Rosetta Stone Cracked Hieroglyphs #shorts",
+ "tags": [
+  "rosetta stone",
+  "champollion",
+  "hieroglyphs",
+  "ancient egypt",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rosetta_Stone",
+  "https://www.britishmuseum.org/blog/everything-you-ever-wanted-know-about-rosetta-stone",
+  "https://www.smithsonianmag.com/history/rosetta-stone-hieroglyphs-champollion-decipherment-egypt-180980834/",
+  "https://daily.jstor.org/jean-francois-champollion-deciphers-the-rosetta-stone/",
+  "https://hannahfielding.net/rosetta/"
+ ],
+ "thumbnail": {
+  "sub": "Egypt and France · 1799 to 1822"
+ }
+}

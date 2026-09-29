@@ -1,0 +1,271 @@
+{
+ "id": "2026w42-s02",
+ "format": "short",
+ "date": "2026-10-12",
+ "slot": "09:00",
+ "title": "The Pyramid Builders Weren't Slaves",
+ "hook": "PYRAMID BUILDERS WEREN'T SLAVES",
+ "music": "playful",
+ "cast": {
+  "worker": {
+   "preset": "egyptian",
+   "hold": "bread",
+   "stubble": true
+  },
+  "worker2": {
+   "preset": "egyptian",
+   "hold": "hammer",
+   "hair": "bald"
+  },
+  "overseer": {
+   "preset": "egyptian",
+   "hold": "scroll",
+   "color": "#2F6FC2"
+  }
+ },
+ "voices": {
+  "worker": "am_liam",
+  "overseer": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The people who built Egypt's pyramids weren't slaves. They were workers, paid in bread and beer.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "worker2",
+      "x": 0.55,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Giza, Egypt · about 2560 BC",
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT SLAVES",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Old movies love the slave version. But archaeologists have been digging beside the Giza pyramids since the late 1980s.",
+   "show": {
+    "k": "map",
+    "lon": 31.2,
+    "lat": 29.9,
+    "z0": 3,
+    "z1": 3.6,
+    "date": "about 2560 BC",
+    "labels": [
+     [
+      "Giza pyramids",
+      31.13,
+      29.98,
+      0
+     ],
+     [
+      "Nile river",
+      31.3,
+      30.3,
+      20
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Right next to the pyramids, they found a whole workers' town, with bakeries, storerooms and places to sleep.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "The workers' town, Giza",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "jar",
+      "x": 0.6,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BAKERIES",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "worker",
+   "say": "Lunch time! What is it today?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "overseer",
+      "x": 0.68,
+      "pose": "hold"
+     }
+    ],
+    "cam": "close",
+    "focus": "worker",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "overseer",
+   "say": "Bread and beer. Same as yesterday.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "happy"
+     },
+     {
+      "id": "overseer",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "overseer",
+    "stickers": [
+     {
+      "text": "BREAD + BEER",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They also found the workers' own cemetery beside the pyramids. Some skeletons had broken bones that had healed, so someone treated them.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "worker2",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "pyramid",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Slaves weren't honoured with tombs next to their king. These were crews proud of the job.",
+   "show": {
+    "k": "card",
+    "label": "Daily pay for pyramid builders",
+    "big": "BREAD + BEER",
+    "sub": "rations from the king's stores"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "overseer",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They were paid. In bread and beer.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pyramids #ancientegypt #archaeology #historytok",
+ "youtube_title": "Who Really Built the Pyramids? #shorts",
+ "tags": [
+  "pyramids",
+  "ancient egypt",
+  "pyramid builders",
+  "archaeology",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.guardians.net/hawass/buildtomb.htm",
+  "https://www.cbc.ca/technology/story/2010/01/11/tech-egypt-pyramid.html",
+  "https://aeraweb.org/feeding-pyramid-workers/",
+  "https://www.pbs.org/wgbh/nova/article/lehner-giza/",
+  "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+ ]
+}

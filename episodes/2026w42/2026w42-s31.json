@@ -1,0 +1,255 @@
+{
+ "id": "2026w42-s31",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "The Town Where Rent Is 88 Cents a Year",
+ "hook": "RENT: 88 CENTS A YEAR",
+ "music": "playful",
+ "cast": {
+  "resident": {
+   "preset": "peasantW",
+   "skin": "light",
+   "name": "Fuggerei resident"
+  },
+  "fugger": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#D4A52A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "name": "Jakob Fugger"
+  }
+ },
+ "voices": {
+  "resident": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In one German neighborhood, the rent is eighty-eight euro cents. Per year.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "resident",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "place": "Augsburg, Germany · since 1516",
+    "tag": {
+     "id": "resident",
+     "text": "Fuggerei resident"
+    },
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.16,
+      "s": 0.8
+     },
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "€0.88 A YEAR",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's the Fuggerei, founded in 1516 by Jakob Fugger, one of the richest bankers who ever lived.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "fugger",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "tag": {
+     "id": "fugger",
+     "text": "Jakob Fugger, banker"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "chest",
+      "x": 0.14,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He built homes for poor but hard-working families in his city, Augsburg.",
+   "show": {
+    "k": "map",
+    "lon": 10.9,
+    "lat": 48.4,
+    "z0": 3,
+    "z1": 3.6,
+    "labels": [
+     [
+      "Augsburg",
+      10.9,
+      48.37,
+      14
+     ],
+     [
+      "Munich",
+      11.58,
+      48.14,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      10.9,
+      48.37,
+      0.4,
+      "rgba(31,138,74,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The rent was one Rhenish guilder, an old coin, and it has never gone up. Today that's eighty-eight cents.",
+   "show": {
+    "k": "card",
+    "label": "Yearly rent in the Fuggerei",
+    "big": "€0.88",
+    "sub": "the same one guilder since the 1520s",
+    "cast": [
+     {
+      "id": "resident",
+      "x": 0.8,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "resident",
+   "say": "There's one catch. I say three prayers a day for the Fugger family.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "resident",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "cam": "close",
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That rule is real, and it's still in the rules today."
+  },
+  {
+   "who": "N",
+   "say": "Fun fact: Mozart's great-grandfather lived here in the 1600s.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "resident",
+      "x": 0.35,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.72,
+      "s": 0.8,
+      "label": "Franz Mozart lived here"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Five hundred years later, it's the oldest social housing complex still in use."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "resident",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "fugger",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rent here is 88 cents a year and hasn't gone up in 500 years. There's one catch.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #fuggerei #germany #money #historytok",
+ "youtube_title": "The Town Where Rent Is 88 Cents a Year #shorts",
+ "tags": [
+  "fuggerei",
+  "jakob fugger",
+  "augsburg",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Fuggerei",
+  "https://www.smithsonianmag.com/travel/after-almost-500-years-german-utopia-is-still-going-strong-180973787/",
+  "https://www.cbc.ca/radio/day6/hazaras-at-risk-in-afghanistan-the-meaning-of-comirnaty-a-brief-history-of-poppers-nancy-drew-at-91-more-1.6155032/at-the-world-s-oldest-social-housing-rent-hasn-t-changed-since-1521-1.6155041"
+ ],
+ "thumbnail": {
+  "text": "RENT: 88 CENTS A YEAR",
+  "bg": "town",
+  "faces": [
+   {
+    "id": "resident",
+    "mood": "happy"
+   }
+  ],
+  "object": {
+   "k": "house"
+  }
+ }
+}

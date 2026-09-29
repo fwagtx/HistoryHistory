@@ -1,0 +1,268 @@
+{
+ "id": "2026w42-s22",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "Nobody Knows Where Genghis Khan Is Buried",
+ "hook": "GENGHIS KHAN'S LOST TOMB",
+ "music": "playful",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "historian": {
+   "preset": "scientist",
+   "outfit": "suit",
+   "color": "#3A4A6A",
+   "glasses": "round"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "rider": {
+   "preset": "mongol",
+   "color": "#6A5A2A",
+   "hold": "spear"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "Nobody knows where Genghis Khan is buried.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.65,
+      "s": 0.7,
+      "text": "TOMB: ???"
+     }
+    ],
+    "place": "Mongolia · 1227"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He died in 1227, during a war in northwest China.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "horse",
+      "x": 0.8,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His body was taken back to Mongolia and buried in secret.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.6,
+      "s": 0.6,
+      "move": [
+       0.4,
+       0.75
+      ]
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And that's where the famous legend comes in.",
+   "show": {
+    "k": "card",
+    "label": "Warning",
+    "big": "LEGEND",
+    "sub": "not in any record from the time",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.8,
+      "s": 0.8,
+      "mood": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It says everyone who saw the funeral was killed, and horses trampled the ground to hide the grave.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.35
+     },
+     {
+      "id": "rider",
+      "x": 0.65,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#6A4A2A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "historian",
+   "say": "Great story. Zero evidence from the time.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "historian",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "What's true is that the area where he's thought to lie was off-limits for centuries.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.4,
+      "s": 0.7,
+      "text": "KEEP OUT"
+     },
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So one of the most famous men in history is still missing.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "historian",
+      "x": 0.3
+     },
+     {
+      "id": "genghis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Genghis Khan's tomb has never been found.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #mystery #mongolia #historytok",
+ "youtube_title": "Nobody Knows Where Genghis Khan Is Buried #shorts",
+ "tags": [
+  "genghis khan",
+  "tomb",
+  "mystery",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Burial_place_of_Genghis_Khan",
+  "https://www.snopes.com/fact-check/genghis-khan-tomb-executions/",
+  "https://bigthink.com/the-past/genghis-khan-tomb/"
+ ]
+}

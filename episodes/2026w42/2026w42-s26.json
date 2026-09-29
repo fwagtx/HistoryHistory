@@ -1,0 +1,235 @@
+{
+ "id": "2026w42-s26",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "The Emperor Who Paid Soldiers From His Own Pocket",
+ "hook": "EMPEROR PAID FROM HIS POCKET",
+ "music": "playful",
+ "cast": {
+  "augustus": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "side",
+   "hairColor": "#8A5A2A",
+   "skin": "light",
+   "name": "Augustus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "skin": "olive",
+   "name": "Roman soldier"
+  }
+ },
+ "voices": {
+  "legionary": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome's first emperor once paid for soldiers' retirement out of his own pocket.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "moneybag"
+     }
+    ],
+    "place": "Rome · AD 6",
+    "tag": {
+     "id": "augustus",
+     "text": "Augustus, first Roman emperor"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "flag",
+      "x": 0.14,
+      "flag": "rome",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Augustus had an expensive problem: retired soldiers expected a big reward.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "Twenty years of marching. Where's my reward?"
+  },
+  {
+   "who": "N",
+   "say": "So in AD 6, he set up a military treasury, a fund just for veterans.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.8,
+      "text": "MILITARY TREASURY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he put in one hundred and seventy million sesterces from his own fortune.",
+   "show": {
+    "k": "card",
+    "label": "Augustus's own money for the veterans' fund",
+    "big": "170,000,000",
+    "sub": "sesterces, AD 6",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "We know because he bragged about it in the Res Gestae, his public list of achievements.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.68,
+      "s": 0.7,
+      "text": "RES GESTAE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also topped up Rome's main treasury four times, he says."
+  },
+  {
+   "who": "N",
+   "say": "When the emperor's wallet and the state's wallet are this mixed up, he's hard to out-rich.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "sit",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.18,
+      "s": 0.8
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome's first emperor funded soldiers' pensions with his own money. 170 million sesterces of it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #augustus #romanempire #money #historytok",
+ "youtube_title": "The Emperor Who Paid Soldiers From His Own Pocket #shorts",
+ "tags": [
+  "augustus",
+  "res gestae",
+  "roman army",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.livius.org/sources/content/augustus-res-gestae/",
+  "https://en.wikipedia.org/wiki/Res_Gestae_Divi_Augusti",
+  "https://en.wikipedia.org/wiki/Aerarium_militare"
+ ]
+}

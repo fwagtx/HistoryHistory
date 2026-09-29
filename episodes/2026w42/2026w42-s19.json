@@ -1,0 +1,326 @@
+{
+ "id": "2026w42-s19",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "Genghis Khan Chased an Emperor to an Island",
+ "hook": "SHAH FLED GENGHIS KHAN",
+ "music": "playful",
+ "cast": {
+  "jebe": {
+   "preset": "mongol",
+   "hold": "bow",
+   "color": "#2F4A6A",
+   "name": "Jebe"
+  },
+  "shah": {
+   "preset": "sultan",
+   "color": "#2F5A8A",
+   "hat": "crown",
+   "name": "Shah Muhammad II"
+  },
+  "subutai": {
+   "preset": "mongol",
+   "hold": "sword",
+   "color": "#4A3A2A",
+   "beard": "goatee",
+   "name": "Subutai"
+  }
+ },
+ "voices": {
+  "jebe": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Genghis Khan chased an emperor so hard, he ended up hiding on a tiny island.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "palm",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "place": "Caspian Sea · 1220",
+    "tag": {
+     "id": "shah",
+     "text": "Shah Muhammad II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Shah Muhammad ruled the Khwarazmian Empire in Central Asia, and he'd insulted Genghis by killing his envoy.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When the Mongols invaded in 1219, his cities fell one by one.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.3,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the shah ran.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.45,
+      "walk": [
+       0.2,
+       0.75
+      ],
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Genghis sent twenty thousand riders after him, led by his generals Jebe and Subutai.",
+   "show": {
+    "k": "map",
+    "lon": 57.0,
+    "lat": 38.5,
+    "z0": 1.8,
+    "z1": 2.3,
+    "date": "1220",
+    "labels": [
+     [
+      "Samarkand",
+      66.96,
+      39.65,
+      0
+     ],
+     [
+      "Caspian Sea",
+      50.5,
+      42.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      66.96,
+      39.65
+     ],
+     [
+      61.0,
+      36.5
+     ],
+     [
+      54.0,
+      36.2
+     ],
+     [
+      49.3,
+      38.4
+     ]
+    ],
+    "areas": [
+     [
+      49.0,
+      38.4,
+      0.6,
+      "rgba(168,50,42,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "jebe",
+   "say": "Keep riding. He can't run forever.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "jebe",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "subutai",
+      "x": 0.65,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.88,
+      "s": 0.5,
+      "flag": "white"
+     }
+    ],
+    "tag": {
+     "id": "jebe",
+     "text": "Jebe, Mongol general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The shah fled across Iran to a small island in the Caspian Sea.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.25,
+      "s": 0.6
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "There, abandoned by his army, he died of illness in December 1220.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "DEC 1220",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "shah",
+      "x": 0.3
+     },
+     {
+      "id": "jebe",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He ran from Genghis Khan all the way to a tiny island.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #mongols #caspiansea #historytok",
+ "youtube_title": "Genghis Khan Chased an Emperor to an Island #shorts",
+ "tags": [
+  "genghis khan",
+  "shah muhammad",
+  "jebe",
+  "subutai",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
+  "https://en.wikipedia.org/wiki/Jebe",
+  "https://kingsandgenerals.libsyn.com/210-jebe-and-subutai"
+ ]
+}

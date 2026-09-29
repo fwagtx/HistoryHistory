@@ -1,0 +1,302 @@
+{
+ "id": "2026w42-s20",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "Genghis Khan Promoted Nobodies to General",
+ "hook": "GENGHIS KHAN HIRED NOBODIES",
+ "music": "playful",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "guard": {
+   "preset": "mongol",
+   "color": "#5A5A6A",
+   "hold": "spear"
+  },
+  "jebe": {
+   "preset": "mongol",
+   "hold": "bow",
+   "color": "#2F4A6A",
+   "name": "Jebe"
+  },
+  "nobleboy": {
+   "preset": "mongol",
+   "color": "#C8A040",
+   "hatColor": "#C8A040",
+   "mood": "smug"
+  },
+  "rider": {
+   "preset": "mongol",
+   "color": "#6A5A2A",
+   "hold": "spear"
+  },
+  "subutai": {
+   "preset": "mongol",
+   "hold": "sword",
+   "color": "#4A3A2A",
+   "beard": "goatee",
+   "name": "Subutai"
+  }
+ },
+ "voices": {
+  "genghis": "am_fenrir",
+  "nobleboy": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Genghis Khan made two blacksmith's sons into top generals.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "subutai",
+      "x": 0.45,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Mongolia · 1206",
+    "stickers": [
+     {
+      "text": "BLACKSMITH'S SON",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, you usually got to lead because your dad was important.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "nobleboy",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RICH DAD",
+      "at": 1.0,
+      "color": "#C8A040"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Genghis didn't care who your dad was. He promoted people for skill and loyalty.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "nobleboy",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "genghis",
+     "text": "Genghis Khan"
+    }
+   }
+  },
+  {
+   "who": "nobleboy",
+   "say": "But my father is very important!"
+  },
+  {
+   "who": "genghis",
+   "say": "Can you fight? Are you loyal? No? Next."
+  },
+  {
+   "who": "N",
+   "say": "That's how Jelme and his brother Subutai, sons of a blacksmith, rose to the very top.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "subutai",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "subutai",
+     "text": "Subutai, a blacksmith's son"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Subutai went on to win huge battles as far away as Russia and Hungary.",
+   "show": {
+    "k": "map",
+    "lon": 32.0,
+    "lat": 48.0,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "1223–1241",
+    "labels": [
+     [
+      "Kalka River, 1223",
+      37.8,
+      47.3,
+      0
+     ],
+     [
+      "Mohi, Hungary, 1241",
+      20.9,
+      47.95,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      37.8,
+      47.3,
+      1.0,
+      "rgba(168,50,42,0.35)"
+     ],
+     [
+      20.9,
+      47.95,
+      1.0,
+      "rgba(168,50,42,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Genghis even mixed rival tribes into the same army units, so old enemies had to work together.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.3,
+      "pose": "cheer"
+     },
+     {
+      "id": "jebe",
+      "x": 0.5,
+      "pose": "cheer"
+     },
+     {
+      "id": "guard",
+      "x": 0.72,
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "nobleboy",
+      "x": 0.3
+     },
+     {
+      "id": "subutai",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Genghis Khan didn't care who your dad was.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #subutai #mongols #historytok",
+ "youtube_title": "Genghis Khan Promoted Nobodies to General #shorts",
+ "tags": [
+  "genghis khan",
+  "subutai",
+  "meritocracy",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mingghan",
+  "https://en.wikipedia.org/wiki/Subutai",
+  "https://en.wikipedia.org/wiki/Genghis_Khan",
+  "https://en.wikipedia.org/wiki/Battle_of_the_Kalka_River"
+ ]
+}

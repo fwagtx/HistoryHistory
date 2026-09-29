@@ -1,0 +1,244 @@
+{
+ "id": "2026w42-s27",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "Rome's Richest Man Bought Burning Houses",
+ "hook": "CRASSUS BOUGHT BURNING HOUSES",
+ "music": "playful",
+ "cast": {
+  "crassus": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "hair": "short",
+   "hairColor": "#5A4A3A",
+   "skin": "light",
+   "color2": "#8E2A2A",
+   "hold": "moneybag",
+   "name": "Marcus Crassus"
+  },
+  "owner": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman homeowner"
+  }
+ },
+ "voices": {
+  "owner": "am_puck",
+  "crassus": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome's richest man made a fortune by buying houses while they were on fire.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.35,
+      "mood": "smug",
+      "hold": "moneybag",
+      "enter": "left"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Rome · 1st century BC",
+    "tag": {
+     "id": "crassus",
+     "text": "Marcus Crassus, Roman politician"
+    },
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.9
+     },
+     {
+      "k": "fire",
+      "x": 0.74,
+      "s": 0.8,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, Rome was crowded with wooden buildings, and there was no public fire brigade.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.5,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Crassus gathered over five hundred builders, all enslaved workers, and waited for fires.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "500+ BUILDERS",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "label": "TOOLS",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "crassus",
+   "say": "Nasty fire. I'll buy your house. Cheap.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "owner",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "fx": [
+     "fire"
+    ],
+    "cam": "close",
+    "focus": "crassus"
+   }
+  },
+  {
+   "who": "owner",
+   "say": "It's still burning!"
+  },
+  {
+   "who": "N",
+   "say": "According to the Greek writer Plutarch, scared owners sold for almost nothing, and then his crews rebuilt.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.8,
+      "text": "Plutarch: Life of Crassus"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says that's how the largest part of Rome came into his hands.",
+   "show": {
+    "k": "card",
+    "label": "Who owned most of Rome?",
+    "big": "CRASSUS",
+    "sub": "says Plutarch, who may be exaggerating",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome finally got a proper fire brigade years later, under Emperor Augustus."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's richest people.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "moneybag"
+     },
+     {
+      "id": "owner",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Your house is on fire. A billionaire offers to buy it. Welcome to ancient Rome.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crassus #ancientrome #money #historytok",
+ "youtube_title": "Rome's Richest Man Bought Burning Houses #shorts",
+ "tags": [
+  "crassus",
+  "ancient rome",
+  "richest man",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038:chapter%3D2:section%3D7",
+  "https://imperiumromanum.pl/en/curiosities/crassus-fire-brigade/",
+  "https://livyarrow.org/2020/04/21/crassus-for-profit-fire-chief-or-speculative-property-developer/",
+  "https://en.wikipedia.org/wiki/Marcus_Licinius_Crassus",
+  "https://en.wikipedia.org/wiki/Vigiles"
+ ]
+}

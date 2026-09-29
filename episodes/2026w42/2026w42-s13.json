@@ -1,0 +1,285 @@
+{
+ "id": "2026w42-s13",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "Genghis Khan Wasn't His Real Name",
+ "hook": "GENGHIS WASN'T HIS NAME",
+ "music": "playful",
+ "cast": {
+  "baby": {
+   "preset": "child",
+   "hat": "mongol",
+   "outfit": "fur",
+   "color": "#8A5A34",
+   "skin": "tan"
+  },
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "tatar": {
+   "preset": "mongol",
+   "color": "#2F4A6A",
+   "hatColor": "#2F4A6A",
+   "stache": "handlebar"
+  },
+  "yesugei": {
+   "preset": "mongol",
+   "beard": "full",
+   "color": "#6A4A2A",
+   "hold": "bow",
+   "name": "Yesügei"
+  }
+ },
+ "voices": {
+  "yesugei": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Genghis Khan wasn't even his real name.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "enter": "pop",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "place": "Mongolia · around 1162",
+    "stickers": [
+     {
+      "text": "NOT HIS NAME",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was born around 1162 in Mongolia and named Temüjin, which probably means blacksmith.",
+   "show": {
+    "k": "card",
+    "label": "His real name",
+    "big": "TEMÜJIN",
+    "sub": "probably 'blacksmith'",
+    "cast": [
+     {
+      "id": "baby",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His dad, a chief named Yesügei, picked that name for a strange reason.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "yesugei",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "yesugei",
+     "text": "Yesügei, his father"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had just defeated an enemy warrior called Temüjin, and named his baby after him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "yesugei",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "happy"
+     },
+     {
+      "id": "tatar",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "yesugei",
+   "say": "Congratulations, son. You're named after my trophy.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "yesugei",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "baby",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "yesugei"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The title Genghis Khan came in 1206, when the Mongol tribes made him their supreme ruler.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "1206",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody's sure what Chinggis meant. The best guesses are ocean, fierce, or universal.",
+   "show": {
+    "k": "card",
+    "label": "Chinggis means...",
+    "big": "???",
+    "sub": "ocean? fierce? universal?",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.8,
+      "s": 0.8,
+      "pose": "shrug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Either way, it beat being named after your dad's enemy.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "baby",
+      "x": 0.3
+     },
+     {
+      "id": "genghis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Genghis Khan was named after his dad's defeated enemy.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #temujin #mongols #historytok",
+ "youtube_title": "Genghis Khan Wasn't His Real Name #shorts",
+ "tags": [
+  "genghis khan",
+  "temujin",
+  "mongols",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Genghis_Khan",
+  "https://en.wikipedia.org/wiki/Yesugei",
+  "https://historyfacts.com/famous-figures/fact/genghis-khan-real-name/"
+ ]
+}

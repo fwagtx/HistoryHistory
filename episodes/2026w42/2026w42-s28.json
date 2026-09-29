@@ -1,0 +1,239 @@
+{
+ "id": "2026w42-s28",
+ "format": "short",
+ "date": "2026-10-16",
+ "slot": "09:00",
+ "title": "Crassus Said You're Not Rich Without an Army",
+ "hook": "RICH ENOUGH FOR AN ARMY",
+ "music": "playful",
+ "cast": {
+  "crassus": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "hair": "short",
+   "hairColor": "#5A4A3A",
+   "skin": "light",
+   "color2": "#8E2A2A",
+   "hold": "moneybag",
+   "name": "Marcus Crassus"
+  }
+ },
+ "voices": {
+  "crassus": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One Roman said you're not truly rich unless you can pay for your own army.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "moneybag"
+     }
+    ],
+    "place": "Rome · 1st century BC",
+    "tag": {
+     "id": "crassus",
+     "text": "Marcus Crassus, Rome's richest man"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.76,
+      "s": 0.8
+     },
+     {
+      "k": "flag",
+      "x": 0.14,
+      "flag": "rome",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That was Marcus Crassus. Plutarch says he grew three hundred talents of silver into about seven thousand.",
+   "show": {
+    "k": "card",
+    "label": "Crassus's fortune, says Plutarch",
+    "big": "300 → 7,100",
+    "sub": "talents; one talent was about 26 kg of silver",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's his rule, as Plutarch reported it.",
+   "show": {
+    "k": "quote",
+    "text": "No one was rich who could not support an army out of his substance.",
+    "who": "Crassus, as reported by Plutarch (trans. Perrin)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 53 BC, Crassus led an army east to win glory against the Parthian Empire.",
+   "show": {
+    "k": "map",
+    "lon": 30,
+    "lat": 38,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "53 BC",
+    "route": [
+     [
+      12.5,
+      41.9
+     ],
+     [
+      23.7,
+      38.0
+     ],
+     [
+      36.2,
+      36.8
+     ],
+     [
+      39.0,
+      36.9
+     ]
+    ],
+    "labels": [
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ],
+     [
+      "Carrhae",
+      39.0,
+      36.9,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "crassus",
+   "say": "Money? Plenty. Soldiers? Plenty. What could go wrong?",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "Near Carrhae · 53 BC",
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "rome",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At Carrhae, in what is now Turkey, his army was crushed, and Crassus was killed.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.45,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even Plutarch said his rule was wrong, because, as an old Spartan king put it, war has no fixed rations.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.74,
+      "s": 0.7,
+      "text": "War has no fixed rations"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's richest people.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome's richest man had one rule for being rich: you can pay for your own army.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crassus #ancientrome #plutarch #historytok",
+ "youtube_title": "Crassus Said You're Not Rich Without an Army #shorts",
+ "tags": [
+  "crassus",
+  "plutarch",
+  "ancient rome",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038:chapter%3D2:section%3D7",
+  "https://www.loebclassics.com/view/plutarch-lives_crassus/1916/pb_LCL065.317.xml",
+  "https://en.wikipedia.org/wiki/Marcus_Licinius_Crassus",
+  "https://en.wikipedia.org/wiki/Battle_of_Carrhae"
+ ]
+}

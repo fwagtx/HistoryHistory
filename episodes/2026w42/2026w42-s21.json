@@ -1,0 +1,299 @@
+{
+ "id": "2026w42-s21",
+ "format": "short",
+ "date": "2026-10-14",
+ "slot": "09:00",
+ "title": "Genghis Khan Wanted to Live Forever",
+ "hook": "GENGHIS KHAN WANTED IMMORTALITY",
+ "music": "playful",
+ "cast": {
+  "camel": {
+   "animal": "camel",
+   "load": "gold"
+  },
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "qiu": {
+   "outfit": "robe",
+   "color": "#6A7A8A",
+   "hair": "bun",
+   "hairColor": "#EFEFEF",
+   "beard": "long",
+   "skin": "light",
+   "name": "Qiu Chuji"
+  }
+ },
+ "voices": {
+  "genghis": "am_fenrir",
+  "qiu": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Genghis Khan once asked a monk for the medicine to live forever.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "qiu",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.52,
+      "s": 0.35
+     },
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "place": "Near the Hindu Kush · 1222",
+    "tag": {
+     "id": "genghis",
+     "text": "Genghis Khan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "By around 1220, the Mongol ruler was about sixty, and getting old worried him.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He'd heard of Qiu Chuji, a famous Chinese Taoist master said to know the secrets of long life.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "qiu",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "qiu",
+     "text": "Qiu Chuji, Taoist master"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he invited him. The monk was over seventy, and the trip took about two years.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "qiu",
+      "x": 0.4,
+      "walk": [
+       0.2,
+       0.55
+      ],
+      "pose": "walk",
+      "mood": "sad"
+     },
+     {
+      "id": "camel",
+      "x": 0.72,
+      "walk": [
+       0.55,
+       0.8
+      ]
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "2 YEARS",
+      "at": 1.2,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1222, they finally met near the Hindu Kush mountains, in what's now Afghanistan.",
+   "show": {
+    "k": "map",
+    "lon": 67.0,
+    "lat": 37.0,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "1222",
+    "labels": [
+     [
+      "Hindu Kush",
+      69.5,
+      35.3,
+      0
+     ],
+     [
+      "Samarkand",
+      66.96,
+      39.65,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      69.5,
+      35.3,
+      1.0,
+      "rgba(168,50,42,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "genghis",
+   "say": "So, do you have the medicine to live forever?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "qiu",
+      "x": 0.68
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.52,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "qiu",
+   "say": "There are ways to protect life. But no medicine for immortality."
+  },
+  {
+   "who": "N",
+   "say": "Genghis wasn't angry. He liked the honesty, and he honored the old monk.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "qiu",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.85,
+      "s": 0.4,
+      "text": "HONORED"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "qiu",
+      "x": 0.3
+     },
+     {
+      "id": "genghis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Genghis Khan asked a monk for the medicine to live forever.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #taoism #mongols #historytok",
+ "youtube_title": "Genghis Khan Wanted to Live Forever #shorts",
+ "tags": [
+  "genghis khan",
+  "qiu chuji",
+  "immortality",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Qiu_Chuji",
+  "https://en.wikipedia.org/wiki/Travels_to_the_West_of_Qiu_Chang_Chun",
+  "https://kingsandgenerals.libsyn.com/211-history-of-the-mongols-chinggis-khans-quest-for-eternal-life"
+ ]
+}
