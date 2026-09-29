@@ -1,0 +1,249 @@
+{
+ "id": "pinned-p3",
+ "format": "short",
+ "date": "2026-09-29",
+ "slot": "00:00",
+ "title": "Coming Up on History Pros",
+ "hook": "COMING UP ON HISTORY PROS",
+ "music": "playful",
+ "cast": {
+  "host": {
+   "preset": "host",
+   "name": "History Pros"
+  },
+  "cleopatra": {
+   "preset": "cleopatra",
+   "name": "Cleopatra"
+  },
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "musa": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#D4A52A",
+   "color2": "#8A5A12",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Musa"
+  }
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Here's a sneak peek at what's coming up on History Pros.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.76,
+      "s": 0.7,
+      "text": "COMING SOON"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Three thousand years of ancient Egypt, from the first pharaoh to Cleopatra.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "place": "Ancient Egypt",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.74,
+      "s": 0.9
+     }
+    ],
+    "tag": {
+     "id": "cleopatra",
+     "text": "Cleopatra"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The craziest things Genghis Khan ever did, including a fight over a fish.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "place": "Mongolia",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OVER A FISH?!",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the richest people in history, ranked, from bankers to kings with too much gold.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RANKED",
+      "at": 2.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every script is fact-checked, and if something is only a legend, we say so.",
+   "show": {
+    "k": "card",
+    "label": "Our promise",
+    "big": "FACT-CHECKED",
+    "sub": "legends are always labelled"
+   }
+  },
+  {
+   "who": "N",
+   "say": "New stories drop every day, with full videos three times a week on YouTube.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.74,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MON · WED · FRI",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hit follow now, so you're here when they drop.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.2,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "genghis",
+      "x": 0.48,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "musa",
+      "x": 0.76,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "thumbnail": {
+  "text": "COMING UP NEXT",
+  "sub": "History Pros",
+  "bg": "egypt",
+  "faces": [
+   {
+    "id": "cleopatra",
+    "mood": "happy"
+   },
+   {
+    "id": "genghis",
+    "mood": "shock"
+   }
+  ],
+  "object": {
+   "k": "pyramid"
+  }
+ },
+ "caption": "Coming soon on History Pros 👀\n🏛️ The ENTIRE history of ancient Egypt\n🐎 The craziest things Genghis Khan did\n💰 The richest people in history, ranked\n\nFollow for 5 true stories a day. Full videos on our YouTube channel.\n#history #historytok #ancientegypt #genghiskhan #historypros",
+ "youtube_title": "Coming Up on History Pros #shorts",
+ "tags": [
+  "history pros",
+  "ancient egypt",
+  "genghis khan",
+  "richest people in history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt",
+  "https://www.britannica.com/biography/Genghis-Khan",
+  "https://www.britannica.com/biography/Musa-I-of-Mali"
+ ]
+}

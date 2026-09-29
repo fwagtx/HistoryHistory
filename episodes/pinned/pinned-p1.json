@@ -1,0 +1,318 @@
+{
+ "id": "pinned-p1",
+ "format": "short",
+ "date": "2026-09-29",
+ "slot": "00:00",
+ "title": "Welcome to History Pros",
+ "hook": "HISTORY, BUT FUN",
+ "music": "playful",
+ "cast": {
+  "host": {
+   "preset": "host",
+   "name": "History Pros"
+  },
+  "musa": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#D4A52A",
+   "color2": "#8A5A12",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Musa"
+  },
+  "meredith": {
+   "preset": "tommy",
+   "hat": "slouch",
+   "stache": "bush",
+   "hold": "lewis",
+   "name": "Major G.P.W. Meredith"
+  },
+  "emu": {
+   "animal": "emu",
+   "helmet": true,
+   "mood": "smug"
+  },
+  "diogenes": {
+   "preset": "philosopher",
+   "outfit": "rags",
+   "color": "#8A7A5A",
+   "hair": "long",
+   "hairColor": "#CFCFCF",
+   "name": "Diogenes"
+  },
+  "alexander": {
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#B8863A",
+   "outfit": "armor",
+   "hat": "laurel",
+   "name": "Alexander the Great"
+  }
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Your history teacher skipped all the best parts. We didn't.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "BORING"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HISTORY PROS",
+      "at": 0.8,
+      "color": "#C8702A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Like the time Australia sent soldiers with machine guns to fight emus, and lost.",
+   "show": {
+    "k": "scene",
+    "bg": "outback",
+    "place": "Australia · 1932",
+    "cast": [
+     {
+      "id": "meredith",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "angry"
+     },
+     {
+      "id": "emu",
+      "x": 0.72,
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EMUS WON",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Or the king of Mali who spent so much gold in Cairo that, one writer said, gold got cheaper there.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "place": "Cairo · 1324",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TOO MUCH GOLD",
+      "at": 2.6,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Or the man who lived in a jar and, the story goes, told Alexander the Great to move.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "place": "Corinth, Greece · 336 BC",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "shock"
+     },
+     {
+      "id": "diogenes",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.84,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MOVE!",
+      "at": 2.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "We tell true stories like these in simple, funny cartoons.",
+   "show": {
+    "k": "card",
+    "label": "History Pros",
+    "big": "100% TRUE",
+    "sub": "stories that sound made up"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Five short stories every day, and full videos three times a week.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "5 A DAY",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "FULL VIDEOS ON YOUTUBE",
+      "at": 2.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every script is fact-checked, and when something is only a legend, we tell you.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.74,
+      "s": 0.7,
+      "text": "FACT-CHECKED"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow History Pros, and history will never be boring again.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.2,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "host",
+      "x": 0.48,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "emu",
+      "x": 0.76
+     }
+    ]
+   }
+  }
+ ],
+ "thumbnail": {
+  "text": "HISTORY, BUT FUN",
+  "sub": "Start here",
+  "bg": "outback",
+  "faces": [
+   {
+    "id": "emu",
+    "mood": "smug"
+   },
+   {
+    "id": "musa",
+    "mood": "happy"
+   }
+  ],
+  "object": {
+   "k": "goldpile"
+  }
+ },
+ "caption": "New here? Start with this. 🏛️ Weird, wild and true stories from history, told in cartoons.\n\nFollow for 5 true stories a day. Full videos on our YouTube channel.\n#history #historytok #funnyhistory #historypros #learnontiktok",
+ "youtube_title": "Welcome to History Pros #shorts",
+ "tags": [
+  "history pros",
+  "history",
+  "funny history",
+  "history shorts",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Emu_War",
+  "https://www.britannica.com/biography/Musa-I-of-Mali",
+  "https://en.wikipedia.org/wiki/Diogenes"
+ ]
+}

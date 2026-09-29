@@ -1,0 +1,257 @@
+{
+ "id": "pinned-p2",
+ "format": "short",
+ "date": "2026-09-29",
+ "slot": "00:00",
+ "title": "What You'll Find on History Pros",
+ "hook": "WHAT YOU'LL SEE HERE",
+ "music": "playful",
+ "cast": {
+  "host": {
+   "preset": "host",
+   "name": "History Pros"
+  },
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "pirate": {
+   "preset": "pirate"
+  },
+  "emu": {
+   "animal": "emu",
+   "helmet": true,
+   "mood": "smug"
+  },
+  "banker": {
+   "preset": "banker",
+   "hold": "moneybag"
+  }
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Here's what you'll find on History Pros every single week.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.76,
+      "s": 0.7,
+      "text": "THIS WEEK"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mondays: the entire history of an empire or country, told in about ten minutes.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "place": "Mondays",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE ENTIRE HISTORY OF…",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Wednesdays: the weirdest deaths, the craziest wars, and the strangest people who ever lived.",
+   "show": {
+    "k": "scene",
+    "bg": "outback",
+    "place": "Wednesdays",
+    "cast": [
+     {
+      "id": "emu",
+      "x": 0.4,
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE CRAZIEST…",
+      "at": 1.2,
+      "color": "#C8702A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fridays: money and power. Heists, fortunes, scams, and the richest people in history.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "place": "Fridays",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.52,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MONEY & POWER",
+      "at": 1.4,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And every day, five short true stories you can watch in under a minute.",
+   "show": {
+    "k": "card",
+    "label": "Every day",
+    "big": "5 STORIES",
+    "sub": "9am · 12pm · 3pm · 6pm · 9pm (Central)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Everything is drawn as a cartoon, so it's easy to follow and actually fun to watch.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.74,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SIMPLE",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "FUNNY",
+      "at": 2.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow so you never miss one, and catch the full videos on YouTube.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.2,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "host",
+      "x": 0.48,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "emu",
+      "x": 0.76
+     }
+    ]
+   }
+  }
+ ],
+ "thumbnail": {
+  "text": "WHAT YOU'LL SEE HERE",
+  "sub": "Every week",
+  "bg": "rome",
+  "faces": [
+   {
+    "id": "caesar",
+    "mood": "shock"
+   },
+   {
+    "id": "emu",
+    "mood": "smug"
+   }
+  ],
+  "object": {
+   "k": "column"
+  }
+ },
+ "caption": "Every week on History Pros 📅\nMon: The ENTIRE history of…\nWed: The craziest, weirdest stories\nFri: Money, heists and fortunes\nEvery day: 5 short true stories\n\nFollow for 5 true stories a day. Full videos on our YouTube channel.\n#history #historytok #funnyhistory #historypros #animatedhistory",
+ "youtube_title": "What You'll Find on History Pros #shorts",
+ "tags": [
+  "history pros",
+  "history",
+  "animated history",
+  "history shorts",
+  "funny history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Julius_Caesar",
+  "https://en.wikipedia.org/wiki/Emu_War"
+ ]
+}
