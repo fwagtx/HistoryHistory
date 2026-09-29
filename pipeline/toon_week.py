@@ -5,8 +5,8 @@
     python pipeline/toon_week.py payloads 2026w41   # Metricool payloads → output/2026w41/payloads.json
     python pipeline/toon_week.py extra 2026w39-x1   # a one-off short outside the weekly grid
 
-Every payload targets the History Pros brand only (blogId 7081960) and switches on each
-platform's AI-content label.
+Every payload targets the History Pros brand only (blogId 7081960), with every platform's
+AI-content label off (owner's decision).
 """
 import json
 import os
@@ -144,9 +144,9 @@ def short_payload(s, url, thumb=None):
         "providers": [{"network": n} for n in ("instagram", "facebook", "tiktok", "youtube")],
         "publicationDate": {"dateTime": when, "timezone": BRAND["timezone"]},
         "shortener": False, "smartLinkData": {"ids": []}, "text": s["caption"],
-        "instagramData": {"type": "REEL", "showReelOnFeed": True, "isAiGenerated": True},
+        "instagramData": {"type": "REEL", "showReelOnFeed": True, "isAiGenerated": False},
         "facebookData": {"type": "REEL"},
-        "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": s["title"][:90], "isAigc": True},
+        "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": s["title"][:90], "isAigc": False},
         "youtubeData": {"title": s["youtube_title"][:100], "type": "short", "privacy": "public", "tags": s["tags"],
                         "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": False},
     }

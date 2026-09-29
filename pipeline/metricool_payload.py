@@ -1,7 +1,7 @@
 """Print the Metricool post payload for a rendered short.
 
 Used when scheduling each short. Every payload targets the History Pros
-brand from config/brand.json and switches on each platform's AI label.
+brand from config/brand.json with every platform's AI label off (owner's decision).
 
     python pipeline/metricool_payload.py episodes/001-black-death/shorts/w1-s2.json <commit-sha>
 """
@@ -27,11 +27,11 @@ def payload(short_path, sha):
         "providers": [{"network": n} for n in ("instagram", "facebook", "tiktok", "youtube")],
         "publicationDate": {"dateTime": when, "timezone": BRAND["timezone"]},
         "shortener": False, "smartLinkData": {"ids": []}, "text": s["caption"],
-        "instagramData": {"type": "REEL", "showReelOnFeed": True, "isAiGenerated": True},
+        "instagramData": {"type": "REEL", "showReelOnFeed": True, "isAiGenerated": False},
         "facebookData": {"type": "REEL"},
-        "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": s["title"], "isAigc": True},
+        "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": s["title"], "isAigc": False},
         "youtubeData": {"title": s["youtube_title"], "type": "short", "privacy": "public", "tags": s["tags"],
-                        "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": True},
+                        "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": False},
     }
     # Offset from the brand timezone, so daylight saving (ends Nov 1) is handled.
     offset = datetime.fromisoformat(when).replace(tzinfo=ZoneInfo(BRAND["timezone"])).strftime("%z")
@@ -58,7 +58,7 @@ def doc_payloads(doc_path, sha):
         }
         if network == "youtube":
             info["youtubeData"] = {"title": d["youtube_title"], "type": "video", "privacy": "public", "tags": d["tags"],
-                                   "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": True}
+                                   "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": False}
             info["videoThumbnailUrl"] = f"{base}/{week}-doc-thumb.jpg"
         else:
             info["facebookData"] = {"type": "POST", "title": d["title"]}
