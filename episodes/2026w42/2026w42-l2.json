@@ -646,7 +646,7 @@
   },
   {
    "who": "N",
-   "say": "And here's the weird part: his dad, a chief named Yesügei, named him after an enemy warrior he'd just defeated.",
+   "say": "And here's the weird part: his dad, a chief named Yesügei, named him after an enemy leader he'd just captured.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -684,7 +684,7 @@
   },
   {
    "who": "yesugei",
-   "say": "I beat a guy called Temüjin. So, congratulations, you're Temüjin now.",
+   "say": "I captured a guy called Temüjin. So, congratulations, you're Temüjin now.",
    "show": {
     "k": "scene",
     "bg": "steppe",
@@ -1100,7 +1100,7 @@
   },
   {
    "who": "N",
-   "say": "A few years later, a rival clan called the Tayichiud captured teenage Temüjin.",
+   "say": "Not long after, a rival clan called the Tayichiud captured teenage Temüjin.",
    "show": {
     "k": "scene",
     "bg": "steppe",
@@ -1130,7 +1130,7 @@
       "s": 0.5
      }
     ],
-    "place": "Mongolia · around 1177"
+    "place": "Mongolia · 1170s"
    }
   },
   {
@@ -1270,7 +1270,7 @@
   },
   {
    "who": "N",
-   "say": "One searcher, Sorqan-Shira, spotted him and kept quiet.",
+   "say": "One searcher, Sorqan-Shira, a man who served the Tayichiud, spotted him and kept quiet.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -1307,7 +1307,7 @@
   },
   {
    "who": "N",
-   "say": "Later his family took off the collar, burned it, and hid Temüjin in a cart piled with wool.",
+   "say": "Later, Sorqan-Shira's family took off the collar, burned it, and hid Temüjin in a cart piled with wool.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -1381,7 +1381,7 @@
   },
   {
    "who": "N",
-   "say": "Number four. In 1201, Temüjin fought a big battle against an alliance of rival tribes.",
+   "say": "Number four. In 1201, Temüjin fought a big battle against the Tayichiud, the same clan that had once locked him up.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -1412,7 +1412,7 @@
       "s": 0.5
      }
     ],
-    "place": "Köyiten, Mongolia · 1201",
+    "place": "Mongolia · 1201",
     "fx": [
      "dust"
     ]
@@ -1420,7 +1420,7 @@
   },
   {
    "who": "N",
-   "say": "On the other side was a young archer named Jirqo'adai, fighting for the Tayichiud, the same clan that had once locked Temüjin up.",
+   "say": "On their side was a young archer named Jirqo'adai.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -2179,7 +2179,7 @@
       "load": "gold"
      }
     ],
-    "place": "Otrar · 1219"
+    "place": "Otrar · 1218"
    }
   },
   {
@@ -2332,7 +2332,7 @@
   },
   {
    "who": "N",
-   "say": "At Bukhara, the Persian historian Juvaini, writing about forty years later, says Genghis told the city's rich men this.",
+   "say": "At Bukhara, the Persian historian Juvaini, writing about forty years later, says Genghis told the townspeople this.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -2362,7 +2362,7 @@
    "show": {
     "k": "quote",
     "text": "I am the punishment of God. If you had not committed great sins, God would not have sent a punishment like me upon you.",
-    "who": "Genghis Khan at Bukhara, 1220, as recorded by the Persian historian Juvaini"
+    "who": "Genghis Khan at Bukhara, 1220, according to the Persian historian Juvaini (written c. 1260)"
    },
    "hold": 2.5
   },
@@ -2505,7 +2505,7 @@
       "s": 0.7
      },
      {
-      "k": "palm",
+      "k": "tent",
       "x": 0.8,
       "s": 0.6
      }
@@ -2515,11 +2515,11 @@
   },
   {
    "who": "shah",
-   "say": "In hindsight, I should have just paid for the caravan."
+   "say": "In hindsight, I should have just handed over that governor."
   },
   {
    "who": "N",
-   "say": "Then Jebe and Subutai just kept riding. They circled the Caspian Sea, beat an army in Georgia, and crushed a huge army of Rus princes at the Kalka River in 1223.",
+   "say": "Then Jebe and Subutai just kept riding. They circled the Caspian Sea and beat an army in Georgia.",
    "show": {
     "k": "map",
     "lon": 47.0,
@@ -2582,6 +2582,10 @@
      ]
     ]
    }
+  },
+  {
+   "who": "N",
+   "say": "Then, at the Kalka River in 1223, they crushed a huge army of princes from early Russia."
   },
   {
    "who": "N",
@@ -2730,7 +2734,7 @@
   },
   {
    "who": "N",
-   "say": "What we do know: in 2003, a DNA study found that about one in two hundred men alive today share one family line, and the scientists think it probably came from Genghis Khan's family.",
+   "say": "What we do know: in 2003, a DNA study found that about one in two hundred men alive share one family line.",
    "show": {
     "k": "card",
     "label": "The 2003 DNA study",
@@ -2745,6 +2749,10 @@
      }
     ]
    }
+  },
+  {
+   "who": "N",
+   "say": "The scientists think it probably came from Genghis Khan's family."
   },
   {
    "who": "N",
@@ -2836,10 +2844,10 @@
    }
   }
  ],
- "description": "A fish, a wooden neck lock, a horse-killing archer who became a top general, a quest for immortality, and one insulted caravan that cost an empire everything: these are seven of the craziest things Genghis Khan did, counted down from seven to one. Every story is real, and the one famous legend is labelled as a legend. Chapters are added automatically.\n\n#history #genghiskhan #mongols #funnyhistory #historypros",
+ "description": "A fish, a wooden neck lock, a horse-killing archer who became a top general, a quest for immortality, and one murdered caravan that cost an empire everything: these are seven of the craziest things Genghis Khan did, counted down from seven to one. Every story is real, and the one famous legend is labelled as a legend. Chapters are added automatically.\n\n#history #genghiskhan #mongols #funnyhistory #historypros",
  "thumbnail": {
   "style": "faces",
-  "title": "INSANE KHAN",
+  "title": "7 WILD STORIES",
   "bg": "steppe",
   "faces": [
    {

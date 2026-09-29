@@ -5,7 +5,7 @@
  "title": "The ENTIRE History of Ancient Egypt in 10 Minutes",
  "youtube_title": "The ENTIRE History of Ancient Egypt in 10 Minutes",
  "music": "playful",
- "description": "From King Narmer uniting two kingdoms around 3100 BC to Cleopatra and the Romans in 30 BC, this is three thousand years of ancient Egypt in about ten minutes: the Great Pyramid and the paid crews who built it, a woman who became pharaoh, a sun-worshipping rebel king, the boy king Tut, the oldest surviving peace treaty and the first recorded strike in history. Every fact is checked, and legends are labelled as legends.\n\nChapters are added automatically.\n\n#history #ancientegypt #pyramids #cleopatra #animatedhistory",
+ "description": "From King Narmer uniting two kingdoms around 3100 BC to Cleopatra and the Romans in 30 BC, this is three thousand years of ancient Egypt in about ten minutes: the Great Pyramid and the paid crews who built it, a woman who became pharaoh, a sun-worshipping rebel king, the boy king Tut, what's often called the oldest surviving peace treaty and the first recorded strike in history. Every fact is checked, and legends are labelled as legends.\n\nChapters are added automatically.\n\n#history #ancientegypt #pyramids #cleopatra #animatedhistory",
  "tags": [
   "ancient egypt",
   "history of egypt",
@@ -197,6 +197,22 @@
    "skin": "light",
    "hold": "book",
    "name": "Jean-François Champollion"
+  },
+  "monk": {
+   "preset": "monk"
+  },
+  "hattusili": {
+   "preset": "king",
+   "skin": "olive",
+   "beard": "full",
+   "hairColor": "#5A5A5A",
+   "outfit": "robe",
+   "color": "#2F6FC2",
+   "name": "Hattusili III"
+  },
+  "visitor": {
+   "preset": "roman",
+   "color": "#A8322A"
   }
  },
  "voices": {
@@ -213,7 +229,8 @@
   "ramesses": "am_onyx",
   "muwatalli": "am_fenrir",
   "tombworker": "am_liam",
-  "amennakhte": "am_adam"
+  "amennakhte": "am_adam",
+  "hattusili": "am_eric"
  },
  "thumbnail": {
   "style": "split",
@@ -847,7 +864,7 @@
   },
   {
    "who": "N",
-   "say": "About five hundred years later, a pharaoh named Khufu built the biggest tomb in history: the Great Pyramid of Giza.",
+   "say": "About five hundred years later, a pharaoh named Khufu built Egypt's biggest pyramid ever: the Great Pyramid of Giza.",
    "show": {
     "k": "scene",
     "bg": "egypt",
@@ -993,7 +1010,7 @@
      "label": "LINCOLN CATHEDRAL, 1311",
      "cast": [
       {
-       "id": "scribe",
+       "id": "monk",
        "pose": "shrug",
        "mood": "shock"
       }
@@ -1045,7 +1062,7 @@
   },
   {
    "who": "N",
-   "say": "Archaeologists found the workers' town next door, with bakeries, and a cemetery where workers were buried near the pyramids. Slaves didn't get that honour.",
+   "say": "Archaeologists found the workers' town next door, with bakeries. Workers were even buried in tombs beside the pyramids, and experts argue slaves never got that honour.",
    "show": {
     "k": "scene",
     "bg": "egypt",
@@ -1293,46 +1310,7 @@
   },
   {
    "who": "N",
-   "say": "Jump ahead to the New Kingdom, Egypt's richest era. In 1479 BC, a little boy became king, and his aunt and stepmother Hatshepsut ruled for him.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "hatshepsut",
-      "x": 0.38,
-      "pose": "hips",
-      "mood": "smug"
-     },
-     {
-      "id": "thutmose",
-      "x": 0.68,
-      "pose": "sit",
-      "mood": "sad",
-      "s": 0.7
-     }
-    ],
-    "place": "Thebes, Egypt · 1479 BC",
-    "tag": {
-     "id": "hatshepsut",
-     "text": "Hatshepsut"
-    },
-    "objects": [
-     {
-      "k": "throne",
-      "x": 0.68,
-      "s": 0.6
-     },
-     {
-      "k": "column",
-      "x": 0.1
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "By now, kings weren't building pyramids anymore. They were buried in hidden tombs in the Valley of the Kings, so robbers couldn't find them. Spoiler: robbers found almost all of them.",
+   "say": "Jump ahead to the New Kingdom, Egypt's richest era. Kings stopped building pyramids, and hid their tombs in a desert valley: the Valley of the Kings.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -1366,6 +1344,50 @@
       "text": "HIDDEN TOMBS",
       "at": 1.0,
       "color": "#2F6FC2"
+     }
+    ],
+    "place": "Valley of the Kings, Egypt"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The idea was to keep robbers out. Spoiler: robbers found almost all of them."
+  },
+  {
+   "who": "N",
+   "say": "In 1479 BC, a little boy, Thutmose the Third, became king. His aunt and stepmother, Hatshepsut, ruled for him.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "hatshepsut",
+      "x": 0.38,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "thutmose",
+      "x": 0.68,
+      "pose": "sit",
+      "mood": "sad",
+      "s": 0.7
+     }
+    ],
+    "place": "Thebes, Egypt · 1479 BC",
+    "tag": {
+     "id": "hatshepsut",
+     "text": "Hatshepsut"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.68,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.1
      }
     ]
    }
@@ -1553,7 +1575,7 @@
   },
   {
    "who": "N",
-   "say": "But after she died, her stepson Thutmose the Third had many of her statues smashed and her name scratched off. Historians still debate why.",
+   "say": "But years after she died, her stepson Thutmose the Third had many of her statues smashed and her name scratched off. Historians still debate why.",
    "show": {
     "k": "scene",
     "bg": "egypt",
@@ -1647,7 +1669,7 @@
   },
   {
    "who": "N",
-   "say": "He shut the temples of the old gods and built a brand new capital city in the desert.",
+   "say": "He shut the temples of the old gods and built a brand new capital city in the desert, at a place now called Amarna.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -1864,7 +1886,7 @@
   },
   {
    "who": "N",
-   "say": "The most famous pharaoh of all was Ramesses the Second, who ruled for about sixty-six years.",
+   "say": "About forty years later came Ramesses the Second, often called Ramesses the Great. He ruled for about sixty-six years.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -2124,7 +2146,7 @@
   },
   {
    "who": "N",
-   "say": "About fifteen years later, the two empires made peace. It's the oldest peace treaty in the world that still survives, and a copy hangs at the United Nations.",
+   "say": "About fifteen years later, Ramesses made peace with the next Hittite king, Hattusili the Third. It's often called the oldest peace treaty that still survives, and a copy is on display at the United Nations.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -2136,7 +2158,7 @@
       "mood": "happy"
      },
      {
-      "id": "muwatalli",
+      "id": "hattusili",
       "x": 0.75,
       "pose": "present",
       "mood": "happy"
@@ -2153,11 +2175,15 @@
     ],
     "stickers": [
      {
-      "text": "OLDEST PEACE TREATY",
+      "text": "OLDEST KNOWN TREATY",
       "at": 1.4,
       "color": "#1F8A4A"
      }
-    ]
+    ],
+    "tag": {
+     "id": "hattusili",
+     "text": "Hattusili III, the next Hittite king"
+    }
    }
   },
   {
@@ -2204,7 +2230,7 @@
   },
   {
    "who": "N",
-   "say": "Their pay was grain. So when the grain rations came late under Ramesses the Third, no pay meant no food.",
+   "say": "Their pay was grain. So when the grain came late under a later pharaoh, Ramesses the Third, no pay meant no food.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -2269,7 +2295,7 @@
    }
   },
   {
-   "who": "amennakhte",
+   "who": "worker2",
    "say": "Then we stop working. Put the tools down.",
    "show": {
     "k": "scene",
@@ -2282,18 +2308,14 @@
       "mood": "happy"
      },
      {
-      "id": "amennakhte",
-      "x": 0.7,
+      "id": "worker2",
+      "x": 0.6,
       "pose": "point",
-      "mood": "smug"
+      "mood": "angry"
      }
     ],
     "cam": "close",
-    "focus": "amennakhte",
-    "tag": {
-     "id": "amennakhte",
-     "text": "Amennakhte, a scribe"
-    }
+    "focus": "worker2"
    }
   },
   {
@@ -2345,7 +2367,7 @@
   },
   {
    "who": "N",
-   "say": "Amennakhte wrote it all down on a papyrus that's now in a museum in Turin, Italy. And yes, they eventually got their grain.",
+   "say": "A scribe named Amennakhte wrote it all down on a papyrus that's now in a museum in Turin, Italy. And yes, they eventually got their grain.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -2364,7 +2386,11 @@
       "s": 0.9,
       "text": "THE STRIKE PAPYRUS"
      }
-    ]
+    ],
+    "tag": {
+     "id": "amennakhte",
+     "text": "Amennakhte, a scribe"
+    }
    }
   },
   {
@@ -2549,49 +2575,13 @@
   },
   {
    "who": "N",
-   "say": "The last of them was Cleopatra. She was Macedonian Greek, but the Greek writer Plutarch says she was the first of her family to learn Egyptian.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "cleopatra",
-      "x": 0.45,
-      "pose": "present",
-      "mood": "happy"
-     }
-    ],
-    "tag": {
-     "id": "cleopatra",
-     "text": "Cleopatra VII"
-    },
-    "cam": "push",
-    "objects": [
-     {
-      "k": "scrollbig",
-      "x": 0.8,
-      "s": 0.7,
-      "text": "SPEAKS EGYPTIAN"
-     }
-    ],
-    "stickers": [
-     {
-      "text": "FINALLY!",
-      "at": 1.8,
-      "color": "#1F8A4A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Also in Cleopatra's lifetime, a Greek historian named Diodorus visited Egypt, where cats were sacred. He says he saw an angry crowd kill a Roman visitor who had killed a cat by accident.",
+   "say": "By then, Rome was the superpower next door. Around 59 BC, a Greek historian named Diodorus says he saw an Egyptian crowd kill a Roman visitor.",
    "show": {
     "k": "scene",
     "bg": "egypt",
     "cast": [
      {
-      "id": "legionary",
+      "id": "visitor",
       "x": 0.3,
       "pose": "scared",
       "mood": "scared"
@@ -2630,10 +2620,50 @@
   },
   {
    "who": "N",
+   "say": "His crime? He'd killed a cat by accident, and in Egypt, cats were sacred."
+  },
+  {
+   "who": "N",
+   "say": "The last ruler from Ptolemy's family was Cleopatra. She was Macedonian Greek, but the Greek writer Plutarch says she was the first of her family to learn Egyptian.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "cleopatra",
+     "text": "Cleopatra VII"
+    },
+    "cam": "push",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.7,
+      "text": "SPEAKS EGYPTIAN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FINALLY!",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
    "say": "She teamed up with Rome's most powerful man, Julius Caesar, and later with the Roman general Mark Antony.",
    "show": {
     "k": "scene",
-    "bg": "rome",
+    "bg": "palace",
     "cast": [
      {
       "id": "caesar",
@@ -2663,7 +2693,8 @@
       "k": "column",
       "x": 0.06
      }
-    ]
+    ],
+    "place": "Alexandria, Egypt · 48 to 31 BC"
    }
   },
   {
@@ -2847,9 +2878,9 @@
       "text": "ROSETTA STONE"
      },
      {
-      "k": "flag",
-      "x": 0.92,
-      "flag": "france"
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.6
      }
     ],
     "stickers": [

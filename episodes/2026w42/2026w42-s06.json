@@ -207,6 +207,48 @@
   },
   {
    "who": "N",
+   "say": "So for hundreds of years, people paid good money to swallow ancient Egyptians. And it never cured anything.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "apothecary",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "patient",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "jar",
+      "x": 0.86,
+      "s": 0.5,
+      "label": "MUMMY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "IT DIDN'T WORK",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
    "say": "Follow for more history that makes you glad you live now.",
    "show": {
     "k": "end",

@@ -159,7 +159,11 @@
      }
     ],
     "place": "Paris · 1822",
-    "cam": "shake"
+    "cam": "shake",
+    "tag": {
+     "id": "brother",
+     "text": "His older brother, Jacques-Joseph"
+    }
    }
   },
   {
@@ -168,7 +172,7 @@
   },
   {
    "who": "N",
-   "say": "The story goes that he burst into his brother's office, shouted that, and fainted. Weeks later, in 1822, he announced that hieroglyphs mix sound signs and idea signs.",
+   "say": "The story goes that he burst into his older brother's office, shouted that, and fainted. Weeks later, in 1822, he announced that hieroglyphs mix sound signs and idea signs.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -182,9 +186,9 @@
     ],
     "objects": [
      {
-      "k": "flag",
-      "x": 0.12,
-      "flag": "france"
+      "k": "desk",
+      "x": 0.25,
+      "s": 0.6
      }
     ],
     "stickers": [

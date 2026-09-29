@@ -19,6 +19,9 @@
   },
   "monk": {
    "preset": "monk"
+  },
+  "legionary": {
+   "preset": "legionary"
   }
  },
  "voices": {
@@ -134,7 +137,7 @@
     "bg": "rome",
     "cast": [
      {
-      "id": "worker",
+      "id": "legionary",
       "x": 0.4,
       "pose": "shrug"
      }
@@ -179,7 +182,7 @@
   },
   {
    "who": "N",
-   "say": "Then in 1548, a storm blew that spire down. The pyramid is still standing.",
+   "say": "Then in 1549, a storm blew that spire down. The pyramid is still standing.",
    "show": {
     "k": "scene",
     "bg": "church",

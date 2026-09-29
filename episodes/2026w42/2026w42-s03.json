@@ -150,9 +150,10 @@
       "mood": "shout"
      },
      {
-      "id": "amennakhte",
-      "x": 0.7,
-      "pose": "think"
+      "id": "worker2",
+      "x": 0.62,
+      "pose": "fist",
+      "mood": "angry"
      }
     ],
     "cam": "close",
@@ -160,8 +161,8 @@
    }
   },
   {
-   "who": "amennakhte",
-   "say": "Then we stop working.",
+   "who": "worker2",
+   "say": "Then we stop working. Tools down!",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -173,18 +174,14 @@
       "mood": "happy"
      },
      {
-      "id": "amennakhte",
-      "x": 0.7,
+      "id": "worker2",
+      "x": 0.62,
       "pose": "point",
-      "mood": "smug"
+      "mood": "angry"
      }
     ],
     "cam": "close",
-    "focus": "amennakhte",
-    "tag": {
-     "id": "amennakhte",
-     "text": "Amennakhte, scribe"
-    }
+    "focus": "worker2"
    }
   },
   {
@@ -225,12 +222,37 @@
   },
   {
    "who": "N",
-   "say": "The scribe Amennakhte wrote it all down on papyrus. And eventually, the grain arrived.",
+   "say": "A scribe, Amennakhte, wrote it all down. And eventually, the grain arrived.",
    "show": {
-    "k": "card",
-    "label": "First recorded strike in history",
-    "big": "1157 BC",
-    "sub": "Deir el-Medina, Egypt"
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "amennakhte",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "amennakhte",
+     "text": "Amennakhte, scribe"
+    },
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.32,
+      "s": 0.9,
+      "text": "THE STRIKE PAPYRUS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1157 BC",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
