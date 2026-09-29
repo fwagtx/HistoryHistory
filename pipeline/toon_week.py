@@ -170,9 +170,9 @@ def long_payloads(s, base, chapters):
         if net == "youtube":
             info["youtubeData"] = {"title": s["youtube_title"][:100], "type": "video", "privacy": "public", "tags": s["tags"],
                                    "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": False}
-            info["videoThumbnailUrl"] = f"{base}/{s['id']}-thumb.jpg"
         else:
             info["facebookData"] = {"type": "POST", "title": s["title"]}
+        info["videoThumbnailUrl"] = f"{base}/{s['id']}-thumb.jpg"
         out.append({"id": s["id"], "kind": f"long-{net}", "blogId": BRAND["metricool_brand_id"], "date": stamp, "info": info})
     return out
 
