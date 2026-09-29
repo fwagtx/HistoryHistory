@@ -491,21 +491,7 @@
    "show": {
     "k": "title",
     "text": "The ENTIRE History of Ancient Egypt in 10 Minutes",
-    "sub": "3100 BC to 30 BC",
-    "cast": [
-     {
-      "id": "narmer",
-      "x": 0.14,
-      "pose": "wave",
-      "mood": "happy"
-     },
-     {
-      "id": "cleopatra",
-      "x": 0.87,
-      "pose": "hips",
-      "mood": "smug"
-     }
-    ]
+    "sub": "3100 BC to 30 BC"
    }
   },
   {
@@ -979,15 +965,7 @@
     "k": "card",
     "label": "Stone blocks in the Great Pyramid",
     "big": "2,300,000",
-    "sub": "the average one is heavier than a car",
-    "cast": [
-     {
-      "id": "khufu",
-      "x": 0.86,
-      "pose": "present",
-      "mood": "happy"
-     }
-    ]
+    "sub": "the average one is heavier than a car"
    }
   },
   {
@@ -2177,7 +2155,9 @@
      {
       "text": "OLDEST KNOWN TREATY",
       "at": 1.4,
-      "color": "#1F8A4A"
+      "color": "#1F8A4A",
+      "x": 0.27,
+      "y": 0.12
      }
     ],
     "tag": {
