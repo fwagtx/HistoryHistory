@@ -4,7 +4,7 @@
  "date": "2026-10-14",
  "slot": "09:00",
  "title": "Genghis Khan Hired the Man Who Shot His Horse",
- "hook": "HE SHOT GENGHIS KHAN'S HORSE",
+ "hook": "ARCHER SHOT GENGHIS KHAN'S HORSE",
  "music": "playful",
  "cast": {
   "genghis": {
@@ -271,5 +271,23 @@
  "sources": [
   "https://en.wikipedia.org/wiki/Jebe",
   "https://www.thecollector.com/genghis-khans-legendary-generals/"
- ]
+ ],
+ "thumbnail": {
+  "bg": "battlefield",
+  "faces": [
+   {
+    "id": "jebe",
+    "mood": "happy",
+    "hold": "bow"
+   },
+   {
+    "id": "temujin",
+    "mood": "shock"
+   }
+  ],
+  "object": {
+   "k": "banner",
+   "flag": "white"
+  }
+ }
 }

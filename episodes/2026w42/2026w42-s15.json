@@ -4,7 +4,7 @@
  "date": "2026-10-14",
  "slot": "09:00",
  "title": "Genghis Khan Escaped a Wooden Neck Lock",
- "hook": "GENGHIS KHAN'S NECK-LOCK ESCAPE",
+ "hook": "GENGHIS KHAN'S NECK-BOARD ESCAPE",
  "music": "playful",
  "cast": {
   "genghis": {
@@ -304,5 +304,21 @@
   "https://en.wikipedia.org/wiki/Rise_of_Genghis_Khan",
   "https://en.wikipedia.org/wiki/Sorqan_Shira",
   "https://en.wikipedia.org/wiki/Genghis_Khan"
- ]
+ ],
+ "thumbnail": {
+  "bg": "night",
+  "faces": [
+   {
+    "id": "temujin",
+    "mood": "scared"
+   },
+   {
+    "id": "guard",
+    "mood": "shock"
+   }
+  ],
+  "object": {
+   "k": "fire"
+  }
+ }
 }

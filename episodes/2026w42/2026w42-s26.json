@@ -3,8 +3,8 @@
  "format": "short",
  "date": "2026-10-16",
  "slot": "09:00",
- "title": "The Emperor Who Paid Soldiers From His Own Pocket",
- "hook": "EMPEROR PAID FROM HIS POCKET",
+ "title": "The Emperor Who Gave 170 Million to Retired Soldiers",
+ "hook": "EMPEROR'S OWN CASH FOR PENSIONS",
  "music": "playful",
  "cast": {
   "augustus": {
@@ -29,7 +29,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "Rome's first emperor once paid for soldiers' retirement out of his own pocket.",
+   "say": "Rome's first emperor, Augustus, once poured a fortune of his own money into soldiers' pensions.",
    "show": {
     "k": "scene",
     "bg": "rome",
@@ -64,7 +64,7 @@
   },
   {
    "who": "N",
-   "say": "Augustus had an expensive problem: retired soldiers expected a big reward.",
+   "say": "His problem: retired soldiers expected a big cash reward.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -96,7 +96,7 @@
   },
   {
    "who": "N",
-   "say": "So in AD 6, he set up a military treasury, a fund just for veterans.",
+   "say": "So in AD 6, he set up a military treasury, a fund to pay retired soldiers.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -120,7 +120,7 @@
   },
   {
    "who": "N",
-   "say": "Then he put in one hundred and seventy million sesterces from his own fortune.",
+   "say": "To start it, he put in one hundred and seventy million sesterces, Roman coins, of his own.",
    "show": {
     "k": "card",
     "label": "Augustus's own money for the veterans' fund",
@@ -165,7 +165,42 @@
   },
   {
    "who": "N",
-   "say": "He also topped up Rome's main treasury four times, he says."
+   "say": "That's enough for about fourteen thousand soldiers' retirement bonuses.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "tent",
+      "x": 0.92,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "~14,000 BONUSES",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After that, new taxes kept the fund going."
   },
   {
    "who": "N",
@@ -218,8 +253,8 @@
    }
   }
  ],
- "caption": "Rome's first emperor funded soldiers' pensions with his own money. 170 million sesterces of it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #augustus #romanempire #money #historytok",
- "youtube_title": "The Emperor Who Paid Soldiers From His Own Pocket #shorts",
+ "caption": "Rome's first emperor kick-started the army's pension fund with 170 million sesterces of his own money.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #augustus #romanempire #money #historytok",
+ "youtube_title": "The Emperor Who Gave 170 Million to Retired Soldiers #shorts",
  "tags": [
   "augustus",
   "res gestae",
@@ -230,6 +265,20 @@
  "sources": [
   "https://www.livius.org/sources/content/augustus-res-gestae/",
   "https://en.wikipedia.org/wiki/Res_Gestae_Divi_Augusti",
-  "https://en.wikipedia.org/wiki/Aerarium_militare"
- ]
+  "https://en.wikipedia.org/wiki/Aerarium_militare",
+  "https://en.wikipedia.org/wiki/Military_of_ancient_Rome#Pay_and_pensions"
+ ],
+ "thumbnail": {
+  "bg": "rome",
+  "faces": [
+   {
+    "id": "augustus",
+    "mood": "happy",
+    "hold": "moneybag"
+   }
+  ],
+  "object": {
+   "k": "chest"
+  }
+ }
 }
