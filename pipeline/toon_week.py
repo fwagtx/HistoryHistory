@@ -193,7 +193,8 @@ def long_payloads(s, base, chapters):
                                    "category": "EDUCATION", "madeForKids": False, "isAiGeneratedContent": False}
         else:
             info["facebookData"] = {"type": "POST", "title": s["title"]}
-        info["videoThumbnailUrl"] = f"{base}/{s['id']}-thumb.jpg"
+        if net != "pinterest":   # Metricool rejects a custom cover on a Pinterest-only post
+            info["videoThumbnailUrl"] = f"{base}/{s['id']}-thumb.jpg"
         out.append({"id": s["id"], "kind": f"long-{net}", "blogId": BRAND["metricool_brand_id"], "date": stamp, "info": info})
     return out
 

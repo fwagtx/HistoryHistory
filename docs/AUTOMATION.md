@@ -130,7 +130,7 @@ For each day of the week, call `getScheduledPosts` with brandId 7081960 and time
 - every short and long-form pin has `pinterestData` with the History Pros board;
 - all PENDING, with no leftovers from the old style;
 - media ingested (URLs now on static.metricool.com).
-- every post has a thumbnail (`videoThumbnailUrl` on static.metricool.com) except the Facebook long-form post.
+- every post has a thumbnail (`videoThumbnailUrl` on static.metricool.com) except the Facebook long-form post and the long-form pin (Metricool rejects a custom cover on a Pinterest-only post, so the pin uses a frame of the video).
 
 Write `episodes/<week>/scheduled.json` with each post's id, uuid, date and title.
 
