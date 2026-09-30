@@ -1,4 +1,6 @@
-"""Print the Metricool post payload for a rendered short.
+"""Legacy (dark-style videos, retired Sep 27, 2026; its GitHub media URLs no longer work). Use toon_week.py.
+
+Print the Metricool post payload for a rendered short.
 
 Used when scheduling each short. Every payload targets the History Pros
 brand from config/brand.json with every platform's AI label off (owner's decision).

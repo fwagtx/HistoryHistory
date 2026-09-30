@@ -1,7 +1,7 @@
 """Plan, publish and build the Metricool posts for one toon week (docs/AUTOMATION.md).
 
     python pipeline/toon_week.py plan 2026w41       # dates/slots into every script + episodes/2026w41/week.json
-    python pipeline/toon_week.py publish 2026w41    # media_out files → orphan commit on the 'media' branch (force-pushed)
+    python pipeline/toon_week.py publish 2026w41    # media_out files → the History Pros R2 bucket (pipeline/r2.py)
     python pipeline/toon_week.py payloads 2026w41   # Metricool payloads → output/2026w41/payloads.json
     python pipeline/toon_week.py extra 2026w39-x1   # a one-off short outside the weekly grid
 
@@ -10,18 +10,16 @@ AI-content label off (owner's decision). Shorts go to Instagram, Facebook, TikTo
 Pinterest; each long-form gets a Facebook post, a YouTube video and a Pinterest pin.
 """
 import json
-import os
-import subprocess
 import sys
-import tempfile
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import r2  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 BRAND = json.loads((ROOT / "config" / "brand.json").read_text())
-REPO = "fwagtx/HistoryHistory"
-MEDIA_BRANCH = "media"
 SHORT_SLOTS = BRAND["cadence"]["short_slots"]           # 5 a day
 N_SHORTS = 7 * len(SHORT_SLOTS)                         # 35 a week
 LONG_DAYS = {"l1": 0, "l2": 2, "l3": 4}          # Mon, Wed, Fri
@@ -66,38 +64,9 @@ def plan(week_id):
     print(f"{week_id}: {len(week['posts'])} posts from {mon} to {mon + timedelta(days=6)}")
 
 
-def git(*args, env=None, **kw):
-    return subprocess.run(["git", *args], cwd=ROOT, check=True, capture_output=True, text=True, env=env, **kw).stdout.strip()
-
-
-def _push_media(files, folder, message):
-    """Commit the files under <folder>/ as a fresh orphan commit on the media branch and force-push it."""
-    with tempfile.TemporaryDirectory() as tmp:
-        env = dict(os.environ, GIT_INDEX_FILE=str(Path(tmp) / "index"))
-        for f in files:
-            sha = git("hash-object", "-w", str(f))
-            git("update-index", "--add", "--cacheinfo", f"100644,{sha},{folder}/{f.name}", env=env)
-        tree = git("write-tree", env=env)
-    commit = git("commit-tree", tree, "-m", message)
-    for attempt in range(4):
-        try:
-            git("push", "-f", "origin", f"{commit}:refs/heads/{MEDIA_BRANCH}")
-            break
-        except subprocess.CalledProcessError:
-            if attempt == 3:
-                raise
-            import time
-            time.sleep(2 ** (attempt + 1))
-    # The media only needs to live on GitHub: drop the local copy so the small session disk doesn't fill up.
-    subprocess.run(["git", "update-ref", "-d", f"refs/remotes/origin/{MEDIA_BRANCH}"], cwd=ROOT, capture_output=True)
-    subprocess.run(["git", "reflog", "expire", "--expire=now", "--all"], cwd=ROOT, capture_output=True)
-    subprocess.run(["git", "prune", "--expire=now"], cwd=ROOT, capture_output=True)
-    return commit
-
-
 def publish(week_id, partial=False):
-    """Put this week's finished files in a fresh orphan commit on the media branch and force-push it.
-    Earlier weeks drop off the branch, which is fine once Metricool has copied them (it copies at scheduling)."""
+    """Upload this week's finished files to the History Pros R2 bucket (folder <week>/) and record the base URL.
+    Metricool copies each file when a post is scheduled; the bucket deletes files after 14 days."""
     files = sorted((ROOT / "media_out").glob(f"{week_id}-*"))
     need = [f"{week_id}-s{i:02d}{x}" for i in range(1, N_SHORTS + 1) for x in (".mp4", "-thumb.jpg")] + [f"{week_id}-l{i}{x}" for i in (1, 2, 3) for x in (".mp4", "-thumb.jpg", "-chapters.txt")]
     missing = [n for n in need if not (ROOT / "media_out" / n).exists()]
@@ -105,26 +74,24 @@ def publish(week_id, partial=False):
         raise SystemExit(f"missing finished files: {missing[:6]}{'…' if len(missing) > 6 else ''}")
     if missing:
         print(f"partial publish: {len(missing)} files not rendered yet", file=sys.stderr)
-    big = [f.name for f in files if f.stat().st_size > 99 * 1024 * 1024]
-    if big:
-        raise SystemExit(f"over GitHub's 100 MB limit: {big}")
-    commit = _push_media(files, week_id, f"Media for {week_id} (History Pros)")
+    base = r2.upload(files, week_id)
     (ROOT / "output" / week_id).mkdir(parents=True, exist_ok=True)
-    (ROOT / "output" / week_id / "media_sha.txt").write_text(commit + "\n")
-    print(commit)
-    return commit
+    (ROOT / "output" / week_id / "media_base.txt").write_text(base + "\n")
+    print(base)
+    return base
 
 
 def extra(script_id):
     """One-off short outside the weekly grid (e.g. episodes/2026w39/2026w39-x1.json): publish its video and
-    write its payload to output/<week>/<id>-payload.json. The media branch then holds only this file."""
+    write its payload to output/<week>/<id>-payload.json."""
     week_id = script_id.split("-")[0]
     s = json.loads((ROOT / "episodes" / week_id / f"{script_id}.json").read_text())
     video = ROOT / "media_out" / f"{script_id}.mp4"
     if not video.exists():
         raise SystemExit(f"missing {video}")
-    commit = _push_media([video], week_id, f"Media for {script_id} (History Pros)")
-    out = short_payload(s, f"https://raw.githubusercontent.com/{REPO}/{commit}/{week_id}/{video.name}")
+    thumb = ROOT / "media_out" / f"{script_id}-thumb.jpg"
+    base = r2.upload([video] + ([thumb] if thumb.exists() else []), week_id)
+    out = short_payload(s, f"{base}/{video.name}", f"{base}/{thumb.name}" if thumb.exists() else None)
     assert out["blogId"] == "7081960"
     dest = ROOT / "output" / week_id / f"{script_id}-payload.json"
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -199,9 +166,8 @@ def long_payloads(s, base, chapters):
     return out
 
 
-def payloads(week_id, sha=None):
-    sha = sha or (ROOT / "output" / week_id / "media_sha.txt").read_text().strip()
-    base = f"https://raw.githubusercontent.com/{REPO}/{sha}/{week_id}"
+def payloads(week_id, base=None):
+    base = base or (ROOT / "output" / week_id / "media_base.txt").read_text().strip()
     shorts, longs = scripts(week_id)
     done = lambda name: (ROOT / "media_out" / name).exists()
     out = [short_payload(json.loads(p.read_text()), f"{base}/{p.stem}.mp4", f"{base}/{p.stem}-thumb.jpg" if done(f"{p.stem}-thumb.jpg") else None)

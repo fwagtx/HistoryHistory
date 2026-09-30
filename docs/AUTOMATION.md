@@ -12,7 +12,7 @@ It schedules all of it in Metricool for **History Pros only** (brand **7081960**
 - No AI-content labels on any platform (owner's decision, Sep 29, 2026): YouTube, Instagram/Facebook and TikTok flags are all false. The payload builder handles this.
 - Pinterest (added Sep 29, 2026): every short also goes to Pinterest, and each long-form gets its own pin at 16:00. All pins go on the "History Pros" board (id 1106689377123861666, `config/brand.json`) and link to the YouTube channel. Pinterest descriptions stop at 500 characters, so short captions must stay under that (the builder checks) and the long-form pin gets a trimmed description.
 - Every script is fact-checked before narration (step 4).
-- Code, scripts and config go on this session's development branch. Finished media go only on the `media` branch, which is overwritten every week (Metricool keeps its own copies once a post is scheduled).
+- Code, scripts and config go on this session's development branch. Finished media go only to the History Pros Cloudflare R2 bucket (`historypros-media`, `pipeline/r2.py`), never to GitHub: GitHub flagged the account on Sep 29, 2026 for hosting videos there. Uploads go through the Cloudflare API (the environment adds the token to api.cloudflare.com requests), Metricool copies each file when a post is scheduled, and the bucket deletes files after 14 days.
 - If a step fails and you can't fix it, don't schedule half a week. Leave the previous schedule untouched and report exactly what failed.
 
 ## 1. Pick the week and its topics
@@ -111,11 +111,11 @@ python pipeline/toon_render.py episodes/<week>/<week>-l*.json episodes/<week>/<w
 ## 6. Publish the media
 
 ```
-python pipeline/toon_week.py publish <week>    # orphan commit on the media branch, force-pushed; prints the commit SHA
+python pipeline/toon_week.py publish <week>    # uploads media_out/<week>-* to R2 folder <week>/; prints the public base URL
 python pipeline/toon_week.py payloads <week>   # output/<week>/payloads.json (44 posts)
 ```
 
-Check one URL from the payloads with `curl -sI` (expect 200) before scheduling.
+`publish` checks every file landed at full size. This environment can't open r2.dev links itself, so the real check is Metricool: schedule the first post, confirm its `media` and `videoThumbnailUrl` came back as static.metricool.com copies, then schedule the rest. If the Cloudflare API refuses (401/403), stop and report: the token or network setting is missing.
 
 ## 7. Schedule in Metricool (brand 7081960 only)
 

@@ -36,10 +36,16 @@
     },
     "long_form_minutes": 10
   },
-  "media_branch": "media",
   "pinterest": {
     "board": "History Pros",
     "board_id": "1106689377123861666",
     "link": "https://www.youtube.com/channel/UCWpNdkDxVXwsIYPqvirudUQ"
+  },
+  "media_host": {
+    "service": "cloudflare-r2",
+    "account_id": "231999c96851bc148ac14dfa00c54bae",
+    "bucket": "historypros-media",
+    "public_url": "https://pub-a568f8ac0409411a9192cbd4a7c4b365.r2.dev",
+    "auto_delete_days": 14
   }
 }

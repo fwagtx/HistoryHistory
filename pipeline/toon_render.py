@@ -8,7 +8,7 @@
 Writes media_out/<id>.mp4 and <id>-thumb.jpg (plus <id>-chapters.txt for long-form).
 Long-form thumbnails come from the script's "thumbnail"; shorts get a 1080x1920 cover built from
 their hook, first place banner and most dramatic scene (override with a short "thumbnail", see the spec).
-media_out/ is not committed: finished files are published on the 'media' branch (see docs/AUTOMATION.md).
+media_out/ is not committed: finished files are uploaded to the History Pros R2 bucket (pipeline/r2.py, docs/AUTOMATION.md).
 Script format: docs/TOON_SPEC.md.
 """
 import argparse
