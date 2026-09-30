@@ -1,8 +1,8 @@
 {
  "id": "2026w43-s35",
  "format": "short",
- "date": "2026-10-23",
- "slot": "09:00",
+ "date": "2026-10-25",
+ "slot": "21:00",
  "title": "The Fake Giant That Fooled America",
  "hook": "THE FAKE STONE GIANT",
  "music": "playful",
@@ -38,7 +38,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1869, diggers on a New York farm found a ten foot stone giant. It was fake.",
+   "say": "In 1869, diggers on William Newell's farm in New York found a ten-foot stone giant. It was fake.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -199,7 +199,7 @@
    "say": "Soon a fake of a fake was drawing crowds. Hull confessed before the year was out.",
    "show": {
     "k": "scene",
-    "bg": "courtroom",
+    "bg": "office",
     "cast": [
      {
       "id": "hull",
@@ -210,9 +210,10 @@
     ],
     "objects": [
      {
-      "k": "statue",
+      "k": "scrollbig",
       "x": 0.75,
-      "s": 0.7
+      "s": 0.8,
+      "text": "HULL: IT WAS A HOAX"
      }
     ]
    }

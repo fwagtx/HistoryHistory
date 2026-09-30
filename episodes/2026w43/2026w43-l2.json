@@ -4,7 +4,7 @@
  "date": "2026-10-21",
  "title": "The Most Badass Women in History",
  "music": "playful",
- "description": "A Mongol princess who wrestled for horses, a queen who sank her own side's ship, a diplomat who turned a man into a chair, and a pirate who beat an empire and retired rich: these are seven of the most badass women in history, counted down from seven to one. Every story is real, and where the sources are shaky we say so. Chapters are added automatically.\n\n#history #womeninhistory #badasswomen #funnyhistory #historypros",
+ "description": "A Mongol princess who wrestled for horses, a queen who sank her own side's ship, a diplomat who used a kneeling servant as a chair, and a pirate who beat an empire and retired rich: these are seven of the most badass women in history, counted down from seven to one. Every story is real, and where the sources are shaky we say so. Chapters are added automatically.\n\n#history #womeninhistory #badasswomen #funnyhistory #historypros",
  "thumbnail": {
   "style": "faces",
   "title": "DON'T MESS",
@@ -158,9 +158,9 @@
    "name": "João Correia de Sousa"
   },
   "attendant": {
-   "outfit": "tunic",
+   "outfit": "dress",
    "color": "#E8C25A",
-   "hair": "short",
+   "hair": "long",
    "hairColor": "#1E1C1B",
    "skin": "dark"
   },
@@ -272,7 +272,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1810, the most feared pirate on Earth walked into a Chinese governor's office with no weapons at all.",
+   "say": "In 1810, one of the most feared pirates on Earth walked into a Chinese governor's office with no weapons at all.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1458,7 +1458,7 @@
   },
   {
    "who": "N",
-   "say": "So one of her servants got down on hands and knees, and Nzinga sat on the servant's back, eye to eye with the governor.",
+   "say": "So one of her female servants got down on hands and knees, and Nzinga sat on her back, eye to eye with the governor.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -1500,7 +1500,7 @@
   },
   {
    "who": "N",
-   "say": "The story comes from Giovanni Cavazzi, an Italian priest who later lived at her court. His book even has a picture of it.",
+   "say": "This famous story may be part legend, written down decades later by Giovanni Cavazzi, an Italian priest at her court.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1521,7 +1521,14 @@
     "tag": {
      "id": "cavazzi",
      "text": "Giovanni Cavazzi, priest"
-    }
+    },
+    "stickers": [
+     {
+      "text": "PART LEGEND?",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
@@ -1551,7 +1558,7 @@
   },
   {
    "who": "N",
-   "say": "When the Portuguese broke it, Nzinga became queen and fought them for about thirty years, even teaming up with the Dutch.",
+   "say": "The Portuguese didn't keep the deal, so Nzinga, now queen, fought them for about thirty years, even teaming up with the Dutch.",
    "show": {
     "k": "scene",
     "bg": "jungle",
@@ -1656,7 +1663,7 @@
      "id": "boudica",
      "text": "Boudica, queen of the Iceni"
     },
-    "place": "Eastern Britain · 60 AD"
+    "place": "Eastern Britain · around 60 AD"
    }
   },
   {
@@ -1668,7 +1675,7 @@
     "lat": 52.2,
     "z0": 2.3,
     "z1": 3.0,
-    "date": "60 AD",
+    "date": "around 60 AD",
     "labels": [
      [
       "Iceni lands",
@@ -1898,7 +1905,7 @@
       "s": 0.6
      }
     ],
-    "place": "Londinium · 60 AD",
+    "place": "Londinium · around 60 AD",
     "cam": "pan"
    }
   },
@@ -1945,7 +1952,7 @@
   },
   {
    "who": "N",
-   "say": "Then they burned St Albans too. Rome was losing Britain.",
+   "say": "Then they burned St Albans too. Rome came close to losing Britain.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -2058,7 +2065,7 @@
   },
   {
    "who": "N",
-   "say": "Number three: Joan of Arc, the teenage farm girl who took charge of an army.",
+   "say": "Number three: Joan of Arc, the teenage farm girl who rode into battle at the head of an army.",
    "show": {
     "k": "scene",
     "bg": "village",
@@ -2445,7 +2452,7 @@
   },
   {
    "who": "N",
-   "say": "Number two: Lyudmila Pavlichenko, a history student who became one of the most famous snipers of World War Two.",
+   "say": "Number two: Lyudmila Pavlichenko, a history student who became a famous World War Two sniper nicknamed Lady Death.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -2635,7 +2642,7 @@
   },
   {
    "who": "N",
-   "say": "In 1942 she was wounded, so the Soviets sent her on a tour of the United States to ask for help.",
+   "say": "After she was wounded in 1942, the Soviets sent her on a tour of the United States to ask for help.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -2846,13 +2853,43 @@
   },
   {
    "who": "N",
-   "say": "China was ruled by the Qing dynasty, and its southern coast was full of pirates.",
+   "say": "China was ruled by the Qing dynasty, the emperors of that time, and its southern coast was full of pirates.",
    "show": {
-    "k": "flag",
-    "flag": "china_qing",
-    "label": "QING CHINA",
-    "sub": "1644–1912",
-    "bg": "harbor"
+    "k": "scene",
+    "bg": "harbor",
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "junk",
+      "x": 0.8,
+      "s": 0.5,
+      "flip": true,
+      "flag": "red"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "QING DYNASTY",
+      "at": 1.0,
+      "color": "#C8902A"
+     },
+     {
+      "text": "PIRATE COAST",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Southern China · 1801",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.55
+     }
+    ]
    }
   },
   {

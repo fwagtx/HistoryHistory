@@ -1,8 +1,8 @@
 {
  "id": "2026w43-s32",
  "format": "short",
- "date": "2026-10-23",
- "slot": "09:00",
+ "date": "2026-10-25",
+ "slot": "12:00",
  "title": "She Pretended to Be Carnegie's Daughter",
  "hook": "CARNEGIE'S FAKE DAUGHTER",
  "music": "playful",
@@ -44,7 +44,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "A woman in Ohio borrowed a fortune by pretending to be a billionaire's secret daughter.",
+   "say": "A woman in Ohio borrowed a fortune by pretending to be a rich man's secret daughter.",
    "show": {
     "k": "scene",
     "bg": "street",
@@ -142,7 +142,11 @@
      }
     ],
     "cam": "close",
-    "focus": "cassie"
+    "focus": "cassie",
+    "tag": {
+     "id": "beckwith",
+     "text": "Charles Beckwith, bank president"
+    }
    }
   },
   {
@@ -151,7 +155,7 @@
   },
   {
    "who": "N",
-   "say": "Banks lent her huge sums. Then in 1904, a lender sued, and it all collapsed.",
+   "say": "Banks lent her huge sums. Then in 1904, a lender sued, and it all collapsed. A bank in Oberlin went bust.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -176,12 +180,12 @@
   },
   {
    "who": "N",
-   "say": "Carnegie's office said he did not know Mrs. Chadwick, and hadn't signed a note in thirty years.",
+   "say": "Carnegie said he did not know Mrs. Chadwick, and hadn't signed a note in over thirty years.",
    "show": {
     "k": "card",
-    "label": "Notes Carnegie said he'd signed in 30 years",
+    "label": "Notes Carnegie said he'd signed in 30+ years",
     "big": "ZERO",
-    "sub": "his office's statement, 1904",
+    "sub": "his press statement, 1904",
     "cast": [
      {
       "id": "carnegie",

@@ -393,7 +393,7 @@
   },
   {
    "who": "N",
-   "say": "Today, we meet history's greatest con artists: people who sold towers, countries and fortunes that never existed.",
+   "say": "Today, we meet history's greatest con artists: people who sold a tower they didn't own, a country that didn't exist, and fortunes that were never there.",
    "show": {
     "k": "scene",
     "bg": "vault",
@@ -593,7 +593,7 @@
   },
   {
    "who": "N",
-   "say": "Then he sold two hundred thousand pounds' worth of Poyais bonds. Bonds are loans to a country.",
+   "say": "Then he sold two hundred thousand pounds' worth of Poyais bonds. A bond is a loan: you pay now, and get paid back later with extra.",
    "show": {
     "k": "card",
     "label": "Poyais bonds sold in London, 1822",
@@ -639,7 +639,7 @@
   },
   {
    "who": "N",
-   "say": "Hundreds of people signed up to move there. Many even swapped their pounds for Poyais dollars, printed in Scotland.",
+   "say": "Hundreds of people signed up to move there. Many even swapped their savings for Poyais dollars, the fake country's own money, printed in Scotland.",
    "show": {
     "k": "map",
     "lon": -4,
@@ -755,7 +755,7 @@
   },
   {
    "who": "N",
-   "say": "Fever spread, and more than half of them died before help came. This part is no joke.",
+   "say": "Fever and hunger spread. About a hundred and eighty of them died. This part is no joke.",
    "show": {
     "k": "scene",
     "bg": "jungle",
@@ -777,12 +777,19 @@
     "fx": [
      "rain"
     ],
-    "cam": "still"
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "ABOUT 180 DIED",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "MacGregor was put on trial in France, and walked free. He later retired in Venezuela on a general's pension.",
+   "say": "MacGregor then tried a similar scheme in France. He was put on trial in Paris, and walked free. He later retired in Venezuela on a general's pension.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -1129,7 +1136,7 @@
   },
   {
    "who": "N",
-   "say": "In 1874, a jury decided he was Arthur Orton, a butcher's son from London. He got fourteen years in prison.",
+   "say": "In 1874, a jury decided he was Arthur Orton, a butcher's son from London. He got fourteen years in prison for lying under oath.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -1159,6 +1166,26 @@
       "x": 0.9,
       "flag": "uk",
       "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So a butcher almost talked his way into a fortune, because a grieving mother wanted her son back.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "ladyt",
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "orton",
+      "x": 0.68,
+      "mood": "smug"
      }
     ]
    }
@@ -1415,7 +1442,7 @@
   },
   {
    "who": "N",
-   "say": "In 1902, a court ordered the safe opened. The night before, the whole family vanished to Spain.",
+   "say": "In 1902, a court ordered the safe opened. Just before, the whole family vanished. They had fled to Spain.",
    "show": {
     "k": "map",
     "lon": 0,
@@ -1459,12 +1486,12 @@
   },
   {
    "who": "N",
-   "say": "Inside the safe, reports say, was a brick and an old English halfpenny.",
+   "say": "The safe was nearly empty. Accounts differ, but one lists an old newspaper, a coin and a trouser button.",
    "show": {
     "k": "card",
     "label": "Inside the famous safe, 1902",
-    "big": "1 BRICK",
-    "sub": "plus an old English halfpenny (reports vary)",
+    "big": "ALMOST NOTHING",
+    "sub": "an old newspaper, a coin, a trouser button (accounts differ)",
     "cast": [
      {
       "id": "banker",
@@ -1494,6 +1521,29 @@
       "x": 0.8,
       "flag": "spain",
       "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So one locked safe fooled Paris for twenty years, and nobody ever got to look inside.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.35,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.8,
+      "label": "THE SAFE"
      }
     ]
    }
@@ -1715,7 +1765,7 @@
   },
   {
    "who": "N",
-   "say": "Carnegie's office put out a statement that ended the fairy tale.",
+   "say": "Then Carnegie put out a statement that ended the fairy tale.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -1748,7 +1798,7 @@
    "show": {
     "k": "quote",
     "text": "Mr. Carnegie does not know Mrs. Chadwick of Cleveland.",
-    "who": "Andrew Carnegie's office, press statement (1904)"
+    "who": "Andrew Carnegie, press statement (1904)"
    }
   },
   {
@@ -1767,6 +1817,29 @@
       "id": "judge",
       "x": 0.72,
       "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So a few forged signatures fooled whole banks, because nobody thought to ask Carnegie.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "beckwith",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "A. CARNEGIE (FORGED)"
      }
     ]
    }
@@ -2032,7 +2105,7 @@
   },
   {
    "who": "N",
-   "say": "Then the Boston Post newspaper did the math. He'd need a hundred and sixty million coupons. Only about twenty-seven thousand existed.",
+   "say": "Then the Boston Post newspaper did the math. He'd need a hundred and sixty million coupons. Only about twenty-seven thousand were actually out there.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -2254,7 +2327,7 @@
   },
   {
    "who": "N",
-   "say": "So, the story goes, Lustig came back and tried it again! That dealer went to the police, and Lustig escaped.",
+   "say": "So Lustig came back and tried it again! This time the dealer went to the police, and Lustig escaped.",
    "show": {
     "k": "scene",
     "bg": "street",
@@ -2304,40 +2377,11 @@
   },
   {
    "who": "N",
-   "say": "What's certain: in 1935 he was caught printing fake money in America, and ended up in Alcatraz.",
-   "show": {
-    "k": "scene",
-    "bg": "harbor",
-    "cast": [
-     {
-      "id": "lustig",
-      "x": 0.35,
-      "mood": "sad"
-     }
-    ],
-    "place": "Alcatraz, San Francisco Bay · 1935",
-    "objects": [
-     {
-      "k": "castle",
-      "x": 0.75,
-      "s": 0.8,
-      "label": "ALCATRAZ"
-     },
-     {
-      "k": "flag",
-      "x": 0.92,
-      "flag": "usa48",
-      "s": 0.6
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Before that, he had even escaped from a New York jail on a rope of bedsheets, and was caught a few weeks later.",
+   "say": "What's certain: in 1935, he was arrested in New York for printing fake money. Then he escaped jail on a rope of bedsheets!",
    "show": {
     "k": "scene",
     "bg": "night",
+    "place": "New York · 1935",
     "cast": [
      {
       "id": "lustig",
@@ -2356,7 +2400,7 @@
     "stickers": [
      {
       "text": "BEDSHEET ROPE",
-      "at": 1.2,
+      "at": 1.8,
       "color": "#D4A52A"
      }
     ]
@@ -2364,7 +2408,37 @@
   },
   {
    "who": "N",
-   "say": "Around then in New York, George C. Parker was said to be selling the Brooklyn Bridge. In 1928 he got life in prison for fraud.",
+   "say": "Police caught him four weeks later. He ended up in Alcatraz, the famous island prison.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "place": "Alcatraz, San Francisco Bay",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.35,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.8,
+      "label": "ALCATRAZ"
+     },
+     {
+      "k": "flag",
+      "x": 0.92,
+      "flag": "usa48",
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back in 1920s New York, another con man, George C. Parker, was said to sell the Brooklyn Bridge. After many fraud convictions, he got life in prison in 1928.",
    "show": {
     "k": "scene",
     "bg": "city",
@@ -2412,7 +2486,7 @@
   },
   {
    "who": "N",
-   "say": "His crime? Selling a Vermeer, a treasure by a famous Dutch master painter, to the top Nazi Hermann Göring.",
+   "say": "His crime? Selling a Vermeer, a painting by a famous Dutch master, to the top Nazi Hermann Göring.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -2444,7 +2518,7 @@
   },
   {
    "who": "N",
-   "say": "Göring paid for it with about a hundred and thirty-seven real paintings. Selling a treasure to the enemy could mean death.",
+   "say": "Göring paid for it with a hundred and thirty-seven other paintings. Selling a Dutch treasure to the enemy could mean death.",
    "show": {
     "k": "map",
     "lon": 5.3,
@@ -2558,7 +2632,7 @@
   },
   {
    "who": "N",
-   "say": "It worked. He was convicted of forgery instead, and got one year. He died in 1947, before serving it.",
+   "say": "Experts then tested his paintings and agreed. He was convicted of forgery instead, and got one year. He died in 1947, before serving it.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -2581,6 +2655,29 @@
       "x": 0.92,
       "flag": "netherlands",
       "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So a man escaped a treason charge by proving he was a really good forger.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.72,
+      "s": 0.8
      }
     ]
    }
@@ -2652,7 +2749,7 @@
   },
   {
    "who": "N",
-   "say": "And even famous con stories can be cons. Researchers have challenged many claims in the memoir behind the movie \"Catch Me If You Can\".",
+   "say": "And even famous con stories can be shaky. Researchers have questioned many claims in Frank Abagnale's memoir, the book behind the movie \"Catch Me If You Can\".",
    "show": {
     "k": "scene",
     "bg": "library",

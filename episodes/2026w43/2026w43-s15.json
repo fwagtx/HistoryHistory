@@ -2,7 +2,7 @@
  "id": "2026w43-s15",
  "format": "short",
  "date": "2026-10-21",
- "slot": "09:00",
+ "slot": "21:00",
  "title": "No Chair? This Queen Made One",
  "hook": "NO CHAIR? NO PROBLEM",
  "music": "playful",
@@ -30,9 +30,9 @@
    "name": "João Correia de Sousa"
   },
   "attendant": {
-   "outfit": "tunic",
+   "outfit": "dress",
    "color": "#E8C25A",
-   "hair": "short",
+   "hair": "long",
    "hairColor": "#1E1C1B",
    "skin": "dark"
   },
@@ -211,7 +211,7 @@
   },
   {
    "who": "N",
-   "say": "So a servant knelt down, and Nzinga sat on the servant's back, eye to eye with him.",
+   "say": "So a female servant knelt, and Nzinga sat on her back, eye to eye with him.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -253,7 +253,7 @@
   },
   {
    "who": "N",
-   "say": "The story comes from Cavazzi, an Italian priest who later lived at her court.",
+   "say": "This may be part legend: a priest at her court, Cavazzi, wrote it down decades later.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -274,7 +274,14 @@
     "tag": {
      "id": "cavazzi",
      "text": "Giovanni Cavazzi, priest"
-    }
+    },
+    "stickers": [
+     {
+      "text": "PART LEGEND?",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
