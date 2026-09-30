@@ -3,8 +3,8 @@
  "format": "short",
  "date": "2026-09-29",
  "slot": "00:00",
- "title": "What You'll Find on History Pros",
- "hook": "WHAT YOU'LL SEE HERE",
+ "title": "Who You'll Meet on History Pros",
+ "hook": "HISTORY'S BIGGEST NAMES",
  "music": "playful",
  "cast": {
   "host": {
@@ -15,125 +15,313 @@
    "preset": "caesar",
    "name": "Julius Caesar"
   },
-  "pirate": {
-   "preset": "pirate"
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "cleopatra": {
+   "preset": "cleopatra",
+   "name": "Cleopatra"
+  },
+  "elizabeth": {
+   "preset": "elizabeth1",
+   "name": "Elizabeth I"
+  },
+  "stalin": {
+   "preset": "stalin",
+   "name": "Joseph Stalin"
+  },
+  "mussolini": {
+   "preset": "mussolini",
+   "name": "Benito Mussolini"
+  },
+  "hitler": {
+   "preset": "hitler",
+   "name": "Adolf Hitler"
+  },
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "lincoln": {
+   "preset": "lincoln",
+   "name": "Abraham Lincoln"
+  },
+  "einstein": {
+   "preset": "einstein",
+   "name": "Albert Einstein"
+  },
+  "columbus": {
+   "preset": "columbus",
+   "name": "Christopher Columbus"
+  },
+  "musa": {
+   "skin": "dark",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#D4A52A",
+   "color2": "#8A5A12",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Mansa Musa"
   },
   "emu": {
    "animal": "emu",
    "helmet": true,
    "mood": "smug"
-  },
-  "banker": {
-   "preset": "banker",
-   "hold": "moneybag"
   }
  },
  "beats": [
   {
    "who": "N",
-   "say": "Here's what you'll find on History Pros every single week.",
+   "say": "From ancient kings to modern dictators, here's who you'll meet on History Pros.",
    "show": {
     "k": "scene",
-    "bg": "library",
+    "bg": "palace",
     "cast": [
      {
-      "id": "host",
-      "x": 0.4,
-      "pose": "present",
-      "mood": "happy",
-      "enter": "pop"
+      "id": "caesar",
+      "x": 0.15,
+      "s": 0.8,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "cleopatra",
+      "x": 0.38,
+      "s": 0.8,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.6,
+      "s": 0.8,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "einstein",
+      "x": 0.82,
+      "s": 0.8,
+      "pose": "think",
+      "mood": "happy"
      }
     ],
-    "objects": [
+    "stickers": [
      {
-      "k": "scrollbig",
-      "x": 0.76,
-      "s": 0.7,
-      "text": "THIS WEEK"
+      "text": "HISTORY PROS",
+      "at": 1.2,
+      "color": "#C8702A"
      }
-    ]
+    ],
+    "place": "All of history"
    }
   },
   {
    "who": "N",
-   "say": "Mondays: the entire history of an empire or country, told in about ten minutes.",
+   "say": "Emperors who built giant empires, like Julius Caesar and Genghis Khan.",
    "show": {
     "k": "scene",
     "bg": "rome",
-    "place": "Mondays",
     "cast": [
      {
       "id": "caesar",
-      "x": 0.35,
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "genghis",
+      "x": 0.68,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EMPIRE BUILDERS",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Rome & Mongolia · ancient to 1200s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Queens who ran the world, like Cleopatra and Queen Elizabeth the First.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "elizabeth",
+      "x": 0.68,
       "pose": "hips",
       "mood": "smug"
      }
     ],
     "objects": [
      {
-      "k": "column",
-      "x": 0.75,
-      "s": 0.8
+      "k": "crown",
+      "x": 0.5,
+      "s": 0.6,
+      "y": 0.35
      }
     ],
     "stickers": [
      {
-      "text": "THE ENTIRE HISTORY OF…",
-      "at": 1.2,
-      "color": "#A8322A"
+      "text": "QUEENS",
+      "at": 1.4,
+      "color": "#6A3E8E"
      }
-    ]
+    ],
+    "place": "Egypt & England · 30 BC & 1500s"
    }
   },
   {
    "who": "N",
-   "say": "Wednesdays: the weirdest deaths, the craziest wars, and the strangest people who ever lived.",
+   "say": "The dictators who tore it apart, like Stalin, Mussolini and Hitler.",
    "show": {
     "k": "scene",
-    "bg": "outback",
-    "place": "Wednesdays",
+    "bg": "warroom",
+    "cam": "still",
     "cast": [
      {
-      "id": "emu",
-      "x": 0.4,
-      "enter": "pop"
+      "id": "stalin",
+      "x": 0.2,
+      "pose": "cross",
+      "mood": "angry"
+     },
+     {
+      "id": "mussolini",
+      "x": 0.48,
+      "pose": "cross",
+      "mood": "angry"
+     },
+     {
+      "id": "hitler",
+      "x": 0.76,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HISTORY'S VILLAINS",
+      "at": 1.2,
+      "color": "#333333"
+     }
+    ],
+    "place": "Europe · 1920s to 1945"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Leaders and conquerors who changed everything, like Napoleon and Abraham Lincoln.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "lincoln",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "happy"
      }
     ],
     "objects": [
      {
-      "k": "truck",
-      "x": 0.75,
+      "k": "cannon",
+      "x": 0.12,
       "s": 0.6
      }
     ],
     "stickers": [
      {
-      "text": "THE CRAZIEST…",
-      "at": 1.2,
-      "color": "#C8702A"
+      "text": "GAME CHANGERS",
+      "at": 1.4,
+      "color": "#2F6FC2"
      }
-    ]
+    ],
+    "place": "France & the USA · 1800s"
    }
   },
   {
    "who": "N",
-   "say": "Fridays: money and power. Heists, fortunes, scams, and the richest people in history.",
+   "say": "Geniuses like Albert Einstein, and explorers like Christopher Columbus.",
    "show": {
     "k": "scene",
-    "bg": "vault",
-    "place": "Fridays",
+    "bg": "harbor",
     "cast": [
      {
-      "id": "banker",
-      "x": 0.35,
-      "pose": "present",
-      "mood": "smug"
+      "id": "einstein",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "happy"
      },
      {
-      "id": "pirate",
-      "x": 0.7,
+      "id": "columbus",
+      "x": 0.64,
       "pose": "point",
-      "mood": "shock"
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.84,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GENIUSES & EXPLORERS",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "Europe & the Atlantic · 1492 to 1905"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plus the weirdest wars, the biggest heists, and the richest people who ever lived.",
+   "show": {
+    "k": "scene",
+    "bg": "sahel",
+    "cast": [
+     {
+      "id": "musa",
+      "x": 0.32,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "emu",
+      "x": 0.7,
+      "enter": "pop"
      }
     ],
     "objects": [
@@ -145,61 +333,27 @@
     ],
     "stickers": [
      {
-      "text": "MONEY & POWER",
-      "at": 1.4,
+      "text": "WEIRD, WILD & TRUE",
+      "at": 1.6,
       "color": "#C8902A"
      }
-    ]
+    ],
+    "place": "Mali · 1324"
    }
   },
   {
    "who": "N",
-   "say": "And every day, five short true stories you can watch in under a minute.",
+   "say": "Every era and every continent, told in simple, true cartoons.",
    "show": {
     "k": "card",
-    "label": "Every day",
-    "big": "5 STORIES",
-    "sub": "9am · 12pm · 3pm · 6pm · 9pm (Central)"
+    "label": "On History Pros",
+    "big": "ALL OF HISTORY",
+    "sub": "from ancient Egypt to the 20th century"
    }
   },
   {
    "who": "N",
-   "say": "Everything is drawn as a cartoon, so it's easy to follow and actually fun to watch.",
-   "show": {
-    "k": "scene",
-    "bg": "office",
-    "cast": [
-     {
-      "id": "host",
-      "x": 0.4,
-      "pose": "think",
-      "mood": "happy"
-     }
-    ],
-    "objects": [
-     {
-      "k": "desk",
-      "x": 0.74,
-      "s": 0.8
-     }
-    ],
-    "stickers": [
-     {
-      "text": "SIMPLE",
-      "at": 1.2,
-      "color": "#1F8A4A"
-     },
-     {
-      "text": "FUNNY",
-      "at": 2.2,
-      "color": "#2F6FC2"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Follow so you never miss one, and catch the full videos on YouTube.",
+   "say": "Follow History Pros, and meet them all.",
    "show": {
     "k": "end",
     "cast": [
@@ -210,48 +364,59 @@
       "mood": "happy"
      },
      {
-      "id": "host",
+      "id": "cleopatra",
       "x": 0.48,
-      "pose": "cheer",
+      "pose": "wave",
       "mood": "happy"
      },
      {
-      "id": "emu",
-      "x": 0.76
+      "id": "einstein",
+      "x": 0.76,
+      "pose": "wave",
+      "mood": "happy"
      }
     ]
    }
   }
  ],
  "thumbnail": {
-  "text": "WHAT YOU'LL SEE HERE",
-  "sub": "Every week",
-  "bg": "rome",
+  "text": "HISTORY'S BIGGEST NAMES",
+  "sub": "All on History Pros",
+  "bg": "palace",
   "faces": [
    {
-    "id": "caesar",
+    "id": "napoleon",
     "mood": "shock"
    },
    {
-    "id": "emu",
-    "mood": "smug"
+    "id": "cleopatra",
+    "mood": "happy"
    }
   ],
   "object": {
-   "k": "column"
+   "k": "crown"
   }
  },
- "caption": "Every week on History Pros 📅\nMon: The ENTIRE history of…\nWed: The craziest, weirdest stories\nFri: Money, heists and fortunes\nEvery day: 5 short true stories\n\nFollow for 5 true stories a day. Full videos on our YouTube channel.\n#history #historytok #funnyhistory #historypros #animatedhistory",
- "youtube_title": "What You'll Find on History Pros #shorts",
+ "caption": "Emperors, queens, dictators, geniuses and a few emus. 👑 Who should we cover next? Tell us in the comments.\n\nFollow for new true stories every day. Full videos on our YouTube channel.\n#history #historytok #worldhistory #historypros #animatedhistory",
+ "youtube_title": "Who You'll Meet on History Pros #shorts",
  "tags": [
   "history pros",
-  "history",
-  "animated history",
+  "world history",
+  "famous people in history",
   "history shorts",
-  "funny history"
+  "animated history"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Julius_Caesar",
-  "https://en.wikipedia.org/wiki/Emu_War"
+  "https://www.britannica.com/biography/Julius-Caesar-Roman-ruler",
+  "https://www.britannica.com/biography/Genghis-Khan",
+  "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt",
+  "https://www.britannica.com/biography/Elizabeth-I",
+  "https://www.britannica.com/biography/Joseph-Stalin",
+  "https://www.britannica.com/biography/Benito-Mussolini",
+  "https://www.britannica.com/biography/Adolf-Hitler",
+  "https://www.britannica.com/biography/Napoleon-I",
+  "https://www.britannica.com/biography/Abraham-Lincoln",
+  "https://www.britannica.com/biography/Albert-Einstein",
+  "https://www.britannica.com/biography/Christopher-Columbus"
  ]
 }
