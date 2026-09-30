@@ -38,7 +38,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "A medieval queen divorced her husband, and he came back with an army to take her throne.",
+   "say": "A medieval queen divorced her husband, so he came back with an army.",
    "show": {
     "k": "scene",
     "bg": "castle",
@@ -64,7 +64,11 @@
       "flag": "red"
      }
     ],
-    "place": "Georgia · 1191"
+    "place": "Georgia · 1191",
+    "tag": {
+     "id": "tamar",
+     "text": "Queen Tamar of Georgia"
+    }
    }
   },
   {
@@ -109,7 +113,7 @@
   },
   {
    "who": "N",
-   "say": "In 1185, she married a Russian prince named Yury. It went badly, and she divorced and exiled him.",
+   "say": "In 1185 she married a Russian prince, Yury. Two years later she divorced and exiled him.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -133,11 +137,7 @@
       "x": 0.82,
       "s": 0.5
      }
-    ],
-    "tag": {
-     "id": "tamar",
-     "text": "Queen Tamar of Georgia"
-    }
+    ]
    }
   },
   {
@@ -227,7 +227,7 @@
   },
   {
    "who": "N",
-   "say": "He did it again. He was beaten again, and this time kicked out of Georgia for good.",
+   "say": "He did it again, lost again, and was kicked out of Georgia for good.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -262,7 +262,7 @@
   },
   {
    "who": "N",
-   "say": "Tamar went on to rule Georgia in its golden age. Her ex went down in history as the guy who lost twice.",
+   "say": "Tamar went on to rule Georgia's golden age. Her ex is remembered for losing twice.",
    "show": {
     "k": "scene",
     "bg": "palace",

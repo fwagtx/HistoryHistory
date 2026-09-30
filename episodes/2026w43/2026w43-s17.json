@@ -71,7 +71,11 @@
      "fire",
      "smoke"
     ],
-    "place": "Londinium · 60 AD"
+    "place": "Londinium · 60 AD",
+    "tag": {
+     "id": "boudica",
+     "text": "Boudica, queen of the Iceni"
+    }
    }
   },
   {
@@ -94,11 +98,7 @@
       "x": 0.78,
       "s": 0.6
      }
-    ],
-    "tag": {
-     "id": "boudica",
-     "text": "Boudica, queen of the Iceni"
-    }
+    ]
    }
   },
   {
@@ -212,7 +212,7 @@
   },
   {
    "who": "N",
-   "say": "Archaeologists still dig up a red layer of burnt clay under London from that fire.",
+   "say": "Archaeologists still find a red layer of burnt clay from that fire.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -240,7 +240,7 @@
   },
   {
    "who": "N",
-   "say": "In the end, the Roman general Suetonius Paulinus beat her army, and Boudica died soon after.",
+   "say": "Then the Roman general Suetonius Paulinus beat her army, and Boudica died soon after.",
    "show": {
     "k": "scene",
     "bg": "battlefield",

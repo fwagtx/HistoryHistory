@@ -48,7 +48,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "The most successful pirate in history never got caught. She retired rich.",
+   "say": "History's most successful pirate never got caught. She retired rich.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -76,7 +76,11 @@
       "color": "#A8322A"
      }
     ],
-    "place": "South China Sea · 1807"
+    "place": "South China Sea · 1807",
+    "tag": {
+     "id": "chingshih",
+     "text": "Ching Shih, pirate queen"
+    }
    }
   },
   {
@@ -99,11 +103,7 @@
       "x": 0.78,
       "s": 0.5
      }
-    ],
-    "tag": {
-     "id": "chingshih",
-     "text": "Ching Shih, pirate queen"
-    }
+    ]
    }
   },
   {
@@ -187,7 +187,7 @@
   },
   {
    "who": "N",
-   "say": "So in 1810, she walked into the governor-general's office in Guangzhou with no weapons, just to talk.",
+   "say": "So in 1810, she walked into the governor's office in Guangzhou, unarmed, to talk.",
    "show": {
     "k": "scene",
     "bg": "palace",

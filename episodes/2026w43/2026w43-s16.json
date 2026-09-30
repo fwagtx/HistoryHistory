@@ -42,7 +42,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 480 BC, a queen sank a ship from her own side, and her king praised her for it.",
+   "say": "In 480 BC, a queen sank her own side's ship, and her king praised her.",
    "show": {
     "k": "scene",
     "bg": "ocean",
@@ -67,12 +67,16 @@
      }
     ],
     "place": "Salamis, Greece · 480 BC",
-    "cam": "shake"
+    "cam": "shake",
+    "tag": {
+     "id": "artemisia",
+     "text": "Artemisia, queen of Halicarnassus"
+    }
    }
   },
   {
    "who": "N",
-   "say": "Artemisia ruled a Greek city in what's now Turkey, and she fought for Xerxes, the king of Persia.",
+   "say": "Artemisia, a queen from what's now Turkey, fought for Xerxes, the king of Persia.",
    "show": {
     "k": "scene",
     "bg": "greek",
@@ -97,14 +101,14 @@
      }
     ],
     "tag": {
-     "id": "artemisia",
-     "text": "Artemisia, queen of Halicarnassus"
+     "id": "xerxes",
+     "text": "Xerxes, king of Persia"
     }
    }
   },
   {
    "who": "N",
-   "say": "At the Battle of Salamis, the Greek navy smashed the Persian fleet.",
+   "say": "The Greeks smashed the Persian fleet at Salamis.",
    "show": {
     "k": "map",
     "lon": 23.6,
@@ -170,7 +174,7 @@
   },
   {
    "who": "N",
-   "say": "So she rammed it and sank it. The Athenian thought she was on his team and let her go.",
+   "say": "She rammed and sank it, so the Athenian assumed she was on his side.",
    "show": {
     "k": "scene",
     "bg": "ocean",
@@ -219,16 +223,12 @@
      }
     ],
     "cam": "close",
-    "focus": "xerxes",
-    "tag": {
-     "id": "xerxes",
-     "text": "Xerxes, king of Persia"
-    }
+    "focus": "xerxes"
    }
   },
   {
    "who": "N",
-   "say": "According to Herodotus, a Greek historian, Xerxes then said: my men have become women, and my women men.",
+   "say": "Herodotus, a Greek historian, says Xerxes then declared: my men have become women, and my women men.",
    "show": {
     "k": "quote",
     "text": "My men have become women, and my women men.",

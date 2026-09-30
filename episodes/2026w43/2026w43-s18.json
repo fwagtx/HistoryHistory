@@ -31,16 +31,6 @@
    "hold": "pen",
    "skin": "peach",
    "stache": "thin"
-  },
-  "eleanor": {
-   "outfit": "dress",
-   "color": "#2F4A6A",
-   "hair": "curly",
-   "hairColor": "#8A7A6A",
-   "skin": "light",
-   "hat": "bonnet",
-   "hatColor": "#2F4A6A",
-   "name": "Eleanor Roosevelt"
   }
  },
  "voices": {
@@ -50,7 +40,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1942, one of the Soviet Union's top snipers shut down a room full of American reporters.",
+   "say": "In 1942, a Soviet sniper shut down a room full of American reporters.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -74,12 +64,16 @@
       "s": 0.5
      }
     ],
-    "place": "Chicago · 1942"
+    "place": "Chicago · 1942",
+    "tag": {
+     "id": "lyudmila",
+     "text": "Lyudmila Pavlichenko"
+    }
    }
   },
   {
    "who": "N",
-   "say": "Lyudmila Pavlichenko was a history student before World War Two. Then Nazi Germany invaded her country.",
+   "say": "Lyudmila Pavlichenko studied history until Nazi Germany invaded in 1941.",
    "show": {
     "k": "flag",
     "flag": "soviet",
@@ -90,7 +84,7 @@
   },
   {
    "who": "N",
-   "say": "She became a sniper, and the Soviets credited her with three hundred nine kills, though some historians doubt that count.",
+   "say": "She was officially credited with three hundred nine kills, though some historians doubt it.",
    "show": {
     "k": "card",
     "label": "Official Soviet count",
@@ -108,25 +102,24 @@
   },
   {
    "who": "N",
-   "say": "After she was wounded, she toured America to ask for help, and became friends with Eleanor Roosevelt.",
+   "say": "Wounded in 1942, she toured America to rally support.",
    "show": {
     "k": "scene",
-    "bg": "city",
+    "bg": "harbor",
     "cast": [
      {
       "id": "lyudmila",
-      "x": 0.35,
+      "x": 0.4,
       "pose": "wave",
-      "mood": "happy"
-     },
-     {
-      "id": "eleanor",
-      "x": 0.68,
-      "pose": "present",
       "mood": "happy"
      }
     ],
     "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.7
+     },
      {
       "k": "flag",
       "x": 0.12,
@@ -134,11 +127,7 @@
       "flag": "usa48"
      }
     ],
-    "tag": {
-     "id": "eleanor",
-     "text": "Eleanor Roosevelt"
-    },
-    "place": "Washington, D.C. · 1942"
+    "place": "United States · 1942"
    }
   },
   {
@@ -165,16 +154,12 @@
      }
     ],
     "cam": "close",
-    "focus": "reporter",
-    "tag": {
-     "id": "lyudmila",
-     "text": "Lyudmila Pavlichenko"
-    }
+    "focus": "reporter"
    }
   },
   {
    "who": "N",
-   "say": "The questions were about her looks, not the war. So in Chicago, she said this.",
+   "say": "So in Chicago, she said this.",
    "show": {
     "k": "scene",
     "bg": "street",
@@ -250,10 +235,9 @@
       "mood": "happy"
      },
      {
-      "id": "eleanor",
+      "id": "reporter",
       "x": 0.7,
-      "pose": "wave",
-      "mood": "happy"
+      "pose": "shrug"
      }
     ]
    }
@@ -265,7 +249,7 @@
   "lyudmila pavlichenko",
   "lady death",
   "ww2",
-  "eleanor roosevelt",
+  "soviet sniper",
   "history shorts"
  ],
  "sources": [
