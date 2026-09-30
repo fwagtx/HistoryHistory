@@ -1793,8 +1793,6 @@
       "s": 0.5
      }
     ],
-    "cam": "close",
-    "focus": "raglan",
     "tag": {
      "id": "nolan",
      "text": "Captain Louis Nolan"
@@ -3047,17 +3045,18 @@
    "say": "Then the fleet left to refuel. And under cover of thick fog, Japanese ships slipped into the harbor and took more than five thousand men off the island in about an hour.",
    "show": {
     "k": "scene",
-    "bg": "harbor",
+    "bg": "ocean",
     "cast": [],
     "objects": [
      {
-      "k": "steamship",
+      "k": "battleship",
       "x": 0.4,
-      "s": 0.9,
+      "s": 0.8,
       "flag": "japan_war",
+      "label": "Japanese warships",
       "move": [
-       0.2,
-       0.7
+       0.25,
+       0.65
       ]
      }
     ],
