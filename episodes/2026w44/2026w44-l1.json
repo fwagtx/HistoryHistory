@@ -352,24 +352,26 @@
     ],
     "objects": [
      {
-      "k": "steamship",
+      "k": "sailship",
       "x": 0.3,
       "s": 0.9,
       "flag": "usa1859",
       "move": [
        0.1,
        0.35
-      ]
+      ],
+      "color": "#1E1C1B"
      },
      {
-      "k": "steamship",
+      "k": "sailship",
       "x": 0.7,
       "s": 0.8,
       "flag": "usa1859",
       "move": [
        0.55,
        0.75
-      ]
+      ],
+      "color": "#1E1C1B"
      }
     ],
     "stickers": [
@@ -503,8 +505,8 @@
     "cast": [
      {
       "id": "samurai",
-      "x": 0.12,
-      "pose": "wave",
+      "x": 0.1,
+      "pose": "cheer",
       "mood": "happy"
      },
      {
@@ -2000,10 +2002,11 @@
     "place": "Kanagawa, Japan · 1854",
     "objects": [
      {
-      "k": "steamship",
+      "k": "sailship",
       "x": 0.9,
       "s": 0.6,
-      "flag": "usa1859"
+      "flag": "usa1859",
+      "color": "#1E1C1B"
      },
      {
       "k": "flag",
@@ -2695,7 +2698,7 @@
    "say": "His most famous line is still quoted in Japan today.",
    "show": {
     "k": "quote",
-    "text": "...We have resolved to pave the way for a grand peace for all the generations to come by enduring the unendurable and suffering what is insufferable.",
+    "text": "...by enduring the unendurable and suffering what is insufferable.",
     "who": "Emperor Hirohito, radio broadcast, 15 August 1945"
    }
   },
