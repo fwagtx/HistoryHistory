@@ -130,7 +130,7 @@ def narrate(sentences, voice, mode, out_dir):
 import re
 
 NARRATOR = "am_michael"
-NARRATOR_SPEED = 1.02
+NARRATOR_SPEED = 1.12
 CHARACTER_VOICES = ["bm_george", "am_fenrir", "bm_lewis", "am_puck", "af_heart", "am_echo", "bf_emma",
                     "am_eric", "af_bella", "bm_daniel", "am_liam", "bf_alice"]
 POLISH = ("highpass=f=75,equalizer=f=140:t=q:w=1:g=2.5,equalizer=f=3200:t=q:w=1.5:g=2,equalizer=f=7500:t=q:w=2:g=-3,"
@@ -149,19 +149,17 @@ def _kokoro():
 
 
 def phrases(line):
-    """Split a line into spoken phrases, each with a speed factor and the pause that follows it."""
-    parts = re.findall(r"[^,;:?!.…]+(?:\.\.\.|…|[,;:?!.])*", line.replace("...", "…"))
+    """Split a line into sentences, each with a speed factor and the pause that follows it.
+    Whole sentences are spoken in one go so the voice flows through commas like a real narrator;
+    splitting at every comma made each fragment end like a full stop and sounded slow and choppy."""
+    parts = re.findall(r"[^?!.…]+(?:\.\.\.|…|[?!.])*", line.replace("...", "…"))
     out = []
     for p in (x.strip() for x in parts):
         if not re.search(r"[A-Za-z0-9]", p):
             continue  # stray quotes or dashes carry nothing to speak
-        words = len(p.split())
-        speed = 0.92 if words <= 3 else 1.0
-        if p.endswith("?"):
-            speed *= 1.04
         end = p[-1]
-        pause = {",": .12, ";": .2, ":": .25, "…": .38, "?": .32, "!": .3, ".": .28}.get(end, .1)
-        out.append((p.replace("…", "..."), speed, pause))
+        pause = {"…": .3, "?": .18, "!": .16, ".": .14}.get(end, .08)
+        out.append((p.replace("…", "..."), 1.0, pause))
     return out
 
 
@@ -169,7 +167,7 @@ def toon_narrate(beats, voices, out_dir):
     """Speak every beat. beats: [{"who": "N"|cast id, "say": str} or {"hold": seconds}].
     voices maps cast ids to Kokoro voices ("N" is the narrator). Returns timings with word times."""
     k = _kokoro()
-    parts, t, timed = [np.zeros(int(.35 * SR), np.float32)], .35, []
+    parts, t, timed = [np.zeros(int(.2 * SR), np.float32)], .2, []
     for b in beats:
         if not b.get("say"):
             hold = float(b.get("hold", 2.5))
@@ -178,21 +176,21 @@ def toon_narrate(beats, voices, out_dir):
             continue
         who = b.get("who", "N")
         voice = voices.get(who, NARRATOR)
-        base = NARRATOR_SPEED if who == "N" else 1.0
+        base = NARRATOR_SPEED if who == "N" else 1.06
         lang = "en-gb" if voice.startswith("b") else "en-us"
         t0, words = t, []
         for text, speed, pause in phrases(b["say"]):
             a, _ = k.create(text, voice=voice, speed=base * speed, lang=lang, trim=True)
             v = np.where(np.abs(a) > .008)[0]
             if len(v):
-                a = a[max(0, v[0] - 300): v[-1] + 900]
+                a = a[max(0, v[0] - 240): v[-1] + 600]
             a = a.astype(np.float32); f = int(.012 * SR); a[:f] *= np.linspace(0, 1, f); a[-f:] *= np.linspace(1, 0, f)
             dur = len(a) / SR
             ws = text.split(); w8 = [len(w) + 2 for w in ws]; tot = sum(w8); acc = t
             for w, n in zip(ws, w8):
                 words.append({"w": w, "s": round(acc, 3), "e": round(acc + dur * n / tot, 3)}); acc += dur * n / tot
             parts += [a, np.zeros(int(pause * SR), np.float32)]; t += dur + pause
-        end_pause = .45 if len(b["say"].split()) <= 6 else .3
+        end_pause = .22 if len(b["say"].split()) <= 6 else .1
         parts.append(np.zeros(int(end_pause * SR), np.float32))
         timed.append({"who": who, "say": b["say"], "t0": round(t0, 3), "t1": round(t, 3), "words": words}); t += end_pause
     parts.append(np.zeros(int(1.2 * SR), np.float32))
