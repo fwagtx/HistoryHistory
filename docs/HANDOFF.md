@@ -59,3 +59,18 @@ All of this is in `config/brand.json`.
   delete the China draft (Oct 3), verify the YouTube channel by phone (custom thumbnails need it),
   check whether the Sep 29 12:00 Wu Zetian short reached the new YouTube channel.
 - Check the first R2 upload in the HistoryPros environment, then delete Cloudflare token `historypros-r2-pipeline`.
+
+## What's in the repo (everything needed to keep producing)
+- `CLAUDE.md`, `docs/TOON_SPEC.md` (script format and style rules), `docs/AUTOMATION.md` (weekly runbook), this file.
+- `config/brand.json` (accounts, cadence, Pinterest board, R2 bucket), `config/topics.json` (topic queue).
+- `engine/` (cartoon engine: characters, wardrobe, scenes, objects, director, thumbnails) and `assets/fonts/`.
+- `pipeline/`: `toon_render.py` (render), `validate_toon.py` (checks), `tts.py` (narration), `toon_audio.py`,
+  `toon_week.py` (plan/publish/payloads), `r2.py` (media hosting), `toon_logo.py` (logos, banners).
+- `episodes/2026w40`–`2026w42` (all scheduled scripts), `episodes/pinned/` (the 3 preview videos),
+  `episodes/2026w39` (Diogenes short). `episodes/000`–`004` are the retired dark-style episodes.
+- `assets/logos/` (logos, avatars, watermark, YouTube banner).
+- `.claude/settings.json` (lets Metricool post updates run without a prompt).
+
+Not in the repo, on purpose: `media_out/` and `output/` (rendered videos and caches; every video can be
+re-rendered from its script, and the scheduled ones are already stored in Metricool) and `assets/models/`
+(voice models, downloaded automatically on first render).
