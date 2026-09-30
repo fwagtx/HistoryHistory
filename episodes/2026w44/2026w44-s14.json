@@ -2,7 +2,7 @@
  "id": "2026w44-s14",
  "format": "short",
  "date": "2026-10-28",
- "slot": "09:00",
+ "slot": "18:00",
  "title": "Battleships Fired 518 Shells at Nothing",
  "hook": "THEY SHOT AT NOTHING",
  "music": "playful",
@@ -75,7 +75,7 @@
   },
   {
    "who": "N",
-   "say": "One foggy night, their radar showed several ships coming closer.",
+   "say": "One foggy night, their radar, which spots faraway ships using radio waves, showed several ships coming closer.",
    "show": {
     "k": "scene",
     "bg": "deck",
@@ -132,7 +132,7 @@
   },
   {
    "who": "N",
-   "say": "The ships blasted away into the fog. Then the radar dots simply vanished.",
+   "say": "The ships blasted away into the fog. Then the radar dots, or pips, simply vanished.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -153,12 +153,12 @@
   },
   {
    "who": "N",
-   "say": "There were no enemy ships. One popular theory: the radar picked up huge flocks of seabirds.",
+   "say": "There were no enemy ships. Experts think the radar picked up echoes from faraway mountains.",
    "show": {
     "k": "card",
     "label": "The Battle of the Pips",
     "big": "0 HITS",
-    "sub": "maybe seabirds?"
+    "sub": "probably echoes from faraway mountains"
    }
   },
   {
@@ -219,6 +219,10 @@
  "sources": [
   "https://en.wikipedia.org/wiki/Battle_of_the_Pips",
   "https://military-history.fandom.com/wiki/Battle_of_the_Pips",
-  "https://en.wikipedia.org/wiki/Japanese_occupation_of_Kiska"
- ]
+  "https://en.wikipedia.org/wiki/Japanese_occupation_of_Kiska",
+  "https://www.usni.org/magazines/proceedings/1958/february/battle-pips"
+ ],
+ "thumbnail": {
+  "text": "BATTLESHIPS SHOT AT NOTHING"
+ }
 }

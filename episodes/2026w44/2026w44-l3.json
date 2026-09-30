@@ -209,7 +209,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "February fifth, 1637. A packed auction in Alkmaar, a small town in the Dutch Republic.",
+   "say": "February fifth, 1637. A packed auction in Alkmaar, a small town in the Dutch Republic, today's Netherlands.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -321,7 +321,7 @@
     "k": "compare",
     "bg": "town",
     "left": {
-     "label": "1 tulip bulb",
+     "label": "1 tulip bulb: 5,200 guilders",
      "cast": [
       {
        "id": "bidder",
@@ -331,7 +331,7 @@
      ]
     },
     "right": {
-     "label": "1 nice house",
+     "label": "the price of a nice house",
      "cast": [
       {
        "id": "trader2",
@@ -343,11 +343,11 @@
   },
   {
    "who": "N",
-   "say": "That's about what a nice house cost back then."
+   "say": "A skilled craftsman earned about three hundred guilders a year. So this bulb cost about seventeen years of pay, roughly the price of a nice house."
   },
   {
    "who": "N",
-   "say": "Days later, the whole tulip market crashes.",
+   "say": "Within days, the whole tulip market crashes.",
    "show": {
     "k": "scene",
     "bg": "tavern",
@@ -557,7 +557,7 @@
   },
   {
    "who": "N",
-   "say": "In 1554, a diplomat named Ogier Ghiselin de Busbecq arrived to make peace for the Habsburgs, the family ruling Austria.",
+   "say": "In 1554, the Habsburgs, the family ruling Austria, sent a diplomat to make peace with Sultan Suleiman the Magnificent. His name was Ogier Ghiselin de Busbecq.",
    "show": {
     "k": "scene",
     "bg": "islamic",
@@ -932,7 +932,7 @@
   },
   {
    "who": "N",
-   "say": "Everyone wanted some, but Clusius didn't want to share. So, the story goes, thieves raided his garden at night.",
+   "say": "Everyone wanted some, but Clusius didn't want to share. So thieves raided his garden and stole more than a hundred bulbs.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -964,7 +964,7 @@
   },
   {
    "who": "N",
-   "say": "If that's true, some of Holland's very first tulips were stolen goods."
+   "say": "So some of Holland's very first tulips were stolen goods."
   },
   {
    "hold": 2.5,
@@ -1084,7 +1084,7 @@
   },
   {
    "who": "N",
-   "say": "Nobody figured out the virus until the 1920s. So people were paying fortunes for sick plants."
+   "say": "Nobody figured that out until 1928, when a scientist in England named Dorothy Cayley showed it. So people were paying fortunes for sick plants."
   },
   {
    "who": "N",
@@ -1127,7 +1127,7 @@
   },
   {
    "who": "N",
-   "say": "Historians think he was Adriaan Pauw, a rich Amsterdam official. And he would not sell."
+   "say": "Many historians think he was Adriaan Pauw, a rich Amsterdam official. And he would not sell."
   },
   {
    "who": "trader1",
@@ -1184,10 +1184,10 @@
   },
   {
    "who": "N",
-   "say": "By 1637, according to one account, the asking price for a single Semper Augustus bulb was ten thousand guilders.",
+   "say": "By 1637, one account put the price of a single Semper Augustus bulb at ten thousand guilders. That's over thirty years of a craftsman's pay.",
    "show": {
     "k": "card",
-    "label": "Asking price for one Semper Augustus bulb, 1637 (one account)",
+    "label": "Claimed price of one Semper Augustus bulb, 1637 (one account)",
     "big": "10,000 guilders",
     "sub": "a skilled worker earned about 300 a year"
    }
@@ -1261,7 +1261,7 @@
   },
   {
    "who": "N",
-   "say": "But there was a problem. Tulips bloom in spring. The rest of the year, the bulbs sit underground.",
+   "say": "But there was a problem. Tulips bloom for just a few weeks in spring. For most of the year, the bulbs sit underground.",
    "show": {
     "k": "scene",
     "bg": "snow",
@@ -1289,7 +1289,7 @@
   },
   {
    "who": "N",
-   "say": "So traders didn't swap bulbs. They swapped promises."
+   "say": "So in winter, traders didn't swap bulbs. They swapped promises."
   },
   {
    "who": "N",
@@ -1488,11 +1488,11 @@
   },
   {
    "who": "N",
-   "say": "Great news for the kids. But it was the very top. Nobody knew it yet, but the party was about to end."
+   "say": "Great news for the kids. But it was the very top, and the party was already ending."
   },
   {
    "who": "N",
-   "say": "In early February 1637, at a routine tulip sale in Haarlem, something strange happened. The buyers just didn't show up.",
+   "say": "That same week, at a routine tulip sale in Haarlem, something strange happened. The buyers just didn't show up.",
    "show": {
     "k": "scene",
     "bg": "tavern",
@@ -1783,7 +1783,7 @@
   },
   {
    "who": "N",
-   "say": "Then in 1638, Haarlem's town leaders ruled that buyers could walk away by paying just three and a half percent of the price.",
+   "say": "Then in May 1638, Haarlem's town leaders ruled that buyers could walk away by paying just three and a half percent of the price.",
    "show": {
     "k": "card",
     "label": "What Haarlem buyers could pay to walk away, 1638",
@@ -1841,14 +1841,14 @@
   },
   {
    "who": "N",
-   "say": "In 1841, the Scottish writer Charles Mackay wrote a bestseller about crowds going crazy. He made it sound like the whole country lost its mind."
+   "say": "In 1841, the Scottish writer Charles Mackay wrote a famous book about crowds going crazy. He made it sound like the whole country lost its mind."
   },
   {
    "who": "N",
    "say": "Here's how he put it.",
    "show": {
     "k": "quote",
-    "text": "Nobles, citizens, farmers, mechanics, seamen, footmen, maidservants, even chimney-sweeps and old clotheswomen, dabbled in tulips.",
+    "text": "Nobles, citizens, farmers, mechanics, seamen, footmen, maid-servants, even chimney-sweeps and old clotheswomen, dabbled in tulips.",
     "who": "Charles Mackay, Extraordinary Popular Delusions and the Madness of Crowds (1841)"
    }
   },
@@ -1946,7 +1946,7 @@
   },
   {
    "who": "N",
-   "say": "In Mackay's version, the sailor ends up in jail. But historians have found no evidence it ever happened. Mackay was retelling an older story.",
+   "say": "In Mackay's version, the sailor spends months in jail. But historians have found no evidence it ever happened. Mackay was retelling an older story.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -2025,7 +2025,7 @@
    "say": "She found the traders were mostly well-off merchants and craftsmen. Not chimney sweeps.",
    "show": {
     "k": "card",
-    "label": "People Goldgar found paying over 300 guilders for a bulb",
+    "label": "People Goldgar found who spent over 300 guilders on bulbs",
     "big": "37",
     "sub": "300 guilders was about a year's pay for a skilled worker"
    }
@@ -2036,7 +2036,7 @@
   },
   {
    "who": "N",
-   "say": "But she found no suicides and almost no bankruptcies caused by tulips. And the economist Peter Garber argued that even the rare-bulb prices weren't as crazy as they look."
+   "say": "But she found no sign of anyone jumping into canals. And she couldn't find a single person who clearly went broke because of tulips. The economist Peter Garber even argued that rare-bulb prices weren't as crazy as they look."
   },
   {
    "who": "N",
@@ -2107,7 +2107,7 @@
   },
   {
    "who": "N",
-   "say": "And the tulip wasn't done. Almost a century later, it had a big comeback where it started, in the Ottoman Empire.",
+   "say": "And the tulip wasn't done. About eighty years later, it had a big comeback where it started, in the Ottoman Empire.",
    "show": {
     "k": "map",
     "lon": 29,
@@ -2150,7 +2150,7 @@
     "place": "Istanbul · 1720s",
     "tag": {
      "id": "ahmed",
-     "text": "Sultan Ahmed III"
+     "text": "Sultan Ahmed III, Ottoman ruler"
     },
     "objects": [
      {
@@ -2245,6 +2245,15 @@
   "https://en.wikipedia.org/wiki/Extraordinary_Popular_Delusions_and_the_Madness_of_Crowds",
   "https://www.theparisreview.org/blog/2014/02/03/tulipomania/",
   "https://en.wikipedia.org/wiki/Tulip_Period",
-  "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/tulip-era-ottoman-empire"
+  "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/tulip-era-ottoman-empire",
+  "https://en.wikipedia.org/wiki/Adriaan_Pauw",
+  "https://en.wikipedia.org/wiki/Hortus_Botanicus_Leiden",
+  "https://www.jic.ac.uk/blog/why-do-tulips-break/",
+  "https://www.uni-frankfurt.de/51237033/Case_Study_2010.pdf",
+  "https://www.atlasobscura.com/articles/semper-augustus-tulip-netherlands",
+  "https://www.nature.com/articles/s41598-022-13378-9",
+  "https://www.nber.org/system/files/working_papers/w22065/w22065.pdf",
+  "https://www.ebsco.com/research-starters/arts-and-entertainment/tulip-age",
+  "https://en.wikipedia.org/wiki/Ahmed_III"
  ]
 }

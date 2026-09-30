@@ -1,8 +1,8 @@
 {
  "id": "2026w44-s19",
  "format": "short",
- "date": "2026-10-28",
- "slot": "09:00",
+ "date": "2026-10-29",
+ "slot": "18:00",
  "title": "The Roman General Who Ignored the Warning",
  "hook": "HE WAS WARNED",
  "music": "playful",
@@ -151,7 +151,7 @@
    "say": "Then another chief, Segestes, told Varus that Arminius was planning a revolt.",
    "show": {
     "k": "scene",
-    "bg": "tavern",
+    "bg": "night",
     "cast": [
      {
       "id": "segestes",
@@ -168,9 +168,9 @@
     ],
     "objects": [
      {
-      "k": "barrel",
-      "x": 0.12,
-      "s": 0.5
+      "k": "fire",
+      "x": 0.5,
+      "s": 0.8
      }
     ],
     "tag": {
@@ -215,7 +215,7 @@
   },
   {
    "who": "N",
-   "say": "Soon after, Varus marched three legions onto a narrow path between forest and swamp, and the tribes attacked.",
+   "say": "Soon after, Varus led three legions, at least fifteen thousand soldiers, into a forest trap set by Arminius.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -248,7 +248,7 @@
   },
   {
    "who": "N",
-   "say": "After days of fighting, almost the whole army was destroyed, and Rome never conquered Germania.",
+   "say": "After days of fighting, almost the whole army was destroyed, and Rome never conquered most of Germania.",
    "show": {
     "k": "card",
     "label": "Teutoburg Forest, 9 AD",
@@ -288,6 +288,10 @@
  "sources": [
   "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
   "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/",
-  "https://en.wikipedia.org/wiki/Segestes"
- ]
+  "https://en.wikipedia.org/wiki/Segestes",
+  "https://www.poetryintranslation.com/PITBR/Latin/AnnalsBookI-55to81.php"
+ ],
+ "thumbnail": {
+  "text": "ROMAN GENERAL IGNORED A WARNING"
+ }
 }

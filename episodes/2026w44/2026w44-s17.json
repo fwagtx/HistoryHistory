@@ -1,8 +1,8 @@
 {
  "id": "2026w44-s17",
  "format": "short",
- "date": "2026-10-28",
- "slot": "09:00",
+ "date": "2026-10-29",
+ "slot": "12:00",
  "title": "One Vague Order Sent the Light Brigade the Wrong Way",
  "hook": "THE WRONG GUNS",
  "music": "playful",
@@ -148,7 +148,7 @@
   },
   {
    "who": "raglan",
-   "say": "The cavalry is to attack immediately!",
+   "say": "Stop them taking those guns. Immediately!",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -178,7 +178,7 @@
   },
   {
    "who": "N",
-   "say": "Down in the valley, cavalry commander Lord Lucan couldn't see those cannons.",
+   "say": "Nolan, a messenger, took it to cavalry commander Lord Lucan, who couldn't see those cannons.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -215,7 +215,7 @@
   },
   {
    "who": "N",
-   "say": "The messenger seemed to point at different cannons, at the far end of a long valley.",
+   "say": "Nolan seemed to point at different cannons, at the far end of a long valley.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -245,7 +245,11 @@
       "at": 1.2,
       "color": "#A8322A"
      }
-    ]
+    ],
+    "tag": {
+     "id": "nolan",
+     "text": "Captain Louis Nolan"
+    }
    }
   },
   {
@@ -319,6 +323,10 @@
  "sources": [
   "https://en.wikipedia.org/wiki/Charge_of_the_Light_Brigade",
   "https://www.historic-uk.com/HistoryUK/HistoryofBritain/Charge-Of-The-Light-Brigade/",
-  "https://victorianweb.org/history/crimea/chargelb.html"
- ]
+  "https://victorianweb.org/history/crimea/chargelb.html",
+  "https://www.nam.ac.uk/explore/their-own-words-captain-louis-nolan"
+ ],
+ "thumbnail": {
+  "text": "CAVALRY CHARGED THE WRONG GUNS"
+ }
 }
