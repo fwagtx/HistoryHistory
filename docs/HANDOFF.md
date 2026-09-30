@@ -38,7 +38,7 @@ All of this is in `config/brand.json`.
 ## Schedule (as of Sep 30, 2026)
 - Everything through **Oct 18** is scheduled in Metricool (2026w40–w42): 5 shorts a day on Instagram, Facebook,
   TikTok, YouTube and Pinterest; long-form on Facebook 11:00, YouTube 16:00 and a Pinterest pin 16:00.
-  AI labels off everywhere; every post has a thumbnail.
+  AI labels off everywhere; every post has a thumbnail except the Diogenes YouTube-only re-post (Oct 1, 10:30), which never had one made.
 - Changes made on Sep 29: the Weirdest Deaths, Biggest Heists, Ridiculous Wars and Rome long-forms were moved to
   publish on YouTube on Sep 29 (evening). The China long-form re-post (Oct 3) is a **draft** (the owner uploaded
   China to the new channel by hand); it can be deleted in the Metricool planner. Seven cartoon shorts that first
