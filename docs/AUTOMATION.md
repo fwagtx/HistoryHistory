@@ -1,6 +1,6 @@
 # Weekly production runbook
 
-Once a week (Tuesday, via a Claude Code routine), one session produces the whole week that starts **13 days later**:
+Once a week (Tuesday, via a Claude Code routine), one session produces the next week that isn't scheduled yet (the week starting 13 days later, or the first week after it with no `scheduled.json`, so weeks queued ahead are skipped and every run adds one more week at the end):
 
 - 3 long-form videos of about 10 minutes: Mon, Wed and Fri.
 - 35 shorts: 5 a day.
@@ -18,11 +18,11 @@ It schedules all of it in Metricool for **History Pros only** (brand **7081960**
 ## 1. Pick the week and its topics
 
 ```
-python pipeline/toon_week.py target          # e.g. 2026w42
+python pipeline/toon_week.py target          # e.g. 2026w43 (first unscheduled week)
 python pipeline/toon_week.py topics 2026w42  # marks the top queued Mon/Wed/Fri topics as used and prints them
 ```
 
-- If `episodes/<week>/scheduled.json` already exists, the week is done; stop.
+- `target` already skips weeks that have `episodes/<week>/scheduled.json`, so the week it prints still needs doing.
 - If `episodes/<week>/` already has scripts from an interrupted run, reuse them.
 
 ## 2. Keep the topic backlog topped up

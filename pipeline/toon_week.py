@@ -186,12 +186,19 @@ def payloads(week_id, base=None):
 
 
 def target(today=None):
-    """The week to produce now: the ISO week that starts 7–13 days from today (production runs two weeks ahead)."""
+    """The week to produce now: the first ISO week without episodes/<week>/scheduled.json, starting from the week
+    that begins 7–13 days from today. Weeks already scheduled ahead are skipped, so every run adds one more week
+    at the end of the queue and the lead never shrinks."""
     today = today or date.today()
     mon = today + timedelta(days=(7 - today.weekday()) % 7 or 7) + timedelta(days=7)
-    y, w, _ = mon.isocalendar()
-    print(f"{y}w{w:02d}")
-    return f"{y}w{w:02d}"
+    while True:
+        y, w, _ = mon.isocalendar()
+        week_id = f"{y}w{w:02d}"
+        if not (ROOT / "episodes" / week_id / "scheduled.json").exists():
+            break
+        mon += timedelta(days=7)
+    print(week_id)
+    return week_id
 
 
 def pick_topics(week_id):
