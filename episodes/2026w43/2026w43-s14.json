@@ -1,0 +1,313 @@
+{
+ "id": "2026w43-s14",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "The Princess Who Wrestled Her Suitors",
+ "hook": "BEAT HER OR PAY",
+ "music": "playful",
+ "cast": {
+  "khutulun": {
+   "hat": "mongol",
+   "hatColor": "#A8322A",
+   "outfit": "fur",
+   "color": "#A8322A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Khutulun"
+  },
+  "suitor": {
+   "preset": "mongol",
+   "color": "#2F4A6A",
+   "hatColor": "#2F4A6A",
+   "mood": "smug"
+  },
+  "kaidu": {
+   "preset": "mongol",
+   "beard": "full",
+   "color": "#6A4A2A",
+   "hat": "crown",
+   "name": "Kaidu Khan"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "polo": {
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "hat": "beret",
+   "hatColor": "#6A3E8E",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "book",
+   "name": "Marco Polo"
+  }
+ },
+ "voices": {
+  "khutulun": "af_heart",
+  "suitor": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Mongol princess made every man who wanted to marry her wrestle her first.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "smug",
+      "enter": "pop"
+     },
+     {
+      "id": "horse",
+      "x": 0.72
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "place": "Central Asia · around 1280",
+    "tag": {
+     "id": "khutulun",
+     "text": "Khutulun, Mongol princess"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her name was Khutulun, and her great-great-grandfather was Genghis Khan.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.3,
+      "pose": "hips"
+     },
+     {
+      "id": "kaidu",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "kaidu",
+     "text": "Kaidu Khan, her father"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "She rode into battle next to her father, and Marco Polo says no young man could beat her.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout",
+      "hold": "bow"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "khutulun",
+   "say": "Want to marry me? Beat me in a wrestling match.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "suitor",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "khutulun"
+   }
+  },
+  {
+   "who": "suitor",
+   "say": "And if I lose?"
+  },
+  {
+   "who": "khutulun",
+   "say": "Then I keep your horses.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.35,
+      "pose": "cross",
+      "mood": "happy"
+     },
+     {
+      "id": "suitor",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Marco Polo, the Italian traveller, wrote that she won more than ten thousand horses this way.",
+   "show": {
+    "k": "card",
+    "label": "Horses won",
+    "big": "10,000",
+    "sub": "Marco Polo's number, likely exaggerated",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.72,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think that number is pumped up, but a Persian historian wrote about her too, so she was real.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.45,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "KHUTULUN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REAL PERSON",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the end she married a man she chose herself. No wrestling needed.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.2,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "To marry this Mongol princess, you had to beat her at wrestling. Nobody did.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #khutulun #mongols #womeninhistory #historytok",
+ "youtube_title": "The Princess Who Wrestled Her Suitors #shorts",
+ "tags": [
+  "khutulun",
+  "mongol princess",
+  "marco polo",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Khutulun",
+  "https://www.laphamsquarterly.org/roundtable/wrestler-princess",
+  "https://www.mentalfloss.com/article/560956/mongolian-princess-who-challenged-her-suitors-wrestling-match-and-always-won"
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "id": "2026w43-s28",
+ "format": "short",
+ "date": "2026-10-23",
+ "slot": "09:00",
+ "title": "They Moved to a Country That Didn't Exist",
+ "hook": "THE COUNTRY WAS FAKE",
+ "music": "playful",
+ "cast": {
+  "settler": {
+   "preset": "pioneer",
+   "skin": "peach",
+   "hat": "bonnet",
+   "hatColor": "#8A6A3A",
+   "outfit": "dress",
+   "color": "#4A6A8A",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "name": "Poyais settler"
+  },
+  "macgregor": {
+   "skin": "light",
+   "hat": "bicorne",
+   "outfit": "napoleon",
+   "color": "#2A3A8A",
+   "color2": "#D4A52A",
+   "hair": "curly",
+   "hairColor": "#6A3A1E",
+   "name": "Gregor MacGregor"
+  }
+ },
+ "voices": {
+  "settler": "bf_emma",
+  "macgregor": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Hundreds of people sailed to a new country. When they landed, it wasn't there.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "place": "Leith, Scotland · 1823",
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.9,
+      "flag": "uk"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The country was Poyais, invented by a Scottish soldier named Gregor MacGregor.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "tag": {
+     "id": "macgregor",
+     "text": "Gregor MacGregor, the fake prince"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "text": "POYAIS",
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He promised a capital city, rich farmland and friendly locals.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.7,
+      "label": "CAPITAL?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "settler",
+   "say": "Is there really an opera house?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "macgregor",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "settler"
+   }
+  },
+  {
+   "who": "macgregor",
+   "say": "The finest in the Americas, my dear."
+  },
+  {
+   "who": "N",
+   "say": "Settlers even swapped their savings for Poyais dollars, printed in Scotland.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1823 they landed on the coast of Honduras. There was no city. Only jungle.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "place": "Coast of Honduras · 1823",
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.7,
+      "label": "LUGGAGE"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fever spread, and more than half of the settlers died before rescue came.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.8
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.5,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They packed up their lives for a country that only existed on paper.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #scotland #poyais #conartist #historytok",
+ "youtube_title": "They Moved to a Country That Didn't Exist #shorts",
+ "tags": [
+  "poyais",
+  "gregor macgregor",
+  "scam",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Gregor_MacGregor",
+  "https://www.britannica.com/story/the-craziest-scam-gregor-macgregor-creates-his-own-country",
+  "https://www.historic-uk.com/HistoryUK/HistoryofScotland/Gregor-MacGregor-Prince-Of-Poyais/",
+  "https://crimereads.com/poyais-con-men-bonds-gregor-macgregor/",
+  "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais",
+  "https://en.wikipedia.org/wiki/List_of_ships_of_the_Poyais_scheme"
+ ]
+}

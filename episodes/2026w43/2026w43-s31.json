@@ -1,0 +1,275 @@
+{
+ "id": "2026w43-s31",
+ "format": "short",
+ "date": "2026-10-23",
+ "slot": "09:00",
+ "title": "The Safe That Fooled Paris for 20 Years",
+ "hook": "THE SAFE HELD A BRICK",
+ "music": "playful",
+ "cast": {
+  "therese": {
+   "skin": "light",
+   "outfit": "gown",
+   "color": "#8E2A5A",
+   "color2": "#D4A52A",
+   "hat": "bonnet",
+   "hatColor": "#6A1E3A",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "name": "Thérèse Humbert"
+  },
+  "banker": {
+   "preset": "banker",
+   "skin": "light",
+   "stache": "handlebar",
+   "hat": "tophat",
+   "name": "Paris banker"
+  }
+ },
+ "voices": {
+  "therese": "af_bella",
+  "banker": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "For twenty years, Paris bankers lent millions against a locked safe. Nobody looked inside.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips",
+      "enter": "pop"
+     }
+    ],
+    "place": "Paris, France · 1880s",
+    "tag": {
+     "id": "therese",
+     "text": "Thérèse Humbert"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 1.0,
+      "label": "THE SAFE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Thérèse Humbert said an American millionaire had left her a hundred million francs.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.72,
+      "s": 0.9
+     }
+    ],
+    "stickers": [
+     {
+      "text": "100,000,000 FRANCS",
+      "at": 1.2,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The money was locked in a safe while a court fight over the will went on.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "france",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "banker",
+   "say": "May I see the money, Madame?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.3,
+      "mood": "neutral"
+     },
+     {
+      "id": "therese",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "banker"
+   }
+  },
+  {
+   "who": "therese",
+   "say": "Sorry. The court says nobody may open it."
+  },
+  {
+   "who": "N",
+   "say": "So bankers lent her fortunes, and she lived in luxury.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1902, a court ordered the safe opened. Her family fled the night before.",
+   "show": {
+    "k": "map",
+    "lon": 0,
+    "lat": 44.5,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1902",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Madrid",
+      -3.7,
+      40.42,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      0.5,
+      45.5
+     ],
+     [
+      -1.8,
+      43.3
+     ],
+     [
+      -3.7,
+      40.42
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Inside, reports say, was a brick and an old English halfpenny. They were caught in Madrid.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.9,
+      "label": "1 BRICK"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's greatest scams.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Twenty years of loans backed by one locked safe.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #paris #conartist #scam #historytok",
+ "youtube_title": "The Safe That Fooled Paris for 20 Years #shorts",
+ "tags": [
+  "therese humbert",
+  "humbert affair",
+  "con artist",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Th%C3%A9r%C3%A8se_Humbert",
+  "https://www.cambridge.org/core/journals/journal-of-the-gilded-age-and-progressive-era/article/swindle-of-the-century-fraud-finance-and-femininity-in-the-gilded-age/488A50C43BDB0530130CCD720BCDB085",
+  "https://atlasobscura.com/articles/who-was-therese-humbert-scammer",
+  "https://www.edwardianpromenade.com/gossip/laffaire-humbert/"
+ ]
+}

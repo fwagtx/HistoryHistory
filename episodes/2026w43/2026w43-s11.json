@@ -1,0 +1,277 @@
+{
+ "id": "2026w43-s11",
+ "format": "short",
+ "date": "2026-10-19",
+ "slot": "09:00",
+ "title": "Kublai Khan Made Money From Tree Bark",
+ "hook": "MONEY MADE OF TREE BARK",
+ "music": "playful",
+ "cast": {
+  "kublai": {
+   "hat": "mongol",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Kublai Khan"
+  },
+  "polo": {
+   "outfit": "coat",
+   "color": "#A8322A",
+   "hat": "beret",
+   "hatColor": "#2A2A2A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Marco Polo"
+  }
+ },
+ "voices": {
+  "kublai": "bm_daniel",
+  "polo": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Kublai Khan made money out of tree bark, and Marco Polo couldn't believe it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "kublai",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "polo",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "place": "Khanbaliq (Beijing) · 1270s",
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TREE MONEY",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Kublai was Genghis Khan's grandson, and the Mongol emperor of China.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "kublai",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "kublai",
+     "text": "Kublai Khan, Mongol emperor of China"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His government printed money on paper made from the bark of mulberry trees.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kublai",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.9
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "polo",
+   "say": "Paper? You trade paper for silk and gold?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock",
+      "hold": "coin"
+     }
+    ],
+    "cam": "close",
+    "focus": "polo",
+    "tag": {
+     "id": "polo",
+     "text": "Marco Polo, merchant from Venice"
+    }
+   }
+  },
+  {
+   "who": "kublai",
+   "say": "It has my seal on it. Everyone accepts it. Everyone.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "kublai",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "kublai",
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Polo joked that the Khan had mastered alchemy, the old dream of making gold from cheap stuff.",
+   "show": {
+    "k": "card",
+    "label": "Marco Polo's verdict",
+    "big": "ALCHEMY",
+    "sub": "money from mulberry bark"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The catch? Later Yuan rulers printed far too much, and the money lost its value.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.65,
+      "s": 0.9
+     },
+     {
+      "k": "moneypile",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PRICES UP!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Europeans first heard about paper money from a guy who thought it was magic.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "place": "Venice · about 1300"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history of money and madness.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kublai",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "polo",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Kublai Khan printed money on tree bark. Marco Polo called it alchemy.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #kublaikhan #marcopolo #money #historytok",
+ "youtube_title": "Kublai Khan Made Money From Tree Bark #shorts",
+ "tags": [
+  "kublai khan",
+  "paper money",
+  "marco polo",
+  "yuan dynasty",
+  "history shorts"
+ ],
+ "sources": [
+  "https://afe.easia.columbia.edu/mongols/history/paper_money.htm",
+  "https://historyofinformation.com/detail.php?id=243",
+  "https://courses.lumenlearning.com/suny-worldhistory/chapter/trade-and-currency-under-the-yuan/",
+  "https://www.hoover.org/research/first-precious-metal-standard-monetary-policy-paper-money-under-mongols-china"
+ ]
+}

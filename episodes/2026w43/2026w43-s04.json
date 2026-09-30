@@ -1,0 +1,326 @@
+{
+ "id": "2026w43-s04",
+ "format": "short",
+ "date": "2026-10-19",
+ "slot": "09:00",
+ "title": "Why the Mongols Suddenly Left Europe",
+ "hook": "EUROPE'S LUCKY BREAK",
+ "music": "playful",
+ "cast": {
+  "ogedei": {
+   "hat": "mongol",
+   "outfit": "robe",
+   "color": "#2F6FC2",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "hold": "goblet",
+   "name": "Ögedei Khan"
+  },
+  "batu": {
+   "preset": "mongol",
+   "outfit": "armor",
+   "color": "#8A5A34",
+   "beard": "goatee",
+   "name": "Batu Khan"
+  },
+  "messenger": {
+   "preset": "mongol",
+   "hold": "letter",
+   "stache": null,
+   "color": "#A8322A"
+  },
+  "knight": {
+   "preset": "knight"
+  },
+  "knight2": {
+   "preset": "knight",
+   "hold": "shield"
+  },
+  "rider": {
+   "preset": "mongol",
+   "hold": "bow"
+  }
+ },
+ "voices": {
+  "messenger": "am_adam",
+  "batu": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1241 the Mongols crushed two European armies in three days. Then they turned around and left.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "smug"
+     },
+     {
+      "id": "knight",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "place": "Hungary · 1241",
+    "fx": [
+     "dust"
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They beat a Polish army at Legnica and a Hungarian army at Mohi, in April 1241.",
+   "show": {
+    "k": "map",
+    "lon": 20,
+    "lat": 49.5,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "April 1241",
+    "labels": [
+     [
+      "Legnica",
+      16.16,
+      51.2,
+      0
+     ],
+     [
+      "Mohi",
+      20.9,
+      47.95,
+      0
+     ],
+     [
+      "Poland",
+      19,
+      52.3,
+      0
+     ],
+     [
+      "Hungary",
+      19.5,
+      46.8,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      20.9,
+      47.95,
+      0.8,
+      "rgba(200,50,40,.45)"
+     ],
+     [
+      16.16,
+      51.2,
+      0.8,
+      "rgba(200,50,40,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But that December, far away in Mongolia, the Great Khan Ögedei died.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ogedei",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "ogedei",
+     "text": "Ögedei, the Great Khan"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEC 1241",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "messenger",
+   "say": "The Khan is dead! The princes have to choose a new one.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "messenger",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     },
+     {
+      "id": "batu",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "tag": {
+     "id": "batu",
+     "text": "Batu, Mongol commander"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "batu",
+   "say": "We're in the middle of Europe! Fine. Turn around.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "batu",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "batu"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians argue about how much that mattered. The horses were also short on grass, and stone castles slowed them down.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HISTORIANS DISAGREE",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Either way, in 1242 the Mongols pulled back east, and never pushed that deep into Europe again.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "knight",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "knight2",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that turned on one lucky break.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "knight",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "batu",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Mongols were winning in Europe. Then they just left.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mongols #medievalhistory #europe #historytok",
+ "youtube_title": "Why the Mongols Suddenly Left Europe #shorts",
+ "tags": [
+  "mongol invasion of europe",
+  "battle of mohi",
+  "legnica",
+  "ogedei khan",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/topic/Mongolian-invasion",
+  "https://en.wikipedia.org/wiki/%C3%96gedei_Khan",
+  "https://en.wikipedia.org/wiki/Battle_of_Mohi",
+  "https://en.wikipedia.org/wiki/Battle_of_Legnica",
+  "https://en.wikipedia.org/wiki/Mongol_invasion_of_Europe"
+ ]
+}

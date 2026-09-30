@@ -1,0 +1,240 @@
+{
+ "id": "2026w43-s33",
+ "format": "short",
+ "date": "2026-10-23",
+ "slot": "09:00",
+ "title": "The Forger Who Fooled Göring",
+ "hook": "HE FOOLED GÖRING",
+ "music": "playful",
+ "cast": {
+  "vanm": {
+   "skin": "light",
+   "outfit": "suit",
+   "color": "#3A4A5A",
+   "hair": "side",
+   "hairColor": "#6A5A4A",
+   "stache": "thin",
+   "hold": "pen",
+   "name": "Han van Meegeren"
+  },
+  "goring": {
+   "skin": "light",
+   "outfit": "ww2",
+   "color": "#8A9AAA",
+   "hair": "side",
+   "hairColor": "#6A5A3A",
+   "name": "Hermann Göring"
+  },
+  "investigator": {
+   "skin": "light",
+   "outfit": "uniform",
+   "color": "#6B6F3E",
+   "hat": "beret",
+   "hatColor": "#3A3A3A",
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "name": "Dutch investigator"
+  }
+ },
+ "voices": {
+  "vanm": "bm_george",
+  "investigator": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Dutch painter escaped a charge of helping the enemy by proving he was a forger.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.35,
+      "mood": "shock",
+      "enter": "pop"
+     },
+     {
+      "id": "investigator",
+      "x": 0.72,
+      "mood": "angry"
+     }
+    ],
+    "place": "Amsterdam, Netherlands · 1945",
+    "tag": {
+     "id": "vanm",
+     "text": "Han van Meegeren, painter"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "flag": "netherlands",
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1945, Allied officers found a Vermeer, a Dutch masterpiece, in the collection of top Nazi Hermann Göring.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "goring",
+      "x": 0.6,
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "goring",
+     "text": "Hermann Göring, Nazi leader"
+    },
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.25,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was traced back to Han van Meegeren, who had sold it. Selling a national treasure to the enemy could mean death.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "investigator",
+   "say": "You sold a Dutch treasure to the enemy.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "investigator",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "vanm",
+      "x": 0.7,
+      "mood": "shout"
+     }
+    ],
+    "cam": "close",
+    "focus": "investigator"
+   }
+  },
+  {
+   "who": "vanm",
+   "say": "It's not a Vermeer. I painted it myself!"
+  },
+  {
+   "who": "N",
+   "say": "Nobody believed him. So, with witnesses watching, he painted a brand new fake Vermeer.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "pen",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.72,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE #2",
+      "at": 1.2,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It worked. He was convicted of forgery instead, and got one year. He died in 1947 before serving it.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He had to paint a fake to prove he wasn't a traitor.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #art #vermeer #forgery #historytok",
+ "youtube_title": "The Forger Who Fooled Göring #shorts",
+ "tags": [
+  "han van meegeren",
+  "vermeer forgery",
+  "art forger",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Han_van_Meegeren",
+  "https://www.britannica.com/biography/Han-van-Meegeren",
+  "https://www.essentialvermeer.com/misc/van_meegeren.html",
+  "https://www.tweedewereldoorlog.nl/100voorwerpen/en/voorwerp/christ-and-the-adulteress/",
+  "https://www.historyhit.com/nazi-sympathiser-or-national-hero-the-strange-story-of-han-van-meegeren/"
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "id": "2026w43-s21",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "The Queen Who Fought the British Empire",
+ "hook": "THE QUEEN OF JHANSI",
+ "music": "playful",
+ "cast": {
+  "lakshmibai": {
+   "outfit": "tunic",
+   "color": "#C8553D",
+   "color2": "#E8C25A",
+   "hat": "turban",
+   "hatColor": "#E8C25A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "hold": "sword",
+   "name": "Rani Lakshmibai"
+  },
+  "damodar": {
+   "preset": "child",
+   "outfit": "tunic",
+   "color": "#E8C25A",
+   "skin": "tan",
+   "hairColor": "#1E1C1B"
+  },
+  "officer": {
+   "preset": "redcoat",
+   "stache": "bush",
+   "hold": "letter"
+  },
+  "rose": {
+   "preset": "redcoat",
+   "stache": "walrus",
+   "hat": "bicorne",
+   "name": "Sir Hugh Rose"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "lakshmibai": "bf_lily",
+  "officer": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1858, a young queen in India led her own army against the British Empire.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "lakshmibai",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ],
+    "place": "Jhansi, India · 1858",
+    "tag": {
+     "id": "lakshmibai",
+     "text": "Rani Lakshmibai of Jhansi"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was Lakshmibai, the Rani, or queen, of Jhansi, a small kingdom in northern India.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lakshmibai",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "palm",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When her husband died in 1853, the British East India Company refused to accept her adopted son as heir.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "officer",
+      "x": 0.62,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "damodar",
+      "x": 0.3,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.62,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "officer",
+   "say": "No heir, no kingdom. Jhansi is ours now.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "officer",
+      "x": 0.65,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "lakshmibai",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "officer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1857, a huge revolt broke out against British rule. Lakshmibai became one of its leaders.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "lakshmibai",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "horse",
+      "x": 0.72
+     }
+    ],
+    "fx": [
+     "smoke",
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When the British attacked Jhansi in 1858, she held them off for about two weeks, then escaped at night.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "lakshmibai",
+      "x": 0.45,
+      "pose": "run",
+      "walk": [
+       0.2,
+       0.6
+      ]
+     },
+     {
+      "id": "horse",
+      "x": 0.72,
+      "walk": [
+       0.45,
+       0.85
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She kept fighting, and died in battle near Gwalior, dressed as a cavalry soldier, still in her twenties.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "lakshmibai",
+      "x": 0.45,
+      "pose": "salute",
+      "hold": "sword"
+     },
+     {
+      "id": "horse",
+      "x": 0.75
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ],
+    "place": "Gwalior · June 1858"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The British general who fought her reportedly called her the most dangerous of all the rebel leaders.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "rose",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "rose",
+     "text": "Sir Hugh Rose, British general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lakshmibai",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The British took her kingdom. So she went to war with an empire.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ranilakshmibai #india #indianhistory #womeninhistory",
+ "youtube_title": "The Queen Who Fought the British Empire #shorts",
+ "tags": [
+  "rani of jhansi",
+  "lakshmibai",
+  "1857 rebellion",
+  "indian history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rani_of_Jhansi",
+  "https://en.wikipedia.org/wiki/Siege_of_Jhansi",
+  "https://www.qrhmuseum.com/lakshmibai-the-rani-of-jhansi",
+  "https://www.britannica.com/biography/Lakshmi-Bai"
+ ]
+}

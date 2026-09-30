@@ -1,0 +1,263 @@
+{
+ "id": "2026w43-s08",
+ "format": "short",
+ "date": "2026-10-19",
+ "slot": "09:00",
+ "title": "Are Millions of Men Related to Genghis Khan?",
+ "hook": "IS GENGHIS YOUR ANCESTOR?",
+ "music": "playful",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "scientist": {
+   "preset": "scientist"
+  }
+ },
+ "voices": {
+  "scientist": "af_bella",
+  "genghis": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One famous study suggested one in two hundred men alive might share Genghis Khan's family line.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "place": "United Kingdom · 2003",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1 IN 200?",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2003, geneticists studied the Y chromosome, a bit of DNA passed from father to son.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "FATHER → SON"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Across a big part of Asia, about one in twelve men carried almost the same version.",
+   "show": {
+    "k": "map",
+    "lon": 58,
+    "lat": 45,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "2003 study",
+    "labels": [
+     [
+      "Caspian Sea",
+      51,
+      42,
+      0
+     ],
+     [
+      "Central Asia",
+      64,
+      45,
+      0
+     ],
+     [
+      "→ to the Pacific",
+      67,
+      50,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      62,
+      45,
+      8,
+      "rgba(200,50,40,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It seemed to start in Mongolia about a thousand years ago and then spread fast.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "genghis",
+     "text": "Genghis Khan"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "scientist",
+   "say": "So who in Mongolia back then had loads of powerful sons?",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "smug"
+     },
+     {
+      "id": "genghis",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "scientist"
+   }
+  },
+  {
+   "who": "genghis",
+   "say": "Don't look at me.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "genghis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The team suggested Genghis and his family. Later studies questioned the link, so it's a maybe.",
+   "show": {
+    "k": "card",
+    "label": "Men worldwide with this family line",
+    "big": "0.5%",
+    "sub": "about 8% across a big part of Asia"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Either way, it's a family line carried by roughly sixteen million men.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history hiding in your DNA.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "genghis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A 2003 study found one family line in about 16 million men. Genghis Khan? Maybe.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #dna #science #historytok",
+ "youtube_title": "Are Millions of Men Related to Genghis Khan? #shorts",
+ "tags": [
+  "genghis khan",
+  "dna",
+  "genetics",
+  "y chromosome",
+  "history shorts"
+ ],
+ "sources": [
+  "https://pubmed.ncbi.nlm.nih.gov/12592608/",
+  "https://en.wikipedia.org/wiki/Genetic_descent_from_Genghis_Khan",
+  "https://www.mcgill.ca/oss/article/medical-critical-thinking-history/genghis-khan-hiding-inside-your-dna",
+  "https://www.johnhawks.net/p/genomes-from-tombs-of-the-golden"
+ ]
+}

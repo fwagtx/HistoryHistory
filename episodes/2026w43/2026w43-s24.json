@@ -1,0 +1,329 @@
+{
+ "id": "2026w43-s24",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "Her Ex-Husband Tried to Steal Her Throne. Twice.",
+ "hook": "HER EX TRIED TWICE",
+ "music": "playful",
+ "cast": {
+  "tamar": {
+   "preset": "queen",
+   "color": "#8A2A3A",
+   "color2": "#E8C25A",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Queen Tamar"
+  },
+  "yury": {
+   "preset": "noble",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#4A5A3A",
+   "beard": "full",
+   "hairColor": "#C8902A",
+   "skin": "peach",
+   "name": "Yury Bogolyubsky"
+  },
+  "general": {
+   "preset": "knight",
+   "color": "#8A2A3A",
+   "stache": "handlebar"
+  }
+ },
+ "voices": {
+  "tamar": "af_sky",
+  "yury": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A medieval queen divorced her husband, and he came back with an army to take her throne.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "tamar",
+      "x": 0.35,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "yury",
+      "x": 0.7,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Georgia · 1191"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was Tamar, the ruler of Georgia, a kingdom between the Black Sea and the Caspian Sea.",
+   "show": {
+    "k": "map",
+    "lon": 43.5,
+    "lat": 42.0,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "1191",
+    "labels": [
+     [
+      "Tbilisi",
+      44.79,
+      41.72,
+      0
+     ],
+     [
+      "Black Sea",
+      38.5,
+      43.0,
+      0
+     ],
+     [
+      "Caspian Sea",
+      50.5,
+      41.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      43.5,
+      42.0,
+      1.5,
+      "rgba(168,50,42,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1185, she married a Russian prince named Yury. It went badly, and she divorced and exiled him.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "tamar",
+      "x": 0.62,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "yury",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "tamar",
+     "text": "Queen Tamar of Georgia"
+    }
+   }
+  },
+  {
+   "who": "yury",
+   "say": "I'll be back. With an army.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "yury",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "yury",
+    "tag": {
+     "id": "yury",
+     "text": "Yury, her ex-husband"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1191, rebel nobles crowned Yury king. Tamar's army crushed the revolt, and she pardoned him.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "general",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "yury",
+      "x": 0.72,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "tamar",
+   "say": "You're forgiven. Don't do it again.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "tamar",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "yury",
+      "x": 0.72,
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "tamar"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He did it again. He was beaten again, and this time kicked out of Georgia for good.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "yury",
+      "x": 0.45,
+      "pose": "run",
+      "walk": [
+       0.4,
+       0.8
+      ],
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROUND TWO: LOST",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tamar went on to rule Georgia in its golden age. Her ex went down in history as the guy who lost twice.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "tamar",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.8,
+      "s": 0.4
+     },
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tamar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "general",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Her ex-husband raised an army to take her throne. It did not go well for him.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #queentamar #georgia #medievalhistory #womeninhistory",
+ "youtube_title": "Her Ex-Husband Tried to Steal Her Throne. Twice. #shorts",
+ "tags": [
+  "queen tamar",
+  "tamar of georgia",
+  "medieval history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tamar_of_Georgia",
+  "https://en.wikipedia.org/wiki/Yury_Bogolyubsky",
+  "https://www.britannica.com/biography/Tamar-queen-of-Georgia"
+ ]
+}

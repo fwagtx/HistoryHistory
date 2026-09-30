@@ -1,0 +1,259 @@
+{
+ "id": "2026w43-s05",
+ "format": "short",
+ "date": "2026-10-19",
+ "slot": "09:00",
+ "title": "Two Storms Saved Japan From the Mongols",
+ "hook": "SAVED BY TWO STORMS",
+ "music": "playful",
+ "cast": {
+  "kublai": {
+   "hat": "mongol",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Kublai Khan"
+  },
+  "samurai": {
+   "preset": "samurai"
+  }
+ },
+ "voices": {
+  "kublai": "bm_daniel",
+  "samurai": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Twice the Mongols tried to invade Japan, and twice storms wrecked their fleets.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "cam": "shake",
+    "fx": [
+     "rain"
+    ],
+    "place": "Off Japan · 1274 and 1281",
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.3,
+      "s": 0.8
+     },
+     {
+      "k": "junk",
+      "x": 0.7,
+      "s": 0.7,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TWICE!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Kublai Khan, Genghis Khan's grandson and ruler of China, wanted Japan to submit.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "kublai",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "place": "China · 1270s",
+    "tag": {
+     "id": "kublai",
+     "text": "Kublai Khan, Mongol emperor of China"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "kublai",
+   "say": "Japan ignored my letters? Send the ships.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "kublai",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close",
+    "focus": "kublai"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1274 a big fleet landed at Hakata Bay. Japanese warriors fought hard, then a storm battered the ships.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "samurai",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout",
+      "hold": "sword"
+     }
+    ],
+    "place": "Hakata Bay, Japan · 1274",
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1281 Kublai sent an even bigger fleet. This time a typhoon smashed much of it.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "cam": "shake",
+    "fx": [
+     "rain"
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.4,
+      "s": 0.9
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TYPHOON",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "samurai",
+   "say": "Even the wind fights for Japan!",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "samurai",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "samurai",
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Japanese called it kamikaze, meaning divine wind.",
+   "show": {
+    "k": "card",
+    "label": "The Japanese name for the storms",
+    "big": "KAMIKAZE",
+    "sub": "\"divine wind\""
+   }
+  },
+  {
+   "who": "N",
+   "say": "Japan's warriors did the fighting, but the storms became the legend.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "samurai",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "stone sea wall"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history where the weather won.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "samurai",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "kublai",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Mongols conquered half of Asia. The weather beat them twice.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #kamikaze #japan #samurai #historytok",
+ "youtube_title": "Two Storms Saved Japan From the Mongols #shorts",
+ "tags": [
+  "kamikaze",
+  "mongol invasion of japan",
+  "kublai khan",
+  "samurai",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/event/kamikaze-of-1274-and-1281",
+  "https://en.wikipedia.org/wiki/Kamikaze_(typhoon)",
+  "https://www.worldhistory.org/article/1415/the-mongol-invasions-of-japan-1274--1281-ce/",
+  "https://www.nationalgeographic.com/science/article/141104-kamikaze-kublai-khan-winds-typhoon-japan-invasion"
+ ]
+}

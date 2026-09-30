@@ -1,0 +1,278 @@
+{
+ "id": "2026w43-s25",
+ "format": "short",
+ "date": "2026-10-23",
+ "slot": "09:00",
+ "title": "He Sold the Eiffel Tower. Twice.",
+ "hook": "HE SOLD THE EIFFEL TOWER",
+ "music": "playful",
+ "cast": {
+  "lustig": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#2A2A2A",
+   "stache": "thin",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "Victor Lustig"
+  },
+  "poisson": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "bowler",
+   "stache": "bush",
+   "hairColor": "#5A4A3A",
+   "outfit": "suit",
+   "color": "#6A5A4A",
+   "name": "André Poisson"
+  }
+ },
+ "voices": {
+  "lustig": "am_fenrir",
+  "poisson": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A con man sold the Eiffel Tower. Then he came back and tried again.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips",
+      "enter": "pop"
+     }
+    ],
+    "place": "Paris, France · 1925",
+    "tag": {
+     "id": "lustig",
+     "text": "Victor Lustig, con man"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "flag": "france",
+      "s": 0.8
+     },
+     {
+      "k": "sign",
+      "x": 0.2,
+      "text": "FOR SALE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1925, Victor Lustig read that the tower needed very expensive repairs.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.8,
+      "text": "TOWER NEEDS REPAIRS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he faked government papers and invited scrap metal dealers to a fancy hotel.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "poisson",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "lustig",
+   "say": "The government is selling the tower for scrap. It's top secret.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "poisson",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "lustig"
+   }
+  },
+  {
+   "who": "poisson",
+   "say": "I'll take it!"
+  },
+  {
+   "who": "N",
+   "say": "A dealer named André Poisson paid, and Lustig fled to Vienna with the money.",
+   "show": {
+    "k": "map",
+    "lon": 9,
+    "lat": 48.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1925",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      8,
+      48.6
+     ],
+     [
+      12,
+      48.2
+     ],
+     [
+      16.37,
+      48.21
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Poisson was too embarrassed to tell the police. So Lustig came back and pitched a new dealer!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That one called the police, and Lustig ran. Most details come from a 1961 book by an agent who later caught him.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.7,
+      "text": "1961 BOOK"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's greatest scams.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "poisson",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He 'sold' the Eiffel Tower for scrap, then came back to do it again.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #eiffeltower #conartist #paris #historytok",
+ "youtube_title": "He Sold the Eiffel Tower. Twice. #shorts",
+ "tags": [
+  "victor lustig",
+  "eiffel tower",
+  "con artist",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Victor_Lustig",
+  "https://www.smithsonianmag.com/history/man-who-sold-eiffel-tower-twice-180958370/",
+  "https://www.ebsco.com/research-starters/biography/victor-lustig/",
+  "https://www.mentalfloss.com/article/12809/smooth-operator-how-victor-lustig-sold-eiffel-tower",
+  "https://historyfacts.com/world-history/fact/a-con-artist-sold-the-eiffel-tower-for-scrap-metal-twice/",
+  "https://en.wikipedia.org/wiki/Eiffel_Tower"
+ ]
+}

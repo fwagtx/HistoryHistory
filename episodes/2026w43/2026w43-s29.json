@@ -1,0 +1,264 @@
+{
+ "id": "2026w43-s29",
+ "format": "short",
+ "date": "2026-10-23",
+ "slot": "09:00",
+ "title": "The Original Ponzi Scheme",
+ "hook": "50% IN 45 DAYS",
+ "music": "playful",
+ "cast": {
+  "ponzi": {
+   "skin": "olive",
+   "hat": "straw",
+   "outfit": "suit",
+   "color": "#E8E0CC",
+   "tie": true,
+   "stache": "thin",
+   "hair": "side",
+   "hairColor": "#1E1C1B",
+   "name": "Charles Ponzi"
+  },
+  "investor": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "headscarf",
+   "hatColor": "#A8322A",
+   "outfit": "dress",
+   "color": "#6A5A8A",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "name": "Boston investor"
+  }
+ },
+ "voices": {
+  "ponzi": "am_puck",
+  "investor": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1920, a man in Boston promised fifty percent profit in forty-five days.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave",
+      "enter": "pop"
+     }
+    ],
+    "place": "Boston, USA · 1920",
+    "tag": {
+     "id": "ponzi",
+     "text": "Charles Ponzi"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "flag": "usa48",
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "50% IN 45 DAYS",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Charles Ponzi, an Italian immigrant with a big smile and a bigger plan.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His idea used postal coupons, vouchers for stamps, bought cheap in Italy and traded in America.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.72,
+      "s": 0.8
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.6,
+      "label": "COUPONS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "investor",
+   "say": "Mister Ponzi, I want in!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "cheer"
+     },
+     {
+      "id": "ponzi",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "investor"
+   }
+  },
+  {
+   "who": "ponzi",
+   "say": "Of course! Everybody's getting rich!"
+  },
+  {
+   "who": "N",
+   "say": "But he mostly paid old investors with new investors' money.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.45,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.8
+     },
+     {
+      "k": "moneypile",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEW PAYS OLD",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It worked until the new money slowed down. He was arrested in August 1920.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "investor",
+      "x": 0.72,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That trick still carries his name: a Ponzi scheme.",
+   "show": {
+    "k": "card",
+    "label": "Named after him",
+    "big": "PONZI SCHEME",
+    "sub": "paying old investors with new money",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.8,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's greatest scams.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "investor",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The man who gave his name to the Ponzi scheme.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ponzi #scam #money #historytok",
+ "youtube_title": "The Original Ponzi Scheme #shorts",
+ "tags": [
+  "charles ponzi",
+  "ponzi scheme",
+  "scam",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Charles_Ponzi",
+  "https://www.smithsonianmag.com/history/in-ponzi-we-trust-64016168/",
+  "https://postalmuseum.si.edu/exhibition/behind-the-badge-case-histories-scams-and-schemes/ponzi-scheme",
+  "https://www.boston.com/news/history/2015/07/24/95-years-ago-the-original-ponzi-scheme-fell-apart/",
+  "https://www.poynter.org/reporting-editing/2009/what-journalism-owes-to-charles-ponzi/",
+  "https://en.wikipedia.org/wiki/International_reply_coupon"
+ ]
+}

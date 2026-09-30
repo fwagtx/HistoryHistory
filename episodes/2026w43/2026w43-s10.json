@@ -1,0 +1,321 @@
+{
+ "id": "2026w43-s10",
+ "format": "short",
+ "date": "2026-10-19",
+ "slot": "09:00",
+ "title": "Genghis Khan Was Left to Starve as a Kid",
+ "hook": "LEFT TO STARVE",
+ "music": "playful",
+ "cast": {
+  "temujin": {
+   "preset": "child",
+   "hat": "mongol",
+   "outfit": "fur",
+   "color": "#8A5A34",
+   "skin": "tan",
+   "hairColor": "#1E1C1B",
+   "name": "Temüjin"
+  },
+  "hoelun": {
+   "preset": "peasantW",
+   "hat": "headscarf",
+   "hatColor": "#6A3E8E",
+   "outfit": "fur",
+   "color": "#7A4A2A",
+   "skin": "tan",
+   "hairColor": "#1E1C1B",
+   "name": "Hö'elün"
+  },
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "rider": {
+   "preset": "mongol",
+   "hold": "bow"
+  }
+ },
+ "voices": {
+  "hoelun": "af_heart",
+  "temujin": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The boy who became Genghis Khan was once left to starve on the steppe.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared",
+      "s": 0.8
+     }
+    ],
+    "place": "Mongolia · 1170s",
+    "fx": [
+     "snow"
+    ],
+    "tag": {
+     "id": "temujin",
+     "text": "Temüjin, the future Genghis Khan"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was Temüjin. When he was about nine, enemies from the Tatar tribe poisoned his father, a chief.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock",
+      "s": 0.8
+     },
+     {
+      "id": "hoelun",
+      "x": 0.62,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.85,
+      "s": 0.5,
+      "label": "poisoned drink"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His clan didn't want a widow and her little kids, so they rode off and left them behind.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "hoelun",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "rider",
+      "x": 0.7,
+      "pose": "walk",
+      "walk": [
+       0.6,
+       0.85
+      ]
+     }
+    ],
+    "cam": "pan",
+    "tag": {
+     "id": "hoelun",
+     "text": "Hö'elün, his mother"
+    },
+    "stickers": [
+     {
+      "text": "ABANDONED",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "hoelun",
+   "say": "Fine. We'll survive without you.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hoelun",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "hoelun",
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She kept her kids alive on roots, wild berries and fish.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hoelun",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "temujin",
+      "x": 0.62,
+      "pose": "hold",
+      "s": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.82,
+      "s": 0.5
+     },
+     {
+      "k": "rock",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "temujin",
+   "say": "Fish again? It's always fish.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "sad",
+      "s": 0.8
+     }
+    ],
+    "cam": "close",
+    "focus": "temujin",
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Temüjin grew up tough. He was even captured by a rival clan, and escaped.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.45,
+      "pose": "run",
+      "mood": "scared",
+      "walk": [
+       0.3,
+       0.7
+      ]
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1206, the abandoned boy became Genghis Khan, ruler of all the Mongols.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Mongolia · 1206",
+    "fx": [
+     "confetti"
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.8
+     },
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history's greatest comebacks.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "temujin",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "s": 0.8
+     },
+     {
+      "id": "genghis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His own clan left him to starve. He ended up ruling them all.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #mongolia #comeback #historytok",
+ "youtube_title": "Genghis Khan Was Left to Starve as a Kid #shorts",
+ "tags": [
+  "genghis khan",
+  "temujin",
+  "mongolia",
+  "comeback",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rise_of_Genghis_Khan",
+  "https://en.wikipedia.org/wiki/H%C3%B6%27el%C3%BCn",
+  "https://www.britannica.com/biography/Genghis-Khan",
+  "https://en.wikipedia.org/wiki/Genghis_Khan"
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "id": "2026w43-s12",
+ "format": "short",
+ "date": "2026-10-19",
+ "slot": "09:00",
+ "title": "A Beggar Monk Kicked the Mongols Out of China",
+ "hook": "THE BEGGAR WHO BEAT THE MONGOLS",
+ "music": "playful",
+ "cast": {
+  "zhumonk": {
+   "preset": "monk",
+   "outfit": "robe",
+   "color": "#C88A2A",
+   "hair": "bald",
+   "skin": "tan",
+   "name": "Zhu Yuanzhang"
+  },
+  "zhu": {
+   "hat": "futou",
+   "outfit": "robe",
+   "color": "#C8322A",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Zhu Yuanzhang"
+  },
+  "toghon": {
+   "hat": "mongol",
+   "outfit": "robe",
+   "color": "#E8C25A",
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Toghon Temür"
+  }
+ },
+ "voices": {
+  "zhu": "am_onyx",
+  "toghon": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A poor beggar monk ended up kicking the Mongols out of China.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "zhumonk",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "sad"
+     }
+    ],
+    "place": "China · 1340s",
+    "tag": {
+     "id": "zhumonk",
+     "text": "Zhu Yuanzhang, poor monk"
+    },
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "begging bowl"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1344, famine and disease killed most of Zhu Yuanzhang's family.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "zhumonk",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He joined a Buddhist temple as a young monk, and wandered the roads, begging to survive.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "zhumonk",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "sad",
+      "walk": [
+       0.2,
+       0.55
+      ]
+     }
+    ],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "FOOD?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "China's Mongol rulers, the Yuan dynasty, faced floods, famine and nearly worthless money.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "toghon",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "tag": {
+     "id": "toghon",
+     "text": "Toghon Temür, Mongol emperor"
+    },
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1351 the huge Red Turban revolt broke out. Zhu joined and rose fast.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "zhu",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "place": "China · 1352",
+    "fx": [
+     "dust"
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "red"
+     },
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ]
+   }
+  },
+  {
+   "who": "zhu",
+   "say": "Monk. Beggar. General. Next stop: emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "zhu",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "zhu"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1368 he founded the Ming dynasty, and the last Yuan emperor fled north.",
+   "show": {
+    "k": "card",
+    "label": "Mongol rule in China ends",
+    "big": "1368",
+    "sub": "Zhu starts the Ming dynasty"
+   }
+  },
+  {
+   "who": "toghon",
+   "say": "I'll just... go back to the steppe.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "toghon",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "scared",
+      "walk": [
+       0.3,
+       0.75
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "From begging bowl to throne. His Ming dynasty lasted almost three hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "zhu",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history's wildest glow-ups.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "zhu",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "toghon",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He begged for food as a young monk. Then he took China from the Mongols.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mingdynasty #china #mongols #historytok",
+ "youtube_title": "A Beggar Monk Kicked the Mongols Out of China #shorts",
+ "tags": [
+  "zhu yuanzhang",
+  "ming dynasty",
+  "yuan dynasty",
+  "hongwu emperor",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hongwu_Emperor",
+  "https://www.britannica.com/biography/Hongwu",
+  "https://en.wikipedia.org/wiki/Red_Turban_Rebellions",
+  "https://en.wikipedia.org/wiki/Toghon_Tem%C3%BCr",
+  "https://courses.lumenlearning.com/suny-worldhistory/chapter/decline-of-the-yuan-dynasty/"
+ ]
+}

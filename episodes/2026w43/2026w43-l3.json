@@ -1,0 +1,2769 @@
+{
+ "id": "2026w43-l3",
+ "format": "long",
+ "date": "2026-10-23",
+ "title": "The Greatest Con Artists in History",
+ "music": "playful",
+ "cast": {
+  "lustig": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#2A2A2A",
+   "stache": "thin",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "Victor Lustig"
+  },
+  "poisson": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "bowler",
+   "stache": "bush",
+   "hairColor": "#5A4A3A",
+   "outfit": "suit",
+   "color": "#6A5A4A",
+   "name": "André Poisson"
+  },
+  "dealer": {
+   "preset": "merchant",
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#3A3A3A",
+   "stache": "handlebar",
+   "name": "Second scrap dealer"
+  },
+  "macgregor": {
+   "skin": "light",
+   "hat": "bicorne",
+   "outfit": "napoleon",
+   "color": "#2A3A8A",
+   "color2": "#D4A52A",
+   "hair": "curly",
+   "hairColor": "#6A3A1E",
+   "name": "Gregor MacGregor"
+  },
+  "settler": {
+   "preset": "pioneer",
+   "skin": "peach",
+   "hat": "bonnet",
+   "hatColor": "#8A6A3A",
+   "outfit": "dress",
+   "color": "#4A6A8A",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "name": "Poyais settler"
+  },
+  "roger": {
+   "skin": "light",
+   "outfit": "suit",
+   "color": "#4A3A2A",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "stache": "thin",
+   "name": "Roger Tichborne"
+  },
+  "orton": {
+   "skin": "light",
+   "outfit": "coat",
+   "color": "#3A3A3A",
+   "apron": true,
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "stache": "bush",
+   "name": "Arthur Orton"
+  },
+  "ladyt": {
+   "skin": "light",
+   "outfit": "gown",
+   "color": "#2A2A3A",
+   "hat": "bonnet",
+   "hatColor": "#1E1C1B",
+   "hair": "bun",
+   "hairColor": "#9A9A9A",
+   "name": "Lady Tichborne"
+  },
+  "victoria": {
+   "preset": "victoria",
+   "name": "Queen Victoria"
+  },
+  "therese": {
+   "skin": "light",
+   "outfit": "gown",
+   "color": "#8E2A5A",
+   "color2": "#D4A52A",
+   "hat": "bonnet",
+   "hatColor": "#6A1E3A",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "name": "Thérèse Humbert"
+  },
+  "banker": {
+   "preset": "banker",
+   "skin": "light",
+   "stache": "handlebar",
+   "hat": "tophat",
+   "name": "Paris banker"
+  },
+  "cassie": {
+   "skin": "light",
+   "outfit": "gown",
+   "color": "#2F5A7A",
+   "color2": "#E8E0CC",
+   "hat": "bonnet",
+   "hatColor": "#2F5A7A",
+   "hair": "bun",
+   "hairColor": "#5A3A22",
+   "name": "Cassie Chadwick"
+  },
+  "beckwith": {
+   "preset": "banker",
+   "skin": "light",
+   "beard": "full",
+   "hairColor": "#8A8A8A",
+   "glasses": "round",
+   "name": "Charles Beckwith, bank president"
+  },
+  "carnegie": {
+   "skin": "light",
+   "hat": "tophat",
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#E8E4DA",
+   "name": "Andrew Carnegie"
+  },
+  "ponzi": {
+   "skin": "olive",
+   "hat": "straw",
+   "outfit": "suit",
+   "color": "#E8E0CC",
+   "tie": true,
+   "stache": "thin",
+   "hair": "side",
+   "hairColor": "#1E1C1B",
+   "name": "Charles Ponzi"
+  },
+  "investor": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "headscarf",
+   "hatColor": "#A8322A",
+   "outfit": "dress",
+   "color": "#6A5A8A",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "name": "Boston investor"
+  },
+  "vanm": {
+   "skin": "light",
+   "outfit": "suit",
+   "color": "#3A4A5A",
+   "hair": "side",
+   "hairColor": "#6A5A4A",
+   "stache": "thin",
+   "hold": "pen",
+   "name": "Han van Meegeren"
+  },
+  "goring": {
+   "skin": "light",
+   "outfit": "ww2",
+   "color": "#8A9AAA",
+   "hair": "side",
+   "hairColor": "#6A5A3A",
+   "name": "Hermann Göring"
+  },
+  "investigator": {
+   "skin": "light",
+   "outfit": "uniform",
+   "color": "#6B6F3E",
+   "hat": "beret",
+   "hatColor": "#3A3A3A",
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "name": "Dutch investigator"
+  },
+  "judge": {
+   "preset": "judge",
+   "skin": "light",
+   "name": "Judge"
+  },
+  "parker": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "tophat",
+   "stache": "walrus",
+   "name": "George C. Parker"
+  }
+ },
+ "voices": {
+  "lustig": "am_fenrir",
+  "poisson": "am_eric",
+  "macgregor": "bm_lewis",
+  "settler": "bf_emma",
+  "orton": "am_liam",
+  "ladyt": "bf_alice",
+  "therese": "af_bella",
+  "banker": "am_echo",
+  "cassie": "af_heart",
+  "beckwith": "bm_daniel",
+  "ponzi": "am_puck",
+  "vanm": "bm_george"
+ },
+ "description": "A Scot who sold a country that didn't exist, a butcher who claimed to be a lost heir, a Paris socialite with an empty safe, Andrew Carnegie's fake daughter, Charles Ponzi's 50% promise, the man who 'sold' the Eiffel Tower and the forger who fooled Hermann Göring. These are the true stories of history's greatest con artists, and where the legends get shaky, we say so.\n\nChapters are added automatically.\n\n#history #conartist #scams #ponzi #eiffeltower",
+ "thumbnail": {
+  "style": "faces",
+  "title": "SCAMMED",
+  "bg": "palace",
+  "faces": [
+   {
+    "id": "lustig",
+    "mood": "happy"
+   },
+   {
+    "id": "poisson",
+    "mood": "shock"
+   },
+   {
+    "id": "ponzi",
+    "mood": "smug"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "The Greatest Con Artists in History",
+ "tags": [
+  "con artists",
+  "greatest scams in history",
+  "victor lustig",
+  "eiffel tower scam",
+  "charles ponzi",
+  "ponzi scheme",
+  "gregor macgregor",
+  "poyais",
+  "therese humbert",
+  "cassie chadwick",
+  "han van meegeren",
+  "tichborne claimant",
+  "history",
+  "animated history"
+ ],
+ "beats": [
+  {
+   "who": "N",
+   "say": "Paris, 1925. A man in a very nice suit invites a group of scrap metal dealers to one of the fanciest hotels in town.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "enter": "left",
+      "mood": "smug"
+     },
+     {
+      "id": "poisson",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "place": "Paris, France · 1925",
+    "tag": {
+     "id": "lustig",
+     "text": "Victor Lustig, con man"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "flag": "france",
+      "s": 0.8
+     },
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "lustig",
+   "say": "Gentlemen, the government has a secret. The Eiffel Tower is falling apart.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.32,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "poisson",
+      "x": 0.72,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "lustig",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.7,
+      "text": "OFFICIAL (FAKE)"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lustig",
+   "say": "So we are selling it. For scrap. Please, tell no one."
+  },
+  {
+   "who": "poisson",
+   "say": "The whole tower? That's over seven thousand tons of iron!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "poisson",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "scared"
+     },
+     {
+      "id": "lustig",
+      "x": 0.72,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "cam": "close",
+    "focus": "poisson",
+    "stickers": [
+     {
+      "text": "7,000+ TONS",
+      "at": 1.2,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And one of those dealers actually paid him. For a tower the man did not own.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.2,
+      "s": 0.8
+     },
+     {
+      "k": "sign",
+      "x": 0.82,
+      "text": "NOT FOR SALE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SOLD?!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today, we meet history's greatest con artists: people who sold towers, countries and fortunes that never existed.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "therese",
+      "x": 0.5,
+      "mood": "smug"
+     },
+     {
+      "id": "ponzi",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.8
+     },
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.7,
+      "label": "EMPTY"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Greatest Con Artists in History",
+    "sub": "true stories, no refunds",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.88,
+      "s": 0.8,
+      "mood": "smug",
+      "pose": "wave"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1822",
+    "title": "He Invented a Country",
+    "bg": "jungle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "London, 1822. A Scottish war hero named Gregor MacGregor arrives with amazing news.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.4,
+      "enter": "left",
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "place": "London · 1822",
+    "tag": {
+     "id": "macgregor",
+     "text": "Gregor MacGregor, Scottish soldier"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "uk",
+      "s": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He really had fought in South America's wars of independence against Spain. That part was true.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.4,
+      "mood": "shout",
+      "hold": "sword",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "spain_burgundy",
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "REAL GENERAL",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But now he said he was the prince of a country called Poyais, in Central America.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.8
+     },
+     {
+      "k": "banner",
+      "x": 0.15,
+      "text": "POYAIS",
+      "color": "#1F8A4A"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "\"PRINCE\"",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He even printed a guidebook. It described a capital city with a cathedral, an opera house and a bank.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.8,
+      "label": "OPERA HOUSE (FAKE)"
+     },
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he sold two hundred thousand pounds' worth of Poyais bonds. Bonds are loans to a country.",
+   "show": {
+    "k": "card",
+    "label": "Poyais bonds sold in London, 1822",
+    "big": "£200,000",
+    "sub": "a loan to a country that didn't exist",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.85,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Poyais also had a flag, a coat of arms and fancy army uniforms. All of it invented by MacGregor.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "text": "POYAIS ARMY",
+      "color": "#1F8A4A"
+     },
+     {
+      "k": "crown",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hundreds of people signed up to move there. Many even swapped their pounds for Poyais dollars, printed in Scotland.",
+   "show": {
+    "k": "map",
+    "lon": -4,
+    "lat": 54,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1822–1823",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "Leith, Scotland",
+      -3.17,
+      55.98,
+      14
+     ],
+     [
+      "To Poyais",
+      -12.5,
+      53.5,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -3.17,
+      55.98
+     ],
+     [
+      -2.0,
+      57.5
+     ],
+     [
+      -6.0,
+      59.0
+     ],
+     [
+      -12.5,
+      55.0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "settler",
+   "say": "Is there really an opera house?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "macgregor",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "cam": "close",
+    "focus": "settler",
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.7,
+      "flag": "uk"
+     }
+    ]
+   }
+  },
+  {
+   "who": "macgregor",
+   "say": "My dear, the finest in the Americas."
+  },
+  {
+   "who": "N",
+   "say": "In 1822 and 1823, about two hundred and fifty settlers sailed. When they landed in Honduras, there was no city. Only jungle.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "place": "Mosquito Coast, Honduras · 1823",
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "label": "LUGGAGE",
+      "s": 0.7
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "text": "ST JOSEPH?"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fever spread, and more than half of them died before help came. This part is no joke.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.8
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "MacGregor was put on trial in France, and walked free. He later retired in Venezuela on a general's pension.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "shrug"
+     },
+     {
+      "id": "judge",
+      "x": 0.72,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "flag": "france",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And he kept promoting Poyais for years afterwards.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So one man sold a whole country, and the only real part was the jungle.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.2,
+      "s": 0.8
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1866",
+    "title": "The Butcher Who Came Home",
+    "bg": "outback"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1854, a rich young Englishman, Roger Tichborne, sailed away and his ship was lost at sea.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "roger",
+      "x": 0.3,
+      "mood": "scared"
+     }
+    ],
+    "place": "Atlantic Ocean · 1854",
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.9,
+      "flag": "uk"
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "cam": "shake",
+    "tag": {
+     "id": "roger",
+     "text": "Roger Tichborne, heir to a fortune"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His mother, Lady Tichborne, refused to believe he was dead. She put ads in newspapers around the world.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "ladyt",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "ladyt",
+     "text": "Lady Tichborne, Roger's mother"
+    },
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.8,
+      "text": "MISSING: ROGER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1866, a butcher in Wagga Wagga, Australia, said he was the missing Roger.",
+   "show": {
+    "k": "scene",
+    "bg": "outback",
+    "cast": [
+     {
+      "id": "orton",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "place": "Wagga Wagga, Australia · 1866",
+    "tag": {
+     "id": "orton",
+     "text": "The butcher who said he was Roger"
+    },
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.7,
+      "label": "BUTCHER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Small problem. Roger was thin and grew up speaking French. The butcher was very heavy and spoke no French.",
+   "show": {
+    "k": "compare",
+    "bg": "white",
+    "left": {
+     "label": "Roger: thin, spoke French",
+     "cast": [
+      {
+       "id": "roger",
+       "mood": "neutral"
+      }
+     ]
+    },
+    "right": {
+     "label": "The butcher: heavy, no French",
+     "cast": [
+      {
+       "id": "orton",
+       "mood": "smug"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Still, in 1867 his mother met him in Paris, and said he was her son.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ladyt",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "orton",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "place": "Paris · 1867",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.1,
+      "flag": "france",
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "ladyt",
+   "say": "Roger! My boy!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ladyt",
+      "x": 0.35,
+      "mood": "happy"
+     },
+     {
+      "id": "orton",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "ladyt"
+   }
+  },
+  {
+   "who": "orton",
+   "say": "Hello, Mother. Er, bonjour."
+  },
+  {
+   "who": "N",
+   "say": "More than a hundred people who had known Roger backed him too. Others were sure he was a fraud.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "orton",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "sign",
+      "x": 0.85,
+      "text": "REAL ROGER?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The rest of the family said he was a fake, and the fight went to court in London.",
+   "show": {
+    "k": "map",
+    "lon": -1.5,
+    "lat": 51.5,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "1871–1874",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "Tichborne estate",
+      -1.18,
+      51.09,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This was Queen Victoria's Britain, and people followed the trials in the newspapers for years.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "victoria",
+      "x": 0.5,
+      "mood": "shock"
+     }
+    ],
+    "tag": {
+     "id": "victoria",
+     "text": "Queen Victoria"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "flag": "uk",
+      "s": 0.8
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.15,
+      "s": 0.6,
+      "text": "TICHBORNE: DAY 100"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1874, a jury decided he was Arthur Orton, a butcher's son from London. He got fourteen years in prison.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "orton",
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "judge",
+      "x": 0.72,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "14 YEARS",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "flag": "uk",
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1902",
+    "title": "The Safe Full of Nothing",
+    "bg": "vault"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Paris, the 1880s. Thérèse Humbert, a farm girl turned high society lady, says she has a secret fortune.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "place": "Paris, France · 1880s",
+    "tag": {
+     "id": "therese",
+     "text": "Thérèse Humbert"
+    },
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her story: she saved an American millionaire, Robert Crawford, on a train. He left her a hundred million francs.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.7,
+      "s": 0.9,
+      "move": [
+       0.9,
+       0.55
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "100,000,000 FRANCS",
+      "at": 1.5,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In her telling, she even climbed along the outside of the moving train to reach him. Very action movie.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.5,
+      "mood": "shock",
+      "pose": "scared",
+      "y": 0.1
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.5,
+      "s": 1.0
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the fortune was locked in a safe, while a court fight over the will dragged on.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 1.0,
+      "label": "THE SAFE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile she lived like a queen, with a grand home on one of the smartest streets in Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "banker",
+   "say": "May I see the money, Madame?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.3,
+      "mood": "neutral"
+     },
+     {
+      "id": "therese",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "banker",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "therese",
+   "say": "It's in the safe. The court says nobody may open it."
+  },
+  {
+   "who": "banker",
+   "say": "Then please, take a loan. At a very nice rate."
+  },
+  {
+   "who": "N",
+   "say": "And the twist: the rival heirs suing her, the Crawford nephews, were her own brothers in disguise.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.9,
+      "s": 0.6,
+      "text": "CRAWFORD v. HUMBERT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HER BROTHERS!",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For about twenty years, lenders handed her huge sums, all backed by a safe nobody could open.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.2
+     },
+     {
+      "k": "moneypile",
+      "x": 0.82
+     },
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.6,
+      "label": "THE SAFE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1902, a court ordered the safe opened. The night before, the whole family vanished to Spain.",
+   "show": {
+    "k": "map",
+    "lon": 0,
+    "lat": 44.5,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "May 1902",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Madrid",
+      -3.7,
+      40.42,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      0.5,
+      45.5
+     ],
+     [
+      -1.8,
+      43.3
+     ],
+     [
+      -3.7,
+      40.42
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Inside the safe, reports say, was a brick and an old English halfpenny.",
+   "show": {
+    "k": "card",
+    "label": "Inside the famous safe, 1902",
+    "big": "1 BRICK",
+    "sub": "plus an old English halfpenny (reports vary)",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.85,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were caught in Madrid that December, and Thérèse got five years of hard labor.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "place": "Madrid, Spain · December 1902",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "spain",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1904",
+    "title": "Carnegie's \"Secret Daughter\"",
+    "bg": "office"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cleveland, Ohio, the 1890s. Cassie Chadwick is the wife of a respected doctor, and she has a plan.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "cassie",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "place": "Cleveland, Ohio · 1890s",
+    "tag": {
+     "id": "cassie",
+     "text": "Cassie Chadwick"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "flag": "usa1859",
+      "s": 0.8
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She hinted that she was the secret daughter of Andrew Carnegie, the steel king and one of the richest men alive.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.6,
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "carnegie",
+     "text": "Andrew Carnegie, steel tycoon"
+    },
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.2,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "\"DAD\"?",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The famous version says she let a lawyer watch her walk out of Carnegie's New York mansion, holding papers.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "cassie",
+      "x": 0.35,
+      "mood": "smug",
+      "hold": "letter"
+     }
+    ],
+    "place": "New York · 1890s",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.9,
+      "label": "CARNEGIE MANSION"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She carried notes, which are written promises to pay, signed \"Andrew Carnegie\". She had forged them.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "cassie",
+      "x": 0.3,
+      "mood": "smug",
+      "hold": "letter",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.8,
+      "text": "I PROMISE TO PAY — A. CARNEGIE"
+     },
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "cassie",
+   "say": "Please keep this quiet. My father would be so embarrassed.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "cassie",
+      "x": 0.3,
+      "mood": "sad"
+     },
+     {
+      "id": "beckwith",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "cassie"
+   }
+  },
+  {
+   "who": "beckwith",
+   "say": "Of course. How much would Miss Carnegie like to borrow?"
+  },
+  {
+   "who": "N",
+   "say": "Bankers lent her huge sums. After all, who says no to Carnegie's daughter?",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "beckwith",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "moneybag"
+     },
+     {
+      "id": "cassie",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.9,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "beckwith",
+     "text": "Charles Beckwith, Oberlin bank president"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1904, one lender sued, and the whole thing fell apart. A small bank in Oberlin, Ohio, went bust.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "beckwith",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "place": "Oberlin, Ohio · 1904",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "text": "BANK CLOSED"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Carnegie's office put out a statement that ended the fairy tale.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "carnegie",
+      "x": 0.5,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "flag": "usa1859",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mr. Carnegie does not know Mrs. Chadwick of Cleveland.",
+   "show": {
+    "k": "quote",
+    "text": "Mr. Carnegie does not know Mrs. Chadwick of Cleveland.",
+    "who": "Andrew Carnegie's office, press statement (1904)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cassie was convicted in 1905 and died in prison two years later.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "cassie",
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "judge",
+      "x": 0.72,
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1920",
+    "title": "Fifty Percent in Forty-Five Days",
+    "bg": "street"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Boston, 1920. An Italian immigrant named Charles Ponzi has an offer that sounds amazing.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave",
+      "enter": "left"
+     }
+    ],
+    "place": "Boston, USA · 1920",
+    "tag": {
+     "id": "ponzi",
+     "text": "Charles Ponzi"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "flag": "usa48",
+      "s": 0.8
+     },
+     {
+      "k": "car",
+      "x": 0.15,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Give him your money, and in forty-five days you get it back, plus fifty percent.",
+   "show": {
+    "k": "card",
+    "label": "Ponzi's promise",
+    "big": "50%",
+    "sub": "profit in 45 days",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.85,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His idea used postal reply coupons, little vouchers you could swap for stamps.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "letter",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.6,
+      "s": 0.7
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.6,
+      "label": "COUPONS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After World War One, they were cheap to buy in Italy, and worth more when traded in America.",
+   "show": {
+    "k": "map",
+    "lon": 4,
+    "lat": 44,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "1919",
+    "labels": [
+     [
+      "Italy",
+      12.5,
+      42.5,
+      14
+     ],
+     [
+      "To America",
+      -12,
+      44,
+      14
+     ]
+    ],
+    "route": [
+     [
+      12.5,
+      41.9
+     ],
+     [
+      8.9,
+      44.4
+     ],
+     [
+      2,
+      40
+     ],
+     [
+      -6,
+      37
+     ],
+     [
+      -13.5,
+      40
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On a tiny scale, that trick was real. But Ponzi mostly paid old investors with new investors' money.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "moneybag"
+     },
+     {
+      "id": "ponzi",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Crowds lined up outside his office to hand over their savings.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "ponzi",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "ponzi"
+   }
+  },
+  {
+   "who": "ponzi",
+   "say": "Step right up! Everybody's getting rich!"
+  },
+  {
+   "who": "N",
+   "say": "In a few months, Ponzi went from nearly broke to a millionaire, with a mansion and a fancy car.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.9
+     },
+     {
+      "k": "car",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At his peak, about two hundred and fifty thousand dollars poured in every day.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.15
+     },
+     {
+      "k": "moneypile",
+      "x": 0.85
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "$250,000 A DAY",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the Boston Post newspaper did the math. He'd need a hundred and sixty million coupons. Only about twenty-seven thousand existed.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.8,
+      "text": "BOSTON POST: 160,000,000 NEEDED"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ONLY 27,000",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ponzi was arrested in August 1920, and the paper won a Pulitzer Prize for the story.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "judge",
+      "x": 0.72,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "flag": "usa48",
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And today, paying old investors with new money has his name. It's called a Ponzi scheme.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "ponzi",
+      "x": 0.5,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "text": "PONZI SCHEME"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1925",
+    "title": "The Man Who Sold the Eiffel Tower",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back to Paris. Victor Lustig was a con man from Austria-Hungary who liked to call himself a count.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "place": "Paris, France · 1925",
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "flag": "france",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He read a newspaper story saying the Eiffel Tower needed very expensive repairs.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.8,
+      "text": "TOWER NEEDS COSTLY REPAIRS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he faked government papers, and offered the tower for scrap. André Poisson, a dealer, paid.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "poisson",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "moneybag",
+      "pose": "present"
+     },
+     {
+      "id": "lustig",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "poisson",
+     "text": "André Poisson, scrap dealer"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lustig fled to Vienna with the cash. Poisson was too embarrassed to go to the police.",
+   "show": {
+    "k": "map",
+    "lon": 9,
+    "lat": 48.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1925",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      8.0,
+      48.6
+     ],
+     [
+      12.0,
+      48.2
+     ],
+     [
+      16.37,
+      48.21
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So, the story goes, Lustig came back and tried it again! That dealer went to the police, and Lustig escaped.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.2,
+      "mood": "scared",
+      "pose": "run",
+      "walk": [
+       0.4,
+       0.1
+      ]
+     },
+     {
+      "id": "dealer",
+      "x": 0.75,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A warning: most of these details come from a 1961 book by the Secret Service agent who helped catch him.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.8,
+      "text": "1961 BOOK: TRUE?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "What's certain: in 1935 he was caught printing fake money in America, and ended up in Alcatraz.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.35,
+      "mood": "sad"
+     }
+    ],
+    "place": "Alcatraz, San Francisco Bay · 1935",
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.8,
+      "label": "ALCATRAZ"
+     },
+     {
+      "k": "flag",
+      "x": 0.92,
+      "flag": "usa48",
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Before that, he had even escaped from a New York jail on a rope of bedsheets, and was caught a few weeks later.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.9
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BEDSHEET ROPE",
+      "at": 1.2,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around then in New York, George C. Parker was said to be selling the Brooklyn Bridge. In 1928 he got life in prison for fraud.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "parker",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "tag": {
+     "id": "parker",
+     "text": "George C. Parker, con man"
+    },
+    "place": "New York · 1920s",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "text": "BRIDGE FOR SALE"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1945",
+    "title": "The Forger Who Fooled Göring",
+    "bg": "library"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Netherlands, 1945. World War Two is over, and Dutch police arrest a painter named Han van Meegeren.",
+   "show": {
+    "k": "flag",
+    "flag": "netherlands",
+    "label": "THE NETHERLANDS",
+    "sub": "1945",
+    "bg": "town"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His crime? Selling a Vermeer, a treasure by a famous Dutch master painter, to the top Nazi Hermann Göring.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "goring",
+      "x": 0.72,
+      "mood": "happy"
+     }
+    ],
+    "place": "Amsterdam · 1945",
+    "tag": {
+     "id": "vanm",
+     "text": "Han van Meegeren, painter"
+    },
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.52,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Göring paid for it with about a hundred and thirty-seven real paintings. Selling a treasure to the enemy could mean death.",
+   "show": {
+    "k": "map",
+    "lon": 5.3,
+    "lat": 52.2,
+    "z0": 3.5,
+    "z1": 4.0,
+    "date": "1945",
+    "labels": [
+     [
+      "Amsterdam",
+      4.9,
+      52.37,
+      14
+     ],
+     [
+      "The Hague",
+      4.3,
+      52.08,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "vanm",
+   "say": "It's not a Vermeer. I painted it myself!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "investigator",
+      "x": 0.72,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "vanm"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had painted on genuine old canvases, and baked his paint hard in an oven so it looked centuries old.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.35,
+      "mood": "smug",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody believed him. So, with witnesses watching, he painted a brand new fake Vermeer.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "pen",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.72,
+      "s": 0.8
+     },
+     {
+      "k": "painting",
+      "x": 0.12,
+      "s": 0.6,
+      "empty": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE #2",
+      "at": 1.4,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It worked. He was convicted of forgery instead, and got one year. He died in 1947, before serving it.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "vanm",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "shrug"
+     },
+     {
+      "id": "judge",
+      "x": 0.75,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.92,
+      "flag": "netherlands",
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So what do all these con artists have in common? They sold people something they badly wanted to believe.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.2,
+      "mood": "smug"
+     },
+     {
+      "id": "therese",
+      "x": 0.4,
+      "mood": "smug"
+     },
+     {
+      "id": "ponzi",
+      "x": 0.6,
+      "mood": "smug"
+     },
+     {
+      "id": "lustig",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A new country. A lost son. A secret fortune. Easy money.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.3,
+      "mood": "sad"
+     },
+     {
+      "id": "investor",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.8,
+      "label": "EMPTY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And even famous con stories can be cons. Researchers have challenged many claims in the memoir behind the movie \"Catch Me If You Can\".",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.8,
+      "text": "CHECK THE FACTS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So if it sounds too good to be true, ask to see inside the safe.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "therese",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.9,
+      "label": "THE SAFE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OPEN IT!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Subscribe for more history, and I'll see you in the next one.",
+   "show": {
+    "k": "end",
+    "next": "The ENTIRE History of Japan in 10 Minutes",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.78,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Victor_Lustig",
+  "https://www.smithsonianmag.com/history/man-who-sold-eiffel-tower-twice-180958370/",
+  "https://www.ebsco.com/research-starters/biography/victor-lustig/",
+  "https://www.mentalfloss.com/article/12809/smooth-operator-how-victor-lustig-sold-eiffel-tower",
+  "https://historyfacts.com/world-history/fact/a-con-artist-sold-the-eiffel-tower-for-scrap-metal-twice/",
+  "https://www.newyorkalmanack.com/2024/12/victor-lustig-conman-counterfeiter/",
+  "https://en.wikipedia.org/wiki/Eiffel_Tower",
+  "https://en.wikipedia.org/wiki/Gregor_MacGregor",
+  "https://www.britannica.com/story/the-craziest-scam-gregor-macgregor-creates-his-own-country",
+  "https://www.historic-uk.com/HistoryUK/HistoryofScotland/Gregor-MacGregor-Prince-Of-Poyais/",
+  "https://crimereads.com/poyais-con-men-bonds-gregor-macgregor/",
+  "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais",
+  "https://en.wikipedia.org/wiki/List_of_ships_of_the_Poyais_scheme",
+  "https://en.wikipedia.org/wiki/Tichborne_case",
+  "https://en.wikipedia.org/wiki/Arthur_Orton",
+  "https://portrait.gov.au/portraits/2001.23/the-tichborne-claimant-arthur-orton",
+  "https://collections.countway.harvard.edu/onview/exhibits/show/owners-and-donors/john-rathbone-oliver/the-tichborne-claimant-case",
+  "https://en.wikipedia.org/wiki/Th%C3%A9r%C3%A8se_Humbert",
+  "https://www.cambridge.org/core/journals/journal-of-the-gilded-age-and-progressive-era/article/swindle-of-the-century-fraud-finance-and-femininity-in-the-gilded-age/488A50C43BDB0530130CCD720BCDB085",
+  "https://atlasobscura.com/articles/who-was-therese-humbert-scammer",
+  "https://www.edwardianpromenade.com/gossip/laffaire-humbert/",
+  "https://en.wikipedia.org/wiki/Cassie_Chadwick",
+  "https://case.edu/ech/articles/c/chadwick-cassie-l",
+  "https://www.ohiohistory.org/cassie-chadwick/",
+  "https://www.smithsonianmag.com/history/the-high-priestess-of-fraudulent-finance-45/",
+  "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/chadwick-cassie-l-1859-1907",
+  "https://en.wikipedia.org/wiki/Charles_Ponzi",
+  "https://www.smithsonianmag.com/history/in-ponzi-we-trust-64016168/",
+  "https://postalmuseum.si.edu/exhibition/behind-the-badge-case-histories-scams-and-schemes/ponzi-scheme",
+  "https://www.boston.com/news/history/2015/07/24/95-years-ago-the-original-ponzi-scheme-fell-apart/",
+  "https://www.poynter.org/reporting-editing/2009/what-journalism-owes-to-charles-ponzi/",
+  "https://en.wikipedia.org/wiki/International_reply_coupon",
+  "https://en.wikipedia.org/wiki/George_C._Parker",
+  "https://history.howstuffworks.com/historical-figures/conman-sold-brooklyn-bridge.htm",
+  "https://crimereads.com/brooklyn-bridge-con-artist/",
+  "https://en.wikipedia.org/wiki/Han_van_Meegeren",
+  "https://www.britannica.com/biography/Han-van-Meegeren",
+  "https://www.essentialvermeer.com/misc/van_meegeren.html",
+  "https://www.tweedewereldoorlog.nl/100voorwerpen/en/voorwerp/christ-and-the-adulteress/",
+  "https://www.historyhit.com/nazi-sympathiser-or-national-hero-the-strange-story-of-han-van-meegeren/",
+  "https://www.britannica.com/biography/Frank-Abagnale-Jr",
+  "https://whyy.org/segments/the-greatest-hoax-on-earth/"
+ ]
+}

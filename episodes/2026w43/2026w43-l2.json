@@ -1,0 +1,3336 @@
+{
+ "id": "2026w43-l2",
+ "format": "long",
+ "date": "2026-10-21",
+ "title": "The Most Badass Women in History",
+ "music": "playful",
+ "description": "A Mongol princess who wrestled for horses, a queen who sank her own side's ship, a diplomat who turned a man into a chair, and a pirate who beat an empire and retired rich: these are seven of the most badass women in history, counted down from seven to one. Every story is real, and where the sources are shaky we say so. Chapters are added automatically.\n\n#history #womeninhistory #badasswomen #funnyhistory #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "DON'T MESS",
+  "bg": "sea",
+  "faces": [
+   {
+    "id": "chingshih",
+    "mood": "smug"
+   },
+   {
+    "id": "boudica",
+    "mood": "shout"
+   }
+  ],
+  "grade": "warm"
+ },
+ "cast": {
+  "chingshih": {
+   "hat": "headscarf",
+   "hatColor": "#A8322A",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Zheng Yi Sao (Ching Shih)"
+  },
+  "zhengyi": {
+   "preset": "pirate",
+   "hat": "headscarf",
+   "hatColor": "#2F4A6A",
+   "outfit": "robe",
+   "color": "#2F4A6A",
+   "beard": false,
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Zheng Yi"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#6A4A2A",
+   "beard": false,
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "bailing": {
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#2F4A8A",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Bai Ling"
+  },
+  "khutulun": {
+   "hat": "mongol",
+   "hatColor": "#A8322A",
+   "outfit": "fur",
+   "color": "#A8322A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Khutulun"
+  },
+  "suitor": {
+   "preset": "mongol",
+   "color": "#2F4A6A",
+   "hatColor": "#2F4A6A",
+   "mood": "smug"
+  },
+  "kaidu": {
+   "preset": "mongol",
+   "beard": "full",
+   "color": "#6A4A2A",
+   "hat": "crown",
+   "name": "Kaidu Khan"
+  },
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "polo": {
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "hat": "beret",
+   "hatColor": "#6A3E8E",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "book",
+   "name": "Marco Polo"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "artemisia": {
+   "hat": "goldhelm",
+   "outfit": "armor",
+   "color": "#6A3E8E",
+   "hair": "long",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "hold": "spear",
+   "name": "Artemisia"
+  },
+  "xerxes": {
+   "preset": "king",
+   "beard": "long",
+   "hairColor": "#1E1C1B",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "skin": "olive",
+   "name": "Xerxes I"
+  },
+  "greek": {
+   "preset": "greek"
+  },
+  "herodotus": {
+   "preset": "philosopher",
+   "hold": "scroll",
+   "name": "Herodotus"
+  },
+  "nzinga": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#C8902A",
+   "color2": "#A8322A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "dark",
+   "name": "Nzinga"
+  },
+  "governor": {
+   "preset": "noble",
+   "hat": "slouch",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#262322",
+   "beard": "goatee",
+   "stache": "thin",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "João Correia de Sousa"
+  },
+  "attendant": {
+   "outfit": "tunic",
+   "color": "#E8C25A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "dark"
+  },
+  "cavazzi": {
+   "preset": "monk",
+   "hold": "book",
+   "name": "Giovanni Cavazzi"
+  },
+  "boudica": {
+   "outfit": "tunic",
+   "color": "#2F7A4A",
+   "color2": "#C8902A",
+   "hair": "long",
+   "hairColor": "#B5472A",
+   "skin": "peach",
+   "hold": "spear",
+   "name": "Boudica"
+  },
+  "briton": {
+   "outfit": "tunic",
+   "color": "#6A4A8A",
+   "hair": "long",
+   "hairColor": "#C8902A",
+   "stache": "handlebar",
+   "skin": "peach",
+   "hold": "axe"
+  },
+  "legionary": {
+   "preset": "legionary"
+  },
+  "paulinus": {
+   "preset": "legionary",
+   "hold": "sword",
+   "color": "#8A1E1A",
+   "name": "Suetonius Paulinus"
+  },
+  "joan": {
+   "outfit": "armor",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "peach",
+   "hold": "flag",
+   "flagColor": "#F2F2F2",
+   "name": "Joan of Arc"
+  },
+  "charles": {
+   "preset": "king",
+   "beard": false,
+   "hat": "bowler",
+   "hatColor": "#2F4A8A",
+   "color": "#2F4A8A",
+   "hairColor": "#6A4A2A",
+   "skin": "peach",
+   "name": "Charles VII"
+  },
+  "englishknight": {
+   "preset": "knight",
+   "color": "#A8322A"
+  },
+  "lyudmila": {
+   "preset": "soviet",
+   "hat": "ushanka",
+   "hair": "bun",
+   "hairColor": "#3A2A1E",
+   "skin": "light",
+   "name": "Lyudmila Pavlichenko"
+  },
+  "recruiter": {
+   "preset": "soviet",
+   "hold": "pen",
+   "stache": "brush",
+   "hat": "cap"
+  },
+  "eleanor": {
+   "outfit": "dress",
+   "color": "#2F4A6A",
+   "hair": "curly",
+   "hairColor": "#8A7A6A",
+   "skin": "light",
+   "hat": "bonnet",
+   "hatColor": "#2F4A6A",
+   "name": "Eleanor Roosevelt"
+  },
+  "reporter": {
+   "outfit": "suit",
+   "color": "#6A6A6A",
+   "hat": "fedora",
+   "hatColor": "#4A4A4A",
+   "hold": "pen",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "chingshih": "af_bella",
+  "bailing": "bm_george",
+  "khutulun": "af_heart",
+  "suitor": "am_puck",
+  "xerxes": "am_fenrir",
+  "artemisia": "bf_emma",
+  "governor": "bm_lewis",
+  "nzinga": "bf_alice",
+  "boudica": "bf_isabella",
+  "briton": "am_liam",
+  "joan": "af_sky",
+  "charles": "am_eric",
+  "lyudmila": "af_sarah",
+  "recruiter": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1810, the most feared pirate on Earth walked into a Chinese governor's office with no weapons at all.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.3,
+      "enter": "left",
+      "pose": "walk",
+      "walk": [
+       0.1,
+       0.32
+      ]
+     },
+     {
+      "id": "bailing",
+      "x": 0.72,
+      "pose": "cross",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO WEAPONS",
+      "at": 2.0,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Guangzhou, China · 1810"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her pirates had beaten the Chinese navy so many times that the government had basically run out of ideas.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.2,
+      "s": 0.8,
+      "flag": "red"
+     },
+     {
+      "k": "junk",
+      "x": 0.8,
+      "s": 0.7,
+      "flag": "red",
+      "flip": true
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.62,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her name was Zheng Yi Sao, but most people know her as Ching Shih.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "chingshih",
+     "text": "Ching Shih, pirate queen"
+    }
+   }
+  },
+  {
+   "who": "bailing",
+   "say": "So. You're here to surrender?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "bailing",
+      "x": 0.65,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "chingshih",
+      "x": 0.3,
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "bailing",
+    "tag": {
+     "id": "bailing",
+     "text": "Bai Ling, governor-general"
+    }
+   }
+  },
+  {
+   "who": "chingshih",
+   "say": "I'm here to negotiate. There's a difference.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "bailing",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "chingshih"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She walked out with a pardon for her crew, and she got to keep her treasure.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "junk",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "History is full of women like her, so today we're counting down seven of the most badass women who ever lived.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.12,
+      "pose": "fist"
+     },
+     {
+      "id": "artemisia",
+      "x": 0.26,
+      "pose": "point"
+     },
+     {
+      "id": "nzinga",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "boudica",
+      "x": 0.54,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "joan",
+      "x": 0.68,
+      "pose": "cheer"
+     },
+     {
+      "id": "lyudmila",
+      "x": 0.8,
+      "pose": "salute"
+     },
+     {
+      "id": "chingshih",
+      "x": 0.92,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "title",
+    "text": "The Most Badass Women in History",
+    "sub": "Seven women. All real. Do not mess with them."
+   },
+   "hold": 2.5
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "The Princess Nobody Could Pin",
+    "bg": "steppe"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number seven: Khutulun, the Mongol princess who wrestled men for their horses.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "smug",
+      "enter": "pop"
+     },
+     {
+      "id": "horse",
+      "x": 0.75
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "khutulun",
+     "text": "Khutulun, Mongol princess"
+    },
+    "place": "Central Asia · around 1280"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was born around 1260, the great-great-granddaughter of Genghis Khan, the man who built the Mongol Empire.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "khutulun",
+      "x": 0.7,
+      "s": 0.8,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.55,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GREAT-GREAT-GRANDPA",
+      "at": 1.5,
+      "color": "#262322"
+     }
+    ],
+    "tag": {
+     "id": "genghis",
+     "text": "Genghis Khan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her father, Kaidu, ruled a huge chunk of Central Asia and fought his own relative, Kublai Khan, for decades.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "kaidu",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry",
+      "hold": "sword"
+     },
+     {
+      "id": "khutulun",
+      "x": 0.65,
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "kaidu",
+     "text": "Kaidu, her father"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Marco Polo, the Italian traveller who visited the Mongol world, heard all about her.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.45,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "globe",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "polo",
+     "text": "Marco Polo, traveller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He says she was so strong that no young man in the kingdom could beat her, and she had one rule for husbands.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.2,
+      "s": 0.6,
+      "text": "RULE #1"
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "khutulun",
+   "say": "Want to marry me? Beat me in a wrestling match.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "suitor",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "khutulun"
+   }
+  },
+  {
+   "who": "suitor",
+   "say": "Easy. And if I lose?"
+  },
+  {
+   "who": "khutulun",
+   "say": "Then I keep your horses.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.35,
+      "pose": "cross",
+      "mood": "happy"
+     },
+     {
+      "id": "suitor",
+      "x": 0.62,
+      "mood": "shock"
+     },
+     {
+      "id": "horse",
+      "x": 0.85
+     }
+    ],
+    "cam": "close",
+    "focus": "khutulun"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to Polo, she never lost, and she won more than ten thousand horses.",
+   "show": {
+    "k": "card",
+    "label": "Horses won from suitors",
+    "big": "10,000",
+    "sub": "Marco Polo's number (maybe exaggerated)",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.85,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think Polo probably pumped up that number, but he didn't invent her. A Persian historian wrote about her too.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.35,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "KHUTULUN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REAL PERSON",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the end, she married a man she picked herself, no wrestling required.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.75
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "The Queen Who Sank Her Own Side",
+    "bg": "sea"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number six: Artemisia, a queen who commanded warships in one of the biggest sea battles of the ancient world.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "artemisia",
+      "x": 0.45,
+      "pose": "point",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "galley",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "artemisia",
+     "text": "Artemisia, queen of Halicarnassus"
+    },
+    "place": "Halicarnassus · 480 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She ruled Halicarnassus, a Greek city on the coast of what's now Turkey.",
+   "show": {
+    "k": "map",
+    "lon": 25.5,
+    "lat": 38.3,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "480 BC",
+    "labels": [
+     [
+      "Halicarnassus",
+      27.42,
+      37.04,
+      0
+     ],
+     [
+      "Athens",
+      23.73,
+      37.98,
+      0
+     ],
+     [
+      "Salamis",
+      23.5,
+      37.9,
+      -60
+     ]
+    ],
+    "route": [
+     [
+      27.42,
+      37.04
+     ],
+     [
+      26.2,
+      37.5
+     ],
+     [
+      24.5,
+      37.8
+     ],
+     [
+      23.55,
+      37.93
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her city belonged to the Persian Empire, so when the Persian king Xerxes invaded Greece, she brought five warships.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "galley",
+      "x": 0.85,
+      "s": 0.6,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "5 WARSHIPS",
+      "at": 1.8,
+      "color": "#C8902A"
+     }
+    ],
+    "tag": {
+     "id": "xerxes",
+     "text": "Xerxes, king of Persia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Before the Battle of Salamis, Xerxes asked his commanders one question: should we fight at sea?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.62,
+      "pose": "think"
+     },
+     {
+      "id": "artemisia",
+      "x": 0.3,
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "xerxes",
+   "say": "Everyone says attack! Right?"
+  },
+  {
+   "who": "artemisia",
+   "say": "Everyone is wrong. The Greeks are better sailors. Save your ships.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "artemisia",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "xerxes",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "artemisia"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Xerxes ignored her. The Persian fleet got crushed in the narrow water.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.3,
+      "s": 0.7
+     },
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.7,
+      "flip": true
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then an Athenian ship chased Artemisia, and her escape was blocked by a ship from her own side.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "artemisia",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.15,
+      "s": 0.7,
+      "move": [
+       0.05,
+       0.3
+      ]
+     },
+     {
+      "k": "galley",
+      "x": 0.85,
+      "s": 0.7,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OWN SIDE",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So she rammed it and sank it.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "artemisia",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.6,
+      "s": 0.8,
+      "move": [
+       0.3,
+       0.6
+      ]
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OOPS?",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Athenian captain decided she must be on his team, and turned away.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "greek",
+      "x": 0.5,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.2,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Xerxes watched from the shore and thought she had sunk a Greek ship, so he said this.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "My men have become women, and my women men.",
+   "show": {
+    "k": "quote",
+    "text": "My men have become women, and my women men.",
+    "who": "Xerxes, as told by Herodotus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That story comes from Herodotus, a Greek historian who happened to be born in Halicarnassus himself.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "herodotus",
+      "x": 0.45,
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "HISTORIES"
+     }
+    ],
+    "tag": {
+     "id": "herodotus",
+     "text": "Herodotus, historian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also says the Athenians offered ten thousand silver coins for her capture. Nobody ever collected.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "artemisia",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.2,
+      "s": 0.6,
+      "text": "WANTED"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "10,000 DRACHMAS",
+      "at": 1.5,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "The Queen Who Made Her Own Chair",
+    "bg": "palace"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number five: Nzinga, a queen from Ndongo, a kingdom in what's now Angola, in southern Africa.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "nzinga",
+     "text": "Nzinga of Ndongo"
+    },
+    "place": "Ndongo, Angola · 1620s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the early 1600s, the Portuguese were pushing into Ndongo and capturing people to sell into slavery.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "governor",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "cannon",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1622, her brother, the king, sent Nzinga to the Portuguese city of Luanda to make peace.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.35,
+      "pose": "walk",
+      "walk": [
+       0.15,
+       0.4
+      ]
+     },
+     {
+      "id": "attendant",
+      "x": 0.2,
+      "walk": [
+       0.02,
+       0.25
+      ],
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "place": "Luanda · 1622",
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Portuguese governor sat in a chair. For Nzinga, they put a mat on the floor.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "governor",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "smug"
+     },
+     {
+      "id": "nzinga",
+      "x": 0.3,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO CHAIR",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "governor",
+     "text": "João Correia de Sousa, governor"
+    }
+   }
+  },
+  {
+   "who": "governor",
+   "say": "Please, have a seat. On the floor.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "governor",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "nzinga",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "governor"
+   }
+  },
+  {
+   "who": "nzinga",
+   "say": "I don't think so."
+  },
+  {
+   "who": "N",
+   "say": "So one of her servants got down on hands and knees, and Nzinga sat on the servant's back, eye to eye with the governor.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "smug"
+     },
+     {
+      "id": "attendant",
+      "x": 0.35,
+      "s": 0.8,
+      "pose": "scared"
+     },
+     {
+      "id": "governor",
+      "x": 0.72,
+      "pose": "sit",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.74,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EYE TO EYE",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story comes from Giovanni Cavazzi, an Italian priest who later lived at her court. His book even has a picture of it.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "cavazzi",
+      "x": 0.4,
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "cavazzi",
+     "text": "Giovanni Cavazzi, priest"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "And it worked. She got her peace treaty.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.2,
+      "s": 0.5,
+      "text": "TREATY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When the Portuguese broke it, Nzinga became queen and fought them for about thirty years, even teaming up with the Dutch.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "30 YEARS",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She died in 1663, in her eighties, still a queen and never conquered.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1663",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "The Queen Who Burned London",
+    "bg": "field"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number four: Boudica, the queen who burned Roman London to the ground.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "boudica",
+     "text": "Boudica, queen of the Iceni"
+    },
+    "place": "Eastern Britain · 60 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around 60 AD, the Romans ruled much of Britain, and Boudica was queen of the Iceni, a tribe in eastern England.",
+   "show": {
+    "k": "map",
+    "lon": -0.5,
+    "lat": 52.2,
+    "z0": 2.3,
+    "z1": 3.0,
+    "date": "60 AD",
+    "labels": [
+     [
+      "Iceni lands",
+      0.9,
+      52.7,
+      0
+     ],
+     [
+      "Londinium",
+      -0.1,
+      51.5,
+      0
+     ],
+     [
+      "Colchester",
+      0.9,
+      51.9,
+      40
+     ],
+     [
+      "St Albans",
+      -0.34,
+      51.75,
+      -50
+     ]
+    ],
+    "areas": [
+     [
+      0.9,
+      52.6,
+      0.6,
+      "rgba(47,122,74,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When her husband, the king, died, he left his kingdom to his daughters and the Roman emperor, hoping that would keep his family safe.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.9,
+      "s": 0.4,
+      "text": "WILL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It didn't. Roman officials grabbed everything and treated Boudica and her daughters brutally.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "boudica",
+      "x": 0.3,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.85,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Big mistake. Boudica raised an army from tribes who were sick of Roman rule.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "briton",
+      "x": 0.62,
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "boudica",
+   "say": "They took our land. Now we take their towns."
+  },
+  {
+   "who": "briton",
+   "say": "Which one first?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "briton",
+      "x": 0.65,
+      "pose": "shrug"
+     },
+     {
+      "id": "boudica",
+      "x": 0.32,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.5,
+      "s": 0.4
+     },
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "briton"
+   }
+  },
+  {
+   "who": "boudica",
+   "say": "All of them.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "briton",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "boudica"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her army wiped out the Roman town of Colchester, then marched on Londinium, the new trading town that became London.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "briton",
+      "x": 0.3,
+      "pose": "run",
+      "walk": [
+       0.1,
+       0.4
+      ]
+     },
+     {
+      "id": "boudica",
+      "x": 0.55,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "place": "Londinium · 60 AD",
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They burned it. Archaeologists still find a thick red layer of burnt ash and clay under London from that fire.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared",
+      "exit": "right",
+      "exitAt": 1.5
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.25,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RED BURN LAYER",
+      "at": 2.0,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "fire",
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then they burned St Albans too. Rome was losing Britain.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Finally, the Roman general Suetonius Paulinus met her army with a smaller force of highly trained soldiers, and Rome won.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "paulinus",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "legionary",
+      "x": 0.6,
+      "pose": "fist"
+     },
+     {
+      "id": "legionary",
+      "x": 0.8,
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "paulinus",
+     "text": "Suetonius Paulinus, Roman general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Boudica died soon after. But in 1902, Britain put up a statue of her in a chariot right next to Parliament.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.5,
+      "s": 0.9
+     },
+     {
+      "k": "chariot",
+      "x": 0.2,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "uk"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEXT TO PARLIAMENT",
+      "at": 1.8,
+      "color": "#2F4A8A"
+     }
+    ],
+    "place": "London · 1902"
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "The Teenager Who Saved France",
+    "bg": "castle"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number three: Joan of Arc, the teenage farm girl who took charge of an army.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.45,
+      "pose": "cheer",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "joan",
+     "text": "Joan of Arc"
+    },
+    "place": "Domrémy, France · around 1412"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was born around 1412 in a village in eastern France.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.45,
+      "pose": "walk",
+      "walk": [
+       0.3,
+       0.5
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "England and France had been at war for about ninety years, in what we now call the Hundred Years' War.",
+   "show": {
+    "k": "map",
+    "lon": 2.2,
+    "lat": 48.3,
+    "z0": 1.9,
+    "z1": 2.5,
+    "date": "1429",
+    "labels": [
+     [
+      "Orléans",
+      1.9,
+      47.9,
+      0
+     ],
+     [
+      "Reims",
+      4.03,
+      49.26,
+      0
+     ],
+     [
+      "Domrémy",
+      5.68,
+      48.44,
+      0
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      -40
+     ]
+    ],
+    "areas": [
+     [
+      1.0,
+      49.6,
+      1.6,
+      "rgba(168,50,42,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "KINGDOM OF FRANCE",
+    "sub": "losing badly in 1429",
+    "bg": "castle"
+   },
+   "hold": 2.0
+  },
+  {
+   "who": "N",
+   "say": "The English held much of northern France, and they had surrounded the city of Orléans.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "englishknight",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.6,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Orléans · 1429"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joan said the voices of saints told her to save France, so at about seventeen she went to see Charles, the uncrowned heir to the throne.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.3,
+      "pose": "present"
+     },
+     {
+      "id": "charles",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "charles",
+     "text": "Charles, heir to the throne"
+    }
+   }
+  },
+  {
+   "who": "joan",
+   "say": "Give me an army. I'll break the siege.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "happy"
+     },
+     {
+      "id": "charles",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "joan"
+   }
+  },
+  {
+   "who": "charles",
+   "say": "You're seventeen."
+  },
+  {
+   "who": "joan",
+   "say": "And?"
+  },
+  {
+   "who": "N",
+   "say": "Amazingly, he said yes. She got armor, a horse and her own banner.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "france_royal"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She reached Orléans in late April 1429. Nine days later, the siege was over.",
+   "show": {
+    "k": "card",
+    "label": "Siege of Orléans broken in",
+    "big": "9 DAYS",
+    "sub": "after about six months stuck",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.86,
+      "s": 0.8,
+      "pose": "cheer"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "During one attack she was hit by an arrow near the shoulder, and she came back to the fight later that same day.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.85,
+      "s": 0.6
+     },
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two months later, Charles was crowned king in Reims Cathedral, with Joan right there.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.55,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "joan",
+      "x": 0.3,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "place": "Reims · July 1429"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sadly, she was captured a year later, put on trial by an English-backed court, and executed in 1431, at about nineteen.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Twenty-five years later, a new trial cleared her name, and in 1920 the Catholic Church made her a saint.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "france_royal"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SAINT JOAN · 1920",
+      "at": 1.5,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "Lady Death",
+    "bg": "snow"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number two: Lyudmila Pavlichenko, a history student who became one of the most famous snipers of World War Two.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.45,
+      "pose": "present",
+      "hold": "book",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "lyudmila",
+     "text": "Lyudmila Pavlichenko"
+    },
+    "place": "Kyiv University · 1937"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Yes, a history student. We like her already.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HISTORY NERD",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1941, Nazi Germany invaded the Soviet Union, and Lyudmila volunteered for the army.",
+   "show": {
+    "k": "flag",
+    "flag": "soviet",
+    "label": "THE SOVIET UNION",
+    "sub": "invaded in June 1941",
+    "bg": "snow"
+   }
+  },
+  {
+   "who": "recruiter",
+   "say": "Women can be nurses. Next!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "recruiter",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "lyudmila",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "recruiter"
+   }
+  },
+  {
+   "who": "lyudmila",
+   "say": "I can shoot. Here's my marksman certificate.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug",
+      "hold": "letter"
+     },
+     {
+      "id": "recruiter",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "lyudmila"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She fought at Odessa and then Sevastopol, two cities on the Black Sea.",
+   "show": {
+    "k": "map",
+    "lon": 32.0,
+    "lat": 45.6,
+    "z0": 2.5,
+    "z1": 3.2,
+    "date": "1941–1942",
+    "labels": [
+     [
+      "Odessa",
+      30.73,
+      46.48,
+      0
+     ],
+     [
+      "Sevastopol",
+      33.52,
+      44.6,
+      0
+     ],
+     [
+      "Black Sea",
+      33.0,
+      43.3,
+      0
+     ]
+    ],
+    "route": [
+     [
+      30.73,
+      46.48
+     ],
+     [
+      32.0,
+      45.3
+     ],
+     [
+      33.52,
+      44.6
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her official count was three hundred nine enemy soldiers, though some historians think the real number was lower.",
+   "show": {
+    "k": "card",
+    "label": "Official Soviet count",
+    "big": "309",
+    "sub": "some historians doubt it",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.86,
+      "s": 0.8,
+      "pose": "salute"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1942 she was wounded, so the Soviets sent her on a tour of the United States to ask for help.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.4,
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "soviet"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She became the first Soviet citizen welcomed at the White House, and became friends with Eleanor Roosevelt, the First Lady.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "eleanor",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "usa48"
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "eleanor",
+     "text": "Eleanor Roosevelt"
+    },
+    "place": "Washington, D.C. · 1942"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But American reporters kept asking about her makeup and the length of her skirt.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "reporter",
+      "x": 0.65,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "lyudmila",
+      "x": 0.3,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "\"LIPSTICK?\"",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in Chicago, she told a crowd this.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.5,
+      "text": "CHICAGO"
+     }
+    ],
+    "place": "Chicago · 1942"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Gentlemen, I am twenty-five years old, and I have killed three hundred nine fascist occupants by now. Don't you think, gentlemen, that you have been hiding behind my back for too long?",
+   "show": {
+    "k": "quote",
+    "text": "Gentlemen, I am 25 years old and I have killed 309 fascist occupants by now. Don't you think, gentlemen, that you have been hiding behind my back for too long?",
+    "who": "Lyudmila Pavlichenko, Chicago, 1942"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After the war, she went back to university and finished her history degree.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "The Pirate Who Won",
+    "bg": "sea"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "And number one: Ching Shih, the pirate who fought an empire and retired rich.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.15,
+      "s": 0.7,
+      "flag": "red"
+     },
+     {
+      "k": "junk",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "red",
+      "flip": true
+     }
+    ],
+    "place": "South China Sea · 1801"
+   }
+  },
+  {
+   "who": "N",
+   "say": "China was ruled by the Qing dynasty, and its southern coast was full of pirates.",
+   "show": {
+    "k": "flag",
+    "flag": "china_qing",
+    "label": "QING CHINA",
+    "sub": "1644–1912",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1801, she married Zheng Yi, one of the most powerful pirate bosses on that coast.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "zhengyi",
+      "x": 0.62,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "chingshih",
+      "x": 0.32,
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "zhengyi",
+     "text": "Zheng Yi, pirate boss"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "When he died in 1807, she took over, and she turned out to be even better at it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.72,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At its peak, one estimate says her pirate alliance had about eighteen hundred ships and tens of thousands of pirates.",
+   "show": {
+    "k": "card",
+    "label": "Pirate alliance at its peak",
+    "big": "1,800 SHIPS",
+    "sub": "one estimate · tens of thousands of pirates",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.86,
+      "s": 0.8,
+      "pose": "hips"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She ran it like a business, with strict rules. All loot had to be written down before anyone got a share.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.35,
+      "pose": "present",
+      "hold": "scroll"
+     },
+     {
+      "id": "pirate",
+      "x": 0.68,
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LOOT LOG",
+      "at": 1.5,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Qing navy attacked again and again, and the pirates kept winning.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.2,
+      "s": 0.7,
+      "flag": "red"
+     },
+     {
+      "k": "junk",
+      "x": 0.8,
+      "s": 0.7,
+      "flip": true
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1810, the government offered talks, and that brings us back to that office.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "bailing",
+      "x": 0.65,
+      "pose": "think"
+     },
+     {
+      "id": "chingshih",
+      "x": 0.3,
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "place": "Guangzhou · 1810"
+   }
+  },
+  {
+   "who": "bailing",
+   "say": "Fine. What do you want?"
+  },
+  {
+   "who": "chingshih",
+   "say": "Pardons for my people. And we keep what we took.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "bailing",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "chingshih"
+   }
+  },
+  {
+   "who": "bailing",
+   "say": "...Deal.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "bailing",
+      "x": 0.65,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "chingshih",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "bailing"
+   }
+  },
+  {
+   "who": "N",
+   "say": "About seventeen thousand pirates surrendered, most got to keep their loot, and some even joined the navy that had been hunting them.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "pose": "salute",
+      "mood": "happy"
+     },
+     {
+      "id": "chingshih",
+      "x": 0.65,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "junk",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "17,000+ PARDONED",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ching Shih settled down, ran a gambling house, and died in 1844, in her late sixties.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most pirates end up caught or sunk. She won, and then she retired.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.2,
+      "s": 0.7,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So there you have it: a wrestler, an admiral, a diplomat, a rebel, a teenage commander, a sniper and a pirate queen.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "khutulun",
+      "x": 0.12,
+      "pose": "fist"
+     },
+     {
+      "id": "artemisia",
+      "x": 0.26,
+      "pose": "point"
+     },
+     {
+      "id": "nzinga",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "boudica",
+      "x": 0.54,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "joan",
+      "x": 0.68,
+      "pose": "cheer"
+     },
+     {
+      "id": "lyudmila",
+      "x": 0.8,
+      "pose": "salute"
+     },
+     {
+      "id": "chingshih",
+      "x": 0.92,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seven very different women, and not one of them waited for permission.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "chingshih",
+      "x": 0.55,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "boudica",
+      "x": 0.8,
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next up: the greatest con artists in history. See you there.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.72,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "khutulun",
+      "x": 0.86,
+      "pose": "wave"
+     }
+    ],
+    "next": "The Greatest Con Artists in History"
+   }
+  }
+ ],
+ "youtube_title": "The Most Badass Women in History",
+ "tags": [
+  "badass women in history",
+  "women in history",
+  "ching shih",
+  "boudica",
+  "joan of arc",
+  "queen nzinga",
+  "khutulun",
+  "artemisia",
+  "lyudmila pavlichenko",
+  "funny history",
+  "animated history",
+  "history documentary"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Zheng_Yi_Sao",
+  "https://www.historyhit.com/facts-about-ching-shih-chinas-pirate-queen/",
+  "https://thechinaproject.com/2022/04/13/chinas-pirate-queen-zheng-yi-saos-final-success-retirement/",
+  "https://www.worldhistory.org/Zheng_Yi/",
+  "https://en.wikipedia.org/wiki/Khutulun",
+  "https://www.laphamsquarterly.org/roundtable/wrestler-princess",
+  "https://www.mentalfloss.com/article/560956/mongolian-princess-who-challenged-her-suitors-wrestling-match-and-always-won",
+  "https://en.wikipedia.org/wiki/Artemisia_I_of_Caria",
+  "https://www.worldhistory.org/Artemisia_I_of_Caria/",
+  "https://www.usni.org/magazines/naval-history/2024/october/artemisia-warrior-queen",
+  "https://en.wikipedia.org/wiki/Damasithymus",
+  "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba",
+  "https://www.britannica.com/biography/Nzinga",
+  "https://sahistory.org.za/people/njinga-ana-de-sousa",
+  "https://en.wikipedia.org/wiki/Giovanni_Cavazzi_da_Montecuccolo",
+  "https://en.wikipedia.org/wiki/Boudica",
+  "https://en.wikipedia.org/wiki/Boudican_revolt",
+  "https://www.worldhistory.org/article/100/tacitus-on-boudiccas-revolt/",
+  "https://en.wikipedia.org/wiki/Joan_of_Arc",
+  "https://www.britannica.com/event/Siege-of-Orleans",
+  "https://www.history.com/this-day-in-history/april-29/joan-of-arc-relieves-orleans",
+  "https://en.wikipedia.org/wiki/Lyudmila_Pavlichenko",
+  "https://www.smithsonianmag.com/history/eleanor-roosevelt-and-the-soviet-sniper-23585278/",
+  "https://www.nationalww2museum.org/war/articles/lady-death-red-army-lyudmila-pavlichenko",
+  "https://www.nps.gov/elro/blogs/lady-death-and-the-first-lady.htm"
+ ]
+}

@@ -1,0 +1,281 @@
+{
+ "id": "2026w43-s23",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "A 3,000-Year-Old Queen's Tomb Full of Weapons",
+ "hook": "QUEEN'S TOMB FULL OF WEAPONS",
+ "music": "playful",
+ "cast": {
+  "fuhao": {
+   "hat": "crown",
+   "hatColor": "#C8902A",
+   "outfit": "armor",
+   "color": "#8A2A2A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "axe",
+   "name": "Fu Hao"
+  },
+  "wuding": {
+   "preset": "king",
+   "hat": "crown",
+   "color": "#2F4A2A",
+   "beard": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "King Wu Ding"
+  },
+  "diviner": {
+   "outfit": "robe",
+   "color": "#6A5A3A",
+   "beard": "long",
+   "hairColor": "#BFBFBF",
+   "skin": "light",
+   "hold": "scroll"
+  },
+  "archaeologist": {
+   "preset": "scientist",
+   "hat": "straw",
+   "outfit": "overalls",
+   "color": "#6A8AB8",
+   "skin": "light",
+   "hold": "lantern"
+  }
+ },
+ "voices": {
+  "fuhao": "bf_emma",
+  "wuding": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1976, archaeologists in China opened a royal tomb and found it packed with weapons.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "archaeologist",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "130 WEAPONS",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Anyang, China · 1976"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It belonged to Fu Hao, a queen who lived over three thousand years ago.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "fuhao",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "fuhao",
+     "text": "Fu Hao, Shang queen"
+    },
+    "place": "Shang China · around 1200 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was one of the wives of King Wu Ding, of the Shang dynasty, one of China's earliest dynasties.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "wuding",
+      "x": 0.62,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "fuhao",
+      "x": 0.3,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "wuding",
+     "text": "King Wu Ding"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Writing carved on old bones, used to ask the gods questions, shows she led armies.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "diviner",
+      "x": 0.4,
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "ORACLE BONES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "wuding",
+   "say": "Should Fu Hao lead the attack?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "wuding",
+      "x": 0.35,
+      "pose": "think"
+     },
+     {
+      "id": "diviner",
+      "x": 0.68,
+      "pose": "hold"
+     }
+    ],
+    "cam": "close",
+    "focus": "wuding"
+   }
+  },
+  {
+   "who": "fuhao",
+   "say": "Just give me the soldiers."
+  },
+  {
+   "who": "N",
+   "say": "The inscriptions suggest that for one campaign, she gathered about thirteen thousand soldiers.",
+   "show": {
+    "k": "card",
+    "label": "One campaign's army",
+    "big": "13,000",
+    "sub": "according to oracle bone inscriptions",
+    "cast": [
+     {
+      "id": "fuhao",
+      "x": 0.72,
+      "s": 0.8,
+      "pose": "point"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her tomb was the only royal tomb of her time found untouched, with bronze axes carrying her name.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "archaeologist",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "jar",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Anyang · 1976"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "fuhao",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "wuding",
+      "x": 0.7,
+      "pose": "cheer"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Her tomb stayed untouched for 3,000 years. Inside: an army's worth of weapons.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #fuhao #ancientchina #archaeology #womeninhistory",
+ "youtube_title": "A 3,000-Year-Old Queen's Tomb Full of Weapons #shorts",
+ "tags": [
+  "fu hao",
+  "shang dynasty",
+  "ancient china",
+  "archaeology",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Fu_Hao",
+  "https://en.wikipedia.org/wiki/Tomb_of_Fu_Hao",
+  "https://www.khanacademy.org/humanities/art-asia/imperial-china/shang-dynasty/a/war-and-sacrifice-the-tomb-of-fu-hao",
+  "https://www.medievalists.net/2018/12/queen-priestess-general-the-legendary-life-of-fu-hao/"
+ ]
+}

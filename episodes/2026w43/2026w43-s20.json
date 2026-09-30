@@ -1,0 +1,276 @@
+{
+ "id": "2026w43-s20",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "The Samurai Woman Worth a Thousand Warriors",
+ "hook": "WORTH 1,000 WARRIORS",
+ "music": "playful",
+ "cast": {
+  "tomoe": {
+   "outfit": "samurai",
+   "color": "#A8322A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Tomoe Gozen"
+  },
+  "yoshinaka": {
+   "preset": "samurai",
+   "color": "#2F4A6A",
+   "stache": "thin",
+   "name": "Minamoto no Yoshinaka"
+  },
+  "enemysamurai": {
+   "preset": "samurai",
+   "color": "#6A6A6A",
+   "beard": "full"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "tomoe": "af_nicole",
+  "yoshinaka": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "An old Japanese war story calls one woman a warrior worth a thousand men.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "tomoe",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "smug",
+      "enter": "pop"
+     },
+     {
+      "id": "horse",
+      "x": 0.75
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND?",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Japan · 1184",
+    "tag": {
+     "id": "tomoe",
+     "text": "Tomoe Gozen"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her name was Tomoe Gozen. She appears in the Tale of the Heike, an epic about a war between two samurai clans.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "tomoe",
+      "x": 0.4,
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "TALE OF THE HEIKE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It says she was a brilliant archer and rider, fit to face a god or a demon.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "tomoe",
+      "x": 0.4,
+      "pose": "aim",
+      "hold": "bow"
+     },
+     {
+      "id": "horse",
+      "x": 0.72
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She fought for a lord named Minamoto no Yoshinaka. In 1184, his army was crushed at the Battle of Awazu.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "yoshinaka",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "tomoe",
+      "x": 0.65,
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "tag": {
+     "id": "yoshinaka",
+     "text": "Minamoto no Yoshinaka"
+    }
+   }
+  },
+  {
+   "who": "yoshinaka",
+   "say": "Only five of us left. Tomoe, go. Save yourself.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "yoshinaka",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "sad"
+     },
+     {
+      "id": "tomoe",
+      "x": 0.65,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "yoshinaka"
+   }
+  },
+  {
+   "who": "tomoe",
+   "say": "Fine. But first, one last fight."
+  },
+  {
+   "who": "N",
+   "say": "The story says she charged a famous warrior, dragged him right off his horse, and won.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "tomoe",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "enemysamurai",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then she rode away and vanished from history. Historians aren't sure how much of her story is real.",
+   "show": {
+    "k": "card",
+    "label": "Tomoe Gozen",
+    "big": "LEGEND?",
+    "sub": "her story comes from old war epics",
+    "cast": [
+     {
+      "id": "tomoe",
+      "x": 0.72,
+      "s": 0.8,
+      "pose": "shrug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tomoe",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "An old Japanese epic says she was worth a thousand warriors.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #samurai #tomoegozen #japanesehistory #womeninhistory",
+ "youtube_title": "The Samurai Woman Worth a Thousand Warriors #shorts",
+ "tags": [
+  "tomoe gozen",
+  "samurai",
+  "tale of the heike",
+  "japanese history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tomoe_Gozen",
+  "https://en.wikipedia.org/wiki/Battle_of_Awazu",
+  "https://www.tofugu.com/japan/tomoe-gozen/"
+ ]
+}

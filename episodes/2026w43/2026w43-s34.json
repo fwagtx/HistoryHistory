@@ -1,0 +1,263 @@
+{
+ "id": "2026w43-s34",
+ "format": "short",
+ "date": "2026-10-23",
+ "slot": "09:00",
+ "title": "The Butcher Who Claimed a Fortune",
+ "hook": "THE BUTCHER HEIR",
+ "music": "playful",
+ "cast": {
+  "orton": {
+   "skin": "light",
+   "outfit": "coat",
+   "color": "#3A3A3A",
+   "apron": true,
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "stache": "bush",
+   "name": "Arthur Orton"
+  },
+  "ladyt": {
+   "skin": "light",
+   "outfit": "gown",
+   "color": "#2A2A3A",
+   "hat": "bonnet",
+   "hatColor": "#1E1C1B",
+   "hair": "bun",
+   "hairColor": "#9A9A9A",
+   "name": "Lady Tichborne"
+  },
+  "roger": {
+   "skin": "light",
+   "outfit": "suit",
+   "color": "#4A3A2A",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "stache": "thin",
+   "name": "Roger Tichborne"
+  }
+ },
+ "voices": {
+  "orton": "am_liam",
+  "ladyt": "bf_alice"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "An Australian butcher claimed to be a lost English heir. His mother believed him.",
+   "show": {
+    "k": "scene",
+    "bg": "outback",
+    "cast": [
+     {
+      "id": "orton",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave",
+      "enter": "pop"
+     }
+    ],
+    "place": "Wagga Wagga, Australia · 1866",
+    "tag": {
+     "id": "orton",
+     "text": "The butcher who said he was Roger"
+    },
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7,
+      "label": "BUTCHER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1854, Roger Tichborne, heir to a rich English family, was lost at sea.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "roger",
+      "x": 0.3,
+      "mood": "scared"
+     }
+    ],
+    "tag": {
+     "id": "roger",
+     "text": "Roger Tichborne, lost heir"
+    },
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 1.0,
+      "flag": "uk"
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His mother put ads in newspapers worldwide. In 1866, a butcher answered.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "ladyt",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "ladyt",
+     "text": "Lady Tichborne, Roger's mother"
+    },
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "MISSING: ROGER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Roger was thin and spoke French. The butcher was heavy, and didn't.",
+   "show": {
+    "k": "compare",
+    "bg": "white",
+    "left": {
+     "label": "Roger: thin, spoke French",
+     "cast": [
+      {
+       "id": "roger",
+       "mood": "neutral"
+      }
+     ]
+    },
+    "right": {
+     "label": "Butcher: heavy, no French",
+     "cast": [
+      {
+       "id": "orton",
+       "mood": "smug"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "ladyt",
+   "say": "Roger! My boy!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ladyt",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "orton",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "ladyt",
+    "place": "Paris · 1867"
+   }
+  },
+  {
+   "who": "orton",
+   "say": "Hello, Mother."
+  },
+  {
+   "who": "N",
+   "say": "The rest of the family called him a fake. In 1874, a London jury decided he was Arthur Orton, a butcher's son.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "orton",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "uk",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He got fourteen years in prison.",
+   "show": {
+    "k": "card",
+    "label": "Arthur Orton's sentence, 1874",
+    "big": "14 YEARS",
+    "sub": "for lying under oath",
+    "cast": [
+     {
+      "id": "orton",
+      "x": 0.8,
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's greatest scams.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "orton",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "ladyt",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A butcher from Australia said he was a missing English heir.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #victorian #conartist #australia #historytok",
+ "youtube_title": "The Butcher Who Claimed a Fortune #shorts",
+ "tags": [
+  "tichborne claimant",
+  "arthur orton",
+  "impostor",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tichborne_case",
+  "https://en.wikipedia.org/wiki/Arthur_Orton",
+  "https://portrait.gov.au/portraits/2001.23/the-tichborne-claimant-arthur-orton",
+  "https://collections.countway.harvard.edu/onview/exhibits/show/owners-and-donors/john-rathbone-oliver/the-tichborne-claimant-case"
+ ]
+}

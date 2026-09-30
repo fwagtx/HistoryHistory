@@ -1,0 +1,341 @@
+{
+ "id": "2026w43-s15",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "No Chair? This Queen Made One",
+ "hook": "NO CHAIR? NO PROBLEM",
+ "music": "playful",
+ "cast": {
+  "nzinga": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#C8902A",
+   "color2": "#A8322A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "dark",
+   "name": "Nzinga"
+  },
+  "governor": {
+   "preset": "noble",
+   "hat": "slouch",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#262322",
+   "beard": "goatee",
+   "stache": "thin",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "João Correia de Sousa"
+  },
+  "attendant": {
+   "outfit": "tunic",
+   "color": "#E8C25A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "dark"
+  },
+  "cavazzi": {
+   "preset": "monk",
+   "hold": "book",
+   "name": "Giovanni Cavazzi"
+  }
+ },
+ "voices": {
+  "nzinga": "bf_alice",
+  "governor": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When the Portuguese refused to give Nzinga a chair, she turned a servant into one.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "smug"
+     },
+     {
+      "id": "attendant",
+      "x": 0.35,
+      "s": 0.8,
+      "pose": "scared"
+     },
+     {
+      "id": "governor",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "place": "Luanda, Angola · 1622"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nzinga was the sister of the king of Ndongo, a kingdom in what's now Angola.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "nzinga",
+     "text": "Nzinga of Ndongo"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Portuguese were invading Ndongo, so in 1622 the king sent her to make peace.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.3,
+      "pose": "walk",
+      "walk": [
+       0.12,
+       0.35
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.7
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Portuguese governor sat in a chair and gave her a mat on the floor.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "governor",
+      "x": 0.62,
+      "pose": "sit",
+      "mood": "smug"
+     },
+     {
+      "id": "nzinga",
+      "x": 0.3,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.64,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO CHAIR",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "governor",
+     "text": "Portuguese governor"
+    }
+   }
+  },
+  {
+   "who": "governor",
+   "say": "Please, sit. On the floor.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "governor",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "nzinga",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "governor"
+   }
+  },
+  {
+   "who": "nzinga",
+   "say": "I don't think so."
+  },
+  {
+   "who": "N",
+   "say": "A servant knelt on hands and knees, and Nzinga sat on the servant's back, eye to eye with him.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "smug"
+     },
+     {
+      "id": "attendant",
+      "x": 0.35,
+      "s": 0.8,
+      "pose": "scared"
+     },
+     {
+      "id": "governor",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EYE TO EYE",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story comes from Giovanni Cavazzi, an Italian priest who later lived at her court.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "cavazzi",
+      "x": 0.45,
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "cavazzi",
+     "text": "Giovanni Cavazzi, priest"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "She got her treaty, later became queen, and fought the Portuguese for about thirty years.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.2,
+      "s": 0.5,
+      "text": "TREATY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "nzinga",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "attendant",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Portuguese gave her no chair. So she made one.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #queennzinga #angola #africanhistory #womeninhistory",
+ "youtube_title": "No Chair? This Queen Made One #shorts",
+ "tags": [
+  "queen nzinga",
+  "njinga",
+  "ndongo",
+  "african history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba",
+  "https://www.britannica.com/biography/Nzinga",
+  "https://sahistory.org.za/people/njinga-ana-de-sousa",
+  "https://en.wikipedia.org/wiki/Giovanni_Cavazzi_da_Montecuccolo"
+ ]
+}

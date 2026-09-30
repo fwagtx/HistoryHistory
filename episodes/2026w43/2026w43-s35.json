@@ -1,0 +1,280 @@
+{
+ "id": "2026w43-s35",
+ "format": "short",
+ "date": "2026-10-23",
+ "slot": "09:00",
+ "title": "The Fake Giant That Fooled America",
+ "hook": "THE FAKE STONE GIANT",
+ "music": "playful",
+ "cast": {
+  "hull": {
+   "skin": "light",
+   "hat": "bowler",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "beard": "full",
+   "hairColor": "#5A3A22",
+   "name": "George Hull"
+  },
+  "newell": {
+   "preset": "farmer",
+   "skin": "light",
+   "name": "William Newell, farmer"
+  },
+  "barnum": {
+   "skin": "light",
+   "hat": "tophat",
+   "outfit": "suit",
+   "color": "#6A2A2A",
+   "hair": "curly",
+   "hairColor": "#5A4A3A",
+   "name": "P.T. Barnum"
+  }
+ },
+ "voices": {
+  "hull": "am_fenrir",
+  "newell": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1869, diggers on a New York farm found a ten foot stone giant. It was fake.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "newell",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "place": "Cardiff, New York · 1869",
+    "tag": {
+     "id": "newell",
+     "text": "William Newell, farmer"
+    },
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.7,
+      "s": 1.0,
+      "label": "GIANT?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "10 FEET",
+      "at": 1.2,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The giant was carved from gypsum, a soft stone, for Newell's cousin, George Hull.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "hull",
+      "x": 0.35,
+      "mood": "smug",
+      "hold": "hammer"
+     }
+    ],
+    "tag": {
+     "id": "hull",
+     "text": "George Hull, the hoaxer"
+    },
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hull reportedly did it after an argument with a preacher about giants in the Bible.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "hull",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.6,
+      "text": "GIANTS?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "newell",
+   "say": "Buried a year, then dug up. Fifty cents a look!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "newell",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "hull",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.5,
+      "s": 0.8
+     },
+     {
+      "k": "statue",
+      "x": 0.9,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "hull",
+   "say": "Keep your voice down."
+  },
+  {
+   "who": "N",
+   "say": "Crowds paid to see it. Showman P.T. Barnum couldn't buy it, so he made his own copy.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "barnum",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "tag": {
+     "id": "barnum",
+     "text": "P.T. Barnum, showman"
+    },
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.8,
+      "label": "COPY"
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "usa1859",
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soon a fake of a fake was drawing crowds. Hull confessed before the year was out.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "hull",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today the original lies in a museum in Cooperstown, New York.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "newell",
+      "x": 0.35,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.72,
+      "s": 0.8,
+      "label": "THE CARDIFF GIANT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's greatest scams.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hull",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "barnum",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A 10-foot 'petrified man' was dug up on a farm. It was a hoax.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #cardiffgiant #hoax #newyork #historytok",
+ "youtube_title": "The Fake Giant That Fooled America #shorts",
+ "tags": [
+  "cardiff giant",
+  "hoax",
+  "p.t. barnum",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cardiff_Giant",
+  "https://www.history.com/articles/the-cardiff-giant-fools-the-nation-145-years-ago",
+  "https://www.smithsonianmag.com/smart-news/cardiff-giant-was-just-big-hoax-180965274/",
+  "https://www.cnyhistory.org/2014/10/cardiff-giant/",
+  "https://www.masshist.org/beehiveblog/2017/02/a-remarkable-deception-the-cardiff-giant-hoax/"
+ ]
+}

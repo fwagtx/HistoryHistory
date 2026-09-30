@@ -1,0 +1,296 @@
+{
+ "id": "2026w43-s01",
+ "format": "short",
+ "date": "2026-10-19",
+ "slot": "09:00",
+ "title": "The Mongol Empire Was as Big as North America",
+ "hook": "BIGGER THAN NORTH AMERICA",
+ "music": "playful",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "rider": {
+   "preset": "mongol",
+   "hold": "bow"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "redcoat_uk": {
+   "preset": "tommy"
+  }
+ },
+ "voices": {
+  "genghis": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Mongol Empire once covered about as much land as all of North America.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ],
+    "place": "Mongol Empire · 1279",
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     },
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "24 MILLION KM²",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It started in 1206, when a chief named Temüjin united Mongolia's tribes and took the title Genghis Khan.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "genghis",
+     "text": "Genghis Khan"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.8
+     },
+     {
+      "k": "banner",
+      "x": 0.18,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "genghis",
+   "say": "Step one: unite Mongolia. Step two: everything else.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close",
+    "focus": "genghis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His family kept going: China, Iran, Russia, and briefly even Hungary.",
+   "show": {
+    "k": "map",
+    "lon": 52,
+    "lat": 45,
+    "z0": 1.0,
+    "z1": 1.15,
+    "date": "about 1279",
+    "labels": [
+     [
+      "Russia",
+      42,
+      55,
+      0
+     ],
+     [
+      "Iran",
+      53,
+      32,
+      0
+     ],
+     [
+      "Hungary (briefly)",
+      19.5,
+      47.2,
+      0
+     ],
+     [
+      "to China →",
+      66,
+      40,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      60,
+      48,
+      11,
+      "rgba(200,50,40,.35)"
+     ],
+     [
+      45,
+      50,
+      9,
+      "rgba(200,50,40,.35)"
+     ],
+     [
+      52,
+      34,
+      7,
+      "rgba(200,50,40,.35)"
+     ],
+     [
+      67,
+      40,
+      6,
+      "rgba(200,50,40,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At its peak, around 1279, it covered about twenty-four million square kilometers.",
+   "show": {
+    "k": "card",
+    "label": "The Mongol Empire at its peak",
+    "big": "24,000,000 km²",
+    "sub": "about the size of North America"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's the biggest connected land empire in history. The British Empire later got bigger, but it was spread across oceans.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "redcoat_uk",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "place": "British Empire · 1920",
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.65,
+      "s": 0.8,
+      "flag": "uk"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT CONNECTED",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So herders on horseback built the biggest land empire ever.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.65
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds too big to be true.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "rider",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One family ruled a chunk of land the size of North America.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mongolempire #genghiskhan #historytok #historyfacts",
+ "youtube_title": "The Mongol Empire Was as Big as North America #shorts",
+ "tags": [
+  "mongol empire",
+  "genghis khan",
+  "largest empire",
+  "history facts",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mongol_Empire",
+  "https://www.guinnessworldrecords.com/world-records/86621-largest-empire-contiguous",
+  "https://www.nationalgeographic.com/culture/article/mongols",
+  "https://en.wikipedia.org/wiki/British_Empire",
+  "https://en.wikipedia.org/wiki/North_America"
+ ]
+}

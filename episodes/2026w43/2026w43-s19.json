@@ -1,0 +1,281 @@
+{
+ "id": "2026w43-s19",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "A 17-Year-Old Broke a Siege in 9 Days",
+ "hook": "17 AND IN CHARGE",
+ "music": "playful",
+ "cast": {
+  "joan": {
+   "outfit": "armor",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "peach",
+   "hold": "flag",
+   "flagColor": "#F2F2F2",
+   "name": "Joan of Arc"
+  },
+  "charles": {
+   "preset": "king",
+   "beard": false,
+   "hat": "bowler",
+   "hatColor": "#2F4A8A",
+   "color": "#2F4A8A",
+   "hairColor": "#6A4A2A",
+   "skin": "peach",
+   "name": "Charles VII"
+  },
+  "englishknight": {
+   "preset": "knight",
+   "color": "#A8322A"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "joan": "af_sky",
+  "charles": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1429, a seventeen-year-old farm girl broke a months-long siege in nine days.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "france_royal"
+     },
+     {
+      "k": "cannon",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Orléans, France · 1429",
+    "tag": {
+     "id": "joan",
+     "text": "Joan of Arc"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "England and France had been at war for about ninety years, and the English had surrounded the city of Orléans.",
+   "show": {
+    "k": "map",
+    "lon": 2.0,
+    "lat": 48.3,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "1429",
+    "labels": [
+     [
+      "Orléans",
+      1.9,
+      47.9,
+      0
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      1.0,
+      49.6,
+      1.4,
+      "rgba(168,50,42,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joan said saints' voices told her to save France, so she went to Charles, the uncrowned heir.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.3,
+      "pose": "present"
+     },
+     {
+      "id": "charles",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "charles",
+     "text": "Charles, heir to the throne"
+    }
+   }
+  },
+  {
+   "who": "joan",
+   "say": "Give me an army. I'll break the siege.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "happy"
+     },
+     {
+      "id": "charles",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "joan"
+   }
+  },
+  {
+   "who": "charles",
+   "say": "You're seventeen."
+  },
+  {
+   "who": "joan",
+   "say": "And?"
+  },
+  {
+   "who": "N",
+   "say": "He said yes. She arrived at the end of April, and nine days later the English pulled back.",
+   "show": {
+    "k": "card",
+    "label": "Siege broken in",
+    "big": "9 DAYS",
+    "sub": "late April to May 8, 1429",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.72,
+      "s": 0.8,
+      "pose": "cheer"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was even hit by an arrow near the shoulder, and came back to the fight that same day.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "englishknight",
+      "x": 0.75,
+      "mood": "scared"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two months later, Charles was crowned king, with Joan standing right beside him.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.6,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "joan",
+      "x": 0.3,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "place": "Reims · 1429"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Seventeen, no military training, and she broke the siege in nine days.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #joanofarc #france #medievalhistory #womeninhistory",
+ "youtube_title": "A 17-Year-Old Broke a Siege in 9 Days #shorts",
+ "tags": [
+  "joan of arc",
+  "siege of orleans",
+  "hundred years war",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Joan_of_Arc",
+  "https://www.britannica.com/event/Siege-of-Orleans",
+  "https://www.history.com/this-day-in-history/april-29/joan-of-arc-relieves-orleans",
+  "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans"
+ ]
+}

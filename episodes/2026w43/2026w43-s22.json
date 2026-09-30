@@ -1,0 +1,283 @@
+{
+ "id": "2026w43-s22",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "Harriet Tubman Led a Civil War Raid",
+ "hook": "SHE LED THE RAID",
+ "music": "playful",
+ "cast": {
+  "tubman": {
+   "outfit": "dress",
+   "color": "#4A4A5A",
+   "hat": "headscarf",
+   "hatColor": "#C8553D",
+   "skin": "dark",
+   "hold": "rifle",
+   "name": "Harriet Tubman"
+  },
+  "montgomery": {
+   "outfit": "uniform",
+   "color": "#2F3F6A",
+   "hat": "kepi",
+   "hatColor": "#2F3F6A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "peach",
+   "name": "Col. James Montgomery"
+  },
+  "unionsoldier": {
+   "outfit": "uniform",
+   "color": "#2F3F6A",
+   "hat": "kepi",
+   "hatColor": "#2F3F6A",
+   "skin": "dark",
+   "hold": "rifle"
+  },
+  "freedwoman": {
+   "preset": "peasantW",
+   "skin": "dark",
+   "hat": "headscarf",
+   "hatColor": "#E8C25A",
+   "hold": "chicken"
+  },
+  "freedman": {
+   "preset": "peasant",
+   "skin": "dark",
+   "hold": "bread"
+  }
+ },
+ "voices": {
+  "tubman": "af_heart",
+  "montgomery": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In one night in 1863, Harriet Tubman helped free more than seven hundred people.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "tubman",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "freedwoman",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Combahee River, South Carolina · 1863",
+    "tag": {
+     "id": "tubman",
+     "text": "Harriet Tubman"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tubman had escaped slavery herself, then went back again and again to lead others to freedom.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "tubman",
+      "x": 0.45,
+      "pose": "walk",
+      "walk": [
+       0.2,
+       0.5
+      ],
+      "hold": "lantern"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "During the Civil War, she worked for the Union army as a scout and spy.",
+   "show": {
+    "k": "flag",
+    "flag": "usa1859",
+    "label": "THE UNION ARMY",
+    "sub": "Civil War · 1861–1865",
+    "bg": "camp"
+   }
+  },
+  {
+   "who": "montgomery",
+   "say": "We need someone who knows where the traps are.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "montgomery",
+      "x": 0.62,
+      "pose": "think"
+     },
+     {
+      "id": "tubman",
+      "x": 0.3,
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "montgomery",
+    "tag": {
+     "id": "montgomery",
+     "text": "Col. James Montgomery"
+    }
+   }
+  },
+  {
+   "who": "tubman",
+   "say": "My scouts already found them."
+  },
+  {
+   "who": "N",
+   "say": "On June 2, Union gunboats steamed up the Combahee River, with Tubman guiding the way past hidden mines.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "unionsoldier",
+      "x": 0.4,
+      "pose": "aim"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.6,
+      "s": 0.8,
+      "move": [
+       0.3,
+       0.7
+      ],
+      "flag": "usa1859"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JUNE 2, 1863",
+      "at": 1.0,
+      "color": "#2F4A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Enslaved people on the rice plantations ran for the boats, carrying whatever they could.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "freedwoman",
+      "x": 0.35,
+      "pose": "run",
+      "walk": [
+       0.15,
+       0.55
+      ]
+     },
+     {
+      "id": "freedman",
+      "x": 0.62,
+      "pose": "run",
+      "walk": [
+       0.4,
+       0.8
+      ]
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "More than seven hundred people reached freedom that day, and some of the men joined the Union army.",
+   "show": {
+    "k": "card",
+    "label": "Freed in one raid",
+    "big": "700+",
+    "sub": "Combahee River Raid",
+    "cast": [
+     {
+      "id": "tubman",
+      "x": 0.72,
+      "s": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tubman",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "unionsoldier",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One night, one river, more than 700 people freed.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #harriettubman #civilwar #blackhistory #womeninhistory",
+ "youtube_title": "Harriet Tubman Led a Civil War Raid #shorts",
+ "tags": [
+  "harriet tubman",
+  "combahee river raid",
+  "civil war",
+  "black history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Raid_on_Combahee_Ferry",
+  "https://nmaahc.si.edu/explore/stories/combahee-ferry-raid",
+  "https://www.history.com/articles/harriet-tubman-combahee-ferry-raid-civil-war",
+  "https://blackpast.org/african-american-history/combahee-river-raid-june-2-1863/"
+ ]
+}

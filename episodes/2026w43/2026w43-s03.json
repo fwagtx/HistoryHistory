@@ -1,0 +1,294 @@
+{
+ "id": "2026w43-s03",
+ "format": "short",
+ "date": "2026-10-19",
+ "slot": "09:00",
+ "title": "The Mongol Passport Was Made of Gold",
+ "hook": "A PASSPORT MADE OF GOLD",
+ "music": "playful",
+ "cast": {
+  "kublai": {
+   "hat": "mongol",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Kublai Khan"
+  },
+  "polo": {
+   "outfit": "coat",
+   "color": "#A8322A",
+   "hat": "beret",
+   "hatColor": "#2A2A2A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Marco Polo"
+  },
+  "keeper": {
+   "preset": "mongol",
+   "outfit": "robe",
+   "color": "#5A7A3A",
+   "hat": "mongol",
+   "stache": "bush"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "kublai": "bm_daniel",
+  "keeper": "am_eric",
+  "polo": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When Marco Polo left China, the emperor handed him golden tablets to carry home.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "kublai",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "polo",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "shock"
+     }
+    ],
+    "place": "China · about 1291",
+    "tag": {
+     "id": "polo",
+     "text": "Marco Polo, merchant from Venice"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD TABLETS",
+      "at": 1.4,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The emperor was Kublai Khan, Genghis Khan's grandson, and the tablet was called a paiza.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "kublai",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "kublai",
+     "text": "Kublai Khan, Mongol emperor of China"
+    },
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mongol officials and messengers carried paizas to show they were on the Khan's business.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "happy",
+      "walk": [
+       0.2,
+       0.5
+      ]
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ],
+    "place": "Silk Road · 1290s",
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They came in wood, bronze, silver or gold. The better the metal, the more you got.",
+   "show": {
+    "k": "card",
+    "label": "Paiza ranks",
+    "big": "GOLD",
+    "sub": "beats silver, bronze and wood"
+   }
+  },
+  {
+   "who": "keeper",
+   "say": "Gold paiza? Right this way. Fresh horses, food and a bed.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "keeper",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "polo",
+      "x": 0.65,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "polo",
+   "say": "I could get used to this.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "polo"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's why some historians call the paiza an early ancestor of the passport.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "PASSPORT 1.0"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seven hundred years ago, the right piece of metal could get you across a continent.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.65
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history you can carry in your pocket.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "kublai",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Forget stamps. The Mongol VIP pass was a slab of gold.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #marcopolo #kublaikhan #mongols #historytok",
+ "youtube_title": "The Mongol Passport Was Made of Gold #shorts",
+ "tags": [
+  "paiza",
+  "marco polo",
+  "kublai khan",
+  "passport history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Paiza",
+  "https://en.wikipedia.org/wiki/Marco_Polo",
+  "https://www.worldhistory.org/Marco_Polo/",
+  "https://en.wikipedia.org/wiki/Yam_(route)"
+ ]
+}

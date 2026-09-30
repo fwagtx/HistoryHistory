@@ -1,0 +1,330 @@
+{
+ "id": "2026w43-s17",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "The Queen Who Burned Roman London",
+ "hook": "SHE BURNED LONDON",
+ "music": "playful",
+ "cast": {
+  "boudica": {
+   "outfit": "tunic",
+   "color": "#2F7A4A",
+   "color2": "#C8902A",
+   "hair": "long",
+   "hairColor": "#B5472A",
+   "skin": "peach",
+   "hold": "spear",
+   "name": "Boudica"
+  },
+  "briton": {
+   "outfit": "tunic",
+   "color": "#6A4A8A",
+   "hair": "long",
+   "hairColor": "#C8902A",
+   "stache": "handlebar",
+   "skin": "peach",
+   "hold": "axe"
+  },
+  "legionary": {
+   "preset": "legionary"
+  },
+  "paulinus": {
+   "preset": "legionary",
+   "hold": "sword",
+   "color": "#8A1E1A",
+   "name": "Suetonius Paulinus"
+  }
+ },
+ "voices": {
+  "boudica": "bf_isabella",
+  "briton": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Around 60 AD, a British queen burned Roman London to the ground.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "fire",
+     "smoke"
+    ],
+    "place": "Londinium · 60 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her name was Boudica, queen of the Iceni, a tribe in eastern England.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "boudica",
+     "text": "Boudica, queen of the Iceni"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "When her husband died, Roman officials grabbed his kingdom and treated Boudica and her daughters brutally.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.62,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "boudica",
+      "x": 0.3,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "boudica",
+   "say": "They took our land. Now we take their towns.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "briton",
+      "x": 0.68,
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "boudica"
+   }
+  },
+  {
+   "who": "briton",
+   "say": "Which one first?"
+  },
+  {
+   "who": "N",
+   "say": "Her army destroyed Colchester, then London, then St Albans.",
+   "show": {
+    "k": "map",
+    "lon": -0.2,
+    "lat": 51.8,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "60 AD",
+    "labels": [
+     [
+      "Colchester",
+      0.9,
+      51.9,
+      0
+     ],
+     [
+      "London",
+      -0.1,
+      51.5,
+      0
+     ],
+     [
+      "St Albans",
+      -0.34,
+      51.75,
+      -40
+     ]
+    ],
+    "route": [
+     [
+      0.9,
+      51.9
+     ],
+     [
+      -0.1,
+      51.5
+     ],
+     [
+      -0.34,
+      51.75
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Archaeologists still dig up a red layer of burnt clay under London from that fire.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.3,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RED BURN LAYER",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the end, the Roman general Suetonius Paulinus beat her army, and Boudica died soon after.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "paulinus",
+      "x": 0.35,
+      "pose": "point"
+     },
+     {
+      "id": "legionary",
+      "x": 0.65,
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "paulinus",
+     "text": "Suetonius Paulinus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But since 1902, her statue has stood right next to Parliament, in the city she burned.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.5,
+      "s": 0.9
+     },
+     {
+      "k": "chariot",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
+    "place": "London · 1902"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "briton",
+      "x": 0.7,
+      "pose": "cheer"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome took her kingdom. She took London.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #boudica #romanbritain #london #womeninhistory",
+ "youtube_title": "The Queen Who Burned Roman London #shorts",
+ "tags": [
+  "boudica",
+  "roman britain",
+  "londinium",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Boudica",
+  "https://en.wikipedia.org/wiki/Boudican_revolt",
+  "https://www.worldhistory.org/article/100/tacitus-on-boudiccas-revolt/"
+ ]
+}

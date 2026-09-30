@@ -1,0 +1,277 @@
+{
+ "id": "2026w43-s18",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "The Sniper Who Schooled American Reporters",
+ "hook": "SNIPER SCHOOLS REPORTERS",
+ "music": "playful",
+ "cast": {
+  "lyudmila": {
+   "preset": "soviet",
+   "hat": "ushanka",
+   "hair": "bun",
+   "hairColor": "#3A2A1E",
+   "skin": "light",
+   "name": "Lyudmila Pavlichenko"
+  },
+  "reporter": {
+   "outfit": "suit",
+   "color": "#6A6A6A",
+   "hat": "fedora",
+   "hatColor": "#4A4A4A",
+   "hold": "pen",
+   "skin": "light"
+  },
+  "reporter2": {
+   "outfit": "suit",
+   "color": "#4A3A2A",
+   "hat": "fedora",
+   "hatColor": "#2A1E16",
+   "hold": "pen",
+   "skin": "peach",
+   "stache": "thin"
+  },
+  "eleanor": {
+   "outfit": "dress",
+   "color": "#2F4A6A",
+   "hair": "curly",
+   "hairColor": "#8A7A6A",
+   "skin": "light",
+   "hat": "bonnet",
+   "hatColor": "#2F4A6A",
+   "name": "Eleanor Roosevelt"
+  }
+ },
+ "voices": {
+  "lyudmila": "af_sarah",
+  "reporter": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1942, one of the Soviet Union's top snipers shut down a room full of American reporters.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "reporter",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "place": "Chicago · 1942"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lyudmila Pavlichenko was a history student before World War Two. Then Nazi Germany invaded her country.",
+   "show": {
+    "k": "flag",
+    "flag": "soviet",
+    "label": "THE SOVIET UNION",
+    "sub": "invaded in 1941",
+    "bg": "snow"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She became a sniper, and the Soviets credited her with three hundred nine kills, though some historians doubt that count.",
+   "show": {
+    "k": "card",
+    "label": "Official Soviet count",
+    "big": "309",
+    "sub": "some historians doubt it",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.72,
+      "s": 0.8,
+      "pose": "salute"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After she was wounded, she toured America to ask for help, and became friends with Eleanor Roosevelt.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "eleanor",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "usa48"
+     }
+    ],
+    "tag": {
+     "id": "eleanor",
+     "text": "Eleanor Roosevelt"
+    },
+    "place": "Washington, D.C. · 1942"
+   }
+  },
+  {
+   "who": "reporter",
+   "say": "Do you wear makeup at the front?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "reporter",
+      "x": 0.62,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "reporter2",
+      "x": 0.82
+     },
+     {
+      "id": "lyudmila",
+      "x": 0.28,
+      "pose": "facepalm"
+     }
+    ],
+    "cam": "close",
+    "focus": "reporter",
+    "tag": {
+     "id": "lyudmila",
+     "text": "Lyudmila Pavlichenko"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The questions were about her looks, not the war. So in Chicago, she said this.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.18,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "CHICAGO"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Gentlemen, I am twenty-five years old, and I have killed three hundred nine fascist occupants by now. Don't you think, gentlemen, that you have been hiding behind my back for too long?",
+   "show": {
+    "k": "quote",
+    "text": "Gentlemen, I am 25 years old and I have killed 309 fascist occupants by now. Don't you think, gentlemen, that you have been hiding behind my back for too long?",
+    "who": "Lyudmila Pavlichenko, Chicago, 1942"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After the war, she went back and finished her history degree.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lyudmila",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "eleanor",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Reporters asked about her makeup. She answered with one sentence.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ww2 #lyudmilapavlichenko #womeninhistory #historytok",
+ "youtube_title": "The Sniper Who Schooled American Reporters #shorts",
+ "tags": [
+  "lyudmila pavlichenko",
+  "lady death",
+  "ww2",
+  "eleanor roosevelt",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Lyudmila_Pavlichenko",
+  "https://www.smithsonianmag.com/history/eleanor-roosevelt-and-the-soviet-sniper-23585278/",
+  "https://www.nationalww2museum.org/war/articles/lady-death-red-army-lyudmila-pavlichenko",
+  "https://www.nps.gov/elro/blogs/lady-death-and-the-first-lady.htm"
+ ]
+}

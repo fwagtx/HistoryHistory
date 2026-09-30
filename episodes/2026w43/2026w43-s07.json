@@ -1,0 +1,278 @@
+{
+ "id": "2026w43-s07",
+ "format": "short",
+ "date": "2026-10-19",
+ "slot": "09:00",
+ "title": "Nobody Knows Where Genghis Khan Is Buried",
+ "hook": "HIS GRAVE IS STILL LOST",
+ "music": "playful",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "rider": {
+   "preset": "mongol",
+   "hold": "bow"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "archaeologist": {
+   "hat": "fedora",
+   "hatColor": "#6A5A4A",
+   "outfit": "coat",
+   "color": "#8A7A5A",
+   "hair": "short",
+   "skin": "light",
+   "hold": "map"
+  }
+ },
+ "voices": {
+  "archaeologist": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Genghis Khan ruled a giant empire, and nobody knows where he's buried.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "place": "Mongolia · 1227",
+    "tag": {
+     "id": "genghis",
+     "text": "Genghis Khan"
+    },
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WHERE?",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Mongol ruler died in 1227 while fighting in what's now northwestern China.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "place": "Northwest China · 1227",
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His body was taken back to Mongolia and buried in secret.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "sad",
+      "walk": [
+       0.15,
+       0.4
+      ]
+     },
+     {
+      "id": "horse",
+      "x": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legends say the burial party hid every trace, maybe by having horses trample the ground flat.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.35,
+      "bounce": true
+     },
+     {
+      "id": "rider",
+      "x": 0.65,
+      "pose": "point"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many searchers focus on Burkhan Khaldun, a sacred mountain in northeastern Mongolia.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "archaeologist",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "place": "Burkhan Khaldun, Mongolia · today",
+    "tag": {
+     "id": "archaeologist",
+     "text": "A modern tomb hunter"
+    },
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.78,
+      "s": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "archaeologist",
+   "say": "I'd love to dig. But the area is protected, sacred ground.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "archaeologist",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "archaeologist"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And many Mongolians believe the grave should never be disturbed.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "DO NOT DIG"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After about eight hundred years, the most famous conqueror in history is still winning at hide and seek.",
+   "show": {
+    "k": "card",
+    "label": "Years the grave has stayed hidden",
+    "big": "~800",
+    "sub": "since 1227"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history's unsolved mysteries.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "archaeologist",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He conquered half of Asia. Nobody can find his grave.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #mystery #mongolia #historytok",
+ "youtube_title": "Nobody Knows Where Genghis Khan Is Buried #shorts",
+ "tags": [
+  "genghis khan",
+  "genghis khan tomb",
+  "mystery",
+  "mongolia",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Burial_place_of_Genghis_Khan",
+  "https://www.nationalgeographic.com/history/article/genghis-khan-tomb-location",
+  "https://whc.unesco.org/en/list/1440/",
+  "https://bigthink.com/strange-maps/genghis-khan-burial/"
+ ]
+}

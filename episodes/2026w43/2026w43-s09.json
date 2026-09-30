@@ -1,0 +1,277 @@
+{
+ "id": "2026w43-s09",
+ "format": "short",
+ "date": "2026-10-19",
+ "slot": "09:00",
+ "title": "Marco Polo Said Mongols Drank Horse Blood",
+ "hook": "THEY DRANK HORSE BLOOD?",
+ "music": "playful",
+ "cast": {
+  "rider": {
+   "preset": "mongol",
+   "hold": "bow"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "polo": {
+   "outfit": "coat",
+   "color": "#A8322A",
+   "hat": "beret",
+   "hatColor": "#2A2A2A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Marco Polo"
+  }
+ },
+ "voices": {
+  "rider": "am_puck",
+  "polo": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Marco Polo claimed Mongol riders could survive on their own horses' blood.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "horse",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "place": "Mongol Empire · 1200s",
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REALLY?",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Polo was a merchant from Venice who spent years in the Mongol Empire.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "polo",
+     "text": "Marco Polo, merchant from Venice"
+    },
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.6,
+      "label": "SILK"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wrote that on long rides, they could go ten days without lighting a fire or eating a meal.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "happy",
+      "walk": [
+       0.2,
+       0.5
+      ]
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.5,
+      "text": "NO CAMPFIRES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His explanation: open a small vein in the horse's neck and drink a little blood.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "neutral"
+     },
+     {
+      "id": "horse",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "rider",
+   "say": "Sorry, buddy. Just a sip.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.72,
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "rider"
+   }
+  },
+  {
+   "who": "polo",
+   "say": "And I thought Venetian food was weird.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "polo",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "polo"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think the ten days is probably an exaggeration.",
+   "show": {
+    "k": "card",
+    "label": "Ten days on horse blood?",
+    "big": "10 DAYS",
+    "sub": "Marco Polo's claim, probably stretched"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But it shows why Mongol armies moved so fast: each rider brought spare horses, and his food walked with him.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.65
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rider",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "polo",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Marco Polo swore Mongol riders snacked on their horses. Sort of.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #marcopolo #mongols #weirdhistory #historytok",
+ "youtube_title": "Marco Polo Said Mongols Drank Horse Blood #shorts",
+ "tags": [
+  "marco polo",
+  "mongols",
+  "horse blood",
+  "mongol army",
+  "history shorts"
+ ],
+ "sources": [
+  "https://afe.easia.columbia.edu/mongols/conquests/khans_horses.pdf",
+  "https://en.wikipedia.org/wiki/Mongolian_horse",
+  "https://learninglink.oup.com/access/content/von-sivers-3e-dashboard-resources/document-selections-from-the-travels-of-marco-polo",
+  "https://en.wikipedia.org/wiki/Marco_Polo"
+ ]
+}

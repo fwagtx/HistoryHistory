@@ -1,0 +1,302 @@
+{
+ "id": "2026w43-s16",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "She Sank Her Own Side's Ship and Got Praised",
+ "hook": "SHE SANK HER OWN SIDE",
+ "music": "playful",
+ "cast": {
+  "artemisia": {
+   "hat": "goldhelm",
+   "outfit": "armor",
+   "color": "#6A3E8E",
+   "hair": "long",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "hold": "spear",
+   "name": "Artemisia"
+  },
+  "xerxes": {
+   "preset": "king",
+   "beard": "long",
+   "hairColor": "#1E1C1B",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "skin": "olive",
+   "name": "Xerxes I"
+  },
+  "greek": {
+   "preset": "greek"
+  },
+  "herodotus": {
+   "preset": "philosopher",
+   "hold": "scroll",
+   "name": "Herodotus"
+  }
+ },
+ "voices": {
+  "artemisia": "bf_emma",
+  "xerxes": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 480 BC, a queen sank a ship from her own side, and her king praised her for it.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "artemisia",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.65,
+      "s": 0.8
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Salamis, Greece · 480 BC",
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Artemisia ruled a Greek city in what's now Turkey, and she fought for Xerxes, the king of Persia.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "artemisia",
+      "x": 0.3,
+      "pose": "salute"
+     },
+     {
+      "id": "xerxes",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "artemisia",
+     "text": "Artemisia, queen of Halicarnassus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "At the Battle of Salamis, the Greek navy smashed the Persian fleet.",
+   "show": {
+    "k": "map",
+    "lon": 23.6,
+    "lat": 37.95,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "480 BC",
+    "labels": [
+     [
+      "Salamis",
+      23.48,
+      37.92,
+      0
+     ],
+     [
+      "Athens",
+      23.73,
+      37.98,
+      40
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "An Athenian ship chased Artemisia, and a ship from her own side blocked her way out.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "artemisia",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.15,
+      "s": 0.7,
+      "move": [
+       0.05,
+       0.25
+      ]
+     },
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.7,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TRAPPED",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So she rammed it and sank it. The Athenian thought she was on his team and let her go.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "greek",
+      "x": 0.45,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WRONG SHIP",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "xerxes",
+   "say": "Did you see that? She sank an enemy ship!",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "xerxes",
+    "tag": {
+     "id": "xerxes",
+     "text": "Xerxes, king of Persia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to Herodotus, a Greek historian, Xerxes then said: my men have become women, and my women men.",
+   "show": {
+    "k": "quote",
+    "text": "My men have become women, and my women men.",
+    "who": "Xerxes, as told by Herodotus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody on that ship survived to tell him the truth.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "herodotus",
+      "x": 0.45,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "HISTORIES"
+     }
+    ],
+    "tag": {
+     "id": "herodotus",
+     "text": "Herodotus, historian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "artemisia",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "xerxes",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "She sank a ship from her own side. Her king thought it was the enemy.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #artemisia #ancientgreece #persia #womeninhistory",
+ "youtube_title": "She Sank Her Own Side's Ship and Got Praised #shorts",
+ "tags": [
+  "artemisia",
+  "battle of salamis",
+  "xerxes",
+  "herodotus",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Artemisia_I_of_Caria",
+  "https://en.wikipedia.org/wiki/Damasithymus",
+  "https://www.worldhistory.org/Artemisia_I_of_Caria/",
+  "https://scottmanning.com/content/the-artemisia-of-herodotus-was-complex/"
+ ]
+}

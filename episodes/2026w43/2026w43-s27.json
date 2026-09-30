@@ -1,0 +1,248 @@
+{
+ "id": "2026w43-s27",
+ "format": "short",
+ "date": "2026-10-23",
+ "slot": "09:00",
+ "title": "The Man Who Invented a Country",
+ "hook": "HE INVENTED A COUNTRY",
+ "music": "playful",
+ "cast": {
+  "macgregor": {
+   "skin": "light",
+   "hat": "bicorne",
+   "outfit": "napoleon",
+   "color": "#2A3A8A",
+   "color2": "#D4A52A",
+   "hair": "curly",
+   "hairColor": "#6A3A1E",
+   "name": "Gregor MacGregor"
+  },
+  "banker": {
+   "preset": "banker",
+   "skin": "light",
+   "stache": "handlebar",
+   "hat": "tophat",
+   "name": "Paris banker"
+  }
+ },
+ "voices": {
+  "macgregor": "bm_lewis",
+  "banker": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1822, a Scotsman sold shares in a country that did not exist.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "wave",
+      "enter": "left"
+     }
+    ],
+    "place": "London · 1822",
+    "tag": {
+     "id": "macgregor",
+     "text": "Gregor MacGregor, Scottish soldier"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "flag": "uk",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Gregor MacGregor was a real war hero. He had fought for independence from Spain in South America.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.4,
+      "mood": "shout",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back in London, he said he was the prince of Poyais, a rich land in Central America.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.45,
+      "s": 0.8
+     },
+     {
+      "k": "banner",
+      "x": 0.8,
+      "text": "POYAIS",
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had a flag, a coat of arms, and a guidebook describing a capital with an opera house.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "book",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.7,
+      "label": "OPERA HOUSE?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "banker",
+   "say": "A loan to Poyais? How exciting!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "macgregor",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "banker"
+   }
+  },
+  {
+   "who": "macgregor",
+   "say": "The finest investment in the Americas."
+  },
+  {
+   "who": "N",
+   "say": "Investors bought two hundred thousand pounds of Poyais bonds, loans to a country made of pure imagination.",
+   "show": {
+    "k": "card",
+    "label": "Poyais bonds sold in London, 1822",
+    "big": "£200,000",
+    "sub": "for a country that didn't exist",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within about a year, the bonds were almost worthless.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.7,
+      "label": "EMPTY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's greatest scams.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "macgregor",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He sold bonds in a country he made up.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #scotland #conartist #poyais #historytok",
+ "youtube_title": "The Man Who Invented a Country #shorts",
+ "tags": [
+  "gregor macgregor",
+  "poyais",
+  "con artist",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Gregor_MacGregor",
+  "https://www.britannica.com/story/the-craziest-scam-gregor-macgregor-creates-his-own-country",
+  "https://www.historic-uk.com/HistoryUK/HistoryofScotland/Gregor-MacGregor-Prince-Of-Poyais/",
+  "https://crimereads.com/poyais-con-men-bonds-gregor-macgregor/",
+  "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais",
+  "https://en.wikipedia.org/wiki/List_of_ships_of_the_Poyais_scheme"
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "id": "2026w43-s26",
+ "format": "short",
+ "date": "2026-10-23",
+ "slot": "09:00",
+ "title": "The Box That \"Printed\" Money",
+ "hook": "A MONEY PRINTING BOX",
+ "music": "playful",
+ "cast": {
+  "lustig": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#2A2A2A",
+   "stache": "thin",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "Victor Lustig"
+  },
+  "buyer": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#5A4A3A",
+   "outfit": "suit",
+   "color": "#4A5A3A",
+   "name": "A buyer"
+  }
+ },
+ "voices": {
+  "lustig": "am_fenrir",
+  "buyer": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Victor Lustig sold people a box that printed money. Except it didn't.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present",
+      "enter": "pop"
+     }
+    ],
+    "place": "United States · 1920s",
+    "tag": {
+     "id": "lustig",
+     "text": "Victor Lustig, con man"
+    },
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.9,
+      "label": "MONEY BOX"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lustig was a smooth con man, also famous for selling the Eiffel Tower that he didn't own.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "usa48",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The trick: a wooden box with slots. Put in a real bill and blank paper, then wait for hours.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.3,
+      "mood": "neutral"
+     },
+     {
+      "id": "lustig",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.8,
+      "label": "MONEY BOX"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WAIT 6 HOURS",
+      "at": 1.5,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Out came two real bills! Lustig had hidden the second one inside beforehand.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "cheer"
+     },
+     {
+      "id": "lustig",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "buyer",
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "buyer",
+   "say": "It works! How much?"
+  },
+  {
+   "who": "lustig",
+   "say": "For you? A very fair price.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "shrug"
+     },
+     {
+      "id": "buyer",
+      "x": 0.72,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "cam": "close",
+    "focus": "lustig"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Buyers reportedly paid thousands of dollars. Soon the box printed only blank paper, and Lustig was gone.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.8,
+      "label": "BLANK PAPER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later he printed fake money for real, and in 1935 it sent him to Alcatraz.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.35,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.8,
+      "label": "ALCATRAZ"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's greatest scams.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lustig",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "buyer",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A box that prints money? What could go wrong?\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #conartist #scam #1920s #historytok",
+ "youtube_title": "The Box That \"Printed\" Money #shorts",
+ "tags": [
+  "victor lustig",
+  "money box scam",
+  "con artist",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Victor_Lustig",
+  "https://www.newyorkalmanack.com/2024/12/victor-lustig-conman-counterfeiter/",
+  "https://www.smithsonianmag.com/history/man-who-sold-eiffel-tower-twice-180958370/",
+  "https://www.ebsco.com/research-starters/biography/victor-lustig/"
+ ]
+}

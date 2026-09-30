@@ -1,0 +1,333 @@
+{
+ "id": "2026w43-s13",
+ "format": "short",
+ "date": "2026-10-21",
+ "slot": "09:00",
+ "title": "The Pirate Queen Who Beat China's Navy",
+ "hook": "THE PIRATE WHO WON",
+ "music": "playful",
+ "cast": {
+  "chingshih": {
+   "hat": "headscarf",
+   "hatColor": "#A8322A",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Zheng Yi Sao (Ching Shih)"
+  },
+  "bailing": {
+   "hat": "futou",
+   "hatColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#2F4A8A",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Bai Ling"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#6A4A2A",
+   "beard": false,
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "chingshih": "af_bella",
+  "bailing": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The most successful pirate in history never got caught. She retired rich.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug",
+      "enter": "pop"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.2,
+      "s": 0.7,
+      "flag": "red"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEVER CAUGHT",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "South China Sea · 1807"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her name was Zheng Yi Sao, better known as Ching Shih.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "chingshih",
+     "text": "Ching Shih, pirate queen"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "When her husband, a pirate boss, died in 1807, she took command of his fleet.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.35,
+      "pose": "point"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One estimate says her pirate alliance grew to about eighteen hundred ships.",
+   "show": {
+    "k": "card",
+    "label": "Pirate alliance at its peak",
+    "big": "1,800 SHIPS",
+    "sub": "one estimate",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "hips"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "China's navy attacked again and again, and kept losing.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.2,
+      "s": 0.7,
+      "flag": "red"
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1810, she walked into the governor-general's office in Guangzhou with no weapons, just to talk.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.3,
+      "pose": "walk",
+      "walk": [
+       0.12,
+       0.3
+      ]
+     },
+     {
+      "id": "bailing",
+      "x": 0.7,
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Guangzhou · 1810",
+    "tag": {
+     "id": "bailing",
+     "text": "Bai Ling, governor-general"
+    }
+   }
+  },
+  {
+   "who": "bailing",
+   "say": "So, you surrender?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "bailing",
+      "x": 0.62,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "chingshih",
+      "x": 0.3
+     }
+    ],
+    "cam": "close",
+    "focus": "bailing"
+   }
+  },
+  {
+   "who": "chingshih",
+   "say": "I negotiate. My people get pardons, and we keep our loot.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "bailing",
+      "x": 0.72,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She got the deal, ran a gambling house, and died in 1844, one of the few pirates who truly won.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "She fought China's navy, won, and negotiated her way into a rich retirement.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #chingshih #pirates #womeninhistory #historytok",
+ "youtube_title": "The Pirate Queen Who Beat China's Navy #shorts",
+ "tags": [
+  "ching shih",
+  "zheng yi sao",
+  "pirate queen",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Zheng_Yi_Sao",
+  "https://www.historyhit.com/facts-about-ching-shih-chinas-pirate-queen/",
+  "https://thechinaproject.com/2022/04/13/chinas-pirate-queen-zheng-yi-saos-final-success-retirement/"
+ ]
+}
