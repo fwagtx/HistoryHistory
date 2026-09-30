@@ -1,0 +1,317 @@
+{
+ "id": "2026w44-s12",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "Four Japanese Teens Met the Pope in 1585",
+ "hook": "JAPANESE TEENS MEET THE POPE",
+ "music": "playful",
+ "cast": {
+  "mancio": {
+   "preset": "child",
+   "outfit": "kimono",
+   "color": "#2F6FC2",
+   "hair": "short",
+   "name": "Itō Mancio",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "miguel": {
+   "preset": "child",
+   "outfit": "kimono",
+   "color": "#1F8A4A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "pope": {
+   "preset": "pope",
+   "beard": "full",
+   "hairColor": "#EFEFEF",
+   "name": "Pope Gregory XIII"
+  },
+  "king": {
+   "preset": "king",
+   "color": "#1E1C1B",
+   "beard": "goatee",
+   "hairColor": "#C8902A",
+   "name": "King Philip II of Spain"
+  }
+ },
+ "voices": {
+  "pope": "bm_george",
+  "mancio": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1585, four Japanese teenagers walked into Rome and met the Pope.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "mancio",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "miguel",
+      "x": 0.6,
+      "pose": "cheer",
+      "mood": "shock"
+     }
+    ],
+    "place": "Rome, Italy · 1585",
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were young Christians from Kyushu, in southern Japan, where Jesuit missionaries had converted some local lords.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "mancio",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "book"
+     }
+    ],
+    "place": "Nagasaki, Japan · 1582",
+    "tag": {
+     "id": "mancio",
+     "text": "Itō Mancio, about 13"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1582, they sailed off on a Portuguese ship. The trip to Europe took over two years.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "miguel",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.9,
+      "move": [
+       0.8,
+       0.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They landed in Lisbon, then crossed Spain and sailed on to Italy.",
+   "show": {
+    "k": "map",
+    "lon": 2,
+    "lat": 41,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1584 to 1585",
+    "labels": [
+     [
+      "Lisbon",
+      -9.1,
+      38.7,
+      0
+     ],
+     [
+      "Madrid",
+      -3.7,
+      40.4,
+      0
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -9.1,
+      38.7
+     ],
+     [
+      -3.7,
+      40.4
+     ],
+     [
+      0.4,
+      39.5
+     ],
+     [
+      8.9,
+      44.4
+     ],
+     [
+      11.2,
+      43.8
+     ],
+     [
+      12.5,
+      41.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Madrid, they even met King Philip the Second of Spain.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "king",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "mancio",
+      "x": 0.68,
+      "pose": "wave"
+     }
+    ],
+    "tag": {
+     "id": "king",
+     "text": "King Philip II of Spain"
+    }
+   }
+  },
+  {
+   "who": "pope",
+   "say": "Welcome, my sons. You came a very long way.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "pope",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "mancio",
+      "x": 0.68,
+      "pose": "salute"
+     }
+    ],
+    "tag": {
+     "id": "pope",
+     "text": "Pope Gregory XIII"
+    }
+   }
+  },
+  {
+   "who": "mancio",
+   "say": "Only three years, Holy Father.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "mancio",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "mancio"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pope Gregory died less than three weeks later. The next pope made the boys knights. They got home in 1590, eight years after leaving.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "mancio",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "miguel",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "place": "Nagasaki · 1590",
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history road trips.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "mancio",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pope",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1585, four Japanese teenagers traveled to Rome and met the Pope.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #rome #pope #historytok",
+ "youtube_title": "Four Japanese Teens Met the Pope in 1585 #shorts",
+ "tags": [
+  "tensho embassy",
+  "japan history",
+  "pope gregory xiii",
+  "rome",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tensh%C5%8D_embassy",
+  "https://peck.ackland.org/article/japanese-emissaries-in-sixteenth-century-europe",
+  "https://everything-everywhere.com/the-tensho-embassy/",
+  "https://en.wikipedia.org/wiki/It%C5%8D_Mancio"
+ ]
+}

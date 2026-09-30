@@ -1,0 +1,303 @@
+{
+ "id": "2026w44-s05",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "Japan Banned the Samurai's Swords",
+ "hook": "NO MORE SAMURAI SWORDS",
+ "music": "playful",
+ "cast": {
+  "samurai": {
+   "preset": "samurai",
+   "color": "#6A6A6A",
+   "beard": "full",
+   "hairColor": "#8A8A8A"
+  },
+  "police": {
+   "hat": "kepi",
+   "hatColor": "#1F2E55",
+   "outfit": "coat",
+   "color": "#1F2E55",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "meiji": {
+   "outfit": "uniform",
+   "color": "#1F2E55",
+   "hair": "short",
+   "stache": "thin",
+   "name": "Emperor Meiji",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "conscript": {
+   "hat": "kepi",
+   "hatColor": "#1F2E55",
+   "outfit": "uniform",
+   "color": "#1F2E55",
+   "hold": "rifle",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "samurai": "bm_george",
+  "police": "am_adam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1876, Japan told its samurai: no more swords in public.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "samurai",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "sword",
+      "mood": "shock"
+     }
+    ],
+    "place": "Tokyo, Japan · 1876",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.7,
+      "text": "NO SWORDS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For centuries, samurai were Japan's warrior class, and two swords showed their rank.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "samurai",
+      "x": 0.4,
+      "pose": "hips",
+      "hold": "sword",
+      "mood": "smug"
+     }
+    ],
+    "place": "Japan · 1600s",
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1868, a new government took over under young Emperor Meiji. It wanted Japan modern, fast.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "meiji",
+      "x": 0.45,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "place": "Tokyo · 1868",
+    "tag": {
+     "id": "meiji",
+     "text": "Emperor Meiji"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "japan"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1873, it began drafting ordinary farmers into a new army.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "conscript",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then came the sword ban. Only soldiers, police and a few others could carry swords.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "police",
+      "x": 0.35,
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.8,
+      "text": "NO SWORDS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "samurai",
+   "say": "My family has worn these swords for generations!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "samurai",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "police",
+      "x": 0.68,
+      "pose": "cross"
+     }
+    ],
+    "cam": "close",
+    "focus": "samurai"
+   }
+  },
+  {
+   "who": "police",
+   "say": "Lovely. Now they can hang on your wall.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "police",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "police"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1877, angry samurai rebelled. The army of drafted farmers crushed them.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "conscript",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "angry"
+     },
+     {
+      "id": "samurai",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Kyushu, Japan · 1877",
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After about seven hundred years on top, the samurai class was finished.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "samurai",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that ended an era.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "samurai",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "police",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1876 Japan banned samurai from wearing their swords in public.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #samurai #meiji #historytok",
+ "youtube_title": "Japan Banned the Samurai's Swords #shorts",
+ "tags": [
+  "samurai",
+  "sword ban",
+  "haitorei",
+  "meiji restoration",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hait%C5%8D_Edict",
+  "https://samurairevolution.omeka.net/exhibits/show/jy/section2",
+  "https://www.kcpinternational.com/2024/03/the-abolishment-of-the-samurai-class/",
+  "https://en.wikipedia.org/wiki/Satsuma_Rebellion",
+  "https://www.britannica.com/biography/Minamoto-Yoritomo"
+ ]
+}

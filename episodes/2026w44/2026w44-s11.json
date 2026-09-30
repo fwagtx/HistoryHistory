@@ -1,0 +1,288 @@
+{
+ "id": "2026w44-s11",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "The Peasant's Son Who United Japan",
+ "hook": "FROM PEASANT TO RULER",
+ "music": "playful",
+ "cast": {
+  "hideyoshi": {
+   "preset": "samurai",
+   "color": "#C8902A",
+   "stache": "thin",
+   "name": "Toyotomi Hideyoshi"
+  },
+  "young": {
+   "preset": "peasant",
+   "skin": "light",
+   "hairColor": "#1E1C1B",
+   "name": "young Hideyoshi"
+  },
+  "nobunaga": {
+   "preset": "samurai",
+   "color": "#1E1C1B",
+   "stache": "thin",
+   "name": "Oda Nobunaga"
+  },
+  "nene": {
+   "outfit": "kimono",
+   "color": "#E07A9A",
+   "hair": "long",
+   "name": "Nene",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "nobunaga": "am_fenrir",
+  "nene": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A peasant's son, called a bald rat by his own boss, ended up ruling Japan.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "young",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "place": "Owari, Japan · 1537",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Toyotomi Hideyoshi was born around 1537, when Japan was split between warring lords.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "young",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He started as a servant and foot soldier for Oda Nobunaga, a powerful warlord.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "nobunaga",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "young",
+      "x": 0.68,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "nobunaga",
+     "text": "Oda Nobunaga, warlord"
+    },
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was clever and tireless, and rose to become a top general.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hideyoshi",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "hideyoshi",
+     "text": "Toyotomi Hideyoshi"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in a letter to Hideyoshi's wife, Nene, Nobunaga called him a bald rat.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nene",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "letter",
+      "mood": "shock"
+     }
+    ],
+    "tag": {
+     "id": "nene",
+     "text": "Nene, Hideyoshi's wife"
+    },
+    "stickers": [
+     {
+      "text": "\"BALD RAT\"",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "nene",
+   "say": "My lord calls you a bald rat.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "nene",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "hideyoshi",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "nene"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1582, a rebel general killed Nobunaga. Hideyoshi moved fastest, beat the rebel, and took over.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "hideyoshi",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "place": "Japan · 1582",
+    "fx": [
+     "dust"
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1590, he had united Japan after more than a century of civil war.",
+   "show": {
+    "k": "card",
+    "label": "Japan united by a peasant's son",
+    "big": "1590",
+    "sub": "after over 100 years of civil war",
+    "cast": [
+     {
+      "id": "hideyoshi",
+      "x": 0.86,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history underdogs.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hideyoshi",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "nene",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His boss called him a bald rat. He went on to unite Japan.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #samurai #hideyoshi #historytok",
+ "youtube_title": "The Peasant's Son Who United Japan #shorts",
+ "tags": [
+  "toyotomi hideyoshi",
+  "oda nobunaga",
+  "samurai",
+  "japan history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Toyotomi-Hideyoshi",
+  "https://www.worldhistory.org/Toyotomi_Hideyoshi/",
+  "https://en.wikipedia.org/wiki/K%C5%8Ddai-in",
+  "http://the-history-girls.blogspot.com/2019/05/the-warlord-his-wife-and-his-concubines.html",
+  "https://en.wikipedia.org/wiki/Honn%C5%8D-ji_Incident"
+ ]
+}

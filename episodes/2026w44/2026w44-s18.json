@@ -1,0 +1,296 @@
+{
+ "id": "2026w44-s18",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "The Brothers-in-Law Who Hated Each Other",
+ "hook": "THEY HATED EACH OTHER",
+ "music": "playful",
+ "cast": {
+  "cardigan": {
+   "preset": "redcoat",
+   "color": "#2A3350",
+   "color2": "#B03050",
+   "stache": "bush",
+   "hairColor": "#C8A060",
+   "hold": "sword",
+   "name": "Lord Cardigan"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "horse2": {
+   "animal": "horse",
+   "mood": "scared"
+  },
+  "lucan": {
+   "preset": "redcoat",
+   "hat": "bicorne",
+   "stache": "handlebar",
+   "hairColor": "#6A4A2A",
+   "name": "Lord Lucan"
+  }
+ },
+ "voices": {
+  "cardigan": "bm_lewis",
+  "lucan": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A famous British military disaster was run by two brothers-in-law who hated each other.",
+   "show": {
+    "k": "compare",
+    "bg": "camp",
+    "left": {
+     "label": "LUCAN",
+     "cast": [
+      {
+       "id": "lucan",
+       "pose": "cross",
+       "mood": "angry"
+      }
+     ]
+    },
+    "right": {
+     "label": "CARDIGAN",
+     "cast": [
+      {
+       "id": "cardigan",
+       "pose": "cross",
+       "mood": "angry"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lord Lucan commanded Britain's cavalry in the Crimean War against Russia.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "lucan",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "uk"
+     }
+    ],
+    "place": "Crimea · 1854",
+    "tag": {
+     "id": "lucan",
+     "text": "Lord Lucan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His brother-in-law, Lord Cardigan, led the Light Brigade, a unit of fast horsemen.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "cardigan",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "horse",
+      "x": 0.72
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "cardigan",
+     "text": "Lord Cardigan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The two men hated each other, so they talked as little as possible.",
+   "show": {
+    "k": "card",
+    "label": "Lucan vs. Cardigan",
+    "big": "FEUD",
+    "sub": "family, but definitely not friends"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On October 25, 1854, Lucan got a confusing order to attack some Russian guns.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "lucan",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "shock",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "lucan",
+   "say": "Attack the guns down the valley.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "lucan",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "cardigan",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "lucan"
+   }
+  },
+  {
+   "who": "cardigan",
+   "say": "Into a valley with Russian guns on both sides? Fine."
+  },
+  {
+   "who": "N",
+   "say": "Neither checked what the order meant. The Light Brigade charged, and about one hundred ten men were killed.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.4,
+      "walk": [
+       0.2,
+       0.6
+      ]
+     },
+     {
+      "id": "horse2",
+      "x": 0.65,
+      "walk": [
+       0.45,
+       0.85
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke",
+     "dust"
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sometimes your own side is the problem.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "lucan",
+      "x": 0.35,
+      "pose": "facepalm"
+     },
+     {
+      "id": "cardigan",
+      "x": 0.68,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lucan",
+      "x": 0.3
+     },
+     {
+      "id": "cardigan",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Two brothers-in-law who hated each other ran the Charge of the Light Brigade.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #lightbrigade #crimeanwar #historytok #funnyhistory",
+ "youtube_title": "The Brothers-in-Law Who Hated Each Other #shorts",
+ "tags": [
+  "charge of the light brigade",
+  "lord cardigan",
+  "lord lucan",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Charge_of_the_Light_Brigade",
+  "https://www.historic-uk.com/HistoryUK/HistoryofBritain/Charge-Of-The-Light-Brigade/",
+  "https://victorianweb.org/history/crimea/chargelb.html",
+  "https://en.wikipedia.org/wiki/George_Bingham,_3rd_Earl_of_Lucan"
+ ]
+}

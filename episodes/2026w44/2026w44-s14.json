@@ -1,0 +1,224 @@
+{
+ "id": "2026w44-s14",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "Battleships Fired 518 Shells at Nothing",
+ "hook": "THEY SHOT AT NOTHING",
+ "music": "playful",
+ "cast": {
+  "officer": {
+   "preset": "captain",
+   "color": "#2A3350"
+  },
+  "radarman": {
+   "preset": "sailor"
+  }
+ },
+ "voices": {
+  "officer": "am_fenrir",
+  "radarman": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1943, American battleships fired five hundred eighteen giant shells at... nothing.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.5,
+      "s": 1.0,
+      "flag": "usa48"
+     }
+    ],
+    "fx": [
+     "explosion"
+    ],
+    "place": "Near Kiska, Alaska · July 1943",
+    "stickers": [
+     {
+      "text": "518 SHELLS",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were guarding Kiska, an island near Alaska held by Japanese troops.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.35,
+      "s": 0.6,
+      "flag": "japan_war"
+     },
+     {
+      "k": "tent",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One foggy night, their radar showed several ships coming closer.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "radarman",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "radarman",
+   "say": "Contacts on radar! Lots of them!"
+  },
+  {
+   "who": "officer",
+   "say": "Open fire!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "officer",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "radarman",
+      "x": 0.72,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The ships blasted away into the fog. Then the radar dots simply vanished.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.4,
+      "s": 0.8,
+      "flag": "usa48"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "There were no enemy ships. One popular theory: the radar picked up huge flocks of seabirds.",
+   "show": {
+    "k": "card",
+    "label": "The Battle of the Pips",
+    "big": "0 HITS",
+    "sub": "maybe seabirds?"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Worse, the fleet then left to refuel, and Japanese ships slipped in and rescued every soldier on Kiska.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.45,
+      "s": 0.8,
+      "flag": "japan_war",
+      "move": [
+       0.2,
+       0.7
+      ]
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "radarman",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "officer",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The US Navy fought a whole battle against its own radar screen.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ww2 #navy #historytok #funnyhistory",
+ "youtube_title": "Battleships Fired 518 Shells at Nothing #shorts",
+ "tags": [
+  "battle of the pips",
+  "ww2",
+  "kiska",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_the_Pips",
+  "https://military-history.fandom.com/wiki/Battle_of_the_Pips",
+  "https://en.wikipedia.org/wiki/Japanese_occupation_of_Kiska"
+ ]
+}

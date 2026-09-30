@@ -1,0 +1,241 @@
+{
+ "id": "2026w44-s28",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "The Dutch Traded Tulips Nobody Could See",
+ "hook": "TULIPS SOLD AS PROMISES",
+ "music": "playful",
+ "cast": {
+  "trader1": {
+   "preset": "merchant",
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#2A2A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "stache": "thin",
+   "hairColor": "#6A4A2A",
+   "name": "Haarlem bulb trader"
+  },
+  "trader2": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#3A4A6A",
+   "outfit": "coat",
+   "color": "#3A5A7A",
+   "hair": "short",
+   "hairColor": "#B5842A",
+   "beard": "goatee",
+   "name": "Weaver turned bulb trader"
+  }
+ },
+ "voices": {
+  "trader1": "am_fenrir",
+  "trader2": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In the 1630s, Dutch traders bought and sold tulips that nobody could see.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "letter"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "place": "Haarlem, Dutch Republic · 1636",
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Why? Tulips bloom in spring. The rest of the year, the bulbs sit underground.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "TULIPS BELOW"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they signed futures contracts: a promise to buy a bulb later, at a price agreed now.",
+   "show": {
+    "k": "card",
+    "label": "A futures contract",
+    "big": "BUY NOW, GET IT LATER",
+    "sub": "like pre-ordering a video game",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.8,
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The deals happened in taverns, in trading clubs called colleges.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.5,
+      "text": "CONTRACT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "trader1",
+   "say": "I'll buy your tulip for two hundred guilders, delivered in June!",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "trader1"
+   }
+  },
+  {
+   "who": "trader2",
+   "say": "Deal!"
+  },
+  {
+   "who": "trader1",
+   "say": "Now, who'll buy my promise for three hundred?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.6,
+      "label": "NO BULBS HERE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RESOLD!",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Promises were resold, sometimes the same night. The Dutch called it the wind trade, because they were basically trading air."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more wild money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "letter"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They bought and sold tulips that were still underground. The Dutch called it the wind trade.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tulipmania #money #dutchhistory #historytok",
+ "youtube_title": "The Dutch Traded Tulips Nobody Could See #shorts",
+ "tags": [
+  "tulip mania",
+  "futures contract",
+  "windhandel",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tulip_mania",
+  "https://libertystreeteconomics.newyorkfed.org/2013/09/crisis-chronicles-tulip-mania-1633-37/",
+  "https://ms.mcmaster.ca/~grasselli/Garber89.pdf",
+  "https://press.uchicago.edu/ucp/books/book/chicago/T/bo5414939.html",
+  "https://www.history.com/articles/tulip-mania-financial-crash-holland"
+ ]
+}

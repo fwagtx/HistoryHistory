@@ -1,0 +1,292 @@
+{
+ "id": "2026w44-s24",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "Napoleon Waited in Moscow for a Letter",
+ "hook": "NAPOLEON GOT IGNORED",
+ "music": "playful",
+ "cast": {
+  "alexander": {
+   "outfit": "uniform",
+   "color": "#2F4A3A",
+   "hair": "side",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "Tsar Alexander I"
+  },
+  "grenadier": {
+   "preset": "grenadier"
+  },
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  }
+ },
+ "voices": {
+  "grenadier": "am_puck",
+  "napoleon": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1812, Napoleon captured Moscow, and then sat there waiting for a reply that never came.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "france"
+     }
+    ],
+    "place": "Moscow, Russia · September 1812",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon, emperor of France"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Napoleon had invaded Russia with around six hundred thousand men, counting reinforcements.",
+   "show": {
+    "k": "map",
+    "lon": 31.0,
+    "lat": 55.2,
+    "z0": 1.7,
+    "z1": 2.2,
+    "date": "1812",
+    "labels": [
+     [
+      "Niemen River",
+      23.9,
+      54.9,
+      0
+     ],
+     [
+      "Moscow",
+      37.6,
+      55.75,
+      0
+     ]
+    ],
+    "route": [
+     [
+      23.9,
+      54.9
+     ],
+     [
+      27.5,
+      55.0
+     ],
+     [
+      32.05,
+      54.78
+     ],
+     [
+      35.8,
+      55.5
+     ],
+     [
+      37.6,
+      55.75
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His plan: win big battles, then make Tsar Alexander the First, Russia's ruler, ask for peace.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "russia"
+     }
+    ],
+    "tag": {
+     "id": "alexander",
+     "text": "Tsar Alexander I"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the Russians kept retreating. When Napoleon reached Moscow, it was almost empty, and soon it was on fire.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "fire",
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Any letter from the tsar?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "grenadier",
+      "x": 0.68,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL WAITING",
+      "at": 1.2,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "grenadier",
+   "say": "No, sire. Still nothing."
+  },
+  {
+   "who": "N",
+   "say": "He waited over a month. The tsar refused to talk."
+  },
+  {
+   "who": "N",
+   "say": "In October, with little food and winter coming, the army retreated, and most of it never made it home.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "grenadier",
+      "x": 0.35,
+      "pose": "walk",
+      "walk": [
+       0.6,
+       0.3
+      ],
+      "mood": "sad"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.62,
+      "pose": "walk",
+      "walk": [
+       0.8,
+       0.55
+      ],
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "grenadier",
+      "x": 0.3
+     },
+     {
+      "id": "napoleon",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Napoleon took Moscow and waited for a surrender that never came.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #russia #historytok #militaryhistory",
+ "youtube_title": "Napoleon Waited in Moscow for a Letter #shorts",
+ "tags": [
+  "napoleon",
+  "1812",
+  "moscow",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
+  "https://www.britannica.com/event/French-invasion-of-Russia",
+  "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)",
+  "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+ ]
+}

@@ -1,0 +1,258 @@
+{
+ "id": "2026w44-s27",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "Tulips Are Named After a Hat",
+ "hook": "TULIPS: NAMED AFTER A HAT",
+ "music": "playful",
+ "cast": {
+  "busbecq": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#1E1C1B",
+   "color2": "#F2EEE4",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "name": "Ogier Ghiselin de Busbecq"
+  },
+  "interpreter": {
+   "skin": "olive",
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "stache": "bush",
+   "hairColor": "#1E1C1B",
+   "name": "Interpreter"
+  }
+ },
+ "voices": {
+  "busbecq": "bm_daniel",
+  "interpreter": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The word tulip comes from an old word for turban, the wrapped cloth hat.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "interpreter",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "place": "Ottoman Empire · 1550s",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "flag": "ottoman",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1550s, a diplomat named Ogier Ghiselin de Busbecq visited the Ottoman Empire, a huge Turkish empire.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "busbecq",
+      "x": 0.4,
+      "enter": "left",
+      "pose": "walk"
+     }
+    ],
+    "tag": {
+     "id": "busbecq",
+     "text": "Ogier Ghiselin de Busbecq, diplomat"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "austria_habsburg",
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Ottomans loved tulips and grew them in their gardens. The usual story goes like this.",
+   "show": {
+    "k": "map",
+    "lon": 22,
+    "lat": 45,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1554",
+    "labels": [
+     [
+      "Constantinople",
+      28.98,
+      41.01,
+      14
+     ],
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ]
+    ],
+    "route": [
+     [
+      16.37,
+      48.21
+     ],
+     [
+      19.04,
+      47.5
+     ],
+     [
+      20.46,
+      44.8
+     ],
+     [
+      23.3,
+      42.7
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ]
+   }
+  },
+  {
+   "who": "busbecq",
+   "say": "What a lovely flower! What's it called?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "busbecq",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "interpreter",
+      "x": 0.7
+     }
+    ],
+    "cam": "close",
+    "focus": "busbecq",
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.52,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "interpreter",
+   "say": "Well, it looks like a tülbend. A turban!"
+  },
+  {
+   "who": "N",
+   "say": "Turkish speakers compared the flower's shape to a turban, and Europeans took that as its name.",
+   "show": {
+    "k": "card",
+    "label": "Where 'tulip' comes from",
+    "big": "TURBAN",
+    "sub": "Turkish 'tülbend' became 'tulipa', then 'tulip'",
+    "cast": [
+     {
+      "id": "interpreter",
+      "x": 0.8,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its real Turkish name is lale. Europe just named it after the hat instead.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "busbecq",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "LALE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So every time you say tulip, you're basically saying turban."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "busbecq",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "interpreter",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Every time you say 'tulip', you're basically saying 'turban'. Here's why.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tulips #ottomanempire #etymology #historytok",
+ "youtube_title": "Tulips Are Named After a Hat #shorts",
+ "tags": [
+  "tulip name origin",
+  "turban",
+  "ottoman empire",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.etymonline.com/word/tulip",
+  "https://wordhistories.net/2016/07/23/turban-tulip/",
+  "https://en.wikipedia.org/wiki/Ogier_Ghiselin_de_Busbecq",
+  "https://en.wikipedia.org/wiki/Tulip_mania"
+ ]
+}

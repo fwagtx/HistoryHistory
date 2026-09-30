@@ -1,0 +1,297 @@
+{
+ "id": "2026w44-s21",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "Germany Offered Mexico Texas",
+ "hook": "GERMANY OFFERED MEXICO TEXAS",
+ "music": "playful",
+ "cast": {
+  "carranza": {
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "beard": "long",
+   "stache": "bush",
+   "hairColor": "#EFEFEF",
+   "glasses": "round",
+   "skin": "light",
+   "hair": "short",
+   "name": "Venustiano Carranza"
+  },
+  "codebreaker": {
+   "preset": "businessman",
+   "color": "#5A5A6A",
+   "glasses": "square",
+   "hairColor": "#3A2A1A"
+  },
+  "reporter": {
+   "preset": "businessman",
+   "color": "#6A5A3A",
+   "hat": "fedora",
+   "hold": "pen"
+  },
+  "zimmermann": {
+   "preset": "businessman",
+   "hair": "bald",
+   "stache": "bush",
+   "glasses": "round",
+   "hairColor": "#8A8A8A",
+   "name": "Arthur Zimmermann"
+  }
+ },
+ "voices": {
+  "zimmermann": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1917, Germany secretly offered Mexico a deal: fight America, and win back Texas.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "zimmermann",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "globe",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Berlin, Germany · January 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Germany was fighting World War One and wanted to keep the United States busy.",
+   "show": {
+    "k": "flag",
+    "flag": "germany1914",
+    "label": "THE GERMAN EMPIRE",
+    "sub": "1917",
+    "bg": "trench"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Germany's foreign minister, Arthur Zimmermann, sent a secret coded telegram to Mexico.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "zimmermann",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "TOP SECRET"
+     },
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "zimmermann",
+     "text": "Arthur Zimmermann"
+    }
+   }
+  },
+  {
+   "who": "zimmermann",
+   "say": "Join us, and Mexico gets Texas, New Mexico and Arizona!"
+  },
+  {
+   "who": "N",
+   "say": "But British codebreakers in London were secretly reading German messages.",
+   "show": {
+    "k": "map",
+    "lon": 6.5,
+    "lat": 52.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1917",
+    "labels": [
+     [
+      "Berlin",
+      13.4,
+      52.52,
+      0
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      8.0,
+      53.0
+     ],
+     [
+      3.0,
+      52.3
+     ],
+     [
+      -0.13,
+      51.5
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They cracked the code and passed the telegram to the Americans.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "codebreaker",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DECODED",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mexico's president, Venustiano Carranza, studied the plan and said no.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "carranza",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "mexico"
+     }
+    ],
+    "tag": {
+     "id": "carranza",
+     "text": "President Venustiano Carranza"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Americans were so angry that it helped push the United States into the war.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "reporter",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "GERMANY'S MEXICO PLOT!"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "usa48"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "carranza",
+      "x": 0.3
+     },
+     {
+      "id": "zimmermann",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Germany secretly offered Mexico Texas. It didn't go well.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ww1 #zimmermanntelegram #historytok #texas",
+ "youtube_title": "Germany Offered Mexico Texas #shorts",
+ "tags": [
+  "zimmermann telegram",
+  "ww1",
+  "mexico",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Zimmermann_telegram",
+  "https://www.archives.gov/milestone-documents/zimmermann-telegram",
+  "https://www.theworldwar.org/learn/about-wwi/zimmermann-telegram",
+  "https://history.blog.gov.uk/2017/01/16/the-zimmermann-telegram-and-room-40"
+ ]
+}

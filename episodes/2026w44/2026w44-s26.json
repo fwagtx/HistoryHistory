@@ -1,0 +1,252 @@
+{
+ "id": "2026w44-s26",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "The Priciest Tulips Were Sick",
+ "hook": "THE PRICIEST TULIPS WERE SICK",
+ "music": "playful",
+ "cast": {
+  "collector": {
+   "preset": "noble",
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#2A2A2A",
+   "outfit": "coat",
+   "color": "#2F5A3A",
+   "stache": "thin",
+   "hairColor": "#8A5A2A",
+   "name": "Tulip collector"
+  },
+  "cayley": {
+   "skin": "light",
+   "hair": "bun",
+   "hairColor": "#6A6A6A",
+   "glasses": "round",
+   "outfit": "labcoat",
+   "name": "Dorothy Cayley"
+  }
+ },
+ "voices": {
+  "collector": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The most expensive tulips in history had a disease.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "collector",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "place": "Dutch Republic · 1630s",
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.72,
+      "s": 0.8,
+      "label": "Semper Augustus",
+      "empty": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1600s, rich Dutch collectors went wild for broken tulips, with stripes like flames on the petals.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "collector",
+      "x": 0.4,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.6,
+      "label": "STRIPED BULBS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STRIPES!",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "collector",
+   "say": "Look at those stripes! I'll pay anything!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "collector",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point",
+      "hold": "moneybag"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody knew why some bulbs suddenly grew stripes. It seemed like magic.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "collector",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1920s, a scientist in England, Dorothy Cayley, showed the stripes came from a virus.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "cayley",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "place": "England · 1920s",
+    "tag": {
+     "id": "cayley",
+     "text": "Dorothy Cayley, plant scientist"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "jar",
+      "x": 0.15,
+      "s": 0.5,
+      "label": "BULBS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The virus is spread by aphids, tiny bugs that suck plant juice.",
+   "show": {
+    "k": "card",
+    "label": "What made the stripes",
+    "big": "A VIRUS",
+    "sub": "spread by aphids, tiny plant-sucking bugs",
+    "cast": [
+     {
+      "id": "cayley",
+      "x": 0.8,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It also weakened the bulbs, so they multiplied slowly. Rare meant expensive.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "collector",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WEAK BULBS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today's striped tulips are bred to look that way, without the virus."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "collector",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "cayley",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The priciest tulips of the 1600s were sick. Nobody knew for almost 300 years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tulips #tulipmania #science #historytok",
+ "youtube_title": "The Priciest Tulips Were Sick #shorts",
+ "tags": [
+  "broken tulips",
+  "tulip breaking virus",
+  "tulip mania",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tulip_breaking_virus",
+  "https://en.wikipedia.org/wiki/Dorothy_Cayley",
+  "https://amsterdamtulipmuseum.com/blogs/tulip-facts/broken-tulips-the-beautiful-curse",
+  "https://www.nature.com/articles/s42003-025-07507-z",
+  "https://en.wikipedia.org/wiki/Tulip_mania"
+ ]
+}

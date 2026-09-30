@@ -1,0 +1,233 @@
+{
+ "id": "2026w44-s34",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "How the Dutch Cleaned Up the Tulip Crash",
+ "hook": "PAY 3.5% AND WALK AWAY",
+ "music": "playful",
+ "cast": {
+  "trader1": {
+   "preset": "merchant",
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#2A2A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "stache": "thin",
+   "hairColor": "#6A4A2A",
+   "name": "Haarlem bulb trader"
+  },
+  "trader2": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#3A4A6A",
+   "outfit": "coat",
+   "color": "#3A5A7A",
+   "hair": "short",
+   "hairColor": "#B5842A",
+   "beard": "goatee",
+   "name": "Weaver turned bulb trader"
+  }
+ },
+ "voices": {
+  "trader1": "am_fenrir",
+  "trader2": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "After the tulip crash, many Dutch buyers could escape their deals by paying just three and a half percent.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "place": "Haarlem, Dutch Republic · 1638",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In early 1637, lots of people had signed promises to buy tulip bulbs at sky-high prices.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "letter"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.5,
+      "text": "CONTRACT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the market crashed, and those bulbs were suddenly worth very little.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.5,
+      "label": "TULIP BULBS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "trader1",
+   "say": "You promised me two hundred guilders!",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "point",
+      "hold": "letter"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "trader1"
+   }
+  },
+  {
+   "who": "trader2",
+   "say": "For a bulb that's worth almost nothing now? No way!"
+  },
+  {
+   "who": "N",
+   "say": "In April 1637, the States of Holland, the province's government, put all tulip contracts on hold.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "flag": "netherlands",
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "ON HOLD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in 1638, Haarlem's town leaders ruled that buyers could walk away by paying three and a half percent of the price.",
+   "show": {
+    "k": "card",
+    "label": "Haarlem's deal for tulip buyers, 1638",
+    "big": "3.5%",
+    "sub": "of the price they had promised",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.8,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Not everyone paid even that. But the mess mostly faded away quietly."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more wild money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "trader1",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "You promised to pay a fortune for a tulip. Then the market crashed. Here's how the Dutch sorted it out.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tulipmania #money #dutchhistory #historytok",
+ "youtube_title": "How the Dutch Cleaned Up the Tulip Crash #shorts",
+ "tags": [
+  "tulip mania",
+  "tulip contracts",
+  "haarlem",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://libertystreeteconomics.newyorkfed.org/2013/09/crisis-chronicles-tulip-mania-1633-37/",
+  "https://en.wikipedia.org/wiki/Tulip_mania",
+  "https://penelope.uchicago.edu/encyclopaedia_romana/aconite/tulipomania.html",
+  "https://ms.mcmaster.ca/~grasselli/Garber89.pdf"
+ ]
+}

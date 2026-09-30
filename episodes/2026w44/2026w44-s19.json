@@ -1,0 +1,293 @@
+{
+ "id": "2026w44-s19",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "The Roman General Who Ignored the Warning",
+ "hook": "HE WAS WARNED",
+ "music": "playful",
+ "cast": {
+  "arminius": {
+   "outfit": "fur",
+   "color": "#6A5A3A",
+   "hair": "long",
+   "hairColor": "#C8A060",
+   "beard": "full",
+   "skin": "light",
+   "hold": "spear",
+   "name": "Arminius"
+  },
+  "legion": {
+   "preset": "legionary"
+  },
+  "segestes": {
+   "outfit": "fur",
+   "color": "#4A4A3A",
+   "hair": "long",
+   "hairColor": "#BFBFBF",
+   "beard": "long",
+   "skin": "light",
+   "name": "Segestes"
+  },
+  "varus": {
+   "preset": "legionary",
+   "color": "#A8322A",
+   "name": "Publius Quinctilius Varus"
+  },
+  "warrior": {
+   "outfit": "fur",
+   "color": "#5A4A2A",
+   "hair": "long",
+   "hairColor": "#8A5A2A",
+   "beard": "full",
+   "skin": "light",
+   "hold": "spear"
+  }
+ },
+ "voices": {
+  "segestes": "bm_george",
+  "varus": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 9 AD, a Roman general was warned about a trap, and walked right into it anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "varus",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.9
+     },
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Germania · 9 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Publius Quinctilius Varus governed Rome's new lands in Germania, roughly today's Germany.",
+   "show": {
+    "k": "map",
+    "lon": 9.0,
+    "lat": 51.2,
+    "z0": 1.6,
+    "z1": 2.3,
+    "date": "9 AD",
+    "labels": [
+     [
+      "Rhine",
+      6.6,
+      51.3,
+      0
+     ],
+     [
+      "GERMANIA",
+      10.5,
+      52.3,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      10.0,
+      52.0,
+      2.0,
+      "rgba(31,138,74,0.2)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His trusted friend was Arminius, a Germanic prince who had served in the Roman army.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "arminius",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "varus",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "arminius",
+     "text": "Arminius"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then another chief, Segestes, told Varus that Arminius was planning a revolt.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "segestes",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "scared"
+     },
+     {
+      "id": "varus",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "segestes",
+     "text": "Segestes"
+    }
+   }
+  },
+  {
+   "who": "segestes",
+   "say": "Arrest him! Arrest me too, if you don't believe me!"
+  },
+  {
+   "who": "varus",
+   "say": "Nonsense. Arminius is my friend.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "varus",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "segestes",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "varus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soon after, Varus marched three legions onto a narrow path between forest and swamp, and the tribes attacked.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "warrior",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "legion",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 1.0
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After days of fighting, almost the whole army was destroyed, and Rome never conquered Germania.",
+   "show": {
+    "k": "card",
+    "label": "Teutoburg Forest, 9 AD",
+    "big": "3 LEGIONS",
+    "sub": "lost"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "segestes",
+      "x": 0.3
+     },
+     {
+      "id": "varus",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He was told it was a trap. He marched in anyway.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rome #ancientrome #historytok #militaryhistory",
+ "youtube_title": "The Roman General Who Ignored the Warning #shorts",
+ "tags": [
+  "teutoburg forest",
+  "varus",
+  "arminius",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+  "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/",
+  "https://en.wikipedia.org/wiki/Segestes"
+ ]
+}

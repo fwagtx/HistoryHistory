@@ -1,0 +1,266 @@
+{
+ "id": "2026w44-s07",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "A Woman Wrote One of the First Novels 1,000 Years Ago",
+ "hook": "A 1,000-YEAR-OLD NOVEL",
+ "music": "playful",
+ "cast": {
+  "murasaki": {
+   "outfit": "kimono",
+   "color": "#6A3E8E",
+   "hair": "long",
+   "hold": "pen",
+   "name": "Murasaki Shikibu",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "lady": {
+   "outfit": "kimono",
+   "color": "#E07A9A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "courtier": {
+   "outfit": "robe",
+   "color": "#1E1C1B",
+   "hair": "bun",
+   "stache": "thin",
+   "hold": "scroll",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "murasaki": "af_heart",
+  "lady": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One of the world's first novels was written a thousand years ago, by a Japanese woman.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "murasaki",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "place": "Kyoto, Japan · about 1010",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "GENJI"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was a lady-in-waiting, an attendant to the empress, at the royal court in Kyoto.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "murasaki",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "lady",
+      "x": 0.68,
+      "pose": "wave"
+     }
+    ],
+    "tag": {
+     "id": "murasaki",
+     "text": "Murasaki Shikibu"
+    },
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Court men showed off by writing in Chinese. Stories in Japanese weren't taken very seriously.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "courtier",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She wrote one anyway: The Tale of Genji, about a charming prince and the people around him.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "murasaki",
+      "x": 0.5,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.2,
+      "s": 0.7,
+      "text": "GENJI"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lady",
+   "say": "Is the next chapter ready yet?",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "lady",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "murasaki",
+      "x": 0.68,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "lady"
+   }
+  },
+  {
+   "who": "murasaki",
+   "say": "Patience. There are fifty-four.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "murasaki",
+      "x": 0.55,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "murasaki"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fifty-four chapters and about eight hundred poems.",
+   "show": {
+    "k": "card",
+    "label": "The Tale of Genji",
+    "big": "54 CHAPTERS",
+    "sub": "and about 800 poems"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Funny thing: nobody knows her real name. Murasaki Shikibu is a nickname. Still, a thousand years later, she's on Japan's 2,000 yen note.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "murasaki",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "place": "Japan · 2000",
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REAL NAME: ???",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history written by women.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "murasaki",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "lady",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One of the world's first novels was written 1,000 years ago by a Japanese woman.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #taleofgenji #books #historytok",
+ "youtube_title": "A Woman Wrote One of the First Novels 1,000 Years Ago #shorts",
+ "tags": [
+  "tale of genji",
+  "murasaki shikibu",
+  "first novel",
+  "japan history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/topic/The-Tale-of-Genji",
+  "https://www.britannica.com/biography/Shikibu-Murasaki",
+  "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+  "https://www.worldhistory.org/Tale_of_Genji/",
+  "https://en.wikipedia.org/wiki/2000_yen_note"
+ ]
+}

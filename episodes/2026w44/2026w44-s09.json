@@ -1,0 +1,277 @@
+{
+ "id": "2026w44-s09",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "The World's Oldest Royal Family?",
+ "hook": "OLDEST ROYAL FAMILY ON EARTH",
+ "music": "playful",
+ "cast": {
+  "jimmu": {
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "hair": "long",
+   "beard": "long",
+   "name": "Emperor Jimmu (legend)",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "emperor": {
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "shogun": {
+   "preset": "shogun"
+  },
+  "scribe": {
+   "outfit": "robe",
+   "color": "#2F6FC2",
+   "hair": "bun",
+   "hold": "scroll",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "scribe": "am_echo",
+  "jimmu": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Japan's imperial family is the oldest continuous hereditary monarchy on Earth.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "emperor",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "Japan · 500s AD",
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Old chronicles say the first emperor, Jimmu, descended from the sun goddess and was crowned in 660 BC.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "jimmu",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "smug"
+     }
+    ],
+    "place": "Japan · 660 BC (legend)",
+    "tag": {
+     "id": "jimmu",
+     "text": "Emperor Jimmu, a legend"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians call Jimmu a legend. The chronicles were written over thirteen hundred years later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scribe",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "WRITTEN 712 AD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "scribe",
+   "say": "Six hundred sixty BC sounds nice and old. Let's go with that.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scribe",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "jimmu",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "scribe"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the family line itself is real history, traced back to at least the 500s AD.",
+   "show": {
+    "k": "card",
+    "label": "Imperial line, real history",
+    "big": "1,500 YEARS",
+    "sub": "at least, back to the 500s AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "For most of those centuries, emperors didn't really rule. Military rulers called shoguns did.",
+   "show": {
+    "k": "compare",
+    "bg": "throne",
+    "left": {
+     "label": "EMPEROR: the title",
+     "cast": [
+      {
+       "id": "emperor",
+       "pose": "shrug",
+       "mood": "sad"
+      }
+     ]
+    },
+    "right": {
+     "label": "SHOGUN: the power",
+     "cast": [
+      {
+       "id": "shogun",
+       "pose": "hips",
+       "mood": "smug"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some historians think that helped: a powerless emperor wasn't worth overthrowing.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "shogun",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "smug"
+     },
+     {
+      "id": "emperor",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today's emperor is counted as number one hundred and twenty-six.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "emperor",
+      "x": 0.45,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "japan"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "No. 126",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history older than you think.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "jimmu",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "emperor",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Japan's imperial family is the oldest continuous hereditary monarchy on Earth.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #emperor #royalty #historytok",
+ "youtube_title": "The World's Oldest Royal Family? #shorts",
+ "tags": [
+  "japanese emperor",
+  "emperor jimmu",
+  "oldest monarchy",
+  "japan history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Imperial_House_of_Japan",
+  "https://en.wikipedia.org/wiki/Emperor_Jimmu",
+  "https://en.wikipedia.org/wiki/Emperor_of_Japan",
+  "https://www.britannica.com/topic/Nihon-shoki"
+ ]
+}

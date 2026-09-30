@@ -1,0 +1,324 @@
+{
+ "id": "2026w44-s17",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "One Vague Order Sent the Light Brigade the Wrong Way",
+ "hook": "THE WRONG GUNS",
+ "music": "playful",
+ "cast": {
+  "cardigan": {
+   "preset": "redcoat",
+   "color": "#2A3350",
+   "color2": "#B03050",
+   "stache": "bush",
+   "hairColor": "#C8A060",
+   "hold": "sword",
+   "name": "Lord Cardigan"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "lucan": {
+   "preset": "redcoat",
+   "hat": "bicorne",
+   "stache": "handlebar",
+   "hairColor": "#6A4A2A",
+   "name": "Lord Lucan"
+  },
+  "nolan": {
+   "outfit": "uniform",
+   "color": "#2A3350",
+   "hat": "kepi",
+   "hatColor": "#2A3350",
+   "stache": "thin",
+   "hairColor": "#2A1A10",
+   "skin": "light",
+   "name": "Captain Louis Nolan"
+  },
+  "raglan": {
+   "outfit": "coat",
+   "color": "#2A3350",
+   "hat": "bicorne",
+   "hair": "short",
+   "hairColor": "#DADADA",
+   "skin": "light",
+   "hold": "telescope",
+   "name": "Lord Raglan"
+  }
+ },
+ "voices": {
+  "nolan": "am_echo",
+  "raglan": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1854, British cavalry charged the wrong target because of one vague order.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "cardigan",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "horse",
+      "x": 0.6,
+      "walk": [
+       0.45,
+       0.75
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "uk"
+     }
+    ],
+    "place": "Balaclava, Crimea · 1854",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Britain was fighting Russia in the Crimean War, by the Black Sea.",
+   "show": {
+    "k": "map",
+    "lon": 34.0,
+    "lat": 45.0,
+    "z0": 1.6,
+    "z1": 2.4,
+    "date": "1854",
+    "labels": [
+     [
+      "Crimea",
+      34.2,
+      45.3,
+      0
+     ],
+     [
+      "Balaclava",
+      33.6,
+      44.5,
+      0
+     ],
+     [
+      "Black Sea",
+      34.5,
+      43.2,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "From a hill, the British commander, Lord Raglan, saw Russians dragging away captured cannons.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "raglan",
+      "x": 0.4,
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "raglan",
+     "text": "Lord Raglan"
+    }
+   }
+  },
+  {
+   "who": "raglan",
+   "say": "The cavalry is to attack immediately!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "raglan",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "nolan",
+      "x": 0.68,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "raglan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Down in the valley, cavalry commander Lord Lucan couldn't see those cannons.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "lucan",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "shock"
+     },
+     {
+      "id": "nolan",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "lucan",
+     "text": "Lord Lucan"
+    }
+   }
+  },
+  {
+   "who": "nolan",
+   "say": "There, my lord, is your enemy! There are your guns!"
+  },
+  {
+   "who": "N",
+   "say": "The messenger seemed to point at different cannons, at the far end of a long valley.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "nolan",
+      "x": 0.3,
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.62,
+      "s": 0.6
+     },
+     {
+      "k": "cannon",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "WRONG GUNS",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "About six hundred seventy riders charged down it. Around one hundred ten were killed.",
+   "show": {
+    "k": "card",
+    "label": "The charge",
+    "big": "110",
+    "sub": "killed in about 20 minutes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were brave. The order was just terrible.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "lucan",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "raglan",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.3
+     },
+     {
+      "id": "nolan",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One vague order sent 670 horsemen down the wrong valley.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #lightbrigade #crimeanwar #historytok #militaryhistory",
+ "youtube_title": "One Vague Order Sent the Light Brigade the Wrong Way #shorts",
+ "tags": [
+  "charge of the light brigade",
+  "crimean war",
+  "balaclava",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Charge_of_the_Light_Brigade",
+  "https://www.historic-uk.com/HistoryUK/HistoryofBritain/Charge-Of-The-Light-Brigade/",
+  "https://victorianweb.org/history/crimea/chargelb.html"
+ ]
+}

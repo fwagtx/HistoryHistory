@@ -1,0 +1,264 @@
+{
+ "id": "2026w44-s16",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "They Tested the Ship and It Failed",
+ "hook": "THE TEST FAILED",
+ "music": "playful",
+ "cast": {
+  "fleming": {
+   "preset": "noble",
+   "hat": "capotain",
+   "hatColor": "#262322",
+   "beard": "goatee",
+   "stache": "handlebar",
+   "hairColor": "#BFBFBF",
+   "name": "Admiral Klas Fleming"
+  },
+  "hansson": {
+   "outfit": "coat",
+   "color": "#2F3A5A",
+   "hat": "capotain",
+   "hatColor": "#262322",
+   "stache": "thin",
+   "beard": "goatee",
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "name": "Captain Söfring Hansson"
+  },
+  "sailor": {
+   "preset": "peasant",
+   "outfit": "tunic",
+   "color": "#4A6A8A",
+   "hat": "cap"
+  },
+  "sailor2": {
+   "preset": "peasant",
+   "outfit": "tunic",
+   "color": "#8A5A3A",
+   "hat": "cap"
+  }
+ },
+ "voices": {
+  "fleming": "bm_george",
+  "hansson": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Before Sweden's giant warship Vasa ever sailed, a test showed it could tip over.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "hansson",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
+    "place": "Stockholm, Sweden · 1628"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Captain Söfring Hansson had thirty sailors run from one side of the deck to the other.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "pose": "run",
+      "walk": [
+       0.15,
+       0.6
+      ]
+     },
+     {
+      "id": "sailor2",
+      "x": 0.5,
+      "pose": "run",
+      "walk": [
+       0.3,
+       0.75
+      ]
+     },
+     {
+      "id": "hansson",
+      "x": 0.8,
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "hansson",
+     "text": "Captain Söfring Hansson"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The idea was simple: if the ship rocks too much, it's dangerously unstable.",
+   "show": {
+    "k": "card",
+    "label": "The test",
+    "big": "30 SAILORS",
+    "sub": "running side to side"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After three runs, it was rocking so hard that Admiral Klas Fleming stopped the test.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "fleming",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "hansson",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "sweden"
+     }
+    ],
+    "tag": {
+     "id": "fleming",
+     "text": "Admiral Klas Fleming"
+    },
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "fleming",
+   "say": "Stop! Stop running!"
+  },
+  {
+   "who": "hansson",
+   "say": "So... do we launch it?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "hansson",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "fleming",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "sweden"
+     }
+    ],
+    "cam": "close",
+    "focus": "hansson"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody fixed the problem. On August 10, the Vasa set off on its first trip, tipped over in a light breeze, and sank.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 1.0,
+      "flag": "sweden"
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The test had worked perfectly. People just ignored it.",
+   "show": {
+    "k": "card",
+    "label": "The Vasa",
+    "big": "IGNORED",
+    "sub": "the test that predicted the sinking"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hansson",
+      "x": 0.3,
+      "pose": "shrug"
+     },
+     {
+      "id": "fleming",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They ran a test. The ship failed. They sailed it anyway.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vasa #sweden #historytok #funnyhistory",
+ "youtube_title": "They Tested the Ship and It Failed #shorts",
+ "tags": [
+  "vasa",
+  "vasa ship",
+  "sweden",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Vasa_(ship)",
+  "https://www.britannica.com/topic/Vasa-warship",
+  "https://www.smithsonianmag.com/smart-news/bizarre-story-vasa-ship-keeps-giving-180964328/",
+  "https://www.vasamuseet.se/en/explore/vasa-history/inquest"
+ ]
+}

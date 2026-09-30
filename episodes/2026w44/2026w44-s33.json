@@ -1,0 +1,239 @@
+{
+ "id": "2026w44-s33",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "The Ottoman Empire Had a Tulip Era",
+ "hook": "THE OTTOMAN TULIP ERA",
+ "music": "playful",
+ "cast": {
+  "ahmed": {
+   "preset": "sultan",
+   "skin": "light",
+   "beard": "full",
+   "hairColor": "#2A2A2A",
+   "name": "Sultan Ahmed III"
+  },
+  "ibrahim": {
+   "skin": "light",
+   "hat": "turban",
+   "hatColor": "#E8E0CC",
+   "outfit": "robe",
+   "color": "#2F5A8A",
+   "color2": "#D4A52A",
+   "beard": "full",
+   "hairColor": "#6A6A6A",
+   "name": "Ibrahim Pasha"
+  }
+ },
+ "voices": {
+  "ahmed": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In the 1720s, Ottoman garden parties were reportedly lit by candles on the backs of tortoises.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "ahmed",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "place": "Istanbul · 1720s",
+    "fx": [
+     "sparkle"
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.6,
+      "s": 0.25
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Ottoman Empire, ruled from Istanbul, is where Europe's tulips first came from.",
+   "show": {
+    "k": "flag",
+    "flag": "ottoman",
+    "label": "THE OTTOMAN EMPIRE",
+    "sub": "ruled from Istanbul",
+    "bg": "islamic"
+   }
+  },
+  {
+   "who": "N",
+   "say": "From 1718 to 1730, Sultan Ahmed the Third and his chief minister, Ibrahim Pasha, went tulip crazy.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ahmed",
+      "x": 0.35,
+      "mood": "happy"
+     },
+     {
+      "id": "ibrahim",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "ahmed",
+     "text": "Sultan Ahmed III"
+    },
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "ahmed",
+   "say": "More tulips! And more lamps! Lots of lamps!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ahmed",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "point"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rich officials paid big money for rare bulbs and held night-time tulip festivals in their gardens.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "ibrahim",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "tag": {
+     "id": "ibrahim",
+     "text": "Ibrahim Pasha, grand vizier"
+    },
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Visitors described thousands of lamps, mirrors, and those candle-carrying tortoises."
+  },
+  {
+   "who": "N",
+   "say": "But in 1730, Istanbul crowds, angry about war taxes, revolted, and the sultan lost his throne.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "ahmed",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake",
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Almost two hundred years later, a historian named the whole period the Tulip Era.",
+   "show": {
+    "k": "card",
+    "label": "The Tulip Era",
+    "big": "1718–1730",
+    "sub": "name popularized by historian Ahmed Refik in 1913",
+    "cast": [
+     {
+      "id": "ahmed",
+      "x": 0.8,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ahmed",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "ibrahim",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Tulips, lamps and tortoises carrying candles. Welcome to the Ottoman Tulip Era.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #tulips #istanbul #historytok",
+ "youtube_title": "The Ottoman Empire Had a Tulip Era #shorts",
+ "tags": [
+  "tulip era",
+  "ottoman empire",
+  "ahmed iii",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tulip_Period",
+  "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/tulip-era-ottoman-empire",
+  "https://www.britannica.com/biography/Patrona-Halil"
+ ]
+}

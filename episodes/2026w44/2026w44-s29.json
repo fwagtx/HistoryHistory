@@ -1,0 +1,281 @@
+{
+ "id": "2026w44-s29",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "The Tulip Crash Began When Buyers Didn't Show Up",
+ "hook": "TULIP BUYERS VANISHED",
+ "music": "playful",
+ "cast": {
+  "trader1": {
+   "preset": "merchant",
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#2A2A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "stache": "thin",
+   "hairColor": "#6A4A2A",
+   "name": "Haarlem bulb trader"
+  },
+  "trader2": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#3A4A6A",
+   "outfit": "coat",
+   "color": "#3A5A7A",
+   "hair": "short",
+   "hairColor": "#B5842A",
+   "beard": "goatee",
+   "name": "Weaver turned bulb trader"
+  }
+ },
+ "voices": {
+  "trader1": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In February 1637, the Dutch tulip market collapsed because the buyers simply didn't show up.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.45,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "place": "Haarlem, Dutch Republic · February 1637",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.6,
+      "text": "TULIPS FOR SALE"
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For months, tulip prices had shot up. People bought bulbs just to resell them for more.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "moneybag"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PRICES UP!",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, at a routine tulip sale in Haarlem, a Dutch city, nobody wanted to buy.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.45,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.6,
+      "label": "TULIP BULBS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "trader1",
+   "say": "Hello? Anyone? Tulips? Half price?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within days, the panic spread to other towns. Everyone wanted to sell, and nobody wanted to buy.",
+   "show": {
+    "k": "map",
+    "lon": 4.7,
+    "lat": 52.4,
+    "z0": 3.6,
+    "z1": 3.2,
+    "date": "February 1637",
+    "labels": [
+     [
+      "Haarlem",
+      4.64,
+      52.38,
+      14
+     ],
+     [
+      "Amsterdam",
+      4.9,
+      52.37,
+      14
+     ],
+     [
+      "Leiden",
+      4.49,
+      52.16,
+      14
+     ],
+     [
+      "Alkmaar",
+      4.75,
+      52.63,
+      14
+     ]
+    ],
+    "route": [
+     [
+      4.64,
+      52.38
+     ],
+     [
+      4.9,
+      52.37
+     ]
+    ],
+    "areas": [
+     [
+      4.7,
+      52.4,
+      0.35,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Why right then? Nobody's sure. Prices may simply have gotten too high, and everyone got nervous at once.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "HALF PRICE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's how a bubble pops: prices only stay up while people believe someone will pay more.",
+   "show": {
+    "k": "card",
+    "label": "When the buyers disappear",
+    "big": "POP!",
+    "sub": "a bubble needs someone to pay more tomorrow",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.8,
+      "mood": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more wild money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.3,
+      "mood": "sad",
+      "pose": "wave"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The tulip crash of 1637 started with the scariest sound in a market: silence.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tulipmania #bubble #money #historytok",
+ "youtube_title": "The Tulip Crash Began When Buyers Didn't Show Up #shorts",
+ "tags": [
+  "tulip mania crash",
+  "haarlem",
+  "market bubble",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tulip_mania",
+  "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/",
+  "https://libertystreeteconomics.newyorkfed.org/2013/09/crisis-chronicles-tulip-mania-1633-37/",
+  "https://www.theparisreview.org/blog/2014/02/03/tulipomania/",
+  "https://www.history.com/articles/tulip-mania-financial-crash-holland"
+ ]
+}

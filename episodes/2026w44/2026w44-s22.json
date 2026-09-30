@@ -1,0 +1,265 @@
+{
+ "id": "2026w44-s22",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "He Got Caught, Then Admitted It",
+ "hook": "HE ADMITTED IT",
+ "music": "playful",
+ "cast": {
+  "reporter": {
+   "preset": "businessman",
+   "color": "#6A5A3A",
+   "hat": "fedora",
+   "hold": "pen"
+  },
+  "wilson": {
+   "outfit": "suit",
+   "color": "#2A2A3A",
+   "glasses": "round",
+   "hair": "side",
+   "hairColor": "#9A9A9A",
+   "skin": "light",
+   "name": "Woodrow Wilson"
+  },
+  "zimmermann": {
+   "preset": "businessman",
+   "hair": "bald",
+   "stache": "bush",
+   "glasses": "round",
+   "hairColor": "#8A8A8A",
+   "name": "Arthur Zimmermann"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "A German minister got caught plotting against America, and then confirmed it himself.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "zimmermann",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "place": "Berlin, Germany · March 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In early 1917, Arthur Zimmermann secretly offered Mexico parts of the United States to join Germany's side.",
+   "show": {
+    "k": "card",
+    "label": "The Zimmermann Telegram",
+    "big": "TEXAS?!",
+    "sub": "plus New Mexico and Arizona",
+    "cast": [
+     {
+      "id": "zimmermann",
+      "x": 0.8,
+      "s": 0.8,
+      "pose": "present"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "British codebreakers cracked the message, and American newspapers printed it.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "reporter",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "GERMANY'S MEXICO PLOT!"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "usa48"
+     }
+    ],
+    "place": "United States · March 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plenty of Americans thought it was a British fake, meant to drag them into the war.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "reporter",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "FAKE?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Germany could have just stayed quiet. Instead, Zimmermann told an American reporter this:",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "zimmermann",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "reporter",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "zimmermann",
+     "text": "Arthur Zimmermann"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "I cannot deny it. It is true.",
+   "show": {
+    "k": "quote",
+    "text": "I cannot deny it. It is true.",
+    "who": "Arthur Zimmermann, 3 March 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "About a month later, the United States declared war on Germany.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "wilson",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "usa48"
+     },
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "wilson",
+     "text": "President Woodrow Wilson"
+    },
+    "stickers": [
+     {
+      "text": "APRIL 1917",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sometimes the smartest move is just to say nothing.",
+   "show": {
+    "k": "card",
+    "label": "Lesson learned",
+    "big": "OOPS",
+    "sub": "he confirmed his own secret plot"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "reporter",
+      "x": 0.3
+     },
+     {
+      "id": "zimmermann",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He could have called it fake. He said 'It is true' instead.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ww1 #zimmermanntelegram #historytok #funnyhistory",
+ "youtube_title": "He Got Caught, Then Admitted It #shorts",
+ "tags": [
+  "zimmermann telegram",
+  "ww1",
+  "arthur zimmermann",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Zimmermann_telegram",
+  "https://www.archives.gov/milestone-documents/zimmermann-telegram",
+  "https://www.theworldwar.org/learn/about-wwi/zimmermann-telegram",
+  "https://history.blog.gov.uk/2017/01/16/the-zimmermann-telegram-and-room-40"
+ ]
+}

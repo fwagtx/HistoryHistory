@@ -1,0 +1,301 @@
+{
+ "id": "2026w44-s02",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "The African Man Who Served Oda Nobunaga",
+ "hook": "AN AFRICAN IN 1581 JAPAN",
+ "music": "playful",
+ "cast": {
+  "yasuke": {
+   "outfit": "tunic",
+   "color": "#6A3E8E",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "dark",
+   "name": "Yasuke"
+  },
+  "nobunaga": {
+   "preset": "samurai",
+   "color": "#1E1C1B",
+   "stache": "thin",
+   "name": "Oda Nobunaga"
+  },
+  "priest": {
+   "preset": "monk",
+   "color": "#1E1C1B",
+   "color2": "#2A2A2A",
+   "hatColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "local": {
+   "preset": "peasant",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "nobunaga": "am_fenrir",
+  "yasuke": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1581, an African man arrived in Kyoto, and crowds rushed to stare.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "yasuke",
+      "x": 0.45,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "local",
+      "x": 0.18,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "place": "Kyoto, Japan · 1581",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He came as a servant of Jesuit missionaries, Christian priests from Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "priest",
+      "x": 0.3,
+      "pose": "present"
+     },
+     {
+      "id": "yasuke",
+      "x": 0.62,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Japan's most powerful warlord, Oda Nobunaga, demanded to meet him.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "nobunaga",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "nobunaga",
+     "text": "Oda Nobunaga, warlord"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "nobunaga",
+   "say": "That dark color must be ink. Scrub it off!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "nobunaga",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "yasuke",
+      "x": 0.66,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "nobunaga",
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.5,
+      "label": "WATER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A Jesuit letter says he really made him wash. The color, of course, stayed.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "yasuke",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "yasuke"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobunaga was delighted. He named the man Yasuke, and gave him a house, money and a sword.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "yasuke",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "sword",
+      "mood": "happy"
+     },
+     {
+      "id": "nobunaga",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "yasuke",
+     "text": "Yasuke"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians argue whether that made him a true samurai. In 1582, he fought beside Nobunaga against a rebel attack.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "yasuke",
+      "x": 0.4,
+      "pose": "fist",
+      "hold": "sword",
+      "mood": "angry"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Kyoto · 1582",
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SAMURAI? DEBATED",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobunaga died. Yasuke was spared, then vanished from the records.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "yasuke",
+      "x": 0.5,
+      "pose": "walk",
+      "mood": "sad",
+      "exit": "right",
+      "exitAt": 2.5
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more people history almost forgot.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "yasuke",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "nobunaga",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1581 Japan's top warlord thought this man's skin was painted on.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #yasuke #samurai #historytok",
+ "youtube_title": "The African Man Who Served Oda Nobunaga #shorts",
+ "tags": [
+  "yasuke",
+  "oda nobunaga",
+  "samurai",
+  "japan history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Yasuke",
+  "https://en.wikipedia.org/wiki/Yasuke",
+  "https://www.nationalgeographic.com/history/article/the-real-history-of-yasuke-japans-first-black-samurai",
+  "https://time.com/6039381/yasuke-black-samurai-true-story/"
+ ]
+}

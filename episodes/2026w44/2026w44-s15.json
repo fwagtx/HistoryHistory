@@ -1,0 +1,253 @@
+{
+ "id": "2026w44-s15",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "The Warship That Sank Less Than a Mile Out",
+ "hook": "SANK ON DAY ONE",
+ "music": "playful",
+ "cast": {
+  "gustavus": {
+   "preset": "king",
+   "stache": "handlebar",
+   "beard": "goatee",
+   "hairColor": "#C8A060",
+   "name": "King Gustavus Adolphus"
+  },
+  "sailor": {
+   "preset": "peasant",
+   "outfit": "tunic",
+   "color": "#4A6A8A",
+   "hat": "cap"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "Sweden's mightiest warship sank less than a mile into its very first trip.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.25,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.62,
+      "s": 1.0,
+      "flag": "sweden"
+     }
+    ],
+    "place": "Stockholm, Sweden · 1628"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was the Vasa, built for King Gustavus Adolphus of Sweden.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "gustavus",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "gustavus",
+     "text": "King Gustavus Adolphus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It carried sixty-four bronze cannons on two decks, plus hundreds of carved statues.",
+   "show": {
+    "k": "card",
+    "label": "The Vasa",
+    "big": "64 CANNONS",
+    "sub": "plus hundreds of statues"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But all that weight sat too high, and the hull was too narrow to balance it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.25,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.62,
+      "s": 1.2,
+      "flag": "sweden"
+     }
+    ],
+    "cam": "close",
+    "stickers": [
+     {
+      "text": "TOP-HEAVY",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On August 10, 1628, crowds watched it sail out of Stockholm. Then a light gust tipped it over.",
+   "show": {
+    "k": "map",
+    "lon": 18.3,
+    "lat": 59.3,
+    "z0": 2.6,
+    "z1": 3.6,
+    "date": "10 August 1628",
+    "labels": [
+     [
+      "Stockholm",
+      18.07,
+      59.33,
+      0
+     ]
+    ],
+    "route": [
+     [
+      18.02,
+      59.32
+     ],
+     [
+      18.08,
+      59.31
+     ],
+     [
+      18.12,
+      59.32
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Water rushed in through the open gun holes, and about thirty people drowned.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 1.0,
+      "flag": "sweden"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "rain"
+    ],
+    "stickers": [
+     {
+      "text": "1,300 METERS",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1961 it was raised almost whole, and today it's one of Sweden's most famous museums.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.8,
+      "flag": "sweden"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1961",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3
+     },
+     {
+      "id": "gustavus",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Sweden's mightiest warship sailed about 1,300 meters. Then it sank.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vasa #sweden #historytok #funnyhistory",
+ "youtube_title": "The Warship That Sank Less Than a Mile Out #shorts",
+ "tags": [
+  "vasa",
+  "vasa ship",
+  "sweden",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Vasa_(ship)",
+  "https://www.britannica.com/topic/Vasa-warship",
+  "https://www.smithsonianmag.com/smart-news/bizarre-story-vasa-ship-keeps-giving-180964328/",
+  "https://www.vasamuseet.se/en/explore/vasa-history/inquest"
+ ]
+}

@@ -1,0 +1,265 @@
+{
+ "id": "2026w44-s01",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "This Company Lasted 1,400 Years",
+ "hook": "1,400-YEAR-OLD COMPANY",
+ "music": "playful",
+ "cast": {
+  "kongo": {
+   "outfit": "tunic",
+   "color": "#7A5A3A",
+   "hair": "bun",
+   "hold": "hammer",
+   "name": "Kongō Shigemitsu",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "boss": {
+   "preset": "businessman",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "kongo": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One Japanese family business stayed open for over fourteen hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "kongo",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Osaka, Japan · 578 AD",
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.7,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOUNDED 578",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story goes that in 578, builders from Korea came to Japan to build a Buddhist temple.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "kongo",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.7,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One of them, a carpenter named Kongō Shigemitsu, stayed and started Kongō Gumi.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kongo",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "kongo",
+     "text": "Kongō Shigemitsu, carpenter"
+    },
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "kongo",
+   "say": "Temples, shrines, castles. If it's wooden and holy, we fix it.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "kongo",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "kongo",
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "About forty generations of his family ran it. Shoguns came and went. Kongō Gumi kept hammering.",
+   "show": {
+    "k": "card",
+    "label": "Kongō Gumi on its own",
+    "big": "1,428 YEARS",
+    "sub": "578 to 2006"
+   }
+  },
+  {
+   "who": "N",
+   "say": "What finally beat it? Big loans during a 1980s property boom.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "place": "Osaka, Japan · 1980s to 2006",
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.7
+     },
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEBT",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2006, a bigger construction company bought it. The name lives on inside that group.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.7,
+      "text": "KONGŌ GUMI"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It survived fourteen centuries of wars and earthquakes, then lost to debt.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kongo",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that outlasted empires.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kongo",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "boss",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "This company opened in 578 AD and stayed independent until 2006.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #kongogumi #historytok #funnyhistory",
+ "youtube_title": "This Company Lasted 1,400 Years #shorts",
+ "tags": [
+  "kongo gumi",
+  "oldest company",
+  "japan history",
+  "history shorts",
+  "business history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Kong%C5%8D_Gumi",
+  "https://worksthatwork.com/3/kongo-gumi",
+  "https://mymodernmet.com/longest-running-business-world-kongo-gumi/",
+  "https://en.wikipedia.org/wiki/Takamatsu_Construction_Group"
+ ]
+}

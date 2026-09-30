@@ -1,0 +1,253 @@
+{
+ "id": "2026w44-s13",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "They Invaded an Island With Nobody on It",
+ "hook": "THEY INVADED NOBODY",
+ "music": "playful",
+ "cast": {
+  "canuck": {
+   "preset": "brit40",
+   "color": "#6A6A3A"
+  },
+  "yank": {
+   "preset": "gi"
+  }
+ },
+ "voices": {
+  "canuck": "bm_lewis",
+  "yank": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1943, about thirty-four thousand soldiers invaded an island with nobody on it.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.35,
+      "pose": "run",
+      "walk": [
+       0.2,
+       0.4
+      ],
+      "hold": "rifle",
+      "mood": "angry"
+     },
+     {
+      "id": "canuck",
+      "x": 0.65,
+      "pose": "run",
+      "walk": [
+       0.5,
+       0.7
+      ],
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ],
+    "place": "Kiska, Alaska · August 1943",
+    "fx": [
+     "snow"
+    ],
+    "stickers": [
+     {
+      "text": "34,000 TROOPS",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The island was Kiska, a freezing rock near Alaska. Japan had captured it in 1942.",
+   "show": {
+    "k": "flag",
+    "flag": "japan_war",
+    "label": "JAPAN TAKES KISKA",
+    "sub": "1942",
+    "bg": "arctic"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So American and Canadian troops planned a huge landing to take it back.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.45,
+      "s": 0.9,
+      "flag": "usa48",
+      "move": [
+       0.25,
+       0.6
+      ]
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But more than two weeks earlier, in thick fog, Japanese ships had quietly taken every soldier away.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.5,
+      "s": 0.8,
+      "flag": "japan_war",
+      "move": [
+       0.3,
+       0.8
+      ]
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "ALL GONE",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "yank",
+   "say": "Where is everybody?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock",
+      "hold": "rifle"
+     },
+     {
+      "id": "canuck",
+      "x": 0.65,
+      "pose": "think",
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "yank"
+   }
+  },
+  {
+   "who": "canuck",
+   "say": "Maybe they're hiding?"
+  },
+  {
+   "who": "N",
+   "say": "In the fog, nervous soldiers mistook each other for the enemy. Friendly fire killed thirty-two men.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "scared",
+      "hold": "rifle"
+     },
+     {
+      "id": "canuck",
+      "x": 0.72,
+      "pose": "aim",
+      "mood": "scared",
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A ship also hit a mine. In all, more than three hundred casualties, with no enemy there at all.",
+   "show": {
+    "k": "card",
+    "label": "Kiska, 1943",
+    "big": "313",
+    "sub": "Allied casualties. Enemies found: zero."
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "canuck",
+      "x": 0.3
+     },
+     {
+      "id": "yank",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "34,000 soldiers stormed an island. Nobody was there.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ww2 #kiska #historytok #funnyhistory",
+ "youtube_title": "They Invaded an Island With Nobody on It #shorts",
+ "tags": [
+  "kiska",
+  "ww2",
+  "aleutian islands",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Operation_Cottage",
+  "https://en.wikipedia.org/wiki/Japanese_occupation_of_Kiska",
+  "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/wwii/wwii-pacific/aleutian-islands-campaign/allied-invasion-kiska.html",
+  "https://project44.ca/kiska/"
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "id": "2026w44-s32",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "What One Tulip Bulb Could Buy",
+ "hook": "ONE BULB'S SHOPPING LIST",
+ "music": "playful",
+ "cast": {
+  "trader2": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#3A4A6A",
+   "outfit": "coat",
+   "color": "#3A5A7A",
+   "hair": "short",
+   "hairColor": "#B5842A",
+   "beard": "goatee",
+   "name": "Weaver turned bulb trader"
+  },
+  "collector": {
+   "preset": "noble",
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#2A2A2A",
+   "outfit": "coat",
+   "color": "#2F5A3A",
+   "stache": "thin",
+   "hairColor": "#8A5A2A",
+   "name": "Tulip collector"
+  }
+ },
+ "voices": {
+  "trader2": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "An old Dutch list shows what the price of one tulip bulb could buy. It's huge.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.4,
+      "mood": "shock",
+      "hold": "scroll"
+     }
+    ],
+    "place": "Dutch Republic · 1630s",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "ONE BULB BUYS..."
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The bulb was a Viceroy, a fancy striped tulip, priced at two thousand five hundred guilders.",
+   "show": {
+    "k": "card",
+    "label": "Price of one Viceroy bulb",
+    "big": "2,500 guilders",
+    "sub": "about 8 years of a craftsman's pay",
+    "cast": [
+     {
+      "id": "collector",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The list was printed in the 1600s, and it turned that price into food and stuff.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "collector",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Four fat oxen, eight fat pigs and twelve fat sheep.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pig",
+      "x": 0.35,
+      "mood": "happy"
+     },
+     {
+      "id": "pig",
+      "x": 0.6,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.8,
+      "s": 0.5
+     },
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Big loads of wheat and rye, two barrels of wine and four of beer.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "goblet"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plus a thousand pounds of cheese, a bed, a suit of clothes and a silver cup."
+  },
+  {
+   "who": "trader2",
+   "say": "All of that... for one flower?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "cam": "close",
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.5,
+      "label": "1 BULB"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Writers used lists like this to mock the tulip craze. There's no record anyone actually swapped all that for a bulb."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more wild money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "collector",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Oxen, pigs, sheep, beer, cheese and a bed. All for the price of one tulip bulb.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tulipmania #money #dutchhistory #historytok",
+ "youtube_title": "What One Tulip Bulb Could Buy #shorts",
+ "tags": [
+  "tulip mania",
+  "viceroy tulip",
+  "tulip price",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://penelope.uchicago.edu/encyclopaedia_romana/aconite/tulipomania.html",
+  "https://en.wikipedia.org/wiki/Tulip_mania",
+  "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/",
+  "https://www.theparisreview.org/blog/2014/02/03/tulipomania/"
+ ]
+}

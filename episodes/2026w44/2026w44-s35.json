@@ -1,0 +1,253 @@
+{
+ "id": "2026w44-s35",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "Tulip Mania Wasn't as Crazy as You Think",
+ "hook": "TULIP MANIA WAS EXAGGERATED",
+ "music": "playful",
+ "cast": {
+  "mackay": {
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#1E1C1B",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "hair": "side",
+   "hairColor": "#5A3A22",
+   "hold": "pen",
+   "name": "Charles Mackay"
+  },
+  "trader1": {
+   "preset": "merchant",
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#2A2A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "stache": "thin",
+   "hairColor": "#6A4A2A",
+   "name": "Haarlem bulb trader"
+  },
+  "trader2": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#3A4A6A",
+   "outfit": "coat",
+   "color": "#3A5A7A",
+   "hair": "short",
+   "hairColor": "#B5842A",
+   "beard": "goatee",
+   "name": "Weaver turned bulb trader"
+  }
+ },
+ "voices": {
+  "mackay": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The famous story of Tulip Mania is mostly exaggerated.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "place": "Dutch Republic · 1637",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "THE LEGEND"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "You've heard it: chimney sweeps to nobles bet on tulips, then prices crashed and people were ruined.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.3,
+      "mood": "scared"
+     },
+     {
+      "id": "trader2",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ],
+    "cam": "shake",
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That version comes mostly from Charles Mackay, a Scottish writer, in an 1841 book.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "mackay",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "book"
+     }
+    ],
+    "place": "London · 1841",
+    "tag": {
+     "id": "mackay",
+     "text": "Charles Mackay, Scottish writer"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "mackay",
+   "say": "Everyone went mad for tulips! Maids! Chimney sweeps! Everyone!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "mackay",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "point"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But historian Anne Goldgar went back to the real contracts and court records.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "trader2",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "Goldgar · Tulipmania (2007)"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She found the traders were mostly well-off merchants and craftsmen, and she found no suicides.",
+   "show": {
+    "k": "card",
+    "label": "People Goldgar found paying over 300 guilders a bulb",
+    "big": "37",
+    "sub": "300 guilders was about a year's pay",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.8,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There was a real bubble, and some people lost money. But the Dutch economy kept booming.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.7,
+      "flag": "netherlands"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The legend is just bigger than the truth."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history myths, busted.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "trader1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "mackay",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Ruined families, people jumping in canals, a country gone broke? Historians checked the records.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tulipmania #mythbusting #money #historytok",
+ "youtube_title": "Tulip Mania Wasn't as Crazy as You Think #shorts",
+ "tags": [
+  "tulip mania myth",
+  "anne goldgar",
+  "charles mackay",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/",
+  "https://www.history.com/articles/tulip-mania-financial-crash-holland",
+  "https://theconversation.com/tulip-mania-the-classic-story-of-a-dutch-financial-bubble-is-mostly-wrong-91413",
+  "https://press.uchicago.edu/ucp/books/book/chicago/T/bo5414939.html",
+  "https://en.wikipedia.org/wiki/Extraordinary_Popular_Delusions_and_the_Madness_of_Crowds",
+  "https://en.wikipedia.org/wiki/Tulip_mania"
+ ]
+}

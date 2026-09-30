@@ -1,0 +1,298 @@
+{
+ "id": "2026w44-s23",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "France Built a Wall. Germany Drove Around It.",
+ "hook": "THEY WENT AROUND",
+ "music": "playful",
+ "cast": {
+  "frenchoff": {
+   "outfit": "uniform",
+   "color": "#5A6A8A",
+   "hat": "kepi",
+   "hatColor": "#3A4A7A",
+   "stache": "thin",
+   "skin": "light"
+  },
+  "german": {
+   "outfit": "ww2",
+   "color": "#5A6450",
+   "hat": "stahlhelm",
+   "hatColor": "#5A6450"
+  },
+  "petain": {
+   "outfit": "uniform",
+   "color": "#5A6A8A",
+   "hat": "kepi",
+   "hatColor": "#3A4A7A",
+   "stache": "walrus",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Marshal Philippe Pétain"
+  }
+ },
+ "voices": {
+  "petain": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "France built a giant line of forts to stop Germany, and Germany just went around it.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "frenchoff",
+      "x": 0.3,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.65,
+      "s": 1.0,
+      "label": "MAGINOT LINE"
+     }
+    ],
+    "place": "French-German border · 1930s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After World War One, France feared another invasion.",
+   "show": {
+    "k": "flag",
+    "flag": "france",
+    "label": "FRANCE",
+    "sub": "1930s",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So it built the Maginot Line: huge concrete forts along the German border.",
+   "show": {
+    "k": "scene",
+    "bg": "trench",
+    "cast": [
+     {
+      "id": "frenchoff",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "artillery",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But it was weak near the Ardennes, a hilly forest in Belgium and Luxembourg.",
+   "show": {
+    "k": "map",
+    "lon": 5.6,
+    "lat": 49.9,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "1940",
+    "labels": [
+     [
+      "Ardennes",
+      5.6,
+      50.1,
+      0
+     ],
+     [
+      "Sedan",
+      4.94,
+      49.7,
+      0
+     ],
+     [
+      "GERMANY",
+      7.4,
+      50.4,
+      0
+     ]
+    ],
+    "route": [
+     [
+      7.0,
+      50.3
+     ],
+     [
+      6.2,
+      50.1
+     ],
+     [
+      5.5,
+      49.9
+     ],
+     [
+      4.94,
+      49.7
+     ]
+    ],
+    "areas": [
+     [
+      5.6,
+      50.0,
+      0.6,
+      "rgba(31,138,74,0.25)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "France's big war hero, Marshal Philippe Pétain, even called the Ardennes impenetrable.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "petain",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "petain",
+     "text": "Marshal Philippe Pétain"
+    }
+   }
+  },
+  {
+   "who": "petain",
+   "say": "Tanks? Through that forest? Impossible."
+  },
+  {
+   "who": "N",
+   "say": "In May 1940, German tanks drove straight through it and broke into France within days.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "german",
+      "x": 0.8,
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tank",
+      "x": 0.4,
+      "s": 1.0,
+      "emblem": "cross",
+      "move": [
+       0.1,
+       0.55
+      ]
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.8
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "pan",
+    "place": "Sedan, France · May 1940"
+   }
+  },
+  {
+   "who": "N",
+   "say": "About six weeks after the attack began, France agreed to stop fighting.",
+   "show": {
+    "k": "card",
+    "label": "The Battle of France",
+    "big": "6 WEEKS",
+    "sub": "May 10 to June 22, 1940"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The forts were strong. They were just in the wrong place.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "frenchoff",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.62,
+      "s": 1.0,
+      "label": "MAGINOT LINE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "petain",
+      "x": 0.3
+     },
+     {
+      "id": "frenchoff",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "France built a giant wall of forts. Germany went around it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ww2 #maginotline #france #historytok",
+ "youtube_title": "France Built a Wall. Germany Drove Around It. #shorts",
+ "tags": [
+  "maginot line",
+  "ww2",
+  "ardennes",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Maginot_Line",
+  "https://en.wikipedia.org/wiki/Battle_of_Sedan_(1940)",
+  "https://www.history.com/topics/world-war-ii/maginot-line",
+  "https://www.historyskills.com/classroom/year-10/maginot-line/"
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "id": "2026w44-s31",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "Seven Orphans Inherited a Tulip Fortune",
+ "hook": "ORPHANS' TULIP FORTUNE",
+ "music": "playful",
+ "cast": {
+  "orphan": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "outfit": "tunic",
+   "color": "#8A6A3A",
+   "hairColor": "#B5842A",
+   "name": "Orphan"
+  },
+  "auctioneer": {
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#1E1C1B",
+   "color2": "#F2EEE4",
+   "beard": "full",
+   "hairColor": "#8A8A8A",
+   "hold": "scroll",
+   "name": "Alkmaar auctioneer"
+  },
+  "bidder": {
+   "preset": "noble",
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#6A3E8E",
+   "outfit": "coat",
+   "color": "#6A3E8E",
+   "stache": "handlebar",
+   "hairColor": "#3A2A1A",
+   "hold": "moneybag",
+   "name": "Rich bidder"
+  }
+ },
+ "voices": {
+  "auctioneer": "bm_lewis",
+  "bidder": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1637, seven orphans inherited a pile of tulip bulbs worth a fortune.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "orphan",
+      "x": 0.4,
+      "mood": "happy"
+     }
+    ],
+    "place": "Alkmaar, Dutch Republic · 1637",
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "TULIP BULBS"
+     },
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their father, Wouter Winkel, ran an inn in Alkmaar, a Dutch town, and collected rare tulips.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "orphan",
+      "x": 0.4,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "jar",
+      "x": 0.15,
+      "s": 0.5,
+      "label": "BULBS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When he died, his children went to the town orphanage, and his bulbs were auctioned for them.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "orphan",
+      "x": 0.3,
+      "mood": "sad"
+     },
+     {
+      "id": "auctioneer",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "auctioneer",
+   "say": "For the Winkel orphans! Who bids?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "auctioneer",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "cam": "close",
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.6,
+      "label": "LOT 1"
+     }
+    ]
+   }
+  },
+  {
+   "who": "bidder",
+   "say": "Five thousand two hundred, for the Admirael van Enkhuizen!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "bidder",
+      "x": 0.45,
+      "mood": "shout",
+      "pose": "fist",
+      "hold": "moneybag"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The auction on February fifth raised about ninety thousand guilders.",
+   "show": {
+    "k": "card",
+    "label": "Raised for the Winkel orphans",
+    "big": "90,000 guilders",
+    "sub": "about 300 years of a craftsman's pay",
+    "cast": [
+     {
+      "id": "orphan",
+      "x": 0.8,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The timing was perfect. The tulip market crashed that very week.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "bidder",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the orphans' sale landed at almost the exact peak of Tulip Mania."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more wild money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "orphan",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "auctioneer",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Seven orphans, 70 tulip bulbs, and one auction at the exact peak of the craze.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tulipmania #dutchhistory #money #historytok",
+ "youtube_title": "Seven Orphans Inherited a Tulip Fortune #shorts",
+ "tags": [
+  "tulip mania",
+  "alkmaar auction",
+  "wouter winkel",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://erenow.org/modern/tulipomania-the-story-of-the-worlds-most-coveted-flower/13.php",
+  "https://en.wikipedia.org/wiki/Tulip_mania",
+  "https://www.historytoday.com/miscellanies/tulipmania-overblown-crisis",
+  "https://amsterdamtulipmuseum.com/pages/tulip-history-tulipmania-netherlands"
+ ]
+}

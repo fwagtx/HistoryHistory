@@ -1,0 +1,284 @@
+{
+ "id": "2026w44-s08",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "A Storm Brought Guns to Japan",
+ "hook": "HOW GUNS REACHED JAPAN",
+ "music": "playful",
+ "cast": {
+  "portuguese": {
+   "outfit": "coat",
+   "color": "#6A4A2A",
+   "hat": "beret",
+   "hatColor": "#2A2A2A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "rifle"
+  },
+  "tokitaka": {
+   "outfit": "kimono",
+   "color": "#2F7A6A",
+   "hair": "bun",
+   "name": "Tanegashima Tokitaka",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "smith": {
+   "outfit": "tunic",
+   "color": "#5A4A3A",
+   "hair": "bun",
+   "hold": "hammer",
+   "stubble": true,
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "samurai": {
+   "preset": "samurai",
+   "color": "#A8322A",
+   "hold": "rifle"
+  }
+ },
+ "voices": {
+  "tokitaka": "am_puck",
+  "portuguese": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1543, a storm blew one ship to a small Japanese island, and changed Japanese warfare.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "fx": [
+     "rain"
+    ],
+    "cam": "shake",
+    "place": "Tanegashima, Japan · 1543",
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.5,
+      "s": 0.9,
+      "move": [
+       0.2,
+       0.55
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On board the Chinese ship were Portuguese traders, some of the first Europeans to reach Japan.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "portuguese",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They carried matchlock guns, long guns fired by a slow-burning cord.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "portuguese",
+      "x": 0.4,
+      "pose": "aim",
+      "mood": "smug"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANG",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The island's teenage lord, Tanegashima Tokitaka, watched them shoot.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "tokitaka",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "tag": {
+     "id": "tokitaka",
+     "text": "Tanegashima Tokitaka, age 15"
+    },
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "tokitaka",
+   "say": "I'll take two. And my smiths will copy them.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "tokitaka",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "portuguese",
+      "x": 0.68,
+      "pose": "hold",
+      "hold": "rifle",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "tokitaka"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Smiths copied them. The hardest part was the screw sealing the barrel.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "smith",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.5,
+      "label": "GUNS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within about thirty years, thousands of gunners helped win big battles, like Nagashino in 1575.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "samurai",
+      "x": 0.4,
+      "pose": "aim",
+      "mood": "angry"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Nagashino, Japan · 1575",
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Japanese even called those guns tanegashima, after the island.",
+   "show": {
+    "k": "card",
+    "label": "Japanese name for a matchlock gun",
+    "big": "TANEGASHIMA",
+    "sub": "named after the island"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that washed up by accident.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tokitaka",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "portuguese",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A storm in 1543 brought the first European guns to Japan.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #samurai #tanegashima #historytok",
+ "youtube_title": "A Storm Brought Guns to Japan #shorts",
+ "tags": [
+  "tanegashima",
+  "matchlock",
+  "portuguese in japan",
+  "samurai",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tanegashima_(gun)",
+  "https://en.wikipedia.org/wiki/Tanegashima_Tokitaka",
+  "https://en.wikipedia.org/wiki/Firearms_of_Japan",
+  "https://www.ebsco.com/research-starters/history/europeans-begin-trade-japan/",
+  "https://en.wikipedia.org/wiki/Battle_of_Nagashino"
+ ]
+}

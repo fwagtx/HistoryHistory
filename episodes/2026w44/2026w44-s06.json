@@ -1,0 +1,270 @@
+{
+ "id": "2026w44-s06",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "He Kept Fighting World War II Until 1974",
+ "hook": "HIS WAR ENDED IN 1974",
+ "music": "playful",
+ "cast": {
+  "onoda": {
+   "hat": "cap",
+   "hatColor": "#6B6F3E",
+   "outfit": "ww2",
+   "color": "#6B6F3E",
+   "hold": "rifle",
+   "name": "Hiroo Onoda",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "suzuki": {
+   "outfit": "coat",
+   "color": "#C8902A",
+   "hair": "short",
+   "hold": "binoculars",
+   "name": "Norio Suzuki",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "taniguchi": {
+   "outfit": "suit",
+   "color": "#3A3E4A",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Major Yoshimi Taniguchi"
+  }
+ },
+ "voices": {
+  "onoda": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "World War Two ended in 1945. For one soldier, it ended in 1974.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "onoda",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "place": "Lubang Island, Philippines · 1944",
+    "tag": {
+     "id": "onoda",
+     "text": "Lieutenant Hiroo Onoda"
+    },
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.78,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1944, officer Hiroo Onoda was sent to a Philippine island, ordered never to surrender.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "onoda",
+      "x": 0.35,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When leaflets said the war was over, he called them enemy tricks and stayed hidden.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "onoda",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "letter",
+      "mood": "angry"
+     }
+    ],
+    "place": "Lubang · 1945",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "WAR IS OVER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He kept up his own war for decades. Tragically, local people died in his raids.",
+   "show": {
+    "k": "card",
+    "label": "Years Onoda kept fighting",
+    "big": "29",
+    "sub": "1945 to 1974"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1974, adventurer Norio Suzuki found him. His plan: find Onoda, a panda and the Abominable Snowman, in that order.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "suzuki",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "place": "Lubang · 1974",
+    "tag": {
+     "id": "suzuki",
+     "text": "Norio Suzuki, adventurer"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "onoda",
+   "say": "I will only surrender if my commander orders it.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "onoda",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "angry"
+     },
+     {
+      "id": "suzuki",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "onoda"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Japan flew in his old commander, who ordered him to stop.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "taniguchi",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "scroll"
+     },
+     {
+      "id": "onoda",
+      "x": 0.68,
+      "pose": "salute",
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "taniguchi",
+     "text": "Major Yoshimi Taniguchi"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "flag": "japan"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He handed over his sword. His war was over.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "onoda",
+      "x": 0.5,
+      "pose": "present",
+      "hold": "sword",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "onoda"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that would not end.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "onoda",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "suzuki",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "World War II ended in 1945. For Hiroo Onoda, it ended in 1974.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #ww2 #hiroonoda #historytok",
+ "youtube_title": "He Kept Fighting World War II Until 1974 #shorts",
+ "tags": [
+  "hiroo onoda",
+  "ww2",
+  "japan history",
+  "philippines",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hiroo_Onoda",
+  "https://www.historyhit.com/hiroo-onoda-the-japanese-soldier-who-refused-to-surrender/",
+  "https://en.wikipedia.org/wiki/Norio_Suzuki_(explorer)",
+  "https://historynet.com/hiroo-onoda-the-japanese-officer-who-refused-to-surrender-decades-after-wwiis-end/"
+ ]
+}

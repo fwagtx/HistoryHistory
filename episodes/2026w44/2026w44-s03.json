@@ -1,0 +1,258 @@
+{
+ "id": "2026w44-s03",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "Japan's Only Door to Europe Was a Tiny Island",
+ "hook": "JAPAN LOCKED THE DOOR",
+ "music": "playful",
+ "cast": {
+  "iemitsu": {
+   "preset": "shogun",
+   "name": "Tokugawa Iemitsu"
+  },
+  "dutch": {
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#2A2A2A",
+   "stache": "thin",
+   "hair": "long",
+   "hairColor": "#8A5A2A",
+   "skin": "light"
+  },
+  "guard": {
+   "preset": "samurai",
+   "color": "#3A4A5A",
+   "hold": "spear"
+  }
+ },
+ "voices": {
+  "dutch": "bm_lewis",
+  "guard": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "For over two hundred years, Japan let almost no Europeans in, except on one tiny island.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "dutch",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "place": "Nagasaki, Japan · 1641",
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.8,
+      "flag": "netherlands"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1630s, the shogun Tokugawa Iemitsu feared foreign priests and armies.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "iemitsu",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "iemitsu",
+     "text": "Shogun Tokugawa Iemitsu"
+    },
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Japan banned Christianity, expelled the Portuguese, and forbade its people to sail abroad.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "iemitsu",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.7,
+      "text": "CLOSED"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Dutch could stay, since they came to trade, not preach. But they had to live on Dejima, an artificial island.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "dutch",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.5,
+      "label": "PORCELAIN"
+     },
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "How big was it? About this big.",
+   "show": {
+    "k": "card",
+    "label": "Dejima island",
+    "big": "120 x 75 m",
+    "sub": "smaller than two football fields"
+   }
+  },
+  {
+   "who": "guard",
+   "say": "The bridge is closed. Stay on your island.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "dutch",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "guard",
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "dutch",
+   "say": "Lovely island. Both football fields of it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "dutch",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "dutch"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That little island stayed Japan's main window to Europe until 1853, when American warships forced the door open.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "place": "Edo Bay · 1853",
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.4,
+      "s": 0.8,
+      "flag": "usa1859"
+     },
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that happened in tiny places.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "dutch",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "guard",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "For 200+ years, Japan's only door to Europe was an island smaller than two football fields.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #sakoku #dejima #historytok",
+ "youtube_title": "Japan's Only Door to Europe Was a Tiny Island #shorts",
+ "tags": [
+  "dejima",
+  "sakoku",
+  "japan history",
+  "dutch trade",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/topic/sakoku",
+  "https://en.wikipedia.org/wiki/Dejima",
+  "https://www.vam.ac.uk/articles/japans-encounter-with-europe-1573-1853",
+  "https://en.wikipedia.org/wiki/Sakoku"
+ ]
+}

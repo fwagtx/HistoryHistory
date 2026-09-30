@@ -1,0 +1,252 @@
+{
+ "id": "2026w44-s20",
+ "format": "short",
+ "date": "2026-10-28",
+ "slot": "09:00",
+ "title": "The Emperor Who Wanted His Legions Back",
+ "hook": "GIVE THEM BACK",
+ "music": "playful",
+ "cast": {
+  "arminius": {
+   "outfit": "fur",
+   "color": "#6A5A3A",
+   "hair": "long",
+   "hairColor": "#C8A060",
+   "beard": "full",
+   "skin": "light",
+   "hold": "spear",
+   "name": "Arminius"
+  },
+  "augustus": {
+   "preset": "roman",
+   "hat": "laurel",
+   "outfit": "toga",
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "name": "Emperor Augustus"
+  },
+  "legion": {
+   "preset": "legionary"
+  },
+  "varus": {
+   "preset": "legionary",
+   "color": "#A8322A",
+   "name": "Publius Quinctilius Varus"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "When Rome's first emperor heard the news, he reportedly banged his head against a door.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ],
+    "place": "Rome · 9 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Augustus had built a huge empire, and he was proud of his army.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "legion",
+      "x": 0.72,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "augustus",
+     "text": "Emperor Augustus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in 9 AD, three whole legions were wiped out in an ambush in Germania.",
+   "show": {
+    "k": "map",
+    "lon": 9.5,
+    "lat": 49.0,
+    "z0": 1.3,
+    "z1": 1.8,
+    "date": "9 AD",
+    "labels": [
+     [
+      "Rome",
+      12.5,
+      41.9,
+      0
+     ],
+     [
+      "Teutoburg Forest",
+      8.1,
+      52.4,
+      0
+     ]
+    ],
+    "route": [
+     [
+      12.5,
+      41.9
+     ],
+     [
+      10.0,
+      46.5
+     ],
+     [
+      8.1,
+      52.4
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their general, Varus, had ignored a warning that his ally Arminius was setting a trap.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "varus",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "arminius",
+      "x": 0.68,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Roman writer Suetonius says Augustus let his hair and beard grow for months in grief.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sometimes, he'd hit his head against a door and cry out:"
+  },
+  {
+   "who": "N",
+   "say": "Quinctilius Varus, give me back my legions!",
+   "show": {
+    "k": "quote",
+    "text": "Quinctilius Varus, give me back my legions!",
+    "who": "Augustus, as reported by Suetonius"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome never rebuilt those three legions. Their numbers were never used again.",
+   "show": {
+    "k": "card",
+    "label": "Legions 17, 18 and 19",
+    "big": "RETIRED",
+    "sub": "never rebuilt"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "legion",
+      "x": 0.3
+     },
+     {
+      "id": "augustus",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome's first emperor lost three legions and never got over it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rome #augustus #historytok #ancientrome",
+ "youtube_title": "The Emperor Who Wanted His Legions Back #shorts",
+ "tags": [
+  "augustus",
+  "teutoburg forest",
+  "roman empire",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+  "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/",
+  "https://en.wikipedia.org/wiki/Segestes",
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0132%3Alife%3Daug.%3Achapter%3D23",
+  "https://en.wikipedia.org/wiki/Legio_XVII"
+ ]
+}

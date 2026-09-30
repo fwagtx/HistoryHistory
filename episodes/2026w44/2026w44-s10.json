@@ -1,0 +1,265 @@
+{
+ "id": "2026w44-s10",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "Japan's First Train and the Engineer Who Missed It",
+ "hook": "JAPAN'S FIRST TRAIN",
+ "music": "playful",
+ "cast": {
+  "morel": {
+   "outfit": "suit",
+   "color": "#3A3E4A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Edmund Morel"
+  },
+  "meiji": {
+   "outfit": "uniform",
+   "color": "#1F2E55",
+   "hair": "short",
+   "stache": "thin",
+   "name": "Emperor Meiji",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "worker": {
+   "preset": "worker",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "morel": "bm_george",
+  "worker": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1872, Japan's first railway opened, and the emperor himself rode it.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "meiji",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "place": "Tokyo, Japan · 1872",
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.65,
+      "s": 0.7,
+      "move": [
+       0.9,
+       0.6
+      ]
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "flag": "japan"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Twenty years earlier, Japan was closed to almost all foreigners.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "place": "Japan · 1850s",
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "CLOSED"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now its government, under young Emperor Meiji, wanted to catch up with the West.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "meiji",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "meiji",
+     "text": "Emperor Meiji"
+    },
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Japan hired a young British engineer, Edmund Morel, to build a line from Tokyo to Yokohama.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "morel",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "Yokohama · 1870",
+    "tag": {
+     "id": "morel",
+     "text": "Edmund Morel, railway engineer"
+    },
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "morel",
+   "say": "Use Japanese timber for the sleepers. And let's train Japanese engineers.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "morel",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "worker",
+      "x": 0.68,
+      "pose": "hold",
+      "hold": "hammer"
+     }
+    ],
+    "cam": "close",
+    "focus": "morel"
+   }
+  },
+  {
+   "who": "worker",
+   "say": "So you won't need foreigners forever?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "worker"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sadly, Morel fell ill and died in 1871, at just thirty, a year before the first train ran.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "morel",
+      "x": 0.5,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still",
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The trip took fifty-four minutes. Today, Japan's trains are world-famous for being on time.",
+   "show": {
+    "k": "card",
+    "label": "Tokyo to Yokohama, 1872",
+    "big": "29 KM",
+    "sub": "in 54 minutes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that runs on time.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "morel",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "meiji",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Japan's first train ran in 1872. The man who built it never saw it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #trains #meiji #historytok",
+ "youtube_title": "Japan's First Train and the Engineer Who Missed It #shorts",
+ "tags": [
+  "japan railway",
+  "edmund morel",
+  "meiji japan",
+  "trains",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Edmund_Morel_(engineer)",
+  "https://www.nippon.com/en/japan-topics/b06911/",
+  "https://japantoday.com/category/features/when-they-opened-in-japan/engineer-edmund-morel-helps-launch-japan-railways-in-1870",
+  "https://en.wikipedia.org/wiki/History_of_rail_transport_in_Japan"
+ ]
+}

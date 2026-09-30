@@ -1,0 +1,274 @@
+{
+ "id": "2026w44-s25",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "One Tulip Bulb Cost as Much as a House",
+ "hook": "A BULB COST A HOUSE",
+ "music": "playful",
+ "cast": {
+  "auctioneer": {
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#1E1C1B",
+   "color2": "#F2EEE4",
+   "beard": "full",
+   "hairColor": "#8A8A8A",
+   "hold": "scroll",
+   "name": "Alkmaar auctioneer"
+  },
+  "bidder": {
+   "preset": "noble",
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#6A3E8E",
+   "outfit": "coat",
+   "color": "#6A3E8E",
+   "stache": "handlebar",
+   "hairColor": "#3A2A1A",
+   "hold": "moneybag",
+   "name": "Rich bidder"
+  }
+ },
+ "voices": {
+  "auctioneer": "bm_lewis",
+  "bidder": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1637, one tulip bulb sold for about the price of a nice house.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "bidder",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "place": "Alkmaar, Dutch Republic · 1637",
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.7,
+      "label": "1 TULIP BULB"
+     },
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It happened on February fifth, at an auction in Alkmaar, a Dutch town.",
+   "show": {
+    "k": "map",
+    "lon": 4.75,
+    "lat": 52.5,
+    "z0": 3.2,
+    "z1": 3.8,
+    "date": "1637",
+    "labels": [
+     [
+      "Alkmaar",
+      4.75,
+      52.63,
+      14
+     ],
+     [
+      "Amsterdam",
+      4.9,
+      52.37,
+      14
+     ],
+     [
+      "Haarlem",
+      4.64,
+      52.38,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      4.75,
+      52.63,
+      0.12,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "auctioneer",
+   "say": "One Admirael van Enkhuizen bulb! Who bids?",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "auctioneer",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "bidder",
+      "x": 0.72
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.55,
+      "s": 0.6,
+      "label": "TULIP BULB"
+     }
+    ]
+   }
+  },
+  {
+   "who": "bidder",
+   "say": "Five thousand two hundred guilders!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "bidder",
+      "x": 0.45,
+      "mood": "shout",
+      "pose": "fist"
+     }
+    ],
+    "cam": "close",
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sold. Back then, a skilled craftsman earned about three hundred guilders a year.",
+   "show": {
+    "k": "card",
+    "label": "Price of one Admirael van Enkhuizen bulb",
+    "big": "5,200 guilders",
+    "sub": "about 17 years of a craftsman's pay"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historian Anne Goldgar found top tulip deals of about five thousand guilders, roughly what a nice house cost.",
+   "show": {
+    "k": "compare",
+    "bg": "town",
+    "left": {
+     "label": "1 tulip bulb",
+     "cast": [
+      {
+       "id": "bidder",
+       "mood": "happy",
+       "hold": "moneybag"
+      }
+     ]
+    },
+    "right": {
+     "label": "1 nice house",
+     "cast": [
+      {
+       "id": "auctioneer",
+       "mood": "shock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But nobody actually swapped a house for a tulip. It was the price that matched.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "bidder",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Still, that's a house-sized price for a flower you can't live in."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more wild money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "bidder",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "moneybag"
+     },
+     {
+      "id": "auctioneer",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One flower bulb. The price of a nice house. Welcome to 1637.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tulipmania #dutchhistory #money #historytok",
+ "youtube_title": "One Tulip Bulb Cost as Much as a House #shorts",
+ "tags": [
+  "tulip mania",
+  "tulip bulb price",
+  "dutch golden age",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tulip_mania",
+  "https://www.history.com/articles/tulip-mania-financial-crash-holland",
+  "https://erenow.org/modern/tulipomania-the-story-of-the-worlds-most-coveted-flower/13.php",
+  "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/",
+  "https://www.atlasobscura.com/articles/the-most-beautiful-tulip-in-history-cost-as-much-as-a-house"
+ ],
+ "thumbnail": {
+  "text": "A BULB COST A HOUSE",
+  "sub": "Alkmaar · 1637",
+  "bg": "market",
+  "faces": [
+   {
+    "id": "bidder",
+    "mood": "shock"
+   }
+  ],
+  "object": {
+   "k": "house"
+  }
+ }
+}

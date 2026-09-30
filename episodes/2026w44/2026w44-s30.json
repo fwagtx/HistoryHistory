@@ -1,0 +1,257 @@
+{
+ "id": "2026w44-s30",
+ "format": "short",
+ "date": "2026-10-30",
+ "slot": "09:00",
+ "title": "Did a Sailor Really Eat a Priceless Tulip?",
+ "hook": "SAILOR ATE A TULIP?",
+ "music": "playful",
+ "cast": {
+  "sailor": {
+   "preset": "sailor",
+   "skin": "tan",
+   "name": "Sailor"
+  },
+  "merchant": {
+   "preset": "merchant",
+   "skin": "light",
+   "hat": "capotain",
+   "hatColor": "#1E1C1B",
+   "outfit": "robe",
+   "color": "#7A2A2A",
+   "beard": "full",
+   "hairColor": "#4A3A2A",
+   "name": "Rich merchant"
+  },
+  "mackay": {
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#1E1C1B",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "hair": "side",
+   "hairColor": "#5A3A22",
+   "hold": "pen",
+   "name": "Charles Mackay"
+  }
+ },
+ "voices": {
+  "sailor": "bm_george",
+  "merchant": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Legend says a sailor once ate a tulip bulb worth a fortune, thinking it was an onion.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.4,
+      "mood": "happy"
+     }
+    ],
+    "place": "Dutch Republic · 1630s (legend)",
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.78,
+      "s": 0.7,
+      "flag": "netherlands"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story was made famous by Charles Mackay, a Scottish writer, in an 1841 book.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "mackay",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "book"
+     }
+    ],
+    "place": "London · 1841",
+    "tag": {
+     "id": "mackay",
+     "text": "Charles Mackay, Scottish writer"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A sailor brings a rich merchant good news, and gets a herring, a salty fish, for breakfast.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "merchant",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.5,
+      "label": "SILKS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "Ooh, an onion! Perfect with my herring.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "sit"
+     }
+    ],
+    "cam": "close",
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT AN ONION",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was a rare Semper Augustus tulip bulb.",
+   "show": {
+    "k": "card",
+    "label": "Mackay's price for that bulb",
+    "big": "3,000 florins",
+    "sub": "florins were the same as guilders",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.8,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "merchant",
+   "say": "My tulip! You ate my tulip!",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "scared"
+     },
+     {
+      "id": "sailor",
+      "x": 0.72,
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Mackay's version, the sailor goes to jail.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.45,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "LEGEND"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But historians have found no evidence it happened. Mackay was retelling an older story."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "merchant",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A sailor, a herring and a very expensive 'onion'. Great story. Probably not true.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tulipmania #legend #funnyhistory #historytok",
+ "youtube_title": "Did a Sailor Really Eat a Priceless Tulip? #shorts",
+ "tags": [
+  "tulip mania",
+  "sailor onion tulip",
+  "charles mackay",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://staffblogs.le.ac.uk/specialcollections/2017/04/07/a-tulip-bulb-the-value-of-which-would-have-fed-a-whole-ships-crew-for-a-twelvemonth/",
+  "https://en.wikipedia.org/wiki/Extraordinary_Popular_Delusions_and_the_Madness_of_Crowds",
+  "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/",
+  "https://en.wikipedia.org/wiki/Tulip_mania"
+ ]
+}

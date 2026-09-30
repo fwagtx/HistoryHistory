@@ -1,0 +1,3290 @@
+{
+ "id": "2026w44-l2",
+ "format": "long",
+ "date": "2026-10-28",
+ "title": "The Dumbest Military Blunders in History",
+ "music": "playful",
+ "cast": {
+  "alexander": {
+   "outfit": "uniform",
+   "color": "#2F4A3A",
+   "hair": "side",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "Tsar Alexander I"
+  },
+  "arminius": {
+   "outfit": "fur",
+   "color": "#6A5A3A",
+   "hair": "long",
+   "hairColor": "#C8A060",
+   "beard": "full",
+   "skin": "light",
+   "hold": "spear",
+   "name": "Arminius"
+  },
+  "augustus": {
+   "preset": "roman",
+   "hat": "laurel",
+   "outfit": "toga",
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "name": "Emperor Augustus"
+  },
+  "canuck": {
+   "preset": "brit40",
+   "color": "#6A6A3A"
+  },
+  "cardigan": {
+   "preset": "redcoat",
+   "color": "#2A3350",
+   "color2": "#B03050",
+   "stache": "bush",
+   "hairColor": "#C8A060",
+   "hold": "sword",
+   "name": "Lord Cardigan"
+  },
+  "carranza": {
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "beard": "long",
+   "stache": "bush",
+   "hairColor": "#EFEFEF",
+   "glasses": "round",
+   "skin": "light",
+   "hair": "short",
+   "name": "Venustiano Carranza"
+  },
+  "codebreaker": {
+   "preset": "businessman",
+   "color": "#5A5A6A",
+   "glasses": "square",
+   "hairColor": "#3A2A1A"
+  },
+  "fleming": {
+   "preset": "noble",
+   "hat": "capotain",
+   "hatColor": "#262322",
+   "beard": "goatee",
+   "stache": "handlebar",
+   "hairColor": "#BFBFBF",
+   "name": "Admiral Klas Fleming"
+  },
+  "frenchoff": {
+   "outfit": "uniform",
+   "color": "#5A6A8A",
+   "hat": "kepi",
+   "hatColor": "#3A4A7A",
+   "stache": "thin",
+   "skin": "light"
+  },
+  "german": {
+   "outfit": "ww2",
+   "color": "#5A6450",
+   "hat": "stahlhelm",
+   "hatColor": "#5A6450"
+  },
+  "grenadier": {
+   "preset": "grenadier"
+  },
+  "gustavus": {
+   "preset": "king",
+   "stache": "handlebar",
+   "beard": "goatee",
+   "hairColor": "#C8A060",
+   "name": "King Gustavus Adolphus"
+  },
+  "hansson": {
+   "outfit": "coat",
+   "color": "#2F3A5A",
+   "hat": "capotain",
+   "hatColor": "#262322",
+   "stache": "thin",
+   "beard": "goatee",
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "name": "Captain Söfring Hansson"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "horse2": {
+   "animal": "horse",
+   "mood": "scared"
+  },
+  "legion": {
+   "preset": "legionary"
+  },
+  "lucan": {
+   "preset": "redcoat",
+   "hat": "bicorne",
+   "stache": "handlebar",
+   "hairColor": "#6A4A2A",
+   "name": "Lord Lucan"
+  },
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "nolan": {
+   "outfit": "uniform",
+   "color": "#2A3350",
+   "hat": "kepi",
+   "hatColor": "#2A3350",
+   "stache": "thin",
+   "hairColor": "#2A1A10",
+   "skin": "light",
+   "name": "Captain Louis Nolan"
+  },
+  "officer": {
+   "preset": "captain",
+   "color": "#2A3350"
+  },
+  "petain": {
+   "outfit": "uniform",
+   "color": "#5A6A8A",
+   "hat": "kepi",
+   "hatColor": "#3A4A7A",
+   "stache": "walrus",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Marshal Philippe Pétain"
+  },
+  "radarman": {
+   "preset": "sailor"
+  },
+  "raglan": {
+   "outfit": "coat",
+   "color": "#2A3350",
+   "hat": "bicorne",
+   "hair": "short",
+   "hairColor": "#DADADA",
+   "skin": "light",
+   "hold": "telescope",
+   "name": "Lord Raglan"
+  },
+  "reporter": {
+   "preset": "businessman",
+   "color": "#6A5A3A",
+   "hat": "fedora",
+   "hold": "pen"
+  },
+  "sailor": {
+   "preset": "peasant",
+   "outfit": "tunic",
+   "color": "#4A6A8A",
+   "hat": "cap"
+  },
+  "sailor2": {
+   "preset": "peasant",
+   "outfit": "tunic",
+   "color": "#8A5A3A",
+   "hat": "cap"
+  },
+  "segestes": {
+   "outfit": "fur",
+   "color": "#4A4A3A",
+   "hair": "long",
+   "hairColor": "#BFBFBF",
+   "beard": "long",
+   "skin": "light",
+   "name": "Segestes"
+  },
+  "varus": {
+   "preset": "legionary",
+   "color": "#A8322A",
+   "name": "Publius Quinctilius Varus"
+  },
+  "warrior": {
+   "outfit": "fur",
+   "color": "#5A4A2A",
+   "hair": "long",
+   "hairColor": "#8A5A2A",
+   "beard": "full",
+   "skin": "light",
+   "hold": "spear"
+  },
+  "wilson": {
+   "outfit": "suit",
+   "color": "#2A2A3A",
+   "glasses": "round",
+   "hair": "side",
+   "hairColor": "#9A9A9A",
+   "skin": "light",
+   "name": "Woodrow Wilson"
+  },
+  "yank": {
+   "preset": "gi"
+  },
+  "zimmermann": {
+   "preset": "businessman",
+   "hair": "bald",
+   "stache": "bush",
+   "glasses": "round",
+   "hairColor": "#8A8A8A",
+   "name": "Arthur Zimmermann"
+  }
+ },
+ "voices": {
+  "alexander": "bm_lewis",
+  "canuck": "bm_lewis",
+  "fleming": "bm_george",
+  "frenchoff": "am_echo",
+  "grenadier": "am_puck",
+  "hansson": "am_eric",
+  "lucan": "bm_daniel",
+  "napoleon": "am_fenrir",
+  "nolan": "am_echo",
+  "officer": "am_fenrir",
+  "petain": "bm_daniel",
+  "radarman": "am_puck",
+  "raglan": "bm_george",
+  "segestes": "bm_george",
+  "varus": "am_eric",
+  "yank": "am_liam",
+  "zimmermann": "bm_george"
+ },
+ "description": "A warship that sank less than a mile from the dock, a secret telegram that backfired, a wall the enemy simply drove around, a cavalry charge down the wrong valley, and 34,000 soldiers invading an island with nobody on it: these are seven of the dumbest military blunders in history, counted down from seven to one. Every story is real, and we laugh at the mistakes, never at the people who paid for them. Chapters are added automatically.\n\n#history #militaryhistory #funnyhistory #napoleon #historypros",
+ "thumbnail": {
+  "style": "redbox",
+  "bg": "arctic",
+  "lines": [
+   "WHY?!"
+  ],
+  "main": {
+   "id": "yank",
+   "mood": "shock"
+  },
+  "second": {
+   "id": "napoleon",
+   "mood": "scared"
+  }
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In August 1943, about thirty-four thousand American and Canadian soldiers stormed a freezing island near Alaska called Kiska.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.35,
+      "pose": "run",
+      "walk": [
+       0.2,
+       0.4
+      ],
+      "mood": "angry",
+      "hold": "rifle"
+     },
+     {
+      "id": "canuck",
+      "x": 0.6,
+      "pose": "run",
+      "walk": [
+       0.45,
+       0.65
+      ],
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "usa48"
+     },
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "place": "Kiska, Alaska · August 1943",
+    "fx": [
+     "snow"
+    ],
+    "stickers": [
+     {
+      "text": "34,000 TROOPS",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Japan had held this island for more than a year, so everyone expected a brutal fight.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.3,
+      "s": 0.8,
+      "flag": "usa48",
+      "move": [
+       0.1,
+       0.4
+      ]
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "japan_war"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They crept through thick fog, rifles ready, hearts pounding.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.4,
+      "pose": "aim",
+      "mood": "scared",
+      "hold": "rifle"
+     },
+     {
+      "id": "canuck",
+      "x": 0.65,
+      "pose": "aim",
+      "mood": "scared",
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "yank",
+   "say": "Anybody see them?",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "scared",
+      "hold": "rifle"
+     },
+     {
+      "id": "canuck",
+      "x": 0.65,
+      "mood": "scared",
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "yank"
+   }
+  },
+  {
+   "who": "canuck",
+   "say": "Nope. Not a soul."
+  },
+  {
+   "who": "N",
+   "say": "That's because the Japanese had already left, more than two weeks earlier.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock",
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.4
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "EMPTY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There was nobody to fight. And somehow, the invasion still went badly wrong."
+  },
+  {
+   "who": "N",
+   "say": "Today we're counting down seven of the dumbest military blunders in history, and that empty island is only the beginning.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "gustavus",
+      "x": 0.12,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "zimmermann",
+      "x": 0.28,
+      "pose": "shrug"
+     },
+     {
+      "id": "cardigan",
+      "x": 0.44,
+      "pose": "point"
+     },
+     {
+      "id": "varus",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.76,
+      "pose": "hips"
+     },
+     {
+      "id": "yank",
+      "x": 0.9,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "title",
+    "text": "The Dumbest Military Blunders in History",
+    "sub": "Seven blunders. All real. Some very expensive."
+   },
+   "hold": 2.5
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "The Ship That Sank Right Away"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number seven: the Vasa, a Swedish warship that barely made it out of the harbor.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 1.0,
+      "flag": "sweden"
+     }
+    ],
+    "place": "Stockholm, Sweden · 1628",
+    "stickers": [
+     {
+      "text": "VASA",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1620s, Sweden was fighting wars around the Baltic Sea, and it needed a mighty navy.",
+   "show": {
+    "k": "flag",
+    "flag": "sweden",
+    "label": "SWEDEN",
+    "sub": "1620s",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So King Gustavus Adolphus ordered a showpiece: sixty-four bronze cannons on two gun decks, covered in hundreds of carved statues.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "gustavus",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "gustavus",
+     "text": "King Gustavus Adolphus"
+    },
+    "stickers": [
+     {
+      "text": "64 CANNONS",
+      "at": 1.4,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It looked incredible. The problem was simple: too much weight up high, and not enough width down low.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor2",
+      "x": 0.2,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.6,
+      "s": 1.2,
+      "flag": "sweden"
+     }
+    ],
+    "cam": "close",
+    "stickers": [
+     {
+      "text": "TOP-HEAVY",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Before launch, Captain Söfring Hansson ran a test: thirty sailors ran from one side of the deck to the other.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "pose": "run",
+      "walk": [
+       0.15,
+       0.7
+      ]
+     },
+     {
+      "id": "sailor2",
+      "x": 0.5,
+      "pose": "run",
+      "walk": [
+       0.3,
+       0.85
+      ]
+     },
+     {
+      "id": "hansson",
+      "x": 0.82,
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "hansson",
+     "text": "Captain Söfring Hansson"
+    },
+    "stickers": [
+     {
+      "text": "30 SAILORS",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After three runs, the ship was rocking so hard that Admiral Klas Fleming stopped the test.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "fleming",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "hansson",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake",
+    "tag": {
+     "id": "fleming",
+     "text": "Admiral Klas Fleming"
+    }
+   }
+  },
+  {
+   "who": "fleming",
+   "say": "Stop! Stop running, or she'll tip over right here!"
+  },
+  {
+   "who": "hansson",
+   "say": "So... we launch it anyway?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "hansson",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "fleming",
+      "x": 0.65,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.7,
+      "flag": "sweden"
+     }
+    ],
+    "cam": "close",
+    "focus": "hansson"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They launched it anyway."
+  },
+  {
+   "who": "N",
+   "say": "On August 10, 1628, crowds lined the harbor in Stockholm, Sweden's capital, to watch her sail.",
+   "show": {
+    "k": "map",
+    "lon": 18.3,
+    "lat": 59.3,
+    "z0": 2.6,
+    "z1": 3.6,
+    "date": "10 August 1628",
+    "labels": [
+     [
+      "Stockholm",
+      18.07,
+      59.33,
+      0
+     ],
+     [
+      "Baltic Sea",
+      19.5,
+      58.4,
+      0
+     ]
+    ],
+    "route": [
+     [
+      18.02,
+      59.32
+     ],
+     [
+      18.08,
+      59.31
+     ],
+     [
+      18.12,
+      59.32
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A light gust of wind tipped her over. Water poured in through the open gun holes, and down she went.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 1.1,
+      "flag": "sweden"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "rain"
+    ],
+    "stickers": [
+     {
+      "text": "GLUG",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She had sailed about thirteen hundred meters. That's less than a mile.",
+   "show": {
+    "k": "card",
+    "label": "Vasa's first voyage",
+    "big": "1,300 m",
+    "sub": "less than a mile",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "About thirty people drowned. The captain was arrested, but in the end, nobody was punished.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "hansson",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "fleming",
+      "x": 0.65,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The good news? The cold water preserved her, and in 1961 Sweden raised the ship almost whole. Today she's a museum about what not to do.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "sailor2",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.9,
+      "flag": "sweden"
+     },
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.5,
+      "text": "MUSEUM"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1961",
+      "at": 1.2,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "The Telegram That Backfired"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number six: the worst secret message ever sent.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "zimmermann",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "TOP SECRET"
+     }
+    ],
+    "place": "Berlin, Germany · January 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1917, Germany was fighting World War One against Britain and France, and it really didn't want America to join in.",
+   "show": {
+    "k": "flag",
+    "flag": "germany1914",
+    "label": "THE GERMAN EMPIRE",
+    "sub": "1917",
+    "bg": "trench"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Germany's foreign minister, Arthur Zimmermann, came up with a plan.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "zimmermann",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "zimmermann",
+     "text": "Arthur Zimmermann"
+    }
+   }
+  },
+  {
+   "who": "zimmermann",
+   "say": "If Mexico attacks America, the Americans will be too busy to fight us. Brilliant!"
+  },
+  {
+   "who": "N",
+   "say": "He sent Mexico a secret coded telegram: join Germany's side, and you can win back Texas, New Mexico and Arizona.",
+   "show": {
+    "k": "card",
+    "label": "Germany's offer to Mexico",
+    "big": "TEXAS?!",
+    "sub": "plus New Mexico and Arizona",
+    "cast": [
+     {
+      "id": "zimmermann",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "present"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tiny problem. In London, British codebreakers in a secret office called Room 40 were reading German messages.",
+   "show": {
+    "k": "map",
+    "lon": 6.5,
+    "lat": 52.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "January 1917",
+    "labels": [
+     [
+      "Berlin",
+      13.4,
+      52.52,
+      0
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      8.0,
+      53.0
+     ],
+     [
+      3.0,
+      52.3
+     ],
+     [
+      -0.13,
+      51.5
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They cracked the telegram and handed it to the Americans.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "codebreaker",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "radio",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "place": "Room 40, London · 1917",
+    "stickers": [
+     {
+      "text": "DECODED",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It hit American newspapers in March, and plenty of people said it must be a British fake.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "reporter",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.7,
+      "text": "GERMANY'S MEXICO PLOT!"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ],
+    "place": "United States · March 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Germany could have just stayed quiet. Instead, Zimmermann told an American reporter this.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "zimmermann",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "reporter",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "I cannot deny it. It is true.",
+   "show": {
+    "k": "quote",
+    "text": "I cannot deny it. It is true.",
+    "who": "Arthur Zimmermann, 3 March 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mexico's president, Venustiano Carranza, looked at the plan and said no thanks.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "carranza",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "mexico"
+     },
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "carranza",
+     "text": "President Venustiano Carranza"
+    },
+    "place": "Mexico · 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And in April 1917, President Woodrow Wilson asked Congress for war. The United States joined the fight against Germany.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "wilson",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "usa48"
+     },
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "wilson",
+     "text": "President Woodrow Wilson"
+    },
+    "stickers": [
+     {
+      "text": "WAR",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It wasn't the only reason, but Zimmermann tried to keep America out, and helped pull it in."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "The Wall They Walked Around"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number five: the wall that got walked around.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "frenchoff",
+      "x": 0.3,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.65,
+      "s": 1.0,
+      "label": "MAGINOT LINE"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "French-German border · 1930s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After the horrors of World War One, France was determined never to be invaded by Germany again.",
+   "show": {
+    "k": "flag",
+    "flag": "france",
+    "label": "FRANCE",
+    "sub": "1930s",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in the 1930s it built the Maginot Line, a chain of huge concrete forts along the border with Germany.",
+   "show": {
+    "k": "map",
+    "lon": 6.3,
+    "lat": 49.4,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "1930s",
+    "labels": [
+     [
+      "FRANCE",
+      4.5,
+      48.6,
+      0
+     ],
+     [
+      "GERMANY",
+      9.0,
+      50.2,
+      0
+     ],
+     [
+      "BELGIUM",
+      4.6,
+      50.6,
+      0
+     ],
+     [
+      "Maginot Line",
+      7.4,
+      48.6,
+      0
+     ]
+    ],
+    "route": [
+     [
+      5.4,
+      49.5
+     ],
+     [
+      6.5,
+      49.4
+     ],
+     [
+      7.6,
+      49.1
+     ],
+     [
+      8.1,
+      48.9
+     ],
+     [
+      7.7,
+      48.3
+     ],
+     [
+      7.5,
+      47.6
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The forts had thick walls, big guns, and even little underground trains.",
+   "show": {
+    "k": "scene",
+    "bg": "trench",
+    "cast": [
+     {
+      "id": "frenchoff",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "artillery",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CONCRETE",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the line was weak near the Ardennes, a hilly forest in Belgium and Luxembourg, next to France.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "frenchoff",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.9
+     },
+     {
+      "k": "tree",
+      "x": 0.3,
+      "s": 0.8
+     },
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.9
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE ARDENNES",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "French generals were sure tanks couldn't get through those woods. Marshal Philippe Pétain, France's big war hero, even called it impenetrable.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "petain",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "frenchoff",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "petain",
+     "text": "Marshal Philippe Pétain"
+    }
+   }
+  },
+  {
+   "who": "petain",
+   "say": "Tanks? Through those trees? Impossible."
+  },
+  {
+   "who": "frenchoff",
+   "say": "Completely impossible, Marshal. No need to worry.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "frenchoff",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "petain",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "frenchoff"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In May 1940, Germany sent a huge force of tanks straight through the Ardennes.",
+   "show": {
+    "k": "map",
+    "lon": 5.6,
+    "lat": 49.9,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "May 1940",
+    "labels": [
+     [
+      "Ardennes",
+      5.6,
+      50.1,
+      0
+     ],
+     [
+      "Sedan",
+      4.94,
+      49.7,
+      0
+     ],
+     [
+      "GERMANY",
+      7.4,
+      50.4,
+      0
+     ]
+    ],
+    "route": [
+     [
+      7.0,
+      50.3
+     ],
+     [
+      6.2,
+      50.1
+     ],
+     [
+      5.5,
+      49.9
+     ],
+     [
+      4.94,
+      49.7
+     ]
+    ],
+    "areas": [
+     [
+      5.6,
+      50.0,
+      0.6,
+      "rgba(31,138,74,0.25)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They crawled along narrow forest roads, reached the French town of Sedan in just a few days, and smashed through.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "german",
+      "x": 0.8,
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tank",
+      "x": 0.4,
+      "s": 1.0,
+      "emblem": "cross",
+      "move": [
+       0.1,
+       0.55
+      ]
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "pan",
+    "place": "Sedan, France · 13 May 1940"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The mighty forts barely mattered. The Germans had simply gone around them.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "frenchoff",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock",
+      "flip": true
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.55,
+      "s": 1.0,
+      "label": "MAGINOT LINE"
+     },
+     {
+      "k": "tank",
+      "x": 0.88,
+      "s": 0.5,
+      "emblem": "cross"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WRONG WAY",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "About six weeks after the attack began, France agreed to stop fighting.",
+   "show": {
+    "k": "card",
+    "label": "The Battle of France",
+    "big": "6 WEEKS",
+    "sub": "May 10 to June 22, 1940"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The lesson? A wall only works if the enemy agrees to walk into it."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "The Order That Pointed the Wrong Way"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number four: the charge of the Light Brigade.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.35,
+      "walk": [
+       0.2,
+       0.5
+      ]
+     },
+     {
+      "id": "cardigan",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "uk"
+     }
+    ],
+    "place": "Balaclava, Crimea · 25 October 1854",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1854, Britain and France were fighting Russia in the Crimean War, on a peninsula in the Black Sea.",
+   "show": {
+    "k": "map",
+    "lon": 34.0,
+    "lat": 45.0,
+    "z0": 1.6,
+    "z1": 2.4,
+    "date": "1854",
+    "labels": [
+     [
+      "Crimea",
+      34.2,
+      45.3,
+      0
+     ],
+     [
+      "Balaclava",
+      33.6,
+      44.5,
+      0
+     ],
+     [
+      "Black Sea",
+      34.5,
+      43.2,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      33.6,
+      44.5,
+      0.3,
+      "rgba(168,50,42,0.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The British commander, Lord Raglan, was watching the battle from a hilltop.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "raglan",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "uk"
+     }
+    ],
+    "tag": {
+     "id": "raglan",
+     "text": "Lord Raglan, British commander"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He spotted Russians hauling away some captured cannons, and sent an order: the cavalry should stop them."
+  },
+  {
+   "who": "raglan",
+   "say": "Tell Lord Lucan the cavalry is to attack immediately!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "raglan",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "nolan",
+      "x": 0.65,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "raglan",
+    "tag": {
+     "id": "nolan",
+     "text": "Captain Louis Nolan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Down in the valley, the cavalry commander, Lord Lucan, couldn't see those cannons at all.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "lucan",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "shock"
+     },
+     {
+      "id": "nolan",
+      "x": 0.7,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "lucan",
+     "text": "Lord Lucan, cavalry commander"
+    }
+   }
+  },
+  {
+   "who": "lucan",
+   "say": "Attack what? Which guns?"
+  },
+  {
+   "who": "nolan",
+   "say": "There, my lord, is your enemy! There are your guns!"
+  },
+  {
+   "who": "N",
+   "say": "Nolan waved his arm, and it looked like he meant the big Russian cannons at the far end of a long valley. The wrong ones.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "nolan",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "cannon",
+      "x": 0.85,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.95,
+      "s": 0.5,
+      "flag": "russia"
+     }
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "WRONG GUNS",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lucan passed the order to his brother-in-law, Lord Cardigan. The two men hated each other, so they barely talked it over.",
+   "show": {
+    "k": "compare",
+    "bg": "camp",
+    "left": {
+     "label": "LUCAN",
+     "cast": [
+      {
+       "id": "lucan",
+       "pose": "cross",
+       "mood": "angry"
+      }
+     ]
+    },
+    "right": {
+     "label": "CARDIGAN",
+     "cast": [
+      {
+       "id": "cardigan",
+       "pose": "cross",
+       "mood": "angry"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cardigan led about six hundred seventy riders straight down the valley, with Russian guns firing from three sides.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "cardigan",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "horse",
+      "x": 0.5,
+      "walk": [
+       0.3,
+       0.7
+      ]
+     },
+     {
+      "id": "horse2",
+      "x": 0.7,
+      "walk": [
+       0.5,
+       0.9
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke",
+     "dust"
+    ],
+    "cam": "pan",
+    "tag": {
+     "id": "cardigan",
+     "text": "Lord Cardigan"
+    },
+    "stickers": [
+     {
+      "text": "~670 RIDERS",
+      "at": 1.2,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In about twenty minutes, around one hundred ten men were killed, and many more were wounded or captured.",
+   "show": {
+    "k": "card",
+    "label": "The charge",
+    "big": "110",
+    "sub": "killed in about 20 minutes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A French general watching from the hills summed it up perfectly."
+  },
+  {
+   "who": "N",
+   "say": "It is magnificent, but it is not war.",
+   "show": {
+    "k": "quote",
+    "text": "It is magnificent, but it is not war.",
+    "who": "General Pierre Bosquet, Balaclava, 1854"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The riders were incredibly brave. The order was just incredibly bad. The poet Alfred Tennyson made their bravery famous.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lucan",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "raglan",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "The General Who Ignored a Warning"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number three: the Roman general who got a clear warning, and said no thanks.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "varus",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.9
+     },
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.8
+     },
+     {
+      "k": "banner",
+      "x": 0.65,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Germania · 9 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 9 AD, Rome was trying to take over Germania, the land of the Germanic tribes, roughly where Germany is today.",
+   "show": {
+    "k": "map",
+    "lon": 9.0,
+    "lat": 51.2,
+    "z0": 1.6,
+    "z1": 2.3,
+    "date": "9 AD",
+    "labels": [
+     [
+      "Rhine",
+      6.6,
+      51.3,
+      0
+     ],
+     [
+      "GERMANIA",
+      10.5,
+      52.3,
+      0
+     ],
+     [
+      "Teutoburg Forest",
+      8.1,
+      52.4,
+      0
+     ]
+    ],
+    "route": [
+     [
+      6.6,
+      51.3
+     ],
+     [
+      7.5,
+      51.9
+     ],
+     [
+      8.1,
+      52.4
+     ]
+    ],
+    "areas": [
+     [
+      10.0,
+      52.0,
+      2.0,
+      "rgba(31,138,74,0.2)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Roman governor there, Publius Quinctilius Varus, had three legions, well over ten thousand soldiers.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "varus",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "legion",
+      "x": 0.2,
+      "pose": "salute"
+     },
+     {
+      "id": "legion",
+      "x": 0.75,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "varus",
+     "text": "Varus, Roman governor"
+    },
+    "stickers": [
+     {
+      "text": "3 LEGIONS",
+      "at": 1.3,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His trusted friend was Arminius, a Germanic prince who had served in the Roman army and even become a Roman citizen.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "arminius",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "varus",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "arminius",
+     "text": "Arminius"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But secretly, Arminius was uniting the tribes to destroy him.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "arminius",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "smug"
+     },
+     {
+      "id": "warrior",
+      "x": 0.62,
+      "pose": "cheer"
+     },
+     {
+      "id": "warrior",
+      "x": 0.82,
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then another Germanic chief, Segestes, came to Varus with a warning.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "segestes",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "scared"
+     },
+     {
+      "id": "varus",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "segestes",
+     "text": "Segestes, a Germanic chief"
+    }
+   }
+  },
+  {
+   "who": "segestes",
+   "say": "Arminius is plotting against you. Arrest him. Arrest me too, if you don't believe me!"
+  },
+  {
+   "who": "varus",
+   "say": "Nonsense. Arminius is my friend.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "varus",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "segestes",
+      "x": 0.68,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "cam": "close",
+    "focus": "varus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soon after, Arminius reported a small revolt, and Varus marched his whole army off to deal with it. Straight into a trap.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "legion",
+      "x": 0.3,
+      "pose": "walk",
+      "walk": [
+       0.1,
+       0.4
+      ]
+     },
+     {
+      "id": "varus",
+      "x": 0.55,
+      "pose": "walk",
+      "walk": [
+       0.35,
+       0.6
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.9
+     },
+     {
+      "k": "tree",
+      "x": 0.95,
+      "s": 0.8
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On a narrow strip between forest hills and swamp, in pouring rain, the tribes attacked from the trees for several days.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "warrior",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "legion",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 1.0
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 1.0
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "cam": "shake",
+    "place": "Teutoburg Forest · September 9 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Almost the whole Roman army was lost, and Varus took his own life.",
+   "show": {
+    "k": "card",
+    "label": "Teutoburg Forest, 9 AD",
+    "big": "3 LEGIONS",
+    "sub": "lost in a few days"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back in Rome, Emperor Augustus was devastated. The writer Suetonius says he banged his head against a door, crying out:",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "augustus",
+     "text": "Emperor Augustus"
+    },
+    "place": "Rome · 9 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Quinctilius Varus, give me back my legions!",
+   "show": {
+    "k": "quote",
+    "text": "Quinctilius Varus, give me back my legions!",
+    "who": "Augustus, as reported by Suetonius"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome never rebuilt those legions, and never conquered most of Germania. One ignored warning helped keep Rome's border on the Rhine."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "Napoleon Marches on Russia"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number two: Napoleon picks a fight with Russia.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "france"
+     },
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "place": "Paris, France · 1812",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon, emperor of France"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Napoleon Bonaparte, emperor of France, had beaten almost every army in Europe."
+  },
+  {
+   "who": "N",
+   "say": "But Russia's ruler, Tsar Alexander the First, had stopped obeying Napoleon's ban on trading with Britain.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "russia"
+     },
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.5,
+      "label": "BRITISH GOODS"
+     }
+    ],
+    "tag": {
+     "id": "alexander",
+     "text": "Tsar Alexander I of Russia"
+    }
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Fine. Then I'll just invade Russia.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "grenadier",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "alexander",
+   "say": "Be my guest. Russia is very, very big.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In June 1812, he invaded with one of the largest armies Europe had ever seen.",
+   "show": {
+    "k": "card",
+    "label": "The Grande Armée",
+    "big": "600,000",
+    "sub": "men, counting reinforcements",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "hips"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They marched hundreds of miles east, toward Moscow.",
+   "show": {
+    "k": "map",
+    "lon": 31.0,
+    "lat": 55.2,
+    "z0": 1.7,
+    "z1": 2.2,
+    "date": "June to September 1812",
+    "labels": [
+     [
+      "Niemen River",
+      23.9,
+      54.9,
+      0
+     ],
+     [
+      "Smolensk",
+      32.05,
+      54.78,
+      0
+     ],
+     [
+      "Moscow",
+      37.6,
+      55.75,
+      0
+     ]
+    ],
+    "route": [
+     [
+      23.9,
+      54.9
+     ],
+     [
+      27.5,
+      55.0
+     ],
+     [
+      32.05,
+      54.78
+     ],
+     [
+      35.8,
+      55.5
+     ],
+     [
+      37.6,
+      55.75
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Russians kept retreating, and they burned crops and villages so the French couldn't find food.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "grenadier",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In September, Napoleon finally marched into Moscow. It was almost empty, and within a day, it was on fire.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "fire",
+     "smoke"
+    ],
+    "place": "Moscow, Russia · September 1812"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He waited in the ruins for over a month, expecting the tsar to ask for peace. The tsar refused to talk.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "grenadier",
+      "x": 0.72,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL WAITING",
+      "at": 1.5,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Any letter from the tsar yet?"
+  },
+  {
+   "who": "grenadier",
+   "say": "No, sire. Still nothing."
+  },
+  {
+   "who": "N",
+   "say": "In October, with little food and winter coming, Napoleon ordered a retreat.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "grenadier",
+      "x": 0.35,
+      "pose": "walk",
+      "walk": [
+       0.6,
+       0.3
+      ],
+      "mood": "sad"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.6,
+      "pose": "walk",
+      "walk": [
+       0.85,
+       0.55
+      ],
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hunger, disease, freezing cold and constant Russian attacks wore the army down on the long march home."
+  },
+  {
+   "who": "N",
+   "say": "Estimates vary, but hundreds of thousands never came back. Only a small fraction of that giant army made it out.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "grenadier",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.2,
+      "s": 0.6
+     },
+     {
+      "k": "wagon",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Napoleon's power never recovered. Less than two years later, he'd lost his throne."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "The Invasion of an Empty Island"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "And number one: back to Kiska, the invasion of an empty island.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock",
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "place": "Aleutian Islands, Alaska · 1942"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1942, Japan captured Kiska and Attu, two tiny islands in Alaska's Aleutian chain.",
+   "show": {
+    "k": "flag",
+    "flag": "japan_war",
+    "label": "JAPAN TAKES KISKA",
+    "sub": "June 1942",
+    "bg": "arctic"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In May 1943, American troops took back Attu in a bloody battle, so everyone knew Kiska was next.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.4,
+      "pose": "salute",
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "usa48"
+     },
+     {
+      "k": "jeep",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In July, American battleships were guarding the waters near the island. Then one night, their radar spotted enemy ships.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.5,
+      "s": 1.0,
+      "flag": "usa48",
+      "move": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "place": "Near Kiska · July 1943"
+   }
+  },
+  {
+   "who": "radarman",
+   "say": "Contacts on radar! Lots of them!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "radarman",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     },
+     {
+      "id": "officer",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "radarman"
+   }
+  },
+  {
+   "who": "officer",
+   "say": "Open fire!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "officer",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "radarman",
+      "x": 0.75,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "explosion"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The ships fired five hundred eighteen giant shells into the fog. They hit nothing.",
+   "show": {
+    "k": "card",
+    "label": "The Battle of the Pips",
+    "big": "518",
+    "sub": "shells fired. Hits: zero."
+   }
+  },
+  {
+   "who": "N",
+   "say": "There were no enemy ships. One popular theory: the radar saw huge flocks of seabirds.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.3,
+      "s": 0.7,
+      "flag": "usa48"
+     },
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "BIRDS?",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the fleet left to refuel. And under cover of thick fog, Japanese ships slipped into the harbor and took all five thousand men off the island in about an hour.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.4,
+      "s": 0.9,
+      "flag": "japan_war",
+      "move": [
+       0.2,
+       0.7
+      ]
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "5,183 GONE",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For two more weeks, Allied planes kept bombing the empty island.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.5,
+      "s": 0.8,
+      "y": 0.5,
+      "emblem": "whitestar",
+      "move": [
+       0.1,
+       0.9
+      ]
+     },
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then came the big landing. In the fog, nervous soldiers mistook each other for the enemy. Friendly fire killed twenty-eight Americans and four Canadians.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.35,
+      "pose": "aim",
+      "mood": "scared",
+      "hold": "rifle"
+     },
+     {
+      "id": "canuck",
+      "x": 0.68,
+      "pose": "aim",
+      "mood": "scared",
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "still",
+    "place": "Kiska · 15 August 1943"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Days later, the American destroyer Abner Read hit a Japanese mine, and seventy-one sailors were killed.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.5,
+      "s": 0.9,
+      "flag": "usa48"
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.3,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In all, the Allies suffered more than three hundred casualties, including many cases of trench foot, on an island with no enemy on it.",
+   "show": {
+    "k": "card",
+    "label": "Operation Cottage, Kiska",
+    "big": "313",
+    "sub": "Allied casualties. Enemy soldiers found: zero.",
+    "cast": [
+     {
+      "id": "yank",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's a reminder that in war, fog, fear and bad information can do as much damage as the enemy."
+  },
+  {
+   "who": "N",
+   "say": "So there you have it: a sinking ship, a boomerang telegram, a wall people walked around, a wrong order, an ignored warning, a winter march, and an empty island.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "gustavus",
+      "x": 0.12,
+      "pose": "facepalm"
+     },
+     {
+      "id": "zimmermann",
+      "x": 0.28,
+      "pose": "shrug"
+     },
+     {
+      "id": "petain",
+      "x": 0.44,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "varus",
+      "x": 0.6,
+      "pose": "facepalm"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.76,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "yank",
+      "x": 0.9,
+      "pose": "shrug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Which one was the dumbest? Tell us in the comments."
+  },
+  {
+   "who": "N",
+   "say": "Next time: the flowers that drove a whole country crazy. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "next": "Tulip Mania: The Craziest Market Bubble in History",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.72,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.88
+     }
+    ]
+   }
+  }
+ ],
+ "youtube_title": "The Dumbest Military Blunders in History",
+ "tags": [
+  "military blunders",
+  "kiska",
+  "vasa ship",
+  "zimmermann telegram",
+  "maginot line",
+  "charge of the light brigade",
+  "teutoburg forest",
+  "napoleon russia 1812",
+  "funny history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Operation_Cottage",
+  "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/wwii/wwii-pacific/aleutian-islands-campaign/allied-invasion-kiska.html",
+  "https://project44.ca/kiska/",
+  "https://arsof-history.org/articles/v4n2_op_cottage_page_1.html",
+  "https://en.wikipedia.org/wiki/Japanese_occupation_of_Kiska",
+  "https://en.wikipedia.org/wiki/Battle_of_the_Pips",
+  "https://en.wikipedia.org/wiki/Vasa_(ship)",
+  "https://www.britannica.com/topic/Vasa-warship",
+  "https://www.smithsonianmag.com/smart-news/bizarre-story-vasa-ship-keeps-giving-180964328/",
+  "https://en.wikipedia.org/wiki/Zimmermann_telegram",
+  "https://www.archives.gov/milestone-documents/zimmermann-telegram",
+  "https://www.theworldwar.org/learn/about-wwi/zimmermann-telegram",
+  "https://history.blog.gov.uk/2017/01/16/the-zimmermann-telegram-and-room-40",
+  "https://en.wikipedia.org/wiki/Maginot_Line",
+  "https://en.wikipedia.org/wiki/Battle_of_Sedan_(1940)",
+  "https://www.history.com/topics/world-war-ii/maginot-line",
+  "https://en.wikipedia.org/wiki/Charge_of_the_Light_Brigade",
+  "https://www.historic-uk.com/HistoryUK/HistoryofBritain/Charge-Of-The-Light-Brigade/",
+  "https://victorianweb.org/history/crimea/chargelb.html",
+  "https://en.wikipedia.org/wiki/Pierre_Bosquet",
+  "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+  "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/",
+  "https://en.wikipedia.org/wiki/Segestes",
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0132%3Alife%3Daug.%3Achapter%3D23",
+  "https://en.wikipedia.org/wiki/Legio_XVII",
+  "https://www.britannica.com/event/French-invasion-of-Russia",
+  "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
+  "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)",
+  "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+ ]
+}

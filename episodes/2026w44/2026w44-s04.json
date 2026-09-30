@@ -1,0 +1,302 @@
+{
+ "id": "2026w44-s04",
+ "format": "short",
+ "date": "2026-10-26",
+ "slot": "09:00",
+ "title": "Samurai Officials Rode a Tiny American Train",
+ "hook": "SAMURAI ON A TINY TRAIN",
+ "music": "playful",
+ "cast": {
+  "perry": {
+   "outfit": "coat",
+   "color": "#1F2E55",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Commodore Matthew Perry"
+  },
+  "official": {
+   "outfit": "kimono",
+   "color": "#3A4A5A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  },
+  "official2": {
+   "outfit": "kimono",
+   "color": "#A8322A",
+   "hair": "bun",
+   "stache": "thin",
+   "hairColor": "#1E1C1B",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "official": "am_puck",
+  "perry": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1854, Japanese officials went for a train ride, sitting on the roof.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Yokohama, Japan · 1854",
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.65,
+      "s": 0.5,
+      "move": [
+       0.8,
+       0.5
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ON THE ROOF",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1853, American warships, the Black Ships, steamed into the bay near Edo, today's Tokyo.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "place": "Edo Bay, Japan · 1853",
+    "fx": [
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.35,
+      "s": 0.9,
+      "flag": "usa1859"
+     },
+     {
+      "k": "steamship",
+      "x": 0.78,
+      "s": 0.6,
+      "flag": "usa1859"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Commodore Matthew Perry demanded that Japan open its ports.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "perry",
+      "x": 0.45,
+      "pose": "hold",
+      "hold": "letter",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "perry",
+     "text": "Commodore Matthew Perry"
+    },
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1854 he returned with gifts to show off American technology, including a quarter-size steam train with real track.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "perry",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.6,
+      "label": "TRAIN"
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.5,
+      "label": "TELEGRAPH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The car was far too small to sit inside. The officials didn't care.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "official2",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "official",
+   "say": "Move over. I'm riding on top.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "perry",
+      "x": 0.7,
+      "pose": "facepalm",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "official"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Perry's report describes one whirling around, robes flying in the wind.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy",
+      "bounce": true
+     }
+    ],
+    "cam": "pan",
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.6,
+      "s": 0.5,
+      "move": [
+       0.2,
+       0.8
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A week later, Japan signed a treaty opening two ports. Over two centuries of isolation had cracked.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "official2",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "scroll",
+      "mood": "sad"
+     },
+     {
+      "id": "perry",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "flag": "usa1859"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "perry",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1854, Japanese officials rode a tiny American train... on the roof.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #commodoreperry #trains #historytok",
+ "youtube_title": "Samurai Officials Rode a Tiny American Train #shorts",
+ "tags": [
+  "commodore perry",
+  "black ships",
+  "japan history",
+  "steam train",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.nippon.com/en/nipponblog/m00123/",
+  "https://library.brown.edu/cds/perry/scroll7_Forkin.html",
+  "https://en.wikipedia.org/wiki/Perry_Expedition",
+  "https://history.state.gov/milestones/1830-1860/opening-to-japan",
+  "https://visualizingcultures.mit.edu/black_ships_and_samurai/bss_essay07.html"
+ ]
+}
