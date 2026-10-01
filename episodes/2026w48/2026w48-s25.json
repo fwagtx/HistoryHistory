@@ -126,7 +126,7 @@
   },
   {
    "who": "N",
-   "say": "Many people had bought those shares with borrowed money. Now their brokers wanted it back.",
+   "say": "Many had bought shares with money borrowed from their brokers, the people who bought stocks for them. Now the brokers wanted it back.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -163,7 +163,7 @@
    "say": "Pay up today, or I sell your shares!",
    "show": {
     "k": "scene",
-    "bg": "office",
+    "bg": "tavern",
     "cast": [
      {
       "id": "broker",
@@ -191,10 +191,35 @@
    "who": "N",
    "say": "The ticker, the machine printing stock prices, ran hours behind. Nobody knew how bad it really was.",
    "show": {
-    "k": "card",
-    "label": "Shares traded on Black Tuesday",
-    "big": "16,000,000",
-    "sub": "about 16.4 million, a record at the time"
+    "k": "scene",
+    "bg": "office",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "HOURS LATE"
+     },
+     {
+      "k": "desk",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TICKER",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "cast": [
+     {
+      "id": "trader",
+      "hold": "letter",
+      "mood": "shock"
+     }
+    ]
    }
   },
   {
