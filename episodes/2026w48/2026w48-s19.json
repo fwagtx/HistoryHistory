@@ -1,8 +1,8 @@
 {
  "id": "2026w48-s19",
  "format": "short",
- "date": "2026-11-25",
- "slot": "09:00",
+ "date": "2026-11-26",
+ "slot": "18:00",
  "title": "Did King George III Talk to a Tree? (Legend)",
  "hook": "DID HE TALK TO A TREE?",
  "music": "playful",
@@ -62,7 +62,7 @@
   },
   {
    "who": "N",
-   "say": "George ruled Britain for sixty years. Yes, the king who lost America.",
+   "say": "George ruled Britain for almost sixty years. Yes, the king who lost America.",
    "show": {
     "k": "flag",
     "flag": "uk1606",
@@ -73,7 +73,7 @@
   },
   {
    "who": "N",
-   "say": "In 1788 he became seriously ill. He talked for hours without stopping.",
+   "say": "In 1788 he became seriously ill, in body and mind. He talked for hours without stopping.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -127,6 +127,13 @@
       "s": 0.9,
       "label": "KING OF PRUSSIA?"
      }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.6,
+      "color": "#2F6FC2"
+     }
     ]
    }
   },
@@ -152,7 +159,14 @@
      }
     ],
     "cam": "close",
-    "focus": "george3"
+    "focus": "george3",
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.4,
+      "color": "#2F6FC2"
+     }
+    ]
    }
   },
   {

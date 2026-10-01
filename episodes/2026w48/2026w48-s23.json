@@ -1,11 +1,11 @@
 {
  "id": "2026w48-s23",
  "format": "short",
- "date": "2026-11-25",
- "slot": "09:00",
- "title": "The Royal Costume Party That Caught Fire",
- "hook": "THE PARTY THAT CAUGHT FIRE",
- "music": "playful",
+ "date": "2026-11-27",
+ "slot": "15:00",
+ "title": "A Teenage Duchess Saved the King of France",
+ "hook": "SHE SAVED THE KING",
+ "music": "tense",
  "cast": {
   "charles6": {
    "preset": "king",
@@ -40,21 +40,21 @@
  "beats": [
   {
    "who": "N",
-   "say": "In 1393, a royal costume party in Paris went horribly wrong.",
+   "say": "In 1393, a teenage duchess saved the King of France with her skirt.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
-      "id": "charles6",
+      "id": "duchess",
       "x": 0.35,
-      "pose": "cheer",
-      "mood": "happy"
+      "pose": "hips",
+      "mood": "smug"
      },
      {
-      "id": "courtier",
+      "id": "charles6",
       "x": 0.68,
-      "pose": "cheer",
+      "pose": "wave",
       "mood": "happy"
      }
     ],
@@ -68,17 +68,57 @@
     ],
     "place": "Paris, France · January 1393",
     "tag": {
-     "id": "charles6",
-     "text": "King Charles VI of France"
+     "id": "duchess",
+     "text": "Joan, Duchess of Berry"
     }
    }
   },
   {
    "who": "N",
-   "say": "King Charles the Sixth and five nobles dressed as hairy wild men, in linen costumes coated with sticky resin and flax.",
+   "say": "King Charles the Sixth was often mentally ill. His court hoped a costume party would help.",
    "show": {
     "k": "scene",
     "bg": "throne",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "courtier",
+      "x": 0.7,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "charles6",
+     "text": "King Charles VI of France"
+    },
+    "stickers": [
+     {
+      "text": "COSTUME PARTY",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The king and five nobles dressed as hairy wild men, in costumes of sticky resin and fluffy flax.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
     "cast": [
      {
       "id": "charles6",
@@ -95,9 +135,9 @@
     ],
     "objects": [
      {
-      "k": "throne",
+      "k": "column",
       "x": 0.85,
-      "s": 0.4
+      "s": 0.55
      }
     ],
     "stickers": [
@@ -111,17 +151,17 @@
   },
   {
    "who": "N",
-   "say": "Then the king's brother, Louis, came in carrying a torch, and got too close.",
+   "say": "The king's brother, Louis, came close with a torch, and a spark caught a costume.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "throne",
     "cast": [
      {
       "id": "louisorl",
       "x": 0.4,
       "pose": "hold",
       "hold": "torch",
-      "mood": "happy",
+      "mood": "neutral",
       "walk": [
        0.2,
        0.45
@@ -143,7 +183,7 @@
   },
   {
    "who": "N",
-   "say": "A costume caught fire, and the flames spread. Four of the dancers died.",
+   "say": "The fire spread fast. Sadly, four of the dancers died.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -151,8 +191,8 @@
      {
       "id": "courtier",
       "x": 0.45,
-      "pose": "run",
-      "mood": "scared"
+      "pose": "scared",
+      "mood": "sad"
      }
     ],
     "objects": [
@@ -165,7 +205,7 @@
     "fx": [
      "smoke"
     ],
-    "cam": "shake"
+    "cam": "still"
    }
   },
   {
@@ -194,16 +234,12 @@
       "x": 0.12,
       "s": 0.55
      }
-    ],
-    "tag": {
-     "id": "duchess",
-     "text": "Joan, Duchess of Berry, age 15"
-    }
+    ]
    }
   },
   {
    "who": "N",
-   "say": "The king survived because his fifteen-year-old aunt, the Duchess of Berry, threw her heavy skirt over him.",
+   "say": "The Duchess of Berry, his young aunt by marriage, wrapped him in her heavy skirt.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -211,8 +247,8 @@
      {
       "id": "duchess",
       "x": 0.4,
-      "pose": "hips",
-      "mood": "happy"
+      "pose": "hold",
+      "mood": "neutral"
      },
      {
       "id": "charles6",
@@ -239,26 +275,26 @@
   },
   {
    "who": "N",
-   "say": "It's remembered as the Bal des Ardents, the Ball of the Burning Men.",
+   "say": "One heavy skirt saved the King of France.",
    "show": {
     "k": "card",
-    "label": "The disaster's name",
-    "big": "BAL DES ARDENTS",
-    "sub": "the Ball of the Burning Men, 1393",
+    "label": "How the king survived",
+    "big": "1 HEAVY SKIRT",
+    "sub": "thrown over him by a teenage duchess",
     "cast": [
      {
-      "id": "charles6",
+      "id": "duchess",
       "x": 0.75,
       "s": 0.8,
-      "pose": "facepalm",
-      "mood": "sad"
+      "pose": "hips",
+      "mood": "happy"
      }
     ]
    }
   },
   {
    "who": "N",
-   "say": "It made the sick king even worse.",
+   "say": "The shock made the sick king even worse.",
    "show": {
     "k": "scene",
     "bg": "church",
@@ -281,7 +317,7 @@
   },
   {
    "who": "N",
-   "say": "Follow for more history that sounds made up.",
+   "say": "Follow for more true stories from history.",
    "show": {
     "k": "end",
     "cast": [
@@ -301,8 +337,8 @@
    }
   }
  ],
- "caption": "A king's costume party went up in flames. A 15-year-old saved him with her skirt.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #charlesvi #medievalhistory #france #historytok",
- "youtube_title": "The Royal Costume Party That Caught Fire #shorts",
+ "caption": "A royal costume party went wrong. A teenage duchess saved the King of France with her skirt.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #charlesvi #medievalhistory #france #historytok",
+ "youtube_title": "A Teenage Duchess Saved the King of France #shorts",
  "tags": [
   "bal des ardents",
   "charles vi of france",

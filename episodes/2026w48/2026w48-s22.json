@@ -1,8 +1,8 @@
 {
  "id": "2026w48-s22",
  "format": "short",
- "date": "2026-11-25",
- "slot": "09:00",
+ "date": "2026-11-27",
+ "slot": "12:00",
  "title": "The King Who Thought He Was Made of Glass",
  "hook": "THE KING MADE OF GLASS",
  "music": "playful",
@@ -21,6 +21,10 @@
   "courtier": {
    "preset": "noble",
    "name": "French courtier"
+  },
+  "pius": {
+   "preset": "pope",
+   "name": "Pope Pius II"
   }
  },
  "voices": {
@@ -102,7 +106,45 @@
   },
   {
    "who": "N",
-   "say": "In some episodes, he feared he'd shatter if anyone touched him.",
+   "say": "A pope, Pius the Second, later wrote about it.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "pius",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "COMMENTARIES"
+     }
+    ],
+    "place": "Rome · about 1460",
+    "tag": {
+     "id": "pius",
+     "text": "Pope Pius II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sometimes he thought he was made of glass and would not let himself be touched.",
+   "show": {
+    "k": "quote",
+    "text": "Sometimes he thought he was made of glass and would not let himself be touched.",
+    "who": "Pope Pius II, Commentaries, on King Charles VI of France"
+   }
+  },
+  {
+   "who": "charles6",
+   "say": "Stay back! I'll break!",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -128,10 +170,6 @@
      }
     ]
    }
-  },
-  {
-   "who": "charles6",
-   "say": "Stay back! I'll break!"
   },
   {
    "who": "courtier",
@@ -160,7 +198,7 @@
   },
   {
    "who": "N",
-   "say": "So he had iron rods sewn into his clothes, to protect himself.",
+   "say": "He even had iron rods sewn into his clothes, to keep from breaking.",
    "show": {
     "k": "scene",
     "bg": "castle",
@@ -187,15 +225,6 @@
       "color": "#262322"
      }
     ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Sometimes he thought he was made of glass and would not let himself be touched.",
-   "show": {
-    "k": "quote",
-    "text": "Sometimes he thought he was made of glass and would not let himself be touched.",
-    "who": "Pope Pius II, Commentaries, on King Charles VI of France"
    }
   },
   {

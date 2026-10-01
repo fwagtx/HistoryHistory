@@ -1,10 +1,10 @@
 {
  "id": "2026w48-s20",
  "format": "short",
- "date": "2026-11-25",
- "slot": "09:00",
+ "date": "2026-11-26",
+ "slot": "21:00",
  "title": "The King Who Went Broke Building Fairytale Castles",
- "hook": "BROKE FROM CASTLES",
+ "hook": "HE WENT BROKE ON CASTLES",
  "music": "playful",
  "cast": {
   "ludwig": {
@@ -95,7 +95,7 @@
   },
   {
    "who": "N",
-   "say": "So he built dreamy castles that look like opera sets, like Neuschwanstein.",
+   "say": "So he built castles that look like opera sets, like Neuschwanstein.",
    "show": {
     "k": "map",
     "lon": 11.4,
@@ -135,7 +135,7 @@
   },
   {
    "who": "N",
-   "say": "He paid with his own money. By 1886 he owed more than fourteen million marks.",
+   "say": "He paid with his own money, and by 1886 he owed over fourteen million marks.",
    "show": {
     "k": "card",
     "label": "Ludwig's castle debts",
@@ -209,7 +209,7 @@
   },
   {
    "who": "N",
-   "say": "In June 1886, the government declared him insane. Doctors never properly examined him.",
+   "say": "In June 1886, the government declared him insane. Doctors never examined him.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -243,7 +243,38 @@
   },
   {
    "who": "N",
-   "say": "Days later he was dead. Seven weeks after that, his castles opened to tourists. Today about one point four million people a year visit Neuschwanstein.",
+   "say": "Three days later, he was found dead in a lake. Nobody knows how.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "place": "Lake Starnberg · June 13, 1886",
+    "stickers": [
+     {
+      "text": "MYSTERY",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seven weeks later, Neuschwanstein opened to tourists. Now one point four million people visit yearly.",
    "show": {
     "k": "scene",
     "bg": "castle",
