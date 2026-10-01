@@ -1,0 +1,296 @@
+{
+ "id": "2026w45-s02",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "The Sultan Who Banned Coffee",
+ "hook": "THE SULTAN BANNED COFFEE",
+ "music": "playful",
+ "cast": {
+  "murad": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#6A1E1E",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Sultan Murad IV"
+  },
+  "coffeeguy": {
+   "preset": "merchant",
+   "hat": "turban",
+   "hatColor": "#E8E0CC",
+   "color": "#8A5A2A",
+   "stache": "bush",
+   "skin": "olive",
+   "hold": "goblet"
+  }
+ },
+ "voices": {
+  "murad": "am_onyx",
+  "coffeeguy": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One Ottoman sultan made drinking coffee in public a crime that could cost you your life.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "coffeeguy",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "place": "Istanbul · 1633",
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.6,
+      "label": "COFFEE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANNED",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Murad the Fourth became sultan at eleven, and grew up tough and strict.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "murad",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "murad",
+     "text": "Sultan Murad IV"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1633, a giant fire, blamed on a careless smoker, burned a big part of Istanbul.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "coffeeguy",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "fx": [
+     "fire",
+     "smoke"
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.8
+     },
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Murad banned tobacco and shut the coffeehouses, where men gossiped about the government.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "murad",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "CLOSED"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO TOBACCO",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Chroniclers say he prowled the streets at night in disguise, hunting rule-breakers.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "murad",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "smug",
+      "hold": "lantern"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "murad",
+   "say": "Mmm. Is that coffee I smell?",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "murad",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "smug"
+     },
+     {
+      "id": "coffeeguy",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "murad"
+   }
+  },
+  {
+   "who": "coffeeguy",
+   "say": "Coffee? No, sir. This is just very, very dark soup.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "coffeeguy",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "coffeeguy",
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "People caught could be executed. But after Murad died in 1640, the bans faded, and Istanbul went right back to coffee.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "coffeeguy",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "COFFEE"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "murad",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "coffeeguy",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "This sultan prowled Istanbul at night hunting coffee drinkers.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #coffee #historytok #funnyhistory",
+ "youtube_title": "The Sultan Who Banned Coffee #shorts",
+ "tags": [
+  "murad iv",
+  "coffee ban",
+  "ottoman empire",
+  "coffee history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Murad_IV",
+  "https://www.britannica.com/biography/Murad-IV",
+  "https://www.dailysabah.com/arts/portrait/mighty-sovereigns-of-ottoman-throne-sultan-murad-iv",
+  "https://www.ebsco.com/research-starters/history/reign-murad-iv/",
+  "https://en.wikipedia.org/wiki/History_of_coffee"
+ ]
+}

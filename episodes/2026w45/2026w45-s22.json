@@ -1,0 +1,290 @@
+{
+ "id": "2026w45-s22",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "She Fooled the Army, Then Became a Pirate",
+ "hook": "SHE FOOLED THE ARMY",
+ "music": "playful",
+ "cast": {
+  "historian": {
+   "preset": "businessman",
+   "glasses": "round",
+   "hold": "book",
+   "hairColor": "#6A6A6A"
+  },
+  "mary": {
+   "outfit": "pirateshirt",
+   "color": "#E8DCC0",
+   "color2": "#6A4A2A",
+   "hair": "short",
+   "hairColor": "#5A3A1E",
+   "skin": "peach",
+   "hold": "sword",
+   "name": "Mary Read"
+  },
+  "marysoldier": {
+   "outfit": "redcoat",
+   "color": "#A8322A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hair": "short",
+   "hairColor": "#5A3A1E",
+   "skin": "peach",
+   "hold": "rifle",
+   "name": "Mary Read"
+  },
+  "soldier": {
+   "outfit": "redcoat",
+   "color": "#A8322A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "stache": "thin",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "rifle"
+  }
+ },
+ "voices": {
+  "soldier": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Mary Read spent years disguised as a man: soldier, sailor, then pirate.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "marysoldier",
+      "x": 0.4,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "place": "Flanders · around 1700",
+    "tag": {
+     "id": "marysoldier",
+     "text": "Mary Read"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "This comes from a 1724 book with no named sources, so it may be exaggerated.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "historian",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "1724 BOOK"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It says she was born in England and grew up dressed as a boy.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "marysoldier",
+      "x": 0.45,
+      "pose": "walk",
+      "walk": [
+       0.3,
+       0.55
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "As a young adult, she joined the army in Flanders, now part of Belgium.",
+   "show": {
+    "k": "map",
+    "lon": 3.0,
+    "lat": 51.2,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "around 1700",
+    "labels": [
+     [
+      "Flanders",
+      3.4,
+      50.9,
+      0
+     ],
+     [
+      "Breda",
+      4.78,
+      51.59,
+      0
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There, she fell in love with a fellow soldier and told him the truth.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "marysoldier",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Wait. You're a woman?"
+  },
+  {
+   "who": "N",
+   "say": "They married and opened an inn near Breda, called the Three Horseshoes.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "marysoldier",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.5,
+      "text": "THREE HORSESHOES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When her husband died, she dressed as a man again and ended up a Caribbean pirate.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "mary",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.68,
+      "s": 1.0,
+      "flag": "pirate"
+     }
+    ],
+    "place": "Caribbean · 1720"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "mary",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Soldier, innkeeper, pirate. Mary Read did it all in disguise.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #maryread #historytok #womeninhistory",
+ "youtube_title": "She Fooled the Army, Then Became a Pirate #shorts",
+ "tags": [
+  "mary read",
+  "female pirates",
+  "pirates",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mary_Read",
+  "https://www.piratesinfo.com/famous-pirates/mary-read/life-in-a-mans-world-mary-read/",
+  "https://en.wikipedia.org/wiki/A_General_History_of_the_Pyrates",
+  "https://www.worldhistory.org/Anne_Bonny/"
+ ]
+}

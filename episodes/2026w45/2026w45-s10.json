@@ -1,0 +1,327 @@
+{
+ "id": "2026w45-s10",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "The Pirate Who Became an Ottoman Admiral",
+ "hook": "FROM PIRATE TO ADMIRAL",
+ "music": "playful",
+ "cast": {
+  "barbarossa": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#2F4A8A",
+   "beard": "full",
+   "hairColor": "#B8432A",
+   "skin": "tan",
+   "name": "Hayreddin Barbarossa"
+  },
+  "suleiman": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "color2": "#E8C25A",
+   "beard": "goatee",
+   "stache": "thin",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Suleiman the Magnificent"
+  }
+ },
+ "voices": {
+  "barbarossa": "am_eric",
+  "suleiman": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A red-bearded pirate ended up running the whole Ottoman navy.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "place": "Mediterranean Sea · early 1500s",
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hayreddin, called Barbarossa, Italian for Red Beard, was a corsair, a raider who attacked Christian ships and coasts.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "sword"
+     }
+    ],
+    "tag": {
+     "id": "barbarossa",
+     "text": "Hayreddin Barbarossa"
+    },
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He took control of Algiers, in North Africa, then put it under the Ottoman sultan's protection.",
+   "show": {
+    "k": "map",
+    "lon": 8,
+    "lat": 38,
+    "z0": 1.6,
+    "z1": 1.9,
+    "date": "1519",
+    "labels": [
+     [
+      "Algiers",
+      3.06,
+      36.75,
+      0
+     ],
+     [
+      "Istanbul",
+      28.98,
+      41.01,
+      0
+     ],
+     [
+      "Mediterranean Sea",
+      15,
+      35.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      3.06,
+      36.75
+     ],
+     [
+      10,
+      37.5
+     ],
+     [
+      20,
+      36
+     ],
+     [
+      26,
+      38.5
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ],
+    "areas": [
+     [
+      3.06,
+      36.75,
+      1,
+      "rgba(214,48,40,.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1533, Sultan Suleiman made him Grand Admiral of the entire fleet.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.68,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "place": "Istanbul · 1533",
+    "tag": {
+     "id": "suleiman",
+     "text": "Sultan Suleiman"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "suleiman",
+   "say": "I hear you used to be a pirate.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "suleiman"
+   }
+  },
+  {
+   "who": "barbarossa",
+   "say": "A privateer, Your Majesty. That's a pirate with paperwork.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "barbarossa"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1538, at Preveza, in Greece, he beat a bigger Christian fleet.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.25,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Preveza, Greece · 1538",
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.55,
+      "s": 0.7
+     },
+     {
+      "k": "galley",
+      "x": 0.85,
+      "s": 0.6,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VICTORY",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That win helped make the Ottomans the top naval power in the eastern Mediterranean for decades.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history career changes.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "suleiman",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He started as a pirate and ended up running the Ottoman navy.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #barbarossa #historytok #pirates",
+ "youtube_title": "The Pirate Who Became an Ottoman Admiral #shorts",
+ "tags": [
+  "barbarossa",
+  "hayreddin barbarossa",
+  "ottoman navy",
+  "battle of preveza",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Barbarossa",
+  "https://en.wikipedia.org/wiki/Hayreddin_Barbarossa",
+  "https://en.wikipedia.org/wiki/Battle_of_Preveza",
+  "https://en.wikipedia.org/wiki/Regency_of_Algiers"
+ ]
+}

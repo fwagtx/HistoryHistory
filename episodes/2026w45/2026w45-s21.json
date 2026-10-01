@@ -1,0 +1,316 @@
+{
+ "id": "2026w45-s21",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "Two Women Fought While the Pirate Crew Hid",
+ "hook": "THE MEN HID BELOW",
+ "music": "playful",
+ "cast": {
+  "anne": {
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "color2": "#2F3A5A",
+   "hair": "long",
+   "hairColor": "#B5472A",
+   "skin": "peach",
+   "hold": "pistol",
+   "name": "Anne Bonny"
+  },
+  "mary": {
+   "outfit": "pirateshirt",
+   "color": "#E8DCC0",
+   "color2": "#6A4A2A",
+   "hair": "short",
+   "hairColor": "#5A3A1E",
+   "skin": "peach",
+   "hold": "sword",
+   "name": "Mary Read"
+  },
+  "rackham": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#C8902A",
+   "outfit": "pirateshirt",
+   "color": "#D8A040",
+   "color2": "#2F7A4A",
+   "stache": "thin",
+   "beard": false,
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Calico Jack Rackham"
+  }
+ },
+ "voices": {
+  "mary": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When pirate hunters attacked in 1720, two women fought while the men hid below deck.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "angry"
+     },
+     {
+      "id": "mary",
+      "x": 0.62,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Off Jamaica · October 1720",
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Anne Bonny and Mary Read sailed with the pirate Calico Jack Rackham.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.25,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "rackham",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "mary",
+      "x": 0.75,
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "tag": {
+     "id": "anne",
+     "text": "Anne Bonny"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That October, a pirate-hunting ship caught them off Jamaica.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.8,
+      "flag": "pirate"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 1.0,
+      "flag": "uk1606",
+      "move": [
+       0.85,
+       0.65
+      ]
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A 1724 book says most of the men were too drunk to fight.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "rackham",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "scared",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "mary",
+   "say": "Come up and fight like men!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "mary",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "mary",
+    "tag": {
+     "id": "mary",
+     "text": "Mary Read"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "All were captured, and Rackham was sentenced to hang. Anne told him this.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "rackham",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "sad"
+     },
+     {
+      "id": "anne",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "Port Royal, Jamaica · November 1720"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sorry to see him there, but if he had fought like a man, he need not have been hanged like a dog.",
+   "show": {
+    "k": "quote",
+    "text": "Sorry to see him there, but if he had fought like a man, he need not have been hanged like a dog.",
+    "who": "Anne Bonny to Calico Jack, as told in A General History of the Pyrates (1724)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The women said they were pregnant, which put their own executions on hold.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "mary",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ON HOLD",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "mary",
+      "x": 0.7,
+      "pose": "cheer"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Two women kept fighting. The men hid below deck.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #annebonny #historytok #womeninhistory",
+ "youtube_title": "Two Women Fought While the Pirate Crew Hid #shorts",
+ "tags": [
+  "anne bonny",
+  "mary read",
+  "calico jack",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Anne_Bonny",
+  "https://en.wikipedia.org/wiki/Mary_Read",
+  "https://en.wikipedia.org/wiki/Capture_of_John_Rackham",
+  "https://www.worldhistory.org/Anne_Bonny/",
+  "https://www.qaronline.org/blog/2020-04-27/pirate-profile-anne-bonny"
+ ]
+}

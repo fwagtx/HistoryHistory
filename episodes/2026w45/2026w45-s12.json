@@ -1,0 +1,283 @@
+{
+ "id": "2026w45-s12",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "An Ottoman Admiral's 1513 Map of America",
+ "hook": "AN OTTOMAN MAP OF AMERICA",
+ "music": "playful",
+ "cast": {
+  "pirireis": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#2F6FC2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "name": "Piri Reis"
+  },
+  "columbus": {
+   "preset": "columbus",
+   "name": "Christopher Columbus"
+  }
+ },
+ "voices": {
+  "pirireis": "am_liam",
+  "columbus": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1513, an Ottoman sea captain drew one of the oldest surviving maps that shows America.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "pirireis",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "map"
+     }
+    ],
+    "place": "Gallipoli, Ottoman Empire · 1513",
+    "tag": {
+     "id": "pirireis",
+     "text": "Piri Reis"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was Piri Reis. He learned to sail with his uncle, a famous Ottoman corsair.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "pirireis",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "telescope"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He drew his world map on gazelle skin, using about twenty older maps.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "pirireis",
+      "x": 0.6,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.25,
+      "s": 0.8,
+      "text": "GAZELLE SKIN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "20 MAPS",
+      "at": 1.4,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One of those, he wrote on the map, was drawn by Christopher Columbus.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "columbus",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "map"
+     }
+    ],
+    "tag": {
+     "id": "columbus",
+     "text": "Christopher Columbus"
+    },
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "columbus",
+   "say": "Wait. Is that my map?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "columbus",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     },
+     {
+      "id": "pirireis",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "columbus"
+   }
+  },
+  {
+   "who": "pirireis",
+   "say": "Relax. I gave you credit.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "pirireis",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "pirireis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Columbus's own maps of the Americas are lost, so this Ottoman copy may be our best clue to what he drew.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "columbus",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LOST",
+      "at": 1.2,
+      "color": "#5A5A5A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Only about a third of the map survives. It was rediscovered in 1929, in Istanbul's Topkapı Palace.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "pirireis",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Topkapı Palace, Istanbul · 1929",
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "1513"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history hiding in plain sight.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pirireis",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "columbus",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "An Ottoman admiral's 1513 map may preserve a lost Columbus map.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #maps #historytok #columbus",
+ "youtube_title": "An Ottoman Admiral's 1513 Map of America #shorts",
+ "tags": [
+  "piri reis map",
+  "piri reis",
+  "columbus map",
+  "ottoman empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Piri_Reis_map",
+  "https://en.wikipedia.org/wiki/Piri_Reis",
+  "https://u.osu.edu/wagner.19/maps-to-know/1513-piri-reis/",
+  "https://www.1001inventions.com/piri-reis-map/",
+  "https://www.britannica.com/biography/Piri-Reis"
+ ]
+}

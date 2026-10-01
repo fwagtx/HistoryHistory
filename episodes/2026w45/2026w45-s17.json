@@ -1,0 +1,254 @@
+{
+ "id": "2026w45-s17",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "Pirates Had Injury Insurance",
+ "hook": "PIRATES HAD INSURANCE",
+ "music": "playful",
+ "cast": {
+  "exquemelin": {
+   "preset": "physician",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hold": "book",
+   "hair": "long",
+   "hairColor": "#5A3A1E",
+   "name": "Alexandre Exquemelin"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan"
+  },
+  "pirate2": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#2F6FC2",
+   "outfit": "pirateshirt",
+   "color": "#D8C8A0",
+   "stache": "bush",
+   "hairColor": "#6A4A2A",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "pirate": "am_puck",
+  "pirate2": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Pirates had injury insurance, long before most workers did.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Caribbean · 1600s–1700s",
+    "stickers": [
+     {
+      "text": "INSURANCE?!",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many pirate crews signed written rules, called articles, before setting sail.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.68,
+      "s": 0.6,
+      "text": "ARTICLES"
+     },
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Alexandre Exquemelin, a surgeon who sailed with buccaneers in the 1660s, wrote down their price list.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "exquemelin",
+      "x": 0.4,
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "exquemelin",
+     "text": "Alexandre Exquemelin, surgeon"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Losing your right arm paid six hundred pieces of eight, which were Spanish silver coins.",
+   "show": {
+    "k": "card",
+    "label": "Lost right arm",
+    "big": "600",
+    "sub": "pieces of eight"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Your left arm? Five hundred.",
+   "show": {
+    "k": "card",
+    "label": "Lost left arm",
+    "big": "500",
+    "sub": "pieces of eight"
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "So my left arm is worth less?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate2",
+   "say": "Most people are right-handed, mate."
+  },
+  {
+   "who": "N",
+   "say": "Later, Black Bart's crew paid eight hundred for any lost limb, from a shared fund.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.6,
+      "s": 0.5
+     },
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Brutal job. Surprisingly good benefits. Follow for 5 stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.7,
+      "pose": "cheer"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Lose an arm, get paid. Pirate crews had a price list.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #piratecode #historytok #funnyhistory",
+ "youtube_title": "Pirates Had Injury Insurance #shorts",
+ "tags": [
+  "pirate code",
+  "pirate articles",
+  "pirates",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pirate_code",
+  "https://en.wikipedia.org/wiki/Alexandre_Exquemelin",
+  "https://piratesurgeon.com/pages/surgeon_pages/surgeon_history4.htm",
+  "https://www.loc.gov/exhibits/exploring-the-early-americas/interactives/buccaneers-of-america/",
+  "https://en.wikipedia.org/wiki/Bartholomew_Roberts"
+ ]
+}

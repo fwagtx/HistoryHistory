@@ -1,0 +1,310 @@
+{
+ "id": "2026w45-s24",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "This Pirate Became an Admiral",
+ "hook": "PIRATE TO ADMIRAL",
+ "music": "playful",
+ "cast": {
+  "barbarossa": {
+   "hat": "turban",
+   "hatColor": "#EFEFEF",
+   "outfit": "saracen",
+   "color": "#2F4A8A",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#B5472A",
+   "skin": "olive",
+   "hold": "sword",
+   "name": "Hayreddin Barbarossa"
+  },
+  "oruc": {
+   "hat": "turban",
+   "hatColor": "#A8322A",
+   "outfit": "saracen",
+   "color": "#6A3A2A",
+   "beard": "full",
+   "hairColor": "#B5472A",
+   "skin": "olive",
+   "hold": "sword",
+   "name": "Oruç Barbarossa"
+  },
+  "suleiman": {
+   "preset": "sultan",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "name": "Sultan Suleiman the Magnificent"
+  }
+ },
+ "voices": {
+  "barbarossa": "am_eric",
+  "suleiman": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A pirate nicknamed Redbeard ended up running the whole Ottoman navy.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "ottoman"
+     }
+    ],
+    "place": "Mediterranean Sea · 1500s",
+    "stickers": [
+     {
+      "text": "REDBEARD",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hayreddin and his older brother Oruç were corsairs, sea raiders, from the Greek island of Lesbos.",
+   "show": {
+    "k": "map",
+    "lon": 14.0,
+    "lat": 38.5,
+    "z0": 1.1,
+    "z1": 1.3,
+    "date": "early 1500s",
+    "labels": [
+     [
+      "Lesbos",
+      26.3,
+      39.2,
+      0
+     ],
+     [
+      "Algiers",
+      3.06,
+      36.75,
+      0
+     ],
+     [
+      "SPAIN",
+      -3.7,
+      40.2,
+      0
+     ],
+     [
+      "ITALY",
+      12.5,
+      42.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      26.3,
+      39.2
+     ],
+     [
+      22.0,
+      36.0
+     ],
+     [
+      15.0,
+      36.5
+     ],
+     [
+      9.0,
+      37.5
+     ],
+     [
+      3.06,
+      36.75
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Europeans called them both Barbarossa.",
+   "show": {
+    "k": "card",
+    "label": "Barbarossa",
+    "big": "REDBEARD",
+    "sub": "in Italian",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1516, the brothers captured Algiers, in North Africa, and made it their base.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "oruc",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.62,
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "ottoman"
+     }
+    ],
+    "place": "Algiers · 1516",
+    "tag": {
+     "id": "barbarossa",
+     "text": "Hayreddin Barbarossa"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hayreddin raided Spain and Italy so often that Sultan Suleiman made him grand admiral in 1533.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.68,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "suleiman",
+     "text": "Sultan Suleiman"
+    }
+   }
+  },
+  {
+   "who": "suleiman",
+   "say": "Congratulations. The navy is yours."
+  },
+  {
+   "who": "barbarossa",
+   "say": "All of it? Even the big ships?"
+  },
+  {
+   "who": "N",
+   "say": "In 1538, at Preveza, off Greece, a much bigger Christian fleet came for him. Barbarossa won.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.3,
+      "s": 0.8,
+      "flag": "ottoman",
+      "move": [
+       0.15,
+       0.4
+      ]
+     },
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.8,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Preveza, Greece · 1538",
+    "stickers": [
+     {
+      "text": "VICTORY",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today his statue stands by the water in Istanbul. Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "oruc",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "From sea raider to grand admiral of an empire.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #barbarossa #ottomanempire #historytok",
+ "youtube_title": "This Pirate Became an Admiral #shorts",
+ "tags": [
+  "barbarossa",
+  "hayreddin barbarossa",
+  "ottoman navy",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hayreddin_Barbarossa",
+  "https://en.wikipedia.org/wiki/Battle_of_Preveza",
+  "https://en.wikipedia.org/wiki/Capture_of_Algiers_(1516)",
+  "https://www.thecollector.com/barbarossa-ottoman-corsair-ruled-mediterranean/"
+ ]
+}

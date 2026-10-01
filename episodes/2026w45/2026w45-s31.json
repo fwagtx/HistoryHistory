@@ -1,0 +1,295 @@
+{
+ "id": "2026w45-s31",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "Pompey Stole Credit for Beating Spartacus",
+ "hook": "HE STOLE THE CREDIT",
+ "music": "playful",
+ "cast": {
+  "crassus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hold": "moneybag",
+   "name": "Marcus Licinius Crassus"
+  },
+  "crassusgen": {
+   "skin": "light",
+   "hat": "roman",
+   "hatColor": "#B08A3A",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "hold": "sword",
+   "name": "Marcus Licinius Crassus"
+  },
+  "pompey": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#5A3A22",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A7A",
+   "name": "Pompey the Great"
+  }
+ },
+ "voices": {
+  "crassus": "bm_george",
+  "crassusgen": "bm_george",
+  "pompey": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Crassus beat Spartacus. Then Pompey showed up and took the credit.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Southern Italy · 71 BC",
+    "tag": {
+     "id": "crassusgen",
+     "text": "Marcus Crassus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 71 BC, Crassus, Rome's richest man, crushed Spartacus, a gladiator leading a huge slave revolt."
+  },
+  {
+   "who": "N",
+   "say": "Pompey, a famous young general, was marching home from a war in Spain.",
+   "show": {
+    "k": "map",
+    "lon": 5.0,
+    "lat": 41.5,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "71 BC",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Spain",
+      -3.7,
+      40.4,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -3.7,
+      40.4
+     ],
+     [
+      1.0,
+      41.5
+     ],
+     [
+      5.0,
+      43.3
+     ],
+     [
+      8.9,
+      44.4
+     ],
+     [
+      11.0,
+      43.5
+     ],
+     [
+      12.48,
+      41.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His men wiped out about five thousand rebels who fled the battle.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pompey",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.78,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "pompey",
+     "text": "Pompey, Roman general"
+    }
+   }
+  },
+  {
+   "who": "pompey",
+   "say": "Dear Senate: Crassus won a battle. But I pulled the war up by the roots!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "pompey",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "MY VICTORY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "crassus",
+   "say": "You caught the runaways!",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.45,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "cam": "close",
+    "focus": "crassus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch reports that letter. Pompey then got a triumph, Rome's biggest parade, for Spain. Crassus got a smaller one, an ovation.",
+   "show": {
+    "k": "compare",
+    "bg": "rome",
+    "left": {
+     "label": "Pompey: TRIUMPH",
+     "cast": [
+      {
+       "id": "pompey",
+       "mood": "happy",
+       "pose": "cheer"
+      }
+     ]
+    },
+    "right": {
+     "label": "Crassus: OVATION",
+     "cast": [
+      {
+       "id": "crassus",
+       "mood": "sad",
+       "pose": "shrug"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome's richest man won the war, but couldn't buy the spotlight."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "cross"
+     },
+     {
+      "id": "pompey",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Crassus beat Spartacus. Pompey wrote the press release.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pompey #crassus #spartacus #historytok",
+ "youtube_title": "Pompey Stole Credit for Beating Spartacus #shorts",
+ "tags": [
+  "pompey",
+  "crassus",
+  "spartacus",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038",
+  "https://www.livius.org/sources/content/plutarch/plutarchs-crassus/plutarch-on-spartacus/",
+  "https://classics.mit.edu/Plutarch/pompey.html",
+  "https://en.wikipedia.org/wiki/Ovation",
+  "https://en.wikipedia.org/wiki/Third_Servile_War"
+ ]
+}

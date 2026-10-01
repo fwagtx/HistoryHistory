@@ -1,0 +1,281 @@
+{
+ "id": "2026w45-s28",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "Rome's Richest Man Bailed Out Julius Caesar",
+ "hook": "HE BAILED OUT CAESAR",
+ "music": "playful",
+ "cast": {
+  "crassus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hold": "moneybag",
+   "name": "Marcus Licinius Crassus"
+  },
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "lender": {
+   "preset": "merchant",
+   "skin": "olive",
+   "outfit": "tunic",
+   "color": "#6A5A3A",
+   "stache": "bush",
+   "hold": "scroll",
+   "name": "Caesar's lender"
+  }
+ },
+ "voices": {
+  "crassus": "bm_george",
+  "caesar": "am_eric",
+  "lender": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Before he ruled Rome, Julius Caesar was drowning in debt. Rome's richest man bailed him out.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "DEBTS"
+     }
+    ],
+    "place": "Rome · 61 BC",
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar had spent fortunes on shows and gifts to win votes.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "chariot",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 61 BC, he was supposed to leave Rome to govern part of Spain.",
+   "show": {
+    "k": "map",
+    "lon": 2.0,
+    "lat": 40.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "61 BC",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Spain",
+      -4.0,
+      39.5,
+      14
+     ]
+    ],
+    "route": [
+     [
+      12.48,
+      41.9
+     ],
+     [
+      8.0,
+      41.5
+     ],
+     [
+      3.0,
+      40.5
+     ],
+     [
+      -1.0,
+      39.8
+     ]
+    ]
+   }
+  },
+  {
+   "who": "lender",
+   "say": "Not so fast. Nobody leaves until we get paid!",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "lender",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "caesar",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Crassus, my friend. Could you help?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "crassus",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "crassus",
+     "text": "Marcus Crassus, richest man in Rome"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch, a Greek writer, says Crassus guaranteed eight hundred and thirty talents of Caesar's debts, about twenty tonnes of silver.",
+   "show": {
+    "k": "card",
+    "label": "Caesar's debts Crassus guaranteed",
+    "big": "830 talents",
+    "sub": "about 20 tonnes of silver"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The lenders backed off, and Caesar left for Spain."
+  },
+  {
+   "who": "N",
+   "say": "The next year, they teamed up with Pompey to run Rome. That loan helped launch the most famous Roman ever.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "crassus",
+      "x": 0.75,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's richest people.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "moneybag"
+     },
+     {
+      "id": "caesar",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Julius Caesar was broke. Rome's richest man covered his debts.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #crassus #ancientrome #historytok",
+ "youtube_title": "Rome's Richest Man Bailed Out Julius Caesar #shorts",
+ "tags": [
+  "julius caesar",
+  "crassus",
+  "caesar debts",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0244%3Achapter%3D11",
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0132%3Alife%3Djul.%3Achapter%3D18",
+  "https://en.wikipedia.org/wiki/Marcus_Licinius_Crassus",
+  "https://en.wikipedia.org/wiki/First_Triumvirate"
+ ]
+}

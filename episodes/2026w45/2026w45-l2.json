@@ -1,0 +1,3222 @@
+{
+ "id": "2026w45-l2",
+ "format": "long",
+ "date": "2026-11-04",
+ "title": "The Craziest Pirates in History",
+ "music": "playful",
+ "cast": {
+  "anne": {
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "color2": "#2F3A5A",
+   "hair": "long",
+   "hairColor": "#B5472A",
+   "skin": "peach",
+   "hold": "pistol",
+   "name": "Anne Bonny"
+  },
+  "barbarossa": {
+   "hat": "turban",
+   "hatColor": "#EFEFEF",
+   "outfit": "saracen",
+   "color": "#2F4A8A",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#B5472A",
+   "skin": "olive",
+   "hold": "sword",
+   "name": "Hayreddin Barbarossa"
+  },
+  "bart": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#8A1E1A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Bartholomew Roberts"
+  },
+  "bingham": {
+   "preset": "noble",
+   "hat": "morion",
+   "outfit": "armor",
+   "beard": "goatee",
+   "stache": "thin",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Sir Richard Bingham"
+  },
+  "blackbeard": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#2A2A2A",
+   "color2": "#A8322A",
+   "beard": "long",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Blackbeard (Edward Teach)"
+  },
+  "bonnet": {
+   "preset": "noble",
+   "hat": "tricorn",
+   "hatColor": "#2F3A5A",
+   "outfit": "coat",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "hair": "long",
+   "hairColor": "#EFEFEF",
+   "skin": "peach",
+   "name": "Stede Bonnet"
+  },
+  "charles2": {
+   "preset": "king",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "stache": "thin",
+   "skin": "light",
+   "name": "King Charles II"
+  },
+  "chingshih": {
+   "hat": "headscarf",
+   "hatColor": "#A8322A",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Zheng Yi Sao (Ching Shih)"
+  },
+  "elizabeth": {
+   "preset": "elizabeth1",
+   "name": "Queen Elizabeth I"
+  },
+  "governor": {
+   "preset": "noble",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2F3A5A",
+   "hair": "long",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Governor Robert Johnson"
+  },
+  "grace": {
+   "outfit": "dress",
+   "color": "#2F7A4A",
+   "color2": "#C8902A",
+   "hair": "short",
+   "hairColor": "#6A3A1E",
+   "skin": "peach",
+   "hold": "sword",
+   "name": "Grace O'Malley"
+  },
+  "mary": {
+   "outfit": "pirateshirt",
+   "color": "#E8DCC0",
+   "color2": "#6A4A2A",
+   "hair": "short",
+   "hairColor": "#5A3A1E",
+   "skin": "peach",
+   "hold": "sword",
+   "name": "Mary Read"
+  },
+  "marysoldier": {
+   "outfit": "redcoat",
+   "color": "#A8322A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hair": "short",
+   "hairColor": "#5A3A1E",
+   "skin": "peach",
+   "hold": "rifle",
+   "name": "Mary Read"
+  },
+  "maynard": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2A3350",
+   "skin": "light",
+   "name": "Lieutenant Robert Maynard"
+  },
+  "merchant": {
+   "preset": "merchant",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A"
+  },
+  "morgan": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#A8322A",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Henry Morgan"
+  },
+  "oruc": {
+   "hat": "turban",
+   "hatColor": "#A8322A",
+   "outfit": "saracen",
+   "color": "#6A3A2A",
+   "beard": "full",
+   "hairColor": "#B5472A",
+   "skin": "olive",
+   "hold": "sword",
+   "name": "Oruç Barbarossa"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan"
+  },
+  "pirate2": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#2F6FC2",
+   "outfit": "pirateshirt",
+   "color": "#D8C8A0",
+   "stache": "bush",
+   "hairColor": "#6A4A2A",
+   "skin": "light"
+  },
+  "rackham": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#C8902A",
+   "outfit": "pirateshirt",
+   "color": "#D8A040",
+   "color2": "#2F7A4A",
+   "stache": "thin",
+   "beard": false,
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Calico Jack Rackham"
+  },
+  "sailor": {
+   "preset": "sailor"
+  },
+  "suleiman": {
+   "preset": "sultan",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "name": "Sultan Suleiman the Magnificent"
+  }
+ },
+ "voices": {
+  "anne": "af_bella",
+  "barbarossa": "am_eric",
+  "bart": "bm_daniel",
+  "blackbeard": "am_fenrir",
+  "bonnet": "bm_lewis",
+  "charles2": "bm_george",
+  "elizabeth": "bf_alice",
+  "governor": "bm_george",
+  "grace": "bf_emma",
+  "mary": "af_heart",
+  "morgan": "am_echo",
+  "pirate": "am_puck",
+  "suleiman": "bm_george"
+ },
+ "description": "A rich man who bought a pirate ship with zero sailing experience, an Irish pirate queen who talked her way past Elizabeth I, a redbeard who became an admiral, two women who out-fought their crew, a tea-drinking captain with injury insurance, a pirate who got knighted, and Blackbeard's smoking hat: seven of the craziest pirates in history, counted down from seven to one. Every story is real, and we flag the legends when we tell them. Chapters are added automatically.\n\n#history #pirates #blackbeard #funnyhistory #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "ARRR?!",
+  "bg": "sea",
+  "faces": [
+   {
+    "id": "blackbeard",
+    "mood": "shout"
+   },
+   {
+    "id": "anne",
+    "mood": "smug"
+   }
+  ],
+  "grade": "warm"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In May 1718, four pirate ships parked right outside Charleston, one of the richest ports in the American colonies.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.25,
+      "s": 0.8,
+      "flag": "pirate"
+     },
+     {
+      "k": "sailship",
+      "x": 0.55,
+      "s": 0.7,
+      "flag": "pirate"
+     },
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "place": "Charleston, South Carolina · May 1718",
+    "stickers": [
+     {
+      "text": "BLOCKADE",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their captain was Blackbeard, the most feared pirate of his day.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "tag": {
+     "id": "blackbeard",
+     "text": "Blackbeard"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He grabbed ships, took hostages, and sent the town's leaders a ransom demand.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "governor",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "shock",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "uk1606"
+     }
+    ]
+   }
+  },
+  {
+   "who": "governor",
+   "say": "What does he want? Gold? Silver?",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "governor",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "governor"
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Medicine. A whole chest of it.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "blackbeard",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.5,
+      "label": "MEDICINE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And he got it. That's not even the strangest thing a pirate ever did."
+  },
+  {
+   "who": "N",
+   "say": "Today we're counting down seven of the craziest pirates in history. Blackbeard is number one.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.12,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "grace",
+      "x": 0.27,
+      "pose": "hips"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.42,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "anne",
+      "x": 0.57,
+      "pose": "point"
+     },
+     {
+      "id": "bart",
+      "x": 0.72,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "blackbeard",
+      "x": 0.88,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": []
+   }
+  },
+  {
+   "show": {
+    "k": "title",
+    "text": "The Craziest Pirates in History",
+    "sub": "Seven pirates. All real. Mostly ridiculous."
+   },
+   "hold": 2.5
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "The Gentleman Who Bought a Pirate Ship"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number seven: Stede Bonnet, the man who bought his way into piracy.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.8
+     }
+    ],
+    "place": "Barbados, Caribbean · 1717",
+    "tag": {
+     "id": "bonnet",
+     "text": "Stede Bonnet"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bonnet was a rich landowner on Barbados, a British island in the Caribbean, with a sugar plantation, a wife and kids."
+  },
+  {
+   "who": "N",
+   "say": "What he didn't have was any sailing experience. None at all.",
+   "show": {
+    "k": "card",
+    "label": "Stede Bonnet's sailing experience",
+    "big": "0",
+    "sub": "years. Zero. Nothing.",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1717 he decided to become a pirate anyway. Nobody really knows why.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "bonnet",
+    "stickers": [
+     {
+      "text": "WHY?!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most pirates stole their ships. Bonnet paid a shipyard to build one, and he named it the Revenge.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.25,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 1.0,
+      "flag": "pirate",
+      "label": "REVENGE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BOUGHT, NOT STOLEN",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he hired about seventy men and did something almost no pirate did: he paid them wages.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.3,
+      "pose": "present",
+      "hold": "moneybag"
+     },
+     {
+      "id": "pirate",
+      "x": 0.6,
+      "pose": "think"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.8,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "~70 MEN",
+      "at": 1.2,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "bonnet",
+   "say": "Gentlemen, you will receive a regular salary.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug",
+      "hold": "moneybag"
+     },
+     {
+      "id": "pirate",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "bonnet"
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "A salary? For piracy?"
+  },
+  {
+   "who": "N",
+   "say": "He captured a few ships along the American coast. Then, in the Bahamas, he met Blackbeard.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.8,
+      "flag": "pirate",
+      "label": "Revenge"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 1.0,
+      "flag": "pirate",
+      "label": "Blackbeard",
+      "move": [
+       0.9,
+       0.7
+      ]
+     }
+    ],
+    "place": "Nassau, Bahamas · late 1717"
+   }
+  },
+  {
+   "who": "blackbeard",
+   "say": "You don't really know how to sail, do you?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.35,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "bonnet",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "bonnet",
+   "say": "I have a very nice ship."
+  },
+  {
+   "who": "N",
+   "say": "Bonnet was wounded and his crew was restless, so Blackbeard took over the Revenge. Bonnet stayed aboard as a guest.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.5,
+      "label": "GUEST"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GUEST",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was caught in 1718 and hanged in Charleston. Turns out money can buy a pirate ship, but not pirate skills.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "The Pirate Queen Who Met the Queen"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number six: Grace O'Malley, the pirate queen of Ireland.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "grace",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ],
+    "place": "Clew Bay, Ireland · 1500s",
+    "tag": {
+     "id": "grace",
+     "text": "Grace O'Malley"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was born around 1530 into the O'Malleys, a clan that ruled a stretch of coast in the west of Ireland.",
+   "show": {
+    "k": "map",
+    "lon": -7.5,
+    "lat": 53.3,
+    "z0": 2.0,
+    "z1": 2.6,
+    "date": "around 1530",
+    "labels": [
+     [
+      "Clew Bay",
+      -9.75,
+      53.8,
+      0
+     ],
+     [
+      "IRELAND",
+      -7.8,
+      53.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -9.7,
+      53.8,
+      0.5,
+      "rgba(31,138,74,0.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her family lived off the sea: fishing, trading, charging passing ships for safe passage, and sometimes robbing them.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.35,
+      "s": 0.8,
+      "move": [
+       0.2,
+       0.45
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PAY UP",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Grace commanded her own ships for decades, which was almost unheard of for a woman back then.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "grace",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "pirate",
+      "x": 0.68,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By the 1590s, England was tightening its grip on Ireland, and an English governor, Sir Richard Bingham, captured her son and her half-brother.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "bingham",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ],
+    "tag": {
+     "id": "bingham",
+     "text": "Sir Richard Bingham"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1593, in her sixties, Grace sailed to England to ask Queen Elizabeth the First herself.",
+   "show": {
+    "k": "map",
+    "lon": -4.5,
+    "lat": 52.3,
+    "z0": 1.5,
+    "z1": 1.9,
+    "date": "1593",
+    "labels": [
+     [
+      "Clew Bay",
+      -9.75,
+      53.8,
+      0
+     ],
+     [
+      "Greenwich",
+      0.0,
+      51.48,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -10.0,
+      53.8
+     ],
+     [
+      -10.6,
+      52.0
+     ],
+     [
+      -8.0,
+      51.2
+     ],
+     [
+      -5.5,
+      50.0
+     ],
+     [
+      -2.0,
+      50.5
+     ],
+     [
+      1.4,
+      51.2
+     ],
+     [
+      0.0,
+      51.48
+     ]
+    ]
+   }
+  },
+  {
+   "who": "grace",
+   "say": "Your governor took my son. I want him back.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "grace",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "elizabeth",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Greenwich Palace, England · 1593",
+    "tag": {
+     "id": "elizabeth",
+     "text": "Queen Elizabeth I"
+    }
+   }
+  },
+  {
+   "who": "elizabeth",
+   "say": "And what does England get?"
+  },
+  {
+   "who": "grace",
+   "say": "My ships will fight your enemies.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "grace",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "smug"
+     },
+     {
+      "id": "elizabeth",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "objects": [],
+    "cam": "close",
+    "focus": "grace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legend says they spoke in Latin, and that Grace blew her nose on a royal handkerchief and tossed it in the fire. That's probably just a good story.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "grace",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "elizabeth",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the result is in the records: Elizabeth ordered her family released. A pirate walked into her enemy's palace and walked out with a win.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "elizabeth",
+      "x": 0.35,
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "RELEASE THEM"
+     },
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "Redbeard, the Pirate Admiral"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number five: Barbarossa, the pirate who ended up running a navy.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "ottoman"
+     }
+    ],
+    "place": "Mediterranean Sea · 1500s",
+    "tag": {
+     "id": "barbarossa",
+     "text": "Hayreddin Barbarossa"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the early 1500s, two brothers from Lesbos, a Greek island ruled by the Ottomans, became corsairs, sea raiders of the Mediterranean.",
+   "show": {
+    "k": "map",
+    "lon": 14.0,
+    "lat": 38.5,
+    "z0": 1.1,
+    "z1": 1.3,
+    "date": "early 1500s",
+    "labels": [
+     [
+      "Lesbos",
+      26.3,
+      39.2,
+      0
+     ],
+     [
+      "Algiers",
+      3.06,
+      36.75,
+      0
+     ],
+     [
+      "SPAIN",
+      -3.7,
+      40.2,
+      0
+     ],
+     [
+      "ITALY",
+      12.5,
+      42.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      26.3,
+      39.2
+     ],
+     [
+      22.0,
+      36.0
+     ],
+     [
+      15.0,
+      36.5
+     ],
+     [
+      9.0,
+      37.5
+     ],
+     [
+      3.06,
+      36.75
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They fought for the Ottoman Empire, the great Turkish empire based in Istanbul, against Spain and its allies.",
+   "show": {
+    "k": "flag",
+    "flag": "ottoman",
+    "label": "THE OTTOMAN EMPIRE",
+    "sub": "1500s",
+    "bg": "islamic"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Europeans called them both Barbarossa. That's Italian for Redbeard.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "oruc",
+      "x": 0.35,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.65,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REDBEARD",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "oruc",
+     "text": "Oruç, the older brother"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1516, they captured Algiers, in North Africa, and turned it into their base.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "oruc",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.65,
+      "s": 0.7,
+      "flag": "ottoman"
+     },
+     {
+      "k": "galley",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Algiers, North Africa · 1516"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Oruç was killed fighting the Spanish in 1518. His younger brother, Hayreddin, took over, and took the nickname too.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He raided the coasts of Spain and Italy so often that in 1533 Sultan Suleiman made him grand admiral of the whole Ottoman navy.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "suleiman",
+     "text": "Sultan Suleiman the Magnificent"
+    },
+    "stickers": [
+     {
+      "text": "GRAND ADMIRAL",
+      "at": 1.6,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "suleiman",
+   "say": "Congratulations. The navy is yours."
+  },
+  {
+   "who": "barbarossa",
+   "say": "All of it? Even the big ships?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "barbarossa",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "barbarossa"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1538, at Preveza, off the coast of Greece, a huge Christian fleet came to finish him.",
+   "show": {
+    "k": "map",
+    "lon": 20.7,
+    "lat": 38.9,
+    "z0": 2.8,
+    "z1": 3.6,
+    "date": "28 September 1538",
+    "labels": [
+     [
+      "Preveza",
+      20.75,
+      38.96,
+      0
+     ],
+     [
+      "GREECE",
+      21.8,
+      39.6,
+      0
+     ],
+     [
+      "Ionian Sea",
+      19.6,
+      38.4,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      20.6,
+      38.9,
+      0.3,
+      "rgba(168,50,42,0.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Barbarossa had about one hundred twenty galleys. The other side had roughly three hundred ships.",
+   "show": {
+    "k": "card",
+    "label": "The Battle of Preveza",
+    "big": "122 vs ~300",
+    "sub": "Barbarossa's galleys vs the Holy League"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He still won. Today, a former pirate has a giant statue by the water in Istanbul.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.3,
+      "s": 0.8,
+      "flag": "ottoman",
+      "move": [
+       0.15,
+       0.4
+      ]
+     },
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.7,
+      "label": "Barbarossa"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "The Two Who Didn't Hide"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number four: Anne Bonny and Mary Read, two women who fought harder than their whole crew.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.35,
+      "pose": "aim",
+      "mood": "angry"
+     },
+     {
+      "id": "mary",
+      "x": 0.65,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ],
+    "place": "Caribbean · 1720",
+    "tag": {
+     "id": "anne",
+     "text": "Anne Bonny"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Anne was born in Ireland and grew up in South Carolina. She moved to the Bahamas and joined the pirate Calico Jack Rackham.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "rackham",
+      "x": 0.65,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.1,
+      "s": 0.8
+     },
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ],
+    "tag": {
+     "id": "rackham",
+     "text": "Calico Jack Rackham"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mary was born in England. The earliest account says she spent years dressed as a man, and even served as a soldier in Flanders.",
+   "show": {
+    "k": "map",
+    "lon": 2.0,
+    "lat": 51.4,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "around 1700",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      0
+     ],
+     [
+      "Flanders",
+      3.4,
+      50.9,
+      0
+     ],
+     [
+      "Breda",
+      4.78,
+      51.59,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -0.13,
+      51.5
+     ],
+     [
+      1.4,
+      51.1
+     ],
+     [
+      3.2,
+      51.2
+     ],
+     [
+      4.0,
+      51.0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That account comes from a 1724 book, A General History of the Pyrates, and its author never named his sources.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "marysoldier",
+      "x": 0.4,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "1724 BOOK"
+     }
+    ],
+    "tag": {
+     "id": "marysoldier",
+     "text": "Mary Read"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In October 1720, a pirate-hunting ship caught Rackham's crew off Jamaica.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.8,
+      "flag": "pirate"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.9,
+      "flag": "uk1606",
+      "move": [
+       0.9,
+       0.65
+      ]
+     }
+    ],
+    "place": "Off Jamaica · October 1720",
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to that book, most of the men were drunk and hid below deck, while Anne and Mary kept fighting.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "angry"
+     },
+     {
+      "id": "mary",
+      "x": 0.55,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "mary",
+   "say": "Come up and fight like men!"
+  },
+  {
+   "who": "anne",
+   "say": "Cowards, the lot of them!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "cannon",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "anne"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were captured anyway. Rackham was sentenced to hang, and the book says Anne visited him one last time.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "rackham",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "sad"
+     },
+     {
+      "id": "anne",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "Port Royal, Jamaica · November 1720"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was sorry to see him there, but if he had fought like a man, he need not have been hanged like a dog.",
+   "show": {
+    "k": "quote",
+    "text": "Sorry to see him there, but if he had fought like a man, he need not have been hanged like a dog.",
+    "who": "Anne Bonny to Calico Jack, as told in A General History of the Pyrates (1724)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Both women were sentenced too, but both said they were pregnant, so their executions were put on hold.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "mary",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ON HOLD",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mary died of a fever in prison. Anne simply vanishes from the records. Nobody knows what happened to her.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.45,
+      "pose": "walk",
+      "walk": [
+       0.4,
+       0.8
+      ],
+      "exit": "right"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "???",
+      "at": 1.5,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "The Pirate Who Drank Tea"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number three: Bartholomew Roberts, better known as Black Bart, the most successful pirate of the age.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "bart",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "pirate"
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Atlantic Ocean · 1720",
+    "tag": {
+     "id": "bart",
+     "text": "Bartholomew \"Black Bart\" Roberts"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was born in Wales around 1682, and spent years as an ordinary, honest sailor.",
+   "show": {
+    "k": "map",
+    "lon": -3.8,
+    "lat": 52.2,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "around 1682",
+    "labels": [
+     [
+      "WALES",
+      -3.6,
+      52.4,
+      0
+     ],
+     [
+      "Pembrokeshire",
+      -4.9,
+      51.9,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -4.9,
+      51.9,
+      0.3,
+      "rgba(31,138,74,0.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1719, pirates captured his ship off West Africa, and he joined them. Weeks later, their captain was killed, and the crew voted Roberts in.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.55,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "bart",
+      "x": 0.8,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "ELECTED",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Yes, pirates voted. Many crews elected their captains, and could fire them too."
+  },
+  {
+   "who": "N",
+   "say": "In about three years, Roberts captured more than four hundred ships, from Canada to Brazil to West Africa.",
+   "show": {
+    "k": "card",
+    "label": "Ships captured by Black Bart",
+    "big": "400+",
+    "sub": "in about three years",
+    "cast": [
+     {
+      "id": "bart",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wasn't a typical pirate. He wore fine clothes, and by many accounts, he drank tea instead of rum.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "bart",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "goblet"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.72,
+      "pose": "shrug",
+      "mood": "shock",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TEA, NOT RUM",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His crew signed strict written rules, called articles.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "bart",
+      "x": 0.35,
+      "pose": "point",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.7,
+      "text": "ARTICLES"
+     },
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "bart",
+   "say": "Lights out at eight o'clock. And no gambling for money.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "bart",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.68,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "bart"
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Is this a pirate ship or a boarding school?"
+  },
+  {
+   "who": "N",
+   "say": "The rules even paid out if you got hurt. Lose a limb, and you got eight hundred pieces of eight, which were Spanish silver coins.",
+   "show": {
+    "k": "card",
+    "label": "Payout for losing a limb",
+    "big": "800",
+    "sub": "pieces of eight, from the shared fund"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's basically injury insurance, long before most workers had anything like it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to the 1724 book, his motto was this.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "bart",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A merry life and a short one shall be my motto.",
+   "show": {
+    "k": "quote",
+    "text": "A merry life and a short one shall be my motto.",
+    "who": "Bartholomew Roberts, in A General History of the Pyrates (1724)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It came true. In 1722, a Royal Navy warship caught him off Africa, and he was killed in the battle.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.8,
+      "flag": "pirate"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 1.0,
+      "flag": "uk1606",
+      "label": "HMS Swallow",
+      "move": [
+       0.9,
+       0.65
+      ]
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Cape Lopez, West Africa · February 1722"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His crew buried him at sea in his finest clothes, just as he'd asked."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "The Pirate Who Got Knighted"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number two: Henry Morgan, the pirate who got a knighthood.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.8,
+      "flag": "uk1606"
+     },
+     {
+      "k": "palm",
+      "x": 0.1,
+      "s": 0.7
+     }
+    ],
+    "place": "Port Royal, Jamaica · 1660s",
+    "tag": {
+     "id": "morgan",
+     "text": "Henry Morgan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Morgan was another Welshman. In the 1660s, he was in Jamaica, an English colony in the Caribbean."
+  },
+  {
+   "who": "N",
+   "say": "England's big rival there was Spain, which owned the richest colonies in the Americas.",
+   "show": {
+    "k": "flag",
+    "flag": "spain_burgundy",
+    "label": "THE SPANISH EMPIRE",
+    "sub": "1600s",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Morgan was a privateer: basically a pirate with a permission slip from the government to attack England's enemies.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.35,
+      "pose": "present",
+      "hold": "scroll",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "PERMISSION"
+     },
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PRIVATEER",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He raided Spanish towns in Cuba, Panama and Venezuela, and got very rich.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1671 he led more than a thousand men through the jungle to attack Panama City, one of Spain's richest towns.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "pirate",
+      "x": 0.55,
+      "pose": "run",
+      "walk": [
+       0.4,
+       0.6
+      ]
+     },
+     {
+      "id": "pirate2",
+      "x": 0.75,
+      "pose": "run",
+      "walk": [
+       0.6,
+       0.8
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.92,
+      "s": 0.8
+     }
+    ],
+    "place": "Panama · January 1671",
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The city burned to the ground, and Morgan came back loaded with loot.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.3,
+      "pose": "hold",
+      "hold": "moneybag",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "cart",
+      "x": 0.5,
+      "s": 0.6,
+      "load": "gold"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One problem: England and Spain had just signed a peace treaty. So Morgan was arrested and shipped to London.",
+   "show": {
+    "k": "map",
+    "lon": -4.0,
+    "lat": 50.8,
+    "z0": 1.6,
+    "z1": 2.2,
+    "date": "1672",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      0
+     ],
+     [
+      "ENGLAND",
+      -1.5,
+      52.4,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -13.5,
+      48.5
+     ],
+     [
+      -9.0,
+      49.2
+     ],
+     [
+      -5.0,
+      49.8
+     ],
+     [
+      -1.5,
+      50.5
+     ],
+     [
+      1.3,
+      51.2
+     ],
+     [
+      -0.13,
+      51.5
+     ]
+    ]
+   }
+  },
+  {
+   "who": "charles2",
+   "say": "You attacked Spain in the middle of a peace treaty.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     },
+     {
+      "id": "morgan",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "place": "London, England · 1672",
+    "tag": {
+     "id": "charles2",
+     "text": "King Charles II"
+    }
+   }
+  },
+  {
+   "who": "morgan",
+   "say": "Nobody told me about any treaty, Your Majesty!"
+  },
+  {
+   "who": "N",
+   "say": "Instead of being punished, he was knighted in 1674 and sent back as lieutenant governor of Jamaica, the island's number two official.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.15,
+      "s": 0.4
+     },
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.6,
+      "flag": "uk1606"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "SIR HENRY",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And his new job? Hunting pirates.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later, a popular book described him as a cruel pirate. He sued the publishers for libel, meaning lying in print, and won two hundred pounds.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "merchant",
+      "x": 0.68,
+      "pose": "scared",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "£200",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He died in Jamaica in 1688, rich and respected. The pirate ended up writing the rules."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "The Man With the Smoking Hat"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "And number one: Blackbeard, the pirate who turned his own face into a weapon.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "pirate"
+     },
+     {
+      "k": "cannon",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Caribbean · 1717",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His real name was probably Edward Teach, and he was likely born in England.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.78,
+      "s": 0.7,
+      "flag": "pirate"
+     }
+    ],
+    "tag": {
+     "id": "blackbeard",
+     "text": "Edward Teach, aka Blackbeard"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1717 he captured a big French ship, added more cannons, and renamed it Queen Anne's Revenge.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 1.0,
+      "flag": "france_royal",
+      "move": [
+       0.2,
+       0.4
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 1.1,
+      "flag": "pirate",
+      "label": "Queen Anne's Revenge"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "40 GUNS",
+      "at": 1.6,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had a huge black beard, twisted into little braids tied with ribbons.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "blackbeard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the 1724 book says that in battle he tucked slow-burning fuses, the cords used to fire cannons, under his hat.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "SMOKING HAT",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Imagination cannot form an idea of a fury from hell to look more frightful.",
+   "show": {
+    "k": "quote",
+    "text": "Imagination cannot form an idea of a fury from hell to look more frightful.",
+    "who": "A General History of the Pyrates (1724), on Blackbeard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The look did the work. There are no known accounts of him harming his captives. Ships just gave up.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.8,
+      "flag": "white"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SURRENDER",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That brings us back to Charleston in 1718. His ships blocked the harbor for about a week.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.9,
+      "flag": "pirate"
+     },
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.8,
+      "flag": "pirate"
+     },
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Charleston, South Carolina · May 1718"
+   }
+  },
+  {
+   "who": "blackbeard",
+   "say": "Send me a chest of medicine, or the hostages don't come back.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "merchant",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "blackbeard"
+   }
+  },
+  {
+   "who": "governor",
+   "say": "Medicine? Fine! Just please go away.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "governor",
+      "x": 0.45,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.8,
+      "s": 0.5,
+      "label": "MEDICINE"
+     }
+    ],
+    "tag": {
+     "id": "governor",
+     "text": "Governor Robert Johnson"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The town paid, and the hostages came home, minus most of their fancy clothes."
+  },
+  {
+   "who": "N",
+   "say": "A few months later, Lieutenant Robert Maynard of the Royal Navy cornered him at Ocracoke, an island off North Carolina, and Blackbeard died in the fight.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "maynard",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.6,
+      "s": 0.8,
+      "flag": "uk1606",
+      "move": [
+       0.8,
+       0.6
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ],
+    "place": "Ocracoke, North Carolina · November 1718",
+    "tag": {
+     "id": "maynard",
+     "text": "Lt. Robert Maynard"
+    },
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His pirate career lasted only about two years. His legend has lasted three hundred.",
+   "show": {
+    "k": "card",
+    "label": "Blackbeard's pirate career",
+    "big": "2 YEARS",
+    "sub": "and 300 years of fame",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And in 1996, divers found the wreck of Queen Anne's Revenge off North Carolina.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.6,
+      "s": 0.5
+     },
+     {
+      "k": "cannon",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOUND: 1996",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Honorable mention: Ching Shih, who led tens of thousands of pirates in China, then retired with a pardon. She's in our badass women video.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "chingshih",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.65,
+      "s": 0.9
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "china_qing"
+     }
+    ],
+    "place": "South China Sea · 1810",
+    "tag": {
+     "id": "chingshih",
+     "text": "Ching Shih"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "And notice what you didn't see today: walking the plank. Historians have found only a handful of real cases. Most of it comes from later stories.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.65,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MOSTLY MYTH",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's the list: a gentleman with a checkbook, a pirate queen, a redbeard admiral, two fearless women, a tea drinker, a pirate knight and a smoking hat.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.12,
+      "pose": "shrug"
+     },
+     {
+      "id": "grace",
+      "x": 0.27,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "barbarossa",
+      "x": 0.42,
+      "pose": "hips"
+     },
+     {
+      "id": "anne",
+      "x": 0.55,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "bart",
+      "x": 0.68,
+      "pose": "hold",
+      "hold": "goblet"
+     },
+     {
+      "id": "morgan",
+      "x": 0.8,
+      "pose": "salute"
+     },
+     {
+      "id": "blackbeard",
+      "x": 0.92,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": []
+   }
+  },
+  {
+   "who": "N",
+   "say": "Which pirate was the craziest? Tell us in the comments."
+  },
+  {
+   "who": "N",
+   "say": "Next time: the richest man in Rome, and how it all went horribly wrong. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "next": "Crassus: The Richest Man in Rome and His Humiliating Death",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.72,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "bart",
+      "x": 0.88,
+      "pose": "wave",
+      "hold": "goblet"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube_title": "The Craziest Pirates in History",
+ "tags": [
+  "pirates",
+  "blackbeard",
+  "stede bonnet",
+  "grace o'malley",
+  "barbarossa",
+  "anne bonny",
+  "mary read",
+  "black bart",
+  "henry morgan",
+  "golden age of piracy",
+  "funny history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Stede_Bonnet",
+  "https://www.britannica.com/question/How-did-Stede-Bonnet-begin-his-pirate-career",
+  "https://www.dncr.nc.gov/blog/2023/12/11/stede-bonnet-1688-1718-d-110",
+  "https://www.scencyclopedia.org/sce/entries/bonnet-stede/",
+  "https://en.wikipedia.org/wiki/Grace_O%27Malley",
+  "https://www.rmg.co.uk/stories/maritime-history/grace-o-malley-pirate-history-fact-fiction-legend",
+  "https://www.nationalgeographic.com/travel/article/on-the-trail-of-ireland-legendary-pirate-queen",
+  "https://en.wikipedia.org/wiki/Hayreddin_Barbarossa",
+  "https://en.wikipedia.org/wiki/Battle_of_Preveza",
+  "https://en.wikipedia.org/wiki/Capture_of_Algiers_(1516)",
+  "https://www.thecollector.com/barbarossa-ottoman-corsair-ruled-mediterranean/",
+  "https://en.wikipedia.org/wiki/Anne_Bonny",
+  "https://en.wikipedia.org/wiki/Mary_Read",
+  "https://en.wikipedia.org/wiki/Capture_of_John_Rackham",
+  "https://www.worldhistory.org/Anne_Bonny/",
+  "https://www.qaronline.org/blog/2020-04-27/pirate-profile-anne-bonny",
+  "https://en.wikipedia.org/wiki/Bartholomew_Roberts",
+  "https://www.britannica.com/biography/Bartholomew-Roberts",
+  "https://biography.wales/article/s-ROBE-BAR-1682.html",
+  "https://www.rmg.co.uk/stories/maritime-history/pirates-bartholomew-roberts-chaloner-ogle-cup",
+  "https://www.worldhistory.org/Bartholomew_Roberts/",
+  "https://en.wikipedia.org/wiki/Pirate_code",
+  "https://en.wikipedia.org/wiki/Henry_Morgan",
+  "https://en.wikipedia.org/wiki/Henry_Morgan%27s_Panama_expedition",
+  "https://en.wikipedia.org/wiki/Treaty_of_Madrid_(1670)",
+  "https://www.historic-uk.com/HistoryUK/HistoryofWales/Sir-Henry-Morgan/",
+  "https://en.wikipedia.org/wiki/Alexandre_Exquemelin",
+  "https://www.worldhistory.org/Henry_Morgan/",
+  "https://en.wikipedia.org/wiki/Blackbeard",
+  "https://www.qaronline.org/history/blackbeard-history-dreaded-pirate",
+  "https://www.scencyclopedia.org/sce/entries/blackbeard/",
+  "https://www.smithsonianmag.com/history/last-days-blackbeard-180949440/",
+  "https://en.wikipedia.org/wiki/Battle_of_Ocracoke_(1718)",
+  "https://en.wikipedia.org/wiki/A_General_History_of_the_Pyrates",
+  "https://en.wikipedia.org/wiki/Zheng_Yi_Sao",
+  "https://www.abc.net.au/science/articles/2011/03/01/3151647.htm",
+  "http://www.todayifoundout.com/index.php/2013/08/pirates-rarely-made-people-walk-the-plank/"
+ ]
+}

@@ -1,0 +1,304 @@
+{
+ "id": "2026w45-s25",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "Rome's Richest Man Hid in a Cave for 8 Months",
+ "hook": "HE HID IN A CAVE",
+ "music": "playful",
+ "cast": {
+  "crassus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hold": "moneybag",
+   "name": "Marcus Licinius Crassus"
+  },
+  "pacianus": {
+   "preset": "roman",
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "goatee",
+   "color": "#2F7A6A",
+   "name": "Vibius Pacianus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  }
+ },
+ "voices": {
+  "crassus": "bm_george",
+  "pacianus": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Before he was Rome's richest man, Marcus Crassus spent eight months hiding in a cave.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.9
+     }
+    ],
+    "place": "Spain · about 85 BC",
+    "tag": {
+     "id": "crassus",
+     "text": "Marcus Crassus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 87 BC, during a Roman civil war, Crassus's father and brother were killed.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.45,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.2,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Rome · 87 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So young Crassus fled all the way to Spain.",
+   "show": {
+    "k": "map",
+    "lon": 2.0,
+    "lat": 39.5,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "about 85 BC",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Spain",
+      -4.5,
+      37.0,
+      14
+     ]
+    ],
+    "route": [
+     [
+      12.48,
+      41.9
+     ],
+     [
+      8.0,
+      41.0
+     ],
+     [
+      3.0,
+      39.5
+     ],
+     [
+      -1.0,
+      37.8
+     ],
+     [
+      -4.4,
+      36.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A family friend, Vibius Pacianus, hid him in a seaside cave.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "pacianus",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.12,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "pacianus",
+     "text": "Vibius Pacianus"
+    }
+   }
+  },
+  {
+   "who": "pacianus",
+   "say": "My servants will leave food. They won't know it's you.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pacianus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "DINNER"
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "crassus",
+   "say": "Can they bring the good wine too?",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.8
+     },
+     {
+      "k": "jar",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch, a Greek writer, says the servants never knew who ate them."
+  },
+  {
+   "who": "N",
+   "say": "When the enemy leader died, Crassus came out and joined the general Sulla.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Rome's future richest man started out living in a cave."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "pacianus",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome's richest man once lived in a cave for 8 months. With room service.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crassus #ancientrome #romanhistory #historytok",
+ "youtube_title": "Rome's Richest Man Hid in a Cave for 8 Months #shorts",
+ "tags": [
+  "crassus",
+  "crassus cave",
+  "ancient rome",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038",
+  "https://en.wikisource.org/wiki/Plutarch's_Lives_(Clough)/Life_of_Crassus",
+  "https://en.wikipedia.org/wiki/Marcus_Licinius_Crassus",
+  "https://www.britannica.com/biography/Marcus-Licinius-Crassus"
+ ]
+}

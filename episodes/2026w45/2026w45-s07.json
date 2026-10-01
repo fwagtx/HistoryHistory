@@ -1,0 +1,267 @@
+{
+ "id": "2026w45-s07",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "The Ottoman Empire Began With a Weird Dream",
+ "hook": "AN EMPIRE FROM A DREAM",
+ "music": "playful",
+ "cast": {
+  "osman": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#2F7A4A",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "name": "Osman I"
+  },
+  "edebali": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#8A6A4A",
+   "beard": "long",
+   "hairColor": "#D8D8D8",
+   "skin": "olive",
+   "name": "Sheikh Edebali"
+  }
+ },
+ "voices": {
+  "osman": "am_liam",
+  "edebali": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Legend says the Ottoman Empire began with a tree growing out of a man's belly button.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "osman",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "place": "Anatolia · around 1300",
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 1.0
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Osman was a Turkish warrior chief with a small state in today's Turkey.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "osman",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "osman",
+     "text": "Osman I"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One night, he slept at the home of a holy man, Sheikh Edebali.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "edebali",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "osman",
+      "x": 0.7,
+      "pose": "wave"
+     }
+    ],
+    "tag": {
+     "id": "edebali",
+     "text": "Sheikh Edebali"
+    },
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He dreamed a moon sank into his chest. Then a giant tree sprouted from his belly button, and its shade covered the world.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "osman",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.65,
+      "s": 1.6
+     },
+     {
+      "k": "globe",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BELLY BUTTON TREE",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "edebali",
+   "say": "It means your family will rule an empire. Also, you may marry my daughter.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "edebali",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "osman",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "cam": "close",
+    "focus": "edebali"
+   }
+  },
+  {
+   "who": "osman",
+   "say": "Wonderful. But is my belly button okay?",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "osman",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "osman"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This story was written over a century later. But his family really did rule for over six hundred years.",
+   "show": {
+    "k": "card",
+    "label": "Osman's family ruled for",
+    "big": "623 YEARS",
+    "sub": "1299 to 1922",
+    "cast": [
+     {
+      "id": "osman",
+      "x": 0.86,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "osman",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "edebali",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Legend says an empire began with a tree growing from a man's belly button.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #legend #historytok #funnyhistory",
+ "youtube_title": "The Ottoman Empire Began With a Weird Dream #shorts",
+ "tags": [
+  "osman's dream",
+  "osman i",
+  "ottoman empire",
+  "ottoman legend",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Osman%27s_Dream",
+  "https://www.worldhistory.org/Osman_I/",
+  "https://en.wikipedia.org/wiki/Sheikh_Edebali",
+  "https://en.wikipedia.org/wiki/Osman_I",
+  "https://www.britannica.com/biography/Osman-I"
+ ]
+}

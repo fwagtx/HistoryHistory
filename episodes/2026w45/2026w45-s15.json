@@ -1,0 +1,310 @@
+{
+ "id": "2026w45-s15",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "This Pirate Became a Governor",
+ "hook": "PIRATE TO GOVERNOR",
+ "music": "playful",
+ "cast": {
+  "charles2": {
+   "preset": "king",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "stache": "thin",
+   "skin": "light",
+   "name": "King Charles II"
+  },
+  "morgan": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#A8322A",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Henry Morgan"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan"
+  }
+ },
+ "voices": {
+  "charles2": "bm_george",
+  "morgan": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1672, a pirate was arrested and shipped to London. Two years later, he was a knight.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "scared"
+     },
+     {
+      "id": "charles2",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "London, England · 1672"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Henry Morgan was a privateer: a pirate with government permission to attack England's enemies.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.35,
+      "pose": "present",
+      "hold": "scroll",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.8,
+      "flag": "uk1606"
+     }
+    ],
+    "place": "Port Royal, Jamaica · 1660s",
+    "tag": {
+     "id": "morgan",
+     "text": "Henry Morgan"
+    },
+    "stickers": [
+     {
+      "text": "PRIVATEER",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "From Jamaica he raided Spanish towns, and in 1671 his men attacked Panama City, which burned.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "place": "Panama · 1671",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Problem: England and Spain had just signed a peace treaty.",
+   "show": {
+    "k": "card",
+    "label": "Treaty of Madrid",
+    "big": "1670",
+    "sub": "England and Spain agree to stop fighting"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Morgan was arrested and sent to London to face King Charles the Second.",
+   "show": {
+    "k": "map",
+    "lon": -3.0,
+    "lat": 51.0,
+    "z0": 1.8,
+    "z1": 2.3,
+    "date": "1672",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -13.0,
+      48.8
+     ],
+     [
+      -6.0,
+      49.7
+     ],
+     [
+      -1.5,
+      50.5
+     ],
+     [
+      1.3,
+      51.2
+     ],
+     [
+      -0.13,
+      51.5
+     ]
+    ]
+   }
+  },
+  {
+   "who": "charles2",
+   "say": "You attacked Spain during a peace treaty!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "morgan",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [],
+    "tag": {
+     "id": "charles2",
+     "text": "King Charles II"
+    },
+    "cam": "close",
+    "focus": "charles2"
+   }
+  },
+  {
+   "who": "morgan",
+   "say": "Nobody told me, Your Majesty!"
+  },
+  {
+   "who": "N",
+   "say": "Instead of punishment, he got a knighthood and became lieutenant governor of Jamaica. His new job? Hunting pirates.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "SIR HENRY",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "morgan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "charles2",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Arrested for piracy. Knighted two years later.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #henrymorgan #historytok #funnyhistory",
+ "youtube_title": "This Pirate Became a Governor #shorts",
+ "tags": [
+  "henry morgan",
+  "captain morgan",
+  "pirates",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Henry_Morgan",
+  "https://www.historic-uk.com/HistoryUK/HistoryofWales/Sir-Henry-Morgan/",
+  "https://en.wikipedia.org/wiki/Henry_Morgan%27s_Panama_expedition",
+  "https://en.wikipedia.org/wiki/Treaty_of_Madrid_(1670)",
+  "https://www.worldhistory.org/Henry_Morgan/"
+ ]
+}

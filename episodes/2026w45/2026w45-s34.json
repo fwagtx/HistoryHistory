@@ -1,0 +1,296 @@
+{
+ "id": "2026w45-s34",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "Did Crassus Really Drink Molten Gold?",
+ "hook": "THE MOLTEN GOLD MYTH",
+ "music": "playful",
+ "cast": {
+  "crassus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hold": "moneybag",
+   "name": "Marcus Licinius Crassus"
+  },
+  "crassusgen": {
+   "skin": "light",
+   "hat": "roman",
+   "hatColor": "#B08A3A",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "hold": "sword",
+   "name": "Marcus Licinius Crassus"
+  },
+  "surena": {
+   "skin": "olive",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "hold": "bow",
+   "name": "Surena"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "surena": "am_liam",
+  "crassusgen": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "You've heard Rome's richest man was killed with molten gold? That's a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "LEGEND"
+     }
+    ],
+    "place": "Parthia · 53 BC",
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "crassus",
+     "text": "Marcus Crassus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Marcus Crassus was the richest man in Rome, and famous for loving money.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 53 BC he invaded the Parthian Empire and lost badly at Carrhae, in today's Turkey.",
+   "show": {
+    "k": "map",
+    "lon": 38.5,
+    "lat": 36.9,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "53 BC",
+    "labels": [
+     [
+      "Zeugma (Euphrates crossing)",
+      37.87,
+      37.06,
+      14
+     ],
+     [
+      "Carrhae (Harran)",
+      39.03,
+      36.86,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      39.03,
+      36.86,
+      0.25,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "surena",
+   "say": "Come. Let us talk about peace.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.3,
+      "mood": "scared"
+     },
+     {
+      "id": "surena",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "surena",
+     "text": "Surena, Parthian general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "At that meeting, a fight broke out over a horse, and Crassus was killed in the chaos.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "surena",
+      "x": 0.4,
+      "mood": "shock"
+     },
+     {
+      "id": "horse",
+      "x": 0.72
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story comes from Cassius Dio, writing over two hundred and fifty years later. He only says some people tell it.",
+   "show": {
+    "k": "card",
+    "label": "The molten gold story",
+    "big": "LEGEND",
+    "sub": "Cassius Dio: 'as some say', after he died"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch, an earlier Greek writer, never mentions it.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "PLUTARCH: NO GOLD"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was probably made up to mock a greedy man."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "moneybag"
+     },
+     {
+      "id": "surena",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Did the Parthians really pour molten gold into Crassus? Here's what the sources say.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crassus #ancientrome #mythbusting #historytok",
+ "youtube_title": "Did Crassus Really Drink Molten Gold? #shorts",
+ "tags": [
+  "crassus",
+  "molten gold",
+  "battle of carrhae",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038",
+  "https://en.wikipedia.org/wiki/Battle_of_Carrhae",
+  "https://www.badancient.com/claims/crassus-gold-poured-down-throat/",
+  "https://history.howstuffworks.com/historical-events/ridiculous-history-execution-molten-gold.htm",
+  "https://en.wikipedia.org/wiki/Cassius_Dio",
+  "https://www.historyhit.com/marcus-crassus/"
+ ]
+}

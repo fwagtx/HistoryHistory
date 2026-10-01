@@ -1,0 +1,276 @@
+{
+ "id": "2026w45-s11",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "He Became a Famous Architect at About 50",
+ "hook": "HE STARTED AT 50",
+ "music": "playful",
+ "cast": {
+  "sinan": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#7A5A3A",
+   "beard": "long",
+   "hairColor": "#E0E0E0",
+   "skin": "olive",
+   "name": "Mimar Sinan"
+  },
+  "suleiman": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "color2": "#E8C25A",
+   "beard": "goatee",
+   "stache": "thin",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Suleiman the Magnificent"
+  }
+ },
+ "voices": {
+  "sinan": "bm_george",
+  "suleiman": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The most famous Ottoman architect didn't get the job until he was about fifty.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "sinan",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "Istanbul · 1539",
+    "tag": {
+     "id": "sinan",
+     "text": "Mimar Sinan"
+    },
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sinan started out as a soldier in the Janissaries, the sultan's elite troops.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "sinan",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "angry",
+      "hold": "spear"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On campaigns, he became a military engineer, building bridges, roads and even boats for the army.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sinan",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.72,
+      "s": 0.7
+     },
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.5,
+      "label": "BRIDGE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sultan Suleiman noticed. In 1539, he made Sinan the chief royal architect.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "sinan",
+      "x": 0.68,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "suleiman",
+   "say": "You build bridges. Can you build me a mosque?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "suleiman"
+   }
+  },
+  {
+   "who": "sinan",
+   "say": "Your Majesty, I'll build you dozens.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "sinan",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "sinan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He kept working for about fifty more years, and died in 1588, around the age of ninety-eight.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "sinan",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "PLANS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His team built over three hundred major buildings, including Istanbul's giant Süleymaniye Mosque.",
+   "show": {
+    "k": "card",
+    "label": "Major buildings by Sinan",
+    "big": "300+",
+    "sub": "including the Süleymaniye Mosque, Istanbul",
+    "cast": [
+     {
+      "id": "sinan",
+      "x": 0.86,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Proof it's never too late for a dream job. Follow for more.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sinan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "suleiman",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He became the empire's top architect at about 50, then worked for 50 more years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #architecture #historytok #istanbul",
+ "youtube_title": "He Became a Famous Architect at About 50 #shorts",
+ "tags": [
+  "mimar sinan",
+  "ottoman architecture",
+  "suleymaniye mosque",
+  "ottoman empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Sinan",
+  "https://en.wikipedia.org/wiki/Mimar_Sinan",
+  "https://muslimheritage.com/sinan-ott-architect-urban-designer/",
+  "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque"
+ ]
+}

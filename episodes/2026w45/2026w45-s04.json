@@ -1,0 +1,271 @@
+{
+ "id": "2026w45-s04",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "The Mother Who Ran the Ottoman Empire",
+ "hook": "MOM RAN THE EMPIRE",
+ "music": "playful",
+ "cast": {
+  "kosem": {
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Kösem Sultan"
+  },
+  "muradkid": {
+   "preset": "child",
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#6A1E1E",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Murad IV, age 11"
+  },
+  "sultan": {
+   "preset": "sultan",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "kosem": "af_heart",
+  "muradkid": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In the 1600s, some of the most powerful people in the Ottoman Empire were the sultans' mothers.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "kosem",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "place": "Istanbul · 1600s",
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The most famous was Kösem Sultan: a sultan's wife, mother of two sultans, and grandmother of another.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "kosem",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "kosem",
+     "text": "Kösem Sultan"
+    },
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1623, her son Murad became sultan at just eleven years old.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "muradkid",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "kosem",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "tag": {
+     "id": "muradkid",
+     "text": "Murad IV"
+    },
+    "place": "Istanbul · 1623",
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "muradkid",
+   "say": "So I'm in charge now, right?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "muradkid",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "muradkid"
+   }
+  },
+  {
+   "who": "kosem",
+   "say": "You're eleven, dear. Mother will handle the empire.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "kosem",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "kosem"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So she ruled as regent, governing for him. Decades later, she did it again for her grandson.",
+   "show": {
+    "k": "card",
+    "label": "Kösem Sultan was family to",
+    "big": "4 SULTANS",
+    "sub": "wife of one, mother of two, grandmother of one",
+    "cast": [
+     {
+      "id": "kosem",
+      "x": 0.86,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Royal women held so much power in that century that historians call it the Sultanate of Women.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "kosem",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.25,
+      "s": 0.8,
+      "text": "SULTANATE OF WOMEN"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So for years, the empire's real boss wasn't wearing the sultan's turban.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "kosem",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "muradkid",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history power moves.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kosem",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "muradkid",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Her son became sultan at 11. Guess who actually ran the empire.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #kosemsultan #historytok #womeninhistory",
+ "youtube_title": "The Mother Who Ran the Ottoman Empire #shorts",
+ "tags": [
+  "kosem sultan",
+  "sultanate of women",
+  "ottoman empire",
+  "murad iv",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Kosem-Sultan",
+  "https://en.wikipedia.org/wiki/K%C3%B6sem_Sultan",
+  "https://en.wikipedia.org/wiki/Sultanate_of_Women",
+  "https://en.wikipedia.org/wiki/Murad_IV",
+  "https://www.ebsco.com/research-starters/history/reign-murad-iv/"
+ ]
+}

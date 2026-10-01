@@ -1,0 +1,352 @@
+{
+ "id": "2026w45-s06",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "The Giant Cavalry Charge That Saved Vienna",
+ "hook": "18,000 RIDERS CHARGE",
+ "music": "playful",
+ "cast": {
+  "sobieski": {
+   "outfit": "armor",
+   "color": "#A8322A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "stache": "handlebar",
+   "skin": "light",
+   "name": "King Jan III Sobieski"
+  },
+  "hussar": {
+   "hat": "knight",
+   "outfit": "armor",
+   "color": "#A8322A",
+   "stache": "handlebar",
+   "hold": "spear",
+   "skin": "light"
+  },
+  "karamustafa": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#1F6A4A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "skin": "olive",
+   "name": "Kara Mustafa Pasha"
+  },
+  "viennese": {
+   "preset": "peasant",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "sobieski": "bm_george",
+  "karamustafa": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1683, about eighteen thousand horsemen charged down a hill to save Vienna.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "hussar",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "shout"
+     },
+     {
+      "id": "hussar",
+      "x": 0.62,
+      "pose": "run",
+      "mood": "shout"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "shake",
+    "place": "Vienna · 12 September 1683",
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.88,
+      "s": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "An Ottoman army had surrounded the city for two months, led by the grand vizier, the sultan's top minister, Kara Mustafa.",
+   "show": {
+    "k": "map",
+    "lon": 17.5,
+    "lat": 47,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "July to September 1683",
+    "labels": [
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      0
+     ],
+     [
+      "Buda",
+      19.04,
+      47.5,
+      0
+     ],
+     [
+      "Belgrade",
+      20.46,
+      44.82,
+      0
+     ]
+    ],
+    "route": [
+     [
+      20.46,
+      44.82
+     ],
+     [
+      19.04,
+      47.5
+     ],
+     [
+      16.37,
+      48.21
+     ]
+    ],
+    "areas": [
+     [
+      16.37,
+      48.21,
+      0.5,
+      "rgba(214,48,40,.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His diggers tunneled under the walls, and the city was running out of food.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "karamustafa",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "viennese",
+      "x": 0.75,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "tag": {
+     "id": "karamustafa",
+     "text": "Kara Mustafa Pasha"
+    },
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.55,
+      "s": 0.7,
+      "flag": "austria_habsburg"
+     },
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a rescue army arrived, led by the Polish king, Jan Sobieski.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sobieski",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "sobieski",
+     "text": "King Jan III Sobieski"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "color": "#A8322A"
+     },
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.6,
+      "color": "#F2EEE4"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sobieski",
+   "say": "Hussars! Down the hill!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sobieski",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close",
+    "focus": "sobieski"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His winged hussars wore tall feathered frames on their backs, and led what's often called the biggest cavalry charge in history.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "hussar",
+      "x": 0.45,
+      "pose": "run",
+      "mood": "shout"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "WINGS!",
+      "at": 1.0,
+      "color": "#C8902A"
+     },
+     {
+      "text": "18,000 RIDERS",
+      "at": 2.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "karamustafa",
+   "say": "Why are they wearing wings?!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "karamustafa",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "karamustafa",
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Ottoman army broke and fled. The Ottomans never threatened Vienna again.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "viennese",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more battles that changed history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sobieski",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "hussar",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They charged with wings on their backs and saved a city.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #wingedhussars #vienna #historytok #poland",
+ "youtube_title": "The Giant Cavalry Charge That Saved Vienna #shorts",
+ "tags": [
+  "battle of vienna",
+  "winged hussars",
+  "jan sobieski",
+  "ottoman empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_Vienna",
+  "https://www.britannica.com/event/Siege-of-Vienna-1683",
+  "https://en.wikipedia.org/wiki/Polish_hussars",
+  "https://worldhistoryedu.com/the-battle-of-vienna-in-1683-history-major-facts/",
+  "https://en.wikipedia.org/wiki/Kara_Mustafa_Pasha"
+ ]
+}

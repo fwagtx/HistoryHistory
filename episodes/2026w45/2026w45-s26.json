@@ -1,0 +1,242 @@
+{
+ "id": "2026w45-s26",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "Crassus Got Rich From Rome's Scariest Sale",
+ "hook": "ROME'S SCARIEST SALE",
+ "music": "playful",
+ "cast": {
+  "crassus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hold": "moneybag",
+   "name": "Marcus Licinius Crassus"
+  },
+  "sulla": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#C89A5A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "name": "Lucius Cornelius Sulla"
+  },
+  "owner": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman homeowner"
+  }
+ },
+ "voices": {
+  "crassus": "bm_george",
+  "sulla": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome's richest man got his start shopping at the scariest sale in history.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.6,
+      "text": "FOR SALE"
+     }
+    ],
+    "place": "Rome · 82 BC",
+    "tag": {
+     "id": "crassus",
+     "text": "Marcus Crassus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 82 BC, the general Sulla won a civil war and took over Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "sulla",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "sulla",
+     "text": "Sulla, Roman general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He posted lists of enemies. People listed could be killed, and their property was sold.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.8,
+      "text": "PROSCRIBED"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most Romans were afraid to buy it. Crassus, Sulla's officer, was not.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "crassus",
+   "say": "Nice villa. What's the discount?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "sulla",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "sulla",
+   "say": "For you? Practically free."
+  },
+  {
+   "who": "N",
+   "say": "Plutarch, a Greek writer, says Crassus never tired of buying, though it gave him a bad name.",
+   "show": {
+    "k": "card",
+    "label": "Crassus's fortune, according to Plutarch",
+    "big": "7,100 talents",
+    "sub": "he started with 300"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the end he turned three hundred talents of silver into seven thousand one hundred."
+  },
+  {
+   "who": "N",
+   "say": "So his fortune began with other people's terrible luck."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's richest people.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "moneybag"
+     },
+     {
+      "id": "sulla",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "How did Rome's richest man get rich? He bought his enemies' houses. Cheap.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crassus #ancientrome #money #historytok",
+ "youtube_title": "Crassus Got Rich From Rome's Scariest Sale #shorts",
+ "tags": [
+  "crassus",
+  "sulla",
+  "proscriptions",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Crassus*.html",
+  "https://en.wikipedia.org/wiki/Sulla%27s_proscription",
+  "https://en.wikipedia.org/wiki/Marcus_Licinius_Crassus",
+  "https://www.nationalgeographic.com/history/history-magazine/article/crassus-romes-richest-man"
+ ]
+}

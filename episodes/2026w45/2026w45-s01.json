@@ -1,0 +1,300 @@
+{
+ "id": "2026w45-s01",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "The Ottoman Army That Ran on Soup",
+ "hook": "THEIR ARMY RAN ON SOUP",
+ "music": "playful",
+ "cast": {
+  "janissary": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "tunic",
+   "color": "#2F4A8A",
+   "stache": "handlebar",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "olive"
+  },
+  "janissary2": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "tunic",
+   "color": "#A8322A",
+   "stache": "bush",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "tan"
+  },
+  "sultan": {
+   "preset": "sultan",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "janissary": "am_adam",
+  "sultan": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Ottoman Empire's toughest soldiers named their officers after kitchen jobs.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "janissary",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "place": "Ottoman Empire · 1500s",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.7,
+      "label": "SOUP"
+     },
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were the Janissaries, the sultan's elite full-time foot soldiers.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "janissary",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout",
+      "hold": "sword"
+     },
+     {
+      "id": "janissary2",
+      "x": 0.62,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "tag": {
+     "id": "janissary",
+     "text": "a Janissary"
+    },
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The sultan fed them, so their big regimental soup pot became their symbol.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "janissary2",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.8
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A unit commander was called the soup maker. Other ranks included head cook and baker.",
+   "show": {
+    "k": "card",
+    "label": "A Janissary commander's title",
+    "big": "SOUP MAKER",
+    "sub": "in Turkish: çorbacı"
+   }
+  },
+  {
+   "who": "janissary",
+   "say": "Soup maker, reporting for battle!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "janissary",
+      "x": 0.45,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "janissary"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the pot had a darker job. When Janissaries were angry, they flipped it over and drummed on it.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "janissary",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "janissary2",
+      "x": 0.62,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "cam": "shake",
+    "place": "Istanbul",
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.82,
+      "s": 0.6,
+      "label": "SOUP"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANG BANG",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Everyone in Istanbul knew that noise meant revolt. Angry Janissaries even overthrew sultans.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "sultan",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REVOLT!",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in the Ottoman Empire, the scariest sound wasn't a cannon. It was the soup pot.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "sultan",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "janissary",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "janissary",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sultan",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In the Ottoman army, a flipped soup pot meant revolt.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #janissary #historytok #funnyhistory",
+ "youtube_title": "The Ottoman Army That Ran on Soup #shorts",
+ "tags": [
+  "janissaries",
+  "ottoman empire",
+  "janissary soup",
+  "ottoman history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.laphamsquarterly.org/food/imperial-kitchen",
+  "https://www.atlasobscura.com/articles/what-did-janissaries-eat",
+  "https://en.wikipedia.org/wiki/Janissary",
+  "https://en.wikipedia.org/wiki/Janissary_revolts",
+  "https://www.hurriyetdailynews.com/opinion/aylin-oney-tan/soup-for-the-soul-158835"
+ ]
+}

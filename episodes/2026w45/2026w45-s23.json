@@ -1,0 +1,289 @@
+{
+ "id": "2026w45-s23",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "The Pirate Queen Who Met Elizabeth I",
+ "hook": "PIRATE MEETS QUEEN",
+ "music": "playful",
+ "cast": {
+  "bingham": {
+   "preset": "noble",
+   "hat": "morion",
+   "outfit": "armor",
+   "beard": "goatee",
+   "stache": "thin",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Sir Richard Bingham"
+  },
+  "elizabeth": {
+   "preset": "elizabeth1",
+   "name": "Queen Elizabeth I"
+  },
+  "grace": {
+   "outfit": "dress",
+   "color": "#2F7A4A",
+   "color2": "#C8902A",
+   "hair": "short",
+   "hairColor": "#6A3A1E",
+   "skin": "peach",
+   "hold": "sword",
+   "name": "Grace O'Malley"
+  }
+ },
+ "voices": {
+  "elizabeth": "bf_alice",
+  "grace": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1593, an Irish pirate queen sailed to England to make a deal with Queen Elizabeth the First.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "grace",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "elizabeth",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Greenwich Palace, England · 1593"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Grace O'Malley led a fleet of ships off the west coast of Ireland for decades.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "grace",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.68,
+      "s": 0.9,
+      "move": [
+       0.55,
+       0.75
+      ]
+     }
+    ],
+    "tag": {
+     "id": "grace",
+     "text": "Grace O'Malley"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But an English governor, Sir Richard Bingham, had captured her son and her half-brother.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "bingham",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ],
+    "tag": {
+     "id": "bingham",
+     "text": "Sir Richard Bingham"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So, in her sixties, she sailed all the way to England to ask the queen herself.",
+   "show": {
+    "k": "map",
+    "lon": -4.5,
+    "lat": 52.3,
+    "z0": 1.5,
+    "z1": 1.9,
+    "date": "1593",
+    "labels": [
+     [
+      "Clew Bay",
+      -9.75,
+      53.8,
+      0
+     ],
+     [
+      "Greenwich",
+      0.0,
+      51.48,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -10.0,
+      53.8
+     ],
+     [
+      -10.6,
+      52.0
+     ],
+     [
+      -8.0,
+      51.2
+     ],
+     [
+      -5.5,
+      50.0
+     ],
+     [
+      -2.0,
+      50.5
+     ],
+     [
+      1.4,
+      51.2
+     ],
+     [
+      0.0,
+      51.48
+     ]
+    ]
+   }
+  },
+  {
+   "who": "grace",
+   "say": "Your governor took my son. I want him back.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "grace",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "elizabeth",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [],
+    "tag": {
+     "id": "elizabeth",
+     "text": "Queen Elizabeth I"
+    },
+    "cam": "close",
+    "focus": "grace"
+   }
+  },
+  {
+   "who": "elizabeth",
+   "say": "And what does England get?"
+  },
+  {
+   "who": "grace",
+   "say": "My ships will fight your enemies."
+  },
+  {
+   "who": "N",
+   "say": "It worked. Elizabeth ordered her family released. Legends add that they spoke in Latin.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "elizabeth",
+      "x": 0.35,
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "RELEASE THEM"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEAL",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "grace",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "elizabeth",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "An Irish pirate queen walked into Elizabeth I's palace and got what she wanted.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #graceomalley #ireland #womeninhistory",
+ "youtube_title": "The Pirate Queen Who Met Elizabeth I #shorts",
+ "tags": [
+  "grace o'malley",
+  "elizabeth i",
+  "pirate queen",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Grace_O%27Malley",
+  "https://www.nationalgeographic.com/travel/article/on-the-trail-of-ireland-legendary-pirate-queen",
+  "https://www.rmg.co.uk/stories/maritime-history/grace-o-malley-pirate-history-fact-fiction-legend",
+  "https://www.worldhistory.org/Grace_O'Malley/"
+ ]
+}

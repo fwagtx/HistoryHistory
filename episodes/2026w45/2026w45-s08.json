@@ -1,0 +1,284 @@
+{
+ "id": "2026w45-s08",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "Who Called the Ottomans the 'Sick Man of Europe'?",
+ "hook": "THE SICK MAN OF EUROPE",
+ "music": "playful",
+ "cast": {
+  "nicholas": {
+   "outfit": "coat",
+   "color": "#1F3A2A",
+   "color2": "#C8902A",
+   "hair": "short",
+   "hairColor": "#8A6A4A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Tsar Nicholas I"
+  },
+  "seymour": {
+   "outfit": "suit",
+   "color": "#2A2A2A",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "tie": true,
+   "name": "Sir Hamilton Seymour"
+  },
+  "soldier": {
+   "hat": "turban",
+   "hatColor": "#B8202A",
+   "outfit": "coat",
+   "color": "#1F2E55",
+   "hold": "rifle",
+   "hairColor": "#1E1C1B",
+   "skin": "olive",
+   "stache": "thin"
+  }
+ },
+ "voices": {
+  "nicholas": "bm_fable",
+  "seymour": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Russian tsar once called an entire empire a sick man.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "place": "St Petersburg, Russia · January 1853",
+    "tag": {
+     "id": "nicholas",
+     "text": "Tsar Nicholas I of Russia"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "flag": "russia"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By the 1800s, the Ottoman Empire was losing wars and falling behind Europe's factories.",
+   "show": {
+    "k": "flag",
+    "flag": "ottoman",
+    "label": "THE OTTOMAN EMPIRE",
+    "sub": "1299 to 1922",
+    "bg": "islamic"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1853, Tsar Nicholas the First chatted with the British ambassador, Sir Hamilton Seymour.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "seymour",
+      "x": 0.68,
+      "pose": "hold",
+      "hold": "letter"
+     }
+    ],
+    "tag": {
+     "id": "seymour",
+     "text": "Sir Hamilton Seymour, British ambassador"
+    },
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seymour reported his words.",
+   "show": {
+    "k": "quote",
+    "text": "We have on our hands a sick man, a very sick man.",
+    "who": "Tsar Nicholas I, as reported by Sir Hamilton Seymour, 1853"
+   }
+  },
+  {
+   "who": "nicholas",
+   "say": "So, when he dies, shall we split up his things?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "nicholas"
+   }
+  },
+  {
+   "who": "seymour",
+   "say": "Britain would rather he got better, thank you.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "seymour",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "seymour"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Months later, Russia and the Ottomans were at war. Britain and France joined the Ottoman side, and Russia lost the Crimean War.",
+   "show": {
+    "k": "map",
+    "lon": 33,
+    "lat": 43.5,
+    "z0": 1.9,
+    "z1": 2.2,
+    "date": "1853 to 1856",
+    "labels": [
+     [
+      "Istanbul",
+      28.98,
+      41.01,
+      0
+     ],
+     [
+      "Crimea",
+      34.2,
+      45.3,
+      0
+     ],
+     [
+      "Black Sea",
+      34,
+      43.2,
+      0
+     ],
+     [
+      "Russian Empire",
+      38,
+      48,
+      0
+     ]
+    ],
+    "route": [
+     [
+      28.98,
+      41.01
+     ],
+     [
+      31.5,
+      43.3
+     ],
+     [
+      33.52,
+      44.6
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the nickname stuck. And the sick man lasted almost seventy more years.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "place": "Ottoman Empire · until 1922",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "flag": "ottoman"
+     },
+     {
+      "k": "cannon",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history nicknames that stuck.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "seymour",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A Russian tsar called a whole empire a sick man. The name stuck.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #crimeanwar #historytok #russia",
+ "youtube_title": "Who Called the Ottomans the 'Sick Man of Europe'? #shorts",
+ "tags": [
+  "sick man of europe",
+  "ottoman empire",
+  "nicholas i",
+  "crimean war",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sick_man_of_Europe",
+  "https://en.wikiquote.org/wiki/Nicholas_I_of_Russia",
+  "https://turkeyswar.com/prelude/sickman/",
+  "https://www.britannica.com/summary/Crimean-War",
+  "https://barrypopik.com/blog/sick_man_of_europe"
+ ]
+}

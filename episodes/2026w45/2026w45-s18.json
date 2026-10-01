@@ -1,0 +1,261 @@
+{
+ "id": "2026w45-s18",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "Blackbeard's Hat Was on Fire",
+ "hook": "SMOKE UNDER HIS HAT",
+ "music": "playful",
+ "cast": {
+  "blackbeard": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#2A2A2A",
+   "color2": "#A8322A",
+   "beard": "long",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Blackbeard (Edward Teach)"
+  },
+  "captain": {
+   "preset": "captain",
+   "color": "#2F3A5A"
+  },
+  "sailor": {
+   "preset": "sailor"
+  }
+ },
+ "voices": {
+  "captain": "bm_george",
+  "sailor": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Blackbeard reportedly went into battle with smoking fuses tucked under his hat.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Caribbean · 1718",
+    "stickers": [
+     {
+      "text": "SMOKING HAT",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Blackbeard, probably named Edward Teach, was the most feared pirate of his day.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 1.0,
+      "flag": "pirate",
+      "label": "Queen Anne's Revenge"
+     }
+    ],
+    "tag": {
+     "id": "blackbeard",
+     "text": "Blackbeard"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had a huge black beard, twisted into braids tied with ribbons.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "blackbeard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A 1724 pirate book says that in battle he lit slow-burning fuses, the cords used to fire cannons, and tucked them under his hat.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Imagination cannot form an idea of a fury from hell to look more frightful.",
+   "show": {
+    "k": "quote",
+    "text": "Imagination cannot form an idea of a fury from hell to look more frightful.",
+    "who": "A General History of the Pyrates (1724), on Blackbeard"
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "Is his head... smoking?",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "captain",
+      "x": 0.62,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ]
+   }
+  },
+  {
+   "who": "captain",
+   "say": "Surrender! Right now!"
+  },
+  {
+   "who": "N",
+   "say": "That was the point. If ships gave up right away, he barely had to fight.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.9,
+      "flag": "white"
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 1.0,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SURRENDER",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sailor",
+      "x": 0.7,
+      "pose": "scared"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Blackbeard's secret weapon was his hat.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #blackbeard #historytok #funnyhistory",
+ "youtube_title": "Blackbeard's Hat Was on Fire #shorts",
+ "tags": [
+  "blackbeard",
+  "edward teach",
+  "pirates",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Blackbeard",
+  "https://www.qaronline.org/history/blackbeard-history-dreaded-pirate",
+  "https://www.smithsonianmag.com/history/last-days-blackbeard-180949440/",
+  "https://en.wikipedia.org/wiki/A_General_History_of_the_Pyrates",
+  "https://www.worldhistory.org/Blackbeard/"
+ ]
+}

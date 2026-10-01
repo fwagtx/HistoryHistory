@@ -1,0 +1,309 @@
+{
+ "id": "2026w45-s30",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "Pirates Scammed Spartacus",
+ "hook": "PIRATES SCAMMED SPARTACUS",
+ "music": "playful",
+ "cast": {
+  "spartacus": {
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "outfit": "tunic",
+   "color": "#8A6A3A",
+   "hold": "sword",
+   "name": "Spartacus"
+  },
+  "crassusgen": {
+   "skin": "light",
+   "hat": "roman",
+   "hatColor": "#B08A3A",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "hold": "sword",
+   "name": "Marcus Licinius Crassus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#4A3A2A",
+   "skin": "olive",
+   "name": "Cilician pirate"
+  }
+ },
+ "voices": {
+  "spartacus": "am_fenrir",
+  "pirate": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Spartacus beat Roman armies for two years. Then some pirates took his money and sailed away.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.8
+     }
+    ],
+    "place": "Southern Italy · 72 BC",
+    "tag": {
+     "id": "spartacus",
+     "text": "Spartacus, rebel gladiator"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 72 BC, Spartacus and his army of escaped slaves were stuck at the toe of Italy.",
+   "show": {
+    "k": "map",
+    "lon": 15.5,
+    "lat": 38.8,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "72 BC",
+    "labels": [
+     [
+      "Rhegium",
+      15.65,
+      38.11,
+      14
+     ],
+     [
+      "Sicily",
+      14.2,
+      37.5,
+      14
+     ]
+    ],
+    "route": [
+     [
+      15.65,
+      38.11
+     ],
+     [
+      15.4,
+      38.0
+     ]
+    ],
+    "areas": [
+     [
+      16.1,
+      38.7,
+      0.5,
+      "rgba(168,50,42,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Marcus Crassus, Rome's richest man, was closing in with his legions.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "legionary",
+      "x": 0.72
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "crassusgen",
+     "text": "Marcus Crassus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spartacus planned to cross to Sicily and start a new revolt there. So he hired pirates from Cilicia, in today's Turkey, to ship his men.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Pay first, and we'll carry you across.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "spartacus",
+   "say": "Deal. See you tomorrow!"
+  },
+  {
+   "who": "N",
+   "say": "Plutarch, a Greek writer, says the pirates took the gifts and simply sailed off.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.6,
+      "s": 0.8,
+      "move": [
+       0.5,
+       0.95
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BYE!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spartacus never reached Sicily, and Crassus crushed his revolt the next year.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "shrug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Spartacus paid pirates for a ride to Sicily. They took the cash and left.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #spartacus #pirates #ancientrome #historytok",
+ "youtube_title": "Pirates Scammed Spartacus #shorts",
+ "tags": [
+  "spartacus",
+  "cilician pirates",
+  "crassus",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038",
+  "https://www.livius.org/sources/content/plutarch/plutarchs-crassus/plutarch-on-spartacus/",
+  "https://www.worldhistory.org/article/871/the-spartacus-revolt/",
+  "https://en.wikipedia.org/wiki/Third_Servile_War",
+  "https://en.wikipedia.org/wiki/Cilician_pirates"
+ ]
+}

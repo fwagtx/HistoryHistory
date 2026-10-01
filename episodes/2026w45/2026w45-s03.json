@@ -1,0 +1,270 @@
+{
+ "id": "2026w45-s03",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "Ottoman Princes Were Locked in 'the Cage'",
+ "hook": "PRINCES IN A CAGE",
+ "music": "playful",
+ "cast": {
+  "suleiman2": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#5A6A7A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Suleiman II"
+  },
+  "janissary": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "tunic",
+   "color": "#2F4A8A",
+   "stache": "handlebar",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "olive"
+  },
+  "sultan": {
+   "preset": "sultan",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "suleiman2": "am_echo",
+  "janissary": "am_adam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One Ottoman prince spent nearly forty years locked in a palace apartment called the Cage.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "suleiman2",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "place": "Topkapı Palace, Istanbul · 1600s",
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.78,
+      "s": 0.9
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE CAGE",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Early sultans often had their brothers executed, so nobody could fight them for the throne.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "sultan",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "cam": "still",
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1600s, spare princes were kept alive instead, but locked in the Kafes, Turkish for cage.",
+   "show": {
+    "k": "card",
+    "label": "Where spare princes were kept",
+    "big": "THE KAFES",
+    "sub": "a locked apartment in the palace harem"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suleiman the Second went in as a little boy, in 1648.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "suleiman2",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "sad",
+      "s": 0.8
+     }
+    ],
+    "tag": {
+     "id": "suleiman2",
+     "text": "Prince Suleiman, later Suleiman II"
+    },
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1687, soldiers burst in to make him sultan. He was forty-five, and terrified.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "janissary",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "suleiman2",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.88,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "suleiman2",
+   "say": "If you've come to kill me, just say so.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "suleiman2",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "suleiman2"
+   }
+  },
+  {
+   "who": "janissary",
+   "say": "Kill you? No! You're the sultan now!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "janissary",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "suleiman2",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He ruled under four years. A cage is terrible training for running an empire.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "suleiman2",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "suleiman2",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "janissary",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He spent nearly 40 years locked in a palace room called the Cage.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #kafes #historytok #weirdhistory",
+ "youtube_title": "Ottoman Princes Were Locked in 'the Cage' #shorts",
+ "tags": [
+  "kafes",
+  "ottoman cage",
+  "suleiman ii",
+  "ottoman empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Kafes",
+  "https://en.wikipedia.org/wiki/Suleiman_II_(Ottoman_sultan)",
+  "https://www.amusingplanet.com/2019/09/the-ottoman-sultans-who-were-raised-in.html",
+  "https://www.ebsco.com/research-starters/history/reign-sultan-ahmed-i/",
+  "https://en.wikipedia.org/wiki/Ibrahim_(Ottoman_sultan)"
+ ]
+}

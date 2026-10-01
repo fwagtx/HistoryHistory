@@ -1,0 +1,287 @@
+{
+ "id": "2026w45-s19",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "Blackbeard Held a City Hostage for Medicine",
+ "hook": "HIS RANSOM? MEDICINE.",
+ "music": "playful",
+ "cast": {
+  "blackbeard": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#2A2A2A",
+   "color2": "#A8322A",
+   "beard": "long",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Blackbeard (Edward Teach)"
+  },
+  "governor": {
+   "preset": "noble",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2F3A5A",
+   "hair": "long",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Governor Robert Johnson"
+  },
+  "merchant": {
+   "preset": "merchant",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A"
+  }
+ },
+ "voices": {
+  "blackbeard": "am_fenrir",
+  "governor": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1718, Blackbeard held a whole port hostage, and asked for... medicine.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.9,
+      "flag": "pirate"
+     },
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.8,
+      "flag": "pirate"
+     },
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "MEDICINE"
+     }
+    ],
+    "place": "Charleston, South Carolina · May 1718",
+    "stickers": [
+     {
+      "text": "MEDICINE?!",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Charleston was one of the richest ports in the American colonies.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "uk1606"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Blackbeard parked his ships at the harbor entrance for about a week, grabbing ships as they came and went.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.4,
+      "s": 1.0,
+      "flag": "pirate",
+      "move": [
+       0.2,
+       0.45
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "BLOCKADE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He took hostages, including a leading member of the colony's council.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.35,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "merchant",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "blackbeard",
+     "text": "Blackbeard"
+    }
+   }
+  },
+  {
+   "who": "blackbeard",
+   "say": "Send me a chest of medicine, or the hostages don't come back."
+  },
+  {
+   "who": "governor",
+   "say": "Medicine? Not gold?",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "governor",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "governor",
+    "tag": {
+     "id": "governor",
+     "text": "Governor Robert Johnson"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think his crew was sick and needed treatment badly.",
+   "show": {
+    "k": "card",
+    "label": "Blackbeard's ransom",
+    "big": "1 CHEST",
+    "sub": "of medicine"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The town paid. The hostages went home, minus most of their fancy clothes.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.4,
+      "pose": "run",
+      "walk": [
+       0.3,
+       0.6
+      ],
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.7,
+      "flag": "pirate"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "governor",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Blackbeard blockaded a whole port. His ransom? A medicine chest.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #blackbeard #charleston #funnyhistory",
+ "youtube_title": "Blackbeard Held a City Hostage for Medicine #shorts",
+ "tags": [
+  "blackbeard",
+  "charleston blockade",
+  "pirates",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Blackbeard",
+  "https://www.scencyclopedia.org/sce/entries/blackbeard/",
+  "https://www.qaronline.org/history/blackbeard-history-dreaded-pirate",
+  "https://en.wikipedia.org/wiki/1718_in_piracy",
+  "https://content.time.com/time/specials/packages/article/0,28804,1860715_1860714_1860711,00.html"
+ ]
+}

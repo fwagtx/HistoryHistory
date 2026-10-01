@@ -1,0 +1,263 @@
+{
+ "id": "2026w45-s20",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "Pirates Almost Never Made Anyone Walk the Plank",
+ "hook": "PIRATES RARELY DID THIS",
+ "music": "playful",
+ "cast": {
+  "historian": {
+   "preset": "businessman",
+   "glasses": "round",
+   "hold": "book",
+   "hairColor": "#6A6A6A"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan"
+  },
+  "pirate2": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#2F6FC2",
+   "outfit": "pirateshirt",
+   "color": "#D8C8A0",
+   "stache": "bush",
+   "hairColor": "#6A4A2A",
+   "skin": "light"
+  },
+  "sailor": {
+   "preset": "sailor"
+  }
+ },
+ "voices": {
+  "pirate": "am_puck",
+  "pirate2": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Walking the plank? Real pirates almost never did it.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "sailor",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "The Caribbean · 1700s",
+    "stickers": [
+     {
+      "text": "MYTH?",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In movies, pirates make prisoners walk off a board into the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 1.1,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPLASH",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But historians have found only a handful of real cases.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "historian",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "RECORDS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The phrase first shows up in 1769, when a sailor named George Wood confessed he'd made men walk the plank.",
+   "show": {
+    "k": "card",
+    "label": "First known mention",
+    "big": "1769",
+    "sub": "a sailor's confession"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The famous picture mostly comes from later books, plays and movies.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "historian",
+      "x": 0.35,
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.7,
+      "text": "PIRATE PLAY TONIGHT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Wait. We were supposed to have a plank?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.68,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate2",
+   "say": "Nobody told me about any plank."
+  },
+  {
+   "who": "N",
+   "say": "Real pirates mostly wanted ships to surrender fast, with the loot still on board.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.55,
+      "s": 0.5
+     },
+     {
+      "k": "sailship",
+      "x": 0.82,
+      "s": 0.7,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Walking the plank is mostly a myth.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #mythbusting #historytok #funnyhistory",
+ "youtube_title": "Pirates Almost Never Made Anyone Walk the Plank #shorts",
+ "tags": [
+  "walking the plank",
+  "pirate myths",
+  "pirates",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Walking_the_plank",
+  "https://www.abc.net.au/science/articles/2011/03/01/3151647.htm",
+  "http://www.todayifoundout.com/index.php/2013/08/pirates-rarely-made-people-walk-the-plank/"
+ ]
+}

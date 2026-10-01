@@ -1,0 +1,272 @@
+{
+ "id": "2026w45-s29",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "Spartacus Escaped a Volcano on Vine Ladders",
+ "hook": "LADDERS MADE OF VINES",
+ "music": "playful",
+ "cast": {
+  "spartacus": {
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "outfit": "tunic",
+   "color": "#8A6A3A",
+   "hold": "sword",
+   "name": "Spartacus"
+  },
+  "glaber": {
+   "preset": "legionary",
+   "skin": "light",
+   "hat": "roman",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "name": "Gaius Claudius Glaber"
+  }
+ },
+ "voices": {
+  "spartacus": "am_fenrir",
+  "glaber": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Trapped on top of a volcano, Spartacus and his men escaped on ladders made of vines.",
+   "show": {
+    "k": "scene",
+    "bg": "volcano",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "place": "Mount Vesuvius, Italy · 73 BC",
+    "tag": {
+     "id": "spartacus",
+     "text": "Spartacus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spartacus was a gladiator, an enslaved fighter, from Thrace, roughly today's Bulgaria.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.4,
+      "mood": "angry",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "gate",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Capua, Italy · 73 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 73 BC, he and about seventy others broke out of their training school using kitchen knives."
+  },
+  {
+   "who": "N",
+   "say": "They hid on Mount Vesuvius, the volcano near Naples.",
+   "show": {
+    "k": "map",
+    "lon": 14.2,
+    "lat": 41.0,
+    "z0": 3.2,
+    "z1": 3.8,
+    "date": "73 BC",
+    "labels": [
+     [
+      "Capua",
+      14.25,
+      41.08,
+      14
+     ],
+     [
+      "Mount Vesuvius",
+      14.43,
+      40.82,
+      14
+     ],
+     [
+      "Naples",
+      14.25,
+      40.85,
+      -14
+     ]
+    ],
+    "areas": [
+     [
+      14.43,
+      40.82,
+      0.15,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "glaber",
+   "say": "Only one path down, and we're blocking it. We'll just wait.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "glaber",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "glaber",
+     "text": "Glaber, Roman commander"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But wild vines covered the top. Plutarch says the rebels twisted them into long ladders and climbed down the cliffs.",
+   "show": {
+    "k": "scene",
+    "bg": "volcano",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VINE LADDERS",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "spartacus",
+   "say": "Surprise!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "glaber",
+      "x": 0.72,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They attacked the Roman camp from behind and won. After that, thousands of enslaved people joined Spartacus."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "glaber",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Trapped on a volcano, Spartacus made ladders out of grapevines.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #spartacus #ancientrome #gladiator #historytok",
+ "youtube_title": "Spartacus Escaped a Volcano on Vine Ladders #shorts",
+ "tags": [
+  "spartacus",
+  "mount vesuvius",
+  "gladiator",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038",
+  "https://www.livius.org/sources/content/plutarch/plutarchs-crassus/plutarch-on-spartacus/",
+  "https://en.wikipedia.org/wiki/Battle_of_Mount_Vesuvius",
+  "https://en.wikipedia.org/wiki/Spartacus",
+  "https://www.britannica.com/event/Gladiatorial-War"
+ ]
+}

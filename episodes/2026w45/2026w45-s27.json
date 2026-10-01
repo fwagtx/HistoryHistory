@@ -1,0 +1,283 @@
+{
+ "id": "2026w45-s27",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "Crassus Stalked a Priestess for Her Villa",
+ "hook": "HE WANTED HER VILLA",
+ "music": "playful",
+ "cast": {
+  "crassus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hold": "moneybag",
+   "name": "Marcus Licinius Crassus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "licinia": {
+   "skin": "light",
+   "hat": "veil",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hair": "bun",
+   "hairColor": "#5A3A22",
+   "name": "Licinia, a Vestal Virgin"
+  }
+ },
+ "voices": {
+  "crassus": "bm_george",
+  "licinia": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome's richest man was put on trial for following a priestess around. He just wanted her house.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "place": "Rome · about 73 BC",
+    "tag": {
+     "id": "crassus",
+     "text": "Marcus Crassus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Licinia was a Vestal Virgin, a priestess of the goddess Vesta who promised never to marry.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "licinia",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "licinia",
+     "text": "Licinia, Vestal Virgin"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Getting too close to a Vestal was a very serious crime in Rome."
+  },
+  {
+   "who": "N",
+   "say": "And Marcus Crassus kept visiting her. Again and again.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "licinia",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "crassus",
+   "say": "Lovely villa. Ever thought of selling?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "point",
+      "hold": "moneybag"
+     },
+     {
+      "id": "licinia",
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.7
+     }
+    ],
+    "cam": "close",
+    "focus": "crassus"
+   }
+  },
+  {
+   "who": "licinia",
+   "say": "For the tenth time, no!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "licinia",
+      "x": 0.5,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "People got suspicious, and both of them ended up in court.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "scared"
+     },
+     {
+      "id": "licinia",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch, a Greek writer, says the judges let them go, because his real goal was obvious: buying her villa cheap."
+  },
+  {
+   "who": "N",
+   "say": "And he kept pestering her until he got it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.7
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "SOLD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's richest people.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "licinia",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome's richest man went on trial over a priestess. The real reason? Her villa.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crassus #ancientrome #funnyhistory #historytok",
+ "youtube_title": "Crassus Stalked a Priestess for Her Villa #shorts",
+ "tags": [
+  "crassus",
+  "vestal virgin",
+  "licinia",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038",
+  "https://en.wikisource.org/wiki/Plutarch's_Lives_(Clough)/Life_of_Crassus",
+  "https://en.wikipedia.org/wiki/Licinia_(1st-century_BC_vestal)",
+  "https://www.nationalgeographic.com/history/history-magazine/article/vestal-virgins-of-ancient-rome",
+  "https://en.wikipedia.org/wiki/Marcus_Licinius_Crassus"
+ ]
+}

@@ -1,0 +1,300 @@
+{
+ "id": "2026w45-s16",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "The Pirate Who Drank Tea",
+ "hook": "THE TEA-DRINKING PIRATE",
+ "music": "playful",
+ "cast": {
+  "bart": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#8A1E1A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Bartholomew Roberts"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan"
+  },
+  "pirate2": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#2F6FC2",
+   "outfit": "pirateshirt",
+   "color": "#D8C8A0",
+   "stache": "bush",
+   "hairColor": "#6A4A2A",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "bart": "bm_daniel",
+  "pirate": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The most successful pirate of his age reportedly drank tea, not rum.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "bart",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "goblet",
+      "mood": "happy"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.72,
+      "pose": "shrug",
+      "mood": "shock",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Caribbean · 1720",
+    "stickers": [
+     {
+      "text": "TEA, NOT RUM",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bartholomew Roberts, known as Black Bart, was an ordinary sailor from Wales.",
+   "show": {
+    "k": "map",
+    "lon": -3.8,
+    "lat": 52.2,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "around 1682",
+    "labels": [
+     [
+      "WALES",
+      -3.6,
+      52.4,
+      0
+     ],
+     [
+      "Pembrokeshire",
+      -4.9,
+      51.9,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1719, pirates captured his ship off West Africa. He joined them, and weeks later the crew elected him captain.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "bart",
+      "x": 0.62,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "tag": {
+     "id": "bart",
+     "text": "Black Bart Roberts"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In about three years, he captured more than four hundred ships.",
+   "show": {
+    "k": "card",
+    "label": "Ships captured",
+    "big": "400+",
+    "sub": "in about three years",
+    "cast": [
+     {
+      "id": "bart",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wore fine clothes, and his crew's rules banned gambling for money.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.4,
+      "s": 1.0,
+      "flag": "pirate",
+      "move": [
+       0.25,
+       0.5
+      ]
+     },
+     {
+      "k": "chest",
+      "x": 0.8,
+      "s": 0.4,
+      "y": 0.1
+     }
+    ]
+   }
+  },
+  {
+   "who": "bart",
+   "say": "Lights out at eight o'clock, gentlemen.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "bart",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.68,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "bart"
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Is this a pirate ship or a school?"
+  },
+  {
+   "who": "N",
+   "say": "He died in battle with the Royal Navy in 1722, and many historians mark it as the end of piracy's golden age.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.8,
+      "flag": "pirate"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 1.0,
+      "flag": "uk1606",
+      "move": [
+       0.85,
+       0.65
+      ]
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Cape Lopez, West Africa · 1722"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "bart",
+      "x": 0.3,
+      "pose": "wave",
+      "hold": "goblet",
+      "mood": "happy"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "400 ships captured, and he reportedly preferred tea.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #blackbart #historytok #funnyhistory",
+ "youtube_title": "The Pirate Who Drank Tea #shorts",
+ "tags": [
+  "black bart",
+  "bartholomew roberts",
+  "pirates",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Bartholomew_Roberts",
+  "https://www.britannica.com/biography/Bartholomew-Roberts",
+  "https://biography.wales/article/s-ROBE-BAR-1682.html",
+  "https://www.worldhistory.org/Bartholomew_Roberts/",
+  "https://www.rmg.co.uk/stories/maritime-history/pirates-bartholomew-roberts-chaloner-ogle-cup"
+ ]
+}

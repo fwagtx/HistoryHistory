@@ -1,0 +1,313 @@
+{
+ "id": "2026w45-s32",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "A Roman Official Cursed Crassus at the Gate",
+ "hook": "CURSED AT THE GATE",
+ "music": "playful",
+ "cast": {
+  "crassusgen": {
+   "skin": "light",
+   "hat": "roman",
+   "hatColor": "#B08A3A",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "hold": "sword",
+   "name": "Marcus Licinius Crassus"
+  },
+  "ateius": {
+   "skin": "olive",
+   "hair": "bald",
+   "hairColor": "#5A4A3A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "stache": "thin",
+   "name": "Gaius Ateius Capito"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  }
+ },
+ "voices": {
+  "crassusgen": "bm_george",
+  "ateius": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "As Rome's richest man marched off to war, an official stood at the city gate and cursed him.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "ateius",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.78,
+      "s": 0.8
+     }
+    ],
+    "place": "Rome · 55 BC",
+    "tag": {
+     "id": "ateius",
+     "text": "Ateius, a tribune"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 55 BC, Marcus Crassus planned a war on the Parthian Empire, in today's Iran and Iraq.",
+   "show": {
+    "k": "map",
+    "lon": 30.0,
+    "lat": 37.5,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "55 BC",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Parthian Empire",
+      47.0,
+      33.5,
+      14
+     ]
+    ],
+    "route": [
+     [
+      12.48,
+      41.9
+     ],
+     [
+      18.0,
+      40.0
+     ],
+     [
+      24.0,
+      36.5
+     ],
+     [
+      31.0,
+      35.5
+     ],
+     [
+      36.16,
+      36.2
+     ]
+    ],
+    "areas": [
+     [
+      48.0,
+      33.0,
+      6.0,
+      "rgba(106,62,142,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many Romans hated the plan, including Ateius, a tribune, an official who spoke for ordinary Romans.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "ateius",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "crassusgen",
+      "x": 0.72,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "crassusgen",
+     "text": "Marcus Crassus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch, a Greek writer, says Ateius set a burning bowl at the gate and poured offerings on it.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "ateius",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.6,
+      "s": 0.4
+     },
+     {
+      "k": "gate",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "ateius",
+   "say": "I curse you, Crassus, and this whole war!",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "ateius",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "crassusgen",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "crassusgen",
+   "say": "Noted. Moving on.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "walk",
+      "walk": [
+       0.3,
+       0.7
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.15,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says Romans believed nobody escaped curses like that."
+  },
+  {
+   "who": "N",
+   "say": "Two years later, Crassus died and his army was destroyed at Carrhae.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Carrhae · 53 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ateius",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "cross"
+     },
+     {
+      "id": "crassusgen",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He cursed Rome's richest man at the city gate. Two years later...\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crassus #ancientrome #curse #historytok",
+ "youtube_title": "A Roman Official Cursed Crassus at the Gate #shorts",
+ "tags": [
+  "crassus",
+  "ateius curse",
+  "battle of carrhae",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038",
+  "https://en.wikipedia.org/wiki/Gaius_Ateius_Capito_(tribune)",
+  "https://en.wikipedia.org/wiki/Marcus_Licinius_Crassus",
+  "https://en.wikipedia.org/wiki/Battle_of_Carrhae"
+ ]
+}

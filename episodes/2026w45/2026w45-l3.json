@@ -1,0 +1,2799 @@
+{
+ "id": "2026w45-l3",
+ "format": "long",
+ "date": "2026-11-06",
+ "title": "Crassus: The Richest Man in Rome and His Humiliating Death",
+ "music": "playful",
+ "cast": {
+  "crassus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hold": "moneybag",
+   "name": "Marcus Licinius Crassus"
+  },
+  "crassusgen": {
+   "skin": "light",
+   "hat": "roman",
+   "hatColor": "#B08A3A",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "hold": "sword",
+   "name": "Marcus Licinius Crassus"
+  },
+  "sulla": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#C89A5A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "name": "Lucius Cornelius Sulla"
+  },
+  "pacianus": {
+   "preset": "roman",
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "goatee",
+   "color": "#2F7A6A",
+   "name": "Vibius Pacianus"
+  },
+  "owner": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman homeowner"
+  },
+  "spartacus": {
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "outfit": "tunic",
+   "color": "#8A6A3A",
+   "hold": "sword",
+   "name": "Spartacus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "pompey": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#5A3A22",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A7A",
+   "name": "Pompey the Great"
+  },
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "lender": {
+   "preset": "merchant",
+   "skin": "olive",
+   "outfit": "tunic",
+   "color": "#6A5A3A",
+   "stache": "bush",
+   "hold": "scroll",
+   "name": "Caesar's lender"
+  },
+  "ateius": {
+   "skin": "olive",
+   "hair": "bald",
+   "hairColor": "#5A4A3A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "stache": "thin",
+   "name": "Gaius Ateius Capito"
+  },
+  "surena": {
+   "skin": "olive",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "hold": "bow",
+   "name": "Surena"
+  },
+  "parthian": {
+   "skin": "olive",
+   "hat": "mongol",
+   "hatColor": "#7A5A2A",
+   "outfit": "armor",
+   "color": "#7A5A2A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "hold": "bow",
+   "name": "Parthian horse archer"
+  },
+  "publius": {
+   "skin": "light",
+   "hat": "roman",
+   "hatColor": "#B08A3A",
+   "outfit": "armor",
+   "color": "#A8322A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "hold": "sword",
+   "name": "Publius Crassus"
+  },
+  "guide": {
+   "skin": "olive",
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#C8A060",
+   "beard": "goatee",
+   "hairColor": "#1E1C1B",
+   "name": "Ariamnes, the guide"
+  },
+  "orodes": {
+   "skin": "olive",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A1E3A",
+   "color2": "#D4A52A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "name": "King Orodes II of Parthia"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "camel": {
+   "animal": "camel",
+   "load": "salt"
+  },
+  "augustus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "outfit": "armor",
+   "color": "#C8A060",
+   "color2": "#8E2A2A",
+   "name": "Emperor Augustus"
+  }
+ },
+ "voices": {
+  "crassus": "bm_george",
+  "crassusgen": "bm_george",
+  "owner": "am_puck",
+  "spartacus": "am_fenrir",
+  "pompey": "bm_daniel",
+  "caesar": "am_eric",
+  "lender": "bm_lewis",
+  "ateius": "am_echo",
+  "surena": "am_liam"
+ },
+ "description": "Marcus Crassus got rich buying property seized from Sulla's enemies and burning buildings, crushed Spartacus's slave revolt, and paid Julius Caesar's debts. Then, at around sixty, he marched into the desert chasing glory and met the Parthians at Carrhae. We explain how Rome's richest man lost everything, and why the molten gold story is a legend.\n\nChapters are added automatically.\n\n#history #crassus #ancientrome #romanhistory #money",
+ "thumbnail": {
+  "style": "redbox",
+  "bg": "desert",
+  "lines": [
+   "RICHEST",
+   "ROMAN"
+  ],
+  "main": {
+   "id": "crassusgen",
+   "mood": "shock",
+   "hold": "moneybag"
+  },
+  "second": {
+   "id": "surena",
+   "mood": "smug",
+   "hold": "bow"
+  }
+ },
+ "youtube_title": "Crassus: The Richest Man in Rome and His Humiliating Death",
+ "tags": [
+  "crassus",
+  "marcus crassus",
+  "richest roman",
+  "battle of carrhae",
+  "spartacus",
+  "first triumvirate",
+  "julius caesar",
+  "pompey",
+  "parthian empire",
+  "roman history",
+  "money history",
+  "history",
+  "animated history"
+ ],
+ "beats": [
+  {
+   "who": "N",
+   "say": "Summer, 53 BC. The desert of northern Mesopotamia, in what's now southeastern Turkey.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hips"
+     },
+     {
+      "id": "legionary",
+      "x": 0.68
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.7,
+      "flag": "rome"
+     },
+     {
+      "k": "palm",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "place": "Near Carrhae, Mesopotamia · 53 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This old man in the shiny armor is Marcus Crassus, the richest man in Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "cam": "close",
+    "focus": "crassusgen",
+    "tag": {
+     "id": "crassusgen",
+     "text": "Marcus Licinius Crassus"
+    },
+    "stickers": [
+     {
+      "text": "RICHEST MAN IN ROME",
+      "at": 1.2,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back home he owns silver mines, huge farms, and big chunks of the city of Rome itself.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SILVER MINES",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "crassusgen",
+   "say": "Seven legions, and the richest general alive. This war will be easy.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ],
+    "cam": "close",
+    "focus": "crassusgen"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the enemy throws off their cloaks, and the whole horizon flashes with steel.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.55,
+      "mood": "angry",
+      "pose": "aim"
+     },
+     {
+      "id": "horse",
+      "x": 0.3
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.7
+     },
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "PARTHIANS!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within days, Crassus is dead and his army is wrecked. It's one of the worst defeats in Roman history.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.45,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how did the richest man in Rome lose everything in the desert? Let's go back to the start."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "Crassus: The Richest Man in Rome and His Humiliating Death",
+    "sub": "money, power and one very bad road trip",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.9,
+      "s": 0.8,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "115–82 BC",
+    "title": "The Rich Kid Who Hid in a Cave",
+    "bg": "sea"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Crassus was born around 115 BC into a rich and important Roman family.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ],
+    "place": "Rome · about 115 BC",
+    "tag": {
+     "id": "crassus",
+     "text": "Marcus Crassus, rich Roman"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome back then was a republic: no king, just elected leaders and the Senate, a council of powerful old men.",
+   "show": {
+    "k": "flag",
+    "flag": "rome",
+    "label": "THE ROMAN REPUBLIC",
+    "sub": "elected leaders and a Senate",
+    "bg": "rome"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The problem? Those leaders kept fighting civil wars. That means Romans fighting Romans."
+  },
+  {
+   "who": "N",
+   "say": "In 87 BC, the side led by a general named Marius seized Rome and hunted its enemies. Crassus's father and brother died in the violence.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Rome · 87 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So young Crassus ran all the way to Spain.",
+   "show": {
+    "k": "map",
+    "lon": -1.5,
+    "lat": 39.5,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "about 85 BC",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Spain",
+      -4.5,
+      37.0,
+      14
+     ]
+    ],
+    "route": [
+     [
+      12.48,
+      41.9
+     ],
+     [
+      8.0,
+      41.0
+     ],
+     [
+      3.0,
+      39.5
+     ],
+     [
+      -1.0,
+      37.8
+     ],
+     [
+      -4.4,
+      36.9
+     ]
+    ],
+    "areas": [
+     [
+      -4.4,
+      36.9,
+      1.0,
+      "rgba(168,50,42,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A family friend, Vibius Pacianus, let him hide in a seaside cave on his land, for eight whole months.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "sit"
+     },
+     {
+      "id": "pacianus",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.12,
+      "s": 0.8
+     },
+     {
+      "k": "jar",
+      "x": 0.55,
+      "s": 0.5,
+      "label": "DINNER"
+     }
+    ],
+    "place": "Spain · about 85 BC",
+    "tag": {
+     "id": "pacianus",
+     "text": "Vibius Pacianus, family friend"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch, a Greek writer who lived about 150 years later, says Pacianus sent him fancy meals every day. The servants carrying them never knew who they were feeding."
+  },
+  {
+   "who": "crassus",
+   "say": "Honestly? Best hiding spot ever. Great snacks.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.8
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "crassus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "When the enemy leader died, Crassus came out and joined Sulla, a tough general fighting Marius's side.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "sulla",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "crassusgen",
+      "x": 0.68,
+      "mood": "happy",
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.7,
+      "flag": "rome"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "sulla",
+     "text": "Lucius Cornelius Sulla, general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 82 BC, at the Colline Gate, right outside Rome, Crassus led one wing of Sulla's army and won. Sulla took over Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.45,
+      "mood": "shout",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.8
+     },
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "Colline Gate, Rome · 82 BC",
+    "stickers": [
+     {
+      "text": "VICTORY",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "82 BC",
+    "title": "Buying Rome on Sale",
+    "bg": "market"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now Sulla took his revenge. He posted lists of his enemies, called proscriptions.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "sulla",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.8,
+      "text": "PROSCRIBED"
+     }
+    ],
+    "place": "Rome · 82 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Anyone on a list could be killed, and the state sold off their houses and land.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.6,
+      "text": "FOR SALE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most people were scared to touch that property. Not Crassus. Plutarch says he was never tired of buying it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BARGAIN!",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he found an even stranger trick. Rome was packed with tall wooden buildings that caught fire all the time, and there was no public fire brigade.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.8
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Crassus bought more than five hundred enslaved builders, and waited."
+  },
+  {
+   "who": "owner",
+   "say": "My house is on fire! Somebody help!",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "scared"
+     },
+     {
+      "id": "crassus",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.5,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "fire"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "crassus",
+   "say": "Terrible. I'll buy it. Right now. Very cheap.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.3,
+      "mood": "sad"
+     },
+     {
+      "id": "crassus",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "crassus"
+   }
+  },
+  {
+   "who": "owner",
+   "say": "Fine! Just put it out!"
+  },
+  {
+   "who": "N",
+   "say": "According to Plutarch, that's how the largest part of Rome came into his hands.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MINE",
+      "at": 0.8,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "MINE TOO",
+      "at": 1.6,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also owned silver mines, farms, and many skilled slaves: readers, secretaries and silversmiths.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.7,
+      "s": 0.7,
+      "load": "gold"
+     },
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SILVER MINES",
+      "at": 0.8,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says Crassus started out with three hundred talents and grew it to seven thousand one hundred.",
+   "show": {
+    "k": "card",
+    "label": "Crassus's fortune, according to Plutarch",
+    "big": "7,100 talents",
+    "sub": "a talent was about 26 kg of silver",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.9,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's roughly a hundred and eighty tonnes of silver. About the weight of a hundred and fifty cars."
+  },
+  {
+   "who": "N",
+   "say": "But the Romans had a saying about him, and Plutarch wrote it down.",
+   "show": {
+    "k": "quote",
+    "text": "The Romans, it is true, say that the many virtues of Crassus were obscured by his sole vice of avarice.",
+    "who": "Plutarch, Life of Crassus 2 (trans. Bernadotte Perrin)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Avarice means greed. Remember that word. It's going to matter."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "73–71 BC",
+    "title": "The Gladiator Problem",
+    "bg": "battlefield"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 73 BC, about seventy gladiators broke out of a training school in Capua, in southern Italy.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "run",
+      "walk": [
+       0.25,
+       0.55
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "gate",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "Capua, Italy · 73 BC",
+    "tag": {
+     "id": "spartacus",
+     "text": "Spartacus, gladiator from Thrace"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Gladiators were enslaved fighters, forced to battle for crowds. Their leader was Spartacus, from Thrace, roughly today's Bulgaria."
+  },
+  {
+   "who": "N",
+   "say": "They grabbed kitchen knives, escaped, and hid on Mount Vesuvius, the volcano near Naples.",
+   "show": {
+    "k": "map",
+    "lon": 13.6,
+    "lat": 41.3,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "73 BC",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Capua",
+      14.25,
+      41.08,
+      14
+     ],
+     [
+      "Mount Vesuvius",
+      14.43,
+      40.82,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      14.43,
+      40.82,
+      0.2,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Thousands of other enslaved people joined them, and they beat army after army that Rome sent.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "legionary",
+      "x": 0.72,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome panicked. When it was time to pick a new commander, nobody wanted the job. Except Crassus.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ],
+    "place": "Rome · 72 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His first problem was his own army. When one of his officers disobeyed orders, lost a battle, and his men ran away, Crassus brought back an old, terrible punishment.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says he took five hundred men who ran first, and one in every ten was chosen by lot and executed. It's called decimation.",
+   "show": {
+    "k": "card",
+    "label": "Decimation, in Plutarch's account",
+    "big": "1 in 10",
+    "sub": "50 of the 500 soldiers who ran away"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spartacus then tried to escape to Sicily. He paid pirates to ferry his army across. The pirates took the money and just sailed off.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.8,
+      "move": [
+       0.6,
+       0.98
+      ]
+     }
+    ],
+    "place": "Southern Italy · 72 BC"
+   }
+  },
+  {
+   "who": "spartacus",
+   "say": "Hey! We paid you!",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "spartacus",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.6,
+      "move": [
+       0.7,
+       1.0
+      ]
+     }
+    ],
+    "cam": "close",
+    "focus": "spartacus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Crassus had his men dig a giant ditch and wall across the toe of Italy to trap the rebels. Plutarch says it ran about fifty-five kilometers.",
+   "show": {
+    "k": "map",
+    "lon": 16.0,
+    "lat": 38.8,
+    "z0": 3.4,
+    "z1": 3.9,
+    "date": "72–71 BC",
+    "labels": [
+     [
+      "Rhegium",
+      15.65,
+      38.11,
+      14
+     ],
+     [
+      "Sicily",
+      14.2,
+      37.5,
+      14
+     ],
+     [
+      "Crassus's wall",
+      16.3,
+      39.05,
+      14
+     ]
+    ],
+    "route": [
+     [
+      15.95,
+      39.0
+     ],
+     [
+      16.65,
+      38.85
+     ]
+    ],
+    "areas": [
+     [
+      15.9,
+      38.4,
+      0.4,
+      "rgba(168,50,42,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spartacus broke through, but in 71 BC Crassus caught his army and crushed it. Spartacus died in the battle, and his body was never found.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Southern Italy · 71 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "About six thousand captured rebels were crucified along the Appian Way, the main road to Rome. It was a cruel warning to every enslaved person in Italy.",
+   "show": {
+    "k": "map",
+    "lon": 13.4,
+    "lat": 41.5,
+    "z0": 3.4,
+    "z1": 3.8,
+    "date": "71 BC",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Capua",
+      14.25,
+      41.08,
+      14
+     ],
+     [
+      "Appian Way",
+      13.3,
+      41.45,
+      14
+     ]
+    ],
+    "route": [
+     [
+      14.25,
+      41.08
+     ],
+     [
+      13.6,
+      41.27
+     ],
+     [
+      13.25,
+      41.42
+     ],
+     [
+      12.9,
+      41.6
+     ],
+     [
+      12.48,
+      41.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then came the annoying part. Pompey, a young star general, showed up at the very end and wiped out about five thousand rebels who had fled the battle.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pompey",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.78,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "pompey",
+     "text": "Pompey the Great, general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wrote to the Senate that Crassus had beaten the rebels in battle, but he, Pompey, had pulled the war up by the roots."
+  },
+  {
+   "who": "crassus",
+   "say": "Excuse me? You pulled it up by the roots?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "pompey",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ],
+    "cam": "close",
+    "focus": "crassus"
+   }
+  },
+  {
+   "who": "pompey",
+   "say": "You're welcome.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "angry"
+     },
+     {
+      "id": "pompey",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ],
+    "cam": "close",
+    "focus": "pompey"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pompey got a triumph, Rome's biggest victory parade, for his war in Spain. Crassus got an ovation, the smaller version.",
+   "show": {
+    "k": "compare",
+    "bg": "rome",
+    "left": {
+     "label": "Pompey: a TRIUMPH",
+     "cast": [
+      {
+       "id": "pompey",
+       "mood": "happy",
+       "pose": "cheer"
+      }
+     ]
+    },
+    "right": {
+     "label": "Crassus: an OVATION",
+     "cast": [
+      {
+       "id": "crassus",
+       "mood": "sad",
+       "pose": "shrug"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "No wonder that once, when someone announced Pompey the Great, Plutarch says Crassus laughed and asked: how great is he?"
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "61–60 BC",
+    "title": "The Bank of Crassus",
+    "bg": "rome"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next, Crassus made his smartest investment ever: a broke politician named Julius Caesar.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.7,
+      "text": "DEBTS"
+     }
+    ],
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar, politician"
+    },
+    "place": "Rome · 61 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar spent huge sums on shows and gifts to win votes. By 61 BC, he owed so much that his lenders wouldn't let him leave to govern part of Spain."
+  },
+  {
+   "who": "lender",
+   "say": "Nobody leaves Rome until I get my money!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "lender",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "caesar",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Crassus, buddy. Tiny favor?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "crassus",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "caesar"
+   }
+  },
+  {
+   "who": "crassus",
+   "say": "How tiny?"
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says Crassus guaranteed eight hundred and thirty talents of Caesar's debts, about twenty tonnes of silver. Caesar was free to go.",
+   "show": {
+    "k": "card",
+    "label": "Caesar's debts Crassus guaranteed (Plutarch)",
+    "big": "830 talents",
+    "sub": "about 20 tonnes of silver",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.9,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A year later, in 60 BC, Crassus, Caesar and Pompey made a secret deal to run Rome together. Historians call it the First Triumvirate, the rule of three men.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.5,
+      "mood": "smug"
+     },
+     {
+      "id": "crassus",
+      "x": 0.2,
+      "mood": "happy",
+      "hold": "moneybag"
+     },
+     {
+      "id": "pompey",
+      "x": 0.8,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.06,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.94,
+      "s": 0.6
+     }
+    ],
+    "place": "Rome · 60 BC",
+    "stickers": [
+     {
+      "text": "THE PLANS",
+      "at": 0.6,
+      "color": "#6A3E8E"
+     },
+     {
+      "text": "THE MONEY",
+      "at": 1.4,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "THE FAME",
+      "at": 2.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar had the plans, Crassus had the money, and Pompey had the fame. Crassus and Pompey still couldn't stand each other."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "55 BC",
+    "title": "Chasing Glory",
+    "bg": "rome"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 55 BC, Crassus was around sixty. He had everything except one thing: military glory like Caesar's and Pompey's.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.7,
+      "label": "POMPEY"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Rome · 55 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he took command of Syria, at the eastern edge of Rome's lands, and planned a war on the Parthian Empire.",
+   "show": {
+    "k": "map",
+    "lon": 28.0,
+    "lat": 37.5,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "55–54 BC",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Antioch, Syria",
+      36.16,
+      36.2,
+      14
+     ],
+     [
+      "Parthian Empire",
+      47.0,
+      33.5,
+      14
+     ]
+    ],
+    "route": [
+     [
+      12.48,
+      41.9
+     ],
+     [
+      18.0,
+      40.0
+     ],
+     [
+      24.0,
+      36.5
+     ],
+     [
+      31.0,
+      35.5
+     ],
+     [
+      36.16,
+      36.2
+     ]
+    ],
+    "areas": [
+     [
+      48.0,
+      33.0,
+      6.0,
+      "rgba(106,62,142,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Parthia was a huge empire in what's now Iran and Iraq. And it hadn't attacked Rome."
+  },
+  {
+   "who": "N",
+   "say": "Plenty of Romans hated the plan. As Crassus marched out, a tribune named Ateius, an official who spoke for ordinary Romans, ran to the city gate and lit a fire.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "ateius",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.8
+     },
+     {
+      "k": "fire",
+      "x": 0.6,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "ateius",
+     "text": "Gaius Ateius Capito, tribune"
+    }
+   }
+  },
+  {
+   "who": "ateius",
+   "say": "I curse you, Crassus! You and this whole war!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "ateius",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "crassusgen",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.5,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "crassusgen",
+   "say": "Okay. Noted. Moving on.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "walk",
+      "walk": [
+       0.4,
+       0.8
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.2,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ],
+    "cam": "close",
+    "focus": "crassusgen"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says Romans believed nobody escaped curses like that."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "53 BC",
+    "title": "The Desert Trap",
+    "bg": "desert"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 53 BC, Crassus crossed the Euphrates River with seven legions, around forty thousand men.",
+   "show": {
+    "k": "map",
+    "lon": 38.4,
+    "lat": 36.9,
+    "z0": 3.4,
+    "z1": 4.0,
+    "date": "53 BC",
+    "labels": [
+     [
+      "Zeugma (Euphrates crossing)",
+      37.87,
+      37.06,
+      14
+     ],
+     [
+      "Carrhae (Harran)",
+      39.03,
+      36.86,
+      14
+     ],
+     [
+      "Antioch, Syria",
+      36.16,
+      36.2,
+      14
+     ]
+    ],
+    "route": [
+     [
+      37.87,
+      37.06
+     ],
+     [
+      38.4,
+      36.95
+     ],
+     [
+      39.03,
+      36.86
+     ]
+    ],
+    "areas": [
+     [
+      39.03,
+      36.86,
+      0.25,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A local chief offered to guide them. Plutarch calls him Ariamnes. He led the Romans away from the river, into open desert.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "guide",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "crassusgen",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.1,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.6,
+      "text": "SHORTCUT"
+     }
+    ],
+    "place": "Mesopotamia · 53 BC",
+    "tag": {
+     "id": "guide",
+     "text": "Ariamnes, the guide (Plutarch's name)"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was secretly working for the Parthians."
+  },
+  {
+   "who": "N",
+   "say": "Waiting for them was Surena, the Parthian general. Plutarch says he was under thirty, very tall, wore face paint, and traveled with a thousand camels just for his luggage.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "surena",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "camel",
+      "x": 0.75
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "surena",
+     "text": "Surena, Parthian general"
+    }
+   }
+  },
+  {
+   "who": "surena",
+   "say": "Romans in heavy armor, in the desert, in summer? Lovely.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "surena",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "cam": "close",
+    "focus": "surena"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His army was mostly horse archers, riders who shot arrows at full gallop, plus armored riders called cataphracts.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "aim"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "HORSE ARCHERS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At first they hid their armor under cloaks. Then, all at once, they threw them off, and their helmets blazed in the sun.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "cheer"
+     },
+     {
+      "id": "legionary",
+      "x": 0.72,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "banner",
+      "x": 0.55,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Florus, a later Roman writer, says their banners glittered with gold and silk. People often say it was Rome's first look at silk, but nobody can prove it.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.7,
+      "s": 0.9,
+      "label": "SILK?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ONE LATER ACCOUNT",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Romans locked shields in a tight square. The Parthians just circled around and shot.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.45,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Romans hoped the arrows would run out. Then they saw camels loaded with fresh arrows.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.35,
+      "mood": "happy"
+     },
+     {
+      "id": "camel",
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.5,
+      "label": "ARROWS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ARROW REFILLS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even while riding away, the archers twisted round and shot backward. It's called the Parthian shot.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "aim",
+      "flip": true
+     },
+     {
+      "id": "horse",
+      "x": 0.3
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE PARTHIAN SHOT",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Crassus sent his son Publius, a brave young officer who had fought for Caesar in Gaul, to charge them. The Parthians lured him away, and he and most of his men were killed.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "publius",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "publius",
+     "text": "Publius Crassus, his son"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says Crassus then walked through the ranks and told his men this.",
+   "show": {
+    "k": "quote",
+    "text": "Mine, O Romans, is this sorrow, and mine alone.",
+    "who": "Crassus, as reported by Plutarch, Life of Crassus 26 (trans. Perrin)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That night, the Romans retreated to the town of Carrhae, leaving thousands of wounded behind.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "walk"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.9,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.12,
+      "s": 0.3
+     }
+    ],
+    "place": "Carrhae · 53 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In total, Plutarch counts about twenty thousand Romans killed and ten thousand captured.",
+   "show": {
+    "k": "card",
+    "label": "Roman losses at Carrhae (Plutarch)",
+    "big": "20,000",
+    "sub": "killed, plus 10,000 captured"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "53 BC",
+    "title": "The Last Deal",
+    "bg": "desert"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A few days later, Surena invited Crassus to a peace meeting. Crassus didn't trust it, but his own soldiers pushed him to go.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.3,
+      "mood": "scared"
+     },
+     {
+      "id": "surena",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.5,
+      "s": 0.6
+     },
+     {
+      "k": "palm",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "place": "Near Carrhae · June 53 BC"
+   }
+  },
+  {
+   "who": "crassusgen",
+   "say": "I have a very bad feeling about this.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.45,
+      "mood": "scared",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "crassusgen"
+   }
+  },
+  {
+   "who": "N",
+   "say": "At the meeting, a scuffle broke out over a horse. In the chaos, Crassus was killed.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "surena",
+      "x": 0.35,
+      "mood": "shock"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the richest man in Rome died in the desert, far away from all his money.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And you've probably heard the famous part: that the Parthians poured molten gold into his mouth, to mock his greed.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "orodes",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.9,
+      "s": 0.5,
+      "text": "LEGEND"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "orodes",
+     "text": "King Orodes II of Parthia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's a legend. It comes from Cassius Dio, a historian writing more than two hundred and fifty years later, and even he only says some people tell it.",
+   "show": {
+    "k": "card",
+    "label": "The molten gold story",
+    "big": "LEGEND",
+    "sub": "Cassius Dio, about 270 years later: 'as some say'"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Surena didn't enjoy his win for long. King Orodes got jealous of his star general and had him killed.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "orodes",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "surena",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back in Rome, the three-man team was now two. With Crassus gone, Caesar and Pompey drifted apart, and in 49 BC they went to war with each other.",
+   "show": {
+    "k": "compare",
+    "bg": "rome",
+    "left": {
+     "label": "CAESAR",
+     "cast": [
+      {
+       "id": "caesar",
+       "mood": "angry",
+       "pose": "fist"
+      }
+     ]
+    },
+    "right": {
+     "label": "POMPEY",
+     "cast": [
+      {
+       "id": "pompey",
+       "mood": "angry",
+       "pose": "fist"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That civil war helped end the Roman Republic for good."
+  },
+  {
+   "who": "N",
+   "say": "Rome finally got its lost eagle standards back in 20 BC, through a deal, not a battle. The handover is even carved on the armor of a famous statue of Emperor Augustus.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.9,
+      "label": "Augustus of Prima Porta"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ],
+    "place": "Rome · 20 BC",
+    "tag": {
+     "id": "augustus",
+     "text": "Emperor Augustus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the richest man in Rome bought houses, land, and even Julius Caesar's debts. But the one thing he wanted most, glory, was never for sale.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next up: the Vikings, from raiders to kings. Watch this next, and subscribe.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "crassus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "moneybag"
+     },
+     {
+      "id": "caesar",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "next": "The ENTIRE History of the Vikings in 10 Minutes"
+   }
+  }
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Crassus*.html",
+  "https://www.loebclassics.com/view/plutarch-lives_crassus/1916/pb_LCL065.315.xml?readMode=recto",
+  "https://en.wikisource.org/wiki/Plutarch's_Lives_(Clough)/Life_of_Crassus",
+  "https://en.wikipedia.org/wiki/Marcus_Licinius_Crassus",
+  "https://www.britannica.com/biography/Marcus-Licinius-Crassus",
+  "https://www.nationalgeographic.com/history/history-magazine/article/crassus-romes-richest-man",
+  "https://www.historyhit.com/marcus-crassus/",
+  "https://en.wikipedia.org/wiki/Sulla%27s_proscription",
+  "https://en.wikipedia.org/wiki/Battle_of_the_Colline_Gate",
+  "https://www.historyofwar.org/articles/battles_colline_gate.html",
+  "https://en.wikipedia.org/wiki/Vigiles",
+  "https://en.wikipedia.org/wiki/Attic_talent",
+  "https://en.wikipedia.org/wiki/Spartacus",
+  "https://en.wikipedia.org/wiki/Third_Servile_War",
+  "https://www.britannica.com/event/Gladiatorial-War",
+  "https://www.livius.org/sources/content/plutarch/plutarchs-crassus/plutarch-on-spartacus/",
+  "https://www.worldhistory.org/article/871/the-spartacus-revolt/",
+  "https://en.wikipedia.org/wiki/Battle_of_Mount_Vesuvius",
+  "https://en.wikipedia.org/wiki/Decimation_(punishment)",
+  "https://en.wikipedia.org/wiki/Cilician_pirates",
+  "https://en.wikipedia.org/wiki/Ovation",
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0244%3Achapter%3D11",
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0132%3Alife%3Djul.%3Achapter%3D18",
+  "https://en.wikipedia.org/wiki/First_Triumvirate",
+  "https://www.worldhistory.org/First_Triumvirate/",
+  "https://en.wikipedia.org/wiki/Gaius_Ateius_Capito_(tribune)",
+  "https://en.wikipedia.org/wiki/Battle_of_Carrhae",
+  "https://www.worldhistory.org/article/1406/battle-of-carrhae-53-bce/",
+  "https://www.iranicaonline.org/articles/carrhae-harran-town-in-mesopotamia-where-in-may-53-b/",
+  "https://en.wikipedia.org/wiki/Surena",
+  "https://www.livius.org/articles/person/surena/",
+  "http://www.silkroadfoundation.org/artl/carrhae.shtml",
+  "https://www.unrv.com/economy/silk.php",
+  "https://en.wikipedia.org/wiki/Publius_Licinius_Crassus_(son_of_triumvir)",
+  "https://en.wikipedia.org/wiki/Orodes_II",
+  "https://www.badancient.com/claims/crassus-gold-poured-down-throat/",
+  "https://history.howstuffworks.com/historical-events/ridiculous-history-execution-molten-gold.htm",
+  "https://en.wikipedia.org/wiki/Cassius_Dio",
+  "https://en.wikipedia.org/wiki/Augustus'_Eastern_policy",
+  "https://penelope.uchicago.edu/~grout/encyclopaedia_romana/miscellanea/museums/augustusprimaporta.html",
+  "https://coinweek.com/ancient-roman-coins-victory-over-parthia-and-the-lost-roman-standards/",
+  "https://classics.mit.edu/Plutarch/pompey.html"
+ ]
+}

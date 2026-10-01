@@ -1,0 +1,311 @@
+{
+ "id": "2026w45-s09",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "How the Last Ottoman Sultan Left Istanbul",
+ "hook": "THE LAST SULTAN LEAVES",
+ "music": "playful",
+ "cast": {
+  "mehmed6": {
+   "hat": "turban",
+   "hatColor": "#B8202A",
+   "outfit": "coat",
+   "color": "#1F1F2A",
+   "stache": "thin",
+   "beard": "goatee",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Sultan Mehmed VI"
+  },
+  "kemal": {
+   "outfit": "uniform",
+   "color": "#6B6F3E",
+   "hair": "side",
+   "hairColor": "#8A6A4A",
+   "skin": "light",
+   "name": "Mustafa Kemal (Atatürk)"
+  }
+ },
+ "voices": {
+  "mehmed6": "bm_daniel",
+  "kemal": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "After over six hundred years, the last Ottoman sultan left Istanbul on a British warship.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "mehmed6",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "sad"
+     }
+    ],
+    "place": "Istanbul · 17 November 1922",
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.7,
+      "s": 0.8,
+      "flag": "uk"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Mehmed the Sixth. He became sultan in 1918, just as the empire lost World War One.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "mehmed6",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "mehmed6",
+     "text": "Sultan Mehmed VI"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "flag": "ottoman"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The winners occupied Istanbul. Meanwhile, army officer Mustafa Kemal set up a rival government in Ankara.",
+   "show": {
+    "k": "map",
+    "lon": 31,
+    "lat": 40,
+    "z0": 2.2,
+    "z1": 2.5,
+    "date": "1920 to 1922",
+    "labels": [
+     [
+      "Istanbul",
+      28.98,
+      41.01,
+      0
+     ],
+     [
+      "Ankara",
+      32.85,
+      39.93,
+      0
+     ]
+    ],
+    "route": [
+     [
+      28.98,
+      41.01
+     ],
+     [
+      30.5,
+      40.5
+     ],
+     [
+      32.85,
+      39.93
+     ]
+    ],
+    "areas": [
+     [
+      32.85,
+      39.93,
+      0.6,
+      "rgba(214,48,40,.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On November 1, 1922, Kemal's parliament voted to abolish the sultanate.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "kemal",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "happy"
+     }
+    ],
+    "place": "Ankara · 1 November 1922",
+    "tag": {
+     "id": "kemal",
+     "text": "Mustafa Kemal"
+    },
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.7,
+      "text": "NO MORE SULTANS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "kemal",
+   "say": "No more sultans. The nation rules itself now.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kemal",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "kemal",
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "flag": "ottoman"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mehmed feared for his safety, so he asked the British for help.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "mehmed6",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "scared",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "mehmed6",
+   "say": "Six centuries of sultans, and I'm leaving with a few suitcases.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "mehmed6",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "mehmed6",
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.5,
+      "label": "LUGGAGE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sailed off on HMS Malaya sixteen days after the vote, and died in Italy in 1926.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.5,
+      "s": 0.9,
+      "flag": "uk",
+      "move": [
+       0.3,
+       0.8
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HMS MALAYA",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more endings history forgot.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "mehmed6",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "sad"
+     },
+     {
+      "id": "kemal",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The last Ottoman sultan didn't lose a battle. He caught a British ship.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #turkey #historytok #ataturk",
+ "youtube_title": "How the Last Ottoman Sultan Left Istanbul #shorts",
+ "tags": [
+  "mehmed vi",
+  "last ottoman sultan",
+  "abolition of the sultanate",
+  "ataturk",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mehmed_VI",
+  "https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_sultanate",
+  "https://origins.osu.edu/watch/treaty-lausanne-and-end-ottoman-empire",
+  "https://www.britannica.com/biography/Mehmed-VI",
+  "https://en.wikipedia.org/wiki/HMS_Malaya"
+ ]
+}

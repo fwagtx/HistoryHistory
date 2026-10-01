@@ -1,0 +1,267 @@
+{
+ "id": "2026w45-s14",
+ "format": "short",
+ "date": "2026-11-04",
+ "slot": "09:00",
+ "title": "Blackbeard Took Another Pirate's Ship",
+ "hook": "PIRATE GOT PIRATED",
+ "music": "playful",
+ "cast": {
+  "blackbeard": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#2A2A2A",
+   "color2": "#A8322A",
+   "beard": "long",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Blackbeard (Edward Teach)"
+  },
+  "bonnet": {
+   "preset": "noble",
+   "hat": "tricorn",
+   "hatColor": "#2F3A5A",
+   "outfit": "coat",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "hair": "long",
+   "hairColor": "#EFEFEF",
+   "skin": "peach",
+   "name": "Stede Bonnet"
+  }
+ },
+ "voices": {
+  "blackbeard": "am_fenrir",
+  "bonnet": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Stede Bonnet bought a pirate ship. Then a real pirate took it off him.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "blackbeard",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Nassau, Bahamas · late 1717",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bonnet was a rich landowner from Barbados who became a pirate with no sailing experience.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "bonnet",
+     "text": "Stede Bonnet"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1717 he sailed his ship, the Revenge, to Nassau in the Bahamas, a famous pirate hangout.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.45,
+      "s": 1.0,
+      "flag": "pirate",
+      "label": "REVENGE"
+     },
+     {
+      "k": "palm",
+      "x": 0.85,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There he met Blackbeard, the most feared pirate of the day.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "blackbeard",
+     "text": "Blackbeard"
+    }
+   }
+  },
+  {
+   "who": "blackbeard",
+   "say": "You can't really sail, can you?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "bonnet",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "objects": [],
+    "cam": "close",
+    "focus": "blackbeard"
+   }
+  },
+  {
+   "who": "bonnet",
+   "say": "Not... technically."
+  },
+  {
+   "who": "N",
+   "say": "Bonnet was wounded and his crew was restless, so Blackbeard took command of the Revenge.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.9,
+      "flag": "pirate",
+      "label": "Revenge"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 1.0,
+      "flag": "pirate",
+      "label": "Blackbeard"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bonnet stayed on Blackbeard's big ship as a guest. He'd paid for a pirate adventure and became a passenger.",
+   "show": {
+    "k": "card",
+    "label": "Bonnet's new job",
+    "big": "GUEST",
+    "sub": "on someone else's ship",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "bonnet",
+      "x": 0.3,
+      "pose": "shrug"
+     },
+     {
+      "id": "blackbeard",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He bought a pirate ship. Blackbeard took it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #blackbeard #historytok #funnyhistory",
+ "youtube_title": "Blackbeard Took Another Pirate's Ship #shorts",
+ "tags": [
+  "blackbeard",
+  "stede bonnet",
+  "pirates",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Stede_Bonnet",
+  "https://www.britannica.com/question/How-did-Stede-Bonnet-begin-his-pirate-career",
+  "https://www.dncr.nc.gov/blog/2023/12/11/stede-bonnet-1688-1718-d-110",
+  "https://www.scencyclopedia.org/sce/entries/bonnet-stede/",
+  "https://en.wikipedia.org/wiki/Blackbeard"
+ ]
+}

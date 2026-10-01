@@ -1,0 +1,327 @@
+{
+ "id": "2026w45-s35",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "Rome Got Its Lost Eagles Back Without a Battle",
+ "hook": "ROME GOT ITS EAGLES BACK",
+ "music": "playful",
+ "cast": {
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "parthian": {
+   "skin": "olive",
+   "hat": "mongol",
+   "hatColor": "#7A5A2A",
+   "outfit": "armor",
+   "color": "#7A5A2A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "hold": "bow",
+   "name": "Parthian horse archer"
+  },
+  "augustus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "outfit": "armor",
+   "color": "#C8A060",
+   "color2": "#8E2A2A",
+   "name": "Emperor Augustus"
+  },
+  "phraates": {
+   "skin": "olive",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F5A7A",
+   "color2": "#D4A52A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "name": "King Phraates IV of Parthia"
+  }
+ },
+ "voices": {
+  "augustus": "am_eric",
+  "phraates": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome lost its sacred battle standards to Parthia, and got them back thirty-three years later without a battle.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.8,
+      "label": "EAGLE STANDARD"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Rome · 20 BC",
+    "tag": {
+     "id": "augustus",
+     "text": "Emperor Augustus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 53 BC, Marcus Crassus lost a huge battle at Carrhae, in today's Turkey.",
+   "show": {
+    "k": "map",
+    "lon": 38.5,
+    "lat": 36.9,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "53 BC",
+    "labels": [
+     [
+      "Zeugma (Euphrates crossing)",
+      37.87,
+      37.06,
+      14
+     ],
+     [
+      "Carrhae (Harran)",
+      39.03,
+      36.86,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      39.03,
+      36.86,
+      0.25,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Parthians took his legions' eagles, the golden standards every Roman legion carried.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "cheer",
+      "hold": "flag",
+      "flag": "rome"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "place": "Carrhae · 53 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "For Romans, losing an eagle was a terrible shame.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.45,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later, Emperor Augustus made a deal with Parthia's king, Phraates the Fourth.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "phraates",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "phraates",
+     "text": "Phraates IV, Parthian king"
+    }
+   }
+  },
+  {
+   "who": "augustus",
+   "say": "You get your son back. I get my eagles back."
+  },
+  {
+   "who": "phraates",
+   "say": "Fine. Prisoners too.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "phraates",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "phraates"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 20 BC the eagles came home. Augustus celebrated like he'd won a war.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A famous statue of Augustus shows the handover on his armor.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.7,
+      "s": 0.9,
+      "label": "Augustus of Prima Porta"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "phraates",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome lost its eagles at Carrhae. 33 years later it got them back with a deal.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #augustus #ancientrome #parthia #historytok",
+ "youtube_title": "Rome Got Its Lost Eagles Back Without a Battle #shorts",
+ "tags": [
+  "augustus",
+  "carrhae standards",
+  "prima porta",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Augustus'_Eastern_policy",
+  "https://en.wikipedia.org/wiki/Phraates_IV",
+  "https://en.wikipedia.org/wiki/Augustus_of_Prima_Porta",
+  "https://penelope.uchicago.edu/~grout/encyclopaedia_romana/miscellanea/museums/augustusprimaporta.html",
+  "https://coinweek.com/ancient-roman-coins-victory-over-parthia-and-the-lost-roman-standards/",
+  "https://en.wikipedia.org/wiki/Aquila_(Roman)",
+  "https://en.wikipedia.org/wiki/Battle_of_Carrhae"
+ ]
+}

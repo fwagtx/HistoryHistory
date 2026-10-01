@@ -1,0 +1,311 @@
+{
+ "id": "2026w45-s05",
+ "format": "short",
+ "date": "2026-11-02",
+ "slot": "09:00",
+ "title": "The Sultan Who Ruled for 46 Years",
+ "hook": "46 YEARS ON THE THRONE",
+ "music": "playful",
+ "cast": {
+  "suleiman": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "color2": "#E8C25A",
+   "beard": "goatee",
+   "stache": "thin",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Suleiman the Magnificent"
+  }
+ },
+ "voices": {
+  "suleiman": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Suleiman the Magnificent ruled the Ottoman Empire for forty-six years, longer than any other sultan.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "place": "Istanbul · 1520",
+    "tag": {
+     "id": "suleiman",
+     "text": "Suleiman the Magnificent"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He took the throne in 1520, aged about twenty-five.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Europeans called him the Magnificent, because of his wealth, his armies and his dazzling court.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At home, he had a different nickname: the Lawgiver, because he organized the empire's laws.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.6,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.22,
+      "s": 0.8,
+      "text": "LAWS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "suleiman",
+   "say": "One set of laws for the whole empire. Write it down.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "suleiman",
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His armies took Belgrade, Rhodes and Baghdad, and crushed Hungary's army at Mohács in 1526.",
+   "show": {
+    "k": "map",
+    "lon": 29,
+    "lat": 40,
+    "z0": 1.2,
+    "z1": 1.4,
+    "date": "1521 to 1534",
+    "labels": [
+     [
+      "Belgrade",
+      20.46,
+      44.82,
+      0
+     ],
+     [
+      "Mohács",
+      18.68,
+      45.99,
+      0
+     ],
+     [
+      "Rhodes",
+      28.2,
+      36.4,
+      0
+     ],
+     [
+      "Baghdad",
+      44.36,
+      33.31,
+      0
+     ],
+     [
+      "Istanbul",
+      28.98,
+      41.01,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      20.46,
+      44.82,
+      1,
+      "rgba(214,48,40,.5)"
+     ],
+     [
+      28.2,
+      36.4,
+      0.8,
+      "rgba(214,48,40,.5)"
+     ],
+     [
+      44.36,
+      33.31,
+      1,
+      "rgba(214,48,40,.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was still leading armies at about seventy-one, and died on campaign in Hungary in 1566.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.4,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still",
+    "place": "Szigetvár, Hungary · 1566",
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.8
+     },
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Forty-six years. No Ottoman sultan before or after ever beat that.",
+   "show": {
+    "k": "card",
+    "label": "Suleiman ruled for",
+    "big": "46 YEARS",
+    "sub": "1520 to 1566, the longest Ottoman reign",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.86,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history record breakers.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "suleiman",
+      "x": 0.5,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Magnificent in Europe, the Lawgiver at home, and on the throne for 46 years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ottomanempire #suleiman #historytok #sultan",
+ "youtube_title": "The Sultan Who Ruled for 46 Years #shorts",
+ "tags": [
+  "suleiman the magnificent",
+  "ottoman empire",
+  "kanuni",
+  "ottoman sultan",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent",
+  "https://origins.osu.edu/milestones/suleyman-suleiman-the-magnificent-ottoman-empire",
+  "https://www.britannica.com/biography/Suleyman-the-Magnificent",
+  "https://en.wikipedia.org/wiki/Battle_of_Moh%C3%A1cs",
+  "https://en.wikipedia.org/wiki/Siege_of_Szigetv%C3%A1r"
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "id": "2026w45-s33",
+ "format": "short",
+ "date": "2026-11-06",
+ "slot": "09:00",
+ "title": "The Parthians Brought Camels Full of Arrows",
+ "hook": "CAMELS FULL OF ARROWS",
+ "music": "playful",
+ "cast": {
+  "crassusgen": {
+   "skin": "light",
+   "hat": "roman",
+   "hatColor": "#B08A3A",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "hair": "short",
+   "hairColor": "#7A6A5A",
+   "hold": "sword",
+   "name": "Marcus Licinius Crassus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "parthian": {
+   "skin": "olive",
+   "hat": "mongol",
+   "hatColor": "#7A5A2A",
+   "outfit": "armor",
+   "color": "#7A5A2A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "hold": "bow",
+   "name": "Parthian horse archer"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "camel": {
+   "animal": "camel",
+   "load": "salt"
+  }
+ },
+ "voices": {
+  "legionary": "am_puck",
+  "crassusgen": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome's army waited for the enemy to run out of arrows. Then the camels showed up.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "camel",
+      "x": 0.6
+     },
+     {
+      "id": "parthian",
+      "x": 0.3,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.5,
+      "label": "ARROWS"
+     }
+    ],
+    "place": "Carrhae · 53 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 53 BC, Marcus Crassus, Rome's richest man, invaded the Parthian Empire.",
+   "show": {
+    "k": "map",
+    "lon": 38.5,
+    "lat": 36.9,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "53 BC",
+    "labels": [
+     [
+      "Zeugma (Euphrates crossing)",
+      37.87,
+      37.06,
+      14
+     ],
+     [
+      "Carrhae (Harran)",
+      39.03,
+      36.86,
+      14
+     ]
+    ],
+    "route": [
+     [
+      37.87,
+      37.06
+     ],
+     [
+      38.4,
+      36.95
+     ],
+     [
+      39.03,
+      36.86
+     ]
+    ],
+    "areas": [
+     [
+      39.03,
+      36.86,
+      0.25,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Near Carrhae, in today's Turkey, his soldiers faced horse archers, riders who shoot arrows at full gallop.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "aim"
+     },
+     {
+      "id": "horse",
+      "x": 0.72
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "parthian",
+     "text": "Parthian horse archer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Romans locked their shields in a tight square and waited.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.45,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "Relax. They can't have that many arrows."
+  },
+  {
+   "who": "N",
+   "say": "But Plutarch says camels loaded with arrows stood nearby, and the archers kept riding back for more.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "camel",
+      "x": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.5,
+      "label": "ARROWS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ARROW REFILLS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "crassusgen",
+   "say": "They have refills?!",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "crassusgen",
+      "x": 0.45,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "tag": {
+     "id": "crassusgen",
+     "text": "Marcus Crassus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says Crassus lost heart. The battle cost Rome about twenty thousand dead and ten thousand captured.",
+   "show": {
+    "k": "card",
+    "label": "Roman losses at Carrhae (Plutarch)",
+    "big": "20,000",
+    "sub": "killed, plus 10,000 captured"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "wave"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Romans waited for the arrows to run out. The Parthians brought camels.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #battleofcarrhae #ancientrome #parthia #historytok",
+ "youtube_title": "The Parthians Brought Camels Full of Arrows #shorts",
+ "tags": [
+  "battle of carrhae",
+  "parthian empire",
+  "crassus",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038",
+  "https://en.wikipedia.org/wiki/Battle_of_Carrhae",
+  "https://www.worldhistory.org/article/1406/battle-of-carrhae-53-bce/",
+  "https://www.iranicaonline.org/articles/carrhae-harran-town-in-mesopotamia-where-in-may-53-b/"
+ ]
+}
