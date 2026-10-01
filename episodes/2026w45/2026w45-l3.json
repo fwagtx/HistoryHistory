@@ -176,7 +176,7 @@
   "ateius": "am_echo",
   "surena": "am_liam"
  },
- "description": "Marcus Crassus got rich buying property seized from Sulla's enemies and burning buildings, crushed Spartacus's slave revolt, and paid Julius Caesar's debts. Then, at around sixty, he marched into the desert chasing glory and met the Parthians at Carrhae. We explain how Rome's richest man lost everything, and why the molten gold story is a legend.\n\nChapters are added automatically.\n\n#history #crassus #ancientrome #romanhistory #money",
+ "description": "Marcus Crassus got rich buying property seized from Sulla's enemies and burning buildings, crushed Spartacus's slave revolt, and paid Julius Caesar's debts. Then, at around sixty, he marched into the desert chasing glory and met the Parthians at Carrhae. We explain how Rome's richest man lost everything, and why the molten gold story is probably a legend.\n\nChapters are added automatically.\n\n#history #crassus #ancientrome #romanhistory #money",
  "thumbnail": {
   "style": "redbox",
   "bg": "desert",
@@ -214,7 +214,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "Summer, 53 BC. The desert of northern Mesopotamia, in what's now southeastern Turkey.",
+   "say": "It's 53 BC, in the desert of northern Mesopotamia, in what's now southeastern Turkey.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -248,7 +248,7 @@
   },
   {
    "who": "N",
-   "say": "This old man in the shiny armor is Marcus Crassus, the richest man in Rome.",
+   "say": "This old man in the shiny armor is Marcus Crassus, famous as the richest man in Rome.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -1047,7 +1047,7 @@
   },
   {
    "who": "N",
-   "say": "That's roughly a hundred and eighty tonnes of silver. About the weight of a hundred and fifty cars."
+   "say": "A talent was about twenty-six kilos of silver. So that's roughly a hundred and eighty tonnes, about the weight of a hundred and fifty cars."
   },
   {
    "who": "N",
@@ -1222,7 +1222,7 @@
   },
   {
    "who": "N",
-   "say": "His first problem was his own army. When one of his officers disobeyed orders, lost a battle, and his men ran away, Crassus brought back an old, terrible punishment.",
+   "say": "His first problem was his own army. One of his officers disobeyed orders and lost a battle, and his men ran away. So Crassus brought back an old, terrible punishment.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -1456,7 +1456,7 @@
   },
   {
    "who": "N",
-   "say": "Then came the annoying part. Pompey, a young star general, showed up at the very end and wiped out about five thousand rebels who had fled the battle.",
+   "say": "Then came the annoying part. Pompey, a young star general, showed up at the very end. He wiped out about five thousand rebels who had fled the battle.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1581,7 +1581,7 @@
   },
   {
    "who": "N",
-   "say": "No wonder that once, when someone announced Pompey the Great, Plutarch says Crassus laughed and asked: how great is he?"
+   "say": "Plutarch says that once, when someone announced Pompey the Great, Crassus laughed and asked: how great is he?"
   },
   {
    "hold": 2.5,
@@ -1871,7 +1871,7 @@
   },
   {
    "who": "N",
-   "say": "Plenty of Romans hated the plan. As Crassus marched out, a tribune named Ateius, an official who spoke for ordinary Romans, ran to the city gate and lit a fire.",
+   "say": "Plenty of Romans hated the plan. As Crassus marched out, Ateius, a tribune, ran to the city gate and lit a fire. Tribunes were officials who spoke for ordinary Romans.",
    "show": {
     "k": "scene",
     "bg": "rome",
@@ -2113,7 +2113,7 @@
   },
   {
    "who": "surena",
-   "say": "Romans in heavy armor, in the desert, in summer? Lovely.",
+   "say": "Romans in heavy armor, in the desert heat? Lovely.",
    "show": {
     "k": "scene",
     "bg": "steppe",
@@ -2212,7 +2212,7 @@
   },
   {
    "who": "N",
-   "say": "Florus, a later Roman writer, says their banners glittered with gold and silk. People often say it was Rome's first look at silk, but nobody can prove it.",
+   "say": "Florus, a Roman writer from about 170 years later, says their banners glittered with gold and silk.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -2426,6 +2426,43 @@
    }
   },
   {
+   "who": "N",
+   "say": "The Parthians also took the legions' eagles, golden birds on poles that every legion carried. For Romans, that was a terrible shame.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "legionary",
+      "x": 0.72,
+      "mood": "sad",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.8,
+      "label": "LEGION EAGLE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EAGLES LOST",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
    "hold": 2.5,
    "show": {
     "k": "chapter",
@@ -2465,7 +2502,7 @@
       "s": 0.5
      }
     ],
-    "place": "Near Carrhae · June 53 BC"
+    "place": "Near Carrhae · 53 BC"
    }
   },
   {
@@ -2597,17 +2634,17 @@
   },
   {
    "who": "N",
-   "say": "That's a legend. It comes from Cassius Dio, a historian writing more than two hundred and fifty years later, and even he only says some people tell it.",
+   "say": "That's probably a legend. It only shows up in much later Roman writers, Florus and Cassius Dio, and Dio admits it's just what some people say.",
    "show": {
     "k": "card",
     "label": "The molten gold story",
-    "big": "LEGEND",
-    "sub": "Cassius Dio, about 270 years later: 'as some say'"
+    "big": "LEGEND?",
+    "sub": "only in Florus and Cassius Dio, 170+ years later. Dio: 'as some say'"
    }
   },
   {
    "who": "N",
-   "say": "Surena didn't enjoy his win for long. King Orodes got jealous of his star general and had him killed.",
+   "say": "Surena didn't enjoy his win for long. Parthia's King Orodes got jealous of his star general and had him killed.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -2667,7 +2704,7 @@
   },
   {
    "who": "N",
-   "say": "Rome finally got its lost eagle standards back in 20 BC, through a deal, not a battle. The handover is even carved on the armor of a famous statue of Emperor Augustus.",
+   "say": "In 20 BC, Rome finally got those eagles back, through a deal, not a battle. The handover is even carved on the armor of a famous statue of Emperor Augustus.",
    "show": {
     "k": "scene",
     "bg": "rome",
@@ -2693,10 +2730,10 @@
       "flag": "rome"
      }
     ],
-    "place": "Rome · 20 BC",
+    "place": "Roman Empire · 20 BC",
     "tag": {
      "id": "augustus",
-     "text": "Emperor Augustus"
+     "text": "Augustus, Rome's first emperor"
     }
    }
   },
@@ -2794,6 +2831,13 @@
   "https://en.wikipedia.org/wiki/Augustus'_Eastern_policy",
   "https://penelope.uchicago.edu/~grout/encyclopaedia_romana/miscellanea/museums/augustusprimaporta.html",
   "https://coinweek.com/ancient-roman-coins-victory-over-parthia-and-the-lost-roman-standards/",
-  "https://classics.mit.edu/Plutarch/pompey.html"
+  "https://classics.mit.edu/Plutarch/pompey.html",
+  "https://topostext.org/work/193",
+  "https://lexundria.com/plut_crass/1-33/prr",
+  "https://www.amblesideonline.org/plutarch-crassus-text",
+  "https://topostext.org/work/559",
+  "https://en.wikipedia.org/wiki/Publius_Licinius_Crassus_(consul_97_BC)",
+  "https://en.wikipedia.org/wiki/Phraates_IV",
+  "https://en.wikipedia.org/wiki/Aquila_(Roman)"
  ]
 }

@@ -1,78 +1,314 @@
 {
  "id": "2026w45-s24",
  "format": "short",
- "date": "2026-11-04",
- "slot": "09:00",
- "title": "This Pirate Became an Admiral",
- "hook": "PIRATE TO ADMIRAL",
+ "date": "2026-11-06",
+ "slot": "18:00",
+ "title": "This Pirate Robbed an Emperor and Vanished",
+ "hook": "HE ROBBED AN EMPEROR",
  "music": "playful",
  "cast": {
-  "barbarossa": {
+  "every": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2F3A5A",
+   "color2": "#E8C25A",
+   "hair": "long",
+   "hairColor": "#5A3A1E",
+   "skin": "light",
+   "name": "Henry Every"
+  },
+  "aurangzeb": {
    "hat": "turban",
    "hatColor": "#EFEFEF",
-   "outfit": "saracen",
-   "color": "#2F4A8A",
+   "outfit": "robe",
+   "color": "#EFE6D2",
    "color2": "#C8902A",
    "beard": "full",
-   "hairColor": "#B5472A",
-   "skin": "olive",
-   "hold": "sword",
-   "name": "Hayreddin Barbarossa"
+   "hairColor": "#EFEFEF",
+   "skin": "tan",
+   "name": "Emperor Aurangzeb"
   },
-  "oruc": {
-   "hat": "turban",
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
    "hatColor": "#A8322A",
-   "outfit": "saracen",
-   "color": "#6A3A2A",
-   "beard": "full",
-   "hairColor": "#B5472A",
-   "skin": "olive",
-   "hold": "sword",
-   "name": "Oruç Barbarossa"
-  },
-  "suleiman": {
-   "preset": "sultan",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
    "beard": "full",
    "hairColor": "#3A2A1A",
-   "name": "Sultan Suleiman the Magnificent"
+   "skin": "tan"
   }
  },
  "voices": {
-  "barbarossa": "am_eric",
-  "suleiman": "bm_george"
+  "aurangzeb": "bm_george",
+  "every": "am_fenrir"
  },
  "beats": [
   {
    "who": "N",
-   "say": "A pirate nicknamed Redbeard ended up running the whole Ottoman navy.",
+   "say": "In 1695, a pirate robbed one of the world's richest emperors and got away.",
    "show": {
     "k": "scene",
-    "bg": "deck",
+    "bg": "sea",
     "cast": [
      {
-      "id": "barbarossa",
-      "x": 0.42,
+      "id": "every",
+      "x": 0.3,
       "pose": "hips",
       "mood": "smug"
      }
     ],
     "objects": [
      {
-      "k": "galley",
+      "k": "sailship",
+      "x": 0.62,
+      "s": 0.7,
+      "flag": "pirate",
+      "label": "FANCY"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.5,
+      "front": true
+     }
+    ],
+    "place": "Indian Ocean · 1695",
+    "stickers": [
+     {
+      "text": "NEVER CAUGHT",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Henry Every was an English sailor whose crew hadn't been paid for months.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "angry"
+     },
+     {
+      "id": "pirate",
+      "x": 0.55,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.7,
+      "flag": "uk1606",
+      "label": "Charles II"
+     }
+    ],
+    "place": "A Coruña, Spain · 1694",
+    "tag": {
+     "id": "every",
+     "text": "Henry Every"
+    },
+    "stickers": [
+     {
+      "text": "NO PAY",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1694 they seized the ship and made Every captain.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "every",
+      "x": 0.6,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "pirate"
+     },
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CAPTAIN EVERY",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the Indian Ocean, they caught a giant treasure ship, the Ganj-i-Sawai.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.7,
+      "flag": "pirate",
+      "label": "FANCY",
+      "move": [
+       0.15,
+       0.35
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 1.0,
+      "label": "Ganj-i-Sawai"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "TREASURE SHIP",
+      "at": 1.5,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It belonged to Aurangzeb, the Mughal emperor who ruled most of India.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "aurangzeb",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
       "x": 0.8,
       "s": 0.6
      },
      {
-      "k": "flag",
-      "x": 0.12,
-      "s": 0.6,
-      "flag": "ottoman"
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.5
      }
     ],
-    "place": "Mediterranean Sea · 1500s",
+    "place": "Mughal Empire, India · 1695",
+    "tag": {
+     "id": "aurangzeb",
+     "text": "Emperor Aurangzeb"
+    }
+   }
+  },
+  {
+   "who": "aurangzeb",
+   "say": "Pirates robbed my ship? Then the English will pay!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cam": "close",
+    "focus": "aurangzeb",
+    "cast": [
+     {
+      "id": "aurangzeb",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He shut English traders out of his ports, so England put a huge reward on Every.",
+   "show": {
+    "k": "card",
+    "label": "Reward for Henry Every",
+    "big": "£1,000",
+    "sub": "a fortune in the 1690s",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.78,
+      "s": 0.8,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's often called the first worldwide manhunt. Some of his crew were caught.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "place": "England · 1696",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.6,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.25,
+      "s": 0.8,
+      "text": "WANTED: HENRY EVERY"
+     },
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
     "stickers": [
      {
-      "text": "REDBEARD",
+      "text": "WORLDWIDE MANHUNT",
       "at": 1.0,
       "color": "#A8322A"
      }
@@ -81,230 +317,41 @@
   },
   {
    "who": "N",
-   "say": "Hayreddin and his older brother Oruç were corsairs, sea raiders, from the Greek island of Lesbos.",
-   "show": {
-    "k": "map",
-    "lon": 14.0,
-    "lat": 38.5,
-    "z0": 1.1,
-    "z1": 1.3,
-    "date": "early 1500s",
-    "labels": [
-     [
-      "Lesbos",
-      26.3,
-      39.2,
-      0
-     ],
-     [
-      "Algiers",
-      3.06,
-      36.75,
-      0
-     ],
-     [
-      "SPAIN",
-      -3.7,
-      40.2,
-      0
-     ],
-     [
-      "ITALY",
-      12.5,
-      42.5,
-      0
-     ]
-    ],
-    "route": [
-     [
-      26.3,
-      39.2
-     ],
-     [
-      22.0,
-      36.0
-     ],
-     [
-      15.0,
-      36.5
-     ],
-     [
-      9.0,
-      37.5
-     ],
-     [
-      3.06,
-      36.75
-     ]
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Europeans called them both Barbarossa.",
-   "show": {
-    "k": "card",
-    "label": "Barbarossa",
-    "big": "REDBEARD",
-    "sub": "in Italian",
-    "cast": [
-     {
-      "id": "barbarossa",
-      "x": 0.75,
-      "s": 0.8,
-      "pose": "present",
-      "mood": "smug"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "In 1516, the brothers captured Algiers, in North Africa, and made it their base.",
-   "show": {
-    "k": "scene",
-    "bg": "islamic",
-    "cast": [
-     {
-      "id": "oruc",
-      "x": 0.35,
-      "pose": "cheer",
-      "mood": "happy"
-     },
-     {
-      "id": "barbarossa",
-      "x": 0.62,
-      "pose": "cheer"
-     }
-    ],
-    "objects": [
-     {
-      "k": "flag",
-      "x": 0.85,
-      "s": 0.6,
-      "flag": "ottoman"
-     }
-    ],
-    "place": "Algiers · 1516",
-    "tag": {
-     "id": "barbarossa",
-     "text": "Hayreddin Barbarossa"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "Hayreddin raided Spain and Italy so often that Sultan Suleiman made him grand admiral in 1533.",
-   "show": {
-    "k": "scene",
-    "bg": "palace",
-    "cast": [
-     {
-      "id": "suleiman",
-      "x": 0.35,
-      "pose": "present",
-      "mood": "happy"
-     },
-     {
-      "id": "barbarossa",
-      "x": 0.68,
-      "pose": "salute"
-     }
-    ],
-    "objects": [
-     {
-      "k": "throne",
-      "x": 0.88,
-      "s": 0.5
-     }
-    ],
-    "tag": {
-     "id": "suleiman",
-     "text": "Sultan Suleiman"
-    }
-   }
-  },
-  {
-   "who": "suleiman",
-   "say": "Congratulations. The navy is yours."
-  },
-  {
-   "who": "barbarossa",
-   "say": "All of it? Even the big ships?"
-  },
-  {
-   "who": "N",
-   "say": "In 1538, at Preveza, off Greece, a much bigger Christian fleet came for him. Barbarossa won.",
-   "show": {
-    "k": "scene",
-    "bg": "sea",
-    "cast": [],
-    "objects": [
-     {
-      "k": "galley",
-      "x": 0.3,
-      "s": 0.8,
-      "flag": "ottoman",
-      "move": [
-       0.15,
-       0.4
-      ]
-     },
-     {
-      "k": "galley",
-      "x": 0.75,
-      "s": 0.8,
-      "flag": "spain_burgundy"
-     }
-    ],
-    "fx": [
-     "smoke"
-    ],
-    "place": "Preveza, Greece · 1538",
-    "stickers": [
-     {
-      "text": "VICTORY",
-      "at": 1.6,
-      "color": "#1F8A4A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Today his statue stands by the water in Istanbul. Follow for more history that sounds made up.",
+   "say": "Every himself was never found. Follow for more history that sounds made up.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "barbarossa",
+      "id": "every",
       "x": 0.3,
       "pose": "wave",
-      "mood": "happy"
+      "mood": "smug"
      },
      {
-      "id": "oruc",
+      "id": "aurangzeb",
       "x": 0.7,
       "pose": "cross",
-      "mood": "smug"
+      "mood": "angry"
      }
     ]
    }
   }
  ],
- "caption": "From sea raider to grand admiral of an empire.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #barbarossa #ottomanempire #historytok",
- "youtube_title": "This Pirate Became an Admiral #shorts",
+ "caption": "A pirate robbed India's emperor, set off a worldwide manhunt, and was never caught.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #henryevery #historytok #funnyhistory",
+ "youtube_title": "This Pirate Robbed an Emperor and Vanished #shorts",
  "tags": [
-  "barbarossa",
-  "hayreddin barbarossa",
-  "ottoman navy",
+  "henry every",
+  "ganj-i-sawai",
+  "pirates",
   "history",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Hayreddin_Barbarossa",
-  "https://en.wikipedia.org/wiki/Battle_of_Preveza",
-  "https://en.wikipedia.org/wiki/Capture_of_Algiers_(1516)",
-  "https://www.thecollector.com/barbarossa-ottoman-corsair-ruled-mediterranean/"
+  "https://en.wikipedia.org/wiki/Henry_Every",
+  "https://en.wikipedia.org/wiki/Fancy_(pirate_ship)",
+  "https://www.worldhistory.org/Henry_Every/",
+  "https://www.history.com/articles/henry-everys-bloody-pirate-raid-320-years-ago",
+  "https://www.amusingplanet.com/2024/12/henry-every-and-looting-of-ganj-i-sawai.html",
+  "http://www.cindyvallar.com/every.html"
  ]
 }
