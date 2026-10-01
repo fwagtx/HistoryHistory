@@ -410,7 +410,7 @@
   },
   {
    "who": "N",
-   "say": "In 1914, one American dollar cost about four German marks. In November 1923, it cost about four point two trillion.",
+   "say": "In 1914, one American dollar cost about four point two marks, Germany's money. By November 1923, it cost about four point two trillion.",
    "show": {
     "k": "compare",
     "bg": "street",
@@ -872,11 +872,11 @@
   },
   {
    "who": "N",
-   "say": "About a pint of beer from Gaul? Four denarii, max. A haircut? Two denarii per customer. Rome had literally priced the barber."
+   "say": "About a pint of beer from Gaul, now France? Four denarii, Rome's money, max. A haircut? Two denarii. Rome had literally priced the barber."
   },
   {
    "who": "N",
-   "say": "Lactantius, a Christian writer who hated Diocletian, says sellers simply stopped selling, until the law was dropped.",
+   "say": "Lactantius, a Christian writer who hated Diocletian, says goods vanished from the markets and prices got worse, until the law was dropped.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -964,7 +964,7 @@
   },
   {
    "who": "N",
-   "say": "Their Congress had almost no gold, and no power to collect taxes. So it printed paper money, called Continental dollars.",
+   "say": "Their Congress, the colonies' shared government, had almost no gold and no power to collect taxes. So it printed paper money, called Continental dollars.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -1259,9 +1259,22 @@
       "k": "desk",
       "x": 0.15,
       "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.45,
+      "s": 0.6,
+      "flag": "germany"
      }
     ],
-    "place": "Germany · 1919"
+    "place": "Germany · 1919",
+    "stickers": [
+     {
+      "text": "WEIMAR REPUBLIC",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
@@ -1721,7 +1734,7 @@
   },
   {
    "who": "N",
-   "say": "All that chaos made people angry. In Munich that November, a little-known extremist named Adolf Hitler tried to grab power.",
+   "say": "All that chaos made people angry. In Munich that November, a young extremist named Adolf Hitler tried to grab power.",
    "show": {
     "k": "map",
     "lon": 11.0,
