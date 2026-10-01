@@ -796,7 +796,7 @@
    "say": "In 55 BC, Caesar was conquering Gaul, roughly today's France and Belgium. Germanic tribes kept crossing the Rhine River into Gaul.",
    "show": {
     "k": "map",
-    "lon": 6.0,
+    "lon": 5.0,
     "lat": 49.0,
     "z0": 1.6,
     "z1": 2.2,
@@ -815,9 +815,9 @@
       14
      ],
      [
-      "GERMANIC TRIBES",
-      9.8,
-      51.3,
+      "GERMANIA",
+      8.6,
+      51.6,
       0
      ]
     ],
@@ -1966,7 +1966,7 @@
    "show": {
     "k": "quote",
     "text": "Iacta alea est. (The die is cast.)",
-    "who": "Julius Caesar at the Rubicon, 49 BC (Suetonius, Life of Julius Caesar 32; Plutarch says he said it in Greek, quoting the playwright Menander)"
+    "who": "Julius Caesar at the Rubicon, 49 BC (Suetonius)"
    }
   },
   {
@@ -2178,7 +2178,7 @@
    "show": {
     "k": "quote",
     "text": "Veni, vidi, vici. (I came, I saw, I conquered.)",
-    "who": "Julius Caesar after Zela, 47 BC (Plutarch, Life of Caesar 50; Suetonius says the words were displayed at his triumph)"
+    "who": "Julius Caesar after Zela, 47 BC (Plutarch, Suetonius)"
    }
   },
   {
@@ -2322,10 +2322,10 @@
     "cast": [
      {
       "id": "caesaryoung",
-      "x": 0.88,
-      "pose": "hips",
+      "x": 0.92,
+      "pose": "present",
       "mood": "smug",
-      "s": 0.8
+      "s": 0.7
      }
     ]
    }
