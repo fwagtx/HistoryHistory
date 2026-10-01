@@ -1,0 +1,232 @@
+{
+ "id": "2026w48-s33",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "Wall Street Lays an Egg",
+ "hook": "WALL ST. LAYS AN EGG",
+ "music": "playful",
+ "cast": {
+  "newsboy": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#2F5A7A",
+   "outfit": "coat",
+   "color": "#2F7A6A",
+   "hairColor": "#8A5A2A",
+   "hold": "letter",
+   "name": "Newsboy"
+  },
+  "trader": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#2A2A2A",
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "stache": "brush",
+   "hairColor": "#5A3A22",
+   "name": "Panicked trader"
+  }
+ },
+ "voices": {
+  "newsboy": "af_heart",
+  "trader": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The day after Black Tuesday, a newspaper summed up the 1929 crash in four words: Wall Street Lays an Egg.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "newsboy",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "WALL ST. LAYS AN EGG"
+     },
+     {
+      "k": "car",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ],
+    "place": "New York · October 30, 1929"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The paper was Variety, which covered show business: movies, theater and stars.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "newsboy",
+      "x": 0.4,
+      "mood": "neutral",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "VARIETY"
+     },
+     {
+      "k": "desk",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In show business, laying an egg means a total flop.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "newsboy",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.6,
+      "label": "EGGS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EGG = FLOP",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "newsboy",
+   "say": "Extra, extra! Wall Street lays an egg!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "newsboy",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "trader",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.4,
+      "text": "NEWS"
+     }
+    ],
+    "cam": "close",
+    "focus": "newsboy"
+   }
+  },
+  {
+   "who": "trader",
+   "say": "Very funny, kid. I just lost everything!"
+  },
+  {
+   "who": "N",
+   "say": "The day before, panicked sellers had dumped about sixteen million shares of stock.",
+   "show": {
+    "k": "card",
+    "label": "Shares traded on Black Tuesday",
+    "big": "16,000,000",
+    "sub": "October 29, 1929"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nearly a century later, people still quote that headline. Who exactly wrote it is still debated.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "newsboy",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "trader",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The most famous headline about the 1929 crash came from a show business paper.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #1929 #wallstreet #headlines #funnyhistory",
+ "youtube_title": "Wall Street Lays an Egg #shorts",
+ "tags": [
+  "wall street lays an egg",
+  "variety headline",
+  "1929 crash",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Wall_Street_Lays_an_Egg",
+  "https://www.loc.gov/item/2003653824/",
+  "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929"
+ ]
+}

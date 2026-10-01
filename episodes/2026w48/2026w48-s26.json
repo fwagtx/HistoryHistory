@@ -1,0 +1,286 @@
+{
+ "id": "2026w48-s26",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "Americans Bought Stocks With 10% Down",
+ "hook": "STOCKS FOR 10% DOWN",
+ "music": "playful",
+ "cast": {
+  "barber": {
+   "skin": "light",
+   "hat": "straw",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "apron": true,
+   "stache": "handlebar",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "name": "Small investor"
+  },
+  "broker": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#3A3A4A",
+   "outfit": "suit",
+   "color": "#3A4A5A",
+   "tie": true,
+   "hair": "side",
+   "hairColor": "#2A1A10",
+   "name": "Stockbroker"
+  },
+  "trader": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#2A2A2A",
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "stache": "brush",
+   "hairColor": "#5A3A22",
+   "name": "Panicked trader"
+  }
+ },
+ "voices": {
+  "barber": "am_echo",
+  "broker": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In the 1920s, you could buy a thousand dollars of stock with just one hundred dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "barber",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true
+     },
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.4,
+      "y": 0.12
+     }
+    ],
+    "place": "New York · 1928"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was called buying on margin. You paid ten percent, and your stockbroker lent you the rest.",
+   "show": {
+    "k": "card",
+    "label": "Buying on margin in the 1920s",
+    "big": "10% DOWN",
+    "sub": "the broker could lend the other 90%"
+   }
+  },
+  {
+   "who": "broker",
+   "say": "Prices only go up, my friend!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "barber",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.5,
+      "text": "THE DOW"
+     },
+     {
+      "k": "car",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "barber",
+   "say": "Then I'll borrow even more!"
+  },
+  {
+   "who": "N",
+   "say": "When prices rose, people got rich fast, on money that wasn't theirs.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.7,
+      "enter": "pop"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But when prices fell, the broker made a margin call: pay back now, or he sells your shares.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.72,
+      "s": 0.4
+     },
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6,
+      "front": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MARGIN CALL",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In October 1929, prices fell, and the margin calls came all at once. Selling caused more selling.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "SELL"
+     }
+    ],
+    "cam": "shake",
+    "place": "Wall Street · October 1929"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Borrowed money made the boom bigger, and the crash much worse.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "broker",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1929 you could buy stocks with 10% down. That's exactly the problem.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #1929 #stockmarket #margin #moneyhistory",
+ "youtube_title": "Americans Bought Stocks With 10% Down #shorts",
+ "tags": [
+  "buying on margin",
+  "1929 crash",
+  "stock market history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.history.com/articles/what-caused-the-stock-market-crash-of-1929",
+  "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+  "https://en.wikipedia.org/wiki/Margin_(finance)",
+  "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929"
+ ]
+}

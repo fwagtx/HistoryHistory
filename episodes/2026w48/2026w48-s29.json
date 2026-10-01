@@ -1,0 +1,249 @@
+{
+ "id": "2026w48-s29",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "Churchill Was Hit by a Car in New York",
+ "hook": "CHURCHILL HIT BY A CAR",
+ "music": "playful",
+ "cast": {
+  "churchill": {
+   "preset": "churchill",
+   "name": "Winston Churchill"
+  },
+  "driver": {
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "hair": "short",
+   "hairColor": "#2A1A10",
+   "name": "Mario Contasino, driver"
+  }
+ },
+ "voices": {
+  "churchill": "bm_lewis",
+  "driver": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In December 1931, Winston Churchill was hit by a car in New York City.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.6,
+      "s": 0.7,
+      "move": [
+       0.85,
+       0.6
+      ]
+     }
+    ],
+    "place": "Fifth Avenue, New York · December 13, 1931",
+    "tag": {
+     "id": "churchill",
+     "text": "Winston Churchill"
+    },
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was on a lecture tour, trying to win back money he'd lost in the 1929 stock crash.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.7,
+      "s": 0.7,
+      "flag": "uk"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Crossing Fifth Avenue, he looked the wrong way. He forgot that Americans drive on the right side of the road.",
+   "show": {
+    "k": "compare",
+    "bg": "street",
+    "left": {
+     "label": "BRITAIN: DRIVE ON THE LEFT",
+     "cast": [
+      {
+       "id": "churchill",
+       "mood": "smug"
+      }
+     ]
+    },
+    "right": {
+     "label": "AMERICA: DRIVE ON THE RIGHT",
+     "cast": [
+      {
+       "id": "churchill",
+       "mood": "shock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "driver",
+   "say": "Look out!",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "driver",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "scared"
+     },
+     {
+      "id": "churchill",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "driver"
+   }
+  },
+  {
+   "who": "churchill",
+   "say": "My fault entirely. I looked the wrong way!"
+  },
+  {
+   "who": "N",
+   "say": "He was badly hurt but recovered, and he told police the driver wasn't to blame.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "mood": "sad",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was Prohibition, when alcohol was banned in America. So his doctor wrote a note saying Churchill needed it at mealtimes.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "DOCTOR'S NOTE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REAL NOTE",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nine years later, that same man became Britain's prime minister.",
+   "show": {
+    "k": "flag",
+    "flag": "uk",
+    "label": "PRIME MINISTER",
+    "sub": "Churchill, from 1940",
+    "bg": "town"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "cigar"
+     },
+     {
+      "id": "driver",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Churchill nearly got flattened on Fifth Avenue. Then his doctor prescribed... alcohol.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #churchill #newyork #prohibition #funnyhistory",
+ "youtube_title": "Churchill Was Hit by a Car in New York #shorts",
+ "tags": [
+  "winston churchill",
+  "churchill car accident",
+  "churchill new york 1931",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Edward_F._Cantasano",
+  "https://winstonchurchill.org/publications/finest-hour/finest-hour-136/my-new-york-misadventure/",
+  "https://winstonchurchill.hillsdale.edu/contasino/",
+  "https://en.wikipedia.org/wiki/Winston_Churchill%27s_%22Wilderness%22_years,_1929%E2%80%931939"
+ ]
+}

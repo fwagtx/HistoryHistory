@@ -1,0 +1,264 @@
+{
+ "id": "2026w48-s32",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "Groucho Marx Lost His Savings in 1929",
+ "hook": "GROUCHO LOST HIS SAVINGS",
+ "music": "playful",
+ "cast": {
+  "broker": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#3A3A4A",
+   "outfit": "suit",
+   "color": "#3A4A5A",
+   "tie": true,
+   "hair": "side",
+   "hairColor": "#2A1A10",
+   "name": "Stockbroker"
+  },
+  "cantor": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#1E1C1B",
+   "eyes": "big",
+   "outfit": "suit",
+   "color": "#4A3A5A",
+   "tie": true,
+   "name": "Eddie Cantor"
+  },
+  "groucho": {
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "stache": "bush",
+   "glasses": "round",
+   "outfit": "suit",
+   "color": "#2A2A2A",
+   "hold": "cigar",
+   "name": "Groucho Marx"
+  }
+ },
+ "voices": {
+  "cantor": "am_eric",
+  "groucho": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In the 1929 crash, comedian Groucho Marx said he lost about two hundred forty thousand dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "groucho",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "car",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ],
+    "place": "New York · 1929",
+    "tag": {
+     "id": "groucho",
+     "text": "Groucho Marx, comedian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Groucho was the wisecracking star of the Marx Brothers, a hit comedy team.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "groucho",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "MARX BROTHERS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In his memoir, he says his friend Eddie Cantor, a singing star, tipped him off to a hot stock.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "cantor",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "groucho",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "cantor",
+     "text": "Eddie Cantor, singer"
+    }
+   }
+  },
+  {
+   "who": "cantor",
+   "say": "Trust me, Groucho. It only goes up!",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "cantor",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "cantor"
+   }
+  },
+  {
+   "who": "groucho",
+   "say": "Up? Like my eyebrows?"
+  },
+  {
+   "who": "N",
+   "say": "He bought on margin, paying part of the price and borrowing the rest. Great, while prices rise.",
+   "show": {
+    "k": "card",
+    "label": "Groucho's crash losses, by his own count",
+    "big": "$240,000",
+    "sub": "much of it bought with borrowed money"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then prices crashed, and the broker wanted his loan back.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "groucho",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Groucho said the stress gave him trouble sleeping for years. Even comedians don't joke their way out of a crash.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "groucho",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug",
+      "hold": "cigar"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "groucho",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "cigar"
+     },
+     {
+      "id": "cantor",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Groucho Marx took a hot stock tip in 1929. It did not go well.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #grouchomarx #1929 #stockmarket #funnyhistory",
+ "youtube_title": "Groucho Marx Lost His Savings in 1929 #shorts",
+ "tags": [
+  "groucho marx",
+  "groucho marx 1929 crash",
+  "eddie cantor",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://25iq.com/2016/01/29/a-dozen-things-i-have-learned-about-investing-and-money-from-groucho-marx/",
+  "https://www.pbs.org/wgbh/americanexperience/films/crash/",
+  "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929"
+ ]
+}

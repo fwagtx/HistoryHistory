@@ -1,0 +1,257 @@
+{
+ "id": "2026w48-s35",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "FDR Closed Every Bank in America",
+ "hook": "FDR CLOSED EVERY BANK",
+ "music": "playful",
+ "cast": {
+  "fdr": {
+   "preset": "fdr",
+   "name": "Franklin D. Roosevelt"
+  },
+  "saver": {
+   "skin": "light",
+   "hat": "headscarf",
+   "hatColor": "#6A3E8E",
+   "outfit": "dress",
+   "color": "#2F5A7A",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "name": "Bank customer"
+  },
+  "teller": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#5A4A3A",
+   "glasses": "square",
+   "outfit": "suit",
+   "color": "#4A5A4A",
+   "tie": true,
+   "stache": "thin",
+   "name": "Bank teller"
+  }
+ },
+ "voices": {
+  "saver": "bf_emma",
+  "teller": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In March 1933, the new president, Franklin D. Roosevelt, closed every bank in America.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "saver",
+      "x": 0.4,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "BANK HOLIDAY"
+     },
+     {
+      "k": "car",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ],
+    "place": "USA · March 1933"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Why? After the 1929 crash, people were terrified about their savings.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "fdr",
+      "x": 0.4,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.6,
+      "flag": "usa48"
+     },
+     {
+      "k": "desk",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "fdr",
+     "text": "Franklin D. Roosevelt, US president"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A bank lends out most of your money. If everyone wants it back at once, the bank runs out.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "teller",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "saver",
+   "say": "I want my money back. Now!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "saver",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "teller",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.4,
+      "text": "BANK"
+     }
+    ],
+    "cam": "close",
+    "focus": "saver"
+   }
+  },
+  {
+   "who": "teller",
+   "say": "Ma'am, it's out on loans. We're closed!"
+  },
+  {
+   "who": "N",
+   "say": "Thousands of banks had failed like this. So Roosevelt shut them all, to check which were safe, then went on the radio.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "saver",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He said this.",
+   "show": {
+    "k": "quote",
+    "text": "I can assure you that it is safer to keep your money in a reopened bank than under the mattress.",
+    "who": "Franklin D. Roosevelt, March 12, 1933"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Months later, Congress created the FDIC to insure savings. Big bank runs like those mostly stopped.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "teller",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "FDIC"
+     },
+     {
+      "k": "moneypile",
+      "x": 0.18,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "fdr",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "saver",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1933 every bank in America closed on purpose. Here's why.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #fdr #greatdepression #banks #moneyhistory",
+ "youtube_title": "FDR Closed Every Bank in America #shorts",
+ "tags": [
+  "fdr bank holiday",
+  "1933 bank holiday",
+  "fireside chat",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.federalreservehistory.org/essays/bank-holiday-of-1933",
+  "https://millercenter.org/issues-policy/economics/fdr-s-first-fireside-chat-the-banking-crisis",
+  "https://www.fdic.gov/90years",
+  "https://en.wikipedia.org/wiki/Great_Depression"
+ ]
+}

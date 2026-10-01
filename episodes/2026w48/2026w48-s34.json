@@ -1,0 +1,275 @@
+{
+ "id": "2026w48-s34",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "The Dow Took 25 Years to Recover",
+ "hook": "25 YEARS TO RECOVER",
+ "music": "playful",
+ "cast": {
+  "barber": {
+   "skin": "light",
+   "hat": "straw",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "apron": true,
+   "stache": "handlebar",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "name": "Small investor"
+  },
+  "broker": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#3A3A4A",
+   "outfit": "suit",
+   "color": "#3A4A5A",
+   "tie": true,
+   "hair": "side",
+   "hairColor": "#2A1A10",
+   "name": "Stockbroker"
+  },
+  "worker": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "overalls",
+   "color": "#3A5A7A",
+   "stubble": true,
+   "hairColor": "#5A3A22",
+   "name": "Factory worker"
+  }
+ },
+ "voices": {
+  "barber": "am_echo",
+  "broker": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "After the 1929 crash, the Dow took twenty five years to get back to its old record.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "THE DOW"
+     },
+     {
+      "k": "car",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ],
+    "place": "New York · 1929"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Dow is a number that tracks thirty big companies. Think of it as a scoreboard for the stock market.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "phone",
+      "x": 0.72,
+      "s": 0.4,
+      "y": 0.12
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On September third, 1929, it peaked at three hundred eighty one.",
+   "show": {
+    "k": "card",
+    "label": "The Dow's peak, September 3, 1929",
+    "big": "381",
+    "sub": "the 1929 record"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then came the crash, and the Great Depression. By July 1932, the Dow was down to forty one.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.18,
+      "s": 0.5,
+      "text": "CLOSED"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "41",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "barber",
+   "say": "So when do I get back to even?",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.3,
+      "mood": "sad",
+      "pose": "shrug"
+     },
+     {
+      "id": "broker",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.4,
+      "text": "THE DOW"
+     }
+    ]
+   }
+  },
+  {
+   "who": "broker",
+   "say": "Check back in 1954."
+  },
+  {
+   "who": "N",
+   "say": "The Dow finally beat its 1929 record on November twenty third, 1954.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "place": "New York · November 1954"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Counting dividends and falling prices, investors got back to even sooner. But that scoreboard number took a quarter century.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "broker",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The stock market crashed in 1929. It didn't get back to its record until 1954.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #1929 #dowjones #stockmarket #moneyhistory",
+ "youtube_title": "The Dow Took 25 Years to Recover #shorts",
+ "tags": [
+  "dow jones 1929",
+  "1954 recovery",
+  "great depression",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average",
+  "https://www.guinnessworldrecords.com/world-records/68799-lowest-closing-on-the-dow-jones-industrial-average",
+  "https://www.benzinga.com/general/education/21/11/24250394/this-day-in-market-history-dow-completes-25-year-great-depression-recovery",
+  "https://seekingalpha.com/article/200803-recovery-from-1929-crash-was-quicker-than-most-people-think",
+  "https://www.cnbc.com/2014/07/02/history-of-dow-30.html"
+ ]
+}

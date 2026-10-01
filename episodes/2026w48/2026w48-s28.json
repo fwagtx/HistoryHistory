@@ -1,0 +1,254 @@
+{
+ "id": "2026w48-s28",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "Churchill Watched the 1929 Crash Happen",
+ "hook": "CHURCHILL WATCHED IT CRASH",
+ "music": "playful",
+ "cast": {
+  "broker": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#3A3A4A",
+   "outfit": "suit",
+   "color": "#3A4A5A",
+   "tie": true,
+   "hair": "side",
+   "hairColor": "#2A1A10",
+   "name": "Stockbroker"
+  },
+  "churchill": {
+   "preset": "churchill",
+   "name": "Winston Churchill"
+  },
+  "trader": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#2A2A2A",
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "stache": "brush",
+   "hairColor": "#5A3A22",
+   "name": "Panicked trader"
+  }
+ },
+ "voices": {
+  "trader": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "On Black Thursday, October twenty fourth, 1929, Winston Churchill was at the New York Stock Exchange.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "mood": "neutral",
+      "hold": "cigar"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.6,
+      "flag": "uk"
+     },
+     {
+      "k": "desk",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ],
+    "place": "New York · October 24, 1929",
+    "tag": {
+     "id": "churchill",
+     "text": "Winston Churchill"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was a British politician, and until that summer, he'd been in charge of Britain's money.",
+   "show": {
+    "k": "flag",
+    "flag": "uk",
+    "label": "BRITAIN",
+    "sub": "Churchill's home",
+    "bg": "town"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had also bought American stocks, hoping to make a fortune.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That day, panicked sellers traded a record of nearly thirteen million shares.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "broker",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.5,
+      "text": "STOCK EXCHANGE"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "trader",
+   "say": "Sell! Sell everything!"
+  },
+  {
+   "who": "N",
+   "say": "Churchill watched from the visitors' gallery as prices tumbled, his own money included.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "churchill"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He lost a big part of his savings. Two years later, he came back to America on a lecture tour to earn it back.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.7,
+      "s": 0.7,
+      "flag": "uk"
+     }
+    ],
+    "place": "New York · 1931"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So even a future wartime leader got burned in the crash.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "cigar"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "trader",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Winston Churchill had a front-row seat to the 1929 crash. With his own money in it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #churchill #1929 #wallstreet #moneyhistory",
+ "youtube_title": "Churchill Watched the 1929 Crash Happen #shorts",
+ "tags": [
+  "winston churchill",
+  "wall street crash 1929",
+  "black thursday",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://winstonchurchill.hillsdale.edu/tolppanen-north-america-1929/",
+  "https://en.wikipedia.org/wiki/Winston_Churchill%27s_%22Wilderness%22_years,_1929%E2%80%931939",
+  "https://www.britannica.com/event/Black-Thursday",
+  "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929"
+ ]
+}

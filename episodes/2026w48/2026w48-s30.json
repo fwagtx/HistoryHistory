@@ -1,0 +1,291 @@
+{
+ "id": "2026w48-s30",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "The Hero of 1929 Ended Up in Prison",
+ "hook": "FROM HERO TO PRISON",
+ "music": "playful",
+ "cast": {
+  "banker": {
+   "preset": "banker",
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#1E1C1B",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "glasses": "round",
+   "stache": "walrus",
+   "hairColor": "#8A8A8A",
+   "name": "Wall Street banker"
+  },
+  "trader": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#2A2A2A",
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "stache": "brush",
+   "hairColor": "#5A3A22",
+   "name": "Panicked trader"
+  },
+  "whitney": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "Richard Whitney"
+  }
+ },
+ "voices": {
+  "trader": "am_liam",
+  "whitney": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1929, Richard Whitney was the hero of Wall Street. Nine years later, he was in prison.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "STOCK EXCHANGE"
+     },
+     {
+      "k": "car",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ],
+    "place": "Wall Street · October 24, 1929",
+    "tag": {
+     "id": "whitney",
+     "text": "Richard Whitney, Stock Exchange vice president"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On Black Thursday, prices were crashing. Top bankers pooled millions to stop the panic.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "whitney",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.6,
+      "enter": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "who": "whitney",
+   "say": "Two hundred and five for ten thousand Steel!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "trader",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.5,
+      "text": "U.S. STEEL"
+     }
+    ],
+    "cam": "close",
+    "focus": "whitney"
+   }
+  },
+  {
+   "who": "trader",
+   "say": "He's paying above the price? Then it's safe!"
+  },
+  {
+   "who": "N",
+   "say": "It worked, for a day. Whitney became famous, and then president of the Stock Exchange.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But secretly, he was losing money. So he took money from others, including his own yacht club.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STOLEN",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1938, he was caught and sent to Sing Sing prison.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "place": "New York · 1938"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The man who saved Wall Street for a day ended up robbing it.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.18,
+      "s": 0.5,
+      "text": "SING SING"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.3,
+      "mood": "sad",
+      "pose": "wave"
+     },
+     {
+      "id": "trader",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He stopped the 1929 panic for a day. Then he went to prison.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #wallstreet #1929 #truecrime #moneyhistory",
+ "youtube_title": "The Hero of 1929 Ended Up in Prison #shorts",
+ "tags": [
+  "richard whitney",
+  "black thursday",
+  "sing sing",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Richard_Whitney_(financier)",
+  "https://novelinvestor.com/the-rise-and-downfall-of-richard-whitney/",
+  "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "https://www.britannica.com/event/Black-Thursday"
+ ]
+}

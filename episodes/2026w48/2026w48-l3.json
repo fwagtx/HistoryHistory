@@ -1,0 +1,2751 @@
+{
+ "id": "2026w48-l3",
+ "format": "long",
+ "date": "2026-11-27",
+ "title": "The Wall Street Crash of 1929 Explained",
+ "music": "playful",
+ "cast": {
+  "whitney": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "Richard Whitney"
+  },
+  "trader": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#2A2A2A",
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "stache": "brush",
+   "hairColor": "#5A3A22",
+   "name": "Panicked trader"
+  },
+  "banker": {
+   "preset": "banker",
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#1E1C1B",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "glasses": "round",
+   "stache": "walrus",
+   "hairColor": "#8A8A8A",
+   "name": "Wall Street banker"
+  },
+  "barber": {
+   "skin": "light",
+   "hat": "straw",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "apron": true,
+   "stache": "handlebar",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "name": "Small investor"
+  },
+  "broker": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#3A3A4A",
+   "outfit": "suit",
+   "color": "#3A4A5A",
+   "tie": true,
+   "hair": "side",
+   "hairColor": "#2A1A10",
+   "name": "Stockbroker"
+  },
+  "kennedy": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#6A5A4A",
+   "hair": "side",
+   "hairColor": "#B8783A",
+   "glasses": "round",
+   "outfit": "suit",
+   "color": "#4A4A52",
+   "tie": true,
+   "name": "Joseph P. Kennedy"
+  },
+  "shoeboy": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#8A6A3A",
+   "hairColor": "#C89A5A",
+   "name": "Shoeshine boy"
+  },
+  "fisher": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#E8E4DA",
+   "beard": "goatee",
+   "glasses": "round",
+   "outfit": "suit",
+   "color": "#3A3A4A",
+   "tie": true,
+   "name": "Irving Fisher"
+  },
+  "hatry": {
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#1E1C1B",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#2A2A2A",
+   "name": "Clarence Hatry"
+  },
+  "churchill": {
+   "preset": "churchill",
+   "name": "Winston Churchill"
+  },
+  "groucho": {
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "stache": "bush",
+   "glasses": "round",
+   "outfit": "suit",
+   "color": "#2A2A2A",
+   "hold": "cigar",
+   "name": "Groucho Marx"
+  },
+  "newsboy": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#2F5A7A",
+   "outfit": "coat",
+   "color": "#2F7A6A",
+   "hairColor": "#8A5A2A",
+   "hold": "letter",
+   "name": "Newsboy"
+  },
+  "saver": {
+   "skin": "light",
+   "hat": "headscarf",
+   "hatColor": "#6A3E8E",
+   "outfit": "dress",
+   "color": "#2F5A7A",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "name": "Bank customer"
+  },
+  "teller": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#5A4A3A",
+   "glasses": "square",
+   "outfit": "suit",
+   "color": "#4A5A4A",
+   "tie": true,
+   "stache": "thin",
+   "name": "Bank teller"
+  },
+  "worker": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "overalls",
+   "color": "#3A5A7A",
+   "stubble": true,
+   "hairColor": "#5A3A22",
+   "name": "Factory worker"
+  },
+  "hoover": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#6A6A6A",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "Herbert Hoover"
+  },
+  "driver": {
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "hair": "short",
+   "hairColor": "#2A1A10",
+   "name": "Mario Contasino, driver"
+  },
+  "fdr": {
+   "preset": "fdr",
+   "name": "Franklin D. Roosevelt"
+  },
+  "gerworker": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#4A4A4A",
+   "outfit": "coat",
+   "color": "#5A5A6A",
+   "stache": "bush",
+   "hairColor": "#6A4A2A",
+   "name": "German worker"
+  }
+ },
+ "voices": {
+  "whitney": "am_fenrir",
+  "trader": "am_liam",
+  "barber": "am_echo",
+  "broker": "bm_george",
+  "kennedy": "am_eric",
+  "shoeboy": "am_puck",
+  "newsboy": "af_heart",
+  "saver": "bf_emma",
+  "teller": "bm_daniel",
+  "churchill": "bm_lewis",
+  "driver": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "It's Thursday morning, October twenty fourth, 1929, on Wall Street in New York. And everybody is selling.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "STOCK EXCHANGE"
+     },
+     {
+      "k": "car",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ],
+    "place": "Wall Street, New York · October 24, 1929",
+    "stickers": [
+     {
+      "text": "SELL! SELL!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Prices are falling so fast that the ticker, a machine that prints prices on a long paper strip, can't keep up.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.4,
+      "mood": "scared",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.6,
+      "front": true
+     },
+     {
+      "k": "phone",
+      "x": 0.7,
+      "s": 0.4,
+      "y": 0.12
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "TICKER TAPE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "trader",
+   "say": "The tape's over an hour late! I don't even know how much I've lost!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.45,
+      "mood": "shout",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "trader"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nearby, the country's top bankers meet in secret. They pool their money, millions of dollars, to stop the panic.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "whitney",
+      "x": 0.65,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.85,
+      "s": 0.7,
+      "enter": "pop"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANKERS' POOL",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They send one man onto the trading floor: Richard Whitney, vice president of the Stock Exchange.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "walk",
+      "walk": [
+       0.2,
+       0.45
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.6,
+      "text": "STOCK EXCHANGE"
+     },
+     {
+      "k": "car",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "whitney",
+     "text": "Richard Whitney, Stock Exchange vice president"
+    }
+   }
+  },
+  {
+   "who": "whitney",
+   "say": "Two hundred and five for ten thousand Steel!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "trader",
+      "x": 0.72,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "U.S. STEEL"
+     }
+    ],
+    "cam": "close",
+    "focus": "whitney",
+    "stickers": [
+     {
+      "text": "STEEL AT 205",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "trader",
+   "say": "He's buying? Above the price? Then maybe it's all fine!"
+  },
+  {
+   "who": "N",
+   "say": "He was offering more than the current price for U.S. Steel. Traders cheered, and the panic stopped.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "whitney",
+      "x": 0.65,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For about one day. Five days later came the worst day Wall Street had ever seen. So how did America's money party end like this? Let's find out.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.4,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "UH OH",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Wall Street Crash of 1929 Explained",
+    "sub": "how borrowed money broke the world",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.88,
+      "s": 0.8,
+      "mood": "shock",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1920s",
+    "title": "The Party",
+    "bg": "city"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1920s, America felt rich. The First World War was over, and factories were pumping out cars and radios.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "car",
+      "x": 0.5,
+      "s": 0.6,
+      "move": [
+       0.3,
+       0.6
+      ]
+     },
+     {
+      "k": "radio",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "place": "USA · 1920s",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lots of ordinary people wanted a piece of that boom. So they bought stocks."
+  },
+  {
+   "who": "N",
+   "say": "Here's how a stock works. A big company is split into thousands of tiny pieces called shares.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "SHARES"
+     },
+     {
+      "k": "factory",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHARE = TINY PIECE",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Buy one share, and you own a tiny slice of that company. If the company does well, more people want a slice, so the price goes up."
+  },
+  {
+   "who": "N",
+   "say": "Then you sell your slice for more than you paid. Easy money! At least, that's the idea.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.6,
+      "enter": "pop"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EASY MONEY?",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "To keep score, people watched the Dow, short for the Dow Jones Industrial Average. It's a number that tracks thirty big companies.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "THE DOW"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "broker",
+     "text": "A stockbroker"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "When the Dow goes up, stocks are winning. When it goes down, well, you can guess."
+  },
+  {
+   "who": "N",
+   "say": "And in the late 1920s, the Dow went up, and up, and up.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "barber",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "UP",
+      "at": 0.6,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "UP!",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "UP!!",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1928–1929",
+    "title": "Buying With Borrowed Money",
+    "bg": "office"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But there was a trick that made all this dangerous. It was called buying on margin.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "barber",
+      "x": 0.65,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true
+     },
+     {
+      "k": "phone",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "New York · 1928"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Margin means you pay a small part of the price yourself, and borrow the rest from your stockbroker, the person who buys stocks for you."
+  },
+  {
+   "who": "broker",
+   "say": "Put down just ten percent, and I'll lend you the rest!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "barber",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "broker",
+    "stickers": [
+     {
+      "text": "10% DOWN",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "barber",
+   "say": "So with a hundred dollars, I get a thousand dollars of stock? Sign me up!"
+  },
+  {
+   "who": "N",
+   "say": "If the stock goes up, you're laughing. But if it goes down, the broker wants his loan back. Fast.",
+   "show": {
+    "k": "compare",
+    "bg": "office",
+    "left": {
+     "label": "STOCK GOES UP: YOU WIN",
+     "cast": [
+      {
+       "id": "barber",
+       "mood": "happy",
+       "pose": "cheer"
+      }
+     ]
+    },
+    "right": {
+     "label": "STOCK GOES DOWN: YOU OWE",
+     "cast": [
+      {
+       "id": "barber",
+       "mood": "scared",
+       "pose": "scared"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That demand is called a margin call. If you can't pay, the broker sells your shares, at whatever price he can get."
+  },
+  {
+   "who": "N",
+   "say": "By 1929, everyone seemed to be playing the market. Even shoeshine boys had stock tips. Or so the story goes.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "shoeboy",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "kennedy",
+      "x": 0.65,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.9,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "SHINE 10¢"
+     }
+    ],
+    "place": "New York · 1929",
+    "tag": {
+     "id": "kennedy",
+     "text": "Joseph P. Kennedy, investor"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This one's a legend. It's told about Joseph Kennedy, a rich investor, but it only shows up in print decades later."
+  },
+  {
+   "who": "shoeboy",
+   "say": "Buy stocks, mister! Everybody's getting rich!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "shoeboy",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "kennedy",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.5,
+      "text": "SHINE 10¢"
+     }
+    ],
+    "cam": "close",
+    "focus": "shoeboy"
+   }
+  },
+  {
+   "who": "kennedy",
+   "say": "When the shoeshine boy has tips, it's time for me to get out."
+  },
+  {
+   "who": "N",
+   "say": "Legend or not, Kennedy really did start pulling money out of the market in 1929, before the crash.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "kennedy",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On September third, 1929, the Dow hit its peak: three hundred eighty one.",
+   "show": {
+    "k": "card",
+    "label": "The Dow's peak, September 3, 1929",
+    "big": "381",
+    "sub": "a record it wouldn't beat for 25 years"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "Sept–Oct 1929",
+    "title": "Cracks in the Party",
+    "bg": "town"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The first crack came from across the Atlantic Ocean, in London.",
+   "show": {
+    "k": "map",
+    "lon": -1.5,
+    "lat": 52.5,
+    "z0": 2.0,
+    "z1": 2.6,
+    "date": "September 1929",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "Britain",
+      -2.0,
+      53.5,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -0.13,
+      51.5,
+      0.5,
+      "rgba(168,50,42,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A British businessman named Clarence Hatry was caught using forged shares. His companies collapsed, and London's market dropped.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "hatry",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "uk"
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.5,
+      "label": "FAKE SHARES"
+     }
+    ],
+    "place": "London, Britain · September 1929",
+    "tag": {
+     "id": "hatry",
+     "text": "Clarence Hatry, British financier"
+    },
+    "stickers": [
+     {
+      "text": "FORGED!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nervous investors started to wonder if American prices had climbed too high."
+  },
+  {
+   "who": "N",
+   "say": "But Irving Fisher, a famous economist at Yale University, told them not to worry.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "globe",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "place": "New York · October 1929",
+    "tag": {
+     "id": "fisher",
+     "text": "Irving Fisher, Yale economist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's what he said in a speech: stock prices have reached what looks like a permanently high plateau.",
+   "show": {
+    "k": "quote",
+    "text": "Stock prices have reached what looks like a permanently high plateau.",
+    "who": "Irving Fisher, economist, mid-October 1929"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A plateau is high, flat land. So Fisher meant prices would just stay up there.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PLATEAU = HIGH, FLAT",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "About a week later, the crash began.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.45,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "OOPS",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "Oct 24, 1929",
+    "title": "Black Thursday",
+    "bg": "street"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On Thursday, October twenty fourth, a record of nearly thirteen million shares changed hands. People call it Black Thursday.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "run"
+     },
+     {
+      "id": "broker",
+      "x": 0.6,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.6,
+      "text": "STOCK EXCHANGE"
+     },
+     {
+      "k": "car",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "place": "Wall Street · October 24, 1929",
+    "stickers": [
+     {
+      "text": "12.9 MILLION SHARES",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And watching from the visitors' gallery that day was a very famous British guest.",
+   "show": {
+    "k": "flag",
+    "flag": "uk",
+    "label": "A VISITOR FROM BRITAIN",
+    "sub": "October 1929",
+    "bg": "city"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Winston Churchill. He had just stopped being Britain's Chancellor of the Exchequer, the minister in charge of the country's money.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "mood": "neutral",
+      "hold": "cigar"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "uk"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "churchill",
+     "text": "Winston Churchill"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He'd also put his own money into American stocks. So he was watching his savings melt in real time.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "phone",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "churchill"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the bankers' rescue kicked in, and Whitney's big bid calmed everyone down.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "banker",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But over the weekend, people had time to think. And they got scared all over again."
+  },
+  {
+   "who": "N",
+   "say": "On Monday, the Dow fell about thirteen percent. Then came Tuesday.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "DOW -13%"
+     },
+     {
+      "k": "car",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "place": "New York · October 28, 1929"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "Oct 29, 1929",
+    "title": "Black Tuesday",
+    "bg": "city"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On October twenty ninth, Black Tuesday, everyone tried to sell at once. Almost nobody wanted to buy.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "broker",
+      "x": 0.62,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.6,
+      "text": "SELL"
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "STOCKS"
+     }
+    ],
+    "place": "Wall Street · October 29, 1929",
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "About sixteen million shares were traded in a single day. That was a record.",
+   "show": {
+    "k": "card",
+    "label": "Shares traded on Black Tuesday",
+    "big": "16,000,000",
+    "sub": "about 16.4 million, a New York Stock Exchange record"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Remember those margin loans? Now the margin calls came pouring in.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "barber",
+      "x": 0.65,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.12,
+      "s": 0.4
+     },
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "broker",
+   "say": "Your stock dropped. I need more money, today!",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "barber",
+      "x": 0.65,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "broker"
+   }
+  },
+  {
+   "who": "barber",
+   "say": "I don't have more money! That's why I borrowed it!"
+  },
+  {
+   "who": "N",
+   "say": "So brokers sold people's shares, which pushed prices down even more. And the ticker ran hours behind, so nobody knew how bad it was.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.4,
+      "mood": "shock",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "HOURS LATE"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even stars lost big. Comedian Groucho Marx had put his savings into stocks, much of it borrowed. He said he lost about two hundred forty thousand dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "groucho",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "MARX BROTHERS"
+     },
+     {
+      "k": "car",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "groucho",
+     "text": "Groucho Marx, comedian"
+    },
+    "stickers": [
+     {
+      "text": "ABOUT $240,000",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The next day, the show business paper Variety printed one of the most famous headlines ever.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "newsboy",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "WALL ST. LAYS AN EGG"
+     },
+     {
+      "k": "car",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "place": "New York · October 30, 1929"
+   }
+  },
+  {
+   "who": "newsboy",
+   "say": "Extra, extra! Wall Street lays an egg!"
+  },
+  {
+   "who": "N",
+   "say": "In show business, laying an egg means failing badly. And this was a very big egg.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "newsboy",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "EGGS"
+     },
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.5,
+      "text": "VARIETY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now, you might have heard that bankers leaped from windows by the dozen. That's mostly a myth.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "RECORDS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MYTH",
+      "at": 0.8,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians who checked the records found no such wave. Rumors and jokes spread the story far faster than the facts."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1930–1932",
+    "title": "The Great Depression",
+    "bg": "factory"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A crash in stocks is bad. What came next was much worse: the Great Depression, the worst slump of modern times.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "CLOSED"
+     }
+    ],
+    "place": "USA · 1930"
+   }
+  },
+  {
+   "who": "N",
+   "say": "People who lost money stopped buying things. So factories sold less and fired workers. Then those workers stopped buying things too."
+  },
+  {
+   "who": "N",
+   "say": "Then the banks got into trouble. A bank doesn't keep all your savings in its vault. It lends most of them out.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "teller",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "teller",
+     "text": "A bank teller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So if everyone wants their money back at the same time, the bank runs out. That's called a bank run.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "saver",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "worker",
+      "x": 0.55,
+      "mood": "angry"
+     },
+     {
+      "id": "teller",
+      "x": 0.8,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.92,
+      "s": 0.5,
+      "text": "BANK"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANK RUN",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "saver",
+   "say": "I want my savings. All of it. Right now!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "saver",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "teller",
+      "x": 0.65,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true
+     }
+    ],
+    "cam": "close",
+    "focus": "saver"
+   }
+  },
+  {
+   "who": "teller",
+   "say": "Ma'am, your money is out on loans. We have to close!"
+  },
+  {
+   "who": "N",
+   "say": "Thousands of American banks failed. There was no national insurance, so many families lost their savings for good.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "saver",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "BANK CLOSED"
+     },
+     {
+      "k": "car",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, in June 1930, President Herbert Hoover signed the Smoot Hawley Tariff, a big tax on goods from other countries.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "hoover",
+      "x": 0.4,
+      "mood": "neutral",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.6,
+      "s": 0.6,
+      "front": true
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ],
+    "place": "Washington, D.C. · June 1930",
+    "tag": {
+     "id": "hoover",
+     "text": "Herbert Hoover, US president"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over a thousand economists begged him not to. Fun fact: one of them was Irving Fisher. Other countries hit back with their own taxes, and world trade shrank.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "hoover",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "IMPORTS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,028 ECONOMISTS SAID NO",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the trouble crossed the ocean.",
+   "show": {
+    "k": "map",
+    "lon": 10,
+    "lat": 50,
+    "z0": 1.1,
+    "z1": 1.4,
+    "date": "1931",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ],
+     [
+      "Berlin",
+      13.4,
+      52.52,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      16.37,
+      48.21,
+      1.5,
+      "rgba(168,50,42,.3)"
+     ],
+     [
+      13.4,
+      52.52,
+      2.0,
+      "rgba(168,50,42,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In May 1931, Austria's biggest bank, the Creditanstalt in Vienna, collapsed.",
+   "show": {
+    "k": "map",
+    "lon": 15.5,
+    "lat": 48.0,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "May 1931",
+    "labels": [
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ],
+     [
+      "Austria",
+      14.0,
+      47.4,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      16.37,
+      48.21,
+      0.5,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In July, the panic jumped to Germany, and big German banks failed too.",
+   "show": {
+    "k": "flag",
+    "flag": "germany",
+    "label": "GERMANY",
+    "sub": "the Weimar Republic, 1931",
+    "bg": "town"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Germany had borrowed heavily from America. Now that money was being called home.",
+   "show": {
+    "k": "map",
+    "lon": 13.0,
+    "lat": 51.0,
+    "z0": 2.0,
+    "z1": 2.5,
+    "date": "July 1931",
+    "labels": [
+     [
+      "Berlin",
+      13.4,
+      52.52,
+      14
+     ],
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ]
+    ],
+    "route": [
+     [
+      16.37,
+      48.21
+     ],
+     [
+      14.5,
+      50.2
+     ],
+     [
+      13.4,
+      52.52
+     ]
+    ],
+    "areas": [
+     [
+      13.4,
+      52.52,
+      0.6,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1932, about six million Germans were out of work. Desperate voters turned to extremists, including Adolf Hitler, who took power in 1933.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "gerworker",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "NO WORK"
+     }
+    ],
+    "place": "Germany · 1932",
+    "fx": [
+     "rain"
+    ],
+    "stickers": [
+     {
+      "text": "6 MILLION JOBLESS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In September 1931, even Britain gave up the gold standard, its promise to swap pounds for gold.",
+   "show": {
+    "k": "map",
+    "lon": -1.5,
+    "lat": 52.5,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "September 1931",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -0.13,
+      51.5,
+      0.6,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile Churchill came back to America on a lecture tour, to earn back the money he'd lost.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.72,
+      "s": 0.7,
+      "flag": "uk"
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "LUGGAGE"
+     }
+    ],
+    "place": "New York · December 1931"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On December thirteenth, he crossed Fifth Avenue and looked left, the British way. The car came from the right.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.45,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.5,
+      "s": 0.7,
+      "move": [
+       0.9,
+       0.55
+      ]
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "driver",
+   "say": "Look out!",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "driver",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "scared"
+     },
+     {
+      "id": "churchill",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "driver",
+    "tag": {
+     "id": "driver",
+     "text": "Mario Contasino, the driver"
+    }
+   }
+  },
+  {
+   "who": "churchill",
+   "say": "My fault entirely. I looked the wrong way!"
+  },
+  {
+   "who": "N",
+   "say": "He was badly hurt but recovered, and told police the driver wasn't to blame. And since alcohol was banned in America then, his doctor wrote him a note saying he needed it at mealtimes.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "DOCTOR'S NOTE"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REAL NOTE",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back on Wall Street, in July 1932, the Dow finally hit bottom.",
+   "show": {
+    "k": "card",
+    "label": "The Dow's lowest close, July 8, 1932",
+    "big": "41",
+    "sub": "down about 89% from 381"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1933, about one in four American workers had no job.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "saver",
+      "x": 0.62,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.5,
+      "text": "NO JOBS"
+     },
+     {
+      "k": "car",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "stickers": [
+     {
+      "text": "25% JOBLESS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1933–1954",
+    "title": "Fixing the Machine",
+    "bg": "office"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In March 1933, a new president took over: Franklin D. Roosevelt.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "fdr",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "usa48"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Washington, D.C. · March 1933",
+    "tag": {
+     "id": "fdr",
+     "text": "Franklin D. Roosevelt, US president"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two days in, he closed every bank in the country. He called it a bank holiday. Some holiday.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "saver",
+      "x": 0.4,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "BANK HOLIDAY"
+     },
+     {
+      "k": "car",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ALL BANKS CLOSED",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he went on the radio, in a talk called a fireside chat, to calm everyone down.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "saver",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "think"
+     },
+     {
+      "id": "worker",
+      "x": 0.62,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.85,
+      "s": 0.5
+     },
+     {
+      "k": "fire",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He said: I can assure you that it is safer to keep your money in a reopened bank than under the mattress.",
+   "show": {
+    "k": "quote",
+    "text": "I can assure you that it is safer to keep your money in a reopened bank than under the mattress.",
+    "who": "Franklin D. Roosevelt, first fireside chat, March 12, 1933"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That year, Congress also created the FDIC, which insures bank savings. If an insured bank fails, your money is protected.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "teller",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "FDIC"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SAVINGS INSURED",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1934 came the SEC, a new watchdog for the stock market. Its first boss? Joseph Kennedy, the man from the shoeshine legend.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "kennedy",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "SEC"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Washington, D.C. · 1934"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Critics said a market insider was the wrong man. Roosevelt reportedly joked: set a thief to catch a thief."
+  },
+  {
+   "who": "N",
+   "say": "And Richard Whitney, the hero of Black Thursday? He became president of the Stock Exchange. Then he got caught stealing other people's money.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ],
+    "place": "New York · 1938",
+    "stickers": [
+     {
+      "text": "EMBEZZLER",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1938, he went to Sing Sing prison.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "whitney",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "SING SING"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the Dow? It didn't climb back to its 1929 peak until November 1954.",
+   "show": {
+    "k": "card",
+    "label": "Time for the Dow to get back to its 1929 peak",
+    "big": "25 years",
+    "sub": "September 1929 to November 1954"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So, what's the lesson? Borrowed money makes the party bigger, and the crash much worse.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     },
+     {
+      "id": "broker",
+      "x": 0.65,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.5
+     },
+     {
+      "k": "car",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And when a smart person says prices will stay high forever, maybe check twice.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOREVER?",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next up: the Medici, the bankers who bought the Pope. Watch it next, and subscribe.",
+   "show": {
+    "k": "end",
+    "next": "The Medici: The Bankers Who Bought the Pope",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.76,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "moneybag"
+     },
+     {
+      "id": "churchill",
+      "x": 0.9,
+      "mood": "smug",
+      "hold": "cigar"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "In 1929, Americans bought stocks with borrowed money, and on Black Tuesday it all came crashing down, with about 16 million shares dumped in a single day. We explain stocks, margin and the Dow in plain words, then follow Churchill, Groucho Marx, Joseph Kennedy and the banker who went from hero to Sing Sing, as the crash turned into the Great Depression.\n\nChapters are added automatically.\n\n#history #wallstreetcrash #1929 #greatdepression #moneyhistory",
+ "thumbnail": {
+  "style": "redbox",
+  "bg": "street",
+  "lines": [
+   "CRASH"
+  ],
+  "main": {
+   "id": "barber",
+   "mood": "shock",
+   "hold": "moneybag"
+  },
+  "second": {
+   "id": "broker",
+   "mood": "scared"
+  }
+ },
+ "youtube_title": "The Wall Street Crash of 1929 Explained",
+ "tags": [
+  "wall street crash 1929",
+  "stock market crash 1929",
+  "black tuesday",
+  "black thursday",
+  "great depression",
+  "buying on margin",
+  "irving fisher permanently high plateau",
+  "churchill wall street crash",
+  "richard whitney",
+  "money history",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "https://www.britannica.com/event/stock-market-crash-of-1929",
+  "https://www.britannica.com/event/Black-Thursday",
+  "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+  "https://www.history.com/articles/1929-stock-market-crash",
+  "https://www.history.com/articles/what-caused-the-stock-market-crash-of-1929",
+  "https://eh.net/encyclopedia/the-1929-stock-market-crash/",
+  "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average",
+  "https://www.guinnessworldrecords.com/world-records/68799-lowest-closing-on-the-dow-jones-industrial-average",
+  "https://www.benzinga.com/general/education/21/11/24250394/this-day-in-market-history-dow-completes-25-year-great-depression-recovery",
+  "https://www.cnbc.com/2014/07/02/history-of-dow-30.html",
+  "https://en.wikipedia.org/wiki/Irving_Fisher",
+  "https://time.com/3207128/stock-market-high-1929/",
+  "https://en.wikipedia.org/wiki/Richard_Whitney_(financier)",
+  "https://novelinvestor.com/the-rise-and-downfall-of-richard-whitney/",
+  "https://novelinvestor.com/timeline-of-the-1929-market-crash/",
+  "https://en.wikipedia.org/wiki/Clarence_Hatry",
+  "https://www.historytoday.com/archive/months-past/hatry-group-collapse",
+  "https://quoteinvestigator.com/2026/08/16/shoeshine-stock/",
+  "https://en.wikipedia.org/wiki/Joseph_P._Kennedy_Sr.",
+  "https://guides.loc.gov/this-month-in-business-history/june/signing-securities-exchange-act-1934",
+  "https://winstonchurchill.hillsdale.edu/tolppanen-north-america-1929/",
+  "https://winstonchurchill.org/publications/finest-hour/finest-hour-136/my-new-york-misadventure/",
+  "https://en.wikipedia.org/wiki/Edward_F._Cantasano",
+  "https://en.wikipedia.org/wiki/Winston_Churchill%27s_%22Wilderness%22_years,_1929%E2%80%931939",
+  "https://www.pbs.org/wgbh/americanexperience/films/crash/",
+  "https://25iq.com/2016/01/29/a-dozen-things-i-have-learned-about-investing-and-money-from-groucho-marx/",
+  "https://en.wikipedia.org/wiki/Wall_Street_Lays_an_Egg",
+  "https://www.loc.gov/item/2003653824/",
+  "https://www.history.com/articles/stock-market-crash-suicides-wall-street-1929-great-depression",
+  "https://en.wikipedia.org/wiki/The_Great_Crash,_1929",
+  "https://en.wikipedia.org/wiki/Great_Depression",
+  "https://www.britannica.com/event/Great-Depression",
+  "https://eh.net/encyclopedia/smoot-hawley-tariff/",
+  "https://www.aei.org/carpe-diem/the-economists-tariff-protest-of-1930/",
+  "https://en.wikipedia.org/wiki/European_banking_crisis_of_1931",
+  "https://www.bloomberg.com/news/articles/2011-04-20/lessons-from-the-credit-anstalt-collapse",
+  "https://en.wikipedia.org/wiki/Great_Depression_in_Germany",
+  "https://encyclopedia.ushmm.org/content/en/article/the-great-depression",
+  "https://www.federalreservehistory.org/essays/bank-holiday-of-1933",
+  "https://millercenter.org/issues-policy/economics/fdr-s-first-fireside-chat-the-banking-crisis",
+  "https://www.fdic.gov/90years"
+ ]
+}

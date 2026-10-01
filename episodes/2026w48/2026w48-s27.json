@@ -1,0 +1,224 @@
+{
+ "id": "2026w48-s27",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "The Economist Who Said Stocks Would Stay High",
+ "hook": "STOCKS WILL STAY HIGH",
+ "music": "playful",
+ "cast": {
+  "fisher": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#E8E4DA",
+   "beard": "goatee",
+   "glasses": "round",
+   "outfit": "suit",
+   "color": "#3A3A4A",
+   "tie": true,
+   "name": "Irving Fisher"
+  },
+  "trader": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#2A2A2A",
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "stache": "brush",
+   "hairColor": "#5A3A22",
+   "name": "Panicked trader"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "In October 1929, a famous economist said stock prices had reached a permanently high plateau.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "globe",
+      "x": 0.18,
+      "s": 0.4
+     }
+    ],
+    "place": "New York · October 1929",
+    "tag": {
+     "id": "fisher",
+     "text": "Irving Fisher, Yale economist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Irving Fisher, a professor at Yale University and one of America's best known economists.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "YALE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's what he said.",
+   "show": {
+    "k": "quote",
+    "text": "Stock prices have reached what looks like a permanently high plateau.",
+    "who": "Irving Fisher, mid-October 1929"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A plateau is high, flat land. He meant prices would just stay up there.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.8
+     },
+     {
+      "k": "tree",
+      "x": 0.18,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "About a week later, Wall Street crashed.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "SELL"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1932, the Dow, a scoreboard for big company stocks, had fallen from three hundred eighty one to forty one.",
+   "show": {
+    "k": "card",
+    "label": "The Dow, 1929 to 1932",
+    "big": "381 → 41",
+    "sub": "a drop of about 89%"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fisher lost a fortune of his own. Smart people can still be very wrong about the future.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "trader",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A top economist said stocks would stay high. A week later, Wall Street crashed.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #1929 #irvingfisher #stockmarket #moneyhistory",
+ "youtube_title": "The Economist Who Said Stocks Would Stay High #shorts",
+ "tags": [
+  "irving fisher",
+  "permanently high plateau",
+  "1929 crash",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Irving_Fisher",
+  "https://time.com/3207128/stock-market-high-1929/",
+  "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average"
+ ]
+}

@@ -1,0 +1,268 @@
+{
+ "id": "2026w48-s25",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "16 Million Shares Dumped in One Day",
+ "hook": "16 MILLION SHARES DUMPED",
+ "music": "playful",
+ "cast": {
+  "barber": {
+   "skin": "light",
+   "hat": "straw",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "apron": true,
+   "stache": "handlebar",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "name": "Small investor"
+  },
+  "broker": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#3A3A4A",
+   "outfit": "suit",
+   "color": "#3A4A5A",
+   "tie": true,
+   "hair": "side",
+   "hairColor": "#2A1A10",
+   "name": "Stockbroker"
+  },
+  "trader": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#2A2A2A",
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "stache": "brush",
+   "hairColor": "#5A3A22",
+   "name": "Panicked trader"
+  },
+  "worker": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "overalls",
+   "color": "#3A5A7A",
+   "stubble": true,
+   "hairColor": "#5A3A22",
+   "name": "Factory worker"
+  }
+ },
+ "voices": {
+  "barber": "am_echo",
+  "broker": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "On October twenty ninth, 1929, Americans dumped about sixteen million shares of stock in a single day.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "trader",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "STOCK EXCHANGE"
+     },
+     {
+      "k": "car",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
+    "place": "Wall Street, New York · October 29, 1929",
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "SELL!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A share is a tiny piece of a company. When everyone sells and nobody buys, the price crashes.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.35,
+      "mood": "shock",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.6,
+      "label": "SHARES"
+     },
+     {
+      "k": "moneypile",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many people had bought those shares with borrowed money. Now their brokers wanted it back.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "barber",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.5,
+      "s": 0.4
+     },
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "broker",
+   "say": "Pay up today, or I sell your shares!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broker",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "broker"
+   }
+  },
+  {
+   "who": "barber",
+   "say": "Sell them for what? Nobody's buying!"
+  },
+  {
+   "who": "N",
+   "say": "The ticker, the machine printing stock prices, ran hours behind. Nobody knew how bad it really was.",
+   "show": {
+    "k": "card",
+    "label": "Shares traded on Black Tuesday",
+    "big": "16,000,000",
+    "sub": "about 16.4 million, a record at the time"
+   }
+  },
+  {
+   "who": "N",
+   "say": "People called it Black Tuesday. It helped kick off the Great Depression, the worst economic slump of modern times.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.2,
+      "s": 0.5,
+      "text": "CLOSED"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "broker",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Sixteen million shares dumped in one day. Here's what Black Tuesday really was.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #blacktuesday #1929 #stockmarket #greatdepression",
+ "youtube_title": "16 Million Shares Dumped in One Day #shorts",
+ "tags": [
+  "black tuesday",
+  "1929 stock market crash",
+  "wall street crash",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "https://www.history.com/articles/1929-stock-market-crash",
+  "https://www.britannica.com/event/stock-market-crash-of-1929",
+  "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+ ]
+}

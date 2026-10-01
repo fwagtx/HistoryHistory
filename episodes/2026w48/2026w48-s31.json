@@ -1,0 +1,283 @@
+{
+ "id": "2026w48-s31",
+ "format": "short",
+ "date": "2026-11-27",
+ "slot": "09:00",
+ "title": "The Shoeshine Boy Stock Tip Legend",
+ "hook": "THE SHOESHINE BOY TIP",
+ "music": "playful",
+ "cast": {
+  "kennedy": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#6A5A4A",
+   "hair": "side",
+   "hairColor": "#B8783A",
+   "glasses": "round",
+   "outfit": "suit",
+   "color": "#4A4A52",
+   "tie": true,
+   "name": "Joseph P. Kennedy"
+  },
+  "shoeboy": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#8A6A3A",
+   "hairColor": "#C89A5A",
+   "name": "Shoeshine boy"
+  }
+ },
+ "voices": {
+  "kennedy": "am_eric",
+  "shoeboy": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Legend says a shoeshine boy's stock tip saved a rich man from the 1929 crash.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "shoeboy",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "kennedy",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.4,
+      "text": "SHINE 10¢"
+     }
+    ],
+    "place": "New York · 1929",
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The rich man was Joseph Kennedy, a big investor and the father of a future president.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "kennedy",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.4,
+      "y": 0.12
+     }
+    ],
+    "tag": {
+     "id": "kennedy",
+     "text": "Joseph P. Kennedy, investor"
+    }
+   }
+  },
+  {
+   "who": "shoeboy",
+   "say": "Want a stock tip, mister? Buy now!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "shoeboy",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "kennedy",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "shoeboy"
+   }
+  },
+  {
+   "who": "kennedy",
+   "say": "When the shoeshine boy has tips, it's time for me to sell."
+  },
+  {
+   "who": "N",
+   "say": "That story only shows up in print decades later, so treat it as a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "kennedy",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "LEGEND?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Kennedy really did start pulling money out of stocks before the crash.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "kennedy",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in 1934, President Roosevelt made him the first boss of the SEC, the new watchdog for the stock market.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "kennedy",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "SEC"
+     },
+     {
+      "k": "flag",
+      "x": 0.18,
+      "s": 0.5,
+      "flag": "usa48"
+     }
+    ],
+    "place": "Washington, D.C. · 1934"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The market insider became the market's referee.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "kennedy",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kennedy",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "shoeboy",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Did a shoeshine boy really warn Joseph Kennedy about the 1929 crash?\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #kennedy #1929 #stockmarket #legend",
+ "youtube_title": "The Shoeshine Boy Stock Tip Legend #shorts",
+ "tags": [
+  "joseph kennedy",
+  "shoeshine boy stock tip",
+  "1929 crash",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://quoteinvestigator.com/2026/08/16/shoeshine-stock/",
+  "https://en.wikipedia.org/wiki/Joseph_P._Kennedy_Sr.",
+  "https://guides.loc.gov/this-month-in-business-history/june/signing-securities-exchange-act-1934"
+ ]
+}
