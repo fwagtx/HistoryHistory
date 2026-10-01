@@ -1,0 +1,2907 @@
+{
+ "id": "2026w46-l2",
+ "format": "long",
+ "date": "2026-11-11",
+ "title": "The Weirdest Roman Emperors",
+ "music": "playful",
+ "cast": {
+  "caligen": {
+   "hat": "laurel",
+   "outfit": "armor",
+   "color": "#E7C66A",
+   "color2": "#6A3E8E",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Emperor Caligula"
+  },
+  "caligula": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#E7C66A",
+   "color2": "#6A3E8E",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Emperor Caligula"
+  },
+  "caracalla": {
+   "hat": "laurel",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "skin": "tan",
+   "name": "Emperor Caracalla"
+  },
+  "claudius": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F7A4A",
+   "hair": "short",
+   "hairColor": "#B8B0A0",
+   "skin": "light",
+   "name": "Claudius"
+  },
+  "claudiusemp": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F7A4A",
+   "hair": "short",
+   "hairColor": "#B8B0A0",
+   "skin": "light",
+   "name": "Emperor Claudius"
+  },
+  "commodus": {
+   "hat": "laurel",
+   "outfit": "armor",
+   "color": "#B08A3A",
+   "hair": "curly",
+   "beard": "full",
+   "hairColor": "#C8902A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Emperor Commodus"
+  },
+  "dio": {
+   "preset": "senator",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "goatee",
+   "name": "Cassius Dio"
+  },
+  "elagabalus": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "olive",
+   "name": "Elagabalus"
+  },
+  "gratus": {
+   "preset": "legionary",
+   "color": "#6A3E8E",
+   "hold": "spear",
+   "name": "Gratus, a palace guard"
+  },
+  "guard": {
+   "preset": "legionary",
+   "color": "#6A3E8E",
+   "hold": "spear",
+   "name": "Praetorian guard"
+  },
+  "hercules": {
+   "outfit": "fur",
+   "color": "#C8902A",
+   "hair": "curly",
+   "beard": "full",
+   "hairColor": "#C8902A",
+   "skin": "light",
+   "hold": "axe",
+   "name": "Commodus as 'Hercules'"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "julianus": {
+   "preset": "senator",
+   "hat": null,
+   "hair": "short",
+   "hairColor": "#DADADA",
+   "hold": "moneybag",
+   "name": "Didius Julianus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "maesa": {
+   "hat": "veil",
+   "hatColor": "#8E2A2A",
+   "outfit": "gown",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "hair": "bun",
+   "hairColor": "#6A6A6A",
+   "skin": "olive",
+   "name": "Julia Maesa"
+  },
+  "marcus": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A7A",
+   "hair": "curly",
+   "hairColor": "#8A8A8A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Marcus Aurelius"
+  },
+  "nero": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "curly",
+   "hairColor": "#C8702A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Emperor Nero"
+  },
+  "pertinax": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "short",
+   "hairColor": "#DADADA",
+   "beard": "full",
+   "skin": "light",
+   "name": "Emperor Pertinax"
+  },
+  "roman": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman"
+  },
+  "senator": {
+   "preset": "senator",
+   "hat": null,
+   "hair": "short",
+   "hairColor": "#8A8A8A"
+  },
+  "sulpicianus": {
+   "preset": "senator",
+   "hat": null,
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "stache": "thin",
+   "name": "Sulpicianus"
+  },
+  "titus": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F6FC2",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Titus, Vespasian's son"
+  },
+  "vespasian": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#A8322A",
+   "hair": "bald",
+   "hairColor": "#8A8A8A",
+   "skin": "tan",
+   "hold": "coin",
+   "name": "Emperor Vespasian"
+  },
+  "vespgen": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8A6A3A",
+   "hair": "bald",
+   "hairColor": "#8A8A8A",
+   "skin": "tan",
+   "name": "Vespasian, a Roman general"
+  }
+ },
+ "voices": {
+  "claudius": "bm_daniel",
+  "commodus": "am_fenrir",
+  "gratus": "am_eric",
+  "julianus": "bm_lewis",
+  "nero": "am_liam",
+  "sulpicianus": "am_echo",
+  "titus": "am_puck",
+  "vespasian": "bm_george",
+  "vespgen": "bm_george"
+ },
+ "description": "A pee tax, an emperor found hiding behind a curtain, a man who bought the empire at an auction, a teenage priest with a sacred rock, an Olympic champion who fell out of his chariot, a war on seashells, and an emperor who thought he was Hercules: seven of the weirdest Roman emperors, counted down from seven to one. Every story comes from real ancient sources, and we flag the gossip and the legends. Chapters are added automatically.\n\n#history #romanempire #ancientrome #funnyhistory #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "EMPEROR OF WHAT?",
+  "bg": "rome",
+  "faces": [
+   {
+    "id": "hercules",
+    "mood": "shout"
+   },
+   {
+    "id": "caligula",
+    "mood": "smug"
+   }
+  ],
+  "grade": "warm"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome, 192 AD. Tens of thousands of people pack the Colosseum to watch a gladiator fight.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.2,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "senator",
+      "x": 0.8,
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.08,
+      "s": 0.8
+     },
+     {
+      "k": "column",
+      "x": 0.92,
+      "s": 0.8
+     },
+     {
+      "k": "banner",
+      "x": 0.5,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "The Colosseum, Rome · 192 AD",
+    "stickers": [
+     {
+      "text": "THE COLOSSEUM",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the gladiator walking out onto the sand is... the emperor of Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "commodus",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "smug",
+      "enter": "left"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     },
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "commodus",
+     "text": "Emperor Commodus"
+    }
+   }
+  },
+  {
+   "who": "commodus",
+   "say": "Who's ready to watch me win again?",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "commodus",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "commodus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the front rows sit the senators, Rome's top politicians. They have to cheer whatever they're told to cheer.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "scared"
+     },
+     {
+      "id": "dio",
+      "x": 0.6,
+      "pose": "cheer",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHEER. OR ELSE.",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One of them, a senator named Cassius Dio, is trying very, very hard not to laugh.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "dio",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "dio",
+    "tag": {
+     "id": "dio",
+     "text": "Cassius Dio, senator and historian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "And honestly? This isn't even the only weird thing a Roman emperor ever did."
+  },
+  {
+   "who": "N",
+   "say": "Today we're counting down seven of the weirdest Roman emperors. Commodus is number one.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.1,
+      "pose": "hold"
+     },
+     {
+      "id": "claudius",
+      "x": 0.23,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "julianus",
+      "x": 0.36,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "elagabalus",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "nero",
+      "x": 0.63,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "caligula",
+      "x": 0.76,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "commodus",
+      "x": 0.9,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": []
+   }
+  },
+  {
+   "who": "N",
+   "say": "Quick warning: many of these stories come from Roman writers like Suetonius, who loved gossip and often hated the emperors. When a story is probably a legend, we'll say so.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "present",
+      "hold": "scroll",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.7,
+      "text": "GOSSIP"
+     },
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HANDLE WITH CARE",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "title",
+    "text": "The Weirdest Roman Emperors",
+    "sub": "Seven emperors. All real. Deeply strange.",
+    "cast": [
+     {
+      "id": "caligula",
+      "x": 0.9,
+      "s": 0.8,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ]
+   },
+   "hold": 2.5
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "The Emperor Who Taxed Pee"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number seven: Vespasian, the emperor who put a tax on pee.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.42,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Rome · 70s AD",
+    "tag": {
+     "id": "vespasian",
+     "text": "Emperor Vespasian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was a tough old soldier who won a civil war in 69 AD. The prize? An empire that was totally broke.",
+   "show": {
+    "k": "card",
+    "label": "Rome's treasury when Vespasian took over",
+    "big": "BROKE",
+    "sub": "after Nero's spending and a year of civil war",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now, Romans collected pee from public toilets. Laundries used it to clean clothes, and tanners used it to soften leather.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.6,
+      "s": 0.5,
+      "label": "PEE"
+     },
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROMAN LAUNDRY",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Vespasian taxed it. His son Titus was disgusted.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "titus",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "titus",
+     "text": "Titus, Vespasian's son"
+    }
+   }
+  },
+  {
+   "who": "titus",
+   "say": "Dad, a tax on pee? That's disgusting."
+  },
+  {
+   "who": "vespasian",
+   "say": "Smell this coin. Does it stink?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     },
+     {
+      "id": "titus",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "vespasian"
+   }
+  },
+  {
+   "who": "titus",
+   "say": "No?"
+  },
+  {
+   "who": "vespasian",
+   "say": "And yet it comes from pee.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MONEY DOESN'T STINK",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's where we get the saying \"money doesn't stink\". And he kept joking right to the end. Dying in 79 AD, Suetonius says, he said this.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Woe's me. Methinks I'm turning into a god.",
+   "show": {
+    "k": "quote",
+    "text": "Woe's me. Methinks I'm turning into a god.",
+    "who": "Vespasian on his deathbed, 79 AD (Suetonius, Life of Vespasian 23, trans. J. C. Rolfe)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome usually declared dead emperors to be gods. So yes, he was making fun of his own funeral."
+  },
+  {
+   "who": "N",
+   "say": "Oh, and this penny-pinching pee taxer also started building the Colosseum. So that's where some of the money went.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.65,
+      "s": 0.7
+     },
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "cart",
+      "x": 0.92,
+      "s": 0.5,
+      "load": "gold"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "COLOSSEUM: UNDER CONSTRUCTION",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "The Emperor Found Behind a Curtain"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number six: Claudius, who got the top job by hiding.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "claudius",
+      "x": 0.42,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Palace, Rome · 24 January 41 AD",
+    "tag": {
+     "id": "claudius",
+     "text": "Claudius"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Claudius was the uncle of the emperor Caligula. He limped and stammered, so his own family treated him as a joke and kept him out of politics.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "caligula",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "claudius",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, in 41 AD, guards killed Caligula inside the palace. Claudius panicked and hid behind a curtain on a balcony.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "claudius",
+      "x": 0.6,
+      "pose": "scared",
+      "mood": "scared",
+      "s": 0.9
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.4,
+      "s": 0.8,
+      "front": true
+     },
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "HIDING",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A guard named Gratus walked by, and noticed a pair of feet sticking out.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "gratus",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock",
+      "walk": [
+       0.15,
+       0.35
+      ]
+     },
+     {
+      "id": "claudius",
+      "x": 0.72,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.62,
+      "s": 0.8,
+      "front": true
+     }
+    ],
+    "tag": {
+     "id": "gratus",
+     "text": "Gratus, palace guard"
+    }
+   }
+  },
+  {
+   "who": "gratus",
+   "say": "Hey! I know you. You're Claudius!"
+  },
+  {
+   "who": "claudius",
+   "say": "Please! Don't hurt me!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "claudius",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "cam": "close",
+    "focus": "claudius"
+   }
+  },
+  {
+   "who": "gratus",
+   "say": "Hurt you? You're our new emperor!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "gratus",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "claudius",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The guards carried him to their camp, and the army made him emperor. He was fifty years old.",
+   "show": {
+    "k": "card",
+    "label": "Claudius's age when he became emperor",
+    "big": "50",
+    "sub": "after a lifetime of being ignored",
+    "cast": [
+     {
+      "id": "claudiusemp",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the man everyone ignored was actually a serious scholar. He had written history books about the Etruscans and Carthage.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "claudiusemp",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "book",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "HISTORY"
+     },
+     {
+      "k": "desk",
+      "x": 0.92,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the family joke was actually good at the job. Two years later, his army invaded Britain, and he went to see it himself.",
+   "show": {
+    "k": "map",
+    "lon": 1.5,
+    "lat": 49.0,
+    "z0": 1.4,
+    "z1": 1.8,
+    "date": "43 AD",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "BRITAIN",
+      -1.5,
+      52.5,
+      0
+     ],
+     [
+      "Gaul",
+      2.5,
+      46.8,
+      0
+     ]
+    ],
+    "route": [
+     [
+      12.48,
+      41.9
+     ],
+     [
+      8.9,
+      44.4
+     ],
+     [
+      4.8,
+      43.3
+     ],
+     [
+      4.8,
+      45.7
+     ],
+     [
+      2.35,
+      48.85
+     ],
+     [
+      1.6,
+      50.7
+     ],
+     [
+      1.3,
+      51.3
+     ]
+    ],
+    "areas": [
+     [
+      -1.5,
+      52.5,
+      1.6,
+      "rgba(168,50,42,0.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "The Man Who Bought the Empire"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number five: Didius Julianus, who bought the whole Roman Empire at an auction.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.42,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Praetorian camp, Rome · March 193 AD",
+    "tag": {
+     "id": "julianus",
+     "text": "Didius Julianus, rich senator"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In March 193, the Praetorian Guard, the emperor's own bodyguards, killed the emperor Pertinax. He'd been trying to make them behave.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "pertinax",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "guard",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "tag": {
+     "id": "pertinax",
+     "text": "Emperor Pertinax"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the guards had a brilliant idea. Why not sell the job to whoever paid the most?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.6,
+      "text": "EMPIRE FOR SALE"
+     },
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOR SALE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two rich men started bidding. Sulpicianus was inside the camp, and Julianus shouted his offers from outside the wall.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "sulpicianus",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "julianus",
+      "x": 0.78,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.52,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "sulpicianus",
+     "text": "Sulpicianus, rival bidder"
+    }
+   }
+  },
+  {
+   "who": "sulpicianus",
+   "say": "Twenty thousand sesterces for every soldier!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "sulpicianus",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "sulpicianus"
+   }
+  },
+  {
+   "who": "julianus",
+   "say": "Twenty-five thousand!",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "julianus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sold. According to Cassius Dio, who lived through it, that's how a man bought the Roman Empire.",
+   "show": {
+    "k": "card",
+    "label": "Julianus's winning bid",
+    "big": "25,000",
+    "sub": "sesterces for each guard, and there were thousands of guards",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The people of Rome hated it. They shouted insults at him in the streets.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "julianus",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BOO!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Worse, Roman generals with real armies refused to accept him. One of them, Septimius Severus, marched on Rome.",
+   "show": {
+    "k": "map",
+    "lon": 14.5,
+    "lat": 44.5,
+    "z0": 1.8,
+    "z1": 2.3,
+    "date": "spring 193 AD",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Carnuntum",
+      16.9,
+      48.1,
+      14
+     ],
+     [
+      "ITALY",
+      13.5,
+      43.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      16.9,
+      48.1
+     ],
+     [
+      15.0,
+      46.5
+     ],
+     [
+      13.8,
+      45.6
+     ],
+     [
+      12.3,
+      45.4
+     ],
+     [
+      11.3,
+      44.5
+     ],
+     [
+      12.5,
+      43.3
+     ],
+     [
+      12.48,
+      41.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After just sixty-six days, Julianus was killed in his own palace. Dio says his last words were: but what evil have I done?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "66 DAYS",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Turns out you can buy a throne. You just can't buy anyone's respect."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "The Teenage Priest Emperor"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number four: Elagabalus, who became emperor at fourteen.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "elagabalus",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "place": "Emesa, Syria · 218 AD",
+    "tag": {
+     "id": "elagabalus",
+     "text": "Elagabalus, age 14"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was a teenage priest of a sun god from Emesa, a city in Syria. His powerful grandmother, Julia Maesa, got the army to make him emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "maesa",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "elagabalus",
+      "x": 0.55,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.8,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.95,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "maesa",
+     "text": "Julia Maesa, his grandmother"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "And when he moved to Rome, he brought his god with him: a big black stone, probably a meteorite.",
+   "show": {
+    "k": "map",
+    "lon": 24.0,
+    "lat": 38.5,
+    "z0": 1.1,
+    "z1": 1.3,
+    "date": "219 AD",
+    "labels": [
+     [
+      "Emesa",
+      36.7,
+      34.73,
+      14
+     ],
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ]
+    ],
+    "route": [
+     [
+      36.7,
+      34.73
+     ],
+     [
+      32.0,
+      37.5
+     ],
+     [
+      29.0,
+      41.0
+     ],
+     [
+      23.0,
+      41.5
+     ],
+     [
+      19.5,
+      41.3
+     ],
+     [
+      16.0,
+      41.0
+     ],
+     [
+      12.48,
+      41.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He built it a giant temple on the Palatine Hill, and put his sun god above Jupiter, Rome's king of the gods.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "elagabalus",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 0.6,
+      "label": "SACRED STONE"
+     },
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "NEW TOP GOD",
+      "at": 1.4,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Romans were not amused. Swapping out the gods was a very big deal.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "angry"
+     },
+     {
+      "id": "roman",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There's a famous legend about him, too. It says he dropped so many flowers on his dinner guests from a fake ceiling that some of them couldn't climb out.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "elagabalus",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.1,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That comes from the Historia Augusta, a Roman book so full of made-up stories that historians barely trust it. A painter in 1888 even swapped the flowers for roses.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "shrug",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UNRELIABLE",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "What's not a legend: in 222, his own guards turned on him. He was eighteen.",
+   "show": {
+    "k": "card",
+    "label": "How long Elagabalus ruled",
+    "big": "4 YEARS",
+    "sub": "from age 14 to 18",
+    "cast": [
+     {
+      "id": "elagabalus",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "The Emperor Who Won the Olympics by Falling Off"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number three: Nero, the emperor who wanted to be a rock star.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.42,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "place": "Greece · 66 AD",
+    "tag": {
+     "id": "nero",
+     "text": "Emperor Nero"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nero loved to sing while playing the lyre, a small harp. And he made sure everybody listened.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "roman",
+      "x": 0.75,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LA LA LA",
+      "at": 0.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius says nobody was allowed to leave during his shows. Some people faked being dead, just to be carried out.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "senator",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.9,
+      "s": 0.6,
+      "label": "LOCKED"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PLAYING DEAD",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On a big tour of Greece in 66 AD, one listener kept nodding off: an old general named Vespasian. Yes, the pee tax guy.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "vespgen",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ZZZ",
+      "at": 1.4,
+      "color": "#262322"
+     }
+    ],
+    "tag": {
+     "id": "vespgen",
+     "text": "Vespasian, before he was emperor"
+    }
+   }
+  },
+  {
+   "who": "nero",
+   "say": "Excuse me. Are you sleeping during my song?",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "vespgen",
+      "x": 0.72,
+      "pose": "sit",
+      "mood": "shock"
+     }
+    ],
+    "objects": [],
+    "cam": "close",
+    "focus": "nero"
+   }
+  },
+  {
+   "who": "vespgen",
+   "say": "What? No! Bravo! Beautiful!"
+  },
+  {
+   "who": "N",
+   "say": "Nero kicked him out of his court. Bad move: Vespasian would end up ruling Rome."
+  },
+  {
+   "who": "N",
+   "say": "In Greece, Nero also entered the Olympic Games. The Games were even rescheduled so he could compete.",
+   "show": {
+    "k": "map",
+    "lon": 22.0,
+    "lat": 38.0,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "67 AD",
+    "labels": [
+     [
+      "Olympia",
+      21.63,
+      37.64,
+      14
+     ],
+     [
+      "Corinth",
+      22.93,
+      37.94,
+      14
+     ],
+     [
+      "GREECE",
+      22.4,
+      39.2,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      21.63,
+      37.64,
+      0.25,
+      "rgba(200,144,42,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He drove a chariot pulled by ten horses. He fell out, got back in, and gave up before the finish line.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.6,
+      "s": 0.8,
+      "move": [
+       0.4,
+       0.9
+      ]
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "OOPS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The judges crowned him the winner anyway.",
+   "show": {
+    "k": "card",
+    "label": "Nero's Olympic chariot race",
+    "big": "10 HORSES",
+    "sub": "fell out, didn't finish, still won",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And did he fiddle while Rome burned in 64 AD? No. Fiddles didn't exist yet, and the historian Tacitus says Nero was at Antium, about fifty kilometers away, when the fire started.",
+   "show": {
+    "k": "map",
+    "lon": 12.6,
+    "lat": 41.7,
+    "z0": 3.4,
+    "z1": 4.0,
+    "date": "July 64 AD",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Antium",
+      12.63,
+      41.45,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      12.48,
+      41.9,
+      0.12,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "The War on the Sea"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number two: Caligula, who became emperor in 37 AD, at just twenty-four.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "caligula",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "crown",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "place": "Rome · 37 AD",
+    "tag": {
+     "id": "caligula",
+     "text": "Emperor Caligula"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ancient writers describe a spoiled ruler. His favorite racehorse, Incitatus, reportedly had a marble stall and an ivory food box.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.45
+     },
+     {
+      "id": "caligula",
+      "x": 0.75,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INCITATUS",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rumor even said he planned to make the horse a consul, one of Rome's two top officials. That's probably gossip, or a joke to insult the Senate.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.4
+     },
+     {
+      "id": "senator",
+      "x": 0.75,
+      "pose": "facepalm",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But my favorite Caligula story is this one. In 40 AD, he marched his army to the coast of Gaul, which is now France, facing Britain.",
+   "show": {
+    "k": "map",
+    "lon": 1.6,
+    "lat": 50.6,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "40 AD",
+    "labels": [
+     [
+      "Gesoriacum (Boulogne)",
+      1.61,
+      50.73,
+      14
+     ],
+     [
+      "BRITAIN",
+      0.0,
+      51.8,
+      0
+     ],
+     [
+      "GAUL",
+      2.8,
+      49.6,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      1.61,
+      50.73,
+      0.3,
+      "rgba(168,50,42,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The soldiers lined up for battle. Trumpets blared. Everybody waited for the invasion.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "salute"
+     },
+     {
+      "id": "caligen",
+      "x": 0.62,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     },
+     {
+      "k": "galley",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "place": "Coast of Gaul · 40 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, Suetonius says, Caligula ordered them to pick up seashells, and fill their helmets with them.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "caligen",
+      "x": 0.7,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "SHELLS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SEASHELLS?!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He called them the spoils of the Ocean, owed to Rome. Victory over... the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "caligen",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.75,
+      "s": 0.6,
+      "load": "gold"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "SPOILS OF THE OCEAN",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some historians think the Latin word used, musculi, could also mean army work huts. So this might be a mix-up. Either way, there was no invasion.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "MUSCULI?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHELLS OR HUTS?",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Britain had to wait three more years, for the man behind the curtain."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "The Emperor Who Thought He Was Hercules"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "And number one: Commodus, the emperor who decided he was Hercules.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "hercules",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Rome · 180 AD",
+    "tag": {
+     "id": "hercules",
+     "text": "Emperor Commodus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His father was Marcus Aurelius, one of Rome's wisest emperors. Commodus took over alone in 180, at eighteen. He's the bad guy in the movie Gladiator.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "marcus",
+      "x": 0.3,
+      "pose": "think"
+     },
+     {
+      "id": "commodus",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "marcus",
+     "text": "Marcus Aurelius, his father"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He said he was Hercules, the legendary Greek hero, reborn. He wore a lion skin and carried a club.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "hercules",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.7,
+      "label": "HERCULES?"
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HERCULES 2.0",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He renamed all twelve months of the year after his own names and titles.",
+   "show": {
+    "k": "card",
+    "label": "Months Commodus renamed after himself",
+    "big": "12",
+    "sub": "including 'Commodus' and 'Herculeus'",
+    "cast": [
+     {
+      "id": "hercules",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He even had a giant bronze statue near the Colosseum redone as himself, as Hercules. And he renamed the city of Rome. It was now the Colony of Commodus.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "commodus",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "roman",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.6,
+      "text": "COMMODIANA"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEW NAME",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And he fought in the arena. Dio says he paid himself a million sesterces from the gladiator fund for every day he fought.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "commodus",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "1,000,000 SESTERCES",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Which brings us back to Dio in the stands. One day, Commodus hunted an ostrich, then marched over to the senators, holding up its head, as if to say: you're next.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "commodus",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "senator",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "dio",
+      "x": 0.85,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.08,
+      "s": 0.6
+     }
+    ],
+    "place": "The Colosseum, Rome · 192 AD"
+   }
+  },
+  {
+   "who": "commodus",
+   "say": "Something funny, senators?",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "commodus",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "cam": "close",
+    "focus": "commodus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Dio says he pulled leaves off his laurel wreath and chewed them, so nobody could see him laughing.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "dio",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "dio",
+    "stickers": [
+     {
+      "text": "CHEW. DON'T LAUGH.",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It didn't end well. On the last day of 192, Commodus was murdered by his own people. And that chaos is what led to the auction of Didius Julianus.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Honorable mention: Caracalla. In 212 AD he made almost every free man in the empire a Roman citizen. Sounds generous! Cassius Dio says the real goal was more taxes.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "caracalla",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "roman",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "CITIZENS!"
+     },
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "place": "Rome · 212 AD",
+    "tag": {
+     "id": "caracalla",
+     "text": "Emperor Caracalla"
+    },
+    "stickers": [
+     {
+      "text": "MORE TAXPAYERS",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's the list: a pee taxer, a man behind a curtain, an empire buyer, a teenage priest, a champion who didn't finish, a seashell general, and Hercules.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.1,
+      "pose": "hold"
+     },
+     {
+      "id": "claudiusemp",
+      "x": 0.23,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "julianus",
+      "x": 0.36,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "elagabalus",
+      "x": 0.5,
+      "pose": "hips"
+     },
+     {
+      "id": "nero",
+      "x": 0.63,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "caligula",
+      "x": 0.76,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "hercules",
+      "x": 0.9,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": []
+   }
+  },
+  {
+   "who": "N",
+   "say": "Which emperor was the weirdest? Tell us in the comments."
+  },
+  {
+   "who": "N",
+   "say": "Next time: the worst hyperinflations in history, when money became almost worthless. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "next": "The Worst Hyperinflations in History",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.72,
+      "pose": "wave",
+      "mood": "happy",
+      "hold": "coin"
+     },
+     {
+      "id": "nero",
+      "x": 0.88,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube_title": "The Weirdest Roman Emperors",
+ "tags": [
+  "roman emperors",
+  "weirdest roman emperors",
+  "commodus",
+  "caligula",
+  "nero",
+  "elagabalus",
+  "didius julianus",
+  "claudius",
+  "vespasian",
+  "ancient rome",
+  "funny history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Vespasian",
+  "https://en.wikipedia.org/wiki/Pecunia_non_olet",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Vespasian*.html",
+  "https://www.lookandlearn.com/blog/2178/famous-last-words-vespasian/",
+  "https://www.worldhistory.org/Vespasian/",
+  "https://en.wikipedia.org/wiki/Claudius",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Claudius*.html",
+  "https://en.wikipedia.org/wiki/Praetorian_Guard",
+  "https://www.thegeographicalcure.com/post/claudius-biography",
+  "https://en.wikipedia.org/wiki/Didius_Julianus",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/74*.html",
+  "https://www.livius.org/articles/person/flavius-sulpicianus/",
+  "https://en.wikipedia.org/wiki/Elagabalus",
+  "https://en.wikipedia.org/wiki/The_Roses_of_Heliogabalus",
+  "https://penelope.uchicago.edu/encyclopaedia_romana/severans/roses.html",
+  "https://imperiumromanum.pl/en/curiosities/black-stone-from-emessa/",
+  "https://en.wikipedia.org/wiki/Nero",
+  "https://lexundria.com/suet_nero/18-25/r",
+  "https://www.history.co.uk/articles/emperor-nero-olympics",
+  "https://en.wikipedia.org/wiki/Great_Fire_of_Rome",
+  "https://www.history.com/articles/did-nero-really-fiddle-while-rome-burned",
+  "https://en.wikipedia.org/wiki/Caligula",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Caligula*.html",
+  "https://www.ad43.org.uk/blog/caligula-and-the-sea-shells/",
+  "https://www.history.com/articles/did-caligula-really-make-his-horse-a-consul",
+  "https://en.wikipedia.org/wiki/Commodus",
+  "https://penelope.uchicago.edu/thayer/e/roman/texts/cassius_dio/73*.html",
+  "https://www.britannica.com/biography/Commodus",
+  "https://www.worldhistory.org/commodus/"
+ ]
+}

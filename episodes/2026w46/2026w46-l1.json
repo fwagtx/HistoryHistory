@@ -1,0 +1,3056 @@
+{
+ "id": "2026w46-l1",
+ "format": "long",
+ "date": "2026-11-09",
+ "title": "The ENTIRE History of the Vikings in 10 Minutes",
+ "youtube_title": "The ENTIRE History of the Vikings in 10 Minutes",
+ "music": "playful",
+ "description": "From the surprise raid on Lindisfarne in 793 to Harald Hardrada's last invasion in 1066, this is the whole story of the Vikings in about ten minutes: longships, Paris paying a ransom, Alfred the Great, Rollo and Normandy, Iceland's Althing, Erik the Red's 'Greenland' sales pitch, Vikings in Canada around 1000, the Varangian Guard and the king who gave Bluetooth its name. Every fact is checked, and legends are labelled as legends.\n\nChapters are added automatically.\n\n#history #vikings #viking #norse #animatedhistory",
+ "tags": [
+  "vikings",
+  "history of the vikings",
+  "viking age",
+  "lindisfarne",
+  "ragnar lothbrok",
+  "alfred the great",
+  "rollo",
+  "normandy",
+  "leif erikson",
+  "erik the red",
+  "varangian guard",
+  "harald hardrada",
+  "stamford bridge",
+  "animated history",
+  "history documentary"
+ ],
+ "cast": {
+  "monk": {
+   "preset": "monk",
+   "skin": "light",
+   "hairColor": "#8A6A4A"
+  },
+  "raider": {
+   "preset": "viking",
+   "hairColor": "#C8702A",
+   "beard": "long",
+   "color": "#7A5A3A",
+   "skin": "light",
+   "hold": "axe"
+  },
+  "raider2": {
+   "preset": "viking",
+   "hairColor": "#E0C070",
+   "beard": "full",
+   "color": "#2F5A8A",
+   "skin": "light",
+   "hold": "shield"
+  },
+  "alcuin": {
+   "preset": "monk",
+   "hair": "bald",
+   "hairColor": "#D8D8D8",
+   "skin": "light",
+   "hold": "letter",
+   "name": "Alcuin of York"
+  },
+  "ragnar": {
+   "preset": "viking",
+   "hairColor": "#B8432A",
+   "beard": "long",
+   "color": "#5A3A2A",
+   "skin": "light",
+   "hold": "axe",
+   "name": "Reginherus, maybe 'Ragnar'"
+  },
+  "charles": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#2F4A8A",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#5A3A1A",
+   "skin": "light",
+   "name": "King Charles the Bald"
+  },
+  "alfred": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "color2": "#C8902A",
+   "beard": "full",
+   "stache": "bush",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "King Alfred the Great"
+  },
+  "guthrum": {
+   "preset": "viking",
+   "color": "#2F2F3A",
+   "beard": "full",
+   "hairColor": "#2A2A2A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Guthrum, Viking king"
+  },
+  "baker": {
+   "preset": "peasantW",
+   "skin": "light",
+   "hairColor": "#6A4A2A"
+  },
+  "rollo": {
+   "preset": "viking",
+   "hairColor": "#D8B060",
+   "beard": "full",
+   "color": "#3A6A3A",
+   "skin": "light",
+   "name": "Rollo"
+  },
+  "charles2": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#B89060",
+   "skin": "light",
+   "name": "King Charles the Simple"
+  },
+  "erik": {
+   "preset": "viking",
+   "hairColor": "#C8402A",
+   "beard": "full",
+   "stache": "bush",
+   "color": "#8A3A2A",
+   "skin": "light",
+   "name": "Erik the Red"
+  },
+  "settler": {
+   "preset": "peasantW",
+   "outfit": "fur",
+   "hairColor": "#E0C070",
+   "skin": "light"
+  },
+  "leif": {
+   "preset": "viking",
+   "hairColor": "#E0B050",
+   "beard": "full",
+   "color": "#2F6A8A",
+   "skin": "light",
+   "name": "Leif Erikson"
+  },
+  "columbus": {
+   "preset": "columbus",
+   "name": "Christopher Columbus"
+  },
+  "basil": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#6A2E7E",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Emperor Basil II"
+  },
+  "guard": {
+   "preset": "viking",
+   "color": "#A8322A",
+   "hold": "axe",
+   "hairColor": "#E0C070",
+   "beard": "long",
+   "skin": "light"
+  },
+  "bluetooth": {
+   "hat": "crown",
+   "outfit": "viking",
+   "color": "#2F4A8A",
+   "beard": "full",
+   "hairColor": "#C8B080",
+   "skin": "light",
+   "name": "King Harald Bluetooth"
+  },
+  "hardrada": {
+   "hat": "viking",
+   "outfit": "viking",
+   "color": "#5A2A2A",
+   "beard": "full",
+   "stache": "handlebar",
+   "hairColor": "#E0C070",
+   "skin": "light",
+   "hold": "axe",
+   "name": "King Harald Hardrada"
+  },
+  "harold": {
+   "preset": "king",
+   "outfit": "armor",
+   "color": "#A8322A",
+   "stache": "handlebar",
+   "hairColor": "#B8803A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "King Harold Godwinson"
+  },
+  "william": {
+   "preset": "knight",
+   "color": "#C8902A",
+   "skin": "light",
+   "hairColor": "#5A3A1A",
+   "name": "William the Conqueror"
+  }
+ },
+ "voices": {
+  "monk": "am_puck",
+  "charles": "bm_george",
+  "ragnar": "am_fenrir",
+  "alfred": "bm_lewis",
+  "guthrum": "am_onyx",
+  "rollo": "am_adam",
+  "charles2": "bm_fable",
+  "erik": "am_eric",
+  "settler": "af_heart",
+  "basil": "am_echo",
+  "hardrada": "am_liam",
+  "harold": "bm_daniel"
+ },
+ "thumbnail": {
+  "style": "split",
+  "years": [
+   "793",
+   "1066"
+  ],
+  "word": "RAID!",
+  "left": {
+   "id": "raider",
+   "mood": "shout"
+  },
+  "right": {
+   "id": "hardrada",
+   "mood": "shock"
+  },
+  "map": {
+   "lon": 8,
+   "lat": 58,
+   "z": 1.1,
+   "d0": 0,
+   "d1": 0,
+   "red": true
+  }
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "June 793. On a tiny island off the coast of England, some monks are having a very quiet morning.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "place": "Lindisfarne, England · June 793",
+    "stickers": [
+     {
+      "text": "LINDISFARNE",
+      "at": 1.2,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This is Lindisfarne, one of the holiest places in England. The monks pray, copy beautiful books and guard a famous saint's tomb.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.35,
+      "pose": "cross",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD + SILVER",
+      "at": 2.5,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then ships appear on the horizon. Long, low ships with dragon heads and striped sails.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.14,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.6,
+      "s": 0.9,
+      "move": [
+       1.0,
+       0.55
+      ]
+     },
+     {
+      "k": "longship",
+      "x": 0.85,
+      "s": 0.6,
+      "move": [
+       1.1,
+       0.85
+      ]
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "monk",
+   "say": "Oh, visitors! How nice. Maybe they want to buy a book?",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.45,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "monk"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They did not want to buy a book. They grabbed the gold, the silver and even some of the monks, and sailed away.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "happy"
+     },
+     {
+      "id": "raider2",
+      "x": 0.55,
+      "pose": "run",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.8,
+      "s": 0.8
+     },
+     {
+      "k": "chest",
+      "x": 0.42,
+      "s": 0.5,
+      "front": true
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "RAID!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Europe had just met the Vikings. And for the next two hundred and seventy years, it kept meeting them.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "raider2",
+      "x": 0.62,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.88,
+      "s": 0.5
+     },
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "title",
+    "text": "The ENTIRE History of the Vikings in 10 Minutes",
+    "sub": "793 to 1066"
+   },
+   "hold": 2.5
+  },
+  {
+   "show": {
+    "k": "chapter",
+    "year": "793",
+    "title": "Surprise From the Sea",
+    "bg": "sea"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "So who were the Vikings? They came from Scandinavia: what's now Norway, Sweden and Denmark.",
+   "show": {
+    "k": "map",
+    "lon": 13,
+    "lat": 61,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "about 800",
+    "labels": [
+     [
+      "Norway",
+      9,
+      61.5,
+      0
+     ],
+     [
+      "Sweden",
+      15.5,
+      62,
+      0
+     ],
+     [
+      "Denmark",
+      9.5,
+      56,
+      0
+     ],
+     [
+      "Lindisfarne",
+      -1.8,
+      55.67,
+      0
+     ]
+    ],
+    "route": [
+     [
+      5.5,
+      60.5
+     ],
+     [
+      1,
+      58
+     ],
+     [
+      -1.8,
+      55.67
+     ]
+    ],
+    "areas": [
+     [
+      9,
+      61,
+      3,
+      "rgba(214,48,40,.45)"
+     ],
+     [
+      15.5,
+      61.5,
+      3,
+      "rgba(214,48,40,.45)"
+     ],
+     [
+      9.5,
+      56,
+      1.3,
+      "rgba(214,48,40,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most of them were farmers and fishermen, not full-time warriors.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pitchfork"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "place": "Scandinavia · about 800",
+    "stickers": [
+     {
+      "text": "FARMER",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So why start raiding? Historians still argue. Good farmland was scarce back home, and rich targets were just across the sea."
+  },
+  {
+   "who": "N",
+   "say": "In fact, 'Viking' was a job, not a nation. Going 'a-viking' meant sailing off to raid or trade for the summer.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "raider",
+      "x": 0.55,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOING VIKING",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their secret weapon was the longship. It could cross the open sea, but it sat so low it could row far up rivers and land right on a beach.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.5,
+      "s": 1.1,
+      "move": [
+       0.2,
+       0.75
+      ]
+     }
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "SEA",
+      "at": 1.5,
+      "color": "#2F5A8A"
+     },
+     {
+      "text": "RIVERS",
+      "at": 3.0,
+      "color": "#2F5A8A"
+     },
+     {
+      "text": "BEACHES",
+      "at": 4.5,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One famous Viking ship found in Norway had oars for thirty-two rowers.",
+   "show": {
+    "k": "card",
+    "label": "The Gokstad ship had oars for",
+    "big": "32 ROWERS",
+    "sub": "found in a Viking burial mound in Norway",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.86,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So rich monasteries by the sea, with treasure and no guards, were basically an open buffet.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.25,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.38,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OPEN BUFFET",
+      "at": 1.6,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "An English scholar named Alcuin, an adviser to the mighty Frankish king Charlemagne, wrote to the king of Northumbria in shock.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "alcuin",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.82,
+      "s": 0.7,
+      "text": "LETTER, 793"
+     }
+    ],
+    "tag": {
+     "id": "alcuin",
+     "text": "Alcuin of York, scholar"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Never before has such terror appeared in Britain as we have now suffered from a pagan race.",
+   "show": {
+    "k": "quote",
+    "text": "Never before has such terror appeared in Britain as we have now suffered from a pagan race.",
+    "who": "Alcuin of York, letter to King Æthelred of Northumbria, 793"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Oh, and the horned helmets? Made up. They were popularized by opera costumes in Germany in 1876. Real Viking helmets were plain and round.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO HORNS!",
+      "at": 1.0,
+      "color": "#A8322A"
+     },
+     {
+      "text": "OPERA, 1876",
+      "at": 3.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "chapter",
+    "year": "845",
+    "title": "Paris Pays Up",
+    "bg": "town"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "By the 840s, the Vikings were thinking bigger. Why rob a monastery when you can rob a whole city?",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "wall",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "place": "Kingdom of the Franks · 840s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 845, about a hundred and twenty Viking ships rowed up the river Seine, straight toward Paris.",
+   "show": {
+    "k": "map",
+    "lon": 1.4,
+    "lat": 49.2,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "March 845",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      0
+     ],
+     [
+      "River Seine",
+      0.9,
+      49.35,
+      0
+     ],
+     [
+      "English Channel",
+      0.0,
+      50.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      0.1,
+      49.45
+     ],
+     [
+      0.9,
+      49.4
+     ],
+     [
+      1.5,
+      49.1
+     ],
+     [
+      2.35,
+      48.86
+     ]
+    ],
+    "areas": [
+     [
+      2.35,
+      48.86,
+      0.25,
+      "rgba(214,48,40,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their leader was a chief the Franks called Reginherus. Some think he was the legendary Ragnar, but nobody can prove it.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Near Paris · 845",
+    "tag": {
+     "id": "ragnar",
+     "text": "Reginherus (Ragnar?)"
+    },
+    "stickers": [
+     {
+      "text": "PART LEGEND",
+      "at": 2.5,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Frankish king, Charles the Bald, sent an army. Half of it was beaten, and the rest retreated.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "charles",
+     "text": "King Charles the Bald"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Vikings marched into Paris. So Charles tried something else.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "ragnar",
+      "x": 0.6,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "charles",
+   "say": "How much will it cost to make you leave?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "ragnar",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "charles"
+   }
+  },
+  {
+   "who": "ragnar",
+   "say": "Seven thousand pounds of silver and gold.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "ragnar"
+   }
+  },
+  {
+   "who": "charles",
+   "say": "Seven thousand?! Fine. Deal. Just go.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "charles"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's about two and a half tonnes of treasure, roughly the weight of two cars.",
+   "show": {
+    "k": "card",
+    "label": "Paris paid the Vikings",
+    "big": "7,000 POUNDS",
+    "sub": "of silver and gold, about 2.5 tonnes",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.86,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And here's the problem with paying Vikings to leave. They learn that it works.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "raider",
+      "x": 0.55,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.42,
+      "s": 0.5,
+      "front": true
+     },
+     {
+      "k": "longship",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "chapter",
+    "year": "878",
+    "title": "Alfred Strikes Back",
+    "bg": "castle"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile in England, raids turned into an invasion. In 865, a huge Viking force called the Great Heathen Army landed.",
+   "show": {
+    "k": "map",
+    "lon": -1.5,
+    "lat": 53.0,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "865 to 878",
+    "labels": [
+     [
+      "East Anglia",
+      1.0,
+      52.4,
+      0
+     ],
+     [
+      "York",
+      -1.08,
+      53.96,
+      0
+     ],
+     [
+      "Wessex",
+      -2.2,
+      51.2,
+      0
+     ],
+     [
+      "Northumbria",
+      -1.8,
+      54.9,
+      0
+     ]
+    ],
+    "route": [
+     [
+      1.6,
+      52.6
+     ],
+     [
+      -1.08,
+      53.96
+     ]
+    ],
+    "areas": [
+     [
+      1.0,
+      52.4,
+      0.6,
+      "rgba(214,48,40,.45)"
+     ],
+     [
+      -1.5,
+      54.4,
+      0.9,
+      "rgba(214,48,40,.45)"
+     ],
+     [
+      -2.2,
+      51.2,
+      0.8,
+      "rgba(40,90,200,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One by one, the English kingdoms fell. By 878, only Wessex in the south was left, ruled by King Alfred.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "alfred",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ],
+    "place": "Wessex, England · 878",
+    "tag": {
+     "id": "alfred",
+     "text": "King Alfred of Wessex"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the Vikings attacked in the middle of winter, and Alfred had to hide in the marshes with a few men.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "alfred",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "place": "Somerset marshes · 878"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A famous legend says he was so worried that he let a peasant woman's cakes burn. But it was first written down about a century later.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "baker",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "alfred",
+      "x": 0.62,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     },
+     {
+      "text": "BURNT CAKES",
+      "at": 2.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "What's real: in May 878, Alfred gathered a new army and beat the Viking king Guthrum at the Battle of Edington.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "alfred",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "guthrum",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "Edington, England · May 878",
+    "tag": {
+     "id": "guthrum",
+     "text": "Guthrum, Viking king"
+    }
+   }
+  },
+  {
+   "who": "alfred",
+   "say": "You lost. You will be baptized as a Christian, and you will leave my kingdom.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "alfred",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "guthrum",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "alfred"
+   }
+  },
+  {
+   "who": "guthrum",
+   "say": "Fine. I'll go and be king of East Anglia instead.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "guthrum",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "guthrum"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And he really was baptized, with Alfred as his godfather. Awkward family dinners.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "alfred",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "guthrum",
+      "x": 0.65,
+      "pose": "cross",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soon England was split in two. The north and east followed Danish law, so it became known as the Danelaw.",
+   "show": {
+    "k": "map",
+    "lon": -1.5,
+    "lat": 53.0,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "about 886",
+    "labels": [
+     [
+      "DANELAW",
+      0.0,
+      53.6,
+      0
+     ],
+     [
+      "WESSEX",
+      -2.6,
+      51.2,
+      0
+     ],
+     [
+      "London",
+      -0.12,
+      51.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -0.12,
+      51.5
+     ],
+     [
+      -1.2,
+      52.4
+     ],
+     [
+      -2.6,
+      53.2
+     ]
+    ],
+    "areas": [
+     [
+      -0.4,
+      53.4,
+      1.5,
+      "rgba(214,48,40,.45)"
+     ],
+     [
+      -2.4,
+      51.3,
+      1.0,
+      "rgba(40,90,200,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's why English is full of Norse words, like sky, egg, knife, and even 'they'. Thanks, Vikings.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "SKY · EGG · KNIFE · THEY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NORSE WORDS",
+      "at": 1.0,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "chapter",
+    "year": "911",
+    "title": "Vikings Get Their Own Corner of France",
+    "bg": "castle"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Back in France, the Vikings kept coming. In 885, a huge Viking fleet besieged Paris again, for almost a year.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "longship",
+      "x": 0.5,
+      "s": 0.5,
+      "move": [
+       0.4,
+       0.55
+      ]
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Paris · 885"
+   }
+  },
+  {
+   "who": "N",
+   "say": "One Viking chief who stayed in the area was a big, stubborn man named Rollo.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "rollo",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "rollo",
+     "text": "Rollo, Viking chief"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 911, the French king, Charles the Simple, decided: if you can't beat them, hire them.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "place": "France · 911",
+    "tag": {
+     "id": "charles2",
+     "text": "King Charles the Simple"
+    }
+   }
+  },
+  {
+   "who": "charles2",
+   "say": "Rollo, take the land at the mouth of the Seine. In return, you keep the other Vikings out.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "rollo",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.9,
+      "s": 0.5,
+      "text": "DEAL"
+     }
+    ],
+    "cam": "close",
+    "focus": "charles2"
+   }
+  },
+  {
+   "who": "rollo",
+   "say": "Free land, and I just have to fight my old raiding buddies? Done.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "rollo",
+      "x": 0.6,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "rollo"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rollo also became a Christian and was baptized with a new name, Robert.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "rollo",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROLLO → ROBERT",
+      "at": 1.2,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His land became Normandy, which means the land of the Northmen.",
+   "show": {
+    "k": "map",
+    "lon": 0.5,
+    "lat": 49.1,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "911",
+    "labels": [
+     [
+      "NORMANDY",
+      -0.4,
+      49.0,
+      0
+     ],
+     [
+      "Rouen",
+      1.1,
+      49.44,
+      0
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      0.0,
+      49.1,
+      0.9,
+      "rgba(214,48,40,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His Normans soon spoke French, built castles and became some of the toughest knights in Europe."
+  },
+  {
+   "who": "N",
+   "say": "Remember Rollo's family. His great-great-great-grandson shows up at the end of this video.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rollo",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REMEMBER ME",
+      "at": 1.5,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "chapter",
+    "year": "930",
+    "title": "Iceland, Greenland and... America?",
+    "bg": "snow"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Some Vikings didn't want to raid at all. They wanted empty land. In the 870s, Norse settlers reached Iceland.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.2,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.6,
+      "s": 0.8,
+      "move": [
+       0.4,
+       0.75
+      ]
+     }
+    ],
+    "place": "North Atlantic · 870s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 930, Iceland's chiefs started a big yearly outdoor meeting called the Althing, to make laws and settle arguments.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "raider2",
+      "x": 0.55,
+      "pose": "think"
+     },
+     {
+      "id": "leif",
+      "x": 0.78,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "place": "Thingvellir, Iceland · 930",
+    "stickers": [
+     {
+      "text": "THE ALTHING",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Iceland's parliament still has the same name today. It's one of the oldest in the world.",
+   "show": {
+    "k": "card",
+    "label": "Iceland's parliament first met in",
+    "big": "930",
+    "sub": "one of the oldest parliaments in the world"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Not everyone followed the rules. In 982, a hot-headed man called Erik the Red was banished from Iceland for three years after a deadly feud.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "place": "Iceland · 982",
+    "tag": {
+     "id": "erik",
+     "text": "Erik the Red"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he sailed west and explored a huge, icy island.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.7,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "settler",
+   "say": "Erik, this place is mostly ice. What do we call it?",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "erik",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "settler"
+   }
+  },
+  {
+   "who": "erik",
+   "say": "Greenland! People will want to come if it has a good name.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.6,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.25,
+      "s": 0.6,
+      "text": "GREENLAND"
+     }
+    ],
+    "cam": "close",
+    "focus": "erik"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's how the Icelandic sagas, old stories written down centuries later, tell it. And it worked: hundreds of settlers followed him.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "erik",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SAGA STORY",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around the year 1000, Erik's son Leif sailed even further west and landed in North America.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.6
+     },
+     {
+      "k": "longship",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "place": "Newfoundland, Canada · about 1000",
+    "tag": {
+     "id": "leif",
+     "text": "Leif Erikson"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Leif called it Vinland, probably meaning wine land, because the sagas say his crew found wild grapes."
+  },
+  {
+   "who": "N",
+   "say": "This part is proven. Archaeologists found a Viking camp in Canada, and tree rings show Vikings cut wood there in 1021.",
+   "show": {
+    "k": "card",
+    "label": "Vikings were chopping trees in Canada in",
+    "big": "1021",
+    "sub": "at L'Anse aux Meadows, Newfoundland",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.86,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "axe",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's almost five hundred years before Columbus. The Vikings just didn't stay.",
+   "show": {
+    "k": "compare",
+    "bg": "ocean",
+    "left": {
+     "label": "LEIF · ABOUT 1000",
+     "cast": [
+      {
+       "id": "leif",
+       "pose": "cheer",
+       "mood": "smug"
+      }
+     ]
+    },
+    "right": {
+     "label": "COLUMBUS · 1492",
+     "cast": [
+      {
+       "id": "columbus",
+       "pose": "shrug",
+       "mood": "shock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "show": {
+    "k": "chapter",
+    "year": "988",
+    "title": "The Vikings Go East",
+    "bg": "palace"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile, many Vikings from Sweden went the other way: east, along the big rivers to the Black Sea.",
+   "show": {
+    "k": "map",
+    "lon": 30,
+    "lat": 51,
+    "z0": 1.2,
+    "z1": 1.5,
+    "date": "800s to 900s",
+    "labels": [
+     [
+      "Sweden",
+      16,
+      60,
+      0
+     ],
+     [
+      "Novgorod",
+      31.27,
+      58.52,
+      0
+     ],
+     [
+      "Kyiv",
+      30.52,
+      50.45,
+      0
+     ],
+     [
+      "Constantinople",
+      28.95,
+      41.01,
+      0
+     ],
+     [
+      "Black Sea",
+      34,
+      43.3,
+      0
+     ]
+    ],
+    "route": [
+     [
+      18,
+      59.3
+     ],
+     [
+      24,
+      59.8
+     ],
+     [
+      31.27,
+      58.52
+     ],
+     [
+      31,
+      54.5
+     ],
+     [
+      30.52,
+      50.45
+     ],
+     [
+      32,
+      46.6
+     ],
+     [
+      30.5,
+      43.5
+     ],
+     [
+      28.95,
+      41.01
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When rivers ran out, they dragged their boats over land to the next river.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.2,
+      "pose": "walk",
+      "mood": "shock"
+     },
+     {
+      "id": "raider2",
+      "x": 0.38,
+      "pose": "walk",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.65,
+      "s": 0.7,
+      "move": [
+       0.8,
+       0.55
+      ]
+     },
+     {
+      "k": "tree",
+      "x": 0.95,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HEAVE!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Locals called them the Rus. According to an old chronicle, a Rus leader named Oleg took the city of Kyiv in 882.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Kyiv · 882",
+    "stickers": [
+     {
+      "text": "THE RUS",
+      "at": 1.0,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They traded furs and amber for silver. Archaeologists have found over a hundred thousand silver coins from the Islamic world in Viking-era hoards.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "100,000+ COINS",
+      "at": 1.5,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the biggest prize was Constantinople, the giant capital of the Byzantine Empire, what was left of the Roman Empire in the east.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "basil",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "place": "Constantinople · 988",
+    "tag": {
+     "id": "basil",
+     "text": "Emperor Basil II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 988, Emperor Basil the Second needed tough soldiers fast. So a Rus prince named Vladimir sent him six thousand warriors.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "salute",
+      "mood": "happy"
+     },
+     {
+      "id": "raider",
+      "x": 0.5,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "6,000 WARRIORS",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vikings like these became the Varangian Guard, the emperor's personal bodyguards.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "basil",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "guard",
+      "x": 0.25,
+      "pose": "hold"
+     },
+     {
+      "id": "raider2",
+      "x": 0.75,
+      "pose": "hold",
+      "hold": "axe"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VARANGIAN GUARD",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "basil",
+   "say": "You're big, scary, and you only care about getting paid. Perfect.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "basil",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "guard",
+      "x": 0.68,
+      "pose": "salute"
+     }
+    ],
+    "cam": "close",
+    "focus": "basil"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And they were famously loyal, as long as the gold kept coming.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.6,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "axe"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.25,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.4,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And when they got bored, someone carved runes into a railing in Hagia Sophia, the city's giant church. You can still read one name: Halfdan.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HALFDAN",
+      "at": 2.0,
+      "color": "#2F5A8A"
+     },
+     {
+      "text": "VIKING GRAFFITI",
+      "at": 4.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "chapter",
+    "year": "1066",
+    "title": "The Last Viking",
+    "bg": "battlefield"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "By now, Viking lands were turning into proper Christian kingdoms. Around 965, Denmark's King Harald Bluetooth carved a giant stone boasting that he made the Danes Christian.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "bluetooth",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.9,
+      "label": "JELLING STONE"
+     }
+    ],
+    "place": "Jelling, Denmark · about 965",
+    "tag": {
+     "id": "bluetooth",
+     "text": "King Harald Bluetooth"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Yes, Bluetooth on your phone is named after him.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "bluetooth",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BLUETOOTH",
+      "at": 1.0,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And in 1016, a Danish prince named Cnut became king of England. Later he ruled Denmark and Norway too.",
+   "show": {
+    "k": "map",
+    "lon": 4,
+    "lat": 57,
+    "z0": 1.5,
+    "z1": 1.8,
+    "date": "1016 to 1035",
+    "labels": [
+     [
+      "England",
+      -1.5,
+      52.5,
+      0
+     ],
+     [
+      "Denmark",
+      9.5,
+      56,
+      0
+     ],
+     [
+      "Norway",
+      9,
+      61,
+      0
+     ],
+     [
+      "North Sea",
+      3,
+      56,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -1.5,
+      52.5,
+      2.2,
+      "rgba(214,48,40,.45)"
+     ],
+     [
+      9.5,
+      56,
+      1.3,
+      "rgba(214,48,40,.45)"
+     ],
+     [
+      9,
+      61,
+      3,
+      "rgba(214,48,40,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For a few years, the North Sea was basically a Viking lake."
+  },
+  {
+   "who": "N",
+   "say": "Then came 1066. Norway's king, Harald Hardrada, invaded England with about three hundred ships.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "hardrada",
+      "x": 0.2,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.55,
+      "s": 0.8,
+      "move": [
+       0.8,
+       0.5
+      ]
+     },
+     {
+      "k": "longship",
+      "x": 0.85,
+      "s": 0.6,
+      "move": [
+       1.05,
+       0.8
+      ]
+     }
+    ],
+    "place": "North Sea · September 1066",
+    "tag": {
+     "id": "hardrada",
+     "text": "King Harald Hardrada of Norway"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His nickname means hard ruler, and years earlier he had served in the Varangian Guard."
+  },
+  {
+   "who": "N",
+   "say": "England's new king, Harold Godwinson, raced north and caught him by surprise at Stamford Bridge, near York.",
+   "show": {
+    "k": "map",
+    "lon": -1.2,
+    "lat": 54.0,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "25 September 1066",
+    "labels": [
+     [
+      "Stamford Bridge",
+      -0.91,
+      53.99,
+      0
+     ],
+     [
+      "York",
+      -1.08,
+      53.96,
+      -1
+     ],
+     [
+      "London",
+      -0.12,
+      51.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -0.12,
+      51.5
+     ],
+     [
+      -0.8,
+      52.6
+     ],
+     [
+      -1.08,
+      53.96
+     ],
+     [
+      -0.91,
+      53.99
+     ]
+    ]
+   }
+  },
+  {
+   "who": "hardrada",
+   "say": "So, what will King Harold give me?",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "hardrada",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "harold",
+      "x": 0.7,
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Stamford Bridge, England · 1066",
+    "tag": {
+     "id": "harold",
+     "text": "King Harold Godwinson"
+    },
+    "cam": "close",
+    "focus": "hardrada"
+   }
+  },
+  {
+   "who": "harold",
+   "say": "Seven feet of English ground. Or a bit more, since he's so tall.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "harold",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "cam": "close",
+    "focus": "harold"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's how a saga tells it, written down about a hundred and fifty years later. Either way, Hardrada was killed and his army was crushed.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "harold",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "hardrada",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "sad",
+      "exit": "right",
+      "exitAt": 2.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "SAGA STORY",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Of about three hundred ships, only about twenty-four sailed home.",
+   "show": {
+    "k": "card",
+    "label": "Viking ships that went home",
+    "big": "24 OF 300",
+    "sub": "Stamford Bridge, 1066",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.86,
+      "pose": "facepalm",
+      "mood": "sad",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many historians say this is where the Viking Age ends.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.25,
+      "pose": "wave",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.65,
+      "s": 0.6,
+      "move": [
+       0.6,
+       1.1
+      ]
+     }
+    ],
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "THE END?",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the twist? Nineteen days later, Harold lost the Battle of Hastings to William the Conqueror, Duke of Normandy. Rollo's great-great-great-grandson.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "smug"
+     },
+     {
+      "id": "harold",
+      "x": 0.75,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Hastings, England · 14 October 1066",
+    "tag": {
+     "id": "william",
+     "text": "William the Conqueror"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So England got conquered anyway, by the great-great-great-grandkids of a Viking, who now spoke French.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "rollo",
+      "x": 0.72,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BONJOUR, ENGLAND",
+      "at": 1.5,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Raiders, traders, explorers, bodyguards and kings. In under three hundred years, the Vikings changed the map of Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.2,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "guard",
+      "x": 0.42,
+      "pose": "salute",
+      "mood": "happy"
+     },
+     {
+      "id": "bluetooth",
+      "x": 0.64,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Not bad for a bunch of farmers in boats."
+  },
+  {
+   "who": "N",
+   "say": "Next up: the weirdest Roman emperors. See you there.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rollo",
+      "x": 0.66,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "leif",
+      "x": 0.86,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "next": "The Weirdest Roman Emperors"
+   }
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Viking_Age",
+  "https://www.britannica.com/topic/Viking-people",
+  "https://en.wikipedia.org/wiki/Sack_of_Lindisfarne",
+  "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/History/viking-raid/",
+  "https://penelope.uchicago.edu/~grout/encyclopaedia_romana/britannia/anglo-saxon/lindisfarne/lindisfarne.html",
+  "https://www.sjsu.edu/people/cynthia.rostankowski/courses/HUM1BS17/Lecture_10%20Medieval%20Universities%20Readings.pdf",
+  "https://en.wikipedia.org/wiki/Alcuin",
+  "https://en.wikipedia.org/wiki/Viking_ship",
+  "https://en.wikipedia.org/wiki/Gokstad_ship",
+  "https://en.wikipedia.org/wiki/Horned_helmet",
+  "https://en.wikipedia.org/wiki/Carl_Emil_Doepler",
+  "https://en.wikipedia.org/wiki/Gjermundbu_helmet",
+  "https://en.wikipedia.org/wiki/Siege_of_Paris_(845)",
+  "https://www.worldhistory.org/Viking_Raids_on_Paris/",
+  "https://www.britannica.com/topic/Ragnar-Lothbrok",
+  "https://en.wikipedia.org/wiki/Great_Heathen_Army",
+  "https://en.wikipedia.org/wiki/Guthrum",
+  "https://www.royal.uk/alfred-great-r-871-899",
+  "https://www.historic-uk.com/HistoryUK/HistoryofEngland/King-Alfred-the-Cakes/",
+  "https://en.wikipedia.org/wiki/Danelaw",
+  "https://en.wikipedia.org/wiki/List_of_English_words_of_Old_Norse_origin",
+  "https://en.wikipedia.org/wiki/Siege_of_Paris_(885%E2%80%93886)",
+  "https://en.wikipedia.org/wiki/Rollo",
+  "https://www.worldhistory.org/Rollo_of_Normandy/",
+  "https://www.britannica.com/topic/Althing",
+  "https://en.wikipedia.org/wiki/Erik_the_Red",
+  "https://en.wikipedia.org/wiki/Saga_of_Erik_the_Red",
+  "https://en.wikipedia.org/wiki/L'Anse_aux_Meadows",
+  "https://www.smithsonianmag.com/science-nature/new-dating-method-shows-vikings-occupied-newfoundland-in-1021-ce-180978903/",
+  "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=236",
+  "https://en.wikipedia.org/wiki/Kievan_Rus'",
+  "https://en.wikipedia.org/wiki/Oleg_the_Wise",
+  "https://thevikingherald.com/article/dirhams-in-the-north-a-story-of-islamic-coins-in-viking-lands/910",
+  "https://en.wikipedia.org/wiki/Varangian_Guard",
+  "https://www.worldhistory.org/Varangian_Guard/",
+  "https://en.wikipedia.org/wiki/Runic_inscriptions_in_Hagia_Sophia",
+  "https://sites.nd.edu/manuscript-studies/2020/06/05/varangian-guards-and-their-traces-in-istanbul-runic-inscriptions-in-hagia-sophia/",
+  "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-monuments-at-jelling/the-jelling-stone/",
+  "https://en.wikipedia.org/wiki/Harald_Bluetooth",
+  "https://www.nationalgeographic.com/premium/article/bluetooth-technology-viking-king-harald",
+  "https://www.worldhistory.org/Cnut_the_Great/",
+  "https://en.wikipedia.org/wiki/North_Sea_Empire",
+  "https://en.wikipedia.org/wiki/Harald_Hardrada",
+  "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge",
+  "https://www.britannica.com/event/Battle-of-Stamford-Bridge",
+  "https://www.historyhit.com/facts-about-the-battle-of-stamford-bridge/",
+  "https://en.wikipedia.org/wiki/Battle_of_Hastings"
+ ]
+}
