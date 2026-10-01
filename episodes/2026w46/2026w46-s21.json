@@ -3,23 +3,14 @@
  "format": "short",
  "date": "2026-11-11",
  "slot": "09:00",
- "title": "A Roman Emperor's Last Words Were a Joke",
- "hook": "A JOKE ON HIS DEATHBED",
+ "title": "A Dying Roman Emperor Joked About Becoming a God",
+ "hook": "A DYING EMPEROR'S JOKE",
  "music": "playful",
  "cast": {
   "roman": {
    "preset": "roman",
    "skin": "olive",
    "name": "Roman"
-  },
-  "titus": {
-   "outfit": "toga",
-   "color": "#F2EEE4",
-   "color2": "#2F6FC2",
-   "hair": "curly",
-   "hairColor": "#3A2A1A",
-   "skin": "tan",
-   "name": "Titus, Vespasian's son"
   },
   "vespasian": {
    "hat": "laurel",
@@ -31,15 +22,20 @@
    "skin": "tan",
    "hold": "coin",
    "name": "Emperor Vespasian"
+  },
+  "friend": {
+   "preset": "roman",
+   "skin": "tan",
+   "name": "A friend"
   }
  },
  "voices": {
-  "titus": "am_puck"
+  "friend": "am_puck"
  },
  "beats": [
   {
    "who": "N",
-   "say": "A Roman emperor cracked a joke on his deathbed, about turning into a god.",
+   "say": "A dying Roman emperor cracked a joke about turning into a god.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -137,7 +133,7 @@
   },
   {
    "who": "N",
-   "say": "In 79 AD, Vespasian fell sick with a fever. His son Titus was worried.",
+   "say": "In 79 AD, Vespasian fell sick with a fever. He was sixty-nine, and his friends were worried.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -149,26 +145,22 @@
       "mood": "sad"
      },
      {
-      "id": "titus",
+      "id": "friend",
       "x": 0.72,
       "pose": "think",
       "mood": "sad"
      }
     ],
-    "objects": [],
-    "tag": {
-     "id": "titus",
-     "text": "Titus, his son"
-    }
+    "objects": []
    }
   },
   {
-   "who": "titus",
-   "say": "Father, how are you feeling?"
+   "who": "friend",
+   "say": "How are you feeling, sir?"
   },
   {
    "who": "N",
-   "say": "Suetonius, a Roman writer, says the old emperor joked:",
+   "say": "Suetonius, a Roman writer, says that when the illness first hit, he joked:",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -197,12 +189,12 @@
    "show": {
     "k": "quote",
     "text": "Woe's me. Methinks I'm turning into a god.",
-    "who": "Vespasian, 79 AD (Suetonius, Life of Vespasian 23, trans. J. C. Rolfe)"
+    "who": "Vespasian, falling ill for the last time, 79 AD (Suetonius, Life of Vespasian 23, trans. J. C. Rolfe)"
    }
   },
   {
    "who": "N",
-   "say": "He even tried to stand up at the end, saying an emperor should die on his feet. Funny, and tough, right to the end.",
+   "say": "His real last words? He tried to stand up, saying an emperor should die on his feet. Funny, and tough, right to the end.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -225,7 +217,7 @@
   },
   {
    "who": "N",
-   "say": "Follow for more of history's best last words.",
+   "say": "Follow for more emperors behaving strangely.",
    "show": {
     "k": "end",
     "cast": [
@@ -236,7 +228,7 @@
       "mood": "happy"
      },
      {
-      "id": "titus",
+      "id": "friend",
       "x": 0.7,
       "pose": "wave"
      }
@@ -244,8 +236,8 @@
    }
   }
  ],
- "caption": "His last words? A joke about becoming a god.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vespasian #lastwords #ancientrome #historytok",
- "youtube_title": "A Roman Emperor's Last Words Were a Joke #shorts",
+ "caption": "He knew he was dying. So he joked about becoming a god.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vespasian #lastwords #ancientrome #historytok",
+ "youtube_title": "A Dying Roman Emperor Joked About Becoming a God #shorts",
  "tags": [
   "vespasian",
   "last words",

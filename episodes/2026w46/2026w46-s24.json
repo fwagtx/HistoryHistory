@@ -42,15 +42,12 @@
   }
  },
  "voices": {
-  "thrasyllus": {
-   "preset": "philosopher",
-   "name": "Thrasyllus, astrologer"
-  }
+  "thrasyllus": "bm_daniel"
  },
  "beats": [
   {
    "who": "N",
-   "say": "A Roman emperor built a road on the sea, made of ships, to prove a prediction wrong.",
+   "say": "A Roman emperor built a road of ships across the sea, to prove a prophecy wrong.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -83,7 +80,7 @@
   },
   {
    "who": "N",
-   "say": "Years earlier, Emperor Tiberius was choosing an heir. His astrologer, Thrasyllus, had an opinion.",
+   "say": "Years earlier, Emperor Tiberius was choosing an heir. His astrologer, Thrasyllus, doubted young Caligula.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -155,12 +152,12 @@
   },
   {
    "who": "N",
-   "say": "The bridge ran over five kilometers.",
+   "say": "It was about five kilometers long: fifty soccer fields.",
    "show": {
     "k": "card",
     "label": "Caligula's bridge of ships",
-    "big": "5+ KM",
-    "sub": "about 3.6 Roman miles, Baiae to Puteoli",
+    "big": "5 KM",
+    "sub": "over 3 miles, Baiae to Puteoli",
     "cast": [
      {
       "id": "caligen",
@@ -211,7 +208,7 @@
   },
   {
    "who": "N",
-   "say": "Suetonius, a Roman writer, heard that story from his grandfather. Others said Caligula wanted to scare Britain.",
+   "say": "Suetonius, a Roman writer, got that reason from his grandfather. Others thought Caligula wanted to scare Germany and Britain.",
    "show": {
     "k": "scene",
     "bg": "library",

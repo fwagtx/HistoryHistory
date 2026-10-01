@@ -66,7 +66,7 @@
       "s": 0.6
      }
     ],
-    "place": "Rome · 60s AD",
+    "place": "Greece · 66–67 AD",
     "tag": {
      "id": "nero",
      "text": "Emperor Nero"
@@ -82,29 +82,47 @@
   },
   {
    "who": "N",
-   "say": "Nero dreamed of being a star singer. He performed with the lyre, a small harp, for huge crowds.",
+   "say": "Nero dreamed of being a star singer. On a tour of Greece, he performed with the lyre, a small harp, for huge crowds.",
    "show": {
-    "k": "scene",
-    "bg": "rome",
-    "cast": [
-     {
-      "id": "nero",
-      "x": 0.4,
-      "pose": "cheer",
-      "mood": "happy"
-     }
+    "k": "map",
+    "lon": 22.4,
+    "lat": 38.2,
+    "z0": 2.2,
+    "z1": 2.7,
+    "date": "66–67 AD",
+    "labels": [
+     [
+      "Olympia",
+      21.63,
+      37.64,
+      14
+     ],
+     [
+      "Corinth",
+      22.93,
+      37.94,
+      14
+     ],
+     [
+      "GREECE",
+      22.4,
+      39.2,
+      0
+     ]
     ],
-    "objects": [
-     {
-      "k": "column",
-      "x": 0.15,
-      "s": 0.6
-     },
-     {
-      "k": "statue",
-      "x": 0.78,
-      "s": 0.6
-     }
+    "areas": [
+     [
+      21.63,
+      37.64,
+      0.25,
+      "rgba(200,144,42,0.4)"
+     ],
+     [
+      22.93,
+      37.94,
+      0.25,
+      "rgba(200,144,42,0.4)"
+     ]
     ]
    }
   },
@@ -113,7 +131,7 @@
    "say": "And while he sang, the gates stayed shut.",
    "show": {
     "k": "scene",
-    "bg": "rome",
+    "bg": "greek",
     "cast": [
      {
       "id": "legionary",
