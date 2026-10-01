@@ -97,6 +97,9 @@ def check(path, V):
             errs.append(f"cast '{cid}': unknown animal '{c['animal']}'")
         if c.get("mood") and c["mood"] not in MOODS:
             errs.append(f"cast '{cid}': unknown mood '{c['mood']}'")
+    for cid, v in (s.get("voices") or {}).items():   # a character spec here instead of a voice name crashes tts.py
+        if not (isinstance(v, str) and re.fullmatch(r"[ab][fm]_[a-z]+", v)):
+            errs.append(f"voices '{cid}': must be a Kokoro voice name like 'bm_george', not {v!r}")
     known = set(cast) | V["presets"] | ANIMALS
     beats = s.get("beats", [])
     if not beats or "show" not in beats[0]:
