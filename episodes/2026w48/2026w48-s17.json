@@ -1,0 +1,331 @@
+{
+ "id": "2026w48-s17",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "A Singer Sang the Same 4 Songs to a King Every Night for 10 Years",
+ "hook": "SAME 4 SONGS, 10 YEARS",
+ "music": "playful",
+ "cast": {
+  "philip5": {
+   "hair": "long",
+   "hairColor": "#D8D2C4",
+   "outfit": "coat",
+   "color": "#3A2A6A",
+   "color2": "#D4A52A",
+   "skin": "light",
+   "name": "King Philip V of Spain"
+  },
+  "farinelli": {
+   "hair": "long",
+   "hairColor": "#EDE6D6",
+   "outfit": "coat",
+   "color": "#A8322A",
+   "color2": "#E7C66A",
+   "skin": "light",
+   "name": "Farinelli, opera singer"
+  },
+  "elisabeth": {
+   "preset": "queen",
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#2F7A4A",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "name": "Queen Elisabeth Farnese"
+  }
+ },
+ "voices": {
+  "philip5": "bm_lewis",
+  "farinelli": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One singer sang the same four songs to a king every night, for about ten years.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "farinelli",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "philip5",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Madrid, Spain · 1737",
+    "tag": {
+     "id": "farinelli",
+     "text": "Farinelli, opera singer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "King Philip the Fifth of Spain had deep depression. Some days he wouldn't get dressed, shave, or work.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip5",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.55,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "tag": {
+     "id": "philip5",
+     "text": "King Philip V of Spain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His wife, Queen Elisabeth, tried music. She brought in Farinelli, Europe's most famous opera singer.",
+   "show": {
+    "k": "map",
+    "lon": -2.0,
+    "lat": 46.0,
+    "z0": 1.4,
+    "z1": 1.7,
+    "date": "1737",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "Madrid",
+      -3.7,
+      40.42,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -0.13,
+      51.5
+     ],
+     [
+      2.35,
+      48.86
+     ],
+     [
+      -0.58,
+      44.84
+     ],
+     [
+      -3.7,
+      42.34
+     ],
+     [
+      -3.7,
+      40.42
+     ]
+    ]
+   }
+  },
+  {
+   "who": "farinelli",
+   "say": "What shall I sing tonight, Your Majesty?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "farinelli",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "philip5",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "philip5",
+   "say": "The same four songs. Like last night.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip5",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "philip5"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Farinelli later said he sang those same four songs every night, until the king died in 1746.",
+   "show": {
+    "k": "card",
+    "label": "Farinelli's playlist for the king",
+    "big": "4 SONGS",
+    "sub": "every night for about ten years",
+    "cast": [
+     {
+      "id": "farinelli",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And it seems to have worked. The music calmed the king when nothing else could.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "philip5",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "happy"
+     },
+     {
+      "id": "farinelli",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.5,
+      "s": 0.4,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "LA LA LA",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The world's greatest singer, with a four-song playlist.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "farinelli",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "farinelli",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "philip5",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Europe's biggest singing star. One fan. Same four songs. Every night.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #farinelli #spain #opera #historytok",
+ "youtube_title": "A Singer Sang the Same 4 Songs to a King Every Night for 10 Years #shorts",
+ "tags": [
+  "farinelli",
+  "philip v of spain",
+  "music history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Farinelli",
+  "https://en.wikipedia.org/wiki/Philip_V_of_Spain",
+  "https://en.wikisource.org/wiki/Page:A_Dictionary_of_Music_and_Musicians_vol_1.djvu/517",
+  "https://interlude.hk/music-to-soothe-the-mad-king/"
+ ]
+}

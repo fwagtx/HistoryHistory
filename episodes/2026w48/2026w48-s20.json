@@ -1,0 +1,314 @@
+{
+ "id": "2026w48-s20",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "The King Who Went Broke Building Fairytale Castles",
+ "hook": "BROKE FROM CASTLES",
+ "music": "playful",
+ "cast": {
+  "ludwig": {
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "stache": "thin",
+   "beard": "goatee",
+   "outfit": "napoleon",
+   "color": "#2B4A8C",
+   "color2": "#E7C66A",
+   "skin": "light",
+   "name": "King Ludwig II of Bavaria"
+  },
+  "minister": {
+   "preset": "businessman",
+   "stache": "bush",
+   "hairColor": "#8A8A8A",
+   "name": "Bavarian minister"
+  },
+  "gudden": {
+   "preset": "physician",
+   "beard": "full",
+   "hairColor": "#DADADA",
+   "glasses": "round",
+   "name": "Dr. Bernhard von Gudden"
+  }
+ },
+ "voices": {
+  "ludwig": "am_liam",
+  "minister": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A king spent so much on fairytale castles that his government removed him.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.38,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "place": "Bavaria, Germany · 1880s",
+    "tag": {
+     "id": "ludwig",
+     "text": "King Ludwig II of Bavaria"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ludwig the Second ruled Bavaria, in southern Germany. He loved opera and hated politics.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.42,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.15,
+      "s": 0.45
+     },
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he built dreamy castles that look like opera sets, like Neuschwanstein.",
+   "show": {
+    "k": "map",
+    "lon": 11.4,
+    "lat": 47.85,
+    "z0": 3.4,
+    "z1": 4.0,
+    "date": "1869–1886",
+    "labels": [
+     [
+      "Munich",
+      11.58,
+      48.14,
+      14
+     ],
+     [
+      "Neuschwanstein",
+      10.75,
+      47.56,
+      14
+     ],
+     [
+      "Herrenchiemsee",
+      12.4,
+      47.86,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      10.75,
+      47.56,
+      0.08,
+      "rgba(200,144,42,0.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He paid with his own money. By 1886 he owed more than fourteen million marks.",
+   "show": {
+    "k": "card",
+    "label": "Ludwig's castle debts",
+    "big": "14 MILLION",
+    "sub": "marks owed by 1886",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "minister",
+   "say": "Your Majesty, the banks want their money!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "minister",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "scared"
+     },
+     {
+      "id": "ludwig",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "place": "Munich · 1886"
+   }
+  },
+  {
+   "who": "ludwig",
+   "say": "Then borrow more. I'm not finished building.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "ludwig"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In June 1886, the government declared him insane. The doctors never properly examined him.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "gudden",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "scroll",
+      "mood": "smug"
+     },
+     {
+      "id": "ludwig",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "gudden",
+     "text": "Dr. Bernhard von Gudden"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Days later he was dead, and seven weeks after that, his castles opened to paying tourists. Today about one point four million people visit Neuschwanstein every year.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.68,
+      "s": 0.7,
+      "label": "NEUSCHWANSTEIN"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "1.4 MILLION A YEAR",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "minister",
+      "x": 0.7,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He went broke building fairytale castles. Now they pay for themselves.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ludwigii #neuschwanstein #bavaria #historytok",
+ "youtube_title": "The King Who Went Broke Building Fairytale Castles #shorts",
+ "tags": [
+  "ludwig ii",
+  "neuschwanstein",
+  "bavaria history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ludwig_II_of_Bavaria",
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8119274/",
+  "https://www.thelocal.de/20171004/10-surprising-facts-about-neuschwanstein-castle"
+ ]
+}

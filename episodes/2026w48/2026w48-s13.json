@@ -1,0 +1,301 @@
+{
+ "id": "2026w48-s13",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "The Broke Businessman Who Declared Himself Emperor of America",
+ "hook": "AMERICA'S SELF-MADE EMPEROR",
+ "music": "playful",
+ "cast": {
+  "norton": {
+   "hat": "tophat",
+   "hatColor": "#2A1E16",
+   "outfit": "napoleon",
+   "color": "#2B4A8C",
+   "color2": "#D4A52A",
+   "hair": "curly",
+   "hairColor": "#6A6A6A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Joshua Norton"
+  },
+  "nortonm": {
+   "hat": "tophat",
+   "hatColor": "#2A1E16",
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Joshua Norton, merchant"
+  },
+  "shopkeeper": {
+   "preset": "merchant",
+   "stache": "handlebar",
+   "name": "San Francisco shopkeeper"
+  }
+ },
+ "voices": {
+  "norton": "bm_george",
+  "shopkeeper": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1859, a broke businessman declared himself Emperor of the United States.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.18,
+      "s": 0.6,
+      "flag": "usa1859"
+     },
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "San Francisco, California · 1859",
+    "tag": {
+     "id": "norton",
+     "text": "Joshua Norton"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joshua Norton got rich in San Francisco, then lost everything trying to control the price of rice.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "nortonm",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.55,
+      "s": 0.4,
+      "label": "RICE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RICE CRASH",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he sent a newspaper a letter naming himself emperor. It printed the letter for laughs.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "letter",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "DAILY BULLETIN"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Weeks later, he abolished Congress.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "NO MORE CONGRESS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Congress ignored him. San Francisco played along. He wore a blue uniform and a hat with a peacock feather.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.45,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PEACOCK FEATHER",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He printed his own money, and some local businesses accepted it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "shopkeeper",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "norton",
+      "x": 0.68,
+      "pose": "hold",
+      "hold": "coin",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "shopkeeper",
+   "say": "That's fifty cents, Your Majesty."
+  },
+  {
+   "who": "norton",
+   "say": "Put it on the empire."
+  },
+  {
+   "who": "N",
+   "say": "When he died in 1880, thousands came to his funeral.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "shopkeeper",
+      "x": 0.45,
+      "pose": "hold",
+      "hold": "lantern",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "place": "San Francisco · 1880",
+    "stickers": [
+     {
+      "text": "THOUSANDS CAME",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "shopkeeper",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He declared himself Emperor of the United States. San Francisco played along.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #emperornorton #sanfrancisco #historytok #funnyhistory",
+ "youtube_title": "The Broke Businessman Who Declared Himself Emperor of America #shorts",
+ "tags": [
+  "emperor norton",
+  "joshua norton",
+  "san francisco history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Emperor_Norton",
+  "https://www.historians.org/perspectives-article/the-unselfish-ruler-norton-i-emperor-of-the-united-states-december-2023/",
+  "https://www.foundsf.org/Emperor_Norton",
+  "https://emperornortontrust.org/blog/2023/5/22/emperor-norton-funeral-cortege-not-two-miles-long",
+  "https://www.coinworld.com/news/precious-metals/emperor-norton-the-man-his-money-and-a-bridge.html"
+ ]
+}

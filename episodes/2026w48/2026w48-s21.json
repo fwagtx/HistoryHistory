@@ -1,0 +1,259 @@
+{
+ "id": "2026w48-s21",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "The Real Castle Behind Disney's Sleeping Beauty Castle",
+ "hook": "THE REAL DISNEY CASTLE",
+ "music": "playful",
+ "cast": {
+  "ludwig": {
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "stache": "thin",
+   "beard": "goatee",
+   "outfit": "napoleon",
+   "color": "#2B4A8C",
+   "color2": "#E7C66A",
+   "skin": "light",
+   "name": "King Ludwig II of Bavaria"
+  }
+ },
+ "voices": {
+  "ludwig": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Disney's Sleeping Beauty Castle was inspired by a real castle, built by a king who barely lived in it.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.32,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.7,
+      "s": 0.7,
+      "label": "NEUSCHWANSTEIN"
+     }
+    ],
+    "place": "Bavaria, Germany · 1869",
+    "tag": {
+     "id": "ludwig",
+     "text": "King Ludwig II of Bavaria"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "King Ludwig the Second of Bavaria loved operas and old legends about knights and swans.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.42,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.15,
+      "s": 0.45
+     },
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1869, he started building Neuschwanstein, on a cliff in the Alps.",
+   "show": {
+    "k": "map",
+    "lon": 11.0,
+    "lat": 47.8,
+    "z0": 3.6,
+    "z1": 4.2,
+    "date": "1869",
+    "labels": [
+     [
+      "Munich",
+      11.58,
+      48.14,
+      14
+     ],
+     [
+      "Neuschwanstein",
+      10.75,
+      47.56,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      10.75,
+      47.56,
+      0.08,
+      "rgba(200,144,42,0.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He liked to sleep by day and take sleigh rides through the mountains at night.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.38,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.68,
+      "s": 0.55,
+      "move": [
+       0.55,
+       0.8
+      ]
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "ludwig",
+   "say": "Faster! The moon is out!"
+  },
+  {
+   "who": "N",
+   "say": "But he went broke, was removed from power, and died in 1886. He'd lived in his dream castle only about six months, and it wasn't finished.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABOUT 6 MONTHS",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seven weeks after his death, it opened to paying visitors.",
+   "show": {
+    "k": "card",
+    "label": "Neuschwanstein opens to the public",
+    "big": "7 WEEKS",
+    "sub": "after Ludwig's death in 1886",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And in 1955, Disneyland opened with a castle inspired by it.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.32,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "place": "Disneyland, California · 1955"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Disney's most famous castle has a real twin, built by a king who went broke.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #neuschwanstein #disney #ludwigii #historytok",
+ "youtube_title": "The Real Castle Behind Disney's Sleeping Beauty Castle #shorts",
+ "tags": [
+  "neuschwanstein",
+  "sleeping beauty castle",
+  "ludwig ii",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ludwig_II_of_Bavaria",
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8119274/",
+  "https://www.thelocal.de/20171004/10-surprising-facts-about-neuschwanstein-castle",
+  "https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle",
+  "https://disneyland.disney.go.com/attractions/disneyland/sleeping-beauty-castle-walkthrough/"
+ ]
+}

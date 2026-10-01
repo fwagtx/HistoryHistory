@@ -1,0 +1,305 @@
+{
+ "id": "2026w48-s18",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "The Queen Who Traveled With Her Husband's Coffin",
+ "hook": "SHE KEPT HIS COFFIN",
+ "music": "playful",
+ "cast": {
+  "joanna": {
+   "preset": "queen",
+   "outfit": "gown",
+   "color": "#262322",
+   "color2": "#C8902A",
+   "hat": "veil",
+   "hair": "long",
+   "hairColor": "#6A3E1E",
+   "skin": "light",
+   "name": "Queen Joanna of Castile"
+  },
+  "philiph": {
+   "preset": "king",
+   "hair": "long",
+   "hairColor": "#C8902A",
+   "outfit": "robe",
+   "color": "#8E2A2A",
+   "name": "Philip the Handsome"
+  },
+  "ferdinand": {
+   "preset": "king",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "name": "King Ferdinand of Aragon"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "A queen crossed Spain at night, with her husband's coffin.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "sad",
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.65,
+      "s": 0.6,
+      "label": "THE COFFIN"
+     }
+    ],
+    "place": "Castile, Spain · 1506",
+    "tag": {
+     "id": "joanna",
+     "text": "Queen Joanna of Castile"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joanna was queen of Castile, the biggest kingdom in Spain. She adored her husband, Philip the Handsome.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "philiph",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "philiph",
+     "text": "Philip the Handsome"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1506, Philip suddenly died. He was twenty-eight.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That winter, she set off with his coffin toward Granada, where she wanted him buried.",
+   "show": {
+    "k": "map",
+    "lon": -4.2,
+    "lat": 40.2,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "winter 1506–1507",
+    "labels": [
+     [
+      "Burgos",
+      -3.7,
+      42.34,
+      14
+     ],
+     [
+      "Granada",
+      -3.6,
+      37.18,
+      14
+     ],
+     [
+      "Tordesillas",
+      -5.0,
+      41.5,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -3.7,
+      42.34
+     ],
+     [
+      -4.0,
+      42.2
+     ],
+     [
+      -4.32,
+      42.03
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The procession moved only at night, by torchlight, and rested in monasteries by day.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "sad",
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.62,
+      "s": 0.6,
+      "move": [
+       0.5,
+       0.75
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NIGHT ONLY",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1509, her father locked her away in a palace in Tordesillas. She stayed forty-six years.",
+   "show": {
+    "k": "card",
+    "label": "Joanna's years shut away",
+    "big": "46 YEARS",
+    "sub": "1509 to 1555",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "cross",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "History calls her Joanna the Mad. But many historians think her father and son exaggerated her illness, to keep her power.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "ferdinand",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "crown",
+      "mood": "smug"
+     },
+     {
+      "id": "joanna",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.5,
+      "s": 0.35,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "tag": {
+     "id": "ferdinand",
+     "text": "King Ferdinand, her father"
+    },
+    "stickers": [
+     {
+      "text": "MAD OR IN THE WAY?",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "philiph",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Joanna the Mad, or Joanna the inconvenient? Her story is wilder than the nickname.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #joannaofcastile #spain #royalhistory #historytok",
+ "youtube_title": "The Queen Who Traveled With Her Husband's Coffin #shorts",
+ "tags": [
+  "joanna of castile",
+  "juana la loca",
+  "spanish history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Joanna_of_Castile",
+  "https://en.wikipedia.org/wiki/Philip_the_Handsome",
+  "https://www.historyisnowmagazine.com/blog/2018/10/7/was-joanna-of-castile-truly-mad-or-a-pawn-for-the-men-in-her-family",
+  "https://www.ebsco.com/research-starters/history/joan-mad-queen-castile"
+ ]
+}

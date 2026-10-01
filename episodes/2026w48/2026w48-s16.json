@@ -1,0 +1,317 @@
+{
+ "id": "2026w48-s16",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "The Tsar Who Pulled His Courtiers' Teeth",
+ "hook": "THE TSAR PULLED TEETH",
+ "music": "playful",
+ "cast": {
+  "peter": {
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "stache": "thin",
+   "outfit": "coat",
+   "color": "#2F5A3A",
+   "color2": "#C8902A",
+   "skin": "light",
+   "name": "Tsar Peter the Great"
+  },
+  "boyar": {
+   "preset": "noble",
+   "beard": "long",
+   "hairColor": "#5A4A3A",
+   "outfit": "robe",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "name": "Russian boyar (nobleman)"
+  },
+  "scholar": {
+   "preset": "philosopher",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "peter": "am_fenrir",
+  "boyar": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The ruler of Russia had a strange hobby: pulling people's teeth.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.42,
+      "pose": "aim",
+      "mood": "happy",
+      "s": 1.1
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "jar",
+      "x": 0.78,
+      "s": 0.4,
+      "label": "TEETH"
+     }
+    ],
+    "place": "Saint Petersburg, Russia · early 1700s",
+    "tag": {
+     "id": "peter",
+     "text": "Tsar Peter the Great"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Peter the Great loved science and medicine. On his trip through Europe, he even went to anatomy lessons in Amsterdam.",
+   "show": {
+    "k": "map",
+    "lon": 21.0,
+    "lat": 54.5,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "1697–1698",
+    "labels": [
+     [
+      "Moscow",
+      37.62,
+      55.75,
+      14
+     ],
+     [
+      "Amsterdam",
+      4.9,
+      52.37,
+      14
+     ]
+    ],
+    "route": [
+     [
+      37.62,
+      55.75
+     ],
+     [
+      24.1,
+      56.95
+     ],
+     [
+      13.4,
+      52.52
+     ],
+     [
+      4.9,
+      52.37
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back home, he practiced on his servants and nobles.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy",
+      "s": 1.1
+     },
+     {
+      "id": "boyar",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "boyar",
+   "say": "Your Majesty, my tooth hurts a little.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "boyar",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "boyar"
+   }
+  },
+  {
+   "who": "peter",
+   "say": "Say no more! Open wide!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 1.1
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "peter"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He kept the teeth he pulled, and some were reportedly perfectly healthy.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "boyar",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "TEETH"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OUCH",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some of those teeth are still kept in the Kunstkamera, a museum in Saint Petersburg that Peter himself founded.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.35,
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.68,
+      "s": 0.5,
+      "label": "PETER'S TEETH"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "place": "Kunstkamera, Saint Petersburg · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Russia's great modernizer was also its scariest dentist.",
+   "show": {
+    "k": "card",
+    "label": "Peter the Great's side job",
+    "big": "DENTIST",
+    "sub": "no training, lots of enthusiasm",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "boyar",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Peter the Great's favorite hobby? Pulling teeth. Yours.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #peterthegreat #russia #dentist #historytok",
+ "youtube_title": "The Tsar Who Pulled His Courtiers' Teeth #shorts",
+ "tags": [
+  "peter the great",
+  "kunstkamera",
+  "russian history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Kunstkamera",
+  "https://harvardartmuseums.org/art/155787",
+  "https://www.rbth.com/history/331630-what-were-russian-tsars-hobbies",
+  "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great"
+ ]
+}

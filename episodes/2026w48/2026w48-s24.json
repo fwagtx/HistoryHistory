@@ -1,0 +1,283 @@
+{
+ "id": "2026w48-s24",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "Spain's King Was Called 'the Bewitched'",
+ "hook": "THEY CALLED HIM BEWITCHED",
+ "music": "playful",
+ "cast": {
+  "charles2": {
+   "hair": "long",
+   "hairColor": "#C8A060",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#E7E2D6",
+   "skin": "peach",
+   "name": "King Charles II of Spain"
+  },
+  "priest": {
+   "preset": "monk",
+   "name": "Priest"
+  },
+  "scholar": {
+   "preset": "philosopher",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "priest": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Spain's king was so sick that people decided he must be bewitched.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.42,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.55,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "place": "Madrid, Spain · 1690s",
+    "tag": {
+     "id": "charles2",
+     "text": "King Charles II of Spain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Charles the Second became king of Spain in 1665, at just three years old.",
+   "show": {
+    "k": "card",
+    "label": "Charles II's age when he became king",
+    "big": "3",
+    "sub": "in 1665",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His family, the Habsburgs, kept marrying cousins to keep power in the family. His own parents were uncle and niece.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.42,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.15,
+      "s": 0.45
+     },
+     {
+      "k": "painting",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UNCLE + NIECE",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Doctors today think that left him with serious health problems all his life.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "FAMILY TREE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But people back then had another idea: witchcraft.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "priest",
+      "x": 0.42,
+      "pose": "point",
+      "mood": "angry",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "who": "priest",
+   "say": "We must drive out the evil spell!"
+  },
+  {
+   "who": "N",
+   "say": "In his last years, priests even performed exorcisms on him. They didn't help.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "priest",
+      "x": 0.32,
+      "pose": "present",
+      "hold": "book",
+      "mood": "shout"
+     },
+     {
+      "id": "charles2",
+      "x": 0.68,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EXORCISM",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He died in 1700 with no children, and Europe fought a thirteen-year war over who got Spain.",
+   "show": {
+    "k": "map",
+    "lon": -1.0,
+    "lat": 44.0,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "1701–1714",
+    "labels": [
+     [
+      "Madrid",
+      -3.7,
+      40.42,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -3.7,
+      40.0,
+      3.5,
+      "rgba(168,50,42,0.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "priest",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His court thought he was cursed. The real cause was in his family tree.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #charlesii #spain #habsburgs #historytok",
+ "youtube_title": "Spain's King Was Called 'the Bewitched' #shorts",
+ "tags": [
+  "charles ii of spain",
+  "habsburg",
+  "spanish history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Charles_II_of_Spain",
+  "https://www.fascinatingspain.com/articulo/history-and-legends/charles-ii-spain-bewitched/20230324134202068674.html",
+  "https://en.wikipedia.org/wiki/War_of_the_Spanish_Succession"
+ ]
+}

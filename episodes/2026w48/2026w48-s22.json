@@ -1,0 +1,262 @@
+{
+ "id": "2026w48-s22",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "The King Who Thought He Was Made of Glass",
+ "hook": "THE KING MADE OF GLASS",
+ "music": "playful",
+ "cast": {
+  "charles6": {
+   "preset": "king",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F4FA0",
+   "color2": "#E7C66A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "King Charles VI of France"
+  },
+  "courtier": {
+   "preset": "noble",
+   "name": "French courtier"
+  }
+ },
+ "voices": {
+  "charles6": "am_echo",
+  "courtier": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A king of France believed his body was made of glass.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.35
+     }
+    ],
+    "place": "Paris, France · 1390s",
+    "tag": {
+     "id": "charles6",
+     "text": "King Charles VI of France"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Charles the Sixth became king at eleven. People first called him Charles the Beloved.",
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "FRANCE",
+    "sub": "King Charles VI · 1380–1422",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in his twenties he became seriously mentally ill, at a time when nobody knew how to treat it.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In some episodes, he feared he'd shatter if anyone touched him.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "courtier",
+      "x": 0.32,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "charles6",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.5,
+      "s": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "who": "charles6",
+   "say": "Stay back! I'll break!"
+  },
+  {
+   "who": "courtier",
+   "say": "Nobody move. His Majesty is fragile today.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "courtier",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "courtier"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he had iron rods sewn into his clothes, to protect himself.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.42,
+      "pose": "cross",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "france_royal"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "IRON RODS",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sometimes he thought he was made of glass and would not let himself be touched.",
+   "show": {
+    "k": "quote",
+    "text": "Sometimes he thought he was made of glass and would not let himself be touched.",
+    "who": "Pope Pius II, Commentaries, on King Charles VI of France"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Doctors now call this the glass delusion, and Charles is one of its earliest known cases.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "courtier",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "GLASS DELUSION"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "courtier",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The King of France sewed iron rods into his clothes. He was afraid he'd shatter.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #charlesvi #france #medievalhistory #historytok",
+ "youtube_title": "The King Who Thought He Was Made of Glass #shorts",
+ "tags": [
+  "charles vi of france",
+  "glass delusion",
+  "french history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Charles_VI_of_France",
+  "https://en.wikipedia.org/wiki/Glass_delusion",
+  "https://publicdomainreview.org/essay/fear-and-fragility-the-glass-delusion-and-its-history/",
+  "https://www.worldhistory.org/Charles_VI_of_France/"
+ ]
+}

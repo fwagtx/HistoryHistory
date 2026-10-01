@@ -1,0 +1,271 @@
+{
+ "id": "2026w48-s19",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "Did King George III Talk to a Tree? (Legend)",
+ "hook": "DID HE TALK TO A TREE?",
+ "music": "playful",
+ "cast": {
+  "george3": {
+   "hair": "short",
+   "hairColor": "#EDEDED",
+   "outfit": "coat",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "skin": "peach",
+   "name": "King George III"
+  },
+  "scholar": {
+   "preset": "philosopher",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "george3": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "There's a famous story that King George the Third shook hands with a tree.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.68,
+      "s": 0.8
+     }
+    ],
+    "place": "Windsor, England · 1788",
+    "tag": {
+     "id": "george3",
+     "text": "King George III"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "George ruled Britain for sixty years. Yes, the king who lost America.",
+   "show": {
+    "k": "flag",
+    "flag": "uk1606",
+    "label": "GREAT BRITAIN",
+    "sub": "King George III · 1760–1820",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1788 he became seriously ill. He talked for hours without stopping.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.42,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.45
+     },
+     {
+      "k": "painting",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HOURS OF TALKING",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story says that in Windsor Park he greeted an oak tree, thinking it was the King of Prussia.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.32,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.68,
+      "s": 0.9,
+      "label": "KING OF PRUSSIA?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "george3",
+   "say": "My dear King of Prussia! How are you?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.72,
+      "s": 0.9
+     }
+    ],
+    "cam": "close",
+    "focus": "george3"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But there's no real evidence it ever happened. It's a legend, probably a rumor about his illness.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.4,
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "NO EVIDENCE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "What's true: he got better in 1789, and Britain held a huge thank-you service at Saint Paul's Cathedral.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "place": "St Paul's Cathedral, London · 1789"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His illness came back later. Doctors still argue about what it was.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Did a king really chat with an oak tree? Here's what's true.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #georgeiii #britishhistory #royals #historytok",
+ "youtube_title": "Did King George III Talk to a Tree? (Legend) #shorts",
+ "tags": [
+  "george iii",
+  "madness of king george",
+  "british history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/George_III",
+  "https://bjgplife.com/madness-and-the-monarchy-diagnosing-king-george-iii/",
+  "https://www.rct.uk/collection/themes/exhibitions/high-spirits/the-queens-gallery-buckingham-palace/1788-george-iiis-illness-and-the-prince-of-wales",
+  "https://discovery.nationalarchives.gov.uk/details/r/C10245655",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4953321/"
+ ]
+}

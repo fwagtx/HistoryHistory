@@ -1,0 +1,318 @@
+{
+ "id": "2026w48-s23",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "The Royal Costume Party That Caught Fire",
+ "hook": "THE PARTY THAT CAUGHT FIRE",
+ "music": "playful",
+ "cast": {
+  "charles6": {
+   "preset": "king",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F4FA0",
+   "color2": "#E7C66A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "King Charles VI of France"
+  },
+  "duchess": {
+   "preset": "princess",
+   "hair": "long",
+   "hairColor": "#6A3E1E",
+   "name": "Joan, Duchess of Berry"
+  },
+  "louisorl": {
+   "preset": "noble",
+   "color": "#8E2A2A",
+   "name": "Louis of Orleans, the king's brother"
+  },
+  "courtier": {
+   "preset": "noble",
+   "name": "French courtier"
+  }
+ },
+ "voices": {
+  "duchess": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1393, a royal costume party in Paris went horribly wrong.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "courtier",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Paris, France · January 1393",
+    "tag": {
+     "id": "charles6",
+     "text": "King Charles VI of France"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "King Charles the Sixth and five nobles dressed up as hairy wild men. Their costumes were linen, coated in sticky resin and fluffy flax.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "smug"
+     },
+     {
+      "id": "courtier",
+      "x": 0.65,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VERY FLAMMABLE",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the king's brother, Louis, came in carrying a torch, and got too close.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "louisorl",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "torch",
+      "mood": "happy",
+      "walk": [
+       0.2,
+       0.45
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.55
+     }
+    ],
+    "tag": {
+     "id": "louisorl",
+     "text": "Louis, the king's brother"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A costume caught fire, and the flames spread. Four of the dancers died.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "courtier",
+      "x": 0.45,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "duchess",
+   "say": "Your Majesty! Under here, quickly!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "duchess",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "charles6",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.55
+     }
+    ],
+    "tag": {
+     "id": "duchess",
+     "text": "Joan, Duchess of Berry, age 15"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The king survived because his fifteen-year-old aunt, the Duchess of Berry, threw her heavy skirt over him.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "duchess",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "happy"
+     },
+     {
+      "id": "charles6",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SAVED BY A SKIRT",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The disaster shocked Paris. People still call it the Bal des Ardents, the Ball of the Burning Men.",
+   "show": {
+    "k": "card",
+    "label": "The disaster's name",
+    "big": "BAL DES ARDENTS",
+    "sub": "the Ball of the Burning Men, 1393",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And for a king who was already ill, it made things worse.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "duchess",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A king's costume party went up in flames. A 15-year-old saved him with her skirt.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #charlesvi #medievalhistory #france #historytok",
+ "youtube_title": "The Royal Costume Party That Caught Fire #shorts",
+ "tags": [
+  "bal des ardents",
+  "charles vi of france",
+  "medieval history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Bal_des_Ardents",
+  "https://essentiels.bnf.fr/fr/image/af33676e-642d-498b-a64d-00ab859ea490-bal-ardents",
+  "https://en.wikipedia.org/wiki/Charles_VI_of_France"
+ ]
+}

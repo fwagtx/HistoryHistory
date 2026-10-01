@@ -1,0 +1,284 @@
+{
+ "id": "2026w48-s14",
+ "format": "short",
+ "date": "2026-11-25",
+ "slot": "09:00",
+ "title": "A Self-Declared Emperor Ordered the Bay Bridge",
+ "hook": "THE EMPEROR'S BRIDGE",
+ "music": "playful",
+ "cast": {
+  "norton": {
+   "hat": "tophat",
+   "hatColor": "#2A1E16",
+   "outfit": "napoleon",
+   "color": "#2B4A8C",
+   "color2": "#D4A52A",
+   "hair": "curly",
+   "hairColor": "#6A6A6A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Joshua Norton"
+  },
+  "worker": {
+   "preset": "worker",
+   "name": "San Francisco worker"
+  }
+ },
+ "voices": {
+  "norton": "bm_george",
+  "worker": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A man who called himself emperor ordered a bridge across San Francisco Bay. Decades later, it got built.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.7,
+      "s": 0.6,
+      "move": [
+       0.85,
+       0.6
+      ]
+     }
+    ],
+    "place": "San Francisco Bay · 1872",
+    "tag": {
+     "id": "norton",
+     "text": "Joshua Norton"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joshua Norton was a broke businessman who, in 1859, named himself Emperor of the United States.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.18,
+      "s": 0.6,
+      "flag": "usa1859"
+     },
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "San Francisco loved him, and local newspapers printed his royal orders.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "scroll",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "NEWS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1872, he ordered a bridge from Oakland to San Francisco, by way of an island in the middle of the bay.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.55,
+      "text": "BUILD A BRIDGE!"
+     }
+    ]
+   }
+  },
+  {
+   "who": "worker",
+   "say": "A bridge across the whole bay? Impossible!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "norton",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "norton",
+   "say": "Then get started. That's an imperial order."
+  },
+  {
+   "who": "N",
+   "say": "Nobody built it. Norton died in 1880.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.45,
+      "pose": "hold",
+      "hold": "lantern",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "place": "San Francisco · 1880"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in 1936, the Bay Bridge opened, crossing at that same island.",
+   "show": {
+    "k": "card",
+    "label": "The San Francisco–Oakland Bay Bridge opens",
+    "big": "1936",
+    "sub": "64 years after Norton ordered it",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.75,
+      "s": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the joke emperor had the right idea.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "worker",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A self-declared emperor ordered a bridge in 1872. Guess what got built in 1936.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #emperornorton #baybridge #sanfrancisco #historytok",
+ "youtube_title": "A Self-Declared Emperor Ordered the Bay Bridge #shorts",
+ "tags": [
+  "emperor norton",
+  "bay bridge",
+  "san francisco history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Emperor_Norton",
+  "https://www.historians.org/perspectives-article/the-unselfish-ruler-norton-i-emperor-of-the-united-states-december-2023/",
+  "https://www.foundsf.org/Emperor_Norton",
+  "https://emperornortontrust.org/bridge/proclamations",
+  "https://www.nbcbayarea.com/news/local/emperor-norton-bay-bridge/2954953/",
+  "http://www.sfmuseum.org/hist2/bbridge.html"
+ ]
+}
