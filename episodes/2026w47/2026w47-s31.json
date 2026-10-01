@@ -1,7 +1,7 @@
 {
  "id": "2026w47-s31",
  "format": "short",
- "date": "2026-11-20",
+ "date": "2026-11-22",
  "slot": "09:00",
  "title": "Rockefeller Saved a Fortune With One Drop",
  "hook": "ONE DROP OF SOLDER",
@@ -69,7 +69,7 @@
       "s": 0.5
      }
     ],
-    "place": "Standard Oil plant · 1870s",
+    "place": "Standard Oil plant, New York",
     "tag": {
      "id": "rocky",
      "text": "John D. Rockefeller"
@@ -161,7 +161,7 @@
   },
   {
    "who": "N",
-   "say": "Thirty nine worked. One drop less, on millions of cans.",
+   "say": "Thirty nine never leaked. One drop less, on every single can.",
    "show": {
     "k": "card",
     "label": "Drops of solder per can",
@@ -171,7 +171,7 @@
   },
   {
    "who": "N",
-   "say": "He said it saved thousands of dollars in the first year, and far more over time. Tiny savings, giant fortune.",
+   "say": "He said it saved two thousand five hundred dollars the first year, and hundreds of thousands over time.",
    "show": {
     "k": "scene",
     "bg": "vault",
@@ -188,6 +188,13 @@
       "k": "moneypile",
       "x": 0.75,
       "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$2,500 IN YEAR ONE",
+      "at": 1.2,
+      "color": "#C0392B"
      }
     ]
    }
@@ -221,6 +228,7 @@
   "https://www.caseyresearch.com/articles/how-rockefeller-parlayed-pipelines-billions/",
   "https://www.aei.org/articles/the-other-half-of-standard-oil/",
   "https://en.wikipedia.org/wiki/John_D._Rockefeller",
-  "https://en.wikipedia.org/wiki/Standard_Oil"
+  "https://en.wikipedia.org/wiki/Standard_Oil",
+  "https://www.econlib.org/archives/2013/01/great_moments_i_6.html"
  ]
 }

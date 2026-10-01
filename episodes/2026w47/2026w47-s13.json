@@ -2,7 +2,7 @@
  "id": "2026w47-s13",
  "format": "short",
  "date": "2026-11-18",
- "slot": "09:00",
+ "slot": "15:00",
  "title": "Caesar Told His Kidnappers to Raise His Ransom",
  "hook": "RAISE MY RANSOM",
  "music": "playful",
@@ -87,7 +87,7 @@
   },
   {
    "who": "N",
-   "say": "It's 75 BC. Caesar, a young Roman noble, is sailing to Rhodes to study public speaking.",
+   "say": "It's 75 BC. Young Caesar, a Roman noble, is sailing to Rhodes, a Greek island.",
    "show": {
     "k": "map",
     "lon": 26.5,
@@ -222,7 +222,7 @@
   },
   {
    "who": "N",
-   "say": "Plutarch, a Greek writer, says Caesar then bossed the pirates around for thirty-eight days.",
+   "say": "Plutarch, a Greek writer, says Caesar bossed them around for thirty-eight days.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -251,8 +251,12 @@
    }
   },
   {
+   "who": "caesaryoung",
+   "say": "When I'm free, I'm coming back for all of you."
+  },
+  {
    "who": "N",
-   "say": "Once he was free, he came back with ships and captured every one of them, just like he'd promised.",
+   "say": "They laughed. Once free, he came back with ships and captured most of them.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -315,6 +319,7 @@
   "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html",
   "https://www.livius.org/sources/content/plutarch/plutarchs-caesar/caesar-and-the-pirates/",
   "https://www.britannica.com/story/the-time-julius-caesar-was-captured-by-pirates",
-  "https://en.wikipedia.org/wiki/Julius_Caesar"
+  "https://en.wikipedia.org/wiki/Julius_Caesar",
+  "https://lexundria.com/plut_caes/2/prr"
  ]
 }
