@@ -1,0 +1,282 @@
+{
+ "id": "2026w46-s35",
+ "format": "short",
+ "date": "2026-11-13",
+ "slot": "09:00",
+ "title": "America's Revolution Money Became Worthless",
+ "hook": "AMERICA'S MONEY BECAME WORTHLESS",
+ "music": "playful",
+ "cast": {
+  "washington": {
+   "preset": "washington",
+   "name": "George Washington"
+  },
+  "contsoldier": {
+   "skin": "light",
+   "hat": "tricorn",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#2F4A7A",
+   "color2": "#F2EEE4",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "hold": "rifle",
+   "name": "Continental soldier"
+  },
+  "yankfarmer": {
+   "preset": "farmer",
+   "skin": "light",
+   "hat": "straw",
+   "outfit": "overalls",
+   "color": "#6A5A3A",
+   "beard": "full",
+   "hairColor": "#8A6A3A",
+   "hold": "chicken",
+   "name": "Farmer"
+  },
+  "redcoat": {
+   "preset": "redcoat",
+   "name": "British soldier"
+  }
+ },
+ "voices": {
+  "contsoldier": "am_liam",
+  "yankfarmer": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "During the American Revolution, America's paper money became almost worthless.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "contsoldier",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "usa1776"
+     }
+    ],
+    "place": "American colonies · 1775–1780"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Congress had no gold and couldn't collect taxes, so it printed Continental dollars to pay for the war.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "contsoldier",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.6,
+      "s": 0.5
+     },
+     {
+      "k": "moneypile",
+      "x": 0.82,
+      "s": 0.6,
+      "enter": "pop"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$241 MILLION",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Britain printed fake ones too, to make them even less trusted.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "redcoat",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.8,
+      "flag": "uk1606"
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "FAKES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "contsoldier",
+   "say": "I'll buy your chicken with Continental dollars!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "contsoldier",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "yankfarmer",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "contsoldier"
+   }
+  },
+  {
+   "who": "yankfarmer",
+   "say": "Paper? I'll keep the chicken."
+  },
+  {
+   "who": "N",
+   "say": "In 1779, General George Washington wrote that a wagon load of money would scarcely buy a wagon load of food.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "washington",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "think",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.7
+     },
+     {
+      "k": "wagon",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "washington",
+     "text": "General George Washington"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1780, a Continental was officially worth one fortieth of its face value.",
+   "show": {
+    "k": "card",
+    "label": "A Continental dollar in 1780",
+    "big": "1/40",
+    "sub": "of the number printed on it"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's where the old saying comes from: not worth a Continental.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "yankfarmer",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "NOT WORTH A CONTINENTAL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "washington",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "wave"
+     },
+     {
+      "id": "yankfarmer",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "George Washington said a wagon of money barely bought a wagon of food.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #americanrevolution #georgewashington #money #historytok",
+ "youtube_title": "America's Revolution Money Became Worthless #shorts",
+ "tags": [
+  "continental dollar",
+  "not worth a continental",
+  "american revolution",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Early_American_currency",
+  "https://founders.archives.gov/documents/Washington/03-20-02-0157",
+  "https://www.frbsf.org/independence/",
+  "https://www.amrevmuseum.org/collection/continental-currency-3-dollars",
+  "https://allthingsliberty.com/2013/03/from-pounds-to-dollars-money-during-the-revolution/",
+  "https://smithsonianeducation.org/educators/lesson_plans/revolutionary_money/intro_3.html"
+ ]
+}

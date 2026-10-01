@@ -1,0 +1,275 @@
+{
+ "id": "2026w46-s26",
+ "format": "short",
+ "date": "2026-11-13",
+ "slot": "09:00",
+ "title": "German Kids Built Toys From Money",
+ "hook": "KIDS BUILT TOYS FROM MONEY",
+ "music": "playful",
+ "cast": {
+  "kid": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#8A6A3A",
+   "hairColor": "#C89A5A",
+   "name": "German kid"
+  },
+  "frau": {
+   "skin": "light",
+   "hat": "headscarf",
+   "hatColor": "#6A3E8E",
+   "outfit": "dress",
+   "color": "#2F5A7A",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "name": "Berlin shopper"
+  }
+ },
+ "voices": {
+  "kid": "am_puck",
+  "frau": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1923, German kids built toy towers out of real money.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.62,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.62,
+      "s": 0.5,
+      "y": 0.08
+     }
+    ],
+    "place": "Germany · 1923",
+    "stickers": [
+     {
+      "text": "REAL MONEY",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Germany's government had printed so much cash that prices were doubling every few days.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.6,
+      "enter": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By November, a loaf of bread cost billions of marks. Small notes were basically worthless.",
+   "show": {
+    "k": "card",
+    "label": "A loaf of bread, November 1923",
+    "big": "BILLIONS",
+    "sub": "of German marks"
+   }
+  },
+  {
+   "who": "kid",
+   "say": "Mom, can I have this pile of money?",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "frau",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "kid"
+   }
+  },
+  {
+   "who": "frau",
+   "say": "Sure. It won't buy a candy anyway."
+  },
+  {
+   "who": "N",
+   "say": "Photos from the time show kids stacking bundles of banknotes like building blocks, and flying kites made of them.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REAL PHOTOS",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some adults burned notes in the stove, because the paper was cheaper than firewood.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "moneypile",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When money turns into toys, it has stopped being money.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.7,
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "frau",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1923, German money was so worthless that kids played with it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hyperinflation #weimar #germany #historytok",
+ "youtube_title": "German Kids Built Toys From Money #shorts",
+ "tags": [
+  "weimar hyperinflation",
+  "kids playing with money",
+  "1923 germany",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "https://en.wikipedia.org/wiki/Papiermark",
+  "https://en.wikipedia.org/wiki/Rentenmark",
+  "https://www.britannica.com/event/hyperinflation-in-the-Weimar-Republic",
+  "https://alphahistory.com/weimarrepublic/1923-hyperinflation/",
+  "https://alphahistory.com/weimarrepublic/ruhr-occupation/",
+  "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+  "https://rarehistoricalphotos.com/hyperinflation-weimar-republic-1922/",
+  "https://rarehistoricalphotos.com/banknotes-german-hyperinflation-1923/",
+  "https://www.moneyness.ca/2012/12/how-to-stop-hyperinflation.html",
+  "https://moneyweek.com/294854/week-in-history-rentenmark-miracle"
+ ]
+}

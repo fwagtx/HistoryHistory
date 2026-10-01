@@ -1,0 +1,272 @@
+{
+ "id": "2026w46-s29",
+ "format": "short",
+ "date": "2026-11-13",
+ "slot": "09:00",
+ "title": "Prices Doubled Every 15 Hours",
+ "hook": "PRICES DOUBLED EVERY 15 HOURS",
+ "music": "playful",
+ "cast": {
+  "hunworker": {
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#4A4A4A",
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "stache": "handlebar",
+   "hairColor": "#3A2A1A",
+   "name": "Budapest worker"
+  },
+  "hunclerk": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#3A3A3A",
+   "outfit": "suit",
+   "color": "#4A5A4A",
+   "glasses": "round",
+   "hairColor": "#5A4A3A",
+   "hold": "moneybag",
+   "name": "Budapest pay clerk"
+  }
+ },
+ "voices": {
+  "hunworker": "bm_lewis",
+  "hunclerk": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1946, prices in Hungary doubled about every fifteen hours. It's the worst inflation ever recorded.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "PRICES x2"
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Budapest, Hungary · July 1946"
+   }
+  },
+  {
+   "who": "N",
+   "say": "World War Two had wrecked Hungary, a country in central Europe.",
+   "show": {
+    "k": "map",
+    "lon": 19.0,
+    "lat": 47.2,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "1946",
+    "labels": [
+     [
+      "Budapest",
+      19.04,
+      47.5,
+      14
+     ],
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      19.3,
+      47.1,
+      1.6,
+      "rgba(168,50,42,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The government needed money it didn't have, so it printed more pengő, Hungary's money. Lots more.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "hunclerk",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.78,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.6,
+      "enter": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Doubling every fifteen hours means a bun costing one pengő at breakfast cost two by bedtime, and four by next lunch.",
+   "show": {
+    "k": "card",
+    "label": "One bun, Budapest, July 1946",
+    "big": "1 → 2 → 4",
+    "sub": "breakfast, bedtime, next day's lunch"
+   }
+  },
+  {
+   "who": "hunclerk",
+   "say": "Congratulations! You got a big raise!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "hunclerk",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "hunworker",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "hunclerk"
+   }
+  },
+  {
+   "who": "hunworker",
+   "say": "Great. Will it last until dinner?"
+  },
+  {
+   "who": "N",
+   "say": "People spent their pay the moment they got it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "run",
+      "walk": [
+       0.2,
+       0.65
+      ],
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.5,
+      "label": "FOOD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In August 1946, Hungary scrapped the pengő completely and started over with the forint.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "FORINT"
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "hunclerk",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Hungary, 1946: your lunch cost double by bedtime.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hyperinflation #hungary #money #historytok",
+ "youtube_title": "Prices Doubled Every 15 Hours #shorts",
+ "tags": [
+  "hungarian pengo",
+  "hungary hyperinflation 1946",
+  "worst inflation ever",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hungarian_peng%C5%91",
+  "https://en.wikipedia.org/wiki/Hungarian_one_hundred_quintillion_peng%C5%91_banknote",
+  "https://en.wikipedia.org/wiki/Hungarian_forint",
+  "https://en.wikipedia.org/wiki/Siege_of_Budapest",
+  "https://www.guinnessworldrecords.com/world-records/762605-highest-inflation-rate-ever",
+  "https://planetbanknote.com/banknote-blog/hungary-1946-the-worst-hyperinflation-ever/",
+  "https://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8.pdf",
+  "https://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8.pdf"
+ ]
+}

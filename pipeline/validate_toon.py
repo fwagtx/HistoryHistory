@@ -135,7 +135,8 @@ def check(path, V):
             errs.append(f"beat {i}: 'moneypile' draws paper banknotes, which didn't exist in {abs(era)}{' BC' if era < 0 else ''}; use chest, goldpile or coin props")
         used = [sh.get("flag") if k == "flag" else None] + [o.get(x) for o in sh.get("objects", []) for x in ("flag", "emblem")] + [e.get("flag") for e in sh.get("cast", [])]
         for f in filter(None, used):
-            if f in FLAG_FROM and era is not None and era < FLAG_FROM[f][0] and not (f == "russia" and era < 1917):
+            if f in FLAG_FROM and era is not None and era < FLAG_FROM[f][0] and not (f == "russia" and era < 1917) \
+                    and not (f == "germany" and 1919 <= era <= 1933):   # Weimar Republic used black-red-gold too
                 errs.append(f"beat {i}: the '{f}' flag is the modern one, but the story is in {abs(era)}{' BC' if era < 0 else ''}; use {FLAG_FROM[f][1]}")
         if k == "scene" and sh.get("bg") in ("village", "church") and era is not None and era < 400:
             errs.append(f"beat {i}: '{sh['bg']}' has a church, but the story is in {abs(era)}{' BC' if era < 0 else ''}; use field, rome, greek, egypt or market")

@@ -1,0 +1,226 @@
+{
+ "id": "2026w46-s30",
+ "format": "short",
+ "date": "2026-11-13",
+ "slot": "09:00",
+ "title": "The Biggest Banknote Ever Used",
+ "hook": "A 100 QUINTILLION BANKNOTE",
+ "music": "playful",
+ "cast": {
+  "hunclerk": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#3A3A3A",
+   "outfit": "suit",
+   "color": "#4A5A4A",
+   "glasses": "round",
+   "hairColor": "#5A4A3A",
+   "hold": "moneybag",
+   "name": "Budapest pay clerk"
+  },
+  "hunworker": {
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#4A4A4A",
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "stache": "handlebar",
+   "hairColor": "#3A2A1A",
+   "name": "Budapest worker"
+  }
+ },
+ "voices": {
+  "hunclerk": "bm_daniel",
+  "hunworker": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1946, Hungary used a banknote worth one hundred quintillion pengő.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "hunclerk",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.7,
+      "text": "100,000,000,000,000,000,000"
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "place": "Budapest, Hungary · July 1946",
+    "stickers": [
+     {
+      "text": "100 QUINTILLION",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After World War Two, Hungary's government paid its bills by printing money nonstop.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "hunclerk",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.78,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.6,
+      "enter": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Prices doubled about every fifteen hours, so the notes needed more and more zeros.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "PRICES x2"
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "FOOD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One hundred quintillion is a one followed by twenty zeros. It's still the biggest banknote ever put into use.",
+   "show": {
+    "k": "card",
+    "label": "Hungary's biggest note, 1946",
+    "big": "10^20 pengő",
+    "sub": "a 1 with 20 zeros"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Counting that high, one number per second, would take about three trillion years.",
+   "show": {
+    "k": "card",
+    "label": "Counting to 100 quintillion",
+    "big": "3 trillion years",
+    "sub": "at one number per second"
+   }
+  },
+  {
+   "who": "hunworker",
+   "say": "So, one of those buys a house?",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "hunclerk",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "hunworker"
+   }
+  },
+  {
+   "who": "hunclerk",
+   "say": "No. Even one sextillion would not have helped. They printed that note too, but never used it."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hunclerk",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "hunworker",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A 1 with 20 zeros, on a single banknote. Hungary, 1946.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hyperinflation #hungary #banknotes #historytok",
+ "youtube_title": "The Biggest Banknote Ever Used #shorts",
+ "tags": [
+  "100 quintillion pengo",
+  "biggest banknote ever",
+  "hungary 1946",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hungarian_peng%C5%91",
+  "https://en.wikipedia.org/wiki/Hungarian_one_hundred_quintillion_peng%C5%91_banknote",
+  "https://en.wikipedia.org/wiki/Hungarian_forint",
+  "https://en.wikipedia.org/wiki/Siege_of_Budapest",
+  "https://www.guinnessworldrecords.com/world-records/762605-highest-inflation-rate-ever",
+  "https://planetbanknote.com/banknote-blog/hungary-1946-the-worst-hyperinflation-ever/",
+  "https://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8.pdf"
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "id": "2026w46-s32",
+ "format": "short",
+ "date": "2026-11-13",
+ "slot": "09:00",
+ "title": "Zimbabwe's 100 Trillion Dollar Note",
+ "hook": "A $100 TRILLION BANKNOTE",
+ "music": "playful",
+ "cast": {
+  "zshopper": {
+   "skin": "dark",
+   "hat": "headscarf",
+   "hatColor": "#D4A52A",
+   "outfit": "dress",
+   "color": "#2F7A6A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Harare shopper"
+  },
+  "zshop": {
+   "skin": "brown",
+   "hat": "cap",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#D4A52A",
+   "apron": true,
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "hold": "bread",
+   "name": "Harare shopkeeper"
+  },
+  "zfarmer": {
+   "preset": "farmer",
+   "skin": "dark",
+   "hat": "straw",
+   "outfit": "overalls",
+   "color": "#4A6A3A",
+   "hairColor": "#1E1C1B",
+   "name": "Zimbabwean farmer"
+  }
+ },
+ "voices": {
+  "zshopper": "af_heart",
+  "zshop": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 2009, Zimbabwe released a single banknote worth one hundred trillion dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "zshopper",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "present",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "$100,000,000,000,000"
+     },
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Harare, Zimbabwe · January 2009"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Zimbabwe is a country in southern Africa. In the early 2000s, its government seized big farms, and food production collapsed.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "zfarmer",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "To pay its bills, the government printed more and more money.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "zshop",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "moneypile",
+      "x": 0.85,
+      "s": 0.6,
+      "enter": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By late 2008, prices were doubling about once a day.",
+   "show": {
+    "k": "card",
+    "label": "Zimbabwe, November 2008: prices doubled every",
+    "big": "about 1 day",
+    "sub": "one of the worst hyperinflations ever"
+   }
+  },
+  {
+   "who": "zshopper",
+   "say": "How much for this bread?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "zshopper",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "point"
+     },
+     {
+      "id": "zshop",
+      "x": 0.7,
+      "mood": "smug",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.5,
+      "text": "BREAD"
+     }
+    ],
+    "cam": "close",
+    "focus": "zshopper"
+   }
+  },
+  {
+   "who": "zshop",
+   "say": "Today, or tomorrow? Tomorrow it's double."
+  },
+  {
+   "who": "N",
+   "say": "Months later, Zimbabwe gave up on its own dollar. People switched to US dollars and South African rand.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "zshop",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "US$ ONLY"
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today, collectors buy those hundred trillion dollar notes online as souvenirs.",
+   "show": {
+    "k": "card",
+    "label": "The note today",
+    "big": "SOUVENIR",
+    "sub": "sold online to collectors"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "zshopper",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "zshop",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A banknote with fourteen zeros. Zimbabwe, 2009.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hyperinflation #zimbabwe #banknotes #historytok",
+ "youtube_title": "Zimbabwe's 100 Trillion Dollar Note #shorts",
+ "tags": [
+  "zimbabwe 100 trillion dollar note",
+  "zimbabwe hyperinflation",
+  "money history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+  "https://en.wikipedia.org/wiki/Zimbabwean_one_hundred_trillion_dollar_note",
+  "https://en.wikipedia.org/wiki/Zimbabwean_dollar_(1980%E2%80%932009)",
+  "https://www.cnn.com/2009/WORLD/africa/01/16/zimbawe.currency/",
+  "https://www.cato.org/commentary/why-mugabes-land-reforms-were-so-disastrous",
+  "https://theconversation.com/zimbabwe-ditches-its-dollar-ending-an-economic-era-43263",
+  "https://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8.pdf"
+ ]
+}

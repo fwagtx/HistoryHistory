@@ -1,0 +1,269 @@
+{
+ "id": "2026w46-s31",
+ "format": "short",
+ "date": "2026-11-13",
+ "slot": "09:00",
+ "title": "Hungary's Money Was Swept Up Like Trash",
+ "hook": "MONEY SWEPT UP LIKE TRASH",
+ "music": "playful",
+ "cast": {
+  "sweeper": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "overalls",
+   "color": "#6A6A5A",
+   "stache": "bush",
+   "hairColor": "#7A7A7A",
+   "name": "Budapest street sweeper"
+  },
+  "hunworker": {
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#4A4A4A",
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "stache": "handlebar",
+   "hairColor": "#3A2A1A",
+   "name": "Budapest worker"
+  }
+ },
+ "voices": {
+  "sweeper": "am_echo",
+  "hunworker": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1946, banknotes in Budapest were swept off the street like trash.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "sweeper",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.62,
+      "s": 0.5
+     },
+     {
+      "k": "moneypile",
+      "x": 0.78,
+      "s": 0.4
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Budapest, Hungary · 1946",
+    "stickers": [
+     {
+      "text": "REAL PHOTO",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hungary had the worst hyperinflation ever. Prices doubled about every fifteen hours.",
+   "show": {
+    "k": "map",
+    "lon": 19.0,
+    "lat": 47.2,
+    "z0": 2.5,
+    "z1": 3.0,
+    "date": "1946",
+    "labels": [
+     [
+      "Budapest",
+      19.04,
+      47.5,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      19.3,
+      47.1,
+      1.6,
+      "rgba(168,50,42,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in August 1946, the government replaced its money, the pengő, with a new one, the forint.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "FORINT"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One forint was worth four hundred octillion pengő. That's a four with twenty-nine zeros.",
+   "show": {
+    "k": "card",
+    "label": "1 forint was worth",
+    "big": "400 octillion pengő",
+    "sub": "a 4 with 29 zeros"
+   }
+  },
+  {
+   "who": "hunworker",
+   "say": "Should I take my old pengő to the bank?",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.3,
+      "mood": "neutral",
+      "hold": "moneybag"
+     },
+     {
+      "id": "sweeper",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "hunworker"
+   }
+  },
+  {
+   "who": "sweeper",
+   "say": "Don't bother. Your whole bag isn't worth one forint."
+  },
+  {
+   "who": "N",
+   "say": "A famous photo from that time shows old notes being swept up in a Budapest street.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "sweeper",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Money only works while people believe it's worth something.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sweeper",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "hunworker",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "When Hungary switched money in 1946, the old notes ended up as street trash.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hyperinflation #hungary #money #historytok",
+ "youtube_title": "Hungary's Money Was Swept Up Like Trash #shorts",
+ "tags": [
+  "hungarian pengo",
+  "forint 1946",
+  "hyperinflation",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hungarian_peng%C5%91",
+  "https://en.wikipedia.org/wiki/Hungarian_one_hundred_quintillion_peng%C5%91_banknote",
+  "https://en.wikipedia.org/wiki/Hungarian_forint",
+  "https://en.wikipedia.org/wiki/Siege_of_Budapest",
+  "https://www.guinnessworldrecords.com/world-records/762605-highest-inflation-rate-ever",
+  "https://planetbanknote.com/banknote-blog/hungary-1946-the-worst-hyperinflation-ever/",
+  "https://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8.pdf"
+ ]
+}

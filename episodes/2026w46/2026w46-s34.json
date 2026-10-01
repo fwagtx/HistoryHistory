@@ -1,0 +1,300 @@
+{
+ "id": "2026w46-s34",
+ "format": "short",
+ "date": "2026-11-13",
+ "slot": "09:00",
+ "title": "Rome Made Overcharging a Death Crime",
+ "hook": "OVERCHARGE? DEATH PENALTY",
+ "music": "playful",
+ "cast": {
+  "diocletian": {
+   "skin": "light",
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#7A7A7A",
+   "hold": "scroll",
+   "name": "Emperor Diocletian"
+  },
+  "romantrader": {
+   "preset": "merchant",
+   "skin": "olive",
+   "outfit": "tunic",
+   "color": "#6A5A3A",
+   "stache": "bush",
+   "hairColor": "#3A2A1A",
+   "hold": "coin",
+   "name": "Roman merchant"
+  },
+  "lactantius": {
+   "skin": "olive",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "beard": "full",
+   "outfit": "robe",
+   "color": "#5A4A3A",
+   "hold": "book",
+   "name": "Lactantius"
+  }
+ },
+ "voices": {
+  "diocletian": "bm_george",
+  "romantrader": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 301 AD, a Roman emperor made overcharging a crime punishable by death.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "diocletian",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.8,
+      "text": "MAXIMUM PRICES"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Roman Empire · 301 AD",
+    "tag": {
+     "id": "diocletian",
+     "text": "Emperor Diocletian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Diocletian was fighting rising prices, after years of Roman coins being watered down with copper.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "diocletian",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His Edict on Maximum Prices set top prices for over a thousand goods and services.",
+   "show": {
+    "k": "card",
+    "label": "Edict on Maximum Prices, 301 AD",
+    "big": "1,000+ items",
+    "sub": "maximum prices, or the death penalty"
+   }
+  },
+  {
+   "who": "N",
+   "say": "About a pint of Gallic beer? Four denarii, max. A haircut? Two.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "romantrader",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "HAIRCUT: 2"
+     },
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "diocletian",
+   "say": "Charge one coin more, and you're finished.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "diocletian",
+      "x": 0.45,
+      "mood": "shout",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "romantrader",
+   "say": "Then I'm just not selling anything.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "romantrader",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.55,
+      "text": "SOLD OUT"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lactantius, a Christian writer who hated Diocletian, says that's exactly what happened, until the law was dropped.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "lactantius",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "EMPTY"
+     }
+    ],
+    "tag": {
+     "id": "lactantius",
+     "text": "Lactantius, Christian writer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "You can't fix too much money by yelling at prices.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "diocletian",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "MAXIMUM PRICES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "diocletian",
+      "x": 0.3,
+      "mood": "angry"
+     },
+     {
+      "id": "romantrader",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome tried to stop rising prices with the death penalty. It didn't go well.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #diocletian #inflation #historytok",
+ "youtube_title": "Rome Made Overcharging a Death Crime #shorts",
+ "tags": [
+  "diocletian",
+  "edict on maximum prices",
+  "roman empire",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Antoninianus",
+  "https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century",
+  "https://en.wikipedia.org/wiki/Edict_on_Maximum_Prices",
+  "https://www.thecollector.com/inflation-third-century-crisis/",
+  "https://www.forumancientcoins.com/numiswiki/view.asp?key=antoninianus",
+  "https://www.unrv.com/economy/edict-on-maximum-prices.php",
+  "https://conversableeconomist.com/2016/12/29/the-diocletian-edict-price-fixing-in-history/",
+  "https://imperiumromanum.pl/en/article/edict-of-diocletian-on-maximum-prices-from-301-ce/"
+ ],
+ "thumbnail": {
+  "text": "ROME: OVERCHARGE? DEATH",
+  "faces": [
+   {
+    "id": "diocletian",
+    "mood": "shout"
+   }
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "id": "2026w46-s33",
+ "format": "short",
+ "date": "2026-11-13",
+ "slot": "09:00",
+ "title": "Rome's Silver Coins Turned to Copper",
+ "hook": "ROME'S COINS LOST THEIR SILVER",
+ "music": "playful",
+ "cast": {
+  "gallienus": {
+   "skin": "light",
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "beard": "full",
+   "hair": "curly",
+   "hairColor": "#8A5A2A",
+   "hold": "coin",
+   "name": "Emperor Gallienus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "romantrader": {
+   "preset": "merchant",
+   "skin": "olive",
+   "outfit": "tunic",
+   "color": "#6A5A3A",
+   "stache": "bush",
+   "hairColor": "#3A2A1A",
+   "hold": "coin",
+   "name": "Roman merchant"
+  }
+ },
+ "voices": {
+  "legionary": "am_fenrir",
+  "romantrader": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Ancient Rome quietly swapped the silver in its coins for copper.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "gallienus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Roman Empire · 200s AD",
+    "stickers": [
+     {
+      "text": "+ COPPER",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Roman money was coins, and a silver coin's value came from the silver inside it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "romantrader",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "jar",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in the two hundreds AD, the empire was at war almost nonstop, and soldiers needed pay.",
+   "show": {
+    "k": "map",
+    "lon": 14,
+    "lat": 41,
+    "z0": 1.2,
+    "z1": 1.5,
+    "date": "about 260 AD",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      12.48,
+      41.9,
+      1.2,
+      "rgba(168,50,42,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So emperors mixed in more and more cheap copper. A coin called the antoninianus went from about half silver to just two to five percent.",
+   "show": {
+    "k": "card",
+    "label": "Silver in the antoninianus coin",
+    "big": "50% → 2–5%",
+    "sub": "from 215 AD to about 270 AD"
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "Why is my silver pay turning brown?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "mood": "shock",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.7,
+      "flag": "rome"
+     }
+    ],
+    "cam": "close",
+    "focus": "legionary"
+   }
+  },
+  {
+   "who": "romantrader",
+   "say": "Same reason my prices just doubled.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "romantrader",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.5,
+      "label": "SANDALS"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Traders weren't fooled. When coins hold less silver, people want more coins, and prices rise.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "romantrader",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.55,
+      "text": "PRICES ↑"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "gallienus",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "wave"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome's silver coins ended up mostly copper. Prices noticed.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #romanempire #inflation #historytok",
+ "youtube_title": "Rome's Silver Coins Turned to Copper #shorts",
+ "tags": [
+  "roman coin debasement",
+  "antoninianus",
+  "crisis of the third century",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Antoninianus",
+  "https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century",
+  "https://en.wikipedia.org/wiki/Edict_on_Maximum_Prices",
+  "https://www.thecollector.com/inflation-third-century-crisis/",
+  "https://www.forumancientcoins.com/numiswiki/view.asp?key=antoninianus",
+  "https://www.unrv.com/economy/edict-on-maximum-prices.php",
+  "https://conversableeconomist.com/2016/12/29/the-diocletian-edict-price-fixing-in-history/",
+  "https://imperiumromanum.pl/en/article/edict-of-diocletian-on-maximum-prices-from-301-ce/"
+ ],
+ "thumbnail": {
+  "text": "ROME'S COINS LOST THEIR SILVER",
+  "faces": [
+   {
+    "id": "gallienus",
+    "mood": "smug"
+   }
+  ],
+  "object": {
+   "k": "goldpile"
+  }
+ }
+}

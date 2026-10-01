@@ -1,0 +1,304 @@
+{
+ "id": "2026w46-s25",
+ "format": "short",
+ "date": "2026-11-13",
+ "slot": "09:00",
+ "title": "One Dollar Cost 4.2 Trillion Marks",
+ "hook": "$1 = 4.2 TRILLION MARKS",
+ "music": "playful",
+ "cast": {
+  "frau": {
+   "skin": "light",
+   "hat": "headscarf",
+   "hatColor": "#6A3E8E",
+   "outfit": "dress",
+   "color": "#2F5A7A",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "name": "Berlin shopper"
+  },
+  "banker": {
+   "preset": "banker",
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#1E1C1B",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "glasses": "round",
+   "stache": "brush",
+   "hairColor": "#8A8A8A",
+   "name": "German banker"
+  },
+  "frenchsoldier": {
+   "skin": "light",
+   "hat": "brodie",
+   "hatColor": "#5A6A8A",
+   "outfit": "uniform",
+   "color": "#5A6A8A",
+   "stache": "bush",
+   "hold": "rifle",
+   "name": "French soldier"
+  }
+ },
+ "voices": {
+  "frau": "bf_emma",
+  "banker": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1923, one American dollar cost four point two trillion German marks.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "place": "Germany · November 1923",
+    "stickers": [
+     {
+      "text": "$1 = 4,200,000,000,000 MARKS",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Just nine years earlier, in 1914, that same dollar cost about four marks.",
+   "show": {
+    "k": "card",
+    "label": "One US dollar in German marks",
+    "big": "4.2",
+    "sub": "1914, before World War One"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Germany lost World War One, owed huge payments, and covered its bills by printing more money.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "moneypile",
+      "x": 0.85,
+      "s": 0.6,
+      "enter": "pop"
+     }
+    ],
+    "place": "Germany · 1919",
+    "stickers": [
+     {
+      "text": "PRINT MORE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in 1923, French and Belgian troops occupied the Ruhr, Germany's coal region, and Germany paid striking workers with even more new money.",
+   "show": {
+    "k": "map",
+    "lon": 7.0,
+    "lat": 50.6,
+    "z0": 2.6,
+    "z1": 3.1,
+    "date": "1923",
+    "labels": [
+     [
+      "Ruhr",
+      7.2,
+      51.45,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      7.2,
+      51.45,
+      0.6,
+      "rgba(168,50,42,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "banker",
+   "say": "Problem solved! Just print more!",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.78,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "banker"
+   }
+  },
+  {
+   "who": "frau",
+   "say": "Then why does bread cost billions?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.45,
+      "mood": "angry",
+      "pose": "point",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.55,
+      "text": "BREAD: BILLIONS"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Counting to four point two trillion, one number per second, would take you over a hundred thousand years.",
+   "show": {
+    "k": "card",
+    "label": "Counting to 4.2 trillion, one per second",
+    "big": "133,000 years",
+    "sub": "longer than all of written history, many times over"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's what happens when a country prints money faster than it makes stuff.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.7,
+      "s": 0.55,
+      "y": 0.1,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1914 a dollar cost 4 marks. In 1923 it cost 4.2 trillion.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hyperinflation #weimar #germany #historytok",
+ "youtube_title": "One Dollar Cost 4.2 Trillion Marks #shorts",
+ "tags": [
+  "weimar hyperinflation",
+  "german mark 1923",
+  "4.2 trillion marks",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "https://en.wikipedia.org/wiki/Papiermark",
+  "https://en.wikipedia.org/wiki/Rentenmark",
+  "https://www.britannica.com/event/hyperinflation-in-the-Weimar-Republic",
+  "https://alphahistory.com/weimarrepublic/1923-hyperinflation/",
+  "https://alphahistory.com/weimarrepublic/ruhr-occupation/",
+  "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+  "https://rarehistoricalphotos.com/hyperinflation-weimar-republic-1922/",
+  "https://rarehistoricalphotos.com/banknotes-german-hyperinflation-1923/",
+  "https://www.moneyness.ca/2012/12/how-to-stop-hyperinflation.html",
+  "https://moneyweek.com/294854/week-in-history-rentenmark-miracle"
+ ]
+}

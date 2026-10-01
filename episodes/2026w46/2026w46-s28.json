@@ -1,0 +1,276 @@
+{
+ "id": "2026w46-s28",
+ "format": "short",
+ "date": "2026-11-13",
+ "slot": "09:00",
+ "title": "One New Mark Replaced One Trillion",
+ "hook": "GERMANY'S TRILLION-TO-ONE SWAP",
+ "music": "playful",
+ "cast": {
+  "banker": {
+   "preset": "banker",
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#1E1C1B",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "glasses": "round",
+   "stache": "brush",
+   "hairColor": "#8A8A8A",
+   "name": "German banker"
+  },
+  "frau": {
+   "skin": "light",
+   "hat": "headscarf",
+   "hatColor": "#6A3E8E",
+   "outfit": "dress",
+   "color": "#2F5A7A",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "name": "Berlin shopper"
+  }
+ },
+ "voices": {
+  "banker": "bm_george",
+  "frau": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In November 1923, Germany traded one trillion old marks for one new mark.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "RENTENMARK"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Berlin, Germany · 15 November 1923",
+    "stickers": [
+     {
+      "text": "1 = 1,000,000,000,000",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By then, German prices had gone completely wild. A dollar cost about four point two trillion marks.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "cart",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The cause? The government had been printing money nonstop to pay its bills.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.78,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.6,
+      "enter": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So it launched a new money, the Rentenmark, backed on paper by mortgages on German land.",
+   "show": {
+    "k": "card",
+    "label": "1 Rentenmark was worth",
+    "big": "1 trillion",
+    "sub": "old paper marks"
+   }
+  },
+  {
+   "who": "frau",
+   "say": "Why would this money work better?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "think"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.5,
+      "text": "BREAD"
+     }
+    ],
+    "cam": "close",
+    "focus": "frau"
+   }
+  },
+  {
+   "who": "banker",
+   "say": "Because this time, we'll only print a little."
+  },
+  {
+   "who": "N",
+   "say": "That was the real trick. The amount of new money was strictly limited.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Prices stopped rising almost overnight. People called it the miracle of the Rentenmark.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.55,
+      "text": "PRICES STABLE"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "How Germany stopped its hyperinflation: one new mark for one trillion old ones.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hyperinflation #weimar #economics #historytok",
+ "youtube_title": "One New Mark Replaced One Trillion #shorts",
+ "tags": [
+  "rentenmark",
+  "weimar hyperinflation",
+  "miracle of the rentenmark",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "https://en.wikipedia.org/wiki/Papiermark",
+  "https://en.wikipedia.org/wiki/Rentenmark",
+  "https://www.britannica.com/event/hyperinflation-in-the-Weimar-Republic",
+  "https://alphahistory.com/weimarrepublic/1923-hyperinflation/",
+  "https://alphahistory.com/weimarrepublic/ruhr-occupation/",
+  "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+  "https://rarehistoricalphotos.com/hyperinflation-weimar-republic-1922/",
+  "https://rarehistoricalphotos.com/banknotes-german-hyperinflation-1923/",
+  "https://www.moneyness.ca/2012/12/how-to-stop-hyperinflation.html",
+  "https://moneyweek.com/294854/week-in-history-rentenmark-miracle"
+ ]
+}

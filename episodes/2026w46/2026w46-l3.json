@@ -1,0 +1,2581 @@
+{
+ "id": "2026w46-l3",
+ "format": "long",
+ "date": "2026-11-13",
+ "title": "The Worst Hyperinflations in History",
+ "music": "playful",
+ "cast": {
+  "frau": {
+   "skin": "light",
+   "hat": "headscarf",
+   "hatColor": "#6A3E8E",
+   "outfit": "dress",
+   "color": "#2F5A7A",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "name": "Berlin shopper"
+  },
+  "baker": {
+   "skin": "light",
+   "hat": "chef",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "apron": true,
+   "stache": "walrus",
+   "hairColor": "#6A4A2A",
+   "hold": "bread",
+   "name": "Berlin baker"
+  },
+  "worker": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "overalls",
+   "color": "#3A5A7A",
+   "stache": "brush",
+   "hairColor": "#5A3A22",
+   "name": "German factory worker"
+  },
+  "kid": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#8A6A3A",
+   "hairColor": "#C89A5A",
+   "name": "German kid"
+  },
+  "kaiser": {
+   "preset": "kaiser",
+   "name": "Kaiser Wilhelm II"
+  },
+  "gersoldier": {
+   "preset": "german1914",
+   "name": "German soldier"
+  },
+  "banker": {
+   "preset": "banker",
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#1E1C1B",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "glasses": "round",
+   "stache": "brush",
+   "hairColor": "#8A8A8A",
+   "name": "German banker"
+  },
+  "frenchsoldier": {
+   "skin": "light",
+   "hat": "brodie",
+   "hatColor": "#5A6A8A",
+   "outfit": "uniform",
+   "color": "#5A6A8A",
+   "stache": "bush",
+   "hold": "rifle",
+   "name": "French soldier"
+  },
+  "gallienus": {
+   "skin": "light",
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "beard": "full",
+   "hair": "curly",
+   "hairColor": "#8A5A2A",
+   "hold": "coin",
+   "name": "Emperor Gallienus"
+  },
+  "diocletian": {
+   "skin": "light",
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#7A7A7A",
+   "hold": "scroll",
+   "name": "Emperor Diocletian"
+  },
+  "romantrader": {
+   "preset": "merchant",
+   "skin": "olive",
+   "outfit": "tunic",
+   "color": "#6A5A3A",
+   "stache": "bush",
+   "hairColor": "#3A2A1A",
+   "hold": "coin",
+   "name": "Roman merchant"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "lactantius": {
+   "skin": "olive",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "beard": "full",
+   "outfit": "robe",
+   "color": "#5A4A3A",
+   "hold": "book",
+   "name": "Lactantius"
+  },
+  "washington": {
+   "preset": "washington",
+   "name": "George Washington"
+  },
+  "contsoldier": {
+   "skin": "light",
+   "hat": "tricorn",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#2F4A7A",
+   "color2": "#F2EEE4",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "hold": "rifle",
+   "name": "Continental soldier"
+  },
+  "yankfarmer": {
+   "preset": "farmer",
+   "skin": "light",
+   "hat": "straw",
+   "outfit": "overalls",
+   "color": "#6A5A3A",
+   "beard": "full",
+   "hairColor": "#8A6A3A",
+   "hold": "chicken",
+   "name": "Farmer"
+  },
+  "redcoat": {
+   "preset": "redcoat",
+   "name": "British soldier"
+  },
+  "hunworker": {
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#4A4A4A",
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "stache": "handlebar",
+   "hairColor": "#3A2A1A",
+   "name": "Budapest worker"
+  },
+  "hunclerk": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#3A3A3A",
+   "outfit": "suit",
+   "color": "#4A5A4A",
+   "glasses": "round",
+   "hairColor": "#5A4A3A",
+   "hold": "moneybag",
+   "name": "Budapest pay clerk"
+  },
+  "sweeper": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "overalls",
+   "color": "#6A6A5A",
+   "stache": "bush",
+   "hairColor": "#7A7A7A",
+   "name": "Budapest street sweeper"
+  },
+  "zshopper": {
+   "skin": "dark",
+   "hat": "headscarf",
+   "hatColor": "#D4A52A",
+   "outfit": "dress",
+   "color": "#2F7A6A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "Harare shopper"
+  },
+  "zshop": {
+   "skin": "brown",
+   "hat": "cap",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#D4A52A",
+   "apron": true,
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "hold": "bread",
+   "name": "Harare shopkeeper"
+  },
+  "zfarmer": {
+   "preset": "farmer",
+   "skin": "dark",
+   "hat": "straw",
+   "outfit": "overalls",
+   "color": "#4A6A3A",
+   "hairColor": "#1E1C1B",
+   "name": "Zimbabwean farmer"
+  }
+ },
+ "voices": {
+  "frau": "bf_emma",
+  "baker": "am_puck",
+  "romantrader": "am_eric",
+  "legionary": "am_fenrir",
+  "contsoldier": "am_liam",
+  "yankfarmer": "am_echo",
+  "worker": "bm_george",
+  "hunclerk": "bm_daniel",
+  "hunworker": "bm_lewis",
+  "zshopper": "af_heart",
+  "zshop": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "It's November 1923, in Berlin, Germany, and this woman wants to buy one loaf of bread.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.68,
+      "s": 0.8
+     },
+     {
+      "k": "moneypile",
+      "x": 0.68,
+      "s": 0.6,
+      "y": 0.12,
+      "front": true
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Berlin, Germany · November 1923",
+    "stickers": [
+     {
+      "text": "1 LOAF OF BREAD",
+      "at": 1.2,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So she's pushing a cart full of money to the bakery.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "walk",
+      "walk": [
+       0.15,
+       0.4
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.5,
+      "s": 0.8,
+      "move": [
+       0.3,
+       0.55
+      ]
+     },
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.6,
+      "y": 0.12,
+      "front": true,
+      "move": [
+       0.3,
+       0.55
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "frau",
+   "say": "One loaf of bread, please.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "baker",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.6,
+      "text": "BAKERY"
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "frau"
+   }
+  },
+  {
+   "who": "baker",
+   "say": "That'll be two hundred billion marks."
+  },
+  {
+   "who": "frau",
+   "say": "Billion? With a B?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "scared"
+     },
+     {
+      "id": "baker",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.6,
+      "text": "BREAD: BILLIONS"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By one common count, that's roughly what bread cost in Germany that month. Prices had gone completely crazy.",
+   "show": {
+    "k": "card",
+    "label": "One loaf of bread, Germany, November 1923",
+    "big": "200,000,000,000 marks",
+    "sub": "about 200 billion (counts vary by city and week)",
+    "cast": [
+     {
+      "id": "baker",
+      "x": 0.85,
+      "mood": "smug",
+      "hold": "bread"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1914, one American dollar cost about four German marks. In November 1923, it cost about four point two trillion.",
+   "show": {
+    "k": "compare",
+    "bg": "street",
+    "left": {
+     "label": "1914: $1 = 4.2 MARKS",
+     "cast": [
+      {
+       "id": "frau",
+       "mood": "happy"
+      }
+     ]
+    },
+    "right": {
+     "label": "1923: $1 = 4.2 TRILLION",
+     "cast": [
+      {
+       "id": "frau",
+       "mood": "shock",
+       "pose": "scared"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "This is hyperinflation. And Germany wasn't even the worst. So let's tour history's worst cases, and find out how they happened."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Worst Hyperinflations in History",
+    "sub": "when bread costs billions",
+    "cast": [
+     {
+      "id": "baker",
+      "x": 0.9,
+      "s": 0.8,
+      "mood": "smug",
+      "hold": "bread"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "First, the simple version. Inflation means prices go up, so the same money buys less stuff.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.4,
+      "mood": "neutral",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.6,
+      "text": "BREAD ↑"
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "FOOD"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PRICES UP",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A little inflation is normal. That's why your grandparents paid way less for a candy bar than you do."
+  },
+  {
+   "who": "N",
+   "say": "Hyperinflation is inflation gone wild. One classic rule says prices rising fifty percent or more in a single month.",
+   "show": {
+    "k": "card",
+    "label": "Hyperinflation: one classic definition",
+    "big": "50% a month",
+    "sub": "prices rise by half or more, every month (economist Phillip Cagan, 1956)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And it almost always starts the same way. A government needs money it doesn't have, so it simply makes more.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.6,
+      "s": 0.6
+     },
+     {
+      "k": "moneypile",
+      "x": 0.82,
+      "s": 0.7,
+      "enter": "pop"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MONEY PRINTER",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But there's still the same amount of bread. So each coin or note buys less and less of it."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "215–301 AD",
+    "title": "Rome Waters Down Its Silver",
+    "bg": "rome"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Our first stop is the Roman Empire, in the two hundreds AD.",
+   "show": {
+    "k": "map",
+    "lon": 14,
+    "lat": 41,
+    "z0": 1.2,
+    "z1": 1.5,
+    "date": "about 260 AD",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Gaul",
+      2.5,
+      46.5,
+      14
+     ],
+     [
+      "Egypt",
+      31.0,
+      27.0,
+      14
+     ],
+     [
+      "Syria",
+      37.5,
+      35.0,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      12.48,
+      41.9,
+      1.2,
+      "rgba(168,50,42,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Romans didn't use paper money. They used coins, and a silver coin was valuable because of the silver inside it.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "romantrader",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.7
+     }
+    ],
+    "place": "Roman Empire · 200s AD",
+    "stickers": [
+     {
+      "text": "REAL SILVER",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the empire was in big trouble. Emperors kept getting murdered, and armies kept fighting invaders and each other.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.7,
+      "flag": "rome"
+     },
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soldiers had to be paid, and silver was running short. So emperors found a sneaky trick."
+  },
+  {
+   "who": "N",
+   "say": "They mixed cheap copper into the silver coins, but still said the coins were worth the same.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "gallienus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "+ COPPER",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "gallienus",
+     "text": "Emperor Gallienus, 253–268 AD"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A coin called the antoninianus started out around half silver. By about 270 AD, it was only two to five percent silver.",
+   "show": {
+    "k": "card",
+    "label": "Silver in a Roman antoninianus coin",
+    "big": "2–5%",
+    "sub": "about half silver in 215 AD, a few percent by about 270 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was basically a copper coin wearing a thin silver coat."
+  },
+  {
+   "who": "romantrader",
+   "say": "Same sandals, soldier. That'll be twice as many coins now.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "romantrader",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "SANDALS"
+     },
+     {
+      "k": "jar",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "romantrader"
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "Twice? These are the coins the emperor paid me with!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point",
+      "hold": "coin"
+     },
+     {
+      "id": "romantrader",
+      "x": 0.72,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "SANDALS"
+     }
+    ],
+    "cam": "close",
+    "focus": "legionary"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Prices across the empire shot up. Historians still argue about exactly how fast."
+  },
+  {
+   "who": "N",
+   "say": "In 301 AD, Emperor Diocletian tried to fix it with a law called the Edict on Maximum Prices.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "diocletian",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.8,
+      "text": "MAXIMUM PRICES"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Roman Empire · 301 AD",
+    "tag": {
+     "id": "diocletian",
+     "text": "Emperor Diocletian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It set top prices for over a thousand goods and services, from beer to haircuts. The punishment for charging more? Death.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "romantrader",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "MAX PRICE OR ELSE"
+     },
+     {
+      "k": "jar",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEATH PENALTY",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "About a pint of beer from Gaul? Four denarii, max. A haircut? Two denarii per customer. Rome had literally priced the barber."
+  },
+  {
+   "who": "N",
+   "say": "Lactantius, a Christian writer who hated Diocletian, says sellers simply stopped selling, until the law was dropped.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "lactantius",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "romantrader",
+      "x": 0.7,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.55,
+      "text": "SOLD OUT"
+     },
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.45,
+      "label": "EMPTY"
+     }
+    ],
+    "tag": {
+     "id": "lactantius",
+     "text": "Lactantius, Christian writer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lesson one: you can't fix too much money by yelling at prices."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1775–1780",
+    "title": "Not Worth a Continental",
+    "bg": "camp"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Jump to 1775. Thirteen American colonies are fighting Britain for independence.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "contsoldier",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.7,
+      "flag": "usa1776"
+     },
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "cannon",
+      "x": 0.6,
+      "s": 0.5
+     }
+    ],
+    "place": "American colonies · 1775"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their Congress had almost no gold, and no power to collect taxes. So it printed paper money, called Continental dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "contsoldier",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.55,
+      "s": 0.6
+     },
+     {
+      "k": "moneypile",
+      "x": 0.8,
+      "s": 0.7,
+      "enter": "pop"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CONTINENTAL $",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over the war, it printed more than two hundred and forty million dollars of them."
+  },
+  {
+   "who": "N",
+   "say": "The British made it worse. They printed piles of fake Continentals to flood the market.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "redcoat",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.8,
+      "flag": "uk1606"
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "FAKES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "COUNTERFEITS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "contsoldier",
+   "say": "Good news, farmer! I'll buy your chicken with Continental dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "contsoldier",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "yankfarmer",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.85,
+      "s": 0.5
+     },
+     {
+      "k": "tree",
+      "x": 0.08,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "contsoldier"
+   }
+  },
+  {
+   "who": "yankfarmer",
+   "say": "Paper? I'll keep the chicken, thanks."
+  },
+  {
+   "who": "N",
+   "say": "General George Washington, commander of the American army, complained about this in a letter in 1779.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "washington",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "think",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "usa1776"
+     }
+    ],
+    "place": "Middlebrook, New Jersey · April 1779",
+    "tag": {
+     "id": "washington",
+     "text": "General George Washington"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's what he wrote.",
+   "show": {
+    "k": "quote",
+    "text": "…a waggon load of money will scarcely purchase a waggon load of provision.",
+    "who": "George Washington, letter to John Jay, 23 April 1779"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1780, Congress said a Continental dollar was worth just one fortieth of the number printed on it.",
+   "show": {
+    "k": "card",
+    "label": "Value of a Continental dollar, 1780",
+    "big": "1/40",
+    "sub": "Congress revalued old Continentals at 40 to 1",
+    "cast": [
+     {
+      "id": "contsoldier",
+      "x": 0.85,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Americans even got a new insult out of it: not worth a Continental, meaning totally worthless.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "yankfarmer",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "contsoldier",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.55,
+      "text": "NOT WORTH A CONTINENTAL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The founders never forgot it. The US Constitution later banned the states from printing their own paper money."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1914–1923",
+    "title": "How Germany Broke Its Money",
+    "bg": "factory"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now, the most famous one of all: Germany.",
+   "show": {
+    "k": "flag",
+    "flag": "germany1914",
+    "label": "THE GERMAN EMPIRE",
+    "sub": "1871–1918",
+    "bg": "town"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1914, World War One began. Germany paid for the war mostly by borrowing, planning to make the losers pay later.",
+   "show": {
+    "k": "scene",
+    "bg": "trench",
+    "cast": [
+     {
+      "id": "gersoldier",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "salute"
+     },
+     {
+      "id": "kaiser",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "germany1914"
+     },
+     {
+      "k": "biplane",
+      "x": 0.5,
+      "s": 0.4,
+      "y": 0.5
+     }
+    ],
+    "place": "Germany · 1914",
+    "tag": {
+     "id": "kaiser",
+     "text": "Kaiser Wilhelm II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Instead, Germany lost. The peace treaty made it pay huge reparations, which means payments for war damage.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.8,
+      "text": "REPARATIONS"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Germany · 1919"
+   }
+  },
+  {
+   "who": "N",
+   "say": "To cover its bills, the government kept printing marks, and each one bought a bit less."
+  },
+  {
+   "who": "N",
+   "say": "Then in January 1923, Germany fell behind on payments. So French and Belgian troops marched into the Ruhr, Germany's big coal and steel region.",
+   "show": {
+    "k": "map",
+    "lon": 6.5,
+    "lat": 50.5,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "January 1923",
+    "labels": [
+     [
+      "Ruhr",
+      7.2,
+      51.45,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Brussels",
+      4.35,
+      50.85,
+      14
+     ],
+     [
+      "Berlin",
+      13.4,
+      52.52,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      4.5,
+      49.8
+     ],
+     [
+      6.2,
+      50.7
+     ],
+     [
+      7.2,
+      51.45
+     ]
+    ],
+    "areas": [
+     [
+      7.2,
+      51.45,
+      0.6,
+      "rgba(168,50,42,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The German government told the Ruhr workers to go on strike, and promised to keep paying them.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "cross"
+     },
+     {
+      "id": "frenchsoldier",
+      "x": 0.72,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.55,
+      "s": 0.55,
+      "text": "ON STRIKE"
+     }
+    ],
+    "place": "Ruhr, Germany · 1923"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pay millions of people who weren't producing anything? With what money? With brand-new money, of course."
+  },
+  {
+   "who": "N",
+   "say": "By late 1923, about eighteen hundred printing presses were turning out German banknotes.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.55,
+      "s": 0.6,
+      "enter": "pop"
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.5,
+      "enter": "pop"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "~1,800 PRESSES",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1923",
+    "title": "Bread for Billions",
+    "bg": "street"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By autumn 1923, prices in Germany were doubling every few days.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "NEW PRICES TODAY"
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Germany · autumn 1923"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many workers were paid twice a day. Their families met them at the factory gate and ran to the shops.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "moneybag"
+     },
+     {
+      "id": "frau",
+      "x": 0.68,
+      "mood": "shock",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.9,
+      "s": 0.6
+     },
+     {
+      "k": "factory",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "worker",
+   "say": "Here's my morning pay. Go, go, go!",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "frau",
+      "x": 0.7,
+      "mood": "shock",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "worker"
+   }
+  },
+  {
+   "who": "frau",
+   "say": "If I stop for coffee, this buys half a sausage!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.5,
+      "mood": "shout",
+      "pose": "run",
+      "walk": [
+       0.2,
+       0.75
+      ],
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.55,
+      "text": "BUTCHER"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Money got so cheap that people found other uses for it.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "moneypile",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Real photos from the time show kids building towers out of bundles of banknotes, and making kites from them.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.6,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.6,
+      "s": 0.5,
+      "y": 0.08
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REAL PHOTOS",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some families burned banknotes in the stove, because a bundle of notes was worth less than the firewood it could buy.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "moneypile",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There's an old joke from that time about a thief who steals a wheelbarrow full of cash, dumps the money on the street, and runs off with the wheelbarrow.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "run",
+      "walk": [
+       0.3,
+       0.7
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.5,
+      "s": 0.7,
+      "move": [
+       0.35,
+       0.75
+      ]
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JUST A JOKE",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's a joke, not a news report. But in 1923, every German got it instantly."
+  },
+  {
+   "who": "N",
+   "say": "People who'd saved money their whole lives watched it turn into nothing.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6,
+      "open": false
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "All that chaos made people angry. In Munich that November, a little-known extremist named Adolf Hitler tried to grab power.",
+   "show": {
+    "k": "map",
+    "lon": 11.0,
+    "lat": 50.0,
+    "z0": 2.2,
+    "z1": 2.7,
+    "date": "8–9 November 1923",
+    "labels": [
+     [
+      "Munich",
+      11.58,
+      48.14,
+      14
+     ],
+     [
+      "Berlin",
+      13.4,
+      52.52,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      11.58,
+      48.14,
+      0.4,
+      "rgba(168,50,42,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That coup, the Beer Hall Putsch, failed within a day, and he was sent to prison."
+  },
+  {
+   "who": "N",
+   "say": "That same month, Germany finally launched a new currency, the Rentenmark.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "RENTENMARK"
+     }
+    ],
+    "place": "Berlin · 15 November 1923"
+   }
+  },
+  {
+   "who": "N",
+   "say": "One new Rentenmark was worth one trillion old marks. And this time, the government strictly limited how many it made.",
+   "show": {
+    "k": "card",
+    "label": "1 Rentenmark was worth",
+    "big": "1,000,000,000,000 marks",
+    "sub": "one trillion old paper marks"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Prices stopped climbing almost right away. People called it the miracle of the Rentenmark.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "bread"
+     },
+     {
+      "id": "baker",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.55,
+      "text": "PRICES STABLE"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1946",
+    "title": "Hungary: The Worst Ever",
+    "bg": "city"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Germany doesn't hold the record. That belongs to Hungary, in central Europe.",
+   "show": {
+    "k": "map",
+    "lon": 19.0,
+    "lat": 47.2,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "1946",
+    "labels": [
+     [
+      "Budapest",
+      19.04,
+      47.5,
+      14
+     ],
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ],
+     [
+      "Danube",
+      18.9,
+      46.2,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      19.3,
+      47.1,
+      1.6,
+      "rgba(168,50,42,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "World War Two left Hungary wrecked. In Budapest, its capital, every bridge across the Danube river had been blown up.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "explosion_cloud",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Budapest, Hungary · 1945"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Factories were ruined, the country owed big war payments to the Soviet Union, and once again, the government fired up the money printer.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "hunclerk",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.6,
+      "enter": "pop"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By July 1946, prices in Hungary were doubling about every fifteen hours.",
+   "show": {
+    "k": "card",
+    "label": "Hungary, July 1946: prices doubled every",
+    "big": "15 hours",
+    "sub": "the worst inflation ever recorded"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So a bun that cost one pengő, Hungary's money, at breakfast cost about two at bedtime, and four by lunch the next day."
+  },
+  {
+   "who": "hunclerk",
+   "say": "Good news! You got a big pay raise!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "hunclerk",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "hunworker",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "hunclerk",
+    "place": "Budapest · July 1946"
+   }
+  },
+  {
+   "who": "hunworker",
+   "say": "Wonderful. Will it last until dinner?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.55,
+      "text": "PAY DAY"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hungary printed bigger and bigger notes. The biggest one actually used was for one hundred quintillion pengő.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "hunclerk",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "100,000,000,000,000,000,000"
+     },
+     {
+      "k": "moneypile",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "100 QUINTILLION",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's a one with twenty zeros. Counting to it, one number per second, would take about three trillion years."
+  },
+  {
+   "who": "N",
+   "say": "They even printed a note ten times bigger, but it was never put into use."
+  },
+  {
+   "who": "N",
+   "say": "The government even started a second money just for taxes, and announced its new value every single day on the radio.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "hunworker",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TODAY'S RATE",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In August 1946, Hungary gave up and switched to new money, the forint. One forint replaced four hundred octillion pengő.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "sweeper",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "moneypile",
+      "x": 0.78,
+      "s": 0.4
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Hungary · 1 August 1946",
+    "stickers": [
+     {
+      "text": "1 FORINT",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "= 4 + 29 ZEROS PENGŐ",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A famous photo from that time shows old banknotes being swept off a Budapest street like trash."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "2008",
+    "title": "One Hundred Trillion Dollars",
+    "bg": "market"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Our last stop is much more recent: Zimbabwe, in southern Africa.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "zshopper",
+      "x": 0.35,
+      "mood": "happy"
+     },
+     {
+      "id": "zshop",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.45,
+      "label": "MAIZE"
+     }
+    ],
+    "place": "Harare, Zimbabwe · 2000s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the early 2000s, under President Robert Mugabe, the government seized thousands of big commercial farms.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "zfarmer",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FARMS SEIZED",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Farm output collapsed, the economy shrank, and to pay its bills, the government printed money.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "zshop",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.6,
+      "s": 0.5
+     },
+     {
+      "k": "moneypile",
+      "x": 0.82,
+      "s": 0.7,
+      "enter": "pop"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MONEY PRINTER",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By November 2008, prices there were doubling about once a day."
+  },
+  {
+   "who": "zshopper",
+   "say": "How much for this loaf of bread?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "zshopper",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "point"
+     },
+     {
+      "id": "zshop",
+      "x": 0.7,
+      "mood": "smug",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.5,
+      "text": "PRICES CHANGE DAILY"
+     }
+    ],
+    "cam": "close",
+    "focus": "zshopper",
+    "place": "Harare · late 2008"
+   }
+  },
+  {
+   "who": "zshop",
+   "say": "Today, or tomorrow? Tomorrow it's double."
+  },
+  {
+   "who": "N",
+   "say": "Zimbabwe kept chopping zeros off its money, then the zeros grew right back.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "zshopper",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "-10 ZEROS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In January 2009, it released a single banknote worth one hundred trillion Zimbabwe dollars.",
+   "show": {
+    "k": "card",
+    "label": "Zimbabwe's biggest banknote, January 2009",
+    "big": "$100,000,000,000,000",
+    "sub": "one hundred trillion Zimbabwe dollars",
+    "cast": [
+     {
+      "id": "zshopper",
+      "x": 0.85,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A few months later, the country stopped using its own dollar. People switched to US dollars and South African rand.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "zshop",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "US$ ONLY"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today, those hundred trillion dollar notes get sold online as souvenirs. Collectors love them. Shoppers in 2009, not so much."
+  },
+  {
+   "who": "N",
+   "say": "So what do all these stories have in common?",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A government in deep trouble, from war, collapse or debt, makes new money instead of earning it or taxing it."
+  },
+  {
+   "who": "N",
+   "say": "More money chases the same amount of bread, and prices explode.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "scared"
+     },
+     {
+      "id": "baker",
+      "x": 0.7,
+      "mood": "smug",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.5,
+      "text": "BREAD ↑↑↑"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And they all ended the same way, too: a new currency, and a strict limit on making more of it."
+  },
+  {
+   "who": "N",
+   "say": "So the next time someone says, just print more money, remember the woman pushing a cart of cash to buy one loaf of bread.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.6,
+      "s": 0.8
+     },
+     {
+      "k": "moneypile",
+      "x": 0.6,
+      "s": 0.6,
+      "y": 0.12,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next up: the entire history of Britain in ten minutes. Watch it next, and subscribe.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "frau",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "bread"
+     },
+     {
+      "id": "baker",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "next": "The ENTIRE History of Britain in 10 Minutes"
+   }
+  }
+ ],
+ "description": "In 1923 a loaf of bread in Germany cost around 200 billion marks. But that wasn't even the worst: Hungary's prices doubled every fifteen hours in 1946, and Zimbabwe printed a 100 trillion dollar note. From Rome's copper-filled silver coins to the Continental dollar, we explain hyperinflation in plain words and how each one ended.\n\nChapters are added automatically.\n\n#history #hyperinflation #money #weimar #economics",
+ "thumbnail": {
+  "style": "redbox",
+  "bg": "street",
+  "lines": [
+   "BREAD FOR",
+   "BILLIONS?"
+  ],
+  "main": {
+   "id": "frau",
+   "mood": "shock",
+   "hold": "moneybag"
+  },
+  "second": {
+   "id": "baker",
+   "mood": "smug",
+   "hold": "bread"
+  }
+ },
+ "youtube_title": "The Worst Hyperinflations in History",
+ "tags": [
+  "hyperinflation",
+  "worst hyperinflation",
+  "weimar hyperinflation",
+  "1923 germany",
+  "hungarian pengo",
+  "zimbabwe dollar",
+  "100 trillion dollar note",
+  "continental dollar",
+  "roman coin debasement",
+  "diocletian price edict",
+  "inflation explained",
+  "money history",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hyperinflation",
+  "https://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8.pdf",
+  "https://en.wikipedia.org/wiki/Antoninianus",
+  "https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century",
+  "https://en.wikipedia.org/wiki/Edict_on_Maximum_Prices",
+  "https://www.thecollector.com/inflation-third-century-crisis/",
+  "https://www.forumancientcoins.com/numiswiki/view.asp?key=antoninianus",
+  "https://www.unrv.com/economy/edict-on-maximum-prices.php",
+  "https://conversableeconomist.com/2016/12/29/the-diocletian-edict-price-fixing-in-history/",
+  "https://imperiumromanum.pl/en/article/edict-of-diocletian-on-maximum-prices-from-301-ce/",
+  "https://en.wikipedia.org/wiki/Early_American_currency",
+  "https://founders.archives.gov/documents/Washington/03-20-02-0157",
+  "https://www.frbsf.org/independence/",
+  "https://www.amrevmuseum.org/collection/continental-currency-3-dollars",
+  "https://allthingsliberty.com/2013/03/from-pounds-to-dollars-money-during-the-revolution/",
+  "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "https://en.wikipedia.org/wiki/Papiermark",
+  "https://en.wikipedia.org/wiki/Rentenmark",
+  "https://www.britannica.com/event/hyperinflation-in-the-Weimar-Republic",
+  "https://alphahistory.com/weimarrepublic/1923-hyperinflation/",
+  "https://alphahistory.com/weimarrepublic/ruhr-occupation/",
+  "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+  "https://rarehistoricalphotos.com/hyperinflation-weimar-republic-1922/",
+  "https://rarehistoricalphotos.com/banknotes-german-hyperinflation-1923/",
+  "https://www.moneyness.ca/2012/12/how-to-stop-hyperinflation.html",
+  "https://moneyweek.com/294854/week-in-history-rentenmark-miracle",
+  "https://en.wikipedia.org/wiki/Hungarian_peng%C5%91",
+  "https://en.wikipedia.org/wiki/Hungarian_one_hundred_quintillion_peng%C5%91_banknote",
+  "https://en.wikipedia.org/wiki/Hungarian_forint",
+  "https://en.wikipedia.org/wiki/Siege_of_Budapest",
+  "https://www.guinnessworldrecords.com/world-records/762605-highest-inflation-rate-ever",
+  "https://planetbanknote.com/banknote-blog/hungary-1946-the-worst-hyperinflation-ever/",
+  "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+  "https://en.wikipedia.org/wiki/Zimbabwean_one_hundred_trillion_dollar_note",
+  "https://en.wikipedia.org/wiki/Zimbabwean_dollar_(1980%E2%80%932009)",
+  "https://www.cnn.com/2009/WORLD/africa/01/16/zimbawe.currency/",
+  "https://www.cato.org/commentary/why-mugabes-land-reforms-were-so-disastrous",
+  "https://theconversation.com/zimbabwe-ditches-its-dollar-ending-an-economic-era-43263",
+  "https://en.wikipedia.org/wiki/Beer_Hall_Putsch"
+ ]
+}
