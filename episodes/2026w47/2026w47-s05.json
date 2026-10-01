@@ -1,0 +1,273 @@
+{
+ "id": "2026w47-s05",
+ "format": "short",
+ "date": "2026-11-16",
+ "slot": "09:00",
+ "title": "Britain Once Ruled a Quarter of the World",
+ "hook": "A QUARTER OF THE WORLD",
+ "music": "playful",
+ "cast": {
+  "george5": {
+   "preset": "king",
+   "outfit": "uniform",
+   "color": "#2F3A6A",
+   "beard": "full",
+   "stache": "bush",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "King George V"
+  },
+  "clerk": {
+   "preset": "businessman",
+   "glasses": "round",
+   "skin": "light",
+   "hairColor": "#8A5A2A"
+  }
+ },
+ "voices": {
+  "george5": "bm_george",
+  "clerk": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1920, the British Empire ruled about a quarter of all the land on Earth.",
+   "show": {
+    "k": "flag",
+    "flag": "uk",
+    "label": "THE BRITISH EMPIRE",
+    "sub": "biggest in 1920",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's about thirteen point seven million square miles, the biggest empire in history.",
+   "show": {
+    "k": "card",
+    "label": "At its biggest, the British Empire covered",
+    "big": "13.7 MILLION",
+    "sub": "square miles, about 1/4 of Earth's land"
+   }
+  },
+  {
+   "who": "N",
+   "say": "King George the Fifth ruled lands from Canada to India, Australia and much of Africa.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "george5",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "place": "London · 1920",
+    "tag": {
+     "id": "george5",
+     "text": "King George V"
+    },
+    "stickers": [
+     {
+      "text": "CANADA",
+      "at": 1.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "INDIA",
+      "at": 2.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "AUSTRALIA",
+      "at": 3.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It grew even bigger after World War One, taking over lands from defeated empires.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "clerk",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "globe",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "People said the sun never set on it, because somewhere in the empire, it was always daytime.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.45,
+      "s": 0.8,
+      "flag": "uk",
+      "move": [
+       0.2,
+       0.7
+      ]
+     }
+    ],
+    "cam": "pan",
+    "stickers": [
+     {
+      "text": "SUN NEVER SETS",
+      "at": 1.5,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "george5",
+   "say": "So is it ever night in my empire?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "george5",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "neutral"
+     },
+     {
+      "id": "clerk",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "george5"
+   }
+  },
+  {
+   "who": "clerk",
+   "say": "Not everywhere at once, Your Majesty.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "clerk",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "clerk"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But most of its people never chose British rule, and within fifty years most colonies were independent.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "clerk",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "uk"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "george5",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "clerk",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1920 Britain ruled about a quarter of the world's land.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #britishempire #britishhistory #historytok #maps",
+ "youtube_title": "Britain Once Ruled a Quarter of the World #shorts",
+ "tags": [
+  "british empire",
+  "sun never sets",
+  "king george v",
+  "british history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/British_Empire",
+  "https://www.historyskills.com/classroom/year-9/british-empire-size/",
+  "https://www.statista.com/chart/20342/peak-land-area-of-the-largest-empires/",
+  "https://en.wikipedia.org/wiki/The_empire_on_which_the_sun_never_sets"
+ ]
+}

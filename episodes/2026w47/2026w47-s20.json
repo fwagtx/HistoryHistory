@@ -1,0 +1,297 @@
+{
+ "id": "2026w47-s20",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "The River Caesar Wasn't Allowed to Cross",
+ "hook": "THE DIE IS CAST",
+ "music": "playful",
+ "cast": {
+  "caesargen": {
+   "preset": "caesar",
+   "outfit": "armor",
+   "color": "#B08A3A",
+   "color2": "#8E2A5A",
+   "hold": "sword",
+   "name": "Julius Caesar"
+  },
+  "pompey": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#5A3A22",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A7A",
+   "name": "Pompey the Great"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "senator": {
+   "preset": "senator",
+   "name": "Roman senator"
+  }
+ },
+ "voices": {
+  "legionary": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Julius Caesar crossed a tiny river, and it started a civil war.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "The Rubicon, Italy · January 49 BC",
+    "tag": {
+     "id": "caesargen",
+     "text": "Julius Caesar, Roman general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Rubicon was a small river in northern Italy, at the edge of the land Caesar governed.",
+   "show": {
+    "k": "map",
+    "lon": 12.2,
+    "lat": 44.0,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "49 BC",
+    "labels": [
+     [
+      "Rubicon",
+      12.42,
+      44.12,
+      14
+     ],
+     [
+      "Ravenna",
+      12.2,
+      44.42,
+      14
+     ],
+     [
+      "Rimini",
+      12.57,
+      44.06,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Roman law said no general could bring his army past it into Italy. Doing that meant war on Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "NO ARMIES IN ITALY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His enemies, backed by Pompey, a famous general, wanted him home without his army, to face trial.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "pompey",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "pompey",
+     "text": "Pompey the Great"
+    }
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "So, boss. Are we crossing or not?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "shrug"
+     },
+     {
+      "id": "caesargen",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius says Caesar answered in Latin.",
+   "show": {
+    "k": "quote",
+    "text": "The die is cast.",
+    "who": "Julius Caesar at the Rubicon, 49 BC (Suetonius, Life of Julius Caesar 32)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Dice were a gambling game. He meant: the bet is made, there's no going back.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "smug",
+      "walk": [
+       0.2,
+       0.55
+      ]
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "walk",
+      "walk": [
+       0.45,
+       0.8
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He won the war. And today, crossing the Rubicon means a point of no return.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.42,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO RETURN",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of Caesar's craziest moments.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One small river. One huge decision.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #rubicon #ancientrome #historytok",
+ "youtube_title": "The River Caesar Wasn't Allowed to Cross #shorts",
+ "tags": [
+  "julius caesar",
+  "rubicon",
+  "alea iacta est",
+  "roman civil war",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Crossing_the_Rubicon",
+  "https://en.wikipedia.org/wiki/Alea_iacta_est",
+  "https://www.britannica.com/today-in-history/January-10-Julius-Caesar-Crosses-the-Rubicon",
+  "https://latinitium.com/iacta-alea-est-crossing-the-rubicon/"
+ ]
+}

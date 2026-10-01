@@ -1,0 +1,297 @@
+{
+ "id": "2026w47-s15",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "Caesar Built a Wall Around a Wall",
+ "hook": "A WALL AROUND A WALL",
+ "music": "playful",
+ "cast": {
+  "caesargen": {
+   "preset": "caesar",
+   "outfit": "armor",
+   "color": "#B08A3A",
+   "color2": "#8E2A5A",
+   "hold": "sword",
+   "name": "Julius Caesar"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "vercingetorix": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#C8902A",
+   "stache": "handlebar",
+   "outfit": "tunic",
+   "color": "#2F7A4A",
+   "color2": "#D4A52A",
+   "hold": "sword",
+   "name": "Vercingetorix"
+  },
+  "gaul": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#8A5A2A",
+   "stache": "bush",
+   "outfit": "tunic",
+   "color": "#5A7A2A",
+   "hold": "spear",
+   "name": "Gallic warrior"
+  }
+ },
+ "voices": {
+  "caesargen": "am_eric",
+  "legionary": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Julius Caesar trapped an enemy army, and then trapped his own army too. On purpose.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "place": "Alesia, Gaul · 52 BC",
+    "tag": {
+     "id": "caesargen",
+     "text": "Julius Caesar, Roman general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 52 BC, a young chief named Vercingetorix led the tribes of Gaul, roughly today's France, against Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "vercingetorix",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "gaul",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "vercingetorix",
+     "text": "Vercingetorix, Gallic chief"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His army dug in at Alesia, a fortified town on a hill.",
+   "show": {
+    "k": "map",
+    "lon": 4.0,
+    "lat": 47.3,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "52 BC",
+    "labels": [
+     [
+      "Alesia",
+      4.5,
+      47.54,
+      14
+     ],
+     [
+      "GAUL",
+      2.3,
+      46.4,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      4.5,
+      47.54,
+      0.25,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar built a ring of walls, ditches and towers around the whole hill, about ten miles long, so nobody could escape.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WALL #1",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a giant Gallic army marched to the rescue. So Caesar built a second ring outside, facing outward, about thirteen miles long.",
+   "show": {
+    "k": "card",
+    "label": "Caesar's walls at Alesia",
+    "big": "2 WALLS",
+    "sub": "one facing in, one facing out"
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "Sir, we're surrounded!",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "caesargen",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesargen",
+   "say": "Yes. On purpose."
+  },
+  {
+   "who": "N",
+   "say": "The Romans held off both armies at once. Vercingetorix surrendered, and Gaul came under Roman rule.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "vercingetorix",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "caesargen",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of Caesar's craziest moments.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "vercingetorix",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Caesar walled in his enemy, then walled himself in too.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #alesia #ancientrome #militaryhistory",
+ "youtube_title": "Caesar Built a Wall Around a Wall #shorts",
+ "tags": [
+  "julius caesar",
+  "alesia",
+  "vercingetorix",
+  "siege warfare",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_Alesia",
+  "https://www.britannica.com/event/Battle-of-Alesia-52-BCE",
+  "https://www.worldhistory.org/article/1734/battle-of-alesia/"
+ ]
+}

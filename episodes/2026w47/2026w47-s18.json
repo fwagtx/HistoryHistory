@@ -1,0 +1,265 @@
+{
+ "id": "2026w47-s18",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "Caesar Probably Never Said 'Et Tu, Brute?'",
+ "hook": "NOT HIS LAST WORDS",
+ "music": "playful",
+ "cast": {
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "brutus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "name": "Marcus Brutus"
+  },
+  "senator": {
+   "preset": "senator",
+   "name": "Roman senator"
+  },
+  "shakespeare": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#6A4A2A",
+   "stache": "thin",
+   "beard": "goatee",
+   "outfit": "coat",
+   "color": "#262322",
+   "hold": "pen",
+   "name": "William Shakespeare"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "Julius Caesar's most famous last words were probably written about sixteen hundred years after he died.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "shakespeare",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "ET TU, BRUTE?"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "London, England · 1599",
+    "tag": {
+     "id": "shakespeare",
+     "text": "William Shakespeare, playwright"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 44 BC, Caesar ruled Rome. A group of senators, worried he'd become a king, killed him at a Senate meeting.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "senator",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Rome · March 44 BC",
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "One of them was Brutus, a senator Caesar had treated almost like family.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "brutus",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "brutus",
+     "text": "Marcus Brutus, senator"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1599, William Shakespeare wrote a play about it, and gave Caesar this line.",
+   "show": {
+    "k": "quote",
+    "text": "Et tu, Brute? Then fall, Caesar!",
+    "who": "Shakespeare, Julius Caesar, Act 3, Scene 1 (1599), not a Roman source"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the Roman writer Suetonius says Caesar said nothing at all.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "statue",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He adds that some people claimed Caesar told Brutus, in Greek: You too, child?",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "brutus",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "KAI SU, TEKNON?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GREEK!",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Caesar's most famous Latin words came from an English playwright.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "shakespeare",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history myths, busted.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "shakespeare",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "'Et tu, Brute?' is Shakespeare, not Caesar.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #shakespeare #historymyths #ancientrome",
+ "youtube_title": "Caesar Probably Never Said 'Et Tu, Brute?' #shorts",
+ "tags": [
+  "julius caesar",
+  "et tu brute",
+  "shakespeare",
+  "ides of march",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Et_tu,_Brute%3F",
+  "https://en.wikipedia.org/wiki/Last_words_of_Julius_Caesar",
+  "https://nosweatshakespeare.com/quotes/famous/et-tu-brute/",
+  "https://www.livius.org/sources/content/suetonius/suetonius-on-the-death-of-caesar/"
+ ]
+}

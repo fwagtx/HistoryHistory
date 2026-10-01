@@ -1,0 +1,252 @@
+{
+ "id": "2026w47-s19",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "C-Sections Probably Aren't Named After Caesar's Birth",
+ "hook": "NOT NAMED AFTER CAESAR",
+ "music": "playful",
+ "cast": {
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "roman": {
+   "preset": "roman",
+   "name": "Roman citizen"
+  },
+  "aurelia": {
+   "skin": "light",
+   "hair": "bun",
+   "hairColor": "#8A8070",
+   "outfit": "dress",
+   "color": "#F2EEE4",
+   "color2": "#8E2A5A",
+   "name": "Aurelia, Caesar's mother"
+  },
+  "doctor": {
+   "preset": "physician",
+   "name": "Roman doctor"
+  }
+ },
+ "voices": {
+  "aurelia": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "You've probably heard the C-section is named after Julius Caesar's birth. That's almost certainly a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "aurelia",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "caesar",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Rome · 100 BC",
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar was born in Rome in 100 BC. His mother was Aurelia.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "aurelia",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "aurelia",
+     "text": "Aurelia, Caesar's mother"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, that operation was only done if the mother was dead or dying.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "doctor",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     },
+     {
+      "k": "jar",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Aurelia lived for decades. She was still around when her son was a famous general.",
+   "show": {
+    "k": "card",
+    "label": "Aurelia's death",
+    "big": "54 BC",
+    "sub": "46 years after Caesar was born"
+   }
+  },
+  {
+   "who": "aurelia",
+   "say": "Cut out? Me? I'm perfectly fine, thank you.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "aurelia",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "aurelia"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So where does the name come from? Probably an old Roman law, or the Latin word caedere, to cut.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "doctor",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "CAEDERE = TO CUT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A Roman writer, Pliny, even claimed an earlier Caesar ancestor was born that way. That's probably legend too.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history myths, busted.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "aurelia",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "caesar",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The C-section probably isn't named after Caesar's birth.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #historymyths #medicalhistory #ancientrome",
+ "youtube_title": "C-Sections Probably Aren't Named After Caesar's Birth #shorts",
+ "tags": [
+  "julius caesar",
+  "caesarean section",
+  "c-section history",
+  "aurelia",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.nlm.nih.gov/exhibition/cesarean/part1.html",
+  "https://www.discovermagazine.com/health/are-cesarean-sections-named-after-julius-caesar",
+  "https://en.wikipedia.org/wiki/Caesarean_section",
+  "https://en.wikipedia.org/wiki/Aurelia_(mother_of_Caesar)"
+ ]
+}

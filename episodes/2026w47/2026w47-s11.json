@@ -1,0 +1,267 @@
+{
+ "id": "2026w47-s11",
+ "format": "short",
+ "date": "2026-11-16",
+ "slot": "09:00",
+ "title": "Londoners Slept in the Tube During the Blitz",
+ "hook": "LONDON SLEPT UNDERGROUND",
+ "music": "tense",
+ "cast": {
+  "londoner": {
+   "preset": "peasantW",
+   "outfit": "coat",
+   "color": "#6A4A3A",
+   "skin": "light",
+   "hairColor": "#5A3A1A"
+  },
+  "official": {
+   "preset": "businessman",
+   "hat": "bowler",
+   "stache": "brush",
+   "skin": "light",
+   "hairColor": "#3A2A1A"
+  }
+ },
+ "voices": {
+  "londoner": "bf_emma",
+  "official": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "During World War Two, thousands of Londoners slept on train platforms deep underground.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "UNDERGROUND"
+     }
+    ],
+    "place": "London · September 1940"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In September 1940, Nazi Germany began bombing London, in what became known as the Blitz.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.25,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.55,
+      "s": 0.7,
+      "y": 0.55,
+      "emblem": "cross",
+      "move": [
+       0.3,
+       0.9
+      ]
+     },
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The bombers came back for fifty-seven nights in a row.",
+   "show": {
+    "k": "card",
+    "label": "London was bombed for",
+    "big": "57 NIGHTS",
+    "sub": "in a row, from 7 September 1940"
+   }
+  },
+  {
+   "who": "N",
+   "say": "At first, the government didn't want people sheltering in the Underground stations.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "official",
+   "say": "The stations are for trains, not for sleeping!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "official"
+   }
+  },
+  {
+   "who": "londoner",
+   "say": "Fine. I'll buy a ticket, and then I'll just never leave.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.5,
+      "text": "TICKETS"
+     }
+    ],
+    "cam": "close",
+    "focus": "londoner"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's really what people did. Soon the government gave in and made stations official shelters.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "official",
+      "x": 0.65,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.5,
+      "text": "SHELTER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On one night, about a hundred and seventy-seven thousand people slept underground.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.7,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "177,000",
+      "at": 1.4,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "official",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "During the Blitz, Londoners bought Tube tickets and refused to leave.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #theblitz #london #historytok #ww2",
+ "youtube_title": "Londoners Slept in the Tube During the Blitz #shorts",
+ "tags": [
+  "the blitz",
+  "london underground",
+  "ww2",
+  "london history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/The_Blitz",
+  "https://www.britannica.com/event/the-Blitz",
+  "https://content.tfl.gov.uk/the-experience-of-sheltering-in-the-tube-during-wwii.pdf",
+  "https://www.londonmuseum.org.uk/collections/london-stories/londons-blitz-a-city-at-war/",
+  "https://spartacus-educational.com/2WWunderground.htm"
+ ]
+}

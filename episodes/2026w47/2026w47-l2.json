@@ -1,0 +1,2917 @@
+{
+ "id": "2026w47-l2",
+ "format": "long",
+ "date": "2026-11-18",
+ "title": "The Craziest Things Julius Caesar Did",
+ "music": "playful",
+ "cast": {
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "caesargen": {
+   "preset": "caesar",
+   "outfit": "armor",
+   "color": "#B08A3A",
+   "color2": "#8E2A5A",
+   "hold": "sword",
+   "name": "Julius Caesar"
+  },
+  "caesaryoung": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A5A",
+   "name": "Young Julius Caesar"
+  },
+  "pompey": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#5A3A22",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A7A",
+   "name": "Pompey the Great"
+  },
+  "cleopatra": {
+   "preset": "cleopatra",
+   "name": "Cleopatra"
+  },
+  "apollodorus": {
+   "skin": "tan",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "goatee",
+   "outfit": "tunic",
+   "color": "#2F7A6A",
+   "name": "Apollodorus the Sicilian"
+  },
+  "ptolemy": {
+   "hat": "nemes",
+   "outfit": "egypt",
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "King Ptolemy XIII"
+  },
+  "pirate": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#7A5A2A",
+   "hold": "sword",
+   "name": "Cilician pirate chief"
+  },
+  "pirate2": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "stubble": true,
+   "hat": "bandana",
+   "hatColor": "#2F5A7A",
+   "outfit": "tunic",
+   "color": "#8A6A3A",
+   "hold": "spear",
+   "name": "Cilician pirate"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "sosigenes": {
+   "preset": "philosopher",
+   "skin": "olive",
+   "beard": "long",
+   "hairColor": "#B8B0A0",
+   "hold": "scroll",
+   "name": "Sosigenes of Alexandria"
+  },
+  "spurinna": {
+   "skin": "olive",
+   "hair": "bald",
+   "hairColor": "#8A8070",
+   "beard": "long",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "name": "Spurinna, a soothsayer"
+  },
+  "vercingetorix": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#C8902A",
+   "stache": "handlebar",
+   "outfit": "tunic",
+   "color": "#2F7A4A",
+   "color2": "#D4A52A",
+   "hold": "sword",
+   "name": "Vercingetorix"
+  },
+  "gaul": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#8A5A2A",
+   "stache": "bush",
+   "outfit": "tunic",
+   "color": "#5A7A2A",
+   "hold": "spear",
+   "name": "Gallic warrior"
+  },
+  "pharnaces": {
+   "skin": "olive",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A1E3A",
+   "color2": "#D4A52A",
+   "beard": "full",
+   "hairColor": "#1E1C1B",
+   "name": "King Pharnaces II of Pontus"
+  },
+  "brutus": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "name": "Marcus Brutus"
+  },
+  "senator": {
+   "preset": "senator",
+   "name": "Roman senator"
+  },
+  "roman": {
+   "preset": "roman",
+   "name": "Roman citizen"
+  },
+  "aurelia": {
+   "skin": "light",
+   "hair": "bun",
+   "hairColor": "#8A8070",
+   "outfit": "dress",
+   "color": "#F2EEE4",
+   "color2": "#8E2A5A",
+   "name": "Aurelia, Caesar's mother"
+  },
+  "shakespeare": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#6A4A2A",
+   "stache": "thin",
+   "beard": "goatee",
+   "outfit": "coat",
+   "color": "#262322",
+   "hold": "pen",
+   "name": "William Shakespeare"
+  }
+ },
+ "voices": {
+  "caesar": "am_eric",
+  "caesargen": "am_eric",
+  "caesaryoung": "am_eric",
+  "cleopatra": "af_bella",
+  "apollodorus": "bm_lewis",
+  "pirate": "am_fenrir",
+  "pirate2": "am_puck",
+  "legionary": "am_liam",
+  "sosigenes": "bm_george",
+  "spurinna": "am_echo",
+  "pharnaces": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "It's 75 BC, on a tiny island in the Aegean Sea. A young Roman noble has just been kidnapped by pirates.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.35,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.65,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.88,
+      "s": 0.6
+     },
+     {
+      "k": "rock",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "place": "Pharmacusa island, Aegean Sea · 75 BC",
+    "tag": {
+     "id": "caesaryoung",
+     "text": "Julius Caesar, about 25"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pirates name his ransom: twenty talents of silver. That's a fortune.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "20 TALENTS",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Twenty talents, or you're not going home!"
+  },
+  {
+   "who": "caesaryoung",
+   "say": "Twenty? Do you even know who I am? Ask for fifty.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "caesaryoung"
+   }
+  },
+  {
+   "who": "pirate2",
+   "say": "Wait, what? He wants to pay more?",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "pirate",
+      "x": 0.65,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "50 TALENTS?!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That young man is Julius Caesar. Later he'd conquer Gaul, win a civil war, and rule the Roman world. But he was already this confident."
+  },
+  {
+   "who": "N",
+   "say": "Today we're counting down seven of the craziest things Julius Caesar ever did. The pirates are number one.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.2,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "cleopatra",
+      "x": 0.6,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "caesar",
+      "x": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": []
+   }
+  },
+  {
+   "show": {
+    "k": "title",
+    "text": "The Craziest Things Julius Caesar Did",
+    "sub": "Seven stories. All real, or clearly labeled.",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.9,
+      "pose": "shrug",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Quick intro. Caesar was born in Rome in 100 BC, when Rome was a republic: no king, just elected leaders and the Senate.",
+   "show": {
+    "k": "flag",
+    "flag": "rome",
+    "label": "THE ROMAN REPUBLIC",
+    "sub": "elected leaders and a Senate",
+    "bg": "rome"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most of these stories come from Caesar's own books, or from Plutarch and Suetonius, two writers who wrote more than a hundred years later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.7,
+      "text": "PLUTARCH & SUETONIUS"
+     },
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ANCIENT SOURCES",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius even tells us Caesar hated going bald. He combed his thin hair forward, and loved his right to wear a laurel wreath all the time.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "caesar",
+    "place": "Rome · 1st century BC",
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    },
+    "stickers": [
+     {
+      "text": "COMB-OVER",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Smooth, Caesar. Very smooth."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "The Year That Lasted 445 Days"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number seven: Caesar made one year four hundred and forty-five days long.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "CALENDAR"
+     },
+     {
+      "k": "column",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "place": "Rome · 46 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The old Roman calendar had just 355 days. Officials were supposed to add an extra month now and then to keep up with the seasons.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "think"
+     },
+     {
+      "id": "senator",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.12,
+      "s": 0.6,
+      "text": "355 DAYS"
+     },
+     {
+      "k": "cart",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But they often skipped it, or used it to help their friends stay in office longer. By Caesar's time, the calendar was about three months off.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.4
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.6,
+      "text": "OOPS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "3 MONTHS OFF",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Imagine your calendar saying it's July, while outside it still feels like April."
+  },
+  {
+   "who": "N",
+   "say": "So Caesar asked an astronomer from Alexandria in Egypt, Sosigenes, to help him fix it.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "sosigenes",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.9,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "sosigenes",
+     "text": "Sosigenes, astronomer"
+    }
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Can you fix the year?"
+  },
+  {
+   "who": "sosigenes",
+   "say": "Easy. Three hundred sixty-five days. Plus one extra day every four years.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "sosigenes",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "sosigenes",
+    "stickers": [
+     {
+      "text": "LEAP YEAR",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But first, Rome had to catch up with the seasons. So 46 BC got about three extra months stuffed into it.",
+   "show": {
+    "k": "card",
+    "label": "Days in the year 46 BC",
+    "big": "445",
+    "sub": "Romans later called it the year of confusion",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.88,
+      "pose": "shrug",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The new calendar started in 45 BC. With one small fix in 1582, it's basically the calendar on your phone today.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "365 + LEAP DAY"
+     },
+     {
+      "k": "statue",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And in 44 BC, the year he died, Rome renamed the month he was born in after him. Its old name was Quintilis. Its new name? July.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.7,
+      "text": "JULY"
+     },
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "QUINTILIS → JULY",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "The Bridge He Built Just to Tear Down"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number six: Caesar built a bridge across one of Europe's biggest rivers, mostly to show off.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Rhine River, Germany · 55 BC",
+    "tag": {
+     "id": "caesargen",
+     "text": "Julius Caesar, general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 55 BC, Caesar was conquering Gaul, roughly today's France and Belgium. Germanic tribes kept crossing the Rhine River to fight him.",
+   "show": {
+    "k": "map",
+    "lon": 6.0,
+    "lat": 49.0,
+    "z0": 1.6,
+    "z1": 2.2,
+    "date": "55 BC",
+    "labels": [
+     [
+      "GAUL",
+      2.5,
+      47.0,
+      0
+     ],
+     [
+      "Rhine",
+      7.46,
+      50.43,
+      14
+     ],
+     [
+      "GERMANIC TRIBES",
+      9.8,
+      51.3,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      2.5,
+      47.0,
+      2.6,
+      "rgba(168,50,42,0.25)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A friendly tribe offered him boats. Caesar wrote that boats weren't safe enough, or dignified enough, for Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.35,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "gaul",
+      "x": 0.7,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.6,
+      "flag": "rome"
+     },
+     {
+      "k": "galley",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesargen",
+   "say": "Boats? Please. Rome doesn't do boats. We build a bridge.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "cam": "close",
+    "focus": "caesargen"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His soldiers drove huge wooden posts into the fast river bed, and built a road right across the water.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     },
+     {
+      "id": "legionary",
+      "x": 0.6,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "axe"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "TIMBER"
+     },
+     {
+      "k": "wall",
+      "x": 0.85,
+      "s": 0.6,
+      "label": "BRIDGE"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "BONK BONK BONK",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar says the whole job took just ten days.",
+   "show": {
+    "k": "card",
+    "label": "Time to build the Rhine bridge",
+    "big": "10 DAYS",
+    "sub": "according to Caesar's own book",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.88,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He marched across, burned some villages, and found the tribes had run off into the forests.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.8
+     },
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After eighteen days on the other side, he marched back... and tore his brand new bridge down.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.5,
+      "label": "BRIDGE BITS"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "18 DAYS LATER",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "How do we know all this? Caesar wrote it himself, in his war diaries. And he wrote about himself in the third person: not I built a bridge, but Caesar built a bridge.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "CAESAR DID IT"
+     },
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Caesar is brilliant. Caesar is modest. Caesar wrote this sentence.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "smug",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "caesar"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was smart, too. Those books went back to Rome and made him sound like a hero, described by a calm, fair narrator who was secretly... him."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "The Sack and the Swim"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number five: Caesar's wild trip to Alexandria, in Egypt.",
+   "show": {
+    "k": "map",
+    "lon": 24.0,
+    "lat": 36.0,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "48 BC",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Alexandria",
+      29.92,
+      31.2,
+      14
+     ],
+     [
+      "EGYPT",
+      30.5,
+      28.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      22.5,
+      39.4
+     ],
+     [
+      24.0,
+      37.0
+     ],
+     [
+      26.5,
+      35.0
+     ],
+     [
+      28.5,
+      32.5
+     ],
+     [
+      29.92,
+      31.2
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 48 BC, Caesar was fighting a civil war against Pompey, a famous Roman general. He chased him all the way to Egypt.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Alexandria, Egypt · 48 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "There he found a family fight. Egypt's teenage king, Ptolemy, and his older sister, Cleopatra, were battling for the throne.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "ptolemy",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "cleopatra",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.9,
+      "s": 0.5
+     },
+     {
+      "k": "palm",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "cleopatra",
+     "text": "Cleopatra, age 21"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ptolemy's army was keeping Cleopatra out of the capital. So how do you sneak in to meet Caesar?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.45,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.7,
+      "label": "GUARDED"
+     },
+     {
+      "k": "column",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says a friend named Apollodorus rolled her up inside a sack for bedding, tied it with a cord, and carried her past the guards.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "apollodorus",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.6,
+      "label": "BEDDING"
+     },
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "apollodorus",
+     "text": "Apollodorus the Sicilian"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND?",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "apollodorus",
+   "say": "Delivery for Caesar! Just some... bedding.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "apollodorus",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "caesar",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.5,
+      "label": "BEDDING"
+     },
+     {
+      "k": "throne",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Why is the bedding moving?"
+  },
+  {
+   "who": "cleopatra",
+   "say": "Hello, Caesar. We need to talk.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "caesar",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In movies it's a rug. Plutarch says a bedding sack, and historians aren't sure it happened at all. But Caesar did take her side."
+  },
+  {
+   "who": "N",
+   "say": "That made Ptolemy's army furious. For months, Caesar was trapped in Alexandria, fighting in the streets and the harbor.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "aim",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In one fight, his little boat got so crowded it was sinking. So Caesar, aged about fifty-two, jumped into the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "SPLASH!",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius says he swam two hundred paces, about three hundred meters, holding his papers above the water with one hand.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "scared",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KEEP THEM DRY!",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And he dragged his general's cloak behind him in his teeth, so the enemy couldn't grab it as a trophy."
+  },
+  {
+   "who": "N",
+   "say": "He made it. The papers stayed dry. And Cleopatra ended up ruling Egypt.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "caesar",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "pyramid",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "A Wall Around a Wall"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number four: Caesar trapped an enemy army, and then trapped himself on purpose.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Alesia, Gaul · 52 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 52 BC, the tribes of Gaul rose up against Rome, led by a young chief named Vercingetorix.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "vercingetorix",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "gaul",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "vercingetorix",
+     "text": "Vercingetorix, Gallic chief"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He and his warriors dug in at Alesia, a fortified town on a hill. Caesar says there were eighty thousand of them.",
+   "show": {
+    "k": "map",
+    "lon": 4.0,
+    "lat": 47.3,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "52 BC",
+    "labels": [
+     [
+      "Alesia",
+      4.5,
+      47.54,
+      14
+     ],
+     [
+      "GAUL",
+      2.3,
+      46.4,
+      0
+     ],
+     [
+      "Lutetia (Paris)",
+      2.35,
+      48.86,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      4.5,
+      47.54,
+      0.25,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar didn't charge up the hill. He built a ring of walls, ditches and towers all the way around it, about ten miles long.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.6,
+      "s": 0.7
+     },
+     {
+      "k": "wall",
+      "x": 0.85,
+      "s": 0.7
+     },
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WALL #1",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he heard a giant Gallic army was coming to rescue them. Caesar claims a quarter of a million men. That's probably exaggerated, but it was huge."
+  },
+  {
+   "who": "N",
+   "say": "So he built a second ring outside the first, facing outward, about thirteen miles long. Now the Romans were the filling in a wall sandwich.",
+   "show": {
+    "k": "card",
+    "label": "Caesar's walls at Alesia",
+    "big": "2 WALLS",
+    "sub": "inner ring about 10 miles, outer ring about 13 miles",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.88,
+      "pose": "present",
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "Sir, we're surrounded.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "caesargen",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.1,
+      "s": 0.6
+     },
+     {
+      "k": "wall",
+      "x": 0.92,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesargen",
+   "say": "Correct. On purpose."
+  },
+  {
+   "who": "N",
+   "say": "The Romans fought the army inside and the army outside at the same time, and held both lines.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "angry"
+     },
+     {
+      "id": "gaul",
+      "x": 0.7,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.5,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vercingetorix surrendered, and Gaul came under Roman control.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "vercingetorix",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "caesargen",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "rome"
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "The River He Wasn't Allowed to Cross"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number three: Caesar crossed a tiny river, and started a civil war.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "The Rubicon, northern Italy · January 49 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Rubicon was a small river in northern Italy. It marked the edge of the area Caesar governed.",
+   "show": {
+    "k": "map",
+    "lon": 12.2,
+    "lat": 44.0,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "49 BC",
+    "labels": [
+     [
+      "Rubicon",
+      12.42,
+      44.12,
+      14
+     ],
+     [
+      "Ravenna",
+      12.2,
+      44.42,
+      14
+     ],
+     [
+      "Ariminum (Rimini)",
+      12.57,
+      44.06,
+      14
+     ]
+    ],
+    "route": [
+     [
+      12.2,
+      44.42
+     ],
+     [
+      12.42,
+      44.12
+     ],
+     [
+      12.57,
+      44.06
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Roman law said a general could not lead his army past it into Italy. Doing that meant war against Rome itself.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "NO ARMIES IN ITALY"
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His enemies in the Senate, now backed by Pompey, his old partner, ordered him to give up his army and come home. Caesar expected to be put on trial and ruined.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "pompey",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "senator",
+      "x": 0.65,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "pompey",
+     "text": "Pompey the Great, general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in January 49 BC, he stood at the river with a single legion, a few thousand soldiers.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.35,
+      "pose": "think"
+     },
+     {
+      "id": "legionary",
+      "x": 0.68,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "So, boss. Are we crossing or not?"
+  },
+  {
+   "who": "N",
+   "say": "Suetonius says he gave his answer in Latin.",
+   "show": {
+    "k": "quote",
+    "text": "The die is cast.",
+    "who": "Julius Caesar at the Rubicon, 49 BC (Suetonius, Life of Julius Caesar 32; Plutarch says he said it in Greek)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Dice were a gambling game. He meant: the bet is made, there's no going back.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "smug",
+      "walk": [
+       0.2,
+       0.6
+      ]
+     },
+     {
+      "id": "legionary",
+      "x": 0.75,
+      "pose": "walk",
+      "walk": [
+       0.5,
+       0.85
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pompey and many senators fled Rome. Within a few years Caesar had won the war. And today, crossing the Rubicon means a point of no return.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.42,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     },
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO RETURN",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "The Three-Word War Report"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number two: Caesar won a war so fast, he described it in three words.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "place": "Zela, Pontus · 47 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 47 BC, King Pharnaces of Pontus, a kingdom on the Black Sea coast of today's Turkey, grabbed Roman lands while Romans were busy fighting each other.",
+   "show": {
+    "k": "map",
+    "lon": 33.0,
+    "lat": 40.5,
+    "z0": 2.0,
+    "z1": 2.6,
+    "date": "47 BC",
+    "labels": [
+     [
+      "Zela",
+      35.88,
+      40.3,
+      14
+     ],
+     [
+      "PONTUS",
+      37.0,
+      41.2,
+      0
+     ],
+     [
+      "Black Sea",
+      34.0,
+      42.8,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      36.5,
+      40.7,
+      1.2,
+      "rgba(106,62,142,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "pharnaces",
+   "say": "The Romans are busy. Who's going to stop me?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "pharnaces",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "crown",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "pharnaces",
+    "tag": {
+     "id": "pharnaces",
+     "text": "King Pharnaces II of Pontus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar. Caesar was going to stop him. He arrived, and won the battle at Zela in about four hours.",
+   "show": {
+    "k": "card",
+    "label": "From Caesar's arrival to victory",
+    "big": "5 DAYS",
+    "sub": "and the battle itself took about four hours",
+    "cast": [
+     {
+      "id": "pharnaces",
+      "x": 0.88,
+      "pose": "scared",
+      "mood": "shock",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says he reported it to a friend in Rome in three Latin words.",
+   "show": {
+    "k": "quote",
+    "text": "Veni, vidi, vici. (I came, I saw, I conquered.)",
+    "who": "Julius Caesar after Zela, 47 BC (Plutarch, Life of Caesar 50; Suetonius says the words were displayed at his triumph)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Suetonius says that at his victory parade in Rome, those three words were carried on a big sign. The ultimate humble brag. Minus the humble.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "roman",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.55,
+      "s": 0.7,
+      "text": "VENI VIDI VICI"
+     },
+     {
+      "k": "chariot",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "He Told Pirates to Raise His Ransom"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "And number one: back to that pirate island.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "rock",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Pharmacusa island · 75 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pirates from Cilicia, on the south coast of today's Turkey, had grabbed his ship while he sailed to Rhodes to study public speaking.",
+   "show": {
+    "k": "map",
+    "lon": 28.0,
+    "lat": 37.0,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "75 BC",
+    "labels": [
+     [
+      "Pharmacusa",
+      27.08,
+      37.29,
+      14
+     ],
+     [
+      "Miletus",
+      27.28,
+      37.53,
+      14
+     ],
+     [
+      "Rhodes",
+      28.22,
+      36.43,
+      14
+     ]
+    ],
+    "route": [
+     [
+      24.0,
+      37.8
+     ],
+     [
+      26.0,
+      37.4
+     ],
+     [
+      27.08,
+      37.29
+     ]
+    ],
+    "areas": [
+     [
+      27.08,
+      37.29,
+      0.15,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After demanding the bigger ransom, he sent his friends off to nearby cities to raise the money.",
+   "show": {
+    "k": "card",
+    "label": "Caesar's ransom",
+    "big": "50 TALENTS",
+    "sub": "about 1,300 kg of silver, the weight of a car",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.88,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he waited thirty-eight days, with just one friend and two servants. And he acted like the boss.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.42,
+      "pose": "sit",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.75,
+      "pose": "cross",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When he wanted to nap, he sent orders telling the pirates to keep quiet.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "pirate",
+      "x": 0.72,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHHH!",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wrote poems and speeches, read them to the pirates, and if they didn't clap, he called them uneducated barbarians to their faces.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "scroll"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "POETRY HOUR",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesaryoung",
+   "say": "When I get out of here, I'm coming back for all of you.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.72,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Ha! This guy's hilarious."
+  },
+  {
+   "who": "N",
+   "say": "Plutarch says the pirates thought he was joking. He wasn't.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "galley",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Miletus · 75 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Once the ransom was paid, he gathered ships at Miletus, sailed back, captured the pirates, and had them executed, just as he had promised.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.6,
+      "move": [
+       0.95,
+       0.75
+      ],
+      "flag": "rome"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So even as a hostage at twenty-five, Caesar already acted like he ran the world."
+  },
+  {
+   "who": "N",
+   "say": "Of course, acting like you run the world makes enemies. By 44 BC Caesar was dictator for life, and many senators feared he wanted to be king.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "brutus",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "crown",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "place": "Rome · March 44 BC",
+    "tag": {
+     "id": "brutus",
+     "text": "Marcus Brutus, senator"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius says a soothsayer named Spurinna, a man who read omens, warned him that danger would come by the Ides of March, the fifteenth.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "spurinna",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "spurinna",
+     "text": "Spurinna, soothsayer"
+    }
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Well, Spurinna. The Ides of March have come.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "spurinna",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "caesar"
+   }
+  },
+  {
+   "who": "spurinna",
+   "say": "Yes. They have come. But they have not gone.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "spurinna",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "spurinna"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That same day, a group of senators attacked Caesar at a Senate meeting, and killed him.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "angry"
+     },
+     {
+      "id": "brutus",
+      "x": 0.6,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.1,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MARCH 15, 44 BC",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And no, he probably didn't say et tu, Brute. That line is from Shakespeare's play, written over sixteen hundred years later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "shakespeare",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "ET TU, BRUTE?"
+     },
+     {
+      "k": "desk",
+      "x": 0.92,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "shakespeare",
+     "text": "William Shakespeare, playwright"
+    },
+    "stickers": [
+     {
+      "text": "1599",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius says Caesar said nothing. Some claimed he told Brutus, in Greek, You too, child?"
+  },
+  {
+   "who": "N",
+   "say": "One last myth: the C-section is almost certainly not named after his birth. His mother lived for decades afterward, and Romans only did that operation if the mother was dead or dying.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "aurelia",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "caesar",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So that's the list: a 445-day year, a throwaway bridge, a bedding sack, a wall sandwich, a tiny river, three words, and a hostage who bossed his kidnappers.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.15,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "cleopatra",
+      "x": 0.32,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "vercingetorix",
+      "x": 0.5,
+      "pose": "shrug"
+     },
+     {
+      "id": "pharnaces",
+      "x": 0.66,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "caesaryoung",
+      "x": 0.82,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": []
+   }
+  },
+  {
+   "who": "N",
+   "say": "Which one was the craziest? Tell us in the comments."
+  },
+  {
+   "who": "N",
+   "say": "Next time: John D. Rockefeller, the richest American ever. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "next": "John D. Rockefeller: The Richest American Ever",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.78,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "cleopatra",
+      "x": 0.92,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "A man who told pirates to raise his ransom, a bridge built just to be torn down, a queen smuggled in a bedding sack, a wall around a wall, a 445-day year, and the three most confident words in history: seven of the craziest things Julius Caesar did, counted down from seven to one. Every story comes from ancient sources, and we flag the legends. Chapters are added automatically.\n\n#history #juliuscaesar #ancientrome #funnyhistory #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "CAESAR WHAT?!",
+  "bg": "rome",
+  "faces": [
+   {
+    "id": "caesar",
+    "mood": "shout"
+   },
+   {
+    "id": "cleopatra",
+    "mood": "smug"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "The Craziest Things Julius Caesar Did",
+ "tags": [
+  "julius caesar",
+  "craziest things julius caesar did",
+  "caesar pirates",
+  "cleopatra",
+  "rubicon",
+  "veni vidi vici",
+  "alesia",
+  "julian calendar",
+  "ides of march",
+  "ancient rome",
+  "funny history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Julius_Caesar",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html",
+  "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Suetonius/12Caesars/Julius*.html",
+  "https://www.poetryintranslation.com/PITBR/Latin/Suetonius1.php",
+  "https://www.livius.org/sources/content/plutarch/plutarchs-caesar/caesar-and-the-pirates/",
+  "https://www.britannica.com/story/the-time-julius-caesar-was-captured-by-pirates",
+  "https://www.history.com/articles/julius-caesar-pirate-kidnap-legend",
+  "https://en.wikipedia.org/wiki/Caesar%27s_Rhine_bridges",
+  "http://classics.mit.edu/Caesar/gallic.4.4.html",
+  "https://www.livius.org/sources/content/caesar/caesar-on-the-first-germanic-campaign/",
+  "https://en.wikipedia.org/wiki/Battle_of_Alesia",
+  "https://www.britannica.com/event/Battle-of-Alesia-52-BCE",
+  "https://www.worldhistory.org/article/1734/battle-of-alesia/",
+  "https://en.wikipedia.org/wiki/46_BC",
+  "https://en.wikipedia.org/wiki/Julian_calendar",
+  "https://en.wikipedia.org/wiki/Sosigenes_(astronomer)",
+  "https://www.amusingplanet.com/2021/07/46-bc-445-day-year.html",
+  "https://en.wikipedia.org/wiki/Quintilis",
+  "https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico",
+  "https://en.wikipedia.org/wiki/Apollodorus_the_Sicilian",
+  "https://bingweb.binghamton.edu/~jstarks/cleoplut.html",
+  "https://www.livius.org/sources/content/plutarch/plutarchs-caesar/war-in-alexandria/",
+  "https://www.perseus.tufts.edu/hopper/text?doc=Suet.+Jul.+64&lang=original",
+  "https://en.wikipedia.org/wiki/Crossing_the_Rubicon",
+  "https://en.wikipedia.org/wiki/Alea_iacta_est",
+  "https://www.britannica.com/today-in-history/January-10-Julius-Caesar-Crosses-the-Rubicon",
+  "https://en.wikipedia.org/wiki/Battle_of_Zela_(47_BC)",
+  "https://en.wikipedia.org/wiki/Veni,_vidi,_vici",
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0132:life%3Djul.:chapter%3D81",
+  "https://www.livius.org/sources/content/suetonius/suetonius-on-the-death-of-caesar/",
+  "https://en.wikipedia.org/wiki/Et_tu,_Brute%3F",
+  "https://en.wikipedia.org/wiki/Last_words_of_Julius_Caesar",
+  "https://www.historyskills.com/classroom/year-7/julius-caesar-bald/",
+  "https://www.nlm.nih.gov/exhibition/cesarean/part1.html",
+  "https://www.discovermagazine.com/health/are-cesarean-sections-named-after-julius-caesar"
+ ]
+}

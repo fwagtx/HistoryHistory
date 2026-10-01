@@ -1,0 +1,270 @@
+{
+ "id": "2026w47-s04",
+ "format": "short",
+ "date": "2026-11-16",
+ "slot": "09:00",
+ "title": "London's River Stank So Bad It Got Sewers Built",
+ "hook": "THE GREAT STINK",
+ "music": "playful",
+ "cast": {
+  "mp": {
+   "preset": "businessman",
+   "hat": "tophat",
+   "stache": "bush",
+   "skin": "light",
+   "hairColor": "#5A3A1A"
+  },
+  "bazalgette": {
+   "outfit": "suit",
+   "color": "#2F2F3A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "stache": "handlebar",
+   "beard": "full",
+   "skin": "light",
+   "hold": "scroll",
+   "name": "Joseph Bazalgette"
+  }
+ },
+ "voices": {
+  "mp": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1858, London's river smelled so bad that Parliament finally paid for proper sewers.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "London · summer 1858",
+    "stickers": [
+     {
+      "text": "THE GREAT STINK",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, London's toilets and sewers emptied straight into the River Thames.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.5,
+      "s": 0.4,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a heatwave hit, and the river baked.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "RIVER THAMES"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "HOT!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Parliament sits beside the river, so MPs soaked the curtains in chemicals to block the smell.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHEMICAL CURTAINS",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "mp",
+   "say": "I can't think, I can't breathe. Somebody fix the river!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "mp"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A Stygian pool, reeking with ineffable and intolerable horrors.",
+   "show": {
+    "k": "quote",
+    "text": "A Stygian pool, reeking with ineffable and intolerable horrors.",
+    "who": "Benjamin Disraeli, House of Commons, 15 July 1858"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That was future prime minister Benjamin Disraeli. A law passed in eighteen days, and engineer Joseph Bazalgette got to work.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "bazalgette",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "bazalgette",
+     "text": "Joseph Bazalgette, engineer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He built more than a thousand miles of sewers, and London still uses them today.",
+   "show": {
+    "k": "card",
+    "label": "Bazalgette's sewers stretch over",
+    "big": "1,100 MILES",
+    "sub": "and still work under London today",
+    "cast": [
+     {
+      "id": "bazalgette",
+      "x": 0.86,
+      "pose": "cheer",
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "bazalgette",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1858 the Thames stank so badly that Parliament finally fixed London's sewers.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #greatstink #london #historytok #funnyhistory",
+ "youtube_title": "London's River Stank So Bad It Got Sewers Built #shorts",
+ "tags": [
+  "great stink",
+  "river thames",
+  "joseph bazalgette",
+  "victorian london",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Great_Stink",
+  "https://www.londonmuseum.org.uk/collections/london-stories/great-stink-of-1858/",
+  "https://www.history.co.uk/articles/the-great-stink-londons-unbearable-summer-of-1858",
+  "https://en.wikipedia.org/wiki/Joseph_Bazalgette"
+ ]
+}

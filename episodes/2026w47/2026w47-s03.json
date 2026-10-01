@@ -1,0 +1,279 @@
+{
+ "id": "2026w47-s03",
+ "format": "short",
+ "date": "2026-11-16",
+ "slot": "09:00",
+ "title": "The Great Fire of London Recorded Only 6 Deaths",
+ "hook": "ONLY SIX RECORDED DEATHS",
+ "music": "playful",
+ "cast": {
+  "farriner": {
+   "preset": "peasant",
+   "apron": true,
+   "hat": "chef",
+   "skin": "light",
+   "hairColor": "#6A4A2A",
+   "name": "Thomas Farriner"
+  },
+  "londoner": {
+   "preset": "peasantW",
+   "skin": "light",
+   "hairColor": "#8A5A2A"
+  }
+ },
+ "voices": {
+  "farriner": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1666, a fire destroyed most of the City of London, but only six deaths were officially recorded.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.6,
+      "s": 0.7
+     },
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "London · September 1666",
+    "stickers": [
+     {
+      "text": "6 DEATHS?",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It started early on a Sunday morning, in a bakery on Pudding Lane run by Thomas Farriner.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "farriner",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "farriner",
+     "text": "Thomas Farriner, baker"
+    }
+   }
+  },
+  {
+   "who": "farriner",
+   "say": "Hmm. Does anyone else smell smoke?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "farriner",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "farriner"
+   }
+  },
+  {
+   "who": "N",
+   "say": "London's houses were mostly wood, packed tightly together, and a strong wind spread the flames fast.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.25,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.55,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It burned for about four days.",
+   "show": {
+    "k": "card",
+    "label": "Destroyed in about four days",
+    "big": "13,200 HOUSES",
+    "sub": "plus 87 churches and old St Paul's Cathedral"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Yet the official death records listed only six people.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "DEATHS: 6"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think the true number was higher, because many poor people's deaths were never written down.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROBABLY MORE",
+      "at": 1.5,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Still, most Londoners escaped, on foot or by boat along the river.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "farriner",
+      "x": 0.55,
+      "pose": "walk",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "farriner",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "londoner",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "London burned for four days. Officially, only six people died.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #greatfireoflondon #london #historytok #britishhistory",
+ "youtube_title": "The Great Fire of London Recorded Only 6 Deaths #shorts",
+ "tags": [
+  "great fire of london",
+  "1666",
+  "pudding lane",
+  "london history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Great_Fire_of_London",
+  "https://www.britannica.com/event/Great-Fire-of-London",
+  "https://www.themonument.org.uk/great-fire-london-faqs",
+  "https://www.london-fire.gov.uk/museum/london-fire-brigade-history-and-stories/fires-and-incidents-that-changed-history/the-great-fire-of-london/"
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "id": "2026w47-s23",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "Caesar Swam to Safety Holding His Papers Up",
+ "hook": "HE SAVED HIS PAPERS",
+ "music": "playful",
+ "cast": {
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "caesargen": {
+   "preset": "caesar",
+   "outfit": "armor",
+   "color": "#B08A3A",
+   "color2": "#8E2A5A",
+   "hold": "sword",
+   "name": "Julius Caesar"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  }
+ },
+ "voices": {
+  "caesargen": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Julius Caesar escaped a battle by swimming, while keeping his papers dry.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "scared",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Alexandria harbor, Egypt · 47 BC",
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar had taken sides in a royal family fight in Egypt, and the Egyptian army trapped him in Alexandria.",
+   "show": {
+    "k": "map",
+    "lon": 29.0,
+    "lat": 32.5,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "48–47 BC",
+    "labels": [
+     [
+      "Alexandria",
+      29.92,
+      31.2,
+      14
+     ],
+     [
+      "EGYPT",
+      30.5,
+      29.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      29.92,
+      31.2,
+      0.3,
+      "rgba(168,50,42,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was fifty-two, and Rome's top general. In one harbor fight, his small boat got dangerously overcrowded.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "caesargen",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "caesargen",
+   "say": "Too many people! I'm jumping!"
+  },
+  {
+   "who": "N",
+   "say": "Suetonius, a Roman writer, says he swam two hundred paces, about three hundred meters, to the next ship.",
+   "show": {
+    "k": "card",
+    "label": "Caesar's swim, says Suetonius",
+    "big": "300 METERS",
+    "sub": "about three football fields"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And he held his important papers above the water with one hand, the whole way.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "scared",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KEEP THEM DRY!",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He even dragged his general's cloak behind him in his teeth, so the enemy couldn't grab it as a trophy.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He made it. Papers dry, cloak saved, ego intact.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of Caesar's craziest moments.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Caesar swam 300 meters holding his papers above water.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #alexandria #ancientrome #historytok",
+ "youtube_title": "Caesar Swam to Safety Holding His Papers Up #shorts",
+ "tags": [
+  "julius caesar",
+  "alexandria",
+  "alexandrian war",
+  "ancient rome",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Suet.+Jul.+64&lang=original",
+  "https://www.poetryintranslation.com/PITBR/Latin/Suetonius1.php",
+  "https://www.livius.org/sources/content/plutarch/plutarchs-caesar/war-in-alexandria/",
+  "https://www.swimmingworldmagazine.com/news/if-not-for-his-swimming-prowess-julius-caesar-would-not-have-lived-to-the-ides-of-march/"
+ ]
+}

@@ -1,0 +1,257 @@
+{
+ "id": "2026w47-s12",
+ "format": "short",
+ "date": "2026-11-16",
+ "slot": "09:00",
+ "title": "William the Conqueror Counted Every Pig",
+ "hook": "HE COUNTED EVERY PIG",
+ "music": "playful",
+ "cast": {
+  "william": {
+   "preset": "knight",
+   "color": "#C8902A",
+   "skin": "light",
+   "hairColor": "#5A3A1A",
+   "name": "William the Conqueror",
+   "outfit": "armor"
+  },
+  "scribe": {
+   "preset": "monk",
+   "skin": "light",
+   "hairColor": "#8A6A4A",
+   "hold": "pen"
+  },
+  "official": {
+   "preset": "noble",
+   "skin": "light",
+   "hairColor": "#5A3A1A",
+   "hold": "scroll"
+  }
+ },
+ "voices": {
+  "william": "bm_george",
+  "official": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Twenty years after conquering England, William the Conqueror wanted to know exactly what he owned.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ],
+    "place": "Gloucester, England · Christmas 1085",
+    "tag": {
+     "id": "william",
+     "text": "William the Conqueror"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "William was the French-speaking duke from Normandy who won the Battle of Hastings in 1066.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "Hastings · 1066"
+   }
+  },
+  {
+   "who": "william",
+   "say": "Find out who owns what, and what it's worth. Everything.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "official",
+      "x": 0.7,
+      "pose": "hold",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "william"
+   }
+  },
+  {
+   "who": "official",
+   "say": "Even the pigs?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "official"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So officials rode across England, asking about every farm, mill and village.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "pig",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "place": "England · 1086"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A monk writing the Anglo-Saxon Chronicle complained that not one ox, cow or pig was left out.",
+   "show": {
+    "k": "quote",
+    "text": "...nor indeed one ox nor one cow nor one pig which was left out.",
+    "who": "Anglo-Saxon Chronicle, entry for 1085"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The results covered about thirteen thousand places, from tiny villages to towns.",
+   "show": {
+    "k": "card",
+    "label": "The survey recorded",
+    "big": "13,418 PLACES",
+    "sub": "across most of England"
+   }
+  },
+  {
+   "who": "N",
+   "say": "People called it the Domesday Book, because, like Judgment Day, there was no arguing with it. It survives in London today.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scribe",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "DOMESDAY BOOK"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO APPEALS",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "pig",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "William the Conqueror surveyed England so closely that even the pigs got counted.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #domesdaybook #medievalhistory #historytok #britishhistory",
+ "youtube_title": "William the Conqueror Counted Every Pig #shorts",
+ "tags": [
+  "domesday book",
+  "william the conqueror",
+  "1086",
+  "medieval england",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Domesday_Book",
+  "https://www.nationalarchives.gov.uk/education/resources/domesday-book/",
+  "https://www.britannica.com/topic/Domesday-Book",
+  "https://www.historic-uk.com/HistoryUK/HistoryofEngland/Domesday-Book/"
+ ]
+}

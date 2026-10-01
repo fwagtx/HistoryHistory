@@ -1,0 +1,320 @@
+{
+ "id": "2026w47-s13",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "Caesar Told His Kidnappers to Raise His Ransom",
+ "hook": "RAISE MY RANSOM",
+ "music": "playful",
+ "cast": {
+  "caesaryoung": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A5A",
+   "name": "Young Julius Caesar"
+  },
+  "pirate": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#7A5A2A",
+   "hold": "sword",
+   "name": "Cilician pirate chief"
+  },
+  "pirate2": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "stubble": true,
+   "hat": "bandana",
+   "hatColor": "#2F5A7A",
+   "outfit": "tunic",
+   "color": "#8A6A3A",
+   "hold": "spear",
+   "name": "Cilician pirate"
+  }
+ },
+ "voices": {
+  "caesaryoung": "am_eric",
+  "pirate": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Pirates kidnapped Julius Caesar, and he told them to ask for more money.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.35,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Aegean Sea · 75 BC",
+    "tag": {
+     "id": "caesaryoung",
+     "text": "Julius Caesar, about 25"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's 75 BC. Caesar is a young Roman noble, sailing to the Greek island of Rhodes to study public speaking.",
+   "show": {
+    "k": "map",
+    "lon": 26.5,
+    "lat": 37.5,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "75 BC",
+    "labels": [
+     [
+      "Rhodes",
+      28.22,
+      36.43,
+      14
+     ],
+     [
+      "Pharmacusa",
+      27.08,
+      37.29,
+      14
+     ],
+     [
+      "Miletus",
+      27.28,
+      37.53,
+      14
+     ]
+    ],
+    "route": [
+     [
+      24.0,
+      37.8
+     ],
+     [
+      26.0,
+      37.4
+     ],
+     [
+      27.08,
+      37.29
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Near a tiny island, pirates from Cilicia, in today's Turkey, capture his ship.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "pirate",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Your ransom is twenty talents of silver!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "caesaryoung",
+   "say": "Twenty? That's insulting. Ask for fifty.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "caesaryoung"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fifty talents was about thirteen hundred kilos of silver, roughly the weight of a car.",
+   "show": {
+    "k": "card",
+    "label": "Caesar's ransom",
+    "big": "50 TALENTS",
+    "sub": "about 1,300 kg of silver"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This comes from Plutarch, a Greek writer. He says Caesar sent friends to raise the money, and bossed the pirates around for thirty-eight days.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug",
+      "hold": "scroll"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Once he was free, he came back with ships and captured every one of them, just like he'd promised.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.65,
+      "s": 0.6,
+      "flag": "rome",
+      "move": [
+       0.85,
+       0.65
+      ]
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of Caesar's craziest moments.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesaryoung",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Pirates asked for 20 talents. Caesar said: make it 50.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #pirates #ancientrome #historytok",
+ "youtube_title": "Caesar Told His Kidnappers to Raise His Ransom #shorts",
+ "tags": [
+  "julius caesar",
+  "caesar pirates",
+  "ransom",
+  "ancient rome",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html",
+  "https://www.livius.org/sources/content/plutarch/plutarchs-caesar/caesar-and-the-pirates/",
+  "https://www.britannica.com/story/the-time-julius-caesar-was-captured-by-pirates",
+  "https://en.wikipedia.org/wiki/Julius_Caesar"
+ ]
+}

@@ -1,0 +1,280 @@
+{
+ "id": "2026w47-s06",
+ "format": "short",
+ "date": "2026-11-16",
+ "slot": "09:00",
+ "title": "The Rhyme for Henry VIII's Six Wives",
+ "hook": "SIX WIVES, ONE RHYME",
+ "music": "playful",
+ "cast": {
+  "henry8": {
+   "preset": "henry8",
+   "name": "King Henry VIII"
+  },
+  "anne": {
+   "preset": "queen",
+   "color": "#2F5A3A",
+   "skin": "light",
+   "hairColor": "#8A5A2A",
+   "name": "Anne of Cleves"
+  }
+ },
+ "voices": {
+  "henry8": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "King Henry the Eighth had six wives, and British kids learn a rhyme to remember them.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "henry8",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "place": "England · 1509 to 1547",
+    "tag": {
+     "id": "henry8",
+     "text": "King Henry VIII"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Divorced, beheaded, died. Divorced, beheaded, survived.",
+   "show": {
+    "k": "card",
+    "label": "The rhyme",
+    "big": "6 WIVES",
+    "sub": "divorced, beheaded, died, divorced, beheaded, survived"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Wife one, Catherine of Aragon, had no son who survived, so Henry ended the marriage.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "henry8",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1. DIVORCED",
+      "at": 1.2,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Anne Boleyn was beheaded. Jane Seymour died soon after giving him a son.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "henry8",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "2. BEHEADED",
+      "at": 1.0,
+      "color": "#A8322A"
+     },
+     {
+      "text": "3. DIED",
+      "at": 2.5,
+      "color": "#2F2F3A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Wife four, Anne of Cleves, was chosen partly from a painting.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.25,
+      "s": 0.6,
+      "y": 0.3
+     }
+    ],
+    "tag": {
+     "id": "anne",
+     "text": "Anne of Cleves"
+    }
+   }
+  },
+  {
+   "who": "henry8",
+   "say": "I like her not!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "henry8",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "henry8"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That marriage was over in about six months. Then Catherine Howard was beheaded, and Catherine Parr outlived him.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "henry8",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "4. DIVORCED",
+      "at": 1.0,
+      "color": "#2F5A8A"
+     },
+     {
+      "text": "6. SURVIVED",
+      "at": 3.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The twist? Anne of Cleves got houses and money, and outlived all the other wives.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "anne",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.7
+     },
+     {
+      "k": "goldpile",
+      "x": 0.6,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "henry8",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "anne",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Divorced, beheaded, died, divorced, beheaded, survived. Here's the rhyme.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #henryviii #tudors #historytok #britishhistory",
+ "youtube_title": "The Rhyme for Henry VIII's Six Wives #shorts",
+ "tags": [
+  "henry viii",
+  "six wives",
+  "anne of cleves",
+  "tudors",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.hrp.org.uk/hampton-court-palace/history-and-stories/henry-viii-s-wives-six-queens-six-women/",
+  "https://www.historic-uk.com/HistoryUK/HistoryofEngland/Henry-VIII/",
+  "https://en.wikipedia.org/wiki/Wives_of_Henry_VIII",
+  "https://en.wikipedia.org/wiki/Anne_of_Cleves",
+  "https://www.historyhit.com/the-6-wives-of-henry-viii-in-order/"
+ ]
+}

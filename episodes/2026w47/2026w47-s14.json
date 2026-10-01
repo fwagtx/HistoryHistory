@@ -1,0 +1,308 @@
+{
+ "id": "2026w47-s14",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "Caesar Built a Bridge Just to Tear It Down",
+ "hook": "BUILT IT, THEN BROKE IT",
+ "music": "playful",
+ "cast": {
+  "caesargen": {
+   "preset": "caesar",
+   "outfit": "armor",
+   "color": "#B08A3A",
+   "color2": "#8E2A5A",
+   "hold": "sword",
+   "name": "Julius Caesar"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "gaul": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#8A5A2A",
+   "stache": "bush",
+   "outfit": "tunic",
+   "color": "#5A7A2A",
+   "hold": "spear",
+   "name": "Gallic warrior"
+  }
+ },
+ "voices": {
+  "caesargen": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Julius Caesar built a giant bridge across the Rhine River, then tore it down eighteen days later.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "place": "Rhine River, Germany · 55 BC",
+    "tag": {
+     "id": "caesargen",
+     "text": "Julius Caesar, Roman general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 55 BC, Caesar was conquering Gaul, roughly today's France. Germanic tribes kept crossing the Rhine to fight him.",
+   "show": {
+    "k": "map",
+    "lon": 6.0,
+    "lat": 49.0,
+    "z0": 1.8,
+    "z1": 2.3,
+    "date": "55 BC",
+    "labels": [
+     [
+      "GAUL",
+      2.5,
+      47.0,
+      0
+     ],
+     [
+      "Rhine",
+      7.46,
+      50.43,
+      14
+     ],
+     [
+      "GERMANIC TRIBES",
+      9.8,
+      51.3,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A friendly tribe offered him boats. Caesar wrote that boats weren't safe or dignified enough for Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "gaul",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "caesargen",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesargen",
+   "say": "Boats? Please. Rome builds bridges.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.78,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "cam": "close",
+    "focus": "caesargen"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His soldiers hammered huge wooden posts into the riverbed, and built a road across the water.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.5,
+      "label": "TIMBER"
+     },
+     {
+      "k": "wall",
+      "x": 0.72,
+      "s": 0.6,
+      "label": "BRIDGE"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar's own book says the whole job took ten days.",
+   "show": {
+    "k": "card",
+    "label": "Time to build the Rhine bridge",
+    "big": "10 DAYS",
+    "sub": "according to Caesar himself"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He marched across, burned some villages, and the tribes hid deep in the forests.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.7
+     },
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he marched back and destroyed his own bridge. The message: Rome can come over whenever it likes.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.5,
+      "label": "BRIDGE BITS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "18 DAYS LATER",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of Caesar's craziest moments.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He built a bridge in 10 days, used it, and destroyed it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #romanengineering #ancientrome #historytok",
+ "youtube_title": "Caesar Built a Bridge Just to Tear It Down #shorts",
+ "tags": [
+  "julius caesar",
+  "rhine bridge",
+  "gallic wars",
+  "roman engineering",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Caesar%27s_Rhine_bridges",
+  "http://classics.mit.edu/Caesar/gallic.4.4.html",
+  "https://www.livius.org/sources/content/caesar/caesar-on-the-first-germanic-campaign/",
+  "https://www.amusingplanet.com/2021/01/why-julius-caesar-built-bridge-over.html"
+ ]
+}

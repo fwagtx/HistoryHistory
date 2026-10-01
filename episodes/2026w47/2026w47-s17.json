@@ -1,0 +1,274 @@
+{
+ "id": "2026w47-s17",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "Caesar Wrote About Himself in the Third Person",
+ "hook": "HE CALLED HIMSELF CAESAR",
+ "music": "playful",
+ "cast": {
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "caesargen": {
+   "preset": "caesar",
+   "outfit": "armor",
+   "color": "#B08A3A",
+   "color2": "#8E2A5A",
+   "hold": "sword",
+   "name": "Julius Caesar"
+  },
+  "senator": {
+   "preset": "senator",
+   "name": "Roman senator"
+  },
+  "roman": {
+   "preset": "roman",
+   "name": "Roman citizen"
+  }
+ },
+ "voices": {
+  "caesar": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Julius Caesar wrote a whole book about his own wars, and talked about himself like he was somebody else.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "CAESAR DID IT"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Gaul · 58–50 BC",
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "From 58 to 50 BC, Caesar was conquering Gaul, roughly today's France and Belgium.",
+   "show": {
+    "k": "map",
+    "lon": 3.0,
+    "lat": 47.5,
+    "z0": 1.5,
+    "z1": 1.9,
+    "date": "58–50 BC",
+    "labels": [
+     [
+      "GAUL",
+      2.5,
+      47.0,
+      0
+     ],
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      2.5,
+      47.0,
+      2.8,
+      "rgba(168,50,42,0.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sent reports of his war back to Rome. Today we call them his Commentaries.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "caesargen",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.72,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But he never wrote I. He wrote Caesar."
+  },
+  {
+   "who": "caesar",
+   "say": "Caesar crossed the river. Caesar won the battle. Caesar is very humble.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "smug",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "caesar"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Why? Writing in the third person sounds calm and fair, like a neutral reporter.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the reporter was Caesar, so Caesar always looked brilliant. It was great publicity back home in Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "roman",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "CAESAR!"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And two thousand years later, students still read it in Latin class.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "LATIN HOMEWORK"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "caesargen",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Caesar wrote about Caesar. In the third person.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #latin #ancientrome #historytok",
+ "youtube_title": "Caesar Wrote About Himself in the Third Person #shorts",
+ "tags": [
+  "julius caesar",
+  "gallic wars",
+  "commentaries",
+  "third person",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico",
+  "https://en.wikiquote.org/wiki/Commentarii_de_Bello_Gallico",
+  "https://spokenpast.com/articles/julius-caesar-propaganda/"
+ ]
+}

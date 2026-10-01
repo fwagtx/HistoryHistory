@@ -1,0 +1,321 @@
+{
+ "id": "2026w47-s10",
+ "format": "short",
+ "date": "2026-11-16",
+ "slot": "09:00",
+ "title": "Storms Wrecked the Spanish Armada",
+ "hook": "STORMS WRECKED THE ARMADA",
+ "music": "playful",
+ "cast": {
+  "philip": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#262322",
+   "color2": "#C8902A",
+   "beard": "goatee",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "King Philip II of Spain"
+  },
+  "elizabeth": {
+   "preset": "elizabeth1",
+   "name": "Queen Elizabeth I"
+  },
+  "captain": {
+   "preset": "conquistador",
+   "skin": "light",
+   "beard": "full",
+   "hairColor": "#2A2A2A"
+  }
+ },
+ "voices": {
+  "captain": "am_echo",
+  "elizabeth": "bf_alice"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1588, storms helped save England from a giant Spanish invasion fleet.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.8,
+      "flag": "spain_burgundy",
+      "move": [
+       0.15,
+       0.4
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.7,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "place": "English Channel · July 1588"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spain was the superpower of the day, and its king, Philip the Second, wanted Protestant England back under the Catholic Church.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "place": "Spain · 1588",
+    "tag": {
+     "id": "philip",
+     "text": "King Philip II of Spain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sent about a hundred and thirty ships: the Spanish Armada.",
+   "show": {
+    "k": "card",
+    "label": "The Spanish Armada had about",
+    "big": "130 SHIPS",
+    "sub": "and around 26,000 men"
+   }
+  },
+  {
+   "who": "elizabeth",
+   "say": "Let them come.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "elizabeth",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "elizabeth",
+    "tag": {
+     "id": "elizabeth",
+     "text": "Queen Elizabeth I"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "One night, the English set eight empty ships on fire and let them drift into the Spanish fleet.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.7
+     },
+     {
+      "k": "fire",
+      "x": 0.32,
+      "s": 0.5,
+      "y": 0.1,
+      "front": true
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.7,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "place": "Off Calais · 28 July 1588"
+   }
+  },
+  {
+   "who": "captain",
+   "say": "Fireships! Cut the anchors and run!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "captain",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Armada scattered and fled north, around Scotland and Ireland, where huge storms smashed ships onto the rocks.",
+   "show": {
+    "k": "map",
+    "lon": -3.0,
+    "lat": 55.0,
+    "z0": 1.5,
+    "z1": 1.8,
+    "date": "1588",
+    "labels": [
+     [
+      "Calais",
+      1.86,
+      50.95,
+      0
+     ],
+     [
+      "SCOTLAND",
+      -4.2,
+      57.0,
+      0
+     ],
+     [
+      "IRELAND",
+      -8.0,
+      53.3,
+      0
+     ]
+    ],
+    "route": [
+     [
+      1.86,
+      51.0
+     ],
+     [
+      2.5,
+      54.5
+     ],
+     [
+      0.0,
+      58.5
+     ],
+     [
+      -3.0,
+      59.4
+     ],
+     [
+      -8.0,
+      57.5
+     ],
+     [
+      -10.5,
+      54.0
+     ],
+     [
+      -11.0,
+      51.0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "More than a third never got home. English medals later said: God blew, and they were scattered.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "elizabeth",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "GOD BLEW",
+      "at": 1.5,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "elizabeth",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "philip",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Spanish Armada sailed to invade England. Fireships and storms got in the way.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #spanisharmada #elizabethi #historytok #britishhistory",
+ "youtube_title": "Storms Wrecked the Spanish Armada #shorts",
+ "tags": [
+  "spanish armada",
+  "elizabeth i",
+  "1588",
+  "tudor history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Spanish_Armada",
+  "https://www.historic-uk.com/HistoryUK/HistoryofEngland/Spanish-Armada/",
+  "https://www.history.com/articles/spanish-armada",
+  "https://en.wikipedia.org/wiki/He_blew_with_His_winds,_and_they_were_scattered"
+ ]
+}

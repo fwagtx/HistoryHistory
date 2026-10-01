@@ -1,0 +1,258 @@
+{
+ "id": "2026w47-s16",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "The Year That Lasted 445 Days",
+ "hook": "A 445-DAY YEAR",
+ "music": "playful",
+ "cast": {
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "sosigenes": {
+   "preset": "philosopher",
+   "skin": "olive",
+   "beard": "long",
+   "hairColor": "#B8B0A0",
+   "hold": "scroll",
+   "name": "Sosigenes of Alexandria"
+  },
+  "senator": {
+   "preset": "senator",
+   "name": "Roman senator"
+  },
+  "roman": {
+   "preset": "roman",
+   "name": "Roman citizen"
+  }
+ },
+ "voices": {
+  "sosigenes": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 46 BC, Rome had a year that lasted four hundred and forty-five days.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "445 DAYS"
+     },
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Rome · 46 BC",
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar, ruler of Rome"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The old Roman calendar had just 355 days. Officials were supposed to add an extra month now and then, to match the seasons.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "think"
+     },
+     {
+      "id": "senator",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "355 DAYS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They often skipped it. By Caesar's time, the calendar was about three months off.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "OOPS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "3 MONTHS OFF",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Julius Caesar, Rome's ruler, asked an astronomer from Alexandria named Sosigenes for help.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "sosigenes",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "sosigenes",
+     "text": "Sosigenes, astronomer"
+    }
+   }
+  },
+  {
+   "who": "sosigenes",
+   "say": "Easy. Three hundred sixty-five days, plus a leap day every four years.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "sosigenes",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "sosigenes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But first, Rome had to catch up. So 46 BC got about three extra months stuffed in.",
+   "show": {
+    "k": "card",
+    "label": "Days in the year 46 BC",
+    "big": "445",
+    "sub": "later called the year of confusion"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The new calendar started in 45 BC. With one small fix in 1582, it's basically the calendar on your phone.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "365 + LEAP DAY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sosigenes",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One Roman year lasted 445 days. Here's why.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #calendar #ancientrome #historytok",
+ "youtube_title": "The Year That Lasted 445 Days #shorts",
+ "tags": [
+  "julius caesar",
+  "julian calendar",
+  "year of confusion",
+  "leap year",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/46_BC",
+  "https://en.wikipedia.org/wiki/Julian_calendar",
+  "https://en.wikipedia.org/wiki/Sosigenes_(astronomer)",
+  "https://www.amusingplanet.com/2021/07/46-bc-445-day-year.html"
+ ]
+}

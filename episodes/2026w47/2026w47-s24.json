@@ -1,0 +1,305 @@
+{
+ "id": "2026w47-s24",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "The Ides of March Had Come, But Not Gone",
+ "hook": "THE WARNING CAME TRUE",
+ "music": "playful",
+ "cast": {
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "spurinna": {
+   "skin": "olive",
+   "hair": "bald",
+   "hairColor": "#8A8070",
+   "beard": "long",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "name": "Spurinna, a soothsayer"
+  },
+  "senator": {
+   "preset": "senator",
+   "name": "Roman senator"
+  },
+  "shakespeare": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#6A4A2A",
+   "stache": "thin",
+   "beard": "goatee",
+   "outfit": "coat",
+   "color": "#262322",
+   "hold": "pen",
+   "name": "William Shakespeare"
+  }
+ },
+ "voices": {
+  "caesar": "am_eric",
+  "spurinna": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A soothsayer warned Julius Caesar about one exact day. Caesar laughed at him.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "spurinna",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "scared"
+     },
+     {
+      "id": "caesar",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Rome · 44 BC",
+    "tag": {
+     "id": "spurinna",
+     "text": "Spurinna, soothsayer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 44 BC, Caesar was dictator for life, and many senators feared he wanted to be king.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "senator",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.4
+     },
+     {
+      "k": "crown",
+      "x": 0.8,
+      "s": 0.3
+     }
+    ],
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar, dictator"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius, a Roman writer, says Spurinna, a man who read omens, warned him of danger by the Ides of March.",
+   "show": {
+    "k": "card",
+    "label": "The Ides of March",
+    "big": "MARCH 15",
+    "sub": "the middle of the month on the Roman calendar"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the morning of March 15, Caesar went to a Senate meeting, and spotted Spurinna.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "happy",
+      "walk": [
+       0.2,
+       0.4
+      ]
+     },
+     {
+      "id": "spurinna",
+      "x": 0.7,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Well, the Ides of March have come.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "caesar"
+   }
+  },
+  {
+   "who": "spurinna",
+   "say": "Yes, they have come. But they have not gone.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "spurinna",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "spurinna"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hours later, a group of senators attacked Caesar at the meeting, and killed him.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MARCH 15, 44 BC",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Centuries later, Shakespeare turned the warning into a famous line: beware the Ides of March.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "shakespeare",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "BEWARE THE IDES OF MARCH"
+     }
+    ],
+    "tag": {
+     "id": "shakespeare",
+     "text": "William Shakespeare"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of Caesar's craziest moments.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "spurinna",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He was warned about one day. He laughed. Then that day came.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #idesofmarch #ancientrome #historytok",
+ "youtube_title": "The Ides of March Had Come, But Not Gone #shorts",
+ "tags": [
+  "julius caesar",
+  "ides of march",
+  "spurinna",
+  "soothsayer",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0132:life%3Djul.:chapter%3D81",
+  "https://en.wikipedia.org/wiki/Ides_of_March",
+  "https://www.livius.org/sources/content/suetonius/suetonius-on-the-death-of-caesar/",
+  "https://www.historyskills.com/classroom/ancient-history/caesar-s-assassination-warnings/"
+ ]
+}

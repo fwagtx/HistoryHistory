@@ -1,0 +1,280 @@
+{
+ "id": "2026w47-s02",
+ "format": "short",
+ "date": "2026-11-16",
+ "slot": "09:00",
+ "title": "Cromwell's Head Wasn't Buried Until 1960",
+ "hook": "HEAD BURIED IN 1960",
+ "music": "playful",
+ "cast": {
+  "cromwell": {
+   "outfit": "armor",
+   "color": "#5A4A3A",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "stache": "thin",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Oliver Cromwell"
+  },
+  "charles2": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#8A2A3A",
+   "color2": "#E8C25A",
+   "hair": "curly",
+   "hairColor": "#1A1A1A",
+   "stache": "thin",
+   "skin": "light",
+   "name": "King Charles II"
+  }
+ },
+ "voices": {
+  "charles2": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Oliver Cromwell died in 1658, but his head wasn't buried until 1960.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "cromwell",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Cambridge, England · 1960",
+    "stickers": [
+     {
+      "text": "1960",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cromwell was the general who beat King Charles the First in a civil war, then ran England.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "cromwell",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "England · 1640s",
+    "tag": {
+     "id": "cromwell",
+     "text": "Oliver Cromwell"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1660, Charles's son became King Charles the Second, and his government wanted revenge.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "place": "London · 1660",
+    "tag": {
+     "id": "charles2",
+     "text": "King Charles II"
+    }
+   }
+  },
+  {
+   "who": "charles2",
+   "say": "Cromwell's already dead? Then dig him up.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "charles2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1661, his body was taken from Westminster Abbey, hanged, and his head was cut off.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "cromwell",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "TYBURN"
+     }
+    ],
+    "cam": "still",
+    "place": "London · January 1661"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The head sat on a spike above Westminster Hall for more than twenty years.",
+   "show": {
+    "k": "card",
+    "label": "Cromwell's head stayed on its spike for",
+    "big": "20+ YEARS",
+    "sub": "above Westminster Hall, London"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then it passed between collectors, and was even shown off for money.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "cromwell",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "CROMWELL'S HEAD?"
+     },
+     {
+      "k": "moneypile",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1960, his old Cambridge college finally buried it, in a secret spot.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "cromwell",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.6,
+      "text": "SIDNEY SUSSEX COLLEGE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SECRET SPOT",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cromwell",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "charles2",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Oliver Cromwell died in 1658. His head was buried in 1960.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #olivercromwell #britishhistory #historytok #weirdhistory",
+ "youtube_title": "Cromwell's Head Wasn't Buried Until 1960 #shorts",
+ "tags": [
+  "oliver cromwell",
+  "cromwell's head",
+  "english civil war",
+  "british history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Oliver_Cromwell%27s_head",
+  "https://www.history.co.uk/article/the-unlikely-escapades-of-oliver-cromwells-head",
+  "https://en.wikipedia.org/wiki/Oliver_Cromwell",
+  "https://www.historypod.net/01/30/30th-january-1661-oliver-cromwell-posthumously-executed-two-and-a-half-years-after-his-death/"
+ ]
+}

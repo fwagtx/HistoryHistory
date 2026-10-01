@@ -1,0 +1,308 @@
+{
+ "id": "2026w47-s22",
+ "format": "short",
+ "date": "2026-11-18",
+ "slot": "09:00",
+ "title": "Cleopatra Was Smuggled to Caesar in a Sack",
+ "hook": "SMUGGLED IN A SACK",
+ "music": "playful",
+ "cast": {
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "cleopatra": {
+   "preset": "cleopatra",
+   "name": "Cleopatra"
+  },
+  "apollodorus": {
+   "skin": "tan",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "goatee",
+   "outfit": "tunic",
+   "color": "#2F7A6A",
+   "name": "Apollodorus the Sicilian"
+  },
+  "ptolemy": {
+   "hat": "nemes",
+   "outfit": "egypt",
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "name": "King Ptolemy XIII"
+  }
+ },
+ "voices": {
+  "caesar": "am_eric",
+  "cleopatra": "af_bella",
+  "apollodorus": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Cleopatra may have been smuggled in to meet Julius Caesar, inside a sack.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "apollodorus",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.6,
+      "s": 0.5,
+      "label": "BEDDING"
+     },
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Alexandria, Egypt · 48 BC",
+    "stickers": [
+     {
+      "text": "LEGEND?",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 48 BC, Cleopatra, then twenty-one, was fighting her younger brother, King Ptolemy, to rule Egypt.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "ptolemy",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "cleopatra",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "cleopatra",
+     "text": "Cleopatra, age 21"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Caesar, Rome's top general, had just arrived in Alexandria. Ptolemy's army blocked Cleopatra from the city.",
+   "show": {
+    "k": "map",
+    "lon": 29.0,
+    "lat": 32.5,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "48 BC",
+    "labels": [
+     [
+      "Alexandria",
+      29.92,
+      31.2,
+      14
+     ],
+     [
+      "EGYPT",
+      30.5,
+      29.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      29.92,
+      31.2,
+      0.3,
+      "rgba(168,50,42,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch, a Greek writer, says her friend Apollodorus tied her up in a bedding sack, and carried her past the guards.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "apollodorus",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "smug",
+      "walk": [
+       0.2,
+       0.45
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.6,
+      "s": 0.5,
+      "label": "BEDDING"
+     }
+    ],
+    "tag": {
+     "id": "apollodorus",
+     "text": "Apollodorus the Sicilian"
+    }
+   }
+  },
+  {
+   "who": "apollodorus",
+   "say": "Delivery for Caesar! Just some bedding.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "apollodorus",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "caesar",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.4,
+      "label": "BEDDING"
+     }
+    ],
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    }
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Why is the bedding moving?"
+  },
+  {
+   "who": "cleopatra",
+   "say": "Hello, Caesar. We need to talk.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "caesar",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Movies turned it into a rug, and historians aren't sure it happened. But Caesar did back Cleopatra, and she ended up ruling Egypt.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of Caesar's craziest moments.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cleopatra",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "caesar",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Cleopatra's secret entrance: a bedding sack. Maybe.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #cleopatra #juliuscaesar #ancientegypt #historytok",
+ "youtube_title": "Cleopatra Was Smuggled to Caesar in a Sack #shorts",
+ "tags": [
+  "cleopatra",
+  "julius caesar",
+  "apollodorus",
+  "ancient egypt",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html",
+  "https://bingweb.binghamton.edu/~jstarks/cleoplut.html",
+  "https://en.wikipedia.org/wiki/Apollodorus_the_Sicilian",
+  "https://en.wikipedia.org/wiki/Cleopatra"
+ ]
+}

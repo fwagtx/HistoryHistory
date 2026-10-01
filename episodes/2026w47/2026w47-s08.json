@@ -1,0 +1,275 @@
+{
+ "id": "2026w47-s08",
+ "format": "short",
+ "date": "2026-11-16",
+ "slot": "09:00",
+ "title": "Magna Carta Was Cancelled After 10 Weeks",
+ "hook": "CANCELLED AFTER 10 WEEKS",
+ "music": "playful",
+ "cast": {
+  "kingjohn": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#2F4A8A",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#6A3A1A",
+   "skin": "light",
+   "name": "King John"
+  },
+  "baron": {
+   "preset": "knight",
+   "color": "#6A3E8E",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "scroll"
+  },
+  "innocent": {
+   "preset": "pope",
+   "skin": "light",
+   "name": "Pope Innocent III"
+  }
+ },
+ "voices": {
+  "kingjohn": "am_liam",
+  "baron": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Magna Carta is one of the most famous documents ever, and it was cancelled after about ten weeks.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "baron",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.7,
+      "text": "MAGNA CARTA"
+     }
+    ],
+    "place": "Runnymede, England · June 1215"
+   }
+  },
+  {
+   "who": "N",
+   "say": "King John of England had lost wars in France and taxed his barons, the powerful lords, very heavily.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "kingjohn",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "kingjohn",
+     "text": "King John"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the barons rebelled and captured London.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "baron",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "baron",
+   "say": "Sign this. Even a king has to follow the law.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "baron",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "kingjohn",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "baron"
+   }
+  },
+  {
+   "who": "kingjohn",
+   "say": "Fine. I promise.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "kingjohn",
+      "x": 0.5,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "pen"
+     }
+    ],
+    "cam": "close",
+    "focus": "kingjohn"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He didn't mean it. John asked the Pope for help, and in August 1215, the Pope declared the charter null and void.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "innocent",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "NULL AND VOID"
+     }
+    ],
+    "place": "Rome · August 1215",
+    "tag": {
+     "id": "innocent",
+     "text": "Pope Innocent III"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "War broke out. But John died the next year, and his son's government brought the charter back.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "baron",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Three of its clauses are still law in England today.",
+   "show": {
+    "k": "card",
+    "label": "Magna Carta clauses still in force",
+    "big": "3",
+    "sub": "800 years later"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kingjohn",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "sad"
+     },
+     {
+      "id": "baron",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Magna Carta was cancelled by the Pope about ten weeks after King John sealed it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #magnacarta #medievalhistory #historytok #britishhistory",
+ "youtube_title": "Magna Carta Was Cancelled After 10 Weeks #shorts",
+ "tags": [
+  "magna carta",
+  "king john",
+  "1215",
+  "medieval england",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Magna_Carta",
+  "https://commonslibrary.parliament.uk/magna-carta-does-it-still-matter/",
+  "https://www.nationalarchives.gov.uk/education/resources/magna-carta/british-library-magna-carta-1215-runnymede/",
+  "https://www.ebsco.com/research-starters/history/english-civil-war-1215-1217"
+ ]
+}

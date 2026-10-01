@@ -1,0 +1,316 @@
+{
+ "id": "2026w47-s07",
+ "format": "short",
+ "date": "2026-11-16",
+ "slot": "09:00",
+ "title": "Rome Built a Wall Across Britain",
+ "hook": "A WALL ACROSS BRITAIN",
+ "music": "playful",
+ "cast": {
+  "hadrian": {
+   "preset": "roman",
+   "hat": "laurel",
+   "beard": "full",
+   "hairColor": "#5A3A1A",
+   "skin": "olive",
+   "name": "Emperor Hadrian"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "skin": "olive"
+  }
+ },
+ "voices": {
+  "hadrian": "am_eric",
+  "legionary": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Nearly two thousand years ago, Rome built a wall right across Britain.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.7,
+      "s": 0.8
+     }
+    ],
+    "place": "Northern England · 122 AD",
+    "stickers": [
+     {
+      "text": "122 AD",
+      "at": 1.2,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Hadrian, who ruled the Roman Empire, visited Britain in 122 AD.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "hadrian",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "hadrian",
+     "text": "Emperor Hadrian"
+    }
+   }
+  },
+  {
+   "who": "hadrian",
+   "say": "Let's build a wall, from sea to sea.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hadrian",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.68,
+      "pose": "salute",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "hadrian"
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "All of it, sir?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "legionary"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Roman soldiers built it, and it took at least six years.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "sad",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "6+ YEARS",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It ran seventy-three miles, from the North Sea coast to the Irish Sea.",
+   "show": {
+    "k": "map",
+    "lon": -2.4,
+    "lat": 55.0,
+    "z0": 3.0,
+    "z1": 3.4,
+    "date": "122 AD",
+    "labels": [
+     [
+      "Wallsend",
+      -1.53,
+      54.99,
+      0
+     ],
+     [
+      "Bowness",
+      -3.22,
+      54.95,
+      0
+     ],
+     [
+      "SCOTLAND",
+      -3.6,
+      55.8,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -3.22,
+      54.95
+     ],
+     [
+      -2.9,
+      54.95
+     ],
+     [
+      -2.4,
+      55.0
+     ],
+     [
+      -2.0,
+      55.0
+     ],
+     [
+      -1.53,
+      54.99
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "About every mile there was a small fort with a gate, so people could cross, but only where Rome let them.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.7,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHECKPOINT",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the wall wasn't just for keeping enemies out. It helped Rome control who and what came through.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.75,
+      "s": 0.6,
+      "load": "gold"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hadrian",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome built a 73-mile wall across Britain in about six years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hadrianswall #romanempire #historytok #ancientrome",
+ "youtube_title": "Rome Built a Wall Across Britain #shorts",
+ "tags": [
+  "hadrian's wall",
+  "roman britain",
+  "emperor hadrian",
+  "roman empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hadrian%27s_Wall",
+  "https://www.english-heritage.org.uk/faqs-hadrians-wall/",
+  "https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/"
+ ]
+}
