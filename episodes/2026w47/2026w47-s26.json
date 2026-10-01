@@ -1,0 +1,246 @@
+{
+ "id": "2026w47-s26",
+ "format": "short",
+ "date": "2026-11-20",
+ "slot": "09:00",
+ "title": "At 16, Rockefeller Tracked Every Cent He Spent",
+ "hook": "HE TRACKED EVERY CENT",
+ "music": "playful",
+ "cast": {
+  "rockyoung": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#8A5A3A",
+   "stache": "bush",
+   "stubble": true,
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "John D. Rockefeller"
+  },
+  "rocky": {
+   "skin": "light",
+   "hair": "bald",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "name": "John D. Rockefeller"
+  },
+  "friend": {
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "coat",
+   "color": "#6A4A2A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "name": "Boarding-house friend"
+  }
+ },
+ "voices": {
+  "rockyoung": "am_eric",
+  "rocky": "am_eric",
+  "friend": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "At sixteen, the future richest man in America wrote down every single cent he spent.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "place": "Cleveland, Ohio · 1855",
+    "tag": {
+     "id": "rockyoung",
+     "text": "John D. Rockefeller, age 16"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "John D. Rockefeller had just landed his first job, as an assistant bookkeeper. That's the person who records a company's money.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he bought a little notebook for his own money, and called it Ledger A.",
+   "show": {
+    "k": "card",
+    "label": "His personal account book, 1855 to 1856",
+    "big": "LEDGER A",
+    "sub": "every cent earned, spent and given away"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rent, food, a little clothing, and regular gifts to his church. Every penny went in, neatly added up.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "RENT · FOOD · CHURCH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "friend",
+   "say": "John, it's ten cents. Who cares?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "shrug"
+     },
+     {
+      "id": "rockyoung",
+      "x": 0.65,
+      "mood": "angry",
+      "hold": "book"
+     }
+    ]
+   }
+  },
+  {
+   "who": "rockyoung",
+   "say": "I care. It goes in the ledger."
+  },
+  {
+   "who": "N",
+   "say": "Fifty years later, he showed it to a Bible class, and his voice choked up.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.45,
+      "mood": "sad",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "New York City · 1900s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tracking every cost became his superpower, and it helped him build Standard Oil.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "factory",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "book"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The richest American ever started by tracking every cent in a notebook.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rockefeller #ledgera #moneyhistory #historytok",
+ "youtube_title": "At 16, Rockefeller Tracked Every Cent He Spent #shorts",
+ "tags": [
+  "ledger a",
+  "john d rockefeller",
+  "rockefeller habits",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.empireadc.org/search/catalog/nnttr_fa002_3894cc5f1f1c5df8d93faa8c71574847",
+  "https://www.philanthropyroundtable.org/magazine/the-rockefeller-legacy/",
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+  "https://www.pbs.org/wgbh/americanexperience/features/rockefellers-timeline/"
+ ]
+}

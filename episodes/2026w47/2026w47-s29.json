@@ -1,0 +1,269 @@
+{
+ "id": "2026w47-s29",
+ "format": "short",
+ "date": "2026-11-20",
+ "slot": "09:00",
+ "title": "Young Rockefeller Lent a Farmer $50 at Interest",
+ "hook": "THE KID WHO LENT MONEY",
+ "music": "playful",
+ "cast": {
+  "rocky": {
+   "skin": "light",
+   "hair": "bald",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "name": "John D. Rockefeller"
+  },
+  "kidjohn": {
+   "preset": "child",
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#8A5A3A",
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "name": "Young John D. Rockefeller"
+  },
+  "farmer": {
+   "preset": "farmer",
+   "skin": "light",
+   "hat": "straw",
+   "outfit": "overalls",
+   "color": "#6A5A3A",
+   "beard": "full",
+   "hairColor": "#8A6A3A",
+   "name": "Neighbor farmer"
+  }
+ },
+ "voices": {
+  "rocky": "am_eric",
+  "kidjohn": "am_puck",
+  "farmer": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "As a boy, John D. Rockefeller lent fifty dollars to a grown-up farmer, and charged him interest.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kidjohn",
+      "x": 0.35,
+      "mood": "smug"
+     },
+     {
+      "id": "farmer",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.5
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Upstate New York · about 1850",
+    "tag": {
+     "id": "kidjohn",
+     "text": "Young John D. Rockefeller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He earned the money raising turkeys and doing chores for neighbors.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "kidjohn",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "chicken"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "$50"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TURKEY MONEY",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "Say, young man, could you lend me fifty dollars?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "shrug"
+     },
+     {
+      "id": "kidjohn",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "kidjohn",
+   "say": "Sure. At seven percent interest, please."
+  },
+  {
+   "who": "N",
+   "say": "Interest is the extra money you pay for borrowing money.",
+   "show": {
+    "k": "card",
+    "label": "The deal",
+    "big": "$50 at 7%",
+    "sub": "to be paid back in one year"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A year later, the farmer paid back fifty three dollars and fifty cents.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     },
+     {
+      "id": "kidjohn",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "+$3.50",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "John did no extra work for that three fifty. His money did the work for him.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "kidjohn",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "$53.50"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He later wrote that it taught him to let money be his servant, not his master. He went on to become America's richest man.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kidjohn",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "chicken"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "As a boy, Rockefeller lent a farmer $50 and charged 7% interest.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rockefeller #money #moneyhistory #historytok",
+ "youtube_title": "Young Rockefeller Lent a Farmer $50 at Interest #shorts",
+ "tags": [
+  "john d rockefeller",
+  "childhood",
+  "interest",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.pbs.org/wgbh/americanexperience/features/rockefellers-john/",
+  "https://www.gilderlehrman.org/history-resources/essays/power-make-money-gift-god-life-and-fortune-john-d-rockefeller",
+  "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/random-reminiscences",
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller"
+ ]
+}

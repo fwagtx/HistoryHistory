@@ -1,0 +1,281 @@
+{
+ "id": "2026w47-s34",
+ "format": "short",
+ "date": "2026-11-20",
+ "slot": "09:00",
+ "title": "The Richest Man in America Handed Out Dimes",
+ "hook": "HE HANDED OUT DIMES",
+ "music": "playful",
+ "cast": {
+  "rocky": {
+   "skin": "light",
+   "hair": "bald",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "name": "John D. Rockefeller"
+  },
+  "kid": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#2F5A7A",
+   "outfit": "coat",
+   "color": "#2F7A6A",
+   "hairColor": "#8A5A2A",
+   "name": "Kid"
+  },
+  "firestone": {
+   "skin": "light",
+   "hat": "fedora",
+   "hatColor": "#6A6A6A",
+   "outfit": "suit",
+   "color": "#6A5A4A",
+   "tie": true,
+   "hair": "side",
+   "hairColor": "#9A9A9A",
+   "name": "Harvey Firestone"
+  }
+ },
+ "voices": {
+  "rocky": "am_eric",
+  "kid": "af_heart",
+  "firestone": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "America's richest man spent his old age handing out shiny dimes to people he met.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "coin"
+     },
+     {
+      "id": "kid",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Ormond Beach, Florida · 1920s",
+    "tag": {
+     "id": "rocky",
+     "text": "John D. Rockefeller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "John D. Rockefeller, the oil king, gave dimes to kids, workers, and even famous friends.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "car",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "rocky",
+   "say": "Here's a dime. Save it, young man.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "smug",
+      "hold": "coin"
+     },
+     {
+      "id": "kid",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "CANDY"
+     }
+    ],
+    "cam": "close",
+    "focus": "rocky"
+   }
+  },
+  {
+   "who": "kid",
+   "say": "Wow! Thanks, mister!"
+  },
+  {
+   "who": "N",
+   "say": "By one estimate, he gave away tens of thousands of them.",
+   "show": {
+    "k": "card",
+    "label": "Dimes Rockefeller handed out",
+    "big": "TENS OF THOUSANDS",
+    "sub": "estimates vary"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He once handed one to tire maker Harvey Firestone, just for hitting a good golf shot.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "firestone",
+      "x": 0.35,
+      "mood": "shock"
+     },
+     {
+      "id": "rocky",
+      "x": 0.65,
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "GOLF"
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "firestone",
+     "text": "Harvey Firestone, tire maker"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians note it was also great publicity, after years of bad press about Standard Oil.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.12,
+      "s": 0.45,
+      "text": "PRESS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Still, a dime from the richest man alive was a story people told for the rest of their lives.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "coin"
+     },
+     {
+      "id": "kid",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The richest American ever loved handing out dimes to strangers.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rockefeller #dimes #funnyhistory #historytok",
+ "youtube_title": "The Richest Man in America Handed Out Dimes #shorts",
+ "tags": [
+  "john d rockefeller",
+  "rockefeller dimes",
+  "richest man",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.newworldencyclopedia.org/entry/John_D._Rockefeller",
+  "https://en.wikipedia.org/wiki/The_Casements",
+  "https://en.wikipedia.org/wiki/Ivy_Lee",
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+  "https://www.pbs.org/wgbh/americanexperience/features/rockefellers-john/"
+ ]
+}

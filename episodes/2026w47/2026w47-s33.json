@@ -1,0 +1,289 @@
+{
+ "id": "2026w47-s33",
+ "format": "short",
+ "date": "2026-11-20",
+ "slot": "09:00",
+ "title": "The Reporter Who Took On Rockefeller",
+ "hook": "SHE TOOK ON ROCKEFELLER",
+ "music": "playful",
+ "cast": {
+  "refiner": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#4A4A4A",
+   "outfit": "overalls",
+   "color": "#3A5A7A",
+   "stache": "bush",
+   "hairColor": "#8A5A2A",
+   "name": "Small refiner"
+  },
+  "tarbell": {
+   "skin": "light",
+   "outfit": "gown",
+   "color": "#2A2A3A",
+   "color2": "#E8E0CC",
+   "hair": "bun",
+   "hairColor": "#4A3A2A",
+   "hold": "pen",
+   "name": "Ida Tarbell"
+  },
+  "newsboy": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#8A6A3A",
+   "hairColor": "#C89A5A",
+   "hold": "letter",
+   "name": "Newsboy"
+  },
+  "judge": {
+   "preset": "judge",
+   "skin": "light",
+   "hat": "",
+   "hair": "short",
+   "hairColor": "#E8E4DA",
+   "stache": "walrus",
+   "name": "Chief Justice Edward White"
+  }
+ },
+ "voices": {
+  "refiner": "am_liam",
+  "tarbell": "bf_alice",
+  "newsboy": "am_puck",
+  "judge": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One reporter helped take down the most powerful company in America.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "tarbell",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "RECORDS"
+     }
+    ],
+    "place": "New York City · 1902",
+    "tag": {
+     "id": "tarbell",
+     "text": "Ida Tarbell, journalist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ida Tarbell grew up in Pennsylvania's oil country, where her father built wooden oil tanks.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "tarbell",
+      "x": 0.4,
+      "mood": "happy",
+      "s": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "place": "Pennsylvania · 1872"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1872, when she was fourteen, a secret railroad deal involving John D. Rockefeller hurt small oil men like her dad.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "refiner",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.6,
+      "s": 0.8,
+      "move": [
+       0.3,
+       0.8
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Thirty years later, she dug through records and wrote nineteen articles for McClure's magazine.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "tarbell",
+      "x": 0.4,
+      "mood": "neutral",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.5,
+      "label": "FILES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "tarbell",
+   "say": "Secret railroad deals. Price wars. It's all in the records.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "tarbell",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "cam": "close",
+    "focus": "tarbell"
+   }
+  },
+  {
+   "who": "newsboy",
+   "say": "Extra! Extra! Read all about Standard Oil!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "newsboy",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "McCLURE'S"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her series became a best-selling book in 1904, and the government sued Standard Oil.",
+   "show": {
+    "k": "card",
+    "label": "Ida Tarbell in McClure's Magazine",
+    "big": "19 articles",
+    "sub": "1902 to 1904, then a best-selling book"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1911, the Supreme Court broke Standard Oil into thirty four companies. One reporter, one giant.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "judge",
+      "x": 0.5,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.6,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Washington, D.C. · 1911"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tarbell",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "pen"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Her dad's oil business was hurt. 30 years later she exposed Standard Oil.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #idatarbell #rockefeller #womeninhistory #historytok",
+ "youtube_title": "The Reporter Who Took On Rockefeller #shorts",
+ "tags": [
+  "ida tarbell",
+  "standard oil",
+  "muckraker",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ida_Tarbell",
+  "https://www.britannica.com/biography/Ida-Tarbell",
+  "https://energyhistory.yale.edu/ida-m-tarbell-the-history-of-the-standard-oil-company-1904/",
+  "https://www.smithsonianmag.com/history/the-woman-who-took-on-the-tycoon-651396/",
+  "https://en.wikipedia.org/wiki/The_History_of_the_Standard_Oil_Company",
+  "https://en.wikipedia.org/wiki/South_Improvement_Company"
+ ]
+}

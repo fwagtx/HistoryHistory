@@ -1,0 +1,259 @@
+{
+ "id": "2026w47-s27",
+ "format": "short",
+ "date": "2026-11-20",
+ "slot": "09:00",
+ "title": "Rockefeller Celebrated His First Job Every Year",
+ "hook": "HE CELEBRATED JOB DAY",
+ "music": "playful",
+ "cast": {
+  "rockyoung": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#8A5A3A",
+   "stache": "bush",
+   "stubble": true,
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "John D. Rockefeller"
+  },
+  "rocky": {
+   "skin": "light",
+   "hair": "bald",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "name": "John D. Rockefeller"
+  },
+  "clerk": {
+   "preset": "merchant",
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#3A3A3A",
+   "stache": "walrus",
+   "hairColor": "#6A6A6A",
+   "name": "Cleveland shopkeeper"
+  }
+ },
+ "voices": {
+  "rockyoung": "am_eric",
+  "rocky": "am_eric",
+  "clerk": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Every September twenty sixth, America's richest man celebrated the day he got his very first job.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "JOB DAY"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "place": "USA · Sept 26, 1855–1937",
+    "tag": {
+     "id": "rocky",
+     "text": "John D. Rockefeller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back in 1855, John D. Rockefeller was sixteen and living in Cleveland, Ohio.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Cleveland, Ohio · 1855"
+   }
+  },
+  {
+   "who": "N",
+   "say": "For weeks he walked from office to office in his best suit, asking for work.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "walk",
+      "walk": [
+       0.2,
+       0.4
+      ]
+     },
+     {
+      "id": "clerk",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "clerk",
+   "say": "Sorry, kid. Nothing here.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "clerk",
+      "x": 0.68,
+      "mood": "neutral",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.82,
+      "s": 0.45,
+      "text": "NO JOBS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Finally, on September twenty sixth, a produce shipping firm hired him as an assistant bookkeeper.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HIRED!",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was so grateful that he celebrated that date every year for the rest of his life.",
+   "show": {
+    "k": "card",
+    "label": "Rockefeller's favorite holiday",
+    "big": "SEPT 26",
+    "sub": "\"Job Day\", from 1855 until he died in 1937"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the richest American ever never forgot how it felt to be a teenager looking for work.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "America's richest man celebrated his first job every single year.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rockefeller #jobday #moneyhistory #historytok",
+ "youtube_title": "Rockefeller Celebrated His First Job Every Year #shorts",
+ "tags": [
+  "job day",
+  "john d rockefeller",
+  "first job",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.pbs.org/wgbh/americanexperience/features/rockefellers-timeline/",
+  "https://www.pbs.org/wgbh/americanexperience/features/rockefellers-john/",
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+  "https://www.philanthropyroundtable.org/hall-of-fame/john-rockefeller-sr/"
+ ]
+}

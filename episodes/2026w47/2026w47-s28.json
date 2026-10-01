@@ -1,0 +1,258 @@
+{
+ "id": "2026w47-s28",
+ "format": "short",
+ "date": "2026-11-20",
+ "slot": "09:00",
+ "title": "Rockefeller's Dad Was a Con Man",
+ "hook": "HIS DAD WAS A CONMAN",
+ "music": "playful",
+ "cast": {
+  "kidjohn": {
+   "preset": "child",
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#8A5A3A",
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "name": "Young John D. Rockefeller"
+  },
+  "devilbill": {
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "name": "William \"Devil Bill\" Rockefeller"
+  },
+  "eliza": {
+   "skin": "light",
+   "hat": "bonnet",
+   "hatColor": "#3A3A3A",
+   "outfit": "dress",
+   "color": "#3A3A4A",
+   "hair": "bun",
+   "hairColor": "#5A3A22",
+   "name": "Eliza Davison Rockefeller"
+  }
+ },
+ "voices": {
+  "kidjohn": "am_puck",
+  "devilbill": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The father of America's richest man was a traveling con man.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "devilbill",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.18,
+      "s": 0.5,
+      "label": "MIRACLE CURE"
+     }
+    ],
+    "place": "New York State · 1840s",
+    "tag": {
+     "id": "devilbill",
+     "text": "William \"Devil Bill\" Rockefeller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "William Rockefeller, John D. Rockefeller's dad, had a nickname that says it all: Devil Bill.",
+   "show": {
+    "k": "card",
+    "label": "His nickname",
+    "big": "DEVIL BILL",
+    "sub": "William Avery Rockefeller, 1810 to 1906",
+    "cast": [
+     {
+      "id": "devilbill",
+      "x": 0.85,
+      "s": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sold bottles of so-called medicine and called himself a doctor. He wasn't one.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "devilbill",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "DR. BILL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "devilbill",
+   "say": "Step right up! One bottle cures everything!"
+  },
+  {
+   "who": "N",
+   "say": "Later, using the fake name Doctor William Levingston, he secretly married another woman, while still married to John's mom.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "devilbill",
+      "x": 0.4,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.45,
+      "text": "DR. LEVINGSTON?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE NAME",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Young John turned out the opposite: careful, religious and super serious about money.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kidjohn",
+      "x": 0.4,
+      "mood": "neutral",
+      "hold": "book"
+     },
+     {
+      "id": "eliza",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "eliza",
+     "text": "Eliza, John's mother"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think his strict mother, Eliza, shaped him, and maybe his wild dad did too, as an example of what not to be.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "eliza",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "point"
+     },
+     {
+      "id": "kidjohn",
+      "x": 0.65,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.85,
+      "s": 0.4,
+      "label": "SAVINGS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "devilbill",
+      "x": 0.3,
+      "mood": "smug",
+      "hold": "bottle"
+     },
+     {
+      "id": "kidjohn",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "America's richest man was raised by a con man called Devil Bill.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rockefeller #conman #funnyhistory #historytok",
+ "youtube_title": "Rockefeller's Dad Was a Con Man #shorts",
+ "tags": [
+  "devil bill",
+  "william avery rockefeller",
+  "john d rockefeller",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/William_Rockefeller_Sr.",
+  "https://historynet.com/john-d-rockefeller-sr-s-pap-was-a-con-man/",
+  "https://www.inforum.com/lifestyle/the-rockefeller-who-hid-in-north-dakota",
+  "https://www.pbs.org/wgbh/americanexperience/features/rockefellers-john/",
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller"
+ ]
+}

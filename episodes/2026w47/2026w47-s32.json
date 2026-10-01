@@ -1,0 +1,276 @@
+{
+ "id": "2026w47-s32",
+ "format": "short",
+ "date": "2026-11-20",
+ "slot": "09:00",
+ "title": "Rockefeller Made His Own Barrels for 96 Cents",
+ "hook": "HE MADE HIS OWN BARRELS",
+ "music": "playful",
+ "cast": {
+  "rockyoung": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#8A5A3A",
+   "stache": "bush",
+   "stubble": true,
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "John D. Rockefeller"
+  },
+  "cooper": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#6A4A2A",
+   "outfit": "tunic",
+   "color": "#8A6A3A",
+   "apron": true,
+   "stache": "walrus",
+   "hairColor": "#5A3A22",
+   "hold": "hammer",
+   "name": "Barrel maker"
+  },
+  "canworker": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "overalls",
+   "color": "#4A5A6A",
+   "stubble": true,
+   "hairColor": "#3A2A1A",
+   "name": "Plant worker"
+  }
+ },
+ "voices": {
+  "rockyoung": "am_eric",
+  "cooper": "am_echo",
+  "canworker": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "John D. Rockefeller cut the cost of an oil barrel by more than half, by making it himself.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.68,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "place": "Cleveland, Ohio · late 1860s",
+    "tag": {
+     "id": "rockyoung",
+     "text": "John D. Rockefeller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, oil was shipped in wooden barrels, and barrel makers charged about two dollars fifty each.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "cooper",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "rockyoung",
+      "x": 0.68,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "cooper",
+   "say": "Two fifty a barrel. Take it or leave it."
+  },
+  {
+   "who": "rockyoung",
+   "say": "I'll leave it, thanks."
+  },
+  {
+   "who": "N",
+   "say": "So he bought his own oak forests, and dried the wood in kilns, which are giant ovens.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.6,
+      "s": 0.7
+     },
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "wagon",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Dry wood is lighter, so his barrels were also cheaper to haul around.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "canworker",
+      "x": 0.35,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.6,
+      "s": 0.7,
+      "move": [
+       0.4,
+       0.75
+      ]
+     },
+     {
+      "k": "barrel",
+      "x": 0.6,
+      "s": 0.4,
+      "y": 0.1,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His cost dropped to about ninety six cents a barrel.",
+   "show": {
+    "k": "compare",
+    "bg": "factory",
+    "left": {
+     "label": "BARREL MAKERS: $2.50",
+     "cast": [
+      {
+       "id": "cooper",
+       "mood": "smug"
+      }
+     ]
+    },
+    "right": {
+     "label": "ROCKEFELLER: 96¢",
+     "cast": [
+      {
+       "id": "rockyoung",
+       "mood": "happy"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Savings like that, repeated millions of times, are how Standard Oil beat its rivals on price.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "cooper",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Barrel makers charged $2.50. Rockefeller made his own for 96 cents.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rockefeller #standardoil #business #historytok",
+ "youtube_title": "Rockefeller Made His Own Barrels for 96 Cents #shorts",
+ "tags": [
+  "john d rockefeller",
+  "standard oil",
+  "oil barrel",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://fee.org/articles/john-d-rockefeller-and-the-oil-industry/",
+  "https://oilprice.com/Energy/Energy-General/The-Real-History-Of-The-Standard-Oil-Company-Part-2-The-Beginning.html",
+  "https://aoghs.org/transportation/history-of-the-42-gallon-oil-barrel/",
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller"
+ ]
+}

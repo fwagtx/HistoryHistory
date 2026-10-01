@@ -1,0 +1,2600 @@
+{
+ "id": "2026w47-l3",
+ "format": "long",
+ "date": "2026-11-20",
+ "title": "John D. Rockefeller: The Richest American Ever",
+ "music": "playful",
+ "cast": {
+  "rockyoung": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#8A5A3A",
+   "stache": "bush",
+   "stubble": true,
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "John D. Rockefeller"
+  },
+  "rocky": {
+   "skin": "light",
+   "hair": "bald",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "name": "John D. Rockefeller"
+  },
+  "kidjohn": {
+   "preset": "child",
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#8A5A3A",
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "name": "Young John D. Rockefeller"
+  },
+  "devilbill": {
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "name": "William \"Devil Bill\" Rockefeller"
+  },
+  "eliza": {
+   "skin": "light",
+   "hat": "bonnet",
+   "hatColor": "#3A3A3A",
+   "outfit": "dress",
+   "color": "#3A3A4A",
+   "hair": "bun",
+   "hairColor": "#5A3A22",
+   "name": "Eliza Davison Rockefeller"
+  },
+  "farmer": {
+   "preset": "farmer",
+   "skin": "light",
+   "hat": "straw",
+   "outfit": "overalls",
+   "color": "#6A5A3A",
+   "beard": "full",
+   "hairColor": "#8A6A3A",
+   "name": "Neighbor farmer"
+  },
+  "clerk": {
+   "preset": "merchant",
+   "skin": "light",
+   "hat": "bowler",
+   "hatColor": "#3A3A3A",
+   "stache": "walrus",
+   "hairColor": "#6A6A6A",
+   "name": "Cleveland shopkeeper"
+  },
+  "hewitt": {
+   "skin": "light",
+   "outfit": "suit",
+   "color": "#4A3A2A",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#7A7A7A",
+   "glasses": "round",
+   "name": "Isaac Hewitt, merchant"
+  },
+  "drake": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#2A2A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "beard": "full",
+   "hairColor": "#5A4A3A",
+   "name": "Edwin Drake"
+  },
+  "clark": {
+   "skin": "light",
+   "outfit": "suit",
+   "color": "#4A4A3A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "stache": "bush",
+   "beard": "goatee",
+   "name": "Maurice Clark"
+  },
+  "railman": {
+   "preset": "businessman",
+   "skin": "light",
+   "hat": "tophat",
+   "hatColor": "#1E1C1B",
+   "stache": "handlebar",
+   "hairColor": "#5A4A3A",
+   "hold": "letter",
+   "name": "Railroad boss"
+  },
+  "refiner": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#4A4A4A",
+   "outfit": "overalls",
+   "color": "#3A5A7A",
+   "stache": "bush",
+   "hairColor": "#8A5A2A",
+   "name": "Small refiner"
+  },
+  "cooper": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#6A4A2A",
+   "outfit": "tunic",
+   "color": "#8A6A3A",
+   "apron": true,
+   "stache": "walrus",
+   "hairColor": "#5A3A22",
+   "hold": "hammer",
+   "name": "Barrel maker"
+  },
+  "canworker": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "overalls",
+   "color": "#4A5A6A",
+   "stubble": true,
+   "hairColor": "#3A2A1A",
+   "name": "Plant worker"
+  },
+  "tarbell": {
+   "skin": "light",
+   "outfit": "gown",
+   "color": "#2A2A3A",
+   "color2": "#E8E0CC",
+   "hair": "bun",
+   "hairColor": "#4A3A2A",
+   "hold": "pen",
+   "name": "Ida Tarbell"
+  },
+  "newsboy": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#8A6A3A",
+   "hairColor": "#C89A5A",
+   "hold": "letter",
+   "name": "Newsboy"
+  },
+  "judge": {
+   "preset": "judge",
+   "skin": "light",
+   "hat": "",
+   "hair": "short",
+   "hairColor": "#E8E4DA",
+   "stache": "walrus",
+   "name": "Chief Justice Edward White"
+  },
+  "lennon": {
+   "skin": "light",
+   "outfit": "robe",
+   "color": "#1E1C1B",
+   "hair": "short",
+   "hairColor": "#7A7A7A",
+   "glasses": "round",
+   "name": "Father J.P. Lennon"
+  },
+  "kid": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#2F5A7A",
+   "outfit": "coat",
+   "color": "#2F7A6A",
+   "hairColor": "#8A5A2A",
+   "name": "Kid"
+  },
+  "doctor": {
+   "skin": "light",
+   "hat": "straw",
+   "outfit": "labcoat",
+   "color": "#F2EEE4",
+   "stache": "bush",
+   "hairColor": "#5A4A3A",
+   "glasses": "round",
+   "hold": "bottle",
+   "name": "Hookworm doctor"
+  },
+  "sickfarmer": {
+   "preset": "farmer",
+   "skin": "light",
+   "hat": "straw",
+   "outfit": "overalls",
+   "color": "#6A6A4A",
+   "stubble": true,
+   "hairColor": "#8A6A3A",
+   "beard": "",
+   "name": "Southern farmer"
+  },
+  "friend": {
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "coat",
+   "color": "#6A4A2A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "name": "Boarding-house friend"
+  }
+ },
+ "voices": {
+  "rockyoung": "am_eric",
+  "rocky": "am_eric",
+  "kidjohn": "am_puck",
+  "devilbill": "am_fenrir",
+  "farmer": "am_echo",
+  "clerk": "bm_lewis",
+  "hewitt": "bm_george",
+  "clark": "bm_george",
+  "railman": "bm_lewis",
+  "refiner": "am_liam",
+  "cooper": "am_echo",
+  "canworker": "am_liam",
+  "tarbell": "bf_alice",
+  "newsboy": "am_puck",
+  "judge": "bm_daniel",
+  "lennon": "bm_daniel",
+  "kid": "af_heart",
+  "doctor": "bm_daniel",
+  "sickfarmer": "am_echo",
+  "friend": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "It's May 1911, and America's richest man is out playing golf.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "hold"
+     },
+     {
+      "id": "lennon",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.6,
+      "flag": "usa1859"
+     },
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.7
+     },
+     {
+      "k": "sign",
+      "x": 0.55,
+      "s": 0.45,
+      "text": "GOLF"
+     }
+    ],
+    "place": "New York · May 1911",
+    "tag": {
+     "id": "rocky",
+     "text": "John D. Rockefeller, oil king"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He's John D. Rockefeller, and his company, Standard Oil, has controlled most of America's oil business for decades."
+  },
+  {
+   "who": "N",
+   "say": "Then news arrives. The Supreme Court, America's top court, has just ordered Standard Oil broken into pieces.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "judge",
+      "x": 0.5,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.7,
+      "front": true
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "usa1859"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BREAK IT UP!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most people would panic. Rockefeller just turns to his golf partner, a Catholic priest.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "think"
+     },
+     {
+      "id": "lennon",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "lennon",
+     "text": "Father J.P. Lennon"
+    }
+   }
+  },
+  {
+   "who": "rocky",
+   "say": "Father Lennon, have you some money?",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.38,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "lennon",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "rocky"
+   }
+  },
+  {
+   "who": "lennon",
+   "say": "No. Why?"
+  },
+  {
+   "who": "rocky",
+   "say": "Buy Standard Oil."
+  },
+  {
+   "who": "N",
+   "say": "That story comes from Rockefeller's biographers. And he was right: getting broken up made him even richer.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.8,
+      "enter": "pop"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "EVEN RICHER",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how did a con man's son become the richest American who ever lived? Let's go back to the start."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "John D. Rockefeller: The Richest American Ever",
+    "sub": "from a notebook to a fortune",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.88,
+      "s": 0.8,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1839",
+    "title": "The Con Man's Son",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "John Davison Rockefeller was born in 1839 on a small farm in Richford, New York.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kidjohn",
+      "x": 0.4,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.7
+     },
+     {
+      "k": "wagon",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "place": "Richford, New York · 1839",
+    "tag": {
+     "id": "kidjohn",
+     "text": "Little John D. Rockefeller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His dad, William, was a traveling salesman with a nickname that says it all: Devil Bill.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "devilbill",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.5,
+      "label": "MIRACLE CURE"
+     }
+    ],
+    "tag": {
+     "id": "devilbill",
+     "text": "William \"Devil Bill\" Rockefeller"
+    },
+    "stickers": [
+     {
+      "text": "DEVIL BILL",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "devilbill",
+   "say": "Step right up, folks! One bottle cures everything!"
+  },
+  {
+   "who": "N",
+   "say": "He sold so-called medicine and called himself a doctor. He wasn't one.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "devilbill",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "DR. BILL"
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.5,
+      "label": "ELIXIR"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT A DOCTOR",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later he even started a secret second family under a fake name: Doctor William Levingston.",
+   "show": {
+    "k": "card",
+    "label": "Devil Bill's secret alias",
+    "big": "DR. LEVINGSTON",
+    "sub": "a second marriage, while still married to John's mother",
+    "cast": [
+     {
+      "id": "devilbill",
+      "x": 0.85,
+      "s": 0.8,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So John's mother, Eliza, a strict and religious woman, mostly raised the kids by herself, and taught them to save.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "eliza",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "point"
+     },
+     {
+      "id": "kidjohn",
+      "x": 0.65,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.85,
+      "s": 0.4,
+      "label": "SAVINGS"
+     }
+    ],
+    "tag": {
+     "id": "eliza",
+     "text": "Eliza, John's mother"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Little John listened. He raised turkeys, did chores for neighbors, and saved fifty dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "kidjohn",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "chicken"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "jar",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "place": "Upstate New York · about 1850",
+    "stickers": [
+     {
+      "text": "$50 SAVED",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "Say, young man, could you lend me fifty dollars?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "shrug"
+     },
+     {
+      "id": "kidjohn",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.88,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "kidjohn",
+   "say": "Sure. At seven percent interest, please."
+  },
+  {
+   "who": "farmer",
+   "say": "Seven percent? From a kid? Fine, deal."
+  },
+  {
+   "who": "N",
+   "say": "Interest is extra money you pay for borrowing. A year later, the farmer paid back fifty three dollars and fifty cents.",
+   "show": {
+    "k": "card",
+    "label": "Young John's first loan",
+    "big": "$3.50",
+    "sub": "interest on $50 at 7%, paid back after a year"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rockefeller later wrote that it taught him to let money be his servant, not his master."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1855",
+    "title": "Job Day and Ledger A",
+    "bg": "office"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1855, the family had moved near Cleveland, Ohio, a busy port on Lake Erie. John was sixteen.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.72,
+      "s": 0.7,
+      "flag": "usa1859"
+     },
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "place": "Cleveland, Ohio · 1855",
+    "tag": {
+     "id": "rockyoung",
+     "text": "John D. Rockefeller, age 16"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "For weeks he walked from office to office in his best suit, asking for a job.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "walk",
+      "walk": [
+       0.2,
+       0.45
+      ]
+     },
+     {
+      "id": "clerk",
+      "x": 0.75,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "clerk",
+   "say": "Sorry, kid. Nothing here.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "clerk",
+      "x": 0.7,
+      "mood": "neutral",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.5,
+      "text": "NO JOBS"
+     }
+    ],
+    "cam": "close",
+    "focus": "clerk"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Finally, on September twenty sixth, a produce shipping firm hired him as an assistant bookkeeper.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "hewitt",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "rockyoung",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HIRED!",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A bookkeeper is the person who writes down where all the money goes. For John, that was a dream job."
+  },
+  {
+   "who": "N",
+   "say": "He was so grateful that he celebrated that date every year for the rest of his life. He called it Job Day.",
+   "show": {
+    "k": "card",
+    "label": "Rockefeller's favorite holiday",
+    "big": "SEPT 26",
+    "sub": "\"Job Day\", celebrated every year until 1937",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.85,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also bought a little notebook, and wrote down every cent he earned, spent and gave away. He called it Ledger A.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "LEDGER A"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EVERY CENT",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rent, food, a little clothing, and regular gifts to his church. It's all in there, neatly added up."
+  },
+  {
+   "who": "friend",
+   "say": "John, it's ten cents. Who cares?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "shrug"
+     },
+     {
+      "id": "rockyoung",
+      "x": 0.65,
+      "mood": "angry",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "rockyoung",
+   "say": "I care. It goes in the ledger."
+  },
+  {
+   "who": "N",
+   "say": "Decades later, he showed that notebook to a Bible class, and his voice choked up, like it was a family treasure.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.45,
+      "mood": "sad",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "New York City · 1900s"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1859",
+    "title": "Oil Fever",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1859, a man named Edwin Drake drilled into the ground in Titusville, Pennsylvania, and struck oil.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "drake",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Titusville, Pennsylvania · 1859",
+    "tag": {
+     "id": "drake",
+     "text": "Edwin Drake, oil driller"
+    },
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Why did anyone care? Because oil could be turned into kerosene, a cheap fuel for lamps.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "eliza",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "lantern"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KEROSENE = LAMP FUEL",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, most homes after sunset were lit by candles, or by expensive whale oil."
+  },
+  {
+   "who": "N",
+   "say": "Suddenly, everybody wanted to get rich from oil. People drilled like crazy, and prices bounced like a yo-yo.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "drake",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "run"
+     },
+     {
+      "id": "refiner",
+      "x": 0.65,
+      "mood": "shock",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "wagon",
+      "x": 0.5,
+      "s": 0.5,
+      "move": [
+       0.4,
+       0.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rockefeller noticed something smart. Drilling was a gamble, but refining, turning oil into kerosene, was steadier."
+  },
+  {
+   "who": "N",
+   "say": "In 1863, he and his partners built a refinery in Cleveland.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.6
+     }
+    ],
+    "place": "Cleveland, Ohio · 1863",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two years later the partners were arguing, so they agreed to auction the business between themselves. Highest bid takes it all.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "clark",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "rockyoung",
+      "x": 0.65,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.6,
+      "front": true
+     }
+    ],
+    "place": "Cleveland, Ohio · February 1865",
+    "tag": {
+     "id": "clark",
+     "text": "Maurice Clark, his partner"
+    }
+   }
+  },
+  {
+   "who": "clark",
+   "say": "Seventy two thousand dollars!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "clark",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "rockyoung",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "clark"
+   }
+  },
+  {
+   "who": "rockyoung",
+   "say": "Seventy two thousand five hundred."
+  },
+  {
+   "who": "clark",
+   "say": "I'll go no higher, John. The business is yours.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "clark",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     },
+     {
+      "id": "rockyoung",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was twenty five, and he now ran the biggest refinery in Cleveland.",
+   "show": {
+    "k": "card",
+    "label": "The winning bid, February 1865",
+    "big": "$72,500",
+    "sub": "Rockefeller buys out his partners at age 25"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1870",
+    "title": "Standard Oil Swallows Everything",
+    "bg": "factory"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On January tenth, 1870, Rockefeller and his partners started a new company called Standard Oil.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "STANDARD OIL"
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.22,
+      "s": 0.5
+     }
+    ],
+    "place": "Cleveland, Ohio · 1870"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rockefeller was obsessed with cutting costs. Barrel makers charged about two dollars fifty per barrel.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "cooper",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "rockyoung",
+      "x": 0.65,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "cooper",
+   "say": "Two fifty a barrel. Take it or leave it."
+  },
+  {
+   "who": "rockyoung",
+   "say": "I'll leave it, thanks."
+  },
+  {
+   "who": "N",
+   "say": "So he bought his own oak forests, dried the wood in kilns, which are giant ovens, and built his own barrels.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.6,
+      "s": 0.7
+     },
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "wagon",
+      "x": 0.9,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His cost dropped to under a dollar each.",
+   "show": {
+    "k": "compare",
+    "bg": "factory",
+    "left": {
+     "label": "BARREL MAKERS: $2.50",
+     "cast": [
+      {
+       "id": "cooper",
+       "mood": "smug"
+      }
+     ]
+    },
+    "right": {
+     "label": "STANDARD OIL: 96¢",
+     "cast": [
+      {
+       "id": "rockyoung",
+       "mood": "happy"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also loved telling this story. At one plant, a machine sealed each kerosene can with forty drops of solder, a melted metal glue.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "think"
+     },
+     {
+      "id": "canworker",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.5,
+      "label": "KEROSENE"
+     },
+     {
+      "k": "factory",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "rockyoung",
+   "say": "Have you tried thirty nine?"
+  },
+  {
+   "who": "N",
+   "say": "They did. Thirty nine worked, and that one missing drop saved a fortune over the years.",
+   "show": {
+    "k": "card",
+    "label": "Drops of solder per can",
+    "big": "40 → 39",
+    "sub": "Rockefeller's favorite cost-cutting story"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Standard Oil also played rough. It shipped so much oil that railroads gave it secret discounts called rebates.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "railman",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "refiner",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.5,
+      "s": 0.8,
+      "move": [
+       0.2,
+       0.7
+      ]
+     },
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "railman",
+   "say": "Standard ships the most oil, so Standard pays less.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "railman",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "refiner",
+      "x": 0.68,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.5,
+      "front": true
+     }
+    ],
+    "cam": "close",
+    "focus": "railman"
+   }
+  },
+  {
+   "who": "refiner",
+   "say": "And what about me?"
+  },
+  {
+   "who": "railman",
+   "say": "You pay full price. Sorry, pal."
+  },
+  {
+   "who": "N",
+   "say": "In early 1872, in about six weeks, Standard Oil bought twenty two of its twenty six rivals in Cleveland.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "moneybag"
+     },
+     {
+      "id": "refiner",
+      "x": 0.72,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.45,
+      "text": "SOLD"
+     }
+    ],
+    "place": "Cleveland, Ohio · 1872",
+    "stickers": [
+     {
+      "text": "22 OF 26",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Critics called it the Cleveland Massacre. Nobody was hurt; it's a nickname. But many owners felt they had to sell, or be crushed."
+  },
+  {
+   "who": "N",
+   "say": "By about 1880, Standard Oil controlled around ninety percent of America's oil refining.",
+   "show": {
+    "k": "card",
+    "label": "Standard Oil's share of US oil refining, about 1880",
+    "big": "90%",
+    "sub": "some counts say 90 to 95%"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And kerosene got way cheaper. By one count, it fell from fifty eight cents a gallon in 1865 to about eight cents.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "lantern"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "58¢ → 8¢",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Huge amounts were shipped across the Atlantic. By the 1880s, American kerosene lit lamps all over Europe.",
+   "show": {
+    "k": "map",
+    "lon": 4,
+    "lat": 51,
+    "z0": 1.3,
+    "z1": 1.7,
+    "date": "1880s",
+    "labels": [
+     [
+      "London",
+      -0.12,
+      51.5,
+      14
+     ],
+     [
+      "Rotterdam",
+      4.48,
+      51.92,
+      14
+     ],
+     [
+      "Antwerp",
+      4.4,
+      51.22,
+      14
+     ],
+     [
+      "Bremen",
+      8.8,
+      53.08,
+      14
+     ],
+     [
+      "Hamburg",
+      9.99,
+      53.55,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -14,
+      48
+     ],
+     [
+      -6,
+      49.5
+     ],
+     [
+      1.5,
+      50.8
+     ],
+     [
+      4.4,
+      51.4
+     ],
+     [
+      8.8,
+      53.1
+     ]
+    ],
+    "areas": [
+     [
+      4.4,
+      51.4,
+      1.0,
+      "rgba(212,165,42,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1882 his companies were tied together into one giant group called a trust. It was a monopoly: one business controlling nearly a whole market.",
+   "show": {
+    "k": "flag",
+    "flag": "usa1859",
+    "label": "THE AGE OF MONOPOLIES",
+    "sub": "Standard Oil Trust, 1882",
+    "bg": "city"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1902",
+    "title": "The Reporter Strikes Back",
+    "bg": "library"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But one person never forgot how Standard Oil played rough. Her name was Ida Tarbell.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "tarbell",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "RECORDS"
+     }
+    ],
+    "place": "New York City · 1902",
+    "tag": {
+     "id": "tarbell",
+     "text": "Ida Tarbell, journalist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ida grew up in Pennsylvania's oil country. Her father built wooden oil tanks, then went into oil himself.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "tarbell",
+      "x": 0.4,
+      "mood": "happy",
+      "s": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Pennsylvania oil region · 1872"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1872, when she was fourteen, a secret railroad deal involving Rockefeller threatened small oil men like her dad.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "refiner",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.6,
+      "s": 0.8,
+      "move": [
+       0.3,
+       0.8
+      ]
+     },
+     {
+      "k": "sign",
+      "x": 0.12,
+      "s": 0.45,
+      "text": "SECRET DEAL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Angry protests killed the deal, but her father's business was badly hurt. She never forgot it."
+  },
+  {
+   "who": "N",
+   "say": "Thirty years later, Ida was a star writer at McClure's, a popular magazine. She dug through court records for years.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "tarbell",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.5,
+      "label": "FILES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "tarbell",
+   "say": "Secret railroad deals. Price wars. It's all in the records.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "tarbell",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "EVIDENCE"
+     }
+    ],
+    "cam": "close",
+    "focus": "tarbell"
+   }
+  },
+  {
+   "who": "newsboy",
+   "say": "Extra! Extra! Read all about Standard Oil!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "newsboy",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "McCLURE'S"
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "From 1902 to 1904 she published nineteen articles, and they became a best-selling book."
+  },
+  {
+   "who": "N",
+   "say": "Then she wrote about Rockefeller himself. And it was brutal.",
+   "show": {
+    "k": "quote",
+    "text": "Our national life is on every side distinctly poorer, uglier, meaner, for the kind of influence he exercises.",
+    "who": "Ida Tarbell, McClure's Magazine, 1905"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rockefeller mostly refused to answer her. With his golf buddies, he reportedly joked that she was Miss Tarbarrel.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "\"MISS TARBARREL\"",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But America was listening. The government sued Standard Oil under a new kind of law against monopolies, called antitrust law."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1911",
+    "title": "Broken Into 34 Pieces",
+    "bg": "courtroom"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On May fifteenth, 1911, the Supreme Court ruled that Standard Oil was an illegal monopoly.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "judge",
+      "x": 0.45,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.45,
+      "s": 0.7,
+      "front": true
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Washington, D.C. · May 1911",
+    "tag": {
+     "id": "judge",
+     "text": "Chief Justice Edward White"
+    }
+   }
+  },
+  {
+   "who": "judge",
+   "say": "Standard Oil must be broken up. You have six months."
+  },
+  {
+   "who": "N",
+   "say": "It was split into thirty four separate companies.",
+   "show": {
+    "k": "card",
+    "label": "Standard Oil after the 1911 breakup",
+    "big": "34",
+    "sub": "separate companies"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some of those pieces later grew into giants you've heard of, like ExxonMobil and Chevron.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.45,
+      "text": "EXXON"
+     },
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "CHEVRON"
+     },
+     {
+      "k": "car",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's the twist. Rockefeller owned about a quarter of the shares in every one of them."
+  },
+  {
+   "who": "N",
+   "say": "Investors rushed to buy the new shares, and their prices shot up.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.7,
+      "s": 0.8
+     },
+     {
+      "k": "moneypile",
+      "x": 0.85,
+      "s": 0.6,
+      "enter": "pop"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was worth about three hundred million dollars when the order came. By the end of 1913, around nine hundred million.",
+   "show": {
+    "k": "compare",
+    "bg": "vault",
+    "left": {
+     "label": "1911: ABOUT $300 MILLION",
+     "cast": [
+      {
+       "id": "rocky",
+       "mood": "neutral"
+      }
+     ]
+    },
+    "right": {
+     "label": "1913: ABOUT $900 MILLION",
+     "cast": [
+      {
+       "id": "rocky",
+       "mood": "happy",
+       "hold": "moneybag"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "rocky",
+   "say": "So they broke up my company, and tripled my money?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.45,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "rocky"
+   }
+  },
+  {
+   "who": "N",
+   "say": "When he died, his fortune was about one point four billion dollars, roughly one and a half percent of the whole US economy.",
+   "show": {
+    "k": "card",
+    "label": "Rockefeller's fortune vs the US economy",
+    "big": "1.5%",
+    "sub": "about $1.4 billion at his death in 1937 (Britannica)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Measured that way, it would be more than four hundred billion dollars today. That's why he's often called the richest American ever.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.8
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$400+ BILLION TODAY",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1890–1937",
+    "title": "Giving It All Away",
+    "bg": "church"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rockefeller had another obsession: giving money away. Remember Ledger A? Even as a teen, he gave to his church.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1890 he helped found the University of Chicago, and over time gave it about thirty five million dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.6
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Chicago, Illinois · 1890",
+    "stickers": [
+     {
+      "text": "$35 MILLION",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He later called it the best investment he ever made."
+  },
+  {
+   "who": "N",
+   "say": "In 1909, he gave one million dollars to fight hookworm, a tiny parasite that left many people in the South weak and sick.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "doctor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "sickfarmer",
+      "x": 0.68,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "MEDICINE"
+     }
+    ],
+    "place": "American South · 1909",
+    "stickers": [
+     {
+      "text": "HOOKWORM",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Workers examined over a million people and treated about seven hundred thousand."
+  },
+  {
+   "who": "N",
+   "say": "In 1913 he started the Rockefeller Foundation with one hundred million dollars, one of the biggest gifts in history at the time.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "usa48"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Critics said his giving was partly about fixing his reputation. Supporters said it changed medicine and science. Honestly, both can be true."
+  },
+  {
+   "who": "N",
+   "say": "In old age, an illness called alopecia took all his hair, even his eyebrows, so he often wore a wig.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ALOPECIA",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also became famous for handing out shiny dimes to people he met, and telling them to save.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "coin"
+     },
+     {
+      "id": "kid",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Ormond Beach, Florida · 1920s"
+   }
+  },
+  {
+   "who": "rocky",
+   "say": "Here's a dime. Save it, young man."
+  },
+  {
+   "who": "kid",
+   "say": "Wow! Thanks, mister!"
+  },
+  {
+   "who": "N",
+   "say": "He died in 1937, at ninety seven. In his lifetime he gave away about five hundred forty million dollars.",
+   "show": {
+    "k": "card",
+    "label": "What Rockefeller gave away in his lifetime",
+    "big": "$540 million",
+    "sub": "he died in 1937, aged 97"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So was he a genius or a bully? A bit of both. He made lamp oil cheap, crushed his rivals, then gave away a mountain of money.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "tarbell",
+      "x": 0.7,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And it all started with a sixteen year old and a little notebook, writing down every single cent.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEDGER A",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next up: the entire history of ancient Greece in ten minutes. Watch it next, and subscribe.",
+   "show": {
+    "k": "end",
+    "next": "The ENTIRE History of Ancient Greece in 10 Minutes",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.76,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "coin"
+     },
+     {
+      "id": "tarbell",
+      "x": 0.9,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "John D. Rockefeller was a con man's son who tracked every cent in a notebook at sixteen, built Standard Oil into a near-monopoly, and ended up with a fortune worth about 1.5% of the entire US economy. We cover the railroad rebates, Ida Tarbell's exposé, the 1911 breakup that made him even richer, and the $540 million he gave away.\n\nChapters are added automatically.\n\n#history #rockefeller #standardoil #money #gildedage",
+ "thumbnail": {
+  "style": "redbox",
+  "bg": "vault",
+  "lines": [
+   "RICHEST",
+   "AMERICAN"
+  ],
+  "main": {
+   "id": "rocky",
+   "mood": "smug",
+   "hold": "moneybag"
+  },
+  "second": {
+   "id": "tarbell",
+   "mood": "angry",
+   "hold": "pen"
+  }
+ },
+ "youtube_title": "John D. Rockefeller: The Richest American Ever",
+ "tags": [
+  "john d rockefeller",
+  "rockefeller",
+  "standard oil",
+  "richest american ever",
+  "richest man in history",
+  "ida tarbell",
+  "standard oil breakup 1911",
+  "gilded age",
+  "robber barons",
+  "monopoly",
+  "money history",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+  "https://www.britannica.com/topic/How-Rich-Was-John-D-Rockefeller",
+  "https://en.wikipedia.org/wiki/List_of_richest_Americans_in_history",
+  "https://www.pbs.org/wgbh/americanexperience/features/rockefellers-john/",
+  "https://www.pbs.org/wgbh/americanexperience/features/rockefellers-timeline/",
+  "https://rockarch.org/resources/about-the-rockefellers/john-d-rockefeller-sr/",
+  "https://www.empireadc.org/search/catalog/nnttr_fa002_3894cc5f1f1c5df8d93faa8c71574847",
+  "https://www.philanthropyroundtable.org/magazine/the-rockefeller-legacy/",
+  "https://www.philanthropyroundtable.org/hall-of-fame/john-rockefeller-sr/",
+  "https://en.wikipedia.org/wiki/William_Rockefeller_Sr.",
+  "https://historynet.com/john-d-rockefeller-sr-s-pap-was-a-con-man/",
+  "https://www.gilderlehrman.org/history-resources/essays/power-make-money-gift-god-life-and-fortune-john-d-rockefeller",
+  "https://en.wikipedia.org/wiki/Maurice_B._Clark",
+  "https://www.americanheritage.com/grand-acquisitor",
+  "https://en.wikipedia.org/wiki/Standard_Oil",
+  "https://www.britannica.com/money/Standard-Oil",
+  "https://guides.loc.gov/this-month-in-business-history/january/standard-oil-established",
+  "https://fee.org/articles/john-d-rockefeller-and-the-oil-industry/",
+  "https://www.caseyresearch.com/articles/how-rockefeller-parlayed-pipelines-billions/",
+  "https://en.wikipedia.org/wiki/South_Improvement_Company",
+  "https://moglen.law.columbia.edu/twiki/bin/view/AmLegalHist/TylerConwayProject",
+  "https://aoghs.org/transportation/america-exports-oil/",
+  "https://www.cfr.org/timelines/oil-dependence-and-us-foreign-policy",
+  "https://en.wikipedia.org/wiki/German-American_Petroleum_Company",
+  "https://en.wikipedia.org/wiki/Ida_Tarbell",
+  "https://www.britannica.com/biography/Ida-Tarbell",
+  "https://energyhistory.yale.edu/ida-m-tarbell-the-history-of-the-standard-oil-company-1904/",
+  "https://www.smithsonianmag.com/history/the-woman-who-took-on-the-tycoon-651396/",
+  "https://www.pbs.org/wgbh/americanexperience/features/rockefellers-tarbell",
+  "https://en.wikipedia.org/wiki/The_History_of_the_Standard_Oil_Company",
+  "https://sites.gsu.edu/us-constipedia/standard-oil-co-of-new-jersey-v-united-states-1911/",
+  "https://www.cato.org/regulation/summer-2025/reappraising-standard-oil",
+  "https://en.wikipedia.org/wiki/History_of_ExxonMobil",
+  "https://www.acquired.fm/episodes/standard-oil-part-ii",
+  "https://en.wikipedia.org/wiki/History_of_the_University_of_Chicago",
+  "https://lib.uchicago.edu/collex/exhibits/building-long-future/john-d-rockefeller",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3910046/",
+  "https://resource.rockarch.org/story/the-rockefeller-sanitary-commission-and-the-south/",
+  "https://en.wikipedia.org/wiki/Rockefeller_Foundation",
+  "https://en.wikipedia.org/wiki/Ivy_Lee",
+  "https://www.newworldencyclopedia.org/entry/John_D._Rockefeller",
+  "https://en.wikipedia.org/wiki/The_Casements"
+ ]
+}

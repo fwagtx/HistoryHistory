@@ -1,0 +1,226 @@
+{
+ "id": "2026w47-s31",
+ "format": "short",
+ "date": "2026-11-20",
+ "slot": "09:00",
+ "title": "Rockefeller Saved a Fortune With One Drop",
+ "hook": "ONE DROP OF SOLDER",
+ "music": "playful",
+ "cast": {
+  "rocky": {
+   "skin": "light",
+   "hair": "bald",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "name": "John D. Rockefeller"
+  },
+  "canworker": {
+   "preset": "worker",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#3A3A3A",
+   "outfit": "overalls",
+   "color": "#4A5A6A",
+   "stubble": true,
+   "hairColor": "#3A2A1A",
+   "name": "Plant worker"
+  },
+  "kid": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#2F5A7A",
+   "outfit": "coat",
+   "color": "#2F7A6A",
+   "hairColor": "#8A5A2A",
+   "name": "Kid"
+  }
+ },
+ "voices": {
+  "rocky": "am_eric",
+  "canworker": "am_liam",
+  "kid": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "John D. Rockefeller once saved a fortune by removing one tiny drop of metal.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "KEROSENE"
+     },
+     {
+      "k": "factory",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "place": "Standard Oil plant · 1870s",
+    "tag": {
+     "id": "rocky",
+     "text": "John D. Rockefeller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His company, Standard Oil, sold kerosene, a lamp fuel, in sealed metal cans.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "lantern"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's a story he loved to tell. A machine sealed each can with forty drops of solder, a melted metal glue.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "canworker",
+      "x": 0.4,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "40 DROPS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "rocky",
+   "say": "Have you tried thirty eight?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "think"
+     },
+     {
+      "id": "canworker",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.5,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "canworker",
+   "say": "Yes sir. Some cans leak."
+  },
+  {
+   "who": "rocky",
+   "say": "Then try thirty nine."
+  },
+  {
+   "who": "N",
+   "say": "Thirty nine worked. One drop less, on millions of cans.",
+   "show": {
+    "k": "card",
+    "label": "Drops of solder per can",
+    "big": "40 → 39",
+    "sub": "Rockefeller's favorite cost-cutting story"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He said it saved thousands of dollars in the first year, and far more over time. Tiny savings, giant fortune.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rockefeller cut one drop of solder per can and saved a fortune.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rockefeller #standardoil #business #historytok",
+ "youtube_title": "Rockefeller Saved a Fortune With One Drop #shorts",
+ "tags": [
+  "john d rockefeller",
+  "standard oil",
+  "cost cutting",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.caseyresearch.com/articles/how-rockefeller-parlayed-pipelines-billions/",
+  "https://www.aei.org/articles/the-other-half-of-standard-oil/",
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+  "https://en.wikipedia.org/wiki/Standard_Oil"
+ ]
+}

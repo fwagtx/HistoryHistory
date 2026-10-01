@@ -1,0 +1,245 @@
+{
+ "id": "2026w47-s30",
+ "format": "short",
+ "date": "2026-11-20",
+ "slot": "09:00",
+ "title": "Rockefeller Won His Oil Business at Auction",
+ "hook": "THE $72,500 AUCTION",
+ "music": "playful",
+ "cast": {
+  "rockyoung": {
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#8A5A3A",
+   "stache": "bush",
+   "stubble": true,
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "tie": true,
+   "name": "John D. Rockefeller"
+  },
+  "clark": {
+   "skin": "light",
+   "outfit": "suit",
+   "color": "#4A4A3A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "stache": "bush",
+   "beard": "goatee",
+   "name": "Maurice Clark"
+  }
+ },
+ "voices": {
+  "rockyoung": "am_eric",
+  "clark": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1865, a twenty five year old won an auction that started the biggest oil empire in history.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "place": "Cleveland, Ohio · February 1865",
+    "tag": {
+     "id": "rockyoung",
+     "text": "John D. Rockefeller, age 25"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "John D. Rockefeller co-owned an oil refinery, a factory that turns oil into kerosene for lamps.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.72,
+      "s": 0.7
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But he and his partner, Maurice Clark, kept arguing. So they agreed to auction it between themselves.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "clark",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "rockyoung",
+      "x": 0.65,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "AUCTION"
+     }
+    ],
+    "tag": {
+     "id": "clark",
+     "text": "Maurice Clark"
+    }
+   }
+  },
+  {
+   "who": "clark",
+   "say": "Seventy two thousand dollars!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "clark",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "rockyoung",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.5,
+      "front": true
+     }
+    ],
+    "cam": "close",
+    "focus": "clark"
+   }
+  },
+  {
+   "who": "rockyoung",
+   "say": "Seventy two thousand five hundred."
+  },
+  {
+   "who": "clark",
+   "say": "I'll go no higher, John. The business is yours."
+  },
+  {
+   "who": "N",
+   "say": "The winning bid was seventy two thousand five hundred dollars, a fortune back then.",
+   "show": {
+    "k": "card",
+    "label": "The winning bid",
+    "big": "$72,500",
+    "sub": "Rockefeller buys out the Clarks, 1865"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soon it was the biggest refinery in Cleveland. Five years later, it grew into Standard Oil.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "STANDARD OIL"
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Cleveland, Ohio · 1870"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rockyoung",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "clark",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One extra $500 bid started the biggest oil empire in history.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rockefeller #standardoil #moneyhistory #historytok",
+ "youtube_title": "Rockefeller Won His Oil Business at Auction #shorts",
+ "tags": [
+  "john d rockefeller",
+  "standard oil",
+  "maurice clark",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Maurice_B._Clark",
+  "https://www.americanheritage.com/grand-acquisitor",
+  "https://www.pbs.org/wgbh/americanexperience/features/rockefellers-john/",
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+  "https://en.wikipedia.org/wiki/Standard_Oil"
+ ]
+}

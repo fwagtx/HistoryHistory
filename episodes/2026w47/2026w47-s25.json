@@ -1,0 +1,256 @@
+{
+ "id": "2026w47-s25",
+ "format": "short",
+ "date": "2026-11-20",
+ "slot": "09:00",
+ "title": "Rockefeller Was Worth 1.5% of America",
+ "hook": "WORTH 1.5% OF AMERICA",
+ "music": "playful",
+ "cast": {
+  "rocky": {
+   "skin": "light",
+   "hair": "bald",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "name": "John D. Rockefeller"
+  },
+  "kid": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "cap",
+   "hatColor": "#2F5A7A",
+   "outfit": "coat",
+   "color": "#2F7A6A",
+   "hairColor": "#8A5A2A",
+   "name": "Kid"
+  }
+ },
+ "voices": {
+  "rocky": "am_eric",
+  "kid": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When John D. Rockefeller died in 1937, his fortune equaled about one and a half percent of America's whole economy.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.8
+     },
+     {
+      "k": "goldpile",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
+    "place": "USA · 1937",
+    "tag": {
+     "id": "rocky",
+     "text": "John D. Rockefeller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He built Standard Oil, which once controlled about ninety percent of America's oil refining.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "train",
+      "x": 0.5,
+      "s": 0.6,
+      "move": [
+       0.2,
+       0.8
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A country's economy is everything it makes and sells in a year. Every car, every haircut, every sandwich.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.2,
+      "s": 0.5,
+      "label": "FOOD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His one point four billion dollars was roughly one and a half cents of every dollar of it.",
+   "show": {
+    "k": "card",
+    "label": "Rockefeller's fortune vs the US economy, 1937",
+    "big": "1.5%",
+    "sub": "about $1.4 billion (Britannica)"
+   }
+  },
+  {
+   "who": "rocky",
+   "say": "And I've written down every cent since I was sixteen.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "rocky"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Take that same share of today's economy, and you get more than four hundred billion dollars.",
+   "show": {
+    "k": "compare",
+    "bg": "city",
+    "left": {
+     "label": "1937: $1.4 BILLION",
+     "cast": [
+      {
+       "id": "rocky",
+       "mood": "happy"
+      }
+     ]
+    },
+    "right": {
+     "label": "SAME SHARE TODAY: $400B+",
+     "cast": [
+      {
+       "id": "rocky",
+       "mood": "shock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's why many historians call him the richest American who ever lived.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "usa48"
+     },
+     {
+      "k": "moneypile",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rocky",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "coin"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One man's fortune equaled 1.5% of the entire US economy.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rockefeller #richestman #moneyhistory #historytok",
+ "youtube_title": "Rockefeller Was Worth 1.5% of America #shorts",
+ "tags": [
+  "john d rockefeller",
+  "richest american ever",
+  "standard oil",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/topic/How-Rich-Was-John-D-Rockefeller",
+  "https://en.wikipedia.org/wiki/List_of_richest_Americans_in_history",
+  "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+  "https://en.wikipedia.org/wiki/Standard_Oil",
+  "https://www.britannica.com/money/Standard-Oil"
+ ]
+}
