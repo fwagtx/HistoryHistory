@@ -1,0 +1,293 @@
+{
+ "id": "2026w48-s05",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "The First Marathon Run Is Probably a Legend",
+ "hook": "THE MARATHON MYTH",
+ "music": "playful",
+ "cast": {
+  "runner": {
+   "outfit": "tunic",
+   "color": "#C8902A",
+   "hair": "curly",
+   "hairColor": "#2A1A0A",
+   "skin": "olive"
+  },
+  "pheidippides": {
+   "outfit": "tunic",
+   "color": "#2F5A8A",
+   "hair": "short",
+   "hairColor": "#2A1A0A",
+   "beard": "full",
+   "skin": "olive",
+   "name": "Pheidippides"
+  }
+ },
+ "voices": {
+  "runner": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The famous run that gave us the marathon probably never happened.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "runner",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "scared",
+      "walk": [
+       0.15,
+       0.65
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.5,
+      "text": "ATHENS"
+     }
+    ],
+    "place": "Marathon, Greece · 490 BC",
+    "stickers": [
+     {
+      "text": "MYTH?",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 490 BC, Athens beat a Persian army at Marathon, about forty kilometers from Athens.",
+   "show": {
+    "k": "map",
+    "lon": 23.6,
+    "lat": 38.0,
+    "z0": 3.4,
+    "z1": 3.8,
+    "date": "490 BC",
+    "labels": [
+     [
+      "Marathon",
+      23.97,
+      38.15,
+      0
+     ],
+     [
+      "ATHENS",
+      23.73,
+      37.98,
+      0
+     ]
+    ],
+    "route": [
+     [
+      23.97,
+      38.15
+     ],
+     [
+      23.85,
+      38.06
+     ],
+     [
+      23.73,
+      37.98
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The legend says a runner raced back to Athens, announced the win, and dropped dead.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "runner",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "runner",
+   "say": "Rejoice! We won! I need to lie down.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "runner",
+      "x": 0.5,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "runner"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Herodotus, the Greek historian who wrote about the battle a few decades later, never mentions it.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "pheidippides",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "HERODOTUS: NO RUN"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That story shows up over five hundred years later.",
+   "show": {
+    "k": "card",
+    "label": "The Marathon-to-Athens run first appears",
+    "big": "500+ YEARS",
+    "sub": "after the battle, in Plutarch and Lucian"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Herodotus does describe a runner named Pheidippides who ran to Sparta for help, about two hundred forty kilometers, arriving the next day.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pheidippides",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "shout",
+      "walk": [
+       0.15,
+       0.7
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.5,
+      "text": "SPARTA"
+     }
+    ],
+    "tag": {
+     "id": "pheidippides",
+     "text": "Pheidippides, runner"
+    },
+    "stickers": [
+     {
+      "text": "~240 KM",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1896, the first modern Olympics turned the legend into a real race.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "runner",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "MARATHON"
+     }
+    ],
+    "place": "Athens · 1896",
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pheidippides",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "runner",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The first marathon runner? Probably a legend.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #marathon #ancientgreece #historytok #running",
+ "youtube_title": "The First Marathon Run Is Probably a Legend #shorts",
+ "tags": [
+  "marathon",
+  "pheidippides",
+  "battle of marathon",
+  "ancient greece",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pheidippides",
+  "https://daily.jstor.org/invention-of-the-marathon",
+  "https://en.wikipedia.org/wiki/Battle_of_Marathon",
+  "https://www.britannica.com/place/ancient-Greece/The-Battle-of-Marathon"
+ ]
+}

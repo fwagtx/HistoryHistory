@@ -1,0 +1,340 @@
+{
+ "id": "2026w48-s08",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "It Wasn't Just 300 Spartans",
+ "hook": "IT WASN'T JUST 300",
+ "music": "playful",
+ "cast": {
+  "leonidas": {
+   "preset": "greek",
+   "hat": "goldhelm",
+   "outfit": "armor",
+   "color": "#A8322A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "hold": "spear",
+   "name": "King Leonidas of Sparta"
+  },
+  "xerxes": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#C8902A",
+   "beard": "long",
+   "hairColor": "#1A1A1A",
+   "skin": "tan",
+   "name": "King Xerxes of Persia"
+  },
+  "thespian": {
+   "preset": "greek",
+   "outfit": "armor",
+   "color": "#1F8A4A",
+   "beard": "full",
+   "hairColor": "#4A3A2A",
+   "skin": "olive",
+   "hold": "spear"
+  }
+ },
+ "voices": {
+  "leonidas": "am_fenrir",
+  "thespian": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The famous three hundred Spartans weren't fighting alone.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "leonidas",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "thespian",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "place": "Thermopylae, Greece · 480 BC",
+    "stickers": [
+     {
+      "text": "300?",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 480 BC, King Xerxes of Persia invaded Greece with a gigantic army.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "xerxes",
+     "text": "King Xerxes of Persia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "About seven thousand Greeks blocked a narrow pass called Thermopylae, led by the Spartan king Leonidas.",
+   "show": {
+    "k": "card",
+    "label": "Greeks holding the pass at first",
+    "big": "ABOUT 7,000",
+    "sub": "only 300 were Spartans",
+    "cast": [
+     {
+      "id": "leonidas",
+      "x": 0.86,
+      "pose": "fist",
+      "mood": "shout",
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They held for two days. Then a local man showed the Persians a path around the mountain.",
+   "show": {
+    "k": "map",
+    "lon": 22.5,
+    "lat": 38.8,
+    "z0": 3.4,
+    "z1": 3.8,
+    "date": "480 BC",
+    "labels": [
+     [
+      "THERMOPYLAE",
+      22.54,
+      38.8,
+      0
+     ],
+     [
+      "Mountain path",
+      22.4,
+      38.68,
+      0
+     ]
+    ],
+    "route": [
+     [
+      22.25,
+      38.92
+     ],
+     [
+      22.32,
+      38.72
+     ],
+     [
+      22.48,
+      38.7
+     ],
+     [
+      22.6,
+      38.78
+     ]
+    ]
+   }
+  },
+  {
+   "who": "leonidas",
+   "say": "Most of you, go home. We're staying.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "leonidas",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "leonidas",
+    "tag": {
+     "id": "leonidas",
+     "text": "King Leonidas of Sparta"
+    }
+   }
+  },
+  {
+   "who": "thespian",
+   "say": "We're from Thespiae. We're staying too.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "thespian",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "white",
+      "label": "THESPIAE"
+     }
+    ],
+    "cam": "close",
+    "focus": "thespian"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seven hundred men from that small city refused to leave, and about four hundred men from Thebes stayed too.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "thespian",
+      "x": 0.3,
+      "pose": "salute",
+      "mood": "smug"
+     },
+     {
+      "id": "leonidas",
+      "x": 0.65,
+      "pose": "salute",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "700 THESPIANS",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "400 THEBANS",
+      "at": 2.8,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Almost all who stayed were killed. The Spartans got the fame. The Thespians mostly got forgotten.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "thespian",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.6,
+      "label": "300"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "leonidas",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "thespian",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Everyone remembers the 300 Spartans. Almost nobody remembers the 700 Thespians.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #thermopylae #sparta #historytok #ancientgreece",
+ "youtube_title": "It Wasn't Just 300 Spartans #shorts",
+ "tags": [
+  "thermopylae",
+  "300 spartans",
+  "leonidas",
+  "thespians",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
+  "https://www.livius.org/articles/battle/thermopylae-480-bce/",
+  "https://www.britannica.com/event/Battle-of-Thermopylae-Greek-history-480-BC",
+  "https://en.wikipedia.org/wiki/Demophilus_of_Thespiae"
+ ]
+}

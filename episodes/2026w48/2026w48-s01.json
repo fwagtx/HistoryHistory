@@ -1,0 +1,279 @@
+{
+ "id": "2026w48-s01",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "'Idiot' Used to Mean Someone Who Skipped Politics",
+ "hook": "WHERE IDIOT CAME FROM",
+ "music": "playful",
+ "cast": {
+  "lazy": {
+   "outfit": "tunic",
+   "color": "#1F8A4A",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#5A3A1A",
+   "skin": "olive",
+   "hold": "chicken"
+  },
+  "citizen": {
+   "outfit": "tunic",
+   "color": "#2F5A8A",
+   "beard": "full",
+   "hair": "curly",
+   "hairColor": "#2A1A0A",
+   "skin": "olive"
+  }
+ },
+ "voices": {
+  "lazy": "am_puck",
+  "citizen": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The word idiot started out meaning someone who skipped politics.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "lazy",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "place": "Athens, Greece · 400s BC",
+    "stickers": [
+     {
+      "text": "IDIOT?",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In ancient Athens, citizens ran the city themselves. Free adult men met and voted on laws directly.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEMOCRACY",
+      "at": 1.4,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A man who stayed home and minded his own business was called an idiotes, from idios, meaning your own.",
+   "show": {
+    "k": "card",
+    "label": "Ancient Greek",
+    "big": "IDIOTES",
+    "sub": "a private person, from idios = 'your own'"
+   }
+  },
+  {
+   "who": "lazy",
+   "say": "Politics? No thanks. I've got chickens to feed.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "lazy",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "lazy"
+   }
+  },
+  {
+   "who": "citizen",
+   "say": "Then don't complain when we vote on your chickens.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "citizen"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Athenians respected men who took part, so the word slowly picked up a sneer.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "lazy",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Latin turned it into idiota, an uneducated person. By the time it reached English, it meant someone foolish.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lazy",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "IDIOTES → IDIOTA → IDIOT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So calling someone an idiot is ancient Greek for: you never show up to vote.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GO VOTE",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lazy",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "citizen",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "'Idiot' started as the Greek word for someone who skipped politics.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientgreece #etymology #historytok #funnyhistory",
+ "youtube_title": "'Idiot' Used to Mean Someone Who Skipped Politics #shorts",
+ "tags": [
+  "idiot etymology",
+  "ancient greece",
+  "athenian democracy",
+  "word origins",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.etymonline.com/word/idiot",
+  "https://en.wikipedia.org/wiki/Idiot",
+  "https://greekreporter.com/2026/06/22/word-idiot-ancient-greek/",
+  "https://en.wikipedia.org/wiki/Athenian_democracy"
+ ]
+}

@@ -1,0 +1,274 @@
+{
+ "id": "2026w48-s07",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "He Helped a Voter Kick Him Out of Athens",
+ "hook": "HE WROTE HIS OWN NAME",
+ "music": "playful",
+ "cast": {
+  "aristides": {
+   "outfit": "toga",
+   "color": "#F2EBD9",
+   "beard": "long",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "skin": "olive",
+   "hold": "pen",
+   "name": "Aristides the Just"
+  },
+  "voter": {
+   "preset": "farmer",
+   "skin": "olive",
+   "hairColor": "#3A2A1A",
+   "beard": "full"
+  }
+ },
+ "voices": {
+  "aristides": "bm_george",
+  "voter": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A politician helped a stranger vote to kick him out of his own city.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "aristides",
+      "x": 0.6,
+      "pose": "hold",
+      "mood": "neutral"
+     },
+     {
+      "id": "voter",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "Athens, Greece · 482 BC",
+    "tag": {
+     "id": "aristides",
+     "text": "Aristides the Just"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In ancient Athens, citizens could vote to banish a politician for ten years. It was called ostracism.",
+   "show": {
+    "k": "card",
+    "label": "Ostracism: banished from Athens for",
+    "big": "10 YEARS",
+    "sub": "if at least 6,000 votes were cast"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Each man scratched a name on a piece of broken pottery, the scrap paper of the day.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "voter",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "BROKEN POTTERY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Greek writer Plutarch tells a story about a politician nicknamed Aristides the Just.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "aristides",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "PLUTARCH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "voter",
+   "say": "I can't write. Can you scratch Aristides on my shard?",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "voter",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "aristides",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "voter"
+   }
+  },
+  {
+   "who": "aristides",
+   "say": "Sure. What did he do to you?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "aristides",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "aristides"
+   }
+  },
+  {
+   "who": "voter",
+   "say": "Nothing. I'm just sick of hearing him called the Just.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "voter",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "voter"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Aristides wrote his own name, and was banished. Athens called him back a few years later to fight Persia.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "aristides",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad",
+      "exit": "right",
+      "exitAt": 3.0
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OSTRACIZED",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "aristides",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "voter",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He wrote his own name on the ballot that banished him.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientgreece #democracy #historytok #athens",
+ "youtube_title": "He Helped a Voter Kick Him Out of Athens #shorts",
+ "tags": [
+  "ostracism",
+  "aristides the just",
+  "athenian democracy",
+  "ancient greece",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Aristides",
+  "https://en.wikipedia.org/wiki/Ostracism",
+  "https://www.worldhistory.org/Ostracism/",
+  "https://www.history.co.uk/articles/ostracism-cancel-culture-ancient-greek-style"
+ ]
+}

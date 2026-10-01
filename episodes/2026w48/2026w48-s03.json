@@ -1,0 +1,264 @@
+{
+ "id": "2026w48-s03",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "Ancient Olympians Competed Naked",
+ "hook": "THE NAKED OLYMPICS",
+ "music": "playful",
+ "cast": {
+  "orsippus": {
+   "outfit": "tunic",
+   "color": "#A8322A",
+   "hair": "short",
+   "hairColor": "#2A1A0A",
+   "beard": "full",
+   "skin": "olive",
+   "name": "Orsippus of Megara"
+  },
+  "runner": {
+   "outfit": "tunic",
+   "color": "#C8902A",
+   "hair": "curly",
+   "hairColor": "#2A1A0A",
+   "skin": "olive"
+  }
+ },
+ "voices": {
+  "orsippus": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Ancient Olympic athletes competed completely naked.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "runner",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "happy",
+      "walk": [
+       0.2,
+       0.6
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.6,
+      "label": "ZEUS"
+     }
+    ],
+    "place": "Olympia, Greece · 700s BC",
+    "stickers": [
+     {
+      "text": "NO CLOTHES",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The first recorded Olympics, in 776 BC, had one event: a sprint of about two hundred meters.",
+   "show": {
+    "k": "card",
+    "label": "The first recorded Olympics, 776 BC",
+    "big": "1 EVENT",
+    "sub": "a sprint of about 192 meters"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Early runners probably wore a loincloth, a simple cloth wrapped around the waist.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "orsippus",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "orsippus",
+     "text": "Orsippus of Megara"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A legend says a runner named Orsippus let his slip off in a race around 720 BC, and won.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "orsippus",
+      "x": 0.45,
+      "pose": "run",
+      "mood": "shock",
+      "walk": [
+       0.15,
+       0.7
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "orsippus",
+   "say": "Honestly? I feel way faster.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "orsippus",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "orsippus"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That story comes from Pausanias, a Greek travel writer. Either way, naked sport became normal across Greece.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "runner",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "orsippus",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's even where the word gymnasium comes from. Gymnos means naked.",
+   "show": {
+    "k": "card",
+    "label": "Ancient Greek",
+    "big": "GYMNOS",
+    "sub": "= naked. A gymnasium was a place to exercise naked."
+   }
+  },
+  {
+   "who": "N",
+   "say": "So next time you hit the gym, be thankful for shorts.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "runner",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "GYM"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "orsippus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "runner",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The ancient Olympics had no uniforms. Or clothes.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #olympics #ancientgreece #historytok #funnyhistory",
+ "youtube_title": "Ancient Olympians Competed Naked #shorts",
+ "tags": [
+  "ancient olympics",
+  "olympic history",
+  "gymnasium",
+  "ancient greece",
+  "history shorts"
+ ],
+ "sources": [
+  "https://historyfacts.com/arts-culture/fact/ancient-olympic-athletes-competed-naked/",
+  "https://en.wikipedia.org/wiki/Stadion_(running_race)",
+  "https://en.wikipedia.org/wiki/Orsippus",
+  "https://www.worldhistory.org/Olympic_Games/",
+  "https://greekreporter.com/2024/07/26/why-ancient-olympic-games-athletes-competed-nude/"
+ ]
+}

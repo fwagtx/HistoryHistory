@@ -1,0 +1,295 @@
+{
+ "id": "2026w48-s09",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "The Trojan Horse Isn't in the Iliad",
+ "hook": "NOT IN THE ILIAD",
+ "music": "playful",
+ "cast": {
+  "bard": {
+   "preset": "philosopher",
+   "hairColor": "#E8E8E8",
+   "hold": "scroll",
+   "name": "Homer"
+  },
+  "greeksoldier": {
+   "preset": "greek",
+   "outfit": "armor",
+   "color": "#2F5A8A",
+   "skin": "olive",
+   "hold": "spear"
+  },
+  "trojan": {
+   "preset": "noble",
+   "outfit": "robe",
+   "color": "#C8902A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "olive"
+  }
+ },
+ "voices": {
+  "greeksoldier": "am_liam",
+  "trojan": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Trojan Horse isn't in Homer's Iliad.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "bard",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "THE ILIAD"
+     }
+    ],
+    "place": "Greece · about 700 BC",
+    "tag": {
+     "id": "bard",
+     "text": "Homer, Greek poet"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Iliad is a famous ancient Greek poem about the Trojan War, between the Greeks and the city of Troy.",
+   "show": {
+    "k": "map",
+    "lon": 24.5,
+    "lat": 38.8,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "legend",
+    "labels": [
+     [
+      "TROY",
+      26.24,
+      39.96,
+      0
+     ],
+     [
+      "GREECE",
+      22.5,
+      38.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      23.0,
+      38.2
+     ],
+     [
+      24.8,
+      39.3
+     ],
+     [
+      26.2,
+      39.95
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But it ends before the war is over, with a funeral, not a horse.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "trojan",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO HORSE",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The horse gets only a few short mentions in Homer's other poem, the Odyssey.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "bard",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "THE ODYSSEY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "greeksoldier",
+   "say": "So we hide inside a giant wooden horse. What could go wrong?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "greeksoldier",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.7,
+      "label": "WOODEN HORSE"
+     }
+    ],
+    "cam": "close",
+    "focus": "greeksoldier"
+   }
+  },
+  {
+   "who": "trojan",
+   "say": "Ooh, a free horse! Bring it inside!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "trojan",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.6,
+      "label": "TROY"
+     }
+    ],
+    "cam": "close",
+    "focus": "trojan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The full version mostly comes from Virgil, a Roman poet writing about seven hundred years after Homer.",
+   "show": {
+    "k": "card",
+    "label": "The famous horse story is told by Virgil",
+    "big": "~700 YEARS",
+    "sub": "after Homer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Troy was a real city, in what's now Turkey. But historians think the horse is a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "trojan",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "gate",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Troy, Turkey",
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.5,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "bard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "trojan",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The most famous part of the Trojan War isn't in the Iliad.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #trojanhorse #greekmythology #historytok #ancientgreece",
+ "youtube_title": "The Trojan Horse Isn't in the Iliad #shorts",
+ "tags": [
+  "trojan horse",
+  "iliad",
+  "homer",
+  "troy",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Trojan_Horse",
+  "https://www.discovery.com/exploration/City-Of-Troy-Was-Real",
+  "https://en.wikipedia.org/wiki/Iliad",
+  "https://en.wikipedia.org/wiki/Aeneid"
+ ]
+}

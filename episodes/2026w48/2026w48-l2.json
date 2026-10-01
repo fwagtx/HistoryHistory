@@ -1,0 +1,2824 @@
+{
+ "id": "2026w48-l2",
+ "format": "long",
+ "date": "2026-11-25",
+ "title": "The Most Insane Kings and Queens in History",
+ "music": "playful",
+ "cast": {
+  "norton": {
+   "hat": "tophat",
+   "hatColor": "#2A1E16",
+   "outfit": "napoleon",
+   "color": "#2B4A8C",
+   "color2": "#D4A52A",
+   "hair": "curly",
+   "hairColor": "#6A6A6A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Joshua Norton"
+  },
+  "nortonm": {
+   "hat": "tophat",
+   "hatColor": "#2A1E16",
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Joshua Norton, merchant"
+  },
+  "shopkeeper": {
+   "preset": "merchant",
+   "stache": "handlebar",
+   "name": "San Francisco shopkeeper"
+  },
+  "peter": {
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "stache": "thin",
+   "outfit": "coat",
+   "color": "#2F5A3A",
+   "color2": "#C8902A",
+   "skin": "light",
+   "name": "Tsar Peter the Great"
+  },
+  "boyar": {
+   "preset": "noble",
+   "beard": "long",
+   "hairColor": "#5A4A3A",
+   "outfit": "robe",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "name": "Russian boyar (nobleman)"
+  },
+  "philip5": {
+   "hair": "long",
+   "hairColor": "#D8D2C4",
+   "outfit": "coat",
+   "color": "#3A2A6A",
+   "color2": "#D4A52A",
+   "skin": "light",
+   "name": "King Philip V of Spain"
+  },
+  "farinelli": {
+   "hair": "long",
+   "hairColor": "#EDE6D6",
+   "outfit": "coat",
+   "color": "#A8322A",
+   "color2": "#E7C66A",
+   "skin": "light",
+   "name": "Farinelli, opera singer"
+  },
+  "elisabeth": {
+   "preset": "queen",
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#2F7A4A",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "name": "Queen Elisabeth Farnese"
+  },
+  "joanna": {
+   "preset": "queen",
+   "outfit": "gown",
+   "color": "#262322",
+   "color2": "#C8902A",
+   "hat": "veil",
+   "hair": "long",
+   "hairColor": "#6A3E1E",
+   "skin": "light",
+   "name": "Queen Joanna of Castile"
+  },
+  "philiph": {
+   "preset": "king",
+   "hair": "long",
+   "hairColor": "#C8902A",
+   "outfit": "robe",
+   "color": "#8E2A2A",
+   "name": "Philip the Handsome"
+  },
+  "ferdinand": {
+   "preset": "king",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "name": "King Ferdinand of Aragon"
+  },
+  "george3": {
+   "hair": "short",
+   "hairColor": "#EDEDED",
+   "outfit": "coat",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "skin": "peach",
+   "name": "King George III"
+  },
+  "willis": {
+   "preset": "physician",
+   "hair": "short",
+   "hairColor": "#DADADA",
+   "name": "Dr. Francis Willis"
+  },
+  "ludwig": {
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "stache": "thin",
+   "beard": "goatee",
+   "outfit": "napoleon",
+   "color": "#2B4A8C",
+   "color2": "#E7C66A",
+   "skin": "light",
+   "name": "King Ludwig II of Bavaria"
+  },
+  "minister": {
+   "preset": "businessman",
+   "stache": "bush",
+   "hairColor": "#8A8A8A",
+   "name": "Bavarian minister"
+  },
+  "gudden": {
+   "preset": "physician",
+   "beard": "full",
+   "hairColor": "#DADADA",
+   "glasses": "round",
+   "name": "Dr. Bernhard von Gudden"
+  },
+  "charles6": {
+   "preset": "king",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F4FA0",
+   "color2": "#E7C66A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "King Charles VI of France"
+  },
+  "isabeau": {
+   "preset": "queen",
+   "hat": "crown",
+   "outfit": "gown",
+   "color": "#6A3E8E",
+   "hair": "long",
+   "hairColor": "#C8902A",
+   "name": "Queen Isabeau"
+  },
+  "courtier": {
+   "preset": "noble",
+   "name": "French courtier"
+  },
+  "knight": {
+   "preset": "knight",
+   "name": "French knight"
+  },
+  "charles2": {
+   "hair": "long",
+   "hairColor": "#C8A060",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#E7E2D6",
+   "skin": "peach",
+   "name": "King Charles II of Spain"
+  },
+  "priest": {
+   "preset": "monk",
+   "name": "Priest"
+  },
+  "scholar": {
+   "preset": "philosopher",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "norton": "bm_george",
+  "shopkeeper": "am_echo",
+  "peter": "am_fenrir",
+  "boyar": "bm_daniel",
+  "philip5": "bm_lewis",
+  "farinelli": "am_puck",
+  "george3": "bm_daniel",
+  "willis": "bm_lewis",
+  "ludwig": "am_liam",
+  "minister": "am_eric",
+  "charles6": "am_echo",
+  "isabeau": "af_bella",
+  "courtier": "am_puck"
+ },
+ "description": "A self-declared Emperor of the United States, a tsar who taxed beards and pulled teeth, a king who heard the same four songs every night for ten years, a queen who crossed Spain with her husband's coffin, a king and a (legendary) oak tree, a king who went broke building fairytale castles, and a king who believed he was made of glass: seven of history's most insane rulers, counted down from seven to one. Several of them were truly ill, so we laugh at the situations, never at the people, and we flag the legends. Chapters are added automatically.\n\n#history #kings #queens #funnyhistory #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "HE WAS KING?!",
+  "bg": "castle",
+  "faces": [
+   {
+    "id": "charles6",
+    "mood": "shock"
+   },
+   {
+    "id": "ludwig",
+    "mood": "smug"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "The Most Insane Kings and Queens in History",
+ "tags": [
+  "insane kings",
+  "mad kings",
+  "crazy kings and queens",
+  "charles vi glass",
+  "emperor norton",
+  "peter the great beard tax",
+  "ludwig ii neuschwanstein",
+  "joanna of castile",
+  "philip v farinelli",
+  "george iii",
+  "funny history",
+  "animated history"
+ ],
+ "beats": [
+  {
+   "who": "N",
+   "say": "Paris, the 1390s. The King of France is walking very, very carefully through his own palace.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.45,
+      "pose": "walk",
+      "mood": "scared",
+      "walk": [
+       0.25,
+       0.5
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.1,
+      "s": 0.7
+     },
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Paris, France · 1390s",
+    "tag": {
+     "id": "charles6",
+     "text": "King Charles VI of France"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Iron rods are sewn into his clothes. Why? Because the king believes his body is made of glass.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "crown",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MADE OF GLASS?!",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "charles6",
+   "say": "Stay back! Nobody touch me, or I'll shatter!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shout"
+     },
+     {
+      "id": "courtier",
+      "x": 0.75,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "charles6"
+   }
+  },
+  {
+   "who": "courtier",
+   "say": "Of course, Your Majesty. We'll all just stand over here.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "courtier",
+      "x": 0.55,
+      "pose": "hold",
+      "mood": "scared",
+      "walk": [
+       0.45,
+       0.7
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.2,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "History is full of rulers like him: kings and queens who did things that sound completely insane.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.1,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "peter",
+      "x": 0.23,
+      "pose": "fist",
+      "mood": "happy"
+     },
+     {
+      "id": "philip5",
+      "x": 0.36,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "joanna",
+      "x": 0.5,
+      "pose": "hold",
+      "mood": "sad"
+     },
+     {
+      "id": "george3",
+      "x": 0.63,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "ludwig",
+      "x": 0.76,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "charles6",
+      "x": 0.9,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": []
+   }
+  },
+  {
+   "who": "N",
+   "say": "One quick note. Several of these rulers were truly ill, and back then nobody knew how to help them. So we laugh at the wild situations, never at sick people.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.35,
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "BE KIND"
+     },
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TRUE STORIES",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today we count down seven of the most insane kings and queens in history. And number seven wasn't even a real king."
+  },
+  {
+   "show": {
+    "k": "title",
+    "text": "The Most Insane Kings and Queens in History",
+    "sub": "Seven rulers. All real. Completely bonkers.",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.9,
+      "s": 0.8,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ]
+   },
+   "hold": 2.5
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "The Emperor of the United States"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number seven: Joshua Norton, Emperor of the United States. Yes, America once had an emperor. Sort of.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "usa1859"
+     },
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "place": "San Francisco, California · 1859",
+    "tag": {
+     "id": "norton",
+     "text": "Joshua Norton"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Norton was a businessman who got rich in San Francisco during the Gold Rush, when thousands of people raced to California to dig for gold.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "nortonm",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "nortonm",
+     "text": "Norton, the businessman"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1852 he tried to buy up all the rice in town, to control the price. Then more rice ships arrived, prices crashed, and he lost everything.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "nortonm",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.45,
+      "label": "RICE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RICE CRASH",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1859, he wrote to a local newspaper, and it printed his letter, mostly as a joke.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "letter",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.6,
+      "text": "DAILY BULLETIN"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "I, Joshua Norton, declare and proclaim myself Emperor of these United States.",
+   "show": {
+    "k": "quote",
+    "text": "I, Joshua Norton... declare and proclaim myself Emperor of these U.S.",
+    "who": "Joshua Norton, letter in the San Francisco Daily Evening Bulletin, September 17, 1859"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A few weeks later, he abolished Congress. Congress ignored him. But San Francisco played along.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "CONGRESS: CANCELLED"
+     },
+     {
+      "k": "desk",
+      "x": 0.1,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wore a blue army uniform with gold shoulder pieces, and a tall hat with a peacock feather.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.45,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "norton",
+    "stickers": [
+     {
+      "text": "PEACOCK FEATHER",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He even printed his own money, and some local businesses accepted it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "shopkeeper",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "norton",
+      "x": 0.7,
+      "pose": "hold",
+      "hold": "coin",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "shopkeeper",
+   "say": "That's fifty cents, Your Majesty."
+  },
+  {
+   "who": "norton",
+   "say": "Put it on the empire."
+  },
+  {
+   "who": "N",
+   "say": "Today, one of those notes can sell for more than ten thousand dollars.",
+   "show": {
+    "k": "card",
+    "label": "Emperor Norton's paper money",
+    "big": "$10,000+",
+    "sub": "what one signed note can fetch at auction today",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1872 he even ordered a bridge built across the bay, to Oakland. People laughed. In 1936, the Bay Bridge opened.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.6,
+      "move": [
+       0.9,
+       0.6
+      ]
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.45,
+      "text": "BUILD A BRIDGE!"
+     }
+    ],
+    "place": "San Francisco Bay · 1872"
+   }
+  },
+  {
+   "who": "N",
+   "say": "When he died in 1880, thousands of people came to his funeral. Not bad for an emperor of one city.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "shopkeeper",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "lantern",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "San Francisco · January 1880",
+    "stickers": [
+     {
+      "text": "THOUSANDS CAME",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "The Tsar Who Taxed Beards"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number six: Peter the Great, the tsar, or emperor, of Russia. He was about two meters tall, and full of wild energy.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.42,
+      "pose": "fist",
+      "mood": "happy",
+      "s": 1.15
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "crown",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "place": "Moscow, Russia · 1698",
+    "tag": {
+     "id": "peter",
+     "text": "Tsar Peter the Great"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1697, Peter went on a long trip through Western Europe. He even worked in a Dutch shipyard under a fake name.",
+   "show": {
+    "k": "map",
+    "lon": 21.0,
+    "lat": 54.5,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "1697–1698",
+    "labels": [
+     [
+      "Moscow",
+      37.62,
+      55.75,
+      14
+     ],
+     [
+      "Amsterdam",
+      4.9,
+      52.37,
+      14
+     ],
+     [
+      "RUSSIA",
+      40.0,
+      57.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      37.62,
+      55.75
+     ],
+     [
+      30.0,
+      57.0
+     ],
+     [
+      24.1,
+      56.95
+     ],
+     [
+      20.5,
+      54.7
+     ],
+     [
+      13.4,
+      52.52
+     ],
+     [
+      8.0,
+      52.3
+     ],
+     [
+      4.9,
+      52.37
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He came home with big ideas. Russia should look modern, like Western Europe. And in Western Europe, men shaved.",
+   "show": {
+    "k": "flag",
+    "flag": "russia",
+    "label": "RUSSIA",
+    "sub": "The Tsardom of Russia · 1698",
+    "bg": "snow"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So at his welcome-home party, Peter grabbed a razor and started shaving his nobles himself.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug",
+      "s": 1.15
+     },
+     {
+      "id": "boyar",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.92,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHAVE!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "boyar",
+   "say": "Your Majesty! My beard is sacred!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "boyar",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "boyar"
+   }
+  },
+  {
+   "who": "peter",
+   "say": "Fine. Keep it. And pay for it.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 1.15
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "peter"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That became the beard tax. Rich merchants paid one hundred rubles a year, and got a token to prove it.",
+   "show": {
+    "k": "card",
+    "label": "Peter's beard tax, for rich merchants",
+    "big": "100 RUBLES",
+    "sub": "a year, with a beard token as your receipt",
+    "cast": [
+     {
+      "id": "boyar",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "hold",
+      "hold": "coin",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Peter also loved medicine, especially pulling teeth. He pulled them from servants and courtiers, whether they needed it or not.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.35,
+      "pose": "aim",
+      "mood": "happy",
+      "s": 1.15
+     },
+     {
+      "id": "boyar",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.92,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DR. PETER",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some of those teeth are still in a museum in Saint Petersburg.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.35,
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.65,
+      "s": 0.5,
+      "label": "PETER'S TEETH"
+     },
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "Kunstkamera, Saint Petersburg · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Russia's great modernizer was also its scariest dentist."
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "The King Who Needed the Same Four Songs"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number five: Philip the Fifth of Spain. He was French, a grandson of King Louis the Fourteenth.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "philip5",
+      "x": 0.42,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "france_royal"
+     },
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Versailles, France · 1700",
+    "tag": {
+     "id": "philip5",
+     "text": "Philip V of Spain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1700, the king of Spain died with no children, and named sixteen-year-old Philip as his heir.",
+   "show": {
+    "k": "map",
+    "lon": -0.8,
+    "lat": 44.6,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1700",
+    "labels": [
+     [
+      "Versailles",
+      2.13,
+      48.8,
+      14
+     ],
+     [
+      "Madrid",
+      -3.7,
+      40.42,
+      14
+     ],
+     [
+      "SPAIN",
+      -4.0,
+      39.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      2.13,
+      48.8
+     ],
+     [
+      0.7,
+      47.4
+     ],
+     [
+      -0.58,
+      44.84
+     ],
+     [
+      -1.47,
+      43.49
+     ],
+     [
+      -3.7,
+      42.34
+     ],
+     [
+      -3.7,
+      40.42
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Philip suffered from deep depression. Some days he wouldn't get dressed, shave, or do any government work.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip5",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "place": "Madrid, Spain · 1730s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1724 he even quit, and handed the crown to his teenage son. Seven months later the son died, and Philip had to take the job back.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "philip5",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "crown",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "place": "Madrid · 1724",
+    "stickers": [
+     {
+      "text": "BACK TO WORK",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1737, his wife, Queen Elisabeth, brought in Farinelli, the most famous opera singer in Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "elisabeth",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "farinelli",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "farinelli",
+     "text": "Farinelli, opera superstar"
+    }
+   }
+  },
+  {
+   "who": "farinelli",
+   "say": "What shall I sing tonight, Your Majesty?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "farinelli",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "philip5",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "philip5",
+   "say": "The same four songs. Like last night."
+  },
+  {
+   "who": "farinelli",
+   "say": "And tomorrow?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "farinelli",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "farinelli"
+   }
+  },
+  {
+   "who": "philip5",
+   "say": "The same four songs.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip5",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "philip5"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Farinelli later told the music writer Charles Burney that he sang those same four songs every night for about ten years, until the king died.",
+   "show": {
+    "k": "card",
+    "label": "Farinelli's playlist for the king",
+    "big": "4 SONGS",
+    "sub": "every night for about ten years, until 1746",
+    "cast": [
+     {
+      "id": "farinelli",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And it seems to have helped. The music calmed the king when nothing else could.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "philip5",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "happy"
+     },
+     {
+      "id": "farinelli",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "LA LA LA",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "The Queen and the Coffin"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number four: Joanna, Queen of Castile, the biggest kingdom in Spain. History calls her Joanna the Mad. That may not be fair.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.42,
+      "pose": "hold",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.85,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "place": "Burgos, Castile · 1506",
+    "tag": {
+     "id": "joanna",
+     "text": "Queen Joanna of Castile"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was famously in love with her husband, Philip the Handsome. Yes, that was really his nickname.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "philiph",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "philiph",
+     "text": "Philip the Handsome"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1506 Philip suddenly fell ill and died. He was only twenty-eight.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joanna wouldn't let him go. That winter she set off across Castile with his coffin, heading for Granada.",
+   "show": {
+    "k": "map",
+    "lon": -4.2,
+    "lat": 40.2,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "winter 1506–1507",
+    "labels": [
+     [
+      "Burgos",
+      -3.7,
+      42.34,
+      14
+     ],
+     [
+      "Torquemada",
+      -4.32,
+      42.03,
+      14
+     ],
+     [
+      "Tordesillas",
+      -5.0,
+      41.5,
+      14
+     ],
+     [
+      "Granada",
+      -3.6,
+      37.18,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -3.7,
+      42.34
+     ],
+     [
+      -4.0,
+      42.2
+     ],
+     [
+      -4.32,
+      42.03
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The procession traveled only at night, by torchlight, and rested in monasteries during the day.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "sad",
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.65,
+      "s": 0.6,
+      "label": "THE COFFIN",
+      "move": [
+       0.5,
+       0.75
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NIGHT ONLY",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One account even says she had the coffin opened, just to see him again.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "joanna",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.68,
+      "s": 0.5,
+      "label": "COFFIN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ONE ACCOUNT",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1509 her father, King Ferdinand, shut her away in a palace in Tordesillas. She stayed there forty-six years, until she died.",
+   "show": {
+    "k": "card",
+    "label": "Joanna's years shut away in Tordesillas",
+    "big": "46 YEARS",
+    "sub": "1509 to 1555, while men ruled in her name",
+    "cast": [
+     {
+      "id": "ferdinand",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her father, and later her son, ruled for her. So historians still ask: was Joanna really mad, or just in the way?",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "ferdinand",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "crown",
+      "mood": "smug"
+     },
+     {
+      "id": "joanna",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "ferdinand",
+     "text": "King Ferdinand, her father"
+    },
+    "stickers": [
+     {
+      "text": "MAD OR IN THE WAY?",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "The King and the Oak Tree"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number three: King George the Third of Britain. Yes, the king who lost America.",
+   "show": {
+    "k": "flag",
+    "flag": "uk1606",
+    "label": "GREAT BRITAIN",
+    "sub": "King George III · 1760–1820",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1788 he became seriously ill. He talked for hours without stopping, and often didn't make sense.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.42,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "painting",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Windsor, England · 1788",
+    "tag": {
+     "id": "george3",
+     "text": "King George III"
+    },
+    "stickers": [
+     {
+      "text": "HOURS OF TALKING",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His doctors were tough. One of them, Francis Willis, even tied him into a straitjacket when he wouldn't calm down.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "willis",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "george3",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.92,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "willis",
+     "text": "Dr. Francis Willis"
+    }
+   }
+  },
+  {
+   "who": "willis",
+   "say": "Sit still, Your Majesty.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "willis",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "willis"
+   }
+  },
+  {
+   "who": "george3",
+   "say": "I am the king! I'll sit where I like!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "george3"
+   }
+  },
+  {
+   "who": "N",
+   "say": "There's a famous story that he shook hands with an oak tree, thinking it was the King of Prussia. There's no real evidence for it. It's a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.7,
+      "s": 0.9,
+      "label": "KING OF PRUSSIA?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "What's true is that he got better in 1789, and Britain held a huge thank-you service at Saint Paul's Cathedral.",
+   "show": {
+    "k": "map",
+    "lon": -0.4,
+    "lat": 51.5,
+    "z0": 3.6,
+    "z1": 4.2,
+    "date": "April 1789",
+    "labels": [
+     [
+      "Windsor",
+      -0.6,
+      51.48,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -0.1,
+      51.51,
+      0.08,
+      "rgba(31,138,74,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the illness came back. From 1811 his son ruled for him, and George spent his last years shut away at Windsor.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "george3",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "uk"
+     }
+    ],
+    "place": "Windsor Castle · 1811"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Doctors still argue about what he had. Some blame a blood disease called porphyria. Many now think it was bipolar disorder.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.35,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "DIAGNOSIS?"
+     },
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL DEBATED",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "The Fairytale Castle King"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "Number two: Ludwig the Second, King of Bavaria, in southern Germany. People called him the Fairytale King.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.42,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.82,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "place": "Bavaria · 1864",
+    "tag": {
+     "id": "ludwig",
+     "text": "King Ludwig II of Bavaria"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He became king at eighteen. He loved operas, especially Richard Wagner's, and hated politics.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OPERA FAN",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he built castles that look like opera sets: Linderhof, Herrenchiemsee, and the most famous, Neuschwanstein, started in 1869.",
+   "show": {
+    "k": "map",
+    "lon": 11.4,
+    "lat": 47.85,
+    "z0": 3.4,
+    "z1": 4.0,
+    "date": "1869–1886",
+    "labels": [
+     [
+      "Munich",
+      11.58,
+      48.14,
+      14
+     ],
+     [
+      "Neuschwanstein",
+      10.75,
+      47.56,
+      14
+     ],
+     [
+      "Linderhof",
+      10.96,
+      47.57,
+      -14
+     ],
+     [
+      "Herrenchiemsee",
+      12.4,
+      47.86,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      10.75,
+      47.56,
+      0.08,
+      "rgba(200,144,42,0.5)"
+     ],
+     [
+      12.4,
+      47.86,
+      0.08,
+      "rgba(200,144,42,0.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also slept during the day, and took sleigh rides through the mountains at night.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.7,
+      "s": 0.6,
+      "move": [
+       0.55,
+       0.85
+      ]
+     },
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "stickers": [
+     {
+      "text": "MIDNIGHT RIDE",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One problem: he paid with his own money, and it ran out. By 1886 he owed more than fourteen million marks.",
+   "show": {
+    "k": "card",
+    "label": "Ludwig's castle debts",
+    "big": "14 MILLION",
+    "sub": "marks owed by 1886",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.88,
+      "s": 0.8,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "minister",
+   "say": "Your Majesty, the banks want their money back!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "minister",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "scared"
+     },
+     {
+      "id": "ludwig",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.4
+     },
+     {
+      "k": "moneypile",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "place": "Munich · 1886"
+   }
+  },
+  {
+   "who": "ludwig",
+   "say": "Then find me more. I'm not finished building.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "ludwig"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In June 1886, the government declared him insane and removed him. The doctors never properly examined him.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "gudden",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "scroll",
+      "mood": "smug"
+     },
+     {
+      "id": "ludwig",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "gudden",
+     "text": "Dr. Bernhard von Gudden"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The next evening, Ludwig and that doctor were found dead in Lake Starnberg. Nobody knows exactly what happened.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "sad"
+     },
+     {
+      "id": "gudden",
+      "x": 0.62,
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MYSTERY",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seven weeks later, his castles opened to paying visitors. Today about one point four million people a year visit Neuschwanstein, and it inspired Disney's Sleeping Beauty Castle.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "ludwig",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.7,
+      "s": 0.8,
+      "label": "NEUSCHWANSTEIN"
+     }
+    ],
+    "place": "Neuschwanstein · today",
+    "fx": [
+     "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "1.4 MILLION VISITORS",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "The King Made of Glass"
+   },
+   "hold": 2.5
+  },
+  {
+   "who": "N",
+   "say": "And number one: Charles the Sixth of France. He became king at eleven, and people called him Charles the Beloved.",
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "FRANCE",
+    "sub": "King Charles VI · 1380–1422",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1392, he was riding through a hot forest near Le Mans with his soldiers. He was already unwell.",
+   "show": {
+    "k": "map",
+    "lon": 1.3,
+    "lat": 48.4,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "August 1392",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Le Mans",
+      0.2,
+      48.0,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      1.5,
+      48.45
+     ],
+     [
+      0.2,
+      48.0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A page dropped a lance with a loud clang. The king panicked, drew his sword, and attacked his own men. Several died.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.35,
+      "pose": "aim",
+      "mood": "shout",
+      "hold": "sword"
+     },
+     {
+      "id": "knight",
+      "x": 0.72,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.1,
+      "s": 0.7
+     },
+     {
+      "k": "tree",
+      "x": 0.92,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "shake",
+    "place": "Forest near Le Mans · 1392"
+   }
+  },
+  {
+   "who": "N",
+   "say": "From then on, he slipped in and out of serious mental illness. Sometimes he forgot his own name, and didn't recognize his wife, Queen Isabeau.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "isabeau",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "charles6",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.1,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "isabeau",
+     "text": "Queen Isabeau, his wife"
+    }
+   }
+  },
+  {
+   "who": "charles6",
+   "say": "Who is that woman?"
+  },
+  {
+   "who": "isabeau",
+   "say": "It's me, Isabeau. Your wife.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "isabeau",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "isabeau"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And then came the glass. A pope who lived at the time wrote this.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "priest",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "COMMENTARIES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sometimes he thought he was made of glass and would not let himself be touched.",
+   "show": {
+    "k": "quote",
+    "text": "Sometimes he thought he was made of glass and would not let himself be touched.",
+    "who": "Pope Pius II, Commentaries, on King Charles VI of France"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he had iron rods sewn into his clothes, to keep himself from breaking. Doctors call this the glass delusion, and he's one of the earliest known cases.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.42,
+      "pose": "cross",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "IRON RODS",
+      "at": 1.2,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sadly, France paid the price. Nobles fought for power, England invaded, and in 1420 Charles signed a treaty making England's king his heir. He ruled for forty-two years, about thirty of them while seriously ill.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "knight",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "angry",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "france_royal"
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "France · 1420"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the craziest king on our list wasn't a villain. He was a sick man, stuck in a job he couldn't quit.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles6",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "crown",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Honorable mention: Charles the Second of Spain. Generations of royal cousins marrying each other left him sick all his life. People said he was bewitched, and priests even tried an exorcism.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "sad"
+     },
+     {
+      "id": "priest",
+      "x": 0.7,
+      "pose": "point",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "place": "Madrid, Spain · 1690s",
+    "tag": {
+     "id": "charles2",
+     "text": "King Charles II of Spain"
+    },
+    "stickers": [
+     {
+      "text": "BEWITCHED?",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His heir, in 1700? Philip the Fifth. Small world.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip5",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.6,
+      "flag": "spain_burgundy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So that's the list: a one-city emperor, a beard-taxing dentist, a four-song playlist, a queen and a coffin, a king and a maybe-tree, a castle addict, and a king made of glass.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.1,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "peter",
+      "x": 0.23,
+      "pose": "fist",
+      "mood": "happy"
+     },
+     {
+      "id": "philip5",
+      "x": 0.36,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "joanna",
+      "x": 0.5,
+      "pose": "hold",
+      "mood": "sad"
+     },
+     {
+      "id": "george3",
+      "x": 0.63,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "ludwig",
+      "x": 0.76,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "charles6",
+      "x": 0.9,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": []
+   }
+  },
+  {
+   "who": "N",
+   "say": "Who was the most insane? Tell us in the comments."
+  },
+  {
+   "who": "N",
+   "say": "Next time: the Wall Street Crash of 1929, explained. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "norton",
+      "x": 0.78,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "ludwig",
+      "x": 0.92,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "next": "The Wall Street Crash of 1929 Explained"
+   }
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Emperor_Norton",
+  "https://www.historians.org/perspectives-article/the-unselfish-ruler-norton-i-emperor-of-the-united-states-december-2023/",
+  "https://www.foundsf.org/Emperor_Norton",
+  "https://emperornortontrust.org/bridge/proclamations",
+  "https://www.coinworld.com/news/precious-metals/emperor-norton-the-man-his-money-and-a-bridge.html",
+  "https://auctions.stacksbowers.com/lots/view/3-S32J8/san-francisco-california-imperial-government-of-norton-i-1870s-50-cents-pmg-very-fine-25",
+  "https://emperornortontrust.org/blog/2023/5/22/emperor-norton-funeral-cortege-not-two-miles-long",
+  "https://en.wikipedia.org/wiki/Beard_tax",
+  "https://americanhistory.si.edu/collections/object/nmah_1412643",
+  "https://russianlife.com/magazine/january-february-2022/peters-war-on-facial-hair/",
+  "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great",
+  "https://en.wikipedia.org/wiki/Kunstkamera",
+  "https://harvardartmuseums.org/art/155787",
+  "https://en.wikipedia.org/wiki/Philip_V_of_Spain",
+  "https://www.britannica.com/biography/Farinelli",
+  "https://en.wikisource.org/wiki/Page:A_Dictionary_of_Music_and_Musicians_vol_1.djvu/517",
+  "https://en.wikipedia.org/wiki/Joanna_of_Castile",
+  "https://en.wikipedia.org/wiki/Philip_the_Handsome",
+  "https://www.historyisnowmagazine.com/blog/2018/10/7/was-joanna-of-castile-truly-mad-or-a-pawn-for-the-men-in-her-family",
+  "https://en.wikipedia.org/wiki/George_III",
+  "https://www.rct.uk/collection/themes/exhibitions/high-spirits/the-queens-gallery-buckingham-palace/1788-george-iiis-illness-and-the-prince-of-wales",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4953321/",
+  "https://bjgplife.com/madness-and-the-monarchy-diagnosing-king-george-iii/",
+  "https://discovery.nationalarchives.gov.uk/details/r/C10245655",
+  "https://en.wikipedia.org/wiki/Ludwig_II_of_Bavaria",
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8119274/",
+  "https://www.thelocal.de/20171004/10-surprising-facts-about-neuschwanstein-castle",
+  "https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle",
+  "https://en.wikipedia.org/wiki/Charles_VI_of_France",
+  "https://www.worldhistory.org/Charles_VI_of_France/",
+  "https://en.wikipedia.org/wiki/Glass_delusion",
+  "https://publicdomainreview.org/essay/fear-and-fragility-the-glass-delusion-and-its-history/",
+  "https://en.wikipedia.org/wiki/Treaty_of_Troyes",
+  "https://en.wikipedia.org/wiki/Charles_II_of_Spain"
+ ]
+}

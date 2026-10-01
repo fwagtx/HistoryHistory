@@ -1,0 +1,282 @@
+{
+ "id": "2026w48-s12",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "Spartan Boys Were Taught to Steal Food",
+ "hook": "PUNISHED FOR GETTING CAUGHT",
+ "music": "playful",
+ "cast": {
+  "spartanboy": {
+   "preset": "child",
+   "outfit": "tunic",
+   "color": "#A8322A",
+   "skin": "olive",
+   "hairColor": "#3A2A1A"
+  },
+  "farmer": {
+   "preset": "farmer",
+   "skin": "olive",
+   "hairColor": "#5A3A1A",
+   "beard": "full"
+  },
+  "spartan": {
+   "preset": "greek",
+   "outfit": "armor",
+   "color": "#A8322A",
+   "beard": "full",
+   "hairColor": "#2A1A0A",
+   "skin": "olive",
+   "hold": "spear"
+  }
+ },
+ "voices": {
+  "spartanboy": "af_bella",
+  "farmer": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Spartan boys were punished for stealing food. Not for the stealing. For getting caught.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "spartanboy",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "scared",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "place": "Sparta, Greece · 400s BC",
+    "stickers": [
+     {
+      "text": "CAUGHT!",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sparta was a Greek city-state where almost every citizen man was trained to be a soldier.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "spartan",
+      "x": 0.4,
+      "pose": "salute",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "red",
+      "label": "SPARTA"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At about seven, boys left home for a tough training program called the agoge.",
+   "show": {
+    "k": "card",
+    "label": "Spartan boys started training at",
+    "big": "AGE 7",
+    "sub": "in a program called the agoge"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They got one cloak a year, slept on beds of reeds, and were kept hungry on purpose.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "spartanboy",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HUNGRY",
+      "at": 1.5,
+      "color": "#2F2F3A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they were expected to steal extra food, to learn to be sneaky and survive.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "spartanboy",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "BREAD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "Hey! Come back with my bread!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "farmer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Greek writer Xenophon explains that boys who got caught were whipped, for stealing badly.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "spartan",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "spartanboy",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Sparta, the crime wasn't stealing. It was being bad at it.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "spartanboy",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DON'T GET CAUGHT",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "spartanboy",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "spartan",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In Sparta, stealing wasn't the crime. Getting caught was.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #sparta #ancientgreece #historytok #funnyhistory",
+ "youtube_title": "Spartan Boys Were Taught to Steal Food #shorts",
+ "tags": [
+  "sparta",
+  "agoge",
+  "spartan training",
+  "xenophon",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Agoge",
+  "https://www.worldhistory.org/article/342/agoge-the-spartan-education-program/",
+  "https://topostext.org/work/798",
+  "https://www.thecollector.com/spartan-agoge/"
+ ]
+}

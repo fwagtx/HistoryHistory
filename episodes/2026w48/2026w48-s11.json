@@ -1,0 +1,271 @@
+{
+ "id": "2026w48-s11",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "Archimedes' Eureka Moment Is Probably a Legend",
+ "hook": "THE EUREKA LEGEND",
+ "music": "playful",
+ "cast": {
+  "archimedes": {
+   "preset": "philosopher",
+   "hairColor": "#BBBBBB",
+   "name": "Archimedes"
+  },
+  "hiero": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#5A4A3A",
+   "skin": "olive",
+   "name": "King Hiero II of Syracuse"
+  }
+ },
+ "voices": {
+  "archimedes": "bm_fable",
+  "hiero": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The famous Eureka moment probably didn't happen the way you've heard.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "archimedes",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.5,
+      "label": "BATH"
+     }
+    ],
+    "place": "Syracuse, Sicily · 200s BC",
+    "stickers": [
+     {
+      "text": "EUREKA?",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Archimedes was a genius from Syracuse, a Greek city on the island of Sicily.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "archimedes",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "archimedes",
+     "text": "Archimedes, mathematician"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story goes that King Hiero wanted to know if his gold crown was secretly mixed with cheaper silver.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "hiero",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "hiero",
+     "text": "King Hiero II of Syracuse"
+    }
+   }
+  },
+  {
+   "who": "hiero",
+   "say": "Find out if I got cheated. And don't melt my crown.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "hiero",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "hiero"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Getting into a bath, Archimedes saw the water rise, and realized how to test the crown.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "archimedes",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "BATH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "archimedes",
+   "say": "Eureka! I found it!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "archimedes",
+      "x": 0.45,
+      "pose": "run",
+      "mood": "happy",
+      "walk": [
+       0.2,
+       0.6
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EUREKA!",
+      "at": 0.8,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He supposedly ran home naked. But this tale comes from Vitruvius, a Roman writer, about two hundred years later.",
+   "show": {
+    "k": "card",
+    "label": "The Eureka story was first written down",
+    "big": "~200 YEARS",
+    "sub": "later, by the Roman writer Vitruvius"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Archimedes never mentions it, and even Galileo doubted it worked that way. Great story, though.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "archimedes",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "LEGEND"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "archimedes",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "hiero",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Archimedes running naked yelling Eureka? Probably a legend.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #archimedes #eureka #historytok #science",
+ "youtube_title": "Archimedes' Eureka Moment Is Probably a Legend #shorts",
+ "tags": [
+  "archimedes",
+  "eureka",
+  "vitruvius",
+  "ancient greece",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Archimedes",
+  "https://www.scientificamerican.com/article/fact-or-fiction-archimede/",
+  "https://www.mcgill.ca/oss/article/history/it-true-archimedes-formulated-his-famous-principle-based-observation-he-made-he-immersed-himself",
+  "https://en.wikipedia.org/wiki/Hiero_II_of_Syracuse"
+ ]
+}

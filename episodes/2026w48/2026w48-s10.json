@@ -1,0 +1,346 @@
+{
+ "id": "2026w48-s10",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "Alexander the Great Named a City After His Horse",
+ "hook": "A CITY FOR HIS HORSE",
+ "music": "playful",
+ "cast": {
+  "alexander": {
+   "outfit": "armor",
+   "color": "#C8902A",
+   "hair": "curly",
+   "hairColor": "#B8803A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Alexander the Great"
+  },
+  "bucephalus": {
+   "animal": "horse",
+   "mood": "happy"
+  },
+  "philip": {
+   "preset": "king",
+   "outfit": "armor",
+   "color": "#8A2A3A",
+   "beard": "full",
+   "hairColor": "#2A1A0A",
+   "skin": "olive",
+   "name": "King Philip II of Macedon"
+  }
+ },
+ "voices": {
+  "alexander": "am_adam",
+  "philip": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Alexander the Great named a city after his horse.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "bucephalus",
+      "x": 0.62
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.5,
+      "text": "BUCEPHALA"
+     }
+    ],
+    "place": "Hydaspes River · 326 BC",
+    "tag": {
+     "id": "alexander",
+     "text": "Alexander the Great"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Alexander was a king from Macedon, in northern Greece, who conquered an empire stretching to India.",
+   "show": {
+    "k": "map",
+    "lon": 44.0,
+    "lat": 34.0,
+    "z0": 1.0,
+    "z1": 1.15,
+    "date": "334–323 BC",
+    "labels": [
+     [
+      "MACEDON",
+      22.5,
+      40.8,
+      0
+     ],
+     [
+      "Babylon",
+      44.4,
+      32.5,
+      0
+     ],
+     [
+      "to INDIA",
+      67.0,
+      33.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      22.5,
+      40.8
+     ],
+     [
+      26.5,
+      40.2
+     ],
+     [
+      36.2,
+      36.8
+     ],
+     [
+      43.4,
+      36.4
+     ],
+     [
+      44.4,
+      32.5
+     ],
+     [
+      52.9,
+      29.9
+     ],
+     [
+      62.0,
+      34.0
+     ],
+     [
+      69.0,
+      33.0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His favorite horse was Bucephalus. The name means ox-head.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "bucephalus",
+      "x": 0.45
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OX-HEAD",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The writer Plutarch says young Alexander tamed him after noticing the horse was scared of its own shadow.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "bucephalus",
+      "x": 0.65
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Macedon · about 340 BC"
+   }
+  },
+  {
+   "who": "philip",
+   "say": "Son, find a bigger kingdom. Macedon is too small for you.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.55
+     }
+    ],
+    "cam": "close",
+    "focus": "philip",
+    "tag": {
+     "id": "philip",
+     "text": "King Philip II, his father"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bucephalus carried him through battle after battle, all the way to what's now Pakistan.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "bucephalus",
+      "x": 0.65
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 326 BC, after a big battle by the Hydaspes River, the old horse died.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Alexander founded a city right there, and named it Bucephala.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.86,
+      "s": 0.5,
+      "text": "BUCEPHALA"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "philip",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Alexander the Great loved his horse so much he named a city after him.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #alexanderthegreat #ancientgreece #historytok #horses",
+ "youtube_title": "Alexander the Great Named a City After His Horse #shorts",
+ "tags": [
+  "alexander the great",
+  "bucephalus",
+  "bucephala",
+  "ancient greece",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Bucephalus",
+  "https://www.worldhistory.org/Bucephalus/",
+  "https://www.britannica.com/place/Bucephala-ancient-city-Pakistan",
+  "https://en.wikipedia.org/wiki/Boukephala_and_Nikaia"
+ ]
+}

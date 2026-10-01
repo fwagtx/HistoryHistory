@@ -1,0 +1,276 @@
+{
+ "id": "2026w48-s02",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "Divers Found a 2,000-Year-Old Computer",
+ "hook": "A 2,000-YEAR-OLD COMPUTER",
+ "music": "playful",
+ "cast": {
+  "diver": {
+   "preset": "sailor",
+   "skin": "olive",
+   "hairColor": "#1A1A1A",
+   "stache": "bush"
+  },
+  "scientist": {
+   "preset": "scientist",
+   "skin": "light",
+   "hairColor": "#6A4A2A",
+   "glasses": "round"
+  }
+ },
+ "voices": {
+  "diver": "am_puck",
+  "scientist": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Divers found a computer in a shipwreck that's over two thousand years old.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "diver",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.7
+     }
+    ],
+    "place": "Antikythera, Greece · 1901",
+    "stickers": [
+     {
+      "text": "2,000 YEARS",
+      "at": 1.4,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around 1900, sponge divers, men who dove for sea sponges, found an ancient wreck off the Greek island of Antikythera.",
+   "show": {
+    "k": "map",
+    "lon": 23.6,
+    "lat": 36.8,
+    "z0": 2.8,
+    "z1": 3.2,
+    "date": "1900",
+    "labels": [
+     [
+      "Antikythera",
+      23.3,
+      35.86,
+      0
+     ],
+     [
+      "CRETE",
+      24.9,
+      35.25,
+      0
+     ],
+     [
+      "ATHENS",
+      23.73,
+      37.98,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They pulled up statues, jars, and a lump of crusty bronze.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "diver",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.6,
+      "s": 0.6
+     },
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.4
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "BRONZE LUMP"
+     }
+    ]
+   }
+  },
+  {
+   "who": "diver",
+   "say": "Nice statues. Who wants the rusty rock?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "diver",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "diver"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then people noticed it had gears inside, with teeth cut by hand.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "GEARS?!"
+     }
+    ]
+   }
+  },
+  {
+   "who": "scientist",
+   "say": "This isn't a rock. It's a machine.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "scientist"
+   }
+  },
+  {
+   "who": "N",
+   "say": "X-ray scans showed it was a box you turned with a handle. Its dials tracked the sun and moon, and predicted eclipses.",
+   "show": {
+    "k": "card",
+    "label": "Gear wheels that survive",
+    "big": "30",
+    "sub": "from a hand-cranked sky calculator"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's called the Antikythera mechanism, and nothing that complicated shows up again for over a thousand years.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OLDEST COMPUTER",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "diver",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "scientist",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Sponge divers pulled an ancient Greek computer out of the sea.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #antikythera #ancientgreece #historytok #archaeology",
+ "youtube_title": "Divers Found a 2,000-Year-Old Computer #shorts",
+ "tags": [
+  "antikythera mechanism",
+  "ancient computer",
+  "ancient greece",
+  "archaeology",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+  "https://www.livescience.com/antikythera-mechanism",
+  "https://www.history.com/articles/antikythera-mechanism-ancient-computer-secrets",
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4116162/"
+ ]
+}

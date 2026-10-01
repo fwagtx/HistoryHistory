@@ -1,0 +1,269 @@
+{
+ "id": "2026w48-s04",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "Socrates Asked for Free Dinners as His Punishment",
+ "hook": "HE ASKED FOR FREE DINNERS",
+ "music": "playful",
+ "cast": {
+  "socrates": {
+   "preset": "philosopher",
+   "hairColor": "#E0E0E0",
+   "name": "Socrates"
+  },
+  "juror": {
+   "outfit": "toga",
+   "color": "#E8E0C8",
+   "beard": "full",
+   "hair": "short",
+   "hairColor": "#6A5A4A",
+   "skin": "olive",
+   "hold": "scroll"
+  }
+ },
+ "voices": {
+  "socrates": "bm_george",
+  "juror": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Socrates was found guilty, and asked for free dinners as his punishment.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "socrates",
+      "x": 0.55,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.2,
+      "s": 0.6
+     }
+    ],
+    "place": "Athens, Greece · 399 BC",
+    "tag": {
+     "id": "socrates",
+     "text": "Socrates, philosopher"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Socrates was a philosopher who spent his days asking people tough questions.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "socrates",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "juror",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He loved showing important people that they didn't know what they thought they knew. They hated it.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "socrates",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ANNOYING",
+      "at": 1.5,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 399 BC, he was charged with disrespecting the gods and corrupting young people.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "socrates",
+      "x": 0.6,
+      "pose": "cross",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.2,
+      "s": 0.5,
+      "text": "CHARGES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "About five hundred citizens sat on the jury, and most voted guilty.",
+   "show": {
+    "k": "card",
+    "label": "Socrates' jury",
+    "big": "ABOUT 500",
+    "sub": "most voted guilty"
+   }
+  },
+  {
+   "who": "juror",
+   "say": "Socrates, what punishment do you deserve?",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "juror",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "socrates",
+      "x": 0.7,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "juror"
+   }
+  },
+  {
+   "who": "socrates",
+   "say": "Free meals for life, like an Olympic champion.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "socrates",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "socrates"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's how his student Plato tells it. The jury chose death, by drinking a poison called hemlock.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "socrates",
+      "x": 0.5,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "goblet"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "HEMLOCK",
+      "at": 1.8,
+      "color": "#2F2F3A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "socrates",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "juror",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Socrates' counter-offer to the death penalty: free dinner.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #socrates #philosophy #historytok #ancientgreece",
+ "youtube_title": "Socrates Asked for Free Dinners as His Punishment #shorts",
+ "tags": [
+  "socrates",
+  "trial of socrates",
+  "plato apology",
+  "ancient greece",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Trial_of_Socrates",
+  "https://en.wikipedia.org/wiki/Apology_(Plato)",
+  "https://www.sparknotes.com/philosophy/apology/section7/",
+  "https://www.britannica.com/biography/Socrates"
+ ]
+}

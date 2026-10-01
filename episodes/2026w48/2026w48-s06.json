@@ -1,0 +1,266 @@
+{
+ "id": "2026w48-s06",
+ "format": "short",
+ "date": "2026-11-23",
+ "slot": "09:00",
+ "title": "Sparta Answered a King With One Word",
+ "hook": "ONE-WORD COMEBACK",
+ "music": "playful",
+ "cast": {
+  "philip": {
+   "preset": "king",
+   "outfit": "armor",
+   "color": "#8A2A3A",
+   "beard": "full",
+   "hairColor": "#2A1A0A",
+   "skin": "olive",
+   "name": "King Philip II of Macedon"
+  },
+  "ephor": {
+   "preset": "greek",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "beard": "long",
+   "hairColor": "#9A9A9A",
+   "skin": "olive",
+   "hold": "scroll"
+  }
+ },
+ "voices": {
+  "philip": "am_eric",
+  "ephor": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Sparta answered a powerful king's threat with just one word.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "ephor",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.5
+     },
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "red",
+      "label": "SPARTA"
+     }
+    ],
+    "place": "Sparta, Greece · about 340 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Philip the Second, king of Macedon in northern Greece, had taken over most Greek cities.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "place": "Macedon · 340s BC",
+    "tag": {
+     "id": "philip",
+     "text": "King Philip II of Macedon"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sparta, down south in a region called Laconia, refused to bow.",
+   "show": {
+    "k": "map",
+    "lon": 22.6,
+    "lat": 38.6,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "about 340 BC",
+    "labels": [
+     [
+      "MACEDON",
+      22.5,
+      40.8,
+      0
+     ],
+     [
+      "SPARTA",
+      22.43,
+      37.08,
+      0
+     ],
+     [
+      "LACONIA",
+      22.6,
+      36.8,
+      0
+     ]
+    ],
+    "route": [
+     [
+      22.5,
+      40.6
+     ],
+     [
+      22.6,
+      39.0
+     ],
+     [
+      22.43,
+      37.2
+     ]
+    ]
+   }
+  },
+  {
+   "who": "philip",
+   "say": "If I invade your land, I will drive you out!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.55
+     }
+    ],
+    "cam": "close",
+    "focus": "philip"
+   }
+  },
+  {
+   "who": "ephor",
+   "say": "If.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "ephor",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "ephor",
+    "stickers": [
+     {
+      "text": "IF.",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's the story told by Plutarch, a Greek writer who lived centuries later. And Philip never did take Sparta.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "SPARTA"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spartans were famous for saying as little as possible. That's where we get the word laconic: using very few words.",
+   "show": {
+    "k": "card",
+    "label": "From Laconia, Sparta's region",
+    "big": "LACONIC",
+    "sub": "= saying a lot with very few words"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "ephor",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A king threatened Sparta. Sparta replied with one word.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #sparta #ancientgreece #historytok #funnyhistory",
+ "youtube_title": "Sparta Answered a King With One Word #shorts",
+ "tags": [
+  "sparta",
+  "laconic",
+  "philip ii of macedon",
+  "ancient greece",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Laconic_phrase",
+  "https://en.wikipedia.org/wiki/Philip_II_of_Macedon",
+  "https://sterl.medium.com/if-b498f05b6198"
+ ]
+}
