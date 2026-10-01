@@ -301,7 +301,7 @@
  "thumbnail": {
   "style": "split",
   "years": [
-   "43 AD",
+   "55 BC",
    "1945"
   ],
   "word": "HOW?",
@@ -397,8 +397,8 @@
    "say": "That was a problem, because Britain controlled Zanzibar as a protectorate. Any new sultan needed its approval."
   },
   {
-   "who": "rawson",
-   "say": "Leave the palace by nine o'clock tomorrow morning, or we open fire.",
+   "who": "N",
+   "say": "So Harry Rawson, the British admiral in the harbor, sent Khalid a warning.",
    "show": {
     "k": "scene",
     "bg": "deck",
@@ -420,6 +420,10 @@
     "cam": "close",
     "focus": "rawson"
    }
+  },
+  {
+   "who": "rawson",
+   "say": "Leave the palace by nine o'clock tomorrow morning, or we open fire."
   },
   {
    "who": "khalid",
@@ -493,7 +497,7 @@
     "k": "card",
     "label": "The Anglo-Zanzibar War lasted about",
     "big": "38 MINUTES",
-    "sub": "the shortest war on record"
+    "sub": "the shortest war on record (some counts say 45)"
    }
   },
   {
@@ -707,7 +711,7 @@
   },
   {
    "who": "N",
-   "say": "Then came the Romans. In 55 BC, Julius Caesar, Rome's most famous general, crossed over from France to take a look.",
+   "say": "Then came the Romans. In 55 BC, Julius Caesar, Rome's most famous general, sailed over from what's now France.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -955,7 +959,7 @@
   },
   {
    "who": "N",
-   "say": "Then, around 410, Rome had problems at home. The emperor told the Britons to defend themselves. Good luck, everyone.",
+   "say": "Then, around 410, Rome had problems at home, and Roman rule in Britain ended. The Britons were on their own. Good luck, everyone.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1092,7 +1096,7 @@
   },
   {
    "who": "N",
-   "say": "Then the Vikings showed up, raiding and settling, until kings like Alfred the Great fought them to a standstill.",
+   "say": "Then the Vikings showed up, raiding and settling. Kings like Alfred the Great fought them to a standstill.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -1126,7 +1130,7 @@
   },
   {
    "who": "N",
-   "say": "By 1066, England was so rich that three different men wanted its crown at the same time.",
+   "say": "By 1066, England's king had died with no children. Three men wanted his crown, and an English earl, Harold, grabbed it first.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -1153,7 +1157,7 @@
     "place": "England · January 1066",
     "stickers": [
      {
-      "text": "3 KINGS?",
+      "text": "3 RIVALS",
       "at": 1.4,
       "color": "#A8322A"
      }
@@ -1166,7 +1170,7 @@
   },
   {
    "who": "N",
-   "say": "King Harold beat a Norwegian invader in the north. Then he raced south to face the third: William, Duke of Normandy.",
+   "say": "King Harold beat the invading king of Norway in the north. Then he raced south to face William, Duke of Normandy, in northern France.",
    "show": {
     "k": "map",
     "lon": -0.8,
@@ -1291,16 +1295,16 @@
   },
   {
    "who": "N",
-   "say": "There was no single hide nor a yard of land, nor indeed one ox nor one cow nor one pig which was left out.",
+   "say": "A monk keeping a yearly chronicle grumbled about it. Not one ox nor one cow nor one pig was left out.",
    "show": {
     "k": "quote",
-    "text": "There was no single hide nor a yard of land, nor indeed one ox nor one cow nor one pig which was left out.",
-    "who": "Anglo-Saxon Chronicle, on William's survey, 1085"
+    "text": "…nor indeed one ox nor one cow nor one pig which was left out.",
+    "who": "Anglo-Saxon Chronicle, entry for 1085"
    }
   },
   {
    "who": "N",
-   "say": "People called it the Domesday Book, because, like Judgment Day, there was no arguing with it.",
+   "say": "People later nicknamed it the Domesday Book, because, like Judgment Day, there was no arguing with it.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1407,7 +1411,7 @@
   },
   {
    "who": "baron",
-   "say": "Sign this, Your Majesty. It says even the king has to follow the law.",
+   "say": "Seal this, Your Majesty. It says even the king has to follow the law.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1536,7 +1540,7 @@
   },
   {
    "who": "N",
-   "say": "Three of its clauses are still law in England today, including one that says no free man can be jailed without a lawful trial.",
+   "say": "Three of its clauses are still law in England today. One says no free man can be jailed without a lawful trial.",
    "show": {
     "k": "card",
     "label": "Magna Carta clauses still in force",
@@ -1697,7 +1701,7 @@
   },
   {
    "who": "N",
-   "say": "And he basically did. In 1534, Parliament made Henry head of the new Church of England, so he could make his own rules.",
+   "say": "And he basically did. In 1534, Parliament made Henry head of a new Church of England. Now he could make his own rules.",
    "show": {
     "k": "scene",
     "bg": "church",
@@ -1987,7 +1991,7 @@
   },
   {
    "who": "N",
-   "say": "In 1605, plotters hid thirty-six barrels of gunpowder under Parliament to blow James up. Guy Fawkes was caught guarding them.",
+   "say": "In 1605, angry Catholic plotters hid thirty-six barrels of gunpowder under Parliament to blow James up. Guy Fawkes was caught guarding them.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -2060,7 +2064,7 @@
   },
   {
    "who": "N",
-   "say": "Parliament disagreed, and in 1642, a civil war broke out. Parliament's army won, led by a tough general named Oliver Cromwell.",
+   "say": "Parliament disagreed, and in 1642, a civil war broke out. Parliament's army won, thanks largely to a tough general named Oliver Cromwell.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -2190,7 +2194,7 @@
   },
   {
    "who": "N",
-   "say": "Then, in 1666, a fire started in a bakery on Pudding Lane and burned down most of the city of London.",
+   "say": "Then, in 1666, a fire started in a bakery on Pudding Lane. It burned down most of the old City of London.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -2278,7 +2282,7 @@
   {
    "show": {
     "k": "chapter",
-    "year": "1837",
+    "year": "1801",
     "title": "Steam, Stink and Empire",
     "bg": "factory"
    },
@@ -2476,7 +2480,7 @@
   },
   {
    "who": "N",
-   "say": "In the hot summer of 1858, the smell got so bad that Parliament soaked its curtains in chemicals to block it.",
+   "say": "In the hot summer of 1858, the smell got so bad that Parliament soaked its curtains in chemicals.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -2506,7 +2510,7 @@
   },
   {
    "who": "N",
-   "say": "Parliament passed a law in about eighteen days, and engineer Joseph Bazalgette built London a huge sewer system that's still used today.",
+   "say": "Parliament passed a law in about eighteen days. Then engineer Joseph Bazalgette built London a huge sewer system that's still used today.",
    "show": {
     "k": "scene",
     "bg": "city",
@@ -2564,7 +2568,7 @@
   },
   {
    "who": "N",
-   "say": "By 1920, it ruled about a quarter of all the land on Earth. That's why it could start a war in Zanzibar before breakfast.",
+   "say": "By 1920, it ruled about a quarter of all the land on Earth. Power like that is why, back in 1896, it could start a war in Zanzibar before breakfast.",
    "show": {
     "k": "card",
     "label": "In 1920 the British Empire ruled about",
@@ -2687,7 +2691,7 @@
   },
   {
    "who": "N",
-   "say": "The new prime minister was Winston Churchill, a cigar-chomping former soldier and writer.",
+   "say": "The new prime minister, the leader of the government, was Winston Churchill, a cigar-chomping former soldier and writer.",
    "show": {
     "k": "scene",
     "bg": "warroom",
@@ -2983,7 +2987,7 @@
   },
   {
    "who": "N",
-   "say": "So that's Britain: a rainy island that built Stonehenge, beat the Armada, started the railway age, ruled a quarter of the world, and once fought a war shorter than a lunch break.",
+   "say": "So that's Britain: a rainy island that built Stonehenge, beat the Armada and started the railway age. It ruled a quarter of the world's land, and once fought a war shorter than a lunch break.",
    "show": {
     "k": "scene",
     "bg": "castle",

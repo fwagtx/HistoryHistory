@@ -56,7 +56,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "Before Parliament's grand opening ceremony, royal guards with lanterns search its cellars.",
+   "say": "Before the King opens Parliament, royal guards with lanterns search its cellars.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -178,7 +178,7 @@
   },
   {
    "who": "N",
-   "say": "But a lord got a mystery letter warning him to stay away, and around midnight, guards searched the cellar.",
+   "say": "But a lord got a mystery letter warning him to stay away. Around midnight, guards searched the cellar.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -252,7 +252,41 @@
   },
   {
    "who": "N",
-   "say": "That was Guy Fawkes, using a fake name. So every fifth of November, Britain lights bonfires and fireworks.",
+   "say": "That was Guy Fawkes, using a fake name. The plot failed.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "fawkes",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "fawkes",
+     "text": "Guy Fawkes"
+    },
+    "stickers": [
+     {
+      "text": "CAUGHT!",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's why every fifth of November brings bonfires, and why guards still check the cellars.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -274,15 +308,16 @@
     "fx": [
      "sparkle"
     ],
-    "tag": {
-     "id": "fawkes",
-     "text": "Guy Fawkes"
-    },
     "stickers": [
      {
       "text": "BONFIRE NIGHT",
-      "at": 1.5,
+      "at": 1.0,
       "color": "#A8322A"
+     },
+     {
+      "text": "CELLARS STILL CHECKED",
+      "at": 3.0,
+      "color": "#2F5A8A"
      }
     ]
    }
