@@ -1,0 +1,281 @@
+{
+ "id": "2026w46-s11",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "Vikings Built One of the Oldest Parliaments",
+ "hook": "VIKINGS BUILT A PARLIAMENT",
+ "music": "playful",
+ "cast": {
+  "speaker": {
+   "preset": "viking",
+   "hat": "hood",
+   "outfit": "fur",
+   "color": "#5A4A3A",
+   "beard": "long",
+   "hairColor": "#D8D8D8",
+   "skin": "light",
+   "hold": "scroll",
+   "name": "the Lawspeaker"
+  },
+  "chief": {
+   "preset": "viking",
+   "hairColor": "#C8402A",
+   "beard": "full",
+   "color": "#8A3A2A",
+   "skin": "light"
+  },
+  "raider2": {
+   "preset": "viking",
+   "hairColor": "#E0C070",
+   "beard": "full",
+   "color": "#2F5A8A",
+   "skin": "light",
+   "hold": "shield"
+  }
+ },
+ "voices": {
+  "speaker": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Vikings started one of the oldest parliaments in the world, and it still exists.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "chief",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "raider2",
+      "x": 0.6,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "place": "Thingvellir, Iceland · 930"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Norse settlers reached Iceland in the 870s. There was no king to settle arguments.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.65,
+      "s": 0.8,
+      "move": [
+       0.45,
+       0.75
+      ]
+     }
+    ],
+    "place": "North Atlantic · 870s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So around 930, chiefs agreed to meet every summer at Thingvellir, a rocky valley.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "chief",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This was the Althing. For about two weeks, they made laws and settled disputes.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "chief",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "raider2",
+      "x": 0.62,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE ALTHING",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A Lawspeaker recited the laws from a big rock, a third of them each year.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "speaker",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.7,
+      "label": "LAW ROCK"
+     }
+    ],
+    "tag": {
+     "id": "speaker",
+     "text": "the Lawspeaker"
+    }
+   }
+  },
+  {
+   "who": "speaker",
+   "say": "And that's this year's third of the laws. See you next summer!",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "speaker",
+      "x": 0.45,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "speaker"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Iceland's parliament is still called the Althing, more than a thousand years later.",
+   "show": {
+    "k": "card",
+    "label": "Iceland's parliament first met in",
+    "big": "930",
+    "sub": "one of the oldest parliaments in the world",
+    "cast": [
+     {
+      "id": "speaker",
+      "x": 0.8,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Vikings didn't just raid. Some loved a good meeting.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "speaker",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "raider2",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Vikings in Iceland started a parliament in 930. It still meets.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #iceland #historytok #democracy",
+ "youtube_title": "Vikings Built One of the Oldest Parliaments #shorts",
+ "tags": [
+  "althing",
+  "iceland parliament",
+  "vikings",
+  "thingvellir",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/topic/Althing",
+  "https://en.wikipedia.org/wiki/Althing",
+  "https://www.althingi.is/pdf/enska.pdf",
+  "https://en.wikipedia.org/wiki/Lawspeaker",
+  "https://en.wikipedia.org/wiki/Settlement_of_Iceland"
+ ]
+}

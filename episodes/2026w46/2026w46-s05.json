@@ -1,0 +1,271 @@
+{
+ "id": "2026w46-s05",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "Saturday Was Viking Bath Day",
+ "hook": "SATURDAY WAS VIKING BATH DAY",
+ "music": "playful",
+ "cast": {
+  "raider": {
+   "preset": "viking",
+   "hairColor": "#C8702A",
+   "beard": "long",
+   "color": "#7A5A3A",
+   "skin": "light",
+   "hold": "axe"
+  },
+  "chronicler": {
+   "preset": "monk",
+   "skin": "light",
+   "hairColor": "#8A6A4A",
+   "hold": "pen"
+  }
+ },
+ "voices": {
+  "chronicler": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In Iceland, the word for Saturday still means washing day.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "SATURDAY"
+     }
+    ],
+    "place": "Iceland · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It comes from Old Norse, the Vikings' language, where Saturday was literally bath day.",
+   "show": {
+    "k": "card",
+    "label": "Saturday in Icelandic",
+    "big": "LAUGARDAGUR",
+    "sub": "= washing day, from Old Norse"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That fits what archaeologists find. Combs are among the most common things dug up from Viking times.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.6,
+      "label": "COMBS"
+     },
+     {
+      "k": "chest",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Scandinavia · Viking Age"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They also carried tweezers, razors and tiny spoons for cleaning their ears.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TWEEZERS",
+      "at": 0.8,
+      "color": "#2F5A8A"
+     },
+     {
+      "text": "RAZORS",
+      "at": 1.8,
+      "color": "#2F5A8A"
+     },
+     {
+      "text": "EAR SPOONS",
+      "at": 2.8,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A medieval English chronicle even grumbled about the Danes living in England.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "chronicler",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "CHRONICLE"
+     }
+    ],
+    "place": "England · 1200s"
+   }
+  },
+  {
+   "who": "chronicler",
+   "say": "They comb their hair every day, bathe every Saturday, and change their clothes! Outrageous!",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "chronicler",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "chronicler"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His worry? All that grooming helped them charm English women.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TOO CLEAN?",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the 'dirty barbarians' may have been the best-groomed guys in town.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history myths busted.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "chronicler",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Vikings had a weekly bath day, and English monks were annoyed about it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #vikinghygiene #historytok #funnyhistory",
+ "youtube_title": "Saturday Was Viking Bath Day #shorts",
+ "tags": [
+  "viking hygiene",
+  "laugardagur",
+  "vikings",
+  "viking combs",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.worldhistory.org/article/1840/viking-hygiene-clothing--jewelry/",
+  "https://en.wikipedia.org/wiki/John_of_Wallingford_(d._1258)",
+  "https://www.historyofyork.org.uk/themes/viking/viking-male-grooming",
+  "https://en.wiktionary.org/wiki/laugardagur",
+  "https://fakehistoryhunter.substack.com/p/viking-hygiene-according-to-chronica"
+ ]
+}

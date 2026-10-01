@@ -1,0 +1,285 @@
+{
+ "id": "2026w46-s01",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "Vikings Never Wore Horned Helmets",
+ "hook": "VIKINGS HAD NO HORNS",
+ "music": "playful",
+ "cast": {
+  "raider": {
+   "preset": "viking",
+   "hairColor": "#C8702A",
+   "beard": "long",
+   "color": "#7A5A3A",
+   "skin": "light",
+   "hold": "axe"
+  },
+  "doepler": {
+   "outfit": "suit",
+   "color": "#3A3A4A",
+   "beard": "full",
+   "stache": "bush",
+   "hair": "short",
+   "hairColor": "#D8D8D8",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Carl Emil Doepler"
+  }
+ },
+ "voices": {
+  "doepler": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Vikings never wore horned helmets. Not one has ever been found.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Scandinavia · Viking Age",
+    "stickers": [
+     {
+      "text": "NO HORNS!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The only complete Viking helmet was dug up on a Norwegian farm in 1943.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Gjermundbu, Norway · 1943"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's round and made of iron, with a guard for the eyes and nose.",
+   "show": {
+    "k": "card",
+    "label": "The only complete Viking helmet",
+    "big": "0 HORNS",
+    "sub": "the Gjermundbu helmet, Norway"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So where did the horns come from? Mostly, an opera.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1876, costume designer Carl Emil Doepler dressed the heroes of Richard Wagner's German opera, The Ring, in horned and winged helmets.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "doepler",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "painting",
+      "x": 0.65,
+      "s": 0.5,
+      "y": 0.3
+     }
+    ],
+    "place": "Germany · 1876",
+    "tag": {
+     "id": "doepler",
+     "text": "Carl Emil Doepler, costume designer"
+    }
+   }
+  },
+  {
+   "who": "doepler",
+   "say": "Horns! Wings! The audience will love it!",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "doepler",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "doepler",
+    "stickers": [
+     {
+      "text": "HORNS!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They did. Soon horned Vikings filled paintings, books and later cartoons.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "OPERA"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MYTH",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Denmark's real horned helmets are about seventeen hundred years older than the Vikings.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.7,
+      "s": 0.6,
+      "label": "BRONZE AGE, ~900 BC"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "raider",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "doepler",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Vikings never wore horned helmets. Blame an 1876 opera.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #historymyths #historytok #funnyhistory",
+ "youtube_title": "Vikings Never Wore Horned Helmets #shorts",
+ "tags": [
+  "viking horned helmets",
+  "vikings",
+  "history myths",
+  "wagner",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Horned_helmet",
+  "https://en.wikipedia.org/wiki/Carl_Emil_Doepler",
+  "https://en.wikipedia.org/wiki/Gjermundbu_helmet",
+  "https://www.smithsonianmag.com/smart-news/iconic-viking-horned-helmets-actually-3000-years-old-180979339/",
+  "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-bronze-age/the-viksoe-helmets/"
+ ]
+}

@@ -1,0 +1,295 @@
+{
+ "id": "2026w46-s04",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "Bluetooth Is Named After a Viking King",
+ "hook": "BLUETOOTH IS A VIKING KING",
+ "music": "playful",
+ "cast": {
+  "bluetooth": {
+   "hat": "crown",
+   "outfit": "viking",
+   "color": "#2F4A8A",
+   "beard": "full",
+   "hairColor": "#C8B080",
+   "skin": "light",
+   "name": "King Harald Bluetooth"
+  },
+  "kardach": {
+   "preset": "businessman",
+   "glasses": "square",
+   "hair": "short",
+   "hairColor": "#5A3A1A",
+   "skin": "light",
+   "name": "Jim Kardach"
+  }
+ },
+ "voices": {
+  "bluetooth": "bm_george",
+  "kardach": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Every time you pair wireless headphones, you're using a Viking king's name.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "kardach",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ],
+    "place": "Your phone · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Harald Bluetooth was king of Denmark about a thousand years ago.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "bluetooth",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "place": "Denmark · 960s",
+    "tag": {
+     "id": "bluetooth",
+     "text": "King Harald Bluetooth"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody's sure why he was called that. One theory: a dead tooth that looked blue.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "bluetooth",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "bluetooth",
+    "stickers": [
+     {
+      "text": "BLUE TOOTH?",
+      "at": 1.5,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was famous for uniting Denmark and bringing Norway under his rule.",
+   "show": {
+    "k": "map",
+    "lon": 10,
+    "lat": 59,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "900s",
+    "labels": [
+     [
+      "Denmark",
+      9.5,
+      56,
+      0
+     ],
+     [
+      "Norway",
+      9,
+      61,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      9.5,
+      56,
+      1.3,
+      "rgba(40,90,200,.4)"
+     ],
+     [
+      9,
+      61,
+      3,
+      "rgba(40,90,200,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1997, engineers built a way for phones and computers to talk without wires.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "kardach",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "phone",
+      "x": 0.7,
+      "s": 0.4,
+      "y": 0.2
+     }
+    ],
+    "place": "USA · 1997",
+    "tag": {
+     "id": "kardach",
+     "text": "Jim Kardach, Intel engineer"
+    }
+   }
+  },
+  {
+   "who": "kardach",
+   "say": "It unites devices, like Harald united Denmark and Norway. Call it Bluetooth!",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "kardach",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "kardach"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Kardach had just read a Viking novel. The name was meant to be temporary. It stuck.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "kardach",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "BLUETOOTH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even the logo is Harald's initials, H and B, in Viking runes.",
+   "show": {
+    "k": "card",
+    "label": "The Bluetooth logo",
+    "big": "H + B",
+    "sub": "Harald Bluetooth's initials in Viking runes",
+    "cast": [
+     {
+      "id": "bluetooth",
+      "x": 0.8,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history hiding in your pocket.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "bluetooth",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "kardach",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Bluetooth is named after a Viking king, and the logo is his initials.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #bluetooth #historytok #techhistory",
+ "youtube_title": "Bluetooth Is Named After a Viking King #shorts",
+ "tags": [
+  "harald bluetooth",
+  "bluetooth name",
+  "vikings",
+  "bluetooth logo",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Harald_Bluetooth",
+  "https://www.nationalgeographic.com/premium/article/bluetooth-technology-viking-king-harald",
+  "https://gizmodo.com/bluetooth-is-named-after-a-medieval-king-who-may-have-h-1671450657",
+  "https://www.ripleys.com/stories/how-did-bluetooth-get-its-name",
+  "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-monuments-at-jelling/the-jelling-stone/"
+ ]
+}

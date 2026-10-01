@@ -1,0 +1,296 @@
+{
+ "id": "2026w46-s09",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "Paris Paid the Vikings to Go Away",
+ "hook": "PARIS PAID VIKINGS TO LEAVE",
+ "music": "playful",
+ "cast": {
+  "ragnar": {
+   "preset": "viking",
+   "hairColor": "#B8432A",
+   "beard": "long",
+   "color": "#5A3A2A",
+   "skin": "light",
+   "hold": "axe",
+   "name": "Reginherus"
+  },
+  "charles": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#2F4A8A",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#5A3A1A",
+   "skin": "light",
+   "name": "King Charles the Bald"
+  }
+ },
+ "voices": {
+  "ragnar": "am_fenrir",
+  "charles": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 845, the king of the Franks paid Vikings a fortune to leave Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "place": "Paris · 845"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A Viking chief called Reginherus rowed up the river Seine with about a hundred and twenty ships.",
+   "show": {
+    "k": "map",
+    "lon": 1.4,
+    "lat": 49.2,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "March 845",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      0
+     ],
+     [
+      "River Seine",
+      0.9,
+      49.35,
+      0
+     ]
+    ],
+    "route": [
+     [
+      0.1,
+      49.45
+     ],
+     [
+      0.9,
+      49.4
+     ],
+     [
+      1.5,
+      49.1
+     ],
+     [
+      2.35,
+      48.86
+     ]
+    ],
+    "areas": [
+     [
+      2.35,
+      48.86,
+      0.25,
+      "rgba(214,48,40,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "King Charles the Bald split his army across both riverbanks. The Vikings beat one half. The rest fled.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "charles",
+     "text": "King Charles the Bald"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On Easter Sunday, the Vikings marched into Paris and grabbed what they wanted.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "charles",
+   "say": "What will it take for you to leave?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "ragnar",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "charles"
+   }
+  },
+  {
+   "who": "ragnar",
+   "say": "Seven thousand pounds of silver and gold.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "ragnar"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's about two and a half tonnes, roughly the weight of two cars.",
+   "show": {
+    "k": "card",
+    "label": "Paris paid the Vikings",
+    "big": "7,000 POUNDS",
+    "sub": "of silver and gold, about 2.5 tonnes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Charles paid, and they left. But they'd learned that raiding Paris paid. They came back.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.4,
+      "front": true
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "charles",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 845, Paris paid Vikings about 2.5 tonnes of silver and gold to leave.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #paris #historytok #medievalhistory",
+ "youtube_title": "Paris Paid the Vikings to Go Away #shorts",
+ "tags": [
+  "siege of paris 845",
+  "vikings paris",
+  "charles the bald",
+  "ragnar",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Siege_of_Paris_(845)",
+  "https://www.worldhistory.org/Viking_Raids_on_Paris/",
+  "https://www.medievalists.net/2026/07/viking-sieges-medieval-paris/",
+  "https://www.britannica.com/topic/Ragnar-Lothbrok"
+ ]
+}

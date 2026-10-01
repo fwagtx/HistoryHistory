@@ -1,0 +1,314 @@
+{
+ "id": "2026w46-s10",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "Normandy Was a Gift to a Viking",
+ "hook": "VIKINGS FOUNDED NORMANDY",
+ "music": "playful",
+ "cast": {
+  "rollo": {
+   "preset": "viking",
+   "hairColor": "#D8B060",
+   "beard": "full",
+   "color": "#3A6A3A",
+   "skin": "light",
+   "name": "Rollo"
+  },
+  "charles2": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#B89060",
+   "skin": "light",
+   "name": "King Charles the Simple"
+  },
+  "william": {
+   "preset": "knight",
+   "color": "#C8902A",
+   "skin": "light",
+   "hairColor": "#5A3A1A",
+   "name": "William the Conqueror"
+  }
+ },
+ "voices": {
+  "rollo": "am_onyx",
+  "charles2": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Normandy, in France, is named after Vikings. It means land of the Northmen.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rollo",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "red"
+     }
+    ],
+    "place": "Normandy, France"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around 900, a Viking chief named Rollo kept raiding along the river Seine.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "rollo",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "place": "River Seine · about 900",
+    "tag": {
+     "id": "rollo",
+     "text": "Rollo, Viking chief"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 911, the French king, Charles the Simple, had an idea: if you can't beat them, hire them.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "place": "France · 911",
+    "tag": {
+     "id": "charles2",
+     "text": "King Charles the Simple"
+    }
+   }
+  },
+  {
+   "who": "charles2",
+   "say": "Take this land by the sea. Just keep the other Vikings out.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles2",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "rollo",
+      "x": 0.68,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.85,
+      "s": 0.4,
+      "text": "DEAL"
+     }
+    ],
+    "cam": "close",
+    "focus": "charles2"
+   }
+  },
+  {
+   "who": "rollo",
+   "say": "Deal. I'll even become a Christian.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "rollo",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "rollo"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rollo's Vikings married locals and soon spoke French. They became the Normans.",
+   "show": {
+    "k": "map",
+    "lon": 0.5,
+    "lat": 49.1,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "911",
+    "labels": [
+     [
+      "NORMANDY",
+      -0.4,
+      49.0,
+      0
+     ],
+     [
+      "Rouen",
+      1.1,
+      49.44,
+      0
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      0.0,
+      49.1,
+      0.9,
+      "rgba(214,48,40,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rollo's great-great-great-grandson was William the Conqueror, who conquered England in 1066.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Hastings, England · 1066",
+    "tag": {
+     "id": "william",
+     "text": "William the Conqueror"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So England was conquered by the descendants of Vikings, speaking French.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "rollo",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BONJOUR, ENGLAND",
+      "at": 1.5,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rollo",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "william",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A French king gave a Viking a chunk of France. It became Normandy.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #normandy #historytok #1066",
+ "youtube_title": "Normandy Was a Gift to a Viking #shorts",
+ "tags": [
+  "rollo",
+  "normandy vikings",
+  "william the conqueror",
+  "normans",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rollo",
+  "https://www.worldhistory.org/Rollo_of_Normandy/",
+  "https://en.wikipedia.org/wiki/Duchy_of_Normandy",
+  "https://www.ebsco.com/research-starters/biography/rollo/",
+  "https://en.wikipedia.org/wiki/William_the_Conqueror"
+ ]
+}

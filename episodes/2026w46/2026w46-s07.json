@@ -1,0 +1,284 @@
+{
+ "id": "2026w46-s07",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "Was Ragnar Lothbrok Even Real?",
+ "hook": "WAS RAGNAR EVEN REAL?",
+ "music": "playful",
+ "cast": {
+  "ragnar": {
+   "preset": "viking",
+   "hairColor": "#B8432A",
+   "beard": "long",
+   "color": "#5A3A2A",
+   "skin": "light",
+   "hold": "axe",
+   "name": "Ragnar Lothbrok"
+  },
+  "aella": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#2F6A4A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "King Aella of Northumbria"
+  }
+ },
+ "voices": {
+  "ragnar": "am_fenrir",
+  "aella": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Ragnar Lothbrok is the most famous Viking ever. But he may never have existed.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Scandinavia · 800s",
+    "tag": {
+     "id": "ragnar",
+     "text": "Ragnar Lothbrok"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His stories come from sagas and legends written down centuries later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.6,
+      "text": "SAGAS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lothbrok means hairy trousers. Legend says he wore shaggy pants to fight a giant serpent.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HAIRY TROUSERS",
+      "at": 1.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "LEGEND",
+      "at": 3.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The legend ends with an English king, Aella, throwing him into a snake pit.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "aella",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "ragnar",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "aella",
+     "text": "King Aella"
+    }
+   }
+  },
+  {
+   "who": "aella",
+   "say": "Into the snake pit with you!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "aella",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close",
+    "focus": "aella",
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "What's real? A Viking chief called Reginherus attacked Paris in 845. He may be part of Ragnar.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Paris · 845"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But his supposed sons, like Ivar the Boneless, really did invade England in 865.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.7,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Ragnar is probably a mix of real Vikings and great storytelling.",
+   "show": {
+    "k": "card",
+    "label": "Ragnar Lothbrok",
+    "big": "PART LEGEND",
+    "sub": "part real Vikings, part sagas",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.8,
+      "pose": "shrug",
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ragnar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "aella",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The most famous Viking ever might be part legend.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #ragnarlothbrok #historytok #norse",
+ "youtube_title": "Was Ragnar Lothbrok Even Real? #shorts",
+ "tags": [
+  "ragnar lothbrok",
+  "was ragnar real",
+  "vikings",
+  "ivar the boneless",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/topic/Ragnar-Lothbrok",
+  "https://en.wikipedia.org/wiki/Ragnar_Lodbrok",
+  "https://www.historic-uk.com/HistoryUK/HistoryofEngland/Ragnar-Lothbrok/",
+  "https://en.wikipedia.org/wiki/Siege_of_Paris_(845)",
+  "https://en.wikipedia.org/wiki/Great_Heathen_Army"
+ ]
+}

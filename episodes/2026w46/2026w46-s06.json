@@ -1,0 +1,304 @@
+{
+ "id": "2026w46-s06",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "The Last Great Viking Invasion",
+ "hook": "THE LAST VIKING INVASION",
+ "music": "playful",
+ "cast": {
+  "hardrada": {
+   "hat": "viking",
+   "outfit": "viking",
+   "color": "#5A2A2A",
+   "beard": "full",
+   "stache": "handlebar",
+   "hairColor": "#E0C070",
+   "skin": "light",
+   "hold": "axe",
+   "name": "King Harald Hardrada"
+  },
+  "harold": {
+   "preset": "king",
+   "outfit": "armor",
+   "color": "#A8322A",
+   "stache": "handlebar",
+   "hairColor": "#B8803A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "King Harold Godwinson"
+  },
+  "raider2": {
+   "preset": "viking",
+   "hairColor": "#E0C070",
+   "beard": "full",
+   "color": "#2F5A8A",
+   "skin": "light",
+   "hold": "shield"
+  }
+ },
+ "voices": {
+  "hardrada": "am_fenrir",
+  "harold": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1066, the most famous Viking alive invaded England. Few of his men got home.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "hardrada",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.65,
+      "s": 0.8,
+      "move": [
+       0.85,
+       0.6
+      ]
+     }
+    ],
+    "place": "North Sea · September 1066"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Harald Hardrada, king of Norway, and once a bodyguard for the emperor in Constantinople.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "hardrada",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "hardrada",
+     "text": "King Harald Hardrada"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He landed with about three hundred ships, won a battle, and took the surrender of York.",
+   "show": {
+    "k": "map",
+    "lon": -1.2,
+    "lat": 54.0,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "September 1066",
+    "labels": [
+     [
+      "York",
+      -1.08,
+      53.96,
+      0
+     ],
+     [
+      "Stamford Bridge",
+      -0.91,
+      53.99,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -0.2,
+      54.4
+     ],
+     [
+      -1.08,
+      53.96
+     ],
+     [
+      -0.91,
+      53.99
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then England's King Harold Godwinson raced north in about four days and surprised them.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "harold",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "Stamford Bridge, England · 25 September 1066",
+    "tag": {
+     "id": "harold",
+     "text": "King Harold Godwinson"
+    }
+   }
+  },
+  {
+   "who": "hardrada",
+   "say": "Wait, the English army is here already?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hardrada",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "hardrada"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The sagas say many had left their armor at the ships, because it was hot.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.55,
+      "s": 0.4,
+      "label": "ARMOR"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hardrada was killed. Of about three hundred ships, only about twenty-four sailed home.",
+   "show": {
+    "k": "card",
+    "label": "Viking ships that went home",
+    "big": "24 OF 300",
+    "sub": "Stamford Bridge, 1066",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.8,
+      "pose": "facepalm",
+      "mood": "sad",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many historians call this the end of the Viking Age.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "raider2",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.7,
+      "s": 0.6,
+      "move": [
+       0.6,
+       0.95
+      ]
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hardrada",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "harold",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "300 Viking ships invaded England in 1066. About 24 went home.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #1066 #historytok #england",
+ "youtube_title": "The Last Great Viking Invasion #shorts",
+ "tags": [
+  "stamford bridge",
+  "harald hardrada",
+  "1066",
+  "end of the viking age",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge",
+  "https://www.britannica.com/event/Battle-of-Stamford-Bridge",
+  "https://en.wikipedia.org/wiki/Harald_Hardrada",
+  "https://www.historyhit.com/facts-about-the-battle-of-stamford-bridge/",
+  "https://www.history.co.uk/articles/harald-hardrada-the-last-viking"
+ ]
+}

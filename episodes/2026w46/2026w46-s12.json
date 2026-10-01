@@ -1,0 +1,326 @@
+{
+ "id": "2026w46-s12",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "Vikings Guarded the Byzantine Emperor",
+ "hook": "VIKING BODYGUARDS IN CONSTANTINOPLE",
+ "music": "playful",
+ "cast": {
+  "basil": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#6A2E7E",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Emperor Basil II"
+  },
+  "guard": {
+   "preset": "viking",
+   "color": "#A8322A",
+   "hold": "axe",
+   "hairColor": "#E0C070",
+   "beard": "long",
+   "skin": "light"
+  },
+  "hardrada": {
+   "hat": "viking",
+   "outfit": "viking",
+   "color": "#5A2A2A",
+   "beard": "full",
+   "stache": "handlebar",
+   "hairColor": "#E0C070",
+   "skin": "light",
+   "hold": "axe",
+   "name": "King Harald Hardrada"
+  }
+ },
+ "voices": {
+  "basil": "am_echo",
+  "guard": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "For generations, the emperor in Constantinople was protected by Viking bodyguards.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "basil",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Constantinople · 988"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Constantinople was the capital of the Byzantine Empire, the eastern half of the old Roman Empire.",
+   "show": {
+    "k": "map",
+    "lon": 29,
+    "lat": 46,
+    "z0": 1.5,
+    "z1": 1.9,
+    "date": "988",
+    "labels": [
+     [
+      "Constantinople",
+      28.95,
+      41.01,
+      0
+     ],
+     [
+      "Kyiv",
+      30.52,
+      50.45,
+      0
+     ],
+     [
+      "Black Sea",
+      34,
+      43.3,
+      0
+     ]
+    ],
+    "route": [
+     [
+      30.52,
+      50.45
+     ],
+     [
+      32,
+      46.6
+     ],
+     [
+      30.5,
+      43.5
+     ],
+     [
+      28.95,
+      41.01
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 988, Emperor Basil the Second faced a rebellion and needed tough soldiers fast.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "basil",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "basil",
+     "text": "Emperor Basil II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vladimir, ruler of the Rus in Kyiv, sent six thousand warriors. In return, he married the emperor's sister.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "6,000 WARRIORS",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Warriors like these became the Varangian Guard, famous for their huge axes.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "axe"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VARANGIAN GUARD",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "basil",
+   "say": "Foreigners with no friends at court. Harder to drag into a plot.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "basil",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "guard",
+      "x": 0.68,
+      "pose": "salute"
+     }
+    ],
+    "cam": "close",
+    "focus": "basil"
+   }
+  },
+  {
+   "who": "guard",
+   "say": "Correct. We only work for you. And for gold.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "guard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even Harald Hardrada, a future king of Norway, served in the guard.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "hardrada",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.7,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "hardrada",
+     "text": "Harald Hardrada"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "basil",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The emperor in Constantinople hired Vikings as his bodyguards.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #byzantine #historytok #varangianguard",
+ "youtube_title": "Vikings Guarded the Byzantine Emperor #shorts",
+ "tags": [
+  "varangian guard",
+  "byzantine empire",
+  "vikings",
+  "basil ii",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Varangian_Guard",
+  "https://www.worldhistory.org/Varangian_Guard/",
+  "https://en.wikipedia.org/wiki/Basil_II",
+  "https://en.wikipedia.org/wiki/Harald_Hardrada",
+  "https://www.britannica.com/topic/Varangian-Guard"
+ ]
+}

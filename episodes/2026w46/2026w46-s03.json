@@ -1,0 +1,266 @@
+{
+ "id": "2026w46-s03",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "A Viking Left Graffiti in Hagia Sophia",
+ "hook": "VIKING GRAFFITI IN HAGIA SOPHIA",
+ "music": "playful",
+ "cast": {
+  "guard": {
+   "preset": "viking",
+   "color": "#A8322A",
+   "hold": "axe",
+   "hairColor": "#E0C070",
+   "beard": "long",
+   "skin": "light"
+  },
+  "basil": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#6A2E7E",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Emperor Basil II"
+  }
+ },
+ "voices": {
+  "guard": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Viking scratched his name into one of the most famous buildings on Earth.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "place": "Constantinople · Viking Age"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's Hagia Sophia in Constantinople, now Istanbul. For centuries, it was the world's biggest church.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HAGIA SOPHIA",
+      "at": 1.0,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Byzantine emperor hired Vikings as bodyguards, called the Varangian Guard.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "basil",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VARANGIAN GUARD",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians guess a guard got bored during a very long church service.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ZZZ",
+      "at": 2.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "guard",
+   "say": "Nobody's looking. Time to leave my mark.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "axe"
+     }
+    ],
+    "cam": "close",
+    "focus": "guard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1964, someone noticed Viking runes scratched into a stone railing in the upstairs gallery.",
+   "show": {
+    "k": "card",
+    "label": "Scratched into the railing in runes",
+    "big": "HALFDAN",
+    "sub": "a Viking name; the rest is worn away"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most is worn away, but one name is clear: Halfdan.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "HALFDAN WAS HERE"
+     }
+    ],
+    "place": "Istanbul · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So about a thousand years later, we know one bored Viking's name, because of a little graffiti.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.5,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A bored Viking bodyguard carved his name into Hagia Sophia.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #hagiasophia #historytok #istanbul",
+ "youtube_title": "A Viking Left Graffiti in Hagia Sophia #shorts",
+ "tags": [
+  "hagia sophia viking graffiti",
+  "halfdan runes",
+  "varangian guard",
+  "vikings",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Runic_inscriptions_in_Hagia_Sophia",
+  "https://sites.nd.edu/manuscript-studies/2020/06/05/varangian-guards-and-their-traces-in-istanbul-runic-inscriptions-in-hagia-sophia/",
+  "https://nordictalesbyzantinepaths.ku.edu.tr/en/article/varangian-graffiti-t35",
+  "https://en.wikipedia.org/wiki/Varangian_Guard",
+  "https://www.britannica.com/topic/Hagia-Sophia"
+ ]
+}

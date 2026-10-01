@@ -1,0 +1,267 @@
+{
+ "id": "2026w46-s02",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "Vikings Reached America Before Columbus",
+ "hook": "VIKINGS BEAT COLUMBUS",
+ "music": "playful",
+ "cast": {
+  "leif": {
+   "preset": "viking",
+   "hairColor": "#E0B050",
+   "beard": "full",
+   "color": "#2F6A8A",
+   "skin": "light",
+   "name": "Leif Erikson"
+  },
+  "columbus": {
+   "preset": "columbus",
+   "name": "Christopher Columbus"
+  }
+ },
+ "voices": {
+  "leif": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Vikings reached America nearly five hundred years before Columbus.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.65,
+      "s": 0.8,
+      "move": [
+       0.5,
+       0.75
+      ]
+     }
+    ],
+    "place": "North Atlantic · about 1000"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The explorer was Leif Erikson, son of Erik the Red, the Viking who settled Greenland.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "leif",
+     "text": "Leif Erikson"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The sagas say he sailed west and found forests and wild grapes.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.6,
+      "s": 0.8,
+      "move": [
+       0.4,
+       0.7
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "leif",
+   "say": "Trees! Grapes! I'm calling it Vinland!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "cam": "close",
+    "focus": "leif"
+   }
+  },
+  {
+   "who": "N",
+   "say": "People thought it was just a legend. Then in 1960, explorers found Viking ruins in Newfoundland, Canada.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "L'Anse aux Meadows, Canada · 1960"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tree rings in wood cut with Viking metal tools show it was cut in 1021.",
+   "show": {
+    "k": "card",
+    "label": "Vikings were chopping trees in Canada in",
+    "big": "1021",
+    "sub": "proved by tree rings in 2021"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Columbus sailed in 1492, four hundred and seventy-one years later.",
+   "show": {
+    "k": "compare",
+    "bg": "ocean",
+    "left": {
+     "label": "LEIF · 1021",
+     "cast": [
+      {
+       "id": "leif",
+       "pose": "cheer",
+       "mood": "smug"
+      }
+     ]
+    },
+    "right": {
+     "label": "COLUMBUS · 1492",
+     "cast": [
+      {
+       "id": "columbus",
+       "pose": "shrug",
+       "mood": "shock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Native peoples had lived there for thousands of years. But Leif's crew were the first Europeans we know of.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.7
+     },
+     {
+      "k": "longship",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "columbus",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Vikings were in Canada in 1021. Columbus showed up in 1492.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #leiferikson #historytok #columbus",
+ "youtube_title": "Vikings Reached America Before Columbus #shorts",
+ "tags": [
+  "leif erikson",
+  "vikings in america",
+  "l'anse aux meadows",
+  "vinland",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/L'Anse_aux_Meadows",
+  "https://en.wikipedia.org/wiki/Leif_Erikson",
+  "https://www.smithsonianmag.com/science-nature/new-dating-method-shows-vikings-occupied-newfoundland-in-1021-ce-180978903/",
+  "https://www.science.org/content/article/first-viking-settlement-north-america-dated-exactly-1000-years-ago",
+  "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=236"
+ ]
+}

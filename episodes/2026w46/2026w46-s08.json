@@ -1,0 +1,265 @@
+{
+ "id": "2026w46-s08",
+ "format": "short",
+ "date": "2026-11-09",
+ "slot": "09:00",
+ "title": "Greenland's Name Was a Sales Pitch",
+ "hook": "GREENLAND WAS A MARKETING TRICK",
+ "music": "playful",
+ "cast": {
+  "erik": {
+   "preset": "viking",
+   "hairColor": "#C8402A",
+   "beard": "full",
+   "stache": "bush",
+   "color": "#8A3A2A",
+   "skin": "light",
+   "name": "Erik the Red"
+  },
+  "settler": {
+   "preset": "peasantW",
+   "outfit": "fur",
+   "hairColor": "#E0C070",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "erik": "am_eric",
+  "settler": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Greenland is mostly ice. So why the name? Blame a Viking with a sales pitch.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Greenland · 980s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Erik the Red lived in Iceland. In 982, he was banished for three years after a deadly feud.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "place": "Iceland · 982",
+    "tag": {
+     "id": "erik",
+     "text": "Erik the Red"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he sailed west to explore a big land other sailors had spotted.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.6,
+      "s": 0.8,
+      "move": [
+       0.4,
+       0.7
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was mostly ice, but some southern valleys had green summer grass.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "erik",
+   "say": "Come to Greenland! Green grass! Free land!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.6,
+      "text": "GREENLAND"
+     }
+    ],
+    "place": "Iceland · 985"
+   }
+  },
+  {
+   "who": "settler",
+   "say": "Green? Sounds lovely. Where do I sign up?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "settler"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The sagas say he picked the name because a good name would attract people.",
+   "show": {
+    "k": "card",
+    "label": "Why 'Greenland'?",
+    "big": "A GOOD NAME",
+    "sub": "according to the Icelandic sagas",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.8,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It worked. Hundreds of settlers followed him, and Norse farms lasted there for about four hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "erik",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "erik",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "settler",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Erik the Red named an icy island Greenland to attract settlers.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #greenland #historytok #erikthered",
+ "youtube_title": "Greenland's Name Was a Sales Pitch #shorts",
+ "tags": [
+  "erik the red",
+  "greenland name",
+  "vikings",
+  "norse greenland",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Erik_the_Red",
+  "https://en.wikipedia.org/wiki/Saga_of_Erik_the_Red",
+  "https://en.wikipedia.org/wiki/%C3%8Dslendingab%C3%B3k",
+  "https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland",
+  "https://visitgreenland.com/articles/erik-the-red/"
+ ]
+}
