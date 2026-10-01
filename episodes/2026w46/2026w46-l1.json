@@ -195,7 +195,8 @@
    "color": "#C8902A",
    "skin": "light",
    "hairColor": "#5A3A1A",
-   "name": "William the Conqueror"
+   "name": "William the Conqueror",
+   "outfit": "armor"
   }
  },
  "voices": {
@@ -662,16 +663,7 @@
     "k": "card",
     "label": "The Gokstad ship had oars for",
     "big": "32 ROWERS",
-    "sub": "found in a Viking burial mound in Norway",
-    "cast": [
-     {
-      "id": "raider",
-      "x": 0.86,
-      "pose": "cheer",
-      "mood": "happy",
-      "s": 0.8
-     }
-    ]
+    "sub": "found in a Viking burial mound in Norway"
    }
   },
   {
@@ -1066,16 +1058,7 @@
     "k": "card",
     "label": "Charles the Bald paid the Vikings",
     "big": "7,000 POUNDS",
-    "sub": "of silver and gold, about 2.5 tonnes",
-    "cast": [
-     {
-      "id": "ragnar",
-      "x": 0.86,
-      "pose": "cheer",
-      "mood": "happy",
-      "s": 0.8
-     }
-    ]
+    "sub": "of silver and gold, about 2.5 tonnes"
    }
   },
   {
@@ -1143,12 +1126,6 @@
       0
      ],
      [
-      "York",
-      -1.08,
-      53.96,
-      0
-     ],
-     [
       "Wessex",
       -2.2,
       51.2,
@@ -1156,8 +1133,8 @@
      ],
      [
       "Northumbria",
-      -1.8,
-      54.9,
+      -1.6,
+      54.7,
       0
      ]
     ],
@@ -2687,7 +2664,7 @@
     "cast": [
      {
       "id": "hardrada",
-      "x": 0.2,
+      "x": 0.3,
       "pose": "point",
       "mood": "shout"
      }
@@ -2801,10 +2778,6 @@
      }
     ],
     "place": "Stamford Bridge, England · 1066",
-    "tag": {
-     "id": "harold",
-     "text": "King Harold Godwinson"
-    },
     "cam": "close",
     "focus": "hardrada"
    }
@@ -2832,7 +2805,11 @@
      }
     ],
     "cam": "close",
-    "focus": "harold"
+    "focus": "harold",
+    "tag": {
+     "id": "harold",
+     "text": "King Harold Godwinson"
+    }
    }
   },
   {
@@ -2876,16 +2853,7 @@
     "k": "card",
     "label": "Viking ships that went home",
     "big": "24 OF 300",
-    "sub": "Stamford Bridge, 1066",
-    "cast": [
-     {
-      "id": "raider2",
-      "x": 0.86,
-      "pose": "facepalm",
-      "mood": "sad",
-      "s": 0.8
-     }
-    ]
+    "sub": "Stamford Bridge, 1066"
    }
   },
   {
@@ -3042,13 +3010,13 @@
     "cast": [
      {
       "id": "rollo",
-      "x": 0.66,
+      "x": 0.78,
       "pose": "wave",
       "mood": "happy"
      },
      {
       "id": "leif",
-      "x": 0.86,
+      "x": 0.92,
       "pose": "wave",
       "mood": "happy"
      }
