@@ -305,12 +305,16 @@
   "https://en.wikipedia.org/wiki/Antikythera_mechanism",
   "https://www.livescience.com/antikythera-mechanism",
   "https://en.wikipedia.org/wiki/Battle_of_Corinth_(146_BC)",
-  "https://en.wikipedia.org/wiki/Lucius_Mummius_Achaicus"
+  "https://en.wikipedia.org/wiki/Lucius_Mummius_Achaicus",
+  "https://en.wikipedia.org/wiki/Idiot",
+  "https://www.livius.org/articles/concept/ostracism/",
+  "https://en.wikipedia.org/wiki/Battle_of_Chaeronea_(338_BC)",
+  "https://en.wikipedia.org/wiki/Thespis"
  ],
  "beats": [
   {
    "who": "N",
-   "say": "August, 480 BC. A narrow pass in northern Greece, squeezed between the mountains and the sea.",
+   "say": "It's 480 BC. A narrow pass in central Greece, squeezed between the mountains and the sea.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -341,7 +345,7 @@
       "label": "SPARTA"
      }
     ],
-    "place": "Thermopylae, Greece · August 480 BC",
+    "place": "Thermopylae, Greece · 480 BC",
     "tag": {
      "id": "leonidas",
      "text": "King Leonidas of Sparta"
@@ -350,7 +354,7 @@
   },
   {
    "who": "N",
-   "say": "Coming toward it is the biggest army anyone in Greece has ever seen: the army of King Xerxes of Persia.",
+   "say": "Coming toward it is the biggest army Greece has ever seen. It belongs to King Xerxes of Persia.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -396,7 +400,7 @@
   },
   {
    "who": "N",
-   "say": "Blocking the pass are about seven thousand Greeks, led by Leonidas, one of Sparta's two kings.",
+   "say": "Blocking the pass are about seven thousand Greeks. They're led by Leonidas, a king of Sparta, the Greek city famous for its soldiers.",
    "show": {
     "k": "card",
     "label": "Greeks holding the pass at first",
@@ -514,7 +518,7 @@
   },
   {
    "who": "N",
-   "say": "Then a local man showed the Persians a path around the mountain. Leonidas sent most Greeks home and stayed with his three hundred Spartans, plus hundreds of other Greeks.",
+   "say": "Then a local man showed the Persians a path around the mountain. Leonidas sent most Greeks home. He stayed with his three hundred Spartans, plus several hundred other Greeks.",
    "show": {
     "k": "map",
     "lon": 22.6,
@@ -675,7 +679,7 @@
   },
   {
    "who": "N",
-   "say": "Instead there were hundreds of city-states, little countries of one city plus its farms. Each had its own laws, army and attitude.",
+   "say": "Instead there were hundreds of city-states: a city plus its farms, with its own laws and army. The Greek word is polis.",
    "show": {
     "k": "scene",
     "bg": "greek",
@@ -710,6 +714,11 @@
       "text": "CITY-STATES",
       "at": 1.4,
       "color": "#2F5A8A"
+     },
+     {
+      "text": "POLIS",
+      "at": 3.6,
+      "color": "#C8902A"
      }
     ]
    }
@@ -793,7 +802,7 @@
   },
   {
    "who": "N",
-   "say": "Soon the poet called Homer, if he was one real person, gave Greece its greatest stories: the Iliad and the Odyssey.",
+   "say": "Soon the poet Homer gave Greece its greatest stories: the Iliad and the Odyssey. Historians aren't sure he was one real person.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -857,7 +866,7 @@
   },
   {
    "who": "N",
-   "say": "And in 776 BC, at Olympia, the first recorded Olympic Games had exactly one event: a sprint of about two hundred meters.",
+   "say": "In 776 BC, Greek tradition says, the first Olympic Games were held at Olympia. There was one event: a sprint of about two hundred meters.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -915,7 +924,7 @@
   },
   {
    "who": "N",
-   "say": "Every four years, Greek cities even declared a truce, so athletes and fans could travel to the Games safely.",
+   "say": "Every four years, a sacred truce let athletes and fans travel to the Games safely.",
    "show": {
     "k": "scene",
     "bg": "greek",
@@ -998,7 +1007,7 @@
   },
   {
    "who": "N",
-   "say": "In 508 BC, an Athenian leader named Cleisthenes set up a new system: the citizens themselves would vote on the big decisions.",
+   "say": "In 508 BC, an Athenian leader named Cleisthenes set up a new system. The citizens themselves would vote on big decisions.",
    "show": {
     "k": "scene",
     "bg": "greek",
@@ -1067,7 +1076,7 @@
   },
   {
    "who": "N",
-   "say": "Athenians who skipped politics were called idiotes, meaning private people. That's where our word idiot comes from.",
+   "say": "The Greek word for a private person, with no public job, was idiotes. Our word idiot comes from it, though the insult came much later.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -1088,7 +1097,7 @@
     ],
     "stickers": [
      {
-      "text": "IDIOTES",
+      "text": "IDIOTES = PRIVATE PERSON",
       "at": 1.6,
       "color": "#6A3E8E"
      }
@@ -1124,17 +1133,17 @@
   },
   {
    "who": "N",
-   "say": "With at least six thousand votes, the most-named man had to leave Athens for ten years. That's called ostracism.",
+   "say": "If at least six thousand votes were cast, the man named most had to leave Athens for ten years. That's ostracism, from ostrakon, a pottery shard.",
    "show": {
     "k": "card",
-    "label": "Votes needed to ostracize someone",
+    "label": "Votes needed for an ostracism to count",
     "big": "6,000",
-    "sub": "the loser left Athens for 10 years"
+    "sub": "the most-named man left Athens for 10 years"
    }
   },
   {
    "who": "N",
-   "say": "The most famous story, from the Greek writer Plutarch, is about a politician nicknamed Aristides the Just.",
+   "say": "The most famous story comes from Plutarch, a Greek writer who lived over five hundred years later. It's about a politician nicknamed Aristides the Just.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -1281,7 +1290,7 @@
   },
   {
    "who": "N",
-   "say": "Sparta, meanwhile, was one big army camp. Boys left home at seven for brutal training, and were fed so little they were expected to steal food.",
+   "say": "Sparta, meanwhile, was one big army camp. Boys left home at seven for brutal training. They were fed so little that they were expected to steal food.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -1354,7 +1363,7 @@
   },
   {
    "who": "N",
-   "say": "Next door was the Persian Empire, the biggest empire the world had ever seen, stretching from Egypt to India.",
+   "say": "Next door was the Persian Empire, based in what's now Iran. It was the biggest empire the world had yet seen, stretching from Egypt to India.",
    "show": {
     "k": "map",
     "lon": 40.0,
@@ -1487,7 +1496,7 @@
   },
   {
    "who": "N",
-   "say": "Ten years later, Xerxes came back with a much bigger army. That's when Leonidas made his stand at Thermopylae.",
+   "say": "Ten years later, Xerxes, the new Persian king, invaded with a much bigger army. That's when Leonidas made his stand at Thermopylae.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -1633,7 +1642,7 @@
   },
   {
    "who": "N",
-   "say": "A year later, the Greeks won again on land, and Persia never invaded mainland Greece again.",
+   "say": "A year later, the Greeks won again on land, at Plataea. Persia never invaded mainland Greece again.",
    "show": {
     "k": "map",
     "lon": 23.4,
@@ -1686,7 +1695,7 @@
   },
   {
    "who": "N",
-   "say": "Victory made Athens rich and bossy. Its leader Pericles, always painted wearing his helmet, spent the money on art.",
+   "say": "Victory made Athens rich and bossy. Its top politician was Pericles, always shown in statues wearing a helmet. He spent the money on grand buildings.",
    "show": {
     "k": "scene",
     "bg": "greek",
@@ -1719,7 +1728,7 @@
   },
   {
    "who": "N",
-   "say": "In 447 BC, Athens started the Parthenon, a giant marble temple to the goddess Athena. It still stands on the hill above the city.",
+   "say": "In 447 BC, Athens started the Parthenon, a giant marble temple to the goddess Athena. Its ruins still stand on the Acropolis, the hill above the city.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1755,7 +1764,8 @@
       "at": 1.4,
       "color": "#2F5A8A"
      }
-    ]
+    ],
+    "place": "Acropolis, Athens · 447 BC"
    }
   },
   {
@@ -1789,7 +1799,7 @@
   },
   {
    "who": "N",
-   "say": "This is when Athens invented theater, with comedies and tragedies, and when philosophers started asking big questions.",
+   "say": "Athenian theater, with its comedies and tragedies, hit its golden age. And philosophers started asking big questions.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1819,7 +1829,7 @@
   },
   {
    "who": "N",
-   "say": "But Sparta didn't like Athens getting so powerful. In 431 BC, they went to war. It's called the Peloponnesian War, and it lasted twenty-seven years.",
+   "say": "But Sparta didn't like Athens getting so powerful. In 431 BC, they went to war. It's called the Peloponnesian War, after Sparta's corner of Greece. It lasted twenty-seven years.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -1931,7 +1941,7 @@
   },
   {
    "who": "N",
-   "say": "Now meet Socrates, a philosopher who walked around Athens asking people questions until they realized they didn't know anything.",
+   "say": "Now meet Socrates, a philosopher who walked around Athens asking people questions. He kept going until they realized they knew less than they thought.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -2096,7 +2106,7 @@
   },
   {
    "who": "N",
-   "say": "While the big cities wore each other out, a kingdom in the north got strong: Macedon, led by King Philip the Second.",
+   "say": "While the big cities wore each other out, a kingdom in the north got strong. It was Macedon, led by King Philip the Second.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -2219,7 +2229,7 @@
   },
   {
    "who": "N",
-   "say": "That's the story told by Plutarch, a Greek writer centuries later. And Philip never did take Sparta.",
+   "say": "That's the story told by Plutarch. A short, sharp answer like that is called laconic, after Laconia, Sparta's home region. Philip raided Spartan land, but never took Sparta itself.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -2399,7 +2409,7 @@
       "text": "BUCEPHALA"
      }
     ],
-    "place": "Hydaspes River, India · 326 BC",
+    "place": "Hydaspes River (now Pakistan) · 326 BC",
     "stickers": [
      {
       "text": "0 LOSSES",
@@ -2440,7 +2450,7 @@
   },
   {
    "who": "N",
-   "say": "Then, in 323 BC, he caught a fever in Babylon and died at just thirty-two. His generals split the empire and fought over it for decades.",
+   "say": "Then, in 323 BC, he fell sick with a fever in Babylon and died at just thirty-two. His generals split the empire and fought over it for decades.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -2509,7 +2519,7 @@
   },
   {
    "who": "N",
-   "say": "Archimedes, a genius from Syracuse, a Greek city in Sicily, supposedly jumped out of his bath shouting Eureka, meaning I found it. That one's probably a legend.",
+   "say": "Archimedes was a genius from Syracuse, a Greek city in Sicily. Legend says he jumped out of his bath shouting Eureka, meaning I found it.",
    "show": {
     "k": "scene",
     "bg": "tavern",
@@ -2577,7 +2587,7 @@
   },
   {
    "who": "N",
-   "say": "And around this time, someone built the Antikythera mechanism: a box of bronze gears you cranked to predict eclipses. It's been called the world's oldest computer.",
+   "say": "Around this time, someone built the Antikythera mechanism, a box of bronze gears you cranked to predict eclipses. Some call it the oldest computer, but it's really a hand-cranked calculator for the sky.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -2604,7 +2614,7 @@
     ],
     "stickers": [
      {
-      "text": "ANCIENT COMPUTER",
+      "text": "SKY CALCULATOR",
       "at": 1.6,
       "color": "#1F8A4A"
      }
@@ -2624,7 +2634,7 @@
   },
   {
    "who": "N",
-   "say": "Roman legions beat the Macedonians, and in 146 BC, after a Greek revolt, a Roman general named Mummius destroyed the city of Corinth.",
+   "say": "Roman legions beat the Macedonians. Then in 146 BC, after a Greek revolt, a Roman general named Mummius destroyed the city of Corinth.",
    "show": {
     "k": "scene",
     "bg": "rome",
@@ -2729,7 +2739,7 @@
   },
   {
    "who": "N",
-   "say": "But the Romans fell in love with Greek gods, statues, plays and books. A Roman poet named Horace joked that captive Greece had captured its conqueror.",
+   "say": "But the Romans fell in love with Greek gods, statues, plays and books. A Roman poet named Horace wrote that captive Greece had captured its wild conqueror.",
    "show": {
     "k": "scene",
     "bg": "rome",
@@ -2765,7 +2775,7 @@
   },
   {
    "who": "N",
-   "say": "So that's ancient Greece: squabbling cities that gave us democracy, the Olympics, philosophy, theater and the word idiot. Not bad for a bunch of rocky islands.",
+   "say": "So that's ancient Greece: squabbling cities that gave us democracy, the Olympics, philosophy, theater and the word idiot. Not bad for a land of rocky hills and islands.",
    "show": {
     "k": "scene",
     "bg": "greek",

@@ -3,8 +3,8 @@
  "format": "short",
  "date": "2026-11-23",
  "slot": "09:00",
- "title": "'Idiot' Used to Mean Someone Who Skipped Politics",
- "hook": "WHERE IDIOT CAME FROM",
+ "title": "'Idiot' Started as Greek for a Private Person",
+ "hook": "WHERE 'IDIOT' CAME FROM",
  "music": "playful",
  "cast": {
   "lazy": {
@@ -23,6 +23,13 @@
    "hair": "curly",
    "hairColor": "#2A1A0A",
    "skin": "olive"
+  },
+  "pericles": {
+   "preset": "greek",
+   "beard": "full",
+   "hairColor": "#5A4A3A",
+   "skin": "olive",
+   "name": "Pericles"
   }
  },
  "voices": {
@@ -32,7 +39,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "The word idiot started out meaning someone who skipped politics.",
+   "say": "The word idiot comes from ancient Greece, but it didn't start out as an insult.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -98,7 +105,7 @@
   },
   {
    "who": "N",
-   "say": "A man who stayed home and minded his own business was called an idiotes, from idios, meaning your own.",
+   "say": "The Greek word idiotes just meant a private person, someone with no public job.",
    "show": {
     "k": "card",
     "label": "Ancient Greek",
@@ -158,20 +165,20 @@
   },
   {
    "who": "N",
-   "say": "Athenians respected men who took part, so the word slowly picked up a sneer.",
+   "say": "Pericles, Athens' top politician, did call men who skipped politics useless. But he used a different word.",
    "show": {
     "k": "scene",
     "bg": "greek",
     "cast": [
      {
-      "id": "citizen",
-      "x": 0.3,
+      "id": "pericles",
+      "x": 0.35,
       "pose": "point",
       "mood": "smug"
      },
      {
       "id": "lazy",
-      "x": 0.68,
+      "x": 0.7,
       "pose": "facepalm",
       "mood": "sad"
      }
@@ -182,12 +189,23 @@
       "x": 0.88,
       "s": 0.5
      }
+    ],
+    "tag": {
+     "id": "pericles",
+     "text": "Pericles, Athenian leader"
+    },
+    "stickers": [
+     {
+      "text": "USELESS",
+      "at": 2.0,
+      "color": "#A8322A"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "Latin turned it into idiota, an uneducated person. By the time it reached English, it meant someone foolish.",
+   "say": "Romans borrowed it as idiota, an uneducated person. Later, in English, idiot came to mean foolish.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -211,7 +229,7 @@
   },
   {
    "who": "N",
-   "say": "So calling someone an idiot is ancient Greek for: you never show up to vote.",
+   "say": "So idiot didn't start as an insult. It just meant a regular guy.",
    "show": {
     "k": "scene",
     "bg": "greek",
@@ -232,7 +250,7 @@
     ],
     "stickers": [
      {
-      "text": "GO VOTE",
+      "text": "REGULAR GUY",
       "at": 1.6,
       "color": "#1F8A4A"
      }
@@ -261,8 +279,8 @@
    }
   }
  ],
- "caption": "'Idiot' started as the Greek word for someone who skipped politics.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientgreece #etymology #historytok #funnyhistory",
- "youtube_title": "'Idiot' Used to Mean Someone Who Skipped Politics #shorts",
+ "caption": "'Idiot' comes from the Greek word for a private person. The insult came much later.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientgreece #etymology #historytok #funnyhistory",
+ "youtube_title": "'Idiot' Started as Greek for a Private Person #shorts",
  "tags": [
   "idiot etymology",
   "ancient greece",
@@ -274,6 +292,7 @@
   "https://www.etymonline.com/word/idiot",
   "https://en.wikipedia.org/wiki/Idiot",
   "https://greekreporter.com/2026/06/22/word-idiot-ancient-greek/",
-  "https://en.wikipedia.org/wiki/Athenian_democracy"
+  "https://en.wikipedia.org/wiki/Athenian_democracy",
+  "https://en.wikipedia.org/wiki/Pericles%27s_Funeral_Oration"
  ]
 }

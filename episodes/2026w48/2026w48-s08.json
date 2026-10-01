@@ -82,7 +82,7 @@
   },
   {
    "who": "N",
-   "say": "In 480 BC, King Xerxes of Persia invaded Greece with a gigantic army.",
+   "say": "In 480 BC, Xerxes, king of the huge Persian Empire, invaded Greece.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -117,7 +117,7 @@
   },
   {
    "who": "N",
-   "say": "About seven thousand Greeks blocked a narrow pass called Thermopylae, led by the Spartan king Leonidas.",
+   "say": "About seven thousand Greeks blocked a narrow pass called Thermopylae. They were led by Leonidas, king of Sparta, Greece's toughest soldier city.",
    "show": {
     "k": "card",
     "label": "Greeks holding the pass at first",
@@ -136,7 +136,7 @@
   },
   {
    "who": "N",
-   "say": "They held for two days. Then a local man showed the Persians a path around the mountain.",
+   "say": "They held two days. Then a local man showed the Persians a secret mountain path.",
    "show": {
     "k": "map",
     "lon": 22.5,
@@ -223,11 +223,10 @@
     ],
     "objects": [
      {
-      "k": "banner",
+      "k": "sign",
       "x": 0.82,
       "s": 0.5,
-      "flag": "white",
-      "label": "THESPIAE"
+      "text": "THESPIAE"
      }
     ],
     "cam": "close",
@@ -236,7 +235,7 @@
   },
   {
    "who": "N",
-   "say": "Seven hundred men from that small city refused to leave, and about four hundred men from Thebes stayed too.",
+   "say": "Seven hundred men from Thespiae, a small Greek city, refused to leave. They fought beside the Spartans to the end.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -266,11 +265,6 @@
       "text": "700 THESPIANS",
       "at": 1.4,
       "color": "#1F8A4A"
-     },
-     {
-      "text": "400 THEBANS",
-      "at": 2.8,
-      "color": "#2F5A8A"
      }
     ]
    }
