@@ -75,7 +75,7 @@
    "name": "Cassius Dio"
   },
   "elagabalus": {
-   "hat": "crown",
+   "hat": "laurel",
    "outfit": "robe",
    "color": "#6A3E8E",
    "color2": "#D4A52A",
@@ -1344,17 +1344,7 @@
     "k": "card",
     "label": "Julianus's winning bid",
     "big": "25,000",
-    "sub": "sesterces per guard: about 20 years of a regular soldier's pay",
-    "cast": [
-     {
-      "id": "julianus",
-      "x": 0.88,
-      "s": 0.8,
-      "pose": "cheer",
-      "mood": "happy",
-      "hold": "moneybag"
-     }
-    ]
+    "sub": "sesterces per guard: about 20 years of a regular soldier's pay"
    }
   },
   {
@@ -2062,16 +2052,7 @@
     "k": "card",
     "label": "Nero's Olympic chariot race",
     "big": "10 HORSES",
-    "sub": "fell out, didn't finish, still won",
-    "cast": [
-     {
-      "id": "nero",
-      "x": 0.88,
-      "s": 0.8,
-      "pose": "cheer",
-      "mood": "happy"
-     }
-    ]
+    "sub": "fell out, didn't finish, still won"
    }
   },
   {
@@ -2229,7 +2210,7 @@
     "date": "40 AD",
     "labels": [
      [
-      "Gesoriacum (Boulogne)",
+      "Boulogne",
       1.61,
       50.73,
       14
@@ -2843,14 +2824,14 @@
     "cast": [
      {
       "id": "vespasian",
-      "x": 0.72,
+      "x": 0.78,
       "pose": "wave",
       "mood": "happy",
       "hold": "coin"
      },
      {
       "id": "nero",
-      "x": 0.88,
+      "x": 0.92,
       "pose": "wave",
       "mood": "happy"
      }
