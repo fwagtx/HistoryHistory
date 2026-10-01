@@ -1,0 +1,329 @@
+{
+ "id": "2026w46-s13",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "The Emperor Who Declared War on the Sea",
+ "hook": "EMPEROR VS THE OCEAN",
+ "music": "playful",
+ "cast": {
+  "caligen": {
+   "hat": "laurel",
+   "outfit": "armor",
+   "color": "#E7C66A",
+   "color2": "#6A3E8E",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Emperor Caligula"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "roman": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman"
+  }
+ },
+ "voices": {
+  "caligen": "am_puck",
+  "legionary": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Roman emperor marched his whole army to the beach, to fight... the ocean.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caligen",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "legionary",
+      "x": 0.72,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.6,
+      "flag": "rome"
+     },
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "place": "Coast of Gaul · 40 AD",
+    "tag": {
+     "id": "caligen",
+     "text": "Emperor Caligula"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 40 AD, Emperor Caligula brought his legions to the coast of Gaul, now France. Britain was right across the water.",
+   "show": {
+    "k": "map",
+    "lon": 1.6,
+    "lat": 50.6,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "40 AD",
+    "labels": [
+     [
+      "Boulogne",
+      1.61,
+      50.73,
+      14
+     ],
+     [
+      "BRITAIN",
+      0.0,
+      51.8,
+      0
+     ],
+     [
+      "GAUL",
+      2.8,
+      49.6,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      1.61,
+      50.73,
+      0.3,
+      "rgba(168,50,42,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The soldiers lined up for battle. Trumpets blared. Everyone waited for the invasion.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "salute"
+     },
+     {
+      "id": "caligen",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "caligen",
+   "say": "Soldiers! Collect... seashells!",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caligen",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "caligen"
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "Seashells, sir?",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "SHELLS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SEASHELLS?!",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius, a Roman writer who loved gossip, says they filled their helmets, and Caligula called the shells spoils of the Ocean.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "caligen",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.6,
+      "load": "gold"
+     },
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPOILS OF THE OCEAN",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some historians think the Latin word he used, musculi, could also mean army huts. So it may be a mix-up.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.4,
+      "pose": "think",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "MUSCULI?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHELLS OR HUTS?",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Either way, there was no invasion. Britain had to wait three more years.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.45,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more emperors behaving strangely.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caligen",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He lined up an army to invade Britain... then had them pick up seashells.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #caligula #ancientrome #romanempire #historytok",
+ "youtube_title": "The Emperor Who Declared War on the Sea #shorts",
+ "tags": [
+  "caligula",
+  "caligula seashells",
+  "roman emperor",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Caligula",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Caligula*.html",
+  "https://www.ad43.org.uk/blog/caligula-and-the-sea-shells/",
+  "https://historyfacts.com/world-history/fact/the-roman-emperor-caligula-declared-war-on-the-sea/"
+ ]
+}

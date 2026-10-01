@@ -1,0 +1,262 @@
+{
+ "id": "2026w46-s21",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "A Roman Emperor's Last Words Were a Joke",
+ "hook": "A JOKE ON HIS DEATHBED",
+ "music": "playful",
+ "cast": {
+  "roman": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman"
+  },
+  "titus": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F6FC2",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Titus, Vespasian's son"
+  },
+  "vespasian": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#A8322A",
+   "hair": "bald",
+   "hairColor": "#8A8A8A",
+   "skin": "tan",
+   "hold": "coin",
+   "name": "Emperor Vespasian"
+  }
+ },
+ "voices": {
+  "titus": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Roman emperor cracked a joke on his deathbed, about turning into a god.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "place": "Italy · June 79 AD",
+    "tag": {
+     "id": "vespasian",
+     "text": "Emperor Vespasian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vespasian was a down-to-earth emperor. He once even put a tax on pee.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "PEE"
+     },
+     {
+      "k": "jar",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PEE TAX",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And in Rome, dead emperors were often declared gods, with temples and statues.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.7,
+      "s": 0.7,
+      "label": "DIVINE EMPEROR"
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 79 AD, Vespasian fell sick with a fever. His son Titus was worried.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "titus",
+      "x": 0.72,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [],
+    "tag": {
+     "id": "titus",
+     "text": "Titus, his son"
+    }
+   }
+  },
+  {
+   "who": "titus",
+   "say": "Father, how are you feeling?"
+  },
+  {
+   "who": "N",
+   "say": "Suetonius, a Roman writer, says the old emperor joked:",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "vespasian"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Woe's me. Methinks I'm turning into a god.",
+   "show": {
+    "k": "quote",
+    "text": "Woe's me. Methinks I'm turning into a god.",
+    "who": "Vespasian, 79 AD (Suetonius, Life of Vespasian 23, trans. J. C. Rolfe)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He even tried to stand up at the end, saying an emperor should die on his feet. Funny, and tough, right to the end.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's best last words.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "titus",
+      "x": 0.7,
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His last words? A joke about becoming a god.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vespasian #lastwords #ancientrome #historytok",
+ "youtube_title": "A Roman Emperor's Last Words Were a Joke #shorts",
+ "tags": [
+  "vespasian",
+  "last words",
+  "roman emperor",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Vespasian",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Vespasian*.html",
+  "https://www.lookandlearn.com/blog/2178/famous-last-words-vespasian/",
+  "http://thelatinreadingblog.blogspot.com/2016/08/suetonius-vespesian-23-joking-emperor.html"
+ ]
+}

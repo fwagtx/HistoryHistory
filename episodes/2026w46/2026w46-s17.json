@@ -1,0 +1,307 @@
+{
+ "id": "2026w46-s17",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "He Bought the Roman Empire and Lasted 66 Days",
+ "hook": "BOUGHT ROME FOR 66 DAYS",
+ "music": "playful",
+ "cast": {
+  "guard": {
+   "preset": "legionary",
+   "color": "#6A3E8E",
+   "hold": "spear",
+   "name": "Praetorian guard"
+  },
+  "julianus": {
+   "preset": "senator",
+   "hat": null,
+   "hair": "short",
+   "hairColor": "#DADADA",
+   "hold": "moneybag",
+   "name": "Didius Julianus"
+  },
+  "roman": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman"
+  },
+  "severus": {
+   "hat": "laurel",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "tan",
+   "hold": "sword",
+   "name": "Septimius Severus"
+  }
+ },
+ "voices": {
+  "roman": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This man bought the Roman Empire, and kept it for sixty-six days.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Rome · 193 AD",
+    "tag": {
+     "id": "julianus",
+     "text": "Didius Julianus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 193 AD, the emperor's own bodyguards, the Praetorian Guard, killed him and put the throne up for sale.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "EMPIRE FOR SALE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Didius Julianus, a rich senator, promised each guard twenty-five thousand sesterces, and won.",
+   "show": {
+    "k": "card",
+    "label": "Julianus's winning bid",
+    "big": "25,000",
+    "sub": "sesterces for each guard",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.8,
+      "s": 0.8,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the people of Rome hated him, and shouted insults in the streets.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "julianus",
+      "x": 0.72,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [],
+    "stickers": [
+     {
+      "text": "BOO!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "roman",
+   "say": "You bought it! Boo!"
+  },
+  {
+   "who": "N",
+   "say": "Then a general named Septimius Severus marched his army from the Danube toward Rome.",
+   "show": {
+    "k": "map",
+    "lon": 14.5,
+    "lat": 44.5,
+    "z0": 1.8,
+    "z1": 2.3,
+    "date": "spring 193 AD",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Carnuntum",
+      16.9,
+      48.1,
+      14
+     ]
+    ],
+    "route": [
+     [
+      16.9,
+      48.1
+     ],
+     [
+      15.0,
+      46.5
+     ],
+     [
+      13.8,
+      45.6
+     ],
+     [
+      12.3,
+      45.4
+     ],
+     [
+      11.3,
+      44.5
+     ],
+     [
+      12.5,
+      43.3
+     ],
+     [
+      12.48,
+      41.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Senate switched sides, and Julianus was killed. Cassius Dio says his last words were: but what evil have I done?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "66 DAYS",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He paid for an empire, and got about two months.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "severus",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "severus",
+     "text": "Septimius Severus, new emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's worst purchases.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "julianus",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "sad",
+      "hold": "moneybag"
+     },
+     {
+      "id": "severus",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He bought the Roman Empire at an auction. It did not go well.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #didiusjulianus #ancientrome #romanempire #historytok",
+ "youtube_title": "He Bought the Roman Empire and Lasted 66 Days #shorts",
+ "tags": [
+  "didius julianus",
+  "empire auction",
+  "praetorian guard",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Didius_Julianus",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/74*.html",
+  "https://www.livius.org/articles/person/flavius-sulpicianus/",
+  "https://en.wikipedia.org/wiki/Septimius_Severus"
+ ]
+}

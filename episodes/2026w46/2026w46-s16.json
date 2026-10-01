@@ -1,0 +1,302 @@
+{
+ "id": "2026w46-s16",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "The Emperor Who Renamed Rome After Himself",
+ "hook": "HE RENAMED ROME",
+ "music": "playful",
+ "cast": {
+  "commodus": {
+   "hat": "laurel",
+   "outfit": "armor",
+   "color": "#B08A3A",
+   "hair": "curly",
+   "beard": "full",
+   "hairColor": "#C8902A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Emperor Commodus"
+  },
+  "hercules": {
+   "outfit": "fur",
+   "color": "#C8902A",
+   "hair": "curly",
+   "beard": "full",
+   "hairColor": "#C8902A",
+   "skin": "light",
+   "hold": "axe",
+   "name": "Commodus as 'Hercules'"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "marcus": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A7A",
+   "hair": "curly",
+   "hairColor": "#8A8A8A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Marcus Aurelius"
+  },
+  "senator": {
+   "preset": "senator",
+   "hat": null,
+   "hair": "short",
+   "hairColor": "#8A8A8A"
+  }
+ },
+ "voices": {
+  "hercules": "am_fenrir",
+  "senator": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One Roman emperor renamed the months, the army, and even Rome itself, after himself.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "hercules",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "COMMODIANA"
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Rome · 192 AD",
+    "tag": {
+     "id": "hercules",
+     "text": "Emperor Commodus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Commodus was the son of Marcus Aurelius, one of Rome's wisest emperors. He ruled from 180 to 192.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "marcus",
+      "x": 0.35,
+      "pose": "think"
+     },
+     {
+      "id": "commodus",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "marcus",
+     "text": "Marcus Aurelius, his father"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He decided he was the Greek hero Hercules reborn, and wore a lion skin to prove it.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "hercules",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.6,
+      "label": "HERCULES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HERCULES?",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "hercules",
+   "say": "From now on, every month is named after me.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "hercules",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "senator",
+      "x": 0.72,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "senator",
+   "say": "Every month? All twelve?"
+  },
+  {
+   "who": "N",
+   "say": "A senator named Cassius Dio lists them: Commodus, Herculeus, and ten more.",
+   "show": {
+    "k": "card",
+    "label": "Months Commodus renamed after himself",
+    "big": "12",
+    "sub": "out of 12",
+    "cast": [
+     {
+      "id": "hercules",
+      "x": 0.8,
+      "s": 0.8,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome became the Colony of Commodus. Even the legions were renamed after him.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "rome"
+     },
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "COMMODIANA",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It didn't last. After he was murdered in 192, the Senate ordered his name erased.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "ERASE HIM"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more emperors behaving strangely.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hercules",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "senator",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Imagine every month of the year named after your boss. Romans didn't have to imagine.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #commodus #ancientrome #romanempire #historytok",
+ "youtube_title": "The Emperor Who Renamed Rome After Himself #shorts",
+ "tags": [
+  "commodus",
+  "colonia commodiana",
+  "roman emperor",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Commodus",
+  "https://penelope.uchicago.edu/thayer/e/roman/texts/cassius_dio/73*.html",
+  "https://www.worldhistory.org/commodus/",
+  "https://www.britannica.com/biography/Commodus"
+ ]
+}

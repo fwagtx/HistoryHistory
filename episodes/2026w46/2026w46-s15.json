@@ -1,0 +1,318 @@
+{
+ "id": "2026w46-s15",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "Rome Made Everyone a Citizen to Tax Them",
+ "hook": "CITIZENSHIP FOR TAXES",
+ "music": "playful",
+ "cast": {
+  "caracalla": {
+   "hat": "laurel",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "skin": "tan",
+   "name": "Emperor Caracalla"
+  },
+  "dio": {
+   "preset": "senator",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "goatee",
+   "name": "Cassius Dio"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "roman": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman"
+  }
+ },
+ "voices": {
+  "caracalla": "am_fenrir",
+  "roman": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 212 AD, a Roman emperor made millions of people citizens at once. The catch? Taxes.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "caracalla",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "roman",
+      "x": 0.72,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "CITIZENS!"
+     }
+    ],
+    "place": "Rome · 212 AD",
+    "tag": {
+     "id": "caracalla",
+     "text": "Emperor Caracalla"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Before this, most free people in the Roman Empire were not Roman citizens.",
+   "show": {
+    "k": "map",
+    "lon": 18.0,
+    "lat": 40.0,
+    "z0": 1.0,
+    "z1": 1.2,
+    "date": "212 AD",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "ROMAN EMPIRE",
+      20.0,
+      44.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      12.5,
+      42.0,
+      6.0,
+      "rgba(168,50,42,0.18)"
+     ],
+     [
+      30.0,
+      37.0,
+      6.0,
+      "rgba(168,50,42,0.18)"
+     ],
+     [
+      5.0,
+      34.0,
+      5.0,
+      "rgba(168,50,42,0.18)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Emperor Caracalla announced that almost every free man was now a Roman citizen.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "caracalla",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "caracalla",
+   "say": "Congratulations! You're all Romans now!",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caracalla",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "caracalla"
+   }
+  },
+  {
+   "who": "roman",
+   "say": "Wow! Thanks! What's the catch?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Citizens paid special taxes, like a tax on inheritances. And Caracalla had just doubled it.",
+   "show": {
+    "k": "card",
+    "label": "Inheritance tax under Caracalla",
+    "big": "10%",
+    "sub": "up from 5%",
+    "cast": [
+     {
+      "id": "caracalla",
+      "x": 0.8,
+      "s": 0.8,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cassius Dio, a senator who disliked Caracalla, says the gift was really about more taxpayers.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "dio",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "dio",
+     "text": "Cassius Dio, senator"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians still debate his reasons. But overnight, millions of people became Roman.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caracalla",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "roman",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Free Roman citizenship for (almost) everyone! Just one small catch.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #caracalla #ancientrome #taxes #historytok",
+ "youtube_title": "Rome Made Everyone a Citizen to Tax Them #shorts",
+ "tags": [
+  "caracalla",
+  "constitutio antoniniana",
+  "roman citizenship",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Constitutio_Antoniniana",
+  "https://en.wikipedia.org/wiki/Caracalla",
+  "https://en.wikipedia.org/wiki/Vicesima_hereditatium",
+  "http://penelope.uchicago.edu/Thayer/E/Roman/texts/Cassius_Dio/78*.html",
+  "https://www.oxfordreference.com/view/10.1093/oi/authority.20110803095633894"
+ ]
+}

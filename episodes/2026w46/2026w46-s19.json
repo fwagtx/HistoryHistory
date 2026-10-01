@@ -1,0 +1,293 @@
+{
+ "id": "2026w46-s19",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "You Couldn't Leave Nero's Concerts",
+ "hook": "NO LEAVING NERO'S CONCERT",
+ "music": "playful",
+ "cast": {
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "nero": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "curly",
+   "hairColor": "#C8702A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Emperor Nero"
+  },
+  "roman": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman"
+  },
+  "senator": {
+   "preset": "senator",
+   "hat": null,
+   "hair": "short",
+   "hairColor": "#8A8A8A"
+  }
+ },
+ "voices": {
+  "roman": "am_echo",
+  "senator": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When Emperor Nero sang, nobody was allowed to leave. So people got creative.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "roman",
+      "x": 0.72,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     }
+    ],
+    "place": "Rome · 60s AD",
+    "tag": {
+     "id": "nero",
+     "text": "Emperor Nero"
+    },
+    "stickers": [
+     {
+      "text": "LA LA LA",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nero dreamed of being a star singer. He performed with the lyre, a small harp, for huge crowds.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And while he sang, the gates stayed shut.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.75,
+      "s": 0.7,
+      "label": "LOCKED"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO EXIT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "roman",
+   "say": "How long is this song?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "senator",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "scared"
+     }
+    ],
+    "objects": []
+   }
+  },
+  {
+   "who": "senator",
+   "say": "Shh! Clap! He's watching!"
+  },
+  {
+   "who": "N",
+   "say": "Suetonius, a Roman writer who loved gossip, says some people jumped off the walls to escape.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.45,
+      "pose": "run",
+      "walk": [
+       0.3,
+       0.7
+      ],
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.2,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Others pretended to be dead, so they would be carried out.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "senator",
+      "x": 0.72,
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PLAYING DEAD",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So next time a concert feels long, remember: at least you can leave.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more emperors behaving strangely.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "roman",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The worst concert in history: you weren't allowed to leave.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #nero #ancientrome #funnyhistory #historytok",
+ "youtube_title": "You Couldn't Leave Nero's Concerts #shorts",
+ "tags": [
+  "nero",
+  "nero singing",
+  "ancient rome",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Nero",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Nero*.html",
+  "https://lexundria.com/suet_nero/23/r",
+  "https://www.poetryintranslation.com/PITBR/Latin/Suetonius6.php"
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "id": "2026w46-s20",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "He Napped During Nero's Song, Then Became Emperor",
+ "hook": "HE NAPPED DURING NERO'S SONG",
+ "music": "playful",
+ "cast": {
+  "nero": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "curly",
+   "hairColor": "#C8702A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Emperor Nero"
+  },
+  "vespasian": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#A8322A",
+   "hair": "bald",
+   "hairColor": "#8A8A8A",
+   "skin": "tan",
+   "hold": "coin",
+   "name": "Emperor Vespasian"
+  },
+  "vespgen": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8A6A3A",
+   "hair": "bald",
+   "hairColor": "#8A8A8A",
+   "skin": "tan",
+   "name": "Vespasian, a Roman general"
+  }
+ },
+ "voices": {
+  "nero": "am_liam",
+  "vespgen": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This man fell asleep during the emperor's song. Later, he became emperor himself.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "vespgen",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "place": "Greece · 66 AD",
+    "tag": {
+     "id": "vespgen",
+     "text": "Vespasian, Roman general"
+    },
+    "stickers": [
+     {
+      "text": "ZZZ",
+      "at": 1.0,
+      "color": "#262322"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 66 AD, Emperor Nero toured Greece as a singer. A tough old general, Vespasian, came along.",
+   "show": {
+    "k": "map",
+    "lon": 22.0,
+    "lat": 38.3,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "66 AD",
+    "labels": [
+     [
+      "Corinth",
+      22.93,
+      37.94,
+      14
+     ],
+     [
+      "Olympia",
+      21.63,
+      37.64,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius, a Roman writer, says Vespasian kept walking out of the shows, or nodding off when he stayed.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "vespgen",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "nero",
+   "say": "Excuse me. Are you sleeping during my song?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "vespgen",
+      "x": 0.72,
+      "pose": "sit",
+      "mood": "shock"
+     }
+    ],
+    "objects": [],
+    "cam": "close",
+    "focus": "nero",
+    "tag": {
+     "id": "nero",
+     "text": "Emperor Nero"
+    }
+   }
+  },
+  {
+   "who": "vespgen",
+   "say": "Hm? No! Bravo! Beautiful!"
+  },
+  {
+   "who": "N",
+   "say": "Nero banned him from court. Vespasian hid in a small town, afraid for his life.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "vespgen",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a revolt broke out in Judaea, and Nero needed a tough general. Guess who.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "vespgen",
+      "x": 0.4,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Three years later, after Nero was gone, the sleepy listener was emperor of Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EMPEROR, 69 AD",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "nero",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He fell asleep at the emperor's concert. Three years later he WAS the emperor.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vespasian #nero #ancientrome #historytok",
+ "youtube_title": "He Napped During Nero's Song, Then Became Emperor #shorts",
+ "tags": [
+  "vespasian",
+  "nero",
+  "roman emperor",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Vespasian",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Vespasian*.html",
+  "https://www.worldhistory.org/Vespasian/",
+  "https://lexundria.com/suet_ves/1-6/r"
+ ]
+}

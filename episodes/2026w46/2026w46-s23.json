@@ -1,0 +1,353 @@
+{
+ "id": "2026w46-s23",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "Rome Had Four Emperors in One Year",
+ "hook": "FOUR EMPERORS, ONE YEAR",
+ "music": "playful",
+ "cast": {
+  "galba": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A7A",
+   "hair": "bald",
+   "hairColor": "#BDBDBD",
+   "skin": "light",
+   "name": "Emperor Galba"
+  },
+  "guard": {
+   "preset": "legionary",
+   "color": "#6A3E8E",
+   "hold": "spear",
+   "name": "Praetorian guard"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "otho": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#1F8A4A",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Emperor Otho"
+  },
+  "vespasian": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#A8322A",
+   "hair": "bald",
+   "hairColor": "#8A8A8A",
+   "skin": "tan",
+   "hold": "coin",
+   "name": "Emperor Vespasian"
+  },
+  "vitellius": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#C8902A",
+   "hair": "short",
+   "hairColor": "#5A4A3A",
+   "skin": "peach",
+   "name": "Emperor Vitellius"
+  }
+ },
+ "voices": {
+  "galba": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A7A",
+   "hair": "bald",
+   "hairColor": "#BDBDBD",
+   "skin": "light",
+   "name": "Emperor Galba"
+  }
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 69 AD, Rome went through four emperors in a single year.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "galba",
+      "x": 0.15,
+      "pose": "cross"
+     },
+     {
+      "id": "otho",
+      "x": 0.37,
+      "pose": "hips"
+     },
+     {
+      "id": "vitellius",
+      "x": 0.58,
+      "pose": "shrug"
+     },
+     {
+      "id": "vespasian",
+      "x": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [],
+    "place": "Rome · 69 AD",
+    "stickers": [
+     {
+      "text": "1 YEAR, 4 EMPERORS",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "First came Galba, a stern seventy-year-old general. He refused to pay the guards a promised bonus.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "galba",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     },
+     {
+      "id": "guard",
+      "x": 0.72,
+      "pose": "shrug",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "galba",
+     "text": "Galba, emperor no. 1"
+    }
+   }
+  },
+  {
+   "who": "galba",
+   "say": "Pay the guards? Absolutely not."
+  },
+  {
+   "who": "N",
+   "say": "Bad idea. In January, the guards killed him and backed Otho, a friend of Nero.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "otho",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "tag": {
+     "id": "otho",
+     "text": "Otho, emperor no. 2"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the army on the Rhine had its own pick, Vitellius. In April his troops beat Otho, who'd lasted three months.",
+   "show": {
+    "k": "map",
+    "lon": 9.0,
+    "lat": 46.5,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "April 69 AD",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.9,
+      14
+     ],
+     [
+      "Bedriacum",
+      10.4,
+      45.1,
+      14
+     ],
+     [
+      "Rhine",
+      7.6,
+      50.4,
+      14
+     ]
+    ],
+    "route": [
+     [
+      7.0,
+      50.9
+     ],
+     [
+      7.6,
+      47.6
+     ],
+     [
+      9.2,
+      46.2
+     ],
+     [
+      10.4,
+      45.1
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vitellius lasted eight months. Then armies in the East backed a general named Vespasian.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "vitellius",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "vitellius",
+     "text": "Vitellius, emperor no. 3"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In December, Vespasian's troops took Rome, and Vitellius was killed.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vespasian then ruled for ten calm years, and started building the Colosseum.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.7
+     },
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.7
+     }
+    ],
+    "tag": {
+     "id": "vespasian",
+     "text": "Vespasian, emperor no. 4"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of Rome's wildest years.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "vespasian",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "galba",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Four emperors. Twelve months. Rome's most chaotic year.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #yearofthefouremperors #ancientrome #romanempire #historytok",
+ "youtube_title": "Rome Had Four Emperors in One Year #shorts",
+ "tags": [
+  "year of the four emperors",
+  "galba",
+  "otho",
+  "vitellius",
+  "vespasian"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Year_of_the_Four_Emperors",
+  "https://en.wikipedia.org/wiki/Galba",
+  "https://en.wikipedia.org/wiki/Otho",
+  "https://en.wikipedia.org/wiki/Vitellius",
+  "https://www.ebsco.com/research-starters/history/year-four-emperors"
+ ]
+}

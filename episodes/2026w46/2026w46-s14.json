@@ -1,0 +1,303 @@
+{
+ "id": "2026w46-s14",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "The Emperor's Flower Trap (Legend)",
+ "hook": "THE FLOWER TRAP LEGEND",
+ "music": "playful",
+ "cast": {
+  "elagabalus": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "olive",
+   "name": "Elagabalus"
+  },
+  "roman": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman"
+  }
+ },
+ "voices": {
+  "elagabalus": "am_puck",
+  "roman": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Legend says a Roman emperor buried his dinner guests in flowers.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "elagabalus",
+      "x": 0.62,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "roman",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "place": "Rome · about 220 AD",
+    "tag": {
+     "id": "elagabalus",
+     "text": "Emperor Elagabalus"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The emperor was Elagabalus. He took the throne in 218 AD, at just fourteen.",
+   "show": {
+    "k": "card",
+    "label": "Elagabalus's age when he became emperor",
+    "big": "14",
+    "sub": "years old",
+    "cast": [
+     {
+      "id": "elagabalus",
+      "x": 0.8,
+      "s": 0.8,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story says his dining room had a ceiling that could turn and open.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "elagabalus",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TRICK CEILING",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "elagabalus",
+   "say": "Everybody, look up. Surprise!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "elagabalus",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "elagabalus"
+   }
+  },
+  {
+   "who": "roman",
+   "say": "Flowers? Wait, that's a LOT of flowers!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So many violets and other flowers poured down that some guests supposedly couldn't climb out.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "VIOLETS"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But it comes from the Historia Augusta, a Roman book so full of made-up stories that historians think this one is probably fiction.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.4,
+      "pose": "shrug",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "FICTION?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UNRELIABLE",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1888, a famous painting made the legend popular again, and swapped the violets for roses.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.7,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1888 PAINTING",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history, true and false.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "elagabalus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "roman",
+      "x": 0.7,
+      "pose": "shrug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Did a Roman emperor really bury his guests in flowers? Here's the catch.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #elagabalus #ancientrome #historymyths #historytok",
+ "youtube_title": "The Emperor's Flower Trap (Legend) #shorts",
+ "tags": [
+  "elagabalus",
+  "roses of heliogabalus",
+  "roman emperor",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Elagabalus",
+  "https://en.wikipedia.org/wiki/The_Roses_of_Heliogabalus",
+  "https://penelope.uchicago.edu/encyclopaedia_romana/severans/roses.html",
+  "https://www.thegeographicalcure.com/post/elagabalus-biography"
+ ],
+ "thumbnail": {
+  "text": "EMPEROR'S FLOWER TRAP?"
+ }
+}

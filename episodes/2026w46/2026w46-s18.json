@@ -1,0 +1,289 @@
+{
+ "id": "2026w46-s18",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "Nero Fell Out of His Chariot and Still Won the Olympics",
+ "hook": "HE FELL AND STILL WON",
+ "music": "playful",
+ "cast": {
+  "nero": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "curly",
+   "hairColor": "#C8702A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Emperor Nero"
+  },
+  "roman": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman"
+  }
+ },
+ "voices": {
+  "nero": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Roman emperor fell out of his chariot at the Olympics, and still won.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.65,
+      "s": 0.8,
+      "move": [
+       0.5,
+       0.8
+      ]
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "Olympia, Greece · 67 AD",
+    "tag": {
+     "id": "nero",
+     "text": "Emperor Nero"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nero loved to compete. In 66 AD he set off on a long tour of Greece, to win prizes.",
+   "show": {
+    "k": "map",
+    "lon": 22.0,
+    "lat": 38.3,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "66–67 AD",
+    "labels": [
+     [
+      "Olympia",
+      21.63,
+      37.64,
+      14
+     ],
+     [
+      "Corinth",
+      22.93,
+      37.94,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      21.63,
+      37.64,
+      0.25,
+      "rgba(200,144,42,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Olympic Games were even rescheduled, so he could take part.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RESCHEDULED",
+      "at": 1.0,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most chariot teams had four horses. Nero showed up with ten.",
+   "show": {
+    "k": "card",
+    "label": "Nero's Olympic chariot",
+    "big": "10 HORSES",
+    "sub": "most teams had 4",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.8,
+      "s": 0.8,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "nero",
+   "say": "More horses, more glory!",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "nero"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius, a Roman writer, says Nero was thrown out, got back in, and gave up before the finish.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.7,
+      "s": 0.7,
+      "move": [
+       0.6,
+       0.95
+      ]
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "DNF",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The judges crowned him the winner anyway. He gave them Roman citizenship and a big pile of money.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Funny how that works."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's sorest winners.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "nero",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "roman",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Ten horses. One crash. Zero finish lines. Gold anyway.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #nero #olympics #ancientrome #historytok",
+ "youtube_title": "Nero Fell Out of His Chariot and Still Won the Olympics #shorts",
+ "tags": [
+  "nero",
+  "nero olympics",
+  "ancient olympics",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Nero",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Nero*.html",
+  "https://lexundria.com/suet_nero/18-25/r",
+  "https://www.history.co.uk/articles/emperor-nero-olympics",
+  "https://www.laphamsquarterly.org/scandal/charts-graphs/out-bounds"
+ ],
+ "thumbnail": {
+  "text": "FELL OUT, STILL WON OLYMPICS"
+ }
+}

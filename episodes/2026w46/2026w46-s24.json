@@ -1,0 +1,301 @@
+{
+ "id": "2026w46-s24",
+ "format": "short",
+ "date": "2026-11-11",
+ "slot": "09:00",
+ "title": "Caligula Rode a Horse Across the Sea",
+ "hook": "A BRIDGE MADE OF SHIPS",
+ "music": "playful",
+ "cast": {
+  "caligen": {
+   "hat": "laurel",
+   "outfit": "armor",
+   "color": "#E7C66A",
+   "color2": "#6A3E8E",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Emperor Caligula"
+  },
+  "horse": {
+   "animal": "horse"
+  },
+  "roman": {
+   "preset": "roman",
+   "skin": "olive",
+   "name": "Roman"
+  },
+  "thrasyllus": {
+   "preset": "philosopher",
+   "name": "Thrasyllus, astrologer"
+  },
+  "tiberius": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hair": "short",
+   "hairColor": "#BDBDBD",
+   "skin": "light",
+   "name": "Emperor Tiberius"
+  }
+ },
+ "voices": {
+  "thrasyllus": {
+   "preset": "philosopher",
+   "name": "Thrasyllus, astrologer"
+  }
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Roman emperor built a road on the sea, made of ships, to prove a prediction wrong.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caligen",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.55,
+      "s": 0.5
+     },
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Bay of Baiae, Italy · 39 AD",
+    "tag": {
+     "id": "caligen",
+     "text": "Emperor Caligula"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Years earlier, Emperor Tiberius was choosing an heir. His astrologer, Thrasyllus, had an opinion.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "tiberius",
+      "x": 0.35,
+      "pose": "think"
+     },
+     {
+      "id": "thrasyllus",
+      "x": 0.7,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "thrasyllus",
+     "text": "Thrasyllus, astrologer"
+    }
+   }
+  },
+  {
+   "who": "thrasyllus",
+   "say": "Caligula? Emperor? Only if he rides a horse across the sea!"
+  },
+  {
+   "who": "N",
+   "say": "Caligula did become emperor. So he anchored trading ships in two rows, and covered them with earth.",
+   "show": {
+    "k": "map",
+    "lon": 14.1,
+    "lat": 40.8,
+    "z0": 3.6,
+    "z1": 4.0,
+    "date": "39 AD",
+    "labels": [
+     [
+      "Baiae",
+      14.07,
+      40.82,
+      14
+     ],
+     [
+      "Puteoli",
+      14.12,
+      40.82,
+      14
+     ]
+    ],
+    "route": [
+     [
+      14.07,
+      40.82
+     ],
+     [
+      14.12,
+      40.82
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The bridge ran over five kilometers.",
+   "show": {
+    "k": "card",
+    "label": "Caligula's bridge of ships",
+    "big": "5+ KM",
+    "sub": "about 3.6 Roman miles, Baiae to Puteoli",
+    "cast": [
+     {
+      "id": "caligen",
+      "x": 0.8,
+      "s": 0.8,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He rode across in a golden cloak. Next day, he drove back in a chariot.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.35
+     },
+     {
+      "id": "caligen",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "TAKE THAT",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius, a Roman writer, heard that story from his grandfather. Others said Caligula wanted to scare Britain.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "roman",
+      "x": 0.4,
+      "pose": "shrug",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "WHY?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Either way, he rode across the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caligen",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.2,
+      "s": 0.5
+     },
+     {
+      "k": "galley",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more emperors behaving strangely.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caligen",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "thrasyllus",
+      "x": 0.7,
+      "pose": "facepalm"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "An astrologer said he'd never ride a horse across the sea. So he built a road on the sea.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #caligula #ancientrome #romanempire #historytok",
+ "youtube_title": "Caligula Rode a Horse Across the Sea #shorts",
+ "tags": [
+  "caligula",
+  "bridge of baiae",
+  "roman emperor",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Caligula",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Caligula*.html",
+  "https://www.perseus.tufts.edu/hopper/text?doc=Suet.+Cal.+19&lang=original",
+  "https://en.wikipedia.org/wiki/Baiae",
+  "https://thehistorianshut.com/2018/11/10/a-costumed-caligula-spent-days-enjoying-a-bridge-across-the-bay-of-bauli/"
+ ]
+}

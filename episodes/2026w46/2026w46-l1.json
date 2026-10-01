@@ -276,7 +276,7 @@
   },
   {
    "who": "N",
-   "say": "This is Lindisfarne, one of the holiest places in England. The monks pray, copy beautiful books and guard a famous saint's tomb.",
+   "say": "This is Lindisfarne, one of the holiest places in England. The monks pray, copy beautiful books and guard the tomb of a famous saint, Cuthbert.",
    "show": {
     "k": "scene",
     "bg": "church",
@@ -579,11 +579,11 @@
   },
   {
    "who": "N",
-   "say": "So why start raiding? Historians still argue. Good farmland was scarce back home, and rich targets were just across the sea."
+   "say": "So why start raiding? Historians still argue. One idea: good farmland was scarce back home, and rich targets were just across the sea."
   },
   {
    "who": "N",
-   "say": "In fact, 'Viking' was a job, not a nation. Going 'a-viking' meant sailing off to raid or trade for the summer.",
+   "say": "In fact, 'Viking' was a job, not a nation. Going 'a-viking' meant sailing off on a raid, usually in summer.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -711,7 +711,7 @@
   },
   {
    "who": "N",
-   "say": "An English scholar named Alcuin, an adviser to the mighty Frankish king Charlemagne, wrote to the king of Northumbria in shock.",
+   "say": "Alcuin, an English scholar at the court of the mighty king Charlemagne, was horrified.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -739,6 +739,10 @@
   },
   {
    "who": "N",
+   "say": "He wrote to the king of Northumbria, the kingdom in northern England that Lindisfarne belonged to."
+  },
+  {
+   "who": "N",
    "say": "Never before has such terror appeared in Britain as we have now suffered from a pagan race.",
    "show": {
     "k": "quote",
@@ -748,7 +752,7 @@
   },
   {
    "who": "N",
-   "say": "Oh, and the horned helmets? Made up. They were popularized by opera costumes in Germany in 1876. Real Viking helmets were plain and round.",
+   "say": "Oh, and the horned helmets? Made up. They were popularized by opera costumes in Germany in 1876. The few real Viking helmets ever found are plain and round.",
    "show": {
     "k": "scene",
     "bg": "castle",
@@ -920,7 +924,7 @@
   },
   {
    "who": "N",
-   "say": "The Frankish king, Charles the Bald, sent an army. Half of it was beaten, and the rest retreated.",
+   "say": "The Franks, who ruled what's now France, had a king called Charles the Bald. He sent an army. Half of it was beaten, and the rest retreated.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -1060,7 +1064,7 @@
    "say": "That's about two and a half tonnes of treasure, roughly the weight of two cars.",
    "show": {
     "k": "card",
-    "label": "Paris paid the Vikings",
+    "label": "Charles the Bald paid the Vikings",
     "big": "7,000 POUNDS",
     "sub": "of silver and gold, about 2.5 tonnes",
     "cast": [
@@ -1123,7 +1127,7 @@
   },
   {
    "who": "N",
-   "say": "Meanwhile in England, raids turned into an invasion. In 865, a huge Viking force called the Great Heathen Army landed.",
+   "say": "Meanwhile in England, raids turned into an invasion. In 865, a huge Viking force landed. The English called it the Great Heathen Army, because the Vikings weren't Christian.",
    "show": {
     "k": "map",
     "lon": -1.5,
@@ -1545,7 +1549,7 @@
   },
   {
    "who": "N",
-   "say": "One Viking chief who stayed in the area was a big, stubborn man named Rollo.",
+   "say": "One Viking chief raiding along the river Seine was a man named Rollo.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -2056,7 +2060,7 @@
   },
   {
    "who": "N",
-   "say": "That's almost five hundred years before Columbus. The Vikings just didn't stay.",
+   "say": "That's almost five hundred years before Columbus.",
    "show": {
     "k": "compare",
     "bg": "ocean",
@@ -2080,6 +2084,55 @@
       }
      ]
     }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But America wasn't empty. Indigenous peoples had lived there for thousands of years, and the sagas say the Norse traded and fought with them. In the end, the Vikings didn't stay.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "leif",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.6,
+      "s": 0.9
+     },
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.7
+     },
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.6
+     },
+     {
+      "k": "longship",
+      "x": 0.12,
+      "s": 0.4,
+      "move": [
+       0.12,
+       -0.2
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ALREADY HOME",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     }
+    ]
    }
   },
   {
@@ -2253,7 +2306,7 @@
   },
   {
    "who": "N",
-   "say": "They traded furs and amber for silver. Archaeologists have found over a hundred thousand silver coins from the Islamic world in Viking-era hoards.",
+   "say": "They traded furs, amber and enslaved captives for silver. Archaeologists have found over a hundred thousand silver coins from the Islamic world, like Baghdad, in buried Viking treasure stashes.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -2325,7 +2378,7 @@
   },
   {
    "who": "N",
-   "say": "In 988, Emperor Basil the Second needed tough soldiers fast. So a Rus prince named Vladimir sent him six thousand warriors.",
+   "say": "In 988, Emperor Basil the Second needed tough soldiers fast. So Vladimir, the Rus prince who ruled Kyiv, sent him six thousand warriors.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -2361,7 +2414,7 @@
   },
   {
    "who": "N",
-   "say": "Vikings like these became the Varangian Guard, the emperor's personal bodyguards.",
+   "say": "Warriors like these became the Varangian Guard, the emperor's personal bodyguards. 'Varangian' was the local name for these Norsemen.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -2457,7 +2510,7 @@
   },
   {
    "who": "N",
-   "say": "And when they got bored, someone carved runes into a railing in Hagia Sophia, the city's giant church. You can still read one name: Halfdan.",
+   "say": "And maybe during a boring church service, someone carved runes, the Viking alphabet, into a railing in Hagia Sophia, the city's giant church. You can still read one name: Halfdan.",
    "show": {
     "k": "scene",
     "bg": "church",
@@ -2758,10 +2811,10 @@
   },
   {
    "who": "harold",
-   "say": "Seven feet of English ground. Or a bit more, since he's so tall.",
+   "say": "Seven feet of English ground. Or a bit more, since you're so tall.",
    "show": {
     "k": "scene",
-    "bg": "castle",
+    "bg": "battlefield",
     "cast": [
      {
       "id": "harold",
@@ -2784,7 +2837,7 @@
   },
   {
    "who": "N",
-   "say": "That's how a saga tells it, written down about a hundred and fifty years later. Either way, Hardrada was killed and his army was crushed.",
+   "say": "That's how a saga tells it, written down more than a hundred and fifty years later. Either way, Hardrada was killed and his army was crushed.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -3051,6 +3104,9 @@
   "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge",
   "https://www.britannica.com/event/Battle-of-Stamford-Bridge",
   "https://www.historyhit.com/facts-about-the-battle-of-stamford-bridge/",
-  "https://en.wikipedia.org/wiki/Battle_of_Hastings"
+  "https://en.wikipedia.org/wiki/Battle_of_Hastings",
+  "https://www.medievalists.net/2023/11/nearly-500000-dirhams-were-buried-viking-age-scandinavia-study-finds/",
+  "https://www.smithsonianmag.com/smart-news/viking-helmet-first-ever-found-britain-180975550/",
+  "https://manchistorian.com/the-viking-attack-at-lindisfarne-primary-sources/"
  ]
 }
