@@ -278,7 +278,7 @@
  "description": "In 1397 a Florentine banker opened a bank, hid his fees inside exchange rates to dodge the Church's ban on interest, and became the Pope's banker. We follow the Medici from Cosimo's exile and the 1478 murder in Florence Cathedral to the bank's collapse in 1494, two Medici popes, Catherine de' Medici, Galileo's 'Medicean Stars' and the last Medici, who made sure the family art never left Florence.\n\nChapters are added automatically.\n\n#history #medici #renaissance #florence #moneyhistory",
  "thumbnail": {
   "style": "faces",
-  "title": "BANKERS RULE",
+  "title": "BANKERS BECAME POPES",
   "bg": "palace",
   "faces": [
    {
@@ -336,7 +336,7 @@
   },
   {
    "who": "N",
-   "say": "Among them are two brothers, Lorenzo and Giuliano de' Medici, from the richest banking family in Europe.",
+   "say": "Among them are two brothers, Lorenzo and Giuliano de' Medici, from one of the richest banking families in Europe.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -539,7 +539,7 @@
   },
   {
    "who": "N",
-   "say": "And this plot had the backing of a very powerful man: Pope Sixtus the fourth.",
+   "say": "And this plot had the blessing of a very powerful man: Pope Sixtus the fourth, the head of the Catholic Church.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1037,7 +1037,7 @@
   },
   {
    "who": "N",
-   "say": "Around 1410, Giovanni backed a churchman named Baldassare Cossa. When Cossa became Pope John the twenty third, the Medici got to handle the Pope's money.",
+   "say": "Giovanni lent money to a churchman named Baldassare Cossa. In 1410, Cossa became Pope John the twenty third, and the Medici got to handle the Pope's money.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1062,7 +1062,7 @@
       "s": 0.55
      }
     ],
-    "place": "Rome · 1410",
+    "place": "Bologna, Italy · 1410",
     "tag": {
      "id": "cossa",
      "text": "Baldassare Cossa, Pope John XXIII"
@@ -1071,7 +1071,7 @@
   },
   {
    "who": "N",
-   "say": "But there were rival popes back then. In 1415, a church council in Constance removed Cossa and locked him up.",
+   "say": "But two other men also claimed to be pope. In 1415, a church council in Constance, Germany, removed Cossa and locked him up.",
    "show": {
     "k": "map",
     "lon": 9.5,
@@ -1115,6 +1115,10 @@
   },
   {
    "who": "N",
+   "say": "Today Cossa counts as an antipope, a rival pope left off the official list."
+  },
+  {
+   "who": "N",
    "say": "The Medici helped pay a heavy ransom to free him. When he died in Florence, they made sure he got a fancy tomb.",
    "show": {
     "k": "scene",
@@ -1151,7 +1155,7 @@
   },
   {
    "who": "N",
-   "say": "That loyalty paid off. The next pope kept the Medici as his bankers.",
+   "say": "That loyalty paid off. The next pope, Martin the fifth, kept the Medici as his bankers.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1182,10 +1186,10 @@
   },
   {
    "who": "N",
-   "say": "For years, more than half of the whole bank's profits came from its Rome branch.",
+   "say": "For decades, more than half of the bank's profits came from Rome.",
    "show": {
     "k": "card",
-    "label": "Share of Medici Bank profits from the Rome branch, early 1400s",
+    "label": "Share of Medici Bank profits from Rome, up to 1435",
     "big": "50%+",
     "sub": "the Pope was their best customer"
    }
@@ -1234,7 +1238,7 @@
   },
   {
    "who": "N",
-   "say": "Florence was a republic. Its leaders were picked from top families, for just a few months at a time.",
+   "say": "Florence was a republic. Its leaders were picked by drawing names from a bag, for two months at a time.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -1377,7 +1381,7 @@
   },
   {
    "who": "N",
-   "say": "So he went to Venice, where he was welcomed like a prince.",
+   "say": "He was sent to Padua, then allowed to move to Venice, where he was welcomed like a prince.",
    "show": {
     "k": "map",
     "lon": 11.8,
@@ -1491,11 +1495,11 @@
   },
   {
    "who": "N",
-   "say": "A bishop who later became Pope Pius the second put it like this: He is king in all but name.",
+   "say": "Pope Pius the second later summed him up: He is king in all but name.",
    "show": {
     "k": "quote",
     "text": "He is king in all but name.",
-    "who": "Aeneas Silvius Piccolomini (later Pope Pius II), on Cosimo de' Medici, in his Commentaries"
+    "who": "Pope Pius II (Aeneas Silvius Piccolomini), on Cosimo de' Medici, in his Commentaries"
    }
   },
   {
@@ -1696,6 +1700,10 @@
      }
     ]
    }
+  },
+  {
+   "who": "N",
+   "say": "One plotter later confessed that the Pope wanted no killing, but let them go ahead anyway."
   },
   {
    "who": "N",
@@ -2321,7 +2329,7 @@
   },
   {
    "who": "N",
-   "say": "The Medici had lost their bank and their city. That's the end of the story, right? Nope."
+   "say": "End of the story? Nope."
   },
   {
    "hold": 2.5,
@@ -2373,7 +2381,7 @@
   },
   {
    "who": "N",
-   "say": "In 1512, Spanish troops helped him bring the Medici back to Florence.",
+   "say": "In 1512, a Spanish army helped Giovanni bring the Medici back to Florence.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -2387,18 +2395,19 @@
     ],
     "objects": [
      {
-      "k": "flag",
-      "x": 0.75,
-      "s": 0.6,
-      "flag": "spain_burgundy"
-     },
-     {
       "k": "cannon",
       "x": 0.12,
       "s": 0.45
      }
     ],
-    "place": "Near Florence · 1512"
+    "place": "Near Florence · 1512",
+    "stickers": [
+     {
+      "text": "SPANISH ARMY",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
    }
   },
   {
@@ -2475,7 +2484,7 @@
   },
   {
    "who": "N",
-   "say": "Leo spent a lot. To help rebuild St. Peter's Basilica in Rome, Leo approved the sale of indulgences.",
+   "say": "To help rebuild St. Peter's Basilica in Rome, Leo approved the sale of indulgences.",
    "show": {
     "k": "scene",
     "bg": "church",
@@ -2541,7 +2550,7 @@
   },
   {
    "who": "N",
-   "say": "In 1517, a German monk named Martin Luther protested. His complaints kicked off the Reformation, which split Western Christianity in two.",
+   "say": "In 1517, a German monk named Martin Luther protested. His complaints kicked off the Reformation, which split Western Christianity into Catholics and Protestants.",
    "show": {
     "k": "scene",
     "bg": "village",
@@ -2740,7 +2749,7 @@
   },
   {
    "who": "N",
-   "say": "In total, four popes carried the Medici name. One of them, Pius the fourth, came from a Milan family, and historians have found no proof he was related.",
+   "say": "In total, four popes carried the Medici name. But Pius the fourth came from a Milan family with no proven link.",
    "show": {
     "k": "card",
     "label": "Popes named Medici",
@@ -2755,7 +2764,8 @@
     "year": "1533–1743",
     "title": "Queens, Stars and the Last Medici",
     "bg": "palace"
-   }
+   },
+   "year": "1533–1737"
   },
   {
    "who": "N",
