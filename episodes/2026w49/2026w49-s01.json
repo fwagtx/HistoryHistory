@@ -1,0 +1,278 @@
+{
+ "id": "2026w49-s01",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "This King Ruled France for 72 Years",
+ "hook": "KING FOR 72 YEARS",
+ "music": "playful",
+ "cast": {
+  "kid": {
+   "preset": "child",
+   "hat": "crown",
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#3A2410",
+   "outfit": "robe",
+   "color": "#2F3E8E",
+   "name": "Louis XIV, age 4"
+  },
+  "louis14": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#2F3E8E",
+   "color2": "#C8902A",
+   "hair": "curly",
+   "hairColor": "#3A2410",
+   "stache": "thin",
+   "skin": "light",
+   "name": "King Louis XIV"
+  },
+  "heir": {
+   "preset": "child",
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#8A5A2A",
+   "outfit": "robe",
+   "color": "#6A8ACA",
+   "name": "Louis XV, age 5"
+  }
+ },
+ "voices": {
+  "kid": "af_bella",
+  "louis14": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One French king ruled for seventy-two years. He started when he was four.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.2,
+      "s": 0.35
+     }
+    ],
+    "place": "Paris, France · 1643",
+    "tag": {
+     "id": "kid",
+     "text": "Louis XIV, age 4"
+    },
+    "stickers": [
+     {
+      "text": "AGE 4",
+      "at": 1.3,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1643, his father died, and little Louis became Louis the Fourteenth.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "kid",
+   "say": "Great. Do I still have to take naps?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "kid"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His mother and a minister ran France until he grew up.",
+   "show": {
+    "k": "card",
+    "label": "Louis took full control in",
+    "big": "1661",
+    "sub": "at age 22"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He called himself the Sun King and built the giant palace of Versailles.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "louis14",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.7,
+      "s": 0.9,
+      "label": "VERSAILLES",
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Versailles · 1682",
+    "tag": {
+     "id": "louis14",
+     "text": "King Louis XIV, the Sun King"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He lived so long that his son and his grandson both died before him.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "louis14",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1715, the crown skipped down to his five-year-old great-grandson, Louis the Fifteenth.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "heir",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "place": "Versailles · 1715",
+    "tag": {
+     "id": "heir",
+     "text": "Louis XV, age 5"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seventy-two years and one hundred ten days: the longest reign of any major European monarch.",
+   "show": {
+    "k": "card",
+    "label": "Louis XIV's reign",
+    "big": "72 YEARS",
+    "sub": "and 110 days, 1643 to 1715"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "louis14",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He became king at 4 and was still king at 76.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #france #louisxiv #versailles #historytok",
+ "youtube_title": "This King Ruled France for 72 Years #shorts",
+ "tags": [
+  "louis xiv",
+  "sun king",
+  "longest reign",
+  "french history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Louis_XIV",
+  "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs",
+  "https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv",
+  "https://www.history.com/articles/louis-xiv",
+  "https://en.wikipedia.org/wiki/Louis_XV"
+ ]
+}

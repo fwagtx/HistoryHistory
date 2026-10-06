@@ -1,0 +1,272 @@
+{
+ "id": "2026w49-s04",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "France Used the Guillotine Until 1977",
+ "hook": "GUILLOTINE UNTIL 1977",
+ "music": "tense",
+ "cast": {
+  "official": {
+   "preset": "judge",
+   "skin": "light",
+   "hairColor": "#E8E8E8"
+  },
+  "badinter": {
+   "preset": "businessman",
+   "outfit": "suit",
+   "color": "#2A2A3A",
+   "hair": "short",
+   "hairColor": "#6A6A6A",
+   "skin": "light",
+   "name": "Robert Badinter"
+  },
+  "citizen": {
+   "preset": "worker",
+   "skin": "light",
+   "hairColor": "#4A3020"
+  }
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "France used the guillotine for executions until 1977. That's the year Star Wars came out.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.5,
+      "text": "1977"
+     }
+    ],
+    "place": "France · 1977",
+    "stickers": [
+     {
+      "text": "1977",
+      "at": 1.4,
+      "color": "#2F2F3A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "France adopted the guillotine in 1792, during the French Revolution.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "guillotine",
+      "x": 0.68,
+      "s": 0.7
+     }
+    ],
+    "place": "Paris · 1792",
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its supporters said it was quicker, and the same for rich and poor.",
+   "show": {
+    "k": "card",
+    "label": "Adopted in",
+    "big": "1792",
+    "sub": "one method of execution for everyone"
+   }
+  },
+  {
+   "who": "N",
+   "say": "France kept using it for nearly two centuries.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The last one was in a Marseille prison in September 1977, for a convicted murderer.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "place": "Marseille, France · 1977",
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Robert Badinter, a lawyer who became France's justice minister, led the fight to end the death penalty.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "badinter",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "Paris · 1981",
+    "tag": {
+     "id": "badinter",
+     "text": "Robert Badinter, justice minister"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1981, France banned it. Later the ban was written into the constitution.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "badinter",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.55,
+      "text": "ABOLISHED 1981"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So a Revolution-era machine was still used in the age of Star Wars.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "guillotine",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "RETIRED"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history you didn't learn in school.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "badinter",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "citizen",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "France's last guillotine execution was in 1977.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #france #guillotine #frenchhistory #historytok",
+ "youtube_title": "France Used the Guillotine Until 1977 #shorts",
+ "tags": [
+  "guillotine",
+  "last guillotine execution",
+  "death penalty france",
+  "robert badinter",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Capital_punishment_in_France",
+  "https://en.wikipedia.org/wiki/Hamida_Djandoubi",
+  "https://en.wikipedia.org/wiki/Guillotine",
+  "https://en.wikipedia.org/wiki/Robert_Badinter",
+  "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+ ]
+}

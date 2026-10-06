@@ -1,0 +1,320 @@
+{
+ "id": "2026w49-s03",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "The Hundred Years' War Lasted 116 Years",
+ "hook": "IT LASTED 116 YEARS",
+ "music": "playful",
+ "cast": {
+  "edward": {
+   "preset": "king",
+   "outfit": "armor",
+   "color": "#A8322A",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#B07A3A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "King Edward III of England"
+  },
+  "frenchlord": {
+   "preset": "noble",
+   "outfit": "robe",
+   "color": "#2F3E8E",
+   "color2": "#C8902A",
+   "stache": "thin",
+   "hairColor": "#3A2A1A",
+   "skin": "light"
+  },
+  "archer": {
+   "preset": "peasant",
+   "outfit": "tunic",
+   "color": "#A8322A",
+   "hat": "coif",
+   "skin": "light",
+   "hold": "bow"
+  }
+ },
+ "voices": {
+  "edward": "bm_george",
+  "frenchlord": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Hundred Years' War didn't last a hundred years. It lasted one hundred sixteen.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "archer",
+      "x": 0.35,
+      "pose": "aim",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.7,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "France · 1337",
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "116 YEARS",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It started in 1328, when the king of France died with no son.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "frenchlord",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.72,
+      "s": 0.3,
+      "y": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "edward",
+   "say": "My mother was his sister. So France is mine!",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "edward",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.5,
+      "label": "ENGLAND"
+     }
+    ],
+    "place": "England · 1328",
+    "tag": {
+     "id": "edward",
+     "text": "King Edward III of England"
+    }
+   }
+  },
+  {
+   "who": "frenchlord",
+   "say": "Nope. In France, the crown doesn't pass through mothers.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "frenchlord",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "cam": "close",
+    "focus": "frenchlord"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1337, England and France went to war.",
+   "show": {
+    "k": "map",
+    "lon": 0.5,
+    "lat": 49.0,
+    "z0": 1.8,
+    "z1": 2.1,
+    "date": "1337",
+    "labels": [
+     [
+      "ENGLAND",
+      -1.5,
+      52.5,
+      0
+     ],
+     [
+      "FRANCE",
+      2.5,
+      46.8,
+      0
+     ],
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -1.5,
+      52.5,
+      2.5,
+      "rgba(214,48,40,.35)"
+     ],
+     [
+      2.5,
+      46.8,
+      3.5,
+      "rgba(40,90,200,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It wasn't nonstop. There were long truces, the Black Death, and five English kings.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "archer",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TRUCE",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Finally, in 1453, France won at Castillon. England kept only one port, Calais.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "frenchlord",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Castillon, France · 1453",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The name came later, from historians. Hundred sounded better than one hundred sixteen.",
+   "show": {
+    "k": "card",
+    "label": "The Hundred Years' War",
+    "big": "1337–1453",
+    "sub": "named by later historians"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "edward",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "frenchlord",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Hundred Years' War ran 16 years over.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hundredyearswar #france #medieval #historytok",
+ "youtube_title": "The Hundred Years' War Lasted 116 Years #shorts",
+ "tags": [
+  "hundred years war",
+  "edward iii",
+  "medieval france",
+  "england vs france",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hundred_Years'_War",
+  "https://royalarmouries.org/objects-and-stories/stories/the-hundred-years-war-1337-1453",
+  "https://en.wikipedia.org/wiki/English_claims_to_the_French_throne",
+  "https://www.britannica.com/event/Battle-of-Castillon",
+  "https://en.wikipedia.org/wiki/Battle_of_Castillon"
+ ]
+}

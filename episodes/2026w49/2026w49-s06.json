@@ -1,0 +1,321 @@
+{
+ "id": "2026w49-s06",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "A 17-Year-Old Led France's Army",
+ "hook": "17 AND LEADING ARMIES",
+ "music": "playful",
+ "cast": {
+  "joan": {
+   "hair": "short",
+   "hairColor": "#6A4020",
+   "skin": "peach",
+   "outfit": "armor",
+   "hold": "flag",
+   "flagColor": "#F4F0E0",
+   "name": "Joan of Arc"
+  },
+  "dauphin": {
+   "preset": "noble",
+   "outfit": "robe",
+   "color": "#2F3E8E",
+   "color2": "#C8902A",
+   "hat": "beret",
+   "hatColor": "#1A1A3A",
+   "hair": "short",
+   "hairColor": "#5A3A1A",
+   "skin": "light",
+   "name": "Charles VII"
+  },
+  "english": {
+   "preset": "knight",
+   "color": "#A8322A",
+   "skin": "light",
+   "stache": "bush"
+  }
+ },
+ "voices": {
+  "joan": "af_heart",
+  "dauphin": "am_liam",
+  "english": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A seventeen-year-old farm girl helped turn around a war that France was losing.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "France · 1429",
+    "tag": {
+     "id": "joan",
+     "text": "Joan of Arc, age 17"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "England held much of northern France, and its army had surrounded the city of Orléans.",
+   "show": {
+    "k": "map",
+    "lon": 1.8,
+    "lat": 48.3,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "1428",
+    "labels": [
+     [
+      "ORLÉANS",
+      1.9,
+      47.9,
+      0
+     ],
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ],
+     [
+      "Chinon",
+      0.24,
+      47.17,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      1.9,
+      47.9,
+      0.4,
+      "rgba(214,48,40,.5)"
+     ],
+     [
+      1.0,
+      49.3,
+      1.5,
+      "rgba(214,48,40,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joan said saints' voices told her to save France. She went to Charles, the uncrowned heir.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "dauphin",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Chinon, France · 1429",
+    "tag": {
+     "id": "dauphin",
+     "text": "Charles, heir to the throne"
+    }
+   }
+  },
+  {
+   "who": "dauphin",
+   "say": "You've never fought a battle.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "dauphin",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "dauphin"
+   }
+  },
+  {
+   "who": "joan",
+   "say": "Then today's a good day to start.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "cam": "close",
+    "focus": "joan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sent her with an army. She carried her own banner, and even took an arrow.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "english",
+      "x": 0.72,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Orléans · May 1429",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "About nine days after she arrived, the English gave up the siege.",
+   "show": {
+    "k": "card",
+    "label": "Joan arrives, siege ends",
+    "big": "9 DAYS",
+    "sub": "Orléans, May 8, 1429"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That summer Charles was crowned king. A teenager had changed the course of the war.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "dauphin",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy",
+      "hat": "crown"
+     },
+     {
+      "id": "joan",
+      "x": 0.68,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.12,
+      "s": 0.35
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "dauphin",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Joan of Arc was about 17 when she helped break the siege of Orléans.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #joanofarc #france #medieval #historytok",
+ "youtube_title": "A 17-Year-Old Led France's Army #shorts",
+ "tags": [
+  "joan of arc",
+  "siege of orleans",
+  "hundred years war",
+  "french history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Joan_of_Arc",
+  "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)",
+  "https://www.history.com/articles/siege-of-orleans",
+  "https://www.history.com/articles/saint-joan-of-arc"
+ ]
+}

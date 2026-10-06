@@ -1,0 +1,320 @@
+{
+ "id": "2026w49-s07",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "The Emperor Who Couldn't Learn to Write",
+ "hook": "EMPEROR COULDN'T WRITE",
+ "music": "playful",
+ "cast": {
+  "charlemagne": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#2F3E8E",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#E0E0E0",
+   "skin": "light",
+   "name": "Charlemagne"
+  },
+  "einhard": {
+   "preset": "philosopher",
+   "outfit": "robe",
+   "color": "#6A5A3A",
+   "hair": "short",
+   "hairColor": "#5A3A1A",
+   "skin": "light",
+   "hold": "book",
+   "name": "Einhard"
+  }
+ },
+ "voices": {
+  "charlemagne": "bm_daniel",
+  "einhard": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The most powerful man in Europe kept homework under his pillow.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "shock",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "place": "Aachen · about 800",
+    "tag": {
+     "id": "charlemagne",
+     "text": "Charlemagne, emperor"
+    },
+    "stickers": [
+     {
+      "text": "HOMEWORK?",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Charlemagne was king of the Franks, the people France is named after.",
+   "show": {
+    "k": "map",
+    "lon": 7.0,
+    "lat": 47.5,
+    "z0": 1.4,
+    "z1": 1.6,
+    "date": "800",
+    "labels": [
+     [
+      "FRANKISH EMPIRE",
+      6.0,
+      48.5,
+      0
+     ],
+     [
+      "AACHEN",
+      6.08,
+      50.78,
+      0
+     ],
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      5.0,
+      47.5,
+      6.0,
+      "rgba(40,90,200,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 800, the Pope crowned him emperor. He ruled much of western Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "place": "Rome · 800",
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He could speak Latin and loved learning. But writing? That was a problem.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "A B C ?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "charlemagne",
+   "say": "Einhard, how do you write the letter K again?",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "shock",
+      "hold": "pen"
+     },
+     {
+      "id": "einhard",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "einhard",
+   "say": "Sire, it's the middle of the night.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "einhard",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "einhard",
+    "tag": {
+     "id": "einhard",
+     "text": "Einhard, his biographer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's a joke. But Einhard really wrote that Charlemagne kept writing tablets under his pillow to practice letters.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.15,
+      "s": 0.4,
+      "text": "TABLETS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UNDER THE PILLOW",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He started too late in life, and never got good at it. Still, he set up schools so others could learn.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "einhard",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "SCHOOLS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "einhard",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Charlemagne ruled half of Europe and still struggled to write.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #charlemagne #france #medieval #historytok",
+ "youtube_title": "The Emperor Who Couldn't Learn to Write #shorts",
+ "tags": [
+  "charlemagne",
+  "einhard",
+  "medieval history",
+  "franks",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.yorku.ca/inpar/eginhard_grant.pdf",
+  "https://en.wikipedia.org/wiki/Charlemagne",
+  "https://christianhistoryinstitute.org/study/module/charlemagne",
+  "https://www.nationalgeographic.com/history/article/charlemagne-ancient-roman-empire",
+  "https://en.wikipedia.org/wiki/Carolingian_Renaissance"
+ ]
+}

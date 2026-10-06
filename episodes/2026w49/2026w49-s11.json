@@ -1,0 +1,284 @@
+{
+ "id": "2026w49-s11",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "A Sheep, a Duck and a Rooster Flew Before Humans",
+ "hook": "A SHEEP FLEW FIRST",
+ "music": "playful",
+ "cast": {
+  "montgolfier": {
+   "preset": "businessman",
+   "outfit": "coat",
+   "color": "#5A3A2A",
+   "hair": "side",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Joseph Montgolfier"
+  },
+  "louis16": {
+   "preset": "king",
+   "outfit": "coat",
+   "color": "#2F3E8E",
+   "color2": "#C8902A",
+   "hair": "side",
+   "hairColor": "#E8E8E8",
+   "skin": "light",
+   "name": "King Louis XVI"
+  },
+  "marie": {
+   "preset": "queen",
+   "hair": "bun",
+   "hairColor": "#E8E0D0",
+   "color": "#E8A0B8",
+   "skin": "light",
+   "name": "Marie Antoinette"
+  },
+  "farmer": {
+   "preset": "farmer",
+   "skin": "light",
+   "hold": "chicken"
+  }
+ },
+ "voices": {
+  "louis16": "am_eric",
+  "montgolfier": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The first passengers in a hot-air balloon were a sheep, a duck and a rooster.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "SHEEP · DUCK · ROOSTER"
+     }
+    ],
+    "place": "Versailles, France · 1783"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1783, two French brothers, the Montgolfiers, had built hot-air balloons out of paper and cloth.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "montgolfier",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "PAPER & CLOTH"
+     }
+    ],
+    "tag": {
+     "id": "montgolfier",
+     "text": "Joseph Montgolfier, balloon maker"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But nobody knew if a living thing could survive up high.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "montgolfier",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they tried animals first, in front of King Louis the Sixteenth and Queen Marie Antoinette.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "louis16",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "marie",
+      "x": 0.62,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.45,
+      "flag": "france_royal"
+     }
+    ],
+    "tag": {
+     "id": "louis16",
+     "text": "King Louis XVI"
+    }
+   }
+  },
+  {
+   "who": "louis16",
+   "say": "Why not send a person?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "louis16",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "louis16"
+   }
+  },
+  {
+   "who": "montgolfier",
+   "say": "Your Majesty, that's what the sheep is for.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "montgolfier",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.45,
+      "label": "SHEEP"
+     }
+    ],
+    "cam": "close",
+    "focus": "montgolfier"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The balloon flew for about eight minutes and landed a couple of miles away. All three animals survived.",
+   "show": {
+    "k": "card",
+    "label": "First flight with passengers",
+    "big": "8 MIN",
+    "sub": "Versailles, September 19, 1783"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two months later, two men took the first free balloon flight over Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "montgolfier",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Paris · November 1783",
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "montgolfier",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "louis16",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Before any human flew in a balloon, a sheep did.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #france #hotairballoon #aviation #historytok",
+ "youtube_title": "A Sheep, a Duck and a Rooster Flew Before Humans #shorts",
+ "tags": [
+  "montgolfier brothers",
+  "hot air balloon",
+  "first flight",
+  "versailles",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+  "https://www.sortiraparis.com/en/what-to-visit-in-paris/history-heritage/articles/351400-on-september-19-in-paris-farm-animals-take-to-the-skies-in-a-hot-air-balloon-at-versailles",
+  "https://www.loc.gov/pictures/collection/tisc/item/2002721989/",
+  "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Pil%C3%A2tre_de_Rozier"
+ ]
+}

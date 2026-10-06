@@ -1,0 +1,3120 @@
+{
+ "id": "2026w49-l1",
+ "format": "long",
+ "date": "2026-11-30",
+ "title": "The ENTIRE History of France in 10 Minutes",
+ "youtube_title": "The ENTIRE History of France in 10 Minutes",
+ "music": "playful",
+ "description": "From Gaul to the guillotine to the Eiffel Tower, this is the whole story of France in about ten minutes: Julius Caesar and the Gauls, Clovis and the Franks, Charlemagne, the 116-year Hundred Years' War, Joan of Arc, the Sun King and Versailles, the Bastille and the French Revolution, Napoleon and Waterloo, and how modern France was born. Every fact is checked.\n\nChapters are added automatically.\n\n#history #france #frenchhistory #napoleon #animatedhistory",
+ "tags": [
+  "history of france",
+  "france",
+  "french history",
+  "napoleon",
+  "french revolution",
+  "joan of arc",
+  "charlemagne",
+  "louis xiv",
+  "versailles",
+  "hundred years war",
+  "bastille",
+  "clovis",
+  "charles de gaulle",
+  "eiffel tower",
+  "animated history"
+ ],
+ "cast": {
+  "rebel": {
+   "preset": "peasant",
+   "hat": "cap",
+   "hatColor": "#B8302A",
+   "skin": "light",
+   "hairColor": "#4A3020",
+   "stubble": true,
+   "hold": "torch"
+  },
+  "guard": {
+   "preset": "grenadier",
+   "hat": "tricorn",
+   "skin": "light",
+   "stache": "bush",
+   "hairColor": "#DDDDDD"
+  },
+  "gaul": {
+   "preset": "peasant",
+   "outfit": "tunic",
+   "color": "#3F7A3A",
+   "stache": "walrus",
+   "hair": "long",
+   "hairColor": "#C89040",
+   "skin": "light"
+  },
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "legionary": {
+   "preset": "legionary"
+  },
+  "clovis": {
+   "preset": "king",
+   "outfit": "fur",
+   "color": "#7A2A2A",
+   "hair": "long",
+   "hairColor": "#C8A060",
+   "stache": "thin",
+   "skin": "light",
+   "hold": "axe",
+   "name": "King Clovis I"
+  },
+  "frank": {
+   "preset": "viking",
+   "hat": "coif",
+   "color": "#5A3A2A",
+   "skin": "light",
+   "hairColor": "#B08040",
+   "hold": "spear"
+  },
+  "bishop": {
+   "preset": "monk",
+   "hat": "mitre",
+   "outfit": "robe",
+   "color": "#F0E8D8",
+   "beard": "full",
+   "hairColor": "#CCCCCC",
+   "name": "Bishop Remigius"
+  },
+  "charlemagne": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#2F3E8E",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#E0E0E0",
+   "skin": "light",
+   "name": "Charlemagne"
+  },
+  "einhard": {
+   "preset": "philosopher",
+   "outfit": "robe",
+   "color": "#6A5A3A",
+   "hair": "short",
+   "hairColor": "#5A3A1A",
+   "skin": "light",
+   "hold": "book",
+   "name": "Einhard"
+  },
+  "leo": {
+   "preset": "pope",
+   "name": "Pope Leo III"
+  },
+  "edward": {
+   "preset": "king",
+   "outfit": "armor",
+   "color": "#A8322A",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#B07A3A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "King Edward III of England"
+  },
+  "archer": {
+   "preset": "peasant",
+   "outfit": "tunic",
+   "color": "#A8322A",
+   "hat": "coif",
+   "skin": "light",
+   "hold": "bow"
+  },
+  "joan": {
+   "hair": "short",
+   "hairColor": "#6A4020",
+   "skin": "peach",
+   "outfit": "armor",
+   "hold": "flag",
+   "flagColor": "#F4F0E0",
+   "name": "Joan of Arc"
+  },
+  "dauphin": {
+   "preset": "noble",
+   "outfit": "robe",
+   "color": "#2F3E8E",
+   "color2": "#C8902A",
+   "hat": "beret",
+   "hatColor": "#1A1A3A",
+   "hair": "short",
+   "hairColor": "#5A3A1A",
+   "skin": "light",
+   "name": "Charles VII"
+  },
+  "louis14": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#2F3E8E",
+   "color2": "#C8902A",
+   "hair": "curly",
+   "hairColor": "#3A2410",
+   "stache": "thin",
+   "skin": "light",
+   "name": "King Louis XIV"
+  },
+  "noble": {
+   "preset": "noble",
+   "hair": "curly",
+   "hairColor": "#E8E0C8",
+   "color": "#B04A7A",
+   "skin": "light"
+  },
+  "noble2": {
+   "preset": "noble",
+   "hair": "curly",
+   "hairColor": "#8A5A2A",
+   "color": "#3A8A6A",
+   "skin": "light",
+   "stache": "thin"
+  },
+  "louis16": {
+   "preset": "king",
+   "outfit": "coat",
+   "color": "#2F3E8E",
+   "color2": "#C8902A",
+   "hair": "side",
+   "hairColor": "#E8E8E8",
+   "skin": "light",
+   "name": "King Louis XVI"
+  },
+  "marie": {
+   "preset": "queen",
+   "hair": "bun",
+   "hairColor": "#E8E0D0",
+   "color": "#E8A0B8",
+   "skin": "light",
+   "name": "Marie Antoinette"
+  },
+  "robespierre": {
+   "preset": "noble",
+   "outfit": "coat",
+   "color": "#3A6A9A",
+   "hair": "side",
+   "hairColor": "#E8E8E8",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Maximilien Robespierre"
+  },
+  "kingx": {
+   "preset": "king",
+   "skin": "light",
+   "hair": "side",
+   "hairColor": "#CCCCCC"
+  },
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "pius": {
+   "preset": "pope",
+   "name": "Pope Pius VII"
+  },
+  "grenadier": {
+   "preset": "grenadier"
+  },
+  "wellington": {
+   "preset": "redcoat",
+   "hat": "bicorne",
+   "hatColor": "#1A1A1A",
+   "hair": "side",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "hold": "telescope",
+   "name": "Duke of Wellington"
+  },
+  "eiffel": {
+   "preset": "businessman",
+   "hat": "tophat",
+   "beard": "full",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Gustave Eiffel"
+  },
+  "poilu": {
+   "preset": "tommy",
+   "hat": "brodie",
+   "color": "#5A7AA8",
+   "skin": "light",
+   "stache": "bush",
+   "hold": "rifle"
+  },
+  "degaulle": {
+   "preset": "degaulle",
+   "name": "Charles de Gaulle"
+  }
+ },
+ "voices": {
+  "rebel": "am_puck",
+  "guard": "bm_george",
+  "charlemagne": "bm_daniel",
+  "einhard": "bm_lewis",
+  "joan": "af_heart",
+  "dauphin": "am_liam",
+  "louis14": "am_eric",
+  "noble": "am_fenrir",
+  "noble2": "bm_fable",
+  "napoleon": "am_adam",
+  "pius": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "July 14th, 1789. An angry crowd in Paris is about to storm the scariest prison in France: the Bastille.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.9,
+      "label": "THE BASTILLE",
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Paris, France · 1789",
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "14 JULY 1789",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "rebel",
+   "say": "Tear it down! Free the prisoners!",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "guard",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "rebel"
+   }
+  },
+  {
+   "who": "guard",
+   "say": "All seven of them?",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "guard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Yep. Seven. Four forgers, two mentally ill men, and one nobleman locked up at his own family's request.",
+   "show": {
+    "k": "card",
+    "label": "Prisoners inside the Bastille",
+    "big": "7",
+    "sub": "4 forgers, 2 mentally ill men, 1 nobleman"
+   }
+  },
+  {
+   "who": "N",
+   "say": "What the crowd really wanted was the gunpowder stored inside. By the end of the day, the fortress was theirs.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.25,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.55,
+      "s": 0.5,
+      "label": "GUNPOWDER"
+     },
+     {
+      "k": "barrel",
+      "x": 0.68,
+      "s": 0.45
+     },
+     {
+      "k": "castle",
+      "x": 0.88,
+      "s": 0.7
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That day lit the fuse on a revolution. It would end with a king losing his head and a general named Napoleon running Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "louis16",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "guillotine",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REVOLUTION!",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But how did France get here? For that, we need to go way, way back.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "gaul",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The ENTIRE History of France in 10 Minutes",
+    "sub": "From Gauls to Napoleon, and beyond"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "486",
+    "title": "The Franks Move In",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two thousand years ago, France wasn't France. It was Gaul, home to Celtic tribes called the Gauls.",
+   "show": {
+    "k": "map",
+    "lon": 4.0,
+    "lat": 45.5,
+    "z0": 1.6,
+    "z1": 1.9,
+    "date": "58 BC",
+    "labels": [
+     [
+      "GAUL",
+      2.5,
+      46.8,
+      0
+     ],
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ],
+     [
+      "BRITAIN",
+      -1.5,
+      52.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      2.5,
+      46.5,
+      4.0,
+      "rgba(60,140,70,.35)"
+     ],
+     [
+      12.5,
+      42.5,
+      2.5,
+      "rgba(214,48,40,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Julius Caesar, a famous Roman general, conquered Gaul in the 50s BC.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "legionary",
+      "x": 0.55,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.82,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "place": "Gaul · 50s BC",
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar, Roman general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "For about five hundred years, Gaul was Roman. The Gauls picked up Roman roads, baths and Latin.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "gaul",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "statue",
+      "x": 0.82,
+      "s": 0.55
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LATIN",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over the centuries, their everyday Latin slowly turned into French.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "gaul",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "LATIN → FRENCH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When Rome's western empire collapsed in 476, Germanic tribes moved in. The toughest ones were the Franks.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "frank",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "legionary",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "red",
+      "label": "FRANKS"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 486, a twenty-year-old Frankish king named Clovis beat the last Roman ruler in Gaul, at Soissons.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "clovis",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "smug"
+     },
+     {
+      "id": "frank",
+      "x": 0.6,
+      "pose": "fist",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
+     },
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Soissons, Gaul · 486",
+    "tag": {
+     "id": "clovis",
+     "text": "Clovis, king of the Franks"
+    },
+    "stickers": [
+     {
+      "text": "486",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around the year 500, Clovis was baptized as a Christian, and many of his warriors followed him.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "bishop",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "clovis",
+      "x": 0.65,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "place": "Reims · about 500",
+    "tag": {
+     "id": "bishop",
+     "text": "Remigius, bishop of Reims"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He made Paris his capital. And this new land of the Franks, Francia, is where the name France comes from.",
+   "show": {
+    "k": "map",
+    "lon": 2.8,
+    "lat": 47.0,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "about 511",
+    "labels": [
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ],
+     [
+      "Soissons",
+      3.32,
+      49.38,
+      0
+     ],
+     [
+      "Reims",
+      4.03,
+      49.26,
+      0
+     ],
+     [
+      "FRANCIA",
+      1.5,
+      46.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      2.0,
+      47.0,
+      4.0,
+      "rgba(40,90,200,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "800",
+    "title": "Charlemagne Goes Big",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Three hundred years later, the Franks got a superstar: Charlemagne, which means Charles the Great.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Aachen, Francia · 790s",
+    "tag": {
+     "id": "charlemagne",
+     "text": "Charlemagne, king of the Franks"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He fought war after war, and built an empire across what's now France, Germany and northern Italy.",
+   "show": {
+    "k": "map",
+    "lon": 7.0,
+    "lat": 47.0,
+    "z0": 1.4,
+    "z1": 1.6,
+    "date": "814",
+    "labels": [
+     [
+      "FRANKISH EMPIRE",
+      6.0,
+      48.5,
+      0
+     ],
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ],
+     [
+      "AACHEN",
+      6.08,
+      50.78,
+      0
+     ],
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      5.0,
+      47.5,
+      6.0,
+      "rgba(40,90,200,.3)"
+     ],
+     [
+      10.5,
+      45.0,
+      2.5,
+      "rgba(40,90,200,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On Christmas Day in the year 800, the Pope crowned him emperor in Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "charlemagne",
+      "x": 0.65,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.5,
+      "s": 0.35,
+      "y": 0.35
+     }
+    ],
+    "place": "Rome · Christmas Day, 800",
+    "tag": {
+     "id": "leo",
+     "text": "Pope Leo III"
+    },
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But here's the twist. The most powerful man in Europe couldn't really write.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "A B C ?"
+     }
+    ],
+    "cam": "close",
+    "focus": "charlemagne"
+   }
+  },
+  {
+   "who": "charlemagne",
+   "say": "Einhard! How do you write the letter K again?",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "shock",
+      "hold": "pen"
+     },
+     {
+      "id": "einhard",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "einhard",
+   "say": "Sire, it is the middle of the night.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "einhard",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "einhard",
+    "tag": {
+     "id": "einhard",
+     "text": "Einhard, Charlemagne's biographer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That skit is our joke, but Einhard really wrote that Charlemagne kept writing tablets under his pillow to practice.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.4,
+      "text": "TABLETS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UNDER HIS PILLOW",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He started too late in life, though, and never got very good.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "charlemagne",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After he died, his grandsons fought over the empire and split it three ways in 843. The western piece grew into France.",
+   "show": {
+    "k": "map",
+    "lon": 7.0,
+    "lat": 47.5,
+    "z0": 1.4,
+    "z1": 1.7,
+    "date": "843",
+    "labels": [
+     [
+      "WEST FRANCIA",
+      1.0,
+      47.0,
+      0
+     ],
+     [
+      "MIDDLE FRANCIA",
+      7.0,
+      47.5,
+      0
+     ],
+     [
+      "EAST FRANCIA",
+      11.5,
+      50.0,
+      0
+     ],
+     [
+      "Verdun",
+      5.38,
+      49.16,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      1.5,
+      47.0,
+      3.5,
+      "rgba(40,90,200,.35)"
+     ],
+     [
+      7.0,
+      47.0,
+      2.0,
+      "rgba(200,144,42,.35)"
+     ],
+     [
+      11.5,
+      50.0,
+      3.0,
+      "rgba(214,48,40,.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1337",
+    "title": "The War That Wouldn't End",
+    "bg": "battlefield"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Jump to 1328. The French king died with no son, and the king of England saw his chance.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "edward",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.3,
+      "y": 0.3
+     }
+    ],
+    "place": "England · 1328",
+    "tag": {
+     "id": "edward",
+     "text": "King Edward III of England"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Edward the Third said his mother was the dead king's sister, so the French crown was his. France said no way.",
+   "show": {
+    "k": "compare",
+    "bg": "castle",
+    "left": {
+     "label": "ENGLAND: MINE!",
+     "cast": [
+      {
+       "id": "edward",
+       "pose": "fist",
+       "mood": "angry"
+      }
+     ]
+    },
+    "right": {
+     "label": "FRANCE: NOPE",
+     "cast": [
+      {
+       "id": "dauphin",
+       "pose": "cross",
+       "mood": "smug"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1337, the fighting started. Historians later named it the Hundred Years' War, but they were bad at math.",
+   "show": {
+    "k": "card",
+    "label": "The Hundred Years' War really lasted",
+    "big": "116 YEARS",
+    "sub": "1337 to 1453, on and off"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It wasn't nonstop. There were truces, the Black Death, and English archers winning huge battles like Agincourt in 1415.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "archer",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "smug"
+     },
+     {
+      "id": "archer",
+      "x": 0.48,
+      "pose": "aim",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "ENGLAND"
+     },
+     {
+      "k": "castle",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "place": "Agincourt, France · 1415",
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "AGINCOURT",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By the 1420s, England and its French allies controlled Paris and most of the north. Then they surrounded Orléans.",
+   "show": {
+    "k": "map",
+    "lon": 1.5,
+    "lat": 47.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1428",
+    "labels": [
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ],
+     [
+      "ORLÉANS",
+      1.9,
+      47.9,
+      0
+     ],
+     [
+      "Reims",
+      4.03,
+      49.26,
+      0
+     ],
+     [
+      "ENGLISH SIDE",
+      0.5,
+      49.3,
+      0
+     ],
+     [
+      "FRENCH KING",
+      2.0,
+      45.8,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      1.0,
+      49.2,
+      2.0,
+      "rgba(214,48,40,.35)"
+     ],
+     [
+      -0.5,
+      44.8,
+      1.3,
+      "rgba(214,48,40,.35)"
+     ],
+     [
+      2.2,
+      45.8,
+      2.2,
+      "rgba(40,90,200,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a teenage farm girl named Joan showed up. She said the voices of saints told her to save France.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "place": "Chinon, France · 1429",
+    "tag": {
+     "id": "joan",
+     "text": "Joan of Arc, age 17"
+    }
+   }
+  },
+  {
+   "who": "joan",
+   "say": "Give me soldiers, and I'll free Orléans.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "dauphin",
+      "x": 0.7,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "dauphin",
+     "text": "Charles, heir to the French throne"
+    }
+   }
+  },
+  {
+   "who": "dauphin",
+   "say": "You're seventeen, and you've never been in a battle.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "dauphin",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.55
+     }
+    ],
+    "cam": "close",
+    "focus": "dauphin"
+   }
+  },
+  {
+   "who": "joan",
+   "say": "Then I'd better start.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "cam": "close",
+    "focus": "joan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Charles said yes. About nine days after Joan arrived, the English gave up the siege of Orléans.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.8,
+      "s": 0.7,
+      "flag": "france_royal"
+     },
+     {
+      "k": "cannon",
+      "x": 0.55,
+      "s": 0.5
+     }
+    ],
+    "place": "Orléans, France · May 1429",
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "SIEGE OVER",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That summer, Charles was crowned king at Reims, with Joan standing right there.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "dauphin",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy",
+      "hat": "crown"
+     },
+     {
+      "id": "joan",
+      "x": 0.68,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "place": "Reims · July 1429",
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in 1430 she was captured and handed to the English, who put her on trial for heresy, meaning going against church teaching.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.6,
+      "pose": "cross",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.25,
+      "s": 0.6
+     }
+    ],
+    "place": "Rouen · 1431",
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The judges asked her a trick question: was she in God's grace? Her answer stunned the court.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "TRICK QUESTION"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She said: if I am not, may God put me there; and if I am, may God keep me so.",
+   "show": {
+    "k": "quote",
+    "text": "If I am not, may God put me there; and if I am, may God so keep me.",
+    "who": "Joan of Arc, at her trial in Rouen, 1431 (trial record)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was still found guilty. In 1431, at just nineteen, she was burned at the stake. A new trial cleared her name twenty-five years later.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "CLEARED IN 1456",
+      "at": 2.2,
+      "color": "#2F2F3A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her side won the war anyway. By 1453, the English had lost everything in France except the port of Calais.",
+   "show": {
+    "k": "map",
+    "lon": 1.5,
+    "lat": 47.0,
+    "z0": 1.9,
+    "z1": 2.2,
+    "date": "1453",
+    "labels": [
+     [
+      "KINGDOM OF FRANCE",
+      2.5,
+      46.8,
+      0
+     ],
+     [
+      "Calais (English)",
+      1.86,
+      50.95,
+      0
+     ],
+     [
+      "Castillon",
+      -0.04,
+      44.85,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      2.5,
+      46.8,
+      3.5,
+      "rgba(40,90,200,.35)"
+     ],
+     [
+      1.86,
+      50.95,
+      0.3,
+      "rgba(214,48,40,.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1643",
+    "title": "The Sun King",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "France came out of the Middle Ages as one of Europe's strongest kingdoms.",
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "THE KINGDOM OF FRANCE",
+    "sub": "the age of kings",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1643, a four-year-old boy became king: Louis the Fourteenth.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "louis14",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 0.7
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "place": "Paris, France · 1643",
+    "tag": {
+     "id": "louis14",
+     "text": "King Louis XIV"
+    },
+    "stickers": [
+     {
+      "text": "AGE 4",
+      "at": 1.4,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He picked the sun as his symbol, and he became known as the Sun King. Everything was supposed to revolve around him.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "louis14",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.8,
+      "s": 0.6,
+      "label": "SUN KING"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1682 he moved his whole court to Versailles, an old hunting lodge he'd turned into a gigantic palace outside Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "louis14",
+      "x": 0.25,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.65,
+      "s": 1.0,
+      "label": "VERSAILLES",
+      "flag": "france_royal"
+     },
+     {
+      "k": "tree",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "place": "Versailles · 1682"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its Hall of Mirrors had three hundred fifty-seven mirrors. Perfect for a king who liked looking at himself.",
+   "show": {
+    "k": "card",
+    "label": "Mirrors in the Hall of Mirrors",
+    "big": "357",
+    "sub": "lit by thousands of candles",
+    "cast": [
+     {
+      "id": "louis14",
+      "x": 0.88,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Why move? He wanted France's powerful nobles close, where he could keep an eye on them.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "noble",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "shock",
+      "walk": [
+       0.1,
+       0.35
+      ]
+     },
+     {
+      "id": "louis14",
+      "x": 0.7,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobles even competed for the honor of helping him get dressed in the morning.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "noble",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "louis14",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "neutral"
+     },
+     {
+      "id": "noble2",
+      "x": 0.85,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "noble",
+   "say": "Your Majesty, may I have the honor of handing you your shirt?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "noble",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.45,
+      "label": "ROYAL SHIRT"
+     }
+    ],
+    "cam": "close",
+    "focus": "noble"
+   }
+  },
+  {
+   "who": "noble2",
+   "say": "Back off! It's my turn to hand him the shirt!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "noble2",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "noble2"
+   }
+  },
+  {
+   "who": "louis14",
+   "say": "Gentlemen. The king is cold.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "louis14",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "louis14"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Louis ruled for seventy-two years and one hundred ten days. That's the longest reign of any major European king.",
+   "show": {
+    "k": "card",
+    "label": "Louis XIV's reign",
+    "big": "72 YEARS",
+    "sub": "and 110 days, 1643 to 1715"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But he loved expensive wars. When he died in 1715, France was deep in debt.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "louis14",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "EMPTY"
+     },
+     {
+      "k": "cannon",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1789",
+    "title": "Revolution!",
+    "bg": "town"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1789, the king was Louis the Sixteenth, and France was broke.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "louis16",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "scared"
+     },
+     {
+      "id": "marie",
+      "x": 0.65,
+      "pose": "hold",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.45,
+      "label": "TREASURY"
+     }
+    ],
+    "place": "Versailles · 1789",
+    "tag": {
+     "id": "louis16",
+     "text": "King Louis XVI"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "France had borrowed huge sums for wars, including helping the Americans win their independence from Britain.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "louis16",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.7,
+      "flag": "france_royal"
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEBT",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then bad harvests sent bread prices soaring. Poor families spent most of their money just on bread.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "sad",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "BREAD: $$$"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Louis called a big national meeting to raise taxes. Instead, the commoners declared they were the real voice of the nation.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "louis16",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NATIONAL ASSEMBLY",
+      "at": 1.8,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After the Bastille fell, the new Assembly declared that men are born free and equal in rights.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "RIGHTS OF MAN"
+     },
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Paris · August 1789"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Queen Marie Antoinette never said let them eat cake. A writer named Rousseau wrote that line when she was a nine-year-old girl in Austria.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "marie",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "FAKE QUOTE"
+     }
+    ],
+    "tag": {
+     "id": "marie",
+     "text": "Queen Marie Antoinette"
+    },
+    "stickers": [
+     {
+      "text": "MYTH",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1792 France got rid of its king and became a republic. In January 1793, Louis was executed with the guillotine.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "louis16",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "guillotine",
+      "x": 0.65,
+      "s": 0.65
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "Paris · 1793",
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "REPUBLIC",
+      "at": 1.4,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then came the Reign of Terror. In about a year, roughly seventeen thousand people were officially executed as enemies of the Revolution.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "robespierre",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "guillotine",
+      "x": 0.7,
+      "s": 0.7
+     }
+    ],
+    "cam": "still",
+    "tag": {
+     "id": "robespierre",
+     "text": "Robespierre, Revolution leader"
+    },
+    "stickers": [
+     {
+      "text": "ABOUT 17,000",
+      "at": 2.0,
+      "color": "#2F2F3A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1794, even Robespierre, the man most linked to the Terror, ended up on the guillotine himself.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "robespierre",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "Paris · 1794"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Revolution also tried ten-day weeks and clocks with ten hours a day. People hated them. But one idea stuck: the metric system.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "10 HOURS = 1 DAY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "METERS & KILOGRAMS",
+      "at": 2.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1799",
+    "title": "Enter Napoleon",
+    "bg": "battlefield"
+   }
+  },
+  {
+   "who": "N",
+   "say": "All this chaos was perfect for a young general from the island of Corsica: Napoleon Bonaparte.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "grenadier",
+      "x": 0.65,
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.88,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "France · 1799",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1799 he grabbed power in a coup, a takeover by force.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "COUP!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1804, he was crowned emperor in Notre-Dame cathedral in Paris, with the Pope right there.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "pius",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "neutral"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.65,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "crown"
+     }
+    ],
+    "place": "Notre-Dame, Paris · 1804",
+    "tag": {
+     "id": "pius",
+     "text": "Pope Pius VII"
+    },
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "pius",
+   "say": "So, I'll just place the crown on your...",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "pius",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "pius"
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Thanks. I'll take it from here.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "smug",
+      "hold": "crown"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He really did crown himself. It looks rude, but the Pope had agreed to it in advance.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "pius",
+      "x": 0.72,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also created the Napoleonic Code, one clear set of laws for all of France. It inspired laws in many countries.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "CODE NAPOLÉON"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1804",
+      "at": 1.4,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And no, he wasn't short. He was about five foot seven, normal for his time. British cartoonists drew him tiny.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.78,
+      "s": 0.6,
+      "label": "BRITISH CARTOON"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABOUT 5'7\"",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His armies conquered much of Europe. Then in 1812 he invaded Russia with a gigantic army, and most of it never came back.",
+   "show": {
+    "k": "map",
+    "lon": 18.0,
+    "lat": 51.0,
+    "z0": 1.1,
+    "z1": 1.3,
+    "date": "1812",
+    "labels": [
+     [
+      "FRENCH EMPIRE",
+      3.0,
+      47.5,
+      0
+     ],
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ],
+     [
+      "MOSCOW",
+      37.6,
+      55.75,
+      0
+     ],
+     [
+      "RUSSIA",
+      40.0,
+      58.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      4.0,
+      48.0,
+      5.0,
+      "rgba(40,90,200,.35)"
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      13.4,
+      52.5
+     ],
+     [
+      23.9,
+      54.9
+     ],
+     [
+      30.3,
+      55.2
+     ],
+     [
+      37.6,
+      55.75
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was exiled to Elba, a tiny island off Italy. In 1815 he escaped, took back France, and lasted about a hundred days.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.7,
+      "flag": "france",
+      "move": [
+       0.6,
+       0.8
+      ]
+     },
+     {
+      "k": "rock",
+      "x": 0.12,
+      "s": 0.5,
+      "label": "ELBA"
+     }
+    ],
+    "place": "Elba · 1815"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On June 18th, 1815, Britain's Duke of Wellington and the Prussian army beat him at Waterloo, in Belgium.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "wellington",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.72,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.5,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "uk"
+     }
+    ],
+    "place": "Waterloo, Belgium · 1815",
+    "tag": {
+     "id": "wellington",
+     "text": "Duke of Wellington"
+    },
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This time, he was shipped to Saint Helena, a speck of an island in the middle of the Atlantic. He died there in 1821.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.8,
+      "label": "SAINT HELENA"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1815",
+    "title": "Kings, Republics and Cheese",
+    "bg": "city"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After Napoleon, France couldn't make up its mind. It had kings again, revolutions in 1830 and 1848, then Napoleon's nephew as emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "kingx",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "shock",
+      "hold": "crown"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "Paris · 1830 to 1870",
+    "stickers": [
+     {
+      "text": "1830!",
+      "at": 1.0,
+      "color": "#A8322A"
+     },
+     {
+      "text": "1848!",
+      "at": 2.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1870 it became a republic again, and mostly stayed one.",
+   "show": {
+    "k": "flag",
+    "flag": "france",
+    "label": "THE THIRD REPUBLIC",
+    "sub": "from 1870",
+    "bg": "city"
+   }
+  },
+  {
+   "who": "N",
+   "say": "For the 1889 World's Fair, Gustave Eiffel's company built a giant iron tower in Paris. It only had a permit for twenty years.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "eiffel",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.65,
+      "s": 0.6,
+      "text": "TOUR EIFFEL"
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "Paris · 1889",
+    "tag": {
+     "id": "eiffel",
+     "text": "Gustave Eiffel, engineer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was saved because it made a fantastic radio antenna.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "eiffel",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RADIO SAVED IT",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then came two world wars. In the first, French soldiers held the trenches for four long years.",
+   "show": {
+    "k": "scene",
+    "bg": "trench",
+    "cast": [
+     {
+      "id": "poilu",
+      "x": 0.4,
+      "pose": "aim",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tank_ww1",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "Western Front · 1914 to 1918",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the second, Germany conquered France in just six weeks in 1940.",
+   "show": {
+    "k": "map",
+    "lon": 4.0,
+    "lat": 48.5,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "1940",
+    "labels": [
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ],
+     [
+      "GERMANY",
+      10.0,
+      51.0,
+      0
+     ],
+     [
+      "Ardennes",
+      5.5,
+      50.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      6.5,
+      50.3
+     ],
+     [
+      5.0,
+      49.7
+     ],
+     [
+      3.5,
+      49.5
+     ],
+     [
+      2.35,
+      48.86
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A general named Charles de Gaulle kept fighting from London. Later, in 1958, he founded the Fifth Republic, the system France still uses.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "degaulle",
+      "x": 0.4,
+      "pose": "salute",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "London · 1940",
+    "tag": {
+     "id": "degaulle",
+     "text": "General Charles de Gaulle"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was famous for one line about how hard France is to run:",
+   "show": {
+    "k": "quote",
+    "text": "How can you govern a country which has two hundred and forty-six varieties of cheese?",
+    "who": "Charles de Gaulle, as quoted in Les Mots du Général (1962)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "France used the guillotine until 1977, and it banned the death penalty in 1981.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "degaulle",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "guillotine",
+      "x": 0.7,
+      "s": 0.55,
+      "label": "RETIRED"
+     }
+    ],
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "BANNED 1981",
+      "at": 1.8,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So that's France. Gauls, Franks, a sun king, a revolution, an emperor, and a whole lot of cheese.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "clovis",
+      "x": 0.15,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "joan",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "louis14",
+      "x": 0.55,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.75,
+      "pose": "salute",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.92,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next up: the most epic revenge stories in history. See you there.",
+   "show": {
+    "k": "end",
+    "next": "The Most Epic Revenge Stories in History",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.78,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "joan",
+      "x": 0.92,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "thumbnail": {
+  "style": "split",
+  "years": [
+   "486",
+   "1815"
+  ],
+  "word": "VIVE LA...?",
+  "left": {
+   "id": "clovis",
+   "mood": "smug"
+  },
+  "right": {
+   "id": "napoleon",
+   "mood": "shock"
+  },
+  "map": {
+   "lon": 2.5,
+   "lat": 46.6,
+   "z": 2.0,
+   "d0": 0,
+   "d1": 0,
+   "red": true
+  }
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+  "https://www.history.com/this-day-in-history/july-14/french-revolutionaries-storm-bastille",
+  "https://en.wikipedia.org/wiki/Gaul",
+  "https://en.wikipedia.org/wiki/Gallic_Wars",
+  "https://www.ebsco.com/research-starters/history/france-ancient-world/",
+  "https://en.wikipedia.org/wiki/Clovis_I",
+  "https://en.wikipedia.org/wiki/Battle_of_Soissons_(486)",
+  "https://www.catholic.com/encyclopedia/clovis",
+  "https://en.wikipedia.org/wiki/Name_of_France",
+  "https://en.wikipedia.org/wiki/Charlemagne",
+  "https://en.wikipedia.org/wiki/Pope_Leo_III",
+  "https://www.yorku.ca/inpar/eginhard_grant.pdf",
+  "https://www.nationalgeographic.com/history/article/charlemagne-ancient-roman-empire",
+  "https://en.wikipedia.org/wiki/Treaty_of_Verdun",
+  "https://en.wikipedia.org/wiki/Hundred_Years'_War",
+  "https://royalarmouries.org/objects-and-stories/stories/the-hundred-years-war-1337-1453",
+  "https://en.wikipedia.org/wiki/English_claims_to_the_French_throne",
+  "https://en.wikipedia.org/wiki/Battle_of_Castillon",
+  "https://www.britannica.com/event/Battle-of-Castillon",
+  "https://en.wikipedia.org/wiki/Joan_of_Arc",
+  "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)",
+  "https://www.history.com/articles/siege-of-orleans",
+  "https://en.wikipedia.org/wiki/Rehabilitation_trial_of_Joan_of_Arc",
+  "https://en.wikipedia.org/wiki/Louis_XIV",
+  "https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv",
+  "https://www.parisdigest.com/versailles/hall-of-mirrors.htm",
+  "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs",
+  "https://en.wikipedia.org/wiki/French_Revolution",
+  "https://www.historyskills.com/classroom/modern-history/mod-french-revolution-reading/",
+  "https://en.wikipedia.org/wiki/Let_them_eat_cake",
+  "https://www.history.com/articles/did-marie-antoinette-really-say-let-them-eat-cake",
+  "https://en.wikipedia.org/wiki/Reign_of_Terror",
+  "https://www.livescience.com/reign-of-terror.html",
+  "https://www.worldhistory.org/French_Republican_Calendar/",
+  "https://en.wikipedia.org/wiki/Coronation_of_Napoleon",
+  "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-the-coronation-of-napoleon-i/",
+  "https://en.wikipedia.org/wiki/Napoleon_complex",
+  "https://www.worldhistory.org/Hundred_Days/",
+  "https://royalarmouries.org/objects-and-stories/stories/waterloo-1815",
+  "https://www.toureiffel.paris/en/news/130-years/why-was-eiffel-tower-kept",
+  "https://en.wikipedia.org/wiki/Battle_of_France",
+  "https://en.wikipedia.org/wiki/Charles_de_Gaulle",
+  "https://en.wikipedia.org/wiki/Capital_punishment_in_France",
+  "https://www.azquotes.com/quote/345893"
+ ]
+}

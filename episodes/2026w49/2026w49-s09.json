@@ -1,0 +1,276 @@
+{
+ "id": "2026w49-s09",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "The Bastille Only Held 7 Prisoners",
+ "hook": "ONLY SEVEN PRISONERS",
+ "music": "playful",
+ "cast": {
+  "rebel": {
+   "preset": "peasant",
+   "hat": "cap",
+   "hatColor": "#B8302A",
+   "skin": "light",
+   "hairColor": "#4A3020",
+   "stubble": true,
+   "hold": "torch"
+  },
+  "guard": {
+   "preset": "grenadier",
+   "hat": "tricorn",
+   "skin": "light",
+   "stache": "bush",
+   "hairColor": "#DDDDDD"
+  }
+ },
+ "voices": {
+  "rebel": "am_puck",
+  "guard": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When Paris stormed the Bastille, there were only seven prisoners inside.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.9,
+      "label": "THE BASTILLE",
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Paris, France · July 14, 1789",
+    "stickers": [
+     {
+      "text": "7 PRISONERS",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Bastille was an old royal fortress used as a prison. To many French people, it stood for the king's unfair power.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1789, France was broke, bread was expensive, and Paris was furious.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "angry",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "BREAD: $$$"
+     }
+    ]
+   }
+  },
+  {
+   "who": "rebel",
+   "say": "Open up! Free the prisoners!",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "guard",
+      "x": 0.72,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "rebel"
+   }
+  },
+  {
+   "who": "guard",
+   "say": "All seven of them?",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.82,
+      "s": 0.55
+     }
+    ],
+    "cam": "close",
+    "focus": "guard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Four forgers, two mentally ill men, and a nobleman locked up at his family's request.",
+   "show": {
+    "k": "card",
+    "label": "Inside the Bastille",
+    "big": "7",
+    "sub": "4 forgers, 2 mentally ill men, 1 nobleman"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The crowd really wanted the gunpowder stored there. By evening, the fortress had fallen.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.6,
+      "s": 0.5,
+      "label": "GUNPOWDER"
+     },
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seven prisoners, but a giant symbol. July 14th is still France's national holiday.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.78,
+      "s": 0.5,
+      "flag": "red",
+      "label": "14 JUILLET"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rebel",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "guard",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Bastille was nearly empty when the Revolution stormed it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #bastille #frenchrevolution #france #historytok",
+ "youtube_title": "The Bastille Only Held 7 Prisoners #shorts",
+ "tags": [
+  "storming of the bastille",
+  "bastille day",
+  "french revolution",
+  "french history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+  "https://en.wikipedia.org/wiki/Bastille",
+  "https://www.history.com/this-day-in-history/july-14/french-revolutionaries-storm-bastille",
+  "https://www.historyskills.com/classroom/modern-history/storming-of-the-bastille/"
+ ]
+}

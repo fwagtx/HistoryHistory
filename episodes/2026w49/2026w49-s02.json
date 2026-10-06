@@ -1,0 +1,285 @@
+{
+ "id": "2026w49-s02",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "Napoleon Wasn't Actually Short",
+ "hook": "NAPOLEON WASN'T SHORT",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "gillray": {
+   "preset": "host",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "hair": "side",
+   "hairColor": "#7A5A3A",
+   "skin": "light",
+   "hold": "pen",
+   "name": "James Gillray"
+  }
+ },
+ "voices": {
+  "napoleon": "am_adam",
+  "gillray": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Napoleon wasn't short. His enemies just drew him that way.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "place": "Paris, France · early 1800s",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon, emperor of France"
+    },
+    "stickers": [
+     {
+      "text": "SHORT?",
+      "at": 1.3,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Napoleon Bonaparte was the French emperor who conquered much of Europe.",
+   "show": {
+    "k": "map",
+    "lon": 10.0,
+    "lat": 48.0,
+    "z0": 1.3,
+    "z1": 1.5,
+    "date": "1810",
+    "labels": [
+     [
+      "FRENCH EMPIRE",
+      3.5,
+      47.5,
+      0
+     ],
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      5.0,
+      48.0,
+      6.0,
+      "rgba(40,90,200,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After he died in 1821, his height was written down as five feet two.",
+   "show": {
+    "k": "card",
+    "label": "Napoleon's recorded height",
+    "big": "5 FT 2",
+    "sub": "in old French feet and inches"
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "French inches! Ours are longer!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had a point. In English units, that's about five foot seven, average or a bit taller for a Frenchman back then.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "ABOUT 5'7\""
+     },
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But British cartoonists like James Gillray kept drawing him tiny and furious.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "gillray",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.72,
+      "s": 0.6,
+      "label": "LITTLE BONEY"
+     }
+    ],
+    "place": "London · 1800s",
+    "tag": {
+     "id": "gillray",
+     "text": "James Gillray, British cartoonist"
+    }
+   }
+  },
+  {
+   "who": "gillray",
+   "say": "Smaller. Even smaller. Perfect.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "gillray",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "gillray"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The joke stuck for two hundred years. The short Napoleon was basically enemy propaganda.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.55,
+      "label": "BRITISH CARTOON"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROPAGANDA",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "gillray",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Napoleon was about 5'7\". British cartoons did the rest.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #france #mythbusting #historytok",
+ "youtube_title": "Napoleon Wasn't Actually Short #shorts",
+ "tags": [
+  "napoleon height",
+  "napoleon complex",
+  "james gillray",
+  "history myths",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Napoleon_complex",
+  "https://en.wikipedia.org/wiki/Napoleon",
+  "https://www.thecollector.com/how-tall-was-napoleon/",
+  "https://en.wikipedia.org/wiki/James_Gillray"
+ ]
+}

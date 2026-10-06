@@ -1,0 +1,298 @@
+{
+ "id": "2026w49-s12",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "Napoleon Sold America Land for 3 Cents an Acre",
+ "hook": "3 CENTS AN ACRE",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "livingston": {
+   "preset": "businessman",
+   "outfit": "coat",
+   "color": "#2A2A3A",
+   "hair": "side",
+   "hairColor": "#E8E8E8",
+   "skin": "light",
+   "name": "Robert Livingston"
+  },
+  "monroe": {
+   "preset": "businessman",
+   "outfit": "coat",
+   "color": "#3A4A2A",
+   "hair": "side",
+   "hairColor": "#8A6A4A",
+   "skin": "light",
+   "name": "James Monroe"
+  }
+ },
+ "voices": {
+  "napoleon": "am_adam",
+  "livingston": "am_liam",
+  "monroe": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "France once sold America a giant chunk of land for less than three cents an acre.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Paris, France · 1803",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon, ruler of France"
+    },
+    "stickers": [
+     {
+      "text": "3¢ AN ACRE",
+      "at": 1.5,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1803, Napoleon's France owned Louisiana, a huge territory in the middle of North America.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "france"
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Americans only wanted to buy the port city of New Orleans.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "livingston",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "monroe",
+      "x": 0.62,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "livingston",
+     "text": "Robert Livingston, U.S. diplomat"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Napoleon needed money for his war with Britain, so he offered all of it.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.78,
+      "s": 0.55
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.45,
+      "flag": "france"
+     }
+    ]
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Why buy one city? Take the whole thing.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "monroe",
+   "say": "Quick, say yes before he changes his mind!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "monroe",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "monroe",
+    "tag": {
+     "id": "monroe",
+     "text": "James Monroe, U.S. envoy"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The price: fifteen million dollars for about eight hundred twenty-eight thousand square miles.",
+   "show": {
+    "k": "card",
+    "label": "The Louisiana Purchase",
+    "big": "$15 MILLION",
+    "sub": "about 828,000 square miles"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It doubled the size of the United States. Parts of fifteen future states came from that one deal.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "livingston",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "usa1776"
+     },
+     {
+      "k": "wagon",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "monroe",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Napoleon sold the Louisiana Territory for $15 million.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #louisianapurchase #napoleon #france #historytok",
+ "youtube_title": "Napoleon Sold America Land for 3 Cents an Acre #shorts",
+ "tags": [
+  "louisiana purchase",
+  "napoleon",
+  "thomas jefferson",
+  "american history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://history.state.gov/milestones/1801-1829/louisiana-purchase",
+  "https://en.wikipedia.org/wiki/Louisiana_Purchase",
+  "https://www.senate.gov/about/powers-procedures/treaties/senate-approves-louisiana-purchase-treaty.htm",
+  "https://constitutioncenter.org/blog/the-louisiana-purchase-jeffersons-constitutional-gamble"
+ ]
+}

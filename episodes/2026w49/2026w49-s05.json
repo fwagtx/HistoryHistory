@@ -1,0 +1,280 @@
+{
+ "id": "2026w49-s05",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "The Eiffel Tower Was Supposed to Be Temporary",
+ "hook": "A TEMPORARY EIFFEL TOWER",
+ "music": "playful",
+ "cast": {
+  "eiffel": {
+   "preset": "businessman",
+   "hat": "tophat",
+   "beard": "full",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Gustave Eiffel"
+  },
+  "artist": {
+   "preset": "host",
+   "hat": "beret",
+   "hatColor": "#1A1A1A",
+   "outfit": "coat",
+   "color": "#6A3E8E",
+   "stache": "handlebar",
+   "hairColor": "#3A2A1A",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "eiffel": "bm_daniel",
+  "artist": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Eiffel Tower was only supposed to stand for twenty years.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "eiffel",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "TOUR EIFFEL"
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "Paris, France · 1889",
+    "tag": {
+     "id": "eiffel",
+     "text": "Gustave Eiffel, engineer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Engineer Gustave Eiffel's company built it for the 1889 World's Fair in Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "eiffel",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "IRON"
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At about three hundred meters, it was the tallest structure in the world.",
+   "show": {
+    "k": "card",
+    "label": "Height in 1889",
+    "big": "300 M",
+    "sub": "tallest structure on Earth until 1930"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Not everyone loved it. Famous artists signed a letter calling it useless and monstrous.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "artist",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "USELESS! MONSTROUS!"
+     }
+    ]
+   }
+  },
+  {
+   "who": "artist",
+   "say": "It's a giant iron eyesore!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "artist",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "artist"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Eiffel's permit ran out in 1909. Then the city of Paris could tear it down.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "eiffel",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "1909"
+     }
+    ]
+   }
+  },
+  {
+   "who": "eiffel",
+   "say": "Wait! It's the perfect antenna!",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "eiffel",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "eiffel"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He backed radio experiments from the top. The army found it so useful that the tower got to stay.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "eiffel",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.7,
+      "s": 0.55
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.45,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SAVED BY RADIO",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "eiffel",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "artist",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Eiffel Tower had a 20-year permit. Radio saved it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #eiffeltower #paris #france #historytok",
+ "youtube_title": "The Eiffel Tower Was Supposed to Be Temporary #shorts",
+ "tags": [
+  "eiffel tower",
+  "eiffel tower history",
+  "paris",
+  "world's fair 1889",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.toureiffel.paris/en/news/130-years/why-was-eiffel-tower-kept",
+  "https://www.toureiffel.paris/en/news/130-years/how-did-radio-save-tower",
+  "https://en.wikipedia.org/wiki/Eiffel_Tower",
+  "https://www.history.com/this-day-in-history/march-31/eiffel-tower-opens",
+  "https://en.wikipedia.org/wiki/Gustave_Eiffel"
+ ]
+}

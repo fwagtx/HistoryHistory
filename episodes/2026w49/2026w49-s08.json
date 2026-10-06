@@ -1,0 +1,273 @@
+{
+ "id": "2026w49-s08",
+ "format": "short",
+ "date": "2026-11-30",
+ "slot": "09:00",
+ "title": "Marie Antoinette Never Said 'Let Them Eat Cake'",
+ "hook": "SHE NEVER SAID IT",
+ "music": "playful",
+ "cast": {
+  "marie": {
+   "preset": "queen",
+   "hair": "bun",
+   "hairColor": "#E8E0D0",
+   "color": "#E8A0B8",
+   "skin": "light",
+   "name": "Marie Antoinette"
+  },
+  "rousseau": {
+   "preset": "philosopher",
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "hair": "side",
+   "hairColor": "#E0E0E0",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Jean-Jacques Rousseau"
+  },
+  "baker": {
+   "preset": "peasant",
+   "hat": "chef",
+   "skin": "light",
+   "stache": "bush",
+   "hold": "bread"
+  }
+ },
+ "voices": {
+  "marie": "bf_emma",
+  "baker": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Marie Antoinette never said let them eat cake.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "marie",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "FAKE QUOTE"
+     }
+    ],
+    "place": "Versailles, France · 1780s",
+    "tag": {
+     "id": "marie",
+     "text": "Marie Antoinette, queen of France"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was the queen of France when the French Revolution began. Poor people couldn't afford bread.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "baker",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "BREAD: $$$"
+     }
+    ],
+    "place": "Paris · 1789"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The legend says she heard there was no bread and said, then let them eat cake.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "marie",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "marie",
+   "say": "Excuse me? I never said that.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "marie",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "marie"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The line actually appears in the memoir of the writer Jean-Jacques Rousseau. He credits it to an unnamed great princess.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "rousseau",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "CONFESSIONS"
+     }
+    ],
+    "tag": {
+     "id": "rousseau",
+     "text": "Rousseau, French writer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wrote it around 1765. Marie Antoinette was nine and still living in Austria.",
+   "show": {
+    "k": "card",
+    "label": "When Rousseau wrote the line",
+    "big": "~1765",
+    "sub": "Marie Antoinette was 9, in Austria"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And in French, the treat wasn't even cake. It was brioche, a fancy sweet bread.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "baker",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.45,
+      "label": "BRIOCHE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So history's most famous mean quote was pinned on the wrong woman.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "marie",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.78,
+      "s": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "marie",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "baker",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "'Let them eat cake' was written down when Marie Antoinette was 9.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #marieantoinette #france #mythbusting #historytok",
+ "youtube_title": "Marie Antoinette Never Said 'Let Them Eat Cake' #shorts",
+ "tags": [
+  "marie antoinette",
+  "let them eat cake",
+  "french revolution",
+  "history myths",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Let_them_eat_cake",
+  "https://www.history.com/articles/did-marie-antoinette-really-say-let-them-eat-cake",
+  "https://www.thelocal.fr/20220802/french-history-myths-marie-antoinette-said-let-them-eat-cake",
+  "https://en.wikipedia.org/wiki/Marie_Antoinette"
+ ]
+}
