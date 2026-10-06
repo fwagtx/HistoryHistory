@@ -1,0 +1,276 @@
+{
+ "id": "2026w49-s28",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "A Banker's Orphan Became Queen of France",
+ "hook": "ORPHAN TO QUEEN",
+ "music": "playful",
+ "cast": {
+  "catherine": {
+   "preset": "queen",
+   "color": "#262322",
+   "hairColor": "#5A3A22",
+   "name": "Catherine de' Medici"
+  },
+  "youngcat": {
+   "preset": "princess",
+   "hat": "tiara",
+   "color": "#E8C25A",
+   "hairColor": "#5A3A22",
+   "name": "Catherine de' Medici, age 14"
+  },
+  "clement": {
+   "preset": "pope",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "name": "Pope Clement VII"
+  },
+  "henry2": {
+   "preset": "king",
+   "color": "#262322",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "name": "Henry II of France"
+  }
+ },
+ "voices": {
+  "youngcat": "af_bella",
+  "clement": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A baby orphan from a banking family grew up to become Queen of France.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.4
+     },
+     {
+      "k": "flag",
+      "x": 0.2,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "France · 1547",
+    "stickers": [
+     {
+      "text": "QUEEN",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Catherine de' Medici was born in Florence in 1519. Within weeks, both her parents had died.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "youngcat",
+      "x": 0.45,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "Florence · 1519",
+    "tag": {
+     "id": "youngcat",
+     "text": "Catherine de' Medici"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her relative, Pope Clement the seventh, saw a chance. He arranged her marriage to Henry, a son of the French king.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "clement",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "youngcat",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "clement",
+     "text": "Pope Clement VII"
+    }
+   }
+  },
+  {
+   "who": "clement",
+   "say": "A Medici in the French royal family. Excellent."
+  },
+  {
+   "who": "youngcat",
+   "say": "Do I get a say in this?"
+  },
+  {
+   "who": "N",
+   "say": "In 1533, at fourteen, she married him in Marseille.",
+   "show": {
+    "k": "map",
+    "lon": 7.5,
+    "lat": 44.0,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "1533",
+    "labels": [
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ],
+     [
+      "Marseille",
+      5.37,
+      43.3,
+      -70
+     ]
+    ],
+    "route": [
+     [
+      11.25,
+      43.77
+     ],
+     [
+      5.37,
+      43.3
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Henry was a second son, so he wasn't meant to be king. Then his brother died.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "henry2",
+      "x": 0.4,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "france_royal"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1547, Henry became king, and Catherine became Queen of France. Three of her sons became kings too.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "henry2",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "catherine",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.5,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "3 KING SONS",
+      "at": 1.2,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "clement",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Orphaned as a baby, married at 14, Queen of France at 28.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #catherinedemedici #france #medici #queens",
+ "youtube_title": "A Banker's Orphan Became Queen of France #shorts",
+ "tags": [
+  "catherine de medici",
+  "queen of france",
+  "medici",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Catherine-de-Medici",
+  "https://en.wikipedia.org/wiki/Catherine_de%27_Medici",
+  "https://www.worldhistory.org/Catherine_de'_Medici/",
+  "https://en.wikipedia.org/wiki/Henry_II_of_France"
+ ]
+}

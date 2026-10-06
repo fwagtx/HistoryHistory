@@ -1,0 +1,289 @@
+{
+ "id": "2026w49-s32",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "The Pope Had a Pet White Elephant",
+ "hook": "THE POPE'S PET ELEPHANT",
+ "music": "playful",
+ "cast": {
+  "leo": {
+   "preset": "pope",
+   "hairColor": "#3A2A1A",
+   "name": "Pope Leo X"
+  },
+  "hanno": {
+   "animal": "elephant",
+   "name": "Hanno the elephant"
+  }
+ },
+ "voices": {
+  "leo": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A pope once had a pet white elephant named Hanno.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "hanno",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.35
+     }
+    ],
+    "place": "Rome · 1514",
+    "stickers": [
+     {
+      "text": "HANNO",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pope was Leo the tenth, son of the Florentine banker Lorenzo de' Medici.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "leo",
+     "text": "Pope Leo X"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1514, the King of Portugal sent him the elephant, which came from India.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "hanno",
+      "x": 0.4,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.35,
+      "label": "GIFT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sailed from Lisbon to Italy and arrived in Rome to huge crowds.",
+   "show": {
+    "k": "map",
+    "lon": 1.5,
+    "lat": 41.0,
+    "z0": 1.4,
+    "z1": 1.7,
+    "date": "1514",
+    "labels": [
+     [
+      "Lisbon",
+      -9.14,
+      38.72,
+      14
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -9.14,
+      38.72
+     ],
+     [
+      -9.5,
+      37
+     ],
+     [
+      -5.6,
+      36
+     ],
+     [
+      3,
+      38.5
+     ],
+     [
+      9.5,
+      41.5
+     ],
+     [
+      12.5,
+      41.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "leo",
+   "say": "An elephant! Finally, someone who loves a parade as much as I do.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "hanno",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.35,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hanno marched in parades and lived in his own building near St. Peter's."
+  },
+  {
+   "who": "N",
+   "say": "Sadly, he died in 1516, after doctors treated him with a laxative mixed with gold.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "GOLD MEDICINE?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Leo had him buried at the Vatican, and the artist Raphael painted a memorial.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "statue",
+      "x": 0.2,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more weird history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "hanno",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Pope Leo X's pet white elephant marched in parades through Rome.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #elephant #popeleox #medici #weirdhistory",
+ "youtube_title": "The Pope Had a Pet White Elephant #shorts",
+ "tags": [
+  "hanno the elephant",
+  "pope leo x",
+  "weird history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hanno_(elephant)",
+  "https://www.atlasobscura.com/articles/medieval-hanno-elephant",
+  "https://www.thecollector.com/leo-x-pope-owned-pet-elephant/"
+ ]
+}

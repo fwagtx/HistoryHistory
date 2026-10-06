@@ -1,0 +1,289 @@
+{
+ "id": "2026w49-s33",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "The Medici Bet Their Bank on a Pope Who Got Fired",
+ "hook": "BANKERS BET ON A POPE",
+ "music": "playful",
+ "cast": {
+  "giovanni": {
+   "skin": "light",
+   "hat": "hood",
+   "hatColor": "#7A2A2A",
+   "outfit": "robe",
+   "color": "#7A2A2A",
+   "color2": "#5A1E1E",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "name": "Giovanni di Bicci de' Medici"
+  },
+  "cossa": {
+   "preset": "pope",
+   "hairColor": "#3A2A1A",
+   "stubble": true,
+   "name": "Baldassare Cossa (Pope John XXIII)"
+  }
+ },
+ "voices": {
+  "giovanni": "bm_lewis",
+  "cossa": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Medici bet their bank on a pope, and then he got fired.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "cossa",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "place": "Rome · 1410",
+    "stickers": [
+     {
+      "text": "THE BET",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Giovanni de' Medici founded the Medici Bank in Florence in 1397.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "MEDICI BANK"
+     }
+    ],
+    "tag": {
+     "id": "giovanni",
+     "text": "Giovanni di Bicci de' Medici"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He backed a churchman named Baldassare Cossa. When Cossa became Pope John the twenty third, the Medici handled the Pope's money.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "cossa",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "cossa",
+     "text": "Pope John XXIII"
+    }
+   }
+  },
+  {
+   "who": "cossa",
+   "say": "Bankers! You're in charge of my money now!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "cossa",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "giovanni",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "giovanni",
+   "say": "We'll take very good care of it."
+  },
+  {
+   "who": "N",
+   "say": "But there were rival popes. In 1415, a church council removed Cossa and locked him up.",
+   "show": {
+    "k": "map",
+    "lon": 9.5,
+    "lat": 46.5,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "1415",
+    "labels": [
+     [
+      "Constance",
+      9.17,
+      47.66,
+      14
+     ],
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      9.17,
+      47.66,
+      0.4,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Medici helped pay a heavy ransom to free him, and later gave him a fancy tomb in Florence.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LOYAL",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That loyalty impressed the next pope, who kept the Medici as his bankers.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "cossa",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Medici backed a pope who got deposed. Their loyalty still paid off.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #medici #popes #banking #moneyhistory",
+ "youtube_title": "The Medici Bet Their Bank on a Pope Who Got Fired #shorts",
+ "tags": [
+  "medici bank",
+  "antipope john xxiii",
+  "giovanni de medici",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Giovanni_di_Bicci_de%27_Medici",
+  "https://en.wikipedia.org/wiki/Antipope_John_XXIII",
+  "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/john-xxiii-antipope",
+  "https://en.wikipedia.org/wiki/Tomb_of_Antipope_John_XXIII",
+  "https://www.britannica.com/biography/Giovanni-di-Bicci"
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "id": "2026w49-s31",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "Did Catherine de' Medici Bring the Fork to France?",
+ "hook": "THE FORK MYTH",
+ "music": "playful",
+ "cast": {
+  "catherine": {
+   "preset": "queen",
+   "color": "#262322",
+   "hairColor": "#5A3A22",
+   "name": "Catherine de' Medici"
+  },
+  "cook": {
+   "skin": "light",
+   "hat": "chef",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "apron": true,
+   "stache": "thin",
+   "name": "Court cook"
+  }
+ },
+ "voices": {
+  "catherine": "bf_emma",
+  "cook": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "You've probably heard Catherine de' Medici brought the fork to France. It's a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.35,
+      "mood": "smug"
+     },
+     {
+      "id": "cook",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "place": "France · 1500s",
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Catherine came from a rich banking family in Florence. In 1533, she married into the French royal family.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "tag": {
+     "id": "catherine",
+     "text": "Catherine de' Medici"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story says she brought Italian cooks, fancy recipes, and forks to a country that ate with knives and fingers.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "cook",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "FORKS?"
+     },
+     {
+      "k": "barrel",
+      "x": 0.2,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "cook",
+   "say": "A tiny pitchfork for food? How strange!",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "cook",
+      "x": 0.35,
+      "mood": "shock",
+      "hold": "goblet"
+     },
+     {
+      "id": "catherine",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.5,
+      "s": 0.3
+     }
+    ],
+    "cam": "close",
+    "focus": "cook"
+   }
+  },
+  {
+   "who": "catherine",
+   "say": "Just try it. Trust me."
+  },
+  {
+   "who": "N",
+   "say": "But food historians found no proof from her lifetime. Writers started giving her credit for all this centuries later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "NO PROOF"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Forks were more common in Italy then, so she probably used one. But one queen didn't change French dinners alone.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.45,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history myths.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "cook",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Catherine de' Medici and the fork: the story is much younger than she is.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #foodhistory #catherinedemedici #myths #france",
+ "youtube_title": "Did Catherine de' Medici Bring the Fork to France? #shorts",
+ "tags": [
+  "catherine de medici",
+  "fork history",
+  "food history myth",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Catherine_de%27_Medici",
+  "https://www.smithsonianmag.com/history/the-many-myths-of-catherine-de-medici-180980722/",
+  "https://www.cooksinfo.com/catherine-de-medici",
+  "https://larisanjou.com/2017/10/28/food-questions-catherine-de-medici/"
+ ]
+}

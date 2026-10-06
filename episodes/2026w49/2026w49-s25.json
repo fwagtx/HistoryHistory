@@ -1,0 +1,290 @@
+{
+ "id": "2026w49-s25",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "One Banking Family Gave the Church Four Popes",
+ "hook": "FOUR POPES, ONE FAMILY",
+ "music": "playful",
+ "cast": {
+  "leo": {
+   "preset": "pope",
+   "hairColor": "#3A2A1A",
+   "name": "Pope Leo X"
+  },
+  "clement": {
+   "preset": "pope",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "name": "Pope Clement VII"
+  },
+  "giovanni": {
+   "skin": "light",
+   "hat": "hood",
+   "hatColor": "#7A2A2A",
+   "outfit": "robe",
+   "color": "#7A2A2A",
+   "color2": "#5A1E1E",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "name": "Giovanni di Bicci de' Medici"
+  },
+  "leo11": {
+   "preset": "pope",
+   "hairColor": "#8A8A8A",
+   "beard": "goatee",
+   "name": "Pope Leo XI"
+  },
+  "pius": {
+   "preset": "pope",
+   "hairColor": "#DADADA",
+   "beard": "full",
+   "name": "Pope Pius IV"
+  }
+ },
+ "voices": {
+  "leo": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One banking family from Florence gave the Catholic Church four popes. Well, sort of.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "clement",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "place": "Rome · 1500s",
+    "stickers": [
+     {
+      "text": "4 POPES?",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Medici were bankers who handled the Pope's money back in the 1400s.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "giovanni",
+     "text": "Giovanni de' Medici, banker"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, in 1513, banker Lorenzo de' Medici's son was elected pope. He became Leo the tenth.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "place": "Rome · 1513",
+    "tag": {
+     "id": "leo",
+     "text": "Pope Leo X"
+    },
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "leo",
+   "say": "From handling the Pope's money to being the Pope. Not bad.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "leo"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1523, his cousin became Pope Clement the seventh.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "clement",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "clement",
+     "text": "Pope Clement VII"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1605, a relative became Leo the eleventh. He was pope for less than a month.",
+   "show": {
+    "k": "card",
+    "label": "Leo XI's time as pope",
+    "big": "27 days",
+    "sub": "April 1 to 27, 1605",
+    "cast": [
+     {
+      "id": "leo11",
+      "x": 0.85,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Pius the fourth? His Milan family claimed to be Medici, but historians have found no proof.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "pius",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "RELATED?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO PROOF",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So that's three real Medici popes, plus one maybe."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "clement",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "From bankers to popes: how one Florence family got four popes (sort of).\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #medici #popes #renaissance #historytok",
+ "youtube_title": "One Banking Family Gave the Church Four Popes #shorts",
+ "tags": [
+  "medici popes",
+  "pope leo x",
+  "pope clement vii",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/List_of_popes_from_the_Medici_family",
+  "https://en.wikipedia.org/wiki/Pope_Leo_XI",
+  "https://en.wikipedia.org/wiki/Pope_Pius_IV",
+  "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/pius-iv-pope",
+  "https://www.thecollector.com/medici-popes/",
+  "https://www.britannica.com/topic/Medici-family"
+ ]
+}

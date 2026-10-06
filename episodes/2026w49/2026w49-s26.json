@@ -1,0 +1,330 @@
+{
+ "id": "2026w49-s26",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "Assassins Struck the Medici in the Middle of Mass",
+ "hook": "MURDER DURING MASS",
+ "music": "playful",
+ "cast": {
+  "lorenzo": {
+   "skin": "olive",
+   "hair": "long",
+   "hairColor": "#1E1A16",
+   "hat": "beret",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#8A2A2A",
+   "color2": "#262322",
+   "name": "Lorenzo de' Medici"
+  },
+  "giuliano": {
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "outfit": "robe",
+   "color": "#2F5A8A",
+   "color2": "#E8C25A",
+   "name": "Giuliano de' Medici"
+  },
+  "pazzi": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#2A1A10",
+   "outfit": "tunic",
+   "color": "#3A3A4A",
+   "stubble": true,
+   "name": "Francesco de' Pazzi"
+  },
+  "sixtus": {
+   "preset": "pope",
+   "hairColor": "#DADADA",
+   "name": "Pope Sixtus IV"
+  },
+  "poliziano": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "hat": "beret",
+   "hatColor": "#3A2A5A",
+   "outfit": "robe",
+   "color": "#3A2A5A",
+   "name": "Angelo Poliziano"
+  },
+  "peasant": {
+   "preset": "peasant",
+   "name": "Florentine"
+  }
+ },
+ "voices": {
+  "lorenzo": "bm_george",
+  "poliziano": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1478, assassins attacked two brothers in the middle of Mass.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.3,
+      "mood": "neutral"
+     },
+     {
+      "id": "giuliano",
+      "x": 0.62,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Florence Cathedral · April 26, 1478",
+    "stickers": [
+     {
+      "text": "1478",
+      "at": 0.8,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were Lorenzo and Giuliano de' Medici, who ran Florence and its biggest bank.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "giuliano",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "lorenzo",
+     "text": "Lorenzo de' Medici"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A rival banking family, the Pazzi, wanted Florence for themselves. And Pope Sixtus the fourth backed their plot.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "pazzi",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "think"
+     },
+     {
+      "id": "sixtus",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.35,
+      "text": "THE PLOT"
+     }
+    ],
+    "tag": {
+     "id": "sixtus",
+     "text": "Pope Sixtus IV"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "At the holiest moment of the Mass, the attackers struck. Giuliano was killed.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "pazzi",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "lorenzo",
+      "x": 0.68,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "lorenzo",
+   "say": "Into the sacristy! Shut the doors!",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "run"
+     },
+     {
+      "id": "poliziano",
+      "x": 0.68,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "lorenzo"
+   }
+  },
+  {
+   "who": "poliziano",
+   "say": "They're shut! You're bleeding!"
+  },
+  {
+   "who": "N",
+   "say": "Lorenzo hid behind heavy bronze doors and survived with a cut on his neck.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ALIVE",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Florence sided with the Medici, and the plotters were caught. A plot meant to end the Medici made Lorenzo stronger than ever.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "peasant",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.18,
+      "s": 0.4,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history with a twist.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "poliziano",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A pope-backed plot. A murder at Mass. One brother escaped.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #medici #pazziconspiracy #renaissance #florence",
+ "youtube_title": "Assassins Struck the Medici in the Middle of Mass #shorts",
+ "tags": [
+  "pazzi conspiracy",
+  "lorenzo de medici",
+  "medici",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pazzi_conspiracy",
+  "https://www.historytoday.com/archive/months-past/pazzi-conspiracy",
+  "https://www.ebsco.com/research-starters/politics-and-government/pazzi-conspiracy",
+  "https://en.wikipedia.org/wiki/Giuliano_de%27_Medici"
+ ]
+}

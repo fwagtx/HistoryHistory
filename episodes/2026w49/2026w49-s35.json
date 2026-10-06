@@ -1,0 +1,264 @@
+{
+ "id": "2026w49-s35",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "Teenage Michelangelo Moved in With the Medici",
+ "hook": "TEEN MICHELANGELO MOVED IN",
+ "music": "playful",
+ "cast": {
+  "michelangelo": {
+   "preset": "child",
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#2A1A10",
+   "outfit": "tunic",
+   "color": "#8A6A4A",
+   "hold": "hammer",
+   "name": "Michelangelo Buonarroti"
+  },
+  "lorenzo": {
+   "skin": "olive",
+   "hair": "long",
+   "hairColor": "#1E1A16",
+   "hat": "beret",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#8A2A2A",
+   "color2": "#262322",
+   "name": "Lorenzo de' Medici"
+  },
+  "leo": {
+   "preset": "pope",
+   "hairColor": "#3A2A1A",
+   "name": "Pope Leo X"
+  }
+ },
+ "voices": {
+  "michelangelo": "am_puck",
+  "lorenzo": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "As a teenager, Michelangelo moved into the palace of Florence's richest family.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "michelangelo",
+      "x": 0.35,
+      "mood": "shock"
+     },
+     {
+      "id": "lorenzo",
+      "x": 0.68,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "place": "Florence · 1490",
+    "stickers": [
+     {
+      "text": "AGE 15",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around 1490, Michelangelo was about fifteen and learning to sculpt.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "michelangelo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "michelangelo",
+     "text": "Michelangelo Buonarroti"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lorenzo de' Medici, the banker who ran Florence, had a garden full of ancient statues where young artists practiced.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "lorenzo",
+     "text": "Lorenzo de' Medici"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lorenzo spotted the boy's talent and invited him to live with the family."
+  },
+  {
+   "who": "lorenzo",
+   "say": "You'll live here and learn alongside my sons.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "michelangelo",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "michelangelo",
+   "say": "Seriously? Thank you!"
+  },
+  {
+   "who": "N",
+   "say": "For about two years he lived in the Medici palace and carved his earliest known sculptures.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "michelangelo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One of Lorenzo's sons later became Pope Leo the tenth. Michelangelo went on to work for the Medici popes too.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.35,
+      "mood": "smug"
+     },
+     {
+      "id": "michelangelo",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "leo",
+     "text": "Pope Leo X"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more art history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "michelangelo",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "lorenzo",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Before he was famous, Michelangelo lived with the Medici.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #michelangelo #medici #arthistory #renaissance",
+ "youtube_title": "Teenage Michelangelo Moved in With the Medici #shorts",
+ "tags": [
+  "michelangelo",
+  "lorenzo de medici",
+  "medici",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://michelangelo.ace.fordham.edu/exhibits/show/michelangelosyouth/palazzomedici",
+  "https://en.wikipedia.org/wiki/Michelangelo_and_the_Medici",
+  "https://www.worldhistory.org/Michelangelo/",
+  "https://www.biography.com/artists/michelangelo"
+ ]
+}

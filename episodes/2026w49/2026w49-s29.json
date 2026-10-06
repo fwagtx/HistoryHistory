@@ -1,0 +1,268 @@
+{
+ "id": "2026w49-s29",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "The Last Medici's Deal Kept Their Art in Florence",
+ "hook": "THE LAST MEDICI'S DEAL",
+ "music": "playful",
+ "cast": {
+  "annamaria": {
+   "skin": "light",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "outfit": "gown",
+   "color": "#262322",
+   "name": "Anna Maria Luisa de' Medici"
+  },
+  "soldier": {
+   "skin": "light",
+   "hat": "morion",
+   "outfit": "armor",
+   "stache": "handlebar",
+   "hold": "spear",
+   "name": "Imperial soldier"
+  },
+  "peasantW": {
+   "preset": "peasantW",
+   "name": "Florentine"
+  },
+  "peasant": {
+   "preset": "peasant",
+   "name": "Florentine"
+  }
+ },
+ "voices": {
+  "annamaria": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The last Medici made a deal that kept a fortune in art in Florence forever.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "annamaria",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "statue",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "place": "Florence · 1737",
+    "stickers": [
+     {
+      "text": "FOREVER",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Medici ruled Tuscany, the region around Florence, for generations. But they ran out of heirs.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "annamaria",
+      "x": 0.45,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1737, the last grand duke, Gian Gastone, died with no children. Tuscany went to a new family from Lorraine.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "austria_habsburg"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His sister, Anna Maria Luisa, owned the family's huge art collection.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "annamaria",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "annamaria",
+     "text": "Anna Maria Luisa de' Medici"
+    }
+   }
+  },
+  {
+   "who": "annamaria",
+   "say": "You can have the art. On one condition.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "annamaria",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "annamaria"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the Family Pact, she gave it all to Tuscany's new rulers. But none of it could ever leave Florence.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "annamaria",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "FAMILY PACT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's why the Medici treasures still fill Florence's Uffizi Gallery and Pitti Palace today.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "peasantW",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "peasant",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL THERE",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "annamaria",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "peasantW",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The last Medici gave away a priceless art collection with one rule: it never leaves Florence.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #medici #uffizi #florence #arthistory",
+ "youtube_title": "The Last Medici's Deal Kept Their Art in Florence #shorts",
+ "tags": [
+  "anna maria luisa de medici",
+  "uffizi",
+  "medici",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Anna_Maria_Luisa_de%27_Medici",
+  "https://cultura.comune.fi.it/dalle-redazioni/anna-maria-luisa-de-medici-e-il-patto-di-famiglia",
+  "https://en.wikipedia.org/wiki/Uffizi",
+  "https://en.wikipedia.org/wiki/Gian_Gastone_de%27_Medici"
+ ]
+}

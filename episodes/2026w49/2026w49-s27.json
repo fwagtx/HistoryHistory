@@ -1,0 +1,265 @@
+{
+ "id": "2026w49-s27",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "Galileo Named Jupiter's Moons After His Future Boss",
+ "hook": "MOONS FOR A JOB",
+ "music": "playful",
+ "cast": {
+  "galileo": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#8A5A3A",
+   "beard": "full",
+   "outfit": "robe",
+   "color": "#262322",
+   "hold": "telescope",
+   "name": "Galileo Galilei"
+  },
+  "cosimo2": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "stache": "thin",
+   "beard": "goatee",
+   "outfit": "coat",
+   "color": "#3A2A6A",
+   "name": "Cosimo II de' Medici"
+  }
+ },
+ "voices": {
+  "galileo": "bm_fable",
+  "cosimo2": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Galileo found four moons around Jupiter, and named them after the family he wanted a job from.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "galileo",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "Padua, Italy · January 1610",
+    "stickers": [
+     {
+      "text": "JUPITER",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Galileo Galilei was an Italian scientist who built his own telescopes.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "galileo",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "desk",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "galileo",
+     "text": "Galileo Galilei, scientist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In January 1610, he spotted tiny dots of light next to Jupiter. Night after night, they moved.",
+   "show": {
+    "k": "scene",
+    "bg": "space",
+    "cast": [
+     {
+      "id": "galileo",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.7,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "4 DOTS",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were moons, circling Jupiter.",
+   "show": {
+    "k": "card",
+    "label": "Moons Galileo found around Jupiter",
+    "big": "4",
+    "sub": "today called the Galilean moons"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Years before, he had tutored young Cosimo de' Medici, now the Grand Duke of Tuscany. So he named the moons the Medicean Stars.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "cosimo2",
+      "x": 0.6,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.25,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "cosimo2",
+     "text": "Cosimo II de' Medici, Grand Duke"
+    }
+   }
+  },
+  {
+   "who": "galileo",
+   "say": "Your Highness, four new stars, named after your family!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "galileo",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "cosimo2",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "cosimo2",
+   "say": "Galileo, you're hired."
+  },
+  {
+   "who": "N",
+   "say": "That same year, Cosimo made him his chief mathematician and philosopher. Smart naming pays.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "galileo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HIRED",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "galileo",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "cosimo2",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Galileo found four moons and named them after the family he wanted a job from.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #galileo #medici #astronomy #sciencehistory",
+ "youtube_title": "Galileo Named Jupiter's Moons After His Future Boss #shorts",
+ "tags": [
+  "galileo",
+  "medicean stars",
+  "jupiter moons",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://catalogue.museogalileo.it/indepth/JupitersMoonsSatellites.html",
+  "https://en.wikipedia.org/wiki/Sidereus_Nuncius",
+  "https://www.sites.hps.cam.ac.uk/starry/galsidnun.html",
+  "https://www.lindahall.org/about/news/scientist-of-the-day/galileo-galilei-2/"
+ ]
+}

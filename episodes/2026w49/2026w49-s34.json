@@ -1,0 +1,308 @@
+{
+ "id": "2026w49-s34",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "Cosimo de' Medici Went From Prisoner to Ruler in a Year",
+ "hook": "PRISONER TO RULER",
+ "music": "playful",
+ "cast": {
+  "cosimo": {
+   "skin": "light",
+   "hat": "hood",
+   "hatColor": "#A8322A",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "color2": "#7A1E1E",
+   "hair": "short",
+   "hairColor": "#9A9A9A",
+   "name": "Cosimo de' Medici"
+  },
+  "rinaldo": {
+   "skin": "light",
+   "hat": "hood",
+   "hatColor": "#2F5A3A",
+   "outfit": "robe",
+   "color": "#2F5A3A",
+   "beard": "goatee",
+   "hairColor": "#3A2A1A",
+   "name": "Rinaldo degli Albizzi"
+  },
+  "peasantW": {
+   "preset": "peasantW",
+   "name": "Florentine"
+  }
+ },
+ "voices": {
+  "cosimo": "bm_lewis",
+  "rinaldo": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Cosimo de' Medici went from prisoner to the boss of Florence in about a year.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "cosimo",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "place": "Florence · 1433",
+    "stickers": [
+     {
+      "text": "PRISONER",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cosimo ran the Medici Bank, one of the richest banks in Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "cosimo",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "cosimo",
+     "text": "Cosimo de' Medici"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1433, a rival family, the Albizzi, had him arrested. Some wanted him executed.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rinaldo",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "cosimo",
+      "x": 0.68,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "rinaldo",
+     "text": "Rinaldo degli Albizzi"
+    }
+   }
+  },
+  {
+   "who": "rinaldo",
+   "say": "Florence doesn't need a banker king.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "rinaldo",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "cosimo",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "cosimo",
+   "say": "Let's talk. Who do I pay?"
+  },
+  {
+   "who": "N",
+   "say": "One account says he paid a top official a thousand gold ducats. Instead of death, he got exile.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "cosimo",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,000 DUCATS",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He went to Venice, where he was welcomed like a prince.",
+   "show": {
+    "k": "map",
+    "lon": 11.8,
+    "lat": 44.6,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "1433",
+    "labels": [
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ],
+     [
+      "Venice",
+      12.33,
+      45.44,
+      14
+     ]
+    ],
+    "route": [
+     [
+      11.25,
+      43.77
+     ],
+     [
+      11.88,
+      45.41
+     ],
+     [
+      12.33,
+      45.44
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1434, a new government called him home. He returned in triumph, and the Albizzi got exiled instead.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "cosimo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "peasantW",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.4,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cosimo",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "rinaldo",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Arrested in 1433. Back in charge of Florence in 1434. Money helped.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #medici #cosimo #florence #renaissance",
+ "youtube_title": "Cosimo de' Medici Went From Prisoner to Ruler in a Year #shorts",
+ "tags": [
+  "cosimo de medici",
+  "medici",
+  "florence history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cosimo_de%27_Medici",
+  "https://www.encyclopedia.com/people/history/italian-history-biographies/cosimo-de-medici",
+  "https://en.wikipedia.org/wiki/Rinaldo_degli_Albizzi",
+  "https://en.wikipedia.org/wiki/Albizzi"
+ ]
+}

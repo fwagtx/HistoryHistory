@@ -1,0 +1,3427 @@
+{
+ "id": "2026w49-l3",
+ "format": "long",
+ "date": "2026-12-04",
+ "title": "The Medici: The Bankers Who Bought the Pope",
+ "music": "playful",
+ "cast": {
+  "peasant": {
+   "preset": "peasant",
+   "name": "Florentine"
+  },
+  "lorenzo": {
+   "skin": "olive",
+   "hair": "long",
+   "hairColor": "#1E1A16",
+   "hat": "beret",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#8A2A2A",
+   "color2": "#262322",
+   "name": "Lorenzo de' Medici"
+  },
+  "giuliano": {
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "outfit": "robe",
+   "color": "#2F5A8A",
+   "color2": "#E8C25A",
+   "name": "Giuliano de' Medici"
+  },
+  "peasantW": {
+   "preset": "peasantW",
+   "name": "Florentine"
+  },
+  "pazzi": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#2A1A10",
+   "outfit": "tunic",
+   "color": "#3A3A4A",
+   "stubble": true,
+   "name": "Francesco de' Pazzi"
+  },
+  "poliziano": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "hat": "beret",
+   "hatColor": "#3A2A5A",
+   "outfit": "robe",
+   "color": "#3A2A5A",
+   "name": "Angelo Poliziano"
+  },
+  "sixtus": {
+   "preset": "pope",
+   "hairColor": "#DADADA",
+   "name": "Pope Sixtus IV"
+  },
+  "giovanni": {
+   "skin": "light",
+   "hat": "hood",
+   "hatColor": "#7A2A2A",
+   "outfit": "robe",
+   "color": "#7A2A2A",
+   "color2": "#5A1E1E",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "name": "Giovanni di Bicci de' Medici"
+  },
+  "preacher": {
+   "preset": "monk",
+   "name": "Preacher"
+  },
+  "merchant": {
+   "preset": "merchant",
+   "hat": "beret",
+   "hatColor": "#2F7A6A",
+   "name": "Wool merchant"
+  },
+  "clerk": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#A8322A",
+   "outfit": "robe",
+   "color": "#5A3A22",
+   "glasses": "round",
+   "hold": "book",
+   "name": "Medici bank clerk"
+  },
+  "cossa": {
+   "preset": "pope",
+   "hairColor": "#3A2A1A",
+   "stubble": true,
+   "name": "Baldassare Cossa (Pope John XXIII)"
+  },
+  "cosimo": {
+   "skin": "light",
+   "hat": "hood",
+   "hatColor": "#A8322A",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "color2": "#7A1E1E",
+   "hair": "short",
+   "hairColor": "#9A9A9A",
+   "name": "Cosimo de' Medici"
+  },
+  "rinaldo": {
+   "skin": "light",
+   "hat": "hood",
+   "hatColor": "#2F5A3A",
+   "outfit": "robe",
+   "color": "#2F5A3A",
+   "beard": "goatee",
+   "hairColor": "#3A2A1A",
+   "name": "Rinaldo degli Albizzi"
+  },
+  "michelangelo": {
+   "preset": "child",
+   "skin": "light",
+   "hair": "curly",
+   "hairColor": "#2A1A10",
+   "outfit": "tunic",
+   "color": "#8A6A4A",
+   "hold": "hammer",
+   "name": "Michelangelo Buonarroti"
+  },
+  "portinari": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#262322",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "name": "Tommaso Portinari"
+  },
+  "charlesbold": {
+   "skin": "light",
+   "hat": "crown",
+   "outfit": "armor",
+   "hair": "short",
+   "hairColor": "#2A1A10",
+   "name": "Charles the Bold, Duke of Burgundy"
+  },
+  "piero": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "outfit": "robe",
+   "color": "#2F5A8A",
+   "hat": "beret",
+   "hatColor": "#A8322A",
+   "name": "Piero de' Medici"
+  },
+  "charles8": {
+   "preset": "king",
+   "color": "#2F4AA0",
+   "color2": "#D4A52A",
+   "beard": false,
+   "hairColor": "#6A4A2A",
+   "name": "King Charles VIII of France"
+  },
+  "youngleo": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#A8322A",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "hairColor": "#3A2A1A",
+   "name": "Giovanni de' Medici, age 13"
+  },
+  "soldier": {
+   "skin": "light",
+   "hat": "morion",
+   "outfit": "armor",
+   "stache": "handlebar",
+   "hold": "spear",
+   "name": "Imperial soldier"
+  },
+  "leo": {
+   "preset": "pope",
+   "hairColor": "#3A2A1A",
+   "name": "Pope Leo X"
+  },
+  "hanno": {
+   "animal": "elephant",
+   "name": "Hanno the elephant"
+  },
+  "luther": {
+   "preset": "monk",
+   "hold": "book",
+   "name": "Martin Luther"
+  },
+  "clement": {
+   "preset": "pope",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "name": "Pope Clement VII"
+  },
+  "henry8": {
+   "preset": "henry8",
+   "name": "King Henry VIII of England"
+  },
+  "youngcat": {
+   "preset": "princess",
+   "hat": "tiara",
+   "color": "#E8C25A",
+   "hairColor": "#5A3A22",
+   "name": "Catherine de' Medici, age 14"
+  },
+  "henry2": {
+   "preset": "king",
+   "color": "#262322",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "name": "Henry II of France"
+  },
+  "catherine": {
+   "preset": "queen",
+   "color": "#262322",
+   "hairColor": "#5A3A22",
+   "name": "Catherine de' Medici"
+  },
+  "cook": {
+   "skin": "light",
+   "hat": "chef",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "apron": true,
+   "stache": "thin",
+   "name": "Court cook"
+  },
+  "cosimo2": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "stache": "thin",
+   "beard": "goatee",
+   "outfit": "coat",
+   "color": "#3A2A6A",
+   "name": "Cosimo II de' Medici"
+  },
+  "galileo": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#8A5A3A",
+   "beard": "full",
+   "outfit": "robe",
+   "color": "#262322",
+   "hold": "telescope",
+   "name": "Galileo Galilei"
+  },
+  "annamaria": {
+   "skin": "light",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "outfit": "gown",
+   "color": "#262322",
+   "name": "Anna Maria Luisa de' Medici"
+  }
+ },
+ "voices": {
+  "lorenzo": "bm_george",
+  "poliziano": "am_puck",
+  "merchant": "am_echo",
+  "clerk": "bm_daniel",
+  "cosimo": "bm_lewis",
+  "rinaldo": "am_fenrir",
+  "piero": "am_adam",
+  "charles8": "am_liam",
+  "clement": "am_eric",
+  "henry8": "am_onyx",
+  "galileo": "bm_fable",
+  "annamaria": "bf_emma"
+ },
+ "description": "In 1397 a Florentine banker opened a bank, hid his fees inside exchange rates to dodge the Church's ban on interest, and became the Pope's banker. We follow the Medici from Cosimo's exile and the 1478 murder in Florence Cathedral to the bank's collapse in 1494, two Medici popes, Catherine de' Medici, Galileo's 'Medicean Stars' and the last Medici, who made sure the family art never left Florence.\n\nChapters are added automatically.\n\n#history #medici #renaissance #florence #moneyhistory",
+ "thumbnail": {
+  "style": "faces",
+  "title": "BANKERS RULE",
+  "bg": "palace",
+  "faces": [
+   {
+    "id": "lorenzo",
+    "mood": "smug"
+   },
+   {
+    "id": "leo",
+    "mood": "shock"
+   }
+  ],
+  "grade": "warm"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Florence, Italy. Sunday, April twenty sixth, 1478. Crowds pack the giant cathedral for Mass.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "peasant",
+      "x": 0.2
+     },
+     {
+      "id": "lorenzo",
+      "x": 0.45
+     },
+     {
+      "id": "giuliano",
+      "x": 0.65
+     },
+     {
+      "id": "peasantW",
+      "x": 0.85
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.08,
+      "s": 0.5
+     },
+     {
+      "k": "banner",
+      "x": 0.94,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "place": "Florence Cathedral, Italy · April 26, 1478",
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Among them are two brothers, Lorenzo and Giuliano de' Medici, from the richest banking family in Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.38,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "giuliano",
+      "x": 0.62,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "lorenzo",
+     "text": "Lorenzo de' Medici"
+    },
+    "stickers": [
+     {
+      "text": "THE MEDICI",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nearby stand men from a rival banking family, the Pazzi. They are hiding daggers.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "pazzi",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "think"
+     },
+     {
+      "id": "giuliano",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "pazzi",
+     "text": "Francesco de' Pazzi"
+    },
+    "stickers": [
+     {
+      "text": "THE PAZZI",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "close",
+    "focus": "pazzi"
+   }
+  },
+  {
+   "who": "N",
+   "say": "At the holiest moment of the Mass, they strike. Giuliano is killed.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "pazzi",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "lorenzo",
+      "x": 0.7,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "ATTACK!",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lorenzo",
+   "say": "Into the sacristy! Shut the doors!",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "run"
+     },
+     {
+      "id": "poliziano",
+      "x": 0.65,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "lorenzo",
+    "tag": {
+     "id": "poliziano",
+     "text": "Angelo Poliziano, poet and Medici friend"
+    }
+   }
+  },
+  {
+   "who": "poliziano",
+   "say": "They're shut! Lorenzo, your neck is bleeding!"
+  },
+  {
+   "who": "N",
+   "say": "The sacristy is a side room where priests keep their robes. Behind its heavy bronze doors, Lorenzo survives with a cut on his neck.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     },
+     {
+      "id": "poliziano",
+      "x": 0.65,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.85,
+      "s": 0.55
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ALIVE",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And this plot had the backing of a very powerful man: Pope Sixtus the fourth.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "sixtus",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Rome · 1478",
+    "tag": {
+     "id": "sixtus",
+     "text": "Pope Sixtus IV"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how did bankers end up at war with the Pope, and then become popes themselves? Let's find out.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "sixtus",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "lorenzo",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.88,
+      "s": 0.4
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANKERS VS POPE",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Medici: The Bankers Who Bought the Pope",
+    "sub": "money, murder and the Renaissance",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.88,
+      "s": 0.8,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1397",
+    "title": "The Pope's Bank",
+    "bg": "market"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Our story starts in Florence, a rich city in what is now Italy, in 1397.",
+   "show": {
+    "k": "map",
+    "lon": 11.5,
+    "lat": 43.3,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "1397",
+    "labels": [
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ],
+     [
+      "Venice",
+      12.33,
+      45.44,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      11.25,
+      43.77,
+      0.5,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Italy wasn't one country back then. Florence was its own little state, and it got rich making wool cloth.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "peasantW",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "peasant",
+      "x": 0.6,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.6,
+      "label": "WOOL CLOTH"
+     },
+     {
+      "k": "cart",
+      "x": 0.12,
+      "s": 0.6,
+      "load": "gold"
+     }
+    ],
+    "place": "Florence · 1397",
+    "stickers": [
+     {
+      "text": "WOOL = MONEY",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That year, a man named Giovanni di Bicci de' Medici opened a bank.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.6,
+      "text": "MEDICI BANK"
+     },
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "giovanni",
+     "text": "Giovanni di Bicci de' Medici, banker"
+    },
+    "stickers": [
+     {
+      "text": "1397",
+      "at": 0.8,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There was just one problem. The Church said charging interest on a loan was a sin called usury.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "preacher",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "giovanni",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "USURY = SIN",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Interest is the extra money you pay back when you borrow. And that's how banks make money."
+  },
+  {
+   "who": "N",
+   "say": "So the Medici used a trick called a bill of exchange. Here's how it worked.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "think"
+     },
+     {
+      "id": "clerk",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "BILL OF EXCHANGE"
+     },
+     {
+      "k": "crate",
+      "x": 0.1,
+      "s": 0.5,
+      "label": "WOOL"
+     }
+    ],
+    "tag": {
+     "id": "clerk",
+     "text": "A Medici bank clerk"
+    }
+   }
+  },
+  {
+   "who": "merchant",
+   "say": "I'm selling wool in Bruges. But I need cash here in Florence today.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "shrug"
+     },
+     {
+      "id": "clerk",
+      "x": 0.65,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "clerk",
+   "say": "Easy. Take our gold coins now, and pay our office in Bruges later, in their money. Our exchange rate is very friendly."
+  },
+  {
+   "who": "N",
+   "say": "The bank's fee hid inside the exchange rate between two currencies. So, technically, it wasn't interest. Wink.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "clerk",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HIDDEN FEE",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "To make that work, the Medici opened branches across Europe: Rome, Venice, Milan, Geneva, Avignon, Bruges and London.",
+   "show": {
+    "k": "map",
+    "lon": 7,
+    "lat": 47,
+    "z0": 1.3,
+    "z1": 1.5,
+    "date": "1400s",
+    "labels": [
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ],
+     [
+      "Venice",
+      12.33,
+      45.44,
+      14
+     ],
+     [
+      "Milan",
+      9.19,
+      45.46,
+      -60
+     ],
+     [
+      "Geneva",
+      6.14,
+      46.2,
+      -70
+     ],
+     [
+      "Avignon",
+      4.8,
+      43.95,
+      -70
+     ],
+     [
+      "Bruges",
+      3.22,
+      51.21,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      -70
+     ]
+    ],
+    "route": [
+     [
+      11.25,
+      43.77
+     ],
+     [
+      9.19,
+      45.46
+     ],
+     [
+      6.14,
+      46.2
+     ],
+     [
+      3.22,
+      51.21
+     ],
+     [
+      -0.13,
+      51.5
+     ]
+    ],
+    "areas": [
+     [
+      11.25,
+      43.77,
+      0.6,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But their best customer was the biggest organization in Europe: the Catholic Church.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.55
+     },
+     {
+      "k": "goldpile",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BEST CUSTOMER",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around 1410, Giovanni backed a churchman named Baldassare Cossa. When Cossa became Pope John the twenty third, the Medici got to handle the Pope's money.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "moneybag"
+     },
+     {
+      "id": "cossa",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.55
+     }
+    ],
+    "place": "Rome · 1410",
+    "tag": {
+     "id": "cossa",
+     "text": "Baldassare Cossa, Pope John XXIII"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But there were rival popes back then. In 1415, a church council in Constance removed Cossa and locked him up.",
+   "show": {
+    "k": "map",
+    "lon": 9.5,
+    "lat": 46.5,
+    "z0": 2.4,
+    "z1": 3.0,
+    "date": "1415",
+    "labels": [
+     [
+      "Constance",
+      9.17,
+      47.66,
+      14
+     ],
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ]
+    ],
+    "route": [
+     [
+      11.25,
+      43.77
+     ],
+     [
+      9.17,
+      47.66
+     ]
+    ],
+    "areas": [
+     [
+      9.17,
+      47.66,
+      0.4,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Medici helped pay a heavy ransom to free him. When he died in Florence, they made sure he got a fancy tomb.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "place": "Florence · 1419",
+    "stickers": [
+     {
+      "text": "LOYAL",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That loyalty paid off. The next pope kept the Medici as his bankers.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For years, more than half of the whole bank's profits came from its Rome branch.",
+   "show": {
+    "k": "card",
+    "label": "Share of Medici Bank profits from the Rome branch, early 1400s",
+    "big": "50%+",
+    "sub": "the Pope was their best customer"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1433",
+    "title": "King in All But Name",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Giovanni died in 1429. His son Cosimo took over, and Cosimo wanted more than money. He wanted power.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "cosimo",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "Florence · 1429",
+    "tag": {
+     "id": "cosimo",
+     "text": "Cosimo de' Medici"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Florence was a republic. Its leaders were picked from top families, for just a few months at a time.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "peasant",
+      "x": 0.3,
+      "mood": "neutral"
+     },
+     {
+      "id": "cosimo",
+      "x": 0.6,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.5,
+      "flag": "red"
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REPUBLIC",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A rival family, the Albizzi, decided Cosimo was getting too powerful. In 1433, they had him arrested.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rinaldo",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "cosimo",
+      "x": 0.68,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "place": "Florence · 1433",
+    "tag": {
+     "id": "rinaldo",
+     "text": "Rinaldo degli Albizzi"
+    }
+   }
+  },
+  {
+   "who": "rinaldo",
+   "say": "Lock him up. Florence doesn't need a banker king.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rinaldo",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "fist"
+     },
+     {
+      "id": "cosimo",
+      "x": 0.68,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "rinaldo"
+   }
+  },
+  {
+   "who": "cosimo",
+   "say": "Wait, wait. Before we do anything rash, who do I pay?"
+  },
+  {
+   "who": "N",
+   "say": "Instead of death, he got exile. One account says he paid a top official a thousand gold ducats to make that happen.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "cosimo",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,000 DUCATS",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he went to Venice, where he was welcomed like a prince.",
+   "show": {
+    "k": "map",
+    "lon": 11.8,
+    "lat": 44.6,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "1433",
+    "labels": [
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ],
+     [
+      "Padua",
+      11.88,
+      45.41,
+      -60
+     ],
+     [
+      "Venice",
+      12.33,
+      45.44,
+      14
+     ]
+    ],
+    "route": [
+     [
+      11.25,
+      43.77
+     ],
+     [
+      11.88,
+      45.41
+     ],
+     [
+      12.33,
+      45.44
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A year later, a new government in Florence invited him back. Cosimo returned in triumph, and the Albizzi got kicked out instead.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "cosimo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "peasantW",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "red"
+     },
+     {
+      "k": "house",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "place": "Florence · 1434"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cosimo never wore a crown. He just made sure his friends got all the important jobs.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "cosimo",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.5
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.4,
+      "text": "JOBS FOR FRIENDS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A bishop who later became Pope Pius the second put it like this: He is king in all but name.",
+   "show": {
+    "k": "quote",
+    "text": "He is king in all but name.",
+    "who": "Aeneas Silvius Piccolomini (later Pope Pius II), on Cosimo de' Medici, in his Commentaries"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cosimo also spent fortunes on churches and art. The sculptor Donatello worked for the family.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "cosimo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "painting",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ART!",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's how bank money helped pay for the Renaissance, the great rebirth of art and learning in Europe."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1478",
+    "title": "Murder in the Cathedral",
+    "bg": "church"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cosimo died in 1464. A few years later, his grandson Lorenzo took charge, at just twenty years old.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.55
+     },
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "place": "Florence · 1469",
+    "stickers": [
+     {
+      "text": "AGE 20",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "People called him Lorenzo the Magnificent. He wrote poems, threw huge festivals and paid artists.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "peasantW",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.88,
+      "s": 0.45
+     },
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "stickers": [
+     {
+      "text": "MAGNIFICENT",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But he made enemies. In 1473, he refused to lend Pope Sixtus money to buy a town for the Pope's nephew.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "sixtus",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "present"
+     },
+     {
+      "id": "lorenzo",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO LOAN",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the Pope moved his banking to the Medici's rivals, the Pazzi. Then the Pazzi plotted to kill both brothers and take over Florence.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pazzi",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "think"
+     },
+     {
+      "id": "sixtus",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.88,
+      "s": 0.4,
+      "text": "THE PLOT"
+     },
+     {
+      "k": "barrel",
+      "x": 0.1,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "You saw how that went. Giuliano died, and Lorenzo escaped.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The people of Florence took the Medici side. Dozens of plotters were caught and executed, even an archbishop.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "peasant",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "peasantW",
+      "x": 0.55,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PLOT FAILS",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pope Sixtus was furious. He threw Lorenzo out of the Church and teamed up with the King of Naples to make war on Florence.",
+   "show": {
+    "k": "map",
+    "lon": 12.8,
+    "lat": 42.3,
+    "z0": 2.3,
+    "z1": 2.8,
+    "date": "1478–1479",
+    "labels": [
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ],
+     [
+      "Naples",
+      14.27,
+      40.85,
+      14
+     ]
+    ],
+    "route": [
+     [
+      14.27,
+      40.85
+     ],
+     [
+      12.5,
+      41.9
+     ],
+     [
+      11.25,
+      43.77
+     ]
+    ],
+    "areas": [
+     [
+      11.25,
+      43.77,
+      0.5,
+      "rgba(168,50,42,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, in late 1479, Lorenzo did something wild. He sailed to Naples, right into enemy hands, to talk peace in person.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.7
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.4,
+      "label": "GIFTS"
+     }
+    ],
+    "place": "Naples · December 1479",
+    "stickers": [
+     {
+      "text": "BOLD MOVE",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After about ten weeks of talks, he came home with a peace deal. Florence went wild.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "peasant",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "place": "Florence · 1480"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lorenzo also spotted a teenage sculptor and let him live in the Medici palace. His name? Michelangelo.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "michelangelo",
+      "x": 0.62,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.55
+     }
+    ],
+    "place": "Florence · 1490",
+    "tag": {
+     "id": "michelangelo",
+     "text": "Michelangelo, age 15"
+    }
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1494",
+    "title": "The Bank Goes Bust",
+    "bg": "town"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But here's the twist. Lorenzo was great at politics, not banking. The bank was quietly falling apart.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "LOSSES"
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UH OH",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Branch managers made risky loans to kings and dukes, who loved borrowing and hated paying back."
+  },
+  {
+   "who": "N",
+   "say": "In Bruges, the manager Tommaso Portinari lent a fortune to Charles the Bold, the Duke of Burgundy.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "portinari",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "moneybag"
+     },
+     {
+      "id": "charlesbold",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Bruges · 1470s",
+    "tag": {
+     "id": "portinari",
+     "text": "Tommaso Portinari, Medici manager"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1477, Charles was killed in battle. His debts were never paid.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "portinari",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "UNPAID",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In London, King Edward the fourth borrowed heavily to fight the Wars of the Roses, a civil war over England's crown. The London branch went bust too.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "portinari",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "crown",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "place": "London · 1470s",
+    "stickers": [
+     {
+      "text": "BAD LOANS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lorenzo died in 1492. His son Piero took over, and history gave him a sad nickname: Piero the Unfortunate.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "piero",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Florence · 1492",
+    "tag": {
+     "id": "piero",
+     "text": "Piero de' Medici, 'the Unfortunate'"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1494, King Charles the eighth of France marched into Italy with a huge army.",
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "FRANCE",
+    "sub": "the kingdom of Charles VIII, 1494",
+    "bg": "battlefield"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His army poured south through Italy toward Florence.",
+   "show": {
+    "k": "map",
+    "lon": 9.5,
+    "lat": 44.5,
+    "z0": 2.0,
+    "z1": 2.5,
+    "date": "1494",
+    "labels": [
+     [
+      "France",
+      4.5,
+      46.5,
+      14
+     ],
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ],
+     [
+      "Pisa",
+      10.4,
+      43.72,
+      -50
+     ]
+    ],
+    "route": [
+     [
+      5.7,
+      45.2
+     ],
+     [
+      7.68,
+      45.07
+     ],
+     [
+      9.19,
+      45.46
+     ],
+     [
+      10.4,
+      43.72
+     ],
+     [
+      11.25,
+      43.77
+     ]
+    ],
+    "areas": [
+     [
+      11.25,
+      43.77,
+      0.5,
+      "rgba(168,50,42,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Piero panicked and handed the French key fortresses, without asking Florence's government.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "charles8",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "piero",
+      "x": 0.68,
+      "mood": "scared",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.55,
+      "flag": "france_royal"
+     },
+     {
+      "k": "cannon",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "charles8",
+     "text": "King Charles VIII of France"
+    }
+   }
+  },
+  {
+   "who": "charles8",
+   "say": "Fortresses? For free? Merci beaucoup!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "charles8",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.6,
+      "flag": "france_royal"
+     }
+    ],
+    "cam": "close",
+    "focus": "charles8"
+   }
+  },
+  {
+   "who": "piero",
+   "say": "Uh, you're welcome? Please don't attack us?",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "piero",
+      "x": 0.45,
+      "mood": "scared",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "piero"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Florence was furious. In November 1494, the Medici were thrown out of the city, and a mob looted their palace.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "piero",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "run",
+      "walk": [
+       0.4,
+       0.1
+      ]
+     },
+     {
+      "id": "peasant",
+      "x": 0.65,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Florence · November 1494",
+    "stickers": [
+     {
+      "text": "GET OUT!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The bank was already broke. Now it was finished.",
+   "show": {
+    "k": "card",
+    "label": "How long the Medici Bank lasted",
+    "big": "97 years",
+    "sub": "1397 to 1494"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Medici had lost their bank and their city. That's the end of the story, right? Nope."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1513",
+    "title": "The Bankers Become Popes",
+    "bg": "church"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Remember Lorenzo's son Giovanni? Lorenzo had pulled strings to make him a cardinal, one of the Church's top leaders, at thirteen.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "youngleo",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CARDINAL AT 13",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "youngleo",
+     "text": "Giovanni de' Medici, Lorenzo's son"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1512, Spanish troops helped him bring the Medici back to Florence.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "cannon",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "place": "Near Florence · 1512"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And in 1513, he was elected pope. He took the name Leo the tenth. The banker's son now ran the whole Catholic Church.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.6
+     },
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Rome · 1513",
+    "tag": {
+     "id": "leo",
+     "text": "Pope Leo X"
+    },
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Leo loved parties and art. The King of Portugal even sent him a white elephant named Hanno.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "hanno",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.45,
+      "label": "FROM PORTUGAL"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HANNO",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Leo spent a lot. To help rebuild St. Peter's Basilica in Rome, Leo approved the sale of indulgences.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "leo",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEW ST. PETER'S",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "An indulgence was a church paper that promised less punishment for your sins. People paid money for them.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "preacher",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "scroll"
+     },
+     {
+      "id": "peasant",
+      "x": 0.65,
+      "mood": "neutral",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.88,
+      "s": 0.4,
+      "text": "INDULGENCE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1517, a German monk named Martin Luther protested. His complaints kicked off the Reformation, which split Western Christianity in two.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "luther",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "95 THESES"
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "place": "Wittenberg, Germany · 1517",
+    "tag": {
+     "id": "luther",
+     "text": "Martin Luther, German monk"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Leo died in 1521. Two years later, his cousin Giulio became the second Medici pope, Clement the seventh.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "clement",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.55
+     }
+    ],
+    "place": "Rome · 1523",
+    "tag": {
+     "id": "clement",
+     "text": "Pope Clement VII"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Clement had awful luck. In 1527, unpaid soldiers of Emperor Charles the fifth sacked Rome, and Clement hid in a fortress.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "clement",
+      "x": 0.7,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.55,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Rome · May 1527",
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then King Henry the eighth of England asked Clement to cancel his marriage. His wife, Catherine of Aragon, was that same emperor's aunt.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "henry8",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.55
+     },
+     {
+      "k": "crown",
+      "x": 0.12,
+      "s": 0.35
+     }
+    ],
+    "place": "England · 1527",
+    "tag": {
+     "id": "henry8",
+     "text": "King Henry VIII of England"
+    }
+   }
+  },
+  {
+   "who": "henry8",
+   "say": "Your Holiness, cancel my marriage. Now, please.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "henry8",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "clement",
+      "x": 0.68,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.9,
+      "s": 0.4,
+      "text": "ANNULMENT"
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "clement",
+   "say": "Her nephew's army just wrecked my city. Let me think about it. For a few years."
+  },
+  {
+   "who": "N",
+   "say": "Clement kept stalling. So Henry broke with Rome and started the Church of England.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "henry8",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.4
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHURCH OF ENGLAND",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In total, four popes carried the Medici name. One of them, Pius the fourth, came from a Milan family, and historians have found no proof he was related.",
+   "show": {
+    "k": "card",
+    "label": "Popes named Medici",
+    "big": "4",
+    "sub": "Leo X, Clement VII, Leo XI, plus Pius IV (relation unproven)"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1533–1743",
+    "title": "Queens, Stars and the Last Medici",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Clement also played matchmaker. In 1533, he married off his young relative Catherine de' Medici to a French prince.",
+   "show": {
+    "k": "map",
+    "lon": 6.5,
+    "lat": 45.5,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1533",
+    "labels": [
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ],
+     [
+      "Marseille",
+      5.37,
+      43.3,
+      -70
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ]
+    ],
+    "route": [
+     [
+      11.25,
+      43.77
+     ],
+     [
+      5.37,
+      43.3
+     ],
+     [
+      2.35,
+      48.86
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Catherine lost both parents within weeks of being born. Now, at fourteen, she was joining the French royal family.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "youngcat",
+      "x": 0.35,
+      "mood": "scared"
+     },
+     {
+      "id": "clement",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.55,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Marseille, France · 1533",
+    "tag": {
+     "id": "youngcat",
+     "text": "Catherine de' Medici, age 14"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1547, her husband became King Henry the second, and Catherine became Queen of France.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "henry2",
+      "x": 0.35,
+      "mood": "smug"
+     },
+     {
+      "id": "catherine",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "france_royal"
+     },
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "place": "France · 1547",
+    "tag": {
+     "id": "catherine",
+     "text": "Catherine de' Medici, Queen of France"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later, three of her sons became kings of France, and she ran the country for years as regent.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.4
+     },
+     {
+      "k": "crown",
+      "x": 0.85,
+      "s": 0.4
+     },
+     {
+      "k": "crown",
+      "x": 0.95,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "3 KING SONS",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "You may have heard she brought the fork to France. That's a legend. Food historians find no proof from her lifetime.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "cook",
+      "x": 0.35,
+      "mood": "shock",
+      "hold": "goblet"
+     },
+     {
+      "id": "catherine",
+      "x": 0.65,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back home, the Medici became grand dukes of Tuscany, the region around Florence. And they kept paying geniuses.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "cosimo2",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "statue",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "place": "Florence · 1610",
+    "tag": {
+     "id": "cosimo2",
+     "text": "Cosimo II de' Medici, Grand Duke of Tuscany"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1610, the astronomer Galileo Galilei pointed his new telescope at Jupiter and found four moons circling it.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "galileo",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Padua · January 1610",
+    "tag": {
+     "id": "galileo",
+     "text": "Galileo Galilei, astronomer"
+    },
+    "stickers": [
+     {
+      "text": "4 MOONS!",
+      "at": 1.2,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He named them the Medicean Stars, after Grand Duke Cosimo the second, his old student, and his family.",
+   "show": {
+    "k": "scene",
+    "bg": "space",
+    "cast": [
+     {
+      "id": "galileo",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MEDICEAN STARS",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "galileo",
+   "say": "Your Highness, I found four new stars, and I named them after your family.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "galileo",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "cosimo2",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It worked. That same year, Cosimo made Galileo his chief mathematician and philosopher.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "galileo",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HIRED",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the family slowly ran out of heirs. In 1737, the last Medici grand duke, Gian Gastone, died with no children.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "annamaria",
+      "x": 0.45,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "place": "Florence · 1737"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tuscany passed to a new ruling family from Lorraine, tied to the Habsburg emperors.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "austria_habsburg"
+     },
+     {
+      "k": "castle",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His sister, Anna Maria Luisa, was the last of the main Medici line. And she made one brilliant deal.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "annamaria",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "FAMILY PACT"
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "annamaria",
+     "text": "Anna Maria Luisa de' Medici"
+    }
+   }
+  },
+  {
+   "who": "annamaria",
+   "say": "Take all of it. But it stays in Florence. Forever.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "annamaria",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "statue",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "annamaria"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the Family Pact of 1737, she gave the Medici art to Tuscany's new rulers, on one condition: none of it could ever leave Florence."
+  },
+  {
+   "who": "N",
+   "say": "That's why the Medici treasures still fill Florence's Uffizi Gallery and Pitti Palace.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "peasantW",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "peasant",
+      "x": 0.6,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.85,
+      "s": 0.5
+     },
+     {
+      "k": "statue",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL IN FLORENCE",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So, a family of bankers hid their fees in exchange rates, ran the Pope's money, and then became popes.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "giovanni",
+      "x": 0.25,
+      "mood": "smug"
+     },
+     {
+      "id": "cosimo",
+      "x": 0.45,
+      "mood": "smug"
+     },
+     {
+      "id": "lorenzo",
+      "x": 0.65,
+      "mood": "happy"
+     },
+     {
+      "id": "leo",
+      "x": 0.85,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.4,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their bank lasted ninety seven years. Their art will probably outlast all of us.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.55
+     },
+     {
+      "k": "painting",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next up: the entire history of Russia in ten minutes. Watch it next, and subscribe.",
+   "show": {
+    "k": "end",
+    "next": "The ENTIRE History of Russia in 10 Minutes (862–1991)",
+    "cast": [
+     {
+      "id": "lorenzo",
+      "x": 0.76,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "moneybag"
+     },
+     {
+      "id": "leo",
+      "x": 0.9,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube_title": "The Medici: The Bankers Who Bought the Pope",
+ "tags": [
+  "medici",
+  "medici bank",
+  "medici family",
+  "lorenzo de medici",
+  "cosimo de medici",
+  "pazzi conspiracy",
+  "pope leo x",
+  "pope clement vii",
+  "catherine de medici",
+  "renaissance florence",
+  "money history",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Medici_Bank",
+  "https://www.britannica.com/topic/Medici-family",
+  "https://www.britannica.com/biography/Giovanni-di-Bicci",
+  "https://en.wikipedia.org/wiki/Giovanni_di_Bicci_de%27_Medici",
+  "https://en.wikipedia.org/wiki/Antipope_John_XXIII",
+  "https://en.wikipedia.org/wiki/Tomb_of_Antipope_John_XXIII",
+  "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/john-xxiii-antipope",
+  "https://books.google.com/books/about/The_Rise_and_Decline_of_the_Medici_Bank.html?id=3ptzaUifK2AC",
+  "https://en.wikipedia.org/wiki/Cosimo_de%27_Medici",
+  "https://www.encyclopedia.com/people/history/italian-history-biographies/cosimo-de-medici",
+  "https://en.wikiquote.org/wiki/Cosimo_de'_Medici",
+  "https://en.wikipedia.org/wiki/Commentaries_(Pope_Pius_II)",
+  "https://en.wikipedia.org/wiki/Pazzi_conspiracy",
+  "https://www.historytoday.com/archive/months-past/pazzi-conspiracy",
+  "https://www.ebsco.com/research-starters/politics-and-government/pazzi-conspiracy",
+  "https://en.wikipedia.org/wiki/Lorenzo_de%27_Medici",
+  "https://www.ebsco.com/research-starters/history/lorenzo-de-medici/",
+  "https://michelangelo.ace.fordham.edu/exhibits/show/michelangelosyouth/palazzomedici",
+  "https://en.wikipedia.org/wiki/Tommaso_Portinari",
+  "https://en.wikipedia.org/wiki/Piero_the_Unfortunate",
+  "https://www.ebsco.com/research-starters/history/charles-viii-france-invades-italy",
+  "https://en.wikipedia.org/wiki/Pope_Leo_X",
+  "https://www.newadvent.org/cathen/09162a.htm",
+  "https://en.wikipedia.org/wiki/Hanno_(elephant)",
+  "https://www.atlasobscura.com/articles/medieval-hanno-elephant",
+  "https://www.cittadiprato.it/EN/Sezioni/292/The-sack-of-Prato/",
+  "https://www.britannica.com/biography/Clement-VII-pope",
+  "https://en.wikipedia.org/wiki/Sack_of_Rome_(1527)",
+  "https://en.wikipedia.org/wiki/Pope_Pius_IV",
+  "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/pius-iv-pope",
+  "https://www.britannica.com/biography/Catherine-de-Medici",
+  "https://en.wikipedia.org/wiki/Catherine_de%27_Medici",
+  "https://www.smithsonianmag.com/history/the-many-myths-of-catherine-de-medici-180980722/",
+  "https://catalogue.museogalileo.it/indepth/JupitersMoonsSatellites.html",
+  "https://en.wikipedia.org/wiki/Sidereus_Nuncius",
+  "https://en.wikipedia.org/wiki/Anna_Maria_Luisa_de%27_Medici",
+  "https://cultura.comune.fi.it/dalle-redazioni/anna-maria-luisa-de-medici-e-il-patto-di-famiglia"
+ ]
+}

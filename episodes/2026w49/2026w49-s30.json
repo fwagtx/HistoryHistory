@@ -1,0 +1,322 @@
+{
+ "id": "2026w49-s30",
+ "format": "short",
+ "date": "2026-12-04",
+ "slot": "09:00",
+ "title": "How Europe's Biggest Bank Went Bust in 1494",
+ "hook": "EUROPE'S BIGGEST BANK DIED",
+ "music": "playful",
+ "cast": {
+  "piero": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "outfit": "robe",
+   "color": "#2F5A8A",
+   "hat": "beret",
+   "hatColor": "#A8322A",
+   "name": "Piero de' Medici"
+  },
+  "portinari": {
+   "skin": "light",
+   "hat": "beret",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#262322",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "name": "Tommaso Portinari"
+  },
+  "charlesbold": {
+   "skin": "light",
+   "hat": "crown",
+   "outfit": "armor",
+   "hair": "short",
+   "hairColor": "#2A1A10",
+   "name": "Charles the Bold, Duke of Burgundy"
+  },
+  "charles8": {
+   "preset": "king",
+   "color": "#2F4AA0",
+   "color2": "#D4A52A",
+   "beard": false,
+   "hairColor": "#6A4A2A",
+   "name": "King Charles VIII of France"
+  },
+  "peasant": {
+   "preset": "peasant",
+   "name": "Florentine"
+  }
+ },
+ "voices": {
+  "charles8": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1494, the most powerful bank in Europe collapsed.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "piero",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "MEDICI BANK"
+     }
+    ],
+    "place": "Florence · 1494",
+    "stickers": [
+     {
+      "text": "BUST",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Medici Bank had branches from London to Rome, and it handled the Pope's money.",
+   "show": {
+    "k": "map",
+    "lon": 7,
+    "lat": 47,
+    "z0": 1.3,
+    "z1": 1.5,
+    "date": "1400s",
+    "labels": [
+     [
+      "Florence",
+      11.25,
+      43.77,
+      14
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ],
+     [
+      "Bruges",
+      3.22,
+      51.21,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      -70
+     ]
+    ],
+    "route": [
+     [
+      12.5,
+      41.9
+     ],
+     [
+      11.25,
+      43.77
+     ],
+     [
+      3.22,
+      51.21
+     ],
+     [
+      -0.13,
+      51.5
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But its managers lent fortunes to kings and dukes. In Bruges, one lent huge sums to Charles the Bold, Duke of Burgundy.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "portinari",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "moneybag"
+     },
+     {
+      "id": "charlesbold",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "place": "Bruges · 1470s",
+    "tag": {
+     "id": "charlesbold",
+     "text": "Charles the Bold"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1477, Charles died in battle. The loans were never repaid.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "portinari",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UNPAID",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in 1494, France invaded Italy. The new Medici boss, Piero, handed the French king key fortresses without asking anyone.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "charles8",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "piero",
+      "x": 0.68,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.5,
+      "s": 0.4,
+      "flag": "france_royal"
+     }
+    ],
+    "tag": {
+     "id": "piero",
+     "text": "Piero de' Medici"
+    }
+   }
+  },
+  {
+   "who": "charles8",
+   "say": "Fortresses? For free? Merci!"
+  },
+  {
+   "who": "N",
+   "say": "Florence threw the Medici out, and a mob looted their palace. The bank was finished.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "piero",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "run"
+     },
+     {
+      "id": "peasant",
+      "x": 0.65,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It had lasted ninety seven years.",
+   "show": {
+    "k": "card",
+    "label": "The Medici Bank",
+    "big": "97 years",
+    "sub": "1397 to 1494"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "piero",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "charles8",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The richest bank in Europe lent to the wrong people, then lost its city.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #medici #banking #moneyhistory #renaissance",
+ "youtube_title": "How Europe's Biggest Bank Went Bust in 1494 #shorts",
+ "tags": [
+  "medici bank",
+  "bank collapse",
+  "renaissance banking",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Medici_Bank",
+  "https://en.wikipedia.org/wiki/Tommaso_Portinari",
+  "https://en.wikipedia.org/wiki/Piero_the_Unfortunate",
+  "https://www.ebsco.com/research-starters/history/charles-viii-france-invades-italy",
+  "https://www.historyhit.com/who-were-the-medicis-the-family-that-ruled-florence/"
+ ]
+}
