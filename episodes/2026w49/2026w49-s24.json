@@ -132,7 +132,65 @@
   },
   {
    "who": "N",
-   "say": "No deal. So Richardson built a skinny four-story building on the strip, right in front of his neighbor's windows.",
+   "say": "Sarner refused. Later, he came back and offered the full five thousand.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "sarner",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "sarner",
+    "stickers": [
+     {
+      "text": "$5,000",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "richardson",
+   "say": "Too late. Not for sale.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "richardson",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.4,
+      "text": "NOT FOR SALE"
+     }
+    ],
+    "cam": "close",
+    "focus": "richardson"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Instead, Richardson built a skinny four-story building on the strip, right in front of his neighbor's windows.",
    "show": {
     "k": "scene",
     "bg": "city",
@@ -162,59 +220,8 @@
    }
   },
   {
-   "who": "sarner",
-   "say": "Fine! I'll pay the five thousand!",
-   "show": {
-    "k": "scene",
-    "bg": "office",
-    "cast": [
-     {
-      "id": "sarner",
-      "x": 0.45,
-      "pose": "facepalm",
-      "mood": "shock"
-     }
-    ],
-    "objects": [
-     {
-      "k": "desk",
-      "x": 0.78,
-      "s": 0.4
-     }
-    ],
-    "cam": "close",
-    "focus": "sarner"
-   }
-  },
-  {
-   "who": "richardson",
-   "say": "Too late. It's not for sale.",
-   "show": {
-    "k": "scene",
-    "bg": "street",
-    "cast": [
-     {
-      "id": "richardson",
-      "x": 0.45,
-      "pose": "hips",
-      "mood": "smug"
-     }
-    ],
-    "objects": [
-     {
-      "k": "sign",
-      "x": 0.78,
-      "s": 0.4,
-      "text": "NOT FOR SALE"
-     }
-    ],
-    "cam": "close",
-    "focus": "richardson"
-   }
-  },
-  {
    "who": "N",
-   "say": "He lived in his Spite House until he died. It stood until 1915.",
+   "say": "He lived in his Spite House until he died in 1897. It stood until 1915.",
    "show": {
     "k": "scene",
     "bg": "city",
@@ -235,7 +242,7 @@
     ],
     "stickers": [
      {
-      "text": "33 YEARS",
+      "text": "1882–1915",
       "at": 1.2,
       "color": "#1F8A4A"
      }
@@ -264,7 +271,7 @@
    }
   }
  ],
- "caption": "His neighbor lowballed him. So he built a house 5 feet wide, right in front of his windows.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #spitehouse #newyork #nychistory #historytok",
+ "caption": "His neighbor lowballed him, then offered full price. Too late: he built a house 5 feet wide, right in front of his windows.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #spitehouse #newyork #nychistory #historytok",
  "youtube_title": "A Man Built a 5-Foot-Wide House Out of Spite #shorts",
  "tags": [
   "spite house",
