@@ -248,6 +248,10 @@
   "degaulle": {
    "preset": "degaulle",
    "name": "Charles de Gaulle"
+  },
+  "judge": {
+   "preset": "judge",
+   "skin": "light"
   }
  },
  "voices": {
@@ -266,7 +270,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "July 14th, 1789. An angry crowd in Paris is about to storm the scariest prison in France: the Bastille.",
+   "say": "July 14th, 1789. An angry crowd in Paris is about to storm a feared royal prison: the Bastille.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -542,7 +546,7 @@
    "say": "Then Julius Caesar, a famous Roman general, conquered Gaul in the 50s BC.",
    "show": {
     "k": "scene",
-    "bg": "rome",
+    "bg": "camp",
     "cast": [
      {
       "id": "caesar",
@@ -637,7 +641,7 @@
   },
   {
    "who": "N",
-   "say": "When Rome's western empire collapsed in 476, Germanic tribes moved in. The toughest ones were the Franks.",
+   "say": "When Rome's western empire collapsed in 476, Germanic tribes moved in. The most successful were the Franks.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -671,7 +675,7 @@
   },
   {
    "who": "N",
-   "say": "In 486, a twenty-year-old Frankish king named Clovis beat the last Roman ruler in Gaul, at Soissons.",
+   "say": "In 486, Clovis, a Frankish king of about twenty, beat the last Roman ruler in Gaul.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1067,7 +1071,7 @@
   },
   {
    "who": "N",
-   "say": "After he died, his grandsons fought over the empire and split it three ways in 843. The western piece grew into France.",
+   "say": "Years after he died, his grandsons fought over the empire and split it three ways in 843. The western piece grew into France.",
    "show": {
     "k": "map",
     "lon": 7.0,
@@ -1186,7 +1190,7 @@
      "label": "FRANCE: NOPE",
      "cast": [
       {
-       "id": "dauphin",
+       "id": "noble",
        "pose": "cross",
        "mood": "smug"
       }
@@ -1316,7 +1320,7 @@
   },
   {
    "who": "N",
-   "say": "Then a teenage farm girl named Joan showed up. She said the voices of saints told her to save France.",
+   "say": "Then a teenage farm girl named Joan came forward. She said the voices of saints told her to save France.",
    "show": {
     "k": "scene",
     "bg": "village",
@@ -1340,10 +1344,10 @@
       "s": 0.5
      }
     ],
-    "place": "Chinon, France · 1429",
+    "place": "Domrémy, France · 1420s",
     "tag": {
      "id": "joan",
-     "text": "Joan of Arc, age 17"
+     "text": "Joan of Arc, about 17"
     }
    }
   },
@@ -1377,7 +1381,8 @@
     "tag": {
      "id": "dauphin",
      "text": "Charles, heir to the French throne"
-    }
+    },
+    "place": "Chinon, France · 1429"
    }
   },
   {
@@ -1565,7 +1570,7 @@
   },
   {
    "who": "N",
-   "say": "She was still found guilty. In 1431, at just nineteen, she was burned at the stake. A new trial cleared her name twenty-five years later.",
+   "say": "She was still found guilty. In 1431, at about nineteen, she was burned at the stake. A new trial cleared her name twenty-five years later.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -1682,7 +1687,7 @@
       "s": 0.6
      }
     ],
-    "place": "Paris, France · 1643",
+    "place": "Saint-Germain, near Paris · 1643",
     "tag": {
      "id": "louis14",
      "text": "King Louis XIV"
@@ -1761,7 +1766,7 @@
     "k": "card",
     "label": "Mirrors in the Hall of Mirrors",
     "big": "357",
-    "sub": "lit by thousands of candles",
+    "sub": "in 17 mirrored arches",
     "cast": [
      {
       "id": "louis14",
@@ -2116,7 +2121,7 @@
   },
   {
    "who": "N",
-   "say": "And Queen Marie Antoinette never said let them eat cake. A writer named Rousseau wrote that line when she was a nine-year-old girl in Austria.",
+   "say": "And there's no evidence Queen Marie Antoinette ever said let them eat cake. The writer Rousseau wrote that line down when she was a nine-year-old girl in Austria.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -2432,7 +2437,7 @@
   },
   {
    "who": "N",
-   "say": "He really did crown himself. It looks rude, but the Pope had agreed to it in advance.",
+   "say": "He really did crown himself. It looks rude, but it wasn't a snub: the plan was agreed before the ceremony.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -2591,7 +2596,7 @@
   },
   {
    "who": "N",
-   "say": "He was exiled to Elba, a tiny island off Italy. In 1815 he escaped, took back France, and lasted about a hundred days.",
+   "say": "In 1814 he was exiled to Elba, a tiny island off Italy. In 1815 he escaped, took back France, and lasted about a hundred days.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -2626,7 +2631,7 @@
   },
   {
    "who": "N",
-   "say": "On June 18th, 1815, Britain's Duke of Wellington and the Prussian army beat him at Waterloo, in Belgium.",
+   "say": "On June 18th, 1815, Britain's Duke of Wellington and the Prussian army beat him at Waterloo, in what's now Belgium.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -2657,7 +2662,7 @@
       "flag": "uk"
      }
     ],
-    "place": "Waterloo, Belgium · 1815",
+    "place": "Waterloo, now Belgium · 1815",
     "tag": {
      "id": "wellington",
      "text": "Duke of Wellington"
@@ -2669,7 +2674,7 @@
   },
   {
    "who": "N",
-   "say": "This time, he was shipped to Saint Helena, a speck of an island in the middle of the Atlantic. He died there in 1821.",
+   "say": "This time, he was shipped to Saint Helena, a speck of an island far out in the South Atlantic. He died there in 1821.",
    "show": {
     "k": "scene",
     "bg": "ocean",
@@ -2793,7 +2798,7 @@
   },
   {
    "who": "N",
-   "say": "It was saved because it made a fantastic radio antenna.",
+   "say": "It was saved mainly because it made a great radio antenna.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -2940,11 +2945,11 @@
   },
   {
    "who": "N",
-   "say": "He was famous for one line about how hard France is to run:",
+   "say": "He's often quoted with one famous line about how hard France is to run:",
    "show": {
     "k": "quote",
     "text": "How can you govern a country which has two hundred and forty-six varieties of cheese?",
-    "who": "Charles de Gaulle, as quoted in Les Mots du Général (1962)"
+    "who": "Charles de Gaulle, as quoted by Ernest Mignon in Les Mots du Général (1962)"
    }
   },
   {
@@ -2955,7 +2960,7 @@
     "bg": "courtroom",
     "cast": [
      {
-      "id": "degaulle",
+      "id": "judge",
       "x": 0.3,
       "pose": "think",
       "mood": "neutral"

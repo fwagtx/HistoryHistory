@@ -205,7 +205,7 @@
   },
   {
    "who": "N",
-   "say": "He backed radio experiments from the top. The army found it so useful that the tower got to stay.",
+   "say": "He backed radio experiments up top. The army found it so useful the tower got to stay.",
    "show": {
     "k": "scene",
     "bg": "warroom",
@@ -235,6 +235,49 @@
       "text": "SAVED BY RADIO",
       "at": 1.6,
       "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the tower artists called a monstrous eyesore became the symbol of Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "artist",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "shock"
+     },
+     {
+      "id": "eiffel",
+      "x": 0.65,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.82,
+      "s": 0.5,
+      "text": "TOUR EIFFEL"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.45,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SYMBOL OF PARIS",
+      "at": 1.6,
+      "color": "#2F5A8A"
      }
     ]
    }
