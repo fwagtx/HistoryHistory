@@ -1,0 +1,302 @@
+{
+ "id": "2026w49-s16",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "The Governor Who Made Genghis Khan Furious",
+ "hook": "NEVER INSULT GENGHIS KHAN",
+ "music": "tense",
+ "cast": {
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  },
+  "shah": {
+   "preset": "sultan",
+   "beard": "full",
+   "hairColor": "#1E1612",
+   "name": "Shah Muhammad II of Khwarazm"
+  },
+  "inalchuq": {
+   "preset": "sultan",
+   "hat": "turban",
+   "hatColor": "#E7E2D6",
+   "stache": "handlebar",
+   "outfit": "robe",
+   "color": "#2F7A4A",
+   "name": "Inalchuq, governor of Otrar"
+  },
+  "envoy": {
+   "preset": "mongol",
+   "name": "Mongol envoy"
+  }
+ },
+ "voices": {
+  "genghis": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One greedy governor brought Genghis Khan's army down on an entire empire.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "Mongolia · 1218",
+    "tag": {
+     "id": "genghis",
+     "text": "Genghis Khan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1218, Genghis Khan sent a trade caravan to his rich neighbor, the Khwarazmian Empire.",
+   "show": {
+    "k": "map",
+    "lon": 60.0,
+    "lat": 41.0,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1218",
+    "labels": [
+     [
+      "Otrar",
+      68.3,
+      42.85,
+      14
+     ],
+     [
+      "Samarkand",
+      66.96,
+      39.65,
+      14
+     ],
+     [
+      "KHWARAZMIAN EMPIRE",
+      60.0,
+      39.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      60.0,
+      39.0,
+      5.0,
+      "rgba(31,138,74,0.25)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At the border town of Otrar, the governor called the merchants spies, and had about four hundred and fifty killed.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "inalchuq",
+      "x": 0.42,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "place": "Otrar · 1218",
+    "tag": {
+     "id": "inalchuq",
+     "text": "Inalchuq, governor of Otrar"
+    }
+   }
+  },
+  {
+   "who": "genghis",
+   "say": "Let's try talking first.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "genghis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His envoys demanded the governor. The Shah killed one envoy and shaved the others' beards.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "envoy",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "shock"
+     },
+     {
+      "id": "shah",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BIG INSULT",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "shah",
+     "text": "Shah Muhammad II"
+    }
+   }
+  },
+  {
+   "who": "genghis",
+   "say": "Wrong answer.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "genghis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1219, the Mongols invaded. City after city fell, and the Shah died on the run, on a Caspian Sea island.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.3,
+      "mood": "angry"
+     },
+     {
+      "id": "genghis",
+      "x": 0.62,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within about two years, the empire was gone. Huge numbers of ordinary people paid the price.",
+   "show": {
+    "k": "card",
+    "label": "From invasion to collapse",
+    "big": "ABOUT 2 YEARS",
+    "sub": "the Khwarazmian Empire, 1219–1221"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "envoy",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One governor robbed Genghis Khan's merchants. A whole empire paid for it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #genghiskhan #mongols #medievalhistory #historytok",
+ "youtube_title": "The Governor Who Made Genghis Khan Furious #shorts",
+ "tags": [
+  "genghis khan",
+  "khwarazmian empire",
+  "mongol empire",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Otrar_Catastrophe",
+  "https://en.wikipedia.org/wiki/Inalchuq",
+  "https://en.wikipedia.org/wiki/Muhammad_II_of_Khwarazm",
+  "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire"
+ ]
+}

@@ -1,0 +1,313 @@
+{
+ "id": "2026w49-s14",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "Her Husband Was Executed, So She Became a Pirate",
+ "hook": "SHE BECAME A REVENGE PIRATE",
+ "music": "playful",
+ "cast": {
+  "jeanne": {
+   "preset": "queen",
+   "hat": "pirate",
+   "hatColor": "#262322",
+   "outfit": "gown",
+   "color": "#262322",
+   "color2": "#A8322A",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Jeanne de Clisson"
+  },
+  "philip6": {
+   "preset": "king",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F4FA0",
+   "color2": "#E7C66A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "name": "King Philip VI of France"
+  },
+  "olivier": {
+   "preset": "knight",
+   "beard": "goatee",
+   "name": "Olivier de Clisson"
+  }
+ },
+ "voices": {
+  "jeanne": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When the King of France executed her husband, this noblewoman became a pirate.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "jeanne",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "place": "Brittany, France · 1343",
+    "tag": {
+     "id": "jeanne",
+     "text": "Jeanne de Clisson"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Jeanne de Clisson was a rich noblewoman from Brittany, in western France.",
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "FRANCE",
+    "sub": "Kingdom of France · 1343",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1343, France was at war with England. King Philip the Sixth had her husband executed, for secretly siding with the English.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip6",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "olivier",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "philip6",
+     "text": "King Philip VI of France"
+    }
+   }
+  },
+  {
+   "who": "jeanne",
+   "say": "Fine. Then I'm coming for his ships.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "jeanne",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "jeanne"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She sold her lands and jewels, and bought warships.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "jeanne",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.62,
+      "s": 0.55
+     },
+     {
+      "k": "sailship",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "With English help, she raided French ships and coasts for years.",
+   "show": {
+    "k": "map",
+    "lon": -2.5,
+    "lat": 48.8,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "1343–1350s",
+    "labels": [
+     [
+      "Brittany",
+      -3.0,
+      48.0,
+      14
+     ],
+     [
+      "Normandy",
+      -0.5,
+      49.0,
+      14
+     ],
+     [
+      "ENGLISH CHANNEL",
+      -2.5,
+      50.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -2.0,
+      49.5,
+      0.6,
+      "rgba(38,35,34,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later tales say her ships were painted black, with red sails. People called her the Lioness of Brittany.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "jeanne",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.6,
+      "color": "#262322"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LATER TALES",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "THE LIONESS",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And her son? He grew up to command the entire French army.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "jeanne",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PLOT TWIST",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "jeanne",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "philip6",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The King of France took her husband. So she went after the King's ships.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #jeannedeclisson #pirates #medievalhistory #historytok",
+ "youtube_title": "Her Husband Was Executed, So She Became a Pirate #shorts",
+ "tags": [
+  "jeanne de clisson",
+  "lioness of brittany",
+  "female pirate",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jeanne_de_Clisson",
+  "https://en.wikipedia.org/wiki/Olivier_IV_de_Clisson",
+  "https://en.wikipedia.org/wiki/Olivier_V_de_Clisson",
+  "https://thehundredyearswar.co.uk/jeanne-de-clisson-the-lioness-of-brittany/",
+  "https://www.qaronline.org/blog/2021-01-20/pirate-profile-jeanne-de-clisson"
+ ]
+}

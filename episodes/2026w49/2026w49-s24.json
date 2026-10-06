@@ -1,0 +1,282 @@
+{
+ "id": "2026w49-s24",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "A Man Built a 5-Foot-Wide House Out of Spite",
+ "hook": "THE 5-FOOT SPITE HOUSE",
+ "music": "playful",
+ "cast": {
+  "richardson": {
+   "hat": "tophat",
+   "hatColor": "#262322",
+   "hair": "short",
+   "hairColor": "#E0E0E0",
+   "beard": "full",
+   "outfit": "coat",
+   "color": "#3A3A3A",
+   "skin": "peach",
+   "name": "Joseph Richardson"
+  },
+  "sarner": {
+   "preset": "businessman",
+   "hat": "bowler",
+   "stache": "bush",
+   "hairColor": "#3A2A1A",
+   "name": "Hyman Sarner"
+  }
+ },
+ "voices": {
+  "richardson": "bm_daniel",
+  "sarner": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1882, a New Yorker built a house five feet wide, just to annoy his neighbor.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "richardson",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.6,
+      "label": "SPITE HOUSE"
+     }
+    ],
+    "place": "New York City · 1882",
+    "tag": {
+     "id": "richardson",
+     "text": "Joseph Richardson"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joseph Richardson owned a strange strip of land on Lexington Avenue.",
+   "show": {
+    "k": "card",
+    "label": "Joseph Richardson's strip of land",
+    "big": "5 FEET",
+    "sub": "wide, and 104 feet long"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His neighbor, Hyman Sarner, wanted it for his apartment building, and offered one thousand dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "sarner",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "moneybag"
+     },
+     {
+      "id": "richardson",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.45,
+      "flag": "usa1859"
+     }
+    ],
+    "tag": {
+     "id": "sarner",
+     "text": "Hyman Sarner"
+    }
+   }
+  },
+  {
+   "who": "richardson",
+   "say": "A thousand? I want five thousand.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "richardson",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.78,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "richardson"
+   }
+  },
+  {
+   "who": "N",
+   "say": "No deal. So Richardson built a skinny four-story building on the strip, right in front of his neighbor's windows.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "richardson",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.62,
+      "s": 0.7,
+      "label": "5 FEET WIDE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VIEW: BLOCKED",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sarner",
+   "say": "Fine! I'll pay the five thousand!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "sarner",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "sarner"
+   }
+  },
+  {
+   "who": "richardson",
+   "say": "Too late. It's not for sale.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "richardson",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.4,
+      "text": "NOT FOR SALE"
+     }
+    ],
+    "cam": "close",
+    "focus": "richardson"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He lived in his Spite House until he died. It stood until 1915.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "richardson",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "33 YEARS",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "richardson",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sarner",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His neighbor lowballed him. So he built a house 5 feet wide, right in front of his windows.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #spitehouse #newyork #nychistory #historytok",
+ "youtube_title": "A Man Built a 5-Foot-Wide House Out of Spite #shorts",
+ "tags": [
+  "spite house",
+  "richardson spite house",
+  "new york history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Spite_house",
+  "https://ephemeralnewyork.wordpress.com/2012/12/06/the-story-of-the-upper-east-side-spite-house/",
+  "https://www.futilitycloset.com/2008/03/08/spite-house/",
+  "https://hyperallergic.com/the-spite-house-an-architectural-phenomenon-built-on-rage-and-revenge/"
+ ]
+}

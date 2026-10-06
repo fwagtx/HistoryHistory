@@ -1,0 +1,275 @@
+{
+ "id": "2026w49-s19",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "The Queen Who Burned Roman London",
+ "hook": "THE QUEEN WHO BURNED LONDON",
+ "music": "playful",
+ "cast": {
+  "boudica": {
+   "hair": "long",
+   "hairColor": "#B5481E",
+   "outfit": "fur",
+   "color": "#2F7A4A",
+   "color2": "#C8902A",
+   "skin": "peach",
+   "name": "Queen Boudica"
+  },
+  "catus": {
+   "preset": "senator",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "name": "Catus Decianus"
+  }
+ },
+ "voices": {
+  "boudica": "bf_alice"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A British queen burned Roman London to the ground.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry",
+      "hold": "spear"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Eastern Britain · AD 60",
+    "tag": {
+     "id": "boudica",
+     "text": "Queen Boudica"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Boudica was queen of the Iceni, a tribe in eastern Britain, back when Rome ruled the island.",
+   "show": {
+    "k": "flag",
+    "flag": "rome",
+    "label": "ROME",
+    "sub": "Roman Britain · AD 60",
+    "bg": "rome"
+   }
+  },
+  {
+   "who": "N",
+   "say": "When her husband died, Roman officials seized the family's lands, and mistreated Boudica and her daughters.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "catus",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "boudica",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "catus",
+     "text": "Catus Decianus, Roman official"
+    }
+   }
+  },
+  {
+   "who": "boudica",
+   "say": "Rome will regret this.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "boudica"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Huge numbers of Britons joined her. They destroyed three Roman towns, including Londinium, today's London.",
+   "show": {
+    "k": "map",
+    "lon": 0.3,
+    "lat": 52.0,
+    "z0": 3.4,
+    "z1": 4.0,
+    "date": "AD 60–61",
+    "labels": [
+     [
+      "Camulodunum",
+      0.9,
+      51.89,
+      14
+     ],
+     [
+      "Londinium",
+      -0.09,
+      51.51,
+      14
+     ],
+     [
+      "Verulamium",
+      -0.34,
+      51.75,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      0.9,
+      51.89,
+      0.1,
+      "rgba(168,50,42,0.5)"
+     ],
+     [
+      -0.09,
+      51.51,
+      0.1,
+      "rgba(168,50,42,0.5)"
+     ],
+     [
+      -0.34,
+      51.75,
+      0.1,
+      "rgba(168,50,42,0.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome finally defeated her army. Our main source is the Roman historian Tacitus.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But today, a bronze statue of Boudica in her war chariot stands right next to Parliament in London.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.62,
+      "s": 0.6,
+      "label": "BOUDICA"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL STANDING",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "boudica",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "catus",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome took her lands and mistreated her family. Then she came for Londinium.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #boudica #romanbritain #london #historytok",
+ "youtube_title": "The Queen Who Burned Roman London #shorts",
+ "tags": [
+  "boudica",
+  "boudicca",
+  "roman britain",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Boudica",
+  "https://en.wikipedia.org/wiki/Boudican_revolt",
+  "https://www.britannica.com/biography/Boudicca",
+  "https://www.worldhistory.org/Boudicca/"
+ ]
+}

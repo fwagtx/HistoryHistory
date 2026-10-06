@@ -1,0 +1,289 @@
+{
+ "id": "2026w49-s23",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "A Persian King Punished the Sea",
+ "hook": "A KING WHIPPED THE SEA",
+ "music": "playful",
+ "cast": {
+  "xerxes": {
+   "preset": "king",
+   "hat": "crown",
+   "beard": "long",
+   "hairColor": "#1E1612",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "King Xerxes of Persia"
+  },
+  "persian": {
+   "outfit": "tunic",
+   "color": "#2F7A4A",
+   "hat": "turban",
+   "beard": "full",
+   "hairColor": "#1E1612",
+   "skin": "olive",
+   "name": "Persian soldier"
+  }
+ },
+ "voices": {
+  "xerxes": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Persian king once ordered his men to whip the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "persian",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "place": "The Hellespont · 480 BC",
+    "tag": {
+     "id": "xerxes",
+     "text": "King Xerxes of Persia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 480 BC, King Xerxes of Persia wanted to invade Greece, with a giant army.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.4
+     },
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "To cross the Hellespont, a narrow strip of sea between Asia and Europe, his engineers built bridges out of boats.",
+   "show": {
+    "k": "map",
+    "lon": 26.4,
+    "lat": 40.2,
+    "z0": 3.4,
+    "z1": 4.0,
+    "date": "480 BC",
+    "labels": [
+     [
+      "Hellespont",
+      26.4,
+      40.2,
+      14
+     ],
+     [
+      "ASIA",
+      27.6,
+      39.6,
+      0
+     ],
+     [
+      "EUROPE",
+      25.6,
+      40.8,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a storm smashed the bridges to pieces.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.35,
+      "s": 0.45
+     },
+     {
+      "k": "galley",
+      "x": 0.65,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BRIDGES: GONE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "xerxes",
+   "say": "Punish that water! Three hundred lashes!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "xerxes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to the Greek historian Herodotus, men whipped the water, and even threw chains into it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "persian",
+      "x": 0.4,
+      "pose": "aim",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPLASH",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Three hundred lashes, for a strip of water.",
+   "show": {
+    "k": "card",
+    "label": "The sea's punishment, says Herodotus",
+    "big": "300 LASHES",
+    "sub": "plus a pair of chains"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Xerxes built new bridges, and his army crossed anyway. The sea never apologized.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.65,
+      "s": 0.45,
+      "move": [
+       0.5,
+       0.8
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "persian",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A storm broke his bridges. So the king had the sea punished. 300 lashes.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #xerxes #persia #ancienthistory #historytok",
+ "youtube_title": "A Persian King Punished the Sea #shorts",
+ "tags": [
+  "xerxes",
+  "hellespont",
+  "herodotus",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Xerxes%27_pontoon_bridges",
+  "https://www.livius.org/sources/about/herodotus/herodotos-bk-7-logos-20/",
+  "https://engines.egr.uh.edu/episode/2310"
+ ]
+}

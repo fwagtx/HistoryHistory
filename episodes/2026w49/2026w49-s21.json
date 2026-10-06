@@ -1,0 +1,304 @@
+{
+ "id": "2026w49-s21",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "A Tractor Maker Built a Supercar to Beat Ferrari",
+ "hook": "TRACTOR MAN VS. FERRARI",
+ "music": "playful",
+ "cast": {
+  "ferruccio": {
+   "preset": "businessman",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "skin": "light",
+   "name": "Ferruccio Lamborghini"
+  },
+  "enzo": {
+   "preset": "businessman",
+   "hair": "short",
+   "hairColor": "#DADADA",
+   "glasses": "square",
+   "outfit": "suit",
+   "color": "#262322",
+   "skin": "light",
+   "name": "Enzo Ferrari"
+  }
+ },
+ "voices": {
+  "ferruccio": "bm_george",
+  "enzo": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A tractor maker started a supercar company to beat Ferrari. At least, that's how he told it.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "ferruccio",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "TRACTORS"
+     }
+    ],
+    "place": "Northern Italy · 1963",
+    "tag": {
+     "id": "ferruccio",
+     "text": "Ferruccio Lamborghini"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ferruccio Lamborghini got rich making tractors. He also owned Ferraris, and said his clutch kept breaking.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "ferruccio",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.7,
+      "s": 0.55,
+      "label": "FERRARI",
+      "color": "#C8302A"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BROKEN CLUTCH",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he went to Maranello, nearby, to complain to Enzo Ferrari himself.",
+   "show": {
+    "k": "map",
+    "lon": 11.0,
+    "lat": 44.6,
+    "z0": 3.6,
+    "z1": 4.2,
+    "date": "1960s",
+    "labels": [
+     [
+      "Maranello",
+      10.87,
+      44.53,
+      14
+     ],
+     [
+      "Sant'Agata",
+      11.13,
+      44.66,
+      14
+     ],
+     [
+      "Bologna",
+      11.34,
+      44.49,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "enzo",
+   "say": "You stick to tractors. Let me make the cars.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "enzo",
+      "x": 0.42,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "enzo",
+     "text": "Enzo Ferrari"
+    }
+   }
+  },
+  {
+   "who": "ferruccio",
+   "say": "Oh, it's on.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "ferruccio",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "phone",
+      "x": 0.78,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "ferruccio"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's Lamborghini's own version, told years later. Only the two men were there, so nobody can check it.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "ferruccio",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "HIS VERSION"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Either way, in 1963 he founded Automobili Lamborghini. His first car was shown that same year.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "ferruccio",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.65,
+      "s": 0.6,
+      "label": "350 GTV",
+      "color": "#E7C66A"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1963",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today, the two brands are still rivals. Not bad for a tractor guy.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "ferruccio",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "enzo",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.5,
+      "s": 0.45,
+      "flag": "italy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ferruccio",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "enzo",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Enzo Ferrari told him to stick to tractors. Well, that's his version.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #lamborghini #ferrari #carhistory #historytok",
+ "youtube_title": "A Tractor Maker Built a Supercar to Beat Ferrari #shorts",
+ "tags": [
+  "lamborghini",
+  "ferrari",
+  "ferruccio lamborghini",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Lamborghini",
+  "https://en.wikipedia.org/wiki/History_of_Lamborghini",
+  "https://en.wikipedia.org/wiki/Lamborghini_350_GTV",
+  "https://www.lamborghini.com/en-en/history/milestones",
+  "https://www.lambocars.com/motortrend-investigates-on-mythical-ferrari-insult-toward-feruccio-lamborghini/"
+ ]
+}

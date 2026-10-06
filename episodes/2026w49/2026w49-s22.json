@@ -1,0 +1,278 @@
+{
+ "id": "2026w49-s22",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "The General Who Left a Message on a Tree",
+ "hook": "THE TREE WAS A TRAP",
+ "music": "tense",
+ "cast": {
+  "sunbin": {
+   "hair": "bun",
+   "hairColor": "#1E1612",
+   "beard": "long",
+   "outfit": "robe",
+   "color": "#2F5A3A",
+   "color2": "#D4A52A",
+   "skin": "light",
+   "name": "Sun Bin"
+  },
+  "pang": {
+   "hair": "bun",
+   "hairColor": "#1E1612",
+   "stache": "thin",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "skin": "light",
+   "name": "Pang Juan"
+  }
+ },
+ "voices": {
+  "sunbin": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Chinese general carved a message on a tree. It was a trap.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "sunbin",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.7,
+      "s": 0.8,
+      "label": "PANG JUAN DIES HERE"
+     }
+    ],
+    "place": "Maling, China · 342 BC",
+    "tag": {
+     "id": "sunbin",
+     "text": "Sun Bin, strategist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sun Bin and Pang Juan studied war together, but Pang was jealous of him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sunbin",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "pang",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "pang",
+     "text": "Pang Juan, his rival"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pang had him framed and punished so harshly he could never walk again.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "sunbin",
+      "x": 0.42,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BETRAYED",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sun Bin escaped to a rival kingdom, Qi, and became its top strategist.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "sunbin",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "smug",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "sunbin",
+   "say": "Build fewer cooking fires every day.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "sunbin",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "sunbin"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pang counted the fires, thought Qi's soldiers were deserting, and chased them with a small force.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pang",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FEWER FIRES?",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At night, he lit a torch to read writing on a tree. That light was the archers' signal.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "pang",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock",
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.68,
+      "s": 0.8,
+      "label": "PANG JUAN DIES HERE"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pang died there. Historian Sima Qian wrote this down over two centuries later.",
+   "show": {
+    "k": "card",
+    "label": "Sima Qian's Records of the Grand Historian",
+    "big": "342 BC",
+    "sub": "the Battle of Maling"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sunbin",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pang",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His rival betrayed him. Years later, Sun Bin left him a message. On a tree.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #sunbin #ancientchina #strategy #historytok",
+ "youtube_title": "The General Who Left a Message on a Tree #shorts",
+ "tags": [
+  "sun bin",
+  "pang juan",
+  "battle of maling",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sun_Bin",
+  "https://en.wikipedia.org/wiki/Pang_Juan",
+  "https://en.wikipedia.org/wiki/Battle_of_Maling",
+  "https://military-history.fandom.com/wiki/Sun_Bin"
+ ]
+}

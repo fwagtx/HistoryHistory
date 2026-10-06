@@ -1,0 +1,285 @@
+{
+ "id": "2026w49-s20",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "Michelangelo Painted His Critic With Donkey Ears",
+ "hook": "HE PAINTED HIS CRITIC",
+ "music": "playful",
+ "cast": {
+  "michelangelo": {
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "hat": "beret",
+   "hatColor": "#262322",
+   "outfit": "tunic",
+   "color": "#4A3A2A",
+   "skin": "light",
+   "name": "Michelangelo"
+  },
+  "biagio": {
+   "preset": "noble",
+   "outfit": "robe",
+   "color": "#6A2A4A",
+   "color2": "#E7C66A",
+   "hair": "short",
+   "hairColor": "#7A7A7A",
+   "stache": "thin",
+   "name": "Biagio da Cesena"
+  },
+  "pope": {
+   "preset": "pope",
+   "beard": "long",
+   "hairColor": "#E0E0E0",
+   "name": "Pope Paul III"
+  }
+ },
+ "voices": {
+  "michelangelo": "am_liam",
+  "biagio": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Michelangelo got revenge on a critic, with a paintbrush.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "michelangelo",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Sistine Chapel, Rome · 1541",
+    "tag": {
+     "id": "michelangelo",
+     "text": "Michelangelo"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "For about five years, he painted The Last Judgment, a giant wall in the Pope's chapel.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "michelangelo",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.65,
+      "s": 0.7,
+      "label": "THE LAST JUDGMENT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Biagio da Cesena, the Pope's master of ceremonies, said it had way too many naked people.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "biagio",
+      "x": 0.42,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "biagio",
+     "text": "Biagio da Cesena"
+    }
+   }
+  },
+  {
+   "who": "biagio",
+   "say": "This belongs in a tavern, not a chapel!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "biagio",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "biagio"
+   }
+  },
+  {
+   "who": "michelangelo",
+   "say": "Noted.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "michelangelo",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "michelangelo"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Michelangelo painted Biagio's face onto Minos, a judge of the underworld, with donkey ears.",
+   "show": {
+    "k": "card",
+    "label": "Biagio's new look",
+    "big": "DONKEY EARS",
+    "sub": "painted on Minos, judge of the underworld"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Biagio complained to Pope Paul the Third. The story goes that the Pope said he had no power over hell.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "biagio",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "pope",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE STORY GOES",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ],
+    "tag": {
+     "id": "pope",
+     "text": "Pope Paul III"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the donkey ears stayed. Millions of tourists see them every year.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "biagio",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "STILL THERE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "michelangelo",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "biagio",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He criticized Michelangelo's painting. So Michelangelo put him in it. With donkey ears.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #michelangelo #sistinechapel #arthistory #historytok",
+ "youtube_title": "Michelangelo Painted His Critic With Donkey Ears #shorts",
+ "tags": [
+  "michelangelo",
+  "last judgment",
+  "sistine chapel",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Biagio_da_Cesena",
+  "https://en.wikipedia.org/wiki/The_Last_Judgment_(Michelangelo)",
+  "https://mymodernmet.com/last-judgment-michelangelo-sistine-chapel/",
+  "https://en.wikipedia.org/wiki/Vatican_Museums"
+ ]
+}

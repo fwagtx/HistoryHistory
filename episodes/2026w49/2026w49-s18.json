@@ -1,0 +1,307 @@
+{
+ "id": "2026w49-s18",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "Princess Olga's Bird Trick (Legend)",
+ "hook": "HER REVENGE USED BIRDS",
+ "music": "playful",
+ "cast": {
+  "olga": {
+   "preset": "queen",
+   "hat": "crown",
+   "outfit": "gown",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "hair": "long",
+   "hairColor": "#C8902A",
+   "skin": "light",
+   "name": "Princess Olga of Kyiv"
+  },
+  "drevlian": {
+   "preset": "peasant",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "outfit": "fur",
+   "color": "#6A4A2A",
+   "name": "Drevlian messenger"
+  },
+  "scholar": {
+   "preset": "philosopher",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "olga": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Legend says a princess got revenge using birds.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "olga",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "BIRDS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ],
+    "place": "Kyiv · 945",
+    "tag": {
+     "id": "olga",
+     "text": "Princess Olga of Kyiv"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It comes from the Primary Chronicle, written in Kyiv over a century and a half later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.4,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "PRIMARY CHRONICLE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 945, a tribe called the Drevlians killed Prince Igor of Kyiv. His widow Olga took charge.",
+   "show": {
+    "k": "map",
+    "lon": 29.5,
+    "lat": 50.7,
+    "z0": 3.2,
+    "z1": 3.8,
+    "date": "945",
+    "labels": [
+     [
+      "Kyiv",
+      30.52,
+      50.45,
+      14
+     ],
+     [
+      "Iskorosten",
+      28.64,
+      50.95,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      28.3,
+      51.1,
+      0.5,
+      "rgba(31,138,74,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They asked her to marry their prince. She acted flattered, but every welcome was a trap.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "drevlian",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "olga",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "olga",
+   "say": "How lovely. Do come in.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "olga",
+      "x": 0.45,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "olga"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later she surrounded their town and asked for a tiny gift: three pigeons and three sparrows per house.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "olga",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "Iskorosten · 946"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her soldiers tied burning material to the birds. They flew home, and the straw roofs caught fire.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.3,
+      "s": 0.5
+     },
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "fire",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BIRD TRICK",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legend or not, Olga later became a saint.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "olga",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "olga",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "drevlian",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Three pigeons and three sparrows per house. What could go wrong? (A legend.)\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #olgaofkyiv #medievalhistory #legend #historytok",
+ "youtube_title": "Princess Olga's Bird Trick (Legend) #shorts",
+ "tags": [
+  "olga of kiev",
+  "olga of kyiv",
+  "primary chronicle",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Olga_of_Kiev",
+  "https://theconversation.com/saint-olga-of-kyiv-is-ukraines-patron-saint-of-both-defiance-and-vengeance-178019",
+  "https://en.wikipedia.org/wiki/Igor_of_Kiev"
+ ]
+}

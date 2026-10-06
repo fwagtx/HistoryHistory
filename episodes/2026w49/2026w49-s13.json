@@ -1,0 +1,324 @@
+{
+ "id": "2026w49-s13",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "Pirates Kidnapped Julius Caesar. Big Mistake.",
+ "hook": "CAESAR VS. THE PIRATES",
+ "music": "playful",
+ "cast": {
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "pirate1": {
+   "preset": "pirate",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "name": "Cilician pirate captain"
+  },
+  "pirate2": {
+   "preset": "pirate",
+   "stache": "handlebar",
+   "hat": "bandana",
+   "name": "Cilician pirate"
+  }
+ },
+ "voices": {
+  "caesar": "bm_george",
+  "pirate1": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Pirates kidnapped Julius Caesar, and he told them to raise his ransom.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "pirate1",
+      "x": 0.7,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "place": "Aegean Sea · 75 BC",
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar, age 25"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was 75 BC. Caesar was a young Roman nobleman, sailing across the Aegean Sea.",
+   "show": {
+    "k": "map",
+    "lon": 26.5,
+    "lat": 38.0,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "75 BC",
+    "labels": [
+     [
+      "Pharmacusa",
+      27.08,
+      37.28,
+      14
+     ],
+     [
+      "Rhodes",
+      28.0,
+      36.3,
+      14
+     ],
+     [
+      "AEGEAN SEA",
+      25.3,
+      38.4,
+      0
+     ]
+    ],
+    "route": [
+     [
+      24.5,
+      38.3
+     ],
+     [
+      26.2,
+      37.6
+     ],
+     [
+      27.08,
+      37.28
+     ]
+    ]
+   }
+  },
+  {
+   "who": "pirate1",
+   "say": "Twenty talents of silver, or else!",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "pirate1",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate1"
+   }
+  },
+  {
+   "who": "caesar",
+   "say": "Twenty? For me? Ask for fifty.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.4,
+      "label": "SILVER"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "50 TALENTS",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ],
+    "cam": "close",
+    "focus": "caesar"
+   }
+  },
+  {
+   "who": "N",
+   "say": "For thirty-eight days, he bossed them around, read them his poems, and promised to come back and punish them all.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug",
+      "hold": "scroll"
+     },
+     {
+      "id": "pirate1",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "38 DAYS",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pirates laughed. Then the ransom was paid, and Caesar was free.",
+   "show": {
+    "k": "card",
+    "label": "The ransom Caesar demanded for himself",
+    "big": "50 TALENTS",
+    "sub": "about 1.5 tonnes of silver"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He gathered ships, sailed straight back, caught them, and had them executed, just like he'd promised.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.62,
+      "s": 0.55,
+      "flag": "rome",
+      "move": [
+       0.45,
+       0.75
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROMISE KEPT",
+      "at": 1.6,
+      "color": "#262322"
+     }
+    ],
+    "place": "Miletus · 75 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to the writer Plutarch, the pirates thought he was joking. He wasn't.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.55
+     },
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pirate1",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He told his kidnappers to ask for MORE money. Then he came back for them.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #pirates #ancientrome #historytok",
+ "youtube_title": "Pirates Kidnapped Julius Caesar. Big Mistake. #shorts",
+ "tags": [
+  "julius caesar",
+  "caesar pirates",
+  "ancient rome",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.livius.org/sources/content/plutarch/plutarchs-caesar/caesar-and-the-pirates/",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html",
+  "https://www.history.com/articles/julius-caesar-pirate-kidnap-legend",
+  "https://www.mentalfloss.com/article/13089/when-julius-caesar-was-kidnapped-pirates-he-demanded-they-increase-his-ransom"
+ ]
+}

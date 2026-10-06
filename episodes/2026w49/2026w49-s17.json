@@ -1,0 +1,345 @@
+{
+ "id": "2026w49-s17",
+ "format": "short",
+ "date": "2026-12-02",
+ "slot": "09:00",
+ "title": "He Swore Revenge on Rome at Age 9",
+ "hook": "HE SWORE REVENGE AT 9",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "hair": "curly",
+   "hairColor": "#1E1612",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Hannibal of Carthage"
+  },
+  "kid": {
+   "preset": "child",
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#1E1612",
+   "outfit": "tunic",
+   "color": "#8E2A2A",
+   "name": "Hannibal, age 9"
+  },
+  "hamilcar": {
+   "hat": "goldhelm",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "outfit": "armor",
+   "color": "#6A3E1E",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Hamilcar Barca"
+  },
+  "scholar": {
+   "preset": "philosopher",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "hamilcar": "bm_lewis",
+  "kid": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "At nine years old, Hannibal swore he would never be friends with Rome. He meant it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "hamilcar",
+      "x": 0.65,
+      "pose": "cross",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "place": "Carthage, North Africa · 237 BC",
+    "tag": {
+     "id": "kid",
+     "text": "Hannibal, age 9"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His city, Carthage, had just lost a long war to Rome. His father, the general Hamilcar, never forgave them.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hamilcar",
+      "x": 0.42,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "hamilcar",
+     "text": "Hamilcar Barca"
+    }
+   }
+  },
+  {
+   "who": "hamilcar",
+   "say": "Put your hand on the sacrifice, and swear.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "hamilcar",
+      "x": 0.35,
+      "pose": "point"
+     },
+     {
+      "id": "kid",
+      "x": 0.65,
+      "pose": "hold",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.5,
+      "s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "kid",
+   "say": "I swear!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.3
+     }
+    ],
+    "cam": "close",
+    "focus": "kid"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal told this story himself, years later, and the Greek historian Polybius wrote it down.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.4,
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "POLYBIUS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 218 BC, grown-up Hannibal marched an army over the Alps into Italy, with thirty-seven war elephants.",
+   "show": {
+    "k": "map",
+    "lon": 4.5,
+    "lat": 42.0,
+    "z0": 1.5,
+    "z1": 1.8,
+    "date": "218 BC",
+    "labels": [
+     [
+      "Spain",
+      -3.5,
+      40.0,
+      14
+     ],
+     [
+      "Alps",
+      7.0,
+      45.6,
+      14
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -0.98,
+      37.6
+     ],
+     [
+      0.8,
+      40.8
+     ],
+     [
+      2.8,
+      42.5
+     ],
+     [
+      4.8,
+      43.9
+     ],
+     [
+      6.9,
+      45.2
+     ],
+     [
+      10.0,
+      44.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two years later, at Cannae, he crushed a much bigger Roman army.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "rome"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "Cannae, Italy · 216 BC",
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal, all grown up"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He never captured Rome, but he haunted Italy for about fifteen years. Oath kept.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "elephant",
+      "x": 0.35,
+      "mood": "happy"
+     },
+     {
+      "id": "hannibal",
+      "x": 0.65,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "elephant",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A nine-year-old made a promise to his dad. Rome regretted it for decades.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #ancientrome #carthage #historytok",
+ "youtube_title": "He Swore Revenge on Rome at Age 9 #shorts",
+ "tags": [
+  "hannibal",
+  "hannibal oath",
+  "punic wars",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D3%3Achapter%3D11",
+  "https://en.wikipedia.org/wiki/Hamilcar_Barca",
+  "https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps",
+  "https://www.worldhistory.org/Second_Punic_War/"
+ ]
+}
