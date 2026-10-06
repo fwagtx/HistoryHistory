@@ -139,9 +139,11 @@ function mapShot(c, sh, t, lt, lp) {
     c.save(); c.font = `${fs / z}px "Permanent Marker"`; const lw = c.measureText(l[0]).width; c.restore();
     { const tf = c.getTransform(), dev = u => tf.a * u + tf.e, cw = c.canvas.width, right = cw * (isLong() ? .97 : .84);   /* a label that would run off the right edge (or under the app buttons in shorts) is drawn to the left of its dot */
       if (dev(lx + ldx / z + lw) > right && dev(lx - 14 / z - lw) > cw * .03) ldx = -(14 + lw * z); }
-    const x0 = Math.min(lx - 12 / z, lx + ldx / z), x1 = Math.max(lx + 12 / z, lx + ldx / z + lw);
-    for (let k = 0; k < 4 && placedL.some(p => p[0] < x1 && x0 < p[1] && Math.abs(p[2] - (ly + dy)) < fs * 1.1 / z); k++) dy += fs * 1.15 / z;
-    placedL.push([x0, x1, ly + dy]); mapLabel(c, l[0], l[1], l[2], z, fs, ldx, dy); });
+    const box = (d, yy) => [Math.min(lx - 12 / z, lx + d / z), Math.max(lx + 12 / z, lx + d / z + lw), yy], hits = b => placedL.some(p => p[0] < b[1] && b[0] < p[1] && Math.abs(p[2] - b[2]) < fs * 1.1 / z);
+    const tf = c.getTransform(), cw = c.canvas.width, flip = -(14 + lw * z), flipOk = tf.a * (lx + flip / z) + tf.e > cw * .03;
+    if (hits(box(ldx, ly)) && flipOk && !hits(box(flip, ly))) ldx = flip;   /* first try the other side of the dot */
+    for (let k = 0; k < 4 && hits(box(ldx, ly + dy)); k++) dy += fs * 1.15 / z;   /* then move the label down a line at a time */
+    placedL.push(box(ldx, ly + dy)); mapLabel(c, l[0], l[1], l[2], z, fs, ldx, dy); });
   c.restore(); c.restore();
   if (m.cast) drawCast(c, m.cast, t, lt, sh.s1 - sh.s0, 'white');
 }
