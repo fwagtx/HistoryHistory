@@ -134,8 +134,14 @@ function mapShot(c, sh, t, lt, lp) {
   c.save(); c.scale(BW / W, BH / H); mapCam(c, m.lon, m.lat, z); drawMap(c, TMAP, m.plague ? Number(m.plague) : 0, { z, pins: [] });   /* `date` is only a label; the old plague shading needs an explicit `plague` year */
   if (m.areas) { c.save(); c.clip(LAND); for (const [lo, la, r, col] of m.areas) { const [x, y] = proj(lo, la), [x2] = proj(lo + r, la), rad = Math.abs(x2 - x) * Math.min(1, lt / 1.2 + .2); const g = c.createRadialGradient(x, y, 0, x, y, rad); g.addColorStop(0, col || 'rgba(214,48,40,.45)'); g.addColorStop(.8, col || 'rgba(214,48,40,.35)'); g.addColorStop(1, 'rgba(214,48,40,0)'); c.fillStyle = g; c.fillRect(x - rad, y - rad, rad * 2, rad * 2); } c.restore(); c.fillStyle = TMAP.P.map.sea; c.fill(WATER); c.strokeStyle = TMAP.P.map.coast; c.lineWidth = 1.5 / z; c.stroke(LAND); }
   if (m.route) mapRoute(c, m.route, Math.min(1, .1 + lt / Math.max(2, (sh.s1 - sh.s0) * .8)), z);
-  const placedL = []; (m.labels || []).forEach((l, i) => { if (lt <= .3 + i * .4) return; const fs = isLong() ? 58 : 40; let [lx, ly] = proj(l[1], l[2]), dy = 0; for (let k = 0; k < 4 && placedL.some(p => Math.abs(p[0] - lx) < fs * 6 / z && Math.abs(p[1] - (ly + dy)) < fs * 1.1 / z); k++) dy += fs * 1.15 / z; placedL.push([lx, ly + dy]); if (dy) { c.save(); c.translate(0, dy); } let ldx = l[3] ?? 14; { c.save(); c.font = `${fs / z}px "Permanent Marker"`; const lw = c.measureText(l[0]).width; c.restore(); const tf = c.getTransform(), dev = u => tf.a * u + tf.e, cw = c.canvas.width, right = cw * (isLong() ? .97 : .84);   /* a label that would run off the right edge (or under the app buttons in shorts) is drawn to the left of its dot */
-    if (dev(lx + ldx / z + lw) > right && dev(lx - 14 / z - lw) > cw * .03) ldx = -(14 + lw * z); } mapLabel(c, l[0], l[1], l[2], z, fs, ldx); if (dy) c.restore(); });
+  /* Labels that would overlap an earlier one move down a line; the dot always stays on the real place, and a moved label gets a short leader line back to it. */
+  const placedL = []; (m.labels || []).forEach((l, i) => { if (lt <= .3 + i * .4) return; const fs = isLong() ? 58 : 40; const [lx, ly] = proj(l[1], l[2]); let ldx = l[3] ?? 14, dy = 0;
+    c.save(); c.font = `${fs / z}px "Permanent Marker"`; const lw = c.measureText(l[0]).width; c.restore();
+    { const tf = c.getTransform(), dev = u => tf.a * u + tf.e, cw = c.canvas.width, right = cw * (isLong() ? .97 : .84);   /* a label that would run off the right edge (or under the app buttons in shorts) is drawn to the left of its dot */
+      if (dev(lx + ldx / z + lw) > right && dev(lx - 14 / z - lw) > cw * .03) ldx = -(14 + lw * z); }
+    const x0 = Math.min(lx - 12 / z, lx + ldx / z), x1 = Math.max(lx + 12 / z, lx + ldx / z + lw);
+    for (let k = 0; k < 4 && placedL.some(p => p[0] < x1 && x0 < p[1] && Math.abs(p[2] - (ly + dy)) < fs * 1.1 / z); k++) dy += fs * 1.15 / z;
+    placedL.push([x0, x1, ly + dy]); mapLabel(c, l[0], l[1], l[2], z, fs, ldx, dy); });
   c.restore(); c.restore();
   if (m.cast) drawCast(c, m.cast, t, lt, sh.s1 - sh.s0, 'white');
 }
