@@ -81,6 +81,12 @@ def check(path, V):
     if fmt not in ("short", "long"):
         errs.append("format must be 'short' or 'long'")
         return errs, warn, s
+    if fmt == "short":   # the cover's topic banner: who or what, so the TikTok tile makes sense (required from 2026w50)
+        topic = str(s.get("topic") or (s.get("thumbnail") or {}).get("topic") or "")
+        if not topic and str(s.get("date", "")) >= "2026-12-07":
+            errs.append("missing 'topic' (1-4 words naming who or what the short is about, e.g. \"Galileo\" or \"Hundred Years' War\")")
+        elif len(topic) > 28:
+            errs.append(f"topic '{topic}' is over 28 characters")
     if s.get("music", "playful") not in MUSIC:
         errs.append(f"music must be one of {sorted(MUSIC)}")
     cast = s.get("cast", {})

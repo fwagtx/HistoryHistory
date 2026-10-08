@@ -56,7 +56,7 @@ function renderShortThumb(o) {
   frameStart(.4);
   const tmp = document.createElement('canvas'); tmp.width = BW; tmp.height = BH; scene(tmp.getContext('2d'), o.bg || 'field', 1);
   const k = H / BH; c.save(); c.filter = 'blur(5px) saturate(1.15)'; c.drawImage(tmp, (W - BW * k) / 2, 0, BW * k, H); c.restore();
-  let g = c.createLinearGradient(0, 0, 0, 1000); g.addColorStop(0, 'rgba(0,0,0,.55)'); g.addColorStop(1, 'rgba(0,0,0,0)'); c.fillStyle = g; c.fillRect(0, 0, W, 1000);
+  let g = c.createLinearGradient(0, 0, 0, 1150); g.addColorStop(0, 'rgba(0,0,0,.55)'); g.addColorStop(1, 'rgba(0,0,0,0)'); c.fillStyle = g; c.fillRect(0, 0, W, 1150);
   g = c.createLinearGradient(0, 1500, 0, H); g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(0,0,0,.35)'); c.fillStyle = g; c.fillRect(0, 1500, W, 420);
   const faces = (o.faces || []).slice(0, 2);
   // the key object, behind the people
@@ -64,24 +64,36 @@ function renderShortThumb(o) {
     const ok = o.object.k, s = 2.6 * (OBJ_SCALE[ok] || .5) * (o.object.s ?? 1), ox = faces.length === 1 ? 830 : 540;
     c.save(); c.translate(ox, faces.length ? 1560 : 1500); c.scale(s, s); OBJECTS[ok](c, Object.assign({}, o.object), .4); c.restore();
   }
+  // TikTok's profile grid shows only the middle 3:4 of a 9:16 cover (y 240-1680), so everything that has to be read
+  // sits inside it: topic banner from y 290, hook under it, faces below
   frameStart(.4);
   const lift = { hatLift: 14 };
-  if (faces.length === 1) shadowed2(c, () => drawWho(c, faces[0], o.object ? 430 : 540, 1150, 5.0, Object.assign({ look: o.object ? .25 : 0 }, lift)));
+  if (faces.length === 1) shadowed2(c, () => drawWho(c, faces[0], o.object ? 430 : 540, 1290, 4.6, Object.assign({ look: o.object ? .25 : 0 }, lift)));
   else if (faces.length === 2) {
-    shadowed2(c, () => drawWho(c, faces[1], 800, 1260, 3.8, Object.assign({ look: -.35 }, lift)));
-    shadowed2(c, () => drawWho(c, faces[0], 300, 1180, 4.3, Object.assign({ look: .35 }, lift)));
+    shadowed2(c, () => drawWho(c, faces[1], 800, 1380, 3.5, Object.assign({ look: -.35 }, lift)));
+    shadowed2(c, () => drawWho(c, faces[0], 300, 1310, 4.0, Object.assign({ look: .35 }, lift)));
+  }
+  // topic banner: who or what the short is about, so the tile makes sense on its own
+  let top = 300;
+  if (o.topic) {
+    const t = String(o.topic).toUpperCase();
+    c.save(); let fs = 110; c.font = `${fs}px Anton`; while (c.measureText(t).width > 900 && fs > 56) { fs -= 4; c.font = `${fs}px Anton`; }
+    const tw = c.measureText(t).width + 70, bh = fs * 1.3; c.translate(W / 2, 290 + bh / 2); c.rotate(-.02);
+    hd(c, rect(-tw / 2, -bh / 2, tw, bh), { fill: '#D63A2F', w: 7 }); c.restore();
+    thumbText(c, t, W / 2, 290 + bh / 2 + fs * .36, fs, { shadow: false, sw: 0 });
+    top = 290 + bh + 30;
   }
   // hook text: up to two lines, second line in gold
   const words = String(o.text || '').toUpperCase().split(/\s+/).filter(Boolean);
   let lines = [words.join(' ')];
-  c.save(); let size = 200; c.font = `${size}px Anton`;
+  c.save(); let size = o.topic ? 170 : 190; c.font = `${size}px Anton`;
   if (c.measureText(lines[0]).width > 960 && words.length > 1) {
     let best = null; for (let i = 1; i < words.length; i++) { const a = words.slice(0, i).join(' '), b = words.slice(i).join(' '), m = Math.max(c.measureText(a).width, c.measureText(b).width); if (!best || m < best[0]) best = [m, a, b]; }
     lines = [best[1], best[2]];
   }
   while (lines.some(l => c.measureText(l).width > 980) && size > 90) { size -= 6; c.font = `${size}px Anton`; }
   c.restore();
-  const top = 150 + size;
+  top += size * .9;
   lines.forEach((l, i) => thumbText(c, l, W / 2, top + i * size * 1.02, size, { sw: .1, fill: lines.length > 1 && i === 1 ? '#F2B632' : '#FFFFFF' }));
   if (o.sub) {
     const y = top + (lines.length - 1) * size * 1.02 + 60;

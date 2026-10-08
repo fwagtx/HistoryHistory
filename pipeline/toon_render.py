@@ -147,7 +147,12 @@ def short_thumb_spec(script):
             f["mood"] = {"smug": "happy", "angry": "shout"}.get(f.get("mood"), "shock")
         faces.append(f)
     objs = [o for sh in [pick] + scenes for o in sh.get("objects", [])]
-    spec = {"text": script["hook"], "sub": next((sh["place"] for sh in shows if sh.get("place")), ""),
+    topic = script.get("topic")
+    if not topic:   # fall back to the subject's name, trimmed: "King Edward III of England" -> "King Edward III"
+        who = next((m["id"] for m in cast if subject(m["id"])), None) or next((m["id"] for m in cast if (cast_def.get(m["id"]) or {}).get("name")), None)
+        name = str((cast_def.get(who) or {}).get("name") or "").split(",")[0].split(" (")[0]
+        topic = name.split(" of ")[0] if len(name) > 22 else name
+    spec = {"text": script["hook"], "topic": topic, "sub": next((sh["place"] for sh in shows if sh.get("place")), ""),
             "bg": pick.get("bg") or "field", "faces": faces,
             "object": {k: v for k, v in objs[0].items() if k in ("k", "flag", "load")} if objs else None}
     spec.update(script.get("thumbnail") or {})
@@ -174,10 +179,23 @@ def render_thumb(script_path):
     out = OUT / f"{script['id']}-thumb.jpg"
     if script["format"] == "short":
         thumbnail(page, short_thumb_spec(script), out, "short")
+        video = OUT / f"{script['id']}.mp4"
+        if video.exists():   # a redrawn cover replaces the one baked into the video's first frames
+            rebake_cover(video, out, work)
     elif script.get("thumbnail"):
         thumbnail(page, script["thumbnail"], out)
     print(f"  thumbnail → {out}")
     return out
+
+
+def rebake_cover(video, cover, work):
+    """Swap the cover in a finished short's first frames (re-encodes the picture, copies the sound)."""
+    tmp = work / "rebake.mp4"
+    subprocess.run([FF, "-loglevel", "error", "-y", "-i", str(video), "-i", str(cover), "-filter_complex",
+                    f"[1:v]scale={SIZE['short'][0]}:{SIZE['short'][1]},setsar=1[cv];[0:v][cv]overlay=0:0:enable='lt(t,{COVER_SECONDS})'[v]",
+                    "-map", "[v]", "-map", "0:a", "-c:v", "libx264", "-preset", "medium", "-tune", "animation", "-crf", "21",
+                    "-maxrate", "8M", "-bufsize", "16M", "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(tmp)], check=True)
+    tmp.replace(video)
 
 
 def mix_audio(script, tv, work):
@@ -201,14 +219,22 @@ def mix_audio(script, tv, work):
     return work / "mix.wav"
 
 
-def encode(chunks, audio, fmt, duration, out, work):
+COVER_SECONDS = 0.1   # the short's cover fills its first 3 frames: TikTok (personal accounts ignore custom covers) shows frame 0
+
+
+def encode(chunks, audio, fmt, duration, out, work, cover=None):
     lst = work / "chunks.txt"
     lst.write_text("".join(f"file '{Path(c).resolve()}'\n" for c in chunks))
     joined = work / "video.mp4"
     subprocess.run([FF, "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(joined)], check=True)
     if fmt == "short":
         v = ["-c:v", "libx264", "-preset", "medium", "-tune", "animation", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M", "-pix_fmt", "yuv420p"]
-        subprocess.run([FF, "-loglevel", "error", "-y", "-i", str(joined), "-i", str(audio), *v, "-c:a", "aac", "-b:a", "160k",
+        inputs, maps = ["-i", str(joined), "-i", str(audio)], []
+        if cover:
+            inputs += ["-i", str(cover)]
+            maps = ["-filter_complex", f"[2:v]scale={SIZE['short'][0]}:{SIZE['short'][1]},setsar=1[cv];"
+                    f"[0:v][cv]overlay=0:0:enable='lt(t,{COVER_SECONDS})'[v]", "-map", "[v]", "-map", "1:a"]
+        subprocess.run([FF, "-loglevel", "error", "-y", *inputs, *maps, *v, "-c:a", "aac", "-b:a", "160k",
                         "-movflags", "+faststart", "-shortest", str(out)], check=True)
         return
     kbps = int(min(3500, MAX_MB * 8e3 / duration - 170))
@@ -252,11 +278,13 @@ def render(script_path, jobs=4, only_stills=False, seconds=None):
     audio = mix_audio(script, tv, work)
     OUT.mkdir(exist_ok=True)
     final = work / "final.mp4"
-    encode(chunks, audio, fmt, duration, final, work)
+    cover = None
+    if fmt == "short":   # the cover is drawn first so it can open the video too
+        cover = OUT / f"{script['id']}-thumb.jpg"
+        thumbnail(page, short_thumb_spec(script), cover, "short")
+    encode(chunks, audio, fmt, duration, final, work, cover)
     dest = OUT / f"{script['id']}.mp4"
     final.replace(dest)
-    if fmt == "short":
-        thumbnail(page, short_thumb_spec(script), OUT / f"{script['id']}-thumb.jpg", "short")
     if fmt == "long":
         if script.get("thumbnail"):
             thumbnail(page, script["thumbnail"], OUT / f"{script['id']}-thumb.jpg")

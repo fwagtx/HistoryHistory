@@ -65,6 +65,7 @@ Start three general-purpose agents in the background, one per long-form, using t
 > - 7–10 beats and 75–115 words each, with the hook first.
 > - At least one character and 2+ scenes, ending with a k:"end" shot and a follow line.
 > - "hook" is 2–5 words in caps.
+> - "topic" is 1–4 words naming who or what the short is about, the name a viewer would recognize ("Galileo", "Hundred Years' War"); it goes on the cover's red banner so the TikTok tile makes sense on its own.
 > - Caption: a one-line hook, a blank line, "Full video on our YouTube channel. Follow for 5 stories a day.", then 5 hashtags starting with #history.
 > - youtube_title ends with " #shorts".
 >
@@ -105,7 +106,7 @@ python pipeline/toon_render.py episodes/<week>/<week>-l*.json episodes/<week>/<w
 - **Before the full render:** look at a contact sheet of the stills (PIL is installed). Fix anything broken, such as overlaps, a character off-screen or unreadable text.
 - **Render times:** a short takes about 1 minute and a 14-minute long-form about 25 minutes.
 - **After the render:** check every file in `media_out/` exists. Long-form files must be under 95 MB.
-- **Thumbnails:** every short gets `<id>-thumb.jpg` (1080x1920 cover: the hook, a where/when tag and the subject's most dramatic scene), every long-form its 16:9 `thumbnail`. Look at a contact sheet of all 38. Each must make sense on its own at phone size: who or what the story is about, plus the hook. If a hook only works after watching (e.g. "HE BROKE GOLD"), give the short a `"thumbnail": {"text": "HE MADE GOLD CHEAP"}` and re-run `python pipeline/toon_render.py <script> --thumbs` (seconds, no narration).
+- **Thumbnails:** every short gets `<id>-thumb.jpg` (1080x1920 cover: a topic banner, the hook, a where/when tag and the subject's most dramatic scene; it also fills the video's first 0.1 s, which TikTok uses as the cover), every long-form its 16:9 `thumbnail`. Look at a contact sheet of all 38, with each short's cover cropped to its middle 3:4 (y 240–1680) the way TikTok's profile grid shows it. Each must make sense on its own at phone size: who or what the story is about, plus the hook. If a hook only works after watching (e.g. "HE BROKE GOLD"), give the short a `"thumbnail": {"text": "HE MADE GOLD CHEAP"}` and re-run `python pipeline/toon_render.py <script> --thumbs` (seconds, no narration).
 - **Audio check:** check one of each with ffmpeg: about -16 LUFS integrated, and duration matching the narration.
 
 ## 6. Publish the media

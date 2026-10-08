@@ -225,7 +225,11 @@ The engine vocabulary follows. `pipeline/validate_toon.py` rejects anything else
 
 ### Thumbnails (shorts)
 
-Shorts get a 1080x1920 cover automatically (it is the YouTube Shorts thumbnail and the Reel/TikTok cover): the `hook` as big text, the first `place` banner as a small where/when tag, and the most dramatic scene of the character named in the hook or title, with that scene's background and first object. Faces that would look bored (neutral, smug, sad) are drawn shocked or grinning instead.
+Shorts get a 1080x1920 cover automatically (it is the YouTube Shorts thumbnail and the Reel/TikTok cover): a red banner with the short's `topic`, the `hook` as big text, the first `place` banner as a small where/when tag, and the most dramatic scene of the character named in the hook or title, with that scene's background and first object. Faces that would look bored (neutral, smug, sad) are drawn shocked or grinning instead.
+
+Every short needs a top-level `"topic"`: 1–4 words (28 characters max) naming who or what it is about, so the cover makes sense on its own in a TikTok grid. Use the famous name a viewer would recognize: `"Galileo"`, `"Hundred Years' War"`, `"Storming of the Bastille"`, `"Jeanne de Clisson"`. It must be true and match the video. The validator requires it.
+
+The cover also fills the first 0.1 seconds of the video, because TikTok (on a personal account) shows the first frame as the cover and ignores uploaded ones. Everything readable sits in the middle 3:4 of the cover (y 240–1680), the part TikTok's profile grid shows. Re-running `--thumbs` on a short that is already rendered swaps the cover in the video too.
 
 Add a `thumbnail` only to change something. Any field overrides the automatic one:
 
