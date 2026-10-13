@@ -1,0 +1,277 @@
+{
+ "id": "2026w50-s10",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "The World's Biggest Bell Has Never Rung",
+ "hook": "THE BELL THAT NEVER RANG",
+ "topic": "Tsar Bell",
+ "music": "playful",
+ "cast": {
+  "anna": {
+   "preset": "queen",
+   "hat": "crown",
+   "outfit": "gown",
+   "color": "#C8902A",
+   "hairColor": "#2A1A10",
+   "skin": "light",
+   "name": "Empress Anna of Russia"
+  },
+  "caster": {
+   "preset": "worker",
+   "hat": "cap",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "hammer"
+  },
+  "guard": {
+   "preset": "grenadier",
+   "hat": "tricorn",
+   "skin": "light",
+   "stache": "bush"
+  }
+ },
+ "voices": {
+  "guard": "am_puck",
+  "caster": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The biggest bell in the world has never rung. Not even once.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.7,
+      "s": 0.8,
+      "label": "TSAR BELL"
+     }
+    ],
+    "place": "Moscow Kremlin, Russia · 1730s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1730, Empress Anna of Russia ordered a giant new bell for the Kremlin in Moscow.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "anna",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "anna",
+     "text": "Empress Anna of Russia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cast in a deep pit, it weighed about two hundred tons, as much as thirty elephants.",
+   "show": {
+    "k": "card",
+    "label": "The Tsar Bell weighs about",
+    "big": "200 TONS",
+    "sub": "roughly 30 elephants"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1737, before it was even finished, a huge fire swept the Kremlin.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "caster",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Moscow · 1737"
+   }
+  },
+  {
+   "who": "guard",
+   "say": "Quick! Throw cold water on the bell!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "guard"
+   }
+  },
+  {
+   "who": "caster",
+   "say": "On the red-hot metal? Is that wise?",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "caster",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "caster"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story goes that the sudden cold cracked it, and a chunk over ten tons broke off.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "caster",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.6,
+      "label": "10+ TONS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CRACK!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It sat in its pit for about a hundred years, until 1836. Now it's a tourist attraction.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.7,
+      "s": 0.8,
+      "label": "TSAR BELL"
+     }
+    ],
+    "place": "Moscow · 1836"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "anna",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "caster",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Russia built the world's biggest bell. It cracked before anyone rang it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #russia #moscow #kremlin #historytok",
+ "youtube_title": "The World's Biggest Bell Has Never Rung #shorts",
+ "tags": [
+  "tsar bell",
+  "moscow kremlin",
+  "biggest bell",
+  "russia history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tsar_Bell",
+  "https://kremlin-architectural-ensemble.kreml.ru/en-Us/the-tsar-bell",
+  "https://prlib.ru/en/node/619437",
+  "https://www.atlasobscura.com/places/tsar-bell"
+ ]
+}

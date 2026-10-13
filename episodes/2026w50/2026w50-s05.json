@@ -1,0 +1,322 @@
+{
+ "id": "2026w50-s05",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "The First Man in Space Landed in a Farm Field",
+ "hook": "FIRST HUMAN IN SPACE",
+ "topic": "Yuri Gagarin",
+ "music": "playful",
+ "cast": {
+  "gagarin": {
+   "preset": "astronaut",
+   "hat": "spacehelm",
+   "color": "#E0782A",
+   "skin": "light",
+   "hairColor": "#3A2A1A",
+   "name": "Yuri Gagarin"
+  },
+  "anna_t": {
+   "preset": "peasantW",
+   "hat": "headscarf",
+   "hatColor": "#C83A3A",
+   "skin": "light",
+   "name": "Anna Takhtarova"
+  },
+  "rita": {
+   "preset": "child",
+   "skin": "light",
+   "hair": "bun",
+   "hairColor": "#8A5A2A",
+   "outfit": "dress",
+   "color": "#4A7ACA"
+  }
+ },
+ "voices": {
+  "gagarin": "am_liam",
+  "anna_t": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The first human in space parachuted into a field and surprised a grandmother.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "anna_t",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "gagarin",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "place": "Near Engels, Soviet Union · 1961"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On April 12th, 1961, Soviet pilot Yuri Gagarin blasted off in a spaceship called Vostok 1.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "gagarin",
+      "x": 0.3,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rocket",
+      "x": 0.7,
+      "s": 1.0,
+      "launch": true
+     }
+    ],
+    "place": "Baikonur Cosmodrome · 1961",
+    "tag": {
+     "id": "gagarin",
+     "text": "Yuri Gagarin, Soviet pilot"
+    },
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "gagarin",
+   "say": "Poyekhali! Let's go!",
+   "show": {
+    "k": "scene",
+    "bg": "space",
+    "cast": [
+     {
+      "id": "gagarin",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rocket",
+      "x": 0.82,
+      "s": 0.5,
+      "y": 0.3
+     }
+    ],
+    "cam": "close",
+    "focus": "gagarin"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He circled the whole Earth once, in about one hundred eight minutes.",
+   "show": {
+    "k": "scene",
+    "bg": "space",
+    "cast": [
+     {
+      "id": "gagarin",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.7,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "108 MINUTES",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His capsule couldn't land gently, so he ejected and floated down on his own parachute.",
+   "show": {
+    "k": "card",
+    "label": "Gagarin's landing",
+    "big": "PARACHUTE",
+    "sub": "he ejected from the capsule on the way down"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A farm woman and her granddaughter saw a man in an orange suit walking toward them.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "anna_t",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "rita",
+      "x": 0.48,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "gagarin",
+      "x": 0.75,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "anna_t",
+   "say": "Have you come from outer space?",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "anna_t",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "anna_t"
+   }
+  },
+  {
+   "who": "gagarin",
+   "say": "As a matter of fact, I have!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "gagarin",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "gagarin"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the first person to welcome a space traveler home was a farm grandma.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "anna_t",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "gagarin",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "gagarin",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "anna_t",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The first man in space came down next to a grandma in a farm field.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #space #yurigagarin #spacerace #historytok",
+ "youtube_title": "The First Man in Space Landed in a Farm Field #shorts",
+ "tags": [
+  "yuri gagarin",
+  "first man in space",
+  "vostok 1",
+  "space race",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Vostok_1",
+  "https://en.wikipedia.org/wiki/Yuri_Gagarin",
+  "https://www.rferl.org/a/fifty_years_since_space_pioneer_gagarin/3553827.html",
+  "https://www.iflscience.com/60-years-ago-today-one-of-the-most-surreal-encounters-in-spaceflight-history-took-place-59345"
+ ]
+}

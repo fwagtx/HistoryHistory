@@ -1,0 +1,276 @@
+{
+ "id": "2026w50-s04",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "The Most Powerful Bomb Ever Exploded",
+ "hook": "THE BIGGEST BOMB EVER",
+ "topic": "Tsar Bomba",
+ "music": "playful",
+ "cast": {
+  "scientist": {
+   "preset": "scientist",
+   "skin": "light",
+   "hairColor": "#5A4A3A",
+   "glasses": "square"
+  },
+  "pilot": {
+   "preset": "pilot",
+   "hat": "aviator",
+   "skin": "light",
+   "stache": "brush"
+  }
+ },
+ "voices": {
+  "scientist": "bm_daniel",
+  "pilot": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1961, the Soviet Union set off the most powerful bomb ever exploded.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "pilot",
+      "x": 0.2,
+      "pose": "scared",
+      "mood": "shock",
+      "s": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "mushroom",
+      "x": 0.62,
+      "s": 1.1
+     }
+    ],
+    "place": "Novaya Zemlya, Soviet Union · 1961",
+    "stickers": [
+     {
+      "text": "1961",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This was the Cold War, the Soviet Union against America.",
+   "show": {
+    "k": "flag",
+    "flag": "soviet",
+    "label": "THE SOVIET UNION",
+    "sub": "Cold War, 1961",
+    "bg": "snow"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its nickname was Tsar Bomba, the king of bombs.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomb",
+      "x": 0.72,
+      "s": 0.8,
+      "label": "TSAR BOMBA"
+     }
+    ]
+   }
+  },
+  {
+   "who": "scientist",
+   "say": "We designed it at one hundred megatons. Then we cut it in half.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "atom",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "scientist"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A bomber carried it, and a giant parachute slowed its fall so the plane could escape.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "pilot",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.65,
+      "s": 0.8,
+      "y": 0.45,
+      "emblem": "redstar"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pilot",
+   "say": "Bomb away! Now fly, fly, fly!",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "pilot",
+      "x": 0.5,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.8,
+      "s": 0.5,
+      "y": 0.5,
+      "emblem": "redstar"
+     }
+    ],
+    "cam": "close",
+    "focus": "pilot"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fifty megatons: over three thousand Hiroshima bombs.",
+   "show": {
+    "k": "card",
+    "label": "Tsar Bomba's power",
+    "big": "50 MEGATONS",
+    "sub": "more than 3,000 times the Hiroshima bomb"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The mushroom cloud rose about sixty kilometers, around seven times higher than Mount Everest.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.2,
+      "pose": "scared",
+      "mood": "shock",
+      "s": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "mushroom",
+      "x": 0.6,
+      "s": 1.3
+     },
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.5,
+      "label": "EVEREST"
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Luckily, it was only a test. It was too big to be useful.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pilot",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Soviets tested a bomb so big they cut it in half first.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #coldwar #sovietunion #tsarbomba #historytok",
+ "youtube_title": "The Most Powerful Bomb Ever Exploded #shorts",
+ "tags": [
+  "tsar bomba",
+  "cold war",
+  "soviet union",
+  "biggest bomb",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/topic/Tsar-Bomba",
+  "https://thebulletin.org/2021/11/the-untold-story-of-the-worlds-biggest-nuclear-bomb/",
+  "https://en.wikipedia.org/wiki/Tsar_Bomba",
+  "https://www.thisdayinaviation.com/30-october-1961/"
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "id": "2026w50-s06",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "The Potemkin Village Story Is Mostly Fake",
+ "hook": "FAKE VILLAGES? NOT REALLY",
+ "topic": "Potemkin Villages",
+ "music": "playful",
+ "cast": {
+  "catherine": {
+   "preset": "queen",
+   "hat": "crown",
+   "outfit": "gown",
+   "color": "#E8E0D0",
+   "color2": "#2F5A8A",
+   "hairColor": "#8A8A8A",
+   "skin": "peach",
+   "name": "Catherine the Great"
+  },
+  "potemkin": {
+   "preset": "noble",
+   "outfit": "coat",
+   "color": "#B8302A",
+   "hairColor": "#DDDDDD",
+   "skin": "light",
+   "name": "Grigory Potemkin"
+  },
+  "helbig": {
+   "preset": "noble",
+   "outfit": "coat",
+   "color": "#4A4A6A",
+   "hairColor": "#DDDDDD",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Georg von Helbig"
+  }
+ },
+ "voices": {
+  "catherine": "bf_emma",
+  "potemkin": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Potemkin village means a fake front built to fool someone. The original story is mostly fake too.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "potemkin",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.65,
+      "s": 0.6,
+      "label": "FAKE?"
+     },
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE?",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1787, Catherine the Great toured her new lands by the Black Sea.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.8,
+      "flag": "russia"
+     }
+    ],
+    "place": "Southern Russian Empire · 1787",
+    "tag": {
+     "id": "catherine",
+     "text": "Catherine the Great"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her adviser Grigory Potemkin organized the trip.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "potemkin",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "THE GRAND TOUR"
+     }
+    ],
+    "tag": {
+     "id": "potemkin",
+     "text": "Grigory Potemkin"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legend says he built fake villages along her route, then moved them ahead overnight.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "potemkin",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.6,
+      "s": 0.5
+     },
+     {
+      "k": "cart",
+      "x": 0.82,
+      "s": 0.5,
+      "label": "VILLAGE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "catherine",
+   "say": "What a lovely village. It looks very familiar.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "catherine"
+   }
+  },
+  {
+   "who": "potemkin",
+   "say": "Er... all our villages look like that, Your Majesty.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "potemkin",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "potemkin"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But that legend came from a diplomat who disliked Potemkin, wasn't on the trip, and wrote it years later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "helbig",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "RUMORS"
+     }
+    ],
+    "tag": {
+     "id": "helbig",
+     "text": "Georg von Helbig, Saxon diplomat"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Potemkin did dress up towns for her, but historians say the fake villages were mostly invented.",
+   "show": {
+    "k": "card",
+    "label": "The fake village story",
+    "big": "MOSTLY MYTH",
+    "sub": "written down years after the trip"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "potemkin",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The most famous fake in history is mostly fake itself.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #russia #catherinethegreat #historymyths #historytok",
+ "youtube_title": "The Potemkin Village Story Is Mostly Fake #shorts",
+ "tags": [
+  "potemkin village",
+  "catherine the great",
+  "history myths",
+  "russia history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Potemkin_village",
+  "https://britannica.com/print/article/2226632",
+  "https://www.straightdope.com/21343610/did-potemkin-villages-really-exist",
+  "https://wordhistories.net/2023/05/08/potemkin-village/"
+ ]
+}

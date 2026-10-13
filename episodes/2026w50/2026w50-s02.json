@@ -1,0 +1,270 @@
+{
+ "id": "2026w50-s02",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "Russia's October Revolution Happened in November",
+ "hook": "OCTOBER... IN NOVEMBER?",
+ "topic": "October Revolution",
+ "music": "playful",
+ "cast": {
+  "sailor": {
+   "preset": "sailor",
+   "hat": "sailorcap",
+   "skin": "light",
+   "stache": "brush",
+   "hold": "rifle"
+  },
+  "brit": {
+   "preset": "businessman",
+   "hat": "bowler",
+   "stache": "handlebar",
+   "hairColor": "#8A6A4A",
+   "skin": "light",
+   "hold": "letter"
+  },
+  "worker": {
+   "preset": "worker",
+   "hat": "cap",
+   "skin": "light",
+   "hold": "flag",
+   "flagColor": "#C8202A"
+  }
+ },
+ "voices": {
+  "sailor": "am_fenrir",
+  "brit": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Russia's famous October Revolution actually happened in November.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "OCTOBER?"
+     }
+    ],
+    "place": "Petrograd, Russia · 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1917, Russia still used the Julian calendar, an old system from the days of Julius Caesar.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "JULIAN CALENDAR"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most of Europe had switched to the newer Gregorian calendar long before. By 1917, Russia had fallen thirteen days behind.",
+   "show": {
+    "k": "card",
+    "label": "Russia's calendar was behind by",
+    "big": "13 DAYS",
+    "sub": "compared with most of Europe"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So when the Bolsheviks, Lenin's communist party, seized power on October 25th, the rest of Europe saw a different date.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "pose": "aim",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "artillery",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.45,
+      "flag": "red"
+     }
+    ],
+    "place": "Winter Palace, Petrograd"
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "Big news! Revolution! October 25th!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.82,
+      "s": 0.45,
+      "text": "25 OCT"
+     }
+    ],
+    "cam": "close",
+    "focus": "sailor"
+   }
+  },
+  {
+   "who": "brit",
+   "say": "Mate, it's November 7th.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "brit",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.82,
+      "s": 0.45,
+      "text": "7 NOV"
+     }
+    ],
+    "cam": "close",
+    "focus": "brit"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1918, the new government switched calendars. Russia went straight from January 31st to February 14th.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.88,
+      "s": 0.4,
+      "text": "JAN 31 → FEB 14"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the name stuck. It's still called the October Revolution.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "OCTOBER (NOVEMBER)"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "brit",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Why Russia's October Revolution was in November.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #russia #russianrevolution #calendar #historytok",
+ "youtube_title": "Russia's October Revolution Happened in November #shorts",
+ "tags": [
+  "october revolution",
+  "russian revolution",
+  "julian calendar",
+  "russia history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/October_Revolution",
+  "https://soviethistory.msu.edu/1917/new-letters-and-dates/",
+  "https://exhibitions.lib.cam.ac.uk/revolutionthefirstbolshevikyear/?p=101",
+  "https://prlib.ru/en/node/619010"
+ ]
+}

@@ -1,0 +1,294 @@
+{
+ "id": "2026w50-s11",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "A Scrap Dealer Almost Melted a Tsar's Golden Egg",
+ "hook": "HE ALMOST MELTED IT",
+ "topic": "Fabergé Egg",
+ "music": "playful",
+ "cast": {
+  "alex3": {
+   "preset": "king",
+   "outfit": "uniform",
+   "color": "#2A3A5A",
+   "beard": "full",
+   "hair": "bald",
+   "hairColor": "#8A6A4A",
+   "skin": "light",
+   "name": "Tsar Alexander III"
+  },
+  "maria": {
+   "preset": "queen",
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#E8D8E8",
+   "hairColor": "#3A2A1A",
+   "skin": "peach",
+   "name": "Empress Maria Feodorovna"
+  },
+  "dealer": {
+   "preset": "worker",
+   "hat": "cap",
+   "skin": "light",
+   "stubble": true,
+   "outfit": "overalls",
+   "color": "#3A5A8A"
+  }
+ },
+ "voices": {
+  "dealer": "am_puck",
+  "maria": "bf_alice"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A scrap dealer almost melted down a golden egg made for a Russian empress.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "GOLD EGG?"
+     }
+    ],
+    "place": "American Midwest · early 2010s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1887, Tsar Alexander the Third gave his wife an Easter egg made by the jeweler Fabergé.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alex3",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "maria",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "St. Petersburg · 1887",
+    "tag": {
+     "id": "alex3",
+     "text": "Tsar Alexander III"
+    }
+   }
+  },
+  {
+   "who": "maria",
+   "say": "Oh! It opens, and there's a little watch inside!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "maria",
+      "x": 0.5,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "maria"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After the revolution, the Soviets sold off royal treasures, and this egg vanished for decades.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "shock",
+      "s": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.6,
+      "s": 0.5,
+      "label": "SOLD"
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "soviet"
+     }
+    ],
+    "place": "Moscow · 1922"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Decades later, an American dealer bought it for about fourteen thousand dollars, for the gold.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "FLEA MARKET"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$14,000",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "dealer",
+   "say": "Nobody wants it? Guess I'll melt it down.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "dealer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he googled the name on the watch and found an article about a lost Fabergé egg.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LOST EGG FOUND",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "London experts confirmed it: reportedly worth around thirty-three million dollars.",
+   "show": {
+    "k": "card",
+    "label": "The Third Imperial Egg's reported value",
+    "big": "$33 MILLION",
+    "sub": "bought for about $14,000"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "dealer",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "maria",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He paid $14,000 for scrap gold. It was a lost Fabergé egg.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #faberge #russia #romanov #historytok",
+ "youtube_title": "A Scrap Dealer Almost Melted a Tsar's Golden Egg #shorts",
+ "tags": [
+  "faberge egg",
+  "third imperial egg",
+  "romanov",
+  "lost treasure",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Third_Imperial_(Faberg%C3%A9_egg)",
+  "https://edition.cnn.com/style/article/faberge-third-imperial-egg",
+  "https://apollo-magazine.com/?p=86831",
+  "https://www.wtkr.com/2014/03/21/scrap-metal-find-turns-out-to-be-33-million-faberge-golden-egg"
+ ]
+}

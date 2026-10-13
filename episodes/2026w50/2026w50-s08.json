@@ -1,0 +1,309 @@
+{
+ "id": "2026w50-s08",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "The Prince Who Went Shopping for a Religion",
+ "hook": "SHOPPING FOR A RELIGION",
+ "topic": "Vladimir the Great",
+ "music": "playful",
+ "cast": {
+  "vladimir": {
+   "preset": "king",
+   "outfit": "fur",
+   "color": "#8A2A2A",
+   "stache": "handlebar",
+   "hairColor": "#6A4A2A",
+   "hair": "long",
+   "skin": "light",
+   "name": "Prince Vladimir of Kyiv"
+  },
+  "envoy": {
+   "preset": "noble",
+   "outfit": "robe",
+   "color": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "scroll"
+  },
+  "anna_b": {
+   "preset": "princess",
+   "skin": "olive",
+   "hairColor": "#2A1A10",
+   "name": "Princess Anna of Byzantium"
+  }
+ },
+ "voices": {
+  "vladimir": "bm_daniel",
+  "envoy": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Around the year 987, a prince went shopping for a religion. At least, that's the story.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "vladimir",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "place": "Kyiv · 980s",
+    "tag": {
+     "id": "vladimir",
+     "text": "Prince Vladimir, ruler of Kyivan Rus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vladimir ruled Kyivan Rus, a big medieval state, and wanted one faith for his people.",
+   "show": {
+    "k": "map",
+    "lon": 33.0,
+    "lat": 50.0,
+    "z0": 1.6,
+    "z1": 1.9,
+    "date": "about 987",
+    "labels": [
+     [
+      "KYIV",
+      30.5,
+      50.45,
+      0
+     ],
+     [
+      "CONSTANTINOPLE",
+      28.98,
+      41.0,
+      0
+     ],
+     [
+      "VOLGA BULGARIA",
+      49.0,
+      55.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      30.5,
+      50.45
+     ],
+     [
+      30.0,
+      46.0
+     ],
+     [
+      28.98,
+      41.0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The chronicle says he sent envoys to check out his neighbors' religions.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "envoy",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.45,
+      "text": "RELIGIONS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "envoy",
+   "say": "Islam, my prince? Lovely, but no alcohol.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "envoy",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.82,
+      "s": 0.45,
+      "text": "NO WINE"
+     }
+    ],
+    "cam": "close",
+    "focus": "envoy"
+   }
+  },
+  {
+   "who": "vladimir",
+   "say": "Drinking is the joy of the Rus. Next!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "vladimir",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug",
+      "hold": "goblet"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "vladimir"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Constantinople, they saw the giant church of Hagia Sophia, and didn't know if they were in heaven or on earth.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "envoy",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.6
+     },
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "place": "Constantinople · 980s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So around 988, Vladimir chose Orthodox Christianity. It also let him marry the Byzantine emperor's sister, Anna.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "vladimir",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "anna_b",
+      "x": 0.65,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.88,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "anna_b",
+     "text": "Anna, Byzantine princess"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That choice still shapes Russia, a thousand years later.",
+   "show": {
+    "k": "card",
+    "label": "Baptism of the Rus",
+    "big": "988",
+    "sub": "Orthodox Christianity arrives"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "vladimir",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "envoy",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A medieval prince 'shopped' for a religion. Drinking was a dealbreaker.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #russia #medievalhistory #vladimir #historytok",
+ "youtube_title": "The Prince Who Went Shopping for a Religion #shorts",
+ "tags": [
+  "vladimir the great",
+  "kievan rus",
+  "christianization",
+  "medieval history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://christianhistoryinstitute.org/magazine/article/vladimir-adopts-christianity",
+  "https://en.wikipedia.org/wiki/Christianization_of_Kievan_Rus%27",
+  "https://www.newworldencyclopedia.org/entry/Vladimir_I_of_Kiev",
+  "https://orthodoxwiki.org/Baptism_of_Rus%27"
+ ]
+}

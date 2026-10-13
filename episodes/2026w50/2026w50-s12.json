@@ -1,0 +1,302 @@
+{
+ "id": "2026w50-s12",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "Russia Once Had a Fort in California",
+ "hook": "RUSSIANS IN CALIFORNIA",
+ "topic": "Fort Ross",
+ "music": "playful",
+ "cast": {
+  "kuskov": {
+   "preset": "merchant",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "stache": "bush",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Ivan Kuskov"
+  },
+  "hunter": {
+   "preset": "peasant",
+   "outfit": "fur",
+   "color": "#8A6A4A",
+   "skin": "tan",
+   "hair": "long",
+   "hairColor": "#1A1A1A",
+   "hold": "spear"
+  },
+  "sutter": {
+   "preset": "businessman",
+   "hat": "tophat",
+   "hairColor": "#8A6A4A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "John Sutter"
+  }
+ },
+ "voices": {
+  "kuskov": "bm_george",
+  "hunter": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1812, Russia built a fort in California.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "kuskov",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.8,
+      "label": "FORT ROSS",
+      "flag": "russia"
+     }
+    ],
+    "place": "Fort Ross, California · 1812"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Russia already owned Alaska, where traders got rich selling sea otter furs.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "hunter",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "OTTER FURS"
+     }
+    ],
+    "place": "Russian Alaska · 1800s",
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They wanted more otters and a place to grow food, so they sailed south down the coast.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "kuskov",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.8,
+      "flag": "russia",
+      "move": [
+       0.6,
+       0.75
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "kuskov",
+   "say": "This cove will do nicely. Start building!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kuskov",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "kuskov",
+    "tag": {
+     "id": "kuskov",
+     "text": "Ivan Kuskov, Russian trader"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "About twenty-five Russians and eighty Native Alaskan hunters built the fort.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "hunter",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     },
+     {
+      "id": "kuskov",
+      "x": 0.6,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But within a few years they'd hunted the local sea otters almost to extinction.",
+   "show": {
+    "k": "card",
+    "label": "Sea otters near Fort Ross by the 1820s",
+    "big": "ALMOST GONE",
+    "sub": "hunted out for their fur"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1841, Russia sold the fort to a settler named John Sutter for about thirty thousand dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "kuskov",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "place": "California · 1841",
+    "tag": {
+     "id": "sutter",
+     "text": "John Sutter, settler"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seven years later, gold was found at Sutter's mill. That kicked off the California Gold Rush.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.45,
+      "label": "SUTTER'S MILL"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD!",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kuskov",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sutter",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "There was a Russian fort in California for 29 years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #california #russia #fortross #historytok",
+ "youtube_title": "Russia Once Had a Fort in California #shorts",
+ "tags": [
+  "fort ross",
+  "russian california",
+  "sea otters",
+  "california history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.history.com/this-day-in-history/september-11/russians-establish-fort-ross",
+  "https://californiacoastaltrail.org/2002/06/the-russians-at-fort-ross/",
+  "https://en.wikipedia.org/wiki/Fort_Ross,_California",
+  "https://en.wikipedia.org/wiki/Rotchev_House",
+  "https://en.wikipedia.org/wiki/Sutter%27s_Mill"
+ ]
+}

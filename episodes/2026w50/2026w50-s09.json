@@ -1,0 +1,309 @@
+{
+ "id": "2026w50-s09",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "The Tsar Who Went Undercover in a Shipyard",
+ "hook": "THE UNDERCOVER TSAR",
+ "topic": "Peter the Great",
+ "music": "playful",
+ "cast": {
+  "peter": {
+   "preset": "noble",
+   "outfit": "coat",
+   "color": "#2F5A3A",
+   "color2": "#B8302A",
+   "hair": "curly",
+   "hairColor": "#2A1A10",
+   "stache": "thin",
+   "skin": "light",
+   "name": "Peter the Great"
+  },
+  "dutch": {
+   "preset": "worker",
+   "hat": "cap",
+   "skin": "light",
+   "beard": "full",
+   "hairColor": "#C89A5A",
+   "hold": "hammer"
+  }
+ },
+ "voices": {
+  "peter": "am_eric",
+  "dutch": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1697, the ruler of Russia went undercover as a shipyard worker.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "s": 1.2,
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.8,
+      "flag": "netherlands"
+     }
+    ],
+    "place": "Zaandam, Netherlands · 1697"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Peter the Great, Russia's young tsar, wanted to learn how Western Europe built its ships.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "neutral",
+      "s": 1.2
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.45,
+      "flag": "russia"
+     }
+    ],
+    "place": "Moscow · 1697",
+    "tag": {
+     "id": "peter",
+     "text": "Peter the Great, tsar of Russia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he joined a big Russian trip to Europe, the Grand Embassy, using a fake name: Peter Mikhailov.",
+   "show": {
+    "k": "map",
+    "lon": 20.0,
+    "lat": 55.0,
+    "z0": 1.4,
+    "z1": 1.6,
+    "date": "1697",
+    "labels": [
+     [
+      "MOSCOW",
+      37.6,
+      55.75,
+      0
+     ],
+     [
+      "RIGA",
+      24.1,
+      56.95,
+      0
+     ],
+     [
+      "AMSTERDAM",
+      4.9,
+      52.37,
+      0
+     ]
+    ],
+    "route": [
+     [
+      37.6,
+      55.75
+     ],
+     [
+      24.1,
+      56.95
+     ],
+     [
+      13.4,
+      52.5
+     ],
+     [
+      4.9,
+      52.37
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the Netherlands, he worked as a ship carpenter.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "s": 1.2,
+      "hold": "axe"
+     },
+     {
+      "id": "dutch",
+      "x": 0.7,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.4,
+      "label": "WOOD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "dutch",
+   "say": "New guy, you're... very tall.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "dutch",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "dutch"
+   }
+  },
+  {
+   "who": "peter",
+   "say": "I'm just Peter. A normal carpenter. Hand me that axe.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug",
+      "s": 1.2
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "peter"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Problem: Peter was over two meters tall. Crowds came to stare, so the disguise didn't fool anyone for long.",
+   "show": {
+    "k": "card",
+    "label": "Peter the Great's height",
+    "big": "OVER 2 M",
+    "sub": "about 6 foot 8"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He went home with shipbuilders and ideas, and built Russia a real navy.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy",
+      "s": 1.2
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.8,
+      "flag": "russia"
+     },
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.6,
+      "flag": "russia"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "dutch",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A 6-foot-8 tsar tried to go undercover. It went about how you'd expect.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #russia #peterthegreat #netherlands #historytok",
+ "youtube_title": "The Tsar Who Went Undercover in a Shipyard #shorts",
+ "tags": [
+  "peter the great",
+  "grand embassy",
+  "zaandam",
+  "russian navy",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great",
+  "https://en.wikipedia.org/wiki/Czar_Peter_House_(Netherlands)",
+  "https://en.wikipedia.org/wiki/Peter_the_Great",
+  "https://www.scmp.com/article/673417/peter-great"
+ ]
+}

@@ -1,0 +1,310 @@
+{
+ "id": "2026w50-s03",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "Catherine the Great Wasn't Russian",
+ "hook": "SHE WASN'T EVEN RUSSIAN",
+ "topic": "Catherine the Great",
+ "music": "playful",
+ "cast": {
+  "catherine": {
+   "preset": "queen",
+   "hat": "crown",
+   "outfit": "gown",
+   "color": "#E8E0D0",
+   "color2": "#2F5A8A",
+   "hairColor": "#8A8A8A",
+   "skin": "peach",
+   "name": "Catherine the Great"
+  },
+  "sophie": {
+   "preset": "princess",
+   "hat": "tiara",
+   "skin": "peach",
+   "hairColor": "#6A4A2A",
+   "name": "Princess Sophie, age 14"
+  },
+  "peter3": {
+   "preset": "noble",
+   "outfit": "uniform",
+   "color": "#2F5A3A",
+   "hairColor": "#DDDDDD",
+   "skin": "light",
+   "name": "Peter III"
+  },
+  "guard": {
+   "preset": "grenadier",
+   "hat": "tricorn",
+   "color": "#2F5A3A",
+   "skin": "light",
+   "stache": "bush"
+  }
+ },
+ "voices": {
+  "catherine": "bf_emma",
+  "guard": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Russia's most famous empress wasn't Russian at all.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.45,
+      "flag": "russia"
+     }
+    ],
+    "place": "St. Petersburg, Russia · 1760s",
+    "tag": {
+     "id": "catherine",
+     "text": "Catherine the Great"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Catherine the Great was born in 1729 as Sophie, a princess from a small German state.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "sophie",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "place": "Stettin, Prussia · 1729",
+    "tag": {
+     "id": "sophie",
+     "text": "Princess Sophie"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "At fourteen, she traveled to Russia to marry the heir to the throne.",
+   "show": {
+    "k": "map",
+    "lon": 23.0,
+    "lat": 56.5,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "1744",
+    "labels": [
+     [
+      "STETTIN",
+      14.55,
+      53.43,
+      0
+     ],
+     [
+      "ST. PETERSBURG",
+      30.3,
+      59.94,
+      0
+     ],
+     [
+      "MOSCOW",
+      37.6,
+      55.75,
+      0
+     ]
+    ],
+    "route": [
+     [
+      14.55,
+      53.43
+     ],
+     [
+      20.5,
+      54.7
+     ],
+     [
+      24.1,
+      56.95
+     ],
+     [
+      30.3,
+      59.94
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She learned Russian, joined the Orthodox Church, and took a new name: Catherine.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "sophie",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "SOPHIE → CATHERINE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1762 her husband became Tsar Peter the Third, and he quickly made powerful enemies.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "peter3",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "tag": {
+     "id": "peter3",
+     "text": "Tsar Peter III"
+    }
+   }
+  },
+  {
+   "who": "guard",
+   "say": "Your Majesty, the guards are with you.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "happy"
+     },
+     {
+      "id": "catherine",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "guard"
+   }
+  },
+  {
+   "who": "catherine",
+   "say": "Then let's go.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "russia"
+     }
+    ],
+    "cam": "close",
+    "focus": "catherine"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Six months into his reign, she took the throne in a coup. She went on to rule Russia for thirty-four years.",
+   "show": {
+    "k": "card",
+    "label": "Catherine's reign",
+    "big": "34 YEARS",
+    "sub": "1762 to 1796"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "catherine",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "guard",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Russia's greatest empress was born a German princess.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #russia #catherinethegreat #empress #historytok",
+ "youtube_title": "Catherine the Great Wasn't Russian #shorts",
+ "tags": [
+  "catherine the great",
+  "russian empress",
+  "russia history",
+  "romanov",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Catherine_the_Great",
+  "https://www.worldhistory.org/Catherine_the_Great/",
+  "https://www.newworldencyclopedia.org/entry/Catherine_the_Great_of_Russia"
+ ]
+}

@@ -1,0 +1,316 @@
+{
+ "id": "2026w50-s07",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "Russia's First Rulers Were Invited Vikings",
+ "hook": "THEY INVITED THE VIKINGS",
+ "topic": "Rurik",
+ "music": "playful",
+ "cast": {
+  "rurik": {
+   "preset": "viking",
+   "beard": "full",
+   "hairColor": "#D8B060",
+   "skin": "light",
+   "hold": "axe",
+   "name": "Rurik"
+  },
+  "slav": {
+   "preset": "peasant",
+   "outfit": "tunic",
+   "color": "#D8D0B8",
+   "beard": "long",
+   "hairColor": "#B89A6A",
+   "skin": "light",
+   "hold": "spear"
+  },
+  "slav2": {
+   "preset": "peasant",
+   "outfit": "tunic",
+   "color": "#7A5A3A",
+   "stache": "walrus",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "axe"
+  },
+  "monk": {
+   "preset": "monk",
+   "skin": "light",
+   "beard": "long",
+   "hairColor": "#8A8A8A",
+   "hold": "pen"
+  }
+ },
+ "voices": {
+  "rurik": "am_fenrir",
+  "slav": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Russia's oldest history book says its first rulers were invited Vikings.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "rurik",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.7,
+      "s": 0.8,
+      "move": [
+       0.6,
+       0.75
+      ]
+     }
+    ],
+    "place": "Baltic Sea · 800s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 800s, Slavic and Finnish tribes lived around Novgorod, in what's now northwest Russia.",
+   "show": {
+    "k": "map",
+    "lon": 28.0,
+    "lat": 58.0,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "about 860",
+    "labels": [
+     [
+      "NOVGOROD",
+      31.3,
+      58.5,
+      0
+     ],
+     [
+      "SCANDINAVIA",
+      15.0,
+      61.0,
+      0
+     ],
+     [
+      "BALTIC SEA",
+      20.0,
+      58.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      18.0,
+      59.3
+     ],
+     [
+      22.0,
+      59.5
+     ],
+     [
+      28.0,
+      59.9
+     ],
+     [
+      31.3,
+      58.5
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The chronicle says the tribes kept fighting each other, so they sent a message across the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "slav",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "slav2",
+      "x": 0.65,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "slav",
+   "say": "Our land is great and rich, but there is no order in it. Come and rule over us!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "slav",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.82,
+      "s": 0.45,
+      "text": "COME RULE US"
+     }
+    ],
+    "cam": "close",
+    "focus": "slav"
+   }
+  },
+  {
+   "who": "rurik",
+   "say": "A free kingdom? Say no more.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "rurik",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "longship",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "rurik"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 862, a Viking named Rurik came to rule Novgorod. His people, the Rus, gave Russia its name.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "rurik",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.7,
+      "label": "NOVGOROD"
+     }
+    ],
+    "place": "Novgorod · 862",
+    "tag": {
+     "id": "rurik",
+     "text": "Rurik, Viking chief"
+    },
+    "stickers": [
+     {
+      "text": "RUS → RUSSIA",
+      "at": 2.0,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One catch: the chronicle was written about two hundred fifty years later. Historians aren't sure Rurik even existed.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "WRITTEN ~1113"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND?",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rurik",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "slav",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Russia's oldest chronicle says they invited Vikings to rule them.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vikings #russia #rurik #historytok",
+ "youtube_title": "Russia's First Rulers Were Invited Vikings #shorts",
+ "tags": [
+  "rurik",
+  "vikings",
+  "kievan rus",
+  "russia history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://pages.uoregon.edu/kimball/chronicle.htm",
+  "https://en.wikipedia.org/wiki/Rurik",
+  "https://en.wikipedia.org/wiki/Primary_Chronicle",
+  "https://www.cambridge.org/core/books/cambridge-history-of-russia/origins-of-rus-c9001015/30965BBE4E9DE15FEED00EC879D7710A"
+ ]
+}

@@ -1,0 +1,289 @@
+{
+ "id": "2026w50-s01",
+ "format": "short",
+ "date": "2026-12-07",
+ "slot": "09:00",
+ "title": "Russia Sold Alaska for 2 Cents an Acre",
+ "hook": "ALASKA FOR 2 CENTS?",
+ "topic": "Alaska Purchase",
+ "music": "playful",
+ "cast": {
+  "seward": {
+   "preset": "businessman",
+   "hat": "tophat",
+   "hairColor": "#CCCCCC",
+   "skin": "light",
+   "name": "William Seward"
+  },
+  "stoeckl": {
+   "preset": "noble",
+   "outfit": "suit",
+   "color": "#2A2A3A",
+   "stache": "bush",
+   "hairColor": "#5A4A3A",
+   "skin": "light",
+   "name": "Eduard de Stoeckl"
+  }
+ },
+ "voices": {
+  "seward": "am_eric",
+  "stoeckl": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1867, Russia sold Alaska to the United States for about two cents an acre.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "stoeckl",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.65,
+      "s": 0.6,
+      "text": "ALASKA FOR SALE"
+     },
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "russia"
+     }
+    ],
+    "place": "Alaska · 1867"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Alaska was far from Russia's capital, hard to defend, and its fur trade was fading.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "stoeckl",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "FURS"
+     },
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Russia feared Britain, next door in Canada, might just grab it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "stoeckl",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.8,
+      "flag": "uk"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Russia's diplomat Eduard de Stoeckl made a deal with America's Secretary of State, William Seward.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "stoeckl",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "seward",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "place": "Washington, D.C. · March 1867",
+    "tag": {
+     "id": "seward",
+     "text": "William Seward, U.S. Secretary of State"
+    }
+   }
+  },
+  {
+   "who": "stoeckl",
+   "say": "Seven point two million dollars, and it's all yours.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "stoeckl",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "stoeckl"
+   }
+  },
+  {
+   "who": "seward",
+   "say": "Deal. Let's sign it tonight.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "seward",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.45,
+      "text": "TREATY"
+     }
+    ],
+    "cam": "close",
+    "focus": "seward"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They really did finish the treaty overnight. The price worked out to about two cents an acre.",
+   "show": {
+    "k": "card",
+    "label": "Price of Alaska in 1867",
+    "big": "$7.2 MILLION",
+    "sub": "about 2 cents an acre"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later, gold and oil turned up in Alaska. Not a bad deal.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "seward",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.45,
+      "flag": "usa1859"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD!",
+      "at": 1.2,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "seward",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "stoeckl",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Russia sold Alaska for about 2 cents an acre.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #alaska #russia #ushistory #historytok",
+ "youtube_title": "Russia Sold Alaska for 2 Cents an Acre #shorts",
+ "tags": [
+  "alaska purchase",
+  "seward's folly",
+  "russia",
+  "alaska history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Alaska_Purchase",
+  "https://www.britannica.com/print/article/12326",
+  "https://www.history.com/articles/why-the-purchase-of-alaska-was-far-from-folly",
+  "https://www.loc.gov/item/today-in-history/march-30/"
+ ]
+}
