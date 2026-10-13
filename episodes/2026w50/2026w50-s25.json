@@ -22,15 +22,6 @@
   "maid": {
    "preset": "peasantW",
    "name": "London servant"
-  },
-  "harley": {
-   "skin": "light",
-   "hair": "long",
-   "hairColor": "#D8D2C4",
-   "outfit": "coat",
-   "color": "#262322",
-   "color2": "#E8DCC0",
-   "name": "Robert Harley"
   }
  },
  "voices": {
@@ -75,27 +66,29 @@
    "say": "It was the South Sea Company, which promised riches from trade with South America.",
    "show": {
     "k": "scene",
-    "bg": "office",
-    "cast": [
+    "bg": "sea",
+    "cast": [],
+    "stickers": [
      {
-      "id": "harley",
-      "x": 0.4,
-      "mood": "smug",
-      "pose": "present"
+      "text": "SOUTH AMERICA TRADE",
+      "at": 1.0
      }
     ],
     "objects": [
      {
-      "k": "scrollbig",
-      "x": 0.72,
-      "s": 0.5,
-      "text": "DEBT → SHARES"
+      "k": "sailship",
+      "x": 0.35,
+      "flag": "uk1606",
+      "label": "South Sea Co."
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.8,
+      "flag": "spain_burgundy",
+      "flip": true
      }
-    ],
-    "tag": {
-     "id": "harley",
-     "text": "Robert Harley, company founder"
-    }
+    ]
    }
   },
   {

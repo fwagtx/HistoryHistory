@@ -117,7 +117,7 @@
   },
   {
    "who": "N",
-   "say": "So he packed mathematicians, chemists, engineers and artists, led by the mathematician Gaspard Monge.",
+   "say": "So he packed mathematicians, chemists, engineers and artists, including the famous mathematician Gaspard Monge.",
    "show": {
     "k": "scene",
     "bg": "deck",
@@ -203,10 +203,37 @@
    "who": "N",
    "say": "While the army fought, the scholars measured temples, drew maps, and collected animals and plants.",
    "show": {
-    "k": "card",
-    "label": "Scholars who went with the army",
-    "big": "ABOUT 167",
-    "sub": "mathematicians, chemists, engineers, artists"
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "monge",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.62,
+      "s": 0.6
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.82,
+      "s": 0.4,
+      "text": "MEASURE EVERYTHING"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABOUT 167 SCHOLARS",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
    }
   },
   {
@@ -248,7 +275,7 @@
   },
   {
    "who": "N",
-   "say": "The army lost. But the scholars' books, the Description of Egypt, made Europe crazy about ancient Egypt.",
+   "say": "The army eventually lost. But the scholars' books, the Description of Egypt, made Europe crazy about ancient Egypt.",
    "show": {
     "k": "scene",
     "bg": "library",

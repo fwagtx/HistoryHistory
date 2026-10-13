@@ -5,7 +5,7 @@
  "slot": "09:00",
  "title": "Napoleon Made France Grow Sugar Beets",
  "hook": "NAPOLEON'S SUGAR BEETS",
- "topic": "Napoleon",
+ "topic": "Napoleon's Sugar Beets",
  "music": "playful",
  "cast": {
   "napoleon": {
@@ -27,6 +27,10 @@
    "skin": "light",
    "glasses": "round",
    "name": "Historian"
+  },
+  "farmer": {
+   "preset": "farmer",
+   "name": "French farmer"
   }
  },
  "voices": {
@@ -64,7 +68,7 @@
   },
   {
    "who": "N",
-   "say": "In 1806, Napoleon banned Europe from trading with Britain. Britain's navy blocked French ports right back.",
+   "say": "In 1806, Napoleon banned Europe from trading with Britain. Britain's navy hit back by blocking ships headed for France.",
    "show": {
     "k": "scene",
     "bg": "ocean",
@@ -191,7 +195,7 @@
   },
   {
    "who": "N",
-   "say": "In 1812, he visited Benjamin Delessert's sugar factory near Paris, and gave him France's top award.",
+   "say": "In 1812, he visited banker Benjamin Delessert's beet sugar factory near Paris, and gave him France's top medal.",
    "show": {
     "k": "scene",
     "bg": "factory",
@@ -232,11 +236,10 @@
     "bg": "field",
     "cast": [
      {
-      "id": "delessert",
+      "id": "farmer",
       "x": 0.38,
-      "pose": "hold",
-      "mood": "happy",
-      "hold": "moneybag"
+      "pose": "cheer",
+      "mood": "happy"
      }
     ],
     "objects": [
