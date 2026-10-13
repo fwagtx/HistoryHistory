@@ -1,0 +1,254 @@
+{
+ "id": "2026w50-s29",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "A Scottish Gambler Talked France Into Paper Money",
+ "hook": "FRANCE BET ON PAPER",
+ "topic": "John Law",
+ "music": "playful",
+ "cast": {
+  "law": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#5A3A22",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2F4A7A",
+   "color2": "#E8C25A",
+   "name": "John Law"
+  },
+  "regent": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#2F4AA0",
+   "color2": "#D4A52A",
+   "stache": "thin",
+   "name": "Philippe, Duke of Orléans"
+  },
+  "louis15": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F4AA0",
+   "color2": "#D4A52A",
+   "hair": "long",
+   "hairColor": "#8A6A3A",
+   "name": "King Louis XV, age 5"
+  }
+ },
+ "voices": {
+  "law": "bm_lewis",
+  "regent": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1716, a Scottish gambler talked France into a giant experiment with paper money.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "place": "Paris · 1716",
+    "tag": {
+     "id": "law",
+     "text": "John Law, Scottish gambler"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "France was drowning in debt after King Louis the fourteenth died. The new king was only five.",
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "KINGDOM OF FRANCE",
+    "sub": "deep in debt, 1715",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So a regent, Philippe, Duke of Orléans, ruled for him. John Law made his pitch.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "louis15",
+      "x": 0.25,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "regent",
+      "x": 0.48,
+      "mood": "neutral",
+      "pose": "think"
+     },
+     {
+      "id": "law",
+      "x": 0.75,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "regent",
+     "text": "Philippe, Duke of Orléans"
+    }
+   }
+  },
+  {
+   "who": "law",
+   "say": "Paper notes from my bank will get trade moving again!"
+  },
+  {
+   "who": "regent",
+   "say": "Paper? Instead of gold? Go on."
+  },
+  {
+   "who": "N",
+   "say": "Law opened a bank, then took over the Mississippi Company, selling shares in French trade with Louisiana.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "LOUISIANA"
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Share prices rose about twenty times in a year. Then, in 1720, the whole system crashed.",
+   "show": {
+    "k": "card",
+    "label": "Mississippi Company shares (livres)",
+    "big": "500 → 10,000",
+    "sub": "1719, then the crash",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.82,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Law fled France and died poor in Venice in 1729.",
+   "show": {
+    "k": "map",
+    "lon": 7.5,
+    "lat": 47.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1720–1729",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Venice",
+      12.33,
+      45.44,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      12.33,
+      45.44
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "regent",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "France let a gambler run its money. Here's what happened.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #johnlaw #papermoney #france #moneyhistory",
+ "youtube_title": "A Scottish Gambler Talked France Into Paper Money #shorts",
+ "tags": [
+  "john law",
+  "paper money",
+  "mississippi company",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/John_Law_(economist)",
+  "https://www.undiscoveredscotland.co.uk/usbiography/l/johnlaw.html",
+  "https://en.wikipedia.org/wiki/Mississippi_Company",
+  "https://mshistory.mdah.ms.gov/issue/john-law-and-the-mississippi-bubble-1718-1720"
+ ]
+}

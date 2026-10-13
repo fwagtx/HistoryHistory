@@ -1,0 +1,239 @@
+{
+ "id": "2026w50-s32",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "The Company That Wouldn't Say What It Did (Probably a Legend)",
+ "hook": "A TOP SECRET COMPANY?",
+ "topic": "South Sea Bubble",
+ "music": "playful",
+ "cast": {
+  "londoner": {
+   "preset": "peasant",
+   "hat": "tricorn",
+   "hatColor": "#4A3A2A",
+   "name": "Londoner"
+  },
+  "friend": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#9A8A7A",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#2F6A4A",
+   "color2": "#E8DCC0",
+   "name": "London investor"
+  },
+  "maid": {
+   "preset": "peasantW",
+   "name": "London servant"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "The story goes that in 1720, a London company asked for money without saying what it would do.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.55,
+      "text": "??? SECRET ???"
+     }
+    ],
+    "place": "London · 1720",
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its pitch: an undertaking of great advantage, but nobody to know what it is.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "londoner",
+   "say": "Give me your money. I'll tell you what it's for later!"
+  },
+  {
+   "who": "N",
+   "say": "This was the South Sea Bubble, when London went crazy buying shares, or slices of companies.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.82,
+      "s": 0.4,
+      "text": "SOUTH SEA CO."
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legend says the man collected about two thousand pounds in a few hours, then vanished.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "run",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GONE!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the story was printed years later, and historians have never found proof it happened.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "PROOF?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So it's probably a legend. But plenty of real 1720 schemes were almost that vague.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "INVEST HERE!"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that might be made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "friend",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Give me money, I'll tell you what it's for later. Did that really happen?\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #southseabubble #historymyths #scams #moneyhistory",
+ "youtube_title": "The Company That Wouldn't Say What It Did (Probably a Legend) #shorts",
+ "tags": [
+  "south sea bubble",
+  "history myths",
+  "scams",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www-users.cse.umn.edu/~odlyzko/doc/mania17b.pdf",
+  "https://jasonzweig.com/?p=10272",
+  "https://en.wikipedia.org/wiki/South_Sea_Company"
+ ]
+}

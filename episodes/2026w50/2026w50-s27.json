@@ -1,0 +1,240 @@
+{
+ "id": "2026w50-s27",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "Newton's Famous Quote About 'Madness' May Be a Legend",
+ "hook": "DID NEWTON SAY THIS?",
+ "topic": "Isaac Newton",
+ "music": "playful",
+ "cast": {
+  "newton": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#EDEDED",
+   "outfit": "coat",
+   "color": "#5A2A2A",
+   "color2": "#E8DCC0",
+   "name": "Sir Isaac Newton"
+  },
+  "friend": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#9A8A7A",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#2F6A4A",
+   "color2": "#E8DCC0",
+   "name": "London investor"
+  }
+ },
+ "voices": {
+  "newton": "bm_fable",
+  "friend": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Isaac Newton supposedly said: I can calculate the motions of the heavenly bodies, but not the madness of people.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "place": "London · 1720",
+    "tag": {
+     "id": "newton",
+     "text": "Sir Isaac Newton, scientist"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND?",
+      "at": 1.2,
+      "color": "#5A5A5A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Newton was the genius who worked out how gravity moves the planets.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "telescope"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The line is about the South Sea Bubble of 1720, when London went crazy for shares.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "SOUTH SEA CO."
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story says someone asked him how high the price would go.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "newton",
+      "x": 0.68,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "friend",
+   "say": "So, Sir Isaac. How high will it go?"
+  },
+  {
+   "who": "newton",
+   "say": "Even I can't work that one out."
+  },
+  {
+   "who": "N",
+   "say": "But the quote comes from a secondhand story, written down in 1756, decades after Newton died.",
+   "show": {
+    "k": "card",
+    "label": "When the story was first written down",
+    "big": "1756",
+    "sub": "about 29 years after Newton's death",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.82,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So it may be a legend. What's real: Newton lost a lot when the bubble burst.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REAL LOSS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that might be made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "friend",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The most famous Newton money quote might not be his.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #isaacnewton #historymyths #southseabubble #historytok",
+ "youtube_title": "Newton's Famous Quote About 'Madness' May Be a Legend #shorts",
+ "tags": [
+  "isaac newton",
+  "newton quote",
+  "south sea bubble",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://physicstoday.aip.org/features/isaac-newton-and-the-perils-of-the-financial-south-sea",
+  "https://www.smithsonianmag.com/smart-news/market-crash-cost-newton-fortune-180961655/",
+  "https://wist.info/newton-isaac/45097/",
+  "https://thelowdown.momentum.asia/how-did-isaac-newton-become-a-failed-investor/"
+ ]
+}

@@ -1,0 +1,258 @@
+{
+ "id": "2026w50-s31",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "Britain Passed a Law Against 'Bubbles' in 1720",
+ "hook": "THEY BANNED BUBBLES",
+ "topic": "Bubble Act",
+ "music": "playful",
+ "cast": {
+  "mp": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#EDEDED",
+   "outfit": "robe",
+   "color": "#262322",
+   "glasses": "round",
+   "name": "Member of Parliament"
+  },
+  "londoner": {
+   "preset": "peasant",
+   "hat": "tricorn",
+   "hatColor": "#4A3A2A",
+   "name": "Londoner"
+  },
+  "friend": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#9A8A7A",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#2F6A4A",
+   "color2": "#E8DCC0",
+   "name": "London investor"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1720, Britain passed a law to stop bubbles. Then the biggest bubble of all burst anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "BUBBLE ACT"
+     }
+    ],
+    "place": "London · June 1720",
+    "tag": {
+     "id": "mp",
+     "text": "Member of Parliament"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That year, London went crazy for shares in the South Sea Company. A share is a small slice of a company.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "SOUTH SEA CO."
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A bubble is when prices float way above what something is really worth.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BUBBLE",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Copycat companies popped up everywhere, asking for money.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "INVEST HERE!"
+     }
+    ]
+   }
+  },
+  {
+   "who": "londoner",
+   "say": "Invest in my brilliant scheme! Details later!"
+  },
+  {
+   "who": "N",
+   "say": "So Parliament banned new companies that didn't have permission from the Crown.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some historians think the real goal was to protect the South Sea Company from rivals. It didn't help. By December, its shares had crashed.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CRASH",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Bubble Act stayed law until 1825.",
+   "show": {
+    "k": "card",
+    "label": "How long the Bubble Act lasted",
+    "big": "105 years",
+    "sub": "1720 to 1825",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.82,
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "londoner",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Britain banned bubble companies in 1720. Guess what happened next.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #bubbleact #southseabubble #britishhistory #moneyhistory",
+ "youtube_title": "Britain Passed a Law Against 'Bubbles' in 1720 #shorts",
+ "tags": [
+  "bubble act",
+  "south sea bubble",
+  "1720",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Bubble_Act",
+  "https://hull-repository.worktribe.com/output/4021692",
+  "https://en.wikipedia.org/wiki/South_Sea_Company",
+  "https://www.britannica.com/print/article/556389"
+ ]
+}

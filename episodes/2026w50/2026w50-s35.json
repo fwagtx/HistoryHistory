@@ -1,0 +1,267 @@
+{
+ "id": "2026w50-s35",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "After the South Sea Crash, a Minister Went to the Tower",
+ "hook": "WHO PAID FOR THE CRASH?",
+ "topic": "South Sea Bubble",
+ "music": "playful",
+ "cast": {
+  "mp": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#EDEDED",
+   "outfit": "robe",
+   "color": "#262322",
+   "glasses": "round",
+   "name": "Member of Parliament"
+  },
+  "maid": {
+   "preset": "peasantW",
+   "name": "London servant"
+  },
+  "aislabie": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#BFB8A8",
+   "outfit": "coat",
+   "color": "#3A2A6A",
+   "color2": "#E8DCC0",
+   "name": "John Aislabie"
+  },
+  "walpole": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#D8D2C4",
+   "outfit": "coat",
+   "color": "#2F5A3A",
+   "color2": "#E8DCC0",
+   "name": "Robert Walpole"
+  }
+ },
+ "voices": {
+  "aislabie": "am_adam",
+  "mp": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "After the South Sea crash of 1720, Britain went looking for someone to blame.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "place": "London · 1721",
+    "tag": {
+     "id": "mp",
+     "text": "Member of Parliament"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Shares in the South Sea Company had soared, then crashed. Thousands of people lost their savings.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "SOUTH SEA CO."
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CRASH",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Parliament investigated, and found the company had handed out shares to win powerful friends.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.4,
+      "mood": "shock",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "INQUIRY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One of them was the money minister, John Aislabie.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "aislabie",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "shrug"
+     },
+     {
+      "id": "mp",
+      "x": 0.65,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "aislabie",
+     "text": "John Aislabie, money minister"
+    }
+   }
+  },
+  {
+   "who": "aislabie",
+   "say": "I only did what everyone was doing!"
+  },
+  {
+   "who": "mp",
+   "say": "Then everyone will hear about it."
+  },
+  {
+   "who": "N",
+   "say": "Aislabie was thrown out of Parliament and locked in the Tower of London.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "aislabie",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "gate",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Tower of London · 1721"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile Robert Walpole helped calm the crisis, and became what many call Britain's first prime minister.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "walpole",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "tag": {
+     "id": "walpole",
+     "text": "Robert Walpole"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "walpole",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "aislabie",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "London lost its savings in 1720. Then Parliament went hunting for who to blame.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #southseabubble #robertwalpole #britishhistory #moneyhistory",
+ "youtube_title": "After the South Sea Crash, a Minister Went to the Tower #shorts",
+ "tags": [
+  "south sea bubble",
+  "robert walpole",
+  "john aislabie",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://wehd.com/bios/John_Aislabie.html",
+  "https://catalog.folger.edu/record/131863",
+  "https://blog.nationalarchives.gov.uk/sir-robert-walpole-britains-first-prime-minister",
+  "https://www.gov.uk/government/history/past-prime-ministers/robert-walpole",
+  "https://en.wikipedia.org/wiki/South_Sea_Company",
+  "https://www.britannica.com/print/article/556389"
+ ]
+}

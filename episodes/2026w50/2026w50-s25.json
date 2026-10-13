@@ -1,0 +1,299 @@
+{
+ "id": "2026w50-s25",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "This Stock Went From £128 to £1,000, Then Crashed",
+ "hook": "£128 TO £1,000",
+ "topic": "South Sea Bubble",
+ "music": "playful",
+ "cast": {
+  "friend": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#9A8A7A",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#2F6A4A",
+   "color2": "#E8DCC0",
+   "name": "London investor"
+  },
+  "maid": {
+   "preset": "peasantW",
+   "name": "London servant"
+  },
+  "harley": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#D8D2C4",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#E8DCC0",
+   "name": "Robert Harley"
+  }
+ },
+ "voices": {
+  "friend": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1720, one company's shares went from about one hundred twenty eight pounds to over one thousand. Then they crashed.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "SOUTH SEA CO."
+     }
+    ],
+    "place": "London · 1720",
+    "stickers": [
+     {
+      "text": "£128 → £1,000",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was the South Sea Company, which promised riches from trade with South America.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "harley",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "DEBT → SHARES"
+     }
+    ],
+    "tag": {
+     "id": "harley",
+     "text": "Robert Harley, company founder"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A share is a small slice of a company. Suddenly everyone wanted slices.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "coin"
+     },
+     {
+      "id": "friend",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.45,
+      "label": "SHARES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Buy South Sea! It only goes up!",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.4,
+      "mood": "shout",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "friend"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lords, shopkeepers and servants piled in. The price passed a thousand pounds.",
+   "show": {
+    "k": "card",
+    "label": "South Sea share price, 1720",
+    "big": "£1,000+",
+    "sub": "up from £128 in January",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.75,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But that price was way above what the company was really worth. That's a bubble.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BUBBLE",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the autumn, everyone rushed to sell. By December, a share was worth about one hundred twenty four pounds.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "run"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.45,
+      "text": "SELL!"
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "£124",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Less than where it started. Thousands lost their savings.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "maid",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The stock everyone in London bought in 1720, and how fast it fell.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #southseabubble #stockmarket #moneyhistory #historytok",
+ "youtube_title": "This Stock Went From £128 to £1,000, Then Crashed #shorts",
+ "tags": [
+  "south sea bubble",
+  "stock market crash",
+  "1720",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/South_Sea_Company",
+  "https://www.britannica.com/print/article/556389",
+  "https://historyrevealed.com/period/georgian/south-sea-bubble-what-when-why",
+  "https://libertystreeteconomics.newyorkfed.org/2011/07/historical-echoes-south-sea-bubble-deals-speculators-a-bad-hand"
+ ]
+}

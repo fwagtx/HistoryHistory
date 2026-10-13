@@ -1,0 +1,246 @@
+{
+ "id": "2026w50-s30",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "The Word 'Millionaire' Took Off in a 1719 Money Craze",
+ "hook": "THE FIRST MILLIONAIRES",
+ "topic": "Mississippi Bubble",
+ "music": "playful",
+ "cast": {
+  "parisian": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "hat": "tricorn",
+   "hatColor": "#2A2A2A",
+   "outfit": "coat",
+   "color": "#8A2A2A",
+   "color2": "#E8DCC0",
+   "name": "Paris investor"
+  },
+  "law": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#5A3A22",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2F4A7A",
+   "color2": "#E8C25A",
+   "name": "John Law"
+  }
+ },
+ "voices": {
+  "parisian": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The word millionaire took off during a money craze in Paris, three hundred years ago.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "parisian",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "place": "Paris · 1719",
+    "fx": [
+     "sparkle"
+    ],
+    "stickers": [
+     {
+      "text": "MILLIONAIRE",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It started with John Law, a Scottish gambler who was running France's money.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.42,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "tag": {
+     "id": "law",
+     "text": "John Law, Scottish gambler"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sold shares in the Mississippi Company, which controlled French trade with Louisiana. A share is a small slice of a company.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "LOUISIANA"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Crowds packed a narrow street, the Rue Quincampoix, buying and selling all day.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "parisian",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "cheer",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "place": "Rue Quincampoix, Paris · 1719",
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "parisian",
+   "say": "Last year I was nobody. Now I'm a millionaire!"
+  },
+  {
+   "who": "N",
+   "say": "Share prices jumped from about five hundred livres to ten thousand in a year.",
+   "show": {
+    "k": "card",
+    "label": "Mississippi Company shares (livres)",
+    "big": "500 → 10,000",
+    "sub": "1719",
+    "cast": [
+     {
+      "id": "parisian",
+      "x": 0.82,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The word was in print by 1720. Then the bubble burst, and plenty of millionaires went broke.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "parisian",
+      "x": 0.42,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BROKE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "parisian",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "law",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The word millionaire took off in a 1719 stock craze.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #millionaire #wordorigins #johnlaw #moneyhistory",
+ "youtube_title": "The Word 'Millionaire' Took Off in a 1719 Money Craze #shorts",
+ "tags": [
+  "millionaire",
+  "mississippi bubble",
+  "word origins",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mississippi_Company",
+  "https://mshistory.mdah.ms.gov/issue/john-law-and-the-mississippi-bubble-1718-1720",
+  "https://languagehat.com/millionaire",
+  "https://www.messynessychic.com/2020/03/24/the-birth-of-the-millionaire/"
+ ]
+}

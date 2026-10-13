@@ -1,0 +1,263 @@
+{
+ "id": "2026w50-s26",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "Isaac Newton Sold His Stock, Then Bought Back In Near the Top",
+ "hook": "NEWTON BOUGHT BACK IN",
+ "topic": "Isaac Newton",
+ "music": "playful",
+ "cast": {
+  "newton": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#EDEDED",
+   "outfit": "coat",
+   "color": "#5A2A2A",
+   "color2": "#E8DCC0",
+   "name": "Sir Isaac Newton"
+  },
+  "friend": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#9A8A7A",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#2F6A4A",
+   "color2": "#E8DCC0",
+   "name": "London investor"
+  }
+ },
+ "voices": {
+  "newton": "bm_fable",
+  "friend": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Isaac Newton, the genius who explained gravity, made one of history's most famous money mistakes.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "think",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "place": "London · 1720",
+    "tag": {
+     "id": "newton",
+     "text": "Sir Isaac Newton, scientist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1720, he owned shares in the South Sea Company, the hottest stock in London.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "SOUTH SEA CO."
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In April and May, he sold most of them for a big profit.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROFIT!",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the price kept climbing, and his friends kept getting richer.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     },
+     {
+      "id": "newton",
+      "x": 0.68,
+      "mood": "sad",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Isaac! It went up again!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "newton",
+      "x": 0.68,
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "friend"
+   }
+  },
+  {
+   "who": "newton",
+   "say": "Fine! Buy me back in!"
+  },
+  {
+   "who": "N",
+   "say": "In June, with the price sky high, he did. Then the bubble burst.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.45,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "SOUTH SEA CO."
+     }
+    ],
+    "cam": "shake",
+    "stickers": [
+     {
+      "text": "CRASH!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A mathematician who studied his records thinks Newton lost at least a third of his investments.",
+   "show": {
+    "k": "card",
+    "label": "Newton's investments lost in 1720",
+    "big": "1/3+",
+    "sub": "estimate by mathematician Andrew Odlyzko",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.82,
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So even a genius can follow the crowd. Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "friend",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Newton sold early, then couldn't stand watching his friends get rich.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #isaacnewton #southseabubble #moneyhistory #stockmarket",
+ "youtube_title": "Isaac Newton Sold His Stock, Then Bought Back In Near the Top #shorts",
+ "tags": [
+  "isaac newton",
+  "south sea bubble",
+  "investing",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://physicstoday.aip.org/features/isaac-newton-and-the-perils-of-the-financial-south-sea",
+  "https://www.smithsonianmag.com/smart-news/market-crash-cost-newton-fortune-180961655/",
+  "https://www-users.cse.umn.edu/~odlyzko/doc/mania13c.pdf",
+  "https://en.wikipedia.org/wiki/South_Sea_Company"
+ ]
+}

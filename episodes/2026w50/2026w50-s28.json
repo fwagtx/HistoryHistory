@@ -1,0 +1,295 @@
+{
+ "id": "2026w50-s28",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "He Escaped a Death Sentence, Then Ran France's Money",
+ "hook": "FROM DEATH ROW TO POWER",
+ "topic": "John Law",
+ "music": "playful",
+ "cast": {
+  "law": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#5A3A22",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2F4A7A",
+   "color2": "#E8C25A",
+   "name": "John Law"
+  },
+  "wilson": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#C9A26A",
+   "hat": "tricorn",
+   "hatColor": "#5A2A4A",
+   "outfit": "coat",
+   "color": "#8A3A6A",
+   "color2": "#E8DCC0",
+   "name": "Edward 'Beau' Wilson"
+  }
+ },
+ "voices": {
+  "law": "bm_lewis",
+  "wilson": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A man sentenced to death in London later ended up running all of France's money.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "GUILTY"
+     }
+    ],
+    "place": "London · 1694",
+    "tag": {
+     "id": "law",
+     "text": "John Law, Scottish gambler"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was John Law, a gambler born in Edinburgh, Scotland, in 1671.",
+   "show": {
+    "k": "map",
+    "lon": -2.0,
+    "lat": 53.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1671",
+    "labels": [
+     [
+      "Edinburgh",
+      -3.19,
+      55.95,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -3.19,
+      55.95
+     ],
+     [
+      -0.13,
+      51.5
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1694, a dandy named Edward Wilson challenged him to a sword duel in Bloomsbury Square.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "wilson",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point",
+      "hold": "sword"
+     },
+     {
+      "id": "law",
+      "x": 0.65,
+      "mood": "smug",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "place": "Bloomsbury Square, London · 1694",
+    "tag": {
+     "id": "wilson",
+     "text": "Edward 'Beau' Wilson"
+    }
+   }
+  },
+  {
+   "who": "wilson",
+   "say": "Draw your sword, Law!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "wilson",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "aim",
+      "hold": "sword"
+     },
+     {
+      "id": "law",
+      "x": 0.65,
+      "mood": "neutral",
+      "pose": "shrug",
+      "hold": "sword"
+     }
+    ],
+    "cam": "close",
+    "focus": "wilson"
+   }
+  },
+  {
+   "who": "law",
+   "say": "If you insist."
+  },
+  {
+   "who": "N",
+   "say": "One thrust, and Wilson was dead. Law was convicted of murder and sentenced to death.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.45,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEATH SENTENCE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in early 1695, he escaped from prison and fled across the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ESCAPED",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Twenty five years later, he was France's Controller General of Finances, basically its money boss.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.42,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "france_royal"
+     },
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Paris · 1720"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "wilson",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Duel, death sentence, prison escape... then he ran France's finances.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #johnlaw #scotland #france #historytok",
+ "youtube_title": "He Escaped a Death Sentence, Then Ran France's Money #shorts",
+ "tags": [
+  "john law",
+  "duel",
+  "mississippi bubble",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/John_Law_(economist)",
+  "https://www.undiscoveredscotland.co.uk/usbiography/l/johnlaw.html",
+  "https://www.onlondon.co.uk/vic-keegan-bloomsbury-squares-bloody-history/",
+  "https://en.wikipedia.org/wiki/Bloomsbury_Square"
+ ]
+}

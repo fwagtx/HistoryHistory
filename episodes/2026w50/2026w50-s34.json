@@ -1,0 +1,228 @@
+{
+ "id": "2026w50-s34",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "The South Sea Company Also Traded Enslaved People",
+ "hook": "THE BUBBLE'S DARK SIDE",
+ "topic": "South Sea Company",
+ "music": "tense",
+ "cast": {
+  "harley": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#D8D2C4",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#E8DCC0",
+   "name": "Robert Harley"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "The South Sea Company is famous for a stock crash. But it also traded enslaved people.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "harley",
+      "x": 0.35,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.6,
+      "flag": "uk1606"
+     }
+    ],
+    "place": "London · 1713",
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was set up in 1711 to take over part of Britain's government debt.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "harley",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "NATIONAL DEBT"
+     }
+    ],
+    "tag": {
+     "id": "harley",
+     "text": "Robert Harley, company founder"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1713, a peace treaty gave Britain the Asiento, a contract to sell enslaved Africans in Spain's American colonies.",
+   "show": {
+    "k": "map",
+    "lon": 2.5,
+    "lat": 49.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1713",
+    "labels": [
+     [
+      "Utrecht",
+      5.12,
+      52.09,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "Madrid",
+      -3.7,
+      40.42,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      5.12,
+      52.09,
+      0.5,
+      "rgba(90,90,90,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The South Sea Company took over that contract.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "harley",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "hold",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "THE ASIENTO"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its ships carried enslaved people across the Atlantic, many via Jamaica, to Spanish America.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.65,
+      "flag": "uk1606",
+      "move": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians estimate more than thirty four thousand people were shipped. Around four thousand died at sea.",
+   "show": {
+    "k": "card",
+    "label": "People shipped by the South Sea Company",
+    "big": "34,000+",
+    "sub": "estimate; about 4,000 died at sea"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The trade went on until 1739. It rarely made the profits investors dreamed of.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "harley",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "1714–1739"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Behind the famous bubble was real human suffering. Follow for more history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "harley",
+      "x": 0.5,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The South Sea Company is remembered for a crash. It was also a slave-trading company.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #southseacompany #slavetrade #blackhistory #britishhistory",
+ "youtube_title": "The South Sea Company Also Traded Enslaved People #shorts",
+ "tags": [
+  "south sea company",
+  "asiento",
+  "slave trade history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/South_Sea_Company",
+  "https://www.britannica.com/print/article/38687",
+  "https://castinstone.exeter.ac.uk/database/s/en/item/1923",
+  "https://assets.lloyds.com/media/de6b80a5-771f-4aab-bdc2-70e21b00d289/100enslaved%20billof%20lading%20Factsheet_VL.pdf",
+  "https://discoveringbristol.org.uk/slavery/routes/places-involved/south-america/Spain-slavery-contract"
+ ]
+}

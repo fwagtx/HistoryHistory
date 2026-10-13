@@ -1,0 +1,244 @@
+{
+ "id": "2026w50-s33",
+ "format": "short",
+ "date": "2026-12-11",
+ "slot": "09:00",
+ "title": "This Bookseller Beat the South Sea Bubble and Built a Hospital",
+ "hook": "HE SOLD JUST IN TIME",
+ "topic": "Thomas Guy",
+ "music": "playful",
+ "cast": {
+  "guy": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#8A8A8A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "color2": "#E8DCC0",
+   "name": "Thomas Guy"
+  },
+  "friend": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#9A8A7A",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#2F6A4A",
+   "color2": "#E8DCC0",
+   "name": "London investor"
+  },
+  "londoner": {
+   "preset": "peasant",
+   "hat": "tricorn",
+   "hatColor": "#4A3A2A",
+   "name": "Londoner"
+  }
+ },
+ "voices": {
+  "friend": "am_echo",
+  "guy": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "While most of London lost money in 1720, one bookseller got rich, and built a hospital.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "guy",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.6,
+      "label": "GUY'S HOSPITAL"
+     }
+    ],
+    "place": "London · 1720",
+    "tag": {
+     "id": "guy",
+     "text": "Thomas Guy, bookseller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was Thomas Guy, and he owned shares in the South Sea Company.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "guy",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1720, those shares went crazy. Everyone thought the price would rise forever.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     },
+     {
+      "id": "guy",
+      "x": 0.65,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.82,
+      "s": 0.4,
+      "text": "SOUTH SEA CO."
+     }
+    ]
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Thomas! Hold on, it's going even higher!"
+  },
+  {
+   "who": "guy",
+   "say": "Then someone else can enjoy it. I'm selling."
+  },
+  {
+   "who": "N",
+   "say": "Between April and June, Guy sold, for a profit of around one hundred seventy five thousand pounds.",
+   "show": {
+    "k": "card",
+    "label": "Thomas Guy's profit, 1720",
+    "big": "£175,000",
+    "sub": "approximate",
+    "cast": [
+     {
+      "id": "guy",
+      "x": 0.82,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the bubble burst. Guy was already out.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "run"
+     },
+     {
+      "id": "guy",
+      "x": 0.65,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.82,
+      "s": 0.4,
+      "text": "SELL!"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He spent his fortune on a new hospital. Guy's Hospital, in London, still treats patients today.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "guy",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.6,
+      "label": "GUY'S HOSPITAL"
+     }
+    ],
+    "place": "Southwark, London · 1720s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "guy",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "friend",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He sold before the crash, then built a hospital that's still open.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #thomasguy #london #southseabubble #moneyhistory",
+ "youtube_title": "This Bookseller Beat the South Sea Bubble and Built a Hospital #shorts",
+ "tags": [
+  "thomas guy",
+  "guys hospital",
+  "south sea bubble",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Thomas_Guy",
+  "https://www.ebsco.com/research-starters/biography/thomas-guy/",
+  "https://fhmagazine.org/financial-history-issue-124-winter-2018/0695841001519735985/p23"
+ ]
+}

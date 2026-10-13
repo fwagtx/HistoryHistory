@@ -1,0 +1,2569 @@
+{
+ "id": "2026w50-l3",
+ "format": "long",
+ "date": "2026-12-11",
+ "title": "The South Sea Bubble: How Isaac Newton Lost a Fortune",
+ "music": "playful",
+ "cast": {
+  "newton": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#EDEDED",
+   "outfit": "coat",
+   "color": "#5A2A2A",
+   "color2": "#E8DCC0",
+   "name": "Sir Isaac Newton"
+  },
+  "law": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#5A3A22",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2F4A7A",
+   "color2": "#E8C25A",
+   "name": "John Law"
+  },
+  "wilson": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#C9A26A",
+   "hat": "tricorn",
+   "hatColor": "#5A2A4A",
+   "outfit": "coat",
+   "color": "#8A3A6A",
+   "color2": "#E8DCC0",
+   "name": "Edward 'Beau' Wilson"
+  },
+  "harley": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#D8D2C4",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#E8DCC0",
+   "name": "Robert Harley"
+  },
+  "friend": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#9A8A7A",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#2F6A4A",
+   "color2": "#E8DCC0",
+   "name": "London investor"
+  },
+  "maid": {
+   "preset": "peasantW",
+   "name": "London servant"
+  },
+  "londoner": {
+   "preset": "peasant",
+   "hat": "tricorn",
+   "hatColor": "#4A3A2A",
+   "name": "Londoner"
+  },
+  "regent": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#2F4AA0",
+   "color2": "#D4A52A",
+   "stache": "thin",
+   "name": "Philippe, Duke of Orléans"
+  },
+  "louis15": {
+   "preset": "child",
+   "skin": "light",
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F4AA0",
+   "color2": "#D4A52A",
+   "hair": "long",
+   "hairColor": "#8A6A3A",
+   "name": "King Louis XV, age 5"
+  },
+  "parisian": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "hat": "tricorn",
+   "hatColor": "#2A2A2A",
+   "outfit": "coat",
+   "color": "#8A2A2A",
+   "color2": "#E8DCC0",
+   "name": "Paris investor"
+  },
+  "george1": {
+   "preset": "king",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#D8D2C4",
+   "color": "#A8322A",
+   "color2": "#E8DCC0",
+   "name": "King George I"
+  },
+  "aislabie": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#BFB8A8",
+   "outfit": "coat",
+   "color": "#3A2A6A",
+   "color2": "#E8DCC0",
+   "name": "John Aislabie"
+  },
+  "mp": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#EDEDED",
+   "outfit": "robe",
+   "color": "#262322",
+   "glasses": "round",
+   "name": "Member of Parliament"
+  },
+  "walpole": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#D8D2C4",
+   "outfit": "coat",
+   "color": "#2F5A3A",
+   "color2": "#E8DCC0",
+   "name": "Robert Walpole"
+  },
+  "guy": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#8A8A8A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "color2": "#E8DCC0",
+   "name": "Thomas Guy"
+  }
+ },
+ "voices": {
+  "newton": "bm_fable",
+  "law": "bm_lewis",
+  "wilson": "am_puck",
+  "harley": "bm_george",
+  "friend": "am_echo",
+  "maid": "bf_emma",
+  "regent": "am_eric",
+  "aislabie": "am_adam",
+  "mp": "bm_daniel",
+  "parisian": "am_liam",
+  "guy": "am_onyx",
+  "walpole": "bm_george"
+ },
+ "description": "In 1720 all of London went crazy for shares in the South Sea Company, a business built on government debt that barely traded anything, and even Isaac Newton got sucked in. We explain shares, speculation and bubbles in plain words, follow the escaped Scottish gambler John Law as he runs France's money with the Mississippi scheme, and see who crashed, who fled and who got rich.\n\nChapters are added automatically.\n\n#history #southseabubble #isaacnewton #moneyhistory #stockmarket",
+ "thumbnail": {
+  "style": "faces",
+  "title": "NEWTON LOST BIG",
+  "bg": "tavern",
+  "faces": [
+   {
+    "id": "newton",
+    "mood": "shock"
+   },
+   {
+    "id": "law",
+    "mood": "smug"
+   }
+  ],
+  "grade": "warm"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Isaac Newton may be the smartest man who ever lived. He explained gravity and helped invent calculus, a whole new kind of math.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.42,
+      "mood": "smug",
+      "pose": "think",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "place": "London · 1720",
+    "tag": {
+     "id": "newton",
+     "text": "Sir Isaac Newton, scientist"
+    },
+    "stickers": [
+     {
+      "text": "GENIUS",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1720, when all of London was buying shares in one company, Newton bought some too. And he made a nice profit.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.38,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     },
+     {
+      "id": "friend",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.5,
+      "text": "SOUTH SEA CO."
+     },
+     {
+      "k": "barrel",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROFIT!",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he sold, and watched the price keep climbing without him.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     },
+     {
+      "id": "newton",
+      "x": 0.68,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.1,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UP, UP, UP",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Isaac! The price went up again! Why on earth did you sell?",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "newton",
+      "x": 0.68,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "friend"
+   }
+  },
+  {
+   "who": "newton",
+   "say": "Because it's a bubble! Obviously. It cannot last."
+  },
+  {
+   "who": "newton",
+   "say": "Fine. Buy me more."
+  },
+  {
+   "who": "N",
+   "say": "Bad idea. Within months, the price crashed, and Newton lost a fortune.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.45,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.5,
+      "text": "SOUTH SEA CO."
+     },
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "CRASH!",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how did a company that barely traded anything fool the smartest man in England? Let's find out.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "shrug"
+     },
+     {
+      "id": "law",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.1,
+      "s": 0.45
+     },
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HOW?",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The South Sea Bubble: How Isaac Newton Lost a Fortune",
+    "sub": "the money craze that fooled a genius",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.88,
+      "s": 0.8,
+      "mood": "shock",
+      "hold": "moneybag"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1711",
+    "title": "A Company Made of Debt",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "First, the setting. Great Britain had just been formed in 1707, when England and Scotland joined together.",
+   "show": {
+    "k": "flag",
+    "flag": "uk1606",
+    "label": "GREAT BRITAIN",
+    "sub": "England + Scotland, from 1707",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And it was fighting a giant war against France and Spain. Wars cost a fortune, so the government borrowed money. Lots of it.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "harley",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.75,
+      "s": 0.55,
+      "flag": "uk1606"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "place": "London · 1711",
+    "stickers": [
+     {
+      "text": "WAR = $$$",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "All the money a government owes is called the national debt. Think of it as the country's giant credit card bill.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "harley",
+      "x": 0.38,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "NATIONAL DEBT"
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "harley",
+     "text": "Robert Harley, Britain's top money minister"
+    },
+    "stickers": [
+     {
+      "text": "WE OWE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A politician named Robert Harley came up with a plan. Here's roughly how it went."
+  },
+  {
+   "who": "harley",
+   "say": "We owe people money we can't pay back. So let's give them shares in a company instead.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "harley",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "friend",
+      "x": 0.68,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "harley"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Shares? In what company?"
+  },
+  {
+   "who": "harley",
+   "say": "Trade with South America! Gold! Silver! Probably!"
+  },
+  {
+   "who": "N",
+   "say": "Quick explainer. A share is a tiny slice of a company. If the company does well, your slice is worth more.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.55,
+      "label": "1 SHARE"
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.55,
+      "label": "1 SHARE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHARE = SLICE",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And if lots of people want slices, the price goes up. Buying and selling these slices is called the stock market."
+  },
+  {
+   "who": "N",
+   "say": "So in 1711, the South Sea Company was born. People the government owed money to swapped those debts for company shares.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "harley",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "friend",
+      "x": 0.65,
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.5,
+      "text": "SOUTH SEA CO."
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEBT → SHARES",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "South Sea meant the seas around South America. Back then, most of that was Spain's empire.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.6,
+      "flag": "spain_burgundy",
+      "move": [
+       0.2,
+       0.5
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPANISH AMERICA",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1713 the war ended with a peace deal signed in Utrecht, in the Netherlands.",
+   "show": {
+    "k": "map",
+    "lon": 2.5,
+    "lat": 49.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1713",
+    "labels": [
+     [
+      "Utrecht",
+      5.12,
+      52.09,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Madrid",
+      -3.7,
+      40.42,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      5.12,
+      52.09,
+      0.5,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spain let the company send just one ship of trade goods a year to its colonies.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.55,
+      "flag": "uk1606"
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.45,
+      "label": "1 SHIP A YEAR"
+     }
+    ],
+    "place": "Spanish America · 1710s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It also got something terrible: the Asiento, a contract to sell enslaved Africans in Spain's American colonies.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.65,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE ASIENTO",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians estimate the company's ships carried more than thirty four thousand enslaved people across the Atlantic. Thousands died on the way.",
+   "show": {
+    "k": "card",
+    "label": "People enslaved and shipped by the South Sea Company",
+    "big": "34,000+",
+    "sub": "estimate, 1714 to 1739; about 4,000 died at sea"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was a cruel trade, and it was never the gold mine people imagined. By 1719, the company's trading business was going nowhere.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOING NOWHERE",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1716",
+    "title": "The Gambler Who Ran France",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile, a Scottish gambler was about to build something even crazier. Meet John Law, born in Edinburgh in 1671, the son of a goldsmith and banker.",
+   "show": {
+    "k": "map",
+    "lon": -2.0,
+    "lat": 53.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1671",
+    "labels": [
+     [
+      "Edinburgh",
+      -3.19,
+      55.95,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -3.19,
+      55.95
+     ],
+     [
+      -0.13,
+      51.5
+     ]
+    ],
+    "areas": [
+     [
+      -3.19,
+      55.95,
+      0.4,
+      "rgba(47,90,122,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1694, in London, a dandy named Edward Wilson challenged him to a sword duel.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "wilson",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point",
+      "hold": "sword"
+     },
+     {
+      "id": "law",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.1,
+      "s": 0.5
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Bloomsbury Square, London · 1694",
+    "tag": {
+     "id": "law",
+     "text": "John Law, Scottish gambler"
+    }
+   }
+  },
+  {
+   "who": "wilson",
+   "say": "Draw your sword, Law!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "wilson",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "aim",
+      "hold": "sword"
+     },
+     {
+      "id": "law",
+      "x": 0.68,
+      "mood": "neutral",
+      "pose": "shrug",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "wilson"
+   }
+  },
+  {
+   "who": "law",
+   "say": "Must we? I'd much rather bet on it."
+  },
+  {
+   "who": "N",
+   "say": "Law won with one thrust, and Wilson died. Law was convicted of murder and sentenced to death.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.45,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.15,
+      "s": 0.45,
+      "text": "GUILTY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEATH SENTENCE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in early 1695 he escaped from prison and fled across the sea to Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "run",
+      "walk": [
+       0.2,
+       0.55
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "rain"
+    ],
+    "stickers": [
+     {
+      "text": "ESCAPED!",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For years he wandered Europe, winning big at cards and thinking about money. His big idea was paper money.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PAPER MONEY",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Gold coins were scarce. Law thought paper notes, backed by a bank, could get trade moving again."
+  },
+  {
+   "who": "N",
+   "say": "In 1715, King Louis the fourteenth died and left France drowning in debt.",
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "KINGDOM OF FRANCE",
+    "sub": "deep in debt, 1715",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The new king, Louis the fifteenth, was five years old. So the real boss was his regent, Philippe, Duke of Orléans. A regent rules for a child king.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "louis15",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "regent",
+      "x": 0.65,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Paris · 1715",
+    "tag": {
+     "id": "regent",
+     "text": "Philippe, Duke of Orléans, the regent"
+    }
+   }
+  },
+  {
+   "who": "law",
+   "say": "Your Highness, let me open a bank. Paper money will fix everything.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "letter"
+     },
+     {
+      "id": "regent",
+      "x": 0.68,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "law"
+   }
+  },
+  {
+   "who": "regent",
+   "say": "Paper? Instead of gold?"
+  },
+  {
+   "who": "law",
+   "say": "Trust me. I'm very good with odds."
+  },
+  {
+   "who": "N",
+   "say": "In 1716, Law opened his bank in Paris. Soon he also ran the Mississippi Company, which controlled French trade with Louisiana, in North America.",
+   "show": {
+    "k": "map",
+    "lon": 2.35,
+    "lat": 48.86,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "1716",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Versailles",
+      2.13,
+      48.8,
+      -90
+     ]
+    ],
+    "areas": [
+     [
+      2.35,
+      48.86,
+      0.3,
+      "rgba(47,74,160,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Law said Louisiana was full of riches. Share prices went from about five hundred livres, the French money, to around ten thousand by the end of 1719.",
+   "show": {
+    "k": "card",
+    "label": "Mississippi Company share price (livres)",
+    "big": "500 → 10,000",
+    "sub": "in about a year, 1719",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.86,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Crowds packed a narrow Paris street, the Rue Quincampoix, to buy and sell shares.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "parisian",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "cheer",
+      "hold": "scroll"
+     },
+     {
+      "id": "law",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.88,
+      "s": 0.45
+     },
+     {
+      "k": "house",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "place": "Rue Quincampoix, Paris · 1719",
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A few got so rich that people used a fancy new word for them: millionaires.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "parisian",
+      "x": 0.42,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.55
+     },
+     {
+      "k": "moneypile",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MILLIONAIRE!",
+      "at": 0.8,
+      "color": "#D4A52A"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And in January 1720, the escaped gambler became France's Controller General of Finances. He was basically running the country's money.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "law",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "crown",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "IN CHARGE",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1720",
+    "title": "Everybody Wants In",
+    "bg": "tavern"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back in London, the South Sea Company's bosses watched Paris and thought: we want that.",
+   "show": {
+    "k": "map",
+    "lon": 1.0,
+    "lat": 50.3,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "1720",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      -0.13,
+      51.5
+     ]
+    ],
+    "areas": [
+     [
+      -0.13,
+      51.5,
+      0.35,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they offered to take over most of Britain's national debt. Anyone holding government debt could swap it for South Sea shares.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "scroll"
+     },
+     {
+      "id": "londoner",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "DEBT → SHARES"
+     },
+     {
+      "k": "desk",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "place": "London · 1720"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Parliament approved it in April. A later inquiry found the company had handed shares to powerful people to win their support.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "aislabie",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FREE SHARES?",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "aislabie",
+     "text": "John Aislabie, Britain's money minister"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even King George the first was the company's official governor. That made it look totally safe.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "george1",
+      "x": 0.45,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "tag": {
+     "id": "george1",
+     "text": "King George I"
+    },
+    "stickers": [
+     {
+      "text": "GOVERNOR",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the company pumped the price. People could buy shares with a small down payment, and the company even lent them money to buy more.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "BUY NOW, PAY LATER"
+     },
+     {
+      "k": "barrel",
+      "x": 0.1,
+      "s": 0.4
+     }
+    ],
+    "place": "Exchange Alley coffee house, London · 1720"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Buy South Sea! It only goes up!",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "friend"
+   }
+  },
+  {
+   "who": "maid",
+   "say": "Then I'm putting in my whole savings!"
+  },
+  {
+   "who": "N",
+   "say": "In January, one share cost about one hundred twenty eight pounds. By summer, it was over one thousand.",
+   "show": {
+    "k": "card",
+    "label": "South Sea Company share price, 1720",
+    "big": "£128 → £1,000",
+    "sub": "January to summer",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.86,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's the key idea. Buying something just because you think the price will keep rising is called speculation.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.42,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "SPECULATION"
+     },
+     {
+      "k": "globe",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GUESSING",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And when prices float way above what something is really worth, that's a bubble. It grows and grows, until it pops."
+  },
+  {
+   "who": "N",
+   "say": "Copycat companies popped up all over London, begging for investors' money.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "INVEST HERE!"
+     },
+     {
+      "k": "crate",
+      "x": 0.1,
+      "s": 0.45,
+      "label": "SCHEMES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One famous story says a company asked for money for, quote, an undertaking of great advantage, but nobody to know what it is.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "??? GREAT ADVANTAGE ???"
+     },
+     {
+      "k": "house",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That one is probably a legend, first printed years later. But plenty of real 1720 schemes were almost that vague."
+  },
+  {
+   "who": "N",
+   "say": "In June, Parliament passed the Bubble Act. It banned new companies that didn't have official permission from the Crown.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "BUBBLE ACT"
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JUNE 1720",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ],
+    "tag": {
+     "id": "mp",
+     "text": "Member of Parliament"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some historians think the real point was to protect the South Sea Company from competition. Rival bubbles, no thanks."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1720",
+    "title": "The Genius Jumps Back In",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now, back to Newton. In 1720 he was seventy seven, and he ran the Royal Mint, which made Britain's coins inside the Tower of London.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "place": "Tower of London · 1720",
+    "stickers": [
+     {
+      "text": "MASTER OF THE MINT",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Andrew Odlyzko, a mathematician who studied Newton's money records, found that he owned lots of South Sea shares in early 1720.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.42,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.45,
+      "text": "NEWTON'S SHARES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In April and May, Newton sold most of them for a big profit. Smart move. Genius, even."
+  },
+  {
+   "who": "N",
+   "say": "But the price kept rising. And rising. Watching your friends get rich is painful, even for a genius.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     },
+     {
+      "id": "newton",
+      "x": 0.68,
+      "mood": "sad",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.45
+     },
+     {
+      "k": "goldpile",
+      "x": 0.1,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "newton",
+   "say": "It cannot last. This isn't math, it's madness.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "cross"
+     },
+     {
+      "id": "friend",
+      "x": 0.68,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "newton"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Isaac, it went up again today."
+  },
+  {
+   "who": "newton",
+   "say": "How much, exactly? Asking for a friend."
+  },
+  {
+   "who": "N",
+   "say": "In June, with the price already sky high, Newton bought back in. A lot.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.42,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.12,
+      "s": 0.45,
+      "text": "SOUTH SEA CO."
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ALL IN",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later, a famous line was pinned on him: I can calculate the motions of the heavenly bodies, but not the madness of people.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "think",
+      "hold": "telescope"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND?",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ],
+    "cam": "close",
+    "focus": "newton"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It comes from a secondhand story written down decades after his death, so it may be a legend. But it sure fits."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1720",
+    "title": "Pop!",
+    "bg": "town"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By late summer, the bubble started to leak. People wanted to cash out. And once a few people sell, everyone panics.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "run"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "SELL!"
+     },
+     {
+      "k": "house",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "cam": "shake",
+    "place": "London · September 1720"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By December, a share was worth about one hundred twenty four pounds. That's less than where it started the year.",
+   "show": {
+    "k": "card",
+    "label": "South Sea share price, peak to December 1720",
+    "big": "£1,000 → £124",
+    "sub": "the bubble popped",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.86,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Families lost their savings. A big London bank, the Sword Blade Bank, ran out of cash and stopped paying.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "scared"
+     },
+     {
+      "id": "friend",
+      "x": 0.65,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.45
+     },
+     {
+      "k": "sign",
+      "x": 0.1,
+      "s": 0.45,
+      "text": "CLOSED"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over in France, Law's system collapsed too. His paper money lost its value, and angry crowds wanted his head.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "parisian",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "fist",
+      "hold": "scroll"
+     },
+     {
+      "id": "law",
+      "x": 0.68,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.1,
+      "s": 0.4
+     },
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "place": "Paris · 1720",
+    "stickers": [
+     {
+      "text": "WORTHLESS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In December 1720, Law fled France. He drifted from city to city and died in Venice in 1729, poor and still gambling.",
+   "show": {
+    "k": "map",
+    "lon": 7.5,
+    "lat": 47.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1720–1729",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Brussels",
+      4.35,
+      50.85,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "Venice",
+      12.33,
+      45.44,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      4.35,
+      50.85
+     ],
+     [
+      -0.13,
+      51.5
+     ],
+     [
+      12.33,
+      45.44
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The writer Jonathan Swift, who had lost money himself, summed it all up in a poem.",
+   "show": {
+    "k": "quote",
+    "text": "South Sea at best a mighty bubble.",
+    "who": "Jonathan Swift, \"The Bubble\" (1721)"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1721",
+    "title": "Who Pays?",
+    "bg": "courtroom"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Britain was furious. Parliament investigated, and found bribes and shady bookkeeping all over the company.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "mp",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "aislabie",
+      "x": 0.68,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.45
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.1,
+      "s": 0.45,
+      "text": "INQUIRY"
+     }
+    ],
+    "place": "Parliament, London · 1721"
+   }
+  },
+  {
+   "who": "aislabie",
+   "say": "I only did what everyone was doing!",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "aislabie",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "shrug"
+     },
+     {
+      "id": "mp",
+      "x": 0.68,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "aislabie"
+   }
+  },
+  {
+   "who": "mp",
+   "say": "Wonderful. Then everyone will hear about it."
+  },
+  {
+   "who": "N",
+   "say": "Aislabie, the money minister, was thrown out of Parliament and locked in the Tower of London. The directors' fortunes were seized to repay investors.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "aislabie",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "gate",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE TOWER",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A politician named Robert Walpole cleaned up the mess. In April 1721 he took charge of the Treasury, and he's often called Britain's first prime minister.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "walpole",
+      "x": 0.42,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "tag": {
+     "id": "walpole",
+     "text": "Robert Walpole"
+    },
+    "stickers": [
+     {
+      "text": "FIRST PM",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And not everyone lost. A bookseller named Thomas Guy sold his shares before the crash and made a fortune.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "guy",
+      "x": 0.42,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "guy",
+     "text": "Thomas Guy, bookseller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He spent it on a hospital in London. Guy's Hospital is still there today.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "guy",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.7,
+      "s": 0.7,
+      "label": "GUY'S HOSPITAL"
+     },
+     {
+      "k": "tree",
+      "x": 0.92,
+      "s": 0.45
+     }
+    ],
+    "place": "Southwark, London · 1721"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Newton? One old story says he lost twenty thousand pounds. That's about ten years of his big Mint income.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.42,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "£20,000?",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Odlyzko's research suggests he lost at least a third of his investments. Painful, but he wasn't broke. He still died a rich man, in 1727."
+  },
+  {
+   "who": "N",
+   "say": "So here's the lesson. If something's price only rises because everyone expects it to keep rising, be careful.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "point"
+     },
+     {
+      "id": "friend",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "SOUTH SEA CO."
+     },
+     {
+      "k": "barrel",
+      "x": 0.1,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Because if a bubble could fool Isaac Newton, it can fool anybody."
+  },
+  {
+   "who": "N",
+   "say": "Subscribe, and next time: the entire history of the Persian Empire in ten minutes.",
+   "show": {
+    "k": "end",
+    "next": "The ENTIRE History of the Persian Empire in 10 Minutes",
+    "cast": [
+     {
+      "id": "newton",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "law",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube_title": "The South Sea Bubble: How Isaac Newton Lost a Fortune",
+ "tags": [
+  "south sea bubble",
+  "isaac newton",
+  "john law",
+  "mississippi bubble",
+  "financial history",
+  "stock market crash",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/South_Sea_Company",
+  "https://en.wikipedia.org/wiki/South_Sea_Bubble",
+  "https://www.britannica.com/print/article/556389",
+  "https://libertystreeteconomics.newyorkfed.org/2011/07/historical-echoes-south-sea-bubble-deals-speculators-a-bad-hand",
+  "https://historyrevealed.com/period/georgian/south-sea-bubble-what-when-why",
+  "https://www.ebsco.com/research-starters/history/collapse-south-sea-bubble",
+  "https://physicstoday.aip.org/features/isaac-newton-and-the-perils-of-the-financial-south-sea",
+  "https://www-users.cse.umn.edu/~odlyzko/doc/mania13c.pdf",
+  "https://www.smithsonianmag.com/smart-news/market-crash-cost-newton-fortune-180961655/",
+  "https://wist.info/newton-isaac/45097/",
+  "https://coinsandhistoryfoundation.org/tag/isaac-newton/",
+  "https://en.wikipedia.org/wiki/John_Law_(economist)",
+  "https://www.onlondon.co.uk/vic-keegan-bloomsbury-squares-bloody-history/",
+  "https://www.undiscoveredscotland.co.uk/usbiography/l/johnlaw.html",
+  "https://en.wikipedia.org/wiki/Mississippi_Company",
+  "https://mshistory.mdah.ms.gov/issue/john-law-and-the-mississippi-bubble-1718-1720",
+  "https://languagehat.com/millionaire",
+  "https://en.wikipedia.org/wiki/Bubble_Act",
+  "https://www-users.cse.umn.edu/~odlyzko/doc/mania17b.pdf",
+  "https://jasonzweig.com/?p=10272",
+  "https://www.britannica.com/print/article/38687",
+  "https://castinstone.exeter.ac.uk/database/s/en/item/1923",
+  "https://assets.lloyds.com/media/de6b80a5-771f-4aab-bdc2-70e21b00d289/100enslaved%20billof%20lading%20Factsheet_VL.pdf",
+  "https://www.thehistoryoflondon.co.uk/the-south-sea-bubble/",
+  "https://wehd.com/bios/John_Aislabie.html",
+  "https://catalog.folger.edu/record/131863",
+  "https://blog.nationalarchives.gov.uk/sir-robert-walpole-britains-first-prime-minister",
+  "https://www.gov.uk/government/history/past-prime-ministers/robert-walpole",
+  "https://en.wikipedia.org/wiki/Thomas_Guy",
+  "https://dmi.bodleian.ox.ac.uk/catalog/poem_48039",
+  "https://www.rmg.co.uk/stories/maritime-history/south-sea-bubble"
+ ]
+}
