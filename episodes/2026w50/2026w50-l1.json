@@ -935,7 +935,7 @@
   },
   {
    "who": "N",
-   "say": "That line really is in the chronicle. His envoys were dazzled by the giant church of Hagia Sophia, so he chose Orthodox Christianity.",
+   "say": "That line really is in the chronicle. His envoys were dazzled by Hagia Sophia, the giant church in Constantinople, so he chose that city's Orthodox Christianity.",
    "show": {
     "k": "scene",
     "bg": "church",
@@ -967,7 +967,7 @@
   },
   {
    "who": "N",
-   "say": "Historians think politics mattered too: the deal let Vladimir marry the Byzantine emperor's sister, Anna.",
+   "say": "Historians think politics mattered too: the deal let Vladimir marry Anna, the sister of the emperor in Constantinople.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1002,14 +1002,14 @@
    "hold": 2.5,
    "show": {
     "k": "chapter",
-    "year": "1240",
+    "year": "1237",
     "title": "The Mongols Arrive",
     "bg": "steppe"
    }
   },
   {
    "who": "N",
-   "say": "In 1240, a terrifying army rode in from the east: the Mongols, led by Batu Khan, a grandson of Genghis Khan.",
+   "say": "In 1237, a terrifying army rode in from the east: the Mongols, led by Batu Khan, a grandson of Genghis Khan.",
    "show": {
     "k": "scene",
     "bg": "steppe",
@@ -1047,12 +1047,12 @@
     "fx": [
      "dust"
     ],
-    "place": "The steppe · 1240"
+    "place": "The steppe · 1237"
    }
   },
   {
    "who": "N",
-   "say": "In December 1240 they captured Kyiv. Most Rus princes had to pay them tribute, which is basically protection money.",
+   "say": "In December 1240 they captured Kyiv. Most Rus princes had to pay tribute, basically protection money, to the Mongol kingdom called the Golden Horde.",
    "show": {
     "k": "map",
     "lon": 40.0,
@@ -1186,7 +1186,7 @@
   },
   {
    "who": "N",
-   "say": "In 1380 Moscow's prince even beat a Horde army at Kulikovo. The Horde struck back and burned Moscow two years later.",
+   "say": "In 1380 Moscow's prince even beat a Golden Horde army at Kulikovo. The Horde struck back and burned Moscow two years later.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -1281,7 +1281,7 @@
   },
   {
    "who": "N",
-   "say": "In 1547, a sixteen-year-old named Ivan was crowned with a brand-new title: tsar, from the Roman word Caesar.",
+   "say": "In 1547, a sixteen-year-old named Ivan was crowned with a brand-new title: tsar, meaning emperor, from the Roman word Caesar.",
    "show": {
     "k": "scene",
     "bg": "church",
@@ -1411,7 +1411,7 @@
   },
   {
    "who": "N",
-   "say": "But he was also cruel and paranoid. His private army terrorized his own people, and in 1581 he killed his eldest son in a fit of rage.",
+   "say": "But he was also cruel and paranoid. His private army terrorized his own people, and in 1581, by most accounts, he killed his eldest son in a fit of rage.",
    "show": {
     "k": "scene",
     "bg": "night",
@@ -1441,12 +1441,11 @@
     "bg": "battlefield",
     "cast": [
      {
-      "id": "rsoldier",
+      "id": "slav2",
       "x": 0.35,
       "pose": "scared",
       "mood": "scared",
-      "hat": "coif",
-      "hold": "spear"
+      "hat": "coif"
      }
     ],
     "objects": [
@@ -1520,7 +1519,7 @@
   },
   {
    "who": "N",
-   "say": "In 1682, a ten-year-old Romanov became tsar. He grew up to be Peter the Great, and great was literal.",
+   "say": "In 1682, a nine-year-old Romanov became tsar. He grew up to be Peter the Great, and great was literal.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1837,7 +1836,7 @@
   },
   {
    "who": "N",
-   "say": "Forced laborers built the city, and many thousands of them died doing it.",
+   "say": "Forced laborers built the city, and thousands of them died doing it.",
    "show": {
     "k": "scene",
     "bg": "snow",
@@ -2116,7 +2115,7 @@
   },
   {
    "who": "N",
-   "say": "Legend says her favorite, Grigory Potemkin, built fake villages to impress her on a tour in 1787. Historians say that's mostly exaggerated.",
+   "say": "Legend says her powerful adviser, Grigory Potemkin, built fake villages to impress her on a tour in 1787. Historians say that's mostly a myth.",
    "show": {
     "k": "scene",
     "bg": "village",
@@ -2194,7 +2193,7 @@
   },
   {
    "who": "N",
-   "say": "Most Russians were still serfs, peasants who could be bought and sold with the land. In 1861, Tsar Alexander the Second freed them.",
+   "say": "Most Russians were still serfs, peasants who belonged to landowners and could even be bought and sold. In 1861, Tsar Alexander the Second freed them.",
    "show": {
     "k": "scene",
     "bg": "wheat",
@@ -2240,7 +2239,7 @@
     "k": "card",
     "label": "Serfs freed in 1861",
     "big": "23 MILLION",
-    "sub": "out of about 67 million people"
+    "sub": "roughly a third of the empire's people"
    }
   },
   {
@@ -2468,7 +2467,7 @@
   },
   {
    "who": "N",
-   "say": "After Lenin died in 1924, Joseph Stalin took control. He forced farmers onto giant state farms and built factories at a furious pace.",
+   "say": "After Lenin died in 1924, Joseph Stalin pushed his rivals aside and took control. He forced farmers onto giant state farms and built factories at a furious pace.",
    "show": {
     "k": "scene",
     "bg": "factory",
@@ -2502,7 +2501,7 @@
   },
   {
    "who": "N",
-   "say": "The human cost was enormous. A famine in 1932 and 1933 killed millions, and in the Great Terror at least seven hundred fifty thousand people were executed.",
+   "say": "The human cost was enormous. A famine in 1932 and 1933 killed millions. Then, in the Great Terror of 1937 and 1938, Stalin's secret police shot around seven hundred thousand people.",
    "show": {
     "k": "scene",
     "bg": "snow",
@@ -2601,7 +2600,7 @@
   },
   {
    "who": "N",
-   "say": "The Soviets won the Eastern Front, and in spring 1945 their soldiers raised the red flag over Berlin.",
+   "say": "The Soviets pushed the Germans all the way back, and in spring 1945 their soldiers raised the red flag over Berlin.",
    "show": {
     "k": "scene",
     "bg": "city",
@@ -2636,7 +2635,7 @@
     "k": "card",
     "label": "Soviet deaths in World War II",
     "big": "ABOUT 27 MILLION",
-    "sub": "soldiers and civilians"
+    "sub": "soldiers and civilians (estimates vary)"
    }
   },
   {
@@ -2688,7 +2687,7 @@
     "bg": "space",
     "cast": [
      {
-      "id": "gagarin",
+      "id": "worker",
       "x": 0.2,
       "pose": "point",
       "mood": "happy",
@@ -2752,7 +2751,7 @@
   },
   {
    "who": "N",
-   "say": "The same year the Soviets tested the Tsar Bomba, the most powerful bomb ever exploded. Its mushroom cloud rose about sixty kilometers high.",
+   "say": "The same year the Soviets tested the Tsar Bomba, the most powerful bomb ever exploded: over three thousand times stronger than the Hiroshima bomb. Its mushroom cloud rose about sixty kilometers high.",
    "show": {
     "k": "scene",
     "bg": "arctic",
@@ -2778,6 +2777,11 @@
       "text": "50 MEGATONS",
       "at": 1.6,
       "color": "#A8322A"
+     },
+     {
+      "text": "3,000+ HIROSHIMAS",
+      "at": 3.4,
+      "color": "#2F2F3A"
      }
     ]
    }
@@ -2811,7 +2815,7 @@
       "k": "flag",
       "x": 0.92,
       "s": 0.45,
-      "flag": "usa48"
+      "flag": "usa"
      }
     ],
     "stickers": [
@@ -2859,7 +2863,7 @@
   },
   {
    "who": "N",
-   "say": "Instead, the Soviet republics started breaking away, one after another.",
+   "say": "Instead, the fifteen Soviet republics, the member states of the union, started breaking away one after another.",
    "show": {
     "k": "map",
     "lon": 45.0,
