@@ -1,0 +1,319 @@
+{
+ "id": "2026w50-s13",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon Brought 167 Scholars to a War",
+ "hook": "167 SCHOLARS INVADE EGYPT",
+ "topic": "Napoleon in Egypt",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "monge": {
+   "hair": "short",
+   "hairColor": "#9A9A9A",
+   "outfit": "coat",
+   "color": "#3A3A5A",
+   "skin": "light",
+   "name": "Gaspard Monge"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george",
+  "monge": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Napoleon invaded Egypt with an army, and about one hundred and sixty-seven scholars.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "monge",
+      "x": 0.62,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.8,
+      "s": 0.55
+     }
+    ],
+    "place": "Egypt · 1798",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was 1798. Napoleon, a young French general, wanted Egypt, to threaten Britain's route to India.",
+   "show": {
+    "k": "map",
+    "lon": 18.0,
+    "lat": 36.0,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "1798",
+    "labels": [
+     [
+      "Toulon",
+      5.93,
+      43.12,
+      14
+     ],
+     [
+      "Alexandria",
+      29.92,
+      31.2,
+      14
+     ],
+     [
+      "EGYPT",
+      30.0,
+      27.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      5.93,
+      43.12
+     ],
+     [
+      9.5,
+      39.5
+     ],
+     [
+      14.4,
+      35.9
+     ],
+     [
+      22.0,
+      33.5
+     ],
+     [
+      29.92,
+      31.2
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he packed mathematicians, chemists, engineers and artists, led by the mathematician Gaspard Monge.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "monge",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "BOOKS"
+     },
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "monge",
+     "text": "Gaspard Monge, mathematician"
+    }
+   }
+  },
+  {
+   "who": "monge",
+   "say": "General, we'll measure every pyramid in Egypt!",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "monge",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "monge"
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Wonderful. Just stay behind the soldiers.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "While the army fought, the scholars measured temples, drew maps, and collected animals and plants.",
+   "show": {
+    "k": "card",
+    "label": "Scholars who went with the army",
+    "big": "ABOUT 167",
+    "sub": "mathematicians, chemists, engineers, artists"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Cairo, Napoleon even set up a science club for them, the Institute of Egypt.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "monge",
+      "x": 0.62,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SCIENCE CLUB",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "Cairo · 1798"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The army lost. But the scholars' books, the Description of Egypt, made Europe crazy about ancient Egypt.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "monge",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.55,
+      "text": "DESCRIPTION OF EGYPT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EGYPT CRAZE",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "monge",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He invaded Egypt with soldiers... and a boatload of scientists.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #egypt #historytok #funnyhistory",
+ "youtube_title": "Napoleon Brought 167 Scholars to a War #shorts",
+ "tags": [
+  "napoleon egypt",
+  "napoleon savants",
+  "description de l'egypte",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/French_campaign_in_Egypt_and_Syria",
+  "https://en.wikipedia.org/wiki/Description_de_l%27%C3%89gypte",
+  "https://www.napoleon.org/magazine/livres/les-savants-de-bonaparte-en-egypte-1798-1801/",
+  "https://lindahall.org/experience/digital-exhibitions/napoleon-and-the-scientific-expedition-to-egypt/02-napoleon-scientist",
+  "https://on.natgeo.com/3qOxanf"
+ ]
+}

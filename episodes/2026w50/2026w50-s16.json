@@ -1,0 +1,308 @@
+{
+ "id": "2026w50-s16",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon Walked Up to the Soldiers Sent to Stop Him",
+ "hook": "HE WALKED INTO THE GUNS",
+ "topic": "Napoleon's Return",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "soldier": {
+   "preset": "grenadier",
+   "name": "Soldier of the 5th Line Regiment"
+  }
+ },
+ "voices": {
+  "soldier": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Soldiers were sent to stop Napoleon. He walked straight up to their guns.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "smug"
+     },
+     {
+      "id": "soldier",
+      "x": 0.6,
+      "pose": "aim",
+      "mood": "shock"
+     },
+     {
+      "id": "soldier",
+      "x": 0.78,
+      "pose": "aim",
+      "mood": "scared"
+     }
+    ],
+    "place": "Laffrey, France · 7 March 1815",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Napoleon, the former emperor of France, had just escaped from exile on the island of Elba.",
+   "show": {
+    "k": "map",
+    "lon": 7.5,
+    "lat": 44.2,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "March 1815",
+    "labels": [
+     [
+      "Elba",
+      10.25,
+      42.78,
+      14
+     ],
+     [
+      "Golfe-Juan",
+      7.07,
+      43.57,
+      14
+     ],
+     [
+      "Laffrey",
+      5.77,
+      45.0,
+      14
+     ]
+    ],
+    "route": [
+     [
+      10.3,
+      42.8
+     ],
+     [
+      8.5,
+      43.2
+     ],
+     [
+      7.07,
+      43.57
+     ],
+     [
+      6.24,
+      44.09
+     ],
+     [
+      6.08,
+      44.56
+     ],
+     [
+      5.77,
+      45.0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The new king sent troops to block him on a mountain road near Grenoble.",
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "THE KING'S ARMY",
+    "sub": "Kingdom of France · 1815",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Is that... really him?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.45,
+      "pose": "aim",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "soldier"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Napoleon stepped toward them. Accounts say he told them: if any of you wants to kill your emperor, here I am.",
+   "show": {
+    "k": "quote",
+    "text": "If there is one among you who wants to kill his emperor, here I am.",
+    "who": "Napoleon at Laffrey, 7 March 1815 (as reported)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody fired. Instead, the soldiers broke ranks and joined him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.58,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.78,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.45,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOBODY FIRED",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Long live the Emperor!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "Grenoble · 7 March 1815",
+    "cam": "close",
+    "focus": "soldier"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Less than two weeks later, he was back in Paris, and the king had fled.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.45,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BACK IN PARIS",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ],
+    "place": "Paris · 20 March 1815"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They were sent to arrest him. He dared them to shoot.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #frenchhistory #hundreddays #historytok",
+ "youtube_title": "Napoleon Walked Up to the Soldiers Sent to Stop Him #shorts",
+ "tags": [
+  "napoleon laffrey",
+  "hundred days",
+  "napoleon escape elba",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Laffrey",
+  "https://en.wikipedia.org/wiki/Hundred_Days",
+  "https://www.napoleon.org/en/magazine/places/the-route-napoleon",
+  "https://www.atlasobscura.com/places/field-of-the-encounter",
+  "https://militaryhistorynow.com/2023/12/14/soldiers-of-the-fifth-meet-the-regiment-famously-sent-to-stop-napoleons-return-from-exile/"
+ ]
+}

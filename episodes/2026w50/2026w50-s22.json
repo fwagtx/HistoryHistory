@@ -1,0 +1,318 @@
+{
+ "id": "2026w50-s22",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon Skipped His Own Wedding",
+ "hook": "HE SKIPPED HIS OWN WEDDING",
+ "topic": "Napoleon's Wedding",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "marielouise": {
+   "preset": "princess",
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#F2F2F2",
+   "color2": "#2F4FA0",
+   "hair": "curly",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "Marie-Louise of Austria"
+  },
+  "charles": {
+   "hat": "bicorne",
+   "cockade": false,
+   "outfit": "napoleon",
+   "color": "#F2F2F2",
+   "color2": "#C8302A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Archduke Charles of Austria"
+  },
+  "josephine": {
+   "preset": "queen",
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#F2F2F2",
+   "color2": "#C8A040",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Joséphine"
+  }
+ },
+ "voices": {
+  "marielouise": "bf_emma",
+  "charles": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Napoleon got married, and didn't even show up.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "neutral"
+     },
+     {
+      "id": "marielouise",
+      "x": 0.65,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO GROOM?",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Vienna, Austria · 11 March 1810"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1810, he divorced his wife Joséphine, because she hadn't given him a son.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "josephine",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "napoleon",
+     "text": "Emperor Napoleon"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His new bride was Marie-Louise, the eighteen-year-old daughter of the Emperor of Austria.",
+   "show": {
+    "k": "flag",
+    "flag": "austria_habsburg",
+    "label": "AUSTRIA",
+    "sub": "The Austrian Empire · 1810",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The wedding was in Vienna, by proxy. That means someone else stood in for the groom.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "marielouise",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "austria_habsburg"
+     }
+    ],
+    "tag": {
+     "id": "marielouise",
+     "text": "Marie-Louise, age 18"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The stand-in was Archduke Charles, the Austrian general who'd beaten Napoleon in a battle the year before.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.42,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AWKWARD",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ],
+    "tag": {
+     "id": "charles",
+     "text": "Archduke Charles of Austria"
+    }
+   }
+  },
+  {
+   "who": "marielouise",
+   "say": "So... where's my husband?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "marielouise",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "charles",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "marielouise"
+   }
+  },
+  {
+   "who": "charles",
+   "say": "Busy. You're stuck with me today."
+  },
+  {
+   "who": "N",
+   "say": "Two weeks later, she finally met Napoleon in France. A year after that, they had a son.",
+   "show": {
+    "k": "map",
+    "lon": 9.0,
+    "lat": 48.8,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "March 1810",
+    "labels": [
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ],
+     [
+      "Compiègne",
+      2.83,
+      49.42,
+      14
+     ]
+    ],
+    "route": [
+     [
+      16.37,
+      48.21
+     ],
+     [
+      12.0,
+      48.3
+     ],
+     [
+      8.5,
+      48.6
+     ],
+     [
+      5.5,
+      49.0
+     ],
+     [
+      2.83,
+      49.42
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for five history stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "marielouise",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He married an Austrian archduchess... without going to the wedding.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #royalwedding #frenchhistory #historytok",
+ "youtube_title": "Napoleon Skipped His Own Wedding #shorts",
+ "tags": [
+  "napoleon marie louise",
+  "proxy wedding",
+  "archduke charles",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/The_Wedding_of_Napoleon_and_Marie_Louise",
+  "https://shannonselin.com/?p=3999",
+  "https://www.napoleon.org/en/history-of-the-two-empires/articles/the-marriage-of-napoleon-i-and-marie-louise-in-pictures",
+  "https://en.wikipedia.org/wiki/Archduke_Charles,_Duke_of_Teschen",
+  "https://en.wikipedia.org/wiki/Battle_of_Aspern-Essling"
+ ]
+}

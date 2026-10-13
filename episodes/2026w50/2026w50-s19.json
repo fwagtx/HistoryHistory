@@ -1,0 +1,293 @@
+{
+ "id": "2026w50-s19",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon's Laws Are Still Around",
+ "hook": "HIS LAWS OUTLIVED HIM",
+ "topic": "Napoleonic Code",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "scholar": {
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Historian"
+  },
+  "portalis": {
+   "outfit": "coat",
+   "color": "#262322",
+   "hair": "curly",
+   "hairColor": "#DADADA",
+   "skin": "light",
+   "name": "Jean-Étienne-Marie Portalis"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Napoleon died more than two hundred years ago. His laws are still around.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.42,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.55,
+      "text": "CIVIL CODE"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Paris · 1804",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Before him, France was a messy patchwork of local laws. The rules changed from region to region.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.38,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "DIFFERENT RULES HERE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CONFUSING",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Napoleon ordered one clear rulebook. Lawyers like Jean Portalis wrote it, with Napoleon sitting in on many meetings.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "portalis",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.52,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "portalis",
+     "text": "Jean Portalis, lawyer"
+    }
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Make it clear enough for everyone.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1804, the Civil Code was ready. It said all men were equal before the law. Though it gave women far fewer rights.",
+   "show": {
+    "k": "card",
+    "label": "Articles in the 1804 Civil Code",
+    "big": "2,281",
+    "sub": "one rulebook for all of France"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His armies spread it across Europe. It inspired laws from Belgium to Chile, and even Louisiana and Quebec.",
+   "show": {
+    "k": "map",
+    "lon": 8.0,
+    "lat": 48.0,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "1804–1815",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Brussels",
+      4.35,
+      50.85,
+      14
+     ],
+     [
+      "Milan",
+      9.19,
+      45.46,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      2.5,
+      47.0,
+      4.0,
+      "rgba(47,111,194,0.3)"
+     ],
+     [
+      5.0,
+      51.5,
+      1.5,
+      "rgba(47,111,194,0.3)"
+     ],
+     [
+      10.0,
+      45.0,
+      2.0,
+      "rgba(47,111,194,0.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "France still uses an updated version today.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "portalis",
+      "x": 0.38,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.55,
+      "text": "CODE CIVIL"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL IN USE",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "France · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for five history stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "portalis",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His empire lasted about ten years. His rulebook is still here.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #napoleoniccode #law #historytok",
+ "youtube_title": "Napoleon's Laws Are Still Around #shorts",
+ "tags": [
+  "napoleonic code",
+  "civil code 1804",
+  "napoleon laws",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Napoleonic_Code",
+  "https://www.napoleon.org/histoire-des-2-empires/dossiers-thematiques/la-promulgation-du-code-civil-des-francais-21-mars-1804/",
+  "https://www.herodote.net/21_mars_1804-evenement-18040322.php",
+  "https://64parishes.org/entry/napoleonic-code",
+  "https://en.wikipedia.org/wiki/Jean-%C3%89tienne-Marie_Portalis"
+ ]
+}

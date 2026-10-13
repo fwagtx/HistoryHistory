@@ -1,0 +1,341 @@
+{
+ "id": "2026w50-s14",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "France Found the Rosetta Stone. Britain Kept It.",
+ "hook": "FINDERS NOT KEEPERS",
+ "topic": "Rosetta Stone",
+ "music": "playful",
+ "cast": {
+  "bouchard": {
+   "hat": "bicorne",
+   "outfit": "napoleon",
+   "color": "#2F4FA0",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stache": "thin",
+   "skin": "light",
+   "name": "Pierre-François Bouchard"
+  },
+  "brit": {
+   "preset": "redcoat",
+   "hat": "bicorne",
+   "cockade": false,
+   "hold": "sword",
+   "stache": "brush",
+   "name": "British officer"
+  },
+  "scholar": {
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "bouchard": "am_liam",
+  "brit": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "French soldiers found the Rosetta Stone. Then the British took it.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "bouchard",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.68,
+      "s": 0.5,
+      "label": "ROSETTA STONE"
+     },
+     {
+      "k": "wall",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "place": "Rosetta, Egypt · July 1799"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1798, Napoleon's French army invaded Egypt.",
+   "show": {
+    "k": "map",
+    "lon": 30.6,
+    "lat": 30.8,
+    "z0": 3.4,
+    "z1": 4.0,
+    "date": "1799",
+    "labels": [
+     [
+      "Rosetta",
+      30.42,
+      31.4,
+      14
+     ],
+     [
+      "Alexandria",
+      29.92,
+      31.2,
+      -80
+     ],
+     [
+      "Cairo",
+      31.24,
+      30.04,
+      14
+     ],
+     [
+      "NILE DELTA",
+      31.0,
+      30.7,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In July 1799, soldiers were fixing an old fort near the town of Rosetta. An officer named Pierre-François Bouchard spotted a stone covered in writing.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "bouchard",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "bouchard",
+     "text": "Officer Pierre-François Bouchard"
+    }
+   }
+  },
+  {
+   "who": "bouchard",
+   "say": "Wait. This isn't just a rock!",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "bouchard",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "WRITING!"
+     }
+    ],
+    "cam": "close",
+    "focus": "bouchard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It had the same message in three scripts, including ancient Greek, which scholars could read.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.38,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "3 SCRIPTS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "A KEY",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Britain had wrecked France's fleet. In 1801, the stranded French army surrendered.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.55,
+      "flag": "uk1606"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SURRENDER",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "brit",
+   "say": "We'll be taking that stone, thank you.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "brit",
+      "x": 0.38,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "uk"
+     },
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.35,
+      "label": "ROSETTA STONE"
+     }
+    ],
+    "place": "Alexandria · 1801",
+    "tag": {
+     "id": "brit",
+     "text": "British officer"
+    },
+    "cam": "close",
+    "focus": "brit"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's been in the British Museum since 1802, with 'Captured in Egypt by the British Army' painted on its side.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.68,
+      "s": 0.55,
+      "label": "CAPTURED IN EGYPT..."
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL IN LONDON",
+      "at": 2.0,
+      "color": "#2F6FC2"
+     }
+    ],
+    "place": "London · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "bouchard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "brit",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The French dug it up. The British took it home.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rosettastone #napoleon #egypt #historytok",
+ "youtube_title": "France Found the Rosetta Stone. Britain Kept It. #shorts",
+ "tags": [
+  "rosetta stone",
+  "napoleon egypt",
+  "british museum",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rosetta_Stone",
+  "https://www.britishmuseum.org/collection/object/Y_EA24",
+  "https://www.lindahall.org/experience/digital-exhibitions/napoleon-and-the-scientific-expedition-to-egypt/15-the-rosetta-stone/",
+  "https://historyofinformation.com/detail.php?id=438",
+  "https://omeka.ischool.utoronto.ca/items/show/614"
+ ]
+}

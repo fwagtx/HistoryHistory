@@ -1,0 +1,326 @@
+{
+ "id": "2026w50-s24",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon Renamed His Wife",
+ "hook": "HE RENAMED HIS WIFE",
+ "topic": "Empress Joséphine",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "josephine": {
+   "preset": "queen",
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#F2F2F2",
+   "color2": "#C8A040",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Joséphine"
+  },
+  "scholar": {
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Napoleon's wife wasn't called Joséphine. He renamed her.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "josephine",
+      "x": 0.38,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEW NAME?",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "Paris · 1795"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was born Marie-Josèphe-Rose on the Caribbean island of Martinique, and everyone called her Rose.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "josephine",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.75,
+      "s": 0.55
+     },
+     {
+      "k": "sailship",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROSE",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Martinique · 1760s",
+    "tag": {
+     "id": "josephine",
+     "text": "Rose Tascher de La Pagerie"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "During the French Revolution, her first husband was executed, and she spent months in prison herself.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "josephine",
+      "x": 0.42,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "place": "Paris · 1794"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1795, Rose, now a widow, met a rising young general named Napoleon Bonaparte.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "josephine",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte, age 26"
+    }
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Rose? No. I shall call you Joséphine.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody knows exactly why. It probably came from her middle name, Josèphe.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.38,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "MARIE-JOSÈPHE-ROSE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She went along with it. They married in 1796, and he sent her a flood of love letters from his wars.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.38,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LOVE LETTERS",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She became Empress Joséphine, and that's the name history remembers.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "josephine",
+      "x": 0.42,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.3
+     },
+     {
+      "k": "throne",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EMPRESS",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "josephine",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Her name was Rose. Napoleon had other ideas.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #josephine #frenchhistory #historytok",
+ "youtube_title": "Napoleon Renamed His Wife #shorts",
+ "tags": [
+  "empress josephine",
+  "napoleon josephine",
+  "josephine real name",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jos%C3%A9phine_de_Beauharnais",
+  "https://www.worldhistory.org/Josephine_de_Beauharnais/",
+  "https://historyrevealed.com/period/georgian/josephine-de-beauharnais-who-wife-napoleon-life-real",
+  "https://www.britannica.com/biography/Josephine-empress-of-France"
+ ]
+}

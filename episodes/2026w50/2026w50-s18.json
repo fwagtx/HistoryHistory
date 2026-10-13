@@ -1,0 +1,292 @@
+{
+ "id": "2026w50-s18",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon Wrote a Romance Novel",
+ "hook": "NAPOLEON WROTE A ROMANCE",
+ "topic": "Napoleon's Love Story",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "desiree": {
+   "preset": "princess",
+   "hat": "",
+   "outfit": "gown",
+   "color": "#E8A0B0",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Désirée Clary"
+  },
+  "clisson": {
+   "hat": "bicorne",
+   "outfit": "napoleon",
+   "color": "#2F4FA0",
+   "hair": "long",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Clisson (fictional hero)"
+  },
+  "josephine": {
+   "preset": "queen",
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#F2F2F2",
+   "color2": "#C8A040",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Joséphine"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Before he conquered Europe, Napoleon wrote a romance novel.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.38,
+      "pose": "think",
+      "mood": "happy",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.65,
+      "s": 0.45
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.82,
+      "s": 0.5,
+      "text": "CLISSON ET EUGÉNIE"
+     }
+    ],
+    "place": "Paris · 1795",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon, age 26"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1795, he was a broke young army officer, engaged to Désirée Clary, from a rich family in Marseille.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "desiree",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ENGAGED",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Marseille · 1795",
+    "tag": {
+     "id": "desiree",
+     "text": "Désirée Clary"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wrote a short story called Clisson and Eugénie, about a brilliant young soldier. Wonder who that's based on.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "clisson",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.85,
+      "s": 0.4,
+      "label": "CLISSON"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TOTALLY NOT ME",
+      "at": 2.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "The hero is a genius. Purely fictional, of course.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the story, Eugénie falls for Clisson's friend, and heartbroken Clisson dies in battle.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "clisson",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In real life, Napoleon dumped Désirée for Joséphine, and never finished the book.",
+   "show": {
+    "k": "compare",
+    "bg": "palace",
+    "left": {
+     "label": "DÉSIRÉE",
+     "cast": [
+      {
+       "id": "desiree",
+       "pose": "cross",
+       "mood": "angry"
+      }
+     ]
+    },
+    "right": {
+     "label": "JOSÉPHINE",
+     "cast": [
+      {
+       "id": "josephine",
+       "pose": "wave",
+       "mood": "happy"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Désirée married another general, who later became King of Sweden. So she became a queen anyway.",
+   "show": {
+    "k": "flag",
+    "flag": "sweden",
+    "label": "SWEDEN",
+    "sub": "Queen Désirée · from 1818",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "desiree",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Napoleon's first big project wasn't a war. It was a love story.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #romance #frenchhistory #historytok",
+ "youtube_title": "Napoleon Wrote a Romance Novel #shorts",
+ "tags": [
+  "napoleon novel",
+  "clisson et eugenie",
+  "desiree clary",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Clisson_et_Eug%C3%A9nie",
+  "https://www.napoleon.org/en/magazine/publications/clisson-and-eugenie-a-love-story/",
+  "https://www.smithsonianmag.com/smart-news/even-napoleon-had-unpublished-manuscript-and-now-its-auction-180960400/",
+  "https://en.wikipedia.org/wiki/D%C3%A9sir%C3%A9e_Clary",
+  "https://unofficialroyalty.com/desiree-clary-queen-of-sweden"
+ ]
+}

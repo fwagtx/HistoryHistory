@@ -1,0 +1,343 @@
+{
+ "id": "2026w50-s20",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon Cheated at Chess Against a 'Robot'",
+ "hook": "NAPOLEON VS. A CHESS ROBOT",
+ "topic": "Mechanical Turk",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "turk": {
+   "hat": "turban",
+   "hatColor": "#C8302A",
+   "outfit": "robe",
+   "color": "#2F6F4A",
+   "color2": "#E7C66A",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "skin": "tan",
+   "name": "The Mechanical Turk"
+  },
+  "maelzel": {
+   "outfit": "coat",
+   "color": "#5A3A2A",
+   "hair": "curly",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Johann Nepomuk Mälzel"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george",
+  "maelzel": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Napoleon played chess against a robot, and tried to cheat.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "turk",
+      "x": 0.65,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.65,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VS.",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Vienna, Austria · 1809",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1809, Napoleon's army had just captured Vienna, the capital of Austria.",
+   "show": {
+    "k": "map",
+    "lon": 13.0,
+    "lat": 47.5,
+    "z0": 2.0,
+    "z1": 2.6,
+    "date": "1809",
+    "labels": [
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      7.5,
+      48.6
+     ],
+     [
+      11.6,
+      48.1
+     ],
+     [
+      16.37,
+      48.21
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There, a showman named Johann Mälzel showed him the Mechanical Turk, a famous chess machine dressed in a turban.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "maelzel",
+      "x": 0.32,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "turk",
+      "x": 0.65,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.65,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "maelzel",
+     "text": "Johann Mälzel, showman"
+    }
+   }
+  },
+  {
+   "who": "maelzel",
+   "say": "Care for a game, Your Majesty?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "maelzel",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "maelzel"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Accounts say Napoleon made an illegal move. The Turk put the piece back. He did it again. The Turk swept every piece off the board.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "turk",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RAGE QUIT",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Ha! Fine. Let's play properly.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He played properly, and lost anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "shock"
+     },
+     {
+      "id": "turk",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.68,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHECKMATE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The secret? There was no robot. A human chess master was hiding inside the cabinet.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "maelzel",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.55,
+      "label": "SECRET HUMAN INSIDE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "A HOAX",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "turk",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He tried to cheat against a chess machine. The machine was not having it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #chess #mechanicalturk #historytok",
+ "youtube_title": "Napoleon Cheated at Chess Against a 'Robot' #shorts",
+ "tags": [
+  "mechanical turk",
+  "napoleon chess",
+  "chess automaton",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/The_Turk",
+  "https://www.americanheritage.com/echec",
+  "https://www.thearticle.com/napoleon-beethoven-and-the-turk",
+  "https://eb.com/story/the-mechanical-turk-ai-marvel-or-parlor-trick"
+ ]
+}

@@ -1,0 +1,3129 @@
+{
+ "id": "2026w50-l2",
+ "format": "long",
+ "date": "2026-12-09",
+ "title": "The Craziest Things Napoleon Did",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "berthier": {
+   "hat": "bicorne",
+   "outfit": "napoleon",
+   "color": "#2F4FA0",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Marshal Louis-Alexandre Berthier"
+  },
+  "soldier": {
+   "preset": "grenadier",
+   "name": "Soldier of the 5th Line Regiment"
+  },
+  "monge": {
+   "hair": "short",
+   "hairColor": "#9A9A9A",
+   "outfit": "coat",
+   "color": "#3A3A5A",
+   "skin": "light",
+   "name": "Gaspard Monge"
+  },
+  "bouchard": {
+   "hat": "bicorne",
+   "outfit": "napoleon",
+   "color": "#2F4FA0",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stache": "thin",
+   "skin": "light",
+   "name": "Pierre-François Bouchard"
+  },
+  "brit": {
+   "preset": "redcoat",
+   "hat": "bicorne",
+   "cockade": false,
+   "hold": "sword",
+   "stache": "brush",
+   "name": "British officer"
+  },
+  "turk": {
+   "hat": "turban",
+   "hatColor": "#C8302A",
+   "outfit": "robe",
+   "color": "#2F6F4A",
+   "color2": "#E7C66A",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "skin": "tan",
+   "name": "The Mechanical Turk"
+  },
+  "maelzel": {
+   "outfit": "coat",
+   "color": "#5A3A2A",
+   "hair": "curly",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Johann Nepomuk Mälzel"
+  },
+  "marielouise": {
+   "preset": "princess",
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#F2F2F2",
+   "color2": "#2F4FA0",
+   "hair": "curly",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "Marie-Louise of Austria"
+  },
+  "charles": {
+   "hat": "bicorne",
+   "cockade": false,
+   "outfit": "napoleon",
+   "color": "#F2F2F2",
+   "color2": "#C8302A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Archduke Charles of Austria"
+  },
+  "desiree": {
+   "preset": "princess",
+   "hat": "",
+   "outfit": "gown",
+   "color": "#E8A0B0",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Désirée Clary"
+  },
+  "clisson": {
+   "hat": "bicorne",
+   "outfit": "napoleon",
+   "color": "#2F4FA0",
+   "hair": "long",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Clisson (fictional hero)"
+  },
+  "josephine": {
+   "preset": "queen",
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#F2F2F2",
+   "color2": "#C8A040",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Joséphine"
+  },
+  "scholar": {
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george",
+  "berthier": "bm_lewis",
+  "soldier": "am_fenrir",
+  "monge": "am_eric",
+  "maelzel": "am_puck",
+  "marielouise": "bf_emma",
+  "charles": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "March 1815. A narrow road in the French Alps. A wall of French soldiers blocks the way, guns loaded.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.55,
+      "pose": "aim",
+      "mood": "angry"
+     },
+     {
+      "id": "soldier",
+      "x": 0.7,
+      "pose": "aim",
+      "mood": "scared"
+     },
+     {
+      "id": "soldier",
+      "x": 0.85,
+      "pose": "aim",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.38,
+      "s": 0.55,
+      "flag": "france_royal",
+      "label": "THE KING'S FLAG"
+     },
+     {
+      "k": "tree",
+      "x": 0.08,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GUNS LOADED",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Laffrey, French Alps · 7 March 1815"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their orders from the king: stop one man. Napoleon Bonaparte, the former emperor of France, who has just escaped from exile.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.55,
+      "flag": "france"
+     },
+     {
+      "k": "house",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ESCAPED!",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Napoleon does the craziest thing possible. He walks straight toward the guns.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "smug",
+      "walk": [
+       0.12,
+       0.38
+      ]
+     },
+     {
+      "id": "soldier",
+      "x": 0.68,
+      "pose": "aim",
+      "mood": "shock"
+     },
+     {
+      "id": "soldier",
+      "x": 0.84,
+      "pose": "aim",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.05,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ON PURPOSE?!",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Wait. Is that... him?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.5,
+      "pose": "aim",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "cam": "close",
+    "focus": "soldier"
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Soldiers! Don't you recognize me?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hold that thought. We'll see how it ends at number one."
+  },
+  {
+   "who": "N",
+   "say": "Because this man did a lot of crazy things. Today: the seven craziest things Napoleon ever did. One of them involves rabbits.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "desiree",
+      "x": 0.1,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "berthier",
+      "x": 0.24,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "turk",
+      "x": 0.38,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.52,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "monge",
+      "x": 0.66,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     },
+     {
+      "id": "marielouise",
+      "x": 0.8,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.93,
+      "pose": "salute"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Craziest Things Napoleon Did",
+    "sub": "Seven true stories. One maybe-legend. A lot of hats.",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.88,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "He Wrote a Romance Novel"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number seven: before he ruled France, Napoleon wanted to be... a writer.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.38,
+      "pose": "think",
+      "mood": "happy",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.62,
+      "s": 0.45
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.85,
+      "s": 0.55,
+      "text": "CLISSON ET EUGÉNIE"
+     }
+    ],
+    "place": "Paris · 1795",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte, age 26"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1795 he was a broke young army officer with a lot of feelings. He was engaged to Désirée Clary, the daughter of a rich merchant family from Marseille.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "desiree",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.55
+     },
+     {
+      "k": "tree",
+      "x": 0.08,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ENGAGED",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Marseille · 1795",
+    "tag": {
+     "id": "desiree",
+     "text": "Désirée Clary"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he wrote a short romance called Clisson and Eugénie. The hero, Clisson, is a brilliant young soldier. Sound like anyone?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "clisson",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.88,
+      "s": 0.45,
+      "label": "CLISSON"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TOTALLY NOT ME",
+      "at": 2.6,
+      "color": "#6A3E8E"
+     }
+    ],
+    "tag": {
+     "id": "clisson",
+     "text": "Clisson, the hero (fictional)"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Clisson is a war hero who's tired of fighting and dreams of a quiet life in the countryside. Very subtle, Napoleon."
+  },
+  {
+   "who": "N",
+   "say": "Clisson marries the lovely Eugénie, then goes back to war. While he's away, she falls for his friend. Heartbroken, Clisson dies in battle.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "clisson",
+      "x": 0.42,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile, in real life, Napoleon dumped Désirée for a stylish widow named Joséphine. He never finished the book.",
+   "show": {
+    "k": "compare",
+    "bg": "palace",
+    "left": {
+     "label": "DÉSIRÉE (DUMPED)",
+     "cast": [
+      {
+       "id": "desiree",
+       "pose": "cross",
+       "mood": "angry"
+      }
+     ]
+    },
+    "right": {
+     "label": "JOSÉPHINE (MARRIED 1796)",
+     "cast": [
+      {
+       "id": "josephine",
+       "pose": "wave",
+       "mood": "happy"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pages were later scattered and sold off. Scholars only pieced the full story back together in 2007.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.38,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "FOUND: 2007"
+     },
+     {
+      "k": "desk",
+      "x": 0.92,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Désirée? She married another French general, Jean Bernadotte. He later became King of Sweden. So the girl Napoleon dumped became a queen.",
+   "show": {
+    "k": "flag",
+    "flag": "sweden",
+    "label": "SWEDEN",
+    "sub": "Queen Désirée · from 1818",
+    "bg": "castle"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "He Was Chased by Rabbits (Maybe)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number six comes with a warning label: it might not be totally true.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.38,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.6,
+      "text": "THIÉBAULT'S MEMOIRS"
+     },
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND?",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's July 1807. Napoleon has just made peace with Russia at a town called Tilsit, near the Baltic Sea.",
+   "show": {
+    "k": "map",
+    "lon": 16.0,
+    "lat": 52.5,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1807",
+    "labels": [
+     [
+      "Tilsit",
+      21.9,
+      55.08,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Berlin",
+      13.4,
+      52.52,
+      14
+     ],
+     [
+      "RUSSIA",
+      30.0,
+      56.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      8.0,
+      50.5
+     ],
+     [
+      13.4,
+      52.52
+     ],
+     [
+      18.0,
+      54.0
+     ],
+     [
+      21.9,
+      55.08
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had first met the Russian tsar on a fancy raft, floating in the middle of a river, to talk peace.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.6,
+      "s": 0.45,
+      "flag": "france",
+      "label": "THE RAFT"
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "russia"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "A RAFT?!",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "Neman River, Tilsit · June 1807"
+   }
+  },
+  {
+   "who": "N",
+   "say": "To celebrate, his chief of staff, Marshal Berthier, set up a rabbit hunt for him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "berthier",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "RABBITS"
+     },
+     {
+      "k": "crate",
+      "x": 0.86,
+      "s": 0.35,
+      "label": "RABBITS"
+     },
+     {
+      "k": "tent",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "berthier",
+     "text": "Marshal Berthier, chief of staff"
+    }
+   }
+  },
+  {
+   "who": "berthier",
+   "say": "Your Majesty, I've got hundreds of rabbits ready for you!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "berthier",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.5
+     },
+     {
+      "k": "crate",
+      "x": 0.1,
+      "s": 0.35,
+      "label": "RABBITS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Splendid. Let them go!"
+  },
+  {
+   "who": "N",
+   "say": "The problem? Berthier's men had bought tame rabbits from farmers. And tame rabbits think people mean dinner.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "berthier",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "TAME RABBITS"
+     },
+     {
+      "k": "house",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OOPS",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So instead of running away, a horde of rabbits charged straight at Napoleon.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.6,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.2,
+      "s": 0.4,
+      "label": "RABBITS!"
+     },
+     {
+      "k": "crate",
+      "x": 0.35,
+      "s": 0.3,
+      "label": "MORE RABBITS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHARGE!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the story, they swarmed around his legs, and the conqueror of Europe retreated to his carriage.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.55,
+      "pose": "run",
+      "mood": "scared",
+      "exit": "right",
+      "exitAt": 1.6
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.85,
+      "s": 0.5
+     },
+     {
+      "k": "tree",
+      "x": 0.08,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RETREAT!",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This tale comes from the memoirs of General Thiébault, a French officer who didn't like Berthier. So take it with a pinch of salt.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.4
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.5,
+      "text": "MAYBE?"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "He Played Chess Against a 'Robot'"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number five: Napoleon versus the robot.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "turk",
+      "x": 0.68,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.68,
+      "s": 0.4
+     },
+     {
+      "k": "column",
+      "x": 0.08,
+      "s": 0.55
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VS.",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Schönbrunn Palace, Vienna · 1809"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1809, Napoleon captured Vienna, the capital of Austria, and moved into its emperor's summer palace.",
+   "show": {
+    "k": "map",
+    "lon": 13.0,
+    "lat": 47.5,
+    "z0": 2.0,
+    "z1": 2.6,
+    "date": "1809",
+    "labels": [
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "AUSTRIA",
+      14.5,
+      47.3,
+      0
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      7.5,
+      48.6
+     ],
+     [
+      11.6,
+      48.1
+     ],
+     [
+      16.37,
+      48.21
+     ]
+    ],
+    "areas": [
+     [
+      16.37,
+      48.21,
+      0.3,
+      "rgba(168,50,42,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There, a showman named Johann Mälzel showed him the most famous machine in Europe: the Mechanical Turk.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "maelzel",
+      "x": 0.32,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "turk",
+      "x": 0.62,
+      "pose": "sit",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.62,
+      "s": 0.4
+     },
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "maelzel",
+     "text": "Johann Mälzel, showman"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was a life-sized figure in a turban, sitting at a wooden cabinet with a chessboard. And it beat almost everyone.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "turk",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.45,
+      "s": 0.45
+     },
+     {
+      "k": "statue",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHESS MACHINE",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ],
+    "tag": {
+     "id": "turk",
+     "text": "The Mechanical Turk"
+    }
+   }
+  },
+  {
+   "who": "maelzel",
+   "say": "Your Majesty, care for a game?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "maelzel",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.1,
+      "s": 0.55
+     }
+    ],
+    "cam": "close",
+    "focus": "maelzel"
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Against a machine? This will be easy.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Accounts say Napoleon tested it by making an illegal move. The Turk calmly put the piece back.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "turk",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.65,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ILLEGAL MOVE",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He cheated again. This time, the Turk swept every piece off the board.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "turk",
+      "x": 0.5,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RAGE QUIT",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story goes that Napoleon was amused, played properly, and lost anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "shock"
+     },
+     {
+      "id": "turk",
+      "x": 0.72,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHECKMATE",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The twist? It wasn't a robot. A human chess master was hiding inside the cabinet.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "maelzel",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.55,
+      "label": "SECRET HUMAN INSIDE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "A HOAX",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the man who conquered half of Europe lost at chess to a guy in a box."
+  },
+  {
+   "who": "N",
+   "say": "The Turk kept fooling crowds for decades, until it burned in a museum fire in Philadelphia in 1854.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "maelzel",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "THE TURK"
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1854",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "He Brought Scientists to a War"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number four: in 1798, Napoleon invaded Egypt. Egypt was rich, officially part of the Ottoman Empire, and on Britain's route to India.",
+   "show": {
+    "k": "map",
+    "lon": 18.0,
+    "lat": 36.0,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "1798",
+    "labels": [
+     [
+      "Toulon",
+      5.93,
+      43.12,
+      14
+     ],
+     [
+      "Malta",
+      14.4,
+      35.9,
+      14
+     ],
+     [
+      "Alexandria",
+      29.92,
+      31.2,
+      14
+     ],
+     [
+      "Cairo",
+      31.24,
+      30.04,
+      14
+     ],
+     [
+      "EGYPT",
+      30.0,
+      27.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      5.93,
+      43.12
+     ],
+     [
+      9.5,
+      39.5
+     ],
+     [
+      14.4,
+      35.9
+     ],
+     [
+      22.0,
+      33.5
+     ],
+     [
+      29.92,
+      31.2
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He brought tens of thousands of soldiers. And something no army had ever packed before: about one hundred and sixty-seven scholars.",
+   "show": {
+    "k": "card",
+    "label": "Scholars who went with Napoleon's army to Egypt",
+    "big": "ABOUT 167",
+    "sub": "mathematicians, chemists, engineers, artists"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mathematicians, chemists, doctors, artists, even a musician. Their leader was Gaspard Monge, a famous mathematician.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "monge",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "france"
+     },
+     {
+      "k": "crate",
+      "x": 0.1,
+      "s": 0.35,
+      "label": "BOOKS"
+     }
+    ],
+    "place": "Off the coast of Egypt · 1798",
+    "tag": {
+     "id": "monge",
+     "text": "Gaspard Monge, mathematician"
+    }
+   }
+  },
+  {
+   "who": "monge",
+   "say": "General, we'll measure every pyramid in Egypt!",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "monge",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "monge"
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Wonderful. Just stay behind the soldiers.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.5
+     },
+     {
+      "k": "palm",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "While the army fought, the scholars measured temples, drew maps, and collected animals and plants.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "monge",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.65,
+      "s": 0.65
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "MEASURE EVERYTHING"
+     }
+    ],
+    "place": "Egypt · 1798"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Cairo, Napoleon even set up a science club, the Institute of Egypt.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "monge",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     },
+     {
+      "k": "globe",
+      "x": 0.1,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SCIENCE CLUB",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "Cairo · 1798"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their notes became a giant set of books called the Description of Egypt, and set off a craze for all things Egyptian across Europe."
+  },
+  {
+   "who": "N",
+   "say": "Then, in July 1799, French soldiers fixing an old fort near the town of Rosetta dug up a broken stone covered in writing.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "bouchard",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 0.5,
+      "label": "A STONE WITH WRITING"
+     },
+     {
+      "k": "wall",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Rosetta, Egypt · July 1799",
+    "tag": {
+     "id": "bouchard",
+     "text": "Officer Pierre-François Bouchard"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It became the Rosetta Stone, the key that later helped experts read hieroglyphs.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "monge",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "ROSETTA STONE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JACKPOT",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But here's the crazy part. The British navy had already destroyed most of Napoleon's fleet. His army was stuck.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.6,
+      "flag": "uk1606"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FLEET DESTROYED",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "smoke",
+     "explosion"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in August 1799, Napoleon quietly sailed home, and left his army behind.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55,
+      "flag": "france",
+      "move": [
+       0.6,
+       0.9
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BYE!",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "Alexandria · August 1799"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1801, his stranded troops surrendered, and the British took the stone. It's still in the British Museum in London.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "brit",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "bouchard",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "uk"
+     },
+     {
+      "k": "rock",
+      "x": 0.12,
+      "s": 0.4,
+      "label": "ROSETTA STONE"
+     }
+    ],
+    "place": "Alexandria · 1801",
+    "tag": {
+     "id": "brit",
+     "text": "British officer"
+    }
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "He Skipped His Own Wedding"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number three. By 1810, Napoleon was emperor, and he wanted a son to take over one day. Joséphine hadn't given him one, so he divorced her.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "josephine",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.4
+     },
+     {
+      "k": "crown",
+      "x": 0.1,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DIVORCED",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Paris · 1810",
+    "tag": {
+     "id": "josephine",
+     "text": "Empress Joséphine"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His new bride was Marie-Louise, the eighteen-year-old daughter of the Emperor of Austria. Napoleon had beaten her father's armies again and again.",
+   "show": {
+    "k": "flag",
+    "flag": "austria_habsburg",
+    "label": "AUSTRIA",
+    "sub": "The Austrian Empire · 1810",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fun family fact: she was also the great-niece of Marie Antoinette, the French queen executed during the Revolution.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "marielouise",
+      "x": 0.42,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "GREAT-AUNT MARIE ANTOINETTE"
+     },
+     {
+      "k": "guillotine",
+      "x": 0.1,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAMILY TREE",
+      "at": 2.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Napoleon didn't go to the wedding. It was held in Vienna by proxy, which means someone else stood in for the groom.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.38,
+      "pose": "present",
+      "mood": "neutral"
+     },
+     {
+      "id": "marielouise",
+      "x": 0.65,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.1,
+      "s": 0.55
+     },
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "austria_habsburg"
+     }
+    ],
+    "place": "Vienna · 11 March 1810",
+    "tag": {
+     "id": "marielouise",
+     "text": "Marie-Louise of Austria, age 18"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The stand-in was Archduke Charles, an Austrian general who had beaten Napoleon in a battle the year before.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.55
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AWKWARD",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ],
+    "tag": {
+     "id": "charles",
+     "text": "Archduke Charles of Austria"
+    }
+   }
+  },
+  {
+   "who": "marielouise",
+   "say": "So... where exactly is my husband?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "marielouise",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "charles",
+      "x": 0.7,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "marielouise"
+   }
+  },
+  {
+   "who": "charles",
+   "say": "Busy. You're stuck with me today."
+  },
+  {
+   "who": "N",
+   "say": "Then Marie-Louise rode to France. Napoleon was so impatient, he raced out to meet her carriage on the road.",
+   "show": {
+    "k": "map",
+    "lon": 9.0,
+    "lat": 48.8,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "March 1810",
+    "labels": [
+     [
+      "Vienna",
+      16.37,
+      48.21,
+      14
+     ],
+     [
+      "Compiègne",
+      2.83,
+      49.42,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ]
+    ],
+    "route": [
+     [
+      16.37,
+      48.21
+     ],
+     [
+      12.0,
+      48.3
+     ],
+     [
+      8.5,
+      48.6
+     ],
+     [
+      5.5,
+      49.0
+     ],
+     [
+      2.83,
+      49.42
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A year later they had a son, and Napoleon gave the baby a title: King of Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "marielouise",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.88,
+      "s": 0.3
+     },
+     {
+      "k": "throne",
+      "x": 0.1,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KING OF ROME",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ],
+    "place": "Paris · 1811",
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "His Laws Are Still Here"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number two is less funny, but it might be the craziest of all.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.42,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.4
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.55,
+      "text": "CIVIL CODE"
+     }
+    ],
+    "place": "Paris · 1804"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Before Napoleon, France was a messy patchwork of local laws. The rules could change from one region to the next.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.45,
+      "text": "DIFFERENT RULES HERE"
+     },
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CONFUSING",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1804, he gave France one clear rulebook: the Civil Code, later called the Napoleonic Code.",
+   "show": {
+    "k": "card",
+    "label": "Articles in Napoleon's Civil Code of 1804",
+    "big": "2,281",
+    "sub": "one rulebook for the whole country"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It said every man was equal before the law, no matter who his parents were. Though, to be fair, it gave women far fewer rights than men.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "josephine",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT EQUAL FOR WOMEN",
+      "at": 2.6,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His armies carried it across Europe, and it stuck, even after he was gone.",
+   "show": {
+    "k": "map",
+    "lon": 8.0,
+    "lat": 48.0,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "1804–1815",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Brussels",
+      4.35,
+      50.85,
+      14
+     ],
+     [
+      "Amsterdam",
+      4.9,
+      52.37,
+      14
+     ],
+     [
+      "Milan",
+      9.19,
+      45.46,
+      14
+     ],
+     [
+      "Madrid",
+      -3.7,
+      40.42,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      2.5,
+      47.0,
+      4.0,
+      "rgba(47,111,194,0.3)"
+     ],
+     [
+      5.0,
+      51.5,
+      1.5,
+      "rgba(47,111,194,0.3)"
+     ],
+     [
+      10.0,
+      45.0,
+      2.0,
+      "rgba(47,111,194,0.3)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its ideas shaped the laws of many countries, from Belgium to Chile, and even Louisiana and Quebec.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BELGIUM",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "CHILE",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "LOUISIANA",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Years later, in exile, Napoleon said this was his real legacy.",
+   "show": {
+    "k": "quote",
+    "text": "My true glory is not to have won forty battles... What nothing will destroy, what will live forever, is my Civil Code.",
+    "who": "Napoleon, in exile on Saint Helena (as reported by his companions)"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "He Took Back France with One Sentence"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And number one. In 1814, Napoleon finally lost. His enemies captured Paris, and he had to give up his throne.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.42,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "crown",
+      "x": 0.12,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GAME OVER?",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Fontainebleau · 1814"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They sent him to rule Elba, a small island off the coast of Italy. It's only about four times the size of Manhattan.",
+   "show": {
+    "k": "map",
+    "lon": 10.0,
+    "lat": 43.0,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "1814",
+    "labels": [
+     [
+      "Elba",
+      10.25,
+      42.78,
+      14
+     ],
+     [
+      "Corsica",
+      9.0,
+      42.1,
+      14
+     ],
+     [
+      "ITALY",
+      11.5,
+      43.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      10.25,
+      42.78,
+      0.25,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They even let him keep the title of emperor. Emperor... of a small island.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "WELCOME TO ELBA"
+     },
+     {
+      "k": "sailship",
+      "x": 0.92,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EMPEROR OF ELBA",
+      "at": 1.8,
+      "color": "#B8860B"
+     }
+    ],
+    "place": "Elba · May 1814"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He took the job seriously. He designed Elba a flag with three golden bees, built roads, and reorganized the island's iron mines.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy",
+      "hold": "map"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.65,
+      "s": 0.5,
+      "color": "#F2F2F2",
+      "label": "BEES FLAG"
+     },
+     {
+      "k": "cart",
+      "x": 0.88,
+      "s": 0.45,
+      "label": "IRON"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROADS",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "MINES",
+      "at": 2.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had a tiny army, a tiny navy, and his mother moved in to keep him company."
+  },
+  {
+   "who": "N",
+   "say": "But he was bored. And he heard the new king of France, Louis the Eighteenth, was not very popular.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.55
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ]
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Pack the ships. We're going to Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.82,
+      "s": 0.55,
+      "flag": "france"
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After about ten months on Elba, he slipped away with around a thousand men, and landed in southern France.",
+   "show": {
+    "k": "map",
+    "lon": 7.5,
+    "lat": 43.6,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "February–March 1815",
+    "labels": [
+     [
+      "Elba",
+      10.25,
+      42.78,
+      14
+     ],
+     [
+      "Golfe-Juan",
+      7.07,
+      43.57,
+      14
+     ],
+     [
+      "Cannes",
+      7.01,
+      43.55,
+      -60
+     ]
+    ],
+    "route": [
+     [
+      10.3,
+      42.8
+     ],
+     [
+      9.2,
+      43.1
+     ],
+     [
+      8.0,
+      43.3
+     ],
+     [
+      7.07,
+      43.57
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He marched north on mountain roads through the Alps, to avoid towns loyal to the king.",
+   "show": {
+    "k": "map",
+    "lon": 5.5,
+    "lat": 45.5,
+    "z0": 1.9,
+    "z1": 2.3,
+    "date": "March 1815",
+    "labels": [
+     [
+      "Golfe-Juan",
+      7.07,
+      43.57,
+      14
+     ],
+     [
+      "Grenoble",
+      5.72,
+      45.19,
+      14
+     ],
+     [
+      "Laffrey",
+      5.77,
+      45.0,
+      -60
+     ],
+     [
+      "Lyon",
+      4.84,
+      45.76,
+      14
+     ],
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ]
+    ],
+    "route": [
+     [
+      7.07,
+      43.57
+     ],
+     [
+      6.92,
+      43.66
+     ],
+     [
+      6.24,
+      44.09
+     ],
+     [
+      6.08,
+      44.56
+     ],
+     [
+      5.77,
+      45.0
+     ],
+     [
+      5.72,
+      45.19
+     ],
+     [
+      4.84,
+      45.76
+     ],
+     [
+      3.9,
+      47.0
+     ],
+     [
+      2.35,
+      48.86
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And that brings us back to Laffrey, and that wall of soldiers sent to stop him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "smug"
+     },
+     {
+      "id": "soldier",
+      "x": 0.65,
+      "pose": "aim",
+      "mood": "scared"
+     },
+     {
+      "id": "soldier",
+      "x": 0.82,
+      "pose": "aim",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.95,
+      "s": 0.45,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Laffrey · 7 March 1815"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to accounts of the day, he stepped forward and said:",
+   "show": {
+    "k": "quote",
+    "text": "Soldiers of the Fifth, I am your emperor. If there is one among you who wants to kill his emperor, here I am.",
+    "who": "Napoleon at Laffrey, 7 March 1815 (as reported; wording varies)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody fired. Instead, the soldiers broke ranks and ran to him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.6,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.1,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOBODY FIRED",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Long live the Emperor!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "Grenoble · 7 March 1815",
+    "cam": "close",
+    "focus": "soldier"
+   }
+  },
+  {
+   "who": "N",
+   "say": "More troops joined him at every town. Less than two weeks later, he was back in Paris, and the king had fled.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BACK IN PARIS",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ],
+    "place": "Paris · 20 March 1815"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had taken back a whole country without fighting a single battle."
+  },
+  {
+   "who": "N",
+   "say": "It didn't last. About three months later, he lost the Battle of Waterloo, in what's now Belgium.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "brit",
+      "x": 0.75,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.92,
+      "s": 0.45,
+      "flag": "uk"
+     },
+     {
+      "k": "cannon",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "place": "Waterloo · 18 June 1815",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This time, the British sent him to Saint Helena, a tiny island in the middle of the South Atlantic. He died there in 1821.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.6,
+      "label": "SAINT HELENA"
+     },
+     {
+      "k": "sailship",
+      "x": 0.92,
+      "s": 0.35,
+      "flag": "uk"
+     }
+    ],
+    "place": "Saint Helena · 1815–1821"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So that's Napoleon: a romance writer, a rabbit victim, a chess cheat, a science fan, a no-show groom, a lawmaker, and a man who stopped an army with one sentence.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "desiree",
+      "x": 0.1,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "berthier",
+      "x": 0.24,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "turk",
+      "x": 0.38,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "monge",
+      "x": 0.52,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     },
+     {
+      "id": "marielouise",
+      "x": 0.66,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.8,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "soldier",
+      "x": 0.93,
+      "pose": "salute"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Which one was the craziest? Tell us in the comments."
+  },
+  {
+   "who": "N",
+   "say": "Next time: the South Sea Bubble, and how Isaac Newton lost a fortune. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.78,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "turk",
+      "x": 0.92,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "next": "The South Sea Bubble: How Isaac Newton Lost a Fortune"
+   }
+  }
+ ],
+ "description": "Napoleon Bonaparte wrote a romance novel, (maybe) got chased by rabbits, cheated at chess against a fake robot, took 167 scholars to a war, skipped his own wedding, rewrote France's laws, and took back a whole country with one sentence. Here are the seven craziest things he did, counted down from seven to one, with the legend clearly flagged. Chapters are added automatically.\n\n#history #napoleon #napoleonbonaparte #frenchhistory #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "NAPOLEON?!",
+  "bg": "field",
+  "faces": [
+   {
+    "id": "napoleon",
+    "mood": "shock"
+   },
+   {
+    "id": "berthier",
+    "mood": "scared"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "The Craziest Things Napoleon Did",
+ "tags": [
+  "napoleon",
+  "napoleon bonaparte",
+  "craziest things napoleon did",
+  "napoleon rabbits",
+  "mechanical turk",
+  "rosetta stone",
+  "napoleonic code",
+  "napoleon elba",
+  "hundred days",
+  "clisson et eugenie",
+  "funny history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Clisson_et_Eug%C3%A9nie",
+  "https://www.napoleon.org/en/magazine/publications/clisson-and-eugenie-a-love-story/",
+  "https://www.smithsonianmag.com/smart-news/even-napoleon-had-unpublished-manuscript-and-now-its-auction-180960400/",
+  "https://en.wikipedia.org/wiki/D%C3%A9sir%C3%A9e_Clary",
+  "https://unofficialroyalty.com/desiree-clary-queen-of-sweden",
+  "https://mentalfloss.com/article/51364/time-napoleon-was-attacked-rabbits",
+  "https://www.historyanswers.co.uk/people-politics/napoleons-battle-against-rabbits/",
+  "https://en.wikipedia.org/wiki/The_Turk",
+  "https://www.americanheritage.com/echec",
+  "https://www.thearticle.com/napoleon-beethoven-and-the-turk",
+  "https://en.wikipedia.org/wiki/French_campaign_in_Egypt_and_Syria",
+  "https://en.wikipedia.org/wiki/Description_de_l%27%C3%89gypte",
+  "https://www.napoleon.org/magazine/livres/les-savants-de-bonaparte-en-egypte-1798-1801/",
+  "https://lindahall.org/experience/digital-exhibitions/napoleon-and-the-scientific-expedition-to-egypt/02-napoleon-scientist",
+  "https://www.lindahall.org/experience/digital-exhibitions/napoleon-and-the-scientific-expedition-to-egypt/15-the-rosetta-stone/",
+  "https://en.wikipedia.org/wiki/Rosetta_Stone",
+  "https://www.britishmuseum.org/collection/object/Y_EA24",
+  "https://en.wikipedia.org/wiki/The_Wedding_of_Napoleon_and_Marie_Louise",
+  "https://www.napoleon.org/en/history-of-the-two-empires/articles/the-marriage-of-napoleon-i-and-marie-louise-in-pictures",
+  "https://en.wikipedia.org/wiki/Archduke_Charles,_Duke_of_Teschen",
+  "https://en.wikipedia.org/wiki/Napoleonic_Code",
+  "https://www.napoleon.org/histoire-des-2-empires/dossiers-thematiques/la-promulgation-du-code-civil-des-francais-21-mars-1804/",
+  "https://64parishes.org/entry/napoleonic-code",
+  "https://www.napoleon.org/wp-content/archives/newsletters/250.html",
+  "https://en.wikipedia.org/wiki/Exile_of_Napoleon_to_Elba",
+  "https://en.wikipedia.org/wiki/Flag_of_Elba",
+  "https://en.wikipedia.org/wiki/Hundred_Days",
+  "https://www.napoleon.org/en/magazine/places/the-route-napoleon",
+  "https://militaryhistorynow.com/2023/12/14/soldiers-of-the-fifth-meet-the-regiment-famously-sent-to-stop-napoleons-return-from-exile/",
+  "https://en.wikipedia.org/wiki/Laffrey"
+ ]
+}

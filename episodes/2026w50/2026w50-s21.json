@@ -1,0 +1,329 @@
+{
+ "id": "2026w50-s21",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon Stole Venice's Horses (Which Venice Had Stolen)",
+ "hook": "HE STOLE VENICE'S HORSES",
+ "topic": "Horses of Saint Mark",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "venetian": {
+   "outfit": "robe",
+   "color": "#A8322A",
+   "hair": "short",
+   "hairColor": "#7A7A7A",
+   "beard": "goatee",
+   "skin": "light",
+   "name": "Venetian official"
+  },
+  "horse": {
+   "animal": "horse",
+   "mood": "happy"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george",
+  "venetian": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Napoleon took four giant bronze horses from Venice. Funny thing is, Venice had taken them too.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.62,
+      "s": 0.5,
+      "label": "BRONZE HORSES"
+     },
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Venice · 1797",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The horses stood on Saint Mark's Basilica, Venice's most famous church.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.35
+     },
+     {
+      "id": "horse",
+      "x": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ST MARK'S HORSES",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Venetians had grabbed them from Constantinople back in 1204, during a crusade.",
+   "show": {
+    "k": "map",
+    "lon": 20.0,
+    "lat": 42.5,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1204",
+    "labels": [
+     [
+      "Venice",
+      12.33,
+      45.44,
+      14
+     ],
+     [
+      "Constantinople",
+      28.98,
+      41.01,
+      14
+     ]
+    ],
+    "route": [
+     [
+      28.98,
+      41.01
+     ],
+     [
+      24.0,
+      38.5
+     ],
+     [
+      19.5,
+      39.5
+     ],
+     [
+      16.0,
+      42.5
+     ],
+     [
+      12.33,
+      45.44
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1797, Napoleon's army conquered Venice, and he shipped the horses off to Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.6,
+      "s": 0.45,
+      "label": "BRONZE HORSES"
+     },
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "france"
+     }
+    ],
+    "place": "Venice · 1797"
+   }
+  },
+  {
+   "who": "venetian",
+   "say": "Those are our horses!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "venetian",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "venetian"
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "They were. Now they're French.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He put them on top of a new victory arch in Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.65,
+      "s": 0.6,
+      "label": "VICTORY ARCH"
+     },
+     {
+      "k": "statue",
+      "x": 0.65,
+      "s": 0.3,
+      "y": 0.35
+     }
+    ],
+    "place": "Paris · 1808"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After Napoleon fell in 1815, the horses went home to Venice. The originals now live indoors, and copies stand outside.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "venetian",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.68,
+      "s": 0.5,
+      "label": "BACK HOME"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RETURNED 1815",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "Venice · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "venetian",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Napoleon stole them. But Venice had stolen them first.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #venice #art #historytok",
+ "youtube_title": "Napoleon Stole Venice's Horses (Which Venice Had Stolen) #shorts",
+ "tags": [
+  "horses of saint mark",
+  "napoleon venice",
+  "napoleon looted art",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Horses_of_Saint_Mark",
+  "https://en.wikipedia.org/wiki/The_Return_of_the_Horses_of_San_Marco",
+  "https://en.wikipedia.org/wiki/Arc_de_Triomphe_du_Carrousel",
+  "https://www.britannica.com/topic/Horses-of-Saint-Mark"
+ ]
+}

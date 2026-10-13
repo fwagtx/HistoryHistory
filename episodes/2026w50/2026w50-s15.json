@@ -1,0 +1,316 @@
+{
+ "id": "2026w50-s15",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon Became Emperor of a Tiny Island",
+ "hook": "EMPEROR OF A TINY ISLAND",
+ "topic": "Napoleon on Elba",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "soldier": {
+   "preset": "grenadier",
+   "name": "Soldier of the 5th Line Regiment"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "After losing his empire, Napoleon got a new one: a tiny island.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.38,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.45,
+      "text": "WELCOME TO ELBA"
+     },
+     {
+      "k": "sailship",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Elba, Italy · May 1814",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1814, his enemies captured Paris and forced him to give up the French throne.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.42,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "crown",
+      "x": 0.15,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GAME OVER?",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They sent him to Elba, a small island off Italy, about four times the size of Manhattan.",
+   "show": {
+    "k": "map",
+    "lon": 10.0,
+    "lat": 43.0,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "1814",
+    "labels": [
+     [
+      "Elba",
+      10.25,
+      42.78,
+      14
+     ],
+     [
+      "Corsica",
+      9.0,
+      42.1,
+      14
+     ],
+     [
+      "ITALY",
+      11.5,
+      43.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      10.25,
+      42.78,
+      0.25,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And they let him keep the title of emperor.",
+   "show": {
+    "k": "card",
+    "label": "Napoleon's official title on Elba",
+    "big": "EMPEROR",
+    "sub": "of an island of about 224 square kilometres"
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Right. My island needs a flag.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He designed one, with three golden bees. Then he built roads and reorganized the iron mines.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "map"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.62,
+      "s": 0.5,
+      "color": "#F2F2F2",
+      "label": "BEES FLAG"
+     },
+     {
+      "k": "cart",
+      "x": 0.85,
+      "s": 0.4,
+      "label": "IRON"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROADS",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "MINES",
+      "at": 2.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But he got bored fast. After about ten months, he sailed back to France.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.55,
+      "flag": "france",
+      "move": [
+       0.5,
+       0.85
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BYE, ELBA",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "Mediterranean · February 1815"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within weeks, he ruled France again. His bee flag still pops up all over Elba.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.5,
+      "flag": "france"
+     },
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for five history stories a day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They took his empire and gave him an island. He got to work.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #elba #frenchhistory #historytok",
+ "youtube_title": "Napoleon Became Emperor of a Tiny Island #shorts",
+ "tags": [
+  "napoleon elba",
+  "elba flag",
+  "napoleon exile",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Exile_of_Napoleon_to_Elba",
+  "https://en.wikipedia.org/wiki/Flag_of_Elba",
+  "https://www.napoleon-empire.org/en/napoleon-bonaparte-on-the-island-of-elba.php",
+  "https://apollo-magazine.com/?p=937506",
+  "https://en.wikipedia.org/wiki/Elba"
+ ]
+}

@@ -1,0 +1,334 @@
+{
+ "id": "2026w50-s17",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon Was Chased by Rabbits (Maybe)",
+ "hook": "NAPOLEON VS. RABBITS",
+ "topic": "Napoleon",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "berthier": {
+   "hat": "bicorne",
+   "outfit": "napoleon",
+   "color": "#2F4FA0",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Marshal Louis-Alexandre Berthier"
+  },
+  "scholar": {
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george",
+  "berthier": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Napoleon conquered half of Europe. Then, the story goes, he got chased off by rabbits.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.6,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.25,
+      "s": 0.4,
+      "label": "RABBITS!"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "A LEGEND?",
+      "at": 1.8,
+      "color": "#2F6FC2"
+     }
+    ],
+    "place": "France · July 1807",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1807, to celebrate a peace deal, his chief of staff, Marshal Berthier, planned a rabbit hunt.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "berthier",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.35,
+      "label": "RABBITS"
+     }
+    ],
+    "tag": {
+     "id": "berthier",
+     "text": "Marshal Berthier"
+    }
+   }
+  },
+  {
+   "who": "berthier",
+   "say": "Hundreds of rabbits, Your Majesty! All ready!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "berthier",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.35,
+      "label": "RABBITS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Berthier's men had bought tame rabbits from farmers. And tame rabbits think people mean dinner.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "berthier",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "TAME RABBITS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OOPS",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When the cages opened, the rabbits didn't run away. They charged straight at Napoleon.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.62,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.2,
+      "s": 0.4,
+      "label": "RABBITS!"
+     },
+     {
+      "k": "crate",
+      "x": 0.36,
+      "s": 0.3,
+      "label": "MORE RABBITS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHARGE!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Why are they running toward me?!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the story, the emperor retreated to his carriage, rabbits on his heels.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.5,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.78,
+      "s": 0.5
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.3,
+      "label": "RABBITS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RETREAT!",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It comes from the memoirs of General Thiébault, who didn't like Berthier. So it might be exaggerated.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.38,
+      "pose": "shrug",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.55,
+      "text": "THIÉBAULT'S MEMOIRS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "berthier",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The conqueror of Europe vs. a few hundred bunnies. (Allegedly.)\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #funnyhistory #rabbits #historytok",
+ "youtube_title": "Napoleon Was Chased by Rabbits (Maybe) #shorts",
+ "tags": [
+  "napoleon rabbits",
+  "napoleon bunny attack",
+  "berthier",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://mentalfloss.com/article/51364/time-napoleon-was-attacked-rabbits",
+  "https://www.historyanswers.co.uk/people-politics/napoleons-battle-against-rabbits/",
+  "https://www.deseret.com/u-s-world/2023/10/4/23901896/the-battle-napoleon-bonaparte-lost-to-rabbits",
+  "https://en.wikipedia.org/wiki/Louis-Alexandre_Berthier",
+  "https://en.wikipedia.org/wiki/Paul_Thi%C3%A9bault"
+ ]
+}

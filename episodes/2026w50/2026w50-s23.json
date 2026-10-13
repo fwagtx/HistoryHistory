@@ -1,0 +1,300 @@
+{
+ "id": "2026w50-s23",
+ "format": "short",
+ "date": "2026-12-09",
+ "slot": "09:00",
+ "title": "Napoleon Made France Grow Sugar Beets",
+ "hook": "NAPOLEON'S SUGAR BEETS",
+ "topic": "Napoleon",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "delessert": {
+   "preset": "banker",
+   "glasses": "",
+   "stache": "",
+   "hairColor": "#6A4A2A",
+   "name": "Benjamin Delessert"
+  },
+  "scholar": {
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "outfit": "coat",
+   "color": "#4A3A2A",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Historian"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A trade war pushed Napoleon to make sugar out of beets.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "SUGAR BEETS"
+     }
+    ],
+    "place": "France · 1811",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1806, Napoleon banned Europe from trading with Britain. Britain's navy blocked French ports right back.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.55,
+      "flag": "uk"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.45,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BLOCKADE",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "French sugar came from faraway colonies. Suddenly, it was rare and pricey.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.38,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "SUGAR: $$$"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO SUGAR",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But German chemists had found sugar inside a plain root: the sugar beet.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scholar",
+      "x": 0.38,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "BEETS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SUGAR INSIDE",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Then France will grow its own sugar!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1811, he ordered thirty-two thousand hectares of beets planted, and backed new sugar factories.",
+   "show": {
+    "k": "card",
+    "label": "Farmland ordered planted with sugar beets in 1811",
+    "big": "32,000 HECTARES",
+    "sub": "about 80,000 acres"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1812, he visited Benjamin Delessert's sugar factory near Paris, and gave him France's top award.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "delessert",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.35,
+      "label": "BEET SUGAR"
+     }
+    ],
+    "place": "Passy, near Paris · 1812",
+    "tag": {
+     "id": "delessert",
+     "text": "Benjamin Delessert"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today, about a fifth of the world's sugar comes from beets.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "delessert",
+      "x": 0.38,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "SUGAR BEETS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FRANCE: EU'S TOP GROWER",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "France · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "delessert",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Britain cut off France's sugar. So Napoleon turned to beets.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #sugar #foodhistory #historytok",
+ "youtube_title": "Napoleon Made France Grow Sugar Beets #shorts",
+ "tags": [
+  "napoleon sugar beet",
+  "continental system",
+  "beet sugar history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sugar_beet",
+  "https://en.wikipedia.org/wiki/Continental_System",
+  "https://www.napoleon.org/histoire-des-2-empires/articles/une-chronique-de-thierry-lentz-un-exemple-de-modele-economique-de-resilience-sous-napoleon/",
+  "https://www.herodote.net/2_janvier_1812-evenement-18120102.php",
+  "https://todayinsci.com/A/Achard_Franz/AchardFranz-BeetSugarInEurope(1917).htm",
+  "https://www.fao.org/4/x4988e/x4988e02.htm",
+  "https://www.fas.usda.gov/data/france-frances-sugar-beet-crop-devastated-disease-sugar-industrys-viability-threatened"
+ ]
+}
