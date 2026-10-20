@@ -1,0 +1,318 @@
+{
+ "id": "2026w51-s06",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "The Persian Army That Vanished in the Desert",
+ "hook": "50,000 SOLDIERS VANISHED?",
+ "topic": "Lost Army of Cambyses",
+ "music": "playful",
+ "cast": {
+  "cambyses": {
+   "preset": "king",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#1E1612",
+   "outfit": "robe",
+   "color": "#8A2A2A",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Cambyses II"
+  },
+  "persian": {
+   "outfit": "tunic",
+   "color": "#2F7A4A",
+   "hat": "hood",
+   "hatColor": "#C8902A",
+   "beard": "full",
+   "hairColor": "#1E1612",
+   "skin": "olive",
+   "hold": "spear"
+  }
+ },
+ "voices": {
+  "cambyses": "bm_george",
+  "persian": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Fifty thousand soldiers marched into the desert and were never seen again. Or so the story goes.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "persian",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.45
+     },
+     {
+      "k": "palm",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "place": "Egypt's Western Desert · 520s BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 525 BC, King Cambyses of Persia, son of Cyrus the Great, conquered Egypt.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "cambyses",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.75,
+      "s": 0.55
+     }
+    ],
+    "tag": {
+     "id": "cambyses",
+     "text": "Cambyses II, king of Persia"
+    },
+    "place": "Egypt · 525 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Herodotus, a Greek historian, says Cambyses then sent fifty thousand men to attack the Siwa oasis temple.",
+   "show": {
+    "k": "map",
+    "lon": 29.0,
+    "lat": 27.5,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "about 524 BC",
+    "labels": [
+     [
+      "SIWA OASIS",
+      25.52,
+      29.2,
+      0
+     ],
+     [
+      "THEBES",
+      32.65,
+      25.7,
+      0
+     ],
+     [
+      "MEMPHIS",
+      31.25,
+      29.85,
+      0
+     ]
+    ],
+    "route": [
+     [
+      32.65,
+      25.7
+     ],
+     [
+      30.5,
+      25.5
+     ],
+     [
+      28.0,
+      27.0
+     ],
+     [
+      25.52,
+      29.2
+     ]
+    ]
+   }
+  },
+  {
+   "who": "cambyses",
+   "say": "Take the oasis. How hard can it be?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "cambyses",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "cambyses"
+   }
+  },
+  {
+   "who": "persian",
+   "say": "Sir, it's a really big desert.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "persian",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "persian"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Locals told Herodotus that a giant sandstorm buried the whole army.",
+   "show": {
+    "k": "card",
+    "label": "The lost army of Cambyses",
+    "big": "50,000 MEN?",
+    "sub": "buried by a sandstorm, says the legend",
+    "cast": [
+     {
+      "id": "persian",
+      "x": 0.82,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Herodotus only repeated it as hearsay, and no one has ever found the army.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "persian",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "LOST ARMY?"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One Egyptologist thinks Egyptian rebels beat the army, and the sandstorm was a cover story.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "cambyses",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "red"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "COVER STORY?",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cambyses",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "persian",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "50,000 Persian soldiers vanished in a sandstorm. Or did they?\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #persia #egypt #mystery #historytok",
+ "youtube_title": "The Persian Army That Vanished in the Desert #shorts",
+ "tags": [
+  "lost army of cambyses",
+  "cambyses",
+  "herodotus",
+  "ancient egypt",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Lost_Army_of_Cambyses",
+  "https://m.phys.org/news/2014-06-egyptologist-unravels-ancient-mystery.html",
+  "https://www.sci.news/archaeology/science-lost-army-persian-king-cambyses-ii-02002.html",
+  "https://www.historyofwar.org/articles/wars_persian_egypt_525.html"
+ ]
+}

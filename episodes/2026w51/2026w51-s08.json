@@ -1,0 +1,301 @@
+{
+ "id": "2026w51-s08",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "A Persian King's Cliff Brag Cracked an Ancient Code",
+ "hook": "A BILLBOARD ON A CLIFF",
+ "topic": "Behistun Inscription",
+ "music": "playful",
+ "cast": {
+  "darius": {
+   "preset": "king",
+   "hat": "crown",
+   "beard": "long",
+   "hairColor": "#1E1612",
+   "outfit": "robe",
+   "color": "#2F5A8A",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Darius the Great"
+  },
+  "worker": {
+   "outfit": "tunic",
+   "color": "#B89A6A",
+   "hat": "hood",
+   "hatColor": "#8A6A4A",
+   "beard": "full",
+   "hairColor": "#2A1A10",
+   "skin": "olive",
+   "hold": "hammer"
+  },
+  "rawlinson": {
+   "preset": "noble",
+   "outfit": "coat",
+   "color": "#B8302A",
+   "color2": "#2A2A3A",
+   "stache": "bush",
+   "hairColor": "#5A3A2A",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Henry Rawlinson"
+  }
+ },
+ "voices": {
+  "darius": "am_fenrir",
+  "worker": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Persian king's cliff carving helped crack an ancient code.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 1.1
+     },
+     {
+      "k": "sign",
+      "x": 0.82,
+      "s": 0.45,
+      "text": "BEHISTUN"
+     }
+    ],
+    "place": "Behistun, Persia · about 520 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Darius the Great had just grabbed Persia's throne, and wanted everyone to know he deserved it.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "darius",
+     "text": "Darius the Great, king of Persia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he carved his story high on a cliff beside a main road, in three languages.",
+   "show": {
+    "k": "map",
+    "lon": 47.4,
+    "lat": 34.0,
+    "z0": 3.0,
+    "z1": 3.4,
+    "date": "about 520 BC",
+    "labels": [
+     [
+      "BEHISTUN",
+      47.44,
+      34.39,
+      0
+     ],
+     [
+      "ECBATANA",
+      48.51,
+      34.8,
+      0
+     ],
+     [
+      "BABYLON",
+      44.42,
+      32.54,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "darius",
+   "say": "Make it huge. And make it impossible to reach.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "darius"
+   }
+  },
+  {
+   "who": "worker",
+   "say": "Wait. How do I get down?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "worker"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1830s, British officer Henry Rawlinson used ropes and ladders to copy it.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "rawlinson",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 1.0
+     }
+    ],
+    "place": "Behistun · 1835",
+    "tag": {
+     "id": "rawlinson",
+     "text": "Henry Rawlinson"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "For the hardest part, a local Kurdish boy climbed it for him.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "rawlinson",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.68,
+      "s": 1.0
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BRAVE KID",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The same text in three languages let scholars decode cuneiform, one of the oldest writing systems.",
+   "show": {
+    "k": "card",
+    "label": "Same text, three languages",
+    "big": "CODE CRACKED",
+    "sub": "Old Persian, Elamite, Babylonian",
+    "cast": [
+     {
+      "id": "rawlinson",
+      "x": 0.82,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "rawlinson",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A king's 2,500-year-old brag on a cliff helped crack an ancient code.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #persia #archaeology #ancienthistory #historytok",
+ "youtube_title": "A Persian King's Cliff Brag Cracked an Ancient Code #shorts",
+ "tags": [
+  "behistun inscription",
+  "darius the great",
+  "cuneiform",
+  "henry rawlinson",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Behistun_Inscription",
+  "https://www.livius.org/articles/place/behistun/behistun-2/",
+  "https://www.newworldencyclopedia.org/entry/behistun_inscription",
+  "https://www.worldhistory.org/Behistun_Inscription/"
+ ]
+}

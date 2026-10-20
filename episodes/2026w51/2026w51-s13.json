@@ -1,0 +1,331 @@
+{
+ "id": "2026w51-s13",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "A Fake Officer Fooled German High Command",
+ "hook": "THE MAN WHO NEVER WAS",
+ "topic": "Operation Mincemeat",
+ "music": "playful",
+ "cast": {
+  "montagu": {
+   "outfit": "suit",
+   "color": "#1F2A44",
+   "hair": "side",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Ewen Montagu"
+  },
+  "cholm": {
+   "outfit": "suit",
+   "color": "#4A5A78",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "stache": "thin",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Charles Cholmondeley"
+  },
+  "german": {
+   "outfit": "ww2",
+   "color": "#5A5E52",
+   "hat": "cap",
+   "hatColor": "#5A5E52",
+   "hair": "short",
+   "skin": "light",
+   "name": "German intelligence officer"
+  }
+ },
+ "voices": {
+  "montagu": "bm_fable",
+  "cholm": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1943, British spies fooled German high command with an officer who never existed.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "montagu",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "smug"
+     },
+     {
+      "id": "cholm",
+      "x": 0.62,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TOP SECRET",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "London · 1943",
+    "tag": {
+     "id": "montagu",
+     "text": "Ewen Montagu, British intelligence"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Allies wanted to invade Sicily, off Italy. But that was too obvious.",
+   "show": {
+    "k": "map",
+    "lon": 12.0,
+    "lat": 38.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1943",
+    "labels": [
+     [
+      "SICILY",
+      14.1,
+      37.5,
+      0
+     ],
+     [
+      "SARDINIA",
+      9.0,
+      40.0,
+      0
+     ],
+     [
+      "GREECE",
+      22.0,
+      39.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      14.1,
+      37.5,
+      1.2,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "cholm",
+   "say": "Let's make them look somewhere else.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "cholm",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "cholm",
+     "text": "Charles Cholmondeley"
+    },
+    "cam": "close",
+    "focus": "cholm"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They used the body of Glyndwr Michael, a homeless Welshman who had died after eating rat poison.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "montagu",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They named him Major William Martin, and gave him fake letters about invading Greece and Sardinia.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "montagu",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "neutral",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "BRIEFCASE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE PLANS",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A British submarine released him into the sea off Spain.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "submarine",
+      "x": 0.5,
+      "s": 0.6,
+      "flag": "uk"
+     }
+    ],
+    "place": "Off Huelva, Spain · 30 April 1943"
+   }
+  },
+  {
+   "who": "N",
+   "say": "German high command fell for it, and sent troops to Sardinia and Greece.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "german",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "shock",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.45,
+      "flag": "spain"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOOLED",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Allies took Sicily that July. In 1998, Glyndwr Michael's name was added to his grave.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [],
+    "objects": [
+     {
+      "k": "tank",
+      "x": 0.35,
+      "s": 0.5,
+      "emblem": "whitestar",
+      "move": [
+       0.2,
+       0.5
+      ]
+     },
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "uk"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SICILY",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "Sicily · July 1943"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "montagu",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "cholm",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Two spies, one briefcase, and the trick that fooled German high command.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #operationmincemeat #ww2 #spies #historytok",
+ "youtube_title": "A Fake Officer Fooled German High Command #shorts",
+ "tags": [
+  "operation mincemeat",
+  "the man who never was",
+  "ww2 deception",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Operation_Mincemeat",
+  "https://en.wikipedia.org/wiki/William_Martin_(Royal_Marines_officer)",
+  "https://www.iwm.org.uk/history/the-war-on-paper-operation-mincemeat",
+  "https://thehistorypress.co.uk/article/operation-mincemeat-the-man-who-never-was/"
+ ]
+}

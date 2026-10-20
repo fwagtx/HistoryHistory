@@ -1,0 +1,340 @@
+{
+ "id": "2026w51-s12",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "The Oracle Told Him He'd Destroy an Empire. It Was His.",
+ "hook": "THE ORACLE'S TRICK ANSWER",
+ "topic": "King Croesus",
+ "music": "playful",
+ "cast": {
+  "croesus": {
+   "preset": "king",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#5A3A2A",
+   "outfit": "robe",
+   "color": "#B8302A",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "hold": "goblet",
+   "name": "King Croesus of Lydia"
+  },
+  "pythia": {
+   "preset": "peasantW",
+   "hat": "veil",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "apron": false,
+   "skin": "olive",
+   "hairColor": "#2A1A10",
+   "name": "The Pythia, oracle of Delphi"
+  },
+  "cyrus": {
+   "preset": "king",
+   "hat": "crown",
+   "beard": "long",
+   "hairColor": "#1E1612",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Cyrus the Great"
+  }
+ },
+ "voices": {
+  "croesus": "bm_daniel",
+  "pythia": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A king asked an oracle for advice. The answer was correct, just not the way he hoped.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "croesus",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "neutral"
+     },
+     {
+      "id": "pythia",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Delphi, Greece · about 550 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Croesus was king of Lydia, in what's now Turkey. We still say rich as Croesus.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "croesus",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "place": "Sardis, Lydia · about 550 BC",
+    "tag": {
+     "id": "croesus",
+     "text": "King Croesus of Lydia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next door, Cyrus the Great of Persia was gobbling up kingdoms. Croesus got nervous.",
+   "show": {
+    "k": "map",
+    "lon": 38.0,
+    "lat": 36.0,
+    "z0": 1.5,
+    "z1": 1.7,
+    "date": "about 550 BC",
+    "labels": [
+     [
+      "LYDIA",
+      28.5,
+      38.8,
+      0
+     ],
+     [
+      "PERSIA",
+      52.0,
+      30.5,
+      0
+     ],
+     [
+      "DELPHI",
+      22.5,
+      38.48,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      28.5,
+      38.8,
+      2.5,
+      "rgba(200,144,42,.4)"
+     ],
+     [
+      49.0,
+      33.0,
+      6.0,
+      "rgba(214,48,40,.25)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he asked the oracle at Delphi, a priestess believed to speak for the god Apollo.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "pythia",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.35
+     },
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "pythia",
+     "text": "The oracle of Delphi"
+    }
+   }
+  },
+  {
+   "who": "croesus",
+   "say": "Should I attack Persia?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "croesus",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "croesus"
+   }
+  },
+  {
+   "who": "pythia",
+   "say": "If you attack, you will destroy a great empire.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "pythia",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "pythia"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Croesus was thrilled, and attacked. A great empire was destroyed: his own.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "croesus",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "cyrus",
+      "x": 0.65,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "tag": {
+     "id": "cyrus",
+     "text": "Cyrus the Great"
+    },
+    "stickers": [
+     {
+      "text": "OOPS",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cyrus took his capital around 547 BC. This story comes from Herodotus. Lesson: always ask which empire.",
+   "show": {
+    "k": "card",
+    "label": "The oracle's answer",
+    "big": "WHICH EMPIRE?",
+    "sub": "Lydia fell to Persia, about 547 BC",
+    "cast": [
+     {
+      "id": "croesus",
+      "x": 0.82,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "croesus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "sad"
+     },
+     {
+      "id": "pythia",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The oracle said he'd destroy a great empire. It didn't say whose.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #greekhistory #persia #ancienthistory #historytok",
+ "youtube_title": "The Oracle Told Him He'd Destroy an Empire. It Was His. #shorts",
+ "tags": [
+  "croesus",
+  "oracle of delphi",
+  "cyrus the great",
+  "lydia",
+  "history shorts"
+ ],
+ "sources": [
+  "https://cts.perseids.org/read/greekLit/tlg0016/tlg001/perseus-eng2/1.53.2-1.53.3",
+  "https://www.open.edu/openlearn/history-the-arts/herodotus-and-the-invention-history/content-section-4.2",
+  "https://en.wikipedia.org/wiki/Croesus",
+  "https://en.wikipedia.org/wiki/Achaemenid_Empire"
+ ]
+}

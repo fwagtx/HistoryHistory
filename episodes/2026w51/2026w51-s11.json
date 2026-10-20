@@ -1,0 +1,323 @@
+{
+ "id": "2026w51-s11",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "A Horse Picked the King of Persia",
+ "hook": "A HORSE PICKED THE KING",
+ "topic": "Darius the Great",
+ "music": "playful",
+ "cast": {
+  "darius": {
+   "preset": "king",
+   "hat": "hood",
+   "beard": "long",
+   "hairColor": "#1E1612",
+   "outfit": "robe",
+   "color": "#2F5A8A",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Darius",
+   "hatColor": "#C8902A"
+  },
+  "oebares": {
+   "outfit": "tunic",
+   "color": "#C83A3A",
+   "hat": "hood",
+   "hatColor": "#7A5A3A",
+   "beard": "full",
+   "hairColor": "#2A1A10",
+   "skin": "olive",
+   "hold": null,
+   "name": "Oebares"
+  },
+  "noble": {
+   "outfit": "tunic",
+   "color": "#6A3E8E",
+   "hat": "hood",
+   "hatColor": "#C8902A",
+   "beard": "full",
+   "hairColor": "#1E1612",
+   "skin": "olive",
+   "hold": null
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "darius": "am_fenrir",
+  "oebares": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "According to an ancient story, a horse chose the king of Persia.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "neutral"
+     },
+     {
+      "id": "horse",
+      "x": 0.65
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "place": "Persia · 522 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 522 BC, seven Persian nobles had just overthrown the king. Now they needed a new one.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "noble",
+      "x": 0.62,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "darius",
+     "text": "Darius, a Persian noble"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Herodotus, a Greek historian, says they agreed: whoever's horse neighed first at sunrise would be king.",
+   "show": {
+    "k": "card",
+    "label": "The rule, says Herodotus",
+    "big": "FIRST NEIGH WINS",
+    "sub": "at sunrise",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.82
+     }
+    ]
+   }
+  },
+  {
+   "who": "darius",
+   "say": "I need to win this. Any ideas?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "darius"
+   }
+  },
+  {
+   "who": "oebares",
+   "say": "Leave it to me, boss.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "oebares",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "oebares",
+    "tag": {
+     "id": "oebares",
+     "text": "Oebares, Darius's groom"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The night before, his groom brought Darius's horse to that exact spot, with its favorite mare.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "oebares",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "smug"
+     },
+     {
+      "id": "horse",
+      "x": 0.62
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At sunrise, the horse reached the spot, remembered the mare, and neighed. Darius was king.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.6
+     },
+     {
+      "id": "noble",
+      "x": 0.8,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEIGH!",
+      "at": 1.2,
+      "color": "#A8322A"
+     },
+     {
+      "text": "KING DARIUS",
+      "at": 2.6,
+      "color": "#C8902A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Is it true? Probably not. But Darius did become king, and ruled for thirty-six years.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug",
+      "hat": "crown"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "522–486 BC",
+      "at": 1.4,
+      "color": "#2F5A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy",
+      "hat": "crown"
+     },
+     {
+      "id": "oebares",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Legend says Darius became king of Persia thanks to his horse.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #persia #dariusthegreat #legend #historytok",
+ "youtube_title": "A Horse Picked the King of Persia #shorts",
+ "tags": [
+  "darius the great",
+  "herodotus",
+  "persian empire",
+  "oebares",
+  "history shorts"
+ ],
+ "sources": [
+  "https://cts.perseids.org/read/greekLit/tlg0016/tlg001/perseus-eng2/3.85.1-3.85.3",
+  "https://lexundria.com/hdt/3.85/mcly",
+  "https://www.worldhistory.org/Darius_I/",
+  "https://en.wikipedia.org/wiki/Darius_the_Great"
+ ]
+}

@@ -1,0 +1,303 @@
+{
+ "id": "2026w51-s14",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "America Fought With Inflatable Tanks",
+ "hook": "AN ARMY OF BALLOONS",
+ "topic": "Ghost Army",
+ "music": "playful",
+ "cast": {
+  "ghost": {
+   "preset": "gi",
+   "name": "Ghost Army soldier"
+  },
+  "artist": {
+   "preset": "gi",
+   "skin": "tan",
+   "name": "Ghost Army artist"
+  }
+ },
+ "voices": {
+  "ghost": "am_liam",
+  "artist": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In World War Two, America built a whole army out of balloons.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "ghost",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tank",
+      "x": 0.65,
+      "s": 0.6,
+      "emblem": "whitestar",
+      "label": "RUBBER"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INFLATABLE!",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "France · 1944"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This secret unit, the Ghost Army, had about eleven hundred men, many of them artists.",
+   "show": {
+    "k": "flag",
+    "flag": "usa48",
+    "label": "THE GHOST ARMY",
+    "sub": "US Army · 1944–1945",
+    "bg": "camp"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their job: pretend to be a much bigger army.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "artist",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "happy",
+      "hold": "pen"
+     },
+     {
+      "id": "ghost",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "artist",
+     "text": "Ghost Army artist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "At night they pumped up rubber tanks and trucks. By morning, a fake tank unit appeared.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "ghost",
+      "x": 0.2,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tank",
+      "x": 0.45,
+      "s": 0.45,
+      "emblem": "whitestar"
+     },
+     {
+      "k": "truck",
+      "x": 0.72,
+      "s": 0.4,
+      "emblem": "whitestar"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PUMP IT UP",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "artist",
+   "say": "Careful with that thing! Don't pop the tank!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "artist",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tank",
+      "x": 0.75,
+      "s": 0.45,
+      "emblem": "whitestar"
+     }
+    ],
+    "cam": "close",
+    "focus": "artist"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Giant speakers played tank sounds you could hear fifteen miles away.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "ghost",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.6,
+      "s": 0.45,
+      "label": "SOUND TRUCK"
+     },
+     {
+      "k": "radio",
+      "x": 0.8,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VROOM!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In March 1945, at the Rhine River, they faked two divisions to hide the real crossing point.",
+   "show": {
+    "k": "map",
+    "lon": 6.6,
+    "lat": 51.5,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "March 1945",
+    "labels": [
+     [
+      "Wesel",
+      6.62,
+      51.66,
+      14
+     ],
+     [
+      "Viersen",
+      6.39,
+      51.26,
+      14
+     ],
+     [
+      "RHINE",
+      6.75,
+      51.45,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their story stayed top secret until 1996.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "artist",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "TOP SECRET"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UNTIL 1996",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ghost",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "artist",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Their tanks were full of air. It worked anyway.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ghostarmy #ww2 #militaryhistory #historytok",
+ "youtube_title": "America Fought With Inflatable Tanks #shorts",
+ "tags": [
+  "ghost army",
+  "inflatable tanks",
+  "ww2 deception",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ghost_Army",
+  "https://www.nationalww2museum.org/war/articles/ghost-army-canvas-and-camouflage",
+  "https://www.history.com/articles/ghost-army-world-war-ii",
+  "https://ghostarmy.org/thearchive/official-history-of-the-23rd-operation-viersen"
+ ]
+}

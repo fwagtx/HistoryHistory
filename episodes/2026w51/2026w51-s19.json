@@ -1,0 +1,324 @@
+{
+ "id": "2026w51-s19",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "The Spy Who Invented 27 Fake Spies",
+ "hook": "27 SPIES WHO DIDN'T EXIST",
+ "topic": "Agent Garbo",
+ "music": "playful",
+ "cast": {
+  "garbo": {
+   "outfit": "suit",
+   "color": "#3A3A4A",
+   "hair": "side",
+   "hairColor": "#1A1210",
+   "stache": "thin",
+   "skin": "olive",
+   "name": "Juan Pujol García"
+  },
+  "handler": {
+   "outfit": "suit",
+   "color": "#4A4A3A",
+   "hair": "short",
+   "hairColor": "#6A5440",
+   "skin": "light",
+   "glasses": "round",
+   "name": "German spymaster"
+  }
+ },
+ "voices": {
+  "garbo": "am_puck",
+  "handler": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One Spanish spy invented twenty-seven fake spies, and Germany paid all of them.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "garbo",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.45
+     },
+     {
+      "k": "radio",
+      "x": 0.82,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "27 FAKE SPIES",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "London · 1944",
+    "tag": {
+     "id": "garbo",
+     "text": "Juan Pujol García"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Juan Pujol García wanted to spy for Britain in World War Two. Britain said no.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "garbo",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "uk"
+     }
+    ],
+    "place": "Madrid · 1941"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he became a German spy instead, planning to trick them.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "handler",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "garbo",
+      "x": 0.65,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "handler",
+     "text": "German spymaster"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "From Lisbon, in Portugal, he invented reports about Britain using a tourist guide and old train timetables.",
+   "show": {
+    "k": "map",
+    "lon": -6.0,
+    "lat": 45.0,
+    "z0": 1.4,
+    "z1": 1.7,
+    "date": "1941",
+    "labels": [
+     [
+      "Lisbon",
+      -9.14,
+      38.72,
+      14
+     ],
+     [
+      "Madrid",
+      -3.7,
+      40.42,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1942, Britain finally hired him, codenamed Garbo, and helped run his invented agents.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "garbo",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "AGENT GARBO"
+     }
+    ]
+   }
+  },
+  {
+   "who": "handler",
+   "say": "Your agents are wonderful! Here is more money.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "handler",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "handler"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After D-Day, he told Germany Normandy was a trick and the real attack would hit Calais.",
+   "show": {
+    "k": "map",
+    "lon": 0.5,
+    "lat": 50.0,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "June 1944",
+    "labels": [
+     [
+      "Normandy",
+      -0.6,
+      49.3,
+      14
+     ],
+     [
+      "Calais",
+      1.86,
+      50.95,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      1.86,
+      50.8,
+      0.4,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Germany gave him the Iron Cross. Britain gave him a medal too.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "garbo",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "medal"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BOTH SIDES!",
+      "at": 1.4,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "garbo",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "handler",
+      "x": 0.7,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Germany paid for 27 spies. Not one of them was real.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #agentgarbo #ww2 #spies #historytok",
+ "youtube_title": "The Spy Who Invented 27 Fake Spies #shorts",
+ "tags": [
+  "agent garbo",
+  "juan pujol garcia",
+  "double agent",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Juan_Pujol_Garc%C3%ADa",
+  "https://www.mi5.gov.uk/agent-garbo",
+  "https://english-heritage.org.uk/visit/blue-plaques/juan-pujol-garcia",
+  "https://historynet.com/double-agents-d-day-victory/"
+ ]
+}

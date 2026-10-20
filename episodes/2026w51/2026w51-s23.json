@@ -1,0 +1,324 @@
+{
+ "id": "2026w51-s23",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "Hannibal Threw Snakes at Enemy Ships",
+ "hook": "HANNIBAL'S SNAKE BOMBS",
+ "topic": "Hannibal",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "hair": "curly",
+   "hairColor": "#4A3A30",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Hannibal of Carthage"
+  },
+  "eumenes": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#2F4FA0",
+   "color2": "#D4A52A",
+   "hair": "curly",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "King Eumenes II of Pergamon"
+  },
+  "sailor": {
+   "outfit": "tunic",
+   "color": "#2F6FC2",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "name": "Pergamon sailor"
+  }
+ },
+ "voices": {
+  "hannibal": "am_echo",
+  "sailor": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Hannibal once won a sea battle by throwing pots full of snakes.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "aim",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.55,
+      "s": 0.3,
+      "y": 0.3,
+      "label": "SNAKES"
+     },
+     {
+      "k": "galley",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SNAKE BOMBS",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "Today's Turkey · about 184 BC",
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal of Carthage"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "After losing to Rome, Hannibal worked for Prusias, a king in what's now Turkey.",
+   "show": {
+    "k": "map",
+    "lon": 29.5,
+    "lat": 40.3,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "about 184 BC",
+    "labels": [
+     [
+      "BITHYNIA",
+      30.0,
+      40.6,
+      0
+     ],
+     [
+      "PERGAMON",
+      27.18,
+      39.12,
+      0
+     ],
+     [
+      "Sea of Marmara",
+      28.0,
+      40.7,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Prusias was fighting King Eumenes of Pergamon, who had more ships.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "eumenes",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "eumenes",
+     "text": "King Eumenes of Pergamon"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to the Roman writer Cornelius Nepos, Hannibal had his men catch venomous snakes and seal them in clay pots.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.6,
+      "s": 0.4
+     },
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VENOMOUS",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "hannibal",
+   "say": "Throw them at the enemy ships!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.78,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "hannibal"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nepos says the enemy laughed at the flying pots. Then they smashed, and snakes covered the decks.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HA HA... AAAH!",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "Snakes! Turn back! Turn back!",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.45,
+      "flip": true
+     }
+    ],
+    "cam": "close",
+    "focus": "sailor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They fled. Some experts doubt anyone could catch that many snakes, so take it with a pinch of salt.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "NEPOS SAYS..."
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sailor",
+      "x": 0.7,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Hannibal's secret weapon came in clay pots. And it hissed.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #ancienthistory #militaryhistory #historytok",
+ "youtube_title": "Hannibal Threw Snakes at Enemy Ships #shorts",
+ "tags": [
+  "hannibal",
+  "hannibal snakes",
+  "cornelius nepos",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://dcc.dickinson.edu/node/229",
+  "https://dcc.dickinson.edu/node/228",
+  "https://historyskills.com/classroom/ancient-history/hannibal-snake-bombs",
+  "https://en.wikipedia.org/wiki/Hannibal"
+ ]
+}

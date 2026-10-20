@@ -1,0 +1,304 @@
+{
+ "id": "2026w51-s07",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "The 2,500-Year-Old Press Release of Cyrus the Great",
+ "hook": "A KING'S CLAY PRESS RELEASE",
+ "topic": "Cyrus Cylinder",
+ "music": "playful",
+ "cast": {
+  "cyrus": {
+   "preset": "king",
+   "hat": "crown",
+   "beard": "long",
+   "hairColor": "#1E1612",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Cyrus the Great"
+  },
+  "scribe": {
+   "outfit": "robe",
+   "color": "#E8DCC0",
+   "hat": "hood",
+   "hatColor": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "hold": "scroll"
+  },
+  "worker": {
+   "outfit": "tunic",
+   "color": "#B89A6A",
+   "hat": "hood",
+   "hatColor": "#8A6A4A",
+   "beard": "full",
+   "hairColor": "#2A1A10",
+   "skin": "olive",
+   "hold": null
+  }
+ },
+ "voices": {
+  "cyrus": "bm_george",
+  "scribe": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A clay barrel about the size of a football is one of history's most famous brags.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scribe",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.68,
+      "s": 0.45,
+      "label": "CYRUS CYLINDER"
+     }
+    ],
+    "place": "British Museum, London"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 539 BC, Cyrus the Great, king of Persia, captured the giant city of Babylon.",
+   "show": {
+    "k": "map",
+    "lon": 46.0,
+    "lat": 33.0,
+    "z0": 1.8,
+    "z1": 2.1,
+    "date": "539 BC",
+    "labels": [
+     [
+      "BABYLON",
+      44.42,
+      32.54,
+      0
+     ],
+     [
+      "PERSIA",
+      53.0,
+      29.8,
+      0
+     ]
+    ],
+    "route": [
+     [
+      52.0,
+      30.5
+     ],
+     [
+      48.5,
+      33.0
+     ],
+     [
+      44.42,
+      32.54
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he had a message carved on clay in cuneiform, wedge-shaped writing.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "cyrus",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "scribe",
+      "x": 0.62,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Babylon · 539 BC",
+    "tag": {
+     "id": "cyrus",
+     "text": "Cyrus the Great, king of Persia"
+    }
+   }
+  },
+  {
+   "who": "cyrus",
+   "say": "Write that the gods chose me. And that I'm very nice.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "cyrus",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "cyrus"
+   }
+  },
+  {
+   "who": "scribe",
+   "say": "Chosen by the gods. Very nice. Got it.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "scribe",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "scribe"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It says Cyrus let uprooted people go home and rebuilt their temples.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.65,
+      "s": 0.45
+     },
+     {
+      "k": "palm",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was dug up in 1879. Today a copy sits at the United Nations in New York.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "scribe",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.68,
+      "s": 0.45
+     }
+    ],
+    "place": "New York · 1971"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some call it the first human rights charter. Most historians say that's a stretch.",
+   "show": {
+    "k": "card",
+    "label": "The Cyrus Cylinder, 539 BC",
+    "big": "HUMAN RIGHTS?",
+    "sub": "most historians say: royal propaganda",
+    "cast": [
+     {
+      "id": "cyrus",
+      "x": 0.82,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cyrus",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "scribe",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Is this clay barrel the first human rights charter, or a king's brag?\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #cyrusthegreat #persia #ancienthistory #historytok",
+ "youtube_title": "The 2,500-Year-Old Press Release of Cyrus the Great #shorts",
+ "tags": [
+  "cyrus cylinder",
+  "cyrus the great",
+  "babylon",
+  "british museum",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cyrus_Cylinder",
+  "https://www.un.org/ungifts/node/328",
+  "https://ask.un.org/faq/194027",
+  "https://www.lehmanns.de/shop/geisteswissenschaften/57476241-9781350297050-the-cyrus-cylinder"
+ ]
+}

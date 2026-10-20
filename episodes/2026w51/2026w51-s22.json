@@ -1,0 +1,308 @@
+{
+ "id": "2026w51-s22",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "Civil War Soldiers Were Scared of Logs",
+ "hook": "CANNONS MADE OF LOGS",
+ "topic": "Quaker Guns",
+ "music": "playful",
+ "cast": {
+  "union": {
+   "hat": "kepi",
+   "hatColor": "#2A3A6A",
+   "outfit": "coat",
+   "color": "#2A3A6A",
+   "stache": "bush",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Union soldier"
+  },
+  "reb": {
+   "hat": "kepi",
+   "hatColor": "#8A8A8A",
+   "outfit": "coat",
+   "color": "#8A8A8A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Confederate soldier"
+  }
+ },
+ "voices": {
+  "union": "am_liam",
+  "reb": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In the American Civil War, a whole army was held back by cannons made of logs.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "union",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock",
+      "hold": "telescope"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.62,
+      "s": 0.45,
+      "label": "LOG?"
+     },
+     {
+      "k": "cannon",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WOOD!",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "Centreville, Virginia · 1862"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over the winter of 1861, the Confederate army camped near Centreville, Virginia, not far from Washington.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "reb",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "reb",
+     "text": "Confederate soldier"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Union scouts saw big guns lined up on their earthworks, and their generals stayed cautious.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "union",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "scared",
+      "hold": "telescope"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.4,
+      "flag": "usa1859"
+     }
+    ],
+    "tag": {
+     "id": "union",
+     "text": "Union scout"
+    }
+   }
+  },
+  {
+   "who": "union",
+   "say": "Look at all those cannons. We'd better wait.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "union",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "union"
+   }
+  },
+  {
+   "who": "reb",
+   "say": "Shh. Don't tell them they're trees.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "reb",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "reb"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In March 1862, the Confederates quietly pulled back south. When Union troops marched in, the cannons were logs, painted dark.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "union",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "A LOG"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "People called them Quaker guns, after the Quakers, a religious group that refuses to fight.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "union",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "QUAKER GUNS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was a very embarrassing moment for the Union army.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "union",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OOPS",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "union",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "reb",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The cannons that stopped an army were just painted logs.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #civilwar #americanhistory #militaryhistory #historytok",
+ "youtube_title": "Civil War Soldiers Were Scared of Logs #shorts",
+ "tags": [
+  "quaker guns",
+  "civil war",
+  "centreville 1862",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Quaker_gun",
+  "https://www.civilwarmonitor.com/article/quaker-guns/",
+  "https://amusingplanet.com/2019/03/quaker-guns-of-american-civil-war.html",
+  "https://www.bridgemanimages.com/en/barnard/us-civil-war-quaker-gun-discovered-by-union-forces-near-centreville-virginia-in-march-1862-dummy/photograph/asset/7066557"
+ ]
+}

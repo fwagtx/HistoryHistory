@@ -1,0 +1,319 @@
+{
+ "id": "2026w51-s18",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "The Legend of 100,000 Borrowed Arrows",
+ "hook": "100,000 FREE ARROWS",
+ "topic": "Zhuge Liang",
+ "music": "playful",
+ "cast": {
+  "zhuge": {
+   "hair": "bun",
+   "hairColor": "#1A1A1A",
+   "beard": "long",
+   "outfit": "robe",
+   "color": "#E8E4D8",
+   "color2": "#2F4F7A",
+   "skin": "light",
+   "name": "Zhuge Liang"
+  },
+  "zhouyu": {
+   "hair": "bun",
+   "hairColor": "#1A1A1A",
+   "outfit": "armor",
+   "color": "#A8322A",
+   "color2": "#D4A52A",
+   "skin": "light",
+   "name": "Zhou Yu"
+  },
+  "caocao": {
+   "hair": "bun",
+   "hairColor": "#1A1A1A",
+   "beard": "goatee",
+   "outfit": "armor",
+   "color": "#2A2A3A",
+   "color2": "#C8A040",
+   "skin": "light",
+   "name": "Cao Cao"
+  }
+ },
+ "voices": {
+  "zhuge": "am_eric",
+  "zhouyu": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In a famous Chinese legend, a genius gets one hundred thousand arrows from his enemy.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "zhuge",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.68,
+      "s": 0.55,
+      "label": "FULL OF ARROWS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ],
+    "place": "China · about 208 AD",
+    "tag": {
+     "id": "zhuge",
+     "text": "Zhuge Liang, strategist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It comes from a novel, Romance of the Three Kingdoms, written over a thousand years later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "zhuge",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "A NOVEL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "zhouyu",
+   "say": "Make me one hundred thousand arrows. In ten days.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "zhouyu",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "zhouyu",
+     "text": "Zhou Yu, a jealous general"
+    },
+    "cam": "close",
+    "focus": "zhouyu"
+   }
+  },
+  {
+   "who": "zhuge",
+   "say": "Ten days? I only need three.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "zhuge",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "zhuge"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On a foggy night, he sends twenty straw-covered boats toward warlord Cao Cao, with drums pounding.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.3,
+      "s": 0.45,
+      "label": "STRAW"
+     },
+     {
+      "k": "junk",
+      "x": 0.55,
+      "s": 0.4
+     },
+     {
+      "k": "junk",
+      "x": 0.78,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BOOM BOOM",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cao Cao's archers fire blindly into the fog. The arrows stick in the straw.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "caocao",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FIRE!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "caocao",
+     "text": "Cao Cao, warlord"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "By sunrise, Zhuge Liang sails home with over one hundred thousand arrows.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "zhuge",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.68,
+      "s": 0.5,
+      "label": "100,000 ARROWS"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians say it never happened. But in China, it's still a famous saying.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "zhuge",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "LEGEND, NOT HISTORY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "zhuge",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "zhouyu",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He needed 100,000 arrows. So he let the enemy shoot them at him. (Legend.)\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #zhugeliang #threekingdoms #chinesehistory #historytok",
+ "youtube_title": "The Legend of 100,000 Borrowed Arrows #shorts",
+ "tags": [
+  "zhuge liang",
+  "borrowing arrows with straw boats",
+  "romance of the three kingdoms",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.theworldofchinese.com/2021/04/on-the-character-借/",
+  "https://chiculture.org.hk/en/china-five-thousand-years/4284",
+  "https://en.wikipedia.org/wiki/Romance_of_the_Three_Kingdoms",
+  "https://en.wikipedia.org/wiki/Zhuge_Liang"
+ ]
+}

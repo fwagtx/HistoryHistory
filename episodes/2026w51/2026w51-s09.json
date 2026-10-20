@@ -1,0 +1,328 @@
+{
+ "id": "2026w51-s09",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "The Roman Emperor Who Became a Prisoner of Persia",
+ "hook": "EMPEROR TAKEN PRISONER",
+ "topic": "Emperor Valerian",
+ "music": "playful",
+ "cast": {
+  "valerian": {
+   "preset": "roman",
+   "outfit": "toga",
+   "color": "#6A2A6A",
+   "hat": "laurel",
+   "hairColor": "#BBBBBB",
+   "skin": "light",
+   "name": "Emperor Valerian"
+  },
+  "shapur": {
+   "preset": "king",
+   "hat": "crown",
+   "beard": "full",
+   "hair": "curly",
+   "hairColor": "#1E1612",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Shapur I"
+  },
+  "legionary": {
+   "preset": "legionary"
+  },
+  "lactantius": {
+   "preset": "monk",
+   "name": "Lactantius"
+  }
+ },
+ "voices": {
+  "valerian": "bm_fable",
+  "shapur": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 260 AD, for the first time ever, a Roman emperor was taken prisoner.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "valerian",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.55
+     },
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.45,
+      "flag": "rome"
+     }
+    ],
+    "place": "Near Edessa · 260 AD",
+    "tag": {
+     "id": "valerian",
+     "text": "Valerian, Roman emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Valerian marched east to fight Shapur the First, king of Persia's Sasanian Empire.",
+   "show": {
+    "k": "map",
+    "lon": 40.0,
+    "lat": 36.0,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "260 AD",
+    "labels": [
+     [
+      "EDESSA",
+      38.79,
+      37.16,
+      0
+     ],
+     [
+      "CTESIPHON",
+      44.58,
+      33.09,
+      0
+     ],
+     [
+      "ROMAN EMPIRE",
+      34.5,
+      39.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      34.0,
+      38.5
+     ],
+     [
+      36.5,
+      37.5
+     ],
+     [
+      38.79,
+      37.16
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Near the city of Edessa, in what's now Turkey, Shapur's army beat the Romans.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "shapur",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout",
+      "hold": "sword"
+     },
+     {
+      "id": "legionary",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.45,
+      "flag": "rome"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "shapur",
+     "text": "Shapur I, king of Persia"
+    }
+   }
+  },
+  {
+   "who": "valerian",
+   "say": "I am the emperor of Rome! Release me at once!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "valerian",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "valerian"
+   }
+  },
+  {
+   "who": "shapur",
+   "say": "Relax. You're my guest now. Forever.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "shapur",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "shapur"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Shapur had giant rock carvings made, showing Roman emperors bowing to him.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "shapur",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 1.0
+     },
+     {
+      "k": "statue",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A later Christian writer claimed Shapur used Valerian as a footstool. Historians think that's probably propaganda.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lactantius",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "FOOTSTOOL?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROBABLY PROPAGANDA",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Either way, Valerian never went home. He died a prisoner in Persia.",
+   "show": {
+    "k": "card",
+    "label": "Roman emperor captured by an enemy",
+    "big": "FIRST EVER",
+    "sub": "Valerian, 260 AD",
+    "cast": [
+     {
+      "id": "valerian",
+      "x": 0.82,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "valerian",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "sad"
+     },
+     {
+      "id": "shapur",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 260 AD, Persia captured a Roman emperor. He never went home.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #rome #persia #ancienthistory #historytok",
+ "youtube_title": "The Roman Emperor Who Became a Prisoner of Persia #shorts",
+ "tags": [
+  "valerian",
+  "shapur i",
+  "sasanian empire",
+  "roman empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Valerian_(emperor)",
+  "https://en.wikipedia.org/wiki/Battle_of_Edessa",
+  "https://www.newworldencyclopedia.org/entry/Shapur_I",
+  "https://en.wikipedia.org/wiki/Naqsh-e_Rostam"
+ ]
+}

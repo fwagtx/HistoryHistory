@@ -1,0 +1,331 @@
+{
+ "id": "2026w51-s17",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "Britain Fought Submarines With Crazy Paint",
+ "hook": "ZEBRA SHIPS VS. SUBMARINES",
+ "topic": "Dazzle Camouflage",
+ "music": "playful",
+ "cast": {
+  "wilk": {
+   "hat": "captain",
+   "outfit": "coat",
+   "color": "#1F2A44",
+   "hair": "side",
+   "hairColor": "#5A4632",
+   "stache": "thin",
+   "skin": "light",
+   "name": "Norman Wilkinson"
+  },
+  "georgev": {
+   "hat": "captain",
+   "outfit": "coat",
+   "color": "#1F2A44",
+   "color2": "#D4A52A",
+   "beard": "full",
+   "hairColor": "#6A5440",
+   "skin": "light",
+   "name": "King George V"
+  },
+  "uboat": {
+   "hat": "captain",
+   "outfit": "coat",
+   "color": "#2A2A2A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "U-boat captain"
+  }
+ },
+ "voices": {
+  "wilk": "bm_lewis",
+  "georgev": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In World War One, Britain fought submarines with stripes of paint.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.4,
+      "s": 0.6,
+      "label": "DAZZLE SHIP"
+     },
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.4,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ZEBRA SHIP?",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "Britain · 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1917, German U-boats were sinking British ships at a terrifying rate.",
+   "show": {
+    "k": "map",
+    "lon": -6.0,
+    "lat": 52.5,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1917",
+    "labels": [
+     [
+      "BRITAIN",
+      -1.5,
+      53.0,
+      0
+     ],
+     [
+      "ATLANTIC OCEAN",
+      -12.0,
+      50.0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "To aim, a U-boat captain had to guess a ship's speed and direction.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "uboat",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "smug",
+      "hold": "telescope"
+     }
+    ],
+    "objects": [
+     {
+      "k": "submarine",
+      "x": 0.65,
+      "s": 0.5,
+      "emblem": "germany1914"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WHERE WILL IT BE?",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "uboat",
+     "text": "German U-boat captain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Norman Wilkinson, a painter and navy officer, painted ships in wild stripes and zigzags.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "wilk",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.4,
+      "flag": "uk"
+     }
+    ],
+    "tag": {
+     "id": "wilk",
+     "text": "Norman Wilkinson, painter"
+    }
+   }
+  },
+  {
+   "who": "wilk",
+   "say": "We can't hide the ship. So let's make it confusing!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "wilk",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.78,
+      "s": 0.4,
+      "label": "STRIPES"
+     }
+    ],
+    "cam": "close",
+    "focus": "wilk"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He tested a model on King George the Fifth, a former navy officer. The king guessed its direction wrong.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "georgev",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "shock",
+      "hold": "telescope"
+     },
+     {
+      "id": "wilk",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "georgev",
+     "text": "King George V"
+    }
+   }
+  },
+  {
+   "who": "georgev",
+   "say": "Well. I'd never have guessed that.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "georgev",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "georgev"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Britain soon ordered the paint for its merchant ships. Historians still argue whether it worked.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "wilk",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.6,
+      "s": 0.45
+     },
+     {
+      "k": "steamship",
+      "x": 0.82,
+      "s": 0.35,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DID IT WORK?",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "wilk",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "georgev",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They couldn't hide the ships. So they made them impossible to read.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #dazzlecamouflage #ww1 #navalhistory #historytok",
+ "youtube_title": "Britain Fought Submarines With Crazy Paint #shorts",
+ "tags": [
+  "dazzle camouflage",
+  "norman wilkinson",
+  "ww1 ships",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.history.com/articles/dazzle-camouflage-world-war-1",
+  "https://www.smithsonianmag.com/history/when-british-wanted-camouflage-their-warships-they-made-them-dazzle-180958657/",
+  "https://daily.jstor.org/the-camouflage-that-dazzled",
+  "https://en.wikipedia.org/wiki/Dazzle_camouflage"
+ ]
+}

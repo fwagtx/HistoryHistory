@@ -1,0 +1,321 @@
+{
+ "id": "2026w51-s16",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "He Pretended to Betray Greece, and Saved It",
+ "hook": "A FAKE TRAITOR WON",
+ "topic": "Battle of Salamis",
+ "music": "playful",
+ "cast": {
+  "themis": {
+   "preset": "greek",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "name": "Themistocles"
+  },
+  "sicinnus": {
+   "outfit": "tunic",
+   "color": "#C8B48A",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "skin": "tan",
+   "name": "Sicinnus"
+  },
+  "xerxes": {
+   "hat": "crown",
+   "beard": "long",
+   "hairColor": "#1A1210",
+   "outfit": "robe",
+   "color": "#5A2A7A",
+   "color2": "#D4A52A",
+   "skin": "tan",
+   "name": "Xerxes, King of Persia"
+  }
+ },
+ "voices": {
+  "sicinnus": "am_adam",
+  "xerxes": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Greek leader won a huge sea battle by pretending to betray his own side.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "themis",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "place": "Salamis, Greece · 480 BC",
+    "tag": {
+     "id": "themis",
+     "text": "Themistocles, Athenian leader"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 480 BC, King Xerxes of Persia invaded Greece with a huge army and fleet.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "xerxes",
+     "text": "Xerxes, King of Persia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Greek ships waited in a narrow strait by the island of Salamis. Many wanted to flee.",
+   "show": {
+    "k": "map",
+    "lon": 23.5,
+    "lat": 37.95,
+    "z0": 3.6,
+    "z1": 4.2,
+    "date": "480 BC",
+    "labels": [
+     [
+      "Athens",
+      23.73,
+      37.98,
+      14
+     ],
+     [
+      "Salamis",
+      23.48,
+      37.92,
+      -80
+     ]
+    ],
+    "areas": [
+     [
+      23.56,
+      37.95,
+      0.08,
+      "rgba(47,111,194,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Themistocles wanted to fight there. So, says the historian Herodotus, he sent his slave Sicinnus to Xerxes.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sicinnus",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "scared",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "sicinnus",
+     "text": "Sicinnus, Themistocles' slave"
+    }
+   }
+  },
+  {
+   "who": "sicinnus",
+   "say": "Great King, my master is on your side. The Greeks are running away!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "sicinnus",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "sicinnus"
+   }
+  },
+  {
+   "who": "xerxes",
+   "say": "Then trap them!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "xerxes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Persian ships blocked the strait. Now the Greeks had to fight, right there.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.3,
+      "s": 0.5
+     },
+     {
+      "k": "galley",
+      "x": 0.6,
+      "s": 0.45
+     },
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TRAPPED... ON PURPOSE",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The big Persian fleet got jammed in the narrow water, and the Greeks won.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "themis",
+      "x": 0.25,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.55,
+      "s": 0.5
+     },
+     {
+      "k": "explosion_cloud",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VICTORY",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "themis",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sicinnus",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He told the enemy his own side was running away. On purpose.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #salamis #ancientgreece #persia #historytok",
+ "youtube_title": "He Pretended to Betray Greece, and Saved It #shorts",
+ "tags": [
+  "battle of salamis",
+  "themistocles",
+  "xerxes",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sicinnus",
+  "https://en.wikipedia.org/wiki/Battle_of_Salamis",
+  "https://cts.perseids.org/read/greekLit/tlg0007/tlg010/perseus-eng2/12.1-12.5",
+  "https://politeia.unimi.it/en/?p=2148"
+ ]
+}

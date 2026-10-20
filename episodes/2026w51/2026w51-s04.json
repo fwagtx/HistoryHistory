@@ -1,0 +1,311 @@
+{
+ "id": "2026w51-s04",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "Ancient Persia Paid a Bonus to New Moms",
+ "hook": "ANCIENT MATERNITY BONUS",
+ "topic": "Persepolis",
+ "music": "playful",
+ "cast": {
+  "darius": {
+   "preset": "king",
+   "hat": "crown",
+   "beard": "long",
+   "hairColor": "#1E1612",
+   "outfit": "robe",
+   "color": "#2F5A8A",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Darius the Great"
+  },
+  "mother": {
+   "preset": "peasantW",
+   "hat": "headscarf",
+   "hatColor": "#2F7A6A",
+   "color": "#C8902A",
+   "skin": "olive",
+   "hairColor": "#1E1612"
+  },
+  "scribe": {
+   "outfit": "robe",
+   "color": "#E8DCC0",
+   "hat": "hood",
+   "hatColor": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "hold": "scroll"
+  },
+  "worker": {
+   "outfit": "tunic",
+   "color": "#B89A6A",
+   "hat": "hood",
+   "hatColor": "#8A6A4A",
+   "beard": "full",
+   "hairColor": "#2A1A10",
+   "skin": "olive",
+   "hold": "hammer"
+  }
+ },
+ "voices": {
+  "mother": "af_heart",
+  "scribe": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Ancient Persia paid new moms a bonus, and we have the receipts, written in clay.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "mother",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.55
+     },
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "GRAIN"
+     }
+    ],
+    "place": "Persepolis, Persia · about 500 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around 500 BC, King Darius of Persia had thousands of workers building Persepolis, his giant palace city.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "darius",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "worker",
+      "x": 0.65,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.55
+     }
+    ],
+    "tag": {
+     "id": "darius",
+     "text": "Darius the Great, king of Persia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1933, archaeologists found tens of thousands of clay tablets in its walls. Many were pay records.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "scribe",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "shock",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.72,
+      "s": 0.4,
+      "w": 700
+     },
+     {
+      "k": "crate",
+      "x": 0.18,
+      "s": 0.35,
+      "label": "TABLETS"
+     }
+    ],
+    "place": "Persepolis · 1933"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Workers were paid in food, like grain and wine. And lots of the workers were women.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "bread"
+     },
+     {
+      "id": "mother",
+      "x": 0.62,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "goblet"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Women who had just given birth got extra rations for a month.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "scribe",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "mother",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.4,
+      "label": "EXTRA"
+     }
+    ]
+   }
+  },
+  {
+   "who": "scribe",
+   "say": "New baby? Extra grain for you this month.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "scribe",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.4,
+      "label": "GRAIN"
+     }
+    ],
+    "cam": "close",
+    "focus": "scribe"
+   }
+  },
+  {
+   "who": "mother",
+   "say": "Best payday ever.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "mother",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "mother"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The catch: mothers of boys got twice as much as mothers of girls.",
+   "show": {
+    "k": "card",
+    "label": "New-mom bonus at Persepolis",
+    "big": "BOYS x2",
+    "sub": "mothers of boys got double"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "mother",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "scribe",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "2,500-year-old pay records show Persia gave new moms a bonus.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #persia #persepolis #womeninhistory #historytok",
+ "youtube_title": "Ancient Persia Paid a Bonus to New Moms #shorts",
+ "tags": [
+  "persepolis",
+  "persepolis fortification tablets",
+  "ancient persia",
+  "women in history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://achaemenica.org/articles/persepolis",
+  "https://www.iranicaonline.org/articles/women-i/",
+  "https://iranicaonline.org/articles/persepolis-admin-archive",
+  "https://isac.uchicago.edu/node/3257",
+  "https://www.cais-soas.com/CAIS/History/hakhamaneshian/human_rights.htm"
+ ]
+}

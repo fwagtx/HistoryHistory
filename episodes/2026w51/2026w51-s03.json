@@ -1,0 +1,315 @@
+{
+ "id": "2026w51-s03",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "Persians Made Ice in the Desert",
+ "hook": "ICE IN THE DESERT",
+ "topic": "Persian Ice Houses",
+ "music": "playful",
+ "cast": {
+  "farmer": {
+   "preset": "farmer",
+   "hat": "hood",
+   "hatColor": "#8A6A4A",
+   "outfit": "tunic",
+   "color": "#7A5A3A",
+   "beard": "full",
+   "skin": "olive",
+   "hairColor": "#1E1612"
+  },
+  "farmer2": {
+   "outfit": "tunic",
+   "color": "#2F5A8A",
+   "hat": "hood",
+   "hatColor": "#8A6A4A",
+   "beard": "full",
+   "hairColor": "#2A1A10",
+   "skin": "olive",
+   "hold": null
+  }
+ },
+ "voices": {
+  "farmer": "bm_george",
+  "farmer2": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Persians made ice in the desert, and kept it frozen through the summer.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.65,
+      "s": 0.6,
+      "label": "ICE HOUSE"
+     },
+     {
+      "k": "palm",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "place": "Persia · desert towns"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their trick was the yakhchal, which means ice pit in Persian.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.68,
+      "s": 0.55,
+      "text": "YAKHCHAL = ICE PIT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On winter nights, canal water flowed into shallow pools.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.65,
+      "s": 0.45,
+      "w": 900
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A tall wall kept the sun off the pools, so the water froze.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "neutral"
+     },
+     {
+      "id": "farmer2",
+      "x": 0.62,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.4,
+      "w": 700
+     }
+    ]
+   }
+  },
+  {
+   "who": "farmer2",
+   "say": "Brr. Is it cold enough yet?",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "farmer2",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.78,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "farmer2"
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "Give it one more night.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.78,
+      "s": 0.35,
+      "w": 600
+     }
+    ],
+    "cam": "close",
+    "focus": "farmer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Workers stored the ice in a deep pit under a thick mud-brick dome.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "farmer2",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.55,
+      "s": 0.4,
+      "label": "ICE"
+     },
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.55,
+      "label": "YAKHCHAL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The heat stayed out, so people had ice in summer, with no electricity at all.",
+   "show": {
+    "k": "card",
+    "label": "Ice in the desert",
+    "big": "ALL SUMMER",
+    "sub": "no electricity needed",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.82,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some say the idea is two thousand years old. Most surviving ice houses are a few centuries old.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HOW OLD? DEBATED",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "farmer2",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Ice in the desert, all summer, with no electricity.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #persia #yakhchal #engineering #historytok",
+ "youtube_title": "Persians Made Ice in the Desert #shorts",
+ "tags": [
+  "yakhchal",
+  "persian ice house",
+  "ancient engineering",
+  "persia",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Yakhch%C4%81l",
+  "https://www.solaripedia.com/13/407/6390/iranian_ice_house.html",
+  "https://www.bookbrowse.com/mag/btb/index.cfm/book_number/3291/chilled",
+  "https://naturalbuildingblog.com/yakhchal-ancient-refrigerators/"
+ ]
+}

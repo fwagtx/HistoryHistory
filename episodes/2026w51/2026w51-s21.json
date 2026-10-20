@@ -1,0 +1,316 @@
+{
+ "id": "2026w51-s21",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "Britain Disguised Its Tanks as Trucks",
+ "hook": "TANKS DRESSED AS TRUCKS",
+ "topic": "Battle of El Alamein",
+ "music": "playful",
+ "cast": {
+  "monty": {
+   "preset": "brit40",
+   "hat": "beret",
+   "hatColor": "#1A1A1A",
+   "stache": "brush",
+   "name": "General Bernard Montgomery"
+  },
+  "tommy": {
+   "preset": "brit40",
+   "name": "British soldier"
+  },
+  "churchill": {
+   "preset": "churchill",
+   "name": "Winston Churchill"
+  }
+ },
+ "voices": {
+  "tommy": "am_liam",
+  "monty": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Before a big battle in 1942, British soldiers dressed their tanks up as trucks.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "tommy",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.65,
+      "s": 0.55,
+      "label": "TOTALLY A TRUCK"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "IT'S A TANK",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "El Alamein, Egypt · 1942"
+   }
+  },
+  {
+   "who": "N",
+   "say": "General Bernard Montgomery's British army was about to attack German and Italian forces in Egypt.",
+   "show": {
+    "k": "map",
+    "lon": 29.0,
+    "lat": 31.0,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "October 1942",
+    "labels": [
+     [
+      "El Alamein",
+      28.95,
+      30.83,
+      14
+     ],
+     [
+      "Alexandria",
+      29.92,
+      31.2,
+      14
+     ],
+     [
+      "EGYPT",
+      30.0,
+      28.0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in the open desert, it's hard to hide an army.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "monty",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "neutral",
+      "hold": "binoculars"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tank",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "monty",
+     "text": "General Bernard Montgomery"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they covered tanks with frames called sunshields. From the air, they looked like trucks.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "tommy",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.6,
+      "s": 0.5,
+      "label": "SUNSHIELD"
+     },
+     {
+      "k": "tank",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "tommy",
+   "say": "It's a truck, mate. Definitely a truck.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "tommy",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "tommy"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Farther south, they built fake tanks and a slow fake pipeline, so the attack looked later, and elsewhere.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "tommy",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tank",
+      "x": 0.55,
+      "s": 0.45,
+      "label": "FAKE"
+     },
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.4,
+      "text": "PIPELINE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On 23 October, they attacked in the north and caught the enemy by surprise.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [],
+    "objects": [
+     {
+      "k": "tank",
+      "x": 0.35,
+      "s": 0.5,
+      "move": [
+       0.2,
+       0.55
+      ]
+     },
+     {
+      "k": "artillery",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SURPRISE!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They won, and Winston Churchill later praised the camouflage trick in Parliament.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "churchill",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "happy",
+      "hold": "cigar"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "uk"
+     }
+    ],
+    "tag": {
+     "id": "churchill",
+     "text": "Winston Churchill"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tommy",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "monty",
+      "x": 0.7,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Fake tanks in the south. Real tanks hiding as trucks in the north.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #elalamein #ww2 #militaryhistory #historytok",
+ "youtube_title": "Britain Disguised Its Tanks as Trucks #shorts",
+ "tags": [
+  "operation bertram",
+  "el alamein",
+  "ww2 camouflage",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Operation_Bertram",
+  "https://www.iwm.org.uk/history/how-camouflage-helped-the-allies-win-the-desert-war",
+  "https://www.historyofwar.org/articles/operation_bertram.html",
+  "https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein"
+ ]
+}

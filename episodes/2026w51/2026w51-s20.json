@@ -1,0 +1,332 @@
+{
+ "id": "2026w51-s20",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "The Sultan Who Sailed Ships Over a Hill",
+ "hook": "SHIPS SAILED OVER A HILL",
+ "topic": "Fall of Constantinople",
+ "music": "playful",
+ "cast": {
+  "mehmed": {
+   "preset": "sultan",
+   "name": "Sultan Mehmed II"
+  },
+  "guard": {
+   "preset": "knight",
+   "name": "Byzantine guard"
+  }
+ },
+ "voices": {
+  "mehmed": "am_fenrir",
+  "guard": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1453, an army moved its warships across dry land.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "mehmed",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.65,
+      "s": 0.5,
+      "move": [
+       0.55,
+       0.8
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHIPS ON LAND?!",
+      "at": 1.2,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "Constantinople · 1453",
+    "tag": {
+     "id": "mehmed",
+     "text": "Sultan Mehmed II, age 21"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mehmed the Second, the young ruler of the Ottoman Empire, was attacking Constantinople, the great walled city.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.35,
+      "pose": "aim",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.72,
+      "s": 0.55
+     },
+     {
+      "k": "gate",
+      "x": 0.18,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "guard",
+     "text": "Byzantine guard"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its harbor, the Golden Horn, was blocked by a giant chain across the water.",
+   "show": {
+    "k": "map",
+    "lon": 28.97,
+    "lat": 41.03,
+    "z0": 4.0,
+    "z1": 4.6,
+    "date": "1453",
+    "labels": [
+     [
+      "Constantinople",
+      28.95,
+      41.01,
+      -80
+     ],
+     [
+      "Galata",
+      28.98,
+      41.03,
+      14
+     ],
+     [
+      "GOLDEN HORN",
+      28.96,
+      41.04,
+      0
+     ]
+    ],
+    "route": [
+     [
+      29.01,
+      41.04
+     ],
+     [
+      28.99,
+      41.06
+     ],
+     [
+      28.96,
+      41.045
+     ]
+    ]
+   }
+  },
+  {
+   "who": "guard",
+   "say": "Nobody gets past our chain!",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "guard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Mehmed's men built a road over the hills behind the town of Galata.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "mehmed",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy",
+      "hold": "map"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEW ROAD",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They dragged dozens of ships along it on greased logs, and slid them into the harbor, behind the chain.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.35,
+      "s": 0.5,
+      "move": [
+       0.2,
+       0.5
+      ]
+     },
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.45,
+      "move": [
+       0.55,
+       0.8
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DOZENS OF SHIPS",
+      "at": 1.4,
+      "color": "#B8860B"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "guard",
+   "say": "Wait. Why are there ships in here?!",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "guard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now the defenders had even more wall to guard. About five weeks later, Constantinople fell.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "mehmed",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "29 MAY 1453",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "mehmed",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "guard",
+      "x": 0.7,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The harbor was blocked. So he took the ships for a walk.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #constantinople #ottomanempire #byzantine #historytok",
+ "youtube_title": "The Sultan Who Sailed Ships Over a Hill #shorts",
+ "tags": [
+  "fall of constantinople",
+  "mehmed ii",
+  "golden horn",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+  "https://en.wikipedia.org/wiki/Golden_Horn",
+  "https://www.ebsco.com/research-starters/history/siege-constantinople-1453",
+  "https://www.executedtoday.com/?p=33194"
+ ]
+}

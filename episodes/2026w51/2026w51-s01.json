@@ -1,0 +1,333 @@
+{
+ "id": "2026w51-s01",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "America's Mail Motto Is About Persian Riders",
+ "hook": "THE MAIL MOTTO IS PERSIAN",
+ "topic": "Persian Royal Couriers",
+ "music": "playful",
+ "cast": {
+  "courier": {
+   "outfit": "tunic",
+   "color": "#C83A3A",
+   "hat": "hood",
+   "hatColor": "#7A5A3A",
+   "beard": "full",
+   "hairColor": "#2A1A10",
+   "skin": "olive",
+   "hold": "letter"
+  },
+  "courier2": {
+   "outfit": "tunic",
+   "color": "#2F5A8A",
+   "hat": "hood",
+   "hatColor": "#C8902A",
+   "stache": "thin",
+   "hairColor": "#2A1A10",
+   "skin": "tan",
+   "hold": "letter"
+  },
+  "herodotus": {
+   "preset": "philosopher",
+   "hold": "scroll",
+   "name": "Herodotus"
+  }
+ },
+ "voices": {
+  "courier": "am_eric",
+  "courier2": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The famous line on New York's main post office was first written about Persian horsemen.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "courier",
+      "x": 0.35,
+      "pose": "run",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.55,
+      "text": "ROYAL ROAD"
+     },
+     {
+      "k": "palm",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Persian Empire · 480 BC",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Persia's empire stretched from Egypt to India, so kings needed fast news.",
+   "show": {
+    "k": "map",
+    "lon": 44.0,
+    "lat": 33.0,
+    "z0": 1.1,
+    "z1": 1.25,
+    "date": "480 BC",
+    "labels": [
+     [
+      "EGYPT",
+      31.0,
+      27.0,
+      0
+     ],
+     [
+      "SARDIS",
+      28.04,
+      38.49,
+      0
+     ],
+     [
+      "SUSA",
+      48.25,
+      32.19,
+      0
+     ],
+     [
+      "TO INDIA",
+      64.0,
+      30.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      28.04,
+      38.49
+     ],
+     [
+      36.0,
+      38.6
+     ],
+     [
+      43.2,
+      36.4
+     ],
+     [
+      48.25,
+      32.19
+     ]
+    ],
+    "areas": [
+     [
+      46.0,
+      33.0,
+      11.0,
+      "rgba(214,48,40,.22)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they built relay stations about a day's ride apart, each with fresh horses and riders.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "courier",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "courier2",
+      "x": 0.65,
+      "pose": "hips",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.5,
+      "label": "STATION"
+     }
+    ]
+   }
+  },
+  {
+   "who": "courier",
+   "say": "Royal message! Your turn. Go, go, go!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "courier",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "courier"
+   }
+  },
+  {
+   "who": "courier2",
+   "say": "Got it. You go take a nap.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "courier2",
+      "x": 0.45,
+      "pose": "run",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "courier2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Herodotus, a Greek historian, wrote that nothing stopped these riders: not snow, rain, heat or the dark of night.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "courier",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "shout"
+     },
+     {
+      "id": "herodotus",
+      "x": 0.15,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "tag": {
+     "id": "herodotus",
+     "text": "Herodotus, Greek historian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1914, New York carved a version of his words across its giant new post office.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "herodotus",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.6,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "POST OFFICE"
+     }
+    ],
+    "place": "New York · 1914"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's not the official postal motto. It's a compliment to Persian riders.",
+   "show": {
+    "k": "card",
+    "label": "Carved on New York's post office",
+    "big": "NEITHER SNOW NOR RAIN",
+    "sub": "Herodotus, writing about Persian couriers"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "courier",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "courier2",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "America's most famous mail line was written about Persian horse riders.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #persia #ancienthistory #historytok #funnyhistory",
+ "youtube_title": "America's Mail Motto Is About Persian Riders #shorts",
+ "tags": [
+  "persian empire",
+  "royal road",
+  "neither snow nor rain",
+  "herodotus",
+  "history shorts"
+ ],
+ "sources": [
+  "https://barrypopik.com/blog/neither_snow_nor_rain",
+  "https://www.mentalfloss.com/article/87770/neither-snow-nor-rain-isnt-usps-motto",
+  "https://en.wikipedia.org/wiki/James_A._Farley_Building",
+  "https://en.wikipedia.org/wiki/Royal_Road",
+  "https://www.thecollector.com/cyrus-ii-persia-postal-system/"
+ ]
+}

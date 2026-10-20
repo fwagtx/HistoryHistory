@@ -1,0 +1,361 @@
+{
+ "id": "2026w51-s05",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "Alexander Burned Persia's Greatest Palace",
+ "hook": "ALEXANDER BURNED A PALACE",
+ "topic": "Burning of Persepolis",
+ "music": "playful",
+ "cast": {
+  "alexander": {
+   "outfit": "armor",
+   "hair": "curly",
+   "hairColor": "#C89A4A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Alexander the Great"
+  },
+  "macedonian": {
+   "hat": "roman",
+   "hatColor": "#C9A04A",
+   "outfit": "tunic",
+   "color": "#B8302A",
+   "beard": "full",
+   "hairColor": "#5A3A2A",
+   "skin": "light",
+   "hold": "spear"
+  },
+  "thais": {
+   "preset": "queen",
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#F2EEE4",
+   "color2": "#C8902A",
+   "skin": "olive",
+   "hairColor": "#2A1A10",
+   "name": "Thais"
+  }
+ },
+ "voices": {
+  "alexander": "am_liam",
+  "thais": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Alexander the Great burned down the grandest palace in the world, right after a party.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "smug",
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.65,
+      "s": 0.55
+     },
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Persepolis, Persia · 330 BC",
+    "fx": [
+     "smoke"
+    ],
+    "tag": {
+     "id": "alexander",
+     "text": "Alexander the Great"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 330 BC, Alexander, a young king from Macedonia, was conquering the Persian Empire.",
+   "show": {
+    "k": "map",
+    "lon": 40.0,
+    "lat": 35.0,
+    "z0": 1.3,
+    "z1": 1.5,
+    "date": "334–330 BC",
+    "labels": [
+     [
+      "MACEDONIA",
+      22.5,
+      40.7,
+      0
+     ],
+     [
+      "PERSEPOLIS",
+      52.89,
+      29.93,
+      0
+     ],
+     [
+      "BABYLON",
+      44.42,
+      32.54,
+      0
+     ]
+    ],
+    "route": [
+     [
+      22.5,
+      40.7
+     ],
+     [
+      27.3,
+      40.2
+     ],
+     [
+      36.2,
+      36.85
+     ],
+     [
+      43.4,
+      36.6
+     ],
+     [
+      44.42,
+      32.54
+     ],
+     [
+      52.89,
+      29.93
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He captured Persepolis, the Persian kings' grand palace city, stuffed with treasure.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "macedonian",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.45
+     },
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ancient writers say his officers threw a wild drinking party in the palace.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "macedonian",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "goblet"
+     },
+     {
+      "id": "thais",
+      "x": 0.62,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "tag": {
+     "id": "thais",
+     "text": "Thais, a guest from Athens"
+    }
+   }
+  },
+  {
+   "who": "thais",
+   "say": "The Persians burned Athens. Let's burn their palace!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "thais",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "thais"
+   }
+  },
+  {
+   "who": "alexander",
+   "say": "Somebody hand me a torch.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug",
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "alexander"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Plutarch, a Greek writer, says it was payback, because Persia had burned Athens 150 years earlier.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "macedonian",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.65,
+      "s": 0.45
+     },
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Athens · 480 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians still argue: planned revenge, or a drunken mistake? Either way, the palace burned.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "PLANNED OR DRUNK?",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "alexander",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "thais",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Alexander the Great burned Persepolis after a party. Revenge or a drunk mistake?\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #alexanderthegreat #persia #persepolis #historytok",
+ "youtube_title": "Alexander Burned Persia's Greatest Palace #shorts",
+ "tags": [
+  "alexander the great",
+  "persepolis",
+  "burning of persepolis",
+  "persian empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tha%C3%AFs",
+  "https://www.thecollector.com/alexander-burns-persepolis",
+  "https://penelope.uchicago.edu/encyclopaedia_romana/greece/hetairai/thais.html",
+  "https://en.wikipedia.org/wiki/Persepolis"
+ ]
+}

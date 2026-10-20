@@ -1,0 +1,329 @@
+{
+ "id": "2026w51-s02",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "Persia's Army That Always Had 10,000 Men",
+ "hook": "THE 10,000 IMMORTALS",
+ "topic": "Persian Immortals",
+ "music": "playful",
+ "cast": {
+  "immortal": {
+   "outfit": "robe",
+   "color": "#C8902A",
+   "color2": "#2F5A8A",
+   "hat": "turban",
+   "hatColor": "#E8DCC0",
+   "beard": "full",
+   "hairColor": "#1E1612",
+   "skin": "olive",
+   "hold": "spear"
+  },
+  "immortal2": {
+   "outfit": "robe",
+   "color": "#2F7A4A",
+   "color2": "#C8902A",
+   "hat": "turban",
+   "hatColor": "#E8DCC0",
+   "beard": "",
+   "hairColor": "#1E1612",
+   "skin": "olive",
+   "hold": "spear",
+   "stache": "thin"
+  },
+  "xerxes": {
+   "preset": "king",
+   "hat": "crown",
+   "beard": "long",
+   "hairColor": "#1E1612",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "skin": "olive",
+   "name": "Xerxes I"
+  },
+  "scribe": {
+   "outfit": "robe",
+   "color": "#E8DCC0",
+   "hat": "hood",
+   "hatColor": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "hold": "scroll"
+  }
+ },
+ "voices": {
+  "immortal": "am_fenrir",
+  "immortal2": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Persia's elite soldiers had a name straight out of a video game: the Immortals.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "immortal",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "smug"
+     },
+     {
+      "id": "immortal2",
+      "x": 0.62,
+      "pose": "salute",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.55
+     },
+     {
+      "k": "banner",
+      "x": 0.15,
+      "s": 0.45,
+      "flag": "red"
+     }
+    ],
+    "place": "Persian Empire · 480 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 480 BC, King Xerxes of Persia invaded Greece with a huge army.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "xerxes",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "xerxes",
+     "text": "Xerxes, king of Persia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "At its heart were ten thousand handpicked Persian soldiers.",
+   "show": {
+    "k": "card",
+    "label": "Xerxes' elite guard",
+    "big": "10,000",
+    "sub": "the Immortals",
+    "cast": [
+     {
+      "id": "immortal",
+      "x": 0.82,
+      "pose": "salute",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Herodotus, a Greek historian, says whenever one died or got sick, a new man replaced him at once.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "immortal",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "immortal2",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.45,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "immortal",
+   "say": "Oh no, we're one man short!",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "immortal",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "immortal"
+   }
+  },
+  {
+   "who": "immortal2",
+   "say": "Relax. I'm the new guy. Still ten thousand.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "immortal2",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "immortal2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the unit never shrank. To the Greeks, it seemed like nobody in it could die.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "immortal",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "immortal2",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ALWAYS 10,000",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Persian records never mention Immortals. Some historians think the Greeks misheard a Persian word.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "scribe",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "IMMORTALS?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LOST IN TRANSLATION?",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "immortal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "xerxes",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Persia's elite unit was always exactly 10,000 men. At least, that's the story.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #persia #immortals #ancienthistory #historytok",
+ "youtube_title": "Persia's Army That Always Had 10,000 Men #shorts",
+ "tags": [
+  "persian immortals",
+  "xerxes",
+  "herodotus",
+  "ancient persia",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Immortals_(Achaemenid_Empire)",
+  "https://livius.org/articles/concept/immortals",
+  "https://www.iranicaonline.org/?p=3692",
+  "https://www.worldatlas.com/ancient-world/why-the-persian-immortals-were-the-ancient-world-s-elite-force.html"
+ ]
+}

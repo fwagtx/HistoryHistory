@@ -1,0 +1,317 @@
+{
+ "id": "2026w51-s24",
+ "format": "short",
+ "date": "2026-12-16",
+ "slot": "09:00",
+ "title": "D-Day Had Fake Paratroopers",
+ "hook": "D-DAY'S FAKE PARATROOPERS",
+ "topic": "Operation Titanic",
+ "music": "playful",
+ "cast": {
+  "sas": {
+   "hat": "beret",
+   "hatColor": "#C8B48A",
+   "outfit": "ww2",
+   "color": "#6A6A40",
+   "hair": "short",
+   "skin": "light",
+   "name": "SAS soldier"
+  },
+  "sentry": {
+   "hat": "stahlhelm",
+   "outfit": "ww2",
+   "color": "#5A5E52",
+   "hair": "short",
+   "skin": "light",
+   "name": "German sentry"
+  }
+ },
+ "voices": {
+  "sas": "am_liam",
+  "sentry": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "On D-Day, the Allies dropped hundreds of fake paratroopers on France.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.45,
+      "s": 0.55,
+      "y": 0.45,
+      "move": [
+       0.2,
+       0.7
+      ]
+     },
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.3,
+      "y": 0.25,
+      "label": "DUMMY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE!",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "Normandy, France · 6 June 1944"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In June 1944, the Allies were about to land on the beaches of Normandy.",
+   "show": {
+    "k": "map",
+    "lon": -0.5,
+    "lat": 49.4,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "June 1944",
+    "labels": [
+     [
+      "Normandy beaches",
+      -0.6,
+      49.35,
+      14
+     ],
+     [
+      "Caen",
+      -0.37,
+      49.18,
+      14
+     ],
+     [
+      "Cherbourg",
+      -1.62,
+      49.64,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Planes dropped sackcloth dummies, nicknamed Ruperts, far from the real landing zones.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.4,
+      "s": 0.35,
+      "y": 0.35,
+      "label": "RUPERT"
+     },
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.3,
+      "y": 0.25,
+      "label": "RUPERT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RUPERTS",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Small charges went bang when they landed, to sound like gunfire.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "explosion_cloud",
+      "x": 0.4,
+      "s": 0.4
+     },
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANG! BANG!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A few real British SAS soldiers jumped too, and played loud recordings of battle noise.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sas",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.7,
+      "s": 0.35
+     },
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "sas",
+     "text": "British SAS soldier"
+    }
+   }
+  },
+  {
+   "who": "sentry",
+   "say": "Paratroopers! Everyone, after them!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "sentry",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "sentry"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some German reserve troops went hunting the fake army, away from the real landings.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "sentry",
+      "x": 0.35,
+      "pose": "run",
+      "mood": "shock",
+      "walk": [
+       0.2,
+       0.5
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WRONG WAY",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The brave SAS men paid a price: only two reached safety. But the trick helped on D-Day.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "sas",
+      "x": 0.4,
+      "pose": "salute",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "uk"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sas",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sentry",
+      "x": 0.7,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Hundreds of paratroopers landed on D-Day. Some of them were made of cloth.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #dday #ww2 #militaryhistory #historytok",
+ "youtube_title": "D-Day Had Fake Paratroopers #shorts",
+ "tags": [
+  "operation titanic",
+  "d-day",
+  "dummy paratroopers",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Operation_Titanic",
+  "https://paradata.org.uk/content/4663693",
+  "https://airforcemuseum.co.nz/blog/operation-titanic-dummy-paratroopers-in-world-war-two/",
+  "https://www.twz.com/28402/explosive-filled-dummies-and-other-ruses-helped-clear-the-way-for-real-paratroopers-on-d-day"
+ ]
+}

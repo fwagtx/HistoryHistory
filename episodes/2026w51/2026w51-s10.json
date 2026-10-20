@@ -1,0 +1,276 @@
+{
+ "id": "2026w51-s10",
+ "format": "short",
+ "date": "2026-12-14",
+ "slot": "09:00",
+ "title": "Persians Built Rivers Underground",
+ "hook": "RIVERS UNDER THE DESERT",
+ "topic": "Persian Qanats",
+ "music": "playful",
+ "cast": {
+  "farmer": {
+   "preset": "farmer",
+   "hat": "hood",
+   "hatColor": "#8A6A4A",
+   "outfit": "tunic",
+   "color": "#7A5A3A",
+   "beard": "full",
+   "skin": "olive",
+   "hairColor": "#1E1612"
+  },
+  "digger": {
+   "outfit": "tunic",
+   "color": "#2F5A8A",
+   "hat": "hood",
+   "hatColor": "#8A6A4A",
+   "beard": "full",
+   "hairColor": "#2A1A10",
+   "skin": "olive",
+   "hold": "hammer"
+  }
+ },
+ "voices": {
+  "farmer": "bm_george",
+  "digger": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Persians built rivers underground, and some are still flowing after two thousand years.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 0.4,
+      "label": "SHAFT"
+     },
+     {
+      "k": "rock",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "place": "Persian plateau · ancient times"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Much of Persia is dry, but there's water underground near the mountains.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they dug qanats: gently sloping tunnels that let gravity carry the water to farms miles away.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "digger",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.6,
+      "s": 0.4,
+      "label": "QANAT"
+     },
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO PUMPS",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every so often they dug a shaft straight down, to let in air and haul out dirt.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "digger",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "SHAFT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "digger",
+   "say": "Another shaft? My back is killing me.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "digger",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "digger"
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "Dig now, drink forever.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "farmer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Iran still has more than thirty-seven thousand qanats. UNESCO lists eleven as World Heritage.",
+   "show": {
+    "k": "card",
+    "label": "Qanats in Iran",
+    "big": "37,000+",
+    "sub": "11 are UNESCO World Heritage"
+   }
+  },
+  {
+   "who": "N",
+   "say": "One in the town of Gonabad was dug over two thousand years ago, and it still waters the fields.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Gonabad, Iran"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "digger",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Persian underground canals still carry water after 2,000 years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #persia #engineering #ancienthistory #historytok",
+ "youtube_title": "Persians Built Rivers Underground #shorts",
+ "tags": [
+  "qanat",
+  "persian qanat",
+  "ancient engineering",
+  "unesco",
+  "history shorts"
+ ],
+ "sources": [
+  "https://whc.unesco.org/en/list/1506/",
+  "https://en.wikipedia.org/wiki/Qanats_of_Ghasabeh",
+  "https://en.wikipedia.org/wiki/Qanat",
+  "https://www.worldheritagesite.org/list/id/1506"
+ ]
+}
