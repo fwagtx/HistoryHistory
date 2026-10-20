@@ -841,7 +841,7 @@
   },
   {
    "who": "N",
-   "say": "In 539 BC Cyrus went after Babylon, the giant city of Mesopotamia. Its gates opened without a fight.",
+   "say": "In 539 BC Cyrus went after Babylon, a giant city in what is now Iraq. After one battle nearby, his army walked in without a fight.",
    "show": {
     "k": "map",
     "lon": 42.0,
@@ -901,7 +901,7 @@
   },
   {
    "who": "N",
-   "say": "Cyrus didn't wipe out the people he conquered. He kept their local customs and gods, so fewer of them wanted to rebel.",
+   "say": "Cyrus didn't wipe out the people he conquered. He let them keep their own customs and gods, so fewer of them rebelled.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -1317,7 +1317,7 @@
   },
   {
    "who": "N",
-   "say": "Enter Darius, a young Persian noble who grabbed the throne with six friends.",
+   "say": "Enter Darius, a young Persian noble who grabbed the throne with help from six other nobles.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1412,7 +1412,7 @@
   },
   {
    "who": "N",
-   "say": "Then he got organized. He split the empire into provinces called satrapies, each run by a governor.",
+   "say": "Then he got organized. He split the empire into about twenty provinces called satrapies, each run by a governor called a satrap.",
    "show": {
     "k": "map",
     "lon": 46.0,
@@ -1476,7 +1476,7 @@
   },
   {
    "who": "N",
-   "say": "His empire ran from Egypt to the edge of India. Nobody had ever ruled so much of the world.",
+   "say": "His empire ran from Egypt to the edge of India. No empire had ever been this big.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1511,7 +1511,7 @@
   },
   {
    "who": "N",
-   "say": "He also made gold coins called darics, so people could pay for things almost anywhere in the empire.",
+   "say": "He also made gold coins called darics, stamped with a picture of the king as an archer.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -1547,7 +1547,7 @@
   },
   {
    "who": "N",
-   "say": "He also improved the Royal Road, about twenty-seven hundred kilometers from Sardis in the west to Susa.",
+   "say": "He also improved the Royal Road, about twenty-seven hundred kilometers from Sardis in the west to Susa, one of his capitals.",
    "show": {
     "k": "map",
     "lon": 38.0,
@@ -1609,7 +1609,7 @@
   },
   {
    "who": "N",
-   "say": "On foot, the trip took about three months. Royal riders did it in about a week.",
+   "say": "On foot, the trip took about three months. Royal riders did it in about nine days.",
    "show": {
     "k": "card",
     "label": "The Royal Road, Sardis to Susa",
@@ -1705,16 +1705,16 @@
   },
   {
    "who": "N",
-   "say": "Herodotus was so impressed that his words about them ended up carved on New York's main post office.",
+   "say": "Herodotus was so impressed that a version of his words ended up carved on New York's main post office.",
    "show": {
     "k": "quote",
     "text": "Neither snow nor rain nor heat nor gloom of night stays these couriers from the swift completion of their appointed rounds.",
-    "who": "Herodotus, Histories 8.98, as carved on the James A. Farley Post Office in New York"
+    "who": "Herodotus, Histories 8.98, in the version carved on New York's James A. Farley Post Office"
    }
   },
   {
    "who": "N",
-   "say": "Darius also built Persepolis, a giant palace city. Its clay records show workers were paid in food, and new mothers got extra.",
+   "say": "Darius also built Persepolis, a giant palace city. Its clay records show workers were paid in food. Scholars think new mothers got extra.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1780,7 +1780,7 @@
   },
   {
    "who": "N",
-   "say": "Some qanats in Iran still carry water today, and UNESCO lists them as World Heritage.",
+   "say": "Thousands of qanats in Iran still carry water today, and UNESCO lists eleven of them as World Heritage.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1939,7 +1939,7 @@
   },
   {
    "who": "N",
-   "say": "When a storm wrecked his bridge of boats, Herodotus says Xerxes had the sea whipped. The sea did not apologize.",
+   "say": "When a storm wrecked his bridge of boats from Asia into Europe, Herodotus says Xerxes had the sea whipped. The sea did not apologize.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -1990,7 +1990,7 @@
   },
   {
    "who": "N",
-   "say": "Xerxes won at Thermopylae and burned Athens. Then the Greek fleet trapped his ships at Salamis and smashed them.",
+   "say": "Xerxes won at Thermopylae and burned Athens. Then the Greek fleet beat his navy in a narrow strait at Salamis.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -2449,7 +2449,7 @@
   },
   {
    "who": "N",
-   "say": "Then, around 247 BC, nomad horsemen from east of the Caspian Sea took over. They became the Parthians.",
+   "say": "Then, around 247 BC, nomad horsemen took over Parthia, a province near the Caspian Sea. Within about a century, these Parthians ruled Persia too.",
    "show": {
     "k": "map",
     "lon": 55.0,
@@ -2543,6 +2543,30 @@
   },
   {
    "who": "N",
+   "say": "Some say that's where the phrase parting shot comes from, though word experts still argue about it.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "parthian",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "PARTHIAN SHOT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
    "say": "Parthia also sat in the middle of the Silk Road, the trade routes between China and Rome, and got rich taxing the traffic.",
    "show": {
     "k": "scene",
@@ -2573,31 +2597,7 @@
   },
   {
    "who": "N",
-   "say": "Some say that's where the phrase parting shot comes from, though word experts still argue about it.",
-   "show": {
-    "k": "scene",
-    "bg": "library",
-    "cast": [
-     {
-      "id": "parthian",
-      "x": 0.4,
-      "pose": "shrug",
-      "mood": "happy"
-     }
-    ],
-    "objects": [
-     {
-      "k": "scrollbig",
-      "x": 0.75,
-      "s": 0.5,
-      "text": "PARTHIAN SHOT"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "In 53 BC, at Carrhae, the Parthians wiped out a Roman army. Rome and Parthia stayed bitter rivals for centuries.",
+   "say": "In 53 BC, at Carrhae, in what is now Turkey, the Parthians wiped out a Roman army. Rome and Parthia stayed bitter rivals for centuries.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -2710,7 +2710,7 @@
   },
   {
    "who": "N",
-   "say": "His son, Shapur the First, fought Rome. In 260 AD, near Edessa, he did something no one had ever done.",
+   "say": "Ardashir's son, Shapur the First, fought Rome. In 260 AD, near Edessa, he did something no one had ever done.",
    "show": {
     "k": "map",
     "lon": 40.0,
@@ -2831,10 +2831,10 @@
   },
   {
    "who": "N",
-   "say": "Shapur captured Emperor Valerian. He was the first Roman emperor ever taken prisoner, and he died in Persia.",
+   "say": "Shapur captured Emperor Valerian. He was the first Roman emperor ever taken prisoner by an enemy, and he died in Persia.",
    "show": {
     "k": "scene",
-    "bg": "rome",
+    "bg": "battlefield",
     "cast": [
      {
       "id": "legionary",
@@ -2845,17 +2845,17 @@
     ],
     "objects": [
      {
-      "k": "statue",
-      "x": 0.7,
-      "s": 0.55
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.6
      },
      {
-      "k": "column",
-      "x": 0.9,
-      "s": 0.5
+      "k": "banner",
+      "x": 0.12,
+      "s": 0.8,
+      "flag": "rome"
      }
     ],
-    "place": "Rome · 260 AD",
     "stickers": [
      {
       "text": "EMPEROR CAPTURED",
@@ -2867,7 +2867,7 @@
   },
   {
    "who": "N",
-   "say": "Shapur had giant pictures of defeated Roman emperors carved into rock cliffs. Just to make sure nobody forgot.",
+   "say": "Shapur had giant pictures carved into rock cliffs, showing Roman emperors humbled before him. Just so nobody forgot.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -2895,7 +2895,7 @@
   },
   {
    "who": "N",
-   "say": "Rome and Persia kept fighting for four hundred years. The last big war, from 602 to 628, left both empires exhausted and broke.",
+   "say": "Persia fought Rome, and later Rome's eastern half, for about four hundred years. The last big war, from 602 to 628, left both empires exhausted and broke.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -2924,8 +2924,7 @@
      {
       "k": "banner",
       "x": 0.9,
-      "s": 0.45,
-      "flag": "rome"
+      "s": 0.45
      }
     ],
     "place": "Mesopotamia · 602–628 AD",

@@ -3,9 +3,9 @@
  "format": "short",
  "date": "2026-12-14",
  "slot": "09:00",
- "title": "America's Mail Motto Is About Persian Riders",
- "hook": "THE MAIL MOTTO IS PERSIAN",
- "topic": "Persian Royal Couriers",
+ "title": "America's Unofficial Mail Motto Is About Persian Riders",
+ "hook": "MAIL MOTTO IS ABOUT PERSIA",
+ "topic": "Neither Snow Nor Rain",
  "music": "playful",
  "cast": {
   "courier": {
@@ -32,6 +32,9 @@
    "preset": "philosopher",
    "hold": "scroll",
    "name": "Herodotus"
+  },
+  "horse": {
+   "animal": "horse"
   }
  },
  "voices": {
@@ -41,7 +44,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "The famous line on New York's main post office was first written about Persian horsemen.",
+   "say": "The famous mail line on New York's main post office was first written about Persian horsemen.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -154,6 +157,10 @@
       "x": 0.65,
       "pose": "hips",
       "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.7
      }
     ],
     "objects": [
@@ -254,7 +261,7 @@
   },
   {
    "who": "N",
-   "say": "In 1914, New York carved a version of his words across its giant new post office.",
+   "say": "In 1914, New York opened a giant post office with a version of his words carved on it.",
    "show": {
     "k": "scene",
     "bg": "city",
@@ -315,7 +322,7 @@
   }
  ],
  "caption": "America's most famous mail line was written about Persian horse riders.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #persia #ancienthistory #historytok #funnyhistory",
- "youtube_title": "America's Mail Motto Is About Persian Riders #shorts",
+ "youtube_title": "America's Unofficial Mail Motto Is About Persian Riders #shorts",
  "tags": [
   "persian empire",
   "royal road",
