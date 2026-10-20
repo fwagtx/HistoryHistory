@@ -268,7 +268,7 @@
       "s": 0.6,
       "y": 0.12,
       "emblem": "whitestar",
-      "label": "40 TONS?!"
+      "label": "30+ TONS?!"
      }
     ],
     "stickers": [
@@ -285,7 +285,7 @@
   },
   {
    "who": "french",
-   "say": "Wow. Americans are very strong!",
+   "say": "Wait. Did four men just lift a tank?!",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -310,7 +310,7 @@
   },
   {
    "who": "ghost",
-   "say": "Uh... yeah. We eat a lot of spinach.",
+   "say": "Uh... Americans are very strong.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -662,10 +662,10 @@
   },
   {
    "who": "N",
-   "say": "He tested it on little model ships. Even King George the Fifth, who had been a navy officer, guessed one model's direction completely wrong.",
+   "say": "His team tested little model ships through a periscope. Even King George the Fifth, who had been a navy officer, guessed one model's direction completely wrong.",
    "show": {
     "k": "scene",
-    "bg": "palace",
+    "bg": "library",
     "cast": [
      {
       "id": "georgev",
@@ -688,7 +688,7 @@
       "s": 0.4
      }
     ],
-    "place": "London · 1917",
+    "place": "Royal Academy, London · 1917–18",
     "tag": {
      "id": "georgev",
      "text": "King George V"
@@ -701,7 +701,7 @@
    "show": {
     "k": "quote",
     "text": "I have been a professional sailor for many years, and I would not have believed I could have been so deceived in my estimate.",
-    "who": "King George V, 1917 (as reported)"
+    "who": "King George V (as reported)"
    }
   },
   {
@@ -989,7 +989,7 @@
   },
   {
    "who": "N",
-   "say": "Did it happen? Historians say no. It's not in the real history records. But it's so famous in China that it became a saying, for using your enemy's stuff against them.",
+   "say": "Did it happen? Historians say no. The real records only tell a smaller story, about a different warlord's boat catching arrows. But it's so famous in China that it became a saying, for using your enemy's stuff against them.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1032,10 +1032,10 @@
    "say": "Number four is real. Italy, 217 BC. Hannibal, a general from Carthage, a powerful city in North Africa, has invaded the Roman Republic.",
    "show": {
     "k": "map",
-    "lon": 12.5,
-    "lat": 39.5,
-    "z0": 1.5,
-    "z1": 1.9,
+    "lon": 7.5,
+    "lat": 40.5,
+    "z0": 1.2,
+    "z1": 1.4,
     "date": "217 BC",
     "labels": [
      [
@@ -1045,15 +1045,27 @@
       14
      ],
      [
+      "Spain",
+      -3.5,
+      40.0,
+      0
+     ],
+     [
+      "ALPS",
+      7.0,
+      46.0,
+      0
+     ],
+     [
       "Rome",
       12.5,
       41.9,
       14
      ],
      [
-      "Capua",
-      14.25,
-      41.1,
+      "Falernian Plain",
+      14.0,
+      41.15,
       14
      ],
      [
@@ -1065,32 +1077,48 @@
     ],
     "route": [
      [
-      10.3,
-      36.85
+      -0.98,
+      37.6
      ],
      [
-      9.0,
-      39.0
+      0.8,
+      41.0
      ],
      [
-      8.5,
-      43.5
+      2.8,
+      42.5
      ],
      [
-      10.8,
-      44.3
+      4.6,
+      43.8
      ],
      [
-      12.2,
-      43.0
+      6.5,
+      45.0
      ],
      [
-      13.5,
-      42.0
+      7.7,
+      45.1
      ],
      [
-      14.25,
-      41.1
+      9.6,
+      45.0
+     ],
+     [
+      11.3,
+      44.0
+     ],
+     [
+      12.1,
+      43.15
+     ],
+     [
+      13.0,
+      42.4
+     ],
+     [
+      14.0,
+      41.2
      ]
     ]
    }
@@ -1130,7 +1158,7 @@
   },
   {
    "who": "N",
-   "say": "A careful Roman general named Fabius blocks every mountain pass out of the valley.",
+   "say": "A careful Roman general named Fabius blocks the mountain passes out of the valley.",
    "show": {
     "k": "scene",
     "bg": "rome",
@@ -1571,7 +1599,7 @@
   },
   {
    "who": "sicinnus",
-   "say": "Great King, Themistocles is secretly on your side. The Greeks are about to run away!",
+   "say": "Tell your king: Themistocles is secretly on your side. The Greeks are about to run away!",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1759,7 +1787,7 @@
   },
   {
    "who": "N",
-   "say": "Soon after, Xerxes headed home to Asia. One fake message had changed the war.",
+   "say": "Soon after, Xerxes headed home to Asia. One fake message had helped change the war.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -2129,7 +2157,7 @@
   },
   {
    "who": "N",
-   "say": "And number one. It's the boldest trick of all. It's 1943, and the Allies, led by Britain and America, have just won in North Africa.",
+   "say": "And number one. It's the boldest trick of all. It's 1943, and the Allies, led by Britain and America, are winning in North Africa.",
    "show": {
     "k": "map",
     "lon": 12.0,
@@ -2175,7 +2203,7 @@
   },
   {
    "who": "N",
-   "say": "Their next target is Sicily, an island at the tip of Italy. The problem? It's so obvious that German high command will expect it.",
+   "say": "Their next target is Sicily, an island at the tip of Italy. The problem? It's so obvious that German high command, Germany's top generals, will expect it.",
    "show": {
     "k": "scene",
     "bg": "warroom",
