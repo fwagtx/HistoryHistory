@@ -1,0 +1,299 @@
+{
+ "id": "2026w51-s26",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "This Company Had Its Own Army",
+ "hook": "A COMPANY WITH AN ARMY",
+ "topic": "Dutch East India Company",
+ "music": "playful",
+ "cast": {
+  "director": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "beard": "goatee",
+   "name": "VOC director"
+  },
+  "soldier": {
+   "skin": "light",
+   "hat": "morion",
+   "outfit": "coat",
+   "color": "#8A5A2A",
+   "color2": "#E8DCC0",
+   "stache": "bush",
+   "hold": "rifle",
+   "name": "VOC soldier"
+  }
+ },
+ "voices": {
+  "director": "bm_george",
+  "soldier": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Imagine a company that could hire an army and go to war. That really happened.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.55,
+      "flag": "netherlands"
+     },
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.4,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ARMY",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Amsterdam · 1602"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1602, the Dutch government created the Dutch East India Company to trade spices in Asia.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "netherlands"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its charter, its official permission, gave it powers usually kept for countries.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.5,
+      "text": "CHARTER"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHARTER",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It could build forts, hire soldiers, sign treaties, and fight wars.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.7,
+      "s": 0.45,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FORTS",
+      "at": 0.6,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SOLDIERS",
+      "at": 1.3,
+      "color": "#A8322A"
+     },
+     {
+      "text": "TREATIES",
+      "at": 2.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Wait. I work for a spice shop?",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "shrug"
+     },
+     {
+      "id": "director",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.4,
+      "flag": "netherlands"
+     }
+    ],
+    "cam": "close",
+    "focus": "soldier"
+   }
+  },
+  {
+   "who": "director",
+   "say": "A spice shop with cannons."
+  },
+  {
+   "who": "N",
+   "say": "It fought Portuguese, Spanish and English rivals, and local rulers in Asia who got in its way.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.5,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.45,
+      "flag": "spain_burgundy",
+      "flip": true
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1619 it destroyed the Javanese town of Jayakarta and built its own fortress city there: Batavia, today's Jakarta.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.68,
+      "s": 0.55,
+      "flag": "netherlands"
+     }
+    ],
+    "place": "Batavia (Jakarta) · 1619",
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "soldier",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A company with forts, soldiers and the right to wage war.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #dutcheastindiacompany #voc #moneyhistory #historytok",
+ "youtube_title": "This Company Had Its Own Army #shorts",
+ "tags": [
+  "dutch east india company",
+  "voc",
+  "company army",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dutch_East_India_Company",
+  "https://www.globalsecurity.org/military/world/indonesia/history-dutch-voc.htm",
+  "https://www.kuenker.de/blog/auction-sales/numismatic-publications/voc-the-other-side-of-the-dutch-golden-age/",
+  "https://en.wikipedia.org/wiki/Siege_of_Batavia"
+ ]
+}

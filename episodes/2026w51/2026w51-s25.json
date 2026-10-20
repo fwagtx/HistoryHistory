@@ -1,0 +1,319 @@
+{
+ "id": "2026w51-s25",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "In 1602, Even Servants Could Buy This Company",
+ "hook": "ANYONE COULD BUY IN",
+ "topic": "Dutch East India Company",
+ "music": "playful",
+ "cast": {
+  "director": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "beard": "goatee",
+   "name": "VOC director"
+  },
+  "investor": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#8A6A3A",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#4A3A6A",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "name": "Amsterdam merchant"
+  },
+  "maid": {
+   "preset": "peasantW",
+   "hat": "bonnet",
+   "hatColor": "#F4ECD8",
+   "name": "Amsterdam servant"
+  }
+ },
+ "voices": {
+  "maid": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1602, a Dutch company let almost anyone buy a piece of it. Even servants.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.4,
+      "text": "VOC"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1602",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Amsterdam · 1602"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was the Dutch East India Company, or VOC, which sent ships to Asia for spices.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.55,
+      "flag": "netherlands"
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.35,
+      "label": "NUTMEG"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ships cost a fortune, so it sold shares. A share is a small slice of a company.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "1 SHARE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHARE = SLICE",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The sign-up book sat in a company director's house in Amsterdam.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "book"
+     },
+     {
+      "id": "maid",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "maid",
+   "say": "One slice, please. I want my cut of the nutmeg!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     },
+     {
+      "id": "director",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "maid"
+   }
+  },
+  {
+   "who": "N",
+   "say": "More than eleven hundred people signed up in Amsterdam alone, from rich merchants to maids.",
+   "show": {
+    "k": "card",
+    "label": "VOC investors in Amsterdam, 1602",
+    "big": "1,143",
+    "sub": "merchants, shopkeepers, servants",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.75,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians often call it the first time a company sold shares to the general public.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE FIRST?",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Trading those slices helped create one of the first stock markets.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.45,
+      "label": "EXCHANGE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "director",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1602 a Dutch company let almost anyone buy a slice, even household servants.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #dutcheastindiacompany #stockmarket #moneyhistory #historytok",
+ "youtube_title": "In 1602, Even Servants Could Buy This Company #shorts",
+ "tags": [
+  "dutch east india company",
+  "voc",
+  "first shares",
+  "stock market history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dutch_East_India_Company",
+  "https://www.worldhistory.org/Dutch_East_India_Company/",
+  "https://factmyth.com/factoids/the-dutch-east-india-company-was-the-first-publicly-traded-company",
+  "https://krokerequityresearch.substack.com/p/83-investment-compass-ep2-the-birth",
+  "https://cepr.org/publications/dp11062"
+ ]
+}

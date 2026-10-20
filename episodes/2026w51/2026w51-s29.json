@@ -1,0 +1,305 @@
+{
+ "id": "2026w51-s29",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "The Man Who Bet Against the First Big Company",
+ "hook": "BETTING ON A CRASH",
+ "topic": "Isaac Le Maire",
+ "music": "playful",
+ "cast": {
+  "director": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "beard": "goatee",
+   "name": "VOC director"
+  },
+  "investor": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#8A6A3A",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#4A3A6A",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "name": "Amsterdam merchant"
+  },
+  "lemaire": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "goatee",
+   "stache": "thin",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#5A3A22",
+   "color2": "#F4ECD8",
+   "name": "Isaac Le Maire"
+  }
+ },
+ "voices": {
+  "lemaire": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1609, a Dutch merchant bet big that a company's shares would fall.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "lemaire",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BET",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Amsterdam · 1609"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Isaac Le Maire, one of the founding bosses of the Dutch East India Company.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lemaire",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "VOC"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "lemaire",
+     "text": "Isaac Le Maire, VOC co-founder"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1605 he left the company after a bitter fight with the other bosses.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lemaire",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "director",
+      "x": 0.68,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So his group promised to sell shares they didn't own yet, planning to buy them cheaper later.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "lemaire",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "VOC SHARES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SELL NOW, BUY LATER",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lemaire",
+   "say": "If the price drops, I win. If it goes up, well, I don't.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "lemaire",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "lemaire"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's called short selling. They also spread gloomy rumors about the company.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "VOC DOOMED?"
+     },
+     {
+      "k": "house",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHORT SELLING",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1610 the government banned it. It's one of the first stock market rules we know of.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "BANNED"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1610",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lemaire",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "investor",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1609 a Dutch merchant bet big that the world's hottest stock would fall.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #shortselling #stockmarket #moneyhistory #historytok",
+ "youtube_title": "The Man Who Bet Against the First Big Company #shorts",
+ "tags": [
+  "isaac le maire",
+  "short selling",
+  "dutch east india company",
+  "stock market history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Isaac_Le_Maire",
+  "https://kentclarkcenter.org/shorting-selling-is-as-old-as-financial-markets/",
+  "https://qz.com/1966947/the-history-of-shorting-stocks-is-400-years-old",
+  "https://www.citriniresearch.com/p/adani-le-maire-and-hindenburg"
+ ]
+}

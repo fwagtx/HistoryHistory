@@ -1,0 +1,317 @@
+{
+ "id": "2026w51-s35",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "VOC Stood for 'Perished Under Corruption'",
+ "hook": "PERISHED UNDER CORRUPTION",
+ "topic": "Dutch East India Company",
+ "music": "playful",
+ "cast": {
+  "director": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "beard": "goatee",
+   "name": "VOC director"
+  },
+  "investor": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#8A6A3A",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#4A3A6A",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "name": "Amsterdam merchant"
+  },
+  "maid": {
+   "preset": "peasantW",
+   "hat": "bonnet",
+   "hatColor": "#F4ECD8",
+   "name": "Amsterdam servant"
+  }
+ },
+ "voices": {
+  "maid": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One of history's richest companies went broke, and people joked about why.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BROKE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Amsterdam · 1790s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Dutch East India Company, the VOC, traded spices from Asia for almost two hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1602–1799",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But by the 1700s, rivals, especially the English, were catching up.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.5,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "uk1606",
+      "flip": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And many of its officials ran private deals on the side, pocketing money meant for the company.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SIDE DEALS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So people joked that V O C stood for Vergaan Onder Corruptie: perished under corruption.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "investor",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.82,
+      "s": 0.35,
+      "text": "VOC?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PERISHED UNDER CORRUPTION",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "maid",
+   "say": "That's not a joke. That's an accounting report.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "cross"
+     },
+     {
+      "id": "investor",
+      "x": 0.65,
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "maid"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a war with Britain, from 1780 to 1784, wrecked its shipping and piled up debt.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.5,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "uk1606",
+      "flip": true
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the thirty first of December, 1799, the new Dutch government officially dissolved it.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "DISSOLVED"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1799",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ],
+    "place": "The Hague · 1799"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "director",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "How the mighty Dutch East India Company went broke.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #dutcheastindiacompany #voc #moneyhistory #historytok",
+ "youtube_title": "VOC Stood for 'Perished Under Corruption' #shorts",
+ "tags": [
+  "dutch east india company",
+  "voc",
+  "corruption",
+  "company collapse",
+  "history shorts"
+ ],
+ "sources": [
+  "https://globalanticorruptionblog.com/2021/07/09/perishing-under-corruption-a-cautionary-tale-from-the-dutch-east-india-company/",
+  "https://en.wikipedia.org/wiki/Dutch_East_India_Company",
+  "https://en.wikipedia.org/wiki/Fourth_Anglo-Dutch_War",
+  "https://discourse.weareopen.coop/news/the-fall-of-voc-a"
+ ]
+}

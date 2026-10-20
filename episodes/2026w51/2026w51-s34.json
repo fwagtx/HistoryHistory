@@ -1,0 +1,270 @@
+{
+ "id": "2026w51-s34",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "Their First Big Dividend Was Paid in Spice",
+ "hook": "PAID IN SPICES",
+ "topic": "Dividends",
+ "music": "playful",
+ "cast": {
+  "director": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "beard": "goatee",
+   "name": "VOC director"
+  },
+  "investor": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#8A6A3A",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#4A3A6A",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "name": "Amsterdam merchant"
+  }
+ },
+ "voices": {
+  "director": "bm_george",
+  "investor": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Imagine owning shares in a company, and getting paid in spices.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "MACE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PAID IN SPICE",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Amsterdam · 1610"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1602, Dutch investors bought shares in the Dutch East India Company, which shipped spices from Asia.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "place": "Amsterdam · 1602"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A share is a small slice of a company. A dividend is your slice of the profits.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DIVIDEND",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But years went by, and investors got impatient.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "investor",
+   "say": "Eight years! Where is my money?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "director",
+      "x": 0.68,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.35,
+      "label": "MACE"
+     }
+    ],
+    "cam": "close",
+    "focus": "investor"
+   }
+  },
+  {
+   "who": "director",
+   "say": "Good news! Here's your dividend. It's mace."
+  },
+  {
+   "who": "N",
+   "say": "In 1610, the company paid its first big dividend mostly in mace, a spice that comes from the nutmeg fruit.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "MACE"
+     },
+     {
+      "k": "cart",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cash dividends came later. Over almost two hundred years, they averaged about eighteen percent a year.",
+   "show": {
+    "k": "card",
+    "label": "Average yearly VOC dividend",
+    "big": "about 18%",
+    "sub": "of the original share value, for almost 200 years",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.75,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "director",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The world's first big shareholders got paid in spice.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #dividends #stockmarket #moneyhistory #historytok",
+ "youtube_title": "Their First Big Dividend Was Paid in Spice #shorts",
+ "tags": [
+  "dividends",
+  "dutch east india company",
+  "mace",
+  "financial history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dutch_East_India_Company",
+  "https://osam.com/pdfs/research/Dividends - A 400-Year-Old Practice.pdf",
+  "https://silkroadgourmet.com/dutch-east-india-share/",
+  "https://www.worldhistory.org/timeline/Dutch_East_India_Company/"
+ ]
+}

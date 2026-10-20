@@ -1,0 +1,308 @@
+{
+ "id": "2026w51-s27",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "The Dutch Kept a Nutmeg Island, England Kept Manhattan",
+ "hook": "NUTMEG OR MANHATTAN?",
+ "topic": "Treaty of Breda",
+ "music": "playful",
+ "cast": {
+  "dutchenvoy": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "stache": "thin",
+   "hat": "slouch",
+   "outfit": "coat",
+   "color": "#21468B",
+   "color2": "#F4ECD8",
+   "name": "Dutch envoy"
+  },
+  "englishenvoy": {
+   "skin": "peach",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "stache": "thin",
+   "outfit": "coat",
+   "color": "#A8322A",
+   "color2": "#F4ECD8",
+   "name": "English envoy"
+  }
+ },
+ "voices": {
+  "dutchenvoy": "am_liam",
+  "englishenvoy": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1667, the Dutch kept a tiny nutmeg island, and England kept Manhattan.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "dutchenvoy",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "englishenvoy",
+      "x": 0.65,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1667",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Breda, Netherlands · 1667"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The island was Run, in Indonesia. Nutmeg grew there, worth a fortune in Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.35,
+      "s": 0.55
+     },
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "NUTMEG"
+     }
+    ],
+    "place": "Run, Banda Islands"
+   }
+  },
+  {
+   "who": "N",
+   "say": "England claimed Run, but the Dutch East India Company took control of it.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.5,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.45,
+      "flag": "uk1606",
+      "flip": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile, the Dutch had a town in North America: New Amsterdam, on Manhattan.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "dutchenvoy",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.4,
+      "flag": "netherlands"
+     }
+    ],
+    "place": "New Amsterdam · 1660s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1664, English ships took it without a fight and renamed it New York.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "dutchenvoy",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEW YORK",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1667 the two countries made peace in Breda, a Dutch town.",
+   "show": {
+    "k": "map",
+    "lon": 3.0,
+    "lat": 52.0,
+    "z0": 2.4,
+    "z1": 2.9,
+    "date": "1667",
+    "labels": [
+     [
+      "Breda",
+      4.78,
+      51.59,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      4.78,
+      51.59,
+      0.3,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "englishenvoy",
+   "say": "We keep New York.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "englishenvoy",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     },
+     {
+      "id": "dutchenvoy",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "cam": "close",
+    "focus": "englishenvoy"
+   }
+  },
+  {
+   "who": "dutchenvoy",
+   "say": "We keep Run. Good luck with your swamp."
+  },
+  {
+   "who": "N",
+   "say": "It wasn't really a swap: each side kept what it held. Back then, nutmeg looked smarter.",
+   "show": {
+    "k": "compare",
+    "bg": "market",
+    "left": {
+     "label": "RUN",
+     "cast": [
+      {
+       "id": "dutchenvoy",
+       "mood": "smug"
+      }
+     ]
+    },
+    "right": {
+     "label": "MANHATTAN",
+     "cast": [
+      {
+       "id": "englishenvoy",
+       "mood": "happy"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "dutchenvoy",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "englishenvoy",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Did the Dutch really trade Manhattan for nutmeg? Not quite.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #manhattan #nutmeg #newyork #historytok",
+ "youtube_title": "The Dutch Kept a Nutmeg Island, England Kept Manhattan #shorts",
+ "tags": [
+  "treaty of breda",
+  "run island",
+  "manhattan",
+  "new amsterdam",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Run_(island)",
+  "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)",
+  "https://history.howstuffworks.com/history-vs-myth/nutmeg-new-netherland.htm",
+  "https://muse.jhu.edu/article/370445"
+ ]
+}

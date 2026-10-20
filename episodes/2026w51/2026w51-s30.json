@@ -1,0 +1,303 @@
+{
+ "id": "2026w51-s30",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "Cape Town Began as a Pit Stop for Ships",
+ "hook": "A PIT STOP FOR SHIPS",
+ "topic": "Cape Town",
+ "music": "playful",
+ "cast": {
+  "sailor": {
+   "preset": "sailor",
+   "hatColor": "#2F4A7A",
+   "name": "VOC sailor"
+  },
+  "riebeeck": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#5A3A22",
+   "stache": "thin",
+   "hat": "slouch",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "name": "Jan van Riebeeck"
+  }
+ },
+ "voices": {
+  "sailor": "am_puck",
+  "riebeeck": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Cape Town, in South Africa, started as a pit stop for ships.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "riebeeck",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PIT STOP",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Cape of Good Hope · 1652"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Dutch East India Company ships sailed to Asia around the tip of Africa.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.4,
+      "s": 0.5,
+      "flag": "netherlands",
+      "move": [
+       0.2,
+       0.6
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EUROPE → ASIA",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the long trip, sailors lacked fresh food and got scurvy, a deadly disease.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SCURVY",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1652, the company sent Jan van Riebeeck to build a supply station at the Cape.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "riebeeck",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.4,
+      "flag": "netherlands"
+     }
+    ],
+    "tag": {
+     "id": "riebeeck",
+     "text": "Jan van Riebeeck, VOC commander"
+    }
+   }
+  },
+  {
+   "who": "riebeeck",
+   "say": "Our mission: grow vegetables for passing ships.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "riebeeck",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "sailor",
+      "x": 0.68,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.35,
+      "label": "CABBAGES"
+     }
+    ],
+    "cam": "close",
+    "focus": "riebeeck"
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "We sailed all this way to be farmers?"
+  },
+  {
+   "who": "N",
+   "say": "They built a fort and a big garden for passing ships.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.45,
+      "flag": "netherlands"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But it took land from the Khoikhoi people who lived there, and the company brought in enslaved workers.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.35,
+      "s": 0.45
+     },
+     {
+      "k": "tree",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That little supply stop grew into Cape Town.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "riebeeck",
+      "x": 0.4,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CAPE TOWN",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "riebeeck",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sailor",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Cape Town started as a vegetable stop for Dutch ships.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #capetown #southafrica #dutcheastindiacompany #historytok",
+ "youtube_title": "Cape Town Began as a Pit Stop for Ships #shorts",
+ "tags": [
+  "cape town",
+  "jan van riebeeck",
+  "dutch east india company",
+  "south africa history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.sahistory.org.za/article/arrival-jan-van-riebeeck-cape-6-april-1652",
+  "https://en.wikipedia.org/wiki/1650s_in_South_Africa",
+  "https://sahistory.org.za/st/article/dutch-and-khoisan",
+  "https://slavery.iziko.org.za/slaveroutestothecape/"
+ ]
+}

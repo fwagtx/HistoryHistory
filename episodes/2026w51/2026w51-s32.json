@@ -1,0 +1,298 @@
+{
+ "id": "2026w51-s32",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "New York's Hudson River Was Explored for a Dutch Company",
+ "hook": "HE WANTED A SHORTCUT",
+ "topic": "Henry Hudson",
+ "music": "playful",
+ "cast": {
+  "director": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "beard": "goatee",
+   "name": "VOC director"
+  },
+  "hudson": {
+   "skin": "peach",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "beard": "full",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#3A4A2A",
+   "color2": "#F4ECD8",
+   "name": "Henry Hudson"
+  }
+ },
+ "voices": {
+  "director": "bm_george",
+  "hudson": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "New York's Hudson River was explored by an Englishman working for a Dutch company.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "hudson",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "telescope"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "netherlands",
+      "label": "HALF MOON"
+     }
+    ],
+    "place": "Amsterdam · 1609",
+    "tag": {
+     "id": "hudson",
+     "text": "Henry Hudson, English explorer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1609, the Dutch East India Company hired Henry Hudson, an English sea captain.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "letter"
+     },
+     {
+      "id": "hudson",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "director",
+   "say": "Find us a shortcut to Asia, over the top of Russia.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "hudson",
+      "x": 0.68,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "director"
+   }
+  },
+  {
+   "who": "hudson",
+   "say": "Over the top. Got it."
+  },
+  {
+   "who": "N",
+   "say": "His ship, the Half Moon, sailed north and ran into ice.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.45,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ICE!",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Hudson broke his orders, turned around, and headed west to North America.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "hudson",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.5,
+      "flag": "netherlands",
+      "move": [
+       0.5,
+       0.8
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WRONG WAY",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sailed up a wide river, hoping it led to the Pacific Ocean. It didn't.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hudson",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "place": "Hudson River · 1609"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But his reports drew Dutch traders. They built New Amsterdam on Manhattan, which later became New York.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "hudson",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.4,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEW YORK",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hudson",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "director",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He was hired to sail over Russia. He ended up in New York.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #henryhudson #newyork #explorers #historytok",
+ "youtube_title": "New York's Hudson River Was Explored for a Dutch Company #shorts",
+ "tags": [
+  "henry hudson",
+  "half moon",
+  "hudson river",
+  "dutch east india company",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Henry_Hudson",
+  "https://en.wikipedia.org/wiki/Halve_Maen",
+  "https://gutenberg.org/files/34977/34977-h/34977-h.htm",
+  "https://www.hudsonrivervalley.org/the-new-netherland-museum-and-half-moon-visitor-s-center"
+ ]
+}

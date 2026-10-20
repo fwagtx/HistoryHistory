@@ -1,0 +1,294 @@
+{
+ "id": "2026w51-s33",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "Dutch Sailors Left a Plate in Australia in 1616",
+ "hook": "A PLATE FROM 1616",
+ "topic": "Dirk Hartog",
+ "music": "playful",
+ "cast": {
+  "sailor": {
+   "preset": "sailor",
+   "hatColor": "#2F4A7A",
+   "name": "VOC sailor"
+  },
+  "hartog": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#9A7A4A",
+   "beard": "full",
+   "hat": "slouch",
+   "outfit": "coat",
+   "color": "#2F4A7A",
+   "color2": "#F4ECD8",
+   "name": "Dirk Hartog"
+  }
+ },
+ "voices": {
+  "hartog": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The oldest known European object found in Australia is a dinner plate.",
+   "show": {
+    "k": "scene",
+    "bg": "outback",
+    "cast": [
+     {
+      "id": "hartog",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "1616"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1616",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Shark Bay, Australia · 1616",
+    "tag": {
+     "id": "hartog",
+     "text": "Dirk Hartog, VOC captain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1616, a Dutch East India Company ship called the Eendracht was sailing to Indonesia.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.45,
+      "s": 0.55,
+      "flag": "netherlands",
+      "label": "EENDRACHT",
+      "move": [
+       0.3,
+       0.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Company ships rode strong winds east across the Indian Ocean, then turned north.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.45,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EAST, THEN NORTH",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Captain Dirk Hartog sailed a bit too far east, and bumped into the west coast of Australia.",
+   "show": {
+    "k": "scene",
+    "bg": "outback",
+    "cast": [
+     {
+      "id": "hartog",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "hartog",
+   "say": "Well. This is definitely not Indonesia.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "hartog",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "point"
+     },
+     {
+      "id": "sailor",
+      "x": 0.68,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "hartog"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Before leaving, his crew flattened a pewter plate, scratched a message on it, and nailed it to a post.",
+   "show": {
+    "k": "scene",
+    "bg": "outback",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "EENDRACHT 1616"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PEWTER PLATE",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1697 another Dutch captain took it home. Today it's in Amsterdam's Rijksmuseum.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "hartog",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "RIJKSMUSEUM"
+     }
+    ],
+    "place": "Amsterdam · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But another company ship, the Duyfken, had already landed in Australia in 1606.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.5,
+      "flag": "netherlands",
+      "label": "DUYFKEN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1606",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hartog",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sailor",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The oldest European object found in Australia is a dinner plate from 1616.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #australia #dirkhartog #explorers #historytok",
+ "youtube_title": "Dutch Sailors Left a Plate in Australia in 1616 #shorts",
+ "tags": [
+  "dirk hartog",
+  "hartog plate",
+  "australia history",
+  "dutch east india company",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hartog_Plate",
+  "https://museum.wa.gov.au/explore/dirk-hartog/hartogs-plate",
+  "https://www.sea.museum/2017/05/01/reflections-on-a-piece-of-pewter-the-hartog-plate/",
+  "https://en.wikipedia.org/wiki/Duyfken",
+  "https://www.worldhistory.org/article/1933/the-dutch-discovery-of-australia/"
+ ]
+}

@@ -1,0 +1,285 @@
+{
+ "id": "2026w51-s28",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "Nutmeg Was Once Worth Fighting Wars Over",
+ "hook": "THE SPICE WORTH A WAR",
+ "topic": "Nutmeg",
+ "music": "warm",
+ "cast": {
+  "investor": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#8A6A3A",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#4A3A6A",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "name": "Amsterdam merchant"
+  },
+  "maid": {
+   "preset": "peasantW",
+   "hat": "bonnet",
+   "hatColor": "#F4ECD8",
+   "name": "Amsterdam servant"
+  },
+  "bandanese": {
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "hat": "headscarf",
+   "hatColor": "#A8432F",
+   "outfit": "tunic",
+   "color": "#7A5A2A",
+   "name": "Bandanese nutmeg trader"
+  }
+ },
+ "voices": {
+  "investor": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Nutmeg, the spice in pumpkin pie, was once worth fighting wars over.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "NUTMEG"
+     },
+     {
+      "k": "jar",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NUTMEG",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Europe · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, it grew only on the tiny Banda Islands, in what's now Indonesia.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "bandanese",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.72,
+      "s": 0.55
+     }
+    ],
+    "place": "Banda Islands · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On its way to Europe, its price shot up with every trader.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.5,
+      "flag": "netherlands",
+      "move": [
+       0.2,
+       0.5
+      ]
+     },
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.35,
+      "label": "$$$"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some Europeans even hoped it could keep away the plague.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "goblet"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "investor",
+   "say": "Just a pinch, please. My doctor says it's good for me.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "maid",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "investor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Dutch East India Company wanted all of it. In 1621, it conquered the Banda Islands.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.5,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.45,
+      "flag": "netherlands"
+     }
+    ],
+    "cam": "still",
+    "place": "Banda Islands · 1621"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most of the islands' fifteen thousand people were killed, enslaved, starved or driven out.",
+   "show": {
+    "k": "card",
+    "label": "Banda Islands population (estimates)",
+    "big": "15,000 → ~1,000",
+    "sub": "before and after the 1621 conquest"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Much later, nutmeg trees were planted in other countries, and the price finally fell.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.35,
+      "label": "NUTMEG"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "investor",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The spice in your pumpkin pie was once worth a war.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #nutmeg #spicetrade #bandaislands #historytok",
+ "youtube_title": "Nutmeg Was Once Worth Fighting Wars Over #shorts",
+ "tags": [
+  "nutmeg",
+  "banda islands",
+  "spice trade",
+  "dutch east india company",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands",
+  "https://daily.jstor.org/the-violent-history-behind-nutmeg/",
+  "https://wigh.wcfia.harvard.edu/event/erasmus-lecture-series-part-ii-burgherly-life-banda-islands-land-labor-and",
+  "https://www.saveur.com/article/Kitchen/Nutmeg-Sweetness-and-Light/"
+ ]
+}

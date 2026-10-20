@@ -1,0 +1,256 @@
+{
+ "id": "2026w51-s31",
+ "format": "short",
+ "date": "2026-12-18",
+ "slot": "09:00",
+ "title": "Japan Let in Only the Dutch, on One Tiny Island",
+ "hook": "ONE TINY ISLAND",
+ "topic": "Dejima",
+ "music": "playful",
+ "cast": {
+  "sailor": {
+   "preset": "sailor",
+   "hatColor": "#2F4A7A",
+   "name": "VOC sailor"
+  },
+  "japanese": {
+   "skin": "light",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "outfit": "kimono",
+   "color": "#2F4A7A",
+   "name": "Japanese official"
+  }
+ },
+ "voices": {
+  "sailor": "am_puck",
+  "japanese": "am_adam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "For about two hundred years, only one European country could trade with Japan, and only from one tiny island.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "DEJIMA"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1641–1850s",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Nagasaki, Japan · 1641"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1630s, Japan's military rulers, the shoguns, shut out almost all foreigners.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "japanese",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "japanese",
+     "text": "Japanese official"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "They feared Europeans were spreading Christianity. The Portuguese were thrown out in 1639.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "japanese",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.45,
+      "flip": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the Dutch East India Company only wanted trade. So the Dutch were allowed to stay, on one condition.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.45,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TRADE ONLY",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "From 1641, they had to live on Dejima, a fan-shaped, man-made island in Nagasaki's harbor.",
+   "show": {
+    "k": "card",
+    "label": "Dejima, Nagasaki",
+    "big": "about 120 × 75 m",
+    "sub": "a man-made island, smaller than two soccer fields",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.75,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "So we can trade with all of Japan?",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "japanese",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "sailor"
+   }
+  },
+  {
+   "who": "japanese",
+   "say": "From this island. Please don't leave it."
+  },
+  {
+   "who": "N",
+   "say": "Even so, through this tiny door, Dutch books on medicine and science reached Japan.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "japanese",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "think",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "japanese",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sailor",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Japan's only window to Europe was a man-made island smaller than two soccer fields.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #japan #dejima #nagasaki #historytok",
+ "youtube_title": "Japan Let in Only the Dutch, on One Tiny Island #shorts",
+ "tags": [
+  "dejima",
+  "nagasaki",
+  "sakoku",
+  "dutch east india company",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dejima",
+  "https://www.japan-experience.com/all-about-japan/nagasaki/attractions-and-excursions/dejima-the-dutch-trading-post-that-was-japans-window-to-the-world",
+  "https://samurai-archives.com/wiki/Dejima",
+  "https://en.wikipedia.org/wiki/Rangaku"
+ ]
+}

@@ -1,0 +1,2821 @@
+{
+ "id": "2026w51-l3",
+ "format": "long",
+ "date": "2026-12-18",
+ "title": "The Dutch East India Company: The Most Powerful Company Ever",
+ "music": "playful",
+ "cast": {
+  "director": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "beard": "goatee",
+   "name": "VOC director"
+  },
+  "investor": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#8A6A3A",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#4A3A6A",
+   "color2": "#F4ECD8",
+   "stache": "thin",
+   "name": "Amsterdam merchant"
+  },
+  "maid": {
+   "preset": "peasantW",
+   "hat": "bonnet",
+   "hatColor": "#F4ECD8",
+   "name": "Amsterdam servant"
+  },
+  "soldier": {
+   "skin": "light",
+   "hat": "morion",
+   "outfit": "coat",
+   "color": "#8A5A2A",
+   "color2": "#E8DCC0",
+   "stache": "bush",
+   "hold": "rifle",
+   "name": "VOC soldier"
+  },
+  "sailor": {
+   "preset": "sailor",
+   "hatColor": "#2F4A7A",
+   "name": "VOC sailor"
+  },
+  "oldenbarnevelt": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#EDEDED",
+   "beard": "long",
+   "hat": "capotain",
+   "outfit": "robe",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "name": "Johan van Oldenbarnevelt"
+  },
+  "lemaire": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "goatee",
+   "stache": "thin",
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#5A3A22",
+   "color2": "#F4ECD8",
+   "name": "Isaac Le Maire"
+  },
+  "coen": {
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "beard": "goatee",
+   "stache": "thin",
+   "outfit": "coat",
+   "color": "#1E1C1B",
+   "color2": "#F4ECD8",
+   "name": "Jan Pieterszoon Coen"
+  },
+  "bandanese": {
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "hat": "headscarf",
+   "hatColor": "#A8432F",
+   "outfit": "tunic",
+   "color": "#7A5A2A",
+   "name": "Bandanese nutmeg trader"
+  },
+  "japanese": {
+   "skin": "light",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "outfit": "kimono",
+   "color": "#2F4A7A",
+   "name": "Japanese official"
+  },
+  "riebeeck": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#5A3A22",
+   "stache": "thin",
+   "hat": "slouch",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "name": "Jan van Riebeeck"
+  },
+  "courthope": {
+   "skin": "peach",
+   "hair": "long",
+   "hairColor": "#8A5A2A",
+   "beard": "goatee",
+   "hat": "slouch",
+   "outfit": "coat",
+   "color": "#7A2A2A",
+   "color2": "#F4ECD8",
+   "name": "Nathaniel Courthope"
+  },
+  "elizabeth": {
+   "preset": "elizabeth1",
+   "name": "Queen Elizabeth I"
+  },
+  "dutchenvoy": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "stache": "thin",
+   "hat": "slouch",
+   "outfit": "coat",
+   "color": "#21468B",
+   "color2": "#F4ECD8",
+   "name": "Dutch envoy"
+  },
+  "englishenvoy": {
+   "skin": "peach",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "stache": "thin",
+   "outfit": "coat",
+   "color": "#A8322A",
+   "color2": "#F4ECD8",
+   "name": "English envoy"
+  }
+ },
+ "voices": {
+  "director": "bm_george",
+  "investor": "am_echo",
+  "maid": "bf_emma",
+  "sailor": "am_puck",
+  "oldenbarnevelt": "bm_daniel",
+  "lemaire": "bm_lewis",
+  "japanese": "am_adam",
+  "riebeeck": "am_eric",
+  "dutchenvoy": "am_liam",
+  "englishenvoy": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Picture a company with its own army, its own warships, and its own coins.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.68,
+      "s": 0.7,
+      "flag": "netherlands",
+      "label": "VOC ship"
+     },
+     {
+      "k": "cannon",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ARMY",
+      "at": 0.6,
+      "color": "#A8322A"
+     },
+     {
+      "text": "WARSHIPS",
+      "at": 1.4,
+      "color": "#2F5A7A"
+     },
+     {
+      "text": "COINS",
+      "at": 2.2,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Amsterdam · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It could build forts, sign treaties with kings, and even go to war.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.38,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     },
+     {
+      "id": "soldier",
+      "x": 0.65,
+      "mood": "neutral",
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "netherlands"
+     },
+     {
+      "k": "cannon",
+      "x": 0.88,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FORTS · TREATIES · WAR",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "director",
+   "say": "Gentlemen, great news. Sales are up, and so is our navy.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "investor",
+      "x": 0.68,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.1,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "director"
+   }
+  },
+  {
+   "who": "investor",
+   "say": "Sorry, why does a spice business need a navy?"
+  },
+  {
+   "who": "director",
+   "say": "Have you seen the price of nutmeg?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "investor",
+      "x": 0.68,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.45,
+      "label": "NUTMEG"
+     }
+    ],
+    "cam": "close",
+    "focus": "director"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This was the Dutch East India Company, the VOC. For almost two hundred years, it was one of the most powerful businesses in history.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.6,
+      "flag": "netherlands",
+      "move": [
+       0.15,
+       0.45
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "netherlands",
+      "move": [
+       0.6,
+       0.85
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1602–1799",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It helped invent the stock market. It also did terrible things. So how did a spice shop become a superpower?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "cross"
+     },
+     {
+      "id": "soldier",
+      "x": 0.65,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HOW?",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Dutch East India Company: The Most Powerful Company Ever",
+    "sub": "the spice business with an army",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.88,
+      "mood": "smug",
+      "hold": "moneybag",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1602",
+    "title": "Spice Wars, Inc.",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "First, the setting. Around 1600, the Netherlands was a young country called the Dutch Republic.",
+   "show": {
+    "k": "flag",
+    "flag": "netherlands",
+    "label": "THE DUTCH REPUBLIC",
+    "sub": "a young country of traders, around 1600",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was still fighting a long war for independence from Spain. But it was very, very good at ships.",
+   "show": {
+    "k": "map",
+    "lon": 0.5,
+    "lat": 46.5,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "1600",
+    "labels": [
+     [
+      "Dutch Republic",
+      5.3,
+      52.6,
+      14
+     ],
+     [
+      "Amsterdam",
+      4.9,
+      52.37,
+      -70
+     ],
+     [
+      "Spain",
+      -3.7,
+      40.4,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      5.3,
+      52.4,
+      0.8,
+      "rgba(33,70,139,.45)"
+     ],
+     [
+      -3.7,
+      40.4,
+      2.5,
+      "rgba(168,50,42,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Europe was crazy about spices from Asia: pepper, cloves, and above all, nutmeg.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.45,
+      "label": "PEPPER"
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.45,
+      "label": "NUTMEG"
+     },
+     {
+      "k": "jar",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPICES!",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Amsterdam · 1600"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spices made bland food exciting, and some people even believed nutmeg could protect them from disease."
+  },
+  {
+   "who": "N",
+   "say": "Nutmeg came from a few tiny islands in what's now Indonesia, more than half the world away.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "bandanese",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.4,
+      "label": "NUTMEG"
+     }
+    ],
+    "place": "Spice Islands, Indonesia · 1600"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Dutch merchants started sending ships to Asia in 1595. Soon, several little Dutch companies were racing each other for the same spices.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.25,
+      "s": 0.5,
+      "flag": "netherlands",
+      "move": [
+       0.1,
+       0.4
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.55,
+      "s": 0.5,
+      "flag": "netherlands",
+      "move": [
+       0.45,
+       0.7
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RACE!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That pushed prices up in Asia and down at home. Everybody was losing money.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.42,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LOSING MONEY",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So a powerful Dutch statesman, Johan van Oldenbarnevelt, pushed them to join together.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "oldenbarnevelt",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "netherlands"
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "oldenbarnevelt",
+     "text": "Johan van Oldenbarnevelt, Dutch statesman"
+    }
+   }
+  },
+  {
+   "who": "oldenbarnevelt",
+   "say": "Stop fighting each other. Join together, and fight everyone else instead.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "oldenbarnevelt",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "director",
+      "x": 0.68,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "oldenbarnevelt"
+   }
+  },
+  {
+   "who": "director",
+   "say": "Together? With the merchants from Zeeland?"
+  },
+  {
+   "who": "oldenbarnevelt",
+   "say": "Yes. Even with the merchants from Zeeland."
+  },
+  {
+   "who": "N",
+   "say": "In March 1602 they formed one giant company: the United East India Company. In Dutch, its initials were V, O, C.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "V.O.C."
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1602",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It had six offices, called chambers, in six Dutch cities, from Amsterdam down to Middelburg.",
+   "show": {
+    "k": "map",
+    "lon": 4.6,
+    "lat": 52.1,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "1602",
+    "labels": [
+     [
+      "Amsterdam",
+      4.9,
+      52.37,
+      14
+     ],
+     [
+      "Middelburg",
+      3.61,
+      51.5,
+      14
+     ],
+     [
+      "Delft",
+      4.36,
+      52.01,
+      -60
+     ],
+     [
+      "Rotterdam",
+      4.48,
+      51.92,
+      14
+     ],
+     [
+      "Hoorn",
+      5.06,
+      52.64,
+      -50
+     ],
+     [
+      "Enkhuizen",
+      5.29,
+      52.7,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      4.9,
+      52.37,
+      0.25,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The government also gave it a monopoly. A monopoly means you're the only seller allowed. No other Dutch ship could trade in Asia.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.68,
+      "s": 0.6,
+      "flag": "netherlands",
+      "label": "VOC"
+     },
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.4,
+      "text": "VOC ONLY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MONOPOLY",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1602",
+    "title": "Anyone Can Buy a Slice",
+    "bg": "market"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sending ships to Asia cost a fortune. So the VOC asked basically everyone to chip in.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.55
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "place": "Amsterdam · August 1602"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Quick explainer. A company is a business owned by a group of people. A share is one small slice of that business.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.68,
+      "s": 0.5,
+      "label": "1 SHARE"
+     },
+     {
+      "k": "crate",
+      "x": 0.86,
+      "s": 0.5,
+      "label": "1 SHARE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHARE = SLICE",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Buy a slice, and you get a slice of the profits."
+  },
+  {
+   "who": "N",
+   "say": "In Amsterdam alone, more than eleven hundred people signed up. Rich merchants, shopkeepers, and even household servants.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "coin"
+     },
+     {
+      "id": "investor",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.4
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,143 INVESTORS",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "maid",
+   "say": "One slice of the spice company, please!",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     },
+     {
+      "id": "investor",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "maid"
+   }
+  },
+  {
+   "who": "investor",
+   "say": "Me too. I don't know where Indonesia is, but I love nutmeg."
+  },
+  {
+   "who": "N",
+   "say": "Altogether, the VOC raised about six point four million guilders, the Dutch money. That was a gigantic sum back then.",
+   "show": {
+    "k": "card",
+    "label": "Money raised by the VOC, 1602",
+    "big": "6.4 million guilders",
+    "sub": "from investors across the Dutch Republic",
+    "cast": [
+     {
+      "id": "maid",
+      "x": 0.85,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians often call this the first time a company sold shares to the general public. There were older share-like deals, though.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.42,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE FIRST?",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "England's East India Company got its charter from Queen Elizabeth the first in 1600. But at first, its investors put money into one voyage at a time.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "elizabeth",
+      "x": 0.42,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.12,
+      "s": 0.4,
+      "text": "EAST INDIA CO."
+     }
+    ],
+    "place": "London · 1600",
+    "tag": {
+     "id": "elizabeth",
+     "text": "Queen Elizabeth I of England"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The VOC kept its money for good. If you wanted out, you sold your slice to somebody else.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "scroll"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "place": "Amsterdam · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So people started trading shares every day, and in 1611 Amsterdam opened a grand new exchange building for traders.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "director",
+      "x": 0.6,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.65,
+      "label": "THE EXCHANGE"
+     },
+     {
+      "k": "column",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ],
+    "place": "Amsterdam Exchange · 1611"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A stock exchange is just a marketplace for shares. Amsterdam's is often called the first modern one."
+  },
+  {
+   "who": "N",
+   "say": "And where there's a market, there's a scheme. Isaac Le Maire, a former VOC boss, had left the company after a bitter fight.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "lemaire",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "lemaire",
+     "text": "Isaac Le Maire, ex-VOC director"
+    },
+    "place": "Amsterdam · 1609"
+   }
+  },
+  {
+   "who": "lemaire",
+   "say": "I'll promise to sell shares I don't own yet, and buy them later when they're cheaper.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "lemaire",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "letter"
+     },
+     {
+      "id": "investor",
+      "x": 0.68,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "lemaire"
+   }
+  },
+  {
+   "who": "investor",
+   "say": "And if the price goes up?"
+  },
+  {
+   "who": "lemaire",
+   "say": "Then I look very silly."
+  },
+  {
+   "who": "N",
+   "say": "Betting that a price will fall is called short selling. Le Maire's group also spread gloomy rumors to push the price down.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "lemaire",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.45,
+      "text": "VOC DOOMED?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHORT SELLING",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1610 the government banned that kind of short selling. It's one of the first stock market rules we know of.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "NO SHORT SELLING"
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1610",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Shareholders also wanted dividends. A dividend is your slice of the profits, paid out to you.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DIVIDEND",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The VOC's first big dividend, in 1610, was paid mostly in mace, a spice. Congratulations, here's your profit: a sack of seasoning.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.55,
+      "label": "MACE"
+     },
+     {
+      "k": "cart",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PAID IN SPICE",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1619",
+    "title": "A Company With an Army",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now the wild part. The VOC's charter, its official permission from the government, gave it powers normally kept for countries.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "CHARTER"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE CHARTER",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It could build forts, hire soldiers, sign treaties with Asian rulers, and fight wars. Later, it even struck its own coins.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.65,
+      "s": 0.5,
+      "flag": "netherlands"
+     },
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FORTS",
+      "at": 0.6,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SOLDIERS",
+      "at": 1.4,
+      "color": "#A8322A"
+     },
+     {
+      "text": "COINS",
+      "at": 2.2,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One popular count says that at its peak, it had about forty warships and ten thousand soldiers. The real numbers changed over the years.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.25,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.55,
+      "s": 0.55,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sailship",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "~40 WARSHIPS",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     },
+     {
+      "text": "~10,000 SOLDIERS",
+      "at": 2.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It used them against Portuguese, Spanish and English rivals, and against people in Asia who stood in its way.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.6,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55,
+      "flag": "spain_burgundy",
+      "flip": true
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The man who used that power most ruthlessly was Jan Pieterszoon Coen, the VOC's governor-general, its top boss in Asia.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "coen",
+      "x": 0.42,
+      "mood": "neutral",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "tag": {
+     "id": "coen",
+     "text": "Jan Pieterszoon Coen, VOC governor-general"
+    },
+    "place": "Java, Indonesia · 1619",
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In a 1614 letter to the company's directors, he put his idea very bluntly.",
+   "show": {
+    "k": "quote",
+    "text": "We cannot carry on trade without war, nor war without trade.",
+    "who": "Jan Pieterszoon Coen, letter to the VOC directors (1614)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1619 his forces destroyed the Javanese town of Jayakarta and built a walled fortress city on its ruins. He named it Batavia.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.68,
+      "s": 0.6,
+      "flag": "netherlands"
+     },
+     {
+      "k": "wall",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Batavia, today's Jakarta, became the VOC's headquarters in Asia."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1621",
+    "title": "The Real Price of Nutmeg",
+    "bg": "jungle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now the darkest part of this story. Back then, nutmeg grew on just one small group of islands, the Banda Islands.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "bandanese",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.4,
+      "label": "NUTMEG"
+     }
+    ],
+    "place": "Banda Islands · 1620",
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Bandanese had traded nutmeg for centuries, with whoever they chose. The VOC wanted to be the only buyer.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "bandanese",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "present"
+     },
+     {
+      "id": "director",
+      "x": 0.65,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.45,
+      "label": "NUTMEG"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "When the Bandanese kept selling to others, including the English, Coen brought a fleet and an army to the islands in 1621.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.6,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "What followed was a massacre. Before the conquest, about fifteen thousand people lived on the islands.",
+   "show": {
+    "k": "card",
+    "label": "Banda Islands population (estimates)",
+    "big": "15,000 → ~1,000",
+    "sub": "before and after the 1621 conquest"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within a few years, only about a thousand were left there. The rest were killed, died of hunger and disease, were enslaved, or fled."
+  },
+  {
+   "who": "N",
+   "say": "Many historians today call it a genocide.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.3,
+      "s": 0.6
+     },
+     {
+      "k": "palm",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The VOC then split the land into nutmeg plantations and forced enslaved people, brought from across the region, to work them.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "bandanese",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.75,
+      "s": 0.55
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.4,
+      "label": "NUTMEG"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And slavery ran through the VOC's whole system. It bought, sold and shipped enslaved people around the Indian Ocean, to Batavia, the Spice Islands, and later the Cape.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.6,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SLAVERY",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That was the real price of nutmeg."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1641",
+    "title": "Pit Stops and Secret Islands",
+    "bg": "japan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The VOC's trading network stretched all the way from Africa to Japan.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point",
+      "hold": "telescope"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AFRICA → JAPAN",
+      "at": 1.0,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Japan, the shogun, the country's military ruler, had shut out almost all foreigners.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "japanese",
+      "x": 0.42,
+      "mood": "neutral",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "tree",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "place": "Nagasaki, Japan · 1641",
+    "tag": {
+     "id": "japanese",
+     "text": "Japanese official"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But from 1641, the Dutch could stay, on one condition: they had to live on Dejima, a tiny man-made island in Nagasaki's harbor.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "japanese",
+      "x": 0.62,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.86,
+      "s": 0.45,
+      "label": "DEJIMA"
+     },
+     {
+      "k": "sailship",
+      "x": 0.1,
+      "s": 0.4,
+      "flag": "netherlands"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEJIMA",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "So we can trade with all of Japan?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "japanese",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.9,
+      "s": 0.45,
+      "flag": "netherlands"
+     }
+    ],
+    "cam": "close",
+    "focus": "sailor"
+   }
+  },
+  {
+   "who": "japanese",
+   "say": "You can trade from this island. Please do not leave this island."
+  },
+  {
+   "who": "N",
+   "say": "For about two hundred years, the Dutch were the only Europeans allowed to trade with Japan."
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile, the trip to Asia was brutal. It often took six months or more, and many sailors died of scurvy, a disease caused by missing fresh food.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.42,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.4,
+      "label": "HARD BREAD"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SCURVY",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 1652, the VOC sent Jan van Riebeeck to the southern tip of Africa to set up a supply station.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "riebeeck",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "place": "Cape of Good Hope · 1652",
+    "tag": {
+     "id": "riebeeck",
+     "text": "Jan van Riebeeck, VOC commander"
+    }
+   }
+  },
+  {
+   "who": "riebeeck",
+   "say": "Our mission: grow vegetables for passing ships.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "riebeeck",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "sailor",
+      "x": 0.68,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.4,
+      "label": "CABBAGES"
+     }
+    ],
+    "cam": "close",
+    "focus": "riebeeck"
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "We sailed all this way to be farmers?"
+  },
+  {
+   "who": "riebeeck",
+   "say": "Very important farmers."
+  },
+  {
+   "who": "N",
+   "say": "That station grew into Cape Town. It also pushed the Khoikhoi people off their land, and soon the VOC brought in enslaved workers.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "riebeeck",
+      "x": 0.4,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55,
+      "flag": "netherlands"
+     },
+     {
+      "k": "house",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over its lifetime, the VOC sent more than four thousand seven hundred ships to Asia, carrying close to a million people.",
+   "show": {
+    "k": "card",
+    "label": "VOC voyages to Asia",
+    "big": "4,700+ ships",
+    "sub": "close to a million people sailed, 1602–1795",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.85,
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1667",
+    "title": "Nutmeg or Manhattan?",
+    "bg": "sea"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back to the Banda Islands. One of them, tiny Run, was claimed by the English.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "courthope",
+      "x": 0.38,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.7,
+      "s": 0.5,
+      "flag": "uk1606"
+     },
+     {
+      "k": "palm",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Run, Banda Islands · 1616",
+    "tag": {
+     "id": "courthope",
+     "text": "Nathaniel Courthope, English trader"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "An English trader, Nathaniel Courthope, held it against the Dutch for about four years, until he died in a Dutch attack in 1620."
+  },
+  {
+   "who": "N",
+   "say": "The Dutch took control of Run. But England kept saying it was theirs.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.55,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "uk1606",
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL OURS!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile, on the other side of the world, the Dutch had a colony in North America called New Netherland.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.55
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "place": "New Amsterdam (Manhattan) · 1660s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its main town was New Amsterdam, on the island of Manhattan. The Dutch got there thanks to Henry Hudson, an Englishman the VOC hired in 1609."
+  },
+  {
+   "who": "N",
+   "say": "In 1664, English warships sailed in, and the Dutch governor gave up the town without a fight. The English renamed it New York.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.62,
+      "s": 0.55,
+      "flag": "uk1606"
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEW YORK",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1667 the two countries made peace in Breda, a Dutch town.",
+   "show": {
+    "k": "map",
+    "lon": 3.0,
+    "lat": 52.0,
+    "z0": 2.4,
+    "z1": 2.9,
+    "date": "1667",
+    "labels": [
+     [
+      "Breda",
+      4.78,
+      51.59,
+      14
+     ],
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "Amsterdam",
+      4.9,
+      52.37,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      4.78,
+      51.59,
+      0.3,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "englishenvoy",
+   "say": "So, we keep New Amsterdam.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "englishenvoy",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     },
+     {
+      "id": "dutchenvoy",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.4
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "s": 0.45,
+      "flag": "uk1606"
+     }
+    ],
+    "place": "Breda · 1667",
+    "cam": "close",
+    "focus": "englishenvoy"
+   }
+  },
+  {
+   "who": "dutchenvoy",
+   "say": "And we keep Run. Enjoy your muddy little island."
+  },
+  {
+   "who": "englishenvoy",
+   "say": "Enjoy your tiny nutmeg rock."
+  },
+  {
+   "who": "N",
+   "say": "So it wasn't really a swap. Each side mostly kept what it already held, and England stopped claiming Run.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "dutchenvoy",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "TREATY OF BREDA"
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KEEP WHAT YOU HAVE",
+      "at": 1.0,
+      "color": "#2F5A7A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today that sounds like the worst deal ever. But owning every nutmeg island meant the Dutch alone set the price, and back then, that was worth a fortune.",
+   "show": {
+    "k": "compare",
+    "bg": "market",
+    "left": {
+     "label": "RUN: NUTMEG",
+     "cast": [
+      {
+       "id": "dutchenvoy",
+       "mood": "smug"
+      }
+     ]
+    },
+    "right": {
+     "label": "MANHATTAN",
+     "cast": [
+      {
+       "id": "englishenvoy",
+       "mood": "shock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1799",
+    "title": "Perished Under Corruption",
+    "bg": "office"
+   }
+  },
+  {
+   "who": "N",
+   "say": "For a long time, the VOC paid off big. Its dividends averaged around eighteen percent a year, for close to two centuries.",
+   "show": {
+    "k": "card",
+    "label": "Average yearly VOC dividend",
+    "big": "about 18%",
+    "sub": "of the original share value, for almost 200 years",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.85,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in the 1700s, trouble piled up. English rivals caught up, and many VOC officials ran private side deals for themselves.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SIDE DEALS",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Amsterdam · 1700s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A joke went around that VOC really stood for Vergaan Onder Corruptie, which means perished under corruption.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VERGAAN ONDER CORRUPTIE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a war with Britain, from 1780 to 1784, smashed its shipping and buried it in debt.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.55,
+      "flag": "netherlands"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55,
+      "flag": "uk1606",
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1780–1784",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1795, French revolutionary armies took over the Netherlands, and the old Dutch Republic became the Batavian Republic.",
+   "show": {
+    "k": "map",
+    "lon": 3.5,
+    "lat": 50.6,
+    "z0": 1.9,
+    "z1": 2.3,
+    "date": "1795",
+    "labels": [
+     [
+      "Paris",
+      2.35,
+      48.86,
+      14
+     ],
+     [
+      "Amsterdam",
+      4.9,
+      52.37,
+      14
+     ]
+    ],
+    "route": [
+     [
+      2.35,
+      48.86
+     ],
+     [
+      4.9,
+      52.37
+     ]
+    ],
+    "areas": [
+     [
+      4.9,
+      52.37,
+      0.4,
+      "rgba(47,74,160,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The new government took over the company. On the thirty first of December, 1799, the VOC was officially dissolved.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "VOC DISSOLVED"
+     },
+     {
+      "k": "desk",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "31 DEC 1799",
+      "at": 1.0,
+      "color": "#5A5A5A"
+     }
+    ],
+    "place": "The Hague · 1799"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its lands in Indonesia passed to the Dutch state and became a colony, the Dutch East Indies, until Indonesia won independence after World War Two.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.3,
+      "s": 0.55
+     },
+     {
+      "k": "flag",
+      "x": 0.7,
+      "s": 0.5,
+      "flag": "netherlands"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So, was the VOC the most powerful company ever? It ruled lands, fought wars, and paid its owners for nearly two hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "soldier",
+      "x": 0.65,
+      "mood": "neutral",
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.88,
+      "s": 0.45
+     },
+     {
+      "k": "throne",
+      "x": 0.1,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It gave us shares, dividends and the stock market. It also showed what happens when a company has an army and answers to almost no one.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "investor",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "think"
+     },
+     {
+      "id": "maid",
+      "x": 0.65,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.45,
+      "label": "SHARES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Subscribe, and next time: the entire history of the Aztec Empire in ten minutes.",
+   "show": {
+    "k": "end",
+    "next": "The ENTIRE History of the Aztec Empire in 10 Minutes",
+    "cast": [
+     {
+      "id": "director",
+      "x": 0.8,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sailor",
+      "x": 0.92,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "In 1602 the Dutch created a company that sold shares to ordinary people, paid dividends for almost two centuries and could build forts, hire soldiers and wage war: the Dutch East India Company, or VOC. We explain shares, dividends, monopolies and the stock market in plain words, follow the company from Amsterdam to Japan, the Cape and the Treaty of Breda, and look honestly at the violence and slavery behind its spice empire.\n\nChapters are added automatically.\n\n#history #dutcheastindiacompany #voc #moneyhistory #stockmarket",
+ "thumbnail": {
+  "style": "redbox",
+  "bg": "harbor",
+  "lines": [
+   "COMPANY",
+   "WITH AN ARMY"
+  ],
+  "main": {
+   "id": "director",
+   "mood": "smug",
+   "hold": "moneybag"
+  },
+  "second": {
+   "id": "soldier",
+   "mood": "shout",
+   "hold": "rifle"
+  }
+ },
+ "youtube_title": "The Dutch East India Company: The Most Powerful Company Ever",
+ "tags": [
+  "dutch east india company",
+  "voc",
+  "nutmeg",
+  "treaty of breda",
+  "first stock exchange",
+  "financial history",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dutch_East_India_Company",
+  "https://www.worldhistory.org/Dutch_East_India_Company/",
+  "https://www.globalsecurity.org/military/world/indonesia/history-dutch-voc.htm",
+  "https://www.kuenker.de/blog/auction-sales/numismatic-publications/voc-the-other-side-of-the-dutch-golden-age/",
+  "https://en.wikipedia.org/wiki/Dutch_East_India_Company_coinage",
+  "https://cepr.org/publications/dp11062",
+  "https://researchonline.lse.ac.uk/id/eprint/135700",
+  "https://kentclarkcenter.org/shorting-selling-is-as-old-as-financial-markets/",
+  "https://qz.com/1966947/the-history-of-shorting-stocks-is-400-years-old",
+  "https://osam.com/pdfs/research/Dividends - A 400-Year-Old Practice.pdf",
+  "https://en.wikipedia.org/wiki/Jan_Pieterszoon_Coen",
+  "https://www.dbnl.org/tekst/_els001189101_01/_els001189101_01_0027.php",
+  "https://imperialglobalexeter.com/2014/02/24/does-trade-promote-peace-an-historical-and-global-perspective/",
+  "https://en.wikipedia.org/wiki/Siege_of_Batavia",
+  "https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands",
+  "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/genocide-in-the-spice-islands/FB91452701BB794181164C59D08C659C",
+  "https://wigh.wcfia.harvard.edu/event/erasmus-lecture-series-part-ii-burgherly-life-banda-islands-land-labor-and",
+  "https://daily.jstor.org/the-violent-history-behind-nutmeg/",
+  "https://slavery.iziko.org.za/slaveroutestothecape/",
+  "https://tseg.nl/article/download/7360/7990/11102",
+  "https://en.wikipedia.org/wiki/Dejima",
+  "https://www.japan-experience.com/all-about-japan/nagasaki/attractions-and-excursions/dejima-the-dutch-trading-post-that-was-japans-window-to-the-world",
+  "https://www.sahistory.org.za/article/arrival-jan-van-riebeeck-cape-6-april-1652",
+  "https://huygens.knaw.nl/?p=11452",
+  "https://en.wikipedia.org/wiki/Run_(island)",
+  "https://en.wikipedia.org/wiki/Nathaniel_Courthope",
+  "https://history.howstuffworks.com/history-vs-myth/nutmeg-new-netherland.htm",
+  "https://muse.jhu.edu/article/370445",
+  "https://globalanticorruptionblog.com/2021/07/09/perishing-under-corruption-a-cautionary-tale-from-the-dutch-east-india-company/",
+  "https://gutenberg.org/files/34977/34977-h/34977-h.htm"
+ ]
+}
