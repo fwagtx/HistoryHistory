@@ -1,0 +1,311 @@
+{
+ "id": "2026w52-s34",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "A New York Merchant Supplied a Pirate Shop",
+ "hook": "NEW YORK SUPPLIED PIRATES",
+ "topic": "Madagascar Pirate Shop",
+ "music": "playful",
+ "cast": {
+  "baldridge": {
+   "preset": "merchant",
+   "hat": "tricorn",
+   "hatColor": "#5A3A1E",
+   "outfit": "pirateshirt",
+   "color": "#E8DCC0",
+   "color2": "#6A4A2A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "tan",
+   "hold": null,
+   "name": "Adam Baldridge"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Pirate"
+  },
+  "philipse": {
+   "preset": "merchant",
+   "hat": "capotain",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "beard": false,
+   "stache": "thin",
+   "hair": "long",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Frederick Philipse"
+  }
+ },
+ "voices": {
+  "baldridge": "am_echo",
+  "pirate": "am_puck",
+  "philipse": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In the 1690s, pirates in the Indian Ocean could go shopping, with goods shipped from New York.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "RUM"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PIRATE SHOP",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "St. Mary's Island, Madagascar · 1690s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Adam Baldridge, an English trader, ran a trading post on Saint Mary's Island, just off Madagascar.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "baldridge",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "tag": {
+     "id": "baldridge",
+     "text": "Adam Baldridge"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pirates stopped there to rest, fix their ships, and buy rum, food and gunpowder.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "GUNPOWDER"
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "FOOD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Two barrels of rum, please. I'll pay in stolen silver.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     },
+     {
+      "id": "baldridge",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "baldridge",
+   "say": "Stolen silver is my favorite kind."
+  },
+  {
+   "who": "N",
+   "say": "His supplies came from Frederick Philipse, one of the richest merchants in New York.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "philipse",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "New York · 1690s",
+    "tag": {
+     "id": "philipse",
+     "text": "Frederick Philipse"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The ships went home with pirate loot, and with enslaved people sold by Baldridge. That cruelty was part of the trade.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.6,
+      "move": [
+       0.35,
+       0.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1697, islanders angry at his slave trading rose up against him, and Baldridge fled.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "baldridge",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1697",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "baldridge",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "wave"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Pirates off Madagascar had their own shop, stocked by a rich New York merchant.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #madagascar #moneyhistory #historytok",
+ "youtube_title": "A New York Merchant Supplied a Pirate Shop #shorts",
+ "tags": [
+  "adam baldridge",
+  "frederick philipse",
+  "pirates of madagascar",
+  "pirates",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Adam_Baldridge",
+  "https://hudsonvalley.org/?p=3839",
+  "https://www.amusingplanet.com/2016/08/the-pirate-island-of-ile-sainte-marie.html",
+  "https://www.qaronline.org/blog/2017-05-24/did-you-know-golden-age-piracy-spread-across-two-oceans"
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "id": "2026w52-s26",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "Pirates Elected a Captain Who'd Joined 6 Weeks Earlier",
+ "hook": "PIRATES HELD ELECTIONS",
+ "topic": "Bartholomew Roberts",
+ "music": "playful",
+ "cast": {
+  "roberts": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#8A1E1A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": null,
+   "name": "Bartholomew Roberts"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Pirate"
+  },
+  "pirate2": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#2F6FC2",
+   "outfit": "pirateshirt",
+   "color": "#D8C8A0",
+   "stache": "bush",
+   "beard": false,
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Pirate"
+  }
+ },
+ "voices": {
+  "roberts": "bm_george",
+  "pirate": "am_puck",
+  "pirate2": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1719, a pirate crew needed a new captain. So they held an election.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.45,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VOTE!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "West Africa · 1719"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their captain, Howell Davis, had just been killed in an ambush on shore.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO CAPTAIN",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pirate crews usually picked their captains by vote, and could vote them out again.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "ARTICLES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ONE MAN, ONE VOTE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "I vote for Roberts. He knows how to navigate.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.68,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "pirate2",
+   "say": "He's only been with us six weeks!"
+  },
+  {
+   "who": "N",
+   "say": "Bartholomew Roberts, a Welsh sailor the pirates had captured just weeks before, won anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "roberts",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.78,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "tag": {
+     "id": "roberts",
+     "text": "Bartholomew Roberts"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Accounts credit him with capturing more than four hundred ships, more than almost any pirate of his era.",
+   "show": {
+    "k": "card",
+    "label": "Ships Roberts is said to have taken, 1719–1722",
+    "big": "400+",
+    "sub": "one of the most successful pirates ever"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Not bad for an elected rookie. Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "roberts",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "wave"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A pirate crew voted for a captain who had joined them six weeks earlier. Good call.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #bartholomewroberts #blackbart #historytok",
+ "youtube_title": "Pirates Elected a Captain Who'd Joined 6 Weeks Earlier #shorts",
+ "tags": [
+  "bartholomew roberts",
+  "pirate election",
+  "pirate code",
+  "pirates",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pirate_code",
+  "https://en.wikipedia.org/wiki/Bartholomew_Roberts",
+  "https://www.mentalfloss.com/history/11-rules-actual-pirate-code",
+  "https://en.wikipedia.org/wiki/The_Invisible_Hook",
+  "https://www.britannica.com/biography/Bartholomew-Roberts",
+  "https://www.thecanadianencyclopedia.ca/en/article/bartholomew-roberts"
+ ]
+}

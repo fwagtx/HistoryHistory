@@ -1,0 +1,296 @@
+{
+ "id": "2026w52-s33",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "Why a Quarter Is Called Two Bits",
+ "hook": "THEY CUT COINS UP",
+ "topic": "Two Bits",
+ "music": "playful",
+ "cast": {
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Pirate"
+  },
+  "spaniard": {
+   "preset": "merchant",
+   "hat": "capotain",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#1E1C1B",
+   "color2": "#F4ECD8",
+   "beard": "goatee",
+   "stache": "thin",
+   "skin": "olive",
+   "hold": "coin",
+   "name": "Spanish merchant"
+  }
+ },
+ "voices": {
+  "pirate": "am_puck",
+  "spaniard": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "People once cut silver coins into pieces. That's where the nickname two bits comes from.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "axe"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TWO BITS?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "The Americas · 1700s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The coin was the Spanish piece of eight, a big silver coin used all over the Americas.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PIECE OF EIGHT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was worth eight reales, smaller Spanish coins. But small change was often hard to find.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "shrug",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO CHANGE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So people sliced the coin into pieces. Each eighth became known as a bit.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "axe"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.4,
+      "label": "8 BITS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1/8 = 1 BIT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "One coin, coming right up. In eight pieces.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "axe"
+     },
+     {
+      "id": "spaniard",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So two bits meant a quarter of the coin.",
+   "show": {
+    "k": "card",
+    "label": "One piece of eight = 8 bits",
+    "big": "2 bits = ¼",
+    "sub": "a quarter of the coin"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1792, the new United States set its dollar equal to this Spanish coin.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.5,
+      "flag": "usa1776"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1792",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Philadelphia · 1792"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So a quarter dollar kept the old nickname: two bits.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "2 BITS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "spaniard",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Why is a quarter called two bits? Blame a Spanish coin people chopped up.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #twobits #piecesofeight #moneyhistory #historytok",
+ "youtube_title": "Why a Quarter Is Called Two Bits #shorts",
+ "tags": [
+  "two bits",
+  "pieces of eight",
+  "spanish dollar",
+  "money history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Spanish_dollar",
+  "https://www.worldhistory.org/Spanish_Treasure_Fleets/",
+  "https://coinweek.com/world-coins/history-of-coins-two-bits-four-bits-six-bits-eight/",
+  "https://www.todayifoundout.com/index.php/2014/12/pieces-eight-two-bits/",
+  "https://wordorigins.org/big-list-entries/bits-two"
+ ]
+}

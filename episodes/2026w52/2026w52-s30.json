@@ -1,0 +1,268 @@
+{
+ "id": "2026w52-s30",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "Blackbeard's Ship Was Found in 1996",
+ "hook": "BLACKBEARD'S SHIP FOUND",
+ "topic": "Queen Anne's Revenge",
+ "music": "playful",
+ "cast": {
+  "blackbeard": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#2A2A2A",
+   "color2": "#A8322A",
+   "beard": "long",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Blackbeard (Edward Teach)"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Pirate"
+  }
+ },
+ "voices": {
+  "blackbeard": "am_fenrir",
+  "pirate": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1996, a search team found the wreck of Blackbeard's flagship off North Carolina.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.6,
+      "flag": "pirate",
+      "label": "Queen Anne's Revenge"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOUND!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Beaufort Inlet, North Carolina · 1996"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Blackbeard was one of the most feared pirates of the early 1700s.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "place": "Caribbean · 1717",
+    "tag": {
+     "id": "blackbeard",
+     "text": "Blackbeard"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His ship, the Queen Anne's Revenge, began as a French slave ship that he captured in 1717.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.7,
+      "flag": "france_royal",
+      "label": "La Concorde"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1717",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1718 it ran aground near Beaufort Inlet, and the pirates abandoned it.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.55,
+      "flag": "pirate"
+     },
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1718",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Captain, the big ship's stuck!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "scared"
+     },
+     {
+      "id": "blackbeard",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "blackbeard",
+   "say": "Then grab the loot. We're taking the small boats."
+  },
+  {
+   "who": "N",
+   "say": "Since 1996, divers have brought up cannons, anchors, medical tools and much more.",
+   "show": {
+    "k": "card",
+    "label": "Queen Anne's Revenge wreck",
+    "big": "300,000+ artifacts",
+    "sub": "recovered since it was found in 1996"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pirate gold? So far, less than an ounce of gold dust.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.3,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "< 1 OUNCE OF GOLD",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "wave"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Blackbeard's flagship sat underwater until 1996. Here's what divers found.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #blackbeard #shipwreck #historytok",
+ "youtube_title": "Blackbeard's Ship Was Found in 1996 #shorts",
+ "tags": [
+  "blackbeard",
+  "queen anne's revenge",
+  "shipwreck",
+  "pirates",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Queen_Anne%27s_Revenge",
+  "https://www.qaronline.org/history/discovery-shipwreck",
+  "https://www.qaronline.org/history",
+  "https://qaronline.org/blog/2017-12-01/artifact-month-gold",
+  "https://www.smithsonianmag.com/history/did-archaeologists-uncover-blackbeards-treasure-215890/",
+  "https://northcarolinahistory.org/encyclopedia/queen-annes-revenge/"
+ ]
+}

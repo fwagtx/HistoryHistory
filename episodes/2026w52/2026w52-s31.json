@@ -1,0 +1,298 @@
+{
+ "id": "2026w52-s31",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "Pirate Treasure Maps Are Mostly a Legend",
+ "hook": "X MARKS THE LEGEND",
+ "topic": "Pirate Treasure Maps",
+ "music": "playful",
+ "cast": {
+  "stevenson": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#5A3A22",
+   "stache": "thin",
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "hold": "pen",
+   "name": "Robert Louis Stevenson"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Pirate"
+  },
+  "kidd": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#5A2A2A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "stache": "thin",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Captain William Kidd"
+  }
+ },
+ "voices": {
+  "stevenson": "bm_lewis",
+  "pirate": "am_puck",
+  "kidd": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The pirate treasure map with a big X? It's mostly a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "hold",
+      "hold": "map"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "X"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Caribbean · 1700s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was made famous by a novel, Treasure Island, by the Scottish writer Robert Louis Stevenson, in 1883.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "stevenson",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1883",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Britain · 1883",
+    "tag": {
+     "id": "stevenson",
+     "text": "Robert Louis Stevenson"
+    }
+   }
+  },
+  {
+   "who": "stevenson",
+   "say": "An island, a map, and an X. Readers will love it.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "stevenson",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point",
+      "hold": "map"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "X"
+     }
+    ],
+    "cam": "close",
+    "focus": "stevenson"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Real pirates almost never buried their loot. Historians know of very few cases.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VERY FEW CASES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most pirates expected short, dangerous lives. They wanted to spend their money right away.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "goblet"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Bury it? I'm spending it tonight!",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The best-known real case is Captain Kidd, who left treasure on an island in New York in 1699.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.45
+     },
+     {
+      "k": "tree",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "place": "Gardiners Island, New York · 1699",
+    "tag": {
+     "id": "kidd",
+     "text": "Captain William Kidd"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was dug up that same year. No map needed. Follow for more history myths.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "wave"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "X marks the spot? Thank a novel from 1883, not real pirates.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #treasureisland #historymyths #historytok",
+ "youtube_title": "Pirate Treasure Maps Are Mostly a Legend #shorts",
+ "tags": [
+  "treasure map",
+  "treasure island",
+  "buried treasure myth",
+  "pirates",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Treasure",
+  "https://en.wikipedia.org/wiki/Treasure_Island",
+  "https://www.straightdope.com/21343846/did-pirates-bury-their-treasure-did-pirates-really-make-maps-where-x-marks-the-spot",
+  "https://en.wikipedia.org/wiki/William_Kidd"
+ ]
+}

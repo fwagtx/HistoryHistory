@@ -1,0 +1,289 @@
+{
+ "id": "2026w52-s32",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "The Coin Pirates Wanted Most",
+ "hook": "THE PIRATES' FAVORITE COIN",
+ "topic": "Pieces of Eight",
+ "music": "playful",
+ "cast": {
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Pirate"
+  },
+  "spaniard": {
+   "preset": "merchant",
+   "hat": "capotain",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#1E1C1B",
+   "color2": "#F4ECD8",
+   "beard": "goatee",
+   "stache": "thin",
+   "skin": "olive",
+   "hold": "coin",
+   "name": "Spanish merchant"
+  }
+ },
+ "voices": {
+  "pirate": "am_puck",
+  "spaniard": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Pirates wanted one coin more than any other: the Spanish piece of eight.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PIECE OF EIGHT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Caribbean · 1700s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was a big silver coin worth eight reales, a smaller Spanish coin. Eight reales, piece of eight.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "point",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "8 REALES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1 COIN = 8 REALES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Seville, Spain · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The silver came from Spain's giant mines in the Americas, like Potosí, in today's Bolivia.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.4,
+      "s": 0.6,
+      "load": "gold",
+      "move": [
+       0.25,
+       0.55
+      ]
+     },
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.45,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "POTOSÍ",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Treasure fleets shipped it across the Atlantic to Seville.",
+   "show": {
+    "k": "map",
+    "lon": -8.5,
+    "lat": 37.5,
+    "z0": 1.8,
+    "z1": 2.4,
+    "date": "1600",
+    "labels": [
+     [
+      "Seville",
+      -5.98,
+      37.39,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -14,
+      36.0
+     ],
+     [
+      -9.5,
+      36.4
+     ],
+     [
+      -6.4,
+      36.6
+     ],
+     [
+      -5.98,
+      37.39
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "People trusted its silver, so it worked almost anywhere, from China to the American colonies.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "junk",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WORLD MONEY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "spaniard",
+   "say": "Same coin, same silver, any port in the world.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     },
+     {
+      "id": "pirate",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "spaniard"
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Perfect. I'll take all of them."
+  },
+  {
+   "who": "N",
+   "say": "It was so trusted that it stayed legal money in the United States until 1857.",
+   "show": {
+    "k": "card",
+    "label": "Spanish silver dollars in the US",
+    "big": "until 1857",
+    "sub": "legal money long after independence"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "spaniard",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The coin every pirate dreamed of was Spanish, silver, and accepted almost everywhere.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #piecesofeight #moneyhistory #historytok",
+ "youtube_title": "The Coin Pirates Wanted Most #shorts",
+ "tags": [
+  "pieces of eight",
+  "spanish dollar",
+  "pirate treasure",
+  "money history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Spanish_dollar",
+  "https://www.worldhistory.org/Spanish_Treasure_Fleets/",
+  "https://coinweek.com/world-coins/history-of-coins-two-bits-four-bits-six-bits-eight/",
+  "https://www.todayifoundout.com/index.php/2014/12/pieces-eight-two-bits/",
+  "https://wordorigins.org/big-list-entries/bits-two"
+ ]
+}

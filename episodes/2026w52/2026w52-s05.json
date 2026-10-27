@@ -1,0 +1,248 @@
+{
+ "id": "2026w52-s05",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "Cortés Didn't Beat the Aztecs With 500 Spaniards Alone",
+ "hook": "HE DIDN'T WIN ALONE",
+ "topic": "Hernán Cortés",
+ "music": "tense",
+ "cast": {
+  "tlaxcalan": {
+   "hat": "bandana",
+   "hatColor": "#F2EEE4",
+   "outfit": "tunic",
+   "color": "#C83A3A",
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "hold": "spear"
+  },
+  "cortes": {
+   "preset": "conquistador",
+   "beard": "full",
+   "hairColor": "#2A1A10",
+   "hold": "sword",
+   "name": "Hernán Cortés"
+  }
+ },
+ "voices": {
+  "tlaxcalan": "am_fenrir",
+  "cortes": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The story goes that Hernán Cortés beat the Aztec Empire with about five hundred Spaniards. That's not the whole story.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "cortes",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.8,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.6,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "place": "Gulf of Mexico · 1519",
+    "tag": {
+     "id": "cortes",
+     "text": "Hernán Cortés"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many cities hated the Aztecs, because they had to send them tribute, a kind of tax.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "tlaxcalan",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.45,
+      "label": "TRIBUTE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Tlaxcalans, longtime Aztec enemies, fought Cortés first. Then they joined him.",
+   "show": {
+    "k": "scene",
+    "bg": "volcano",
+    "cast": [
+     {
+      "id": "tlaxcalan",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "cortes",
+      "x": 0.65
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "Tlaxcala, Mexico · 1519"
+   }
+  },
+  {
+   "who": "tlaxcalan",
+   "say": "The Aztecs are our enemies too. We will fight with you.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "tlaxcalan",
+      "x": 0.5,
+      "pose": "salute",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "tlaxcalan"
+   }
+  },
+  {
+   "who": "cortes",
+   "say": "Then we march to Tenochtitlan together.",
+   "show": {
+    "k": "scene",
+    "bg": "volcano",
+    "cast": [
+     {
+      "id": "cortes",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "cam": "close",
+    "focus": "cortes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "At the final siege in 1521, about a thousand Spaniards fought beside tens of thousands of Indigenous warriors.",
+   "show": {
+    "k": "card",
+    "label": "Siege of Tenochtitlan, 1521",
+    "big": "ABOUT 1,000",
+    "sub": "Spaniards, beside tens of thousands of Indigenous allies"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Those allies did most of the fighting. So the Aztec Empire fell to its own neighbors as much as to Spain.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "tlaxcalan",
+      "x": 0.35,
+      "pose": "hold"
+     },
+     {
+      "id": "cortes",
+      "x": 0.65,
+      "s": 0.85
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.88,
+      "s": 0.5,
+      "flag": "red"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tlaxcalan",
+      "x": 0.3,
+      "pose": "wave"
+     },
+     {
+      "id": "cortes",
+      "x": 0.7,
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Cortés had a few hundred Spaniards. His allies had tens of thousands of warriors.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aztecs #cortes #historytok #mexicohistory",
+ "youtube_title": "Cortés Didn't Beat the Aztecs With 500 Spaniards Alone #shorts",
+ "tags": [
+  "hernan cortes",
+  "tlaxcala",
+  "fall of tenochtitlan",
+  "aztecs",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
+  "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+  "https://www.thecollector.com/how-cortes-defeated-aztecs/",
+  "https://www.newworldencyclopedia.org/entry/Battle_of_Tenochtitlan"
+ ]
+}

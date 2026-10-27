@@ -1,0 +1,259 @@
+{
+ "id": "2026w52-s11",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "You Already Speak a Little Aztec",
+ "hook": "YOU SPEAK AZTEC",
+ "topic": "Nahuatl words",
+ "music": "playful",
+ "cast": {
+  "seller": {
+   "outfit": "tunic",
+   "color": "#C8702A",
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "hold": "moneybag"
+  },
+  "buyer": {
+   "outfit": "dress",
+   "color": "#F2EEE4",
+   "skin": "tan",
+   "hair": "bun",
+   "hairColor": "#1E1612"
+  },
+  "spaniard": {
+   "preset": "conquistador",
+   "beard": "goatee",
+   "hairColor": "#5A3A2A"
+  }
+ },
+ "voices": {
+  "buyer": "af_heart",
+  "seller": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "You already speak a few words of the Aztec language.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "seller",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.45
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "TOMATOES"
+     }
+    ],
+    "place": "Tenochtitlan, Mexico · about 1500"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Aztecs spoke Nahuatl, and more than a million people in Mexico still speak it today.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "seller",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tomato comes from the Nahuatl word tomatl. Chili comes from chilli.",
+   "show": {
+    "k": "card",
+    "label": "From Nahuatl",
+    "big": "TOMATL",
+    "sub": "became tomato"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Avocado comes from ahuacatl, and guacamole means avocado sauce.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.4,
+      "hold": "bread",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.78,
+      "s": 0.45,
+      "label": "GUACAMOLE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Coyote comes from coyotl. And chocolate most likely comes from Nahuatl too.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "COYOTE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "buyer",
+   "say": "So when I order guacamole...",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "buyer"
+   }
+  },
+  {
+   "who": "seller",
+   "say": "You're speaking Aztec. About five hundred years late.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "seller",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.2,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "seller"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Spanish borrowed these words first, and English took them from Spanish.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.35,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.7,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "place": "Spain · 1500s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "seller",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Tomato, avocado, chili and coyote all come from the Aztec language.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aztecs #words #historytok #language",
+ "youtube_title": "You Already Speak a Little Aztec #shorts",
+ "tags": [
+  "nahuatl",
+  "aztec language",
+  "word origins",
+  "aztecs",
+  "history shorts"
+ ],
+ "sources": [
+  "https://dictionary.com/e/?p=195124",
+  "https://www.mentalfloss.com/language/words/12-words-english-got-aztecs",
+  "https://journals.openedition.org/lexis/638",
+  "https://en.wikipedia.org/wiki/Nahuas"
+ ]
+}

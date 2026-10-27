@@ -1,0 +1,280 @@
+{
+ "id": "2026w52-s27",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "Pirate Captains Only Got Double Pay",
+ "hook": "THE BOSS GOT DOUBLE",
+ "topic": "Pirate Shares",
+ "music": "playful",
+ "cast": {
+  "roberts": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#8A1E1A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": null,
+   "name": "Bartholomew Roberts"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Pirate"
+  },
+  "sailor": {
+   "preset": "sailor",
+   "hatColor": "#2F4A7A",
+   "name": "English sailor"
+  }
+ },
+ "voices": {
+  "roberts": "bm_george",
+  "pirate": "am_puck",
+  "sailor": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "On some pirate ships, the captain got only twice as much loot as an ordinary pirate.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "roberts",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ONLY 2X",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Atlantic Ocean · 1721",
+    "tag": {
+     "id": "roberts",
+     "text": "Captain Bartholomew Roberts"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pirates weren't paid wages. They were paid in shares, slices of whatever they captured.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHARE = SLICE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bartholomew Roberts' crew wrote the split into their rules, called articles.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "roberts",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "present",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "ARTICLES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Each pirate got one share. The captain and the quartermaster, the crew's elected officer, got two.",
+   "show": {
+    "k": "card",
+    "label": "Bartholomew Roberts' articles, around 1721",
+    "big": "1 share → 2 shares",
+    "sub": "ordinary pirate vs. captain"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Skilled men like the gunner got a little extra, about one and a half shares.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1½ SHARES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "So the captain gets two? That's it?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "shrug"
+     },
+     {
+      "id": "roberts",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "roberts",
+   "say": "Two. And I still have to do the navigating."
+  },
+  {
+   "who": "N",
+   "say": "On merchant ships, captains could earn many times more than their sailors. No wonder so many sailors switched sides.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MERCHANT PAY: TINY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "roberts",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Pirate pay was split by written shares, and the captain got just two.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #piratecode #moneyhistory #historytok",
+ "youtube_title": "Pirate Captains Only Got Double Pay #shorts",
+ "tags": [
+  "pirate shares",
+  "pirate code",
+  "bartholomew roberts",
+  "pirates",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pirate_code",
+  "https://en.wikipedia.org/wiki/Bartholomew_Roberts",
+  "https://www.mentalfloss.com/history/11-rules-actual-pirate-code",
+  "https://en.wikipedia.org/wiki/The_Invisible_Hook",
+  "https://caricomreparations.org/motley-mutinies-popular-pirates-and-slave-revolts-at-sea/"
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "id": "2026w52-s08",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "The Aztecs Never Called Themselves Aztecs",
+ "hook": "THEY WEREN'T 'AZTECS'",
+ "topic": "The Mexica",
+ "music": "playful",
+ "cast": {
+  "moctezuma": {
+   "preset": "king",
+   "hat": "bandana",
+   "hatColor": "#2FA7A0",
+   "outfit": "robe",
+   "color": "#2FA7A0",
+   "color2": "#D4A52A",
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "beard": "",
+   "stache": "thin",
+   "name": "Moctezuma II"
+  },
+  "settler": {
+   "hat": "bandana",
+   "hatColor": "#C83A3A",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "hold": "spear"
+  },
+  "warrior": {
+   "hat": "bandana",
+   "hatColor": "#C83A3A",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "hold": "spear"
+  },
+  "humboldt": {
+   "outfit": "coat",
+   "color": "#2F5A8A",
+   "hair": "side",
+   "hairColor": "#8A6A4A",
+   "skin": "light",
+   "hold": "book",
+   "name": "Alexander von Humboldt"
+  }
+ },
+ "voices": {
+  "moctezuma": "am_fenrir",
+  "humboldt": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Aztecs never called themselves Aztecs.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Tenochtitlan, Mexico · 1500s",
+    "tag": {
+     "id": "moctezuma",
+     "text": "Moctezuma II, Aztec emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The people of Tenochtitlan called themselves the Mexica. That's where the name Mexico comes from.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "warrior",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MEXICA",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "who": "moctezuma",
+   "say": "Aztec? Who is that? Never heard of them.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "moctezuma"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Aztec comes from Aztlan, the legendary homeland their old stories said they came from.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.35,
+      "walk": [
+       0.15,
+       0.35
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.45,
+      "label": "AZTLAN?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#B8302A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A historian, Francisco Clavijero, used the word in a 1780 book. Then the German explorer Alexander von Humboldt made it popular.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "humboldt",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "place": "Europe · 1780s to 1800s",
+    "tag": {
+     "id": "humboldt",
+     "text": "Alexander von Humboldt"
+    }
+   }
+  },
+  {
+   "who": "humboldt",
+   "say": "Aztecs. Great name. Very catchy.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "humboldt",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.2,
+      "s": 0.45,
+      "text": "AZTECS"
+     }
+    ],
+    "cam": "close",
+    "focus": "humboldt"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the most famous name for this empire is one it never used for itself.",
+   "show": {
+    "k": "card",
+    "label": "What they called themselves",
+    "big": "MEXICA",
+    "sub": "say it: meh-SHEE-kah"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "humboldt",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Aztecs called themselves the Mexica. Here's where 'Aztec' came from.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aztecs #mexica #historytok #mexicohistory",
+ "youtube_title": "The Aztecs Never Called Themselves Aztecs #shorts",
+ "tags": [
+  "mexica",
+  "aztecs",
+  "aztlan",
+  "humboldt",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.indigenousmexico.org/articles/mexica-or-aztec-how-the-mexicas-were-renamed",
+  "https://languagehat.com/aztec/",
+  "https://smithsonianassociates.org/ticketing/attachments/259417/pdf/3-27-24-Aztec-Art-and-Architecture-Handout",
+  "https://en.wikipedia.org/wiki/Aztecs"
+ ]
+}

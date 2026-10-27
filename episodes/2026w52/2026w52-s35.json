@@ -1,0 +1,274 @@
+{
+ "id": "2026w52-s35",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "The Most Wanted Pirate Bribed a Governor",
+ "hook": "THEY BRIBED THE GOVERNOR",
+ "topic": "Henry Every's Bribe",
+ "music": "playful",
+ "cast": {
+  "every": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2F3A5A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#5A3A1E",
+   "skin": "light",
+   "name": "Henry Every"
+  },
+  "trott": {
+   "preset": "noble",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#3A4A6A",
+   "hair": "long",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Governor Nicholas Trott"
+  }
+ },
+ "voices": {
+  "every": "am_fenrir",
+  "trott": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1696, the most wanted pirate in the world sailed into an English colony, and the governor let him in.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "walk"
+     },
+     {
+      "id": "trott",
+      "x": 0.68,
+      "mood": "happy",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WELCOME?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Nassau, Bahamas · 1696"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pirate was Henry Every, who had just robbed a treasure ship of India's Mughal emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "every",
+     "text": "Henry Every"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "With a huge reward on his head, he needed a safe place to land. So he sailed to Nassau in the Bahamas.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.6,
+      "flag": "pirate",
+      "move": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WANTED",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Accounts say he paid Governor Nicholas Trott about eight hundred sixty pounds, plus gifts like elephant tusks.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "trott",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "moneybag"
+     },
+     {
+      "id": "every",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "trott",
+     "text": "Governor Nicholas Trott"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That was almost three times what the governor earned in a year.",
+   "show": {
+    "k": "card",
+    "label": "Every's bribe to the governor (accounts vary)",
+    "big": "about £860",
+    "sub": "almost 3 years of the governor's salary"
+   }
+  },
+  {
+   "who": "trott",
+   "say": "Pirates? I see no pirates.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "trott",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "cross"
+     },
+     {
+      "id": "every",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "trott"
+   }
+  },
+  {
+   "who": "every",
+   "say": "Just some very generous traders."
+  },
+  {
+   "who": "N",
+   "say": "The crew landed, then scattered. Some were caught later, but Every himself was never found.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.78,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEVER FOUND",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "wave"
+     },
+     {
+      "id": "trott",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The world's most wanted pirate needed a safe harbor, so he bought one.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #henryevery #moneyhistory #historytok",
+ "youtube_title": "The Most Wanted Pirate Bribed a Governor #shorts",
+ "tags": [
+  "henry every",
+  "nicholas trott",
+  "pirate bribe",
+  "pirates",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Henry_Every",
+  "https://www.worldhistory.org/Henry_Every/",
+  "https://www.history.com/news/henry-everys-bloody-pirate-raid-320-years-ago",
+  "https://www.amusingplanet.com/2024/12/henry-every-and-looting-of-ganj-i-sawai.html",
+  "https://www.nassauparadiseisland.com/blog/a-history-of-nassaus-pirates-the-arrival-of-henry-avery",
+  "https://en.wikipedia.org/wiki/Fancy_(pirate_ship)"
+ ]
+}

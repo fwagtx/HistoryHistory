@@ -1,0 +1,270 @@
+{
+ "id": "2026w52-s10",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "Moctezuma Had a Royal Zoo With Hundreds of Keepers",
+ "hook": "THE EMPEROR'S ZOO",
+ "topic": "Moctezuma's zoo",
+ "music": "playful",
+ "cast": {
+  "moctezuma": {
+   "preset": "king",
+   "hat": "bandana",
+   "hatColor": "#2FA7A0",
+   "outfit": "robe",
+   "color": "#2FA7A0",
+   "color2": "#D4A52A",
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "beard": "",
+   "stache": "thin",
+   "name": "Moctezuma II"
+  },
+  "farmer": {
+   "outfit": "tunic",
+   "color": "#E8DCC0",
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1612"
+  },
+  "spaniard": {
+   "preset": "conquistador",
+   "beard": "goatee",
+   "hairColor": "#5A3A2A"
+  },
+  "kid": {
+   "preset": "host",
+   "glasses": "",
+   "tie": "",
+   "outfit": "tunic",
+   "color": "#2F6FC2",
+   "skin": "tan",
+   "hairColor": "#1E1612"
+  }
+ },
+ "voices": {
+  "spaniard": "am_liam",
+  "farmer": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Aztec emperor Moctezuma had his own zoo, and it stunned the Spanish.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "palm",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "place": "Tenochtitlan, Mexico · 1519",
+    "tag": {
+     "id": "moctezuma",
+     "text": "Moctezuma II, Aztec emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spanish writers described cages of big cats, wolves and foxes, plus snakes.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.45,
+      "label": "JAGUAR"
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.45,
+      "label": "SNAKES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There were birds too, from eagles to bright little parrots, with pools for the water birds.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EAGLES",
+      "at": 0.8
+     },
+     {
+      "text": "PARROTS",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bernal Díaz, a Spanish soldier, says about three hundred people looked after the animals.",
+   "show": {
+    "k": "card",
+    "label": "Zoo keepers, says Bernal Díaz",
+    "big": "300",
+    "sub": "people just to care for the animals"
+   }
+  },
+  {
+   "who": "spaniard",
+   "say": "So who cleans up after the jaguars?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "spaniard"
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "Me. It's a very big job.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.2,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "farmer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The zoo was destroyed in the war of 1521. But in 2026, scientists studying animal bones from the Great Temple found signs of long human care.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "Mexico City · 2026"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "farmer",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Aztec emperor kept jaguars, eagles and snakes in a royal zoo.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aztecs #moctezuma #historytok #animals",
+ "youtube_title": "Moctezuma Had a Royal Zoo With Hundreds of Keepers #shorts",
+ "tags": [
+  "moctezuma",
+  "aztec zoo",
+  "tenochtitlan",
+  "aztecs",
+  "history shorts"
+ ],
+ "sources": [
+  "https://archaeologymag.com/2026/01/aztec-king-moctezuma-kept-a-zoo/",
+  "https://www.heritagedaily.com/2026/01/new-study-finds-indirect-evidence-for-existence-of-moctezumas-zoo/156801",
+  "https://teamsocialstudies.media.uconn.edu/wp-content/uploads/sites/47/2021/04/Moctezuma-Zoo-Primary-Source-Analysis-Activity.pdf",
+  "https://www.laphamsquarterly.org/node/3988"
+ ]
+}

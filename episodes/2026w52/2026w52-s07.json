@@ -1,0 +1,255 @@
+{
+ "id": "2026w52-s07",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "The Legend Behind the Eagle on Mexico's Flag",
+ "hook": "THE EAGLE ON THE FLAG",
+ "topic": "Mexico's flag",
+ "music": "playful",
+ "cast": {
+  "settler": {
+   "hat": "bandana",
+   "hatColor": "#C83A3A",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "hold": "spear"
+  },
+  "settler2": {
+   "outfit": "dress",
+   "color": "#F2EEE4",
+   "skin": "brown",
+   "hair": "bun",
+   "hairColor": "#1E1612"
+  },
+  "kid": {
+   "preset": "host",
+   "glasses": "",
+   "tie": "",
+   "outfit": "tunic",
+   "color": "#2F6FC2",
+   "skin": "tan",
+   "hairColor": "#1E1612"
+  }
+ },
+ "voices": {
+  "settler": "am_puck",
+  "settler2": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The eagle on Mexico's flag comes from a legend that's about seven hundred years old.",
+   "show": {
+    "k": "flag",
+    "flag": "mexico",
+    "label": "MEXICO",
+    "sub": "the flag today",
+    "bg": "city"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1300s, the Mexica, the people we call the Aztecs, were wandering, looking for a home.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.3,
+      "walk": [
+       0.12,
+       0.3
+      ]
+     },
+     {
+      "id": "settler2",
+      "x": 0.55,
+      "walk": [
+       0.35,
+       0.55
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "place": "Valley of Mexico · 1300s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their legend says their god Huitzilopochtli told them to settle where an eagle sat on a cactus, eating a snake.",
+   "show": {
+    "k": "scene",
+    "bg": "volcano",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.35,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "CACTUS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#B8302A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "settler",
+   "say": "Eagle! Cactus! Snake! We're home!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.5,
+      "label": "CACTUS"
+     }
+    ],
+    "cam": "close",
+    "focus": "settler"
+   }
+  },
+  {
+   "who": "settler2",
+   "say": "We're home... in a swamp.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "settler2",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "settler2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The legend puts it on an island in Lake Texcoco, where they founded Tenochtitlan around 1325.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.3,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.65,
+      "s": 0.45,
+      "label": "TENOCHTITLAN"
+     }
+    ],
+    "place": "Lake Texcoco · 1325"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That city became Mexico City. And today the eagle, the cactus and the snake sit right in the middle of the flag.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.6,
+      "flag": "mexico"
+     }
+    ],
+    "place": "Mexico City · 2026"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "settler",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "settler2",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Mexico's flag shows a legend from the 1300s.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mexico #aztecs #historytok #flags",
+ "youtube_title": "The Legend Behind the Eagle on Mexico's Flag #shorts",
+ "tags": [
+  "mexican flag",
+  "eagle and snake",
+  "tenochtitlan",
+  "aztec legend",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Flag_of_Mexico",
+  "https://en.wikipedia.org/wiki/Coat_of_arms_of_Mexico",
+  "https://education.nationalgeographic.org/resource/tenochtitlan/",
+  "https://vistasgallery.ace.fordham.edu/items/show/1690"
+ ]
+}

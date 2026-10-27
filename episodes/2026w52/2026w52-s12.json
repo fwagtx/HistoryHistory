@@ -1,0 +1,274 @@
+{
+ "id": "2026w52-s12",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "Cortés Didn't Actually Burn His Ships",
+ "hook": "HE DIDN'T BURN THEM",
+ "topic": "Cortés's ships",
+ "music": "playful",
+ "cast": {
+  "cortes": {
+   "preset": "conquistador",
+   "beard": "full",
+   "hairColor": "#2A1A10",
+   "hold": "sword",
+   "name": "Hernán Cortés"
+  },
+  "spaniard": {
+   "preset": "conquistador",
+   "beard": "goatee",
+   "hairColor": "#5A3A2A"
+  },
+  "diaz": {
+   "preset": "conquistador",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "hold": "pen",
+   "name": "Bernal Díaz del Castillo"
+  },
+  "sailor": {
+   "hat": "bandana",
+   "hatColor": "#2F5A8A",
+   "outfit": "tunic",
+   "color": "#B89A6A",
+   "skin": "light",
+   "beard": "full",
+   "hairColor": "#3A2A1A"
+  },
+  "kid": {
+   "preset": "host",
+   "glasses": "",
+   "tie": "",
+   "outfit": "tunic",
+   "color": "#2F6FC2",
+   "skin": "tan",
+   "hairColor": "#1E1612"
+  }
+ },
+ "voices": {
+  "sailor": "am_echo",
+  "cortes": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "You've probably heard that Hernán Cortés burned his ships so his men couldn't turn back. He didn't.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "cortes",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.8,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "place": "Veracruz coast, Mexico · 1519",
+    "tag": {
+     "id": "cortes",
+     "text": "Hernán Cortés, Spanish conquistador"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1519, Cortés landed in Mexico with eleven ships and about five hundred men.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.3,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.6,
+      "s": 0.7,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.55,
+      "flag": "spain_burgundy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some of his men wanted to sail back to Cuba.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "Boss, can we go home now?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "sailor"
+   }
+  },
+  {
+   "who": "cortes",
+   "say": "Home? What ships?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "cortes",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "cortes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Cortés had most of the ships stripped of sails and gear, then sunk. Accounts by Cortés himself and Bernal Díaz describe sinking, not burning.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "diaz",
+      "x": 0.35,
+      "pose": "think",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "SUNK, NOT BURNED"
+     }
+    ],
+    "tag": {
+     "id": "diaz",
+     "text": "Bernal Díaz, Spanish soldier"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The burning version grew later, as the story got retold. Archaeologists are still searching the seabed for the wrecks.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "kid",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "submarine",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "place": "Off Veracruz · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cortes",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "sailor",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The famous 'burn the ships' story isn't what happened.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #cortes #myths #historytok #mexicohistory",
+ "youtube_title": "Cortés Didn't Actually Burn His Ships #shorts",
+ "tags": [
+  "hernan cortes",
+  "burn the ships",
+  "history myths",
+  "aztecs",
+  "history shorts"
+ ],
+ "sources": [
+  "https://mexiconewsdaily.com/?p=57816",
+  "https://eluniversal.com.mx/english/archeologists-plumb-gulf-mexico-search-cortes-sunken-ships",
+  "https://thegospelcoalition.org/article/factchecker-burning-your-ships-for-jesus",
+  "https://chnm.gmu.edu/worldhistorysources/sources/conquestofnewspain.html"
+ ]
+}

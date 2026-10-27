@@ -1,0 +1,260 @@
+{
+ "id": "2026w52-s06",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "Moctezuma Was Served About 50 Jugs of Chocolate at One Meal",
+ "hook": "50 JUGS OF CHOCOLATE",
+ "topic": "Moctezuma",
+ "music": "playful",
+ "cast": {
+  "moctezuma": {
+   "preset": "king",
+   "hat": "bandana",
+   "hatColor": "#2FA7A0",
+   "outfit": "robe",
+   "color": "#2FA7A0",
+   "color2": "#D4A52A",
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "beard": "",
+   "stache": "thin",
+   "name": "Moctezuma II"
+  },
+  "settler2": {
+   "outfit": "dress",
+   "color": "#F2EEE4",
+   "skin": "brown",
+   "hair": "bun",
+   "hairColor": "#1E1612"
+  },
+  "diaz": {
+   "preset": "conquistador",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "hold": "pen",
+   "name": "Bernal Díaz del Castillo"
+  }
+ },
+ "voices": {
+  "moctezuma": "am_fenrir",
+  "settler2": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "At one meal, the Aztec emperor Moctezuma was served about fifty big jugs of chocolate.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.55,
+      "s": 0.4
+     },
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.4
+     },
+     {
+      "k": "jar",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "place": "Tenochtitlan, Mexico · 1519",
+    "tag": {
+     "id": "moctezuma",
+     "text": "Moctezuma II, Aztec emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That comes from Bernal Díaz, a Spanish soldier who saw his meals and wrote about them decades later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "diaz",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.45,
+      "text": "MY MEMOIRS"
+     }
+    ],
+    "tag": {
+     "id": "diaz",
+     "text": "Bernal Díaz, Spanish soldier"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But this wasn't a candy bar. Aztec chocolate was a bitter drink with no sugar, sometimes spiced with chili.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.45,
+      "hold": "goblet",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The foam on top was the best part. Díaz says it came in cups of pure gold.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "settler2",
+      "x": 0.35,
+      "hold": "goblet",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD CUPS",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "moctezuma",
+   "say": "More foam, please.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "moctezuma"
+   }
+  },
+  {
+   "who": "settler2",
+   "say": "Of course. That's jug number forty-nine, sir.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "settler2",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "settler2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And after the emperor ate, Díaz says his guards got more than two thousand jugs of it.",
+   "show": {
+    "k": "card",
+    "label": "Chocolate for the guards, says Díaz",
+    "big": "2,000+ JUGS",
+    "sub": "all frothed up"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "settler2",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Aztec emperor's chocolate order was about fifty jugs. At one meal.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aztecs #chocolate #historytok #funnyhistory",
+ "youtube_title": "Moctezuma Was Served About 50 Jugs of Chocolate at One Meal #shorts",
+ "tags": [
+  "moctezuma",
+  "aztec chocolate",
+  "bernal diaz",
+  "aztecs",
+  "history shorts"
+ ],
+ "sources": [
+  "https://chnm.gmu.edu/worldhistorysources/sources/conquestofnewspain.html",
+  "https://thehistorianshut.com/2019/10/20/the-lavish-feasts-of-montezuma/",
+  "https://www.worldhistory.org/Chocolate_in_Mesoamerica/",
+  "https://qcurtius.com/2018/05/12/on-the-banquets-of-montezuma/"
+ ]
+}

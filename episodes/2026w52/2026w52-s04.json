@@ -1,0 +1,255 @@
+{
+ "id": "2026w52-s04",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "Aztec Boys, Rich or Poor, All Went to School",
+ "hook": "SCHOOL FOR EVERY BOY",
+ "topic": "Aztec schools",
+ "music": "playful",
+ "cast": {
+  "warrior": {
+   "hat": "bandana",
+   "hatColor": "#C83A3A",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "hold": "spear"
+  },
+  "boy": {
+   "preset": "child",
+   "skin": "brown",
+   "hairColor": "#1E1612",
+   "color": "#F2EEE4"
+  },
+  "teacher": {
+   "outfit": "robe",
+   "color": "#262322",
+   "skin": "brown",
+   "hair": "long",
+   "hairColor": "#1E1612",
+   "hold": "book"
+  }
+ },
+ "voices": {
+  "boy": "am_puck",
+  "teacher": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Five hundred years ago, Aztec boys went to school, whether they were rich or poor.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "teacher",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "boy",
+      "x": 0.62,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "place": "Tenochtitlan, Mexico · about 1500"
+   }
+  },
+  {
+   "who": "N",
+   "say": "We know this from Spanish-era sources, like the Codex Mendoza, a picture book about Aztec life.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "boy",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.5,
+      "text": "CODEX MENDOZA"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sons of nobles went to strict schools run by priests, to become leaders and priests.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "teacher",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.45,
+      "text": "LAWS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Commoners' sons went to a neighborhood school called the house of youth, which trained them to be warriors.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "boy",
+      "x": 0.35,
+      "hold": "spear",
+      "mood": "happy"
+     },
+     {
+      "id": "warrior",
+      "x": 0.65,
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "boy",
+   "say": "Do we get recess?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "boy",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "boy"
+   }
+  },
+  {
+   "who": "teacher",
+   "say": "Recess is sweeping the temple and carrying firewood.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "teacher",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "teacher"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Girls mostly learned at home. Still, in much of the world back then, poor kids rarely saw a classroom.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "boy",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "boy",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "teacher",
+      "x": 0.7,
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Aztec boys went to school whether they were rich or poor.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aztecs #school #historytok #mexicohistory",
+ "youtube_title": "Aztec Boys, Rich or Poor, All Went to School #shorts",
+ "tags": [
+  "aztec schools",
+  "aztec education",
+  "codex mendoza",
+  "aztecs",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Calmecac",
+  "https://en.wikipedia.org/wiki/Telpochcalli",
+  "https://www.historyonthenet.com/aztec-education-at-home-and-school",
+  "https://www.historycrunch.com/aztec-education.html"
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "id": "2026w52-s09",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "Spanish Soldiers Asked If the Aztec Capital Was a Dream",
+ "hook": "IS THIS A DREAM?",
+ "topic": "Tenochtitlan",
+ "music": "playful",
+ "cast": {
+  "spaniard": {
+   "preset": "conquistador",
+   "beard": "goatee",
+   "hairColor": "#5A3A2A"
+  },
+  "diaz": {
+   "preset": "conquistador",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "hold": "pen",
+   "name": "Bernal Díaz del Castillo"
+  }
+ },
+ "voices": {
+  "diaz": "am_eric",
+  "spaniard": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When Spanish soldiers first saw the Aztec capital, some asked if they were dreaming.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "diaz",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "place": "Lake Texcoco, Mexico · November 1519"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were marching along a stone road built straight across a lake.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.3,
+      "walk": [
+       0.12,
+       0.35
+      ]
+     },
+     {
+      "id": "diaz",
+      "x": 0.5,
+      "walk": [
+       0.3,
+       0.5
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.55,
+      "s": 0.45,
+      "label": "CAUSEWAY",
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ahead, towers, temples and houses rose right out of the water. It was Tenochtitlan.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "diaz",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.7,
+      "s": 0.55,
+      "label": "TENOCHTITLAN"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "diaz",
+   "say": "Pinch me. Is this real?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "diaz",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "diaz",
+    "tag": {
+     "id": "diaz",
+     "text": "Bernal Díaz, Spanish soldier"
+    }
+   }
+  },
+  {
+   "who": "spaniard",
+   "say": "Fine. Ow! Okay, it's real.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "spaniard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bernal Díaz, one of those soldiers, later wrote: And some of our soldiers even asked whether the things that we saw were not a dream.",
+   "show": {
+    "k": "quote",
+    "text": "And some of our soldiers even asked whether the things that we saw were not a dream.",
+    "who": "Bernal Díaz del Castillo, The True History of the Conquest of New Spain (trans. Maudslay)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Less than two years later, the Spanish and their allies destroyed that city.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "diaz",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "shock"
+     },
+     {
+      "id": "spaniard",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The first Spaniards to see the Aztec capital wondered if it was a dream.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aztecs #tenochtitlan #historytok #mexicohistory",
+ "youtube_title": "Spanish Soldiers Asked If the Aztec Capital Was a Dream #shorts",
+ "tags": [
+  "tenochtitlan",
+  "bernal diaz",
+  "aztecs",
+  "conquistadors",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.pbs.org/conquistadors/cortes/cortes_e02.html",
+  "https://chnm.gmu.edu/worldhistorysources/sources/conquestofnewspain.html",
+  "https://americanheritage.com/golden-dawn",
+  "https://en.wikipedia.org/wiki/Tenochtitlan"
+ ]
+}

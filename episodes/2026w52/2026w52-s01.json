@@ -1,0 +1,260 @@
+{
+ "id": "2026w52-s01",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "The Aztec Capital Was Bigger Than Any City in Spain",
+ "hook": "A CITY ON A LAKE",
+ "topic": "Tenochtitlan",
+ "music": "playful",
+ "cast": {
+  "moctezuma": {
+   "preset": "king",
+   "hat": "bandana",
+   "hatColor": "#2FA7A0",
+   "outfit": "robe",
+   "color": "#2FA7A0",
+   "color2": "#D4A52A",
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "beard": "",
+   "stache": "thin",
+   "name": "Moctezuma II"
+  },
+  "warrior": {
+   "hat": "bandana",
+   "hatColor": "#C83A3A",
+   "outfit": "tunic",
+   "color": "#F2EEE4",
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "hold": "spear"
+  },
+  "diaz": {
+   "preset": "conquistador",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "hold": "pen",
+   "name": "Bernal Díaz del Castillo"
+  }
+ },
+ "voices": {
+  "diaz": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1519, Spanish soldiers found a city in the middle of a lake, bigger than any city in Spain.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "diaz",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "wall",
+      "x": 0.5,
+      "s": 0.4,
+      "label": "CAUSEWAY",
+      "front": true
+     }
+    ],
+    "place": "Lake Texcoco, Mexico · 1519"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was Tenochtitlan, the Aztec capital, built on an island around 1325.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.7,
+      "s": 0.55,
+      "label": "TENOCHTITLAN"
+     }
+    ],
+    "tag": {
+     "id": "moctezuma",
+     "text": "Moctezuma II, Aztec emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Stone roads crossed the water, and canals full of canoes ran everywhere.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "warrior",
+      "x": 0.35,
+      "walk": [
+       0.15,
+       0.4
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.6,
+      "s": 0.45,
+      "label": "CAUSEWAY",
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "diaz",
+   "say": "A whole city floating on a lake? Am I dreaming?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "diaz",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "diaz",
+    "tag": {
+     "id": "diaz",
+     "text": "Bernal Díaz, Spanish soldier"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Estimates vary a lot, but many historians say about two hundred thousand people lived there.",
+   "show": {
+    "k": "card",
+    "label": "Tenochtitlan in 1519",
+    "big": "200,000",
+    "sub": "people, by many estimates"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seville, one of Spain's biggest cities, had maybe fifty thousand.",
+   "show": {
+    "k": "map",
+    "lon": -4.5,
+    "lat": 39.5,
+    "z0": 2.4,
+    "z1": 2.7,
+    "date": "1500",
+    "labels": [
+     [
+      "SEVILLE",
+      -5.99,
+      37.39,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -5.99,
+      37.39,
+      0.5,
+      "rgba(214,48,40,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Only a few European giants, like Paris and Naples, were in the same league. So the Spanish had walked into one of the biggest cities on Earth.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "diaz",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "moctezuma",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "diaz",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Aztec capital was a city on a lake, and it dwarfed Seville.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aztecs #tenochtitlan #historytok #mexicohistory",
+ "youtube_title": "The Aztec Capital Was Bigger Than Any City in Spain #shorts",
+ "tags": [
+  "tenochtitlan",
+  "aztecs",
+  "aztec empire",
+  "history shorts",
+  "mexico history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tenochtitlan",
+  "https://education.nationalgeographic.org/resource/tenochtitlan/",
+  "https://www.jstor.org/stable/10.7560/766563",
+  "https://webpages.uidaho.edu/engl257/Ren/aztec_empire_in_1519.htm"
+ ]
+}

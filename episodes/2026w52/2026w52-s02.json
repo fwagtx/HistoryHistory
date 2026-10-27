@@ -1,0 +1,265 @@
+{
+ "id": "2026w52-s02",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "The Aztecs Paid With Cacao Beans, and Crooks Faked Them",
+ "hook": "MONEY GREW ON TREES",
+ "topic": "Aztec cacao money",
+ "music": "playful",
+ "cast": {
+  "seller": {
+   "outfit": "tunic",
+   "color": "#C8702A",
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "hold": "moneybag"
+  },
+  "buyer": {
+   "outfit": "dress",
+   "color": "#F2EEE4",
+   "skin": "tan",
+   "hair": "bun",
+   "hairColor": "#1E1612"
+  }
+ },
+ "voices": {
+  "buyer": "af_heart",
+  "seller": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Aztecs paid for things with cacao beans, the beans chocolate is made from.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "seller",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "buyer",
+      "x": 0.6,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.85,
+      "s": 0.45,
+      "label": "CACAO"
+     }
+    ],
+    "place": "Tlatelolco market, Mexico · about 1500"
+   }
+  },
+  {
+   "who": "N",
+   "say": "There were no coins. Most trade was swapping goods, but beans worked as small change.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.45
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "CLOTH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A price list from 1545 says one bean bought a big tomato.",
+   "show": {
+    "k": "card",
+    "label": "One cacao bean bought",
+    "big": "1 TOMATO",
+    "sub": "Tlaxcala price list, 1545"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A turkey cost about a hundred beans. And where there's money, there's fake money.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "seller",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TURKEY = 100 BEANS",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "buyer",
+   "say": "Hmm. Why does this bean feel so light?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.5,
+      "pose": "think",
+      "mood": "angry",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "buyer"
+   }
+  },
+  {
+   "who": "seller",
+   "say": "That's not fake. That's a diet bean.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "seller",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "seller"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spanish-era writers say crooks emptied real beans and stuffed them with dirt, or made fakes out of wax and dough.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "seller",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "FAKE BEANS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Aztec money really grew on trees, and people still faked it.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "CACAO TREE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "seller",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "buyer",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Aztecs had money that grew on trees. People counterfeited it anyway.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aztecs #chocolate #historytok #funnyhistory",
+ "youtube_title": "The Aztecs Paid With Cacao Beans, and Crooks Faked Them #shorts",
+ "tags": [
+  "aztec money",
+  "cacao beans",
+  "counterfeit",
+  "aztecs",
+  "history shorts"
+ ],
+ "sources": [
+  "https://exhibits-container-int.library.cornell.edu/chocolate-food-of-the-gods/feature/when-money-grew-on-trees",
+  "https://www.worldhistory.org/Chocolate_in_Mesoamerica/",
+  "https://www.mentalfloss.com/food/candy/counterfeit-chocolate-not-just-thing-past",
+  "https://nnp.wustl.edu/library/dictionarydetail/519565"
+ ]
+}

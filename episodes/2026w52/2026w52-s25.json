@@ -1,0 +1,314 @@
+{
+ "id": "2026w52-s25",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "The Richest Pirate Heist Ever, and He Got Away",
+ "hook": "PIRATE JACKPOT",
+ "topic": "Henry Every",
+ "music": "playful",
+ "cast": {
+  "every": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2F3A5A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#5A3A1E",
+   "skin": "light",
+   "name": "Henry Every"
+  },
+  "aurangzeb": {
+   "hat": "turban",
+   "hatColor": "#EFEFEF",
+   "outfit": "robe",
+   "color": "#EFE6D2",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#EFEFEF",
+   "skin": "tan",
+   "name": "Emperor Aurangzeb"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Pirate"
+  }
+ },
+ "voices": {
+  "every": "am_fenrir",
+  "aurangzeb": "bm_george",
+  "pirate": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1695, a pirate pulled off one of the richest robberies in history. And he got away with it.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.55,
+      "flag": "pirate",
+      "move": [
+       0.15,
+       0.4
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.8,
+      "label": "Ganj-i-Sawai"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1695",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Arabian Sea · 1695",
+    "cx": 900
+   }
+  },
+  {
+   "who": "N",
+   "say": "Henry Every was an English sailor who became captain after his unpaid crew took over their ship.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO PAY = MUTINY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "every",
+     "text": "Henry Every"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His target was the Ganj-i-Sawai, a treasure ship of Aurangzeb, the emperor who ruled most of India.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "aurangzeb",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "aurangzeb",
+     "text": "Emperor Aurangzeb"
+    }
+   }
+  },
+  {
+   "who": "every",
+   "say": "That ship is carrying our back pay, lads. With interest.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point",
+      "hold": "telescope"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "cam": "close",
+    "focus": "every"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In September 1695 his ships caught it and took a fortune in gold and silver.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.55,
+      "flag": "pirate"
+     },
+     {
+      "k": "sailship",
+      "x": 0.68,
+      "s": 0.7
+     },
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.35,
+      "front": true
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Estimates of the haul run from three hundred twenty-five thousand to six hundred thousand pounds.",
+   "show": {
+    "k": "card",
+    "label": "The Ganj-i-Sawai haul, 1695 (estimates)",
+    "big": "£325,000–£600,000",
+    "sub": "one of the richest pirate hauls ever"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Each pirate got about a thousand pounds, roughly a lifetime of pay for a sailor.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "£1,000 EACH",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "England put a huge reward on his head. Some of his crew were caught, but Every never was.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.5,
+      "text": "REWARD £1,000"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "uk1606"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He vanished in 1696. Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "pirate",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1695 one pirate crew robbed an emperor's treasure ship, and its captain was never caught.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #henryevery #moneyhistory #historytok",
+ "youtube_title": "The Richest Pirate Heist Ever, and He Got Away #shorts",
+ "tags": [
+  "henry every",
+  "ganj-i-sawai",
+  "pirate heist",
+  "pirates",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Henry_Every",
+  "https://www.worldhistory.org/Henry_Every/",
+  "https://www.history.com/news/henry-everys-bloody-pirate-raid-320-years-ago",
+  "https://www.amusingplanet.com/2024/12/henry-every-and-looting-of-ganj-i-sawai.html"
+ ]
+}

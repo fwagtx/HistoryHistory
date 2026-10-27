@@ -1,0 +1,239 @@
+{
+ "id": "2026w52-s03",
+ "format": "short",
+ "date": "2026-12-21",
+ "slot": "09:00",
+ "title": "The Aztecs Built Farm Islands in a Lake",
+ "hook": "FARMS IN A LAKE",
+ "topic": "Aztec chinampas",
+ "music": "playful",
+ "cast": {
+  "farmer": {
+   "outfit": "tunic",
+   "color": "#E8DCC0",
+   "skin": "brown",
+   "hair": "short",
+   "hairColor": "#1E1612"
+  }
+ },
+ "voices": {
+  "farmer": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Aztecs grew their food on islands they built themselves.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.6,
+      "s": 0.45
+     },
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "place": "Lake Texcoco, Mexico · 1400s",
+    "stickers": [
+     {
+      "text": "CHINAMPAS",
+      "at": 0.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their capital, Tenochtitlan, sat on an island in a lake, with almost no room for farms.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "pyramid",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "TENOCHTITLAN"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So farmers built chinampas: long, narrow plots piled up from lake mud and plants.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "MUD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "Step one: mud. Step two: more mud. Step three: lunch.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "farmer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Willow trees planted along the edges held the plots in place with their roots.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.55,
+      "s": 0.5,
+      "label": "WILLOW"
+     },
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Canals between plots brought water and fresh mud, so farmers could harvest several times a year.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "CORN"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some families in Xochimilco, in Mexico City, still farm chinampas today. So the Aztecs didn't just live on a lake. They farmed it.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Xochimilco, Mexico City · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.5,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Aztecs needed farmland, so they built it in the middle of a lake.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #aztecs #farming #historytok #mexicohistory",
+ "youtube_title": "The Aztecs Built Farm Islands in a Lake #shorts",
+ "tags": [
+  "chinampas",
+  "aztec farming",
+  "xochimilco",
+  "aztecs",
+  "history shorts"
+ ],
+ "sources": [
+  "https://blog.tepapa.govt.nz/2013/09/24/aztecs-gardens-in-the-lake/",
+  "https://modernfarmer.com/2024/04/mexicos-floating-gardens-are-an-ancient-wonder-of-sustainable-farming/",
+  "https://en.wikipedia.org/wiki/Chinampa",
+  "https://whc.unesco.org/en/list/412/"
+ ]
+}

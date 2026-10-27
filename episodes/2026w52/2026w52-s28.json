@@ -1,0 +1,250 @@
+{
+ "id": "2026w52-s28",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "Pirates Had a Price List for Lost Arms",
+ "hook": "AN ARM: 600 COINS",
+ "topic": "Pirate Injury Pay",
+ "music": "playful",
+ "cast": {
+  "exquemelin": {
+   "preset": "physician",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hold": "book",
+   "hair": "long",
+   "hairColor": "#5A3A1E",
+   "name": "Alexandre Exquemelin"
+  },
+  "pirate2": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#2F6FC2",
+   "outfit": "pirateshirt",
+   "color": "#D8C8A0",
+   "stache": "bush",
+   "beard": false,
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Pirate"
+  },
+  "quartermaster": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#6A4A2A",
+   "color2": "#E8DCC0",
+   "beard": "goatee",
+   "hairColor": "#2A1E16",
+   "skin": "brown",
+   "hold": "scroll",
+   "name": "Quartermaster"
+  }
+ },
+ "voices": {
+  "exquemelin": "bm_daniel",
+  "pirate2": "am_liam",
+  "quartermaster": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Pirates had a price list for injuries. A lost right arm paid six hundred silver coins.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RIGHT ARM = 600",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Caribbean · 1670s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "We know this from Alexandre Exquemelin, a surgeon who sailed with Caribbean pirates and wrote a book in 1678.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "exquemelin",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "place": "Amsterdam · 1678",
+    "tag": {
+     "id": "exquemelin",
+     "text": "Alexandre Exquemelin"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Before a voyage, crews agreed on rules called articles, including payouts for injuries.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "quartermaster",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "ARTICLES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A right arm was worth six hundred pieces of eight, big Spanish silver coins. A left arm, five hundred.",
+   "show": {
+    "k": "card",
+    "label": "Buccaneer injury pay, 1670s",
+    "big": "600 pieces of eight",
+    "sub": "for a right arm (left arm: 500)"
+   }
+  },
+  {
+   "who": "pirate2",
+   "say": "Hold on. My left arm is worth less?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "shrug"
+     },
+     {
+      "id": "quartermaster",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate2"
+   }
+  },
+  {
+   "who": "quartermaster",
+   "say": "It's not your sword arm, mate."
+  },
+  {
+   "who": "N",
+   "say": "The money came out of the loot before anyone got their share, so it worked like insurance.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "quartermaster",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "SHARED POT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EVERYONE CHIPS IN",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Brutal job. Surprisingly good benefits. Follow for more money history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "quartermaster",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Lose an arm on a pirate ship? There was a payout for that.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #piratecode #moneyhistory #historytok",
+ "youtube_title": "Pirates Had a Price List for Lost Arms #shorts",
+ "tags": [
+  "pirate injury pay",
+  "pirate articles",
+  "exquemelin",
+  "pirates",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pirate_code",
+  "https://en.wikipedia.org/wiki/Alexandre_Exquemelin",
+  "https://virginialawyer.vsb.org/va-lawyer-dec-2014/page-18",
+  "https://www.loc.gov/exhibits/exploring-the-early-americas/interactives/buccaneers-of-america/"
+ ]
+}

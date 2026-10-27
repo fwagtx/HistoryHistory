@@ -1,0 +1,3152 @@
+{
+ "id": "2026w52-l3",
+ "format": "long",
+ "date": "2026-12-25",
+ "title": "How Pirates Actually Made Money",
+ "music": "playful",
+ "cast": {
+  "every": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2F3A5A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#5A3A1E",
+   "skin": "light",
+   "name": "Henry Every"
+  },
+  "aurangzeb": {
+   "hat": "turban",
+   "hatColor": "#EFEFEF",
+   "outfit": "robe",
+   "color": "#EFE6D2",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#EFEFEF",
+   "skin": "tan",
+   "name": "Emperor Aurangzeb"
+  },
+  "pirate": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "pirateshirt",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Pirate"
+  },
+  "pirate2": {
+   "preset": "pirate",
+   "hat": "bandana",
+   "hatColor": "#2F6FC2",
+   "outfit": "pirateshirt",
+   "color": "#D8C8A0",
+   "stache": "bush",
+   "beard": false,
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Pirate"
+  },
+  "quartermaster": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#6A4A2A",
+   "color2": "#E8DCC0",
+   "beard": "goatee",
+   "hairColor": "#2A1E16",
+   "skin": "brown",
+   "hold": "scroll",
+   "name": "Quartermaster"
+  },
+  "sailor": {
+   "preset": "sailor",
+   "hatColor": "#2F4A7A",
+   "name": "English sailor"
+  },
+  "roberts": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#8A1E1A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": null,
+   "name": "Bartholomew Roberts"
+  },
+  "exquemelin": {
+   "preset": "physician",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hold": "book",
+   "hair": "long",
+   "hairColor": "#5A3A1E",
+   "name": "Alexandre Exquemelin"
+  },
+  "fence": {
+   "preset": "merchant",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#4A5A3A",
+   "color2": "#E8DCC0",
+   "beard": false,
+   "stache": "thin",
+   "skin": "light",
+   "hold": "moneybag",
+   "name": "A fence (buyer of stolen goods)"
+  },
+  "trott": {
+   "preset": "noble",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#3A4A6A",
+   "hair": "long",
+   "hairColor": "#EFEFEF",
+   "skin": "light",
+   "name": "Governor Nicholas Trott"
+  },
+  "kidd": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#5A2A2A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "stache": "thin",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Captain William Kidd"
+  },
+  "bellomont": {
+   "preset": "noble",
+   "hat": "tricorn",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#6A2A4A",
+   "color2": "#E8C25A",
+   "hair": "long",
+   "hairColor": "#EFEFEF",
+   "stache": false,
+   "skin": "peach",
+   "name": "Lord Bellomont"
+  },
+  "gardiner": {
+   "preset": "farmer",
+   "hat": "slouch",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#5A4A2A",
+   "color2": "#E8DCC0",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "John Gardiner"
+  },
+  "stevenson": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#5A3A22",
+   "stache": "thin",
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "hold": "pen",
+   "name": "Robert Louis Stevenson"
+  },
+  "blackbeard": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#2A2A2A",
+   "color2": "#A8322A",
+   "beard": "long",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Blackbeard (Edward Teach)"
+  },
+  "rogers": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2A3350",
+   "color2": "#E8C25A",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#8A6A3A",
+   "skin": "peach",
+   "name": "Governor Woodes Rogers"
+  },
+  "philipse": {
+   "preset": "merchant",
+   "hat": "capotain",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "beard": false,
+   "stache": "thin",
+   "hair": "long",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Frederick Philipse"
+  },
+  "baldridge": {
+   "preset": "merchant",
+   "hat": "tricorn",
+   "hatColor": "#5A3A1E",
+   "outfit": "pirateshirt",
+   "color": "#E8DCC0",
+   "color2": "#6A4A2A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "tan",
+   "hold": null,
+   "name": "Adam Baldridge"
+  },
+  "spaniard": {
+   "preset": "merchant",
+   "hat": "capotain",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#1E1C1B",
+   "color2": "#F4ECD8",
+   "beard": "goatee",
+   "stache": "thin",
+   "skin": "olive",
+   "hold": "coin",
+   "name": "Spanish merchant"
+  }
+ },
+ "voices": {
+  "every": "am_fenrir",
+  "pirate": "am_puck",
+  "pirate2": "am_liam",
+  "sailor": "am_echo",
+  "quartermaster": "bm_daniel",
+  "fence": "bm_lewis",
+  "aurangzeb": "bm_george",
+  "trott": "am_eric",
+  "kidd": "bm_fable",
+  "gardiner": "am_adam",
+  "bellomont": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "September 1695. A pirate ship is chasing the richest treasure ship in the Indian Ocean.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.55,
+      "flag": "pirate",
+      "label": "Fancy",
+      "move": [
+       0.15,
+       0.4
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.8,
+      "label": "Ganj-i-Sawai",
+      "move": [
+       0.65,
+       0.85
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1695",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Arabian Sea · 1695"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The ship belongs to Aurangzeb, the Mughal emperor who ruled most of India, and it's packed with gold and silver.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "aurangzeb",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SILVER",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ],
+    "tag": {
+     "id": "aurangzeb",
+     "text": "Emperor Aurangzeb"
+    }
+   }
+  },
+  {
+   "who": "every",
+   "say": "Lads, I think we just found our retirement plan.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point",
+      "hold": "telescope"
+     },
+     {
+      "id": "pirate",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "every",
+    "tag": {
+     "id": "every",
+     "text": "Captain Henry Every"
+    }
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Does it come with a pension?"
+  },
+  {
+   "who": "N",
+   "say": "Soon, every man in that crew was rich. And their captain, Henry Every, was never caught.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.68,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.86,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But here's the thing. Most pirates never got a payday like that. Piracy was a job, and a weirdly organized one.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "think"
+     },
+     {
+      "id": "quartermaster",
+      "x": 0.65,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "A JOB?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how did pirates actually make money? Let's follow the cash.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.45
+     },
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOLLOW THE CASH",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "How Pirates Actually Made Money",
+    "sub": "shares, insurance and stolen sugar",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.88,
+      "mood": "smug",
+      "hold": "moneybag",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1694",
+    "title": "Vote for Captain",
+    "bg": "deck"
+   }
+  },
+  {
+   "who": "N",
+   "say": "First, how do you even become a pirate? For Henry Every, it started with a missing paycheck.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55,
+      "flag": "uk1606",
+      "label": "Charles II"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO PAYCHECK",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "A Coruña, Spain · 1694"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1694, he was a mate, a senior sailor, on an English ship stuck in A Coruña, a port in northern Spain.",
+   "show": {
+    "k": "map",
+    "lon": -6.0,
+    "lat": 42.0,
+    "z0": 2.0,
+    "z1": 2.6,
+    "date": "1694",
+    "labels": [
+     [
+      "A Coruña",
+      -8.4,
+      43.37,
+      14
+     ],
+     [
+      "Spain",
+      -4.0,
+      40.2,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -8.4,
+      43.37,
+      0.35,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The crew had waited there for months, and the owners still hadn't paid them.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "every",
+      "x": 0.65,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.4,
+      "text": "WAGES?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "Months of work, and not one coin?",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "shrug"
+     },
+     {
+      "id": "every",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.45,
+      "flag": "uk1606"
+     }
+    ],
+    "cam": "close",
+    "focus": "sailor"
+   }
+  },
+  {
+   "who": "every",
+   "say": "Then let's take the ship and pay ourselves."
+  },
+  {
+   "who": "N",
+   "say": "So in May 1694 they took over the ship, renamed it the Fancy, and chose Every as their captain.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.75,
+      "flag": "pirate",
+      "label": "Fancy",
+      "move": [
+       0.3,
+       0.65
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MAY 1694",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "NEW NAME: FANCY",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That word, chose, matters. Pirate crews usually voted for their captains, and they could vote them out too.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.55,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "every",
+      "x": 0.8,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.08,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VOTE!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "All in favor of Captain Every?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.55,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "every",
+      "x": 0.8,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.08,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "pirate2",
+   "say": "Aye! As long as he finds gold."
+  },
+  {
+   "who": "every",
+   "say": "Thank you, thank you. More gold, less scurvy. That's my promise."
+  },
+  {
+   "who": "N",
+   "say": "Crews also elected a quartermaster, an officer who handed out food and loot, so the captain couldn't grab everything.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "quartermaster",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     },
+     {
+      "id": "every",
+      "x": 0.7,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "QUARTERMASTER",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And before sailing, everyone signed the articles: a written contract with the rules and the pay.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "hold",
+      "hold": "pen"
+     },
+     {
+      "id": "quartermaster",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.55,
+      "text": "ARTICLES"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1720s",
+    "title": "No Prey, No Pay",
+    "bg": "tavern"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how did pirate pay work? Pirates didn't get wages. They got shares.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO WAGES",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SHARES",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A share is one slice of the loot. After a capture, the treasure was piled up and divided by the rules in the articles.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "quartermaster",
+      "x": 0.5,
+      "mood": "neutral",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.2,
+      "s": 0.55
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1 SHARE = 1 SLICE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bartholomew Roberts, one of the most successful pirates ever, had articles that gave each ordinary pirate one share.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "roberts",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "pirate"
+     }
+    ],
+    "place": "Atlantic Ocean · 1721",
+    "tag": {
+     "id": "roberts",
+     "text": "Bartholomew Roberts"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the captain? Just two shares. The boss got double, not a hundred times more.",
+   "show": {
+    "k": "card",
+    "label": "Bartholomew Roberts' articles, around 1721",
+    "big": "1 share → 2 shares",
+    "sub": "ordinary pirate vs. captain"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Compare that with merchant ships, where one historian found captains could earn ten to a hundred times more than a sailor.",
+   "show": {
+    "k": "compare",
+    "bg": "harbor",
+    "left": {
+     "label": "MERCHANT SHIP",
+     "cast": [
+      {
+       "id": "sailor",
+       "mood": "sad"
+      }
+     ]
+    },
+    "right": {
+     "label": "PIRATE SHIP",
+     "cast": [
+      {
+       "id": "pirate",
+       "mood": "happy",
+       "hold": "coin"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "There was a catch, though. The rule was no prey, no pay. Catch nothing, and you earn nothing.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.6,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO PREY, NO PAY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pirates also had something most workers didn't have: injury insurance.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.4
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.35,
+      "label": "MEDICINE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INSURANCE?!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Alexandre Exquemelin, a surgeon who sailed with Caribbean pirates, published their price list in 1678.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "exquemelin",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "place": "Amsterdam · 1678",
+    "tag": {
+     "id": "exquemelin",
+     "text": "Alexandre Exquemelin, pirate surgeon"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Losing your right arm paid six hundred pieces of eight. Your left arm paid five hundred.",
+   "show": {
+    "k": "card",
+    "label": "Buccaneer injury pay, 1670s",
+    "big": "600 pieces of eight",
+    "sub": "for a lost right arm (left arm: 500)"
+   }
+  },
+  {
+   "who": "pirate2",
+   "say": "Wait. My left arm is cheaper?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "shrug"
+     },
+     {
+      "id": "quartermaster",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate2"
+   }
+  },
+  {
+   "who": "quartermaster",
+   "say": "Can you swing a sword with it?"
+  },
+  {
+   "who": "pirate2",
+   "say": "No."
+  },
+  {
+   "who": "quartermaster",
+   "say": "Then yes."
+  },
+  {
+   "who": "N",
+   "say": "That's insurance: some of everyone's loot went into a shared pot, and the pot paid whoever got hurt.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "quartermaster",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "pirate",
+      "x": 0.65,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.45,
+      "label": "SHARED POT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EVERYONE CHIPS IN",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1600s",
+    "title": "The Coin Everyone Wanted",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So what were these pieces of eight everyone kept talking about?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "place": "Seville, Spain · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were big Spanish silver coins, each worth eight reales, a smaller Spanish coin. Eight reales, pieces of eight.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point",
+      "hold": "coin"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.68,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "8 REALES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1 COIN = 8 REALES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "close",
+    "focus": "spaniard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The silver came from huge mines in Spain's American colonies, like Potosí, in today's Bolivia, where many Indigenous people were forced to work.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.35,
+      "s": 0.6,
+      "load": "gold",
+      "move": [
+       0.2,
+       0.5
+      ]
+     },
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "s": 0.45,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "POTOSÍ",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "FORCED LABOR",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Potosí, Bolivia · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every year, fleets of treasure ships carried the silver across the Atlantic to Seville, Spain's official port for the Americas.",
+   "show": {
+    "k": "map",
+    "lon": -8.5,
+    "lat": 37.5,
+    "z0": 1.8,
+    "z1": 2.4,
+    "date": "1600",
+    "labels": [
+     [
+      "Seville",
+      -5.98,
+      37.39,
+      14
+     ],
+     [
+      "Spain",
+      -3.7,
+      40.4,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -14,
+      36.0
+     ],
+     [
+      -9.5,
+      36.4
+     ],
+     [
+      -6.4,
+      36.6
+     ],
+     [
+      -5.98,
+      37.39
+     ]
+    ],
+    "areas": [
+     [
+      -5.98,
+      37.39,
+      0.3,
+      "rgba(212,165,42,.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "From there, the coins spread everywhere. Merchants used them from Amsterdam to China to the American colonies.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.22,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "sailship",
+      "x": 0.52,
+      "s": 0.5,
+      "flag": "netherlands"
+     },
+     {
+      "k": "junk",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WORLD MONEY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "People trusted the silver. That made these coins the perfect thing to steal, and the pay that pirates wanted most.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.55,
+      "flag": "pirate",
+      "move": [
+       0.15,
+       0.4
+      ]
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "spain_burgundy",
+      "move": [
+       0.65,
+       0.85
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PIRATE FAVORITE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Need change? People cut the coins into pieces called bits. That's why an American quarter got the nickname two bits.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "2 BITS = 1/4",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were so normal that the United States only stopped treating them as legal money in 1857.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "shrug",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "usa1859"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGAL MONEY UNTIL 1857",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1690s",
+    "title": "Selling Stolen Sugar",
+    "bg": "market"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's the boring truth: most pirate loot wasn't gold. It was ordinary cargo.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.5,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.15,
+      "s": 0.45,
+      "label": "SUGAR"
+     },
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.45,
+      "label": "CLOTH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sugar, cloth, rum, tobacco, tools, even medicine. Useful stuff, but you can't spend a barrel of sugar.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.4,
+      "label": "RUM"
+     },
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "TOBACCO"
+     },
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "TOOLS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So pirates needed a fence: someone who buys stolen goods and quietly sells them on.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "fence",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FENCE = BUYS STOLEN STUFF",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "fence",
+     "text": "A fence"
+    }
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Forty barrels of the finest sugar. What will you give me?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "fence",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.1,
+      "s": 0.4,
+      "label": "SUGAR"
+     }
+    ],
+    "cam": "close",
+    "focus": "pirate"
+   }
+  },
+  {
+   "who": "fence",
+   "say": "It's stolen sugar. Half price."
+  },
+  {
+   "who": "pirate",
+   "say": "Half? I attacked a whole ship for this!"
+  },
+  {
+   "who": "fence",
+   "say": "And I'm the only buyer in town."
+  },
+  {
+   "who": "N",
+   "say": "Pirates had to sell cheap. Fences then sold the goods in normal ports for a big profit.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "fence",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "SUGAR"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BUY CHEAP",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SELL HIGH",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Whole pirate towns grew around this business: Port Royal in Jamaica, Nassau in the Bahamas, and Saint Mary's Island off Madagascar.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.1,
+      "s": 0.5
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "pirate"
+     },
+     {
+      "k": "house",
+      "x": 0.92,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PORT ROYAL",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "NASSAU",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "ST. MARY'S",
+      "at": 2.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At Saint Mary's, a trader named Adam Baldridge ran a shop for pirates.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "baldridge",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "RUM"
+     }
+    ],
+    "place": "St. Mary's Island, Madagascar · 1690s",
+    "tag": {
+     "id": "baldridge",
+     "text": "Adam Baldridge"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His supplies came on ships sent by Frederick Philipse, one of the richest merchants in New York.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "philipse",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "globe",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "place": "New York · 1690s",
+    "tag": {
+     "id": "philipse",
+     "text": "Frederick Philipse, New York merchant"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The ships went home with pirate loot. They also carried enslaved people from Madagascar, sold by Baldridge. That human cost was part of the pirate economy too.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.6,
+      "move": [
+       0.35,
+       0.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1695",
+    "title": "The Biggest Payday",
+    "bg": "ocean"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now, back to Henry Every. In 1695 he sailed to the mouth of the Red Sea, to wait for ships heading home to India.",
+   "show": {
+    "k": "map",
+    "lon": 52.0,
+    "lat": 16.5,
+    "z0": 1.4,
+    "z1": 1.9,
+    "date": "1695",
+    "labels": [
+     [
+      "Red Sea",
+      38.5,
+      20.5,
+      14
+     ],
+     [
+      "Mocha",
+      43.25,
+      13.32,
+      14
+     ]
+    ],
+    "route": [
+     [
+      43.25,
+      13.32
+     ],
+     [
+      45.5,
+      12.0
+     ],
+     [
+      52.0,
+      13.5
+     ],
+     [
+      60.0,
+      17.0
+     ],
+     [
+      68.0,
+      20.0
+     ]
+    ],
+    "areas": [
+     [
+      43.4,
+      12.6,
+      0.8,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every year, a fleet carried Muslim pilgrims and traders from the port of Mocha back to Surat, a rich Indian port.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "aurangzeb",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.55
+     }
+    ],
+    "place": "Mocha, Yemen · 1695"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The biggest ship, the Ganj-i-Sawai, belonged to Emperor Aurangzeb himself.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "aurangzeb",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "sit"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.45
+     },
+     {
+      "k": "goldpile",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every's ships caught it in September 1695. Accounts say that after hours of fighting, the pirates treated the passengers with terrible cruelty.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.6,
+      "flag": "pirate"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.8
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The haul was enormous. Estimates run from three hundred twenty-five thousand to six hundred thousand pounds.",
+   "show": {
+    "k": "card",
+    "label": "Treasure taken from the Ganj-i-Sawai, 1695 (estimates)",
+    "big": "£325,000–£600,000",
+    "sub": "one of the richest pirate hauls ever"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Split by shares, each pirate got about a thousand pounds. That was roughly a lifetime of wages for a sailor.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "moneybag"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.6,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "£1,000 EACH",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "= A LIFETIME OF PAY",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "aurangzeb",
+   "say": "English pirates robbed my ship? Then every English trader will pay for it.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "aurangzeb",
+      "x": 0.45,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "aurangzeb"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He shut down English trading posts in India. Panicked, England put a huge reward on Every, and the East India Company doubled it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.65,
+      "s": 0.5,
+      "text": "REWARD £1,000"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.45,
+      "flag": "uk1606"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's often called the first worldwide manhunt. So Every needed a safe harbor.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "run"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WANTED",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1696 he reached Nassau in the Bahamas, and accounts say he paid the governor, Nicholas Trott, a big bribe to let the crew land.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "moneybag"
+     },
+     {
+      "id": "trott",
+      "x": 0.68,
+      "mood": "happy",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.1,
+      "s": 0.5
+     }
+    ],
+    "place": "Nassau, Bahamas · 1696",
+    "tag": {
+     "id": "trott",
+     "text": "Governor Nicholas Trott"
+    }
+   }
+  },
+  {
+   "who": "trott",
+   "say": "Pirates? I see no pirates. I see very generous visitors.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "trott",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "moneybag"
+     },
+     {
+      "id": "every",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "trott"
+   }
+  },
+  {
+   "who": "every",
+   "say": "Very generous."
+  },
+  {
+   "who": "N",
+   "say": "Then the crew scattered. About two dozen were caught, and several were hanged.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.5,
+      "mood": "sad"
+     }
+    ],
+    "place": "London · 1696"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every himself landed in Ireland in 1696 and vanished. He was never caught, and nobody knows what happened to him.",
+   "show": {
+    "k": "map",
+    "lon": -7.0,
+    "lat": 53.3,
+    "z0": 2.3,
+    "z1": 2.9,
+    "date": "1696",
+    "labels": [
+     [
+      "Ireland",
+      -8.0,
+      53.2,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -8.0,
+      53.3,
+      1.4,
+      "rgba(31,138,74,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1699",
+    "title": "Real Buried Treasure",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So did pirates bury their treasure? Almost never. But there's one famous exception.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BURIED TREASURE?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "William Kidd was a Scottish sea captain hired as a privateer: a private ship with a government license to attack enemies and pirates.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.55,
+      "flag": "uk1606",
+      "label": "Adventure Galley"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LICENSE TO RAID",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "New York · 1696",
+    "tag": {
+     "id": "kidd",
+     "text": "Captain William Kidd"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was a business deal. Rich and powerful lords, including Lord Bellomont, paid for the ship and expected a cut of whatever Kidd captured.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "bellomont",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "moneybag"
+     },
+     {
+      "id": "kidd",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INVESTORS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "bellomont",
+     "text": "Lord Bellomont, investor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But legal targets were hard to find. In 1698 Kidd seized a rich merchant ship, the Quedagh Merchant, and he was soon branded a pirate.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.55,
+      "flag": "uk1606"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.7,
+      "label": "Quedagh Merchant"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1698",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "PIRATE?",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1699 he sailed back and left a stash with John Gardiner, owner of Gardiners Island in New York. Most accounts say part of it was buried.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "present"
+     },
+     {
+      "id": "gardiner",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.45
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.6
+     }
+    ],
+    "place": "Gardiners Island, New York · 1699",
+    "tag": {
+     "id": "gardiner",
+     "text": "John Gardiner"
+    }
+   }
+  },
+  {
+   "who": "kidd",
+   "say": "Keep this safe for me, Mr. Gardiner. I'll be back for it.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "gardiner",
+      "x": 0.65,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.4
+     },
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "kidd"
+   }
+  },
+  {
+   "who": "gardiner",
+   "say": "And if anyone asks?"
+  },
+  {
+   "who": "kidd",
+   "say": "You've never seen me."
+  },
+  {
+   "who": "N",
+   "say": "Kidd planned to use the treasure as a bargaining chip. He went to Boston to clear his name with Bellomont, who was now the governor there.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "walk"
+     },
+     {
+      "id": "bellomont",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "place": "Boston · 1699"
+   }
+  },
+  {
+   "who": "kidd",
+   "say": "I have treasure hidden away. Pardon me, and it's all yours.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "bellomont",
+      "x": 0.68,
+      "mood": "smug",
+      "pose": "cross"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "kidd"
+   }
+  },
+  {
+   "who": "bellomont",
+   "say": "Or I arrest you, and take it anyway."
+  },
+  {
+   "who": "N",
+   "say": "And he did. The treasure was dug up and listed: gold, more than two hundred silver bars, and jewels.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "bellomont",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "200+ SILVER BARS",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "JEWELS",
+      "at": 2.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Kidd was shipped to London, convicted of piracy and murder, and hanged in 1701.",
+   "show": {
+    "k": "map",
+    "lon": -0.5,
+    "lat": 51.6,
+    "z0": 3.0,
+    "z1": 3.6,
+    "date": "1701",
+    "labels": [
+     [
+      "London",
+      -0.08,
+      51.5,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -0.08,
+      51.5,
+      0.25,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the treasure map with a big X? That's a legend. A novel, Treasure Island, made it famous in 1883.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "stevenson",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "X"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "stevenson",
+     "text": "Robert Louis Stevenson, author"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Real pirates mostly did the opposite of burying money. They spent it, fast.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "goblet"
+     },
+     {
+      "id": "pirate2",
+      "x": 0.62,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPENT IT ALL",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1718",
+    "title": "Going Out of Business",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1718, the most famous pirate alive was Blackbeard.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "place": "North Carolina · 1718",
+    "tag": {
+     "id": "blackbeard",
+     "text": "Blackbeard"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His flagship, the Queen Anne's Revenge, started life as a French slave ship called La Concorde.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.75,
+      "flag": "france_royal",
+      "label": "La Concorde"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When Blackbeard captured it in 1717, hundreds of enslaved Africans were held below deck. Their suffering is part of this story too.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1717",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1718 the ship ran aground off North Carolina. Some historians suspect Blackbeard did it on purpose, to ditch part of his crew and keep more loot.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "blackbeard",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "walk",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "pirate"
+     },
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ON PURPOSE?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The wreck was found in 1996. Divers have pulled up more than three hundred thousand objects since then.",
+   "show": {
+    "k": "card",
+    "label": "Queen Anne's Revenge wreck, found 1996",
+    "big": "300,000+ artifacts",
+    "sub": "recovered off Beaufort Inlet, North Carolina"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cannons, tools, and medical gear. Gold? Less than an ounce of gold dust so far.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.25,
+      "s": 0.5
+     },
+     {
+      "k": "crate",
+      "x": 0.55,
+      "s": 0.45,
+      "label": "MEDICAL GEAR"
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "< 1 OUNCE OF GOLD",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile, piracy's business was breaking. Britain sent Woodes Rogers to govern Nassau, offering pardons to pirates who quit.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "rogers",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "uk1606"
+     },
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PARDONS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Nassau, Bahamas · 1718",
+    "tag": {
+     "id": "rogers",
+     "text": "Governor Woodes Rogers"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "No safe harbor meant no fences. And no fences meant no way to turn stolen sugar into cash.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "fence",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "SUGAR"
+     },
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO BUYERS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Blackbeard was killed in a fight with the Royal Navy later in 1718. Within a few years, most famous pirates were dead or had quit.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.6,
+      "flag": "uk1606"
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bartholomew Roberts knew the risks. A 1724 book on pirates reports how he explained his choice.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "roberts",
+      "x": 0.45,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In an honest service there is thin commons, low wages, and hard labour. No, a merry life and a short one shall be my motto.",
+   "show": {
+    "k": "quote",
+    "text": "In an honest service there is thin commons, low wages, and hard labour… No, a merry life and a short one shall be my motto.",
+    "who": "Bartholomew Roberts, as reported in A General History of the Pyrates (1724)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Thin commons meant not much food. And he did get the short life: he died in battle in 1722.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "roberts",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1722",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So that's how pirates made money: shares, insurance, silver coins, and a lot of shady shopkeepers.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.25,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "quartermaster",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "fence",
+      "x": 0.75,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.92,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHARES",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "INSURANCE",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "FENCES",
+      "at": 2.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was a real business. It just only worked while someone was willing to buy the loot.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pirate2",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.4,
+      "label": "SUGAR"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Subscribe, and next time: the entire history of the United States in ten minutes.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "every",
+      "x": 0.8,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "pirate",
+      "x": 0.92,
+      "mood": "happy"
+     }
+    ],
+    "next": "The ENTIRE History of the United States in 10 Minutes"
+   }
+  }
+ ],
+ "description": "Pirates didn't get wages. They got shares, voted for their captains, paid out injury insurance and sold stolen sugar to shady dealers called fences. We follow the money from Henry Every's giant 1695 heist to Captain Kidd's real buried treasure, the silver pieces of eight everyone wanted and the 1718 crackdown that put pirates out of business, and we look honestly at the slave trade tangled up in it.\n\nChapters are added automatically.\n\n#history #pirates #moneyhistory #blackbeard #animatedhistory",
+ "thumbnail": {
+  "style": "faces",
+  "title": "PIRATE PAYDAY",
+  "bg": "deck",
+  "faces": [
+   {
+    "id": "every",
+    "mood": "shout"
+   },
+   {
+    "id": "pirate",
+    "mood": "happy"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "How Pirates Actually Made Money",
+ "tags": [
+  "pirates",
+  "how pirates made money",
+  "henry every",
+  "captain kidd",
+  "blackbeard",
+  "pieces of eight",
+  "pirate code",
+  "golden age of piracy",
+  "money history",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Henry_Every",
+  "https://www.worldhistory.org/Henry_Every/",
+  "https://www.history.com/news/henry-everys-bloody-pirate-raid-320-years-ago",
+  "https://www.amusingplanet.com/2024/12/henry-every-and-looting-of-ganj-i-sawai.html",
+  "https://en.wikipedia.org/wiki/Fancy_(pirate_ship)",
+  "https://www.nassauparadiseisland.com/blog/a-history-of-nassaus-pirates-the-arrival-of-henry-avery",
+  "https://en.wikipedia.org/wiki/Pirate_code",
+  "https://en.wikipedia.org/wiki/Bartholomew_Roberts",
+  "https://www.thecanadianencyclopedia.ca/en/article/bartholomew-roberts",
+  "https://www.mentalfloss.com/history/11-rules-actual-pirate-code",
+  "https://en.wikipedia.org/wiki/The_Invisible_Hook",
+  "https://caricomreparations.org/motley-mutinies-popular-pirates-and-slave-revolts-at-sea/",
+  "https://en.wikipedia.org/wiki/Alexandre_Exquemelin",
+  "https://virginialawyer.vsb.org/va-lawyer-dec-2014/page-18",
+  "https://www.worldhistory.org/Spanish_Treasure_Fleets/",
+  "https://www.encyclopedia.com/places/latin-america-and-caribbean/south-american-political-geography/potosi",
+  "https://coinweek.com/world-coins/history-of-coins-two-bits-four-bits-six-bits-eight/",
+  "https://wordorigins.org/big-list-entries/bits-two",
+  "https://www.worldhistory.org/article/1842/treasure--booty-in-the-golden-age-of-piracy/",
+  "https://en.wikipedia.org/wiki/Adam_Baldridge",
+  "https://hudsonvalley.org/?p=3839",
+  "https://en.wikipedia.org/wiki/William_Kidd",
+  "https://www.britannica.com/biography/William-Kidd",
+  "https://www.amdigital.co.uk/about/blog/item/captain-kidds-lost-treasure",
+  "https://en.wikipedia.org/wiki/Execution_Dock",
+  "https://en.wikipedia.org/wiki/Treasure",
+  "https://en.wikipedia.org/wiki/Queen_Anne%27s_Revenge",
+  "https://www.qaronline.org/history",
+  "https://qaronline.org/blog/2017-12-01/artifact-month-gold",
+  "https://www.smithsonianmag.com/history/did-archaeologists-uncover-blackbeards-treasure-215890/",
+  "https://www.nationalgeographic.com/history/article/110829-blackbeard-shipwreck-pirates-archaeology-science",
+  "https://en.wikipedia.org/wiki/Flying_Gang",
+  "https://en.wikipedia.org/wiki/Woodes_Rogers"
+ ]
+}

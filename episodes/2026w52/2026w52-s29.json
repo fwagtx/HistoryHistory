@@ -1,0 +1,299 @@
+{
+ "id": "2026w52-s29",
+ "format": "short",
+ "date": "2026-12-25",
+ "slot": "09:00",
+ "title": "Captain Kidd Left Real Treasure on a New York Island",
+ "hook": "REAL PIRATE TREASURE",
+ "topic": "Captain Kidd",
+ "music": "playful",
+ "cast": {
+  "kidd": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#5A2A2A",
+   "color2": "#E8C25A",
+   "beard": false,
+   "stache": "thin",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Captain William Kidd"
+  },
+  "gardiner": {
+   "preset": "farmer",
+   "hat": "slouch",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#5A4A2A",
+   "color2": "#E8DCC0",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "John Gardiner"
+  },
+  "bellomont": {
+   "preset": "noble",
+   "hat": "tricorn",
+   "hatColor": "#1E1C1B",
+   "outfit": "coat",
+   "color": "#6A2A4A",
+   "color2": "#E8C25A",
+   "hair": "long",
+   "hairColor": "#EFEFEF",
+   "stache": false,
+   "skin": "peach",
+   "name": "Lord Bellomont"
+  }
+ },
+ "voices": {
+  "kidd": "bm_fable",
+  "gardiner": "am_adam",
+  "bellomont": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Real pirate treasure was hidden on an island in New York, and it was dug up in 1699.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "gardiner",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "tree",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1699",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Gardiners Island, New York · 1699"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It belonged to William Kidd, a Scottish captain hired to hunt pirates, who ended up accused of piracy himself.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PIRATE HUNTER?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "kidd",
+     "text": "Captain William Kidd"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Heading home, he left a stash with John Gardiner, the island's owner. Most accounts say part of it was buried.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "present"
+     },
+     {
+      "id": "gardiner",
+      "x": 0.68,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "gardiner",
+     "text": "John Gardiner"
+    }
+   }
+  },
+  {
+   "who": "kidd",
+   "say": "Guard this well, Mr. Gardiner. I'll be back for it.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "gardiner",
+      "x": 0.68,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "kidd"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Kidd went to Boston to bargain for a pardon. Instead, the governor, Lord Bellomont, arrested him.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "bellomont",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "cross"
+     },
+     {
+      "id": "kidd",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "place": "Boston · 1699",
+    "tag": {
+     "id": "bellomont",
+     "text": "Lord Bellomont"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The treasure was collected and listed: gold, jewels, and more than two hundred silver bars.",
+   "show": {
+    "k": "card",
+    "label": "Kidd's treasure from Gardiners Island, 1699",
+    "big": "200+ silver bars",
+    "sub": "plus gold and jewels"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Kidd was hanged in London in 1701. People still hunt for his other loot.",
+   "show": {
+    "k": "map",
+    "lon": -0.5,
+    "lat": 51.6,
+    "z0": 3.0,
+    "z1": 3.5,
+    "date": "1701",
+    "labels": [
+     [
+      "London",
+      -0.08,
+      51.5,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -0.08,
+      51.5,
+      0.25,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "kidd",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "wave"
+     },
+     {
+      "id": "gardiner",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Captain Kidd left real treasure on a New York island. The governor got it first.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #captainkidd #buriedtreasure #historytok",
+ "youtube_title": "Captain Kidd Left Real Treasure on a New York Island #shorts",
+ "tags": [
+  "captain kidd",
+  "gardiners island",
+  "buried treasure",
+  "pirates",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/William_Kidd",
+  "https://www.britannica.com/biography/William-Kidd",
+  "https://www.amdigital.co.uk/about/blog/item/captain-kidds-lost-treasure",
+  "https://www.danspapers.com/2016/02/captain-kidd-pirate-buried-treasure-on-gardiners-island"
+ ]
+}
