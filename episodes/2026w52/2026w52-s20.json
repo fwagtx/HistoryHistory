@@ -1,0 +1,283 @@
+{
+ "id": "2026w52-s20",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "Great Escape Prisoners Hid Sand in Their Pants",
+ "hook": "SAND IN THEIR PANTS",
+ "topic": "Great Escape Penguins",
+ "music": "playful",
+ "cast": {
+  "pow": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hair": "short",
+   "hairColor": "#C8A040",
+   "name": "Allied airman"
+  },
+  "pow2": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "stache": "bush",
+   "name": "Allied airman"
+  }
+ },
+ "voices": {
+  "pow": "am_liam",
+  "pow2": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "To pull off the Great Escape, prisoners hid tons of sand in their trousers.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "pow",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "smug",
+      "walk": [
+       0.2,
+       0.45
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "STALAG LUFT III"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SAND?!",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ],
+    "place": "Stalag Luft III, Sagan · 1943",
+    "tag": {
+     "id": "pow",
+     "text": "Allied airman"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1943, captured Allied airmen at this German prison camp were secretly digging tunnels.",
+   "show": {
+    "k": "map",
+    "lon": 15.0,
+    "lat": 52.3,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1943",
+    "labels": [
+     [
+      "SAGAN",
+      15.32,
+      51.62,
+      0
+     ],
+     [
+      "BERLIN",
+      13.4,
+      52.52,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The problem? The sand underground was bright yellow. On the grey ground above, it stood out.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pow2",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "YELLOW SAND"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pow",
+   "say": "So where do we hide tons of yellow sand?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "pow",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "pow"
+   }
+  },
+  {
+   "who": "pow2",
+   "say": "Down our trousers.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "pow2",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.35,
+      "label": "SAND"
+     }
+    ],
+    "cam": "close",
+    "focus": "pow2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Men nicknamed penguins wore bags of sand inside their trousers, then pulled a string to let it trickle out.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pow",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "smug",
+      "walk": [
+       0.2,
+       0.5
+      ]
+     },
+     {
+      "id": "pow2",
+      "x": 0.6,
+      "pose": "walk",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PENGUIN WALK",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then they scuffed it into the gardens and sports fields, where it blended in.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "pow2",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "All that sand came from Harry, the tunnel that seventy-six men used in the Great Escape.",
+   "show": {
+    "k": "card",
+    "label": "Men who escaped through Harry",
+    "big": "76",
+    "sub": "on 24 March 1944"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pow",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pow2",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Great Escape's secret weapon: trousers.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #thegreatescape #ww2 #pow #historytok",
+ "youtube_title": "Great Escape Prisoners Hid Sand in Their Pants #shorts",
+ "tags": [
+  "the great escape",
+  "penguins",
+  "stalag luft iii",
+  "ww2 history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://veterans.gc.ca/en/node/710257",
+  "https://www.historyhit.com/?p=8738",
+  "https://tedbarris.com/2014/02/24/30-days-to-the-great-escape-feb-24-2014",
+  "https://www.history.com/articles/great-escape-wwii-nazi-stalag-luft-iii"
+ ]
+}

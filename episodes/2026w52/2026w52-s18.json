@@ -1,0 +1,287 @@
+{
+ "id": "2026w52-s18",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "76 Men Escaped. Only 3 Made It Home.",
+ "hook": "76 OUT, 3 HOME",
+ "topic": "The Great Escape",
+ "music": "tense",
+ "cast": {
+  "bushell": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hat": "cap",
+   "hatColor": "#5A6E8E",
+   "hair": "side",
+   "hairColor": "#2A1E16",
+   "name": "Roger Bushell"
+  },
+  "pow": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hair": "short",
+   "hairColor": "#C8A040",
+   "name": "Allied airman"
+  },
+  "guard": {
+   "outfit": "ww2",
+   "color": "#7A7A7A",
+   "hat": "cap",
+   "hatColor": "#7A7A7A",
+   "hair": "short",
+   "skin": "light",
+   "name": "Camp guard"
+  }
+ },
+ "voices": {
+  "bushell": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1944, seventy-six prisoners escaped through a tunnel. Only three made it home.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "pow",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.4,
+      "text": "STALAG LUFT III"
+     },
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "place": "Stalag Luft III, Sagan · 1944"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Stalag Luft Three was a German camp for captured Allied airmen, in what is now Poland.",
+   "show": {
+    "k": "map",
+    "lon": 15.0,
+    "lat": 52.3,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1944",
+    "labels": [
+     [
+      "SAGAN",
+      15.32,
+      51.62,
+      0
+     ],
+     [
+      "BERLIN",
+      13.4,
+      52.52,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Led by Roger Bushell, hundreds of men secretly dug three tunnels: Tom, Dick and Harry.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "bushell",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "BED BOARDS"
+     }
+    ],
+    "tag": {
+     "id": "bushell",
+     "text": "Roger Bushell, escape leader"
+    }
+   }
+  },
+  {
+   "who": "bushell",
+   "say": "If they find one tunnel, we use the next.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "bushell",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "bushell"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the night of March twenty-fourth, 1944, seventy-six men crawled out through Harry.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "pow",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "scared",
+      "walk": [
+       0.15,
+       0.45
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "76 OUT",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the tunnel came up short, and seventy-three were caught. Fifty of them were executed on Hitler's orders.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "pow",
+      "x": 0.65,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Only three made it to freedom: two Norwegian pilots and one Dutch pilot.",
+   "show": {
+    "k": "card",
+    "label": "Escapers who made it home",
+    "big": "3",
+    "sub": "out of 76"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their story later became the famous film, The Great Escape.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "bushell",
+      "x": 0.4,
+      "pose": "salute",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "uk"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pow",
+      "x": 0.3,
+      "pose": "salute",
+      "mood": "neutral"
+     },
+     {
+      "id": "bushell",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "neutral"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The true story behind The Great Escape.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #thegreatescape #ww2 #stalagluft3 #historytok",
+ "youtube_title": "76 Men Escaped. Only 3 Made It Home. #shorts",
+ "tags": [
+  "the great escape",
+  "stalag luft iii",
+  "roger bushell",
+  "ww2 history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.history.com/articles/great-escape-wwii-nazi-stalag-luft-iii",
+  "https://www.historyhit.com/?p=8738",
+  "https://www.cam.ac.uk/research/news/recreating-the-great-escape",
+  "https://www.timesofisrael.com/poland-marks-80th-anniversary-of-great-escape-from-nazi-pow-camp/"
+ ]
+}

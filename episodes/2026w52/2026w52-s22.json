@@ -1,0 +1,284 @@
+{
+ "id": "2026w52-s22",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "Napoleon Escaped Exile and Took Back France",
+ "hook": "NAPOLEON ESCAPED EXILE",
+ "topic": "Napoleon",
+ "music": "playful",
+ "cast": {
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "soldier": {
+   "preset": "grenadier",
+   "name": "Royal French soldier"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1815, Napoleon escaped exile and was back in Paris three weeks later.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "Elba · February 1815",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon, former French emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Napoleon had conquered much of Europe, then lost, and was sent to the tiny island of Elba.",
+   "show": {
+    "k": "map",
+    "lon": 10.0,
+    "lat": 43.0,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "1815",
+    "labels": [
+     [
+      "ELBA",
+      10.3,
+      42.78,
+      0
+     ],
+     [
+      "ITALY",
+      11.5,
+      43.6,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "An emperor, on this tiny island? No.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In February, he sailed off with about a thousand soldiers and landed in France.",
+   "show": {
+    "k": "map",
+    "lon": 7.5,
+    "lat": 44.5,
+    "z0": 1.8,
+    "z1": 2.1,
+    "date": "1815",
+    "labels": [
+     [
+      "ELBA",
+      10.3,
+      42.78,
+      0
+     ],
+     [
+      "GOLFE-JUAN",
+      7.08,
+      43.57,
+      0
+     ],
+     [
+      "GRENOBLE",
+      5.72,
+      45.19,
+      0
+     ]
+    ],
+    "route": [
+     [
+      10.3,
+      42.78
+     ],
+     [
+      8.5,
+      43.2
+     ],
+     [
+      7.08,
+      43.57
+     ],
+     [
+      6.2,
+      44.1
+     ],
+     [
+      5.72,
+      45.19
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Near Grenoble, the king's soldiers blocked the road. Napoleon walked right up to them.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "smug",
+      "walk": [
+       0.15,
+       0.35
+      ]
+     },
+     {
+      "id": "soldier",
+      "x": 0.65,
+      "pose": "aim",
+      "mood": "scared",
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.4,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Laffrey, France · 7 March 1815"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Accounts say he told them: If there is one among you who wishes to kill his Emperor, here I am.",
+   "show": {
+    "k": "quote",
+    "text": "If there is one among you who wishes to kill his Emperor, here I am.",
+    "who": "Napoleon at Laffrey, 1815 (traditional account)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody fired. The soldiers joined him, and soon he was back in Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.4,
+      "flag": "france"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ],
+    "place": "Paris · 20 March 1815"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It lasted a hundred days, until Waterloo.",
+   "show": {
+    "k": "card",
+    "label": "Napoleon's comeback lasted",
+    "big": "100 DAYS",
+    "sub": "and ended at Waterloo"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "smug"
+     },
+     {
+      "id": "soldier",
+      "x": 0.7,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He walked up to an army sent to stop him. They joined him.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #elba #france #historytok",
+ "youtube_title": "Napoleon Escaped Exile and Took Back France #shorts",
+ "tags": [
+  "napoleon",
+  "escape from elba",
+  "hundred days",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/French_brig_Inconstant_(1811)",
+  "https://www.napoleon.org/en/magazine/places/the-route-napoleon",
+  "https://en.wikipedia.org/wiki/Laffrey",
+  "https://militaryhistorynow.com/2023/12/14/soldiers-of-the-fifth-meet-the-regiment-famously-sent-to-stop-napoleons-return-from-exile/"
+ ]
+}

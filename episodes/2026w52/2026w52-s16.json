@@ -1,0 +1,290 @@
+{
+ "id": "2026w52-s16",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "Casanova Escaped Prison Through the Roof",
+ "hook": "OUT THROUGH THE ROOF",
+ "topic": "Casanova",
+ "music": "playful",
+ "cast": {
+  "casanova": {
+   "hat": "tricorn",
+   "hatColor": "#1E1E24",
+   "outfit": "coat",
+   "color": "#8E2A3A",
+   "color2": "#D4A52A",
+   "hair": "side",
+   "hairColor": "#E8E4D8",
+   "skin": "light",
+   "name": "Giacomo Casanova"
+  },
+  "balbi": {
+   "preset": "monk",
+   "name": "Father Marino Balbi"
+  }
+ },
+ "voices": {
+  "casanova": "am_puck",
+  "balbi": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1756, Casanova broke out of Venice's toughest prison, through the roof.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "place": "Doge's Palace, Venice · 1756",
+    "tag": {
+     "id": "casanova",
+     "text": "Giacomo Casanova"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Casanova, a famous Venetian charmer, was locked in the Leads, cells under the palace roof.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "THE LEADS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He dug through his floor with a homemade spike. Then, days before finishing, he was moved.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MOVED!",
+      "at": 2.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "casanova",
+   "say": "Months of digging. For nothing!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "casanova"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he smuggled the spike to a monk nearby, hidden in a Bible under a plate of pasta.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "balbi",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPIKE IN A BIBLE",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ],
+    "tag": {
+     "id": "balbi",
+     "text": "Father Balbi, fellow prisoner"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The monk dug through the ceilings, and one October night, they climbed onto the roof.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "balbi",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A palace guard let them out, and they left by gondola.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "GONDOLA"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BYE!",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's Casanova's own version, so he may have polished it a little.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "HIS OWN BOOK"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "balbi",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A spike, a Bible and a plate of pasta.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #casanova #venice #prisonescape #historytok",
+ "youtube_title": "Casanova Escaped Prison Through the Roof #shorts",
+ "tags": [
+  "casanova",
+  "the leads",
+  "venice",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Piombi",
+  "https://www.gutenberg.org/cache/epub/2960/pg2960.html",
+  "https://www.historyhit.com/giacomo-casanova-master-of-seduction-or-a-misunderstood-intellectual/",
+  "https://www.historydaily.com/the-arrest-of-casanova/"
+ ]
+}

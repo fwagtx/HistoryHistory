@@ -1,0 +1,268 @@
+{
+ "id": "2026w52-s19",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "Prisoners Built a Glider Out of Beds",
+ "hook": "A GLIDER MADE OF BEDS",
+ "topic": "Colditz Glider",
+ "music": "playful",
+ "cast": {
+  "goldfinch": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hat": "cap",
+   "hatColor": "#5A6E8E",
+   "stache": "bush",
+   "name": "Bill Goldfinch"
+  },
+  "best": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hat": "cap",
+   "hatColor": "#5A6E8E",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "name": "Jack Best"
+  }
+ },
+ "voices": {
+  "goldfinch": "am_adam",
+  "best": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In World War Two, British prisoners built a glider out of their beds.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "goldfinch",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "BED SLATS"
+     }
+    ],
+    "place": "Colditz Castle, Germany · 1944",
+    "tag": {
+     "id": "goldfinch",
+     "text": "Bill Goldfinch, RAF"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Colditz Castle was a prison for Allied officers, high on a cliff above a river.",
+   "show": {
+    "k": "map",
+    "lon": 12.5,
+    "lat": 51.3,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "1944",
+    "labels": [
+     [
+      "COLDITZ",
+      12.81,
+      51.13,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "goldfinch",
+   "say": "The walls are too thick. So let's fly over them.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "goldfinch",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.55
+     }
+    ],
+    "cam": "close",
+    "focus": "goldfinch"
+   }
+  },
+  {
+   "who": "best",
+   "say": "Fly? In what?",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "best",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "best",
+     "text": "Jack Best, RAF"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In a hidden attic above the chapel, they built it from bed slats, floorboards and prison sleeping bags.",
+   "show": {
+    "k": "card",
+    "label": "A two-seat glider made from",
+    "big": "BEDS",
+    "sub": "bed slats, floorboards, sleeping bags"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The launch plan? Drop a bathtub full of concrete off the roof, to fling the glider over the river.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.4,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.72,
+      "s": 0.35,
+      "label": "BATHTUB",
+      "y": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WHEEE?",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But American troops freed the castle in April 1945. The glider never flew.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "best",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jeep",
+      "x": 0.6,
+      "s": 0.45,
+      "emblem": "whitestar"
+     },
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.4,
+      "flag": "usa48"
+     }
+    ],
+    "place": "Colditz · April 1945"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2000, a TV crew built a copy. It flew just fine.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "goldfinch",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "IT FLIES!"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "goldfinch",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "best",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Bed slats, sleeping bags and a bathtub full of concrete.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #colditz #ww2 #glider #historytok",
+ "youtube_title": "Prisoners Built a Glider Out of Beds #shorts",
+ "tags": [
+  "colditz glider",
+  "colditz cock",
+  "ww2 escape",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Colditz_Cock",
+  "https://www.worldhistory.org/article/2791/escaping-colditz/",
+  "https://ctie.monash.edu/hargrave/cache_001.html",
+  "https://www.iwm.org.uk/collections/item/object/30082713"
+ ]
+}

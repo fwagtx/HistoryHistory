@@ -1,0 +1,244 @@
+{
+ "id": "2026w52-s15",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "He Mailed Himself to Freedom",
+ "hook": "HE MAILED HIMSELF TO FREEDOM",
+ "topic": "Henry 'Box' Brown",
+ "music": "playful",
+ "cast": {
+  "brown": {
+   "outfit": "coat",
+   "color": "#5A4632",
+   "hat": "cap",
+   "hatColor": "#3A2A1A",
+   "hair": "short",
+   "hairColor": "#1A1410",
+   "skin": "dark",
+   "name": "Henry 'Box' Brown"
+  },
+  "mckim": {
+   "outfit": "suit",
+   "color": "#1E1E24",
+   "hair": "side",
+   "hairColor": "#4A3A2A",
+   "beard": "full",
+   "skin": "light",
+   "name": "James Miller McKim"
+  }
+ },
+ "voices": {
+  "brown": "am_onyx",
+  "mckim": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1849, Henry Brown escaped slavery by mailing himself to freedom in a wooden box.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "brown",
+      "x": 0.35,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.68,
+      "s": 0.4,
+      "label": "TOBACCO"
+     },
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ],
+    "place": "Richmond, Virginia · 1849",
+    "tag": {
+     "id": "brown",
+     "text": "Henry Brown"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Henry was enslaved in Richmond, Virginia. In 1848, his wife and children were sold away.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "brown",
+      "x": 0.4,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "With help from two friends, he squeezed into a box about three feet long.",
+   "show": {
+    "k": "card",
+    "label": "Henry's box",
+    "big": "3 FEET",
+    "sub": "long, 2 feet wide, 2.5 feet deep"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It went north by wagon, train and steamboat. At times, he was upside down.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.45,
+      "s": 0.6,
+      "move": [
+       0.2,
+       0.6
+      ]
+     },
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UPSIDE DOWN",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The trip took twenty-seven hours.",
+   "show": {
+    "k": "card",
+    "label": "Richmond to Philadelphia",
+    "big": "27 HOURS",
+    "sub": "inside a box"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Philadelphia, abolitionists, people fighting slavery, opened the lid.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "mckim",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.68,
+      "s": 0.45
+     }
+    ],
+    "place": "Philadelphia · March 1849",
+    "tag": {
+     "id": "mckim",
+     "text": "James McKim, abolitionist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Henry stood up. William Still, who was there, wrote down his first words: How do you do, gentlemen?",
+   "show": {
+    "k": "quote",
+    "text": "How do you do, gentlemen?",
+    "who": "Henry 'Box' Brown, 1849 (as recorded by William Still)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He took the name Henry Box Brown, and spent years speaking out against slavery.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "brown",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HENRY BOX BROWN",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "brown",
+      "x": 0.5,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He spent 27 hours in a box to escape slavery.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #henryboxbrown #blackhistory #undergroundrailroad #historytok",
+ "youtube_title": "He Mailed Himself to Freedom #shorts",
+ "tags": [
+  "henry box brown",
+  "escape from slavery",
+  "underground railroad",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Henry_Box_Brown",
+  "https://www.nps.gov/nebe/learn/historyculture/henryboxbrown.htm",
+  "https://www.britannica.com/print/article/2144169",
+  "https://housedivided.dickinson.edu/sites/ugrr/1849-henry-box-brown-escape/",
+  "https://encyclopediavirginia.org/entries/brown-henry-box-1815-or-1816-1897/"
+ ]
+}

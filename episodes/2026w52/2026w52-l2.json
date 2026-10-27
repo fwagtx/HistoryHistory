@@ -1,0 +1,2743 @@
+{
+ "id": "2026w52-l2",
+ "format": "long",
+ "date": "2026-12-23",
+ "title": "The Greatest Escapes in History",
+ "music": "playful",
+ "cast": {
+  "morris": {
+   "outfit": "overalls",
+   "color": "#8FA8C8",
+   "hair": "short",
+   "skin": "light",
+   "hairColor": "#4A3A2A",
+   "name": "Frank Morris"
+  },
+  "anglin": {
+   "outfit": "overalls",
+   "color": "#8FA8C8",
+   "hair": "short",
+   "skin": "light",
+   "hairColor": "#2A1E16",
+   "name": "John Anglin"
+  },
+  "clarence": {
+   "outfit": "overalls",
+   "color": "#8FA8C8",
+   "hair": "short",
+   "skin": "light",
+   "hairColor": "#2A1E16",
+   "stubble": true,
+   "name": "Clarence Anglin"
+  },
+  "guard": {
+   "outfit": "suit",
+   "color": "#2A3346",
+   "hat": "cap",
+   "hatColor": "#2A3346",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "stache": "thin",
+   "skin": "light",
+   "name": "Alcatraz guard"
+  },
+  "casanova": {
+   "hat": "tricorn",
+   "hatColor": "#1E1E24",
+   "outfit": "coat",
+   "color": "#8E2A3A",
+   "color2": "#D4A52A",
+   "hair": "side",
+   "hairColor": "#E8E4D8",
+   "skin": "light",
+   "name": "Giacomo Casanova"
+  },
+  "balbi": {
+   "preset": "monk",
+   "name": "Father Marino Balbi"
+  },
+  "grotius": {
+   "hat": "capotain",
+   "hatColor": "#1E1E1E",
+   "outfit": "coat",
+   "color": "#1E1E24",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "beard": "goatee",
+   "stache": "thin",
+   "skin": "light",
+   "name": "Hugo Grotius"
+  },
+  "maria": {
+   "outfit": "dress",
+   "color": "#2A2A3A",
+   "color2": "#E8E4D8",
+   "hat": "bonnet",
+   "hatColor": "#E8E4D8",
+   "hair": "bun",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Maria van Reigersberch"
+  },
+  "dutchsoldier": {
+   "hat": "morion",
+   "outfit": "tunic",
+   "color": "#7A5A2A",
+   "stache": "bush",
+   "hair": "short",
+   "hairColor": "#6A5440",
+   "skin": "light",
+   "name": "Castle soldier"
+  },
+  "charles": {
+   "outfit": "tunic",
+   "color": "#6A5A3A",
+   "hat": "slouch",
+   "hatColor": "#4A3A2A",
+   "hair": "curly",
+   "hairColor": "#1A1410",
+   "stache": "thin",
+   "skin": "olive",
+   "name": "Charles Stuart (later King Charles II)"
+  },
+  "charlesk": {
+   "outfit": "gown",
+   "color": "#8E1F2A",
+   "color2": "#D4A52A",
+   "hat": "crown",
+   "hair": "curly",
+   "hairColor": "#1A1410",
+   "stache": "thin",
+   "skin": "olive",
+   "name": "King Charles II"
+  },
+  "careless": {
+   "outfit": "coat",
+   "color": "#3A4A2A",
+   "hat": "slouch",
+   "hatColor": "#2A2A2A",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "William Careless"
+  },
+  "roundhead": {
+   "preset": "redcoat",
+   "hat": "morion",
+   "outfit": "tunic",
+   "color": "#A8322A",
+   "name": "Parliament soldier"
+  },
+  "brown": {
+   "outfit": "coat",
+   "color": "#5A4632",
+   "hat": "cap",
+   "hatColor": "#3A2A1A",
+   "hair": "short",
+   "hairColor": "#1A1410",
+   "skin": "dark",
+   "name": "Henry 'Box' Brown"
+  },
+  "mckim": {
+   "outfit": "suit",
+   "color": "#1E1E24",
+   "hair": "side",
+   "hairColor": "#4A3A2A",
+   "beard": "full",
+   "skin": "light",
+   "name": "James Miller McKim"
+  },
+  "goldfinch": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hat": "cap",
+   "hatColor": "#5A6E8E",
+   "stache": "bush",
+   "name": "Bill Goldfinch"
+  },
+  "best": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hat": "cap",
+   "hatColor": "#5A6E8E",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "name": "Jack Best"
+  },
+  "bushell": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hat": "cap",
+   "hatColor": "#5A6E8E",
+   "hair": "side",
+   "hairColor": "#2A1E16",
+   "name": "Roger Bushell"
+  },
+  "pow": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hair": "short",
+   "hairColor": "#C8A040",
+   "name": "Allied airman"
+  },
+  "stok": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hair": "side",
+   "hairColor": "#C8A040",
+   "name": "Bram van der Stok"
+  },
+  "camp_guard": {
+   "outfit": "ww2",
+   "color": "#7A7A7A",
+   "hat": "cap",
+   "hatColor": "#7A7A7A",
+   "hair": "short",
+   "skin": "light",
+   "name": "Camp guard"
+  },
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  }
+ },
+ "voices": {
+  "guard": "am_echo",
+  "morris": "am_fenrir",
+  "anglin": "am_liam",
+  "casanova": "am_puck",
+  "balbi": "am_eric",
+  "maria": "bf_emma",
+  "grotius": "bm_lewis",
+  "careless": "bm_daniel",
+  "charles": "bm_george",
+  "mckim": "bm_fable",
+  "brown": "am_onyx",
+  "goldfinch": "am_adam",
+  "best": "bm_lewis",
+  "bushell": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "June 1962. It's the middle of the night on Alcatraz, the toughest prison in America.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "neutral",
+      "hold": "lantern",
+      "walk": [
+       0.2,
+       0.4
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.4,
+      "text": "ALCATRAZ"
+     }
+    ],
+    "place": "Alcatraz Island, San Francisco · June 1962",
+    "tag": {
+     "id": "guard",
+     "text": "Night guard"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A guard walks past the cells with his light. Every prisoner is asleep in bed.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "lantern"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.62,
+      "s": 0.5,
+      "label": "CELL"
+     },
+     {
+      "k": "wall",
+      "x": 0.85,
+      "s": 0.5,
+      "label": "CELL"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ZZZ...",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "guard",
+   "say": "Morris, asleep. The Anglin brothers, asleep. Good. Quiet night.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug",
+      "hold": "lantern"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "guard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Except those weren't heads. They were dummy heads, made of soap, toilet paper and real human hair.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "morris",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.68,
+      "s": 0.45
+     },
+     {
+      "k": "jar",
+      "x": 0.68,
+      "s": 0.25,
+      "y": 0.2,
+      "label": "SOAP + HAIR"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE HEADS!",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The real prisoners were already gone. And nobody has seen them since.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.4,
+      "label": "RAINCOAT RAFT",
+      "move": [
+       0.3,
+       0.7
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GONE",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "We'll find out how at number one. Because today, we're counting down the greatest escapes in history.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.12,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "grotius",
+      "x": 0.27,
+      "pose": "think",
+      "mood": "happy"
+     },
+     {
+      "id": "charles",
+      "x": 0.42,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "brown",
+      "x": 0.57,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "goldfinch",
+      "x": 0.72,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "morris",
+      "x": 0.87,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tunnels, boxes, a tree, and one very homemade glider. And every one of them really happened."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Greatest Escapes in History",
+    "sub": "Seven breakouts. All true.",
+    "cast": [
+     {
+      "id": "morris",
+      "x": 0.88,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "Out Through the Roof"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number seven: the man who escaped through the roof of a palace. Venice, 1756.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Doge's Palace, Venice · 1756",
+    "tag": {
+     "id": "casanova",
+     "text": "Giacomo Casanova, Venetian adventurer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, Venice was its own rich little country, built on water.",
+   "show": {
+    "k": "map",
+    "lon": 12.3,
+    "lat": 45.4,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "1756",
+    "labels": [
+     [
+      "VENICE",
+      12.34,
+      45.44,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      12.34,
+      45.44,
+      0.6,
+      "rgba(47,111,194,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Giacomo Casanova was a gambler, a writer and a famous charmer. In 1755, he was arrested and locked in the Leads, without a trial.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO TRIAL",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Leads were cells right under the palace's metal roof. Boiling in summer, freezing in winter.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.55,
+      "label": "THE LEADS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HOT",
+      "at": 1.0,
+      "color": "#A8322A"
+     },
+     {
+      "text": "COLD",
+      "at": 2.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sharpened an iron bar into a spike and dug through his floor for months. Then, days before he finished, the guards moved him to a new cell."
+  },
+  {
+   "who": "casanova",
+   "say": "Months of digging. For nothing!",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "casanova"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he teamed up with Father Balbi, a monk in the cell nearby. Casanova smuggled him the spike, hidden in a Bible under a big plate of pasta.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "balbi",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPIKE IN A BIBLE",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ],
+    "tag": {
+     "id": "balbi",
+     "text": "Father Marino Balbi, fellow prisoner"
+    }
+   }
+  },
+  {
+   "who": "balbi",
+   "say": "A Bible, a spike, and pasta. Very holy. Very sneaky.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "balbi",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "balbi"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Balbi dug through the ceilings. On the night of October thirty-first, the two men climbed out onto the roof.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "balbi",
+      "x": 0.6,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ON THE ROOF",
+      "at": 1.4,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They climbed back inside on a rope of bedsheets, changed clothes, and a guard let them out, thinking they'd been locked in by mistake. Then they left by gondola.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "GONDOLA"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BYE!",
+      "at": 2.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "All this comes from Casanova's own book, so he may have polished it a little."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "The Book Chest"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number six: the man who escaped in a box of books. The Netherlands, 1619.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "grotius",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "sad",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.55
+     }
+    ],
+    "place": "Loevestein Castle, Netherlands · 1619",
+    "tag": {
+     "id": "grotius",
+     "text": "Hugo Grotius, Dutch lawyer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hugo Grotius was a brilliant lawyer. He landed on the losing side of a fight over religion and politics, and got life in prison.",
+   "show": {
+    "k": "map",
+    "lon": 4.9,
+    "lat": 51.9,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "1621",
+    "labels": [
+     [
+      "LOEVESTEIN",
+      5.02,
+      51.82,
+      0
+     ],
+     [
+      "GORINCHEM",
+      4.97,
+      51.83,
+      -60
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was allowed books. So friends sent a big chest full of them, and he sent it back when he was done.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "grotius",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "BOOK CHEST"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BOOKS IN",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "BOOKS OUT",
+      "at": 2.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After a while, the guards stopped checking the chest. His wife Maria noticed.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "maria",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "smug"
+     },
+     {
+      "id": "grotius",
+      "x": 0.65,
+      "pose": "sit",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "maria",
+     "text": "Maria van Reigersberch, his wife"
+    }
+   }
+  },
+  {
+   "who": "maria",
+   "say": "Hugo. Get in the chest.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "maria",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "maria"
+   }
+  },
+  {
+   "who": "grotius",
+   "say": "With the books?",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "grotius",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "grotius"
+   }
+  },
+  {
+   "who": "maria",
+   "say": "Instead of the books."
+  },
+  {
+   "who": "N",
+   "say": "On March twenty-second, 1621, soldiers carried the chest out, with Grotius curled up inside.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "dutchsoldier",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "neutral"
+     },
+     {
+      "id": "dutchsoldier",
+      "x": 0.6,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.45,
+      "s": 0.45,
+      "label": "BOOKS?",
+      "y": 0.1
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHHH",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ],
+    "place": "Loevestein · 22 March 1621"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A maid named Elsje rode along on the boat, and got the chest to a friend's house in the nearby town of Gorinchem.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.45,
+      "s": 0.45
+     },
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GORINCHEM",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Grotius climbed out, dressed up as a bricklayer, and slipped away to Antwerp, then Paris. He became one of the fathers of international law.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "grotius",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "happy",
+      "walk": [
+       0.2,
+       0.5
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FREE",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And today, two different Dutch museums both say they have the real chest."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "The King in the Tree"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number five: the king who hid in a tree. England, 1651.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.35,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "fire",
+      "x": 0.9,
+      "s": 0.3
+     }
+    ],
+    "place": "Worcester, England · 3 September 1651",
+    "tag": {
+     "id": "charles",
+     "text": "Charles Stuart, future King Charles II"
+    },
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "England had just fought a civil war. Parliament won, and King Charles the First was executed.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.55
+     },
+     {
+      "k": "crown",
+      "x": 0.5,
+      "s": 0.25,
+      "y": 0.15
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EMPTY THRONE",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His son Charles raised an army to win the crown back. At the Battle of Worcester, he lost badly, and ran north.",
+   "show": {
+    "k": "map",
+    "lon": -2.2,
+    "lat": 52.4,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "1651",
+    "labels": [
+     [
+      "WORCESTER",
+      -2.22,
+      52.19,
+      0
+     ],
+     [
+      "BOSCOBEL",
+      -2.24,
+      52.67,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -2.22,
+      52.19
+     ],
+     [
+      -2.3,
+      52.4
+     ],
+     [
+      -2.24,
+      52.67
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now he was the most wanted man in England.",
+   "show": {
+    "k": "card",
+    "label": "Reward for catching Charles",
+    "big": "£1,000",
+    "sub": "a fortune in 1651"
+   }
+  },
+  {
+   "who": "N",
+   "say": "At Boscobel House, a royalist officer named William Careless had an idea.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "careless",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "charles",
+      "x": 0.62,
+      "pose": "think",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.86,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "careless",
+     "text": "William Careless, royalist officer"
+    },
+    "place": "Boscobel House · 6 September 1651"
+   }
+  },
+  {
+   "who": "careless",
+   "say": "Your Majesty, the woods will be full of soldiers. We go up. Into that oak.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "careless",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.9
+     }
+    ],
+    "cam": "close",
+    "focus": "careless"
+   }
+  },
+  {
+   "who": "charles",
+   "say": "A king. In a tree.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.9
+     }
+    ],
+    "cam": "close",
+    "focus": "charles"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They spent a whole day up in the branches, while soldiers hunted for them in the woods nearby.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "roundhead",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "angry",
+      "hold": "spear"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.7,
+      "s": 1.0,
+      "label": "ROYAL OAK"
+     },
+     {
+      "k": "tree",
+      "x": 0.92,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHHH!",
+      "at": 1.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then for six weeks, Charles snuck across England in disguise, even posing as a servant. Finally, he sailed to France.",
+   "show": {
+    "k": "map",
+    "lon": -1.0,
+    "lat": 51.0,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "October 1651",
+    "labels": [
+     [
+      "BOSCOBEL",
+      -2.24,
+      52.67,
+      0
+     ],
+     [
+      "SHOREHAM",
+      -0.27,
+      50.83,
+      0
+     ],
+     [
+      "FRANCE",
+      1.0,
+      49.4,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -2.24,
+      52.67
+     ],
+     [
+      -2.6,
+      51.9
+     ],
+     [
+      -2.0,
+      51.2
+     ],
+     [
+      -1.0,
+      50.9
+     ],
+     [
+      -0.27,
+      50.83
+     ],
+     [
+      0.37,
+      49.76
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nine years later, England invited him back as King Charles the Second. More than four hundred English pubs are still called the Royal Oak.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charlesk",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.7,
+      "s": 0.5,
+      "flag": "uk1606"
+     },
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.4,
+      "text": "THE ROYAL OAK"
+     }
+    ],
+    "place": "London · 1660",
+    "tag": {
+     "id": "charlesk",
+     "text": "King Charles II"
+    },
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "Henry 'Box' Brown"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number four is a story of real courage, so let's tell it seriously.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "brown",
+      "x": 0.35,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.68,
+      "s": 0.4,
+      "label": "TOBACCO"
+     },
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "place": "Richmond, Virginia · 1849",
+    "tag": {
+     "id": "brown",
+     "text": "Henry Brown"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Henry Brown was enslaved in Richmond, Virginia, where he worked in a tobacco factory."
+  },
+  {
+   "who": "N",
+   "say": "In 1848, his wife and children were sold away to North Carolina. He could do nothing to stop it.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "brown",
+      "x": 0.4,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he made a daring plan. He would ship himself to freedom, by mail.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "brown",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "DRY GOODS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHIP MYSELF?",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A free Black friend, James Smith, and a white shoemaker, Samuel Smith, helped him. Henry squeezed into a wooden box about three feet long.",
+   "show": {
+    "k": "card",
+    "label": "Henry's box",
+    "big": "3 FEET",
+    "sub": "long, about 2 feet wide and 2.5 feet deep"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The box went north by wagon, train and steamboat. At times, it was turned upside down.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.45,
+      "s": 0.6,
+      "move": [
+       0.2,
+       0.6
+      ]
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.35,
+      "label": "THIS SIDE UP?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UPSIDE DOWN",
+      "at": 2.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The trip took twenty-seven hours.",
+   "show": {
+    "k": "card",
+    "label": "Henry's trip, Richmond to Philadelphia",
+    "big": "27 HOURS",
+    "sub": "inside a box, in March 1849"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Philadelphia, abolitionists, people working to end slavery, gathered around the box. One of them, James McKim, knocked on the lid.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "mckim",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "place": "Philadelphia · March 1849",
+    "tag": {
+     "id": "mckim",
+     "text": "James Miller McKim, abolitionist"
+    }
+   }
+  },
+  {
+   "who": "mckim",
+   "say": "All right?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "mckim",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "mckim"
+   }
+  },
+  {
+   "who": "brown",
+   "say": "All right, sir!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "brown",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.5,
+      "front": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FREE",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Henry stood up. Abolitionist William Still wrote down his first words: How do you do, gentlemen?",
+   "show": {
+    "k": "quote",
+    "text": "How do you do, gentlemen?",
+    "who": "Henry 'Box' Brown, 1849 (as recorded by William Still)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sang a hymn he had picked for this moment. Then he spent years speaking out against slavery, as Henry Box Brown.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "brown",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "The Bedroom Glider"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number three: the escape plan that was almost too good to use. Germany, 1944.",
+   "show": {
+    "k": "map",
+    "lon": 12.0,
+    "lat": 51.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1944",
+    "labels": [
+     [
+      "COLDITZ",
+      12.81,
+      51.13,
+      0
+     ],
+     [
+      "BERLIN",
+      13.4,
+      52.52,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Colditz Castle was a prison for captured Allied officers. Many were sent there because they had escaped before.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "camp_guard",
+      "x": 0.3,
+      "pose": "stand",
+      "mood": "smug",
+      "hold": "rifle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "uk"
+     }
+    ],
+    "place": "Colditz Castle, Germany · 1944"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most escapes went through the gates or under the walls. Two British pilots, Bill Goldfinch and Jack Best, looked up instead.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "goldfinch",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "best",
+      "x": 0.62,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "goldfinch",
+     "text": "Bill Goldfinch, RAF"
+    }
+   }
+  },
+  {
+   "who": "goldfinch",
+   "say": "We can't get through these walls. So let's fly over them.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "goldfinch",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "goldfinch"
+   }
+  },
+  {
+   "who": "best",
+   "say": "Fly? In what?",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "best",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "best",
+    "tag": {
+     "id": "best",
+     "text": "Jack Best, RAF"
+    }
+   }
+  },
+  {
+   "who": "goldfinch",
+   "say": "A glider. We'll build it ourselves."
+  },
+  {
+   "who": "N",
+   "say": "In a hidden attic above the chapel, they built a two-seat glider from bed slats, floorboards and prison sleeping bags.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "goldfinch",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     },
+     {
+      "id": "best",
+      "x": 0.55,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.45,
+      "label": "BED SLATS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BED SLATS",
+      "at": 1.0,
+      "color": "#B8860B"
+     },
+     {
+      "text": "SLEEPING BAGS",
+      "at": 2.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The launch plan? Drop a bathtub full of concrete off the roof, and let it fling the glider over the river.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.4,
+      "s": 0.7
+     },
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "BATHTUB + CONCRETE",
+      "y": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WHEEE?",
+      "at": 2.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in April 1945, American troops freed the castle first. The glider never flew.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "goldfinch",
+      "x": 0.25,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jeep",
+      "x": 0.6,
+      "s": 0.5,
+      "emblem": "whitestar",
+      "move": [
+       0.4,
+       0.65
+      ]
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.45,
+      "flag": "usa48"
+     }
+    ],
+    "place": "Colditz · April 1945"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2000, a TV crew built a copy. It flew perfectly."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "The Great Escape"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number two is the most famous of all: the Great Escape. Stalag Luft Three was a prison camp for captured Allied airmen.",
+   "show": {
+    "k": "map",
+    "lon": 15.0,
+    "lat": 52.5,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1943",
+    "labels": [
+     [
+      "SAGAN (STALAG LUFT III)",
+      15.32,
+      51.62,
+      0
+     ],
+     [
+      "BERLIN",
+      13.4,
+      52.52,
+      0
+     ],
+     [
+      "STETTIN",
+      14.55,
+      53.43,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its escape leader, Roger Bushell, planned to get two hundred men out at once.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "bushell",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "pow",
+      "x": 0.62,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.86,
+      "s": 0.4,
+      "text": "STALAG LUFT III"
+     }
+    ],
+    "place": "Sagan, Germany (now Żagań, Poland) · 1943",
+    "tag": {
+     "id": "bushell",
+     "text": "Roger Bushell, \"Big X\""
+    }
+   }
+  },
+  {
+   "who": "bushell",
+   "say": "We dig three tunnels. Tom, Dick and Harry. If they find one, we use another.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "bushell",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "bushell"
+   }
+  },
+  {
+   "who": "N",
+   "say": "More than six hundred men helped. They dug about nine metres down, and propped up the walls with thousands of wooden bed boards.",
+   "show": {
+    "k": "card",
+    "label": "Men who helped dig and forge",
+    "big": "600+",
+    "sub": "tunnels about 9 metres deep"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The tunnel sand was bright yellow, easy to spot. So men nicknamed penguins hid it in bags inside their trousers, and shook it out in the gardens.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "pow",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "smug",
+      "walk": [
+       0.2,
+       0.5
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PENGUINS",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "SAND IN PANTS",
+      "at": 2.4,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Germans found Tom. But on the night of March twenty-fourth, 1944, seventy-six men crawled out through Harry.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "pow",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "scared",
+      "walk": [
+       0.15,
+       0.45
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "wall",
+      "x": 0.92,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "76 OUT",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "Stalag Luft III · 24 March 1944",
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Harry came up short of the trees, and the escape was spotted. Within two weeks, seventy-three men were caught.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "camp_guard",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "pow",
+      "x": 0.65,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "camp_guard",
+     "text": "Camp guard"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "What happened next was a crime. On Hitler's orders, fifty of the recaptured men, including Bushell, were shot by the Gestapo.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.3,
+      "s": 0.5
+     },
+     {
+      "k": "sign",
+      "x": 0.5,
+      "s": 0.45,
+      "text": "THE FIFTY"
+     },
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After the war, a number of the men responsible were tried, and some were executed."
+  },
+  {
+   "who": "N",
+   "say": "Only three made it home. Two Norwegian pilots reached Sweden by ship. A Dutch pilot, Bram van der Stok, made it all the way to Spain.",
+   "show": {
+    "k": "card",
+    "label": "Escapers who made it home",
+    "big": "3",
+    "sub": "out of 76"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their courage is why we still remember the Great Escape.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "stok",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.65,
+      "s": 0.45,
+      "flag": "netherlands"
+     },
+     {
+      "k": "steamship",
+      "x": 0.86,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "stok",
+     "text": "Bram van der Stok, Dutch pilot"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "Escape from Alcatraz"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number one. Back to Alcatraz, an island prison in San Francisco Bay, wrapped in cold water and strong currents.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.4,
+      "s": 0.6,
+      "label": "ALCATRAZ"
+     },
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "usa"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "COLD WATER",
+      "at": 1.8,
+      "color": "#2F6FC2"
+     }
+    ],
+    "place": "Alcatraz Island, California · 1962"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Frank Morris and brothers John and Clarence Anglin were bank robbers, and they wanted out.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "morris",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "anglin",
+      "x": 0.55,
+      "pose": "cross",
+      "mood": "smug"
+     },
+     {
+      "id": "clarence",
+      "x": 0.78,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "morris",
+     "text": "Frank Morris"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "With sharpened spoons and a drill made from a vacuum cleaner motor, they slowly widened the air vents behind their sinks.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "anglin",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "AIR VENT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPOONS",
+      "at": 1.0,
+      "color": "#B8860B"
+     },
+     {
+      "text": "VACUUM DRILL",
+      "at": 2.2,
+      "color": "#6A3E8E"
+     }
+    ],
+    "tag": {
+     "id": "anglin",
+     "text": "John Anglin"
+    }
+   }
+  },
+  {
+   "who": "anglin",
+   "say": "Every night we dig. Every morning, it looks like nothing happened.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "anglin",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.8,
+      "s": 0.45,
+      "label": "FAKE WALL"
+     }
+    ],
+    "cam": "close",
+    "focus": "anglin"
+   }
+  },
+  {
+   "who": "morris",
+   "say": "And at night, the guards will see us asleep. Sort of.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "morris",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.8,
+      "s": 0.35,
+      "label": "FAKE HEAD"
+     }
+    ],
+    "cam": "close",
+    "focus": "morris"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Above the cells, they built a raft and life vests from dozens of stolen raincoats.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "clarence",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "RAINCOAT RAFT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RAINCOATS",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ],
+    "tag": {
+     "id": "clarence",
+     "text": "Clarence Anglin"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the night of June eleventh, they climbed to the roof, slid down to the shore and paddled into the dark. A fourth man got stuck in his cell and was left behind.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "morris",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "scared",
+      "walk": [
+       0.2,
+       0.45
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "RAFT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GO GO GO",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The next morning, the guards found the dummy heads. Later, a paddle and bits of life vest turned up in the bay.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the three men were never found. Did they drown, or make it? The FBI thinks they drowned. The U.S. Marshals still keep the case open.",
+   "show": {
+    "k": "card",
+    "label": "Years the case has stayed open",
+    "big": "64",
+    "sub": "the men are still officially missing"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Honorable mention: Napoleon, the French emperor, who slipped away from his island exile on Elba in 1815 and marched straight back to Paris.",
+   "show": {
+    "k": "map",
+    "lon": 7.0,
+    "lat": 45.0,
+    "z0": 1.6,
+    "z1": 1.9,
+    "date": "1815",
+    "labels": [
+     [
+      "ELBA",
+      10.3,
+      42.78,
+      0
+     ],
+     [
+      "GOLFE-JUAN",
+      7.08,
+      43.57,
+      0
+     ],
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ]
+    ],
+    "route": [
+     [
+      10.3,
+      42.78
+     ],
+     [
+      8.5,
+      43.2
+     ],
+     [
+      7.08,
+      43.57
+     ],
+     [
+      6.2,
+      44.1
+     ],
+     [
+      5.72,
+      45.19
+     ],
+     [
+      4.8,
+      46.8
+     ],
+     [
+      2.35,
+      48.86
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It worked for about a hundred days. Then came Waterloo.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "france"
+     },
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "Paris · March 1815",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So there you go: a roof, a book chest, an oak tree, a box, a glider, a tunnel, and a raincoat raft.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "casanova",
+      "x": 0.12,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "grotius",
+      "x": 0.27,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "charlesk",
+      "x": 0.42,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "brown",
+      "x": 0.57,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "goldfinch",
+      "x": 0.72,
+      "pose": "salute",
+      "mood": "happy"
+     },
+     {
+      "id": "morris",
+      "x": 0.87,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Which escape would you have tried? Tell us in the comments."
+  },
+  {
+   "who": "N",
+   "say": "Next time: how pirates actually made money. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "next": "How Pirates Actually Made Money",
+    "cast": [
+     {
+      "id": "morris",
+      "x": 0.78,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "charlesk",
+      "x": 0.92,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "A palace roof, a chest of books, a king up a tree, a man who mailed himself to freedom, a glider made of beds, the real Great Escape, and the three men who vanished from Alcatraz. Here are seven of the greatest escapes in history, counted down from seven to one. Chapters are added automatically.\n\n#history #escape #alcatraz #thegreatescape #historypros",
+ "thumbnail": {
+  "style": "redbox",
+  "bg": "night",
+  "lines": [
+   "ESCAPED!"
+  ],
+  "main": {
+   "id": "morris",
+   "mood": "smug"
+  },
+  "second": {
+   "id": "guard",
+   "mood": "shock",
+   "hold": "lantern"
+  }
+ },
+ "youtube_title": "The Greatest Escapes in History",
+ "tags": [
+  "greatest escapes",
+  "prison escapes",
+  "escape from alcatraz",
+  "the great escape",
+  "stalag luft iii",
+  "henry box brown",
+  "hugo grotius",
+  "casanova",
+  "charles ii royal oak",
+  "colditz glider",
+  "funny history",
+  "animated history",
+  "history pros"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/June_1962_Alcatraz_escape",
+  "https://www.historyhit.com/how-did-3-people-seemingly-escape-from-alcatraz/",
+  "https://history.co.uk/articles/the-story-behind-the-alcatraz-escape-history-s-most-daring-prison-break",
+  "https://www.cbsnews.com/sanfrancisco/news/alcatraz-marks-50-years-since-escape-of-3-prisoners/",
+  "https://www.fox5ny.com/news/infamous-alcatraz-prison-escapees-shown-in-new-age-progressed-photos",
+  "https://en.wikipedia.org/wiki/Piombi",
+  "https://www.gutenberg.org/cache/epub/2960/pg2960.html",
+  "https://www.historyhit.com/giacomo-casanova-master-of-seduction-or-a-misunderstood-intellectual/",
+  "https://www.historydaily.com/the-arrest-of-casanova/",
+  "https://en.wikipedia.org/wiki/Maria_van_Reigersberch",
+  "https://en.wikipedia.org/wiki/Elselina_van_Houwening",
+  "https://en.wikipedia.org/wiki/Loevestein_Castle",
+  "https://canonvannederland.nl/en/hugodegroot",
+  "https://webpresentations.universiteitleiden.nl/s/grotius/page/loevestein-castle-the-prisoner",
+  "https://catalogus.cultureelerfgoed.nl/Details/fullCatalogue/200120319",
+  "https://en.wikipedia.org/wiki/Escape_of_Charles_II",
+  "https://en.wikipedia.org/wiki/William_Careless",
+  "https://www.english-heritage.org.uk/visit/places/boscobel-house-and-the-royal-oak/history/",
+  "https://www.npg.org.uk/collections/search/portrait/mw01073",
+  "https://en.wikipedia.org/wiki/Henry_Box_Brown",
+  "https://www.nps.gov/nebe/learn/historyculture/henryboxbrown.htm",
+  "https://encyclopediavirginia.org/entries/brown-henry-box-1815-or-1816-1897/",
+  "https://www.britannica.com/print/article/2144169",
+  "https://housedivided.dickinson.edu/sites/ugrr/1849-henry-box-brown-escape/",
+  "https://en.wikipedia.org/wiki/Colditz_Cock",
+  "https://www.worldhistory.org/article/2791/escaping-colditz/",
+  "https://ctie.monash.edu/hargrave/cache_001.html",
+  "https://www.history.com/articles/great-escape-wwii-nazi-stalag-luft-iii",
+  "https://www.historyhit.com/?p=8738",
+  "https://www.cam.ac.uk/research/news/recreating-the-great-escape",
+  "https://veterans.gc.ca/en/node/710257",
+  "https://en.wikipedia.org/wiki/French_brig_Inconstant_(1811)",
+  "https://www.napoleon.org/en/magazine/places/the-route-napoleon"
+ ]
+}

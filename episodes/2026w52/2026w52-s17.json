@@ -1,0 +1,298 @@
+{
+ "id": "2026w52-s17",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "A Future King Hid From an Army in a Tree",
+ "hook": "THE KING IN A TREE",
+ "topic": "Charles II",
+ "music": "playful",
+ "cast": {
+  "charles": {
+   "outfit": "tunic",
+   "color": "#6A5A3A",
+   "hat": "slouch",
+   "hatColor": "#4A3A2A",
+   "hair": "curly",
+   "hairColor": "#1A1410",
+   "stache": "thin",
+   "skin": "olive",
+   "name": "Charles Stuart (later King Charles II)"
+  },
+  "charlesk": {
+   "outfit": "gown",
+   "color": "#8E1F2A",
+   "color2": "#D4A52A",
+   "hat": "crown",
+   "hair": "curly",
+   "hairColor": "#1A1410",
+   "stache": "thin",
+   "skin": "olive",
+   "name": "King Charles II"
+  },
+  "careless": {
+   "outfit": "coat",
+   "color": "#3A4A2A",
+   "hat": "slouch",
+   "hatColor": "#2A2A2A",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "William Careless"
+  }
+ },
+ "voices": {
+  "charles": "bm_george",
+  "careless": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1651, the future king of England hid from an army... in a tree.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.72,
+      "s": 0.9
+     }
+    ],
+    "place": "Boscobel, England · September 1651",
+    "tag": {
+     "id": "charles",
+     "text": "Charles, future King Charles II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Charles had just lost the Battle of Worcester, trying to win back his father's crown.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.35,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now there was a reward of a thousand pounds for catching him.",
+   "show": {
+    "k": "card",
+    "label": "Reward for catching Charles",
+    "big": "£1,000",
+    "sub": "a fortune in 1651"
+   }
+  },
+  {
+   "who": "careless",
+   "say": "Up the oak, Your Majesty. Soldiers never look up.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "careless",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.9
+     }
+    ],
+    "cam": "close",
+    "focus": "careless",
+    "tag": {
+     "id": "careless",
+     "text": "William Careless, royalist officer"
+    }
+   }
+  },
+  {
+   "who": "charles",
+   "say": "A king. In a tree. Wonderful."
+  },
+  {
+   "who": "N",
+   "say": "They hid in the branches for a whole day while soldiers searched the woods nearby.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "charles",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.7,
+      "s": 1.0,
+      "label": "ROYAL OAK"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHHH!",
+      "at": 1.6,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Charles spent six weeks in disguise, before sailing to France.",
+   "show": {
+    "k": "map",
+    "lon": -1.0,
+    "lat": 51.3,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1651",
+    "labels": [
+     [
+      "BOSCOBEL",
+      -2.24,
+      52.67,
+      0
+     ],
+     [
+      "FRANCE",
+      1.0,
+      49.4,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -2.24,
+      52.67
+     ],
+     [
+      -2.6,
+      51.9
+     ],
+     [
+      -2.0,
+      51.2
+     ],
+     [
+      -0.27,
+      50.83
+     ],
+     [
+      0.37,
+      49.76
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1660, he came back as King Charles the Second. Hundreds of English pubs are still named the Royal Oak.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charlesk",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.62,
+      "s": 0.45,
+      "flag": "uk1606"
+     },
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.4,
+      "text": "THE ROYAL OAK"
+     }
+    ],
+    "place": "London · 1660",
+    "tag": {
+     "id": "charlesk",
+     "text": "King Charles II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "charlesk",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "careless",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The future king of England spent a day hiding in a tree.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #charlesii #royaloak #englishhistory #historytok",
+ "youtube_title": "A Future King Hid From an Army in a Tree #shorts",
+ "tags": [
+  "charles ii",
+  "royal oak",
+  "boscobel",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Escape_of_Charles_II",
+  "https://en.wikipedia.org/wiki/William_Careless",
+  "https://www.english-heritage.org.uk/visit/places/boscobel-house-and-the-royal-oak/history/",
+  "https://www.npg.org.uk/collections/search/portrait/mw01073"
+ ]
+}

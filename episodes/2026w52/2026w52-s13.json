@@ -1,0 +1,296 @@
+{
+ "id": "2026w52-s13",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "Three Men Vanished From Alcatraz",
+ "hook": "THEY FOOLED ALCATRAZ",
+ "topic": "Alcatraz Escape",
+ "music": "playful",
+ "cast": {
+  "morris": {
+   "outfit": "overalls",
+   "color": "#8FA8C8",
+   "hair": "short",
+   "skin": "light",
+   "hairColor": "#4A3A2A",
+   "name": "Frank Morris"
+  },
+  "anglin": {
+   "outfit": "overalls",
+   "color": "#8FA8C8",
+   "hair": "short",
+   "skin": "light",
+   "hairColor": "#2A1E16",
+   "name": "John Anglin"
+  },
+  "guard": {
+   "outfit": "suit",
+   "color": "#2A3346",
+   "hat": "cap",
+   "hatColor": "#2A3346",
+   "hair": "short",
+   "stache": "thin",
+   "skin": "light",
+   "name": "Alcatraz guard"
+  }
+ },
+ "voices": {
+  "morris": "am_fenrir",
+  "anglin": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1962, three men escaped from Alcatraz. Nobody has found them since.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "morris",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.45,
+      "text": "ALCATRAZ"
+     },
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.4,
+      "flag": "usa"
+     }
+    ],
+    "place": "Alcatraz Island, California · June 1962",
+    "tag": {
+     "id": "morris",
+     "text": "Frank Morris, bank robber"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Alcatraz was an island prison in San Francisco Bay, surrounded by freezing water.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.45,
+      "s": 0.6,
+      "label": "ALCATRAZ"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FREEZING WATER",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Frank Morris and the Anglin brothers widened their cell air vents with sharpened spoons and a homemade drill.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "anglin",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "hammer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "AIR VENT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPOONS",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ],
+    "tag": {
+     "id": "anglin",
+     "text": "John Anglin"
+    }
+   }
+  },
+  {
+   "who": "morris",
+   "say": "Now the guards must think we're still in bed.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "morris",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "morris"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they made dummy heads from soap, toilet paper and real hair.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "anglin",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.35,
+      "label": "FAKE HEAD"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SOAP + HAIR",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then they turned dozens of stolen raincoats into a raft.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "morris",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "RAINCOAT RAFT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One June night, they reached the shore and paddled into the dark.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.4,
+      "label": "RAFT",
+      "move": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GONE",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The FBI thinks they drowned. But the U.S. Marshals still haven't closed the case.",
+   "show": {
+    "k": "card",
+    "label": "Alcatraz escapers still missing",
+    "big": "3",
+    "sub": "since June 1962"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "morris",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "anglin",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Soap, toilet paper, real hair, and a raincoat raft.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #alcatraz #prisonescape #truecrime #historytok",
+ "youtube_title": "Three Men Vanished From Alcatraz #shorts",
+ "tags": [
+  "alcatraz escape",
+  "frank morris",
+  "anglin brothers",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/June_1962_Alcatraz_escape",
+  "https://www.historyhit.com/how-did-3-people-seemingly-escape-from-alcatraz/",
+  "https://history.co.uk/articles/the-story-behind-the-alcatraz-escape-history-s-most-daring-prison-break",
+  "https://www.fox5ny.com/news/infamous-alcatraz-prison-escapees-shown-in-new-age-progressed-photos"
+ ]
+}

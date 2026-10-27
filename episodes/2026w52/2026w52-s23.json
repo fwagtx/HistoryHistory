@@ -1,0 +1,283 @@
+{
+ "id": "2026w52-s23",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "A Couple Escaped Slavery in Disguise",
+ "hook": "ESCAPED IN DISGUISE",
+ "topic": "Ellen and William Craft",
+ "music": "playful",
+ "cast": {
+  "ellen": {
+   "outfit": "dress",
+   "color": "#5A3A5A",
+   "hat": "bonnet",
+   "hatColor": "#E8E4D8",
+   "hair": "bun",
+   "hairColor": "#2A1E16",
+   "skin": "tan",
+   "name": "Ellen Craft"
+  },
+  "ellend": {
+   "outfit": "suit",
+   "color": "#1E1E24",
+   "hat": "tophat",
+   "hatColor": "#1E1E24",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "glasses": "round",
+   "skin": "tan",
+   "name": "Ellen Craft, in disguise"
+  },
+  "william": {
+   "outfit": "coat",
+   "color": "#6A5A3A",
+   "hat": "cap",
+   "hatColor": "#3A2A1A",
+   "hair": "short",
+   "hairColor": "#1A1410",
+   "skin": "brown",
+   "name": "William Craft"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1848, an enslaved couple escaped by hiding in plain sight.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "ellen",
+      "x": 0.35,
+      "pose": "stand",
+      "mood": "neutral"
+     },
+     {
+      "id": "william",
+      "x": 0.62,
+      "pose": "stand",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "place": "Macon, Georgia · December 1848",
+    "tag": {
+     "id": "ellen",
+     "text": "Ellen Craft"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ellen and William Craft were enslaved in Macon, Georgia. A Black couple traveling alone would have been stopped.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "william",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "NO PASS?"
+     }
+    ],
+    "tag": {
+     "id": "william",
+     "text": "William Craft"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Ellen, who had light skin, dressed as a sick white gentleman. William posed as her servant.",
+   "show": {
+    "k": "compare",
+    "bg": "street",
+    "left": {
+     "label": "ELLEN",
+     "cast": [
+      {
+       "id": "ellen",
+       "x": 0.5,
+       "pose": "stand",
+       "mood": "neutral"
+      }
+     ]
+    },
+    "right": {
+     "label": "IN DISGUISE",
+     "cast": [
+      {
+       "id": "ellend",
+       "x": 0.5,
+       "pose": "hips",
+       "mood": "neutral"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ellen wore her arm in a sling, because she had never been allowed to learn to write, and travelers had to sign their names.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "ellend",
+      "x": 0.4,
+      "pose": "stand",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "SIGN HERE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For four tense days, they rode trains and steamboats north, past hotels and checkpoints.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.45,
+      "s": 0.6,
+      "move": [
+       0.2,
+       0.6
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "4 DAYS",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On Christmas Day, 1848, they reached Philadelphia, and freedom.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "ellend",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "william",
+      "x": 0.62,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "place": "Philadelphia · 25 December 1848",
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later, they told their story in a book: Running a Thousand Miles for Freedom.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "ellen",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "RUNNING A THOUSAND MILES FOR FREEDOM"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "ellen",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "william",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "She disguised herself as a white gentleman to escape slavery.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ellencraft #blackhistory #undergroundrailroad #historytok",
+ "youtube_title": "A Couple Escaped Slavery in Disguise #shorts",
+ "tags": [
+  "ellen and william craft",
+  "escape from slavery",
+  "underground railroad",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ellen_and_William_Craft",
+  "https://www.smithsonianmag.com/history/the-great-escape-from-slavery-of-ellen-and-william-craft-497960/",
+  "https://housedivided.dickinson.edu/sites/ugrr/1848-william-and-ellen-craft-escape/",
+  "https://home.nps.gov/articles/-a-desperate-leap-for-liberty-the-escape-of-william-and-ellen-craft.htm"
+ ]
+}

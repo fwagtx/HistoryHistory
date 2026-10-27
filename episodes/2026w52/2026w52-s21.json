@@ -1,0 +1,264 @@
+{
+ "id": "2026w52-s21",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "Prisoners Dug a Tunnel Under a Gym Horse",
+ "hook": "TUNNEL UNDER A GYM HORSE",
+ "topic": "The Wooden Horse",
+ "music": "playful",
+ "cast": {
+  "williams": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hair": "side",
+   "hairColor": "#4A3A2A",
+   "stache": "thin",
+   "name": "Eric Williams"
+  },
+  "codner": {
+   "preset": "brit40",
+   "color": "#6A6A52",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "name": "Michael Codner"
+  },
+  "philpot": {
+   "preset": "brit40",
+   "color": "#5A6E8E",
+   "hair": "side",
+   "hairColor": "#C8A040",
+   "stache": "bush",
+   "name": "Oliver Philpot"
+  }
+ },
+ "voices": {
+  "williams": "bm_lewis",
+  "codner": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1943, three prisoners escaped through a tunnel hidden under a gym vaulting horse.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "williams",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "VAULTING HORSE"
+     }
+    ],
+    "place": "Stalag Luft III, Sagan · 1943",
+    "tag": {
+     "id": "williams",
+     "text": "Eric Williams, RAF"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Eric Williams and Michael Codner, British prisoners of war, needed to dig without being seen.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "codner",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "codner",
+     "text": "Michael Codner, British Army"
+    }
+   }
+  },
+  {
+   "who": "williams",
+   "say": "What if we dig in the middle of the yard, in plain sight?",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "williams",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "williams"
+   }
+  },
+  {
+   "who": "codner",
+   "say": "Under a gym horse. Brilliant."
+  },
+  {
+   "who": "N",
+   "say": "Every day, men carried the wooden horse out and jumped over it, with a digger hidden inside.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "codner",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.6,
+      "s": 0.5,
+      "label": "DIGGER INSIDE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JUMP!",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The jumping hid the noise. They dug for three months with food bowls.",
+   "show": {
+    "k": "card",
+    "label": "Digging under the horse",
+    "big": "3 MONTHS",
+    "sub": "with food bowls as shovels"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On October twenty-ninth, 1943, Williams, Codner and Oliver Philpot crawled out and ran.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "philpot",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "scared",
+      "walk": [
+       0.15,
+       0.45
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "philpot",
+     "text": "Oliver Philpot, RAF"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "All three stowed away on ships to Sweden, a neutral country, and made it home.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "williams",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.6,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.4,
+      "flag": "sweden"
+     }
+    ],
+    "place": "Sweden · November 1943"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "williams",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "philpot",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They hid a tunnel under a gym horse, and all three got home.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #woodenhorse #ww2 #prisonescape #historytok",
+ "youtube_title": "Prisoners Dug a Tunnel Under a Gym Horse #shorts",
+ "tags": [
+  "wooden horse escape",
+  "stalag luft iii",
+  "ww2 escape",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/The_Wooden_Horse",
+  "https://en.wikipedia.org/wiki/Eric_Williams_(writer)",
+  "https://en.wikipedia.org/wiki/Oliver_Philpot",
+  "https://www.iwm.org.uk/history/second-world-war/bombing/real-life-escape-attempts-by-allied-prisoners-of-war"
+ ]
+}

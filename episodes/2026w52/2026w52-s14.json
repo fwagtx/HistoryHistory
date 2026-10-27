@@ -1,0 +1,281 @@
+{
+ "id": "2026w52-s14",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "He Escaped Prison in a Chest of Books",
+ "hook": "ESCAPED IN A BOOK CHEST",
+ "topic": "Hugo Grotius",
+ "music": "playful",
+ "cast": {
+  "grotius": {
+   "hat": "capotain",
+   "hatColor": "#1E1E1E",
+   "outfit": "coat",
+   "color": "#1E1E24",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "beard": "goatee",
+   "stache": "thin",
+   "skin": "light",
+   "name": "Hugo Grotius"
+  },
+  "maria": {
+   "outfit": "dress",
+   "color": "#2A2A3A",
+   "hat": "bonnet",
+   "hatColor": "#E8E4D8",
+   "hair": "bun",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Maria van Reigersberch"
+  }
+ },
+ "voices": {
+  "grotius": "bm_lewis",
+  "maria": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1621, a famous Dutch lawyer escaped from prison inside a chest of books.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "grotius",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "sad",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "BOOK CHEST"
+     }
+    ],
+    "place": "Loevestein Castle, Netherlands · 1621",
+    "tag": {
+     "id": "grotius",
+     "text": "Hugo Grotius, Dutch lawyer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hugo Grotius had been given life in prison after a political fight over religion.",
+   "show": {
+    "k": "map",
+    "lon": 5.0,
+    "lat": 51.9,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "1621",
+    "labels": [
+     [
+      "LOEVESTEIN",
+      5.02,
+      51.82,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was allowed books, which came and went in a big wooden chest.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "grotius",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BOOKS IN, BOOKS OUT",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soon the guards stopped checking it. His wife Maria spotted the chance.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "maria",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "smug"
+     },
+     {
+      "id": "grotius",
+      "x": 0.65,
+      "pose": "sit",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "maria",
+     "text": "Maria van Reigersberch, his wife"
+    }
+   }
+  },
+  {
+   "who": "maria",
+   "say": "Hugo, get in the chest.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "maria",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "maria"
+   }
+  },
+  {
+   "who": "grotius",
+   "say": "Instead of the books? Fine."
+  },
+  {
+   "who": "N",
+   "say": "Soldiers carried the chest out to a boat. A maid rode along and took it to a friend's house in town.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.4,
+      "s": 0.45
+     },
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHHH",
+      "at": 1.4,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Grotius climbed out, dressed as a bricklayer, and walked to freedom. He became one of the fathers of international law.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "grotius",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "happy",
+      "walk": [
+       0.2,
+       0.5
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FREE",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "maria",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "grotius",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His wife packed him like a box of books.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hugogrotius #netherlands #prisonescape #historytok",
+ "youtube_title": "He Escaped Prison in a Chest of Books #shorts",
+ "tags": [
+  "hugo grotius",
+  "loevestein castle",
+  "book chest escape",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Maria_van_Reigersberch",
+  "https://en.wikipedia.org/wiki/Elselina_van_Houwening",
+  "https://canonvannederland.nl/en/hugodegroot",
+  "https://webpresentations.universiteitleiden.nl/s/grotius/page/loevestein-castle-the-prisoner"
+ ]
+}

@@ -1,0 +1,279 @@
+{
+ "id": "2026w52-s24",
+ "format": "short",
+ "date": "2026-12-23",
+ "slot": "09:00",
+ "title": "Mary, Queen of Scots Escaped an Island Castle",
+ "hook": "THE QUEEN WHO ROWED AWAY",
+ "topic": "Mary, Queen of Scots",
+ "music": "playful",
+ "cast": {
+  "mary": {
+   "preset": "queen",
+   "hair": "bun",
+   "hairColor": "#8A3A1E",
+   "name": "Mary, Queen of Scots"
+  },
+  "willie": {
+   "outfit": "tunic",
+   "color": "#4A5A3A",
+   "hair": "short",
+   "hairColor": "#A0602A",
+   "skin": "peach",
+   "name": "Willie Douglas"
+  },
+  "boatman": {
+   "preset": "peasant",
+   "stache": "bush",
+   "name": "Boatman"
+  }
+ },
+ "voices": {
+  "mary": "bf_alice",
+  "willie": "am_puck",
+  "boatman": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1568, Mary, Queen of Scots escaped from a castle on an island.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "mary",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Lochleven Castle, Scotland · 1568",
+    "tag": {
+     "id": "mary",
+     "text": "Mary, Queen of Scots"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Scottish lords forced Mary to give up her throne, and locked her in a castle on a lake.",
+   "show": {
+    "k": "map",
+    "lon": -3.4,
+    "lat": 56.3,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "1567",
+    "labels": [
+     [
+      "LOCH LEVEN",
+      -3.39,
+      56.2,
+      0
+     ],
+     [
+      "EDINBURGH",
+      -3.19,
+      55.95,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her first try, dressed as a laundry woman, failed: her hands looked too soft.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "mary",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "boatman",
+      "x": 0.65,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "boatman",
+   "say": "Those are not laundry hands!",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "boatman",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "boatman"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a young servant, Willie Douglas, stole the castle keys during a party.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "willie",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KEYS!",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ],
+    "tag": {
+     "id": "willie",
+     "text": "Willie Douglas, young servant"
+    }
+   }
+  },
+  {
+   "who": "willie",
+   "say": "Your Majesty, the boat is ready. Walk calmly.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "willie",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "mary",
+      "x": 0.65,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He locked the gate behind them, and they rowed to freedom.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "mary",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.68,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FREE",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "Loch Leven · 2 May 1568"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legend says he threw the keys in the lake. In 1805, a boy found a bunch of old keys there.",
+   "show": {
+    "k": "card",
+    "label": "Keys found in Loch Leven",
+    "big": "1805",
+    "sub": "legend says they were the castle's"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "mary",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "willie",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A queen, a stolen set of keys, and one rowing boat.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #maryqueenofscots #scotland #prisonescape #historytok",
+ "youtube_title": "Mary, Queen of Scots Escaped an Island Castle #shorts",
+ "tags": [
+  "mary queen of scots",
+  "lochleven castle",
+  "scottish history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Lochleven_Castle",
+  "https://en.wikipedia.org/wiki/George_Douglas_of_Helenhill",
+  "https://blog.historicenvironment.scot/2020/05/lochleven-prison-island/",
+  "https://journals.socantscot.org/index.php/psas/article/download/4534/4512/4505"
+ ]
+}
