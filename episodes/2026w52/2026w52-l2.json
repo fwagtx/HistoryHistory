@@ -149,44 +149,50 @@
    "name": "James Miller McKim"
   },
   "goldfinch": {
-   "preset": "brit40",
    "color": "#5A6E8E",
    "hat": "cap",
    "hatColor": "#5A6E8E",
    "stache": "bush",
-   "name": "Bill Goldfinch"
+   "name": "Bill Goldfinch",
+   "outfit": "ww2"
   },
   "best": {
-   "preset": "brit40",
    "color": "#5A6E8E",
    "hat": "cap",
    "hatColor": "#5A6E8E",
    "hair": "side",
    "hairColor": "#3A2A1A",
-   "name": "Jack Best"
+   "name": "Jack Best",
+   "outfit": "ww2",
+   "stache": "thin"
   },
   "bushell": {
-   "preset": "brit40",
    "color": "#5A6E8E",
    "hat": "cap",
    "hatColor": "#5A6E8E",
    "hair": "side",
    "hairColor": "#2A1E16",
-   "name": "Roger Bushell"
+   "name": "Roger Bushell",
+   "outfit": "ww2",
+   "stache": "thin"
   },
   "pow": {
-   "preset": "brit40",
    "color": "#5A6E8E",
    "hair": "short",
    "hairColor": "#C8A040",
-   "name": "Allied airman"
+   "name": "Allied airman",
+   "hat": "brodie",
+   "outfit": "ww2",
+   "stache": "thin"
   },
   "stok": {
-   "preset": "brit40",
    "color": "#5A6E8E",
    "hair": "side",
    "hairColor": "#C8A040",
-   "name": "Bram van der Stok"
+   "name": "Bram van der Stok",
+   "hat": "brodie",
+   "outfit": "ww2",
+   "stache": "thin"
   },
   "camp_guard": {
    "outfit": "ww2",
@@ -263,7 +269,7 @@
    "say": "A guard walks past the cells with his light. Every prisoner is asleep in bed.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "prison",
     "cast": [
      {
       "id": "guard",
@@ -301,7 +307,7 @@
    "say": "Morris, asleep. The Anglin brothers, asleep. Good. Quiet night.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "prison",
     "cast": [
      {
       "id": "guard",
@@ -2243,7 +2249,7 @@
    "say": "Frank Morris and brothers John and Clarence Anglin were bank robbers, and they wanted out.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "prison",
     "cast": [
      {
       "id": "morris",
@@ -2275,7 +2281,7 @@
    "say": "With sharpened spoons and a drill made from a vacuum cleaner motor, they slowly widened the air vents behind their sinks.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "prison",
     "cast": [
      {
       "id": "anglin",
@@ -2438,7 +2444,7 @@
    "say": "The next morning, the guards found the dummy heads. Later, a paddle and bits of life vest turned up in the bay.",
    "show": {
     "k": "scene",
-    "bg": "vault",
+    "bg": "prison",
     "cast": [
      {
       "id": "guard",

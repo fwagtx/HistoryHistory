@@ -3,34 +3,17 @@
  "format": "short",
  "date": "2026-12-25",
  "slot": "09:00",
- "title": "The Richest Pirate Heist Ever, and He Got Away",
- "hook": "PIRATE JACKPOT",
- "topic": "Henry Every",
+ "title": "The King Offered Pirates a Deal",
+ "hook": "QUIT OR BE HUNTED",
+ "topic": "The 1717 Pirate Pardon",
  "music": "playful",
  "cast": {
-  "every": {
-   "preset": "captain",
-   "hat": "tricorn",
-   "hatColor": "#262322",
-   "outfit": "coat",
-   "color": "#2F3A5A",
-   "color2": "#E8C25A",
-   "beard": false,
+  "king": {
+   "preset": "king",
    "hair": "long",
-   "hairColor": "#5A3A1E",
-   "skin": "light",
-   "name": "Henry Every"
-  },
-  "aurangzeb": {
-   "hat": "turban",
-   "hatColor": "#EFEFEF",
-   "outfit": "robe",
-   "color": "#EFE6D2",
-   "color2": "#C8902A",
-   "beard": "full",
-   "hairColor": "#EFEFEF",
-   "skin": "tan",
-   "name": "Emperor Aurangzeb"
+   "hairColor": "#E8E0D0",
+   "skin": "peach",
+   "name": "King George I"
   },
   "pirate": {
    "preset": "pirate",
@@ -42,229 +25,133 @@
    "hairColor": "#3A2A1A",
    "skin": "tan",
    "name": "Pirate"
+  },
+  "hornigold": {
+   "preset": "pirate",
+   "hat": "tricorn",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#3A4A3A",
+   "color2": "#E8DCC0",
+   "beard": "full",
+   "hair": "long",
+   "hairColor": "#4A3A2A",
+   "skin": "light",
+   "name": "Benjamin Hornigold"
+  },
+  "rogers": {
+   "preset": "captain",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#2A3350",
+   "color2": "#E8C25A",
+   "beard": false,
+   "hair": "long",
+   "hairColor": "#8A6A3A",
+   "skin": "peach",
+   "name": "Governor Woodes Rogers"
   }
  },
  "voices": {
-  "every": "am_fenrir",
-  "aurangzeb": "bm_george",
   "pirate": "am_puck"
  },
  "beats": [
   {
    "who": "N",
-   "say": "In 1695, a pirate pulled off one of the richest robberies ever. And he got away.",
+   "say": "In 1717, Britain's king offered pirates a deal: quit and be forgiven, or be hunted.",
    "show": {
     "k": "scene",
-    "bg": "ocean",
-    "cast": [],
-    "objects": [
-     {
-      "k": "sailship",
-      "x": 0.3,
-      "s": 0.55,
-      "flag": "pirate",
-      "move": [
-       0.15,
-       0.4
-      ]
-     },
-     {
-      "k": "sailship",
-      "x": 0.7,
-      "s": 0.8,
-      "label": "Ganj-i-Sawai"
-     }
-    ],
-    "stickers": [
-     {
-      "text": "1695",
-      "at": 0.8,
-      "color": "#A8322A"
-     }
-    ],
-    "place": "Arabian Sea · 1695",
-    "cx": 900
-   }
-  },
-  {
-   "who": "N",
-   "say": "Henry Every, an English sailor, became captain after his unpaid crew seized their ship.",
-   "show": {
-    "k": "scene",
-    "bg": "deck",
+    "bg": "throne",
     "cast": [
      {
-      "id": "every",
-      "x": 0.4,
-      "mood": "angry",
-      "pose": "fist"
+      "id": "king",
+      "x": 0.38,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "scroll"
      }
     ],
     "objects": [
      {
-      "k": "sailship",
+      "k": "scrollbig",
       "x": 0.75,
-      "s": 0.5,
-      "flag": "pirate"
+      "s": 0.45,
+      "text": "PARDON"
      }
     ],
     "stickers": [
      {
-      "text": "NO PAY = MUTINY",
+      "text": "QUIT OR BE HUNTED",
       "at": 0.8,
       "color": "#A8322A"
      }
     ],
+    "place": "London, England · 1717",
     "tag": {
-     "id": "every",
-     "text": "Henry Every"
+     "id": "king",
+     "text": "King George I"
     }
    }
   },
   {
    "who": "N",
-   "say": "His target: the Ganj-i-Sawai, a treasure ship of Aurangzeb, India's Mughal emperor.",
-   "show": {
-    "k": "scene",
-    "bg": "palace",
-    "cast": [
-     {
-      "id": "aurangzeb",
-      "x": 0.45,
-      "mood": "smug",
-      "pose": "present"
-     }
-    ],
-    "objects": [
-     {
-      "k": "goldpile",
-      "x": 0.75,
-      "s": 0.45
-     }
-    ],
-    "tag": {
-     "id": "aurangzeb",
-     "text": "Emperor Aurangzeb"
-    }
-   }
-  },
-  {
-   "who": "every",
-   "say": "That ship's carrying our back pay, lads. With interest.",
-   "show": {
-    "k": "scene",
-    "bg": "deck",
-    "cast": [
-     {
-      "id": "every",
-      "x": 0.35,
-      "mood": "smug",
-      "pose": "point",
-      "hold": "telescope"
-     },
-     {
-      "id": "pirate",
-      "x": 0.7,
-      "mood": "happy",
-      "pose": "cheer"
-     }
-    ],
-    "cam": "close",
-    "focus": "every"
-   }
-  },
-  {
-   "who": "N",
-   "say": "In September 1695 they caught it and grabbed gold and silver.",
-   "show": {
-    "k": "scene",
-    "bg": "sea",
-    "cast": [],
-    "objects": [
-     {
-      "k": "sailship",
-      "x": 0.3,
-      "s": 0.55,
-      "flag": "pirate"
-     },
-     {
-      "k": "sailship",
-      "x": 0.68,
-      "s": 0.7
-     },
-     {
-      "k": "chest",
-      "x": 0.5,
-      "s": 0.35,
-      "front": true
-     }
-    ],
-    "fx": [
-     "smoke"
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "The haul: somewhere between three hundred twenty-five thousand and six hundred thousand pounds.",
-   "show": {
-    "k": "card",
-    "label": "The Ganj-i-Sawai haul, 1695 (estimates)",
-    "big": "£325,000–£600,000",
-    "sub": "one of the richest pirate hauls ever"
-   }
-  },
-  {
-   "who": "N",
-   "say": "Each pirate got about a thousand pounds, roughly a sailor's lifetime of pay.",
-   "show": {
-    "k": "scene",
-    "bg": "deck",
-    "cast": [
-     {
-      "id": "pirate",
-      "x": 0.4,
-      "mood": "happy",
-      "pose": "cheer",
-      "hold": "moneybag"
-     }
-    ],
-    "objects": [
-     {
-      "k": "goldpile",
-      "x": 0.75,
-      "s": 0.5
-     }
-    ],
-    "stickers": [
-     {
-      "text": "£1,000 EACH",
-      "at": 0.8,
-      "color": "#A8322A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "England put a huge reward on him. Some crew were caught. Every never was.",
+   "say": "Pirates had taken over Nassau, in the Bahamas, as their home base.",
    "show": {
     "k": "scene",
     "bg": "harbor",
     "cast": [
      {
-      "id": "every",
+      "id": "pirate",
+      "x": 0.38,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "goblet"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "pirate"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PIRATE TOWN",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Nassau, Bahamas · 1717"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So King George the First offered a pardon: give up within a year, and you're forgiven.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "pirate",
       "x": 0.35,
-      "mood": "smug",
-      "pose": "run"
+      "mood": "shock",
+      "pose": "think"
      }
     ],
     "objects": [
      {
       "k": "sign",
-      "x": 0.7,
-      "s": 0.5,
-      "text": "REWARD £1,000"
+      "x": 0.72,
+      "s": 0.45,
+      "text": "KING'S PARDON"
      },
      {
       "k": "flag",
@@ -272,17 +159,171 @@
       "s": 0.4,
       "flag": "uk1606"
      }
+    ],
+    "stickers": [
+     {
+      "text": "PARDON = FORGIVEN",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
     ]
    }
   },
   {
    "who": "N",
-   "say": "He vanished in 1696. Follow for more money history.",
+   "say": "Refuse, and there's a reward for catching you: a hundred pounds for a captain.",
+   "show": {
+    "k": "card",
+    "label": "Rewards for catching pirates who refused, 1717",
+    "big": "£100",
+    "sub": "per captain (ordinary pirate: £20)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A pirate who turned in his own captain could collect two hundred pounds.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "think"
+     },
+     {
+      "id": "hornigold",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "£200",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "pirate",
+   "say": "Two hundred pounds? Just thinking out loud, Captain.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cam": "close",
+    "focus": "pirate",
+    "cast": [
+     {
+      "id": "pirate",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "shrug"
+     },
+     {
+      "id": "hornigold",
+      "x": 0.68,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1718, Benjamin Hornigold, Blackbeard's old pirate boss, took the pardon.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "hornigold",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1718",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "hornigold",
+     "text": "Benjamin Hornigold"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Nassau's new governor, Woodes Rogers, hired him to hunt pirates.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "rogers",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "hornigold",
+      "x": 0.62,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "telescope"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PIRATE TURNED HUNTER",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "rogers",
+     "text": "Governor Woodes Rogers"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Britain fought pirates with money, not just cannons. Follow for more money history.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "every",
+      "id": "hornigold",
       "x": 0.3,
       "mood": "happy",
       "pose": "wave"
@@ -290,25 +331,29 @@
      {
       "id": "pirate",
       "x": 0.7,
-      "mood": "happy"
+      "mood": "smug"
      }
     ]
    }
   }
  ],
- "caption": "In 1695 one pirate crew robbed an emperor's treasure ship, and its captain was never caught.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #henryevery #moneyhistory #historytok",
- "youtube_title": "The Richest Pirate Heist Ever, and He Got Away #shorts",
+ "caption": "In 1717 Britain offered pirates a deal: quit and be forgiven, or be hunted for cash.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #nassau #moneyhistory #historytok",
+ "youtube_title": "The King Offered Pirates a Deal #shorts",
  "tags": [
-  "henry every",
-  "ganj-i-sawai",
-  "pirate heist",
+  "pirate pardon",
+  "benjamin hornigold",
+  "woodes rogers",
+  "nassau",
   "pirates",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Henry_Every",
-  "https://www.worldhistory.org/Henry_Every/",
-  "https://www.history.com/news/henry-everys-bloody-pirate-raid-320-years-ago",
-  "https://www.amusingplanet.com/2024/12/henry-every-and-looting-of-ganj-i-sawai.html"
+  "https://en.wikipedia.org/wiki/Proclamation_for_Suppressing_of_Pirates",
+  "https://en.wikipedia.org/wiki/1717%E2%80%931718_Acts_of_Grace",
+  "https://www.qaronline.org/blog/2017-09-05/did-you-know-pirates-were-granted-a-pardon",
+  "https://www.worldhistory.org/Benjamin_Hornigold/",
+  "https://en.wikipedia.org/wiki/Benjamin_Hornigold",
+  "https://www.worldhistory.org/Woodes_Rogers/",
+  "https://en.wikipedia.org/wiki/Republic_of_Pirates"
  ]
 }

@@ -211,7 +211,7 @@ The engine vocabulary follows. `pipeline/validate_toon.py` rejects anything else
 - **Outdoors:** field, sea, harbor, town (European), village (European, with a church), castle, desert, sahel (Timbuktu-style mud-brick town with a mud mosque), islamic (Cairo/Baghdad-style domes and minarets), volcano, outback, wheat, rome, egypt, greek, battlefield, trench, city, street, market, camp, deck, palace, steppe, japan, jungle, snow, arctic, factory.
 - **Night:** night, ocean, titanic.
 - **Space:** moon, space.
-- **Indoors:** throne, church, tavern, warroom, vault, courtroom, library, office.
+- **Indoors:** throne, church, tavern, warroom, vault, prison (cell bars), courtroom, library, office.
 - **Blank:** white.
 
 **fx:** snow, rain, dust, smoke, fire (two fires on the floor), confetti, sparkle, explosion.

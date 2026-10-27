@@ -3,208 +3,112 @@
  "format": "short",
  "date": "2026-12-25",
  "slot": "09:00",
- "title": "Pirates Had a Price List for Lost Arms",
- "hook": "AN ARM: 600 COINS",
- "topic": "Pirate Injury Pay",
+ "title": "Rich Merchants Paid for Legal Piracy",
+ "hook": "LEGAL PIRACY",
+ "topic": "Woodes Rogers' Voyage",
  "music": "playful",
  "cast": {
-  "exquemelin": {
-   "preset": "physician",
+  "rogers": {
+   "preset": "captain",
    "hat": "tricorn",
    "hatColor": "#262322",
-   "hold": "book",
+   "outfit": "coat",
+   "color": "#2A3350",
+   "color2": "#E8C25A",
+   "beard": false,
    "hair": "long",
-   "hairColor": "#5A3A1E",
-   "name": "Alexandre Exquemelin"
+   "hairColor": "#8A6A3A",
+   "skin": "peach",
+   "name": "Governor Woodes Rogers"
   },
-  "pirate2": {
+  "investor": {
+   "preset": "merchant",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#4A3A5A",
+   "color2": "#E8DCC0",
+   "hair": "long",
+   "hairColor": "#D8D0C0",
+   "beard": false,
+   "skin": "peach",
+   "hold": "moneybag",
+   "name": "Bristol merchant"
+  },
+  "pirate": {
    "preset": "pirate",
    "hat": "bandana",
-   "hatColor": "#2F6FC2",
+   "hatColor": "#A8322A",
    "outfit": "pirateshirt",
-   "color": "#D8C8A0",
-   "stache": "bush",
-   "beard": false,
-   "hairColor": "#6A4A2A",
-   "skin": "light",
+   "color": "#EFE6D2",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
    "name": "Pirate"
-  },
-  "quartermaster": {
-   "preset": "pirate",
-   "hat": "tricorn",
-   "hatColor": "#3A2A1A",
-   "outfit": "coat",
-   "color": "#6A4A2A",
-   "color2": "#E8DCC0",
-   "beard": "goatee",
-   "hairColor": "#2A1E16",
-   "skin": "brown",
-   "hold": "scroll",
-   "name": "Quartermaster"
   }
  },
  "voices": {
-  "exquemelin": "bm_daniel",
-  "pirate2": "am_liam",
-  "quartermaster": "bm_daniel"
+  "rogers": "bm_lewis"
  },
  "beats": [
   {
    "who": "N",
-   "say": "Pirates had a price list for injuries. A lost right arm paid six hundred silver coins.",
+   "say": "In 1708, rich merchants paid for attacks on enemy ships. And it was legal.",
    "show": {
     "k": "scene",
-    "bg": "deck",
+    "bg": "harbor",
     "cast": [
      {
-      "id": "pirate2",
-      "x": 0.4,
-      "mood": "shock",
-      "pose": "scared"
+      "id": "investor",
+      "x": 0.38,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "moneybag"
      }
     ],
     "objects": [
      {
-      "k": "chest",
+      "k": "sailship",
       "x": 0.75,
-      "s": 0.45
+      "s": 0.5,
+      "flag": "uk1606"
      }
     ],
     "stickers": [
      {
-      "text": "RIGHT ARM = 600",
+      "text": "LEGAL?!",
       "at": 0.8,
       "color": "#A8322A"
      }
     ],
-    "place": "Caribbean · 1670s"
+    "place": "Bristol, England · 1708"
    }
   },
   {
    "who": "N",
-   "say": "We know this from Alexandre Exquemelin, a surgeon who sailed with Caribbean pirates and wrote a book in 1678.",
+   "say": "It was called privateering: in wartime, Britain licensed private ships to attack enemies.",
    "show": {
     "k": "scene",
-    "bg": "library",
+    "bg": "office",
     "cast": [
      {
-      "id": "exquemelin",
-      "x": 0.4,
-      "mood": "neutral",
-      "pose": "present",
-      "hold": "book"
-     }
-    ],
-    "objects": [
-     {
-      "k": "desk",
-      "x": 0.78,
-      "s": 0.45
-     }
-    ],
-    "place": "Amsterdam · 1678",
-    "tag": {
-     "id": "exquemelin",
-     "text": "Alexandre Exquemelin"
-    }
-   }
-  },
-  {
-   "who": "N",
-   "say": "Before a voyage, crews agreed on rules called articles, including payouts for injuries.",
-   "show": {
-    "k": "scene",
-    "bg": "tavern",
-    "cast": [
-     {
-      "id": "quartermaster",
-      "x": 0.4,
-      "mood": "smug",
-      "pose": "present",
-      "hold": "scroll"
+      "id": "investor",
+      "x": 0.38,
+      "mood": "happy",
+      "pose": "point"
      }
     ],
     "objects": [
      {
       "k": "scrollbig",
-      "x": 0.75,
-      "s": 0.45,
-      "text": "ARTICLES"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "A right arm was worth six hundred pieces of eight, big Spanish silver coins. A left arm, five hundred.",
-   "show": {
-    "k": "card",
-    "label": "Buccaneer injury pay, 1670s",
-    "big": "600 pieces of eight",
-    "sub": "for a right arm (left arm: 500)"
-   }
-  },
-  {
-   "who": "pirate2",
-   "say": "Hold on. My left arm is worth less?",
-   "show": {
-    "k": "scene",
-    "bg": "deck",
-    "cast": [
-     {
-      "id": "pirate2",
-      "x": 0.35,
-      "mood": "shock",
-      "pose": "shrug"
-     },
-     {
-      "id": "quartermaster",
-      "x": 0.68,
-      "mood": "smug",
-      "pose": "hold",
-      "hold": "scroll"
-     }
-    ],
-    "objects": [
-     {
-      "k": "barrel",
-      "x": 0.9,
-      "s": 0.35
-     }
-    ],
-    "cam": "close",
-    "focus": "pirate2"
-   }
-  },
-  {
-   "who": "quartermaster",
-   "say": "It's not your sword arm, mate."
-  },
-  {
-   "who": "N",
-   "say": "The money came out of the loot before anyone got their share, so it worked like insurance.",
-   "show": {
-    "k": "scene",
-    "bg": "market",
-    "cast": [
-     {
-      "id": "quartermaster",
-      "x": 0.4,
-      "mood": "happy",
-      "pose": "present"
-     }
-    ],
-    "objects": [
-     {
-      "k": "chest",
-      "x": 0.75,
+      "x": 0.72,
       "s": 0.5,
-      "label": "SHARED POT"
+      "text": "LETTER OF MARQUE"
      }
     ],
     "stickers": [
      {
-      "text": "EVERYONE CHIPS IN",
+      "text": "PRIVATEER = LICENSED RAIDER",
       "at": 0.8,
       "color": "#A8322A"
      }
@@ -213,38 +117,211 @@
   },
   {
    "who": "N",
-   "say": "Brutal job. Surprisingly good benefits. Follow for more money history.",
+   "say": "The license was a letter of marque. Britain was at war with France and Spain.",
+   "show": {
+    "k": "map",
+    "lon": -3.0,
+    "lat": 46.5,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1708",
+    "labels": [
+     [
+      "Britain",
+      -1.8,
+      52.6,
+      14
+     ],
+     [
+      "France",
+      2.3,
+      46.8,
+      14
+     ],
+     [
+      "Spain",
+      -3.7,
+      40.4,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      2.3,
+      46.8,
+      2.2,
+      "rgba(168,50,42,.35)"
+     ],
+     [
+      -3.7,
+      40.4,
+      2.2,
+      "rgba(168,50,42,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The merchants sent two ships under Woodes Rogers, a Bristol sea captain.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "rogers",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.82,
+      "s": 0.45,
+      "flag": "uk1606"
+     }
+    ],
+    "tag": {
+     "id": "rogers",
+     "text": "Captain Woodes Rogers"
+    }
+   }
+  },
+  {
+   "who": "rogers",
+   "say": "Just like pirates, lads. Except we've got the paperwork.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cam": "close",
+    "focus": "rogers",
+    "cast": [
+     {
+      "id": "rogers",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "scroll"
+     },
+     {
+      "id": "pirate",
+      "x": 0.68,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1709, off Mexico, they captured a Spanish treasure ship from the Philippines.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.5,
+      "flag": "uk1606"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.7,
+      "flag": "spain_burgundy",
+      "label": "Spanish treasure ship"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "1709",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Pacific Ocean, off Mexico · 1709"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back home, the loot was sold, and the investors roughly doubled their money.",
+   "show": {
+    "k": "card",
+    "label": "Rogers' privateering voyage, 1708–1711",
+    "big": "2x",
+    "sub": "investors roughly doubled their money"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pirate or privateer, same job. The difference was one piece of paper.",
+   "show": {
+    "k": "compare",
+    "bg": "harbor",
+    "left": {
+     "label": "PIRATE: OUTLAW",
+     "cast": [
+      {
+       "id": "pirate",
+       "mood": "scared"
+      }
+     ]
+    },
+    "right": {
+     "label": "PRIVATEER: LEGAL",
+     "cast": [
+      {
+       "id": "rogers",
+       "mood": "happy",
+       "hold": "scroll"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later, Rogers was sent to fight pirates. Follow for more money history.",
    "show": {
     "k": "end",
     "cast": [
      {
-      "id": "pirate2",
+      "id": "rogers",
       "x": 0.3,
-      "mood": "happy",
+      "mood": "smug",
       "pose": "wave"
      },
      {
-      "id": "quartermaster",
+      "id": "investor",
       "x": 0.7,
-      "mood": "smug"
+      "mood": "happy"
      }
     ]
    }
   }
  ],
- "caption": "Lose an arm on a pirate ship? There was a payout for that.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #piratecode #moneyhistory #historytok",
- "youtube_title": "Pirates Had a Price List for Lost Arms #shorts",
+ "caption": "In 1708, merchants paid for raids on enemy ships, and it was legal. The trick? One piece of paper.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pirates #privateers #moneyhistory #historytok",
+ "youtube_title": "Rich Merchants Paid for Legal Piracy #shorts",
  "tags": [
-  "pirate injury pay",
-  "pirate articles",
-  "exquemelin",
+  "privateers",
+  "letter of marque",
+  "woodes rogers",
   "pirates",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Pirate_code",
-  "https://en.wikipedia.org/wiki/Alexandre_Exquemelin",
-  "https://virginialawyer.vsb.org/va-lawyer-dec-2014/page-18",
-  "https://www.loc.gov/exhibits/exploring-the-early-americas/interactives/buccaneers-of-america/"
+  "https://en.wikipedia.org/wiki/Woodes_Rogers",
+  "https://www.worldhistory.org/Woodes_Rogers/",
+  "https://www.britannica.com/biography/Woodes-Rogers",
+  "https://en.wikipedia.org/wiki/Spanish_ship_Nuestra_Se%C3%B1ora_de_la_Encarnaci%C3%B3n_y_Desenga%C3%B1o",
+  "https://en.wikipedia.org/wiki/Letter_of_marque",
+  "https://en.wikipedia.org/wiki/Privateer",
+  "https://www.cambridge.org/core/books/british-privateering-voyages-of-the-early-eighteenth-century/cruising-voyage-of-woodes-rogers-17081711/159CFEB90D90D33E010F2F666E4B730C"
  ]
 }
