@@ -241,7 +241,7 @@
    "1325",
    "1521"
   ],
-  "word": "FLOATING CITY",
+  "word": "ISLAND CITY",
   "left": {
    "id": "moctezuma",
    "mood": "smug"
@@ -304,7 +304,7 @@
   },
   {
    "who": "N",
-   "say": "At the end of it floats a city of white towers, temples and canals, with thousands of canoes.",
+   "say": "At the end of it stands a city on an island, full of towers, temples, canals and thousands of canoes.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -862,7 +862,7 @@
     "focus": "nezahual",
     "tag": {
      "id": "nezahual",
-     "text": "Nezahualcoyotl, ruler of Texcoco"
+     "text": "Nezahualcoyotl, prince of Texcoco"
     }
    }
   },
@@ -1103,7 +1103,7 @@
   },
   {
    "who": "N",
-   "say": "Fresh drinking water came in through an aqueduct, a stone pipe from the springs on Chapultepec hill.",
+   "say": "Fresh drinking water came in through an aqueduct, a stone channel from the springs on Chapultepec hill.",
    "show": {
     "k": "scene",
     "bg": "volcano",
@@ -1180,10 +1180,10 @@
     ],
     "objects": [
      {
-      "k": "cart",
+      "k": "crate",
       "x": 0.75,
       "s": 0.5,
-      "load": "gold"
+      "label": "CORN & BEANS"
      }
     ]
    }
@@ -1266,7 +1266,7 @@
   },
   {
    "who": "N",
-   "say": "That's bigger than any city in Spain. Seville had maybe fifty thousand. Only a few giants, like Paris and Naples, were in the same league.",
+   "say": "If that's right, it was bigger than any city in Spain. Seville had maybe fifty thousand. Only a few European giants, like Paris and Naples, were in the same league.",
    "show": {
     "k": "map",
     "lon": 4.0,
@@ -1537,7 +1537,7 @@
   },
   {
    "who": "N",
-   "say": "Kids went to school, too. Spanish-era sources say every boy, rich or poor, went to one: special schools for nobles' sons, and neighborhood schools for everyone else.",
+   "say": "Kids went to school, too. Spanish-era sources say every boy went, rich or poor. Nobles' sons went to strict temple schools, and everyone else to neighborhood schools.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1630,7 +1630,7 @@
   },
   {
    "who": "N",
-   "say": "And he loved chocolate. Back then it was a bitter, foamy drink, with no sugar at all.",
+   "say": "And he loved chocolate. Back then it was a bitter, foamy drink, with no sugar.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -1653,7 +1653,7 @@
   },
   {
    "who": "N",
-   "say": "Bernal Díaz wrote that at one meal, servants brought him about fifty big jugs of it, all frothed up.",
+   "say": "Bernal Díaz wrote that at one meal, servants brought him more than fifty big jugs of it, all frothed up.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1684,7 +1684,7 @@
     ],
     "stickers": [
      {
-      "text": "50 JUGS",
+      "text": "50+ JUGS",
       "at": 1.5,
       "color": "#7A4E2E"
      }
@@ -1816,7 +1816,7 @@
   },
   {
    "who": "N",
-   "say": "On the way he gained an interpreter, Malintzin. She had been handed to the Spanish as a captive, spoke the Aztec language, and quickly learned Spanish.",
+   "say": "On the way he gained an interpreter, Malintzin. She was an enslaved young woman given to the Spanish. She spoke the Aztec language and quickly learned Spanish.",
    "show": {
     "k": "scene",
     "bg": "jungle",
@@ -2045,7 +2045,7 @@
   },
   {
    "who": "N",
-   "say": "Cortés also sent Aztec treasures to his king, Charles the Fifth. In 1520 they were shown in Brussels.",
+   "say": "Cortés had already sent Aztec treasures to his king, Charles the Fifth. In 1520 they were shown in Brussels.",
    "show": {
     "k": "map",
     "lon": 0.5,
@@ -2089,7 +2089,7 @@
    "show": {
     "k": "quote",
     "text": "All the days of my life I have seen nothing that rejoiced my heart so much as these things.",
-    "who": "Albrecht Dürer, diary, Brussels, 27 August 1520"
+    "who": "Albrecht Dürer, diary, Brussels, August 1520 (trans. W. M. Conway)"
    }
   },
   {
@@ -2192,7 +2192,7 @@
   },
   {
    "who": "N",
-   "say": "On the night of the thirtieth of June, the Spanish tried to slip out along a causeway. Hundreds died, some weighed down, accounts say, by the gold they carried.",
+   "say": "On the night of the thirtieth of June, the Spanish tried to slip out along a causeway. Hundreds of Spaniards and many more of their allies died. Accounts say some were weighed down by the gold they carried.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -2597,7 +2597,7 @@
   },
   {
    "who": "N",
-   "say": "More than a million Mexicans still speak Nahuatl, the Aztec language. And so do you, a little: chocolate, tomato, avocado and chili all come from it.",
+   "say": "More than a million Mexicans still speak Nahuatl, the Aztec language. And so do you, a little: tomato, avocado, chili and probably chocolate all come from it.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -2618,18 +2618,18 @@
     ],
     "stickers": [
      {
-      "text": "CHOCOLATE",
-      "at": 4.5
-     },
-     {
       "text": "TOMATO",
-      "at": 5.2,
+      "at": 4.5,
       "color": "#C83A3A"
      },
      {
       "text": "AVOCADO",
-      "at": 5.9,
+      "at": 5.2,
       "color": "#1F8A4A"
+     },
+     {
+      "text": "CHOCOLATE",
+      "at": 6.2
      }
     ]
    }
