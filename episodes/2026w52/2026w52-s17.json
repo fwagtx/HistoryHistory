@@ -77,7 +77,7 @@
   },
   {
    "who": "N",
-   "say": "Charles had just lost the Battle of Worcester, trying to win back his father's crown.",
+   "say": "Charles had just lost the Battle of Worcester, fighting for his executed father's crown.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -112,6 +112,40 @@
    }
   },
   {
+   "who": "N",
+   "say": "A loyal officer, William Careless, had an idea.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "careless",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "charles",
+      "x": 0.65,
+      "pose": "think",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.86,
+      "s": 0.8
+     }
+    ],
+    "tag": {
+     "id": "careless",
+     "text": "William Careless, royalist officer"
+    },
+    "place": "Boscobel House · 6 September 1651"
+   }
+  },
+  {
    "who": "careless",
    "say": "Up the oak, Your Majesty. Soldiers never look up.",
    "show": {
@@ -133,11 +167,7 @@
      }
     ],
     "cam": "close",
-    "focus": "careless",
-    "tag": {
-     "id": "careless",
-     "text": "William Careless, royalist officer"
-    }
+    "focus": "careless"
    }
   },
   {
@@ -146,7 +176,7 @@
   },
   {
    "who": "N",
-   "say": "They hid in the branches for a whole day while soldiers searched the woods nearby.",
+   "say": "They hid there all day while soldiers searched the woods nearby.",
    "show": {
     "k": "scene",
     "bg": "wheat",
@@ -225,7 +255,7 @@
   },
   {
    "who": "N",
-   "say": "In 1660, he came back as King Charles the Second. Hundreds of English pubs are still named the Royal Oak.",
+   "say": "In 1660, he came back as King Charles the Second. Hundreds of British pubs are named the Royal Oak.",
    "show": {
     "k": "scene",
     "bg": "palace",

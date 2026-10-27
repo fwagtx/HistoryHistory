@@ -39,8 +39,7 @@
      {
       "k": "sailship",
       "x": 0.72,
-      "s": 0.5,
-      "flag": "france"
+      "s": 0.5
      }
     ],
     "place": "Elba · February 1815",
@@ -65,12 +64,6 @@
       "ELBA",
       10.3,
       42.78,
-      0
-     ],
-     [
-      "ITALY",
-      11.5,
-      43.6,
       0
      ]
     ]
@@ -119,12 +112,6 @@
       0
      ],
      [
-      "GOLFE-JUAN",
-      7.08,
-      43.57,
-      0
-     ],
-     [
       "GRENOBLE",
       5.72,
       45.19,
@@ -157,7 +144,7 @@
   },
   {
    "who": "N",
-   "say": "Near Grenoble, the king's soldiers blocked the road. Napoleon walked right up to them.",
+   "say": "Near Grenoble, the king's soldiers blocked the road. Napoleon walked up to them.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -202,7 +189,7 @@
   },
   {
    "who": "N",
-   "say": "Nobody fired. The soldiers joined him, and soon he was back in Paris.",
+   "say": "Nobody fired. The soldiers joined him, and he marched on to Paris.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -236,12 +223,12 @@
   },
   {
    "who": "N",
-   "say": "It lasted a hundred days, until Waterloo.",
+   "say": "It's called the Hundred Days. It ended with defeat at Waterloo.",
    "show": {
     "k": "card",
     "label": "Napoleon's comeback lasted",
     "big": "100 DAYS",
-    "sub": "and ended at Waterloo"
+    "sub": "and ended with defeat at Waterloo"
    }
   },
   {
