@@ -35,7 +35,7 @@
    "hair": "short",
    "hairColor": "#1E1612",
    "beard": "",
-   "stache": "thin",
+   "stache": "",
    "name": "Moctezuma II"
   },
   "itzcoatl": {
@@ -236,28 +236,20 @@
   "sailor": "am_echo"
  },
  "thumbnail": {
-  "style": "split",
-  "years": [
-   "1325",
-   "1521"
+  "style": "faces",
+  "title": "ISLAND CITY",
+  "bg": "sea",
+  "faces": [
+   {
+    "id": "moctezuma",
+    "mood": "smug"
+   },
+   {
+    "id": "cortes",
+    "mood": "shock"
+   }
   ],
-  "word": "ISLAND CITY",
-  "left": {
-   "id": "moctezuma",
-   "mood": "smug"
-  },
-  "right": {
-   "id": "cortes",
-   "mood": "shock"
-  },
-  "map": {
-   "lon": -12.0,
-   "lat": 30.0,
-   "z": 1.1,
-   "d0": 0,
-   "d1": 0,
-   "red": false
-  }
+  "grade": "warm"
  },
  "beats": [
   {
