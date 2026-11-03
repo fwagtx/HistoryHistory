@@ -1,0 +1,266 @@
+{
+ "id": "2026w53-s03",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "Adams and Jefferson Died on the Same Day: July 4, 1826",
+ "hook": "SAME DAY. JULY 4.",
+ "topic": "Adams and Jefferson",
+ "music": "warm",
+ "cast": {
+  "jefferson": {
+   "hair": "side",
+   "hairColor": "#E8E4DC",
+   "outfit": "coat",
+   "color": "#6A3A2A",
+   "skin": "light",
+   "name": "Thomas Jefferson"
+  },
+  "adams": {
+   "hair": "bald",
+   "hairColor": "#EFEFEF",
+   "outfit": "coat",
+   "color": "#262322",
+   "skin": "light",
+   "name": "John Adams"
+  }
+ },
+ "voices": {
+  "jefferson": "am_liam",
+  "adams": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Two of America's founders died on the same day: the fiftieth birthday of the country they helped create.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "adams",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "jefferson",
+      "x": 0.65,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.5,
+      "flag": "usa1776"
+     }
+    ],
+    "place": "United States · July 4, 1826"
+   }
+  },
+  {
+   "who": "N",
+   "say": "John Adams and Thomas Jefferson both helped write the Declaration of Independence in 1776.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "adams",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "jefferson",
+      "x": 0.62,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.85,
+      "s": 0.4,
+      "text": "1776"
+     }
+    ],
+    "tag": {
+     "id": "adams",
+     "text": "John Adams, 2nd president"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later they became bitter rivals. But in old age, they made up and wrote each other for years.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "jefferson",
+      "x": 0.4,
+      "pose": "hold",
+      "hold": "letter",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "jefferson",
+     "text": "Thomas Jefferson, 3rd president"
+    }
+   }
+  },
+  {
+   "who": "jefferson",
+   "say": "Is it the Fourth yet?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "jefferson",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "jefferson"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Jefferson died around midday on July 4, 1826, at his home in Virginia.",
+   "show": {
+    "k": "map",
+    "lon": -74.0,
+    "lat": 40.0,
+    "z0": 1.5,
+    "z1": 1.6,
+    "date": "1826",
+    "labels": [
+     [
+      "VIRGINIA",
+      -78.5,
+      37.8,
+      0
+     ],
+     [
+      "MASSACHUSETTS",
+      -71.8,
+      42.3,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -78.5,
+      37.8,
+      0.8,
+      "rgba(214,48,40,.4)"
+     ],
+     [
+      -71.8,
+      42.3,
+      0.8,
+      "rgba(40,90,200,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hours later, Adams died in Massachusetts. His family remembered his last words: Thomas Jefferson survives.",
+   "show": {
+    "k": "quote",
+    "text": "Thomas Jefferson survives.",
+    "who": "John Adams's last words, as remembered by his family, July 4, 1826"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He didn't know Jefferson had died about five hours earlier.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "adams",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fifty years to the day after the Declaration, both men were gone.",
+   "show": {
+    "k": "card",
+    "label": "Both died on",
+    "big": "JULY 4, 1826",
+    "sub": "exactly 50 years after the Declaration"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "adams",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "jefferson",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "John Adams and Thomas Jefferson died on the same day, July 4, 1826, the 50th birthday of the Declaration.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #johnadams #thomasjefferson #ushistory #historytok",
+ "youtube_title": "Adams and Jefferson Died on the Same Day: July 4, 1826 #shorts",
+ "tags": [
+  "john adams",
+  "thomas jefferson",
+  "july 4 1826",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.history.com/this-day-in-history/july-4/thomas-jefferson-and-john-adams-die",
+  "https://masshist.org/beehiveblog/tag/thomas-jefferson",
+  "https://www.monticello.org/tje/1071"
+ ]
+}

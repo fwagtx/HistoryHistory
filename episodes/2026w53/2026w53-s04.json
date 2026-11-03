@@ -1,0 +1,332 @@
+{
+ "id": "2026w53-s04",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "The British Burned the White House in 1814",
+ "hook": "THE WHITE HOUSE BURNED",
+ "topic": "Burning of Washington",
+ "music": "tense",
+ "cast": {
+  "dolley": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "gown",
+   "color": "#C88AA8",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Dolley Madison"
+  },
+  "servant": {
+   "outfit": "coat",
+   "color": "#2A2E3A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light"
+  },
+  "redcoat": {
+   "preset": "redcoat"
+  }
+ },
+ "voices": {
+  "dolley": "af_heart",
+  "servant": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1814, British soldiers set the White House on fire.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "redcoat",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.62,
+      "s": 0.9,
+      "label": "WHITE HOUSE"
+     },
+     {
+      "k": "fire",
+      "x": 0.45,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "place": "Washington, D.C. · August 24, 1814",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "During the War of 1812, American troops had burned York, a town in British Canada.",
+   "show": {
+    "k": "map",
+    "lon": -76.0,
+    "lat": 41.5,
+    "z0": 1.8,
+    "z1": 1.9,
+    "date": "1814",
+    "labels": [
+     [
+      "YORK",
+      -79.38,
+      43.65,
+      0
+     ],
+     [
+      "WASHINGTON",
+      -77.04,
+      38.9,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -79.0,
+      43.5
+     ],
+     [
+      -77.5,
+      41.0
+     ],
+     [
+      -77.04,
+      38.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So British troops marched on Washington to get even. President James Madison had to flee.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "redcoat",
+      "x": 0.35,
+      "walk": [
+       0.15,
+       0.4
+      ],
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.55,
+      "flag": "uk"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His wife, Dolley Madison, was still in the White House.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "dolley",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.55
+     }
+    ],
+    "tag": {
+     "id": "dolley",
+     "text": "Dolley Madison, First Lady"
+    }
+   }
+  },
+  {
+   "who": "dolley",
+   "say": "Save the painting of George Washington!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "dolley",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "dolley"
+   }
+  },
+  {
+   "who": "servant",
+   "say": "The frame is screwed to the wall!",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "servant",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "servant"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they broke the frame and got the painting out. Then Dolley fled too.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "dolley",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "painting",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That night, the British burned the White House. The next day, a huge storm hit, and they soon left.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.5,
+      "s": 0.9,
+      "label": "WHITE HOUSE"
+     },
+     {
+      "k": "fire",
+      "x": 0.3,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "rain",
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The painting survived. It hangs in the White House today.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "dolley",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "dolley",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "redcoat",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1814 the British burned the White House, but Dolley Madison's household saved George Washington's portrait first.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #whitehouse #warof1812 #ushistory #historytok",
+ "youtube_title": "The British Burned the White House in 1814 #shorts",
+ "tags": [
+  "white house",
+  "war of 1812",
+  "dolley madison",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.whitehousehistory.org/educational-resources/saving-history-dolley-madison-the-white-house-and-the-war-of-1812",
+  "https://www.ebsco.com/research-starters/military-history-and-science/british-burn-washington-dc",
+  "https://www.smithsonianmag.com/science-nature/the-tornado-that-saved-washington-33901211/",
+  "https://en.wikipedia.org/wiki/Burning_of_Washington"
+ ]
+}

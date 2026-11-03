@@ -1,0 +1,259 @@
+{
+ "id": "2026w53-s08",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "Ben Franklin Never Asked for a Turkey National Bird",
+ "hook": "TEAM TURKEY?",
+ "topic": "Benjamin Franklin",
+ "music": "playful",
+ "cast": {
+  "franklin": {
+   "hair": "long",
+   "hairColor": "#DADADA",
+   "glasses": "round",
+   "outfit": "coat",
+   "color": "#7A5A3A",
+   "skin": "light",
+   "name": "Benjamin Franklin"
+  },
+  "sarah": {
+   "hat": "bonnet",
+   "outfit": "dress",
+   "color": "#6A8AB8",
+   "skin": "light",
+   "hair": "bun",
+   "hairColor": "#6A4A2A",
+   "name": "Sarah Bache"
+  }
+ },
+ "voices": {
+  "franklin": "bm_lewis",
+  "sarah": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Benjamin Franklin never actually asked for the turkey to be America's national bird.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "franklin",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.55,
+      "text": "TURKEY?"
+     }
+    ],
+    "place": "Passy, near Paris · 1784",
+    "tag": {
+     "id": "franklin",
+     "text": "Benjamin Franklin, founder"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Franklin, a printer, scientist and founder, was living in France in 1784.",
+   "show": {
+    "k": "map",
+    "lon": 2.0,
+    "lat": 47.0,
+    "z0": 2.0,
+    "z1": 2.2,
+    "date": "1784",
+    "labels": [
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      2.35,
+      48.86,
+      0.8,
+      "rgba(214,48,40,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back home, war veterans had a club badge with an eagle on it. Franklin thought it looked more like a turkey.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "franklin",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "THE BADGE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Franklin wrote a joking letter to his daughter, Sarah.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "franklin",
+      "x": 0.3,
+      "hold": "pen",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wrote that the bald eagle is a bird of bad moral character, and the turkey is a much more respectable bird.",
+   "show": {
+    "k": "quote",
+    "text": "The bald eagle is a bird of bad moral character... The turkey is in comparison a much more respectable bird.",
+    "who": "Benjamin Franklin, letter to his daughter Sarah Bache, 1784"
+   }
+  },
+  {
+   "who": "sarah",
+   "say": "Dad, are you okay?",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "sarah",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.45,
+      "text": "LETTER"
+     }
+    ],
+    "cam": "close",
+    "focus": "sarah"
+   }
+  },
+  {
+   "who": "franklin",
+   "say": "The eagle steals fish from other birds! Lazy!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "franklin",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "franklin"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But it was a private, joking letter. He never asked Congress for a turkey.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "franklin",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.55,
+      "flag": "usa1776"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "franklin",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sarah",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Ben Franklin roasted the bald eagle in a letter to his daughter. He never proposed the turkey.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #benjaminfranklin #mythbusting #ushistory #historytok",
+ "youtube_title": "Ben Franklin Never Asked for a Turkey National Bird #shorts",
+ "tags": [
+  "benjamin franklin",
+  "turkey national bird",
+  "bald eagle",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.fi.edu/benjamin-franklin/franklin-national-bird",
+  "https://www.snopes.com/fact-check/benjamin-franklin-turkey/",
+  "https://greatseal.com/symbols/turkey.html"
+ ]
+}

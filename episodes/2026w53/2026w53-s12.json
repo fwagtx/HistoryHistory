@@ -1,0 +1,276 @@
+{
+ "id": "2026w53-s12",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "The Apollo 11 Astronauts Filled Out a Customs Form",
+ "hook": "ANYTHING TO DECLARE?",
+ "topic": "Apollo 11",
+ "music": "playful",
+ "cast": {
+  "armstrong": {
+   "preset": "astronaut",
+   "name": "Neil Armstrong"
+  },
+  "astro2": {
+   "preset": "astronaut"
+  },
+  "officer": {
+   "hat": "cap",
+   "hatColor": "#1F2E55",
+   "outfit": "suit",
+   "color": "#1F2E55",
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "glasses": "square"
+  }
+ },
+ "voices": {
+  "officer": "am_echo",
+  "armstrong": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "After walking on the Moon, the Apollo 11 astronauts had to fill out a customs form.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "armstrong",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.68,
+      "s": 0.45
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.82,
+      "s": 0.35,
+      "text": "CUSTOMS"
+     }
+    ],
+    "place": "Honolulu, Hawaii · July 1969"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In July 1969, Neil Armstrong and Buzz Aldrin became the first people on the Moon.",
+   "show": {
+    "k": "scene",
+    "bg": "moon",
+    "cast": [
+     {
+      "id": "armstrong",
+      "x": 0.3,
+      "walk": [
+       0.2,
+       0.35
+      ],
+      "mood": "happy"
+     },
+     {
+      "id": "astro2",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "usa"
+     }
+    ],
+    "place": "The Moon · July 20, 1969",
+    "tag": {
+     "id": "armstrong",
+     "text": "Neil Armstrong"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "They splashed down in the Pacific, and a Navy ship carried them to Hawaii.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "astro2",
+      "x": 0.3,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "battleship",
+      "x": 0.7,
+      "s": 0.6,
+      "flag": "usa",
+      "label": "USS HORNET"
+     }
+    ],
+    "place": "Pacific Ocean · July 24, 1969"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Honolulu, they filed a customs form, the paper travelers fill out when entering the country.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "officer",
+      "x": 0.3,
+      "mood": "neutral"
+     },
+     {
+      "id": "armstrong",
+      "x": 0.65,
+      "hold": "pen",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.48,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "officer",
+   "say": "Anything to declare?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "officer",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "officer"
+   }
+  },
+  {
+   "who": "armstrong",
+   "say": "Moon rocks. And moon dust.",
+   "show": {
+    "k": "scene",
+    "bg": "moon",
+    "cast": [
+     {
+      "id": "armstrong",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.45,
+      "label": "MOON ROCKS"
+     }
+    ],
+    "cam": "close",
+    "focus": "armstrong"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The form said: flight Apollo 11, departing from the Moon.",
+   "show": {
+    "k": "card",
+    "label": "Departure from:",
+    "big": "MOON",
+    "sub": "Arrival: Honolulu, Hawaii, USA"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Asked if anything on board might spread disease, they wrote: to be determined. It was partly a joke, but the form is real, signed by all three.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "officer",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "TO BE DETERMINED"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "armstrong",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "officer",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Back from the Moon, the Apollo 11 crew signed a customs form: departure point, the Moon.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #apollo11 #moonlanding #ushistory #historytok",
+ "youtube_title": "The Apollo 11 Astronauts Filled Out a Customs Form #shorts",
+ "tags": [
+  "apollo 11",
+  "moon landing",
+  "customs form",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.space.com/7044-moon-apollo-astronauts-customs.html",
+  "https://www.flexport.com/blog/apollo-11-astronauts-cleared-moon-customs/",
+  "https://magazine.scienceconnected.org/2015/07/apollo-11-astronauts-customs-form/"
+ ]
+}

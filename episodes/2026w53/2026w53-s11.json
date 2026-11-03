@@ -1,0 +1,279 @@
+{
+ "id": "2026w53-s11",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "Why Juneteenth Is on June 19",
+ "hook": "FREEDOM CAME LATE",
+ "topic": "Juneteenth",
+ "music": "warm",
+ "cast": {
+  "lincoln": {
+   "preset": "lincoln",
+   "name": "Abraham Lincoln"
+  },
+  "granger": {
+   "hat": "kepi",
+   "hatColor": "#1F2E55",
+   "outfit": "uniform",
+   "color": "#1F2E55",
+   "skin": "light",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "name": "Gordon Granger"
+  },
+  "freedwoman": {
+   "hat": "headscarf",
+   "hatColor": "#C8A04A",
+   "outfit": "dress",
+   "color": "#6A8AB8",
+   "skin": "dark"
+  },
+  "freedman": {
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "skin": "dark"
+  }
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Enslaved people in Texas were told they were free about two and a half years after Lincoln's proclamation.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "freedwoman",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "freedman",
+      "x": 0.55,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Galveston, Texas · June 19, 1865"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1863, during the Civil War, Lincoln's Emancipation Proclamation declared enslaved people in the rebel states free.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "scroll",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.5,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Washington, D.C. · 1863",
+    "tag": {
+     "id": "lincoln",
+     "text": "Abraham Lincoln, president"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Union soldiers had to enforce it, and Texas was far from the fighting.",
+   "show": {
+    "k": "map",
+    "lon": -88.0,
+    "lat": 35.0,
+    "z0": 1.0,
+    "z1": 1.1,
+    "date": "1865",
+    "labels": [
+     [
+      "TEXAS",
+      -99.0,
+      31.5,
+      0
+     ],
+     [
+      "WASHINGTON",
+      -77.04,
+      38.9,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -99.0,
+      31.5,
+      3.0,
+      "rgba(214,48,40,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The war ended in spring 1865. On June 19, Union general Gordon Granger reached Galveston.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "granger",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "usa1859"
+     }
+    ],
+    "tag": {
+     "id": "granger",
+     "text": "General Gordon Granger"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His order said: The people of Texas are informed that all slaves are free.",
+   "show": {
+    "k": "quote",
+    "text": "The people of Texas are informed that... all slaves are free.",
+    "who": "General Order No. 3, Galveston, June 19, 1865"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many enslavers delayed or ignored it, but the news spread.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "freedman",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A year later, freed people in Texas held the first celebration: Juneteenth.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "freedwoman",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "freedman",
+      "x": 0.6,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.5,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Texas · June 19, 1866",
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2021, Juneteenth became a national holiday.",
+   "show": {
+    "k": "card",
+    "label": "Juneteenth",
+    "big": "JUNE 19",
+    "sub": "a national holiday since 2021"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "freedwoman",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "freedman",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Juneteenth marks June 19, 1865, when enslaved people in Texas were told they were free.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juneteenth #blackhistory #ushistory #historytok",
+ "youtube_title": "Why Juneteenth Is on June 19 #shorts",
+ "tags": [
+  "juneteenth",
+  "general order no 3",
+  "emancipation",
+  "black history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/General_Order_No._3",
+  "https://www.battlefields.org/learn/articles/juneteenth",
+  "https://rediscovering-black-history.blogs.archives.gov/2021/06/16/juneteenth-the-celebration-of-a-new-freedom-in-america"
+ ]
+}

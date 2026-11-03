@@ -1,0 +1,267 @@
+{
+ "id": "2026w53-s01",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "The Pilgrims Stopped at Plymouth Partly Because of Beer",
+ "hook": "THEY RAN OUT OF BEER",
+ "topic": "The Pilgrims",
+ "music": "playful",
+ "cast": {
+  "pilgrim": {
+   "preset": "puritan",
+   "beard": "full",
+   "hairColor": "#5A3A22"
+  },
+  "pilgrimw": {
+   "hat": "bonnet",
+   "hatColor": "#F2EEE4",
+   "outfit": "dress",
+   "color": "#3A3A3A",
+   "apron": true,
+   "skin": "light",
+   "hair": "bun",
+   "hairColor": "#6A4A2A"
+  }
+ },
+ "voices": {
+  "pilgrim": "am_puck",
+  "pilgrimw": "bf_alice"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Pilgrims picked their new home partly because they were running out of beer.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pilgrim",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "BEER"
+     },
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "place": "The Mayflower · December 1620"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1620, about a hundred Pilgrims sailed from England on the Mayflower.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "pilgrimw",
+      "x": 0.3,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.9,
+      "flag": "uk1606",
+      "label": "MAYFLOWER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For weeks, they searched the freezing coast of Massachusetts for a place to settle.",
+   "show": {
+    "k": "map",
+    "lon": -69.6,
+    "lat": 41.8,
+    "z0": 2.2,
+    "z1": 2.4,
+    "date": "1620",
+    "labels": [
+     [
+      "CAPE COD",
+      -70.1,
+      41.75,
+      0
+     ],
+     [
+      "PLYMOUTH",
+      -70.67,
+      41.96,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -70.67,
+      41.96,
+      0.5,
+      "rgba(214,48,40,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "pilgrim",
+   "say": "Should we keep looking for the perfect spot?",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "pilgrim",
+      "x": 0.45,
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "pilgrim"
+   }
+  },
+  {
+   "who": "pilgrimw",
+   "say": "We can't. The beer is almost gone!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "pilgrimw",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.45,
+      "label": "EMPTY"
+     }
+    ],
+    "cam": "close",
+    "focus": "pilgrimw"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their own journal says it: they couldn't search any longer, our victuals being much spent, especially our beer.",
+   "show": {
+    "k": "quote",
+    "text": "Our victuals being much spent, especially our beer.",
+    "who": "Mourt's Relation, the Pilgrims' journal, December 1620"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Victuals just means food. And for English people back then, beer was an everyday drink.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "pilgrim",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in December 1620, they settled at Plymouth. Food came first, but beer made the list.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pilgrim",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "pilgrimw",
+      "x": 0.6,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "place": "Plymouth, Massachusetts · December 1620"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pilgrim",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "pilgrimw",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Pilgrims' own journal says they stopped searching partly because the beer was running out.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pilgrims #mayflower #ushistory #historytok",
+ "youtube_title": "The Pilgrims Stopped at Plymouth Partly Because of Beer #shorts",
+ "tags": [
+  "pilgrims",
+  "mayflower",
+  "plymouth",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mourt%27s_Relation",
+  "https://gutenberg.org/ebooks/66359",
+  "https://www.historynewsnetwork.org/article/133996"
+ ]
+}

@@ -1,0 +1,287 @@
+{
+ "id": "2026w53-s10",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "The Golden Spike Has the Wrong Date on It",
+ "hook": "THE WRONG DATE",
+ "topic": "The Golden Spike",
+ "music": "playful",
+ "cast": {
+  "boss": {
+   "hat": "tophat",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light"
+  },
+  "crew": {
+   "hat": "cap",
+   "hatColor": "#6A4A2A",
+   "outfit": "overalls",
+   "skin": "light",
+   "stubble": true
+  },
+  "railworker": {
+   "hat": "straw",
+   "outfit": "tunic",
+   "color": "#3A5A8A",
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#1E1612"
+  }
+ },
+ "voices": {
+  "boss": "bm_daniel",
+  "crew": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The golden spike that finished America's first coast-to-coast railroad has the wrong date.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.4,
+      "text": "GOLD SPIKE"
+     }
+    ],
+    "place": "Promontory Summit, Utah · May 1869"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two companies built it: one heading east from California, one heading west from Nebraska.",
+   "show": {
+    "k": "map",
+    "lon": -108.0,
+    "lat": 40.5,
+    "z0": 1.0,
+    "z1": 1.1,
+    "date": "1869",
+    "labels": [
+     [
+      "CALIFORNIA",
+      -120.0,
+      37.5,
+      0
+     ],
+     [
+      "UTAH",
+      -112.0,
+      40.0,
+      0
+     ],
+     [
+      "NEBRASKA",
+      -99.5,
+      41.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -121.5,
+      38.6
+     ],
+     [
+      -117.0,
+      40.5
+     ],
+     [
+      -112.5,
+      41.6
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Chinese immigrants did much of the hardest work in the west.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "railworker",
+      "x": 0.35,
+      "pose": "hold",
+      "hold": "pitchfork",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The tracks would meet in Utah on May 8, 1869, so that date went on the spike.",
+   "show": {
+    "k": "card",
+    "label": "Engraved on the golden spike",
+    "big": "MAY 8, 1869",
+    "sub": "the day the party was planned"
+   }
+  },
+  {
+   "who": "crew",
+   "say": "Nobody moves this train until we get paid!",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "crew",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "crew"
+   }
+  },
+  {
+   "who": "boss",
+   "say": "But I have a party to get to!",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "boss"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Floods and unpaid workers delayed a boss's train. The ceremony slipped two days, to May 10.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.7,
+      "s": 0.55
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the spike was pulled right out, so nobody would steal it. It's now in a Stanford University museum.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "GOLDEN SPIKE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "crew",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The golden spike says May 8, 1869. The ceremony actually happened on May 10.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #goldenspike #railroad #ushistory #historytok",
+ "youtube_title": "The Golden Spike Has the Wrong Date on It #shorts",
+ "tags": [
+  "golden spike",
+  "transcontinental railroad",
+  "1869",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Golden_spike",
+  "https://en.wikipedia.org/wiki/Promontory,_Utah",
+  "https://www.ksl.com/article/1203635",
+  "https://historynet.com/good-points-golden-spike/"
+ ]
+}

@@ -1,0 +1,282 @@
+{
+ "id": "2026w53-s09",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "The First Airplane Flight Lasted 12 Seconds",
+ "hook": "12 SECONDS",
+ "topic": "Wright Brothers",
+ "music": "playful",
+ "cast": {
+  "orville": {
+   "hat": "cap",
+   "hatColor": "#4A4A4A",
+   "outfit": "suit",
+   "color": "#3A3E4A",
+   "stache": "bush",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Orville Wright"
+  },
+  "wilbur": {
+   "hair": "bald",
+   "hairColor": "#8A6A4A",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "skin": "light",
+   "name": "Wilbur Wright"
+  }
+ },
+ "voices": {
+  "orville": "am_eric",
+  "wilbur": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The first powered airplane flight lasted about twelve seconds.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "orville",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "biplane",
+      "x": 0.65,
+      "s": 0.7,
+      "y": 0.15
+     }
+    ],
+    "place": "Near Kitty Hawk, North Carolina · December 17, 1903"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Orville and Wilbur Wright were brothers from Dayton, Ohio, who ran a bicycle shop.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "orville",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "wilbur",
+      "x": 0.62,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.45,
+      "text": "BICYCLES"
+     }
+    ],
+    "place": "Dayton, Ohio · 1900",
+    "tag": {
+     "id": "wilbur",
+     "text": "Wilbur Wright"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "They built a plane with a small engine and tested it on windy sand dunes in North Carolina.",
+   "show": {
+    "k": "map",
+    "lon": -79.0,
+    "lat": 38.0,
+    "z0": 1.6,
+    "z1": 1.7,
+    "date": "1903",
+    "labels": [
+     [
+      "OHIO",
+      -82.9,
+      40.3,
+      0
+     ],
+     [
+      "N. CAROLINA",
+      -79.5,
+      35.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -84.19,
+      39.76
+     ],
+     [
+      -80.0,
+      37.5
+     ],
+     [
+      -75.7,
+      36.0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They flipped a coin to see who'd fly first. Wilbur won, but his try failed.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "wilbur",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "biplane",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "wilbur",
+   "say": "Your turn, Orville. Try not to crash it.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "wilbur",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "biplane",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "wilbur"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Three days later, Orville took off and flew about 120 feet.",
+   "show": {
+    "k": "card",
+    "label": "The first flight, December 17, 1903",
+    "big": "120 FEET",
+    "sub": "shorter than the wingspan of a Boeing 747 jumbo jet"
+   }
+  },
+  {
+   "who": "orville",
+   "say": "We flew! For twelve whole seconds!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "orville",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "biplane",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "orville",
+    "tag": {
+     "id": "orville",
+     "text": "Orville Wright"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later that day, Wilbur flew 852 feet in 59 seconds. Sixty-six years later, Americans walked on the Moon.",
+   "show": {
+    "k": "scene",
+    "bg": "moon",
+    "cast": [
+     {
+      "id": "wilbur",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rocket",
+      "x": 0.75,
+      "s": 0.55,
+      "text": "USA"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "orville",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "wilbur",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Wright brothers' first flight lasted about 12 seconds and went 120 feet.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #wrightbrothers #aviation #ushistory #historytok",
+ "youtube_title": "The First Airplane Flight Lasted 12 Seconds #shorts",
+ "tags": [
+  "wright brothers",
+  "first flight",
+  "kitty hawk",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://insider.si.edu/2011/12/the-wright-brothers-flight-1903",
+  "https://www.history.com/this-day-in-history/December-17/first-airplane-flies",
+  "https://en.wikipedia.org/wiki/Wright_Flyer",
+  "https://en.wikipedia.org/wiki/Boeing_747"
+ ]
+}

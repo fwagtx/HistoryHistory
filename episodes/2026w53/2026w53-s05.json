@@ -1,0 +1,271 @@
+{
+ "id": "2026w53-s05",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "Abraham Lincoln Is the Only President With a Patent",
+ "hook": "LINCOLN, INVENTOR",
+ "topic": "Abraham Lincoln",
+ "music": "playful",
+ "cast": {
+  "lincoln": {
+   "hair": "side",
+   "hairColor": "#2A1E16",
+   "outfit": "suit",
+   "color": "#1E1C1B",
+   "tie": "#1E1C1B",
+   "skin": "light",
+   "name": "Abraham Lincoln"
+  },
+  "sailor": {
+   "preset": "sailor"
+  }
+ },
+ "voices": {
+  "lincoln": "am_fenrir",
+  "sailor": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Abraham Lincoln is the only US president who ever patented an invention.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.55,
+      "text": "PATENT"
+     }
+    ],
+    "place": "Illinois · 1849",
+    "tag": {
+     "id": "lincoln",
+     "text": "Abraham Lincoln, before he was president"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "As a young man, he worked on boats, carrying goods down rivers as far as New Orleans.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.3,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.55,
+      "s": 0.45
+     },
+     {
+      "k": "steamship",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "More than once, boats he was on got stuck on sandbars and shallow spots called shoals.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.7,
+      "s": 0.6
+     },
+     {
+      "k": "rock",
+      "x": 0.6,
+      "s": 0.4,
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "We're stuck. Again.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "sailor"
+   }
+  },
+  {
+   "who": "lincoln",
+   "say": "What if the boat could lift itself over?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.2,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "lincoln"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His idea: floats on the sides of the boat. Pump them full of air, and the boat rises over the shallow spot.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.68,
+      "s": 0.6
+     },
+     {
+      "k": "barrel",
+      "x": 0.68,
+      "s": 0.35,
+      "label": "AIR FLOATS",
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1849 he got patent number 6,469, for buoying vessels over shoals.",
+   "show": {
+    "k": "card",
+    "label": "Abraham Lincoln's patent, 1849",
+    "big": "No. 6,469",
+    "sub": "\"Buoying Vessels Over Shoals\""
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was never put into use. But twelve years later, the inventor was president.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.55,
+      "flag": "usa1859"
+     },
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Washington, D.C. · 1861"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sailor",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Before he was president, Abraham Lincoln patented a way to lift stuck boats over sandbars.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #abrahamlincoln #inventions #ushistory #historytok",
+ "youtube_title": "Abraham Lincoln Is the Only President With a Patent #shorts",
+ "tags": [
+  "abraham lincoln",
+  "lincoln patent",
+  "inventions",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://patents.google.com/patent/US6469A",
+  "https://www.todayifoundout.com/index.php/2016/05/lincoln-us-president-patent/",
+  "https://engines.egr.uh.edu/episode/3225",
+  "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+ ]
+}

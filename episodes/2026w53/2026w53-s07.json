@@ -1,0 +1,247 @@
+{
+ "id": "2026w53-s07",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "George Washington's False Teeth Weren't Wooden",
+ "hook": "NOT WOODEN TEETH",
+ "topic": "George Washington",
+ "music": "playful",
+ "cast": {
+  "washington": {
+   "preset": "washington",
+   "name": "George Washington"
+  },
+  "dentist": {
+   "hair": "side",
+   "hairColor": "#8A8A8A",
+   "outfit": "coat",
+   "color": "#3A2A6A",
+   "skin": "light",
+   "glasses": "round"
+  }
+ },
+ "voices": {
+  "washington": "bm_george",
+  "dentist": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "George Washington never had wooden teeth.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "washington",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "NO WOOD"
+     }
+    ],
+    "place": "New York · 1789",
+    "tag": {
+     "id": "washington",
+     "text": "George Washington, first president"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But his teeth were terrible. When he became president in 1789, he had just one left.",
+   "show": {
+    "k": "card",
+    "label": "Washington's own teeth in 1789",
+    "big": "1",
+    "sub": "the rest were gone"
+   }
+  },
+  {
+   "who": "washington",
+   "say": "Please don't make me smile.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "washington",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "painting",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "washington"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he wore false teeth, called dentures.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "dentist",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.25,
+      "y": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "who": "dentist",
+   "say": "Hippo ivory, gold springs. Very fancy.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "dentist",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "dentist"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His home, Mount Vernon, now a museum, says his dentures used hippo ivory, cow and horse teeth, human teeth, and metal springs.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "washington",
+      "x": 0.3,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.6,
+      "label": "MOUNT VERNON"
+     }
+    ],
+    "place": "Mount Vernon, Virginia"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Records also show he paid for nine teeth from enslaved people in 1784. Nobody knows if those ended up in his dentures.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.6,
+      "text": "1784 LEDGER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The wood myth probably came from old ivory, which stains and cracks until it can look like wood grain.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "dentist",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "OLD IVORY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "washington",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "dentist",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "George Washington's dentures were made of ivory, metal and real teeth. Never wood.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #georgewashington #mythbusting #ushistory #historytok",
+ "youtube_title": "George Washington's False Teeth Weren't Wooden #shorts",
+ "tags": [
+  "george washington",
+  "wooden teeth myth",
+  "dentures",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.mountvernon.org/george-washington/health/teeth",
+  "https://en.wikipedia.org/wiki/George_Washington%27s_teeth",
+  "https://www.smithsonianmag.com/smart-news/george-washington-didnt-have-wooden-teeth-they-were-ivory-180953273/"
+ ]
+}

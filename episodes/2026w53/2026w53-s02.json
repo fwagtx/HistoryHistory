@@ -1,0 +1,253 @@
+{
+ "id": "2026w53-s02",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "Most of the Declaration of Independence Was Signed in August",
+ "hook": "SIGNED IN AUGUST",
+ "topic": "Declaration of Independence",
+ "music": "playful",
+ "cast": {
+  "jefferson": {
+   "hair": "side",
+   "hairColor": "#B8562A",
+   "outfit": "coat",
+   "color": "#6A3A2A",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Thomas Jefferson"
+  },
+  "adams": {
+   "hair": "bald",
+   "hairColor": "#DADADA",
+   "outfit": "coat",
+   "color": "#262322",
+   "skin": "light",
+   "name": "John Adams"
+  }
+ },
+ "voices": {
+  "adams": "bm_george",
+  "jefferson": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Most of the Declaration of Independence wasn't signed on July 4. It was signed in August.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "jefferson",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.55,
+      "text": "AUGUST?"
+     }
+    ],
+    "place": "Philadelphia · 1776"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On July 4, 1776, Congress, the leaders of the thirteen colonies, approved the final wording.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "adams",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "jefferson",
+      "x": 0.62,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "jefferson",
+     "text": "Thomas Jefferson, the writer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then it was copied neatly onto parchment, a sheet of thin animal skin.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "jefferson",
+      "x": 0.3,
+      "hold": "pen",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.7,
+      "s": 0.6,
+      "text": "IN CONGRESS, JULY 4, 1776"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The fancy copy was ready on August 2. That's when most delegates signed.",
+   "show": {
+    "k": "card",
+    "label": "Most signatures were added on",
+    "big": "AUGUST 2",
+    "sub": "1776, almost a month after July 4"
+   }
+  },
+  {
+   "who": "adams",
+   "say": "Trust me. July 2 will be the big holiday.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "adams",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.4,
+      "text": "JULY 2"
+     }
+    ],
+    "cam": "close",
+    "focus": "adams",
+    "tag": {
+     "id": "adams",
+     "text": "John Adams"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Adams really thought so, because Congress voted for independence on July 2. Wrong guess.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "adams",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "usa1776"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some delegates signed even later, and two never signed at all.",
+   "show": {
+    "k": "flag",
+    "flag": "usa1776",
+    "label": "THE UNITED STATES",
+    "sub": "Declared independent in 1776",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So July 4 is the birthday of the words. The signatures mostly came a month later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "jefferson",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "SIGNED"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "adams",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "jefferson",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "July 4 is when Congress approved the Declaration. Most of the signing happened on August 2.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #july4th #declarationofindependence #ushistory #historytok",
+ "youtube_title": "Most of the Declaration of Independence Was Signed in August #shorts",
+ "tags": [
+  "declaration of independence",
+  "july 4th",
+  "1776",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.archives.gov/milestone-documents/declaration-of-Independence",
+  "https://www.history.com/news/9-things-you-may-not-know-about-the-declaration-of-independence",
+  "https://declaration.fas.harvard.edu/blog/signing"
+ ]
+}

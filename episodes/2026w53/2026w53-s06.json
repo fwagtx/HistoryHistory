@@ -1,0 +1,219 @@
+{
+ "id": "2026w53-s06",
+ "format": "short",
+ "date": "2026-12-28",
+ "slot": "09:00",
+ "title": "A Wave of Molasses Flooded Boston in 1919",
+ "hook": "A WAVE OF MOLASSES",
+ "topic": "Great Molasses Flood",
+ "music": "tense",
+ "cast": {
+  "worker": {
+   "hat": "cap",
+   "hatColor": "#5A5A5A",
+   "outfit": "overalls",
+   "skin": "light",
+   "stubble": true
+  },
+  "rescuer": {
+   "preset": "sailor"
+  }
+ },
+ "voices": {
+  "worker": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1919, a wave of molasses swept through a Boston neighborhood.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.72,
+      "s": 1.4,
+      "label": "MOLASSES TANK"
+     }
+    ],
+    "place": "Boston's North End · January 15, 1919"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Molasses is a thick, sweet syrup. A company here turned it into industrial alcohol.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "MOLASSES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A giant steel tank by the harbor held about 2.3 million gallons of it.",
+   "show": {
+    "k": "card",
+    "label": "Inside one tank",
+    "big": "2.3 MILLION",
+    "sub": "gallons of molasses, about three and a half Olympic pools"
+   }
+  },
+  {
+   "who": "worker",
+   "say": "Did you hear that? It sounded like gunfire.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.8
+     }
+    ],
+    "cam": "close",
+    "focus": "worker"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around lunchtime, the tank burst. Witnesses said a brown wave, several stories high, rushed down the street.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 1.2
+     },
+     {
+      "k": "house",
+      "x": 0.3,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It swept buildings off their foundations. Twenty-one people died, and about 150 were hurt.",
+   "show": {
+    "k": "card",
+    "label": "The Great Molasses Flood",
+    "big": "21",
+    "sub": "people killed, about 150 injured"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rescuers worked for days. Cleaning the sticky streets took weeks.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "rescuer",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A court blamed the company: the tank was poorly built and barely tested. The disaster led to stricter building rules.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "BADLY BUILT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1919, a giant tank burst in Boston and a wave of molasses killed 21 people.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #boston #molassesflood #ushistory #historytok",
+ "youtube_title": "A Wave of Molasses Flooded Boston in 1919 #shorts",
+ "tags": [
+  "great molasses flood",
+  "boston",
+  "1919",
+  "us history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+  "https://newengland.com/today/living/new-england-history/great-molasses-flood/",
+  "https://www.csmonitor.com/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919"
+ ]
+}
