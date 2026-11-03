@@ -1,0 +1,255 @@
+{
+ "id": "2026w53-s28",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "A Sea Captain Brought Yap Too Much Stone Money",
+ "hook": "TOO MUCH STONE MONEY",
+ "topic": "David O'Keefe",
+ "music": "playful",
+ "cast": {
+  "okeefe": {
+   "preset": "captain",
+   "hat": "captain",
+   "hatColor": "#262322",
+   "beard": "full",
+   "hairColor": "#C85A2A",
+   "skin": "light",
+   "hold": null,
+   "name": "David O'Keefe"
+  },
+  "islander1": {
+   "outfit": "tunic",
+   "color": "#C8A060",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "skin": "brown",
+   "name": "Yapese man"
+  }
+ },
+ "voices": {
+  "islander1": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A sea captain once tried to get rich by delivering money by the shipload. Stone money.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "okeefe",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "Rai stone"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STONE MONEY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Yap, Pacific Ocean · 1871"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1871, an Irish-American captain, David O'Keefe, was shipwrecked on Yap, an island in the Pacific.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "okeefe",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1871",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "okeefe",
+     "text": "David O'Keefe"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Yap's money was rai, giant stone discs cut on Palau, far away, and brought home on risky raft trips.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.68,
+      "s": 0.5,
+      "label": "Rai"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "450 KM",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "O'Keefe had a plan: carry the stones on his ship, cut with iron tools.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "okeefe",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.45,
+      "label": "IRON TOOLS"
+     },
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He traded them for dried coconut and sea cucumbers."
+  },
+  {
+   "who": "okeefe",
+   "say": "Easy money!",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "okeefe",
+      "x": 0.32,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "islander1",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "okeefe"
+   }
+  },
+  {
+   "who": "islander1",
+   "say": "Exactly. Too easy."
+  },
+  {
+   "who": "N",
+   "say": "Yapese people valued his new stones less than the old ones, which cost real danger and effort.",
+   "show": {
+    "k": "compare",
+    "bg": "sea",
+    "left": {
+     "label": "OLD RAI: HARD WON",
+     "cast": [
+      {
+       "id": "islander1",
+       "mood": "happy"
+      }
+     ]
+    },
+    "right": {
+     "label": "O'KEEFE RAI: EASY",
+     "cast": [
+      {
+       "id": "okeefe",
+       "mood": "shock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "More money, less effort, less value. Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "okeefe",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "islander1",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He shipped in money by the boatload. It backfired.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #yap #inflation #historytok #money",
+ "youtube_title": "A Sea Captain Brought Yap Too Much Stone Money #shorts",
+ "tags": [
+  "david o'keefe",
+  "yap",
+  "rai stones",
+  "inflation",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rai_stones",
+  "https://blog.hmns.org/2015/05/hard-currency-stone-money-of-the-yap-islands",
+  "https://www.gutenberg.org/cache/epub/72830/pg72830-images.html",
+  "https://en.wikipedia.org/wiki/David_O%27Keefe_(ship_captain)",
+  "https://www.smithsonianmag.com/legacy_blog/david-okeefe-the-king-of-hard-currency/"
+ ]
+}

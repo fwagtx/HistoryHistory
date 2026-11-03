@@ -1,0 +1,283 @@
+{
+ "id": "2026w53-s29",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "Canada's Soldiers Were Paid in Playing Cards",
+ "hook": "PAID IN PLAYING CARDS",
+ "topic": "New France card money",
+ "music": "playful",
+ "cast": {
+  "demeulles": {
+   "outfit": "coat",
+   "color": "#2A3A6A",
+   "color2": "#E8C25A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hair": "long",
+   "hairColor": "#5A3A1E",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Jacques de Meulles"
+  },
+  "soldier": {
+   "outfit": "coat",
+   "color": "#E8E2D0",
+   "color2": "#2F4A8A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "stache": "bush",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": null,
+   "name": "French soldier"
+  }
+ },
+ "voices": {
+  "demeulles": "am_fenrir",
+  "soldier": "am_adam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1685, soldiers in Canada got paid with playing cards.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "shock",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.7,
+      "s": 0.5,
+      "flag": "france_royal"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1685",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Quebec, New France · 1685"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This was New France, France's colony in what is now Canada.",
+   "show": {
+    "k": "map",
+    "lon": -72.0,
+    "lat": 47.0,
+    "z0": 1.6,
+    "z1": 2.1,
+    "date": "1685",
+    "labels": [
+     [
+      "New France",
+      -74.0,
+      49.5,
+      14
+     ],
+     [
+      "Quebec",
+      -71.2,
+      46.8,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -71.2,
+      46.8,
+      1.2,
+      "rgba(47,111,194,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its money manager, Jacques de Meulles, had soldiers to pay. But the money ship from France was late.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "demeulles",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4,
+      "open": false
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO COINS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "demeulles",
+     "text": "Jacques de Meulles"
+    }
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Sir, where's our pay?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "demeulles",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "soldier"
+   }
+  },
+  {
+   "who": "demeulles",
+   "say": "Funny you should ask. Do you like card games?"
+  },
+  {
+   "who": "N",
+   "say": "De Meulles wrote amounts on playing cards, signed them, and added his seal.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "demeulles",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.45
+     },
+     {
+      "k": "sign",
+      "x": 0.2,
+      "s": 0.4,
+      "text": "CARD = MONEY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SIGNED",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SEALED",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He promised to swap them for real coins when the ship came. And when it did, he kept his word.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.4,
+      "flag": "france_royal"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROMISE KEPT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Officials in France worried the cards were too easy to fake. But the colony used card money on and off for decades."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "demeulles",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Payday in 1685 Canada came with a deck of cards.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #canada #newfrance #historytok #money",
+ "youtube_title": "Canada's Soldiers Were Paid in Playing Cards #shorts",
+ "tags": [
+  "card money",
+  "new france",
+  "canada history",
+  "money history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Card_money_in_New_France",
+  "https://thecanadianencyclopedia.ca/en/article/playing-card-money",
+  "https://www.bankofcanadamuseum.ca/2018/12/a-good-deal/",
+  "https://coinweek.com/paper-money-play-your-cards-right-or-spend-them/"
+ ]
+}

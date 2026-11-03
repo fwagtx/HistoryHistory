@@ -1,0 +1,227 @@
+{
+ "id": "2026w53-s32",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "Ancient China Paid With Coins Shaped Like Knives",
+ "hook": "MONEY SHAPED LIKE KNIVES",
+ "topic": "Chinese knife money",
+ "music": "playful",
+ "cast": {
+  "buyerC": {
+   "outfit": "tunic",
+   "color": "#2F7A6A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "stubble": true,
+   "hold": "coin",
+   "name": "Shopper"
+  },
+  "sellerC": {
+   "outfit": "robe",
+   "color": "#C8702A",
+   "color2": "#6A3A1A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "hold": "chicken",
+   "name": "Market seller"
+  },
+  "qin": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#262322",
+   "color2": "#A8322A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "beard": "long",
+   "skin": "light",
+   "name": "Qin Shi Huang"
+  }
+ },
+ "voices": {
+  "buyerC": "am_liam",
+  "sellerC": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In ancient China, some money was shaped like a knife.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyerC",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "BRONZE KNIFE MONEY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KNIFE MONEY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Eastern China · about 400 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around 400 BC, China was split into rival kingdoms that fought all the time.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "sellerC",
+      "x": 0.4,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "400 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In kingdoms like Qi, people paid with bronze coins shaped like small knives. Historians think the shape came from a real bronze tool."
+  },
+  {
+   "who": "buyerC",
+   "say": "One chicken, please.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyerC",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "coin"
+     },
+     {
+      "id": "sellerC",
+      "x": 0.68,
+      "mood": "smug",
+      "hold": "chicken"
+     }
+    ],
+    "cam": "close",
+    "focus": "buyerC"
+   }
+  },
+  {
+   "who": "sellerC",
+   "say": "That'll be one knife."
+  },
+  {
+   "who": "buyerC",
+   "say": "Is that a price or a threat?"
+  },
+  {
+   "who": "N",
+   "say": "Relax. The coins were never used for cutting. They had writing cast into the bronze.",
+   "show": {
+    "k": "card",
+    "label": "Knife money, ancient China",
+    "big": "BRONZE",
+    "sub": "never used as real knives"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 221 BC, the first emperor, Qin Shi Huang, united China and made everyone use round coins with a square hole. Much safer for your pockets.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "qin",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hold",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "221 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "qin",
+     "text": "Qin Shi Huang"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "buyerC",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sellerC",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In ancient China, paying with a knife was normal.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #china #ancientchina #historytok #money",
+ "youtube_title": "Ancient China Paid With Coins Shaped Like Knives #shorts",
+ "tags": [
+  "knife money",
+  "ancient china",
+  "warring states",
+  "money history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Knife_money",
+  "https://en.wikipedia.org/wiki/Ancient_Chinese_coinage",
+  "https://primaltrek.com/blog/2014/12/02/ancient-chinese-coin-exhibit-at-the-qi-heritage-museum/",
+  "https://www.horniman.ac.uk/object/25.210/"
+ ]
+}

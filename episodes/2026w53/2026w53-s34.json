@@ -1,0 +1,243 @@
+{
+ "id": "2026w53-s34",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "Medieval Russians Used Fur as Money",
+ "hook": "MONEY MADE OF FUR",
+ "topic": "Novgorod fur money",
+ "music": "playful",
+ "cast": {
+  "traderN": {
+   "hat": "ushanka",
+   "hatColor": "#6A4A2A",
+   "outfit": "fur",
+   "color": "#7A5A3A",
+   "beard": "full",
+   "hairColor": "#8A5A2A",
+   "skin": "light",
+   "name": "Fur trader"
+  },
+  "buyerN": {
+   "outfit": "fur",
+   "color": "#3A5A7A",
+   "beard": "full",
+   "hairColor": "#C8A060",
+   "skin": "peach",
+   "hold": "sword",
+   "name": "Swordsmith"
+  }
+ },
+ "voices": {
+  "traderN": "am_echo",
+  "buyerN": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In medieval Russia, people counted their money in furs.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "traderN",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "FURS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FUR MONEY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Novgorod, Russia · 1100s",
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Novgorod was a rich trading city in the cold, forested north.",
+   "show": {
+    "k": "map",
+    "lon": 31.3,
+    "lat": 58.5,
+    "z0": 2.0,
+    "z1": 2.6,
+    "date": "1100",
+    "labels": [
+     [
+      "Novgorod",
+      31.27,
+      58.52,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      31.27,
+      58.52,
+      0.5,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pelts, the skins of animals like the marten, a small forest weasel, were valuable enough to work as money.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "traderN",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.4
+     },
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "MARTEN PELTS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MARTEN",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians argue about how often real pelts changed hands. But the word for marten, kuna, came to mean money."
+  },
+  {
+   "who": "buyerN",
+   "say": "Twenty martens for the sword.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "buyerN",
+      "x": 0.3,
+      "mood": "smug",
+      "hold": "sword"
+     },
+     {
+      "id": "traderN",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "buyerN"
+   }
+  },
+  {
+   "who": "traderN",
+   "say": "Do you take squirrels? I'm a bit short this week."
+  },
+  {
+   "who": "N",
+   "say": "By the 1300s, silver coins had mostly replaced fur. Moths, after all, don't eat silver.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "buyerN",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SILVER",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the name lived on. Croatia's money, from 1994 to the end of 2022, was called the kuna.",
+   "show": {
+    "k": "card",
+    "label": "Croatia's currency, 1994–2022",
+    "big": "KUNA",
+    "sub": "the word means marten"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "traderN",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "buyerN",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Medieval Russians paid in fur, and a modern currency kept the name.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #russia #medievalhistory #historytok #money",
+ "youtube_title": "Medieval Russians Used Fur as Money #shorts",
+ "tags": [
+  "fur money",
+  "novgorod",
+  "kuna",
+  "money history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Foreign_trade_of_medieval_Novgorod",
+  "https://en.wikipedia.org/wiki/Grivna",
+  "https://en.wikipedia.org/wiki/Money_of_Kievan_Rus%27",
+  "https://www.merriam-webster.com/dictionary/Kuna",
+  "https://en.wikipedia.org/wiki/Croatian_kuna"
+ ]
+}

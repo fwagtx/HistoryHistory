@@ -1,0 +1,2725 @@
+{
+ "id": "2026w53-l3",
+ "format": "long",
+ "date": "2027-01-01",
+ "title": "The Weirdest Money in History",
+ "music": "playful",
+ "cast": {
+  "worker1": {
+   "preset": "worker",
+   "hat": "cap",
+   "hatColor": "#5A4A3A",
+   "stubble": true,
+   "skin": "light",
+   "name": "Workman"
+  },
+  "worker2": {
+   "preset": "worker",
+   "hat": "cap",
+   "hatColor": "#3A3A5A",
+   "outfit": "overalls",
+   "color": "#6A4A2A",
+   "stache": "bush",
+   "skin": "peach",
+   "name": "Workman"
+  },
+  "londoner": {
+   "preset": "peasantW",
+   "name": "Londoner"
+  },
+  "londoner2": {
+   "outfit": "coat",
+   "color": "#4A5A3A",
+   "hat": "tophat",
+   "hatColor": "#262322",
+   "skin": "light",
+   "stache": "bush",
+   "name": "Londoner"
+  },
+  "host": {
+   "preset": "host",
+   "name": "Host"
+  },
+  "buyerC": {
+   "outfit": "tunic",
+   "color": "#2F7A6A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "stubble": true,
+   "hold": "coin",
+   "name": "Shopper"
+  },
+  "sellerC": {
+   "outfit": "robe",
+   "color": "#C8702A",
+   "color2": "#6A3A1A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "hold": "chicken",
+   "name": "Market seller"
+  },
+  "qin": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#262322",
+   "color2": "#A8322A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "beard": "long",
+   "skin": "light",
+   "name": "Qin Shi Huang"
+  },
+  "traderN": {
+   "hat": "ushanka",
+   "hatColor": "#6A4A2A",
+   "outfit": "fur",
+   "color": "#7A5A3A",
+   "beard": "full",
+   "hairColor": "#8A5A2A",
+   "skin": "light",
+   "name": "Fur trader"
+  },
+  "buyerN": {
+   "outfit": "fur",
+   "color": "#3A5A7A",
+   "beard": "full",
+   "hairColor": "#C8A060",
+   "skin": "peach",
+   "hold": "sword",
+   "name": "Swordsmith"
+  },
+  "clerk": {
+   "preset": "monk",
+   "hold": "scroll",
+   "name": "Exchequer clerk"
+  },
+  "sheriff": {
+   "outfit": "tunic",
+   "color": "#8A2A2A",
+   "hat": "coif",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "moneybag",
+   "name": "Sheriff"
+  },
+  "dickens": {
+   "outfit": "suit",
+   "color": "#3A3A3A",
+   "hair": "side",
+   "hairColor": "#5A3A22",
+   "beard": "goatee",
+   "stache": "bush",
+   "skin": "light",
+   "hold": "book",
+   "name": "Charles Dickens"
+  },
+  "shopperS": {
+   "preset": "peasantW",
+   "hat": "bonnet",
+   "hatColor": "#EFE6D2",
+   "color": "#3A5E9A",
+   "skin": "peach",
+   "name": "Shopper"
+  },
+  "sellerS": {
+   "preset": "farmer",
+   "hat": "straw",
+   "outfit": "tunic",
+   "color": "#8A6A3A",
+   "beard": "full",
+   "hairColor": "#E8C25A",
+   "skin": "peach",
+   "hold": null,
+   "name": "Farmer"
+  },
+  "palmstruch": {
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "stache": "bush",
+   "beard": "goatee",
+   "skin": "light",
+   "hold": "letter",
+   "name": "Johan Palmstruch"
+  },
+  "demeulles": {
+   "outfit": "coat",
+   "color": "#2A3A6A",
+   "color2": "#E8C25A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hair": "long",
+   "hairColor": "#5A3A1E",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Jacques de Meulles"
+  },
+  "soldier": {
+   "outfit": "coat",
+   "color": "#E8E2D0",
+   "color2": "#2F4A8A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "stache": "bush",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": null,
+   "name": "French soldier"
+  },
+  "islander1": {
+   "outfit": "tunic",
+   "color": "#C8A060",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "skin": "brown",
+   "name": "Yapese man"
+  },
+  "islander2": {
+   "outfit": "dress",
+   "color": "#8A6A3A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "brown",
+   "name": "Yapese woman"
+  },
+  "furness": {
+   "outfit": "suit",
+   "color": "#E8E2D0",
+   "hat": "straw",
+   "hatColor": "#E8D8A0",
+   "stache": "bush",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "book",
+   "name": "William Henry Furness III"
+  },
+  "okeefe": {
+   "preset": "captain",
+   "hat": "captain",
+   "hatColor": "#262322",
+   "beard": "full",
+   "hairColor": "#C85A2A",
+   "skin": "light",
+   "hold": null,
+   "name": "David O'Keefe"
+  },
+  "official": {
+   "outfit": "suit",
+   "color": "#EFEFEF",
+   "stache": "handlebar",
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Colonial official"
+  },
+  "radford": {
+   "outfit": "ww2",
+   "color": "#8A7A4A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Richard Radford"
+  },
+  "prisoner1": {
+   "outfit": "ww2",
+   "color": "#8A7A4A",
+   "hat": "cap",
+   "hatColor": "#5A5A3A",
+   "stubble": true,
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": null,
+   "name": "Prisoner"
+  },
+  "prisoner2": {
+   "outfit": "ww2",
+   "color": "#6B6F3E",
+   "stache": "bush",
+   "hairColor": "#C8A060",
+   "skin": "peach",
+   "hold": null,
+   "name": "Prisoner"
+  }
+ },
+ "voices": {
+  "worker1": "am_puck",
+  "worker2": "bm_lewis",
+  "buyerC": "am_liam",
+  "sellerC": "bf_emma",
+  "traderN": "am_echo",
+  "buyerN": "bm_george",
+  "shopperS": "af_bella",
+  "sellerS": "am_eric",
+  "demeulles": "am_fenrir",
+  "soldier": "am_adam",
+  "islander1": "am_onyx",
+  "islander2": "af_heart",
+  "prisoner1": "bm_daniel",
+  "prisoner2": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "October 16, 1834, London. The Houses of Parliament, the heart of Britain's government, are on fire.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.5,
+      "s": 0.6,
+      "label": "Houses of Parliament",
+      "flag": "uk"
+     },
+     {
+      "k": "fire",
+      "x": 0.25,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1834",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Westminster, London · 1834",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Huge crowds gather along the river Thames to watch it burn.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "scared"
+     },
+     {
+      "id": "londoner2",
+      "x": 0.55,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HUGE CROWDS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So what started it? Not a bomb. Not lightning. Old money records.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "londoner2",
+      "x": 0.5,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.2,
+      "s": 0.5,
+      "text": "WHAT STARTED IT?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT A BOMB",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "NOT LIGHTNING",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "OLD MONEY",
+      "at": 2.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two cartloads of wooden sticks with notches cut into them, burned in the furnaces under the House of Lords.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "worker1",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.65,
+      "s": 0.5,
+      "label": "TALLY STICKS"
+     },
+     {
+      "k": "fire",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "2 CARTLOADS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "worker1",
+   "say": "Boss, these sticks barely fit in the furnace.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "worker1",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "point"
+     },
+     {
+      "id": "worker2",
+      "x": 0.65,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.88,
+      "s": 0.55,
+      "label": "Furnace"
+     }
+    ],
+    "cam": "close",
+    "focus": "worker1"
+   }
+  },
+  {
+   "who": "worker2",
+   "say": "Then push harder. It's only wood. What could go wrong?"
+  },
+  {
+   "who": "N",
+   "say": "Those sticks had kept track of England's money for about seven hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "worker2",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.7,
+      "s": 0.5,
+      "flag": "uk"
+     },
+     {
+      "k": "fire",
+      "x": 0.55,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "700 YEARS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "fire"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And honestly? They're not even the weirdest money in history. Today: stones, knives, playing cards, furs and cigarettes.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.5,
+      "label": "Stones"
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.45,
+      "label": "CIGARETTES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STONES",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "CARDS",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "CIGARETTES",
+      "at": 2.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Weirdest Money in History",
+    "sub": "stones, sticks, cards and cigarettes",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.86,
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "First, a quick question. What actually is money?",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.45,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WHAT IS MONEY?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Money is anything people agree to swap for stuff. A baker takes it because she knows the butcher will take it too."
+  },
+  {
+   "who": "N",
+   "say": "To work well, money has to be hard to fake, not too common, and easy to pass around. But above all, people have to trust it.",
+   "show": {
+    "k": "card",
+    "label": "What makes money work",
+    "big": "TRUST",
+    "sub": "plus: hard to fake, hard to get, easy to pass around"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Keep that word in mind: trust. Every weird money in this video lives or dies by it.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.82,
+      "s": 0.4,
+      "text": "TRUST"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "400 BC",
+    "title": "Money Shaped Like Knives",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Our first stop is ancient China, around 400 BC. China is split into rival kingdoms that fight all the time.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "buyerC",
+      "x": 0.35,
+      "mood": "neutral"
+     },
+     {
+      "id": "sellerC",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABOUT 400 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Eastern China · about 400 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In kingdoms like Qi, on the east coast, people paid with bronze coins shaped like little knives.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyerC",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "BRONZE KNIFE MONEY"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.12,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KNIFE MONEY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think the shape came from a real bronze tool, a small knife with a ring on the handle."
+  },
+  {
+   "who": "N",
+   "say": "But these coins were never used as knives. They were money, with writing cast into the bronze.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "sellerC",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "hips",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.45,
+      "text": "NOT FOR CUTTING"
+     }
+    ]
+   }
+  },
+  {
+   "who": "buyerC",
+   "say": "One chicken, please.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyerC",
+      "x": 0.32,
+      "mood": "happy",
+      "hold": "coin"
+     },
+     {
+      "id": "sellerC",
+      "x": 0.65,
+      "mood": "smug",
+      "hold": "chicken"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "CHICKENS"
+     }
+    ],
+    "cam": "close",
+    "focus": "buyerC"
+   }
+  },
+  {
+   "who": "sellerC",
+   "say": "That'll be one knife."
+  },
+  {
+   "who": "buyerC",
+   "say": "Is that a price or a threat?"
+  },
+  {
+   "who": "N",
+   "say": "Then, in 221 BC, the Qin kingdom conquered all the others. Its ruler became China's first emperor, Qin Shi Huang.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "qin",
+      "x": 0.5,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "221 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "qin",
+     "text": "Qin Shi Huang"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He made everyone use the same round coins, with a square hole in the middle. Round coins don't poke holes in your pocket.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "qin",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROUND COINS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lesson one: money can be almost any shape, as long as everyone agrees it counts."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1100s",
+    "title": "Paying in Fur",
+    "bg": "snow"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now head north, to medieval Russia, and the rich trading city of Novgorod.",
+   "show": {
+    "k": "map",
+    "lon": 31.3,
+    "lat": 58.5,
+    "z0": 2.0,
+    "z1": 2.6,
+    "date": "1100",
+    "labels": [
+     [
+      "Novgorod",
+      31.27,
+      58.52,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      31.27,
+      58.52,
+      0.5,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Winters here are brutal, and the forests are full of animals with thick, warm fur.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "traderN",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.4,
+      "label": "FURS"
+     }
+    ],
+    "place": "Novgorod, Russia · 1100s",
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Furs were so valuable that pelts, the skins of animals like the marten, a small forest weasel, were used as money."
+  },
+  {
+   "who": "N",
+   "say": "Historians still argue about how often real pelts changed hands. But the word for marten, kuna, became a word for money.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "traderN",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "KUNA = MARTEN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "KUNA",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "buyerN",
+   "say": "This sword costs twenty martens.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "buyerN",
+      "x": 0.32,
+      "mood": "smug",
+      "hold": "sword"
+     },
+     {
+      "id": "traderN",
+      "x": 0.68,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "PELTS"
+     }
+    ],
+    "cam": "close",
+    "focus": "buyerN"
+   }
+  },
+  {
+   "who": "traderN",
+   "say": "Do you take squirrels? I'm a bit short this week."
+  },
+  {
+   "who": "N",
+   "say": "The problem? Fur wears out, and moths eat it. Imagine a bug munching through your savings.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "traderN",
+      "x": 0.45,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "MOTHS!"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MOTHS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By the 1300s, silver coins from abroad had mostly taken over. But the name stuck. Croatia's money was called the kuna until 2023.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "buyerN",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SILVER",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "KUNA UNTIL 2023",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1100s",
+    "title": "The Money Sticks",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile in England, the king's money office, called the Exchequer, had to record who had paid their taxes.",
+   "show": {
+    "k": "map",
+    "lon": -1.5,
+    "lat": 52.5,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "1100",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ],
+     [
+      "England",
+      -1.8,
+      52.8,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -0.13,
+      51.5,
+      0.3,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Paper was expensive, and most people couldn't read. So the clerks used wooden sticks called tallies.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "clerk",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "hold"
+     },
+     {
+      "id": "sheriff",
+      "x": 0.68,
+      "mood": "neutral",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TALLY STICKS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Westminster, England · 1100s",
+    "tag": {
+     "id": "clerk",
+     "text": "Exchequer clerk"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A clerk cut notches into the stick. A notch as wide as your palm meant a thousand pounds.",
+   "show": {
+    "k": "card",
+    "label": "Notches on an Exchequer tally",
+    "big": "PALM = £1,000",
+    "sub": "thumb = £100 · little finger = £20 · barleycorn = £1"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he split the stick down its length. Both halves carried the same notches.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "clerk",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.2,
+      "s": 0.45,
+      "text": "STOCK"
+     },
+     {
+      "k": "sign",
+      "x": 0.8,
+      "s": 0.45,
+      "text": "FOIL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The taxpayer kept the longer half, called the stock. The Exchequer kept the shorter half, called the foil."
+  },
+  {
+   "who": "N",
+   "say": "To check a payment, you pushed the halves back together. If the notches and the wood lined up, the record was real.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "sheriff",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "clerk",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.9,
+      "s": 0.35,
+      "text": "MATCH!"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HARD TO FAKE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Try faking that. You'd need the other half, and no two sticks split the same way."
+  },
+  {
+   "who": "N",
+   "say": "England kept using tallies for centuries, until 1826. Which brings us back to 1834, and the pile of old sticks nobody wanted.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "worker1",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "hold"
+     },
+     {
+      "id": "worker2",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1826",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "1834",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Westminster, London · 1834"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Burning them in furnaces under the House of Lords overheated the chimneys. By the next morning, most of the old palace was gone.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.25,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.6,
+      "s": 0.55,
+      "flag": "uk"
+     },
+     {
+      "k": "fire",
+      "x": 0.45,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "smoke",
+     "fire"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The famous writer Charles Dickens later mocked the whole mess in a speech.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "dickens",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1855",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "London · 1855",
+    "tag": {
+     "id": "dickens",
+     "text": "Charles Dickens"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The stove, overgorged with these preposterous sticks, set fire to the panelling; the panelling set fire to the House of Lords; the House of Lords set fire to the House of Commons.",
+   "show": {
+    "k": "quote",
+    "text": "The stove, overgorged with these preposterous sticks, set fire to the panelling; the panelling set fire to the House of Lords; the House of Lords set fire to the House of Commons.",
+    "who": "Charles Dickens, speech in London, 27 June 1855"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The new palace built after the fire is the one you know today, with the clock tower holding Big Ben.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "londoner2",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "New palace",
+      "flag": "uk"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BIG BEN",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1644",
+    "title": "The Coin You Can't Pocket",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next, Sweden in the 1600s. It owned one of the biggest copper mines in the world, at Falun.",
+   "show": {
+    "k": "map",
+    "lon": 16.0,
+    "lat": 60.0,
+    "z0": 2.0,
+    "z1": 2.6,
+    "date": "1644",
+    "labels": [
+     [
+      "Sweden",
+      15.0,
+      62.0,
+      14
+     ],
+     [
+      "Falun",
+      15.63,
+      60.6,
+      14
+     ],
+     [
+      "Stockholm",
+      18.07,
+      59.33,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      15.63,
+      60.6,
+      0.35,
+      "rgba(212,165,42,.55)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Sweden made money out of copper. One catch: copper is much cheaper than silver.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sellerS",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.45,
+      "flag": "sweden"
+     },
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "Copper"
+     }
+    ],
+    "place": "Sweden · 1644"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The coin was worth what its metal was worth. So a copper coin worth ten silver dalers had to be a giant slab of copper."
+  },
+  {
+   "who": "N",
+   "say": "In 1644 Sweden made exactly that: a flat plate that weighed almost twenty kilos.",
+   "show": {
+    "k": "card",
+    "label": "Swedish 10-daler copper plate, 1644",
+    "big": "19.7 kg",
+    "sub": "about the weight of a six-year-old child"
+   }
+  },
+  {
+   "who": "shopperS",
+   "say": "I'd like to buy a cow, please.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "shopperS",
+      "x": 0.32,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sellerS",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.88,
+      "s": 0.4,
+      "load": "gold",
+      "label": "COPPER PLATES"
+     }
+    ],
+    "cam": "close",
+    "focus": "shopperS"
+   }
+  },
+  {
+   "who": "sellerS",
+   "say": "Lovely. Did you bring a cart for the money?"
+  },
+  {
+   "who": "N",
+   "say": "That's why, in 1661, a bank in Stockholm called Stockholms Banco started printing Europe's first banknotes.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "palmstruch",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.78,
+      "s": 0.45
+     },
+     {
+      "k": "chest",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1661",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "FIRST BANKNOTES",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Stockholm, Sweden · 1661",
+    "tag": {
+     "id": "palmstruch",
+     "text": "Johan Palmstruch, the bank's founder"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A note was a promise: bring this paper to the bank, and get your copper. Way lighter to carry."
+  },
+  {
+   "who": "N",
+   "say": "But the bank lent out far more notes than it had copper to back them.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "palmstruch",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.72,
+      "s": 0.55
+     },
+     {
+      "k": "chest",
+      "x": 0.2,
+      "s": 0.35,
+      "open": false
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TOO MANY NOTES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When people rushed to swap paper for copper, the bank couldn't pay. It soon collapsed, and Palmstruch was convicted in court.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "palmstruch",
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "shopperS",
+      "x": 0.68,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "COLLAPSED",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lesson: paper money only works if people trust the promise behind it."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1685",
+    "title": "Paid in Playing Cards",
+    "bg": "snow"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now cross the Atlantic to 1685, and New France, the French colony in what is now Canada.",
+   "show": {
+    "k": "map",
+    "lon": -72.0,
+    "lat": 47.0,
+    "z0": 1.6,
+    "z1": 2.1,
+    "date": "1685",
+    "labels": [
+     [
+      "New France",
+      -74.0,
+      49.5,
+      14
+     ],
+     [
+      "Quebec",
+      -71.2,
+      46.8,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -71.2,
+      46.8,
+      1.2,
+      "rgba(47,111,194,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its money manager was an official called the intendant, Jacques de Meulles. He had soldiers to pay, and almost no coins.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "demeulles",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.45,
+      "flag": "france_royal"
+     },
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4,
+      "open": false
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO COINS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Quebec, New France · 1685",
+    "tag": {
+     "id": "demeulles",
+     "text": "Jacques de Meulles"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The ship bringing money from France was late. And the soldiers were getting impatient."
+  },
+  {
+   "who": "soldier",
+   "say": "Sir, where's our pay?",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.32,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "demeulles",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "france_royal"
+     }
+    ],
+    "cam": "close",
+    "focus": "soldier"
+   }
+  },
+  {
+   "who": "demeulles",
+   "say": "Funny you should ask. Do you like card games?"
+  },
+  {
+   "who": "N",
+   "say": "De Meulles took ordinary playing cards, wrote amounts on them, signed them and added his seal.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "demeulles",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.45,
+      "text": "CARD = MONEY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SIGNED",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SEALED",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He promised to swap every card for real coins when the ship arrived. So the cards worked, because people trusted him."
+  },
+  {
+   "who": "soldier",
+   "say": "Did I just get paid with a playing card?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "mood": "shock",
+      "hold": "letter"
+     },
+     {
+      "id": "demeulles",
+      "x": 0.72,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "soldier"
+   }
+  },
+  {
+   "who": "demeulles",
+   "say": "Yes. Please don't play poker with your wages."
+  },
+  {
+   "who": "N",
+   "say": "And when the ship finally came, he kept his word and paid out real coins.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.4,
+      "flag": "france_royal"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROMISE KEPT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Officials back in France hated it. Cards were easy to fake, they said. Anyone with a pen could try to print their own money.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "demeulles",
+      "x": 0.5,
+      "mood": "scared",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.45,
+      "flag": "france_royal"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "COUNTERFEITS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Still, the colony used card money on and off for decades. After Britain took Canada in 1763, France turned the cards into IOUs that ended up nearly worthless.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.45,
+      "mood": "sad",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1763",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "WORTHLESS",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1871",
+    "title": "Stones You Can't Lift",
+    "bg": "sea"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now the most famous weird money of all. Yap, a group of small islands in the Pacific Ocean.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.8,
+      "s": 0.5
+     },
+     {
+      "k": "rock",
+      "x": 0.6,
+      "s": 0.5,
+      "label": "Rai stone"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "YAP",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Yap, Pacific Ocean · 1800s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "For centuries its people used giant stone discs with a hole in the middle, called rai, as a kind of money."
+  },
+  {
+   "who": "N",
+   "say": "The biggest known one is about three point six metres wide and weighs about four tonnes. That's heavier than two cars.",
+   "show": {
+    "k": "card",
+    "label": "Biggest known rai stone, Yap",
+    "big": "3.6 m wide",
+    "sub": "about 4 tonnes, heavier than two cars"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The stone came from Palau, islands about four hundred fifty kilometres away. Men cut it, then brought it home on rafts across open sea.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.62,
+      "s": 0.5,
+      "label": "Rai"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "450 KM",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some died on the way. That's what made rai valuable: it was really, really hard to get."
+  },
+  {
+   "who": "N",
+   "say": "And here's the weird part. Big rai usually didn't move. When one changed owners, everybody simply agreed and remembered who owned it now.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "islander2",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.5,
+      "s": 0.55,
+      "label": "Rai stone"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO MOVING",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "islander1",
+   "say": "That stone is yours now.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.32,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "islander2",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "islander1"
+   }
+  },
+  {
+   "who": "islander2",
+   "say": "Wonderful. I'll leave it right where it is."
+  },
+  {
+   "who": "N",
+   "say": "An American anthropologist, William Henry Furness, visited in 1903 and wrote about one family that was rich because of a stone on the sea floor.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "furness",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1903",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Yap · 1903",
+    "tag": {
+     "id": "furness",
+     "text": "William Henry Furness III"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Long ago, a storm forced the crew to cut the stone loose from its raft. It sank. But everyone agreed it still counted.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 0.4,
+      "label": "Sunken rai"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The purchasing power of that stone remains, therefore, as valid as if it were leaning visibly against the side of the owner's house.",
+   "show": {
+    "k": "quote",
+    "text": "The purchasing power of that stone remains, therefore, as valid as if it were leaning visibly against the side of the owner's house.",
+    "who": "William Henry Furness III, The Island of Stone Money (1910)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then came David O'Keefe, an Irish-American captain shipwrecked on Yap in 1871. He brought rai from Palau in bulk on his ship, using iron tools.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "okeefe",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "Rai"
+     },
+     {
+      "k": "crate",
+      "x": 0.15,
+      "s": 0.4,
+      "label": "IRON TOOLS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1871",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "okeefe",
+     "text": "Captain David O'Keefe"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He traded them for dried coconut and sea cucumbers. But Yapese people valued his easy stones less than the old, hard-won ones."
+  },
+  {
+   "who": "N",
+   "say": "More money, less effort, less value. That's the idea behind inflation, island style.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "okeefe",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "shrug"
+     },
+     {
+      "id": "islander2",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INFLATION",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1943",
+    "title": "Cigarette Money",
+    "bg": "camp"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Our last stop is more serious. During World War Two, millions of soldiers were held as prisoners of war.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "prisoner1",
+      "x": 0.35,
+      "mood": "sad"
+     },
+     {
+      "id": "prisoner2",
+      "x": 0.65,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.35,
+      "label": "RATIONS"
+     }
+    ],
+    "place": "Prisoner of war camp · 1943"
+   }
+  },
+  {
+   "who": "N",
+   "say": "One of them was Richard Radford, a young British soldier who had studied economics. He was captured in Libya in 1942.",
+   "show": {
+    "k": "map",
+    "lon": 15.0,
+    "lat": 40.0,
+    "z0": 1.2,
+    "z1": 1.5,
+    "date": "1942",
+    "labels": [
+     [
+      "Libya",
+      17.0,
+      29.0,
+      14
+     ],
+     [
+      "Italy",
+      12.5,
+      42.5,
+      14
+     ],
+     [
+      "Bavaria",
+      11.9,
+      48.4,
+      14
+     ]
+    ],
+    "route": [
+     [
+      17.0,
+      31.0
+     ],
+     [
+      15.0,
+      38.0
+     ],
+     [
+      13.0,
+      42.0
+     ],
+     [
+      11.9,
+      48.4
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was held in camps in Italy, then in Bavaria, in Germany. Life there was hard. Food was short, and nobody knew when the war would end.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "radford",
+      "x": 0.45,
+      "mood": "sad",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "radford",
+     "text": "Richard Radford"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Prisoners got parcels from the Red Cross, a charity that helps people in wars. Inside: jam, chocolate, sugar, and cigarettes.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "prisoner1",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.45,
+      "label": "RED CROSS"
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.4,
+      "label": "CIGARETTES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JAM",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "CHOCOLATE",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "CIGARETTES",
+      "at": 2.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Everyone traded. And soon one item became the money: the cigarette. Even non-smokers took them, because they knew others would."
+  },
+  {
+   "who": "prisoner1",
+   "say": "Cheese for seven!",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "prisoner1",
+      "x": 0.32,
+      "mood": "shout",
+      "pose": "wave"
+     },
+     {
+      "id": "prisoner2",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.88,
+      "s": 0.4,
+      "text": "CHEESE FOR 7"
+     }
+    ],
+    "cam": "close",
+    "focus": "prisoner1"
+   }
+  },
+  {
+   "who": "prisoner2",
+   "say": "Seven cigarettes? I'll give you six and a compliment."
+  },
+  {
+   "who": "N",
+   "say": "Prices were posted on notice boards. Radford noted that a shirt cost around eighty cigarettes.",
+   "show": {
+    "k": "card",
+    "label": "Prison camp price, as recorded by Radford",
+    "big": "80 cigarettes",
+    "sub": "for one shirt (60 to 120, depending on quality)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the camp even had inflation. When a big delivery of cigarettes arrived, there was suddenly lots of money, so prices shot up.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "prisoner2",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "CIGARETTES"
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "MORE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PRICES UP",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then people smoked their money. Cigarettes got scarce again, and prices fell."
+  },
+  {
+   "who": "N",
+   "say": "Some prisoners even rolled thinner cigarettes from the same tobacco, the way crooks once shaved metal off coins.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "prisoner1",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.45,
+      "text": "THIN ONES REJECTED"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE-ISH MONEY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Radford survived the war and published all of this in 1945. Economists still read his paper today.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "radford",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.4,
+      "text": "1945 PAPER"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1945",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Britain · 1945"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So stones, sticks, knives, furs, cards and cigarettes. None of it is worth much on its own.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.15,
+      "s": 0.45
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.4,
+      "label": "CIGARETTES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Money works because we all agree that it works. Your banknotes and your banking app run on the same thing as a stone at the bottom of the sea: trust.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "host",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TRUST",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Subscribe, and next time: the entire history of Spain in ten minutes.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.8,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "soldier",
+      "x": 0.9,
+      "mood": "happy"
+     }
+    ],
+    "next": "The ENTIRE History of Spain in 10 Minutes"
+   }
+  }
+ ],
+ "description": "Giant stones that never moved, bronze coins shaped like knives, playing cards signed as cash, notched sticks that burned down Parliament, a 20-kilo copper coin and cigarettes in a WWII prison camp. We tour history's weirdest money and use it to explain, in plain words, what makes money work: trust, scarcity, inflation and counterfeiting.\n\nChapters are added automatically.\n\n#history #money #moneyhistory #yap #animatedhistory",
+ "thumbnail": {
+  "style": "redbox",
+  "title": "THIS WAS MONEY?",
+  "bg": "sea",
+  "lines": [
+   "THIS WAS",
+   "MONEY?"
+  ],
+  "main": {
+   "id": "islander1",
+   "mood": "smug"
+  },
+  "second": {
+   "id": "soldier",
+   "mood": "shock",
+   "hold": "letter"
+  }
+ },
+ "youtube_title": "The Weirdest Money in History",
+ "tags": [
+  "weird money",
+  "history of money",
+  "rai stones",
+  "yap stone money",
+  "card money",
+  "tally sticks",
+  "knife money",
+  "copper plate money",
+  "cigarette currency",
+  "pow camp",
+  "money history",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Knife_money",
+  "https://en.wikipedia.org/wiki/Ancient_Chinese_coinage",
+  "https://primaltrek.com/blog/2014/12/02/ancient-chinese-coin-exhibit-at-the-qi-heritage-museum/",
+  "https://www.horniman.ac.uk/object/25.210/",
+  "https://en.wikipedia.org/wiki/Foreign_trade_of_medieval_Novgorod",
+  "https://en.wikipedia.org/wiki/Grivna",
+  "https://en.wikipedia.org/wiki/Money_of_Kievan_Rus%27",
+  "https://www.merriam-webster.com/dictionary/Kuna",
+  "https://en.wikipedia.org/wiki/Tally_stick",
+  "https://collection.sciencemuseumgroup.org.uk/objects/co60506/medieval-exchequer-tally-sticks",
+  "https://gimms.org.uk/2019/03/08/history-english-tally/",
+  "https://en.wikipedia.org/wiki/Burning_of_Parliament",
+  "https://historyofparliament.com/2013/10/16/the-fire-of-1834/",
+  "https://www.restorationandrenewal.uk/palace/extraordinary-history/fire-1834",
+  "https://en.wikiquote.org/wiki/Charles_Dickens",
+  "https://www.guinnessworldrecords.com/world-records/66885-heaviest-coin",
+  "https://numisview.com/reference/exonumia/plate-money-pltmynt",
+  "https://en.wikipedia.org/wiki/Stockholms_Banco",
+  "https://www.riksbank.se/en-gb/about-the-riksbank/history/historical-timeline/1600-1699/first-banknotes-in-europe/",
+  "https://en.wikipedia.org/wiki/Card_money_in_New_France",
+  "https://thecanadianencyclopedia.ca/en/article/playing-card-money",
+  "https://www.bankofcanadamuseum.ca/2018/12/a-good-deal/",
+  "https://coinweek.com/paper-money-play-your-cards-right-or-spend-them/",
+  "https://en.wikipedia.org/wiki/Rai_stones",
+  "https://blog.hmns.org/2015/05/hard-currency-stone-money-of-the-yap-islands",
+  "https://www.gutenberg.org/cache/epub/72830/pg72830-images.html",
+  "https://en.wikipedia.org/wiki/David_O%27Keefe_(ship_captain)",
+  "https://www.smithsonianmag.com/legacy_blog/david-okeefe-the-king-of-hard-currency/",
+  "https://en.wikipedia.org/wiki/Richard_A._Radford",
+  "https://gwern.net/doc/economics/1945-radford.pdf",
+  "https://www.laphamsquarterly.org/node/9094",
+  "https://en.wikipedia.org/wiki/Red_Cross_parcel"
+ ]
+}

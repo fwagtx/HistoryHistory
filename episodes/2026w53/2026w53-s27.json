@@ -1,0 +1,241 @@
+{
+ "id": "2026w53-s27",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "Officials Fined Yap by Painting Crosses on Its Stone Money",
+ "hook": "FINED WITH PAINT",
+ "topic": "Yap's stone money",
+ "music": "playful",
+ "cast": {
+  "official": {
+   "outfit": "suit",
+   "color": "#EFEFEF",
+   "stache": "handlebar",
+   "hair": "short",
+   "hairColor": "#8A6A3A",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Colonial official"
+  },
+  "islander1": {
+   "outfit": "tunic",
+   "color": "#C8A060",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "skin": "brown",
+   "name": "Yapese man"
+  }
+ },
+ "voices": {
+  "islander1": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Around 1900, officials on Yap fined people by painting crosses on their money.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 0.55,
+      "label": "Rai stone"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BLACK CROSS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Yap, Pacific Ocean · about 1900"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Germany had bought these Pacific islands from Spain in 1899.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "germany1914"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1899",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The new officials wanted the island's roads repaired. The local chiefs weren't doing it."
+  },
+  {
+   "who": "N",
+   "say": "But Yap's money was rai, giant stone discs. Some were taller than a man.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "official",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RAI",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "official",
+   "say": "We can't carry these to the office!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "islander1",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "official"
+   }
+  },
+  {
+   "who": "islander1",
+   "say": "Yes. We know."
+  },
+  {
+   "who": "N",
+   "say": "So officials painted a black cross on the most valuable stones, to show the government now claimed them.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.6,
+      "s": 0.55,
+      "label": "CLAIMED"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CLAIMED",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It worked fast. The roads were fixed. Then the officials washed off the crosses, and the families were rich again.",
+   "show": {
+    "k": "card",
+    "label": "The fine, according to Furness (1910)",
+    "big": "PAINT",
+    "sub": "removed once the roads were fixed"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "official",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The government took their money without moving it an inch.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #yap #stonemoney #historytok #weirdhistory",
+ "youtube_title": "Officials Fined Yap by Painting Crosses on Its Stone Money #shorts",
+ "tags": [
+  "yap",
+  "rai stones",
+  "german new guinea",
+  "money history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rai_stones",
+  "https://blog.hmns.org/2015/05/hard-currency-stone-money-of-the-yap-islands",
+  "https://www.gutenberg.org/cache/epub/72830/pg72830-images.html",
+  "https://en.wikipedia.org/wiki/German%E2%80%93Spanish_Treaty_(1899)"
+ ]
+}

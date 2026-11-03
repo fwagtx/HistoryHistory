@@ -1,0 +1,242 @@
+{
+ "id": "2026w53-s35",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "Sweden Made a Coin That Weighed Almost 20 Kilos",
+ "hook": "THE GIANT COPPER COIN",
+ "topic": "Swedish plate money",
+ "music": "playful",
+ "cast": {
+  "shopperS": {
+   "preset": "peasantW",
+   "hat": "bonnet",
+   "hatColor": "#EFE6D2",
+   "color": "#3A5E9A",
+   "skin": "peach",
+   "name": "Shopper"
+  },
+  "sellerS": {
+   "preset": "farmer",
+   "hat": "straw",
+   "outfit": "tunic",
+   "color": "#8A6A3A",
+   "beard": "full",
+   "hairColor": "#E8C25A",
+   "skin": "peach",
+   "hold": null,
+   "name": "Farmer"
+  },
+  "palmstruch": {
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "stache": "bush",
+   "beard": "goatee",
+   "skin": "light",
+   "hold": "letter",
+   "name": "Johan Palmstruch"
+  }
+ },
+ "voices": {
+  "shopperS": "af_bella",
+  "sellerS": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1644, Sweden made a coin that weighed almost twenty kilos.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sellerS",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.7,
+      "s": 0.45,
+      "flag": "sweden"
+     },
+     {
+      "k": "rock",
+      "x": 0.5,
+      "s": 0.4,
+      "label": "Copper"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "20 KILOS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Sweden · 1644"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sweden had one of the world's biggest copper mines, at Falun.",
+   "show": {
+    "k": "map",
+    "lon": 16.0,
+    "lat": 60.0,
+    "z0": 2.0,
+    "z1": 2.6,
+    "date": "1644",
+    "labels": [
+     [
+      "Falun",
+      15.63,
+      60.6,
+      14
+     ],
+     [
+      "Stockholm",
+      18.07,
+      59.33,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      15.63,
+      60.6,
+      0.35,
+      "rgba(212,165,42,.55)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So it made money from copper. Back then, a coin was worth the metal inside it, and copper was cheap."
+  },
+  {
+   "who": "N",
+   "say": "So a copper coin worth ten silver dalers had to be a giant flat plate.",
+   "show": {
+    "k": "card",
+    "label": "Swedish 10-daler copper plate, 1644",
+    "big": "19.7 kg",
+    "sub": "about the weight of a six-year-old child"
+   }
+  },
+  {
+   "who": "shopperS",
+   "say": "One cow, please.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "shopperS",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sellerS",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.5,
+      "s": 0.4,
+      "load": "gold",
+      "label": "COPPER PLATES"
+     }
+    ],
+    "cam": "close",
+    "focus": "shopperS"
+   }
+  },
+  {
+   "who": "sellerS",
+   "say": "Lovely. Did you bring a cart for the money?"
+  },
+  {
+   "who": "N",
+   "say": "Lugging money around was a pain. So in 1661, a Stockholm bank started printing Europe's first banknotes.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "palmstruch",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "letter"
+     }
+    ],
+    "objects": [
+     {
+      "k": "moneypile",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1661",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Stockholm, Sweden · 1661",
+    "tag": {
+     "id": "palmstruch",
+     "text": "Johan Palmstruch, the bank's founder"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Heavy money helped invent paper money. Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "shopperS",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sellerS",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Sweden's biggest coin weighed as much as a small child.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #sweden #coins #historytok #money",
+ "youtube_title": "Sweden Made a Coin That Weighed Almost 20 Kilos #shorts",
+ "tags": [
+  "plate money",
+  "sweden",
+  "copper coin",
+  "money history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.guinnessworldrecords.com/world-records/66885-heaviest-coin",
+  "https://numisview.com/reference/exonumia/plate-money-pltmynt",
+  "https://en.wikipedia.org/wiki/Stockholms_Banco",
+  "https://www.riksbank.se/en-gb/about-the-riksbank/history/historical-timeline/1600-1699/first-banknotes-in-europe/"
+ ]
+}

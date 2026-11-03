@@ -1,0 +1,266 @@
+{
+ "id": "2026w53-s26",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "A Family on Yap Was Rich Thanks to a Stone at the Bottom of the Sea",
+ "hook": "RICH FROM A SUNKEN STONE",
+ "topic": "Yap's sunken stone",
+ "music": "playful",
+ "cast": {
+  "islander1": {
+   "outfit": "tunic",
+   "color": "#C8A060",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "skin": "brown",
+   "name": "Yapese man"
+  },
+  "islander2": {
+   "outfit": "dress",
+   "color": "#8A6A3A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "brown",
+   "name": "Yapese woman"
+  },
+  "furness": {
+   "outfit": "suit",
+   "color": "#E8E2D0",
+   "hat": "straw",
+   "hatColor": "#E8D8A0",
+   "stache": "bush",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "book",
+   "name": "William Henry Furness III"
+  }
+ },
+ "voices": {
+  "islander1": "am_onyx",
+  "islander2": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "On Yap, one family was rich because of a stone at the bottom of the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "islander2",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 0.5,
+      "label": "Somewhere down there"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RICH",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Yap, Pacific Ocean · 1903"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Yap's money was rai, giant stone discs cut on islands far away and carried home by raft.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.55,
+      "label": "Rai"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Long ago, an ancestor of this family was towing a huge rai home.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 0.5,
+      "label": "Rai"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LONG AGO",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a violent storm hit. To save their lives, the crew cut the raft loose, and the stone sank.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPLASH",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "islander2",
+   "say": "Was it at least a good stone?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "islander2",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "islander1",
+      "x": 0.68,
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "islander2"
+   }
+  },
+  {
+   "who": "islander1",
+   "say": "Magnificent. Truly magnificent."
+  },
+  {
+   "who": "N",
+   "say": "Everyone agreed the loss wasn't the owner's fault. So the sunken stone still counted as the family's wealth.",
+   "show": {
+    "k": "card",
+    "label": "The family's fortune",
+    "big": "SEA FLOOR",
+    "sub": "still counted as money"
+   }
+  },
+  {
+   "who": "N",
+   "say": "An American visitor, William Henry Furness, wrote the story down in 1910.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "furness",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "1910"
+     }
+    ],
+    "tag": {
+     "id": "furness",
+     "text": "William Henry Furness III"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "islander2",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "islander1",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Their money sank in a storm. They stayed rich anyway.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #yap #stonemoney #historytok #weirdhistory",
+ "youtube_title": "A Family on Yap Was Rich Thanks to a Stone at the Bottom of the Sea #shorts",
+ "tags": [
+  "yap",
+  "rai stones",
+  "sunken stone",
+  "money history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rai_stones",
+  "https://blog.hmns.org/2015/05/hard-currency-stone-money-of-the-yap-islands",
+  "https://www.gutenberg.org/cache/epub/72830/pg72830-images.html"
+ ]
+}

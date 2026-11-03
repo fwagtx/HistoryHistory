@@ -1,0 +1,261 @@
+{
+ "id": "2026w53-s31",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "Burning Old Tax Sticks Set Parliament on Fire",
+ "hook": "STICKS BURNED PARLIAMENT",
+ "topic": "Burning of Parliament",
+ "music": "playful",
+ "cast": {
+  "worker1": {
+   "preset": "worker",
+   "hat": "cap",
+   "hatColor": "#5A4A3A",
+   "stubble": true,
+   "skin": "light",
+   "name": "Workman"
+  },
+  "worker2": {
+   "preset": "worker",
+   "hat": "cap",
+   "hatColor": "#3A3A5A",
+   "outfit": "overalls",
+   "color": "#6A4A2A",
+   "stache": "bush",
+   "skin": "peach",
+   "name": "Workman"
+  },
+  "londoner": {
+   "preset": "peasantW",
+   "name": "Londoner"
+  }
+ },
+ "voices": {
+  "worker1": "am_puck",
+  "worker2": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1834, Britain accidentally burned down its own Parliament, with a pile of old sticks.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.65,
+      "s": 0.55,
+      "flag": "uk"
+     },
+     {
+      "k": "fire",
+      "x": 0.5,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1834",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Westminster, London · 1834",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were tally sticks, notched wooden sticks once used to record taxes.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "worker1",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.68,
+      "s": 0.5,
+      "label": "TALLY STICKS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TALLY STICKS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "England stopped using them in 1826. In 1834, officials ordered the leftovers burned."
+  },
+  {
+   "who": "worker1",
+   "say": "These won't fit in the furnace.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "worker1",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "point"
+     },
+     {
+      "id": "worker2",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.45,
+      "label": "Furnace"
+     }
+    ],
+    "cam": "close",
+    "focus": "worker1"
+   }
+  },
+  {
+   "who": "worker2",
+   "say": "Then push harder. It's only wood."
+  },
+  {
+   "who": "N",
+   "say": "Two cartloads went into the furnaces under the House of Lords. The chimneys overheated, and that evening the palace caught fire.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "worker2",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.65,
+      "s": 0.55,
+      "flag": "uk"
+     },
+     {
+      "k": "fire",
+      "x": 0.45,
+      "s": 0.6
+     }
+    ],
+    "fx": [
+     "fire",
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By morning, most of the old palace was gone. Westminster Hall survived.",
+   "show": {
+    "k": "card",
+    "label": "Burning of Parliament",
+    "big": "16 Oct 1834",
+    "sub": "most of the old palace destroyed"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The new palace built after the fire is the one you know today, with Big Ben.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "londoner",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "New palace"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BIG BEN",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "worker1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "worker2",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Britain's Parliament was burned down by its own old tax records.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #london #parliament #historytok #britishhistory",
+ "youtube_title": "Burning Old Tax Sticks Set Parliament on Fire #shorts",
+ "tags": [
+  "burning of parliament",
+  "tally sticks",
+  "1834 fire",
+  "london history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tally_stick",
+  "https://collection.sciencemuseumgroup.org.uk/objects/co60506/medieval-exchequer-tally-sticks",
+  "https://gimms.org.uk/2019/03/08/history-english-tally/",
+  "https://en.wikipedia.org/wiki/Burning_of_Parliament",
+  "https://historyofparliament.com/2013/10/16/the-fire-of-1834/",
+  "https://www.restorationandrenewal.uk/palace/extraordinary-history/fire-1834"
+ ]
+}

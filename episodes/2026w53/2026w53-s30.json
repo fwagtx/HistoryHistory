@@ -1,0 +1,230 @@
+{
+ "id": "2026w53-s30",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "England Kept Its Tax Records on Notched Sticks",
+ "hook": "TAXES ON STICKS",
+ "topic": "Tally sticks",
+ "music": "playful",
+ "cast": {
+  "clerk": {
+   "preset": "monk",
+   "hold": "scroll",
+   "name": "Exchequer clerk"
+  },
+  "sheriff": {
+   "outfit": "tunic",
+   "color": "#8A2A2A",
+   "hat": "coif",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "moneybag",
+   "name": "Sheriff"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "For about seven hundred years, England kept track of taxes on wooden sticks.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "clerk",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "700 YEARS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Westminster, England · 1100s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were called tally sticks, made by the king's money office, the Exchequer.",
+   "show": {
+    "k": "map",
+    "lon": -1.5,
+    "lat": 52.5,
+    "z0": 2.2,
+    "z1": 2.8,
+    "date": "1100",
+    "labels": [
+     [
+      "London",
+      -0.13,
+      51.5,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -0.13,
+      51.5,
+      0.3,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A clerk cut notches into the stick. A notch as wide as your palm meant a thousand pounds.",
+   "show": {
+    "k": "card",
+    "label": "Notches on an Exchequer tally",
+    "big": "PALM = £1,000",
+    "sub": "thumb = £100 · little finger = £20"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he split the stick lengthwise. Both halves showed the same notches.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "clerk",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.4,
+      "text": "STOCK"
+     },
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "FOIL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The taxpayer kept the longer half, called the stock. The Exchequer kept the short half, the foil."
+  },
+  {
+   "who": "sheriff",
+   "say": "Prove I paid, then!",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "sheriff",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "fist",
+      "hold": "moneybag"
+     },
+     {
+      "id": "clerk",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "sheriff",
+     "text": "A sheriff, the king's tax collector"
+    },
+    "cam": "close",
+    "focus": "sheriff"
+   }
+  },
+  {
+   "who": "N",
+   "say": "If the halves fit together perfectly, the record was real. Faking that was very hard.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "clerk",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.4,
+      "text": "MATCH!"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HARD TO FAKE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "England used tallies until 1826. Getting rid of them later went very, very badly."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "clerk",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sheriff",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "England's tax receipts were sticks you snapped in half.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #england #tallysticks #historytok #medievalhistory",
+ "youtube_title": "England Kept Its Tax Records on Notched Sticks #shorts",
+ "tags": [
+  "tally sticks",
+  "exchequer",
+  "medieval england",
+  "money history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tally_stick",
+  "https://collection.sciencemuseumgroup.org.uk/objects/co60506/medieval-exchequer-tally-sticks",
+  "https://gimms.org.uk/2019/03/08/history-english-tally/"
+ ]
+}

@@ -1,0 +1,247 @@
+{
+ "id": "2026w53-s25",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "On Yap, Giant Stones Were Money",
+ "hook": "MONEY YOU CAN'T LIFT",
+ "topic": "Yap stone money",
+ "music": "playful",
+ "cast": {
+  "islander1": {
+   "outfit": "tunic",
+   "color": "#C8A060",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "skin": "brown",
+   "name": "Yapese man"
+  },
+  "islander2": {
+   "outfit": "dress",
+   "color": "#8A6A3A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "brown",
+   "name": "Yapese woman"
+  }
+ },
+ "voices": {
+  "islander1": "am_onyx",
+  "islander2": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "On the Pacific island of Yap, some money weighed more than two cars.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.62,
+      "s": 0.6,
+      "label": "Rai stone"
+     },
+     {
+      "k": "palm",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "4 TONNES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Yap, Pacific Ocean · 1800s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was called rai: giant stone discs with a hole in the middle.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "islander2",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 0.6,
+      "label": "Rai"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RAI",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The stone came from Palau, islands about four hundred fifty kilometres away.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.65,
+      "s": 0.5,
+      "label": "Rai"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "450 KM",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Men cut it there and brought it home by raft across open sea. The trips were dangerous, and that made rai valuable."
+  },
+  {
+   "who": "N",
+   "say": "The biggest known rai is about three point six metres wide.",
+   "show": {
+    "k": "card",
+    "label": "Biggest known rai stone",
+    "big": "3.6 m wide",
+    "sub": "about 4 tonnes"
+   }
+  },
+  {
+   "who": "islander1",
+   "say": "That stone is yours now.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "islander2",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.5,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "islander1"
+   }
+  },
+  {
+   "who": "islander2",
+   "say": "Wonderful. I'll leave it right where it is."
+  },
+  {
+   "who": "N",
+   "say": "Big stones rarely moved. Everyone simply remembered who owned which one. The whole island was the record book.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "islander2",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "Owner: everyone knows"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO MOVING",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "islander1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "islander2",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "On Yap, you could buy things with a stone you never moved.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #yap #stonemoney #historytok #money",
+ "youtube_title": "On Yap, Giant Stones Were Money #shorts",
+ "tags": [
+  "yap",
+  "rai stones",
+  "stone money",
+  "money history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rai_stones",
+  "https://blog.hmns.org/2015/05/hard-currency-stone-money-of-the-yap-islands",
+  "https://www.gutenberg.org/cache/epub/72830/pg72830-images.html"
+ ]
+}

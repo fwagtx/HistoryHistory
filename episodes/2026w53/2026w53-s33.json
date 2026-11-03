@@ -1,0 +1,266 @@
+{
+ "id": "2026w53-s33",
+ "format": "short",
+ "date": "2027-01-01",
+ "slot": "09:00",
+ "title": "In WWII Prison Camps, Cigarettes Became Money",
+ "hook": "CIGARETTES WERE MONEY",
+ "topic": "WWII prison camps",
+ "music": "warm",
+ "cast": {
+  "radford": {
+   "outfit": "ww2",
+   "color": "#8A7A4A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Richard Radford"
+  },
+  "prisoner1": {
+   "outfit": "ww2",
+   "color": "#8A7A4A",
+   "hat": "cap",
+   "hatColor": "#5A5A3A",
+   "stubble": true,
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": null,
+   "name": "Prisoner"
+  },
+  "prisoner2": {
+   "outfit": "ww2",
+   "color": "#6B6F3E",
+   "stache": "bush",
+   "hairColor": "#C8A060",
+   "skin": "peach",
+   "hold": null,
+   "name": "Prisoner"
+  }
+ },
+ "voices": {
+  "prisoner1": "bm_daniel",
+  "prisoner2": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In World War Two prison camps, cigarettes became money.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "prisoner1",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "CIGARETTES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CIGARETTES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Prisoner of war camp · 1943"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Richard Radford, a British soldier who had studied economics, was captured in 1942 and held in camps in Italy and Germany.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "radford",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.78,
+      "s": 0.4,
+      "label": "RATIONS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1942",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "radford",
+     "text": "Richard Radford"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Life was hard and food was short. Red Cross parcels brought jam, chocolate, sugar and cigarettes.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "prisoner2",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.45,
+      "label": "RED CROSS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JAM",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "CHOCOLATE",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Prisoners swapped, and soon everything was priced in cigarettes. Even non-smokers took them."
+  },
+  {
+   "who": "prisoner1",
+   "say": "Cheese for seven!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "prisoner1",
+      "x": 0.3,
+      "mood": "shout",
+      "pose": "wave"
+     },
+     {
+      "id": "prisoner2",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.35,
+      "text": "CHEESE FOR 7"
+     }
+    ],
+    "cam": "close",
+    "focus": "prisoner1"
+   }
+  },
+  {
+   "who": "prisoner2",
+   "say": "Seven cigarettes? I'll give you six and a compliment."
+  },
+  {
+   "who": "N",
+   "say": "A shirt cost about eighty. And when a big delivery of cigarettes arrived, prices jumped. Then people smoked their money, and prices fell.",
+   "show": {
+    "k": "card",
+    "label": "Price of a shirt, as recorded by Radford",
+    "big": "80 cigarettes",
+    "sub": "more cigarettes in camp = higher prices"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Radford wrote it all up in 1945, and economists still study it.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "radford",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "1945"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1945",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more weird money from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "prisoner1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "prisoner2",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Prisoners built a whole economy, and the money was cigarettes.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ww2 #economics #historytok #money",
+ "youtube_title": "In WWII Prison Camps, Cigarettes Became Money #shorts",
+ "tags": [
+  "pow camp",
+  "cigarette money",
+  "ww2 history",
+  "economics",
+  "history shorts"
+ ],
+ "sources": [
+  "https://gwern.net/doc/economics/1945-radford.pdf",
+  "https://en.wikipedia.org/wiki/Richard_A._Radford",
+  "https://www.laphamsquarterly.org/node/9094",
+  "https://en.wikipedia.org/wiki/Red_Cross_parcel"
+ ]
+}
