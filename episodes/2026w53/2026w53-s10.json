@@ -72,29 +72,23 @@
    "say": "Two companies built it: one heading east from California, one heading west from Nebraska.",
    "show": {
     "k": "map",
-    "lon": -108.0,
-    "lat": 40.5,
+    "lon": -110.0,
+    "lat": 39.5,
     "z0": 1.0,
     "z1": 1.1,
     "date": "1869",
     "labels": [
      [
       "CALIFORNIA",
-      -120.0,
-      37.5,
-      0
+      -119.5,
+      37.0,
+      14
      ],
      [
       "UTAH",
-      -112.0,
-      40.0,
-      0
-     ],
-     [
-      "NEBRASKA",
-      -99.5,
-      41.5,
-      0
+      -112.5,
+      41.6,
+      14
      ]
     ],
     "route": [
@@ -109,6 +103,14 @@
      [
       -112.5,
       41.6
+     ]
+    ],
+    "areas": [
+     [
+      -96.5,
+      41.3,
+      1.5,
+      "rgba(40,90,200,.4)"
      ]
     ]
    }
