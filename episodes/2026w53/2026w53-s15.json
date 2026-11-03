@@ -1,0 +1,253 @@
+{
+ "id": "2026w53-s15",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "On the Titanic, an Officer Handed Her a Baby",
+ "hook": "HANDED A TITANIC BABY",
+ "topic": "Titanic Lifeboat 16",
+ "music": "warm",
+ "cast": {
+  "jessop": {
+   "outfit": "dress",
+   "color": "#2A2F4A",
+   "apron": true,
+   "hat": "bonnet",
+   "hatColor": "#F2EFE6",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Violet Jessop"
+  },
+  "moody": {
+   "outfit": "sailor",
+   "color": "#1E2A44",
+   "hat": "captain",
+   "hatColor": "#1E2A44",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Officer James Moody"
+  }
+ },
+ "voices": {
+  "jessop": "bf_emma",
+  "moody": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "As the Titanic sank, an officer handed a stewardess a baby.",
+   "show": {
+    "k": "scene",
+    "bg": "titanic",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "shock"
+     },
+     {
+      "id": "moody",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "place": "RMS Titanic · 15 April 1912"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Violet Jessop was a stewardess on the Titanic, a crew member who looks after passengers.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.4,
+      "flag": "uk"
+     }
+    ],
+    "tag": {
+     "id": "jessop",
+     "text": "Violet Jessop, stewardess"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The ship had hit an iceberg, and she was ordered into lifeboat sixteen.",
+   "show": {
+    "k": "scene",
+    "bg": "titanic",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "LIFEBOAT 16"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "As the boat was lowered, Sixth Officer James Moody leaned over.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "moody",
+      "x": 0.55,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "moody",
+     "text": "Officer James Moody"
+    }
+   }
+  },
+  {
+   "who": "moody",
+   "say": "Miss Jessop! Look after this baby.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "moody",
+      "x": 0.55,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "moody"
+   }
+  },
+  {
+   "who": "jessop",
+   "say": "A baby? Yes, sir!",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.35,
+      "label": "LIFEBOAT 16"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She looked after the baby through the freezing night, until the rescue ship Carpathia arrived.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.6,
+      "s": 0.55,
+      "label": "CARPATHIA"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, she said, a woman grabbed the baby and ran off crying, without a word. It was probably the mother.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "place": "RMS Carpathia · 15 April 1912",
+    "stickers": [
+     {
+      "text": "NOT EVEN A THANK YOU",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "moody",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Lifeboat 16, one baby, zero instructions.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #titanic #violetjessop #historytok #truestory",
+ "youtube_title": "On the Titanic, an Officer Handed Her a Baby #shorts",
+ "tags": [
+  "titanic",
+  "violet jessop",
+  "lifeboat 16",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Violet_Jessop",
+  "https://www.history.co.uk/articles/unsinkable-violet-jessop",
+  "https://www.mentalfloss.com/history/titanic/titanic-survivor-violet-jessop-facts",
+  "https://www.encyclopedia-titanica.org/biography/1937/"
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "id": "2026w53-s21",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "A Famous Director Missed the Plane That Crashed",
+ "hook": "HE MISSED THE FLIGHT",
+ "topic": "Werner Herzog",
+ "music": "playful",
+ "cast": {
+  "juliane": {
+   "outfit": "dress",
+   "color": "#E8C84A",
+   "hair": "long",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "Juliane Koepcke"
+  },
+  "herzog": {
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "stubble": true,
+   "skin": "light",
+   "name": "Werner Herzog"
+  }
+ },
+ "voices": {
+  "herzog": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A famous film director was supposed to be on a plane that crashed. His plans changed at the last minute.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "herzog",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.72,
+      "s": 0.4,
+      "color": "#E8E8EC",
+      "label": "LANSA FLIGHT 508"
+     }
+    ],
+    "place": "Lima, Peru · December 1971",
+    "tag": {
+     "id": "herzog",
+     "text": "Werner Herzog, film director"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1971, German director Werner Herzog was in Peru, scouting jungle spots for a movie.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "herzog",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was meant to fly on LANSA Flight 508, but a change of plans kept him off it.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "herzog",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PLANS CHANGED",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On Christmas Eve, that plane was hit by lightning and broke apart over the rainforest.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.5,
+      "s": 0.45,
+      "color": "#E8E8EC",
+      "move": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "fx": [
+     "rain",
+     "sparkle"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Only one person survived: seventeen-year-old Juliane Koepcke, who walked out of the jungle after eleven days.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "juliane",
+     "text": "Juliane Koepcke"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Herzog never forgot it. For decades he tried to find her, but she avoided reporters.",
+   "show": {
+    "k": "card",
+    "label": "Years before Herzog found her",
+    "big": "27",
+    "sub": "1971 to 1998"
+   }
+  },
+  {
+   "who": "herzog",
+   "say": "I want to tell your story.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "herzog",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "juliane",
+      "x": 0.65,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1998, they made the documentary Wings of Hope, and went back to the crash site together.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "herzog",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "neutral"
+     },
+     {
+      "id": "juliane",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "place": "Peruvian rainforest · 1998"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "herzog",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "juliane",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He missed the flight. Decades later, he made a film with its only survivor.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #wernerherzog #julianekoepcke #historytok #film",
+ "youtube_title": "A Famous Director Missed the Plane That Crashed #shorts",
+ "tags": [
+  "werner herzog",
+  "juliane koepcke",
+  "wings of hope",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Juliane_Koepcke",
+  "https://www.nytimes.com/2021/06/18/science/koepcke-diller-panguana-amazon-crash.html",
+  "https://www.abc.net.au/news/2022-10-02/the-girl-who-fell-3km-into-the-amazon-and-survived/101413154",
+  "https://en.wikipedia.org/wiki/Wings_of_Hope_(film)",
+  "https://en.wikipedia.org/wiki/LANSA_Flight_508"
+ ]
+}

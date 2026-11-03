@@ -1,0 +1,278 @@
+{
+ "id": "2026w53-s17",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "Nobody Wanted to Stand Next to This Ranger",
+ "hook": "NOBODY STOOD NEAR HIM",
+ "topic": "Human Lightning Rod",
+ "music": "playful",
+ "cast": {
+  "sullivan": {
+   "outfit": "uniform",
+   "color": "#7A7350",
+   "hat": "cowboy",
+   "hatColor": "#8B6A3E",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "skin": "light",
+   "name": "Roy Sullivan"
+  },
+  "chief": {
+   "outfit": "uniform",
+   "color": "#6A6448",
+   "hat": "cowboy",
+   "hatColor": "#6E5432",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Chief Ranger"
+  }
+ },
+ "voices": {
+  "sullivan": "am_fenrir",
+  "chief": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "People were scared to stand next to this man. Even his boss.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "chief",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.35,
+      "flag": "usa"
+     }
+    ],
+    "place": "Shenandoah National Park, Virginia · 1970s",
+    "tag": {
+     "id": "sullivan",
+     "text": "Roy Sullivan, park ranger"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Roy Sullivan was a park ranger in Virginia. Between 1942 and 1977, lightning hit him seven times.",
+   "show": {
+    "k": "card",
+    "label": "Times lightning hit Roy Sullivan",
+    "big": "7",
+    "sub": "1942 to 1977"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After a few strikes, Roy got nervous too. In a storm, he'd pull his truck over and lie down on the seat.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.5,
+      "s": 0.6,
+      "label": "RANGER TRUCK"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He also kept a can of water in the truck, in case his hair caught fire. And it did.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CAN OF WATER",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "HAIR ON FIRE",
+      "at": 2.0,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "rain",
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Roy told a story about walking with the chief ranger one day.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "chief",
+      "x": 0.62,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "chief",
+     "text": "Chief ranger"
+    }
+   }
+  },
+  {
+   "who": "sullivan",
+   "say": "Lightning just struck way off in the distance.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "neutral"
+     },
+     {
+      "id": "chief",
+      "x": 0.62,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "cam": "close",
+    "focus": "sullivan"
+   }
+  },
+  {
+   "who": "chief",
+   "say": "I'll see you later!",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "chief",
+      "x": 0.6,
+      "pose": "run",
+      "mood": "shock",
+      "exit": "right",
+      "exitAt": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Roy said it made him sad that people avoided him. Guinness still calls him the most lightning-struck person on record.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GUINNESS RECORD",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "chief",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "When the human lightning rod says hi, you say bye.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #lightning #roysullivan #historytok #funnyhistory",
+ "youtube_title": "Nobody Wanted to Stand Next to This Ranger #shorts",
+ "tags": [
+  "roy sullivan",
+  "human lightning rod",
+  "lightning",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Roy_Sullivan",
+  "https://www.guinnessworldrecords.com/news/2023/1/incredible-story-of-man-who-survived-being-struck-by-lightning-seven-times-733932",
+  "https://www.washingtonpost.com/lifestyle/magazine/inside-the-life-of-the-man-known-as-the-spark-ranger/2013/08/15/947cf2d8-ea40-11e2-8f22-de4bd2a2bd39_story.html"
+ ]
+}

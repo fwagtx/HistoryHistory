@@ -1,0 +1,260 @@
+{
+ "id": "2026w53-s18",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "She Survived the Highest Fall Ever Recorded",
+ "hook": "THE HIGHEST FALL",
+ "topic": "Vesna Vulović",
+ "music": "tense",
+ "cast": {
+  "vesna": {
+   "outfit": "dress",
+   "color": "#2FB5B0",
+   "hat": "cap",
+   "hatColor": "#2FB5B0",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Vesna Vulović"
+  },
+  "honke": {
+   "outfit": "coat",
+   "color": "#5A5A4A",
+   "hat": "cap",
+   "hatColor": "#3A3A32",
+   "hair": "short",
+   "hairColor": "#9A9A9A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Bruno Honke"
+  },
+  "doctor": {
+   "outfit": "labcoat",
+   "color": "#F4F4F4",
+   "hair": "side",
+   "hairColor": "#4A3A2A",
+   "glasses": "round",
+   "skin": "light",
+   "name": "Doctor"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "This flight attendant fell more than ten kilometres, without a parachute, and lived.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.72,
+      "s": 0.4,
+      "color": "#F2F2F2",
+      "label": "JAT DC-9"
+     }
+    ],
+    "place": "Copenhagen, Denmark · 26 January 1972",
+    "tag": {
+     "id": "vesna",
+     "text": "Vesna Vulović, flight attendant"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vesna Vulović was twenty-two, working for Yugoslavia's airline on a flight from Copenhagen.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over Czechoslovakia, investigators said, a bomb in the luggage exploded. The plane broke apart, and the other twenty-seven people aboard died.",
+   "show": {
+    "k": "map",
+    "lon": 13.5,
+    "lat": 52.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "26 January 1972",
+    "labels": [
+     [
+      "COPENHAGEN",
+      12.57,
+      55.68,
+      0
+     ],
+     [
+      "CZECHOSLOVAKIA",
+      16.0,
+      49.6,
+      0
+     ]
+    ],
+    "route": [
+     [
+      12.57,
+      55.68
+     ],
+     [
+      13.4,
+      53.5
+     ],
+     [
+      14.35,
+      50.82
+     ]
+    ],
+    "areas": [
+     [
+      14.35,
+      50.82,
+      0.35,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A food cart pinned Vesna inside a piece of the plane, which crashed onto a snowy, wooded hillside.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.45,
+      "s": 0.4,
+      "label": "FOOD CART"
+     },
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "place": "Czechoslovakia · 26 January 1972",
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A villager, Bruno Honke, heard her screaming. He'd been a medic in World War Two, and kept her alive until help came.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "honke",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "shock"
+     }
+    ],
+    "tag": {
+     "id": "honke",
+     "text": "Bruno Honke, villager"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Guinness says she fell ten thousand one hundred sixty metres. Two journalists later claimed it was much lower, but Guinness kept the record.",
+   "show": {
+    "k": "card",
+    "label": "Highest fall survived without a parachute",
+    "big": "10,160 M",
+    "sub": "Guinness World Records"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She broke her skull, both legs and three bones in her back. Ten months later, she was walking.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "doctor",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Belgrade, Yugoslavia · 1972"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "honke",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "33,000 feet. No parachute. Still here.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vesnavulovic #survivor #historytok #aviation",
+ "youtube_title": "She Survived the Highest Fall Ever Recorded #shorts",
+ "tags": [
+  "vesna vulovic",
+  "highest fall",
+  "guinness world records",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Vesna_Vulovi%C4%87",
+  "https://www.guinnessworldrecords.com/news/2022/4/how-vesna-vulovic-survived-the-highest-fall-ever-with-no-parachute-697786",
+  "https://www.cbsnews.com/news/vesna-vulovic-stewardess-who-miraculously-survived-jet-crash-in-1972-dies"
+ ]
+}

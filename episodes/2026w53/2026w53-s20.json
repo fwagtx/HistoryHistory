@@ -1,0 +1,241 @@
+{
+ "id": "2026w53-s20",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "She Fell From a Plane Into the Amazon and Walked Out",
+ "hook": "SHE FELL 3 KM",
+ "topic": "Juliane Koepcke",
+ "music": "tense",
+ "cast": {
+  "juliane": {
+   "outfit": "dress",
+   "color": "#E8C84A",
+   "hair": "long",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "Juliane Koepcke"
+  },
+  "lumberjack": {
+   "outfit": "tunic",
+   "color": "#4A7A4A",
+   "hat": "straw",
+   "hair": "short",
+   "hairColor": "#1A1410",
+   "skin": "tan",
+   "name": "Lumberjack"
+  }
+ },
+ "voices": {
+  "juliane": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A teenager fell almost two miles from a plane into the Amazon, then walked out alive.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.78,
+      "s": 0.7
+     }
+    ],
+    "place": "Peruvian rainforest · 24 December 1971",
+    "tag": {
+     "id": "juliane",
+     "text": "Juliane Koepcke, age 17"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Juliane Koepcke was flying home with her mother on Christmas Eve, 1971.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.72,
+      "s": 0.4,
+      "color": "#E8E8EC",
+      "label": "LANSA AIRLINER"
+     }
+    ],
+    "place": "Lima, Peru · 1971"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over the rainforest, lightning hit the plane, and it broke apart.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.5,
+      "s": 0.45,
+      "color": "#E8E8EC",
+      "move": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "fx": [
+     "rain",
+     "sparkle"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Juliane fell about three kilometres, still strapped into her row of seats.",
+   "show": {
+    "k": "card",
+    "label": "Juliane's fall",
+    "big": "3 KM",
+    "sub": "still strapped into her seat"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The treetops caught her. She woke up alone, with a broken collarbone and a deep cut.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "juliane",
+   "say": "Dad always said: find water, and follow it downstream.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOLLOW THE WATER",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ],
+    "cam": "close",
+    "focus": "juliane"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She waded down a creek for nine days, until she found a lumberjacks' hut. The workers got her to help.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "sad"
+     },
+     {
+      "id": "lumberjack",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "HUT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sadly, she was the only survivor. She grew up to be a scientist who studies bats.",
+   "show": {
+    "k": "card",
+    "label": "Days until Juliane reached help",
+    "big": "11",
+    "sub": "the only survivor of LANSA Flight 508"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Two miles down. Eleven days out.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #amazon #julianekoepcke #historytok #survival",
+ "youtube_title": "She Fell From a Plane Into the Amazon and Walked Out #shorts",
+ "tags": [
+  "juliane koepcke",
+  "lansa flight 508",
+  "amazon",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Juliane_Koepcke",
+  "https://www.nytimes.com/2021/06/18/science/koepcke-diller-panguana-amazon-crash.html",
+  "https://www.abc.net.au/news/2022-10-02/the-girl-who-fell-3km-into-the-amazon-and-survived/101413154"
+ ]
+}

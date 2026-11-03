@@ -1,0 +1,283 @@
+{
+ "id": "2026w53-s16",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "Lightning Hit This Ranger 7 Times",
+ "hook": "STRUCK SEVEN TIMES",
+ "topic": "Roy Sullivan",
+ "music": "playful",
+ "cast": {
+  "sullivan": {
+   "outfit": "uniform",
+   "color": "#7A7350",
+   "hat": "cowboy",
+   "hatColor": "#8B6A3E",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "skin": "light",
+   "name": "Roy Sullivan"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "Lightning hit this park ranger seven times, and he survived every one.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.38,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.4,
+      "flag": "usa48"
+     }
+    ],
+    "place": "Shenandoah National Park, Virginia · 1942",
+    "tag": {
+     "id": "sullivan",
+     "text": "Roy Sullivan, park ranger"
+    },
+    "fx": [
+     "rain",
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Roy Sullivan worked in Shenandoah National Park, in the mountains of Virginia.",
+   "show": {
+    "k": "map",
+    "lon": -80.0,
+    "lat": 38.5,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1942–1977",
+    "labels": [
+     [
+      "SHENANDOAH NATIONAL PARK",
+      -78.4,
+      38.5,
+      0
+     ],
+     [
+      "VIRGINIA",
+      -79.5,
+      37.4,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -78.4,
+      38.5,
+      0.8,
+      "rgba(212,160,16,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Strike one, 1942: a bolt burned his leg and blew a hole in his shoe.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.35,
+      "pose": "run",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "FIRE TOWER"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STRIKE 1",
+      "at": 0.5,
+      "color": "#D4A010"
+     }
+    ],
+    "fx": [
+     "rain",
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "1969: it burned off his eyebrows while he was driving his truck.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.5,
+      "s": 0.6,
+      "move": [
+       0.25,
+       0.6
+      ],
+      "label": "RANGER TRUCK"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO EYEBROWS",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "1970: it hit his shoulder in his own front yard.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STRIKE 3",
+      "at": 0.5,
+      "color": "#D4A010"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "1972 and 1973: it set his hair on fire.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HAIR ON FIRE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "1976: his ankle. And in 1977, it hit the top of his head while he was fishing.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STRIKE 7",
+      "at": 0.5,
+      "color": "#D4A010"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody ever saw a strike happen, only the burns. But Guinness World Records still lists him as the person hit by lightning the most.",
+   "show": {
+    "k": "card",
+    "label": "Most lightning strikes survived",
+    "big": "7",
+    "sub": "Guinness World Records"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Seven lightning strikes. One very unlucky, very lucky ranger.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #lightning #roysullivan #historytok #funnyhistory",
+ "youtube_title": "Lightning Hit This Ranger 7 Times #shorts",
+ "tags": [
+  "roy sullivan",
+  "lightning",
+  "guinness world records",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Roy_Sullivan",
+  "https://www.guinnessworldrecords.com/news/2023/1/incredible-story-of-man-who-survived-being-struck-by-lightning-seven-times-733932",
+  "https://www.washingtonpost.com/lifestyle/magazine/inside-the-life-of-the-man-known-as-the-spark-ranger/2013/08/15/947cf2d8-ea40-11e2-8f22-de4bd2a2bd39_story.html"
+ ]
+}

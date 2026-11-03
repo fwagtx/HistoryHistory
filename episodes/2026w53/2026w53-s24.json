@@ -1,0 +1,258 @@
+{
+ "id": "2026w53-s24",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "The 'World's Luckiest Man' Is Probably a Legend",
+ "hook": "LUCKIEST MAN ALIVE?",
+ "topic": "Frane Selak",
+ "music": "playful",
+ "cast": {
+  "selak": {
+   "outfit": "suit",
+   "color": "#4A5A7A",
+   "hair": "short",
+   "hairColor": "#E4E4E4",
+   "skin": "light",
+   "name": "Frane Selak"
+  }
+ },
+ "voices": {
+  "selak": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "He was called the world's luckiest man. But his story is probably a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "selak",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "place": "Croatia · 1962–2003",
+    "tag": {
+     "id": "selak",
+     "text": "Frane Selak, music teacher"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND?",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Frane Selak was a music teacher from Croatia.",
+   "show": {
+    "k": "map",
+    "lon": 16.5,
+    "lat": 45.0,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "1962–2003",
+    "labels": [
+     [
+      "CROATIA",
+      15.8,
+      45.4,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      15.98,
+      45.81,
+      0.4,
+      "rgba(47,111,194,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He said his train fell off a bridge into an icy river, and he swam to shore.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "selak",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.7,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HE SAID",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, he said, a plane door blew open, and he fell out into a haystack.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "selak",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.7,
+      "s": 0.35,
+      "color": "#E8E8EC"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HAYSTACK",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then bus crashes and car fires. Once, his wife smelled gas, and he joked:",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "selak",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "selak",
+   "say": "What would a car smell like? Certainly not like chocolate!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "selak",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "fire",
+     "smoke"
+    ],
+    "cam": "close",
+    "focus": "selak"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, in the early 2000s, newspapers reported he won the lottery.",
+   "show": {
+    "k": "card",
+    "label": "Frane Selak's lottery win",
+    "big": "JACKPOT",
+    "sub": "reported in 2003"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But no record of his plane crash has ever been found, and his stories kept changing. So it's probably a tall tale.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "selak",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.68,
+      "s": 0.45,
+      "text": "NO RECORDS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "selak",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Seven escapes from death and a lottery win. Proof? Not so much.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #franeselak #legend #historytok #funnyhistory",
+ "youtube_title": "The 'World's Luckiest Man' Is Probably a Legend #shorts",
+ "tags": [
+  "frane selak",
+  "luckiest man",
+  "legend",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Frano_Selak",
+  "https://www.telegraph.co.uk/news/newstopics/howaboutthat/7721985/Frano-Selak-worlds-luckiest-man-gives-away-his-lottery-fortune.html",
+  "https://www.bbc.com/news/blogs-trending-27414609",
+  "https://www.ripleys.com/weird-news/unluckiest-man/"
+ ]
+}

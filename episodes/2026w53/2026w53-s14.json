@@ -1,0 +1,249 @@
+{
+ "id": "2026w53-s14",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "She Survived the Titanic and Its Sister Ship",
+ "hook": "MISS UNSINKABLE",
+ "topic": "Violet Jessop",
+ "music": "playful",
+ "cast": {
+  "jessop": {
+   "outfit": "dress",
+   "color": "#2A2F4A",
+   "apron": true,
+   "hat": "bonnet",
+   "hatColor": "#F2EFE6",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Violet Jessop"
+  },
+  "jessopnurse": {
+   "outfit": "dress",
+   "color": "#DDE3EA",
+   "apron": true,
+   "hat": "veil",
+   "hatColor": "#F4F4F4",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Violet Jessop (nurse)"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "One woman survived the sinking of the Titanic, and then its sister ship.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.72,
+      "s": 0.5,
+      "flag": "uk"
+     }
+    ],
+    "place": "Southampton, England · 1911",
+    "tag": {
+     "id": "jessop",
+     "text": "Violet Jessop, stewardess"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Violet Jessop was a stewardess, a crew member who looks after passengers on big ships.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1911, her ship, the Olympic, crashed into a British warship. Nobody died.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.32,
+      "s": 0.55,
+      "label": "OLYMPIC"
+     },
+     {
+      "k": "battleship",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "HMS HAWKE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CRUNCH!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1912, she moved to the Titanic. When it sank, she escaped in lifeboat sixteen.",
+   "show": {
+    "k": "scene",
+    "bg": "titanic",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "place": "North Atlantic · April 1912"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Four years later, in World War One, she was a nurse on the third sister ship, Britannic.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "jessopnurse",
+      "x": 0.32,
+      "pose": "hips",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.72,
+      "s": 0.55,
+      "label": "BRITANNIC",
+      "flag": "uk"
+     }
+    ],
+    "place": "Aegean Sea, Greece · November 1916"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It hit a mine off Greece and sank in under an hour.",
+   "show": {
+    "k": "card",
+    "label": "Time it took Britannic to sink",
+    "big": "55 MIN",
+    "sub": "30 of the 1,066 people aboard died"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her lifeboat was being dragged toward the ship's spinning propellers, so she jumped.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "jessopnurse",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JUMP!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She hit her head, but another boat pulled her out. People called her Miss Unsinkable, and she lived to eighty-three.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MISS UNSINKABLE",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "jessopnurse",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Titanic, then Britannic. She walked away from both.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #titanic #violetjessop #historytok #funnyhistory",
+ "youtube_title": "She Survived the Titanic and Its Sister Ship #shorts",
+ "tags": [
+  "violet jessop",
+  "titanic",
+  "britannic",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Violet_Jessop",
+  "https://www.history.co.uk/articles/unsinkable-violet-jessop",
+  "https://www.mentalfloss.com/history/titanic/titanic-survivor-violet-jessop-facts",
+  "https://www.encyclopedia-titanica.org/biography/1937/"
+ ]
+}

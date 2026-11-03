@@ -1,0 +1,224 @@
+{
+ "id": "2026w53-s22",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "The Titanic Baker Who Barely Got His Head Wet",
+ "hook": "THE TITANIC BAKER",
+ "topic": "Charles Joughin",
+ "music": "playful",
+ "cast": {
+  "joughin": {
+   "outfit": "suit",
+   "color": "#F2EFE6",
+   "apron": true,
+   "hat": "chef",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Charles Joughin"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "As the Titanic sank, its baker had a drink, rode the ship down, and barely got his head wet.",
+   "show": {
+    "k": "scene",
+    "bg": "titanic",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.38,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "bottle"
+     }
+    ],
+    "place": "RMS Titanic · 15 April 1912",
+    "tag": {
+     "id": "joughin",
+     "text": "Charles Joughin, chief baker"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Charles Joughin was the Titanic's chief baker, in charge of thirteen bakers.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.4,
+      "flag": "uk"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After the iceberg hit, he sent his bakers to the lifeboats with loaves of bread.",
+   "show": {
+    "k": "scene",
+    "bg": "titanic",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.4,
+      "label": "BREAD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he went below for a big drink. Most retellings say whisky.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HIC!",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He threw about fifty deck chairs overboard for people in the water to grab.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.3,
+      "label": "DECK CHAIR"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "As the ship went down, he stood at the very back and rode it into the sea. He later told the inquiry:",
+   "show": {
+    "k": "scene",
+    "bg": "titanic",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "scared"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "I do not believe my head went under the water at all.",
+   "show": {
+    "k": "quote",
+    "text": "I do not believe my head went under the water at all.",
+    "who": "Charles Joughin, British Wreck Commissioner's Inquiry, 1912"
+   }
+  },
+  {
+   "who": "N",
+   "say": "At dawn, he was rescued, with only swollen feet. Experts doubt the whisky helped. Staying mostly dry did.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.68,
+      "s": 0.4,
+      "label": "LIFEBOAT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Bread for the lifeboats, whisky for himself.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #titanic #charlesjoughin #historytok #funnyhistory",
+ "youtube_title": "The Titanic Baker Who Barely Got His Head Wet #shorts",
+ "tags": [
+  "charles joughin",
+  "titanic",
+  "titanic baker",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Charles_Joughin",
+  "https://www.titanicinquiry.org/BOTInq/BOTInq06Joughin02.php",
+  "https://www.encyclopedia-titanica.org/titanic-survivor/charles-john-joughin.html",
+  "https://www.scientificamerican.com/article/how-to-survive-the-sinking-of-the-titanic"
+ ]
+}

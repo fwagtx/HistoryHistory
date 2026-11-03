@@ -1,0 +1,236 @@
+{
+ "id": "2026w53-s23",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "A Jail Cell Saved Him From a Volcano",
+ "hook": "JAIL SAVED HIS LIFE",
+ "topic": "Ludger Sylbaris",
+ "music": "tense",
+ "cast": {
+  "sylbaris": {
+   "outfit": "rags",
+   "color": "#B8A27A",
+   "hair": "short",
+   "hairColor": "#1A1410",
+   "skin": "dark",
+   "name": "Ludger Sylbaris"
+  },
+  "rescuer": {
+   "outfit": "tunic",
+   "color": "#5A7A9A",
+   "hat": "straw",
+   "hair": "short",
+   "hairColor": "#1A1410",
+   "skin": "brown",
+   "name": "Rescuer from Morne-Rouge"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "A volcano destroyed his whole town. He survived because he was locked in jail.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "sylbaris",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "place": "Saint-Pierre, Martinique · May 1902",
+    "tag": {
+     "id": "sylbaris",
+     "text": "Ludger Sylbaris, sailor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1902, Saint-Pierre was the biggest town on Martinique, a Caribbean island ruled by France.",
+   "show": {
+    "k": "map",
+    "lon": -66.0,
+    "lat": 16.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1902",
+    "labels": [
+     [
+      "CARIBBEAN SEA",
+      -72.0,
+      15.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -61.0,
+      14.7,
+      0.7,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ludger Sylbaris was in jail for a fight. One night, he snuck out to a party and came back in the morning.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "sylbaris",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.4,
+      "flag": "france"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PARTY!",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "As punishment, he was put in a small stone cell, half underground, with no windows.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "sylbaris",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SOLITARY",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the eighth of May, the volcano Mount Pelée exploded. A cloud of burning gas swept over the town in about a minute.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [],
+    "fx": [
+     "smoke",
+     "dust"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "About thirty thousand people were killed.",
+   "show": {
+    "k": "card",
+    "label": "People killed in Saint-Pierre",
+    "big": "≈30,000",
+    "sub": "8 May 1902"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ludger was badly burned, but his cell protected him. Four days later, rescuers heard him calling.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "sylbaris",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "sad"
+     },
+     {
+      "id": "rescuer",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He later toured America with a circus as \"the man who lived through Doomsday.\"",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "sylbaris",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "BARNUM & BAILEY"
+     }
+    ],
+    "place": "United States · 1903"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sylbaris",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The safest place in town was the jail.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #volcano #martinique #historytok #survivor",
+ "youtube_title": "A Jail Cell Saved Him From a Volcano #shorts",
+ "tags": [
+  "ludger sylbaris",
+  "mount pelee",
+  "martinique",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ludger_Sylbaris",
+  "https://www.amusingplanet.com/2018/11/how-solitary-confinement-saved-ludger.html",
+  "https://www.nytimes.com/1903/02/25/archives/survived-mt-pelees-fire-sibarace-who-was-dug-from-prison-building.html",
+  "https://en.wikipedia.org/wiki/1902_eruption_of_Mount_Pel%C3%A9e"
+ ]
+}

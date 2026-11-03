@@ -1,0 +1,269 @@
+{
+ "id": "2026w53-s19",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "Coffee Got Her the Job That Nearly Killed Her",
+ "hook": "COFFEE HID HER SECRET",
+ "topic": "Vesna Vulović",
+ "music": "playful",
+ "cast": {
+  "vesna": {
+   "outfit": "dress",
+   "color": "#2FB5B0",
+   "hat": "cap",
+   "hatColor": "#2FB5B0",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Vesna Vulović"
+  },
+  "doctor": {
+   "outfit": "labcoat",
+   "color": "#F4F4F4",
+   "hair": "side",
+   "hairColor": "#4A3A2A",
+   "glasses": "round",
+   "skin": "light",
+   "name": "Doctor"
+  }
+ },
+ "voices": {
+  "vesna": "bf_alice"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A flight attendant hid a health problem with coffee, and doctors think it later helped save her life.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "goblet"
+     }
+    ],
+    "place": "Belgrade, Yugoslavia · 1971",
+    "tag": {
+     "id": "vesna",
+     "text": "Vesna Vulović"
+    },
+    "stickers": [
+     {
+      "text": "COFFEE",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Vesna Vulović loved the Beatles and wanted to fly for Yugoslavia's airline.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.72,
+      "s": 0.4,
+      "color": "#F2F2F2",
+      "label": "JAT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "vesna",
+   "say": "Why shouldn't I be an air hostess? I could go to London once a month.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "vesna"
+   }
+  },
+  {
+   "who": "N",
+   "say": "One problem: she had low blood pressure, which could fail her medical check.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "doctor",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So she drank loads of coffee before the test, and passed.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "goblet"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PASSED!",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1972, a bomb blew her plane apart over Czechoslovakia. Everyone else on board died.",
+   "show": {
+    "k": "map",
+    "lon": 13.5,
+    "lat": 52.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "26 January 1972",
+    "labels": [
+     [
+      "COPENHAGEN",
+      12.57,
+      55.68,
+      0
+     ],
+     [
+      "CZECHOSLOVAKIA",
+      16.0,
+      49.6,
+      0
+     ]
+    ],
+    "route": [
+     [
+      12.57,
+      55.68
+     ],
+     [
+      13.4,
+      53.5
+     ],
+     [
+      14.35,
+      50.82
+     ]
+    ],
+    "areas": [
+     [
+      14.35,
+      50.82,
+      0.35,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Her doctors said her low blood pressure made her pass out fast, which kept her heart from bursting on impact.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "doctor",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "shock"
+     },
+     {
+      "id": "vesna",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She survived a fall Guinness puts at over ten kilometres.",
+   "show": {
+    "k": "card",
+    "label": "Vesna's fall, says Guinness",
+    "big": "10,160 M",
+    "sub": "the highest ever survived without a parachute"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "doctor",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Low blood pressure, lots of coffee, one record-breaking fall.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #vesnavulovic #coffee #historytok #aviation",
+ "youtube_title": "Coffee Got Her the Job That Nearly Killed Her #shorts",
+ "tags": [
+  "vesna vulovic",
+  "low blood pressure",
+  "flight attendant",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Vesna_Vulovi%C4%87",
+  "https://www.guinnessworldrecords.com/news/2022/4/how-vesna-vulovic-survived-the-highest-fall-ever-with-no-parachute-697786",
+  "https://www.cbsnews.com/news/vesna-vulovic-stewardess-who-miraculously-survived-jet-crash-in-1972-dies"
+ ]
+}

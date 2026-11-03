@@ -1,0 +1,248 @@
+{
+ "id": "2026w53-s13",
+ "format": "short",
+ "date": "2026-12-30",
+ "slot": "09:00",
+ "title": "He Survived Both Atomic Bombs",
+ "hook": "HE SURVIVED BOTH BOMBS",
+ "topic": "Tsutomu Yamaguchi",
+ "music": "warm",
+ "cast": {
+  "yamaguchi": {
+   "outfit": "suit",
+   "color": "#6A6E74",
+   "hair": "short",
+   "hairColor": "#14110E",
+   "glasses": "round",
+   "skin": "light",
+   "name": "Tsutomu Yamaguchi"
+  },
+  "boss": {
+   "outfit": "suit",
+   "color": "#3A3E46",
+   "hair": "side",
+   "hairColor": "#14110E",
+   "glasses": "square",
+   "skin": "light",
+   "name": "Yamaguchi's supervisor"
+  }
+ },
+ "voices": {
+  "boss": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This man survived two atomic bombs, three days apart.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.38,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.4,
+      "flag": "japan"
+     }
+    ],
+    "place": "Nagasaki, Japan · 1945",
+    "tag": {
+     "id": "yamaguchi",
+     "text": "Tsutomu Yamaguchi"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tsutomu Yamaguchi was an engineer from Nagasaki, Japan, who designed oil tankers.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "TANKER"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In August 1945, near the end of World War Two, he was on a work trip in the city of Hiroshima.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "place": "Hiroshima, Japan · 6 August 1945"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On his last day there, the first atomic bomb used in war exploded about three kilometres away.",
+   "show": {
+    "k": "card",
+    "label": "Distance from the Hiroshima blast",
+    "big": "3 KM",
+    "sub": "6 August 1945"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was badly burned. But he made it home to Nagasaki, and, still bandaged, went back to work.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "sad"
+     },
+     {
+      "id": "boss",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "place": "Nagasaki, Japan · 9 August 1945"
+   }
+  },
+  {
+   "who": "boss",
+   "say": "One bomb destroyed a whole city? You're crazy.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "boss",
+      "x": 0.55,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "boss"
+   }
+  },
+  {
+   "who": "N",
+   "say": "At that moment, the second atomic bomb exploded over Nagasaki. Again, he was about three kilometres away.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "9 AUGUST 1945",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He survived again, lived to ninety-three, and spent his last years asking the world to give up nuclear weapons.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Hiroshima, then Nagasaki, three days later.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ww2 #japan #historytok #survivor",
+ "youtube_title": "He Survived Both Atomic Bombs #shorts",
+ "tags": [
+  "tsutomu yamaguchi",
+  "hiroshima",
+  "nagasaki",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tsutomu_Yamaguchi",
+  "https://www.independent.co.uk/news/world/asia/how-i-survived-hiroshima-ndash-and-then-nagasaki-1654294.html",
+  "https://www.theguardian.com/world/2010/jan/06/hiroshima-nagasaki-survivor-dies",
+  "https://guinnessworldrecords.com/world-records/first-confirmed-person-to-survive-two-nuclear-attacks"
+ ]
+}

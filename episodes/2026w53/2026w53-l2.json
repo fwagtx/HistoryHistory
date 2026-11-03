@@ -1,0 +1,2407 @@
+{
+ "id": "2026w53-l2",
+ "format": "long",
+ "date": "2026-12-30",
+ "title": "The Luckiest People in History",
+ "music": "playful",
+ "cast": {
+  "sullivan": {
+   "outfit": "uniform",
+   "color": "#7A7350",
+   "hat": "cowboy",
+   "hatColor": "#8B6A3E",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "skin": "light",
+   "name": "Roy Sullivan"
+  },
+  "chief": {
+   "outfit": "uniform",
+   "color": "#6A6448",
+   "hat": "cowboy",
+   "hatColor": "#6E5432",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Chief Ranger"
+  },
+  "sylbaris": {
+   "outfit": "rags",
+   "color": "#B8A27A",
+   "hair": "short",
+   "hairColor": "#1A1410",
+   "skin": "dark",
+   "name": "Ludger Sylbaris"
+  },
+  "rescuer": {
+   "outfit": "tunic",
+   "color": "#5A7A9A",
+   "hat": "straw",
+   "hair": "short",
+   "hairColor": "#1A1410",
+   "skin": "brown",
+   "name": "Rescuer from Morne-Rouge"
+  },
+  "joughin": {
+   "outfit": "suit",
+   "color": "#F2EFE6",
+   "apron": true,
+   "hat": "chef",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Charles Joughin"
+  },
+  "maynard": {
+   "outfit": "coat",
+   "color": "#E8E4D8",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Isaac Maynard"
+  },
+  "jessop": {
+   "outfit": "dress",
+   "color": "#2A2F4A",
+   "apron": true,
+   "hat": "bonnet",
+   "hatColor": "#F2EFE6",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Violet Jessop"
+  },
+  "jessopnurse": {
+   "outfit": "dress",
+   "color": "#DDE3EA",
+   "apron": true,
+   "hat": "veil",
+   "hatColor": "#F4F4F4",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Violet Jessop (nurse)"
+  },
+  "moody": {
+   "outfit": "sailor",
+   "color": "#1E2A44",
+   "hat": "captain",
+   "hatColor": "#1E2A44",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Officer James Moody"
+  },
+  "juliane": {
+   "outfit": "dress",
+   "color": "#E8C84A",
+   "hair": "long",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "Juliane Koepcke"
+  },
+  "lumberjack": {
+   "outfit": "tunic",
+   "color": "#4A7A4A",
+   "hat": "straw",
+   "hair": "short",
+   "hairColor": "#1A1410",
+   "skin": "tan",
+   "name": "Lumberjack"
+  },
+  "vesna": {
+   "outfit": "dress",
+   "color": "#2FB5B0",
+   "hat": "cap",
+   "hatColor": "#2FB5B0",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Vesna Vulović"
+  },
+  "honke": {
+   "outfit": "coat",
+   "color": "#5A5A4A",
+   "hat": "cap",
+   "hatColor": "#3A3A32",
+   "hair": "short",
+   "hairColor": "#9A9A9A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Bruno Honke"
+  },
+  "doctor": {
+   "outfit": "labcoat",
+   "color": "#F4F4F4",
+   "hair": "side",
+   "hairColor": "#4A3A2A",
+   "glasses": "round",
+   "skin": "light",
+   "name": "Doctor"
+  },
+  "yamaguchi": {
+   "outfit": "suit",
+   "color": "#6A6E74",
+   "hair": "short",
+   "hairColor": "#14110E",
+   "glasses": "round",
+   "skin": "light",
+   "name": "Tsutomu Yamaguchi"
+  },
+  "boss": {
+   "outfit": "suit",
+   "color": "#3A3E46",
+   "hair": "side",
+   "hairColor": "#14110E",
+   "glasses": "square",
+   "skin": "light",
+   "name": "Yamaguchi's supervisor"
+  },
+  "selak": {
+   "outfit": "suit",
+   "color": "#4A5A7A",
+   "hair": "short",
+   "hairColor": "#E4E4E4",
+   "skin": "light",
+   "name": "Frane Selak"
+  }
+ },
+ "voices": {
+  "sullivan": "am_fenrir",
+  "chief": "am_echo",
+  "joughin": "bm_lewis",
+  "maynard": "bm_daniel",
+  "jessop": "bf_emma",
+  "moody": "bm_george",
+  "juliane": "af_bella",
+  "lumberjack": "am_puck",
+  "yamaguchi": "am_liam",
+  "boss": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "June 1977. A park ranger named Roy Sullivan is fishing at a quiet pond in the mountains of Virginia.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.72,
+      "s": 0.7
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "usa"
+     }
+    ],
+    "place": "Shenandoah, Virginia · June 1977",
+    "tag": {
+     "id": "sullivan",
+     "text": "Roy Sullivan, park ranger"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a storm rolls in, and a bolt of lightning hits him right on top of the head.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.75,
+      "s": 0.7
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ZAP!",
+      "at": 0.6,
+      "color": "#D4A010"
+     }
+    ],
+    "fx": [
+     "rain",
+     "sparkle"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His hair catches fire. Then, he says, a bear walks up and tries to steal the fish off his line.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HAIR ON FIRE",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "BEAR!",
+      "at": 2.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sullivan",
+   "say": "Hair on fire or not, that's my trout!",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "sullivan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He said he chased the bear off with a tree branch. Oh, and this was the seventh time lightning had hit him.",
+   "show": {
+    "k": "card",
+    "label": "Times lightning hit Roy Sullivan",
+    "big": "7",
+    "sub": "between 1942 and 1977"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Roy is only number seven on our list.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today we're counting down the luckiest people in history.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.14,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "jessop",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "juliane",
+      "x": 0.46,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "vesna",
+      "x": 0.62,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "sylbaris",
+      "x": 0.78,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "yamaguchi",
+      "x": 0.9,
+      "pose": "stand",
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Shipwrecks, plane crashes, a volcano and even atomic bombs. Many people died in these events, so we'll treat those parts with care."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Luckiest People in History",
+    "sub": "Seven survivors. All true.",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.88,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "The Human Lightning Rod"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number seven: Roy Sullivan, a ranger in Shenandoah National Park, in Virginia.",
+   "show": {
+    "k": "map",
+    "lon": -80.0,
+    "lat": 38.5,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1942–1977",
+    "labels": [
+     [
+      "SHENANDOAH NATIONAL PARK",
+      -78.4,
+      38.5,
+      0
+     ],
+     [
+      "VIRGINIA",
+      -79.5,
+      37.4,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -78.4,
+      38.5,
+      0.8,
+      "rgba(212,160,16,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Strike one came in 1942. Roy hid from a storm in a brand-new fire lookout tower that didn't have a lightning rod yet.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.68,
+      "s": 0.6,
+      "label": "FIRE TOWER"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "usa48"
+     }
+    ],
+    "place": "Shenandoah National Park · April 1942",
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The tower got hit again and again. Roy ran outside, and a bolt burned a strip down his leg and blew a hole in his shoe.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.5,
+      "label": "FIRE TOWER"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STRIKE 1",
+      "at": 0.5,
+      "color": "#D4A010"
+     },
+     {
+      "text": "HOLE IN SHOE",
+      "at": 2.0,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "rain",
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1969, lightning bounced off some trees, through his truck window, and burned off his eyebrows.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [],
+    "objects": [
+     {
+      "k": "truck",
+      "x": 0.5,
+      "s": 0.7,
+      "move": [
+       0.3,
+       0.6
+      ],
+      "label": "RANGER TRUCK"
+     },
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO EYEBROWS",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1972, it set his hair on fire inside a ranger station. Roy was too big to fit under the sink, so he used a wet towel.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STRIKE 4",
+      "at": 0.5,
+      "color": "#D4A010"
+     },
+     {
+      "text": "WET TOWEL",
+      "at": 2.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "People started avoiding Roy. Even his boss, the chief ranger.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "chief",
+      "x": 0.62,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.88,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "sullivan",
+   "say": "Lightning just struck way off in the distance.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "neutral"
+     },
+     {
+      "id": "chief",
+      "x": 0.62,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ],
+    "cam": "close",
+    "focus": "sullivan"
+   }
+  },
+  {
+   "who": "chief",
+   "say": "I'll see you later!",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "chief",
+      "x": 0.6,
+      "pose": "run",
+      "mood": "shock",
+      "exit": "right",
+      "exitAt": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody ever saw a strike happen, only the burns after. But Guinness still lists Roy as the record holder.",
+   "show": {
+    "k": "card",
+    "label": "Most lightning strikes survived",
+    "big": "7",
+    "sub": "Guinness World Records"
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "Saved by a Jail Cell"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number six takes us to 1902, and the Caribbean island of Martinique, which was ruled by France.",
+   "show": {
+    "k": "map",
+    "lon": -66.0,
+    "lat": 16.0,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1902",
+    "labels": [
+     [
+      "CARIBBEAN SEA",
+      -72.0,
+      15.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -61.0,
+      14.7,
+      0.7,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its biggest town, Saint-Pierre, sat right under a volcano called Mount Pelée.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.6
+     },
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.45,
+      "flag": "france"
+     }
+    ],
+    "place": "Saint-Pierre, Martinique · May 1902",
+    "stickers": [
+     {
+      "text": "MOUNT PELÉE",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A sailor named Ludger Sylbaris had been locked up for hurting a man in a fight. One night, he snuck out of jail to go to a party.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "sylbaris",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "sylbaris",
+     "text": "Ludger Sylbaris"
+    },
+    "stickers": [
+     {
+      "text": "PARTY!",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He came back the next morning. As punishment, the guards put him in solitary: a tiny stone cell, half underground, with no windows.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "sylbaris",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SOLITARY",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That punishment saved his life."
+  },
+  {
+   "who": "N",
+   "say": "On the morning of the eighth of May, Mount Pelée exploded. A cloud of burning gas and ash rolled down onto Saint-Pierre in about a minute.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [],
+    "fx": [
+     "smoke",
+     "dust"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Almost everyone in the city was killed, around thirty thousand people.",
+   "show": {
+    "k": "card",
+    "label": "People killed in Saint-Pierre",
+    "big": "≈30,000",
+    "sub": "8 May 1902"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hot air through the door burned Ludger badly, but he lived. Four days later, rescuers heard him calling from the ruins.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "sylbaris",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "sad"
+     },
+     {
+      "id": "rescuer",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was pardoned, and later toured America with a circus as \"the man who lived through Doomsday.\"",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "sylbaris",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "BARNUM & BAILEY"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "New York · 1903",
+    "stickers": [
+     {
+      "text": "LIVED THROUGH DOOMSDAY",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "The Titanic Baker"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number five: April 1912. The Titanic, the biggest ship in the world, hits an iceberg in the North Atlantic.",
+   "show": {
+    "k": "map",
+    "lon": -35.0,
+    "lat": 46.0,
+    "z0": 1.1,
+    "z1": 1.3,
+    "date": "April 1912",
+    "labels": [
+     [
+      "SOUTHAMPTON",
+      -1.4,
+      50.9,
+      0
+     ],
+     [
+      "NEW YORK",
+      -74.0,
+      40.7,
+      0
+     ],
+     [
+      "TITANIC SINKS",
+      -49.9,
+      41.7,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -1.4,
+      50.9
+     ],
+     [
+      -8.3,
+      51.8
+     ],
+     [
+      -30.0,
+      46.0
+     ],
+     [
+      -49.9,
+      41.7
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Charles Joughin was the ship's chief baker, the boss of thirteen bakers.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.4,
+      "flag": "uk"
+     }
+    ],
+    "place": "RMS Titanic · 14 April 1912",
+    "tag": {
+     "id": "joughin",
+     "text": "Charles Joughin, chief baker"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "First, he sent his bakers up to the lifeboats with bread, about forty pounds each, so nobody would go hungry.",
+   "show": {
+    "k": "scene",
+    "bg": "titanic",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.4,
+      "label": "BREAD"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "40 LB EACH",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he went below and had a big glass of alcohol. Most retellings say it was whisky.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HIC!",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next, he threw about fifty deck chairs overboard for people in the water to grab.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.3,
+      "label": "DECK CHAIR"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "50 CHAIRS",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At twenty past two in the morning, the Titanic sank. More than fifteen hundred people died in the freezing water.",
+   "show": {
+    "k": "card",
+    "label": "Lives lost on the Titanic",
+    "big": "1,500+",
+    "sub": "15 April 1912"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joughin was hanging on at the very back of the ship as it went down. He said he rode it down like an elevator.",
+   "show": {
+    "k": "scene",
+    "bg": "titanic",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "scared"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "At the official inquiry, he said: I do not believe my head went under the water at all. It may have been wetted, but no more.",
+   "show": {
+    "k": "quote",
+    "text": "I do not believe my head went under the water at all. It may have been wetted, but no more.",
+    "who": "Charles Joughin, British Wreck Commissioner's Inquiry, 1912"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He floated in the dark, and around dawn he reached an upturned lifeboat. A cook named Isaac Maynard recognized him.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "maynard",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.6,
+      "s": 0.5,
+      "label": "UPTURNED LIFEBOAT"
+     }
+    ],
+    "tag": {
+     "id": "maynard",
+     "text": "Isaac Maynard, cook"
+    }
+   }
+  },
+  {
+   "who": "joughin",
+   "say": "Maynard! It's me, Charlie, the baker!",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "shout"
+     },
+     {
+      "id": "maynard",
+      "x": 0.65,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "maynard",
+   "say": "There's no room up here, but I've got your hand!",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "maynard",
+      "x": 0.6,
+      "pose": "hold",
+      "mood": "happy"
+     },
+     {
+      "id": "joughin",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.6,
+      "s": 0.4,
+      "label": "LIFEBOAT"
+     }
+    ],
+    "cam": "close",
+    "focus": "maynard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Another lifeboat picked him up. His only injury: swollen feet."
+  },
+  {
+   "who": "N",
+   "say": "Experts doubt the whisky helped, since alcohol makes you lose heat faster. His real luck was staying mostly out of the water.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "smug",
+      "hold": "bottle"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT THE WHISKY",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "Miss Unsinkable"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number four was on the Titanic too. Violet Jessop was a stewardess, a crew member who looks after passengers.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.7,
+      "s": 0.6,
+      "label": "OLYMPIC",
+      "flag": "uk"
+     }
+    ],
+    "place": "Southampton, England · 1911",
+    "tag": {
+     "id": "jessop",
+     "text": "Violet Jessop, stewardess"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1911, she worked on the Titanic's big sister ship, the Olympic. On one trip, it crashed into a British warship.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.35,
+      "s": 0.6,
+      "label": "OLYMPIC"
+     },
+     {
+      "k": "battleship",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "HMS HAWKE",
+      "flag": "uk"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CRUNCH!",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody died. So the next year, Violet moved to the brand-new Titanic."
+  },
+  {
+   "who": "N",
+   "say": "On the night it sank, she was ordered into lifeboat sixteen. Then an officer handed her something.",
+   "show": {
+    "k": "scene",
+    "bg": "titanic",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "moody",
+      "x": 0.68,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "moody",
+     "text": "Sixth Officer James Moody"
+    }
+   }
+  },
+  {
+   "who": "moody",
+   "say": "Miss Jessop! Look after this baby.",
+   "show": {
+    "k": "scene",
+    "bg": "titanic",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "shock"
+     },
+     {
+      "id": "moody",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "moody"
+   }
+  },
+  {
+   "who": "jessop",
+   "say": "A baby? Yes, sir!"
+  },
+  {
+   "who": "N",
+   "say": "The next morning, on the rescue ship Carpathia, a woman grabbed the baby and ran off without a word. It was probably the mother.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.8,
+      "s": 0.4,
+      "label": "CARPATHIA"
+     }
+    ],
+    "place": "RMS Carpathia · 15 April 1912"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In World War One, Violet became a nurse on the third sister ship, Britannic, now a floating hospital.",
+   "show": {
+    "k": "map",
+    "lon": 23.5,
+    "lat": 38.5,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "21 November 1916",
+    "labels": [
+     [
+      "GREECE",
+      22.0,
+      39.6,
+      0
+     ],
+     [
+      "AEGEAN SEA",
+      25.3,
+      38.6,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      24.3,
+      37.7,
+      0.35,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In November 1916, Britannic hit a German mine off Greece. It sank in under an hour.",
+   "show": {
+    "k": "card",
+    "label": "Time it took Britannic to sink",
+    "big": "55 MIN",
+    "sub": "30 of the 1,066 people aboard died"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Violet's lifeboat was being pulled toward the ship's giant spinning propellers, so she jumped into the sea.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "jessopnurse",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "BRITANNIC",
+      "flag": "uk"
+     }
+    ],
+    "place": "Aegean Sea, Greece · 21 November 1916",
+    "stickers": [
+     {
+      "text": "JUMP!",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She hit her head hard, but another boat pulled her out. She lived to eighty-three.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "jessop",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MISS UNSINKABLE",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "The Girl Who Fell Into the Jungle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number three: Christmas Eve, 1971, in Peru. Seventeen-year-old Juliane Koepcke had graduated from high school the day before.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.72,
+      "s": 0.4,
+      "color": "#E8E8EC",
+      "label": "LANSA AIRLINER"
+     }
+    ],
+    "place": "Lima, Peru · 24 December 1971",
+    "tag": {
+     "id": "juliane",
+     "text": "Juliane Koepcke, age 17"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "She and her mother were flying home to her parents' research station in the rainforest."
+  },
+  {
+   "who": "N",
+   "say": "Over the Amazon, the plane flew into a thunderstorm, was hit by lightning, and broke apart in the air.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.5,
+      "s": 0.45,
+      "color": "#E8E8EC",
+      "move": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "fx": [
+     "rain",
+     "sparkle"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Juliane fell about three kilometres, almost two miles, still strapped into her row of seats.",
+   "show": {
+    "k": "card",
+    "label": "Juliane's fall",
+    "big": "3 KM",
+    "sub": "still strapped into her seat"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Experts think the seats spun like a helicopter seed and slowed her down. Then the thick treetops caught her.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared",
+      "s": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.2,
+      "s": 0.8
+     },
+     {
+      "k": "palm",
+      "x": 0.85,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SPINNING SEATS",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She woke up on the jungle floor with a broken collarbone, a deep cut on her arm, and a concussion. She was alone."
+  },
+  {
+   "who": "N",
+   "say": "But her father had taught her a rule for getting lost in the jungle.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "juliane",
+   "say": "Find water, and follow it downstream. That's where people live.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOLLOW THE WATER",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ],
+    "cam": "close",
+    "focus": "juliane"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She waded down a creek for nine days until she found a lumberjacks' hut. The next day, the workers came back.",
+   "show": {
+    "k": "card",
+    "label": "Days alone in the rainforest",
+    "big": "11",
+    "sub": "until she reached help"
+   }
+  },
+  {
+   "who": "lumberjack",
+   "say": "A girl? Out here?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "lumberjack",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "shock"
+     },
+     {
+      "id": "juliane",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.4,
+      "label": "HUT"
+     }
+    ],
+    "tag": {
+     "id": "lumberjack",
+     "text": "Peruvian lumberjack"
+    }
+   }
+  },
+  {
+   "who": "juliane",
+   "say": "I'm from the plane that crashed."
+  },
+  {
+   "who": "N",
+   "say": "They got her to a hospital. Sadly, she was the only survivor; her mother was among those lost."
+  },
+  {
+   "who": "N",
+   "say": "Juliane became a scientist who studies bats, and now runs her parents' rainforest research station.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "juliane",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.5,
+      "label": "PANGUANA"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "The Highest Fall"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number two: January 1972. Vesna Vulović, a twenty-two-year-old flight attendant from Yugoslavia, boards a flight in Copenhagen.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "bomber",
+      "x": 0.72,
+      "s": 0.4,
+      "color": "#F2F2F2",
+      "label": "JAT DC-9"
+     }
+    ],
+    "place": "Copenhagen, Denmark · 26 January 1972",
+    "tag": {
+     "id": "vesna",
+     "text": "Vesna Vulović, flight attendant"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "She later said she wasn't even supposed to be on it. The airline mixed her up with another flight attendant, also named Vesna.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WRONG VESNA",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over Czechoslovakia, investigators said, a bomb hidden in the luggage exploded. The plane broke apart high in the sky, and the other twenty-seven people aboard died.",
+   "show": {
+    "k": "map",
+    "lon": 13.5,
+    "lat": 52.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "26 January 1972",
+    "labels": [
+     [
+      "COPENHAGEN",
+      12.57,
+      55.68,
+      0
+     ],
+     [
+      "CZECHOSLOVAKIA",
+      16.0,
+      49.6,
+      0
+     ]
+    ],
+    "route": [
+     [
+      12.57,
+      55.68
+     ],
+     [
+      13.4,
+      53.5
+     ],
+     [
+      14.35,
+      50.82
+     ]
+    ],
+    "areas": [
+     [
+      14.35,
+      50.82,
+      0.35,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A food cart pinned Vesna inside a piece of the plane, which crashed onto a snowy, wooded mountainside. The trees and snow softened the landing.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.45,
+      "s": 0.45,
+      "label": "FOOD CART"
+     },
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.7
+     }
+    ],
+    "place": "Srbská Kamenice, Czechoslovakia · 1972",
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A villager named Bruno Honke heard her screaming. He'd been a medic in World War Two, and he kept her alive until help came.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "honke",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "WRECKAGE"
+     }
+    ],
+    "tag": {
+     "id": "honke",
+     "text": "Bruno Honke, villager"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Guinness World Records says she fell ten thousand one hundred and sixty metres. That's higher than Mount Everest.",
+   "show": {
+    "k": "card",
+    "label": "Highest fall survived without a parachute",
+    "big": "10,160 M",
+    "sub": "about 33,000 feet (Guinness World Records)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2009, two journalists claimed the plane was shot down much lower. Czech officials called that a conspiracy theory, and Guinness kept the record.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.5,
+      "text": "HOW HIGH?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DISPUTED",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "She broke her skull, both legs and three bones in her back. But ten months later, she was walking again.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "doctor",
+      "x": 0.7,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Belgrade, Yugoslavia · late 1972"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Doctors thought her low blood pressure made her pass out fast, which protected her heart. Funny thing: she'd hidden it at her medical check by drinking loads of coffee.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "vesna",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "goblet"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "COFFEE",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "Twice"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number one is the most serious story on our list.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.5,
+      "pose": "stand",
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tsutomu Yamaguchi was an engineer who designed oil tankers for the company Mitsubishi in Nagasaki, Japan.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.4,
+      "flag": "japan"
+     }
+    ],
+    "place": "Nagasaki, Japan · 1945",
+    "tag": {
+     "id": "yamaguchi",
+     "text": "Tsutomu Yamaguchi, engineer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the summer of 1945, during World War Two, he was in the city of Hiroshima on a three-month work trip.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "TANKER"
+     }
+    ],
+    "place": "Hiroshima, Japan · 6 August 1945"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the sixth of August, his last day there, America dropped the first atomic bomb ever used in war. He was about three kilometres away.",
+   "show": {
+    "k": "card",
+    "label": "Yamaguchi's distance from the blast",
+    "big": "3 KM",
+    "sub": "Hiroshima, 8:15 a.m., 6 August 1945"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Tens of thousands of people in Hiroshima were killed. Yamaguchi was badly burned, his eardrums burst, and he was blinded for a while.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [],
+    "fx": [
+     "smoke",
+     "dust"
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The next day, he made it home to Nagasaki. Two days later, still covered in bandages, he went back to work.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.5,
+      "s": 0.6,
+      "move": [
+       0.2,
+       0.7
+      ]
+     }
+    ],
+    "place": "Nagasaki, Japan · 9 August 1945"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was telling his supervisor about Hiroshima.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "sad"
+     },
+     {
+      "id": "boss",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "boss",
+   "say": "One bomb destroyed a whole city? You're crazy.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.3,
+      "pose": "stand",
+      "mood": "sad"
+     },
+     {
+      "id": "boss",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "boss"
+   }
+  },
+  {
+   "who": "yamaguchi",
+   "say": "I saw it with my own eyes."
+  },
+  {
+   "who": "N",
+   "say": "At that very moment, the second atomic bomb went off over Nagasaki. Once again, he was about three kilometres away.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.5,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "9 AUGUST 1945",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This time the blast didn't hurt him, but he was very sick for more than a week. And he survived."
+  },
+  {
+   "who": "N",
+   "say": "In 2009, Japan officially recognized him as a survivor of both bombings, the only person ever given that recognition.",
+   "show": {
+    "k": "card",
+    "label": "People officially recognized as surviving both bombings",
+    "big": "1",
+    "sub": "Tsutomu Yamaguchi, recognized in 2009"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He spent his last years asking the world to get rid of nuclear weapons. He said: The reason that I hate the atomic bomb is because of what it does to the dignity of human beings.",
+   "show": {
+    "k": "quote",
+    "text": "The reason that I hate the atomic bomb is because of what it does to the dignity of human beings.",
+    "who": "Tsutomu Yamaguchi (Military History magazine, 2009)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He died in 2010, at the age of ninety-three.",
+   "show": {
+    "k": "scene",
+    "bg": "japan",
+    "cast": [
+     {
+      "id": "yamaguchi",
+      "x": 0.45,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Before we go, an honorable mention, and this one is a legend. Frane Selak, a music teacher from Croatia, was called the world's luckiest man.",
+   "show": {
+    "k": "map",
+    "lon": 16.5,
+    "lat": 45.0,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "1962–2003",
+    "labels": [
+     [
+      "CROATIA",
+      15.8,
+      45.4,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      15.98,
+      45.81,
+      0.4,
+      "rgba(47,111,194,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He said he survived a train falling into a river, getting sucked out of a plane into a haystack, two car fires and a bus crash. Then he won the lottery.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "selak",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "train",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "TRAIN?"
+     }
+    ],
+    "place": "Croatia · 1962–2003",
+    "tag": {
+     "id": "selak",
+     "text": "Frane Selak, music teacher"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "LOTTERY WIN",
+      "at": 2.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His lottery win was reported, but there's no record of his plane crash. So most of it is probably a tall tale."
+  },
+  {
+   "who": "N",
+   "say": "So who was luckiest: the lightning ranger, the dry-headed baker, or the man who survived two atomic bombs? Tell us in the comments.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "sullivan",
+      "x": 0.2,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "joughin",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "bottle"
+     },
+     {
+      "id": "yamaguchi",
+      "x": 0.8,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next time: the weirdest money in history. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "next": "The Weirdest Money in History",
+    "cast": [
+     {
+      "id": "joughin",
+      "x": 0.78,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "jessop",
+      "x": 0.92,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "A ranger hit by lightning seven times, a prisoner saved by his jail cell, the Titanic baker who barely got his head wet, the stewardess who survived three sister ships, a teenager who fell into the Amazon, the highest fall ever survived, and the man who lived through both atomic bombs. Here are seven of the luckiest people in history, counted down from seven to one. Chapters are added automatically.\n\n#history #titanic #survivor #luckiest #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "SURVIVED?!",
+  "bg": "titanic",
+  "faces": [
+   {
+    "id": "joughin",
+    "mood": "shout"
+   },
+   {
+    "id": "jessop",
+    "mood": "scared"
+   }
+  ],
+  "grade": "cold"
+ },
+ "youtube_title": "The Luckiest People in History",
+ "tags": [
+  "luckiest people in history",
+  "survivors",
+  "titanic",
+  "charles joughin",
+  "violet jessop",
+  "roy sullivan",
+  "tsutomu yamaguchi",
+  "vesna vulovic",
+  "juliane koepcke",
+  "ludger sylbaris",
+  "frane selak",
+  "funny history",
+  "animated history",
+  "history pros"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Roy_Sullivan",
+  "https://www.guinnessworldrecords.com/news/2023/1/incredible-story-of-man-who-survived-being-struck-by-lightning-seven-times-733932",
+  "https://www.washingtonpost.com/lifestyle/magazine/inside-the-life-of-the-man-known-as-the-spark-ranger/2013/08/15/947cf2d8-ea40-11e2-8f22-de4bd2a2bd39_story.html",
+  "https://en.wikipedia.org/wiki/Ludger_Sylbaris",
+  "https://www.amusingplanet.com/2018/11/how-solitary-confinement-saved-ludger.html",
+  "https://www.nytimes.com/1903/02/25/archives/survived-mt-pelees-fire-sibarace-who-was-dug-from-prison-building.html",
+  "https://en.wikipedia.org/wiki/Charles_Joughin",
+  "https://www.titanicinquiry.org/BOTInq/BOTInq06Joughin02.php",
+  "https://www.encyclopedia-titanica.org/titanic-survivor/charles-john-joughin.html",
+  "https://www.scientificamerican.com/article/how-to-survive-the-sinking-of-the-titanic",
+  "https://www.britannica.com/topic/Titanic",
+  "https://en.wikipedia.org/wiki/Violet_Jessop",
+  "https://www.history.co.uk/articles/unsinkable-violet-jessop",
+  "https://www.mentalfloss.com/history/titanic/titanic-survivor-violet-jessop-facts",
+  "https://en.wikipedia.org/wiki/Juliane_Koepcke",
+  "https://www.nytimes.com/2021/06/18/science/koepcke-diller-panguana-amazon-crash.html",
+  "https://www.abc.net.au/news/2022-10-02/the-girl-who-fell-3km-into-the-amazon-and-survived/101413154",
+  "https://en.wikipedia.org/wiki/Vesna_Vulovi%C4%87",
+  "https://www.guinnessworldrecords.com/news/2022/4/how-vesna-vulovic-survived-the-highest-fall-ever-with-no-parachute-697786",
+  "https://www.cbsnews.com/news/vesna-vulovic-stewardess-who-miraculously-survived-jet-crash-in-1972-dies",
+  "https://en.wikipedia.org/wiki/Tsutomu_Yamaguchi",
+  "https://www.independent.co.uk/news/world/asia/how-i-survived-hiroshima-ndash-and-then-nagasaki-1654294.html",
+  "https://www.theguardian.com/world/2010/jan/06/hiroshima-nagasaki-survivor-dies",
+  "https://guinnessworldrecords.com/world-records/first-confirmed-person-to-survive-two-nuclear-attacks",
+  "https://en.wikipedia.org/wiki/Frano_Selak",
+  "https://www.telegraph.co.uk/news/newstopics/howaboutthat/7721985/Frano-Selak-worlds-luckiest-man-gives-away-his-lottery-fortune.html",
+  "https://www.bbc.com/news/blogs-trending-27414609"
+ ]
+}
