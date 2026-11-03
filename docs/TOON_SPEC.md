@@ -105,7 +105,7 @@ Long-form adds `"format": "long"`, `description` (2–3 sentences, then "Chapter
 | k | Fields | What it shows |
 |---|---|---|
 | `scene` | `bg`, `cast`, `cam`, `focus`, `fx`, `stickers`, `tag`, `place` (a where-and-when banner, e.g. "Corinth, Greece · 336 BC"), `cx` (short only: which part of the 1920-wide scene to frame, default 960) | A background with characters |
-| `map` | `lon`, `lat`, `z0`, `z1`, `date`, `labels` `[[name, lon, lat, dx]]`, `route` `[[lon, lat], …]`, `areas` `[[lon, lat, radius_deg, "rgba(...)"]]` | Cartoon map with real coastlines. Coverage: Europe, Mediterranean, Middle East (lon −14 to 70, lat 10 to 71). z 1–1.5 is a continent, 2–4 a region. For the Americas, East Asia or sub-Saharan Africa use a scene instead of a map. |
+| `map` | `lon`, `lat`, `z0`, `z1`, `date`, `labels` `[[name, lon, lat, dx]]`, `route` `[[lon, lat], …]`, `areas` `[[lon, lat, radius_deg, "rgba(...)"]]` | Cartoon map with real coastlines. Coverage: Europe, Mediterranean, Middle East (lon −14 to 70, lat 10 to 71) and, more roughly, North America, Central America, the Caribbean and northern South America (lon −170 to −30, lat 5 to 71). The Americas outline is simplified, so keep Americas maps at continent or large-region zoom (z 1–2.5) and label only big places (states, cities, rivers' mouths), never small islands. z 1–1.5 is a continent, 2–4 a region. For East Asia or sub-Saharan Africa use a scene instead of a map. |
 | `title` | `text`, `sub`, `cast` | Handwritten title on white |
 | `chapter` | `year`, `title`, `bg` (optional scene thumbnail) | Chapter card |
 | `card` | `label`, `big`, `sub`, `cast` | Big number or word on paper (numbers count up) |

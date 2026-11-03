@@ -165,8 +165,8 @@ def check(path, V):
             errs.append(f"beat {i}: unknown chapter scene '{sh['bg']}'")
         if k == "map" and ("lon" not in sh or "lat" not in sh):
             errs.append(f"beat {i}: map needs lon and lat")
-        if k == "map" and not (-14 <= sh.get("lon", 0) <= 70 and 10 <= sh.get("lat", 45) <= 71):
-            errs.append(f"beat {i}: map centre is outside the map data (lon -14..70, lat 10..71)")
+        if k == "map" and not (-170 <= sh.get("lon", 0) <= 70 and 5 <= sh.get("lat", 45) <= 71):
+            errs.append(f"beat {i}: map centre is outside the map data (lon -170..70, lat 5..71)")
         for ob in sh.get("objects", []):
             if ob.get("k") not in V["objects"]:
                 errs.append(f"beat {i}: unknown object '{ob.get('k')}'")

@@ -50,7 +50,7 @@ DRONE = (
 
 
 def chromium():
-    found = sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux/chrome"))
+    found = sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"))
     return found[-1] if found else None
 
 
