@@ -154,7 +154,7 @@
   },
   {
    "who": "N",
-   "say": "Adams really thought so, because Congress voted for independence on July 2. Wrong guess.",
+   "say": "Adams meant it: Congress voted for independence on July 2. Wrong guess.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -181,13 +181,32 @@
   },
   {
    "who": "N",
-   "say": "Some delegates signed even later, and two never signed at all.",
+   "say": "Some delegates signed even later, and a few never signed at all.",
    "show": {
-    "k": "flag",
-    "flag": "usa1776",
-    "label": "THE UNITED STATES",
-    "sub": "Declared independent in 1776",
-    "bg": "field"
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "adams",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "SIGNED LATER"
+     },
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.5,
+      "flag": "usa1776"
+     }
+    ]
    }
   },
   {

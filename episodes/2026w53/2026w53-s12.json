@@ -13,7 +13,8 @@
    "name": "Neil Armstrong"
   },
   "astro2": {
-   "preset": "astronaut"
+   "preset": "astronaut",
+   "name": "Buzz Aldrin"
   },
   "officer": {
    "hat": "cap",
@@ -33,7 +34,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "After walking on the Moon, the Apollo 11 astronauts had to fill out a customs form.",
+   "say": "After the Moon landing, the Apollo 11 astronauts had to fill out a customs form.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -63,7 +64,7 @@
   },
   {
    "who": "N",
-   "say": "In July 1969, Neil Armstrong and Buzz Aldrin became the first people on the Moon.",
+   "say": "In July 1969, Neil Armstrong and Buzz Aldrin walked on the Moon, while Michael Collins circled above.",
    "show": {
     "k": "scene",
     "bg": "moon",
@@ -118,7 +119,7 @@
       "x": 0.7,
       "s": 0.6,
       "flag": "usa",
-      "label": "USS HORNET"
+      "label": "NAVY SHIP"
      }
     ],
     "place": "Pacific Ocean · July 24, 1969"
@@ -215,7 +216,7 @@
   },
   {
    "who": "N",
-   "say": "Asked if anything on board might spread disease, they wrote: to be determined. It was partly a joke, but the form is real, signed by all three.",
+   "say": "Asked if anything on board might spread disease, they wrote: to be determined. Partly a joke, but the form is real, signed by all three.",
    "show": {
     "k": "scene",
     "bg": "library",

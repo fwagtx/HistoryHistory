@@ -14,7 +14,8 @@
    "color": "#2A2E3A",
    "beard": "full",
    "hairColor": "#6A4A2A",
-   "skin": "light"
+   "skin": "light",
+   "name": "Thomas Durant"
   },
   "crew": {
    "hat": "cap",
@@ -64,7 +65,11 @@
       "text": "GOLD SPIKE"
      }
     ],
-    "place": "Promontory Summit, Utah · May 1869"
+    "place": "Promontory Summit, Utah · May 1869",
+    "tag": {
+     "id": "boss",
+     "text": "Thomas Durant, railroad boss"
+    }
    }
   },
   {
@@ -88,6 +93,12 @@
       "UTAH",
       -112.5,
       41.6,
+      14
+     ],
+     [
+      "NEBRASKA",
+      -99.5,
+      41.5,
       14
      ]
     ],
@@ -201,7 +212,7 @@
   },
   {
    "who": "N",
-   "say": "Floods and unpaid workers delayed a boss's train. The ceremony slipped two days, to May 10.",
+   "say": "Rain and unpaid workers held up a railroad boss, Thomas Durant. So the ceremony slipped to May 10.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -227,7 +238,7 @@
   },
   {
    "who": "N",
-   "say": "Then the spike was pulled right out, so nobody would steal it. It's now in a Stanford University museum.",
+   "say": "Then the gold spike was swapped for a plain iron one. It's now in a museum at Stanford.",
    "show": {
     "k": "scene",
     "bg": "library",

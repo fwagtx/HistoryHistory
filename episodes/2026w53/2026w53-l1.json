@@ -627,7 +627,7 @@
   },
   {
    "who": "N",
-   "say": "More than half of them died that first winter, from hunger and disease.",
+   "say": "Within a year, more than half of them were dead, from hunger and disease.",
    "show": {
     "k": "scene",
     "bg": "snow",
@@ -650,7 +650,7 @@
   },
   {
    "who": "N",
-   "say": "The colony survived by growing tobacco, which Europeans paid a fortune for.",
+   "say": "The colony survived by growing tobacco, which sold for good money in England.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -913,7 +913,7 @@
   },
   {
    "who": "N",
-   "say": "Britain had just fought an expensive war in North America, and it wanted the colonies to help pay for it.",
+   "say": "Britain had just fought an expensive war against France in North America, and it wanted the colonies to help pay for it.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -937,7 +937,7 @@
   },
   {
    "who": "N",
-   "say": "So Parliament, in London, taxed them: on paper, on glass, on tea.",
+   "say": "So Parliament, Britain's lawmakers in London, taxed them: on paper, on glass, on tea.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -1128,7 +1128,7 @@
   },
   {
    "who": "adams",
-   "say": "You write it. You write ten times better than I do.",
+   "say": "You write it. You can write ten times better than I can.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1221,7 +1221,7 @@
   },
   {
    "who": "N",
-   "say": "And those words had a huge exception. Jefferson himself enslaved more than six hundred people during his life.",
+   "say": "And those words had a huge exception. Jefferson himself enslaved more than six hundred people during his life, many at his Virginia home, Monticello.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1233,12 +1233,12 @@
       "label": "MONTICELLO"
      }
     ],
-    "place": "Monticello, Virginia"
+    "place": "Monticello, Virginia · 1770s–1826"
    }
   },
   {
    "who": "N",
-   "say": "The war dragged on for years. France joined the American side, and in 1781 the main British army surrendered at Yorktown.",
+   "say": "The war dragged on for years. France joined the American side, and in 1781 a large British army surrendered at Yorktown.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -1388,7 +1388,7 @@
   },
   {
    "who": "N",
-   "say": "Jefferson sent Lewis and Clark to explore it. Guided partly by Sacagawea, a young Shoshone woman, they reached the Pacific in 1805.",
+   "say": "Jefferson sent two explorers, Lewis and Clark, to explore it. Helped by Sacagawea, a young Shoshone woman who translated for them, they reached the Pacific in 1805.",
    "show": {
     "k": "scene",
     "bg": "snow",
@@ -1418,7 +1418,7 @@
     "place": "The Rocky Mountains · 1805",
     "tag": {
      "id": "sacagawea",
-     "text": "Sacagawea, Shoshone guide"
+     "text": "Sacagawea, Shoshone interpreter"
     }
    }
   },
@@ -1657,7 +1657,7 @@
   },
   {
    "who": "N",
-   "say": "Thousands died on the long march west, through cold, hunger and disease. It's remembered as the Trail of Tears.",
+   "say": "Thousands died on the long march west to Indian Territory, today's Oklahoma, through cold, hunger and disease. It's remembered as the Trail of Tears.",
    "show": {
     "k": "map",
     "lon": -89.0,
@@ -1673,7 +1673,7 @@
       0
      ],
      [
-      "OKLAHOMA",
+      "INDIAN TERRITORY",
       -96.5,
       35.6,
       0
@@ -1758,7 +1758,7 @@
       "k": "flag",
       "x": 0.75,
       "s": 0.55,
-      "flag": "usa1776"
+      "flag": "usa1859"
      },
      {
       "k": "cannon",
@@ -1803,7 +1803,7 @@
   },
   {
    "who": "N",
-   "say": "By 1849, a flood of fortune hunters, the Forty-Niners, rushed west by wagon and by ship.",
+   "say": "By 1849, a flood of fortune hunters, the Forty-Niners, rushed to California, by wagon from Missouri and by ship.",
    "show": {
     "k": "map",
     "lon": -105.0,
@@ -1816,12 +1816,6 @@
       "CALIFORNIA",
       -120.0,
       37.5,
-      0
-     ],
-     [
-      "OREGON",
-      -121.5,
-      44.0,
       0
      ],
      [
@@ -2039,7 +2033,7 @@
   },
   {
    "who": "N",
-   "say": "In 1861, the Civil War began. It became the deadliest war in American history.",
+   "say": "In 1861, the Civil War began: the Union, the North, against the Confederacy. It became the deadliest war in American history.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -2077,7 +2071,7 @@
     "k": "card",
     "label": "Civil War deaths, 1861 to 1865",
     "big": "620,000+",
-    "sub": "soldiers; a 2011 census study estimates about 750,000"
+    "sub": "soldiers; a 2011 study using census data estimates about 750,000"
    }
   },
   {
@@ -2227,7 +2221,7 @@
   },
   {
    "who": "N",
-   "say": "After the war, America sped up. In 1869, the first railroad across the continent was finished.",
+   "say": "After the war, America sped up. In 1869, the first railroad across the continent was finished, from Nebraska to California.",
    "show": {
     "k": "map",
     "lon": -106.0,
@@ -2237,21 +2231,15 @@
     "date": "1869",
     "labels": [
      [
-      "OMAHA",
-      -95.9,
-      41.3,
+      "NEBRASKA",
+      -99.5,
+      41.5,
       0
      ],
      [
-      "UTAH",
-      -112.0,
-      40.0,
-      0
-     ],
-     [
-      "SACRAMENTO",
-      -121.5,
-      38.6,
+      "CALIFORNIA",
+      -120.0,
+      37.5,
       0
      ]
     ],
@@ -2466,7 +2454,11 @@
      }
     ],
     "cam": "close",
-    "focus": "wilbur"
+    "focus": "wilbur",
+    "tag": {
+     "id": "wilbur",
+     "text": "Wilbur Wright"
+    }
    }
   },
   {
@@ -2592,7 +2584,7 @@
   },
   {
    "who": "N",
-   "say": "Then, in 1929, it crashed. In the Great Depression that followed, about one in four workers lost their jobs.",
+   "say": "Then, in 1929, it crashed. In the Great Depression that followed, at the worst point, about one in four workers had no job.",
    "show": {
     "k": "scene",
     "bg": "street",
@@ -2741,7 +2733,7 @@
   },
   {
    "who": "N",
-   "say": "They never fought each other directly. Instead, they raced: for weapons, for allies, and for space.",
+   "say": "They never fought each other directly. Instead, in what's called the Cold War, they raced: for weapons, for allies, and for space.",
    "show": {
     "k": "scene",
     "bg": "warroom",
@@ -2780,7 +2772,7 @@
   },
   {
    "who": "N",
-   "say": "In 1957, the Soviets launched the first satellite. Americans panicked, just a little.",
+   "say": "In 1957, the Soviets launched the first satellite, Sputnik. Americans panicked, just a little.",
    "show": {
     "k": "scene",
     "bg": "space",
