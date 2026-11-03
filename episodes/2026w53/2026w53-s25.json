@@ -3,43 +3,58 @@
  "format": "short",
  "date": "2027-01-01",
  "slot": "09:00",
- "title": "On Yap, Giant Stones Were Money",
- "hook": "MONEY YOU CAN'T LIFT",
- "topic": "Yap stone money",
+ "title": "Virginia Paid Its Priests in Tobacco. Then the Price Tripled.",
+ "hook": "PAID IN TOBACCO",
+ "topic": "Parson's Cause",
  "music": "playful",
  "cast": {
-  "islander1": {
-   "outfit": "tunic",
-   "color": "#C8A060",
-   "hair": "curly",
-   "hairColor": "#1E1C1B",
-   "beard": "full",
-   "skin": "brown",
-   "name": "Yapese man"
+  "maury": {
+   "outfit": "robe",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "hair": "short",
+   "hairColor": "#E8E2D8",
+   "skin": "light",
+   "hold": "book",
+   "name": "James Maury"
   },
-  "islander2": {
-   "outfit": "dress",
-   "color": "#8A6A3A",
-   "hair": "long",
-   "hairColor": "#1E1C1B",
-   "skin": "brown",
-   "name": "Yapese woman"
+  "henry": {
+   "outfit": "coat",
+   "color": "#4A3222",
+   "color2": "#E8E2D0",
+   "hair": "short",
+   "hairColor": "#D8D2C8",
+   "skin": "light",
+   "hold": null,
+   "name": "Patrick Henry"
+  },
+  "planter": {
+   "outfit": "coat",
+   "color": "#6A5A3A",
+   "color2": "#E8E2D0",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": null,
+   "name": "Tobacco planter"
   }
  },
  "voices": {
-  "islander1": "am_onyx",
-  "islander2": "af_heart"
+  "maury": "bm_lewis",
+  "planter": "am_puck"
  },
  "beats": [
   {
    "who": "N",
-   "say": "On the Pacific island of Yap, some money weighed more than two cars.",
+   "say": "In colonial Virginia, priests were paid in tobacco. Then its price tripled.",
    "show": {
     "k": "scene",
-    "bg": "sea",
+    "bg": "field",
     "cast": [
      {
-      "id": "islander1",
+      "id": "maury",
       "x": 0.3,
       "mood": "shock",
       "pose": "point"
@@ -47,166 +62,198 @@
     ],
     "objects": [
      {
-      "k": "rock",
+      "k": "crate",
       "x": 0.62,
-      "s": 0.6,
-      "label": "Rai stone"
+      "s": 0.45,
+      "label": "TOBACCO"
      },
      {
-      "k": "palm",
+      "k": "flag",
       "x": 0.8,
-      "s": 0.5
+      "s": 0.45,
+      "flag": "uk1606"
      }
     ],
     "stickers": [
      {
-      "text": "4 TONNES",
+      "text": "PAID IN TOBACCO",
       "at": 0.8,
       "color": "#A8322A"
      }
     ],
-    "place": "Yap, Pacific Ocean · 1800s"
+    "place": "Virginia, British America · 1758"
    }
   },
   {
    "who": "N",
-   "say": "It was called rai: giant stone discs with a hole in the middle.",
+   "say": "In this British colony, coins were scarce, so tobacco worked as money.",
    "show": {
-    "k": "scene",
-    "bg": "jungle",
-    "cast": [
-     {
-      "id": "islander2",
-      "x": 0.3,
-      "mood": "happy",
-      "pose": "present"
-     }
+    "k": "map",
+    "lon": -77.0,
+    "lat": 38.0,
+    "z0": 1.6,
+    "z1": 2.2,
+    "date": "1758",
+    "labels": [
+     [
+      "Virginia",
+      -78.5,
+      37.5,
+      14
+     ]
     ],
-    "objects": [
-     {
-      "k": "rock",
-      "x": 0.65,
-      "s": 0.6,
-      "label": "Rai"
-     }
-    ],
-    "stickers": [
-     {
-      "text": "RAI",
-      "at": 0.8,
-      "color": "#A8322A"
-     }
+    "areas": [
+     [
+      -78.5,
+      37.5,
+      1.6,
+      "rgba(168,50,42,.4)"
+     ]
     ]
    }
   },
   {
    "who": "N",
-   "say": "The stone came from Palau, islands about four hundred fifty kilometres away.",
-   "show": {
-    "k": "scene",
-    "bg": "ocean",
-    "cast": [
-     {
-      "id": "islander1",
-      "x": 0.3,
-      "mood": "scared",
-      "pose": "hold"
-     }
-    ],
-    "objects": [
-     {
-      "k": "rock",
-      "x": 0.65,
-      "s": 0.5,
-      "label": "Rai"
-     }
-    ],
-    "stickers": [
-     {
-      "text": "450 KM",
-      "at": 0.8,
-      "color": "#A8322A"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Men cut it there and brought it home by raft across open sea. The trips were dangerous, and that made rai valuable."
-  },
-  {
-   "who": "N",
-   "say": "The biggest known rai is about three point six metres wide.",
+   "say": "Each priest got sixteen thousand pounds of tobacco a year. In 1758, a bad harvest tripled its price.",
    "show": {
     "k": "card",
-    "label": "Biggest known rai stone",
-    "big": "3.6 m wide",
-    "sub": "about 4 tonnes"
+    "label": "A Virginia priest's yearly pay",
+    "big": "16,000 lb",
+    "sub": "of tobacco · its price tripled in 1758"
    }
   },
   {
-   "who": "islander1",
-   "say": "That stone is yours now.",
+   "who": "planter",
+   "say": "Triple pay? For the same sermon?",
    "show": {
     "k": "scene",
-    "bg": "jungle",
+    "bg": "church",
     "cast": [
      {
-      "id": "islander1",
+      "id": "planter",
       "x": 0.3,
-      "mood": "happy",
-      "pose": "present"
+      "mood": "angry",
+      "pose": "fist"
      },
      {
-      "id": "islander2",
+      "id": "maury",
       "x": 0.68,
-      "mood": "happy"
-     }
-    ],
-    "objects": [
-     {
-      "k": "rock",
-      "x": 0.5,
-      "s": 0.45
+      "mood": "smug"
      }
     ],
     "cam": "close",
-    "focus": "islander1"
+    "focus": "planter"
    }
   },
   {
-   "who": "islander2",
-   "say": "Wonderful. I'll leave it right where it is."
+   "who": "maury",
+   "say": "Blame the weather."
   },
   {
    "who": "N",
-   "say": "Big stones rarely moved. Everyone simply remembered who owned which one. The whole island was the record book.",
+   "say": "Lawmakers said: pay priests cash at the old price, two pennies a pound.",
    "show": {
     "k": "scene",
-    "bg": "harbor",
+    "bg": "town",
     "cast": [
      {
-      "id": "islander2",
+      "id": "planter",
       "x": 0.35,
-      "mood": "smug",
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "TWO PENNY ACT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "2 PENNIES A POUND",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Williamsburg, Virginia · 1758"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The king in London cancelled that law, so priest James Maury sued.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "maury",
+      "x": 0.35,
+      "mood": "angry",
       "pose": "point"
      }
     ],
     "objects": [
      {
-      "k": "rock",
-      "x": 0.7,
-      "s": 0.5,
-      "label": "Owner: everyone knows"
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "maury",
+     "text": "Reverend James Maury"
+    },
+    "place": "Hanover County, Virginia · 1763"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lawyer Patrick Henry told the jury a king who cancels good laws is a tyrant.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "henry",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "point"
+     },
+     {
+      "id": "maury",
+      "x": 0.72,
+      "mood": "shock"
      }
     ],
     "stickers": [
      {
-      "text": "NO MOVING",
-      "at": 0.8,
+      "text": "1763",
+      "at": 0.6,
       "color": "#A8322A"
+     },
+     {
+      "text": "TYRANT!",
+      "at": 2.4,
+      "color": "#D4A52A"
      }
-    ]
+    ],
+    "tag": {
+     "id": "henry",
+     "text": "Patrick Henry, age 27"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The jury gave Maury one penny. Henry became famous, and later a hero of the American Revolution.",
+   "show": {
+    "k": "card",
+    "label": "What the jury gave Maury, 1763",
+    "big": "1 PENNY",
+    "sub": "Patrick Henry's first big win"
    }
   },
   {
@@ -216,32 +263,34 @@
     "k": "end",
     "cast": [
      {
-      "id": "islander1",
+      "id": "henry",
       "x": 0.3,
       "mood": "happy",
       "pose": "wave"
      },
      {
-      "id": "islander2",
+      "id": "maury",
       "x": 0.7,
-      "mood": "happy"
+      "mood": "sad"
      }
     ]
    }
   }
  ],
- "caption": "On Yap, you could buy things with a stone you never moved.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #yap #stonemoney #historytok #money",
- "youtube_title": "On Yap, Giant Stones Were Money #shorts",
+ "caption": "Virginia paid its priests in tobacco. Then a bad harvest tripled what that pay was worth.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #virginia #patrickhenry #historytok #money",
+ "youtube_title": "Virginia Paid Its Priests in Tobacco. Then the Price Tripled. #shorts",
  "tags": [
-  "yap",
-  "rai stones",
-  "stone money",
-  "money history",
+  "parson's cause",
+  "patrick henry",
+  "tobacco money",
+  "colonial virginia",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Rai_stones",
-  "https://blog.hmns.org/2015/05/hard-currency-stone-money-of-the-yap-islands",
-  "https://www.gutenberg.org/cache/epub/72830/pg72830-images.html"
+  "https://en.wikipedia.org/wiki/Parson%27s_Cause",
+  "https://encyclopediavirginia.org/entries/henry-patrick-1736-1799/",
+  "https://www.encyclopedia.com/law/law-magazines/parsons-cause-trial-1763",
+  "https://www.historicstjohnschurch.org/parsons-cause",
+  "https://www.worldhistory.org/Parson%27s_Cause/"
  ]
 }
