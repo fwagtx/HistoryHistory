@@ -92,7 +92,7 @@
    "hair": "short",
    "hairColor": "#5A4632",
    "skin": "light",
-   "name": "Officer James Moody"
+   "name": "Titanic officer"
   },
   "juliane": {
    "outfit": "dress",
@@ -442,7 +442,7 @@
   },
   {
    "who": "N",
-   "say": "Strike one came in 1942. Roy hid from a storm in a brand-new fire lookout tower that didn't have a lightning rod yet.",
+   "say": "Strike one came in 1942. Roy hid from a storm in a new fire lookout tower with no lightning rod yet.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -552,7 +552,7 @@
   },
   {
    "who": "N",
-   "say": "In 1972, it set his hair on fire inside a ranger station. Roy was too big to fit under the sink, so he used a wet towel.",
+   "say": "In 1972, it set his hair on fire inside a ranger station. Roy couldn't fit his head under the tap, so he used a wet towel.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -667,7 +667,7 @@
   },
   {
    "who": "N",
-   "say": "Nobody ever saw a strike happen, only the burns after. But Guinness still lists Roy as the record holder.",
+   "say": "The park's top boss recorded all seven, though he never saw one. Guinness lists Roy as the record holder.",
    "show": {
     "k": "card",
     "label": "Most lightning strikes survived",
@@ -829,7 +829,7 @@
   },
   {
    "who": "N",
-   "say": "Hot air through the door burned Ludger badly, but he lived. Four days later, rescuers heard him calling from the ruins.",
+   "say": "Hot air through the door burned Ludger badly, but he lived. Days later, rescuers heard him calling from the ruins.",
    "show": {
     "k": "scene",
     "bg": "prison",
@@ -851,7 +851,7 @@
   },
   {
    "who": "N",
-   "say": "He was pardoned, and later toured America with a circus as \"the man who lived through Doomsday.\"",
+   "say": "He was pardoned, and later toured America with the Barnum and Bailey circus as the survivor of \"the Silent City of Death.\"",
    "show": {
     "k": "scene",
     "bg": "street",
@@ -877,10 +877,10 @@
       "flag": "usa1859"
      }
     ],
-    "place": "New York · 1903",
+    "place": "United States · 1903",
     "stickers": [
      {
-      "text": "LIVED THROUGH DOOMSDAY",
+      "text": "SILENT CITY OF DEATH",
       "at": 1.6,
       "color": "#A8322A"
      }
@@ -898,7 +898,7 @@
   },
   {
    "who": "N",
-   "say": "Number five: April 1912. The Titanic, the biggest ship in the world, hits an iceberg in the North Atlantic.",
+   "say": "Number five: April 1912. The Titanic, the biggest ship in the world, is sailing from England to New York when it hits an iceberg.",
    "show": {
     "k": "map",
     "lon": -35.0,
@@ -908,9 +908,9 @@
     "date": "April 1912",
     "labels": [
      [
-      "SOUTHAMPTON",
-      -1.4,
-      50.9,
+      "ENGLAND",
+      -1.5,
+      52.3,
       0
      ],
      [
@@ -1008,7 +1008,7 @@
   },
   {
    "who": "N",
-   "say": "Then he went below and had a big glass of alcohol. Most retellings say it was whisky.",
+   "say": "Then he went to his cabin for a big glass of liqueur, a sweet alcohol. Many retellings say whisky.",
    "show": {
     "k": "scene",
     "bg": "tavern",
@@ -1073,7 +1073,7 @@
   },
   {
    "who": "N",
-   "say": "Joughin was hanging on at the very back of the ship as it went down. He said he rode it down like an elevator.",
+   "say": "Joughin was hanging on at the very back of the ship as it went down. He rode it down almost like an elevator.",
    "show": {
     "k": "scene",
     "bg": "titanic",
@@ -1099,7 +1099,7 @@
   },
   {
    "who": "N",
-   "say": "He floated in the dark, and around dawn he reached an upturned lifeboat. A cook named Isaac Maynard recognized him.",
+   "say": "His lifebelt held him up for hours. At dawn, he reached a lifeboat floating on its side, where a cook, Isaac Maynard, recognized him.",
    "show": {
     "k": "scene",
     "bg": "ocean",
@@ -1116,7 +1116,7 @@
       "k": "crate",
       "x": 0.6,
       "s": 0.5,
-      "label": "UPTURNED LIFEBOAT"
+      "label": "LIFEBOAT ON ITS SIDE"
      }
     ],
     "tag": {
@@ -1181,11 +1181,11 @@
   },
   {
    "who": "N",
-   "say": "Another lifeboat picked him up. His only injury: swollen feet."
+   "say": "Then another lifeboat came, and he swam to it. His only injury: swollen feet."
   },
   {
    "who": "N",
-   "say": "Experts doubt the whisky helped, since alcohol makes you lose heat faster. His real luck was staying mostly out of the water.",
+   "say": "Experts doubt the drink helped, since alcohol makes you lose heat faster. His real luck was a lifebelt that kept his head up.",
    "show": {
     "k": "scene",
     "bg": "white",
@@ -1200,7 +1200,7 @@
     ],
     "stickers": [
      {
-      "text": "NOT THE WHISKY",
+      "text": "NOT THE DRINK",
       "at": 1.6,
       "color": "#A8322A"
      }
@@ -1284,7 +1284,7 @@
   },
   {
    "who": "N",
-   "say": "On the night it sank, she was ordered into lifeboat sixteen. Then an officer handed her something.",
+   "say": "On the night it sank, she was ordered into lifeboat sixteen. In her memoir, she wrote that an officer handed her something.",
    "show": {
     "k": "scene",
     "bg": "titanic",
@@ -1304,13 +1304,13 @@
     ],
     "tag": {
      "id": "moody",
-     "text": "Sixth Officer James Moody"
+     "text": "A Titanic officer"
     }
    }
   },
   {
    "who": "moody",
-   "say": "Miss Jessop! Look after this baby.",
+   "say": "Look after this baby.",
    "show": {
     "k": "scene",
     "bg": "titanic",
@@ -1338,7 +1338,7 @@
   },
   {
    "who": "N",
-   "say": "The next morning, on the rescue ship Carpathia, a woman grabbed the baby and ran off without a word. It was probably the mother.",
+   "say": "The next morning, on the rescue ship Carpathia, a woman grabbed the baby and ran off crying, without a word. Violet guessed it was the mother.",
    "show": {
     "k": "scene",
     "bg": "deck",
@@ -1493,11 +1493,12 @@
     ],
     "objects": [
      {
-      "k": "bomber",
+      "k": "airliner",
       "x": 0.72,
       "s": 0.4,
       "color": "#E8E8EC",
-      "label": "LANSA AIRLINER"
+      "label": "LANSA AIRLINER",
+      "stripe": "#C8322A"
      }
     ],
     "place": "Lima, Peru · 24 December 1971",
@@ -1520,14 +1521,15 @@
     "cast": [],
     "objects": [
      {
-      "k": "bomber",
+      "k": "airliner",
       "x": 0.5,
       "s": 0.45,
       "color": "#E8E8EC",
       "move": [
        0.3,
        0.6
-      ]
+      ],
+      "stripe": "#C8322A"
      }
     ],
     "fx": [
@@ -1637,7 +1639,7 @@
   },
   {
    "who": "N",
-   "say": "She waded down a creek for nine days until she found a lumberjacks' hut. The next day, the workers came back.",
+   "say": "After nine days of wading down creeks, she found a lumberjacks' camp. Soon, the workers came back.",
    "show": {
     "k": "card",
     "label": "Days alone in the rainforest",
@@ -1736,11 +1738,12 @@
     ],
     "objects": [
      {
-      "k": "bomber",
+      "k": "airliner",
       "x": 0.72,
       "s": 0.4,
       "color": "#F2F2F2",
-      "label": "JAT DC-9"
+      "label": "JAT DC-9",
+      "stripe": "#1E4BA0"
      }
     ],
     "place": "Copenhagen, Denmark · 26 January 1972",
@@ -1782,7 +1785,7 @@
   },
   {
    "who": "N",
-   "say": "Over Czechoslovakia, investigators said, a bomb hidden in the luggage exploded. The plane broke apart high in the sky, and the other twenty-seven people aboard died.",
+   "say": "Over Czechoslovakia, investigators said, a bomb hidden in the luggage exploded. The plane broke apart, and the other twenty-seven people aboard died.",
    "show": {
     "k": "map",
     "lon": 13.5,
@@ -2185,11 +2188,11 @@
   },
   {
    "who": "N",
-   "say": "He spent his last years asking the world to get rid of nuclear weapons. He said: The reason that I hate the atomic bomb is because of what it does to the dignity of human beings.",
+   "say": "He spent his last years asking the world to get rid of nuclear weapons. He told an interviewer: The reason that I hate the atomic bomb is because of what it does to the dignity of human beings.",
    "show": {
     "k": "quote",
     "text": "The reason that I hate the atomic bomb is because of what it does to the dignity of human beings.",
-    "who": "Tsutomu Yamaguchi (Military History magazine, 2009)"
+    "who": "Tsutomu Yamaguchi, in an interview late in life"
    }
   },
   {
@@ -2287,7 +2290,7 @@
   },
   {
    "who": "N",
-   "say": "His lottery win was reported, but there's no record of his plane crash. So most of it is probably a tall tale."
+   "say": "His lottery win was real, but there's no record of the plane crash. He later admitted only some car crashes really happened."
   },
   {
    "who": "N",
@@ -2341,7 +2344,7 @@
    }
   }
  ],
- "description": "A ranger hit by lightning seven times, a prisoner saved by his jail cell, the Titanic baker who barely got his head wet, the stewardess who survived three sister ships, a teenager who fell into the Amazon, the highest fall ever survived, and the man who lived through both atomic bombs. Here are seven of the luckiest people in history, counted down from seven to one. Chapters are added automatically.\n\n#history #titanic #survivor #luckiest #historypros",
+ "description": "A ranger hit by lightning seven times, a prisoner saved by his jail cell, the Titanic baker who barely got his head wet, the stewardess who survived disasters on three sister ships, a teenager who fell into the Amazon, a record-breaking fall from a bombed plane, and the man who lived through both atomic bombs. Here are seven of the luckiest people in history, counted down from seven to one. Chapters are added automatically.\n\n#history #titanic #survivor #luckiest #historypros",
  "thumbnail": {
   "style": "faces",
   "title": "SURVIVED?!",

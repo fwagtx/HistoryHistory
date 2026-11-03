@@ -77,11 +77,12 @@
     ],
     "objects": [
      {
-      "k": "bomber",
+      "k": "airliner",
       "x": 0.72,
       "s": 0.4,
       "color": "#F2F2F2",
-      "label": "JAT"
+      "label": "JAT",
+      "stripe": "#1E4BA0"
      }
     ]
    }
@@ -152,7 +153,7 @@
   },
   {
    "who": "N",
-   "say": "In 1972, a bomb blew her plane apart over Czechoslovakia. Everyone else on board died.",
+   "say": "In 1972, investigators said, a bomb blew her plane apart over Czechoslovakia. Everyone else on board died.",
    "show": {
     "k": "map",
     "lon": 13.5,
@@ -232,7 +233,7 @@
   },
   {
    "who": "N",
-   "say": "Follow for more history that sounds made up.",
+   "say": "Follow for more true stories.",
    "show": {
     "k": "end",
     "cast": [

@@ -74,11 +74,12 @@
     ],
     "objects": [
      {
-      "k": "bomber",
+      "k": "airliner",
       "x": 0.72,
       "s": 0.4,
       "color": "#E8E8EC",
-      "label": "LANSA AIRLINER"
+      "label": "LANSA AIRLINER",
+      "stripe": "#C8322A"
      }
     ],
     "place": "Lima, Peru · 1971"
@@ -93,14 +94,15 @@
     "cast": [],
     "objects": [
      {
-      "k": "bomber",
+      "k": "airliner",
       "x": 0.5,
       "s": 0.45,
       "color": "#E8E8EC",
       "move": [
        0.3,
        0.6
-      ]
+      ],
+      "stripe": "#C8322A"
      }
     ],
     "fx": [
