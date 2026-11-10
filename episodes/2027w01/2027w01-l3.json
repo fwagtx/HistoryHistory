@@ -1,0 +1,2458 @@
+{
+ "id": "2027w01-l3",
+ "format": "long",
+ "date": "2027-01-08",
+ "title": "How the Spanish Empire Went Broke (With All the Silver in the World)",
+ "music": "playful",
+ "cast": {
+  "philip": {
+   "hat": "crown",
+   "outfit": "coat",
+   "color": "#1E1C1B",
+   "color2": "#F4ECD8",
+   "hair": "short",
+   "hairColor": "#B8904A",
+   "beard": "goatee",
+   "skin": "light",
+   "name": "King Philip II of Spain"
+  },
+  "banker": {
+   "hat": "beret",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#7A2A3A",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#5A3A22",
+   "skin": "light",
+   "hold": "moneybag",
+   "name": "Genoese banker"
+  },
+  "pizarro": {
+   "preset": "conquistador",
+   "beard": "full",
+   "hairColor": "#9A9A9A",
+   "hold": "sword",
+   "name": "Francisco Pizarro"
+  },
+  "atahualpa": {
+   "outfit": "tunic",
+   "color": "#B8302A",
+   "color2": "#E8C25A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "brown",
+   "name": "Atahualpa"
+  },
+  "soldier": {
+   "preset": "conquistador",
+   "name": "Spanish soldier"
+  },
+  "miner1": {
+   "outfit": "tunic",
+   "color": "#8A6A4A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Andean miner"
+  },
+  "miner2": {
+   "outfit": "tunic",
+   "color": "#5A6A7A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "brown",
+   "name": "Andean miner"
+  },
+  "merchC": {
+   "hat": "futou",
+   "hatColor": "#1E1A16",
+   "outfit": "robe",
+   "color": "#2F6A8A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "beard": "goatee",
+   "skin": "light",
+   "name": "Chinese merchant"
+  },
+  "merchS": {
+   "hat": "beret",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#6A3A22",
+   "color2": "#E8E2D0",
+   "stache": "handlebar",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "moneybag",
+   "name": "Spanish merchant"
+  },
+  "quevedo": {
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stache": "handlebar",
+   "beard": "goatee",
+   "glasses": "round",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Francisco de Quevedo"
+  },
+  "baker": {
+   "preset": "peasantW",
+   "hold": "bread",
+   "name": "Baker"
+  },
+  "buyer": {
+   "outfit": "tunic",
+   "color": "#3A6A4A",
+   "hat": "beret",
+   "hatColor": "#5A3A22",
+   "stubble": true,
+   "hairColor": "#5A3A22",
+   "skin": "olive",
+   "hold": "coin",
+   "name": "Shopper"
+  },
+  "heyn": {
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "beard": "full",
+   "skin": "light",
+   "hold": "telescope",
+   "name": "Piet Heyn"
+  },
+  "spcapt": {
+   "outfit": "armor",
+   "hat": "morion",
+   "beard": "goatee",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "name": "Spanish captain"
+  }
+ },
+ "voices": {
+  "philip": "bm_george",
+  "banker": "am_fenrir",
+  "pizarro": "bm_lewis",
+  "atahualpa": "am_onyx",
+  "merchC": "am_liam",
+  "merchS": "am_puck",
+  "baker": "bf_emma",
+  "buyer": "am_eric",
+  "heyn": "bm_daniel",
+  "spcapt": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "September 1575. The most powerful king on Earth sends his bankers a short message.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "SILVER"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1575",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Madrid, Spain · 1575"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He's not paying them back. Not this month. Maybe not for years.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "shrug"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT PAYING",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "banker",
+   "say": "Your Majesty, you owe us millions!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "philip",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "banker"
+   }
+  },
+  {
+   "who": "philip",
+   "say": "And you'll get it. Later. Probably."
+  },
+  {
+   "who": "N",
+   "say": "This is King Philip the Second of Spain. And here's the crazy part.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "tag": {
+     "id": "philip",
+     "text": "King Philip II of Spain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He ruled lands on four continents. People said the sun never set on his empire.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "4 CONTINENTS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His empire owned the richest silver mountain in the world, and treasure ships full of silver arrived every year.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.45,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "SILVER",
+      "front": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHIPS OF SILVER",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Seville, Spain · 1500s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how do you go broke with all the silver in the world? Let's find out.",
+   "show": {
+    "k": "flag",
+    "flag": "spain_burgundy",
+    "label": "THE SPANISH EMPIRE",
+    "sub": "1500s–1700s",
+    "bg": "harbor"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "How the Spanish Empire Went Broke",
+    "sub": "with all the silver in the world",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.86,
+      "mood": "shock",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1532",
+    "title": "A Room Full of Gold",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "First, where did all that treasure come from? We start in 1532, high in the Andes mountains of South America.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "atahualpa",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "hips"
+     }
+    ],
+    "place": "Cajamarca, Peru · 1532",
+    "tag": {
+     "id": "atahualpa",
+     "text": "Atahualpa, Inca emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Atahualpa ruled the Inca, the biggest empire in the Americas.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "atahualpa",
+      "x": 0.35,
+      "mood": "smug"
+     },
+     {
+      "id": "miner1",
+      "x": 0.6
+     },
+     {
+      "id": "miner2",
+      "x": 0.78
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INCA EMPIRE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He had just won a civil war against his own brother, so the empire was already battered and divided.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "atahualpa",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CIVIL WAR",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a Spanish soldier named Francisco Pizarro and fewer than two hundred men captured him in a surprise attack.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pizarro",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "soldier",
+      "x": 0.5
+     },
+     {
+      "id": "atahualpa",
+      "x": 0.8,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.45,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UNDER 200 MEN",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "pizarro",
+     "text": "Francisco Pizarro"
+    }
+   }
+  },
+  {
+   "who": "atahualpa",
+   "say": "Set me free, and I will fill this room with gold, as high as I can reach.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "atahualpa",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "point"
+     },
+     {
+      "id": "pizarro",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "atahualpa"
+   }
+  },
+  {
+   "who": "pizarro",
+   "say": "Gold! And what else?"
+  },
+  {
+   "who": "atahualpa",
+   "say": "Then I will fill it twice more with silver."
+  },
+  {
+   "who": "N",
+   "say": "The room was about seven metres long and five wide, like a big classroom, filled up to a line above his head.",
+   "show": {
+    "k": "card",
+    "label": "Atahualpa's ransom room",
+    "big": "6.7 × 5.2 m",
+    "sub": "the gold had to reach a line 2.75 m high"
+   }
+  },
+  {
+   "who": "N",
+   "say": "For months, gold and silver poured in from all over the empire.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "pizarro",
+      "x": 0.25,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.55,
+      "s": 0.5
+     },
+     {
+      "k": "cart",
+      "x": 0.82,
+      "s": 0.4,
+      "load": "gold"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SILVER",
+      "at": 1.8,
+      "color": "#6A7A8A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the Spanish never set Atahualpa free. In 1533, they executed him.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.5,
+      "s": 0.5,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1533",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The treasure was melted into bars and shipped to Spain. And that was only the beginning.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.45,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "cart",
+      "x": 0.75,
+      "s": 0.4,
+      "load": "gold"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1545",
+    "title": "The Silver Mountain",
+    "bg": "desert"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1545, an Andean man named Diego Huallpa found silver on a red mountain, high in what's now Bolivia.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "miner1",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.68,
+      "s": 1.1,
+      "label": "CERRO RICO"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1545",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Potosí, Bolivia · 1545"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Spanish named it Cerro Rico, the Rich Hill. It was stuffed with silver.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.25,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.55,
+      "s": 1.0
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.4,
+      "label": "SILVER"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RICH HILL",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A city called Potosí grew around it. By about 1600, it had over a hundred thousand people, bigger than most cities in Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "merchS",
+      "x": 0.3
+     },
+     {
+      "id": "miner2",
+      "x": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.85,
+      "s": 0.35,
+      "load": "gold"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "100,000+ PEOPLE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Potosí · about 1600"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Potosí even had its own mint, a coin factory, so the silver left town as bars and coins, carried by llamas and mules to the coast.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.6,
+      "s": 0.35,
+      "label": "COINS"
+     },
+     {
+      "k": "wagon",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MINT = COIN FACTORY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spanish speakers still say vale un Potosí, it's worth a Potosí, when something is worth a fortune.",
+   "show": {
+    "k": "card",
+    "label": "A Spanish saying",
+    "big": "VALE UN POTOSÍ",
+    "sub": "\"it's worth a Potosí\" = it's worth a fortune"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But that fortune came at a terrible cost. From 1573, Spanish rulers forced Indigenous villages to send men to the mines.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "miner1",
+      "x": 0.3,
+      "mood": "sad"
+     },
+     {
+      "id": "miner2",
+      "x": 0.5,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.9
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FORCED LABOR",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "This forced labor system was called the mita. Up to about thirteen thousand men a year were sent to Potosí.",
+   "show": {
+    "k": "card",
+    "label": "Men forced to work at Potosí each year",
+    "big": "13,000+",
+    "sub": "the mita labor draft, from 1573"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They worked deep underground in thin, freezing air. Many got sick, and many died.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "miner2",
+      "x": 0.4,
+      "mood": "sad",
+      "hold": "lantern"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "To get the silver out of the rock, refiners mixed it with mercury, a poisonous liquid metal. It came from Almadén, in Spain, and from Huancavelica, in Peru.",
+   "show": {
+    "k": "map",
+    "lon": -4.3,
+    "lat": 39.0,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "1570s",
+    "labels": [
+     [
+      "Almadén",
+      -4.84,
+      38.77,
+      14
+     ],
+     [
+      "Spain",
+      -3.5,
+      40.3,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -4.84,
+      38.77,
+      0.4,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1565",
+    "title": "Silver Goes Global",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians estimate that Spain's American colonies produced about eighty percent of the world's silver between 1500 and 1800.",
+   "show": {
+    "k": "card",
+    "label": "World silver from Spanish America",
+    "big": "80%",
+    "sub": "1500–1800, a historians' estimate"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every year, treasure fleets carried it from the Caribbean, across the Atlantic, to Seville in southern Spain.",
+   "show": {
+    "k": "map",
+    "lon": -40,
+    "lat": 30,
+    "z0": 0.85,
+    "z1": 0.95,
+    "date": "1500s",
+    "labels": [
+     [
+      "Havana",
+      -82.4,
+      23.1,
+      14
+     ],
+     [
+      "Seville",
+      -6.0,
+      37.4,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -82.4,
+      23.1
+     ],
+     [
+      -79,
+      26.5
+     ],
+     [
+      -70,
+      32
+     ],
+     [
+      -50,
+      37
+     ],
+     [
+      -30,
+      38.5
+     ],
+     [
+      -15,
+      37.5
+     ],
+     [
+      -6.0,
+      37.4
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Warships guarded the fleets, because pirates and enemy navies were always hunting them.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.42,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.36,
+      "flag": "spain_burgundy",
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TREASURE FLEET",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Atlantic Ocean · 1500s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Silver went the other way too. From 1565, ships called the Manila galleons sailed from Acapulco, in Mexico, across the Pacific.",
+   "show": {
+    "k": "map",
+    "lon": -102,
+    "lat": 19,
+    "z0": 1.4,
+    "z1": 1.7,
+    "date": "1565",
+    "labels": [
+     [
+      "Mexico",
+      -102,
+      24,
+      14
+     ],
+     [
+      "Acapulco",
+      -99.9,
+      16.85,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -99.9,
+      16.85
+     ],
+     [
+      -108,
+      15
+     ],
+     [
+      -118,
+      13.5
+     ],
+     [
+      -130,
+      13
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Manila, in the Philippines, Chinese merchants traded silk and porcelain for Spanish silver.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "merchC",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "merchS",
+      "x": 0.62,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "place": "Manila, Philippines · 1600s"
+   }
+  },
+  {
+   "who": "merchC",
+   "say": "Fine silk, fine porcelain. But I only take silver.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "merchC",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "merchS",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.12,
+      "s": 0.35,
+      "label": "SILK"
+     }
+    ],
+    "cam": "close",
+    "focus": "merchC"
+   }
+  },
+  {
+   "who": "merchS",
+   "say": "Perfect. I brought a whole ship of it."
+  },
+  {
+   "who": "N",
+   "say": "Why silver? China had made people pay their taxes in silver, so there it was worth about twice as much as in Spain.",
+   "show": {
+    "k": "card",
+    "label": "What silver was worth, late 1500s",
+    "big": "2×",
+    "sub": "in China, compared with Spain"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the trick was simple. Buy cheap silver in the Americas, ship it to Asia, and swap it for expensive silk. Then sell the silk back home.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "merchS",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.35,
+      "label": "SILK"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHEAP SILVER",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "PRICEY SILK",
+      "at": 1.8,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "PROFIT",
+      "at": 2.8,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "Pacific Ocean · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "These galleons kept sailing for about two hundred and fifty years, until 1815.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.45,
+      "flag": "spain_burgundy",
+      "move": [
+       0.2,
+       0.7
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1565–1815",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some historians say this is the moment trade went truly global, with one ocean route linking America, Asia and Europe.",
+   "show": {
+    "k": "compare",
+    "bg": "harbor",
+    "left": {
+     "label": "AMERICAN SILVER",
+     "cast": [
+      {
+       "id": "merchS",
+       "x": 0.5,
+       "mood": "happy"
+      }
+     ]
+    },
+    "right": {
+     "label": "CHINESE SILK",
+     "cast": [
+      {
+       "id": "merchC",
+       "x": 0.5,
+       "mood": "happy"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1557",
+    "title": "The Borrower From Hell",
+    "bg": "throne"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back to King Philip the Second. He became king in 1556 and ruled Spain, the Netherlands and much of Italy.",
+   "show": {
+    "k": "map",
+    "lon": 5,
+    "lat": 45,
+    "z0": 1.2,
+    "z1": 1.35,
+    "date": "1556",
+    "labels": [
+     [
+      "Spain",
+      -4,
+      40,
+      14
+     ],
+     [
+      "Netherlands",
+      5.3,
+      52.2,
+      14
+     ],
+     [
+      "Italy",
+      12.5,
+      42.5,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -4,
+      40,
+      3.5,
+      "rgba(168,50,42,.35)"
+     ],
+     [
+      5.3,
+      52,
+      1.2,
+      "rgba(168,50,42,.35)"
+     ],
+     [
+      11,
+      43,
+      2.0,
+      "rgba(168,50,42,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He fought wars almost nonstop: against France, against the Ottoman Turks, and against rebels in the Netherlands.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.2,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.65,
+      "s": 0.45,
+      "flag": "france_royal"
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "ottoman"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FRANCE",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "OTTOMANS",
+      "at": 1.8,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "DUTCH REBELS",
+      "at": 2.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Wars cost a fortune. Soldiers wanted pay every month, but the silver ships came only once a year.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "philip",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PAY US!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Philip borrowed, mostly from bankers in Genoa, a rich trading city in Italy.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "place": "Genoa, Italy · 1500s",
+    "tag": {
+     "id": "banker",
+     "text": "A Genoese banker"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A loan is simple. They give you money now, you pay it back later, plus extra. That extra is called interest.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "philip",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MONEY NOW",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "PAY LATER",
+      "at": 1.8,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "+ INTEREST",
+      "at": 2.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's a bit like a credit card. Easy to use today, painful when the bill shows up.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "BORROWED"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BILL COMING",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "banker",
+   "say": "Here's your money, Majesty. We'll take it back from next year's silver.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "philip",
+      "x": 0.7,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "cam": "close",
+    "focus": "banker"
+   }
+  },
+  {
+   "who": "philip",
+   "say": "Wonderful. And next year, I'll just borrow more."
+  },
+  {
+   "who": "N",
+   "say": "Here's the twist. Historians think silver was only about a fifth of the king's income. Most came from taxes in Castile, his main Spanish kingdom.",
+   "show": {
+    "k": "card",
+    "label": "American silver's share of royal income",
+    "big": "ABOUT 1/5",
+    "sub": "a rough estimate · most came from taxes"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So when the bills piled up, Philip did what only a king can do. He stopped paying. That's called a default.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "shrug"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEFAULT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The people a borrower owes money to are called creditors. And when a king stops paying, his creditors can't exactly arrest him.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CREDITORS",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "CAN'T ARREST A KING",
+      "at": 1.8,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He did it in 1557, 1560, 1575 and 1596.",
+   "show": {
+    "k": "card",
+    "label": "Times Philip II stopped paying",
+    "big": "4 DEFAULTS",
+    "sub": "1557 · 1560 · 1575 · 1596"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The bankers grumbled, cut deals, and kept lending, because the next silver fleet was always coming. Two historians called him the borrower from hell.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.78,
+      "s": 0.35,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BORROWER FROM HELL",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A Spanish poet, Francisco de Quevedo, wrote a famous funny poem about money. About silver, he said this.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "quevedo",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "place": "Madrid, Spain · about 1603",
+    "tag": {
+     "id": "quevedo",
+     "text": "Francisco de Quevedo, poet"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It is born honored in the Indies, where the world keeps it company. It comes to die in Spain, and is buried in Genoa.",
+   "show": {
+    "k": "quote",
+    "text": "It is born honored in the Indies, where the world keeps it company. It comes to die in Spain, and is buried in Genoa.",
+    "who": "Francisco de Quevedo, \"Poderoso caballero es don Dinero\" (about 1603), translated"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In other words, the silver passed through Spain and ended up with the bankers.",
+   "show": {
+    "k": "map",
+    "lon": 0,
+    "lat": 41,
+    "z0": 1.7,
+    "z1": 1.9,
+    "date": "1600",
+    "labels": [
+     [
+      "Seville",
+      -6.0,
+      37.4,
+      14
+     ],
+     [
+      "Genoa",
+      8.9,
+      44.4,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -6.0,
+      37.4
+     ],
+     [
+      -5.6,
+      36.0
+     ],
+     [
+      0,
+      37.5
+     ],
+     [
+      5,
+      41
+     ],
+     [
+      8.9,
+      44.4
+     ]
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1500s",
+    "title": "Too Much Money",
+    "bg": "market"
+   }
+  },
+  {
+   "who": "N",
+   "say": "All that silver caused a sneakier problem. Let's visit a market in Seville.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "baker",
+      "x": 0.3
+     },
+     {
+      "id": "buyer",
+      "x": 0.7
+     }
+    ],
+    "place": "Seville, Spain · 1500s"
+   }
+  },
+  {
+   "who": "buyer",
+   "say": "Bread costs more again? Why?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "baker",
+      "x": 0.7,
+      "mood": "neutral",
+      "pose": "shrug"
+     }
+    ],
+    "cam": "close",
+    "focus": "buyer"
+   }
+  },
+  {
+   "who": "baker",
+   "say": "Everything costs more. Flour, firewood, my rent. Don't ask me!"
+  },
+  {
+   "who": "N",
+   "say": "Over the 1500s, prices in Western Europe rose about three to four times. Historians call it the price revolution.",
+   "show": {
+    "k": "card",
+    "label": "Price rise in Western Europe",
+    "big": "3–4×",
+    "sub": "over the 1500s: the price revolution"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's the simple version. Lots more coins, but the same amount of bread. So each coin buys less. That's inflation.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.6,
+      "s": 0.4
+     },
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MORE COINS",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SAME BREAD",
+      "at": 1.8,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "= INFLATION",
+      "at": 2.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "To be fair, historians argue about how much silver was to blame. Europe's population was growing too, so more people wanted the same food.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "baker",
+      "x": 0.2
+     },
+     {
+      "id": "buyer",
+      "x": 0.4
+     },
+     {
+      "id": "miner1",
+      "x": 0.6
+     },
+     {
+      "id": "merchS",
+      "x": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MORE PEOPLE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And when prices rise faster than wages, ordinary workers get poorer, even when they work just as hard.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "miner1",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     },
+     {
+      "id": "baker",
+      "x": 0.65,
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PRICES UP",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "PAY STUCK",
+      "at": 1.8,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many historians think it hurt Spain in a sneaky way. Spanish goods got pricey, so Spaniards bought cheaper goods from abroad, and paid in silver.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "merchS",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.55,
+      "s": 0.35,
+      "label": "CLOTH"
+     },
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.35,
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SILVER LEAVES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the silver landed in Seville, and then sailed right back out again.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.42,
+      "move": [
+       0.3,
+       0.8
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1628",
+    "title": "The Great Silver Heist",
+    "bg": "sea"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Of course, Spain's enemies wanted that silver too. In 1628, Spain was at war with the Dutch, from today's Netherlands.",
+   "show": {
+    "k": "map",
+    "lon": -80,
+    "lat": 23,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1628",
+    "labels": [
+     [
+      "Cuba",
+      -79.0,
+      21.8,
+      14
+     ],
+     [
+      "Matanzas Bay",
+      -81.6,
+      23.1,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -81.6,
+      23.1,
+      0.4,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A Dutch captain named Piet Heyn waited off Cuba with a big fleet, right where the treasure ships sailed past.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "heyn",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hold"
+     }
+    ],
+    "place": "Off Cuba · 1628",
+    "tag": {
+     "id": "heyn",
+     "text": "Piet Heyn, Dutch captain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Spanish ships ran into Matanzas Bay to hide, and got stuck in shallow water.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.4,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.36,
+      "flag": "spain_burgundy",
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STUCK!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Matanzas Bay, Cuba · 1628"
+   }
+  },
+  {
+   "who": "heyn",
+   "say": "Good evening! We'll take the silver, please.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "heyn",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "spcapt",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "heyn"
+   }
+  },
+  {
+   "who": "spcapt",
+   "say": "All of it?"
+  },
+  {
+   "who": "heyn",
+   "say": "All of it."
+  },
+  {
+   "who": "N",
+   "say": "Heyn took the whole fleet with almost no fighting.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "heyn",
+      "x": 0.25,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.4,
+      "label": "SILVER"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The haul was worth about eleven and a half million Dutch guilders, a gigantic fortune.",
+   "show": {
+    "k": "card",
+    "label": "Piet Heyn's haul, 1628",
+    "big": "11.5 MILLION",
+    "sub": "Dutch guilders in silver, gold and goods"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Heyn worked for the Dutch West India Company, a trading company that also fought Spain. Its owners got a giant payout.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "heyn",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "merchS",
+      "x": 0.7,
+      "mood": "happy",
+      "hold": "goblet"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BIG PAYOUT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "The Dutch Republic · 1629"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Dutch kids still sing a song about Piet Heyn and the silver fleet. For Spain, a whole treasure fleet was simply gone.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "heyn",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "A SONG ABOUT HIM",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "The Netherlands · 1628"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1600s",
+    "title": "Broke Again and Again",
+    "bg": "throne"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Philip the Second died in 1598, and the kings after him didn't fix the problem.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.3,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.65,
+      "s": 0.45
+     },
+     {
+      "k": "crown",
+      "x": 0.65,
+      "s": 0.3,
+      "y": 0.25
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1598",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Madrid, Spain · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Wars kept coming, and so did the loans. Each new default made the next loan harder and more expensive to get.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "soldier",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEW WARS",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "NEW LOANS",
+      "at": 1.8,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By most counts, the Spanish crown stopped paying its debts again in 1607, 1627 and 1647.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1607",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "1627",
+      "at": 1.8,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "1647",
+      "at": 2.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the silver itself was slowing down. Potosí's best ore was getting used up after its peak around 1600.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "miner1",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.9,
+      "label": "CERRO RICO"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LESS SILVER",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Potosí · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how did the richest empire on Earth go broke? Number one: the kings kept spending more than they earned, mostly on war.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1. WARS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number two: they borrowed against silver that hadn't arrived yet, and when it ran short, they stopped paying.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "shrug"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "2. DEBT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number three: the silver pushed prices up, then flowed out to bankers in Genoa, to merchants abroad, and all the way to China.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "merchC",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "3. IT LEFT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The lesson? Having lots of money isn't the same as being rich. It's what you do with it that counts.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.45,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.4,
+      "label": "EMPTY",
+      "open": false
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Subscribe, and next time: the entire history of the Byzantine Empire in ten minutes.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.8,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "heyn",
+      "x": 0.9,
+      "mood": "happy"
+     }
+    ],
+    "next": "The ENTIRE History of the Byzantine Empire in 10 Minutes"
+   }
+  }
+ ],
+ "description": "Spain owned a mountain of silver, ran treasure fleets across two oceans and still stopped paying its debts again and again. We explain the money story in plain words: Atahualpa's ransom, the silver mountain of Potosí and its forced labor, the Manila galleons, loans and defaults, inflation, and the day Piet Heyn captured a whole treasure fleet.\n\nChapters are added automatically.\n\n#history #spain #spanishempire #moneyhistory #animatedhistory",
+ "thumbnail": {
+  "style": "faces",
+  "title": "RICH BUT BROKE",
+  "bg": "throne",
+  "faces": [
+   {
+    "id": "philip",
+    "mood": "shock"
+   },
+   {
+    "id": "banker",
+    "mood": "angry"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "How the Spanish Empire Went Broke (With All the Silver in the World)",
+ "tags": [
+  "spanish empire",
+  "philip ii",
+  "potosi",
+  "spanish silver",
+  "price revolution",
+  "manila galleon",
+  "piet heyn",
+  "atahualpa",
+  "sovereign default",
+  "money history",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ransom_Room",
+  "https://www.worldhistory.org/article/915/pizarro--the-fall-of-the-inca-empire/",
+  "https://en.wikipedia.org/wiki/Cerro_Rico",
+  "https://en.wikipedia.org/wiki/Potos%C3%AD",
+  "https://encyclopedia.com/history/news-wires-white-papers-and-books/potosi",
+  "https://en.wikipedia.org/wiki/Patio_process",
+  "https://en.wikipedia.org/wiki/Global_silver_trade_from_the_16th_to_19th_centuries",
+  "https://carlosmarichal.colmex.mx/From%20silver%20to%20cocaine.pdf",
+  "https://en.wikipedia.org/wiki/Manila_galleon",
+  "https://human.libretexts.org/Bookshelves/History/World_History/Modern_World_History%3A_New_Perspectives_(OERI)/02%3A_Global_Interactions_-_1450-1650/2.06%3A_Silver_and_the_Ming_Dynasty",
+  "https://econ-papers.upf.edu/papers/1121.pdf",
+  "https://www.bu.edu/econ/files/2012/11/dp219.pdf",
+  "https://repec.cepr.org/repec/cpr/ceprdp/DP16067.pdf",
+  "https://es.wikisource.org/wiki/Poderoso_caballero_es_Don_Dinero_%28Letrilla_sat%C3%ADrica%29",
+  "https://en.wikipedia.org/wiki/Price_revolution",
+  "https://cepr.org/voxeu/columns/does-inflow-precious-metals-new-world-really-explain-great-inflation-renaissance",
+  "https://en.wikipedia.org/wiki/Battle_in_the_Bay_of_Matanzas",
+  "https://www.britannica.com/biography/Piet-Heyn",
+  "https://en.wikipedia.org/wiki/List_of_sovereign_defaults"
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "id": "2027w01-s21",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "Saladin Reportedly Sent His Enemy Fruit and Snow",
+ "hook": "SNOW FROM HIS ENEMY",
+ "topic": "Saladin and Richard",
+ "music": "playful",
+ "cast": {
+  "richard": {
+   "preset": "king",
+   "outfit": "crusader",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#B5652E",
+   "skin": "light",
+   "name": "Richard the Lionheart"
+  },
+  "saladin": {
+   "preset": "sultan",
+   "color": "#2F6A4A",
+   "hatColor": "#F2EFE6",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "name": "Saladin"
+  }
+ },
+ "voices": {
+  "richard": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1192, a sultan reportedly sent his biggest enemy a get-well gift. Snow.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.35,
+      "label": "FRUIT"
+     },
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.35,
+      "label": "SNOW"
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "place": "Near Jaffa · Summer 1192"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The enemy was Richard the Lionheart, King of England, fighting in the Third Crusade.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "richard",
+     "text": "Richard the Lionheart"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.35,
+      "flag": "red"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The sultan was Saladin, who had taken Jerusalem five years earlier.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "saladin",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "saladin",
+     "text": "Saladin, sultan"
+    },
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.82,
+      "s": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They fought hard battles. But they also kept talking, and they respected each other.",
+   "show": {
+    "k": "compare",
+    "bg": "desert",
+    "left": {
+     "label": "RICHARD",
+     "cast": [
+      {
+       "id": "richard",
+       "pose": "fist",
+       "mood": "angry"
+      }
+     ]
+    },
+    "right": {
+     "label": "SALADIN",
+     "cast": [
+      {
+       "id": "saladin",
+       "pose": "hips",
+       "mood": "smug"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That summer, Richard fell sick with a bad fever.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Accounts from the time say Saladin sent him fresh fruit, and snow from the mountains to cool his drinks.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "saladin",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.35,
+      "label": "FRUIT"
+     },
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.35,
+      "label": "SNOW"
+     }
+    ]
+   }
+  },
+  {
+   "who": "richard",
+   "say": "Snow? In this heat? From him?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "shock",
+      "hold": "goblet"
+     }
+    ],
+    "cam": "close",
+    "focus": "richard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soon after, the two sides agreed a three-year truce.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "saladin",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.45,
+      "text": "TRUCE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "saladin",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "richard",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A get-well gift from the enemy.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #saladin #richardthelionheart #crusades #historytok",
+ "youtube_title": "Saladin Reportedly Sent His Enemy Fruit and Snow #shorts",
+ "tags": [
+  "saladin",
+  "richard the lionheart",
+  "third crusade",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.history.co.uk/articles/saladin-richard-the-lionheart-s-worthy-adversary",
+  "https://en.wikipedia.org/wiki/Saladin",
+  "https://en.wikipedia.org/wiki/Treaty_of_Jaffa_(1192)",
+  "https://www.britannica.com/event/Crusades/The-Third-Crusade"
+ ]
+}

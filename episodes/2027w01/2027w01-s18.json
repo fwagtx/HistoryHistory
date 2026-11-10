@@ -1,0 +1,301 @@
+{
+ "id": "2027w01-s18",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "He Won Jerusalem Without a Battle While Excommunicated",
+ "hook": "NO BATTLE NEEDED",
+ "topic": "Emperor Frederick II",
+ "music": "playful",
+ "cast": {
+  "alkamil": {
+   "preset": "sultan",
+   "color": "#8A2A2A",
+   "hatColor": "#F2EFE6",
+   "beard": "full",
+   "hairColor": "#1A1410",
+   "skin": "olive",
+   "name": "Sultan al-Kamil"
+  },
+  "frederick": {
+   "preset": "king",
+   "color": "#8A1A1A",
+   "color2": "#F2C230",
+   "beard": "",
+   "hair": "side",
+   "hairColor": "#B5652E",
+   "skin": "light",
+   "name": "Emperor Frederick II"
+  },
+  "gregory": {
+   "preset": "pope",
+   "beard": "full",
+   "hairColor": "#DDDDDD",
+   "name": "Pope Gregory IX"
+  }
+ },
+ "voices": {
+  "frederick": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1229, an emperor won Jerusalem without fighting a single battle.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "TREATY"
+     }
+    ],
+    "place": "Holy Land · 1229"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Frederick the Second ruled Germany and much of Italy, and he kept promising to go on crusade.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "frederick",
+     "text": "Emperor Frederick II"
+    },
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.78,
+      "s": 0.3
+     }
+    ],
+    "place": "Kingdom of Sicily · 1227"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1227 he finally sailed, got sick, and turned back.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.6,
+      "move": [
+       0.8,
+       0.6
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "U-TURN",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Pope Gregory the Ninth excommunicated him, which means kicking him out of the Church.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "gregory",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "frederick",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "gregory",
+     "text": "Pope Gregory IX"
+    }
+   }
+  },
+  {
+   "who": "frederick",
+   "say": "Fine. I'll go on crusade anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "frederick"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the Holy Land, he didn't fight. He negotiated with Egypt's ruler, Sultan al-Kamil.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "alkamil",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "alkamil",
+     "text": "Sultan al-Kamil"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their treaty gave Jerusalem back to Christian rule, with a ten-year truce.",
+   "show": {
+    "k": "map",
+    "lon": 35.0,
+    "lat": 31.9,
+    "z0": 3.4,
+    "z1": 3.8,
+    "date": "February 1229",
+    "labels": [
+     [
+      "JAFFA",
+      34.75,
+      32.05,
+      0
+     ],
+     [
+      "JERUSALEM",
+      35.21,
+      31.77,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      35.21,
+      31.77,
+      0.25,
+      "rgba(31,138,74,0.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Frederick wore a crown in Jerusalem's Church of the Holy Sepulchre. While still excommunicated.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Jerusalem · March 1229",
+    "stickers": [
+     {
+      "text": "STILL EXCOMMUNICATED",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more crusades that went sideways.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He won Jerusalem with letters, not swords.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crusades #medieval #jerusalem #historytok",
+ "youtube_title": "He Won Jerusalem Without a Battle While Excommunicated #shorts",
+ "tags": [
+  "frederick ii",
+  "sixth crusade",
+  "treaty of jaffa",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Treaty_of_Jaffa_(1229)",
+  "https://en.wikipedia.org/wiki/Sixth_Crusade",
+  "https://www.worldhistory.org/Sixth_Crusade/",
+  "https://www.worldhistory.org/Frederick_II/"
+ ]
+}

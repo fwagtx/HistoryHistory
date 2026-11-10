@@ -1,0 +1,285 @@
+{
+ "id": "2027w01-s04",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "Spain and Portugal Split the World With One Line in 1494",
+ "hook": "THEY SPLIT THE WORLD",
+ "topic": "Treaty of Tordesillas",
+ "music": "playful",
+ "cast": {
+  "spaniard": {
+   "hat": "beret",
+   "hatColor": "#A8322A",
+   "outfit": "coat",
+   "color": "#8A2A2A",
+   "beard": "goatee",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "scroll"
+  },
+  "portuguese": {
+   "hat": "beret",
+   "hatColor": "#2F5A8A",
+   "outfit": "coat",
+   "color": "#2F6A4A",
+   "stache": "bush",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "hold": "pen"
+  },
+  "columbus": {
+   "preset": "columbus",
+   "name": "Christopher Columbus"
+  }
+ },
+ "voices": {
+  "spaniard": "am_liam",
+  "portuguese": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1494, two countries drew one line and split the new world between them.",
+   "show": {
+    "k": "map",
+    "lon": -35.0,
+    "lat": 30.0,
+    "z0": 1.0,
+    "z1": 1.1,
+    "date": "1494",
+    "labels": [
+     [
+      "SPAIN",
+      -3.7,
+      40.2,
+      0
+     ],
+     [
+      "PORTUGAL",
+      -8.2,
+      39.6,
+      0
+     ],
+     [
+      "THE LINE",
+      -46.5,
+      35.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -46.5,
+      60.0
+     ],
+     [
+      -46.5,
+      6.0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Columbus had just returned from the Americas, and Spain and Portugal both wanted the new lands.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "columbus",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.8
+     }
+    ],
+    "place": "Spain · 1493",
+    "tag": {
+     "id": "columbus",
+     "text": "Christopher Columbus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So their diplomats met in the Spanish town of Tordesillas.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "portuguese",
+      "x": 0.65,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.48,
+      "s": 0.4
+     }
+    ],
+    "place": "Tordesillas, Spain · June 1494"
+   }
+  },
+  {
+   "who": "portuguese",
+   "say": "Everything east of the line is ours.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "portuguese",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "portuguese"
+   }
+  },
+  {
+   "who": "spaniard",
+   "say": "Deal. And everything west is ours.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "spaniard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The line ran from pole to pole, three hundred and seventy leagues west of the Cape Verde islands.",
+   "show": {
+    "k": "card",
+    "label": "The Tordesillas line",
+    "big": "370 LEAGUES",
+    "sub": "west of the Cape Verde islands, pole to pole"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nobody asked the millions of people who already lived in those lands.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.5,
+      "s": 0.6
+     },
+     {
+      "k": "palm",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the line cut through the eastern tip of South America. That's a big reason Brazil speaks Portuguese today.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "portuguese",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "BRAZIL"
+     },
+     {
+      "k": "palm",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "place": "Brazil · 1500"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "spaniard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "portuguese",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1494, Spain and Portugal drew a line on the map and split the new lands between them.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tordesillas #spain #portugal #historytok",
+ "youtube_title": "Spain and Portugal Split the World With One Line in 1494 #shorts",
+ "tags": [
+  "treaty of tordesillas",
+  "spain",
+  "portugal",
+  "brazil",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Treaty_of_Tordesillas",
+  "https://www.worldhistory.org/Treaty_of_Tordesillas/",
+  "https://en.unesco.org/memoryoftheworld/registry/613"
+ ]
+}

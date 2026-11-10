@@ -1,0 +1,318 @@
+{
+ "id": "2027w01-s01",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "Spain's Reconquista Took About 781 Years",
+ "hook": "A 781-YEAR COMEBACK",
+ "topic": "The Reconquista",
+ "music": "playful",
+ "cast": {
+  "pelayo": {
+   "outfit": "tunic",
+   "color": "#5A6A3A",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "sword",
+   "name": "Pelayo"
+  },
+  "squire": {
+   "hat": "coif",
+   "outfit": "tunic",
+   "color": "#7A5A3A",
+   "skin": "light",
+   "stubble": true
+  },
+  "isabella": {
+   "preset": "queen",
+   "color": "#8A2A2A",
+   "hairColor": "#B8743A",
+   "name": "Isabella I of Castile"
+  },
+  "ferdinand": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#B8862A",
+   "stubble": true,
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Ferdinand II of Aragon"
+  }
+ },
+ "voices": {
+  "pelayo": "am_fenrir",
+  "squire": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Spain's big comeback, the Reconquista, took about seven hundred and eighty-one years.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "pelayo",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "place": "Spain · 711 to 1492",
+    "stickers": [
+     {
+      "text": "781 YEARS",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 711, an army from North Africa crossed into Spain and soon held almost all of it.",
+   "show": {
+    "k": "map",
+    "lon": -4.0,
+    "lat": 40.0,
+    "z0": 2.2,
+    "z1": 2.4,
+    "date": "711",
+    "labels": [
+     [
+      "AL-ANDALUS",
+      -4.5,
+      38.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -4.5,
+      38.5,
+      3.0,
+      "rgba(40,140,80,.45)"
+     ]
+    ],
+    "route": [
+     [
+      -5.4,
+      36.1
+     ],
+     [
+      -4.8,
+      37.9
+     ],
+     [
+      -3.7,
+      40.4
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Only a tiny Christian kingdom survived in the northern mountains, led by a nobleman called Pelayo.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "pelayo",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "place": "Asturias · about 722",
+    "tag": {
+     "id": "pelayo",
+     "text": "Pelayo, first king of Asturias"
+    }
+   }
+  },
+  {
+   "who": "pelayo",
+   "say": "We will take it all back!",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "pelayo",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "pelayo"
+   }
+  },
+  {
+   "who": "squire",
+   "say": "Great. How long will that take?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "squire",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.2,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "squire"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Centuries. Kingdoms like Castile and Aragon pushed south bit by bit, with long peaceful stretches.",
+   "show": {
+    "k": "map",
+    "lon": -3.8,
+    "lat": 40.0,
+    "z0": 2.2,
+    "z1": 2.4,
+    "date": "1200s",
+    "labels": [
+     [
+      "CASTILE",
+      -4.0,
+      41.5,
+      0
+     ],
+     [
+      "ARAGON",
+      -0.8,
+      41.6,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -4.0,
+      41.5,
+      2.0,
+      "rgba(40,90,200,.4)"
+     ],
+     [
+      -0.8,
+      41.6,
+      1.4,
+      "rgba(40,90,200,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Finally, in January 1492, Queen Isabella and King Ferdinand took Granada, the last Muslim kingdom.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "isabella",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "ferdinand",
+      "x": 0.62,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Granada · January 1492",
+    "tag": {
+     "id": "isabella",
+     "text": "Queen Isabella of Castile"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "From 711 to 1492: that's more than three times as long as the United States has existed.",
+   "show": {
+    "k": "card",
+    "label": "The Reconquista",
+    "big": "781 YEARS",
+    "sub": "from 711 to 1492"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "pelayo",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "isabella",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Reconquista started around 722 and ended in 1492. That's about 781 years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #spain #reconquista #medievalhistory #historytok",
+ "youtube_title": "Spain's Reconquista Took About 781 Years #shorts",
+ "tags": [
+  "reconquista",
+  "spain",
+  "al-andalus",
+  "spanish history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Reconquista",
+  "https://www.britannica.com/event/Reconquista",
+  "https://en.wikipedia.org/wiki/Battle_of_Covadonga",
+  "https://en.wikipedia.org/wiki/Fall_of_Granada"
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "id": "2027w01-s10",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "The Word 'Guerrilla' Comes From Spain's War With Napoleon",
+ "hook": "A WORD FROM SPAIN",
+ "topic": "Peninsular War",
+ "music": "playful",
+ "cast": {
+  "fighter": {
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#6A5A48",
+   "stubble": true,
+   "skin": "tan",
+   "hold": "pitchfork"
+  },
+  "fighter2": {
+   "hat": "headscarf",
+   "hatColor": "#2F5A8A",
+   "outfit": "dress",
+   "color": "#8A6A4A",
+   "skin": "tan"
+  },
+  "french": {
+   "preset": "grenadier"
+  },
+  "redcoat": {
+   "preset": "redcoat"
+  }
+ },
+ "voices": {
+  "fighter": "am_fenrir",
+  "fighter2": "bf_alice"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The word guerrilla comes from Spain's fight against Napoleon.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "fighter",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "place": "Spain · 1808",
+    "stickers": [
+     {
+      "text": "GUERRILLA",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1808, Napoleon's armies took over Spain, and beat Spain's army in big battles.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "french",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.5,
+      "flag": "france"
+     },
+     {
+      "k": "cannon",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So ordinary Spaniards fought another way. Small bands hid in the hills, attacked French supply wagons, and vanished.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "fighter",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.7,
+      "s": 0.55
+     },
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "fighter",
+   "say": "So we hit them, then run?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "fighter",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "fighter"
+   }
+  },
+  {
+   "who": "fighter2",
+   "say": "Exactly. Never fight their whole army.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "fighter2",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.2,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "fighter2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spaniards called it the guerrilla. Guerra means war, and the ending makes it small. So, the little war.",
+   "show": {
+    "k": "card",
+    "label": "Spanish for",
+    "big": "GUERRILLA",
+    "sub": "the little war"
+   }
+  },
+  {
+   "who": "N",
+   "say": "British soldiers fighting in Spain helped bring the word into English, around 1809.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "redcoat",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.45,
+      "flag": "uk"
+     }
+    ],
+    "place": "Spain · 1809"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The war tied down huge French armies for years. Napoleon reportedly called it his Spanish ulcer.",
+   "show": {
+    "k": "map",
+    "lon": -3.5,
+    "lat": 40.5,
+    "z0": 2.2,
+    "z1": 2.4,
+    "date": "1814",
+    "labels": [
+     [
+      "SPAIN",
+      -3.7,
+      40.2,
+      0
+     ],
+     [
+      "FRANCE",
+      1.0,
+      44.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -3.7,
+      40.2,
+      2.8,
+      "rgba(214,48,40,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "fighter",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "fighter2",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "'Guerrilla' is Spanish for 'little war', from Spain's fight against Napoleon.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #spain #etymology #historytok",
+ "youtube_title": "The Word 'Guerrilla' Comes From Spain's War With Napoleon #shorts",
+ "tags": [
+  "guerrilla",
+  "peninsular war",
+  "napoleon",
+  "etymology",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.etymonline.com/word/guerrilla",
+  "https://en.wikipedia.org/wiki/Guerrilla_warfare",
+  "https://en.wikipedia.org/wiki/Peninsular_War",
+  "https://www.historyinthemargins.com/2017/05/05/word-with-a-past-guerrilla-warfare/"
+ ]
+}

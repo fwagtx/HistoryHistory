@@ -1,0 +1,295 @@
+{
+ "id": "2027w01-s23",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "Saint Francis Walked Across a War to Meet the Sultan",
+ "hook": "HE JUST WALKED OVER",
+ "topic": "Francis of Assisi",
+ "music": "playful",
+ "cast": {
+  "francis": {
+   "preset": "monk",
+   "beard": "goatee",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Francis of Assisi"
+  },
+  "alkamil": {
+   "preset": "sultan",
+   "color": "#8A2A2A",
+   "hatColor": "#F2EFE6",
+   "beard": "full",
+   "hairColor": "#1A1410",
+   "skin": "olive",
+   "name": "Sultan al-Kamil"
+  }
+ },
+ "voices": {
+  "alkamil": "am_eric",
+  "francis": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1219, a friar walked across a battlefield to go and talk to the other side's ruler.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.2,
+      "pose": "walk",
+      "mood": "happy",
+      "walk": [
+       0.15,
+       0.55
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.88,
+      "s": 0.3,
+      "flag": "red"
+     }
+    ],
+    "place": "Damietta, Egypt · 1219"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Francis of Assisi, an Italian friar famous for owning almost nothing.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "francis",
+     "text": "Francis of Assisi"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OWNS: NOTHING",
+      "at": 1.4,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A crusader army was besieging Damietta, a port city in Egypt.",
+   "show": {
+    "k": "map",
+    "lon": 31.5,
+    "lat": 31.0,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "1219",
+    "labels": [
+     [
+      "DAMIETTA",
+      31.81,
+      31.42,
+      0
+     ],
+     [
+      "EGYPT",
+      30.8,
+      29.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      31.81,
+      31.42,
+      0.5,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Egypt's ruler was Sultan al-Kamil, a nephew of Saladin.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "alkamil",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "alkamil",
+     "text": "Sultan al-Kamil"
+    },
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.82,
+      "s": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Francis crossed the lines unarmed, and soldiers brought him to the sultan.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "alkamil",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "alkamil",
+   "say": "You walked here? From that camp? On purpose?",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "alkamil",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "alkamil"
+   }
+  },
+  {
+   "who": "francis",
+   "say": "I came to talk, not to fight.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "alkamil",
+      "x": 0.65,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "francis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Early accounts say the sultan listened politely, then sent him back safely. It's remembered as an early moment of dialogue between the two faiths.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SAFE CONDUCT",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more surprising history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "alkamil",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He walked into the enemy camp to talk.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #saintfrancis #crusades #medieval #historytok",
+ "youtube_title": "Saint Francis Walked Across a War to Meet the Sultan #shorts",
+ "tags": [
+  "francis of assisi",
+  "al-kamil",
+  "fifth crusade",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.medievalists.net/2012/10/the-friar-and-the-sultan-francis-of-assisis-mission-to-egypt/",
+  "https://en.wikipedia.org/wiki/Francis_of_Assisi",
+  "https://en.wikipedia.org/wiki/Al-Kamil",
+  "https://www.siena.edu/centers-institutes/damietta-cross-cultural-center/history-of-damietta/"
+ ]
+}

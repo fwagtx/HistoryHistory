@@ -1,0 +1,314 @@
+{
+ "id": "2027w01-s13",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "The Crusade That Attacked the Wrong City",
+ "hook": "WRONG CITY",
+ "topic": "Fourth Crusade",
+ "music": "playful",
+ "cast": {
+  "dandolo": {
+   "outfit": "robe",
+   "color": "#C8A030",
+   "color2": "#A8322A",
+   "hat": "cap",
+   "hatColor": "#C8A030",
+   "beard": "long",
+   "hairColor": "#EEEEEE",
+   "skin": "light",
+   "name": "Doge Enrico Dandolo"
+  },
+  "boniface": {
+   "preset": "crusader",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Boniface of Montferrat"
+  },
+  "crusader": {
+   "preset": "crusader",
+   "name": "Crusader"
+  },
+  "alexios4": {
+   "outfit": "robe",
+   "color": "#6A2A8A",
+   "color2": "#F2C230",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Prince Alexios Angelos"
+  }
+ },
+ "voices": {
+  "dandolo": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1204, a crusade heading for the Holy Land attacked a Christian city instead.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.68,
+      "s": 0.6
+     }
+    ],
+    "place": "Constantinople · April 1204",
+    "stickers": [
+     {
+      "text": "WRONG CITY",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The crusaders had hired Venice to ship them east. But too few showed up to pay the bill.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "boniface",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "tag": {
+     "id": "boniface",
+     "text": "Boniface, crusade leader"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "NOT ENOUGH"
+     }
+    ],
+    "place": "Venice · 1202"
+   }
+  },
+  {
+   "who": "dandolo",
+   "say": "No money? Then you'll be doing me some favors.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "dandolo",
+      "x": 0.55,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "dandolo",
+     "text": "Enrico Dandolo, ruler of Venice"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a Byzantine prince offered them two hundred thousand marks to put his father back on the throne.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "alexios4",
+      "x": 0.55,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "alexios4",
+     "text": "Prince Alexios Angelos"
+    },
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "200,000 MARKS",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That throne was in Constantinople, the Byzantine Empire's Christian capital.",
+   "show": {
+    "k": "map",
+    "lon": 22,
+    "lat": 42,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1203",
+    "labels": [
+     [
+      "VENICE",
+      12.33,
+      45.44,
+      0
+     ],
+     [
+      "CONSTANTINOPLE",
+      28.98,
+      41.01,
+      0
+     ]
+    ],
+    "route": [
+     [
+      12.33,
+      45.44
+     ],
+     [
+      15.23,
+      44.12
+     ],
+     [
+      19.5,
+      39.5
+     ],
+     [
+      22.5,
+      36.6
+     ],
+     [
+      26.2,
+      40.1
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They did it. But the prince couldn't pay, and the deal fell apart.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alexios4",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "EMPTY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In April 1204, the crusaders stormed the city and looted it for three days.",
+   "show": {
+    "k": "card",
+    "label": "Days Constantinople was sacked",
+    "big": "3",
+    "sub": "April 1204"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They never reached the Holy Land at all.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "boniface",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "JERUSALEM →"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEVER ARRIVED",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that went completely sideways.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "boniface",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "dandolo",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They set out for Jerusalem and sacked Constantinople.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crusades #medieval #constantinople #historytok",
+ "youtube_title": "The Crusade That Attacked the Wrong City #shorts",
+ "tags": [
+  "fourth crusade",
+  "sack of constantinople",
+  "1204",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Fourth_Crusade",
+  "https://en.wikipedia.org/wiki/Alexios_IV_Angelos",
+  "https://www.worldhistory.org/Fourth_Crusade/",
+  "https://www.nationalgeographic.com/history/article/constantinople"
+ ]
+}

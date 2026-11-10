@@ -1,0 +1,284 @@
+{
+ "id": "2027w01-s09",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "Spain Called Napoleon's Brother 'Joe Bottle' (He Barely Drank)",
+ "hook": "THEY CALLED HIM JOE BOTTLE",
+ "topic": "Joseph Bonaparte",
+ "music": "playful",
+ "cast": {
+  "joseph": {
+   "outfit": "coat",
+   "color": "#2A3A6A",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Joseph Bonaparte"
+  },
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon"
+  },
+  "madrileno": {
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#6A5A48",
+   "stubble": true,
+   "skin": "tan"
+  }
+ },
+ "voices": {
+  "napoleon": "bm_daniel",
+  "joseph": "am_echo",
+  "madrileno": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Spaniards nicknamed their French king Joe Bottle. The joke? He barely drank.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "joseph",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "BOTTLE?"
+     },
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "place": "Madrid · 1808",
+    "tag": {
+     "id": "joseph",
+     "text": "Joseph Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1808, Napoleon, emperor of France, pressured Spain's royal family into giving up the throne.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.72,
+      "s": 0.35
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.5,
+      "flag": "france"
+     }
+    ],
+    "place": "Bayonne, France · 1808",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon"
+    }
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Joseph, you're the new king of Spain.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "joseph",
+   "say": "Do the Spanish know that?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "joseph",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.2,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "joseph"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spaniards hated it, and rose up against the French all over the country.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "madrileno",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They mocked him too. Joseph is José in Spanish, nickname Pepe. So: Pepe Botella, Joe Bottle.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "madrileno",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PEPE BOTELLA",
+      "at": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians say there's no real evidence he drank much. It was propaganda to make him look silly.",
+   "show": {
+    "k": "card",
+    "label": "Joseph's drinking problem",
+    "big": "NO EVIDENCE",
+    "sub": "the nickname was propaganda"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1813, he fled Spain. A few years later he was living in, of all places, New Jersey.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "joseph",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.6
+     },
+     {
+      "k": "tree",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Bordentown, New Jersey · 1817"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "joseph",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Spain mocked Napoleon's brother as 'Pepe Botella', Joe Bottle. Historians say he hardly drank.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #napoleon #spain #josephbonaparte #historytok",
+ "youtube_title": "Spain Called Napoleon's Brother 'Joe Bottle' (He Barely Drank) #shorts",
+ "tags": [
+  "joseph bonaparte",
+  "pepe botella",
+  "napoleon",
+  "spain",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Joseph_Bonaparte",
+  "https://www.napoleon.org/histoire-des-2-empires/articles/une-chronique-de-thierry-lentz-joseph-bonaparte-etait-il-un-ivrogne",
+  "https://www.galeriadelascoleccionesreales.es/en/monarch/joseph-bonaparte/936370da-611a-9b91-662b-406a4462fca6",
+  "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/bonaparte-joseph-1768-1844"
+ ]
+}

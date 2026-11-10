@@ -1,0 +1,319 @@
+{
+ "id": "2027w01-s16",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "The Crusade That Left Before the Real Crusade",
+ "hook": "THEY LEFT EARLY",
+ "topic": "Peter the Hermit",
+ "music": "playful",
+ "cast": {
+  "peter": {
+   "preset": "monk",
+   "beard": "long",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Peter the Hermit"
+  },
+  "alexios1": {
+   "preset": "king",
+   "color": "#5A2A7A",
+   "color2": "#F2C230",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Emperor Alexios I"
+  },
+  "pilgrim": {
+   "preset": "peasant",
+   "name": "Pilgrim"
+  },
+  "pilgrimw": {
+   "preset": "peasantW",
+   "name": "Pilgrim"
+  },
+  "crusader": {
+   "preset": "crusader",
+   "name": "Crusader"
+  }
+ },
+ "voices": {
+  "alexios1": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1096, thousands of ordinary people started a crusade, months before the real army.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "pilgrim",
+      "x": 0.45,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "pilgrimw",
+      "x": 0.62,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Cologne, Germany · April 1096"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their leader was Peter the Hermit, a preacher who could fire up a crowd.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "tag": {
+     "id": "peter",
+     "text": "Peter the Hermit, preacher"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.35,
+      "flag": "red"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The official knights were told to wait for August, after the harvest.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.5,
+      "load": "gold"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WAIT TILL AUGUST",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Peter's crowd didn't wait. They walked all the way to Constantinople.",
+   "show": {
+    "k": "map",
+    "lon": 18,
+    "lat": 46,
+    "z0": 1.4,
+    "z1": 1.7,
+    "date": "1096",
+    "labels": [
+     [
+      "COLOGNE",
+      6.96,
+      50.94,
+      0
+     ],
+     [
+      "CONSTANTINOPLE",
+      28.98,
+      41.01,
+      0
+     ]
+    ],
+    "route": [
+     [
+      6.96,
+      50.94
+     ],
+     [
+      11.5,
+      48.6
+     ],
+     [
+      16.4,
+      48.2
+     ],
+     [
+      20.5,
+      44.8
+     ],
+     [
+      23.3,
+      42.7
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The emperor there, Alexios the First, had asked for trained knights. He got farmers and families.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alexios1",
+      "x": 0.6,
+      "pose": "facepalm",
+      "mood": "shock"
+     },
+     {
+      "id": "peter",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "alexios1",
+     "text": "Emperor Alexios I"
+    },
+    "place": "Constantinople · August 1096"
+   }
+  },
+  {
+   "who": "alexios1",
+   "say": "Lovely. Now please go and wait... over there.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "alexios1",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.6,
+      "move": [
+       0.55,
+       0.85
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within days, he shipped them across the water into Asia Minor.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.4,
+      "s": 0.6,
+      "move": [
+       0.2,
+       0.7
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ASIA MINOR",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sadly, that October most of them were killed in an ambush. Peter survived, because he was away asking the emperor for help.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.4,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true crusade stories.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The People's Crusade didn't wait for the army.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crusades #medieval #peterthehermit #historytok",
+ "youtube_title": "The Crusade That Left Before the Real Crusade #shorts",
+ "tags": [
+  "peter the hermit",
+  "people's crusade",
+  "first crusade",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/People%27s_Crusade",
+  "https://en.wikipedia.org/wiki/Peter_the_Hermit",
+  "https://www.britannica.com/event/Crusades/Preparations-for-the-Crusade"
+ ]
+}

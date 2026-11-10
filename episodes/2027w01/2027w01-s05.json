@@ -1,0 +1,287 @@
+{
+ "id": "2027w01-s05",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "The Philippines Are Named After Philip II of Spain",
+ "hook": "NAMED AFTER A PRINCE",
+ "topic": "The Philippines",
+ "music": "playful",
+ "cast": {
+  "villalobos": {
+   "hat": "morion",
+   "outfit": "armor",
+   "beard": "goatee",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "scroll",
+   "name": "Ruy López de Villalobos"
+  },
+  "sailor": {
+   "hat": "bandana",
+   "hatColor": "#A8322A",
+   "outfit": "tunic",
+   "color": "#C8B89A",
+   "skin": "tan",
+   "stubble": true
+  },
+  "philip": {
+   "outfit": "coat",
+   "color": "#1E1C1B",
+   "beard": "goatee",
+   "hair": "short",
+   "hairColor": "#C8A04A",
+   "skin": "light",
+   "name": "Philip II"
+  }
+ },
+ "voices": {
+  "villalobos": "bm_george",
+  "sailor": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A whole country is named after one Spanish king: the Philippines.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.68,
+      "s": 0.8,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "palm",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "place": "The Philippines · 1543",
+    "tag": {
+     "id": "philip",
+     "text": "Philip II of Spain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1543, a Spanish expedition led by Ruy López de Villalobos reached islands in Southeast Asia.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "villalobos",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "villalobos",
+     "text": "Ruy López de Villalobos, explorer"
+    }
+   }
+  },
+  {
+   "who": "villalobos",
+   "say": "These islands need a name.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "villalobos",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "villalobos"
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "Something to impress the boss back home?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.2,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "sailor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They named some of the islands after Spain's crown prince, Philip: Las Islas Filipinas.",
+   "show": {
+    "k": "card",
+    "label": "Named in 1543",
+    "big": "FILIPINAS",
+    "sub": "after Prince Philip of Spain"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Philip was just sixteen. Later he became King Philip the Second, ruler of a huge empire.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "crown",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "place": "Madrid · 1500s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spain began ruling the islands in 1565 and stayed for more than three hundred years, until 1898.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.7,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "palm",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The name spread from a few islands to the whole country. Today it's the Philippines, or Pilipinas.",
+   "show": {
+    "k": "scene",
+    "bg": "jungle",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.7,
+      "s": 0.55
+     },
+     {
+      "k": "house",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "place": "The Philippines · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "villalobos",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Philippines got their name in 1543, from a 16-year-old Spanish prince.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #philippines #spain #etymology #historytok",
+ "youtube_title": "The Philippines Are Named After Philip II of Spain #shorts",
+ "tags": [
+  "philippines",
+  "philip ii",
+  "spanish empire",
+  "etymology",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ruy_L%C3%B3pez_de_Villalobos",
+  "https://en.wikipedia.org/wiki/Names_of_the_Philippines",
+  "https://www.philstar.com/opinion/2019/02/17/1894312/opinion",
+  "https://en.wikipedia.org/wiki/History_of_the_Philippines_(1565%E2%80%931898)"
+ ]
+}

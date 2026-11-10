@@ -1,0 +1,289 @@
+{
+ "id": "2027w01-s22",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "Richard the Lionheart Tried to Marry His Sister to Saladin's Brother",
+ "hook": "THE WEDDING PLAN",
+ "topic": "Joan of England",
+ "music": "playful",
+ "cast": {
+  "richard": {
+   "preset": "king",
+   "outfit": "crusader",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#B5652E",
+   "skin": "light",
+   "name": "Richard the Lionheart"
+  },
+  "saladin": {
+   "preset": "sultan",
+   "color": "#2F6A4A",
+   "hatColor": "#F2EFE6",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "name": "Saladin"
+  },
+  "aladil": {
+   "preset": "sultan",
+   "color": "#6A4A8A",
+   "hatColor": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "name": "al-Adil, Saladin's brother"
+  },
+  "joan": {
+   "preset": "queen",
+   "hairColor": "#B5652E",
+   "skin": "light",
+   "name": "Joan of England"
+  }
+ },
+ "voices": {
+  "richard": "bm_daniel",
+  "joan": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "To end a war, Richard the Lionheart offered up a wedding. His sister's. Before asking her.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "joan",
+      "x": 0.65,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "place": "Holy Land · 1191"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's 1191, in the Third Crusade. Richard, King of England, is at war with Sultan Saladin.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "richard",
+     "text": "Richard the Lionheart"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.35,
+      "flag": "red"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the two sides also negotiate, mostly through Saladin's brother, al-Adil.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "aladil",
+      "x": 0.6,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "aladil",
+     "text": "al-Adil, Saladin's brother"
+    },
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.45,
+      "s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to Saladin's adviser, Baha ad-Din, Richard then made an offer.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "PEACE PLAN"
+     }
+    ]
+   }
+  },
+  {
+   "who": "richard",
+   "say": "My sister Joan marries your brother. They rule Jerusalem together. Peace!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "aladil",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "richard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joan was the widowed Queen of Sicily. Nobody had asked her.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.5,
+      "pose": "hips",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "joan",
+     "text": "Joan, Richard's sister"
+    }
+   }
+  },
+  {
+   "who": "joan",
+   "say": "You planned my wedding without me?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "joan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joan refused, and the plan collapsed. Jerusalem stayed in Saladin's hands.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "saladin",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "saladin",
+     "text": "Saladin"
+    },
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.8,
+      "s": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "richard",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Richard's peace plan was his sister's wedding.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #richardthelionheart #crusades #medieval #historytok",
+ "youtube_title": "Richard the Lionheart Tried to Marry His Sister to Saladin's Brother #shorts",
+ "tags": [
+  "joan of england",
+  "richard the lionheart",
+  "al-adil",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Joan_of_England,_Queen_of_Sicily",
+  "https://en.wikipedia.org/wiki/Al-Adil_I",
+  "https://www.britannica.com/event/Crusades/The-Third-Crusade"
+ ]
+}

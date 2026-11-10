@@ -1,0 +1,291 @@
+{
+ "id": "2027w01-s17",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "The Children's Crusade Is Part History, Part Legend",
+ "hook": "THE SEA DIDN'T PART",
+ "topic": "Children's Crusade",
+ "music": "playful",
+ "cast": {
+  "nicholas": {
+   "preset": "child",
+   "hairColor": "#C8A060",
+   "skin": "peach",
+   "color": "#7A5A3A",
+   "name": "Nicholas of Cologne"
+  },
+  "pilgrim": {
+   "preset": "peasant",
+   "name": "Pilgrim"
+  },
+  "pilgrimw": {
+   "preset": "peasantW",
+   "name": "Pilgrim"
+  }
+ },
+ "voices": {
+  "nicholas": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1212, thousands of young people walked to the sea, expecting it to dry up for them.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "Genoa, Italy · August 1212",
+    "stickers": [
+     {
+      "text": "ANY MINUTE NOW",
+      "at": 1.4,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their leader was Nicholas, a boy from Cologne in Germany.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "tag": {
+     "id": "nicholas",
+     "text": "Nicholas of Cologne"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.3,
+      "flag": "white"
+     }
+    ],
+    "place": "Cologne, Germany · 1212"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Chroniclers say he preached a crusade, and thousands followed him. Many were young, and many were poor.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.2,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "pilgrim",
+      "x": 0.42,
+      "pose": "walk",
+      "mood": "neutral"
+     },
+     {
+      "id": "pilgrimw",
+      "x": 0.6,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They crossed the Alps on foot to reach Genoa, a port in Italy.",
+   "show": {
+    "k": "map",
+    "lon": 8.5,
+    "lat": 47,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "Summer 1212",
+    "labels": [
+     [
+      "COLOGNE",
+      6.96,
+      50.94,
+      0
+     ],
+     [
+      "ALPS",
+      9.0,
+      46.4,
+      0
+     ],
+     [
+      "GENOA",
+      8.93,
+      44.41,
+      0
+     ]
+    ],
+    "route": [
+     [
+      6.96,
+      50.94
+     ],
+     [
+      7.6,
+      47.6
+     ],
+     [
+      8.6,
+      46.5
+     ],
+     [
+      8.9,
+      45.5
+     ],
+     [
+      8.93,
+      44.41
+     ]
+    ]
+   }
+  },
+  {
+   "who": "nicholas",
+   "say": "Any minute now, the sea will open up for us!",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They waited. The sea stayed put. Most gave up and headed home.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "pilgrim",
+      "x": 0.55,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL WET",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later legends added slave ships. Historians can't confirm that, and many think the crowds weren't mainly children.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.6,
+      "text": "LEGEND?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.6,
+      "color": "#A8322A"
+     },
+     {
+      "text": "POOR WANDERERS",
+      "at": 2.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that's stranger than the legends.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They waited for the sea to dry up. It didn't.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crusades #medieval #childrenscrusade #historytok",
+ "youtube_title": "The Children's Crusade Is Part History, Part Legend #shorts",
+ "tags": [
+  "children's crusade",
+  "nicholas of cologne",
+  "1212",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Children%27s_Crusade",
+  "https://www.worldhistory.org/Children's_Crusade/",
+  "https://www.history.com/articles/the-disastrous-time-tens-of-thousands-of-children-tried-to-start-a-crusade"
+ ]
+}

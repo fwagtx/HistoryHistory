@@ -1,0 +1,312 @@
+{
+ "id": "2027w01-s07",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "Did El Cid Lead a Charge After He Died? (Legend)",
+ "hook": "A DEAD MAN'S CHARGE?",
+ "topic": "El Cid",
+ "music": "playful",
+ "cast": {
+  "elcid": {
+   "preset": "knight",
+   "beard": "full",
+   "stubble": false,
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "El Cid"
+  },
+  "babieca": {
+   "animal": "horse"
+  },
+  "jimena": {
+   "hat": "veil",
+   "hatColor": "#F2EEE4",
+   "outfit": "gown",
+   "color": "#4A3A6A",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Jimena Díaz"
+  },
+  "enemy": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "saracen",
+   "beard": "full",
+   "skin": "olive",
+   "hold": "spear"
+  },
+  "knight2": {
+   "preset": "knight",
+   "hairColor": "#8A5A2A",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "enemy": "am_fenrir",
+  "knight2": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Legend says Spain's greatest knight won a battle after he died.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "elcid",
+      "x": 0.3,
+      "mood": "neutral"
+     },
+     {
+      "id": "babieca",
+      "x": 0.58
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.45,
+      "label": "EL CID"
+     }
+    ],
+    "place": "Valencia, Spain · 1099",
+    "tag": {
+     "id": "elcid",
+     "text": "Rodrigo Díaz, El Cid"
+    },
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rodrigo Díaz, nicknamed El Cid, was a real warrior. In 1094, he captured the city of Valencia.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "elcid",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "VALENCIA"
+     }
+    ],
+    "place": "Valencia · 1094"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He died there in 1099, most likely of illness, while enemies threatened the city.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "jimena",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "jimena",
+     "text": "Jimena, El Cid's wife"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The legend: his men strapped his armored body onto his horse, Babieca, for one last charge.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "elcid",
+      "x": 0.35,
+      "mood": "neutral"
+     },
+     {
+      "id": "babieca",
+      "x": 0.6
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "enemy",
+   "say": "Wait. Isn't he supposed to be dead?",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "enemy",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "enemy"
+   }
+  },
+  {
+   "who": "knight2",
+   "say": "Shh. Don't tell them.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "knight2",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.2,
+      "s": 0.45,
+      "label": "EL CID"
+     }
+    ],
+    "cam": "close",
+    "focus": "knight2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This tale shows up in chronicles and stories written long after he died. Historians treat it as a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "knight2",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "LEGEND"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "What really happened: in 1102, his widow Jimena left Valencia and carried his body home to Castile.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "jimena",
+      "x": 0.3,
+      "walk": [
+       0.2,
+       0.35
+      ],
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.7,
+      "s": 0.55
+     }
+    ],
+    "place": "Castile · 1102"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "elcid",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "jimena",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Legend says El Cid's body was tied to his horse for one last charge. Here's what really happened.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #elcid #legend #medievalhistory #historytok",
+ "youtube_title": "Did El Cid Lead a Charge After He Died? (Legend) #shorts",
+ "tags": [
+  "el cid",
+  "legend",
+  "valencia",
+  "medieval spain",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/El_Cid",
+  "https://www.britannica.com/biography/El-Cid",
+  "https://caminodelcid.org/en/cid-history-legend/legend-myth"
+ ]
+}

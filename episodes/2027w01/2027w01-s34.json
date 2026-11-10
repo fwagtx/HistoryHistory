@@ -1,0 +1,262 @@
+{
+ "id": "2027w01-s34",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "Spain's Silver Needed a Poison From the Mine of Death",
+ "hook": "THE MINE OF DEATH",
+ "topic": "Huancavelica Mine",
+ "music": "tense",
+ "cast": {
+  "miner": {
+   "outfit": "tunic",
+   "color": "#8A6A4A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Andean miner"
+  },
+  "miner2": {
+   "outfit": "tunic",
+   "color": "#5A6A7A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "brown",
+   "name": "Andean miner"
+  },
+  "refiner": {
+   "hat": "beret",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#6A3A22",
+   "color2": "#E8E2D0",
+   "stache": "handlebar",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "bottle",
+   "name": "Silver refiner"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "To get its silver, Spain needed a poison, from a place people called the mine of death.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.35,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.9,
+      "label": "HUANCAVELICA"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MINE OF DEATH",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Huancavelica, Peru · 1500s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Silver from mines like Potosí didn't come out pure. It was mixed into rock.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "miner2",
+      "x": 0.35,
+      "mood": "neutral",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SILVER + ROCK",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Potosí, Bolivia · 1570s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "From the 1570s, refiners mixed crushed ore with mercury, a liquid metal that grabs the silver.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "refiner",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "MERCURY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MERCURY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spain dug mercury at Almadén, at home, and at Huancavelica, in Peru, found in 1563.",
+   "show": {
+    "k": "map",
+    "lon": -4.3,
+    "lat": 39.0,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "1563",
+    "labels": [
+     [
+      "Almadén",
+      -4.84,
+      38.77,
+      14
+     ],
+     [
+      "Spain",
+      -3.5,
+      40.3,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -4.84,
+      38.77,
+      0.4,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Indigenous workers, many forced by the mita labor draft, breathed in mercury dust and fumes.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.35,
+      "mood": "sad",
+      "hold": "lantern"
+     },
+     {
+      "id": "miner2",
+      "x": 0.6,
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TOXIC FUMES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It caused shaking, sickness and early death. Workers called it the Huancavelica sickness.",
+   "show": {
+    "k": "card",
+    "label": "What workers called it",
+    "big": "HUANCAVELICA SICKNESS",
+    "sub": "shaking, sickness and early death"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The poison stayed in the ground there for centuries. Spain's silver had a very real price.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "miner2",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for the hidden side of history's treasure.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3
+     },
+     {
+      "id": "miner2",
+      "x": 0.7
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Spain's silver depended on mercury, and on the miners it poisoned.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #peru #mining #historytok #spanishempire",
+ "youtube_title": "Spain's Silver Needed a Poison From the Mine of Death #shorts",
+ "tags": [
+  "huancavelica",
+  "mercury mine",
+  "spanish silver",
+  "colonial peru",
+  "history shorts"
+ ],
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3403783",
+  "https://en.wikipedia.org/wiki/Huancavelica",
+  "https://en.wikipedia.org/wiki/Patio_process",
+  "https://muse.jhu.edu/article/32725/pdf"
+ ]
+}

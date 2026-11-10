@@ -1,0 +1,301 @@
+{
+ "id": "2027w01-s19",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "Richard the Lionheart Was Kidnapped on His Way Home",
+ "hook": "KIDNAPPED KING",
+ "topic": "Richard the Lionheart",
+ "music": "playful",
+ "cast": {
+  "richard": {
+   "preset": "king",
+   "outfit": "crusader",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#B5652E",
+   "skin": "light",
+   "name": "Richard the Lionheart"
+  },
+  "leopold": {
+   "outfit": "robe",
+   "color": "#C8102E",
+   "color2": "#F2EFE6",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Duke Leopold V of Austria"
+  },
+  "henry6": {
+   "preset": "king",
+   "color": "#2A2A2A",
+   "color2": "#F2C230",
+   "beard": "full",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "Emperor Henry VI"
+  }
+ },
+ "voices": {
+  "leopold": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Richard the Lionheart, King of England, got kidnapped on his way home from a crusade.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "richard",
+     "text": "Richard the Lionheart, King of England"
+    },
+    "place": "Austria · December 1192"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1192 a storm wrecked his ship in the Adriatic Sea, so he had to cross Austria by land.",
+   "show": {
+    "k": "map",
+    "lon": 16,
+    "lat": 44,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "Late 1192",
+    "labels": [
+     [
+      "VIENNA",
+      16.37,
+      48.21,
+      0
+     ],
+     [
+      "ADRIATIC SEA",
+      15.0,
+      43.2,
+      0
+     ]
+    ],
+    "route": [
+     [
+      19.5,
+      40.5
+     ],
+     [
+      16.5,
+      42.8
+     ],
+     [
+      13.37,
+      45.77
+     ],
+     [
+      16.37,
+      48.21
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bad idea. Austria's ruler, Duke Leopold, hated him. At the siege of Acre, Richard's men had thrown down Leopold's banner.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "leopold",
+      "x": 0.68,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "leopold",
+     "text": "Duke Leopold V of Austria"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.5,
+      "s": 0.35,
+      "flag": "red"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INSULT",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Richard travelled in disguise. Near Vienna, he was recognized and arrested anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock",
+      "hat": "hood"
+     },
+     {
+      "id": "leopold",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "leopold",
+   "say": "Nice disguise, Your Majesty.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "leopold",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "leopold"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Leopold handed him to Emperor Henry the Sixth, who demanded a ransom.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "henry6",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "henry6",
+     "text": "Emperor Henry VI"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The price: one hundred and fifty thousand marks of silver.",
+   "show": {
+    "k": "card",
+    "label": "Richard's ransom",
+    "big": "150,000",
+    "sub": "marks of silver, 1193"
+   }
+  },
+  {
+   "who": "N",
+   "say": "England raised it with a giant tax, and Richard walked free in February 1194.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.68,
+      "s": 0.5,
+      "load": "gold"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "Germany · February 1194"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more kings having a terrible day.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Kidnapped by a duke he'd insulted.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #richardthelionheart #crusades #medieval #historytok",
+ "youtube_title": "Richard the Lionheart Was Kidnapped on His Way Home #shorts",
+ "tags": [
+  "richard the lionheart",
+  "ransom",
+  "leopold of austria",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Richard-I-king-of-England/Imprisonment",
+  "https://en.wikipedia.org/wiki/Richard_I_of_England",
+  "https://www.historyhit.com/facts-about-richard-the-lionheart/"
+ ]
+}

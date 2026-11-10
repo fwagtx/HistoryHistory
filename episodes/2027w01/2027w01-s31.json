@@ -1,0 +1,230 @@
+{
+ "id": "2027w01-s31",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "He Searched 16 Years for a Sunken Treasure Ship",
+ "hook": "TODAY'S THE DAY",
+ "topic": "Atocha Shipwreck",
+ "music": "playful",
+ "cast": {
+  "fisher": {
+   "outfit": "coat",
+   "color": "#3A6A9A",
+   "hat": "cap",
+   "hatColor": "#E8E2D0",
+   "hair": "short",
+   "hairColor": "#D8D2C8",
+   "skin": "light",
+   "name": "Mel Fisher"
+  },
+  "diver": {
+   "outfit": "tunic",
+   "color": "#2F8A8A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "tan",
+   "name": "Diver"
+  }
+ },
+ "voices": {
+  "fisher": "am_eric",
+  "diver": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One man searched for a sunken treasure ship for sixteen years, and found it.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "16 YEARS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Florida Keys, USA · 1985"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1622, the Spanish galleon Nuestra Señora de Atocha sank in a hurricane off Florida, loaded with silver.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.45,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1622",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Florida Keys · 1622",
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most of the roughly two hundred sixty people aboard died, and the treasure was lost.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Centuries later, an American treasure hunter named Mel Fisher went looking for it.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "diver",
+      "x": 0.7
+     }
+    ],
+    "tag": {
+     "id": "fisher",
+     "text": "Mel Fisher"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every morning, he told his divers the same thing.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "diver",
+      "x": 0.7,
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "fisher"
+   }
+  },
+  {
+   "who": "fisher",
+   "say": "Today's the day!"
+  },
+  {
+   "who": "N",
+   "say": "He even fought Florida over the treasure, and won at the US Supreme Court in 1982.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "fist"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1982: HE WINS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, on July 20, 1985, his divers found the main pile: silver bars, coins and emeralds.",
+   "show": {
+    "k": "card",
+    "label": "The Atocha treasure, found 1985",
+    "big": "$400 MILLION+",
+    "sub": "a common estimate of its value"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more treasure stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "fisher",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "diver",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "'Today's the day,' he said. Every day. For sixteen years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #atocha #shipwreck #historytok #treasure",
+ "youtube_title": "He Searched 16 Years for a Sunken Treasure Ship #shorts",
+ "tags": [
+  "atocha",
+  "mel fisher",
+  "shipwreck treasure",
+  "spanish galleon",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Nuestra_Se%C3%B1ora_de_Atocha",
+  "https://en.wikipedia.org/wiki/Mel_Fisher",
+  "https://maritime-executive.com/editorials/the-world-s-most-valuable-shipwreck-the-nuestra-senora-de-atocha",
+  "https://www.upi.com/Archives/1985/08/01/Judge-gives-Fisher-gets-sole-rights-to-Atocha-treasure/5192491716800/"
+ ]
+}

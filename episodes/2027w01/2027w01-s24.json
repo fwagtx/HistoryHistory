@@ -1,0 +1,247 @@
+{
+ "id": "2027w01-s24",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "A Captured King Got a Discount on His Own Ransom",
+ "hook": "RANSOM DISCOUNT",
+ "topic": "King Louis IX",
+ "music": "playful",
+ "cast": {
+  "louis": {
+   "preset": "king",
+   "color": "#1F3E9A",
+   "color2": "#F2C230",
+   "beard": "",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "King Louis IX"
+  },
+  "sultan50": {
+   "preset": "sultan",
+   "color": "#2F4A8A",
+   "hatColor": "#F2EFE6",
+   "beard": "full",
+   "hairColor": "#1A1410",
+   "skin": "olive",
+   "name": "Sultan of Egypt"
+  }
+ },
+ "voices": {
+  "louis": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1250, a captured king got a discount on his own ransom.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "louis",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "sultan50",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.86,
+      "s": 0.4
+     }
+    ],
+    "place": "Egypt · 1250",
+    "stickers": [
+     {
+      "text": "DISCOUNT!",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Louis the Ninth, King of France, later made a saint.",
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "KINGDOM OF FRANCE",
+    "sub": "Louis IX, 1226–1270",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1249 he led a crusade to Egypt, and captured the port of Damietta.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "louis",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "louis",
+     "text": "King Louis IX of France"
+    },
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Damietta, Egypt · 1249"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in 1250 his army was beaten, and Louis himself was taken prisoner.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "louis",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.4,
+      "flag": "france_royal"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The sultan demanded a huge ransom, plus Damietta back.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "sultan50",
+      "x": 0.55,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "sultan50",
+     "text": "Sultan of Egypt"
+    },
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "louis",
+   "say": "Agreed. No haggling.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "louis",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "louis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His friend Jean de Joinville wrote that the sultan was so impressed, he knocked a fifth off the price.",
+   "show": {
+    "k": "card",
+    "label": "Knocked off the ransom",
+    "big": "100,000",
+    "sub": "livres, says Joinville"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Louis was freed, and spent four more years in the Holy Land before going home.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "louis",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.55,
+      "flag": "france_royal"
+     }
+    ],
+    "place": "Acre · 1250"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "louis",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He didn't haggle, so the sultan lowered the price.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crusades #france #medieval #historytok",
+ "youtube_title": "A Captured King Got a Discount on His Own Ransom #shorts",
+ "tags": [
+  "louis ix",
+  "seventh crusade",
+  "ransom",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Seventh_Crusade",
+  "https://en.wikipedia.org/wiki/Louis_IX_of_France",
+  "https://www.ccel.org/ccel/schaff/hcc5.ii.ix.xi.html",
+  "https://www.historyofwar.org/articles/wars_crusade7th.html"
+ ]
+}

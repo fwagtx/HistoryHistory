@@ -1,0 +1,282 @@
+{
+ "id": "2027w01-s14",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "Crusaders Attacked a Christian City to Pay Off a Shipping Bill",
+ "hook": "TO PAY THE BILL",
+ "topic": "Siege of Zara",
+ "music": "playful",
+ "cast": {
+  "innocent": {
+   "preset": "pope",
+   "name": "Pope Innocent III"
+  },
+  "dandolo": {
+   "outfit": "robe",
+   "color": "#C8A030",
+   "color2": "#A8322A",
+   "hat": "cap",
+   "hatColor": "#C8A030",
+   "beard": "long",
+   "hairColor": "#EEEEEE",
+   "skin": "light",
+   "name": "Doge Enrico Dandolo"
+  },
+  "boniface": {
+   "preset": "crusader",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Boniface of Montferrat"
+  },
+  "crusader": {
+   "preset": "crusader",
+   "name": "Crusader"
+  }
+ },
+ "voices": {
+  "dandolo": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1202, a crusader army attacked a Christian city to pay off a shipping bill.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.6
+     }
+    ],
+    "place": "Venice · 1202",
+    "stickers": [
+     {
+      "text": "THE BILL",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The crusade's leaders had booked Venetian ships for about thirty-three thousand men.",
+   "show": {
+    "k": "card",
+    "label": "Crusaders Venice built ships for",
+    "big": "33,500",
+    "sub": "price: 85,000 silver marks"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Only about twelve thousand showed up. So they couldn't pay the full price.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "boniface",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "boniface",
+     "text": "Boniface, crusade leader"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "NOT ENOUGH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "dandolo",
+   "say": "You're thirty-four thousand marks short.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "dandolo",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "boniface",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "tag": {
+     "id": "dandolo",
+     "text": "Enrico Dandolo, ruler of Venice"
+    }
+   }
+  },
+  {
+   "who": "dandolo",
+   "say": "But help me take back Zara, and we'll talk.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "dandolo",
+      "x": 0.55,
+      "pose": "hips",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "dandolo"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Zara, today Zadar in Croatia, was a Christian city that had broken away from Venice.",
+   "show": {
+    "k": "map",
+    "lon": 14.5,
+    "lat": 44.6,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "1202",
+    "labels": [
+     [
+      "VENICE",
+      12.33,
+      45.44,
+      0
+     ],
+     [
+      "ZARA",
+      15.23,
+      44.12,
+      0
+     ]
+    ],
+    "route": [
+     [
+      12.33,
+      45.44
+     ],
+     [
+      13.2,
+      44.9
+     ],
+     [
+      15.23,
+      44.12
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In November 1202, after a two-week siege, the crusaders captured it.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.35,
+      "flag": "red"
+     }
+    ],
+    "place": "Zara · November 1202"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pope Innocent the Third was furious, and excommunicated the whole army.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "innocent",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "innocent",
+     "text": "Pope Innocent III"
+    },
+    "stickers": [
+     {
+      "text": "EXCOMMUNICATED",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And their next stop was even worse. Follow for more.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "dandolo",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "boniface",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They couldn't pay for the boats, so they attacked a city.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #crusades #venice #medieval #historytok",
+ "youtube_title": "Crusaders Attacked a Christian City to Pay Off a Shipping Bill #shorts",
+ "tags": [
+  "siege of zara",
+  "fourth crusade",
+  "venice",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Siege_of_Zara",
+  "https://en.wikipedia.org/wiki/Fourth_Crusade",
+  "https://www.worldhistory.org/Fourth_Crusade/"
+ ]
+}

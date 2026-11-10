@@ -1,0 +1,302 @@
+{
+ "id": "2027w01-s03",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "The Last Muslim King of Spain Handed Over His Keys in 1492",
+ "hook": "HE GAVE UP THE KEYS",
+ "topic": "Fall of Granada",
+ "music": "playful",
+ "cast": {
+  "boabdil": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#2F6A4A",
+   "beard": "goatee",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "name": "Muhammad XII (Boabdil)"
+  },
+  "isabella": {
+   "preset": "queen",
+   "color": "#8A2A2A",
+   "hairColor": "#B8743A",
+   "name": "Isabella I of Castile"
+  },
+  "ferdinand": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#B8862A",
+   "stubble": true,
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Ferdinand II of Aragon"
+  }
+ },
+ "voices": {
+  "boabdil": "bm_lewis",
+  "isabella": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "On January 2, 1492, a king handed over the keys to his own palace.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "boabdil",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.72,
+      "s": 0.6,
+      "label": "THE ALHAMBRA"
+     }
+    ],
+    "place": "Granada, Spain · January 2, 1492",
+    "tag": {
+     "id": "boabdil",
+     "text": "Muhammad XII (Boabdil)"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Muhammad the Twelfth, or Boabdil, king of Granada, Spain's last Muslim kingdom.",
+   "show": {
+    "k": "map",
+    "lon": -4.0,
+    "lat": 39.0,
+    "z0": 2.3,
+    "z1": 2.6,
+    "date": "1492",
+    "labels": [
+     [
+      "GRANADA",
+      -3.6,
+      37.18,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -3.6,
+      37.0,
+      1.3,
+      "rgba(40,140,80,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For ten years, Queen Isabella and King Ferdinand's armies had pushed into his kingdom.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "isabella",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "ferdinand",
+      "x": 0.6,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "isabella",
+     "text": "Queen Isabella of Castile"
+    },
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By late 1491, his city was surrounded and starving, so he agreed to surrender.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "boabdil",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.6,
+      "flag": "white"
+     }
+    ]
+   }
+  },
+  {
+   "who": "boabdil",
+   "say": "Here are the keys. Take care of this city.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "boabdil",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "boabdil"
+   }
+  },
+  {
+   "who": "isabella",
+   "say": "We'll keep our promises.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "isabella",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "isabella"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The treaty promised Muslims could keep their faith. Within about ten years, that promise was broken.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "boabdil",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.5,
+      "text": "TREATY OF GRANADA"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Legend says that as he rode away, he looked back and sighed. That mountain pass is still called the Moor's Sigh.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "boabdil",
+      "x": 0.4,
+      "walk": [
+       0.3,
+       0.45
+      ],
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 1.0,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "boabdil",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "isabella",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "January 2, 1492: the last Muslim king in Spain handed Granada to Isabella and Ferdinand.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #granada #alhambra #spain #historytok",
+ "youtube_title": "The Last Muslim King of Spain Handed Over His Keys in 1492 #shorts",
+ "tags": [
+  "fall of granada",
+  "boabdil",
+  "alhambra",
+  "1492",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Fall_of_Granada",
+  "https://en.wikipedia.org/wiki/Muhammad_XII_of_Granada",
+  "https://en.wikipedia.org/wiki/Treaty_of_Granada_(1491)",
+  "https://www.britannica.com/biography/Muhammad-XI"
+ ]
+}

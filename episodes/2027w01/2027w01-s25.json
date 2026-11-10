@@ -1,0 +1,263 @@
+{
+ "id": "2027w01-s25",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "The Silver Mountain That Became a Spanish Saying",
+ "hook": "A MOUNTAIN OF SILVER",
+ "topic": "Potosí",
+ "music": "playful",
+ "cast": {
+  "huallpa": {
+   "outfit": "tunic",
+   "color": "#8A6A4A",
+   "hair": "short",
+   "hairColor": "#1E1C1B",
+   "skin": "tan",
+   "name": "Diego Huallpa"
+  },
+  "miner": {
+   "outfit": "tunic",
+   "color": "#5A6A7A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "brown",
+   "name": "Andean miner"
+  },
+  "soldier": {
+   "preset": "conquistador",
+   "name": "Spanish soldier"
+  }
+ },
+ "voices": {
+  "huallpa": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In Spanish, if something's worth a fortune, people say it's worth a Potosí.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "huallpa",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.66,
+      "s": 1.0,
+      "label": "CERRO RICO"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VALE UN POTOSÍ",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Potosí, Bolivia · 1545"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Potosí is a city in the Andes mountains of today's Bolivia.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.8
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HIGH IN THE ANDES",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1545, an Andean man, Diego Huallpa, found silver on a red mountain there.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "huallpa",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.9
+     }
+    ],
+    "tag": {
+     "id": "huallpa",
+     "text": "Diego Huallpa"
+    }
+   }
+  },
+  {
+   "who": "huallpa",
+   "say": "This whole hill is full of silver!"
+  },
+  {
+   "who": "N",
+   "say": "The Spanish called it Cerro Rico, the Rich Hill, and rushed to mine it.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.62,
+      "s": 0.4,
+      "load": "gold"
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RICH HILL",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By about 1600, over a hundred thousand people lived there.",
+   "show": {
+    "k": "card",
+    "label": "People in Potosí, about 1600",
+    "big": "100,000+",
+    "sub": "bigger than most cities in Europe"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But much of the work was forced. Under the mita, Indigenous villages had to send men to the mines, and many died.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.4,
+      "mood": "sad",
+      "hold": "lantern"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE MITA",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Potosí means a fortune in Spanish, and great suffering in its history.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.9,
+      "label": "CERRO RICO"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for the true stories behind famous sayings.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "huallpa",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "soldier",
+      "x": 0.7
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A mountain so rich that Spanish still uses its name to mean 'a fortune'.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #potosi #bolivia #historytok #spanishempire",
+ "youtube_title": "The Silver Mountain That Became a Spanish Saying #shorts",
+ "tags": [
+  "potosi",
+  "cerro rico",
+  "vale un potosi",
+  "spanish silver",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cerro_Rico",
+  "https://en.wikipedia.org/wiki/Potos%C3%AD",
+  "https://encyclopedia.com/history/news-wires-white-papers-and-books/potosi",
+  "https://blogs.loc.gov/international-collections/2022/08/a-short-story-about-potosi-the-largest-south-american-silver-mine-in-the-librarys-collections-part-1-loclr-blogint/",
+  "https://dle.rae.es/potos%C3%AD"
+ ]
+}

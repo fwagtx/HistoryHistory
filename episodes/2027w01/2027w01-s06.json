@@ -1,0 +1,322 @@
+{
+ "id": "2027w01-s06",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "Córdoba Has a Cathedral Built Inside a Mosque",
+ "hook": "A CHURCH INSIDE A MOSQUE",
+ "topic": "Mosque of Córdoba",
+ "music": "playful",
+ "cast": {
+  "emir": {
+   "preset": "sultan",
+   "color": "#F2EEE4",
+   "hatColor": "#F2EEE4",
+   "name": "Abd al-Rahman I"
+  },
+  "king": {
+   "hat": "crown",
+   "outfit": "armor",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Ferdinand III of Castile"
+  },
+  "councillor": {
+   "hat": "beret",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#3A2A6A",
+   "beard": "goatee",
+   "hairColor": "#3A2A1A",
+   "skin": "light"
+  },
+  "canon": {
+   "outfit": "robe",
+   "color": "#262322",
+   "color2": "#A8322A",
+   "hair": "bald",
+   "hairColor": "#6A6A6A",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "councillor": "bm_lewis",
+  "canon": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In Córdoba, Spain, there's a cathedral built right in the middle of a giant mosque.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "councillor",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.55,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "MOSQUE-CATHEDRAL"
+     }
+    ],
+    "place": "Córdoba, Spain"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 785, Córdoba's Muslim ruler, Abd al-Rahman the First, began building a great mosque.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "emir",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "place": "Córdoba · 785",
+    "tag": {
+     "id": "emir",
+     "text": "Abd al-Rahman I, emir of Córdoba"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later rulers kept enlarging it: a forest of hundreds of columns and striped arches.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.2,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.4,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.6,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HUNDREDS OF COLUMNS",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1236, Castile's Christian king captured Córdoba and made the mosque a cathedral.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "king",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.55
+     }
+    ],
+    "place": "Córdoba · 1236",
+    "tag": {
+     "id": "king",
+     "text": "King Ferdinand III of Castile"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1523, church leaders started building a tall cathedral hall right in the middle.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "canon",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "NEW CATHEDRAL"
+     }
+    ],
+    "place": "Córdoba · 1523"
+   }
+  },
+  {
+   "who": "councillor",
+   "say": "You're building that inside the mosque?",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "councillor",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "councillor"
+   }
+  },
+  {
+   "who": "canon",
+   "say": "Sorry. The emperor said yes.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "canon",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.45,
+      "text": "APPROVED"
+     }
+    ],
+    "cam": "close",
+    "focus": "canon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The city council fought it, and lost. It took decades to build.",
+   "show": {
+    "k": "card",
+    "label": "The cathedral hall",
+    "big": "1523",
+    "sub": "built in the middle of the old mosque"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today it's both: mosque arches all around, a cathedral in the middle.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "councillor",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.55,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Córdoba · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "emir",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "canon",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In Córdoba, a Renaissance cathedral stands in the middle of an 8th-century mosque.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #cordoba #mezquita #spain #historytok",
+ "youtube_title": "Córdoba Has a Cathedral Built Inside a Mosque #shorts",
+ "tags": [
+  "mosque cathedral of cordoba",
+  "mezquita",
+  "cordoba",
+  "spain",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba",
+  "https://whc.unesco.org/en/list/313/",
+  "https://www.britannica.com/topic/Great-Mosque-of-Cordoba",
+  "https://www.spainthenandnow.com/spanish-architecture/the-great-mosque-of-cordoba-la-mezquita"
+ ]
+}

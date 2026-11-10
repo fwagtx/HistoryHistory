@@ -1,0 +1,308 @@
+{
+ "id": "2027w01-s15",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "These Bronze Horses Were Stolen Twice",
+ "hook": "STOLEN TWICE",
+ "topic": "Horses of Saint Mark",
+ "music": "playful",
+ "cast": {
+  "dandolo": {
+   "outfit": "robe",
+   "color": "#C8A030",
+   "color2": "#A8322A",
+   "hat": "cap",
+   "hatColor": "#C8A030",
+   "beard": "long",
+   "hairColor": "#EEEEEE",
+   "skin": "light",
+   "name": "Doge Enrico Dandolo"
+  },
+  "horse": {
+   "animal": "horse",
+   "mood": "smug"
+  },
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  }
+ },
+ "voices": {
+  "dandolo": "am_onyx",
+  "napoleon": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "These four bronze horses have been stolen. Twice.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.4,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Venice, Italy · today",
+    "stickers": [
+     {
+      "text": "STOLEN x2",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They're ancient, probably made in Roman times, and for centuries they stood at the chariot-racing track in Constantinople.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.35,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "place": "Constantinople · before 1204"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in 1204, crusaders sacked Constantinople, and Venice shipped the horses home as loot.",
+   "show": {
+    "k": "map",
+    "lon": 21,
+    "lat": 42.5,
+    "z0": 1.6,
+    "z1": 2.0,
+    "date": "1204",
+    "labels": [
+     [
+      "CONSTANTINOPLE",
+      28.98,
+      41.01,
+      0
+     ],
+     [
+      "VENICE",
+      12.33,
+      45.44,
+      0
+     ]
+    ],
+    "route": [
+     [
+      28.98,
+      41.01
+     ],
+     [
+      26.2,
+      40.1
+     ],
+     [
+      22.5,
+      36.6
+     ],
+     [
+      19.5,
+      39.5
+     ],
+     [
+      15.23,
+      44.12
+     ],
+     [
+      12.33,
+      45.44
+     ]
+    ]
+   }
+  },
+  {
+   "who": "dandolo",
+   "say": "Lovely horses. Wrap them up.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "dandolo",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "dandolo",
+     "text": "Enrico Dandolo, ruler of Venice"
+    },
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Venice put them on the front of Saint Mark's Basilica, where they stayed for almost six hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.45,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Venice · 1204–1797"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in 1797, Napoleon conquered Venice, and took the horses to Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.4,
+      "flag": "france"
+     }
+    ],
+    "place": "Paris · 1797"
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Paris needs nice horses too.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "napoleon"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After Napoleon's defeat in 1815, they were shipped back to Venice. Today the originals are kept indoors, and copies stand outside.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.3,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.55
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BACK HOME",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history you can still visit.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "napoleon",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Taken from Constantinople, then taken from Venice.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #venice #napoleon #crusades #historytok",
+ "youtube_title": "These Bronze Horses Were Stolen Twice #shorts",
+ "tags": [
+  "horses of saint mark",
+  "venice",
+  "napoleon",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Horses_of_Saint_Mark",
+  "https://www.basilicasanmarco.it/",
+  "https://en.wikipedia.org/wiki/Fourth_Crusade"
+ ]
+}

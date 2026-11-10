@@ -1,0 +1,265 @@
+{
+ "id": "2027w01-s20",
+ "format": "short",
+ "date": "2027-01-06",
+ "slot": "09:00",
+ "title": "The Legend of the Singer Who Found Richard the Lionheart",
+ "hook": "A SONG SAVED HIM?",
+ "topic": "Blondel legend",
+ "music": "playful",
+ "cast": {
+  "richard": {
+   "preset": "king",
+   "outfit": "crusader",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#B5652E",
+   "skin": "light",
+   "name": "Richard the Lionheart"
+  },
+  "henry6": {
+   "preset": "king",
+   "color": "#2A2A2A",
+   "color2": "#F2C230",
+   "beard": "full",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "Emperor Henry VI"
+  },
+  "blondel": {
+   "outfit": "tunic",
+   "color": "#2F6FC2",
+   "hair": "long",
+   "hairColor": "#E8C84A",
+   "skin": "light",
+   "name": "Blondel (legend)"
+  }
+ },
+ "voices": {
+  "blondel": "am_puck",
+  "richard": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A famous legend says a singer found a kidnapped king just by singing outside castles.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "blondel",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "Austria · 1193",
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The king was Richard the Lionheart, captured in Austria in 1192 on his way home from a crusade.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "richard",
+     "text": "Richard the Lionheart, King of England"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the story, his minstrel Blondel sang outside castle after castle, a song only they knew.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "blondel",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "blondel",
+     "text": "Blondel, a minstrel"
+    },
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "blondel",
+   "say": "Hello, castle! Anybody in there know this one?",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "blondel",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "blondel"
+   }
+  },
+  {
+   "who": "richard",
+   "say": "That's my song! Second verse, coming right up!",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "richard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lovely story. But it first appears around 1260, in a book of tall tales.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.6,
+      "text": "ABOUT 1260"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TALL TALES",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And nobody needed to find Richard. His captors told everyone where he was. They wanted ransom!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "henry6",
+      "x": 0.55,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "henry6",
+     "text": "Emperor Henry VI"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Blondel was probably a real French songwriter, though. The rescue is the legend.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "blondel",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REAL SINGER",
+      "at": 0.6,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "FAKE RESCUE",
+      "at": 2.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more legends, checked.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "blondel",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "richard",
+      "x": 0.6,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Did a song really find a kidnapped king?\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #richardthelionheart #legend #medieval #historytok",
+ "youtube_title": "The Legend of the Singer Who Found Richard the Lionheart #shorts",
+ "tags": [
+  "blondel",
+  "richard the lionheart",
+  "legend",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Blondel_de_Nesle",
+  "https://www.medievalists.net/2015/10/music-for-a-captured-king-richard-the-lionheart-and-blondel/",
+  "https://www.britannica.com/biography/Richard-I-king-of-England/Imprisonment"
+ ]
+}

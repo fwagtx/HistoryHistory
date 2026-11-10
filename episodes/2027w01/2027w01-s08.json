@@ -1,0 +1,291 @@
+{
+ "id": "2027w01-s08",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "Rome Got an Emperor Born in Spain",
+ "hook": "ROME'S EMPEROR FROM SPAIN",
+ "topic": "Emperor Trajan",
+ "music": "playful",
+ "cast": {
+  "trajan": {
+   "preset": "senator",
+   "hairColor": "#6A6A6A",
+   "color": "#F2EEE4",
+   "name": "Trajan"
+  },
+  "senator": {
+   "preset": "senator",
+   "beard": "goatee",
+   "hairColor": "#3A2A1A",
+   "color": "#E7C66A"
+  },
+  "senator2": {
+   "preset": "senator",
+   "hair": "bald",
+   "color": "#C8A04A",
+   "skin": "light"
+  },
+  "hadrian": {
+   "preset": "senator",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "color": "#F2EEE4",
+   "name": "Hadrian"
+  }
+ },
+ "voices": {
+  "senator": "bm_george",
+  "senator2": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In the year 98, Rome got an emperor who was born in Spain.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "trajan",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Rome · 98 AD",
+    "tag": {
+     "id": "trajan",
+     "text": "Trajan, Roman emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, Spain was a Roman province called Hispania. Trajan was born there, in a town called Italica, near today's Seville.",
+   "show": {
+    "k": "map",
+    "lon": -5.0,
+    "lat": 39.0,
+    "z0": 2.3,
+    "z1": 2.6,
+    "date": "53 AD",
+    "labels": [
+     [
+      "ITALICA",
+      -6.05,
+      37.44,
+      0
+     ],
+     [
+      "HISPANIA",
+      -3.7,
+      40.4,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -6.05,
+      37.44,
+      0.6,
+      "rgba(214,48,40,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His family had come from Italy long before. But Trajan grew up far from Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "trajan",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Italica, Hispania · 53 AD"
+   }
+  },
+  {
+   "who": "senator",
+   "say": "An emperor from the provinces?",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "senator"
+   }
+  },
+  {
+   "who": "senator2",
+   "say": "Relax. He's very good at winning wars.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "senator2",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.2,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "senator2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was. Under Trajan, the Roman Empire reached the biggest size it ever had.",
+   "show": {
+    "k": "card",
+    "label": "The Roman Empire under Trajan",
+    "big": "BIGGEST EVER",
+    "sub": "around 117 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Senate even gave him the title Optimus, meaning the best.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "trajan",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OPTIMUS",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the next emperor, Hadrian, was his relative, from a family that also came from Italica.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "hadrian",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "trajan",
+      "x": 0.62,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "hadrian",
+     "text": "Hadrian, the next emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "trajan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "hadrian",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Emperor Trajan, who took Rome to its biggest size, was born in Spain.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #romanempire #trajan #spain #historytok",
+ "youtube_title": "Rome Got an Emperor Born in Spain #shorts",
+ "tags": [
+  "trajan",
+  "roman empire",
+  "hispania",
+  "italica",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Trajan",
+  "https://www.worldhistory.org/trajan/",
+  "https://en.wikipedia.org/wiki/Hadrian",
+  "https://en.wikipedia.org/wiki/Italica"
+ ]
+}

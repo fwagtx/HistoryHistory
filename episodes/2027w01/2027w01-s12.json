@@ -1,0 +1,281 @@
+{
+ "id": "2027w01-s12",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "Spain's National Anthem Has No Official Words",
+ "hook": "AN ANTHEM WITH NO WORDS",
+ "topic": "Spain's Anthem",
+ "music": "playful",
+ "cast": {
+  "fan": {
+   "hat": "cap",
+   "hatColor": "#C8102E",
+   "outfit": "tunic",
+   "color": "#F1BF00",
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#1E1612"
+  },
+  "charles3": {
+   "outfit": "coat",
+   "color": "#8A2A2A",
+   "hair": "long",
+   "hairColor": "#EDEDED",
+   "skin": "light",
+   "name": "Charles III"
+  },
+  "official": {
+   "preset": "businessman",
+   "hairColor": "#6A6A6A",
+   "glasses": "square"
+  },
+  "official2": {
+   "outfit": "suit",
+   "color": "#2F5A8A",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "official": "bm_lewis",
+  "official2": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "When Spain's national anthem plays, fans can't sing along. It has no official words.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "fan",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.6,
+      "flag": "spain"
+     }
+    ],
+    "place": "Spain · 2020s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The tune is the Marcha Real, the Royal March, and it's one of the oldest national anthems on Earth.",
+   "show": {
+    "k": "card",
+    "label": "The Marcha Real",
+    "big": "1761",
+    "sub": "first written down in a military music book"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1770, King Charles the Third made it an official march of honor.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "charles3",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "Madrid · 1770",
+    "tag": {
+     "id": "charles3",
+     "text": "King Charles III of Spain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over the years, people wrote lyrics for it. None ever became official.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "LYRICS?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2008, Spain's Olympic Committee picked new lyrics from a contest. People hated them, and they were dropped within days.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "official2",
+      "x": 0.62,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "place": "Madrid · January 2008"
+   }
+  },
+  {
+   "who": "official",
+   "say": "We finally have words!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "official",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.45,
+      "text": "LYRICS"
+     }
+    ],
+    "cam": "close",
+    "focus": "official"
+   }
+  },
+  {
+   "who": "official2",
+   "say": "Not anymore.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "official2",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.2,
+      "s": 0.45,
+      "text": "NO"
+     }
+    ],
+    "cam": "close",
+    "focus": "official2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today, only a few anthems, like Spain's, San Marino's and Kosovo's, have no official words. Everyone just hums.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "fan",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.6,
+      "flag": "spain"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LA LA LA",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "fan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "charles3",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Spain's anthem, the Marcha Real, has no official lyrics. A 2008 attempt lasted days.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #spain #nationalanthem #marchareal #historytok",
+ "youtube_title": "Spain's National Anthem Has No Official Words #shorts",
+ "tags": [
+  "marcha real",
+  "spanish national anthem",
+  "spain",
+  "anthems",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Marcha_Real",
+  "https://www.guinnessworldrecords.com/world-records/682899-oldest-wordless-national-anthem",
+  "https://www.classicfm.com/discover-music/periods-genres/national-anthems/spanish-national-anthem-no-words/",
+  "https://www.thelocal.com/20180223/no-word-on-spains-national-anthem"
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "id": "2027w01-s35",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "Why So Much Spanish Silver Ended Up in China",
+ "hook": "CHINA WANTED THE SILVER",
+ "topic": "Ming China",
+ "music": "playful",
+ "cast": {
+  "zhang": {
+   "hat": "futou",
+   "hatColor": "#1E1A16",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "beard": "long",
+   "skin": "light",
+   "hold": "scroll",
+   "name": "Zhang Juzheng"
+  },
+  "farmer": {
+   "outfit": "tunic",
+   "color": "#5A7A4A",
+   "hat": "straw",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "skin": "light",
+   "name": "Chinese farmer"
+  },
+  "merchC": {
+   "hat": "futou",
+   "hatColor": "#1E1A16",
+   "outfit": "robe",
+   "color": "#2F6A8A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "beard": "goatee",
+   "skin": "light",
+   "name": "Chinese merchant"
+  }
+ },
+ "voices": {
+  "zhang": "bm_george",
+  "farmer": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Much of Spain's American silver ended up in China. Here's why.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "merchC",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SILVER → CHINA",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Ming China · 1581"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1500s, the Ming dynasty ruled China, one of the richest countries on Earth.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "zhang",
+      "x": 0.45,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MING DYNASTY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around 1581, a top official, Zhang Juzheng, pushed a big tax reform called the Single Whip.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "zhang",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SINGLE WHIP",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "zhang",
+     "text": "Zhang Juzheng"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lots of old taxes, paid in grain, cloth and labor, became one tax, paid in silver.",
+   "show": {
+    "k": "card",
+    "label": "The Single Whip reform",
+    "big": "1 TAX, IN SILVER",
+    "sub": "instead of grain, cloth and labor"
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "I grow rice! Where do I get silver?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "shrug"
+     },
+     {
+      "id": "zhang",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "farmer"
+   }
+  },
+  {
+   "who": "zhang",
+   "say": "Sell your rice. Pay in silver."
+  },
+  {
+   "who": "N",
+   "say": "Millions suddenly needed silver, and China had little of its own. It came from Japan and Spain's mines.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.3,
+      "s": 0.38
+     },
+     {
+      "k": "sailship",
+      "x": 0.72,
+      "s": 0.36,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JAPAN",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SPAIN'S MINES",
+      "at": 1.8,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Silver was worth about twice as much in China as in Spain, so merchants got rich shipping it there.",
+   "show": {
+    "k": "card",
+    "label": "What silver was worth, late 1500s",
+    "big": "2×",
+    "sub": "in China, compared with Spain"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history of money.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "zhang",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "farmer",
+      "x": 0.7,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A Chinese tax law helped pull silver from Bolivia and Mexico halfway around the world.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #china #mingdynasty #historytok #moneyhistory",
+ "youtube_title": "Why So Much Spanish Silver Ended Up in China #shorts",
+ "tags": [
+  "ming dynasty",
+  "single whip reform",
+  "silver trade",
+  "chinese history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Single_whip_law",
+  "https://www.worldhistory.org/article/3004/ming-taxation--the-silver-economy/",
+  "https://human.libretexts.org/Bookshelves/History/World_History/Modern_World_History%3A_New_Perspectives_(OERI)/02%3A_Global_Interactions_-_1450-1650/2.06%3A_Silver_and_the_Ming_Dynasty",
+  "https://encyclopedia.com/history/news-wires-white-papers-and-books/ming-dynasty-1368-1644-single-whip-reform"
+ ]
+}

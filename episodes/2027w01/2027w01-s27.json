@@ -1,0 +1,275 @@
+{
+ "id": "2027w01-s27",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "Spain Shipped Silver Across the Pacific for 250 Years",
+ "hook": "SILVER FOR SILK",
+ "topic": "Manila Galleons",
+ "music": "playful",
+ "cast": {
+  "merchC": {
+   "hat": "futou",
+   "hatColor": "#1E1A16",
+   "outfit": "robe",
+   "color": "#2F6A8A",
+   "color2": "#E8C25A",
+   "hair": "bun",
+   "hairColor": "#1E1C1B",
+   "beard": "goatee",
+   "skin": "light",
+   "name": "Chinese merchant"
+  },
+  "merchS": {
+   "hat": "beret",
+   "hatColor": "#3A2A1A",
+   "outfit": "coat",
+   "color": "#6A3A22",
+   "color2": "#E8E2D0",
+   "stache": "handlebar",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "moneybag",
+   "name": "Spanish merchant"
+  }
+ },
+ "voices": {
+  "merchC": "am_liam",
+  "merchS": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "For 250 years, Spanish ships carried silver across the Pacific to buy Chinese silk.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "merchS",
+      "x": 0.3,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.68,
+      "s": 0.4,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "250 YEARS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Acapulco, Mexico · 1565"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It began in 1565, when Spanish sailors finally found a way back across the Pacific Ocean.",
+   "show": {
+    "k": "map",
+    "lon": -102,
+    "lat": 19,
+    "z0": 1.4,
+    "z1": 1.7,
+    "date": "1565",
+    "labels": [
+     [
+      "Mexico",
+      -102,
+      24,
+      14
+     ],
+     [
+      "Acapulco",
+      -99.9,
+      16.85,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -99.9,
+      16.85
+     ],
+     [
+      -108,
+      15
+     ],
+     [
+      -118,
+      13.5
+     ],
+     [
+      -130,
+      13
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Galleons, big sailing ships, went from Acapulco, Mexico, to Manila, in the Philippines, in about three months.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.45,
+      "flag": "spain_burgundy",
+      "move": [
+       0.25,
+       0.7
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABOUT 3 MONTHS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There, Chinese merchants brought silk and porcelain, and wanted just one thing.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "merchC",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "junk",
+      "x": 0.72,
+      "s": 0.38
+     },
+     {
+      "k": "crate",
+      "x": 0.5,
+      "s": 0.3,
+      "label": "SILK"
+     }
+    ],
+    "place": "Manila, Philippines · 1600s"
+   }
+  },
+  {
+   "who": "merchC",
+   "say": "Silver, please. Only silver.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "merchC",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "merchS",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "merchC"
+   }
+  },
+  {
+   "who": "merchS",
+   "say": "Great. We brought a whole ship of it."
+  },
+  {
+   "who": "N",
+   "say": "China made people pay taxes in silver, so silver was worth about twice as much there as in Spain.",
+   "show": {
+    "k": "card",
+    "label": "What silver was worth, late 1500s",
+    "big": "2×",
+    "sub": "in China, compared with Spain"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They kept sailing until 1815. Some historians call it the start of global trade.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.4,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "junk",
+      "x": 0.72,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1565–1815",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "merchC",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "merchS",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Mexican silver, Chinese silk, one ship a year across the Pacific.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #manilagalleon #philippines #historytok #spanishempire",
+ "youtube_title": "Spain Shipped Silver Across the Pacific for 250 Years #shorts",
+ "tags": [
+  "manila galleon",
+  "acapulco",
+  "silver trade",
+  "ming china",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Manila_galleon",
+  "https://www.guampedia.com/navigation-and-cargo-of-the-manila-galleons/",
+  "https://human.libretexts.org/Bookshelves/History/World_History/Modern_World_History%3A_New_Perspectives_(OERI)/02%3A_Global_Interactions_-_1450-1650/2.06%3A_Silver_and_the_Ming_Dynasty",
+  "https://www.americasquarterly.org/article/long-view-the-16th-century-trade-route-that-brought-china-to-mexico/"
+ ]
+}

@@ -1,0 +1,3097 @@
+{
+ "id": "2027w01-l2",
+ "format": "long",
+ "date": "2027-01-06",
+ "title": "The Weirdest Crusades in History",
+ "music": "playful",
+ "cast": {
+  "richard": {
+   "preset": "king",
+   "outfit": "crusader",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#B5652E",
+   "skin": "light",
+   "name": "Richard the Lionheart"
+  },
+  "saladin": {
+   "preset": "sultan",
+   "color": "#2F6A4A",
+   "hatColor": "#F2EFE6",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "name": "Saladin"
+  },
+  "aladil": {
+   "preset": "sultan",
+   "color": "#6A4A8A",
+   "hatColor": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "name": "al-Adil, Saladin's brother"
+  },
+  "joan": {
+   "preset": "queen",
+   "hairColor": "#B5652E",
+   "skin": "light",
+   "name": "Joan of England"
+  },
+  "leopold": {
+   "outfit": "robe",
+   "color": "#C8102E",
+   "color2": "#F2EFE6",
+   "hat": "crown",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Duke Leopold V of Austria"
+  },
+  "henry6": {
+   "preset": "king",
+   "color": "#2A2A2A",
+   "color2": "#F2C230",
+   "beard": "full",
+   "hairColor": "#C8A060",
+   "skin": "light",
+   "name": "Emperor Henry VI"
+  },
+  "blondel": {
+   "outfit": "tunic",
+   "color": "#2F6FC2",
+   "hair": "long",
+   "hairColor": "#E8C84A",
+   "skin": "light",
+   "name": "Blondel (legend)"
+  },
+  "peter": {
+   "preset": "monk",
+   "beard": "long",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Peter the Hermit"
+  },
+  "alexios1": {
+   "preset": "king",
+   "color": "#5A2A7A",
+   "color2": "#F2C230",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Emperor Alexios I"
+  },
+  "urban": {
+   "preset": "pope",
+   "beard": "full",
+   "hairColor": "#DDDDDD",
+   "name": "Pope Urban II"
+  },
+  "nicholas": {
+   "preset": "child",
+   "hairColor": "#C8A060",
+   "skin": "peach",
+   "color": "#7A5A3A",
+   "name": "Nicholas of Cologne"
+  },
+  "stephen": {
+   "preset": "child",
+   "hat": "straw",
+   "color": "#4A7A4A",
+   "skin": "light",
+   "name": "Stephen of Cloyes"
+  },
+  "pilgrim": {
+   "preset": "peasant",
+   "name": "Pilgrim"
+  },
+  "pilgrimw": {
+   "preset": "peasantW",
+   "name": "Pilgrim"
+  },
+  "francis": {
+   "preset": "monk",
+   "beard": "goatee",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Francis of Assisi"
+  },
+  "alkamil": {
+   "preset": "sultan",
+   "color": "#8A2A2A",
+   "hatColor": "#F2EFE6",
+   "beard": "full",
+   "hairColor": "#1A1410",
+   "skin": "olive",
+   "name": "Sultan al-Kamil"
+  },
+  "frederick": {
+   "preset": "king",
+   "color": "#8A1A1A",
+   "color2": "#F2C230",
+   "beard": "",
+   "hair": "side",
+   "hairColor": "#B5652E",
+   "skin": "light",
+   "name": "Emperor Frederick II"
+  },
+  "gregory": {
+   "preset": "pope",
+   "beard": "full",
+   "hairColor": "#DDDDDD",
+   "name": "Pope Gregory IX"
+  },
+  "innocent": {
+   "preset": "pope",
+   "name": "Pope Innocent III"
+  },
+  "dandolo": {
+   "outfit": "robe",
+   "color": "#C8A030",
+   "color2": "#A8322A",
+   "hat": "cap",
+   "hatColor": "#C8A030",
+   "beard": "long",
+   "hairColor": "#EEEEEE",
+   "skin": "light",
+   "name": "Doge Enrico Dandolo"
+  },
+  "boniface": {
+   "preset": "crusader",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Boniface of Montferrat"
+  },
+  "crusader": {
+   "preset": "crusader",
+   "name": "Crusader"
+  },
+  "alexios4": {
+   "outfit": "robe",
+   "color": "#6A2A8A",
+   "color2": "#F2C230",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Prince Alexios Angelos"
+  },
+  "louis": {
+   "preset": "king",
+   "color": "#1F3E9A",
+   "color2": "#F2C230",
+   "beard": "",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "King Louis IX"
+  },
+  "sultan50": {
+   "preset": "sultan",
+   "color": "#2F4A8A",
+   "hatColor": "#F2EFE6",
+   "beard": "full",
+   "hairColor": "#1A1410",
+   "skin": "olive",
+   "name": "Sultan of Egypt"
+  },
+  "horse": {
+   "animal": "horse",
+   "mood": "smug"
+  }
+ },
+ "voices": {
+  "peter": "bm_lewis",
+  "alexios1": "bm_george",
+  "alkamil": "am_eric",
+  "francis": "am_puck",
+  "richard": "bm_daniel",
+  "joan": "bf_emma",
+  "leopold": "am_fenrir",
+  "gregory": "am_echo",
+  "frederick": "am_liam",
+  "dandolo": "am_onyx",
+  "boniface": "am_adam"
+ },
+ "description": "A crusade that left months early, a crowd that waited for the sea to dry up, a monk who walked over to the sultan, enemies who swapped fruit and snow, a kidnapped king, an emperor who won Jerusalem with letters while excommunicated, and a crusade that attacked the wrong city. Here are the weirdest crusades in history, counted down from seven to one. Chapters are added automatically.\n\n#history #crusades #medieval #richardthelionheart #historypros",
+ "thumbnail": {
+  "style": "redbox",
+  "bg": "palace",
+  "title": "WRONG CITY",
+  "lines": [
+   "WRONG",
+   "CITY"
+  ],
+  "main": {
+   "id": "dandolo",
+   "mood": "smug"
+  },
+  "second": {
+   "id": "boniface",
+   "mood": "shock"
+  }
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "April 1204. A huge Christian crusader army is attacking one of the richest cities on Earth.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "boniface",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.6,
+      "label": "VENETIAN GALLEY"
+     },
+     {
+      "k": "wall",
+      "x": 0.92,
+      "s": 0.5
+     }
+    ],
+    "place": "Constantinople · April 1204",
+    "stickers": [
+     {
+      "text": "ATTACK!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There's just one problem. This army set out to fight in the Holy Land, around Jerusalem.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "boniface",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.75,
+      "s": 0.6
+     },
+     {
+      "k": "sign",
+      "x": 0.9,
+      "s": 0.4,
+      "text": "JERUSALEM →"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE PLAN",
+      "at": 0.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And this city isn't in the Holy Land. It's Constantinople, and it's Christian too.",
+   "show": {
+    "k": "map",
+    "lon": 28.5,
+    "lat": 38.5,
+    "z0": 1.3,
+    "z1": 1.8,
+    "date": "1204",
+    "labels": [
+     [
+      "CONSTANTINOPLE",
+      28.98,
+      41.01,
+      0
+     ],
+     [
+      "JERUSALEM",
+      35.21,
+      31.77,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      28.98,
+      41.01,
+      1.0,
+      "rgba(168,50,42,0.45)"
+     ],
+     [
+      35.21,
+      31.77,
+      1.0,
+      "rgba(31,138,74,0.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was the capital of the Byzantine Empire, the Greek-speaking eastern half of the old Roman Empire.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alexios4",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BYZANTINE EMPIRE",
+      "at": 0.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how does a holy war end up at the wrong city? Short answer: debt. A lot of debt.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "boniface",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.4,
+      "label": "EMPTY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WRONG CITY",
+      "at": 0.5,
+      "color": "#A8322A"
+     },
+     {
+      "text": "DEBT",
+      "at": 2.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And believe it or not, that's not the only crusade that went completely sideways.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.2,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "francis",
+      "x": 0.36,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "frederick",
+      "x": 0.52,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "nicholas",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "peter",
+      "x": 0.84,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Weirdest Crusades in History",
+    "sub": "Seven true stories, counted down",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.88,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Quick background: the Crusades were a series of religious wars from 1096 to the late 1200s. European Christian armies tried to take and hold Jerusalem and the lands around it.",
+   "show": {
+    "k": "map",
+    "lon": 22,
+    "lat": 40,
+    "z0": 1.0,
+    "z1": 1.2,
+    "date": "1096–1291",
+    "labels": [
+     [
+      "EUROPE",
+      8,
+      48,
+      0
+     ],
+     [
+      "JERUSALEM",
+      35.21,
+      31.77,
+      0
+     ]
+    ],
+    "route": [
+     [
+      6.96,
+      50.94
+     ],
+     [
+      16.4,
+      48.2
+     ],
+     [
+      28.98,
+      41.01
+     ],
+     [
+      35.21,
+      31.77
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Those lands were ruled by Muslim powers, and they mattered deeply to Christians, Muslims and Jews alike. Today we're skipping the big battles and counting down the weirdest moments.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "saladin",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "neutral"
+     },
+     {
+      "id": "richard",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.5,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "The Crusade That Left Early"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number seven. In 1095, Pope Urban the Second called on Europe's knights to march east.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "urban",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "place": "Clermont, France · 1095",
+    "tag": {
+     "id": "urban",
+     "text": "Pope Urban II"
+    },
+    "stickers": [
+     {
+      "text": "TO JERUSALEM!",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The official armies were told to leave in August 1096, after the harvest was in.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.35,
+      "pose": "salute",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.5,
+      "load": "gold"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AUGUST 1096",
+      "at": 0.8,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But a preacher called Peter the Hermit didn't feel like waiting.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "tag": {
+     "id": "peter",
+     "text": "Peter the Hermit, preacher"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.35,
+      "flag": "red"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He preached across France and Germany, and thousands of ordinary people followed him. Farmers, families, and a few knights.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.2,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "pilgrim",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "pilgrimw",
+      "x": 0.56,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "crusader",
+      "x": 0.74,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In spring 1096 they set off from Cologne in Germany, months ahead of the real army.",
+   "show": {
+    "k": "map",
+    "lon": 18,
+    "lat": 46,
+    "z0": 1.4,
+    "z1": 1.7,
+    "date": "Spring 1096",
+    "labels": [
+     [
+      "COLOGNE",
+      6.96,
+      50.94,
+      0
+     ],
+     [
+      "CONSTANTINOPLE",
+      28.98,
+      41.01,
+      0
+     ]
+    ],
+    "route": [
+     [
+      6.96,
+      50.94
+     ],
+     [
+      11.5,
+      48.6
+     ],
+     [
+      16.4,
+      48.2
+     ],
+     [
+      20.5,
+      44.8
+     ],
+     [
+      23.3,
+      42.7
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A serious note here. That same year, some crusader bands in Germany attacked Jewish communities along the Rhine river and killed thousands. It's one of the darkest parts of this whole story.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [],
+    "cam": "still",
+    "place": "Rhineland, Germany · 1096"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Peter's crowd reached Constantinople that summer. Its emperor, Alexios the First, had asked the West for trained soldiers.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alexios1",
+      "x": 0.62,
+      "pose": "hips",
+      "mood": "neutral"
+     },
+     {
+      "id": "peter",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "place": "Constantinople · August 1096",
+    "tag": {
+     "id": "alexios1",
+     "text": "Emperor Alexios I"
+    },
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "alexios1",
+   "say": "I asked for trained knights. You brought... everyone's cousins?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alexios1",
+      "x": 0.62,
+      "pose": "facepalm",
+      "mood": "shock"
+     },
+     {
+      "id": "peter",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "alexios1"
+   }
+  },
+  {
+   "who": "peter",
+   "say": "God's army doesn't wait!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "alexios1",
+      "x": 0.65,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "peter"
+   }
+  },
+  {
+   "who": "alexios1",
+   "say": "Wonderful. Then God's army can wait over there.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "alexios1",
+      "x": 0.25,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.65,
+      "s": 0.6,
+      "move": [
+       0.5,
+       0.85
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ACROSS THE WATER",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within days, he ferried them across the water into Asia Minor, where Turkish armies were waiting.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.4,
+      "s": 0.6,
+      "move": [
+       0.2,
+       0.7
+      ]
+     },
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.5,
+      "move": [
+       0.55,
+       0.95
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In October, while Peter was back in Constantinople asking for help, his army was ambushed and almost wiped out.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [],
+    "cam": "still",
+    "stickers": [
+     {
+      "text": "OCTOBER 1096",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Peter survived. Three years later he did reach Jerusalem, with the official army. He just wasn't in charge anymore.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT THE BOSS",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "The 'Children's' Crusade"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number six is famous, but it's a mix of history and legend. In 1212, a German boy called Nicholas started preaching a crusade.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "place": "Cologne, Germany · 1212",
+    "tag": {
+     "id": "nicholas",
+     "text": "Nicholas of Cologne"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.8,
+      "s": 0.3,
+      "flag": "white"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HISTORY + LEGEND",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In France, a shepherd boy called Stephen of Cloyes was drawing big crowds too.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "stephen",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "place": "Cloyes, France · 1212",
+    "tag": {
+     "id": "stephen",
+     "text": "Stephen of Cloyes"
+    },
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Chroniclers say thousands followed Nicholas. Many were young, and many were poor.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.2,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "pilgrim",
+      "x": 0.42,
+      "pose": "walk",
+      "mood": "neutral"
+     },
+     {
+      "id": "pilgrimw",
+      "x": 0.6,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They crossed the Alps into Italy. That's the Alps. On foot. To get to a beach.",
+   "show": {
+    "k": "map",
+    "lon": 8.5,
+    "lat": 47,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "Summer 1212",
+    "labels": [
+     [
+      "COLOGNE",
+      6.96,
+      50.94,
+      0
+     ],
+     [
+      "ALPS",
+      9.0,
+      46.4,
+      0
+     ],
+     [
+      "GENOA",
+      8.93,
+      44.41,
+      0
+     ]
+    ],
+    "route": [
+     [
+      6.96,
+      50.94
+     ],
+     [
+      7.6,
+      47.6
+     ],
+     [
+      8.6,
+      46.5
+     ],
+     [
+      8.9,
+      45.5
+     ],
+     [
+      8.93,
+      44.41
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Accounts say Nicholas promised the sea would dry up for them, so they could walk to the Holy Land.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "place": "Genoa, Italy · August 1212",
+    "stickers": [
+     {
+      "text": "ANY MINUTE NOW",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They reached the port of Genoa in August. They waited. The sea stayed exactly where it was.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "nicholas",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "pilgrim",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL WET",
+      "at": 1.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most of them gave up. Some stayed in Italy, and others began the long walk home.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pilgrim",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "sad"
+     },
+     {
+      "id": "pilgrimw",
+      "x": 0.6,
+      "pose": "walk",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later legends said many were sold as slaves. Historians can't confirm that. Many also think the crowds were mostly poor wanderers, not just kids.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.6,
+      "text": "LEGEND?"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.6,
+      "color": "#A8322A"
+     },
+     {
+      "text": "POOR WANDERERS",
+      "at": 2.4,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "The Monk Who Walked Over"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number five. In 1219, a crusader army was besieging Damietta, a port city in Egypt.",
+   "show": {
+    "k": "map",
+    "lon": 31.5,
+    "lat": 31.0,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "1219",
+    "labels": [
+     [
+      "DAMIETTA",
+      31.81,
+      31.42,
+      0
+     ],
+     [
+      "EGYPT",
+      30.8,
+      29.5,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      31.81,
+      31.42,
+      0.5,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Egypt's ruler was Sultan al-Kamil, a nephew of Saladin.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "alkamil",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "neutral"
+     }
+    ],
+    "place": "Damietta, Egypt · 1219",
+    "tag": {
+     "id": "alkamil",
+     "text": "Sultan al-Kamil, ruler of Egypt"
+    },
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.82,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Into this war walks Francis of Assisi, an Italian friar who was famous for owning basically nothing.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "francis",
+     "text": "Francis of Assisi, friar"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OWNS: NOTHING",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Francis decided to cross the battle lines, unarmed, and talk to the sultan in person.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.2,
+      "pose": "walk",
+      "mood": "happy",
+      "walk": [
+       0.15,
+       0.6
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.9,
+      "s": 0.3,
+      "flag": "red"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UNARMED",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soldiers from the other side picked him up and brought him to the sultan.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "alkamil",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "alkamil",
+   "say": "You walked here? From that camp? On purpose?",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "alkamil",
+      "x": 0.62,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "alkamil"
+   }
+  },
+  {
+   "who": "francis",
+   "say": "I came to talk, not to fight.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "alkamil",
+      "x": 0.65,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "francis"
+   }
+  },
+  {
+   "who": "alkamil",
+   "say": "Well. That makes a nice change.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "alkamil",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "francis",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Early accounts say the sultan listened politely, then sent Francis back to the crusader camp safely.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy",
+      "exit": "left",
+      "exitAt": 1.5
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SAFE CONDUCT",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later storytellers added extra drama. But the meeting itself really happened, and it's still remembered as an early moment of dialogue between the two faiths.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "francis",
+      "x": 0.5,
+      "pose": "cross",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "The Enemies Who Sent Gifts"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number four. It's the Third Crusade, around 1191, and two famous enemies are facing off.",
+   "show": {
+    "k": "compare",
+    "bg": "desert",
+    "left": {
+     "label": "RICHARD",
+     "cast": [
+      {
+       "id": "richard",
+       "pose": "fist",
+       "mood": "angry"
+      }
+     ]
+    },
+    "right": {
+     "label": "SALADIN",
+     "cast": [
+      {
+       "id": "saladin",
+       "pose": "hips",
+       "mood": "smug"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On one side is Richard the Lionheart, King of England, a famous fighter.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "place": "Acre, Holy Land · 1191",
+    "tag": {
+     "id": "richard",
+     "text": "Richard the Lionheart, King of England"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.82,
+      "s": 0.35,
+      "flag": "red"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the other is Saladin, the sultan who had taken Jerusalem in 1187.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "saladin",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "saladin",
+     "text": "Saladin, sultan of Egypt and Syria"
+    },
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They fought big battles. But they also negotiated, mostly through Saladin's brother, al-Adil.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "aladil",
+      "x": 0.6,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "aladil",
+     "text": "al-Adil, Saladin's brother"
+    },
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.45,
+      "s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And according to Saladin's adviser, Baha ad-Din, Richard pitched a wild peace plan.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.5,
+      "text": "PEACE PLAN"
+     }
+    ]
+   }
+  },
+  {
+   "who": "richard",
+   "say": "Easy. My sister Joan marries your brother, and they rule Jerusalem together.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "aladil",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "richard"
+   }
+  },
+  {
+   "who": "joan",
+   "say": "You planned my wedding without asking me?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "angry"
+     },
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "tag": {
+     "id": "joan",
+     "text": "Joan, Richard's sister"
+    },
+    "cam": "close",
+    "focus": "joan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Joan flatly refused, and the plan fell apart.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "joan",
+      "x": 0.6,
+      "pose": "cross",
+      "mood": "angry"
+     },
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in 1192, Richard fell sick with a fever. Accounts say Saladin sent him fresh fruit, and snow from the mountains to cool his drinks.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.35,
+      "label": "FRUIT"
+     },
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.35,
+      "label": "SNOW"
+     }
+    ],
+    "place": "Near Jaffa · Summer 1192",
+    "stickers": [
+     {
+      "text": "GET WELL SOON?",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Snow. In the Middle Eastern summer. From the guy you're at war with.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "goblet"
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "stickers": [
+     {
+      "text": "SNOW!",
+      "at": 0.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the end, neither man got everything. In September 1192 they signed a three-year truce, and Christian pilgrims could visit Jerusalem again.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "saladin",
+      "x": 0.7,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.45,
+      "text": "TRUCE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "The King Who Got Kidnapped"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number three is Richard's trip home. A storm wrecked his ship near the top of the Adriatic Sea, so he had to go overland.",
+   "show": {
+    "k": "map",
+    "lon": 22,
+    "lat": 41,
+    "z0": 1.3,
+    "z1": 1.6,
+    "date": "Late 1192",
+    "labels": [
+     [
+      "ACRE",
+      35.07,
+      32.93,
+      0
+     ],
+     [
+      "VIENNA",
+      16.37,
+      48.21,
+      0
+     ]
+    ],
+    "route": [
+     [
+      35.07,
+      32.93
+     ],
+     [
+      28,
+      34.5
+     ],
+     [
+      20.5,
+      37.5
+     ],
+     [
+      19.5,
+      40.5
+     ],
+     [
+      13.37,
+      45.77
+     ],
+     [
+      16.37,
+      48.21
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The quickest way home went through Austria. Bad news. Its ruler, Duke Leopold, hated Richard.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "leopold",
+      "x": 0.55,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "leopold",
+     "text": "Duke Leopold V of Austria"
+    },
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.35,
+      "flag": "red"
+     }
+    ],
+    "place": "Austria · December 1192"
+   }
+  },
+  {
+   "who": "N",
+   "say": "At the siege of Acre, Richard's men had thrown down Leopold's banner. Leopold never forgot it.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "leopold",
+      "x": 0.7,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.5,
+      "s": 0.35,
+      "flag": "red"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INSULT",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Richard travelled in disguise. It didn't work. In December 1192 he was recognized near Vienna and arrested.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "shock",
+      "hat": "hood"
+     },
+     {
+      "id": "leopold",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "leopold",
+   "say": "Remember my banner at Acre, Your Majesty?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "leopold",
+      "x": 0.65,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "richard",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "leopold"
+   }
+  },
+  {
+   "who": "richard",
+   "say": "Vaguely.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "cam": "close",
+    "focus": "richard"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Leopold handed him over to his overlord, Emperor Henry the Sixth, who named a price.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "henry6",
+      "x": 0.6,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "leopold",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "henry6",
+     "text": "Emperor Henry VI"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One hundred and fifty thousand marks of silver. Some historians put that at around three times the English crown's yearly income.",
+   "show": {
+    "k": "card",
+    "label": "Richard's ransom",
+    "big": "150,000",
+    "sub": "marks of silver, 1193"
+   }
+  },
+  {
+   "who": "N",
+   "say": "England raised it with a giant tax, a quarter of the value of people's income and goods.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "pilgrim",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.65,
+      "s": 0.5,
+      "load": "gold"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "25% TAX",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There's a famous legend that a minstrel called Blondel found Richard by singing outside castles, until Richard sang back.",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "blondel",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "castle",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.6,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "blondel",
+     "text": "Blondel, a minstrel (legend)"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lovely story. But nobody needed to find Richard. Everyone knew where he was. That's how a ransom works.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "blondel",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NOT A SECRET",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When Richard's release was agreed, his rival, King Philip of France, sent a warning to Richard's scheming brother John. A chronicler recorded it: Look to yourself; the devil is loose.",
+   "show": {
+    "k": "quote",
+    "text": "Look to yourself; the devil is loose.",
+    "who": "King Philip II of France to Prince John, as recorded by Roger of Howden"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Richard walked free in February 1194.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "place": "Germany · February 1194"
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "The Crusade With No Battle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number two stars Frederick the Second, the Holy Roman Emperor, who ruled Germany and much of Italy.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "place": "Kingdom of Sicily · 1227",
+    "tag": {
+     "id": "frederick",
+     "text": "Emperor Frederick II"
+    },
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.8,
+      "s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He promised to go on crusade. Then he kept not going. When he finally sailed in 1227, he got sick and turned back.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.6,
+      "move": [
+       0.8,
+       0.6
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "U-TURN",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Pope Gregory the Ninth excommunicated him. That means kicking him out of the Church.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "gregory",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "frederick",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "gregory",
+     "text": "Pope Gregory IX"
+    }
+   }
+  },
+  {
+   "who": "gregory",
+   "say": "You're excommunicated for not going on crusade!",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "gregory",
+      "x": 0.6,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close",
+    "focus": "gregory"
+   }
+  },
+  {
+   "who": "frederick",
+   "say": "Fine. I'm going.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "frederick"
+   }
+  },
+  {
+   "who": "gregory",
+   "say": "You can't go on crusade while you're excommunicated!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "gregory",
+      "x": 0.55,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He went anyway, in 1228. And instead of fighting, he negotiated with Sultan al-Kamil. Yes, the same sultan Francis met.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "alkamil",
+      "x": 0.7,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "place": "Holy Land · 1228",
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.4,
+      "text": "LETTERS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO BATTLE",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In February 1229 they signed the Treaty of Jaffa. Jerusalem went back to Christian rule, without a battle.",
+   "show": {
+    "k": "map",
+    "lon": 35.0,
+    "lat": 31.9,
+    "z0": 3.4,
+    "z1": 3.8,
+    "date": "February 1229",
+    "labels": [
+     [
+      "JAFFA",
+      34.75,
+      32.05,
+      0
+     ],
+     [
+      "JERUSALEM",
+      35.21,
+      31.77,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      35.21,
+      31.77,
+      0.25,
+      "rgba(31,138,74,0.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It came with a ten-year truce, and Islam's holy sites in Jerusalem stayed in Muslim hands.",
+   "show": {
+    "k": "card",
+    "label": "Truce agreed in 1229",
+    "big": "10 YEARS",
+    "sub": "Treaty of Jaffa"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Frederick held a crown-wearing ceremony in Jerusalem's Church of the Holy Sepulchre. While still excommunicated.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "place": "Jerusalem · March 1229",
+    "stickers": [
+     {
+      "text": "STILL EXCOMMUNICATED",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The deal annoyed plenty of people on both sides. But he got Jerusalem with letters, not swords.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "frederick",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "gregory",
+      "x": 0.7,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.5,
+      "s": 0.4,
+      "text": "TREATY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "The Crusade That Hit the Wrong City"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number one. In 1201, the leaders of a new crusade hired Venice, a rich sea power in Italy, to ship their army east.",
+   "show": {
+    "k": "map",
+    "lon": 14,
+    "lat": 44,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "1201",
+    "labels": [
+     [
+      "VENICE",
+      12.33,
+      45.44,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      12.33,
+      45.44,
+      0.5,
+      "rgba(212,160,16,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Venice's ruler, the Doge Enrico Dandolo, was about ninety years old and nearly blind. He was also a very sharp businessman.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "dandolo",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "place": "Venice · 1201",
+    "tag": {
+     "id": "dandolo",
+     "text": "Enrico Dandolo, Doge of Venice"
+    },
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.78,
+      "s": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The crusaders booked ships for about thirty-three thousand five hundred men. Only about twelve thousand showed up.",
+   "show": {
+    "k": "card",
+    "label": "Crusaders Venice built ships for",
+    "big": "33,500",
+    "sub": "only about 12,000 came"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So they couldn't pay the bill. They were still short about thirty-four thousand marks.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "boniface",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "tag": {
+     "id": "boniface",
+     "text": "Boniface of Montferrat, crusade leader"
+    },
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "NOT ENOUGH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "dandolo",
+   "say": "You owe Venice thirty-four thousand marks.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "dandolo",
+      "x": 0.65,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "boniface",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "dandolo"
+   }
+  },
+  {
+   "who": "boniface",
+   "say": "Could we, maybe, pay you later?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "boniface",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "scared"
+     },
+     {
+      "id": "dandolo",
+      "x": 0.65,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "boniface"
+   }
+  },
+  {
+   "who": "dandolo",
+   "say": "Help me capture a city first. Then we'll talk.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "dandolo",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEAL?",
+      "at": 1.0,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The city was Zara, today Zadar in Croatia. It was a Christian city that had broken away from Venice.",
+   "show": {
+    "k": "map",
+    "lon": 15,
+    "lat": 44.5,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "November 1202",
+    "labels": [
+     [
+      "VENICE",
+      12.33,
+      45.44,
+      0
+     ],
+     [
+      "ZARA",
+      15.23,
+      44.12,
+      0
+     ]
+    ],
+    "route": [
+     [
+      12.33,
+      45.44
+     ],
+     [
+      13.2,
+      44.9
+     ],
+     [
+      15.23,
+      44.12
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In November 1202 the crusaders captured it. Pope Innocent the Third was furious and excommunicated them.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "innocent",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "tag": {
+     "id": "innocent",
+     "text": "Pope Innocent III"
+    },
+    "stickers": [
+     {
+      "text": "EXCOMMUNICATED",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then a runaway Byzantine prince, Alexios Angelos, made an offer. Put my father back on the throne in Constantinople, and I'll pay you two hundred thousand marks.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "alexios4",
+      "x": 0.6,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "boniface",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "tag": {
+     "id": "alexios4",
+     "text": "Prince Alexios Angelos"
+    },
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "200,000 MARKS",
+      "at": 1.8,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They did it. Then he couldn't pay. The city turned on him, and in April 1204 the crusaders stormed Constantinople.",
+   "show": {
+    "k": "map",
+    "lon": 24,
+    "lat": 40,
+    "z0": 1.8,
+    "z1": 2.1,
+    "date": "1202–1204",
+    "labels": [
+     [
+      "ZARA",
+      15.23,
+      44.12,
+      0
+     ],
+     [
+      "CONSTANTINOPLE",
+      28.98,
+      41.01,
+      0
+     ]
+    ],
+    "route": [
+     [
+      15.23,
+      44.12
+     ],
+     [
+      17.5,
+      41.5
+     ],
+     [
+      19.5,
+      39.5
+     ],
+     [
+      22.5,
+      36.6
+     ],
+     [
+      24.5,
+      38.5
+     ],
+     [
+      26.2,
+      40.1
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The sack lasted three days. Many people were killed, and churches and palaces were looted. It shocked the whole Christian world.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [],
+    "cam": "still",
+    "fx": [
+     "smoke"
+    ],
+    "place": "Constantinople · April 1204"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Venice took famous treasures home, like four bronze horses that still belong to Saint Mark's Basilica in Venice today.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "horse",
+      "x": 0.35,
+      "mood": "smug"
+     },
+     {
+      "id": "dandolo",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BRONZE HORSES",
+      "at": 1.0,
+      "color": "#B8860B"
+     }
+    ],
+    "place": "Venice · 1204"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Fourth Crusade never reached the Holy Land. And it deepened a split between Catholic and Orthodox Christians that lasted for centuries.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "boniface",
+      "x": 0.5,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NEVER ARRIVED",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Before we go, an honorable mention. King Louis the Ninth of France, later made a saint, invaded Egypt in 1249.",
+   "show": {
+    "k": "flag",
+    "flag": "france_royal",
+    "label": "KINGDOM OF FRANCE",
+    "sub": "Louis IX, 1226–1270",
+    "bg": "castle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1250 his army was beaten, and Louis himself was captured.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "louis",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "sad"
+     },
+     {
+      "id": "sultan50",
+      "x": 0.72,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "place": "Egypt · April 1250",
+    "tag": {
+     "id": "louis",
+     "text": "King Louis IX of France"
+    },
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.4,
+      "flag": "france_royal"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His friend Jean de Joinville wrote that Louis agreed to a huge ransom without haggling. The sultan was so impressed, he knocked a chunk off the price.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "louis",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "happy"
+     },
+     {
+      "id": "sultan50",
+      "x": 0.7,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.5,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DISCOUNT!",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So: a crusade that left early, a sea that wouldn't part, snow from your enemy, a ransomed king, and the wrong city. Which one was the weirdest? Tell us in the comments.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "peter",
+      "x": 0.15,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "nicholas",
+      "x": 0.32,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "richard",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "frederick",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "dandolo",
+      "x": 0.85,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next time: how the Spanish Empire went broke, with all the silver in the world. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "next": "How the Spanish Empire Went Broke (With All the Silver in the World)",
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.78,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "saladin",
+      "x": 0.92,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube_title": "The Weirdest Crusades in History",
+ "tags": [
+  "weirdest crusades",
+  "crusades",
+  "fourth crusade",
+  "sack of constantinople",
+  "richard the lionheart",
+  "saladin",
+  "frederick ii",
+  "francis of assisi",
+  "children's crusade",
+  "peter the hermit",
+  "louis ix",
+  "medieval history",
+  "funny history",
+  "animated history",
+  "history pros"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/People%27s_Crusade",
+  "https://en.wikipedia.org/wiki/Peter_the_Hermit",
+  "https://www.britannica.com/event/Crusades/Preparations-for-the-Crusade",
+  "https://en.wikipedia.org/wiki/Rhineland_massacres",
+  "https://en.wikipedia.org/wiki/Children%27s_Crusade",
+  "https://www.worldhistory.org/Children's_Crusade/",
+  "https://www.history.com/articles/the-disastrous-time-tens-of-thousands-of-children-tried-to-start-a-crusade",
+  "https://www.medievalists.net/2012/10/the-friar-and-the-sultan-francis-of-assisis-mission-to-egypt/",
+  "https://en.wikipedia.org/wiki/Francis_of_Assisi",
+  "https://en.wikipedia.org/wiki/Joan_of_England,_Queen_of_Sicily",
+  "https://www.britannica.com/event/Crusades/The-Third-Crusade",
+  "https://www.history.co.uk/articles/saladin-richard-the-lionheart-s-worthy-adversary",
+  "https://en.wikipedia.org/wiki/Treaty_of_Jaffa_(1192)",
+  "https://www.britannica.com/biography/Richard-I-king-of-England/Imprisonment",
+  "https://www.historyhit.com/facts-about-richard-the-lionheart/",
+  "https://en.wikipedia.org/wiki/Blondel_de_Nesle",
+  "https://www.medievalists.net/2015/10/music-for-a-captured-king-richard-the-lionheart-and-blondel/",
+  "https://historynet.com/king-richard-i-of-england-versus-king-philip-ii-augustus/",
+  "https://en.wikipedia.org/wiki/Treaty_of_Jaffa_(1229)",
+  "https://www.worldhistory.org/Sixth_Crusade/",
+  "https://en.wikipedia.org/wiki/Fourth_Crusade",
+  "https://www.worldhistory.org/Fourth_Crusade/",
+  "https://www.nationalgeographic.com/history/article/constantinople",
+  "https://en.wikipedia.org/wiki/Alexios_IV_Angelos",
+  "https://en.wikipedia.org/wiki/Horses_of_Saint_Mark",
+  "https://en.wikipedia.org/wiki/Seventh_Crusade",
+  "https://www.ccel.org/ccel/schaff/hcc5.ii.ix.xi.html"
+ ]
+}

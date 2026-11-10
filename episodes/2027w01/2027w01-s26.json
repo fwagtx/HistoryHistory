@@ -1,0 +1,259 @@
+{
+ "id": "2027w01-s26",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "The King With All the Silver Went Broke Four Times",
+ "hook": "BROKE FOUR TIMES",
+ "topic": "Philip II of Spain",
+ "music": "playful",
+ "cast": {
+  "philip": {
+   "hat": "crown",
+   "outfit": "coat",
+   "color": "#1E1C1B",
+   "color2": "#F4ECD8",
+   "hair": "short",
+   "hairColor": "#B8904A",
+   "beard": "goatee",
+   "skin": "light",
+   "name": "King Philip II of Spain"
+  },
+  "banker": {
+   "hat": "beret",
+   "hatColor": "#262322",
+   "outfit": "robe",
+   "color": "#7A2A3A",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#5A3A22",
+   "skin": "light",
+   "hold": "moneybag",
+   "name": "Genoese banker"
+  },
+  "soldier": {
+   "preset": "conquistador",
+   "name": "Spanish soldier"
+  }
+ },
+ "voices": {
+  "philip": "bm_george",
+  "banker": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The king with the most silver in the world went broke four times.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "SILVER"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BROKE x4",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Madrid, Spain · 1556"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meet Philip the Second, king of Spain from 1556. His empire owned giant silver mines in the Americas.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.4,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "tag": {
+     "id": "philip",
+     "text": "King Philip II of Spain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But he fought wars almost nonstop, and soldiers wanted their pay every month.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PAY US!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he borrowed from bankers in Genoa, a rich city in Italy, promising to repay them from future silver.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "place": "Genoa, Italy · 1500s"
+   }
+  },
+  {
+   "who": "banker",
+   "say": "Next year's silver will cover it, Majesty?",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "banker",
+      "x": 0.3,
+      "mood": "neutral"
+     },
+     {
+      "id": "philip",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "banker"
+   }
+  },
+  {
+   "who": "philip",
+   "say": "Absolutely. Probably."
+  },
+  {
+   "who": "N",
+   "say": "When the money ran short, Philip simply stopped paying. That's called a default.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "shrug"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEFAULT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He did it in 1557, 1560, 1575 and 1596. And the bankers kept lending, because more silver ships kept coming.",
+   "show": {
+    "k": "card",
+    "label": "Times Philip II stopped paying",
+    "big": "4 DEFAULTS",
+    "sub": "1557 · 1560 · 1575 · 1596"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history of money gone wrong.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "philip",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "banker",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He had the richest silver mines on Earth and still stopped paying his bankers four times.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #philipii #spain #historytok #moneyhistory",
+ "youtube_title": "The King With All the Silver Went Broke Four Times #shorts",
+ "tags": [
+  "philip ii",
+  "spanish empire",
+  "sovereign default",
+  "genoese bankers",
+  "history shorts"
+ ],
+ "sources": [
+  "https://econ-papers.upf.edu/papers/1121.pdf",
+  "https://www.bu.edu/econ/files/2012/11/dp219.pdf",
+  "https://en.wikipedia.org/wiki/Philip_II_of_Spain",
+  "https://en.wikipedia.org/wiki/List_of_sovereign_defaults"
+ ]
+}

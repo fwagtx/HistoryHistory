@@ -1,0 +1,272 @@
+{
+ "id": "2027w01-s32",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "Who Owns the Richest Shipwreck in the World?",
+ "hook": "WHO OWNS THIS TREASURE?",
+ "topic": "San José Galleon",
+ "music": "playful",
+ "cast": {
+  "wager": {
+   "outfit": "coat",
+   "color": "#2A3A6A",
+   "color2": "#E8E2D0",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hair": "long",
+   "hairColor": "#D8D2C8",
+   "skin": "light",
+   "hold": "telescope",
+   "name": "Charles Wager"
+  },
+  "scientist": {
+   "preset": "scientist",
+   "name": "Colombian researcher"
+  },
+  "lawyer": {
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "hair": "side",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "letter",
+   "name": "Salvage company lawyer"
+  }
+ },
+ "voices": {
+  "scientist": "af_bella",
+  "lawyer": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Colombia, Spain and an American company all claim the same sunken Spanish ship.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.7,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WHO OWNS IT?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "The San José galleon · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1708, the galleon San José was carrying silver and gold toward Cartagena, in today's Colombia.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.45,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1708",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Near Cartagena, Colombia · 1708"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spain and Britain were at war. British warships led by Commodore Charles Wager attacked it.",
+   "show": {
+    "k": "scene",
+    "bg": "ocean",
+    "cast": [
+     {
+      "id": "wager",
+      "x": 0.25,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.35,
+      "flag": "uk1606"
+     }
+    ],
+    "tag": {
+     "id": "wager",
+     "text": "Commodore Charles Wager"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The San José blew up and sank. About six hundred people died.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.4,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Its cargo is often guessed at billions of dollars, though nobody knows for sure.",
+   "show": {
+    "k": "card",
+    "label": "San José treasure",
+    "big": "BILLIONS?",
+    "sub": "guesses run as high as $20 billion"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2015, Colombia announced that it had found the wreck.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOUND: 2015",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Colombia · 2015"
+   }
+  },
+  {
+   "who": "lawyer",
+   "say": "Actually, our company found it first, back in the 1980s.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lawyer",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "scientist",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "lawyer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Spain says it's still a Spanish navy ship. As of late 2026, the case was still unresolved.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "lawyer",
+      "x": 0.3,
+      "mood": "angry"
+     },
+     {
+      "id": "scientist",
+      "x": 0.7,
+      "mood": "angry"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL ARGUING",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more treasure stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "scientist",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "lawyer",
+      "x": 0.7
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One sunken galleon, billions in treasure, and nobody agrees who owns it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #shipwreck #colombia #historytok #treasure",
+ "youtube_title": "Who Owns the Richest Shipwreck in the World? #shorts",
+ "tags": [
+  "san jose galleon",
+  "shipwreck",
+  "sunken treasure",
+  "colombia",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/San_Jos%C3%A9_(galleon)",
+  "https://www.history.com/news/san-jose-shipwreck-battle-2",
+  "https://www.nationalgeographic.com/premium/article/san-jose-worlds-richest-shipwreck-claim",
+  "https://www.financecolombia.com/colombia-defends-ownership-of-san-jose-galleon-treasure-against-10-billion-usd-lawsuit/",
+  "https://www.italaw.com/sites/default/files/case-html-files/180711_Decision-on-the-Application-by-the-Kingdom-of-Spain-for-Leave-to-Intervene-as-Non-disputin_2023-12-30.html"
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "id": "2027w01-s29",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "An Emperor Offered a Room Full of Gold for His Freedom",
+ "hook": "A ROOM OF GOLD",
+ "topic": "Atahualpa",
+ "music": "tense",
+ "cast": {
+  "atahualpa": {
+   "outfit": "tunic",
+   "color": "#B8302A",
+   "color2": "#E8C25A",
+   "hair": "long",
+   "hairColor": "#1E1C1B",
+   "skin": "brown",
+   "name": "Atahualpa"
+  },
+  "pizarro": {
+   "preset": "conquistador",
+   "beard": "full",
+   "hairColor": "#9A9A9A",
+   "hold": "sword",
+   "name": "Francisco Pizarro"
+  }
+ },
+ "voices": {
+  "atahualpa": "am_onyx",
+  "pizarro": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A captured emperor offered to fill a room with gold to buy his freedom.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "atahualpa",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "A ROOM OF GOLD",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Cajamarca, Peru · 1532"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Atahualpa ruled the Inca, the biggest empire in the Americas.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "atahualpa",
+      "x": 0.45,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "tag": {
+     "id": "atahualpa",
+     "text": "Atahualpa, Inca emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1532, Spanish soldiers led by Francisco Pizarro captured him in a surprise attack.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "pizarro",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "atahualpa",
+      "x": 0.72,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.42,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "tag": {
+     "id": "pizarro",
+     "text": "Francisco Pizarro"
+    }
+   }
+  },
+  {
+   "who": "atahualpa",
+   "say": "Free me, and I'll fill this room with gold, as high as I can reach.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "atahualpa",
+      "x": 0.3,
+      "pose": "point"
+     },
+     {
+      "id": "pizarro",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "atahualpa"
+   }
+  },
+  {
+   "who": "pizarro",
+   "say": "Gold! And?"
+  },
+  {
+   "who": "atahualpa",
+   "say": "And twice more with silver."
+  },
+  {
+   "who": "N",
+   "say": "The room was about seven metres long. For months, gold and silver poured in from across the empire.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "pizarro",
+      "x": 0.28,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.55,
+      "s": 0.5
+     },
+     {
+      "k": "cart",
+      "x": 0.8,
+      "s": 0.4,
+      "load": "gold"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABOUT 7 M LONG",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the Spanish never freed him. They executed Atahualpa in 1533, and the Inca Empire soon fell.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.5,
+      "s": 0.45,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1533",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "atahualpa",
+      "x": 0.3,
+      "mood": "sad"
+     },
+     {
+      "id": "pizarro",
+      "x": 0.7
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He offered a room of gold, and two of silver, for his freedom. It wasn't enough.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #inca #atahualpa #historytok #peru",
+ "youtube_title": "An Emperor Offered a Room Full of Gold for His Freedom #shorts",
+ "tags": [
+  "atahualpa",
+  "inca empire",
+  "ransom room",
+  "francisco pizarro",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ransom_Room",
+  "https://en.wikipedia.org/wiki/Atahualpa",
+  "https://www.worldhistory.org/article/915/pizarro--the-fall-of-the-inca-empire/",
+  "https://www.nationalgeographic.com/history/history-magazine/article/inca-empire-gold-spain-pizarro-atahualpa-treasure"
+ ]
+}

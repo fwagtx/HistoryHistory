@@ -1,0 +1,286 @@
+{
+ "id": "2027w01-s02",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "Gibraltar Is Named After a Commander From 711",
+ "hook": "THE ROCK HAS HIS NAME",
+ "topic": "Gibraltar",
+ "music": "playful",
+ "cast": {
+  "tariq": {
+   "preset": "saracen",
+   "skin": "tan",
+   "hairColor": "#1E1612",
+   "name": "Tariq ibn Ziyad"
+  },
+  "soldier": {
+   "hat": "turban",
+   "hatColor": "#E8C25A",
+   "outfit": "tunic",
+   "color": "#9A6A3A",
+   "skin": "tan",
+   "beard": "full",
+   "hairColor": "#1E1612",
+   "hold": "spear"
+  }
+ },
+ "voices": {
+  "tariq": "am_fenrir",
+  "soldier": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Rock of Gibraltar is named after a general who crossed into Spain in 711.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "tariq",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.9,
+      "label": "GIBRALTAR"
+     }
+    ],
+    "place": "Strait of Gibraltar · 711",
+    "tag": {
+     "id": "tariq",
+     "text": "Tariq ibn Ziyad, commander"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was Tariq ibn Ziyad, a Berber commander serving the Muslim rulers of North Africa.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "tariq",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "soldier",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "place": "North Africa · 711"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 711, he led an army across the narrow sea between Africa and Spain.",
+   "show": {
+    "k": "map",
+    "lon": -5.4,
+    "lat": 36.2,
+    "z0": 3.2,
+    "z1": 3.5,
+    "date": "711",
+    "labels": [
+     [
+      "AFRICA",
+      -5.6,
+      35.4,
+      0
+     ],
+     [
+      "SPAIN",
+      -5.0,
+      37.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -5.3,
+      35.88
+     ],
+     [
+      -5.4,
+      36.0
+     ],
+     [
+      -5.45,
+      36.15
+     ]
+    ]
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Commander, which way is Spain?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "soldier"
+   }
+  },
+  {
+   "who": "tariq",
+   "say": "Just aim for the giant rock.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "tariq",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.78,
+      "s": 0.6
+     }
+    ],
+    "cam": "close",
+    "focus": "tariq"
+   }
+  },
+  {
+   "who": "N",
+   "say": "People named the rock Jabal Tariq. In Arabic, that means the Mountain of Tariq.",
+   "show": {
+    "k": "card",
+    "label": "The Arabic name",
+    "big": "JABAL TARIQ",
+    "sub": "the Mountain of Tariq"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over the centuries, Spanish speakers wore the name down to Gibraltar.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.7,
+      "label": "GIBRALTAR"
+     },
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.45,
+      "front": true
+     }
+    ],
+    "place": "Gibraltar · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Funny thing: historians think he probably landed nearby, not on the Rock itself. The name stuck anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "tariq",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "palm",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tariq",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Gibraltar comes from Jabal Tariq, the Mountain of Tariq, the commander who crossed into Spain in 711.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #gibraltar #spain #etymology #historytok",
+ "youtube_title": "Gibraltar Is Named After a Commander From 711 #shorts",
+ "tags": [
+  "gibraltar",
+  "tariq ibn ziyad",
+  "al-andalus",
+  "spain",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Moorish_Gibraltar",
+  "https://en.wikipedia.org/wiki/Tariq_ibn_Ziyad",
+  "https://www.britannica.com/place/Gibraltar"
+ ]
+}

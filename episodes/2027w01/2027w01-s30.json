@@ -1,0 +1,269 @@
+{
+ "id": "2027w01-s30",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "A Dutch Captain Captured a Whole Spanish Treasure Fleet",
+ "hook": "HE CAPTURED A TREASURE FLEET",
+ "topic": "Piet Heyn",
+ "music": "playful",
+ "cast": {
+  "heyn": {
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "beard": "full",
+   "skin": "light",
+   "hold": "telescope",
+   "name": "Piet Heyn"
+  },
+  "spcapt": {
+   "outfit": "armor",
+   "hat": "morion",
+   "beard": "goatee",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "name": "Spanish captain"
+  }
+ },
+ "voices": {
+  "heyn": "bm_daniel",
+  "spcapt": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1628, one Dutch captain captured an entire Spanish treasure fleet.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "heyn",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.3,
+      "flag": "spain_burgundy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1628",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Off Cuba · 1628"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was Piet Heyn, and the Dutch were at war with Spain.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "heyn",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "heyn",
+     "text": "Piet Heyn, Dutch captain"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every year, Spain's silver fleet sailed home from the Americas past Cuba.",
+   "show": {
+    "k": "map",
+    "lon": -80,
+    "lat": 23,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1628",
+    "labels": [
+     [
+      "Cuba",
+      -79.0,
+      21.8,
+      14
+     ],
+     [
+      "Matanzas Bay",
+      -81.6,
+      23.1,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -81.6,
+      23.1,
+      0.4,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In September 1628, Heyn caught it. The Spanish ships fled into Matanzas Bay and got stuck in shallow water.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.3,
+      "s": 0.38,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.34,
+      "flag": "spain_burgundy",
+      "flip": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STUCK!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Matanzas Bay, Cuba · 1628"
+   }
+  },
+  {
+   "who": "heyn",
+   "say": "Good evening! We'll take the silver.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "heyn",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "spcapt",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "heyn"
+   }
+  },
+  {
+   "who": "spcapt",
+   "say": "All of it?"
+  },
+  {
+   "who": "heyn",
+   "say": "All of it."
+  },
+  {
+   "who": "N",
+   "say": "He took it all with almost no fighting. The haul was worth about eleven and a half million Dutch guilders.",
+   "show": {
+    "k": "card",
+    "label": "Piet Heyn's haul, 1628",
+    "big": "11.5 MILLION",
+    "sub": "Dutch guilders in silver, gold and goods"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back home he became a hero, and Dutch kids still sing a song about him and the silver fleet.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "heyn",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "A HERO",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "The Netherlands · 1629"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more of history's biggest heists.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "heyn",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "spcapt",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One Dutch captain, one Spanish treasure fleet, almost no fighting.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pietheyn #netherlands #historytok #treasure",
+ "youtube_title": "A Dutch Captain Captured a Whole Spanish Treasure Fleet #shorts",
+ "tags": [
+  "piet heyn",
+  "battle of matanzas bay",
+  "spanish treasure fleet",
+  "dutch history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_in_the_Bay_of_Matanzas",
+  "https://en.wikipedia.org/wiki/Piet_Pieterszoon_Hein",
+  "https://www.britannica.com/biography/Piet-Heyn",
+  "https://www.atlasofmutualheritage.nl/en/id/8740"
+ ]
+}

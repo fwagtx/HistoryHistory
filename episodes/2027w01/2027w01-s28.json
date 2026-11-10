@@ -1,0 +1,247 @@
+{
+ "id": "2027w01-s28",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "Spain Got So Much Silver That Bread Got Expensive",
+ "hook": "TOO MUCH MONEY",
+ "topic": "Price Revolution",
+ "music": "playful",
+ "cast": {
+  "baker": {
+   "preset": "peasantW",
+   "hold": "bread",
+   "name": "Baker"
+  },
+  "buyer": {
+   "outfit": "tunic",
+   "color": "#3A6A4A",
+   "hat": "beret",
+   "hatColor": "#5A3A22",
+   "stubble": true,
+   "hairColor": "#5A3A22",
+   "skin": "olive",
+   "hold": "coin",
+   "name": "Shopper"
+  }
+ },
+ "voices": {
+  "baker": "bf_emma",
+  "buyer": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Spain got so much silver that bread got expensive.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "baker",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "buyer",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BREAD $$$",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Seville, Spain · 1500s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1500s, ships brought tons of silver from Spain's mines in the Americas to Seville.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.35,
+      "s": 0.42,
+      "flag": "spain_burgundy"
+     },
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "SILVER",
+      "front": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The silver became coins, and the coins spread across Europe.",
+   "show": {
+    "k": "map",
+    "lon": 2,
+    "lat": 46,
+    "z0": 1.2,
+    "z1": 1.4,
+    "date": "1500s",
+    "labels": [
+     [
+      "Seville",
+      -6.0,
+      37.4,
+      14
+     ],
+     [
+      "Europe",
+      10,
+      50,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -6.0,
+      37.4
+     ],
+     [
+      -2,
+      42
+     ],
+     [
+      2,
+      47
+     ],
+     [
+      8,
+      50
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But there wasn't more bread. Just more coins wanting the same bread.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MORE COINS",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SAME BREAD",
+      "at": 1.8,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "buyer",
+   "say": "Bread costs more again?",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "baker",
+      "x": 0.7,
+      "mood": "neutral",
+      "pose": "shrug"
+     }
+    ],
+    "cam": "close",
+    "focus": "buyer"
+   }
+  },
+  {
+   "who": "baker",
+   "say": "Everything does. Don't ask me why!"
+  },
+  {
+   "who": "N",
+   "say": "When money gets more common, each coin buys less. That's called inflation.",
+   "show": {
+    "k": "card",
+    "label": "Inflation",
+    "big": "MORE COINS = HIGHER PRICES",
+    "sub": "when goods don't grow as fast as money"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over the 1500s, prices in Western Europe rose about three to four times. Historians call it the price revolution, and argue how much a growing population caused it too.",
+   "show": {
+    "k": "card",
+    "label": "Price rise in Western Europe",
+    "big": "3–4×",
+    "sub": "over the 1500s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history of money gone wrong.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "baker",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "buyer",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Spain had all the silver. So why did bread keep getting pricier?\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #inflation #spain #historytok #moneyhistory",
+ "youtube_title": "Spain Got So Much Silver That Bread Got Expensive #shorts",
+ "tags": [
+  "price revolution",
+  "inflation",
+  "spanish silver",
+  "economic history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Price_revolution",
+  "https://cepr.org/voxeu/columns/does-inflow-precious-metals-new-world-really-explain-great-inflation-renaissance",
+  "https://www.economics.utoronto.ca/public/workingPapers/UT-ECIPA-MUNRO-02-02.pdf"
+ ]
+}

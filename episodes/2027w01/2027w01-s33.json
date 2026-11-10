@@ -1,0 +1,232 @@
+{
+ "id": "2027w01-s33",
+ "format": "short",
+ "date": "2027-01-08",
+ "slot": "09:00",
+ "title": "The Author of Don Quixote Went to Jail Over Tax Money",
+ "hook": "THE AUTHOR WENT TO JAIL",
+ "topic": "Miguel de Cervantes",
+ "music": "playful",
+ "cast": {
+  "cervantes": {
+   "outfit": "coat",
+   "color": "#262322",
+   "color2": "#F4ECD8",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "stache": "handlebar",
+   "beard": "goatee",
+   "skin": "light",
+   "hold": "book",
+   "name": "Miguel de Cervantes"
+  },
+  "farmer": {
+   "preset": "peasant",
+   "name": "Farmer"
+  }
+ },
+ "voices": {
+  "cervantes": "bm_lewis",
+  "farmer": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The writer of Spain's most famous novel ended up in jail over a money mess.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "cervantes",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JAIL!",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Seville, Spain · 1597"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Miguel de Cervantes later wrote Don Quixote, about a man who thinks he's a knight.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "cervantes",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "tag": {
+     "id": "cervantes",
+     "text": "Miguel de Cervantes"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1587, he took a job collecting wheat and oil for the king's navy.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "cervantes",
+      "x": 0.3,
+      "mood": "smug",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.4
+     },
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.3
+     }
+    ],
+    "place": "Andalusia, Spain · 1587"
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "You're taking my wheat?",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "cervantes",
+      "x": 0.7,
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "farmer"
+   }
+  },
+  {
+   "who": "cervantes",
+   "say": "For the king's ships! Sorry!"
+  },
+  {
+   "who": "N",
+   "say": "Later he collected tax money, and left some with a banker in Seville. Accounts say the banker went broke.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "cervantes",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.4,
+      "open": false
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANKER BROKE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His accounts didn't add up, so in 1597 Cervantes was locked in Seville's jail for months.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "cervantes",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "sit"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1597",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He later wrote that Don Quixote was born in a prison. Many think he meant this one.",
+   "show": {
+    "k": "card",
+    "label": "Cervantes on Don Quixote",
+    "big": "BORN IN A PRISON",
+    "sub": "from his own preface, 1605"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "cervantes",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "farmer",
+      "x": 0.7
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Before Don Quixote, Cervantes was a tax collector. It went badly.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #cervantes #donquixote #historytok #spain",
+ "youtube_title": "The Author of Don Quixote Went to Jail Over Tax Money #shorts",
+ "tags": [
+  "cervantes",
+  "don quixote",
+  "tax collector",
+  "spanish history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "https://www.britannica.com/biography/Miguel-de-Cervantes",
+  "https://encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/miguel-de-cervantes-saavedra",
+  "https://www.thecollector.com/don-quixote-first-modern-novel-born-captivity"
+ ]
+}

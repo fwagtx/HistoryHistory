@@ -1,0 +1,251 @@
+{
+ "id": "2027w01-s11",
+ "format": "short",
+ "date": "2027-01-04",
+ "slot": "09:00",
+ "title": "The 'Spanish Flu' Probably Didn't Start in Spain",
+ "hook": "NOT FROM SPAIN",
+ "topic": "Spanish Flu",
+ "music": "warm",
+ "cast": {
+  "censor": {
+   "outfit": "uniform",
+   "color": "#5A5A3A",
+   "stache": "bush",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "pen"
+  },
+  "editor": {
+   "outfit": "suit",
+   "color": "#3A3A4A",
+   "hair": "side",
+   "hairColor": "#1E1612",
+   "skin": "light",
+   "glasses": "round",
+   "hold": "letter"
+  },
+  "nurse": {
+   "hat": "wimple",
+   "hatColor": "#F2EEE4",
+   "outfit": "dress",
+   "color": "#F2EEE4",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "censor": "bm_george",
+  "editor": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Spanish flu of 1918 probably didn't start in Spain at all.",
+   "show": {
+    "k": "scene",
+    "bg": "city",
+    "cast": [
+     {
+      "id": "editor",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "SPANISH FLU?"
+     }
+    ],
+    "place": "Madrid · 1918"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That year, a deadly flu swept the world in the middle of World War One. It killed tens of millions of people.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "nurse",
+      "x": 0.35,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.7,
+      "s": 0.55
+     }
+    ],
+    "place": "Europe · 1918"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Countries fighting the war censored their newspapers, so bad news wouldn't hurt morale.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "censor",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "scrollbig",
+      "x": 0.9,
+      "s": 0.35,
+      "text": "CENSORED"
+     }
+    ]
+   }
+  },
+  {
+   "who": "censor",
+   "say": "A flu outbreak? Don't print that.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "censor",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "censor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Spain stayed neutral in the war, so its papers reported the flu freely, even when the king got sick.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "editor",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "THE KING IS ILL"
+     }
+    ],
+    "place": "Madrid · May 1918"
+   }
+  },
+  {
+   "who": "editor",
+   "say": "We just reported what we saw!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "editor",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "radio",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "editor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the world thought Spain was hit hardest, and the name stuck.",
+   "show": {
+    "k": "flag",
+    "flag": "spain",
+    "label": "SPAIN",
+    "sub": "neutral in World War One",
+    "bg": "city"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Where did it really start? Nobody knows for sure. Ideas include Kansas, France and China.",
+   "show": {
+    "k": "card",
+    "label": "Where the 1918 flu began",
+    "big": "UNKNOWN",
+    "sub": "theories: Kansas, France, China"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history you thought you knew.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "editor",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "nurse",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The 1918 flu got Spain's name because Spain's free press reported it, not because it started there.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #spanishflu #1918 #ww1 #historytok",
+ "youtube_title": "The 'Spanish Flu' Probably Didn't Start in Spain #shorts",
+ "tags": [
+  "spanish flu",
+  "1918 flu pandemic",
+  "world war one",
+  "spain",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Spanish_flu",
+  "https://history.blog.gov.uk/2018/09/13/the-flu-that-wasnt-spanish/",
+  "https://www.history.com/news/why-was-it-called-the-spanish-flu",
+  "https://www.snopes.com/news/2020/04/09/how-did-spanish-flu-get-name/"
+ ]
+}
