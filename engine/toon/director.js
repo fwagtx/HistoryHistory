@@ -135,8 +135,9 @@ function mapShot(c, sh, t, lt, lp) {
   if (m.areas) { c.save(); c.clip(LAND); for (const [lo, la, r, col] of m.areas) { const [x, y] = proj(lo, la), [x2] = proj(lo + r, la), rad = Math.abs(x2 - x) * Math.min(1, lt / 1.2 + .2); const g = c.createRadialGradient(x, y, 0, x, y, rad); g.addColorStop(0, col || 'rgba(214,48,40,.45)'); g.addColorStop(.8, col || 'rgba(214,48,40,.35)'); g.addColorStop(1, 'rgba(214,48,40,0)'); c.fillStyle = g; c.fillRect(x - rad, y - rad, rad * 2, rad * 2); } c.restore(); c.fillStyle = TMAP.P.map.sea; c.fill(WATER); c.strokeStyle = TMAP.P.map.coast; c.lineWidth = 1.5 / z; c.stroke(LAND); }
   if (m.route) mapRoute(c, m.route, Math.min(1, .1 + lt / Math.max(2, (sh.s1 - sh.s0) * .8)), z);
   /* Labels that would overlap an earlier one move down a line; the dot always stays on the real place, and a moved label gets a short leader line back to it. */
-  const placedL = []; (m.labels || []).forEach((l, i) => { if (lt <= .3 + i * .4) return; const fs = isLong() ? 58 : 40; const [lx, ly] = proj(l[1], l[2]); let ldx = l[3] ?? 14, dy = 0;
-    c.save(); c.font = `${fs / z}px "Permanent Marker"`; const lw = c.measureText(l[0]).width; c.restore();
+  const placedL = []; (m.labels || []).forEach((l, i) => { if (lt <= .3 + i * .4) return; let fs = isLong() ? 58 : 40; const [lx, ly] = proj(l[1], l[2]); let ldx = l[3] ?? 14, dy = 0;
+    c.save(); c.font = `${fs / z}px "Permanent Marker"`; let lw = c.measureText(l[0]).width; c.restore();
+    { const sx = c.getTransform().a, maxW = c.canvas.width * .76; if (sx * lw > maxW) { const k = maxW / (sx * lw); fs *= k; lw *= k; } }   /* a name too long for the frame (e.g. CONSTANTINOPLE in a short) gets a smaller font instead of running off the edge */
     { const tf = c.getTransform(), dev = u => tf.a * u + tf.e, cw = c.canvas.width, right = cw * (isLong() ? .97 : .84);   /* a label that would run off the right edge (or under the app buttons in shorts) is drawn to the left of its dot */
       if (dev(lx + ldx / z + lw) > right && dev(lx - 14 / z - lw) > cw * .03) ldx = -(14 + lw * z); }
     const box = (d, yy) => [Math.min(lx - 12 / z, lx + d / z), Math.max(lx + 12 / z, lx + d / z + lw), yy], hits = b => placedL.some(p => p[0] < b[1] && b[0] < p[1] && Math.abs(p[2] - b[2]) < fs * 1.1 / z);

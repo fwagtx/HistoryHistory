@@ -124,28 +124,34 @@
    "who": "N",
    "say": "They fought hard battles. But they also kept talking, and they respected each other.",
    "show": {
-    "k": "compare",
+    "k": "scene",
     "bg": "desert",
-    "left": {
-     "label": "RICHARD",
-     "cast": [
-      {
-       "id": "richard",
-       "pose": "fist",
-       "mood": "angry"
-      }
-     ]
-    },
-    "right": {
-     "label": "SALADIN",
-     "cast": [
-      {
-       "id": "saladin",
-       "pose": "hips",
-       "mood": "smug"
-      }
-     ]
-    }
+    "cast": [
+     {
+      "id": "richard",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "saladin",
+      "x": 0.7,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ENEMIES",
+      "at": 0.3,
+      "color": "#E3261B"
+     },
+     {
+      "text": "STILL TALKING",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
    }
   },
   {

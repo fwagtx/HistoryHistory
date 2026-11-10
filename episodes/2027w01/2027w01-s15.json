@@ -21,7 +21,8 @@
   },
   "horse": {
    "animal": "horse",
-   "mood": "smug"
+   "mood": "smug",
+   "color": "#B8860B"
   },
   "napoleon": {
    "preset": "napoleon",
@@ -91,10 +92,10 @@
    "say": "Then in 1204, crusaders sacked Constantinople, and Venice shipped the horses home as loot.",
    "show": {
     "k": "map",
-    "lon": 21,
-    "lat": 42.5,
-    "z0": 1.6,
-    "z1": 2.0,
+    "lon": 20.66,
+    "lat": 43.22,
+    "z0": 1.02,
+    "z1": 1.07,
     "date": "1204",
     "labels": [
      [
@@ -245,7 +246,7 @@
    "say": "After Napoleon's defeat in 1815, they were shipped back to Venice. Today the originals are kept indoors, and copies stand outside.",
    "show": {
     "k": "scene",
-    "bg": "sea",
+    "bg": "town",
     "cast": [
      {
       "id": "horse",

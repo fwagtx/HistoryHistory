@@ -196,7 +196,8 @@
   },
   "horse": {
    "animal": "horse",
-   "mood": "smug"
+   "mood": "smug",
+   "color": "#B8860B"
   }
  },
  "voices": {
@@ -1230,7 +1231,7 @@
    "show": {
     "k": "list",
     "n": "5",
-    "title": "The Monk Who Walked Over"
+    "title": "The Friar Who Walked Over"
    }
   },
   {
@@ -1674,9 +1675,7 @@
       "pose": "scared",
       "mood": "shock"
      }
-    ],
-    "cam": "close",
-    "focus": "richard"
+    ]
    }
   },
   {
@@ -2402,7 +2401,7 @@
       "JAFFA",
       34.75,
       32.05,
-      0
+      -240
      ],
      [
       "JERUSALEM",
@@ -2848,7 +2847,7 @@
    "say": "Venice took famous treasures home, like four bronze horses that still belong to Saint Mark's Basilica in Venice today.",
    "show": {
     "k": "scene",
-    "bg": "harbor",
+    "bg": "town",
     "cast": [
      {
       "id": "horse",
