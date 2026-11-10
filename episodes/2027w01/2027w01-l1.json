@@ -1828,24 +1828,18 @@
    "show": {
     "k": "scene",
     "bg": "library",
-    "cast": [
-     {
-      "id": "philip2",
-      "x": 0.3,
-      "pose": "present",
-      "mood": "happy"
-     }
-    ],
     "objects": [
      {
       "k": "painting",
-      "x": 0.6,
-      "s": 0.45
+      "x": 0.3,
+      "s": 0.5,
+      "label": "EL GRECO"
      },
      {
       "k": "painting",
-      "x": 0.82,
-      "s": 0.45
+      "x": 0.7,
+      "s": 0.5,
+      "label": "VELÁZQUEZ"
      }
     ]
    }
@@ -1905,12 +1899,12 @@
     "bg": "church",
     "cast": [
      {
-      "id": "philip2",
+      "id": "charles5",
       "x": 0.35,
       "mood": "neutral"
      },
      {
-      "id": "isabella",
+      "id": "philip2",
       "x": 0.6,
       "mood": "neutral"
      }
