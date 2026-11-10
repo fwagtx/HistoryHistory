@@ -512,16 +512,16 @@
   },
   {
    "who": "atahualpa",
-   "say": "Then I will fill it twice more with silver."
+   "say": "Then I will fill a smaller room twice with silver."
   },
   {
    "who": "N",
-   "say": "The room was about seven metres long and five wide, like a big classroom, filled up to a line above his head.",
+   "say": "Accounts say the room was about seven metres long and five wide, about the size of a classroom, filled to a line as high as he could reach.",
    "show": {
     "k": "card",
     "label": "Atahualpa's ransom room",
     "big": "6.7 × 5.2 m",
-    "sub": "the gold had to reach a line 2.75 m high"
+    "sub": "filled to a line as high as he could reach (accounts differ)"
    }
   },
   {
@@ -591,7 +591,7 @@
   },
   {
    "who": "N",
-   "say": "The treasure was melted into bars and shipped to Spain. And that was only the beginning.",
+   "say": "The Spanish melted most of it into bars, and the king's share sailed to Spain. And that was only the beginning.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -809,7 +809,7 @@
    "show": {
     "k": "card",
     "label": "Men forced to work at Potosí each year",
-    "big": "13,000+",
+    "big": "ABOUT 13,000",
     "sub": "the mita labor draft, from 1573"
    }
   },
@@ -1086,7 +1086,7 @@
   },
   {
    "who": "N",
-   "say": "Why silver? China had made people pay their taxes in silver, so there it was worth about twice as much as in Spain.",
+   "say": "Why silver? A big reason: China made people pay their taxes in silver, so there it was worth about twice as much as in Spain.",
    "show": {
     "k": "card",
     "label": "What silver was worth, late 1500s",
@@ -1526,7 +1526,7 @@
   },
   {
    "who": "N",
-   "say": "He did it in 1557, 1560, 1575 and 1596.",
+   "say": "Historians usually count four times: 1557, 1560, 1575 and 1596.",
    "show": {
     "k": "card",
     "label": "Times Philip II stopped paying",
@@ -1536,7 +1536,7 @@
   },
   {
    "who": "N",
-   "say": "The bankers grumbled, cut deals, and kept lending, because the next silver fleet was always coming. Two historians called him the borrower from hell.",
+   "say": "The bankers grumbled, cut deals, and kept lending, because the next silver fleet was always coming. Two modern historians even called him the borrower from hell.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -1567,7 +1567,7 @@
   },
   {
    "who": "N",
-   "say": "A Spanish poet, Francisco de Quevedo, wrote a famous funny poem about money. About silver, he said this.",
+   "say": "A Spanish poet, Francisco de Quevedo, wrote a famous funny poem that turns money into a person, Sir Money. Here's Sir Money's life story.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1579,7 +1579,7 @@
       "pose": "present"
      }
     ],
-    "place": "Madrid, Spain · about 1603",
+    "place": "Spain · about 1603",
     "tag": {
      "id": "quevedo",
      "text": "Francisco de Quevedo, poet"
@@ -1588,16 +1588,16 @@
   },
   {
    "who": "N",
-   "say": "It is born honored in the Indies, where the world keeps it company. It comes to die in Spain, and is buried in Genoa.",
+   "say": "He is born honored in the Indies, where the world keeps him company. He comes to die in Spain, and is buried in Genoa.",
    "show": {
     "k": "quote",
-    "text": "It is born honored in the Indies, where the world keeps it company. It comes to die in Spain, and is buried in Genoa.",
+    "text": "He is born honored in the Indies, where the world keeps him company. He comes to die in Spain, and is buried in Genoa.",
     "who": "Francisco de Quevedo, \"Poderoso caballero es don Dinero\" (about 1603), translated"
    }
   },
   {
    "who": "N",
-   "say": "In other words, the silver passed through Spain and ended up with the bankers.",
+   "say": "In other words, the silver passed through Spain and ended up with the bankers in Genoa.",
    "show": {
     "k": "map",
     "lon": 0,
@@ -1922,7 +1922,7 @@
   },
   {
    "who": "N",
-   "say": "A Dutch captain named Piet Heyn waited off Cuba with a big fleet, right where the treasure ships sailed past.",
+   "say": "A Dutch admiral named Piet Heyn waited off Cuba with a big fleet, right where the treasure ships sailed past.",
    "show": {
     "k": "scene",
     "bg": "deck",
@@ -1937,7 +1937,7 @@
     "place": "Off Cuba · 1628",
     "tag": {
      "id": "heyn",
-     "text": "Piet Heyn, Dutch captain"
+     "text": "Piet Heyn, Dutch admiral"
     }
    }
   },
@@ -2055,19 +2055,19 @@
       "x": 0.3,
       "mood": "happy",
       "pose": "cheer"
-     },
-     {
-      "id": "merchS",
-      "x": 0.7,
-      "mood": "happy",
-      "hold": "goblet"
      }
     ],
     "objects": [
      {
       "k": "chest",
-      "x": 0.5,
-      "s": 0.35
+      "x": 0.6,
+      "s": 0.35,
+      "label": "SILVER"
+     },
+     {
+      "k": "moneypile",
+      "x": 0.8,
+      "s": 0.4
      }
     ],
     "stickers": [
@@ -2082,7 +2082,7 @@
   },
   {
    "who": "N",
-   "say": "Dutch kids still sing a song about Piet Heyn and the silver fleet. For Spain, a whole treasure fleet was simply gone.",
+   "say": "The Dutch still sing a song about Piet Heyn and the silver fleet. For Spain, a whole treasure fleet was simply gone.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -2107,8 +2107,7 @@
       "at": 0.8,
       "color": "#A8322A"
      }
-    ],
-    "place": "The Netherlands · 1628"
+    ]
    }
   },
   {
@@ -2198,7 +2197,7 @@
   },
   {
    "who": "N",
-   "say": "By most counts, the Spanish crown stopped paying its debts again in 1607, 1627 and 1647.",
+   "say": "By most counts, the Spanish crown stopped paying its debts again in 1607, 1627 and 1647, and more times after that.",
    "show": {
     "k": "scene",
     "bg": "throne",
