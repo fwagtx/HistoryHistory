@@ -3,235 +3,227 @@
  "format": "short",
  "date": "2027-01-11",
  "slot": "09:00",
- "title": "These Bronze Horses Were Looted Twice",
- "hook": "STOLEN HORSES, TWICE",
- "topic": "Horses of Saint Mark",
+ "title": "Irene: The First Woman to Rule the Byzantine Empire Alone",
+ "hook": "SHE RULED AS EMPEROR",
+ "topic": "Empress Irene",
  "music": "playful",
  "cast": {
-  "crusader": {
-   "preset": "crusader"
+  "irene": {
+   "hat": "crown",
+   "outfit": "gown",
+   "color": "#E8C25A",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Empress Irene"
   },
-  "napoleon": {
-   "preset": "napoleon",
-   "name": "Napoleon Bonaparte"
+  "con6": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Constantine VI"
   },
-  "citizen": {
-   "outfit": "tunic",
-   "color": "#C8702A",
-   "hair": "curly",
-   "hairColor": "#2A1E16",
-   "beard": "goatee",
-   "skin": "olive"
+  "pope": {
+   "preset": "pope",
+   "name": "Pope Leo III"
   },
-  "h1": {
-   "animal": "horse",
-   "color": "#B8843A",
-   "mood": "neutral"
-  },
-  "h2": {
-   "animal": "horse",
-   "color": "#B8843A",
-   "mood": "neutral"
+  "charlemagne": {
+   "preset": "king",
+   "outfit": "robe",
+   "color": "#2F3E8E",
+   "color2": "#C8902A",
+   "beard": "full",
+   "hairColor": "#E0E0E0",
+   "skin": "light",
+   "name": "Charlemagne"
   }
  },
  "voices": {
-  "napoleon": "am_adam"
+  "irene": "bf_emma",
+  "pope": "bm_george"
  },
  "beats": [
   {
    "who": "N",
-   "say": "These four bronze horses were stolen not once, but twice.",
+   "say": "In 797, for the first time, a woman ruled the Roman Empire all by herself.",
    "show": {
     "k": "scene",
-    "bg": "church",
+    "bg": "throne",
     "cast": [
      {
-      "id": "h1",
-      "x": 0.35
-     },
-     {
-      "id": "h2",
-      "x": 0.65
+      "id": "irene",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
      }
     ],
     "objects": [
      {
-      "k": "column",
-      "x": 0.88,
-      "s": 0.4
-     }
-    ],
-    "place": "Venice, Italy · today",
-    "stickers": [
-     {
-      "text": "4 BRONZE HORSES",
-      "at": 1.0,
-      "color": "#D63A2F"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "For centuries, they stood at the Hippodrome, the giant racetrack of Constantinople.",
-   "show": {
-    "k": "scene",
-    "bg": "field",
-    "cast": [
-     {
-      "id": "h1",
-      "x": 0.3
-     }
-    ],
-    "objects": [
-     {
-      "k": "chariot",
-      "x": 0.65,
-      "s": 0.55
-     }
-    ],
-    "place": "The Hippodrome, Constantinople · before 1204"
-   }
-  },
-  {
-   "who": "N",
-   "say": "In 1204, crusaders and their Venetian allies captured Constantinople and looted it for three days.",
-   "show": {
-    "k": "scene",
-    "bg": "town",
-    "cast": [
-     {
-      "id": "crusader",
-      "x": 0.35,
-      "pose": "hold",
-      "mood": "neutral",
-      "hold": "goblet"
-     }
-    ],
-    "objects": [
-     {
-      "k": "chest",
-      "x": 0.72,
+      "k": "throne",
+      "x": 0.75,
       "s": 0.45
      }
     ],
-    "fx": [
-     "smoke"
-    ]
+    "place": "Constantinople · 797 AD",
+    "tag": {
+     "id": "irene",
+     "text": "Empress Irene"
+    }
    }
   },
   {
    "who": "N",
-   "say": "Venice shipped them home. Their collars may hide where their heads were cut off for the trip.",
-   "show": {
-    "k": "scene",
-    "bg": "harbor",
-    "cast": [
-     {
-      "id": "h2",
-      "x": 0.3
-     }
-    ],
-    "objects": [
-     {
-      "k": "galley",
-      "x": 0.68,
-      "s": 0.6
-     }
-    ],
-    "stickers": [
-     {
-      "text": "TO VENICE",
-      "at": 1.0,
-      "color": "#D63A2F"
-     }
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "They stood on Saint Mark's Basilica for almost six hundred years.",
-   "show": {
-    "k": "map",
-    "lon": 12.3,
-    "lat": 45.4,
-    "z0": 2.6,
-    "z1": 3.0,
-    "date": "1204",
-    "labels": [
-     [
-      "Venice",
-      12.33,
-      45.44,
-      0
-     ]
-    ],
-    "areas": [
-     [
-      12.33,
-      45.44,
-      0.3,
-      "rgba(214,48,40,.5)"
-     ]
-    ]
-   }
-  },
-  {
-   "who": "N",
-   "say": "Then in 1797, Napoleon's army conquered Venice and took the horses to Paris.",
+   "say": "Irene ran the eastern Roman Empire for years while her son, Constantine the Sixth, was young.",
    "show": {
     "k": "scene",
     "bg": "palace",
     "cast": [
      {
-      "id": "napoleon",
+      "id": "irene",
       "x": 0.35,
       "pose": "point",
-      "mood": "smug"
+      "mood": "neutral"
      },
      {
-      "id": "h1",
-      "x": 0.68
+      "id": "con6",
+      "x": 0.65,
+      "mood": "sad",
+      "s": 0.85
      }
     ],
     "objects": [
      {
-      "k": "flag",
-      "x": 0.9,
-      "s": 0.4,
-      "flag": "france"
+      "k": "crown",
+      "x": 0.85,
+      "s": 0.3
      }
     ],
-    "place": "Venice · 1797",
     "tag": {
-     "id": "napoleon",
-     "text": "Napoleon Bonaparte"
+     "id": "con6",
+     "text": "Constantine VI, her son"
     }
    }
   },
   {
-   "who": "napoleon",
-   "say": "Lovely horses. They're coming with me."
+   "who": "N",
+   "say": "When he grew up, they fought for power. In 797, she had him overthrown and blinded.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.5,
+      "s": 0.55
+     }
+    ],
+    "cam": "still"
+   }
   },
   {
    "who": "N",
-   "say": "After Napoleon fell in 1815, they returned to Venice. Today the originals stay indoors, with copies outside.",
+   "say": "Then she ruled alone, and sometimes even called herself emperor, not empress.",
+   "show": {
+    "k": "card",
+    "label": "Her title, in some documents",
+    "big": "BASILEUS",
+    "sub": "\"emperor\", not \"empress\""
+   }
+  },
+  {
+   "who": "irene",
+   "say": "Empress? No. Emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "irene",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the West, some argued a woman couldn't be emperor, so the throne was empty.",
    "show": {
     "k": "scene",
     "bg": "church",
     "cast": [
      {
-      "id": "citizen",
+      "id": "pope",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "place": "Rome · 800 AD",
+    "tag": {
+     "id": "pope",
+     "text": "Pope Leo III"
+    }
+   }
+  },
+  {
+   "who": "pope",
+   "say": "Then the West needs an emperor."
+  },
+  {
+   "who": "N",
+   "say": "On Christmas Day 800, the Pope crowned Charlemagne, king of the Franks, as emperor. Historians debate how much Irene was the reason.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "pope",
       "x": 0.3,
       "pose": "present",
       "mood": "happy"
      },
      {
-      "id": "h2",
-      "x": 0.65
+      "id": "charlemagne",
+      "x": 0.62,
+      "pose": "cheer",
+      "mood": "happy"
      }
     ],
-    "place": "Venice · today"
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.82,
+      "s": 0.3
+     }
+    ],
+    "tag": {
+     "id": "charlemagne",
+     "text": "Charlemagne, king of the Franks"
+    },
+    "fx": [
+     "sparkle"
+    ]
    }
   },
   {
@@ -241,31 +233,35 @@
     "k": "end",
     "cast": [
      {
-      "id": "citizen",
+      "id": "irene",
       "x": 0.3,
       "pose": "wave",
       "mood": "happy"
      },
      {
-      "id": "h1",
-      "x": 0.68
+      "id": "charlemagne",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
      }
     ]
    }
   }
  ],
- "caption": "Taken from Constantinople in 1204, taken from Venice in 1797, and still in Venice today.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #venice #constantinople #napoleon #historytok",
- "youtube_title": "These Bronze Horses Were Looted Twice #shorts",
+ "caption": "The first woman to rule the Byzantine Empire alone, and how she ended up linked to Charlemagne's crown.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #byzantineempire #charlemagne #womeninhistory #historytok",
+ "youtube_title": "Irene: The First Woman to Rule the Byzantine Empire Alone #shorts",
  "tags": [
-  "horses of saint mark",
-  "venice",
-  "fourth crusade",
-  "napoleon",
+  "empress irene",
+  "irene of athens",
+  "charlemagne",
+  "byzantine empire",
   "history shorts"
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/Horses_of_Saint_Mark",
-  "https://en.wikipedia.org/wiki/Sack_of_Constantinople",
-  "https://the-history-avenue.eu/?p=6393"
+  "https://en.wikipedia.org/wiki/Irene_of_Athens",
+  "https://www.worldhistory.org/Empress_Irene/",
+  "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/irene-byzantine-empress",
+  "https://en.wikipedia.org/wiki/Constantine_VI",
+  "https://pbe.kcl.ac.uk/data/D23/F09.htm"
  ]
 }
