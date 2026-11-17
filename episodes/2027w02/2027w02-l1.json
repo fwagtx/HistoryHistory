@@ -429,21 +429,7 @@
    "show": {
     "k": "title",
     "text": "The ENTIRE History of the Byzantine Empire in 10 Minutes",
-    "sub": "330 to 1453",
-    "cast": [
-     {
-      "id": "constantine",
-      "x": 0.14,
-      "pose": "wave",
-      "mood": "happy"
-     },
-     {
-      "id": "con11",
-      "x": 0.87,
-      "pose": "hips",
-      "mood": "smug"
-     }
-    ]
+    "sub": "330 to 1453"
    }
   },
   {
@@ -473,9 +459,9 @@
       0
      ],
      [
-      "MEDITERRANEAN SEA",
-      17,
-      35,
+      "MEDITERRANEAN",
+      5.0,
+      38.0,
       0
      ]
     ],
@@ -1489,7 +1475,7 @@
    "say": "What's even in this stuff?",
    "show": {
     "k": "scene",
-    "bg": "sea",
+    "bg": "deck",
     "cast": [
      {
       "id": "sailor2",
@@ -2243,11 +2229,31 @@
    "who": "N",
    "say": "All around it was the rising Ottoman Empire.",
    "show": {
-    "k": "flag",
-    "flag": "ottoman",
-    "label": "THE OTTOMAN EMPIRE",
-    "sub": "1453 (this flag design came later)",
-    "bg": "islamic"
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "mehmed",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OTTOMAN EMPIRE",
+      "at": 0.4,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Ottoman lands · 1450s"
    }
   },
   {
