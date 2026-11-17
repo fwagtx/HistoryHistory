@@ -145,12 +145,13 @@
     "tag": {
      "id": "brutus",
      "text": "Marcus Brutus"
-    }
+    },
+    "place": "Greece · 42 BC"
    }
   },
   {
    "who": "N",
-   "say": "On the back: two daggers, a cap worn by freed slaves, and EID MAR, short for the Ides of March.",
+   "say": "On the back: two daggers, a cap worn by freed slaves, and EID MAR, short for the Ides of March: that day.",
    "show": {
     "k": "card",
     "label": "The back of Brutus's coin",
@@ -160,7 +161,7 @@
   },
   {
    "who": "auctioneer",
-   "say": "Sold, for three point two four million pounds!",
+   "say": "Sold, for two point seven million pounds!",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -189,11 +190,11 @@
   },
   {
    "who": "bidder",
-   "say": "Do the daggers come with it?"
+   "say": "Worth every penny. Well, every million."
   },
   {
    "who": "N",
-   "say": "With fees, that's about four point two million dollars, a record for any ancient coin.",
+   "say": "With fees, about four point two million dollars, a record price for an ancient coin.",
    "show": {
     "k": "card",
     "label": "Gold EID MAR coin, October 2020",
@@ -203,7 +204,7 @@
   },
   {
    "who": "N",
-   "say": "But in 2023, New York prosecutors seized it, saying its ownership papers were faked, and sent it to Greece.",
+   "say": "In 2023, New York prosecutors said its ownership papers were faked, and sent it to Greece.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -225,7 +226,7 @@
     ],
     "stickers": [
      {
-      "text": "SEIZED",
+      "text": "RETURNED",
       "at": 0.8,
       "color": "#A8322A"
      },

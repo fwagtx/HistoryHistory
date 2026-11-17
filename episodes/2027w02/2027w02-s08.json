@@ -58,7 +58,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "Byzantine royal babies were born in a room made of purple stone.",
+   "say": "Some Byzantine royal babies were born in a room lined with purple stone.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -94,7 +94,7 @@
   },
   {
    "who": "N",
-   "say": "Inside the emperor's palace in Constantinople was a room called the Porphyra.",
+   "say": "Inside the palace of the Byzantine, or eastern Roman, emperors was a room called the Porphyra.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -121,7 +121,7 @@
    "say": "It was lined with porphyry, a rare, expensive purple stone.",
    "show": {
     "k": "scene",
-    "bg": "desert",
+    "bg": "palace",
     "cast": [
      {
       "id": "citizen",
@@ -132,9 +132,9 @@
     ],
     "objects": [
      {
-      "k": "rock",
-      "x": 0.65,
-      "s": 0.6,
+      "k": "column",
+      "x": 0.68,
+      "s": 0.55,
       "color": "#6A3E8E",
       "label": "PORPHYRY"
      }
@@ -143,7 +143,7 @@
   },
   {
    "who": "N",
-   "say": "Purple was the color of emperors, so empresses gave birth there."
+   "say": "Purple was the color of emperors, so reigning empresses gave birth there."
   },
   {
    "who": "N",
@@ -184,7 +184,7 @@
   },
   {
    "who": "N",
-   "say": "It mattered, because it proved you were the child of a ruling emperor, not just a relative grabbing power.",
+   "say": "It mattered: it showed you were born while your father ruled, which made your claim to the throne stronger.",
    "show": {
     "k": "scene",
     "bg": "palace",

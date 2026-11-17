@@ -56,7 +56,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "Two monks may have pulled off one of the greatest smuggling jobs in history.",
+   "say": "A few monks may have pulled off one of the greatest smuggling jobs in history.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -86,7 +86,7 @@
   },
   {
    "who": "N",
-   "say": "Back then, only China knew how to make silk. Constantinople bought it, often through rival Persia.",
+   "say": "Back then, silk came from far to the east, mostly China. Constantinople bought it, often through rival Persia.",
    "show": {
     "k": "scene",
     "bg": "desert",
@@ -109,12 +109,13 @@
       "s": 0.35,
       "label": "SILK"
      }
-    ]
+    ],
+    "place": "The Silk Road · 500s AD"
    }
   },
   {
    "who": "N",
-   "say": "Emperor Justinian hated paying his rivals for it.",
+   "say": "Justinian, ruler of the eastern Roman Empire, hated paying his rivals.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -167,7 +168,7 @@
   },
   {
    "who": "N",
-   "say": "According to the historian Procopius, monks traveled to Central Asia and brought back silkworm eggs.",
+   "say": "According to the historian Procopius, the monks traveled back east and returned with silkworm eggs.",
    "show": {
     "k": "scene",
     "bg": "steppe",
@@ -191,18 +192,19 @@
       "x": 0.85,
       "s": 0.4
      }
-    ]
+    ],
+    "place": "The road east · around 552 AD"
    }
   },
   {
    "who": "N",
-   "say": "A later writer says the eggs were hidden inside a hollow walking stick. The exact details are debated.",
+   "say": "A later writer says a man hid the eggs in a hollow cane. The details are debated.",
    "show": {
     "k": "scene",
     "bg": "field",
     "cast": [
      {
-      "id": "monk2",
+      "id": "merchant",
       "x": 0.4,
       "pose": "hold",
       "mood": "smug"

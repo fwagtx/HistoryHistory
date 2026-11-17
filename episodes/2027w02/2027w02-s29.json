@@ -39,7 +39,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "Nearly two thousand years ago, a cargo ship was so big that crowds came just to stare.",
+   "say": "Nearly two thousand years ago, a cargo ship was so big that crowds came to stare.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -70,10 +70,10 @@
   },
   {
    "who": "N",
-   "say": "The Isis was an Egyptian grain ship bound for Italy. Storms pushed her to Athens instead.",
+   "say": "The Isis was an Egyptian grain ship bound for Italy. Storms blew her off course, to Athens.",
    "show": {
     "k": "map",
-    "lon": 26.5,
+    "lon": 26.8,
     "lat": 34.8,
     "z0": 2.0,
     "z1": 2.2,
@@ -98,12 +98,16 @@
       31.2
      ],
      [
-      27.5,
-      33.5
+      30.6,
+      34.0
      ],
      [
-      24.5,
-      36.0
+      29.0,
+      36.2
+     ],
+     [
+      26.0,
+      36.9
      ],
      [
       23.65,
@@ -144,7 +148,7 @@
   },
   {
    "who": "N",
-   "say": "The Greek writer Lucian says she was a hundred and eighty feet long. More than four buses!",
+   "say": "Lucian, a Greek-speaking comic writer, says she was a hundred and eighty feet long. More than four buses!",
    "show": {
     "k": "card",
     "label": "The Isis, according to Lucian",
@@ -181,7 +185,8 @@
     "tag": {
      "id": "lucian",
      "text": "Lucian, Greek writer"
-    }
+    },
+    "place": "Piraeus, near Athens · 2nd century AD"
    }
   },
   {
@@ -190,7 +195,7 @@
   },
   {
    "who": "N",
-   "say": "A character in Lucian's story claims one load could feed all of Athens for a year. Probably exaggerated.",
+   "say": "In Lucian's story, people claim one load could feed all of Athens for a year. Probably exaggerated.",
    "show": {
     "k": "scene",
     "bg": "wheat",

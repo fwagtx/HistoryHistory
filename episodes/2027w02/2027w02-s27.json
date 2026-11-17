@@ -108,11 +108,11 @@
   },
   {
    "who": "N",
-   "say": "Companies called publicani bid for its taxes. The winner paid Rome up front, then kept any extra it collected.",
+   "say": "Companies called publicani bid for its taxes. The winner promised Rome a fixed sum, then kept any extra it collected.",
    "show": {
     "k": "card",
     "label": "How tax farming worked",
-    "big": "BID → PAY → COLLECT",
+    "big": "BID → PROMISE → COLLECT",
     "sub": "everything above the bid was profit"
    }
   },
@@ -182,12 +182,13 @@
       "at": 1.7,
       "color": "#D4A52A"
      }
-    ]
+    ],
+    "place": "Rome · 61 BC"
    }
   },
   {
    "who": "N",
-   "say": "In 59 BC, Julius Caesar, now Rome's top official, gave them one. He cut their bill by a third.",
+   "say": "In 59 BC, Julius Caesar, then consul, one of Rome's two top officials, cut their bill by a third.",
    "show": {
     "k": "scene",
     "bg": "palace",

@@ -293,7 +293,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "May 1453. A twenty-one-year-old sultan has rolled giant cannons up to the walls of Constantinople.",
+   "say": "May 1453. Mehmed, the twenty-one-year-old sultan of the Ottoman Turks, has rolled giant cannons up to the walls of Constantinople.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -387,13 +387,13 @@
     "place": "Genoa, Italy · 1453",
     "tag": {
      "id": "columbus",
-     "text": "Christopher Columbus, about age 2"
+     "text": "Christopher Columbus, not yet 2"
     }
    }
   },
   {
    "who": "N",
-   "say": "So how did half of the Roman Empire keep going for over a thousand years after Rome fell? Riots, secret fire, stolen worms and some very thick walls.",
+   "say": "So how did half of the Roman Empire keep going for almost a thousand years after Rome fell? Riots, secret fire, stolen worms and some very thick walls.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -417,7 +417,7 @@
     ],
     "stickers": [
      {
-      "text": "1,000+ YEARS",
+      "text": "~1,000 MORE YEARS",
       "at": 1.0,
       "color": "#D63A2F"
      }
@@ -526,7 +526,7 @@
       "s": 0.4
      }
     ],
-    "place": "Rome, Italy · 320s AD",
+    "place": "Roman Empire · 324 AD",
     "tag": {
      "id": "constantine",
      "text": "Constantine the Great, Roman emperor"
@@ -646,7 +646,7 @@
   },
   {
    "who": "N",
-   "say": "Much later, Western scholars borrowed the old name Byzantium and called this empire Byzantine.",
+   "say": "In 1557, about a century after the empire fell, a German scholar named Hieronymus Wolf borrowed the old name Byzantium and called this empire Byzantine. Later writers copied him.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -666,7 +666,7 @@
     ],
     "stickers": [
      {
-      "text": "1557: NAME POPULARIZED",
+      "text": "1557: NAME INTRODUCED",
       "at": 1.0,
       "color": "#D63A2F"
      }
@@ -675,7 +675,7 @@
   },
   {
    "who": "N",
-   "say": "But the people who lived there never used that word. They called themselves Romans.",
+   "say": "But the people who lived there never called their empire that. They called themselves Romans.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -893,10 +893,10 @@
   },
   {
    "who": "N",
-   "say": "They had three layers: a moat, an outer wall and a giant inner wall with about ninety-six towers.",
+   "say": "After an earthquake in 447, they were rebuilt with three layers: a moat, an outer wall and a giant inner wall with about ninety-six towers.",
    "show": {
     "k": "card",
-    "label": "The Theodosian land walls",
+    "label": "The Theodosian land walls, after 447",
     "big": "3 LAYERS",
     "sub": "a moat, an outer wall, an inner wall with about 96 towers"
    }
@@ -1205,7 +1205,7 @@
   },
   {
    "who": "N",
-   "say": "The riots had burned down the city's great church. So Justinian built a new one, Hagia Sophia, in under six years.",
+   "say": "The riots had burned down the city's great church. So Justinian built a new one, Hagia Sophia, meaning Holy Wisdom, in under six years.",
    "show": {
     "k": "scene",
     "bg": "church",
@@ -1329,7 +1329,7 @@
   },
   {
    "who": "N",
-   "say": "And around 552, Procopius says some monks smuggled silkworm eggs to him from Asia. Now the empire could make its own silk.",
+   "say": "And around 552, Procopius says, some monks smuggled silkworm eggs to Justinian from far to the east. Now the empire could make its own silk.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -1368,7 +1368,7 @@
    "hold": 2.5,
    "show": {
     "k": "chapter",
-    "year": "674 AD",
+    "year": "670s AD",
     "title": "Fire on the Water",
     "bg": "sea"
    }
@@ -1421,7 +1421,7 @@
   },
   {
    "who": "N",
-   "say": "In the 670s, an Arab fleet came for Constantinople itself.",
+   "say": "In the 660s and 670s, Arab fleets came for Constantinople itself. Historians still argue over the exact dates.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -1445,7 +1445,7 @@
       "color": "#6A5A48"
      }
     ],
-    "place": "Near Constantinople · 670s AD"
+    "place": "Near Constantinople · 660s–670s AD"
    }
   },
   {
@@ -1542,7 +1542,7 @@
   },
   {
    "who": "N",
-   "say": "The city survived that siege, and another huge one in 717.",
+   "say": "The city survived those attacks, and a huge siege in 717.",
    "show": {
     "k": "scene",
     "bg": "castle",
@@ -1624,7 +1624,33 @@
   },
   {
    "who": "N",
-   "say": "Some later stories say he wore a golden nose. That part might be a legend."
+   "say": "Some later stories say he wore a golden nose. That part might be a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "justinian2",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLDEN NOSE? LEGEND",
+      "at": 0.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
   },
   {
    "hold": 2.5,
@@ -1691,7 +1717,7 @@
   },
   {
    "who": "N",
-   "say": "In 1054, the Pope's messenger, Cardinal Humbert, walked into Hagia Sophia and left a document on the altar.",
+   "say": "In 1054, Cardinal Humbert, a messenger from the Pope in Rome, walked into Hagia Sophia and left a document on the altar.",
    "show": {
     "k": "scene",
     "bg": "church",
@@ -1817,7 +1843,7 @@
   },
   {
    "who": "N",
-   "say": "At Manzikert, in 1071, the Seljuk Turks beat the Byzantine army and captured Emperor Romanos the Fourth.",
+   "say": "At Manzikert, in 1071, the Seljuk Turks, a rising Turkish empire from the east, beat the Byzantine army and captured Emperor Romanos the Fourth.",
    "show": {
     "k": "map",
     "lon": 35,
@@ -1851,7 +1877,7 @@
   },
   {
    "who": "N",
-   "say": "The sultan, Alp Arslan, treated him well and let him go for a ransom. But back home, rivals had already replaced him.",
+   "say": "Their sultan, or ruler, Alp Arslan, treated him well and let him go for a ransom. But back home, rivals had already replaced him.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -1901,7 +1927,7 @@
   },
   {
    "who": "N",
-   "say": "A later emperor, Alexios the First, asked Western Europe for soldiers. That helped kick off the Crusades.",
+   "say": "A later emperor, Alexios the First, asked Western Europe for soldiers. That helped kick off the Crusades, wars by Western Christians to win Jerusalem.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -1920,7 +1946,11 @@
       "s": 0.4
      }
     ],
-    "place": "Constantinople · 1095"
+    "place": "Constantinople · 1095",
+    "tag": {
+     "id": "emperor",
+     "text": "Emperor Alexios I"
+    }
    }
   },
   {
@@ -1958,7 +1988,7 @@
   },
   {
    "who": "N",
-   "say": "Then, in 1204, an army of crusaders did something nobody expected.",
+   "say": "Then, in 1203, an army of crusaders showed up outside Constantinople and did something nobody expected.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -2015,7 +2045,7 @@
   },
   {
    "who": "crusader",
-   "say": "Relax. A Byzantine prince promised to pay us if we put him on the throne."
+   "say": "Relax. A prince from Constantinople promised to pay us if we put him on the throne."
   },
   {
    "who": "N",
@@ -2044,7 +2074,7 @@
   },
   {
    "who": "N",
-   "say": "The money never came. So in April 1204, the crusaders stormed Constantinople and looted it for three days.",
+   "say": "The money never came. So in April 1204, the crusaders stormed Constantinople from the sea side and looted it for three days.",
    "show": {
     "k": "scene",
     "bg": "town",
@@ -2421,7 +2451,7 @@
   },
   {
    "who": "N",
-   "say": "And they never once called themselves Byzantine.",
+   "say": "And they never called their empire Byzantine. To them, it was always Rome.",
    "show": {
     "k": "scene",
     "bg": "market",

@@ -163,7 +163,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "London, 1774. A boatman falls into the River Thames, and his friends pull him out. He isn't breathing.",
+   "say": "Picture London in the 1780s. A boatman falls into the River Thames, and his friends pull him out. He isn't breathing.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -189,7 +189,7 @@
       "flag": "uk1606"
      }
     ],
-    "place": "London, England · 1774",
+    "place": "London, England · 1780s",
     "fx": [
      "rain"
     ]
@@ -354,14 +354,14 @@
   },
   {
    "who": "N",
-   "say": "This was no prank. A London society for saving drowning people, later the Royal Humane Society, recommended it, and placed rescue kits along the Thames.",
+   "say": "This was no prank. A London society for saving drowning people, founded in 1774 and later called the Royal Humane Society, recommended it. By the 1780s, it had placed rescue kits along the Thames.",
    "show": {
     "k": "map",
     "lon": -0.1,
     "lat": 51.5,
     "z0": 3.2,
     "z1": 3.6,
-    "date": "1774",
+    "date": "1780s",
     "labels": [
      [
       "LONDON",
@@ -414,7 +414,7 @@
   },
   {
    "who": "N",
-   "say": "Today we're counting down the weirdest medical treatments in history. Real cures, from real experts, who were very, very sure of themselves.",
+   "say": "Today we're counting down the weirdest medical treatments in history. Real treatments, from real experts, who were very, very sure of themselves.",
    "show": {
     "k": "scene",
     "bg": "white",
@@ -464,7 +464,7 @@
    "show": {
     "k": "title",
     "text": "The Weirdest Medical Treatments in History",
-    "sub": "Seven real cures. All true.",
+    "sub": "Seven real treatments. All true.",
     "cast": [
      {
       "id": "rescuer",
@@ -887,7 +887,7 @@
   },
   {
    "who": "N",
-   "say": "Then, in 1916, government chemists finally tested some.",
+   "say": "Then, in the 1910s, government chemists finally tested some.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -907,7 +907,7 @@
       "s": 0.45
      }
     ],
-    "place": "United States · 1916",
+    "place": "United States · 1910s",
     "tag": {
      "id": "chemist",
      "text": "Government chemist"
@@ -1205,7 +1205,7 @@
   },
   {
    "who": "N",
-   "say": "Even Abraham Lincoln reportedly took a mercury pill called blue mass, for his gloomy moods.",
+   "say": "Even Abraham Lincoln took a mercury pill called blue mass, for his gloomy moods, according to people who knew him.",
    "show": {
     "k": "scene",
     "bg": "office",
@@ -1272,7 +1272,7 @@
   },
   {
    "who": "N",
-   "say": "A friend wrote that Lincoln quit the pills soon after becoming president, because they made him cross. Good call, Abe.",
+   "say": "He quit soon after becoming president, because the pills made him cross, meaning grumpy. Good call, Abe.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1560,7 +1560,7 @@
   },
   {
    "who": "N",
-   "say": "His doctors followed the best medicine of their day: drain blood to fight the illness. Remember Benjamin Rush and his thunderclappers? He was one of bleeding's biggest fans. Over about twelve hours, Washington's doctors bled him four times.",
+   "say": "His doctors followed the best medicine of their day: drain blood to fight the illness. Remember Benjamin Rush and his thunderclappers? He was one of bleeding's biggest fans. Over about twelve hours, Washington was bled four times.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1587,7 +1587,7 @@
   },
   {
    "who": "N",
-   "say": "By most modern estimates, that was about eighty ounces, around forty percent of all the blood in his body.",
+   "say": "By most modern estimates, that was about eighty ounces, more than a big soda bottle, and around forty percent of all the blood in his body.",
    "show": {
     "k": "card",
     "label": "Share of Washington's blood drained",
@@ -1659,7 +1659,7 @@
   },
   {
    "who": "N",
-   "say": "Dick also suggested cutting a small breathing hole in the throat, a new and risky surgery. The older doctors said no.",
+   "say": "Dick also suggested cutting a small breathing hole in the throat, a rare and risky surgery back then. The older doctors said no.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1682,7 +1682,7 @@
   },
   {
    "who": "N",
-   "say": "That evening, according to his secretary Tobias Lear, Washington told Dr. Craik: Doctor, I die hard, but I am not afraid to go.",
+   "say": "Late that afternoon, according to his secretary Tobias Lear, Washington told Dr. Craik: Doctor, I die hard, but I am not afraid to go.",
    "show": {
     "k": "quote",
     "text": "Doctor, I die hard, but I am not afraid to go.",
@@ -1878,7 +1878,7 @@
   },
   {
    "who": "N",
-   "say": "His death shocked the country. It helped give government health regulators more power, and radium tonics disappeared.",
+   "say": "His death shocked the country. It helped give government health regulators more power, and radium drinks faded away.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -1900,7 +1900,7 @@
     ],
     "stickers": [
      {
-      "text": "BANNED",
+      "text": "SHUT DOWN",
       "at": 1.4,
       "color": "#A8322A"
      }
@@ -1918,10 +1918,10 @@
   },
   {
    "who": "N",
-   "say": "And number one, the weirdest medical treatment in history: drilling a hole in someone's skull.",
+   "say": "And number one, the weirdest medical treatment in history: cutting a hole in someone's skull.",
    "show": {
     "k": "scene",
-    "bg": "steppe",
+    "bg": "wheat",
     "cast": [
      {
       "id": "healer",
@@ -2063,7 +2063,7 @@
    "say": "Here's the twist. The bone around the holes had grown back, and one hole had fully healed. He survived the surgery.",
    "show": {
     "k": "scene",
-    "bg": "steppe",
+    "bg": "wheat",
     "cast": [
      {
       "id": "stonepatient",
@@ -2220,10 +2220,10 @@
    }
   }
  ],
- "description": "Tobacco smoke rescue kits by the Thames, thirty leeches for a cough, snake oil with no snake, mercury pills, a cough medicine called Heroin, the bleeding of George Washington, radioactive water, and holes drilled in Stone Age skulls. Here are the weirdest medical treatments in history, counted down from seven to one. This is history, not medical advice. Chapters are added automatically.\n\n#history #medicine #medicalhistory #weirdhistory #historypros",
+ "description": "Tobacco smoke rescue kits by the Thames, thirty leeches for a cough, snake oil with no snake, mercury pills, a cough medicine called Heroin, the bleeding of George Washington, radioactive water, and holes cut in Stone Age skulls. Here are the weirdest medical treatments in history, counted down from seven to one. This is history, not medical advice. Chapters are added automatically.\n\n#history #medicine #medicalhistory #weirdhistory #historypros",
  "thumbnail": {
   "style": "faces",
-  "title": "DOCTOR, NO",
+  "title": "SMOKE WHERE?!",
   "bg": "harbor",
   "faces": [
    {

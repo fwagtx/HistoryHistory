@@ -205,7 +205,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "Rome, 167 BC. A victory parade rolls through the city, and it's hauling a king's entire treasure.",
+   "say": "Rome, 167 BC. A victory parade rolls through the city, and it's hauling a defeated king's treasure.",
    "show": {
     "k": "scene",
     "bg": "rome",
@@ -709,7 +709,7 @@
   },
   {
    "who": "N",
-   "say": "But Rome had no tax office. So it hired private companies called publicani.",
+   "say": "But Rome had almost no tax officials of its own. So it hired private companies called publicani.",
    "show": {
     "k": "scene",
     "bg": "rome",
@@ -749,7 +749,7 @@
   },
   {
    "who": "N",
-   "say": "They bid at an auction in Rome for a province's taxes. The winner paid the state up front."
+   "say": "From 123 BC, they bid at an auction in Rome for a province's taxes. The winner promised the state a fixed sum."
   },
   {
    "who": "N",
@@ -828,7 +828,7 @@
   },
   {
    "who": "N",
-   "say": "Governors who protected locals could pay for it. In 92 BC, an honest official named Rutilius Rufus was put on trial in Rome and convicted anyway.",
+   "say": "Officials who protected locals could pay for it. In 92 BC, an honest official named Rutilius Rufus was put on trial in Rome. Jurors friendly to the tax companies convicted him.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -867,7 +867,7 @@
   },
   {
    "who": "N",
-   "say": "So where did he spend his exile? In Asia, among the very people he had protected. They welcomed him.",
+   "say": "So where did he spend his exile? In Smyrna, a city in Asia, among the very people he had protected. They welcomed him.",
    "show": {
     "k": "scene",
     "bg": "greek",
@@ -1020,7 +1020,7 @@
   },
   {
    "who": "N",
-   "say": "Historians estimate the army ate up at least half of the whole empire's budget.",
+   "say": "Historians estimate the army ate up about half of the whole empire's budget, maybe more.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -1059,7 +1059,7 @@
   },
   {
    "who": "N",
-   "say": "A regular soldier earned about ten copper coins a day. The historian Tacitus says mutinous soldiers complained that wasn't enough to live on.",
+   "say": "A regular soldier earned about ten asses a day. An as was a small copper coin. The historian Tacitus says mutinous soldiers complained that wasn't enough.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -1080,7 +1080,7 @@
     ],
     "stickers": [
      {
-      "text": "10 COINS A DAY",
+      "text": "10 ASSES A DAY",
       "at": 0.8,
       "color": "#A8322A"
      }
@@ -1771,7 +1771,7 @@
      }
     ],
     "cam": "still",
-    "place": "A Roman market · AD 260s"
+    "place": "A Roman market · AD 270s"
    }
   },
   {
@@ -2299,7 +2299,7 @@
   },
   {
    "who": "N",
-   "say": "Odoacer didn't even kill him. He sent him to live near Naples, with a yearly income of six thousand gold solidi.",
+   "say": "Odoacer spared the boy. He sent him to live near Naples, with a yearly income of six thousand gold solidi.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -2342,10 +2342,11 @@
     "bg": "palace",
     "cast": [
      {
-      "id": "constantine",
+      "id": "minter",
       "x": 0.4,
       "mood": "happy",
-      "pose": "cheer"
+      "pose": "present",
+      "hold": "coin"
      }
     ],
     "objects": [
@@ -2361,7 +2362,8 @@
       "at": 0.8,
       "color": "#A8322A"
      }
-    ]
+    ],
+    "place": "Constantinople · after AD 476"
    }
   },
   {
