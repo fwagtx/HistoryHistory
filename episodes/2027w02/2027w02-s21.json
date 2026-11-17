@@ -1,0 +1,250 @@
+{
+ "id": "2027w02-s21",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "France Imported About 42 Million Leeches in a Year",
+ "hook": "42 MILLION LEECHES",
+ "topic": "France's Leech Craze",
+ "music": "playful",
+ "cast": {
+  "broussais": {
+   "outfit": "coat",
+   "color": "#1E1C1B",
+   "hair": "side",
+   "hairColor": "#B8B4AC",
+   "skin": "light",
+   "name": "François Broussais"
+  },
+  "frpatient": {
+   "outfit": "tunic",
+   "color": "#6A8AB8",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Patient"
+  }
+ },
+ "voices": {
+  "broussais": "am_echo",
+  "frpatient": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1833, France brought in about forty-two million leeches. In one year.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "broussais",
+      "x": 0.38,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.68,
+      "s": 0.45,
+      "label": "LEECHES"
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.35,
+      "flag": "france"
+     }
+    ],
+    "place": "Paris, France · 1830s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, many doctors believed illness could come from too much blood, so they removed some.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "broussais",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The gentle way was leeches: little worms that bite and drink blood.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.45,
+      "s": 0.55,
+      "label": "LEECHES"
+     },
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SLURP",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A famous Paris doctor, François Broussais, put leeches on almost every patient.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "frpatient",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "neutral"
+     },
+     {
+      "id": "broussais",
+      "x": 0.68,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "broussais",
+     "text": "François Broussais"
+    }
+   }
+  },
+  {
+   "who": "frpatient",
+   "say": "Doctor, I just have a headache.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "frpatient",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "frpatient"
+   }
+  },
+  {
+   "who": "broussais",
+   "say": "Perfect! Thirty leeches!",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "broussais",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "LEECHES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "France ran short of its own leeches, so it imported millions from abroad.",
+   "show": {
+    "k": "card",
+    "label": "Leeches brought into France",
+    "big": "42 MILLION",
+    "sub": "in 1833, one historian's count"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hospitals still use leeches today, to help sewn-back fingers heal. Just not for headaches.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "frpatient",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "MEDICAL LEECHES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL USED",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "broussais",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Paris doctors in the 1830s really loved leeches.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #leeches #france #medicalhistory #historytok",
+ "youtube_title": "France Imported About 42 Million Leeches in a Year #shorts",
+ "tags": [
+  "leeches",
+  "francois broussais",
+  "medical history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.jameslindlibrary.org/articles/pierre-charles-alexandre-louis-and-the-evaluation-of-bloodletting/",
+  "https://www.sciencehistory.org/stories/magazine/medicinal-leeches-and-where-to-find-them/",
+  "https://www.iflscience.com/the-leech-craze-the-medical-fad-that-nearly-eradicated-a-species-81612",
+  "https://www.news-medical.net/news/2004/06/29/2883.aspx"
+ ]
+}

@@ -1,0 +1,281 @@
+{
+ "id": "2027w02-s30",
+ "format": "short",
+ "date": "2027-01-15",
+ "slot": "09:00",
+ "title": "Rome Had a Financial Crash in AD 33",
+ "hook": "ROME'S MONEY PANIC",
+ "topic": "Crisis of AD 33",
+ "music": "playful",
+ "cast": {
+  "tiberius": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hair": "short",
+   "hairColor": "#BDBDBD",
+   "skin": "light",
+   "name": "Emperor Tiberius"
+  },
+  "lender": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A8A",
+   "hair": "bald",
+   "hairColor": "#6A6A6A",
+   "skin": "olive",
+   "hold": "moneybag",
+   "name": "Moneylender"
+  },
+  "owner": {
+   "preset": "roman",
+   "color": "#2F7A6A",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "name": "Landowner"
+  }
+ },
+ "voices": {
+  "lender": "bm_lewis",
+  "owner": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In AD 33, Rome had a full-blown financial crash.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "LAND FOR SALE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AD 33",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "CRASH",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Rome · AD 33"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It began when the courts suddenly enforced an old lending law that almost nobody followed.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "lender",
+      "x": 0.4,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OLD LAW",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lender",
+   "say": "I need all my money back. Today.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "lender",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "owner",
+      "x": 0.68,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "owner",
+   "say": "But it's all in my farm!"
+  },
+  {
+   "who": "N",
+   "say": "Lenders called in loans all at once. Borrowers had to sell land fast, so land prices crashed.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "CHEAP LAND"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PRICES CRASH",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the emperor Tiberius, famous for being stingy, opened his wallet.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "tiberius",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "tiberius",
+     "text": "Emperor Tiberius"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He put a hundred million sesterces into banks, to lend for three years with no interest, against land worth double.",
+   "show": {
+    "k": "card",
+    "label": "Tiberius's rescue fund, AD 33",
+    "big": "100 MILLION",
+    "sub": "sesterces, lent interest-free for 3 years"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The historian Tacitus says trust came back. A government bailout, two thousand years ago.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "owner",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "lender",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.88,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BAILOUT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "tiberius",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "owner",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome had a credit crunch in AD 33. The emperor's fix sounds very modern.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #financialcrisis #historytok #money",
+ "youtube_title": "Rome Had a Financial Crash in AD 33 #shorts",
+ "tags": [
+  "financial crisis of 33",
+  "tiberius",
+  "roman economy",
+  "bailout",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Financial_crisis_of_33",
+  "https://classicalwisdom.com/latin_books/the-annals-by-tacitus-vi/4/",
+  "https://lexundria.com/suet_tib/48/r",
+  "https://www.citeco.fr/10000-years-history-economics/antiquity-to-middle-ages/financial-crisis-in-rome"
+ ]
+}

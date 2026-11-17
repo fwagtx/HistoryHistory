@@ -1,0 +1,2284 @@
+{
+ "id": "2027w02-l2",
+ "format": "long",
+ "date": "2027-01-13",
+ "title": "The Weirdest Medical Treatments in History",
+ "music": "playful",
+ "cast": {
+  "rescuer": {
+   "outfit": "coat",
+   "color": "#5A3A2A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hair": "short",
+   "hairColor": "#E8E4DC",
+   "skin": "light",
+   "name": "Rescuer"
+  },
+  "boatman": {
+   "outfit": "rags",
+   "color": "#6A7A8A",
+   "hat": "cap",
+   "hatColor": "#3A3A44",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "stubble": true,
+   "skin": "light",
+   "name": "Rescued boatman"
+  },
+  "hawes": {
+   "outfit": "coat",
+   "color": "#2A2E3A",
+   "hair": "curly",
+   "hairColor": "#EEEAE2",
+   "skin": "light",
+   "name": "William Hawes"
+  },
+  "broussais": {
+   "outfit": "coat",
+   "color": "#1E1C1B",
+   "hair": "side",
+   "hairColor": "#B8B4AC",
+   "skin": "light",
+   "name": "François Broussais"
+  },
+  "frpatient": {
+   "outfit": "tunic",
+   "color": "#6A8AB8",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Patient"
+  },
+  "stanley": {
+   "preset": "cowboy",
+   "stubble": false,
+   "hair": "long",
+   "hairColor": "#4A3A2A",
+   "stache": "handlebar",
+   "skin": "light",
+   "name": "Clark Stanley"
+  },
+  "chemist": {
+   "outfit": "labcoat",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "glasses": "round",
+   "skin": "light",
+   "name": "Government chemist"
+  },
+  "rush": {
+   "outfit": "coat",
+   "color": "#3A2A1A",
+   "hair": "side",
+   "hairColor": "#D8D4CC",
+   "skin": "light",
+   "name": "Benjamin Rush"
+  },
+  "lincoln": {
+   "preset": "lincoln",
+   "name": "Abraham Lincoln"
+  },
+  "dreser": {
+   "preset": "scientist",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "name": "Heinrich Dreser"
+  },
+  "washington": {
+   "preset": "washington",
+   "name": "George Washington"
+  },
+  "craik": {
+   "outfit": "coat",
+   "color": "#3A3A44",
+   "hair": "side",
+   "hairColor": "#E8E4DC",
+   "skin": "light",
+   "name": "Dr. James Craik"
+  },
+  "dick": {
+   "outfit": "coat",
+   "color": "#4A5A3A",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Dr. Elisha Dick"
+  },
+  "bailey": {
+   "outfit": "suit",
+   "color": "#3A3E46",
+   "hair": "side",
+   "hairColor": "#2A1E16",
+   "glasses": "round",
+   "skin": "light",
+   "name": "William Bailey"
+  },
+  "byers": {
+   "outfit": "suit",
+   "color": "#6A5A48",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Eben Byers"
+  },
+  "expert": {
+   "outfit": "labcoat",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "glasses": "square",
+   "skin": "brown",
+   "name": "Modern researcher"
+  },
+  "healer": {
+   "outfit": "fur",
+   "color": "#7A5A3A",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "tan",
+   "name": "Stone Age healer"
+  },
+  "stonepatient": {
+   "outfit": "fur",
+   "color": "#8A6A4A",
+   "hair": "long",
+   "hairColor": "#2A1E16",
+   "skin": "tan",
+   "name": "Stone Age patient"
+  }
+ },
+ "voices": {
+  "rescuer": "am_fenrir",
+  "boatman": "bm_lewis",
+  "broussais": "am_echo",
+  "frpatient": "am_puck",
+  "stanley": "am_eric",
+  "chemist": "bf_alice",
+  "craik": "bm_george",
+  "dick": "am_liam",
+  "healer": "bm_daniel",
+  "stonepatient": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "London, 1774. A boatman falls into the River Thames, and his friends pull him out. He isn't breathing.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "boatman",
+      "x": 0.35,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "id": "rescuer",
+      "x": 0.65,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.45,
+      "flag": "uk1606"
+     }
+    ],
+    "place": "London, England · 1774",
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Good news: a rescuer runs up with an official life-saving kit.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "rescuer",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "shout",
+      "enter": "left"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.4,
+      "label": "RESCUE KIT"
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.4,
+      "flag": "uk1606"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RESCUE KIT",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Inside: a pipe, some tobacco, and a pair of bellows, the squeezy bag you use to blow air onto a fire.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "rescuer",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.4,
+      "label": "KIT"
+     },
+     {
+      "k": "fire",
+      "x": 0.82,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PIPE",
+      "at": 0.8,
+      "color": "#B8860B"
+     },
+     {
+      "text": "TOBACCO",
+      "at": 1.8,
+      "color": "#B8860B"
+     },
+     {
+      "text": "BELLOWS",
+      "at": 2.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The plan was to blow tobacco smoke into the patient. Not into his mouth. Into the other end.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "boatman",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "neutral"
+     },
+     {
+      "id": "rescuer",
+      "x": 0.62,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE OTHER END?!",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "boatman",
+   "say": "Excuse me! What are you doing back there?!",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "boatman",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "boatman"
+   }
+  },
+  {
+   "who": "rescuer",
+   "say": "Official medical advice, sir! Hold still!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "rescuer",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "rescuer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This was no prank. A London society for saving drowning people, later the Royal Humane Society, recommended it, and placed rescue kits along the Thames.",
+   "show": {
+    "k": "map",
+    "lon": -0.1,
+    "lat": 51.5,
+    "z0": 3.2,
+    "z1": 3.6,
+    "date": "1774",
+    "labels": [
+     [
+      "LONDON",
+      -0.1,
+      51.5,
+      0
+     ],
+     [
+      "RIVER THAMES",
+      0.6,
+      51.45,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Doctors thought the smoke would warm the body and wake it up. It didn't. The kits also had tools for blowing air into the lungs, which was actually a decent idea. By the 1810s, experiments showed tobacco is bad for the heart, and the idea faded.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "hawes",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "hawes",
+     "text": "William Hawes, co-founder"
+    },
+    "stickers": [
+     {
+      "text": "BAD FOR THE HEART",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today we're counting down the weirdest medical treatments in history. Real cures, from real experts, who were very, very sure of themselves.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "broussais",
+      "x": 0.15,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "book"
+     },
+     {
+      "id": "stanley",
+      "x": 0.32,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "bottle"
+     },
+     {
+      "id": "rush",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "healer",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "happy"
+     },
+     {
+      "id": "rescuer",
+      "x": 0.85,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some patients were badly hurt by these ideas, so we'll treat those parts with care."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Weirdest Medical Treatments in History",
+    "sub": "Seven real cures. All true.",
+    "cast": [
+     {
+      "id": "rescuer",
+      "x": 0.88,
+      "pose": "hips",
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "Thirty Leeches, Please"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number seven takes us to Paris in the 1830s.",
+   "show": {
+    "k": "map",
+    "lon": 2.5,
+    "lat": 47.0,
+    "z0": 1.6,
+    "z1": 1.9,
+    "date": "1830s",
+    "labels": [
+     [
+      "FRANCE",
+      2.5,
+      46.6,
+      0
+     ],
+     [
+      "PARIS",
+      2.35,
+      48.86,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      2.35,
+      48.86,
+      0.6,
+      "rgba(168,50,42,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For about two thousand years, many doctors believed sickness could come from having too much blood. So they drained some out.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "broussais",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "LEECHES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The gentle way to do it was with leeches, little worms that bite and drink blood.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.4,
+      "s": 0.55,
+      "label": "LEECHES"
+     },
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SLURP",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A leech fills up on blood, then drops off. Doctors thought that pulled the sickness out with it."
+  },
+  {
+   "who": "N",
+   "say": "In Paris, a famous doctor named François Broussais took this to the extreme. He blamed almost every illness on an irritated stomach.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "broussais",
+      "x": 0.38,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.4,
+      "flag": "france"
+     }
+    ],
+    "place": "Paris, France · 1830s",
+    "tag": {
+     "id": "broussais",
+     "text": "François Broussais, doctor"
+    }
+   }
+  },
+  {
+   "who": "frpatient",
+   "say": "Doctor, I just have a little cough.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "frpatient",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "neutral"
+     },
+     {
+      "id": "broussais",
+      "x": 0.68,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.5,
+      "s": 0.35,
+      "label": "LEECHES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "broussais",
+   "say": "Wonderful! Thirty leeches!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "broussais",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "broussais"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Leeches got so popular that France ran short of its own and had to bring them in from abroad."
+  },
+  {
+   "who": "N",
+   "say": "One historian counted about forty-two million leeches brought into France in a single year.",
+   "show": {
+    "k": "card",
+    "label": "Leeches brought into France",
+    "big": "42 MILLION",
+    "sub": "in 1833 alone"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then another Paris doctor, Pierre Louis, did something new: he counted. He compared patients and found bleeding helped far less than everyone thought.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "frpatient",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     },
+     {
+      "id": "broussais",
+      "x": 0.68,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "IT DIDN'T HELP",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fun fact: hospitals still use leeches today, to help sewn-back fingers and ears heal. Just not for coughs.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "frpatient",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "MEDICAL LEECHES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL USED",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "Snake Oil With No Snake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number six: Chicago, 1893. The city is hosting a giant world's fair.",
+   "show": {
+    "k": "map",
+    "lon": -88.0,
+    "lat": 41.0,
+    "z0": 1.8,
+    "z1": 2.2,
+    "date": "1893",
+    "labels": [
+     [
+      "CHICAGO",
+      -87.6,
+      41.9,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -87.6,
+      41.9,
+      0.8,
+      "rgba(212,160,16,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A man in a cowboy outfit, Clark Stanley, calls himself the Rattlesnake King. He says he learned a secret cure from Hopi healers. There's no evidence of that.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.38,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.5,
+      "text": "RATTLESNAKE KING"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Chicago, Illinois · 1893",
+    "tag": {
+     "id": "stanley",
+     "text": "Clark Stanley, the Rattlesnake King"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "By his own account, he boiled snakes in a big pot in front of the crowd and skimmed off the oil.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.32,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.62,
+      "s": 0.4
+     },
+     {
+      "k": "barrel",
+      "x": 0.62,
+      "s": 0.35,
+      "label": "POT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SNAKE OIL!",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "stanley",
+   "say": "Step right up! Snake Oil Liniment, for every ache and pain!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "shout",
+      "hold": "bottle"
+     }
+    ],
+    "cam": "close",
+    "focus": "stanley"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bottles of it sold across America for more than twenty years.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.4,
+      "label": "SNAKE OIL"
+     },
+     {
+      "k": "wagon",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, in 1916, government chemists finally tested some.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "chemist",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ],
+    "place": "United States · 1916",
+    "tag": {
+     "id": "chemist",
+     "text": "Government chemist"
+    }
+   }
+  },
+  {
+   "who": "chemist",
+   "say": "Mineral oil, a bit of beef fat, red pepper, turpentine... and zero snake.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "chemist",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "chemist"
+   }
+  },
+  {
+   "who": "stanley",
+   "say": "Well, it was snake-adjacent!",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     },
+     {
+      "id": "chemist",
+      "x": 0.72,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Stanley's punishment for selling a fake cure for years? A fine of twenty dollars.",
+   "show": {
+    "k": "card",
+    "label": "Clark Stanley's fine",
+    "big": "$20",
+    "sub": "for mislabeling his snake oil, 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was caught by a new law from 1906, which said medicine labels had to tell the truth. Before that, you could print almost anything on a bottle.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.45,
+      "text": "LABELS MUST BE TRUE"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "usa48"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Stories like his are why snake oil now means a fake cure sold with a big smile."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "Medicine Made of Mercury"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number five is the shiny metal that's liquid at room temperature: mercury. Today we know it's poisonous.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "rush",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "MERCURY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "POISON",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But for centuries, doctors put it in medicine. America's famous doctor Benjamin Rush made strong mercury pills that people nicknamed thunderclappers. They were laxatives: they made you poop. A lot.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rush",
+      "x": 0.38,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.68,
+      "s": 0.4,
+      "label": "THUNDERCLAPPERS"
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.4,
+      "flag": "usa1776"
+     }
+    ],
+    "place": "Philadelphia · 1803",
+    "tag": {
+     "id": "rush",
+     "text": "Dr. Benjamin Rush"
+    },
+    "stickers": [
+     {
+      "text": "BOOM",
+      "at": 2.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1804, the explorers Lewis and Clark carried hundreds of them on their trip to the Pacific.",
+   "show": {
+    "k": "map",
+    "lon": -103.0,
+    "lat": 43.0,
+    "z0": 1.1,
+    "z1": 1.3,
+    "date": "1804–1806",
+    "labels": [
+     [
+      "ST. LOUIS",
+      -90.2,
+      38.6,
+      0
+     ],
+     [
+      "MONTANA",
+      -110.0,
+      47.0,
+      0
+     ],
+     [
+      "PACIFIC",
+      -124.0,
+      46.2,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -90.2,
+      38.6
+     ],
+     [
+      -95.9,
+      41.3
+     ],
+     [
+      -100.8,
+      46.8
+     ],
+     [
+      -110.6,
+      47.5
+     ],
+     [
+      -114.1,
+      46.7
+     ],
+     [
+      -118.0,
+      46.3
+     ],
+     [
+      -123.9,
+      46.2
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pills worked fast, if you know what I mean. And mercury doesn't break down.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.35,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.4
+     }
+    ],
+    "place": "Travelers' Rest, Montana · 1805",
+    "stickers": [
+     {
+      "text": "RUN!",
+      "at": 1.4,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in 2002, archaeologists found the expedition's old toilet pit in Montana, because the dirt was full of mercury.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "expert",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "TOILET PIT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MERCURY TRAIL",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even Abraham Lincoln reportedly took a mercury pill called blue mass, for his gloomy moods.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "BLUE MASS"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Illinois · 1850s",
+    "tag": {
+     "id": "lincoln",
+     "text": "Abraham Lincoln"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2001, researchers rebuilt the pill from an old recipe and estimated it held far more mercury than is safe today.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "expert",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "shock",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "BLUE MASS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WAY TOO MUCH",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A friend wrote that Lincoln quit the pills soon after becoming president, because they made him cross. Good call, Abe.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.4,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Washington, D.C. · 1861",
+    "stickers": [
+     {
+      "text": "QUIT!",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "A Cough Medicine Called Heroin"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number four: Germany, 1898.",
+   "show": {
+    "k": "map",
+    "lon": 9.0,
+    "lat": 51.0,
+    "z0": 2.2,
+    "z1": 2.5,
+    "date": "1898",
+    "labels": [
+     [
+      "GERMANY",
+      10.0,
+      51.2,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The drug company Bayer launches a new cough medicine, made from morphine, a strong painkiller from the poppy plant. Its brand name is Heroin. Yes, that heroin.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "dreser",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "BAYER"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "germany1914"
+     }
+    ],
+    "place": "Germany · 1898",
+    "tag": {
+     "id": "dreser",
+     "text": "Heinrich Dreser, Bayer's drug tester"
+    },
+    "stickers": [
+     {
+      "text": "HEROIN?!",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, lung diseases like tuberculosis killed huge numbers of people, and doctors badly wanted something to calm their coughs.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "frpatient",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bayer sold it as a safer replacement for morphine, and claimed it wasn't habit-forming.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "dreser",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "COUGH MEDICINE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "'SAFE'",
+      "at": 1.4,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were badly wrong. Within a few years, doctors saw that patients were becoming addicted.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "dreser",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bayer stopped making it in 1913, and in 1924 the United States banned making it.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.4,
+      "s": 0.45,
+      "label": "HEROIN"
+     },
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.4,
+      "flag": "usa48"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANNED",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "United States · 1924"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The lesson: new and improved isn't the same as safe."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "Bleeding a President"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number three is a serious one. December 1799, Mount Vernon, the Virginia home of George Washington, America's first president.",
+   "show": {
+    "k": "map",
+    "lon": -77.5,
+    "lat": 38.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "December 1799",
+    "labels": [
+     [
+      "MOUNT VERNON",
+      -77.09,
+      38.71,
+      0
+     ],
+     [
+      "VIRGINIA",
+      -78.6,
+      37.6,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -77.09,
+      38.71,
+      0.4,
+      "rgba(47,111,194,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wakes up with a terrible sore throat and can barely breathe. Doctors today think it was a dangerous throat infection.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "washington",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.5,
+      "label": "MOUNT VERNON"
+     },
+     {
+      "k": "flag",
+      "x": 0.92,
+      "s": 0.35,
+      "flag": "usa1776"
+     }
+    ],
+    "place": "Mount Vernon, Virginia · 14 December 1799",
+    "tag": {
+     "id": "washington",
+     "text": "George Washington"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His doctors followed the best medicine of their day: drain blood to fight the illness. Remember Benjamin Rush and his thunderclappers? He was one of bleeding's biggest fans. Over about twelve hours, Washington's doctors bled him four times.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "craik",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     },
+     {
+      "id": "washington",
+      "x": 0.7,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "craik",
+     "text": "Dr. James Craik, his old friend"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "By most modern estimates, that was about eighty ounces, around forty percent of all the blood in his body.",
+   "show": {
+    "k": "card",
+    "label": "Share of Washington's blood drained",
+    "big": "≈40%",
+    "sub": "about 80 ounces in one day"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A younger doctor, Elisha Dick, objected.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "dick",
+      "x": 0.32,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "craik",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "dick",
+     "text": "Dr. Elisha Dick"
+    }
+   }
+  },
+  {
+   "who": "dick",
+   "say": "Stop the bleeding. He needs that blood!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "dick",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close",
+    "focus": "dick"
+   }
+  },
+  {
+   "who": "craik",
+   "say": "We'll stick with what we know.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "craik",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "craik"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Dick also suggested cutting a small breathing hole in the throat, a new and risky surgery. The older doctors said no.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "dick",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "craik",
+      "x": 0.68,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That evening, according to his secretary Tobias Lear, Washington told Dr. Craik: Doctor, I die hard, but I am not afraid to go.",
+   "show": {
+    "k": "quote",
+    "text": "Doctor, I die hard, but I am not afraid to go.",
+    "who": "George Washington, as recorded by Tobias Lear, 14 December 1799"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He died that night, at sixty-seven. Doctors today think the bleeding made him weaker, though the infection itself was very dangerous too.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.5,
+      "s": 0.6,
+      "label": "MOUNT VERNON"
+     },
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.4,
+      "flag": "usa1776"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "Radioactive Water"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number two: the 1920s. Radium, a metal discovered by Marie and Pierre Curie in 1898, gives off energy and glows in the dark. So people assume it must be healthy.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "bailey",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "atom",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "IT GLOWS!",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A businessman named William Bailey sold Radithor: water with radium dissolved in it. The label said Certified Radioactive Water.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "bailey",
+      "x": 0.38,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "RADITHOR"
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.35,
+      "flag": "usa48"
+     }
+    ],
+    "place": "New Jersey · 1920s",
+    "tag": {
+     "id": "bailey",
+     "text": "William Bailey, Radithor seller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His most famous customer was Eben Byers, a rich steel businessman from Pittsburgh, and a former national golf champion.",
+   "show": {
+    "k": "map",
+    "lon": -79.0,
+    "lat": 40.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "1927",
+    "labels": [
+     [
+      "PITTSBURGH",
+      -80.0,
+      40.44,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -80.0,
+      40.44,
+      0.5,
+      "rgba(212,160,16,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1927 he hurt his arm, and the man treating him suggested Radithor.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "byers",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "Pittsburgh · 1927",
+    "tag": {
+     "id": "byers",
+     "text": "Eben Byers"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He felt so sure it was working that he drank roughly fourteen hundred bottles over the next few years.",
+   "show": {
+    "k": "card",
+    "label": "Bottles of Radithor Byers drank",
+    "big": "≈1,400",
+    "sub": "1927 to about 1930"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But radium builds up in the bones and slowly destroys them. Byers became gravely ill.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "byers",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He died in 1932, at fifty-one, and was buried in a lead-lined coffin. When scientists tested his remains in 1965, they were still radioactive."
+  },
+  {
+   "who": "N",
+   "say": "His death shocked the country. It helped give government health regulators more power, and radium tonics disappeared.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "bailey",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "RADITHOR"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BANNED",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "A Hole in the Head"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And number one, the weirdest medical treatment in history: drilling a hole in someone's skull.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "healer",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.45
+     },
+     {
+      "k": "fire",
+      "x": 0.88,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TREPANATION",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's called trepanation, and it's one of the oldest surgeries we know of.",
+   "show": {
+    "k": "map",
+    "lon": 7.0,
+    "lat": 47.5,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "about 7,000 years ago",
+    "labels": [
+     [
+      "ENSISHEIM",
+      7.35,
+      47.87,
+      0
+     ],
+     [
+      "FRANCE",
+      4.5,
+      47.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      7.35,
+      47.87,
+      0.3,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Ensisheim, in eastern France, archaeologists found a man buried about seven thousand years ago, with two holes in his skull.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "healer",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "neutral"
+     },
+     {
+      "id": "stonepatient",
+      "x": 0.65,
+      "pose": "sit",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "place": "Ensisheim, France · about 7,000 years ago"
+   }
+  },
+  {
+   "who": "stonepatient",
+   "say": "So, where exactly does this hole go?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "stonepatient",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "stonepatient"
+   }
+  },
+  {
+   "who": "healer",
+   "say": "Relax. I have a very sharp rock.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "healer",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "healer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's the twist. The bone around the holes had grown back, and one hole had fully healed. He survived the surgery.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "stonepatient",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HEALED!",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Archaeologists have found healed skulls like this from Europe to South America. Some people even survived several of these operations."
+  },
+  {
+   "who": "N",
+   "say": "Why do it? We don't really know. Maybe for head injuries, maybe for headaches, maybe to let out evil spirits.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "healer",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.7,
+      "s": 0.5
+     },
+     {
+      "k": "fire",
+      "x": 0.88,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INJURY?",
+      "at": 0.6,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "HEADACHE?",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "SPIRITS?",
+      "at": 2.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And the strangest part? Brain surgeons still open small holes in the skull today, to take pressure off the brain. Just with much better tools.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "expert",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL DONE TODAY",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most of these doctors weren't villains. They were doing their best with what they knew. The difference today is that we test cures before we trust them. So, who was the most confident doctor: the leech man, the Rattlesnake King, or the guy with the tobacco bellows? Tell us in the comments.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "broussais",
+      "x": 0.2,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "book"
+     },
+     {
+      "id": "stanley",
+      "x": 0.5,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "bottle"
+     },
+     {
+      "id": "rescuer",
+      "x": 0.8,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next time: how the Roman Empire made, and lost, its money. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "next": "How the Roman Empire Made (and Lost) Its Money",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.78,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "healer",
+      "x": 0.92,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "Tobacco smoke rescue kits by the Thames, thirty leeches for a cough, snake oil with no snake, mercury pills, a cough medicine called Heroin, the bleeding of George Washington, radioactive water, and holes drilled in Stone Age skulls. Here are the weirdest medical treatments in history, counted down from seven to one. This is history, not medical advice. Chapters are added automatically.\n\n#history #medicine #medicalhistory #weirdhistory #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "DOCTOR, NO",
+  "bg": "harbor",
+  "faces": [
+   {
+    "id": "rescuer",
+    "mood": "shout"
+   },
+   {
+    "id": "boatman",
+    "mood": "scared"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "The Weirdest Medical Treatments in History",
+ "tags": [
+  "weirdest medical treatments",
+  "history of medicine",
+  "tobacco smoke enema",
+  "royal humane society",
+  "leeches",
+  "snake oil",
+  "clark stanley",
+  "blue mass",
+  "bayer heroin",
+  "george washington death",
+  "radithor",
+  "eben byers",
+  "trepanation",
+  "funny history",
+  "animated history",
+  "history pros"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tobacco_smoke_enema",
+  "https://blog.sciencemuseum.org.uk/saving-lives-with-a-puff-of-smoke/",
+  "https://www.atlasobscura.com/articles/object-of-intrigue-londons-lifesaving-publicly-accessible-enema-kits",
+  "https://www.jameslindlibrary.org/articles/pierre-charles-alexandre-louis-and-the-evaluation-of-bloodletting/",
+  "https://www.sciencehistory.org/stories/magazine/medicinal-leeches-and-where-to-find-them/",
+  "https://www.news-medical.net/news/2004/06/29/2883.aspx",
+  "https://en.wikipedia.org/wiki/Clark_Stanley",
+  "https://www.si.edu/object/nmah_1298331",
+  "https://clements.umich.edu/publication/schemers-cons-and-grifters/the-original-snake-oil-salesman/",
+  "https://www.smithsonianmag.com/smart-news/how-reconstruct-lewis-and-clark-journey-follow-mercury-laden-latrine-pits-180956518/",
+  "https://www.nps.gov/articles/000/historic-latrines-help-archeologists-retrace-the-lewis-and-clark-trail.htm",
+  "https://www.scientificamerican.com/article/medication-may-explain-li/",
+  "https://en.wikipedia.org/wiki/Blue_mass",
+  "https://www.atlasobscura.com/articles/narcotics-in-medicine",
+  "https://www.unodc.org/unodc/en/data-and-analysis/bulletin/bulletin_1953-01-01_2_page007.html",
+  "https://www.pbs.org/newshour/health/dec-14-1799-excruciating-final-hours-president-george-washington",
+  "https://www.mountvernon.org/digital-encyclopedia/article/the-death-of-george-washington",
+  "https://founders.archives.gov/documents/Washington/06-04-02-0406-0001",
+  "https://en.wikipedia.org/wiki/Radithor",
+  "https://en.wikipedia.org/wiki/Eben_Byers",
+  "https://www.orau.org/health-physics-museum/collection/radioactive-quack-cures/pills-potions-and-other-miscellany/radithor.html",
+  "https://archive.archaeology.org/9709/newsbriefs/trepanation.html",
+  "https://www.discovermagazine.com/stone-age-surgery-40034"
+ ]
+}

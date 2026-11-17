@@ -1,0 +1,304 @@
+{
+ "id": "2027w02-s18",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "Stone Age People Survived Skull Surgery",
+ "hook": "HOLES IN THEIR SKULLS",
+ "topic": "Trepanation",
+ "music": "playful",
+ "cast": {
+  "healer": {
+   "outfit": "fur",
+   "color": "#7A5A3A",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "tan",
+   "name": "Stone Age healer"
+  },
+  "stonepatient": {
+   "outfit": "fur",
+   "color": "#8A6A4A",
+   "hair": "long",
+   "hairColor": "#2A1E16",
+   "skin": "tan",
+   "name": "Stone Age patient"
+  },
+  "expert": {
+   "outfit": "labcoat",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "glasses": "square",
+   "skin": "brown",
+   "name": "Modern researcher"
+  }
+ },
+ "voices": {
+  "healer": "bm_daniel",
+  "stonepatient": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Seven thousand years ago, people cut holes in each other's skulls, and some patients survived.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "healer",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ],
+    "place": "Ensisheim, France · about 7,000 years ago"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's called trepanation, one of the oldest surgeries we know of.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "healer",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TREPANATION",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Ensisheim, in eastern France, archaeologists found a man buried with two holes in his skull.",
+   "show": {
+    "k": "map",
+    "lon": 7.3,
+    "lat": 47.9,
+    "z0": 2.4,
+    "z1": 2.7,
+    "date": "about 7,000 years ago",
+    "labels": [
+     [
+      "ENSISHEIM",
+      7.35,
+      47.87,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      7.35,
+      47.87,
+      0.3,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "stonepatient",
+   "say": "Wait. You're doing what to my head?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "stonepatient",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "cam": "close",
+    "focus": "stonepatient"
+   }
+  },
+  {
+   "who": "healer",
+   "say": "Hold still. This rock is very sharp.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "healer",
+      "x": 0.45,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "healer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Here's the twist: the bone had grown back. One hole healed completely, so he lived long afterward.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "stonepatient",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HEALED!",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Why do it? Maybe for head injuries or headaches. Nobody knows for sure.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "healer",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INJURY?",
+      "at": 0.6,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "HEADACHE?",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And today's brain surgeons still open small holes in the skull, just with much better tools.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "expert",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STILL DONE TODAY",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "stonepatient",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "healer",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Stone Age skull surgery, and the patient lived.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #archaeology #stoneage #medicalhistory #historytok",
+ "youtube_title": "Stone Age People Survived Skull Surgery #shorts",
+ "tags": [
+  "trepanation",
+  "stone age",
+  "ancient surgery",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Trepanning",
+  "https://archive.archaeology.org/9709/newsbriefs/trepanation.html",
+  "https://www.discovermagazine.com/stone-age-surgery-40034",
+  "https://www.livescience.com/archaeology/copper-age-woman-survived-two-skull-surgeries-up-to-4500-years-ago"
+ ]
+}

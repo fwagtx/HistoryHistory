@@ -1,0 +1,271 @@
+{
+ "id": "2027w02-s26",
+ "format": "short",
+ "date": "2027-01-15",
+ "slot": "09:00",
+ "title": "Ancient Rome Gave Free Grain to 200,000 People",
+ "hook": "FREE FOOD FOR 200,000",
+ "topic": "Rome's free grain",
+ "music": "playful",
+ "cast": {
+  "augustus": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "side",
+   "hairColor": "#8A5A2A",
+   "skin": "light",
+   "name": "Augustus"
+  },
+  "citizen": {
+   "preset": "roman",
+   "name": "Roman citizen"
+  },
+  "clerk": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A8A",
+   "hair": "bald",
+   "hairColor": "#6A6A6A",
+   "skin": "olive",
+   "hold": "scroll",
+   "name": "Grain official"
+  }
+ },
+ "voices": {
+  "citizen": "am_puck",
+  "clerk": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Ancient Rome gave free grain to about two hundred thousand people. Every month.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "FREE GRAIN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "200,000 PEOPLE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Rome · 2 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome was huge, maybe a million people, and many of them were poor.",
+   "show": {
+    "k": "map",
+    "lon": 12.5,
+    "lat": 41.9,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "2 BC",
+    "labels": [
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      12.5,
+      41.9,
+      0.5,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Since 58 BC, poor citizens on a list could collect about thirty-three kilos of wheat a month, for free.",
+   "show": {
+    "k": "card",
+    "label": "Free grain each month",
+    "big": "33 kg",
+    "sub": "of wheat per citizen on the list"
+   }
+  },
+  {
+   "who": "citizen",
+   "say": "Free bread?",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "clerk",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.35,
+      "label": "WHEAT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "clerk",
+   "say": "Free wheat. Bake it yourself."
+  },
+  {
+   "who": "N",
+   "say": "Augustus, Rome's first emperor, once thought about scrapping it. But he figured the next ambitious politician would just bring it back.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "augustus",
+     "text": "Augustus, first emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Instead, he bragged that a little over two hundred thousand people were on the list.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.45,
+      "text": "200,000+"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "2 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Feeding them took fleets of grain ships from Egypt. So Rome's ruler was also Rome's biggest grocery bill.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.25,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.62,
+      "s": 0.6,
+      "flag": "rome"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GRAIN FLEET",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Ostia, Rome's port · 1st century AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "bread"
+     },
+     {
+      "id": "augustus",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Ancient Rome handed out free grain to about 200,000 people every month.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #augustus #historytok #funnyhistory",
+ "youtube_title": "Ancient Rome Gave Free Grain to 200,000 People #shorts",
+ "tags": [
+  "grain dole",
+  "cura annonae",
+  "augustus",
+  "ancient rome",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cura_annonae",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/3*.html",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Augustus*.html",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/secondary/SMIGRA*/Frumentariae_Leges.html",
+  "https://ancientromanhistory31-14.com/augustus/augustus-and-the-plebs/"
+ ]
+}

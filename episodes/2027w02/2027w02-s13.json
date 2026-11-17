@@ -1,0 +1,309 @@
+{
+ "id": "2027w02-s13",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "London Put Tobacco Smoke Rescue Kits by the River",
+ "hook": "SMOKE WENT WHERE?!",
+ "topic": "Royal Humane Society",
+ "music": "playful",
+ "cast": {
+  "rescuer": {
+   "outfit": "coat",
+   "color": "#5A3A2A",
+   "hat": "tricorn",
+   "hatColor": "#262322",
+   "hair": "short",
+   "hairColor": "#E8E4DC",
+   "skin": "light",
+   "name": "Rescuer"
+  },
+  "boatman": {
+   "outfit": "rags",
+   "color": "#6A7A8A",
+   "hat": "cap",
+   "hatColor": "#3A3A44",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "stubble": true,
+   "skin": "light",
+   "name": "Rescued boatman"
+  },
+  "hawes": {
+   "outfit": "coat",
+   "color": "#2A2E3A",
+   "hair": "curly",
+   "hairColor": "#EEEAE2",
+   "skin": "light",
+   "name": "William Hawes"
+  }
+ },
+ "voices": {
+  "rescuer": "am_fenrir",
+  "boatman": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1700s London, the official cure for drowning was tobacco smoke, blown into the wrong end.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "rescuer",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "pipe"
+     },
+     {
+      "id": "boatman",
+      "x": 0.68,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.75,
+      "s": 0.4,
+      "flag": "uk1606"
+     }
+    ],
+    "place": "London, England · 1774"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1774, two London doctors started a society to save people pulled from the River Thames.",
+   "show": {
+    "k": "map",
+    "lon": -0.1,
+    "lat": 51.5,
+    "z0": 3.2,
+    "z1": 3.6,
+    "date": "1774",
+    "labels": [
+     [
+      "LONDON",
+      -0.1,
+      51.5,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Their rescue kits by the river held a pipe, tobacco and bellows, a squeezy bag for blowing air.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "hawes",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.4,
+      "label": "RESCUE KIT"
+     },
+     {
+      "k": "flag",
+      "x": 0.8,
+      "s": 0.35,
+      "flag": "uk1606"
+     }
+    ],
+    "tag": {
+     "id": "hawes",
+     "text": "William Hawes, co-founder"
+    },
+    "stickers": [
+     {
+      "text": "PIPE",
+      "at": 0.8,
+      "color": "#B8860B"
+     },
+     {
+      "text": "BELLOWS",
+      "at": 2.0,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The idea was to blow warm smoke into the patient from behind, to wake the body up.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "boatman",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "neutral"
+     },
+     {
+      "id": "rescuer",
+      "x": 0.65,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "pipe"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FROM BEHIND?!",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "boatman",
+   "say": "Sir, that is NOT my mouth!",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "boatman",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "boatman"
+   }
+  },
+  {
+   "who": "rescuer",
+   "say": "Doctor's orders! Hold still!",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "rescuer",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug",
+      "hold": "pipe"
+     }
+    ],
+    "cam": "close",
+    "focus": "rescuer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By the 1810s, experiments showed tobacco harms the heart, and the smoke cure faded away.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "hawes",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BAD FOR THE HEART",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The group still exists as the Royal Humane Society. Now it gives bravery awards instead.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "hawes",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.35,
+      "label": "AWARDS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BRAVERY AWARDS",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "rescuer",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "boatman",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "London's 1700s drowning cure involved a pipe and some bellows.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #medicalhistory #london #weirdhistory #historytok",
+ "youtube_title": "London Put Tobacco Smoke Rescue Kits by the River #shorts",
+ "tags": [
+  "royal humane society",
+  "tobacco smoke enema",
+  "medical history",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tobacco_smoke_enema",
+  "https://en.wikipedia.org/wiki/Royal_Humane_Society",
+  "https://blog.sciencemuseum.org.uk/saving-lives-with-a-puff-of-smoke/",
+  "https://www.atlasobscura.com/articles/object-of-intrigue-londons-lifesaving-publicly-accessible-enema-kits"
+ ]
+}

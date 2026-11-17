@@ -1,0 +1,285 @@
+{
+ "id": "2027w02-s03",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "Chariot Racing Fans Almost Toppled an Emperor",
+ "hook": "SPORTS FANS VS. THE EMPEROR",
+ "topic": "Nika Riots",
+ "music": "tense",
+ "cast": {
+  "bluefan": {
+   "outfit": "tunic",
+   "color": "#2F6FC2",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "olive"
+  },
+  "greenfan": {
+   "outfit": "tunic",
+   "color": "#3A8A3A",
+   "hair": "short",
+   "hairColor": "#1E1612",
+   "stubble": true,
+   "skin": "tan"
+  },
+  "justinian": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Justinian I"
+  },
+  "theodora": {
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#6A3E8E",
+   "hair": "long",
+   "hairColor": "#1E1612",
+   "skin": "light",
+   "name": "Empress Theodora"
+  }
+ },
+ "voices": {
+  "bluefan": "am_fenrir",
+  "greenfan": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Chariot racing fans almost overthrew a Roman emperor.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "bluefan",
+      "x": 0.2,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "greenfan",
+      "x": 0.8,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.5,
+      "s": 0.55,
+      "move": [
+       0.3,
+       0.65
+      ],
+      "color": "#2F6FC2"
+     }
+    ],
+    "place": "The Hippodrome, Constantinople · 532 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In Constantinople, capital of the eastern Roman Empire, fans joined two rival clubs: the Blues and the Greens."
+  },
+  {
+   "who": "bluefan",
+   "say": "Blues forever! Greens are losers!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "bluefan",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "greenfan",
+      "x": 0.68,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 532, Emperor Justinian refused to pardon two condemned men, one from each club.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "justinian",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "justinian",
+     "text": "Emperor Justinian"
+    }
+   }
+  },
+  {
+   "who": "greenfan",
+   "say": "Wait. Let's both be mad at him instead!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "greenfan",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "bluefan",
+      "x": 0.68,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They chanted Nika, meaning Win, and burned much of the city for days.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "bluefan",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "stickers": [
+     {
+      "text": "NIKA! = WIN!",
+      "at": 0.8,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Justinian almost fled, but his wife Theodora convinced him to stay.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "theodora",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     },
+     {
+      "id": "justinian",
+      "x": 0.68,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soldiers trapped the crowd in the Hippodrome. Historian Procopius says about thirty thousand died.",
+   "show": {
+    "k": "card",
+    "label": "Killed in the Nika riots",
+    "big": "30,000",
+    "sub": "Procopius's estimate, January 532"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Justinian survived, and the fan clubs never got that powerful again.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "justinian",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "bluefan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "greenfan",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 532, two rival chariot fan clubs teamed up against the emperor.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #nikariots #byzantineempire #justinian #historytok",
+ "youtube_title": "Chariot Racing Fans Almost Toppled an Emperor #shorts",
+ "tags": [
+  "nika riots",
+  "justinian",
+  "theodora",
+  "chariot racing",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Nika_riots",
+  "https://www.thecollector.com/what-was-the-nika-riot/",
+  "https://istanbultarihi.ist/407-the-nika-riot"
+ ]
+}

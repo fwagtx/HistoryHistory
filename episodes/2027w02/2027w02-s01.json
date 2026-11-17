@@ -1,0 +1,273 @@
+{
+ "id": "2027w02-s01",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "The Byzantines Never Called Themselves Byzantine",
+ "hook": "THEY CALLED THEMSELVES ROMANS",
+ "topic": "Byzantine Empire",
+ "music": "playful",
+ "cast": {
+  "citizen": {
+   "outfit": "tunic",
+   "color": "#C8702A",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "goatee",
+   "skin": "olive"
+  },
+  "citizenw": {
+   "hat": "veil",
+   "hatColor": "#2F6FC2",
+   "outfit": "dress",
+   "color": "#B8743A",
+   "hair": "long",
+   "hairColor": "#2A1E16",
+   "skin": "olive"
+  },
+  "constantine": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Constantine the Great"
+  },
+  "emperor": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#4A3A2A",
+   "skin": "light"
+  },
+  "wolf": {
+   "hat": "beret",
+   "hatColor": "#262322",
+   "outfit": "coat",
+   "color": "#262322",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "hold": "book",
+   "name": "Hieronymus Wolf"
+  }
+ },
+ "voices": {
+  "citizen": "am_puck",
+  "wolf": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The people we call Byzantines never once called themselves that.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "citizenw",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.35,
+      "label": "SILK"
+     }
+    ],
+    "place": "Constantinople · around 1000 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 330, Roman emperor Constantine moved his capital to a Greek town called Byzantium, renaming it Constantinople.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "constantine",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "Constantinople · 330 AD",
+    "tag": {
+     "id": "constantine",
+     "text": "Constantine the Great"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "When Rome's western half fell in 476, the eastern half kept going for almost a thousand years.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "emperor",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "banner",
+      "x": 0.75,
+      "s": 0.45,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They called their country Romania: land of the Romans.",
+   "show": {
+    "k": "card",
+    "label": "What they called their empire",
+    "big": "ROMANIA",
+    "sub": "\"land of the Romans\" (not modern Romania)"
+   }
+  },
+  {
+   "who": "citizen",
+   "say": "We speak Greek, sure. But we're Romans.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.35,
+      "label": "FIGS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So where did Byzantine come from? In 1557, a century after the empire fell, a German scholar, Hieronymus Wolf, used it in a book.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "wolf",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "place": "Germany · 1557",
+    "tag": {
+     "id": "wolf",
+     "text": "Hieronymus Wolf, scholar"
+    }
+   }
+  },
+  {
+   "who": "wolf",
+   "say": "I'll name them after their capital's old name."
+  },
+  {
+   "who": "N",
+   "say": "The name caught on. The actual Romans never got a say.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "emperor",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.4,
+      "text": "BYZANTINE?"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "citizenw",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "They lived in the Roman Empire until 1453. 'Byzantine' was a name invented later.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #byzantineempire #romanempire #constantinople #historytok",
+ "youtube_title": "The Byzantines Never Called Themselves Byzantine #shorts",
+ "tags": [
+  "byzantine empire",
+  "eastern roman empire",
+  "romans",
+  "constantinople",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Byzantine_Empire",
+  "https://en.wikipedia.org/wiki/Hieronymus_Wolf",
+  "https://en.wikipedia.org/wiki/Names_of_the_Greeks",
+  "https://www.newworldencyclopedia.org/entry/Byzantine_Empire"
+ ]
+}

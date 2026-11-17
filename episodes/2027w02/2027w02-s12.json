@@ -1,0 +1,271 @@
+{
+ "id": "2027w02-s12",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "These Bronze Horses Were Looted Twice",
+ "hook": "STOLEN HORSES, TWICE",
+ "topic": "Horses of Saint Mark",
+ "music": "playful",
+ "cast": {
+  "crusader": {
+   "preset": "crusader"
+  },
+  "napoleon": {
+   "preset": "napoleon",
+   "name": "Napoleon Bonaparte"
+  },
+  "citizen": {
+   "outfit": "tunic",
+   "color": "#C8702A",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "goatee",
+   "skin": "olive"
+  },
+  "h1": {
+   "animal": "horse",
+   "color": "#B8843A",
+   "mood": "neutral"
+  },
+  "h2": {
+   "animal": "horse",
+   "color": "#B8843A",
+   "mood": "neutral"
+  }
+ },
+ "voices": {
+  "napoleon": "am_adam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "These four bronze horses were stolen not once, but twice.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "h1",
+      "x": 0.35
+     },
+     {
+      "id": "h2",
+      "x": 0.65
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "Venice, Italy · today",
+    "stickers": [
+     {
+      "text": "4 BRONZE HORSES",
+      "at": 1.0,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For centuries, they stood at the Hippodrome, the giant racetrack of Constantinople.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "h1",
+      "x": 0.3
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.65,
+      "s": 0.55
+     }
+    ],
+    "place": "The Hippodrome, Constantinople · before 1204"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1204, crusaders and their Venetian allies captured Constantinople and looted it for three days.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "goblet"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Venice shipped them home. Their collars may hide where their heads were cut off for the trip.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "h2",
+      "x": 0.3
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.68,
+      "s": 0.6
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TO VENICE",
+      "at": 1.0,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They stood on Saint Mark's Basilica for almost six hundred years.",
+   "show": {
+    "k": "map",
+    "lon": 12.3,
+    "lat": 45.4,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "1204",
+    "labels": [
+     [
+      "Venice",
+      12.33,
+      45.44,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      12.33,
+      45.44,
+      0.3,
+      "rgba(214,48,40,.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then in 1797, Napoleon's army conquered Venice and took the horses to Paris.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "napoleon",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "h1",
+      "x": 0.68
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "france"
+     }
+    ],
+    "place": "Venice · 1797",
+    "tag": {
+     "id": "napoleon",
+     "text": "Napoleon Bonaparte"
+    }
+   }
+  },
+  {
+   "who": "napoleon",
+   "say": "Lovely horses. They're coming with me."
+  },
+  {
+   "who": "N",
+   "say": "After Napoleon fell in 1815, they returned to Venice. Today the originals stay indoors, with copies outside.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "h2",
+      "x": 0.65
+     }
+    ],
+    "place": "Venice · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "h1",
+      "x": 0.68
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Taken from Constantinople in 1204, taken from Venice in 1797, and still in Venice today.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #venice #constantinople #napoleon #historytok",
+ "youtube_title": "These Bronze Horses Were Looted Twice #shorts",
+ "tags": [
+  "horses of saint mark",
+  "venice",
+  "fourth crusade",
+  "napoleon",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Horses_of_Saint_Mark",
+  "https://en.wikipedia.org/wiki/Sack_of_Constantinople",
+  "https://the-history-avenue.eu/?p=6393"
+ ]
+}

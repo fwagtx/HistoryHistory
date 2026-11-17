@@ -1,0 +1,257 @@
+{
+ "id": "2027w02-s19",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "Lincoln Reportedly Took Mercury Pills",
+ "hook": "LINCOLN'S BLUE PILLS",
+ "topic": "Abraham Lincoln",
+ "music": "playful",
+ "cast": {
+  "lincoln": {
+   "preset": "lincoln",
+   "name": "Abraham Lincoln"
+  },
+  "expert": {
+   "outfit": "labcoat",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "glasses": "square",
+   "skin": "brown",
+   "name": "Modern researcher"
+  }
+ },
+ "voices": {
+  "expert": "af_heart"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Abraham Lincoln reportedly took pills made with mercury, a poisonous metal.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.38,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "BLUE MASS"
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.35,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Illinois · 1850s",
+    "tag": {
+     "id": "lincoln",
+     "text": "Abraham Lincoln"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were called blue mass, and in the 1800s doctors prescribed them for almost everything.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.35,
+      "s": 0.5,
+      "text": "DRUGSTORE"
+     },
+     {
+      "k": "jar",
+      "x": 0.65,
+      "s": 0.45,
+      "label": "BLUE MASS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOR EVERYTHING",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Friends said Lincoln took them for his gloomy moods, which troubled him for years.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.42,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 2001, researchers rebuilt the pill from an old recipe.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "expert",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "place": "United States · 2001",
+    "tag": {
+     "id": "expert",
+     "text": "A modern researcher"
+    }
+   }
+  },
+  {
+   "who": "expert",
+   "say": "That's far more mercury than anyone should swallow!",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "expert",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "expert"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Too much mercury can make people jumpy and quick to anger.",
+   "show": {
+    "k": "card",
+    "label": "Blue mass contained",
+    "big": "MERCURY",
+    "sub": "a poisonous metal"
+   }
+  },
+  {
+   "who": "N",
+   "say": "A friend wrote that Lincoln quit soon after becoming president in 1861, because the pills made him cross.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.42,
+      "pose": "fist",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.78,
+      "s": 0.4,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Washington, D.C. · 1861",
+    "stickers": [
+     {
+      "text": "QUIT!",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians still argue about how much the pills affected him. But quitting was a smart move.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "BLUE MASS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lincoln",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Abe's little blue pills had mercury in them.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #abrahamlincoln #medicalhistory #americanhistory #historytok",
+ "youtube_title": "Lincoln Reportedly Took Mercury Pills #shorts",
+ "tags": [
+  "abraham lincoln",
+  "blue mass",
+  "mercury",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Blue_mass",
+  "https://www.scientificamerican.com/article/medication-may-explain-li/",
+  "https://www.eurekalert.org/news-releases/678287",
+  "https://www.rsc.org/news/2010/march/uk-lab-reveals-shocking-mercury-level-in-lincoln-s-blue-pills"
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "id": "2027w02-s20",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "The Original Snake Oil Had No Snake in It",
+ "hook": "SNAKE OIL, NO SNAKE",
+ "topic": "Clark Stanley",
+ "music": "playful",
+ "cast": {
+  "stanley": {
+   "preset": "cowboy",
+   "stubble": false,
+   "hair": "long",
+   "hairColor": "#4A3A2A",
+   "stache": "handlebar",
+   "skin": "light",
+   "name": "Clark Stanley"
+  },
+  "chemist": {
+   "outfit": "labcoat",
+   "hair": "bun",
+   "hairColor": "#3A2A1A",
+   "glasses": "round",
+   "skin": "light",
+   "name": "Government chemist"
+  }
+ },
+ "voices": {
+  "stanley": "am_eric",
+  "chemist": "bf_alice"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "America's most famous snake oil turned out to have zero snake in it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.38,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "SNAKE OIL"
+     }
+    ],
+    "place": "Chicago, Illinois · 1893"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 1890s, Clark Stanley dressed like a cowboy and called himself the Rattlesnake King.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.38,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.5,
+      "text": "RATTLESNAKE KING"
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.35,
+      "flag": "usa1859"
+     }
+    ],
+    "tag": {
+     "id": "stanley",
+     "text": "Clark Stanley"
+    }
+   }
+  },
+  {
+   "who": "stanley",
+   "say": "Snake Oil Liniment! For every ache and pain!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.45,
+      "pose": "present",
+      "mood": "shout",
+      "hold": "bottle"
+     }
+    ],
+    "cam": "close",
+    "focus": "stanley"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By his own account, he boiled rattlesnakes in front of crowds to show where the oil came from.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.32,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.65,
+      "s": 0.4
+     },
+     {
+      "k": "barrel",
+      "x": 0.65,
+      "s": 0.35,
+      "label": "POT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He sold it for over twenty years. Then, in 1916, government chemists tested a shipment.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "chemist",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "place": "United States · 1916"
+   }
+  },
+  {
+   "who": "chemist",
+   "say": "Mineral oil, beef fat, red pepper, turpentine. No snake!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "chemist",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "chemist"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His punishment? A twenty-dollar fine.",
+   "show": {
+    "k": "card",
+    "label": "Clark Stanley's fine",
+    "big": "$20",
+    "sub": "for mislabeling, 1917"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's partly why calling something snake oil means it's a fake.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE CURE",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "stanley",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Rattlesnake King's oil had no rattlesnake in it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #snakeoil #americanhistory #weirdhistory #historytok",
+ "youtube_title": "The Original Snake Oil Had No Snake in It #shorts",
+ "tags": [
+  "snake oil",
+  "clark stanley",
+  "quack medicine",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Clark_Stanley",
+  "https://www.si.edu/object/nmah_1298331",
+  "https://www.smithsonianmag.com/innovation/how-snake-oil-became-a-symbol-of-fraud-and-deception-180985300/",
+  "https://clements.umich.edu/publication/schemers-cons-and-grifters/the-original-snake-oil-salesman/"
+ ]
+}

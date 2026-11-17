@@ -1,0 +1,2467 @@
+{
+ "id": "2027w02-l3",
+ "format": "long",
+ "date": "2027-01-15",
+ "title": "How the Roman Empire Made (and Lost) Its Money",
+ "music": "playful",
+ "cast": {
+  "host": {
+   "preset": "host",
+   "name": "Host"
+  },
+  "paullus": {
+   "hat": "laurel",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#BDBDBD",
+   "skin": "light",
+   "name": "Aemilius Paullus"
+  },
+  "citizen": {
+   "preset": "roman",
+   "name": "Roman citizen"
+  },
+  "citizen2": {
+   "outfit": "tunic",
+   "color": "#2F7A6A",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "skin": "tan",
+   "name": "Roman citizen"
+  },
+  "soldier": {
+   "preset": "legionary",
+   "skin": "olive",
+   "name": "Roman soldier"
+  },
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "publicanus": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A8A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "hold": "scroll",
+   "name": "Tax contractor"
+  },
+  "farmer": {
+   "outfit": "tunic",
+   "color": "#7A5A3A",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "tan",
+   "name": "Greek farmer"
+  },
+  "rutilius": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Rutilius Rufus"
+  },
+  "augustus": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#6A3E8E",
+   "hair": "side",
+   "hairColor": "#8A5A2A",
+   "skin": "light",
+   "name": "Augustus"
+  },
+  "senator": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#8E2A2A",
+   "hair": "bald",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Senator"
+  },
+  "juvenal": {
+   "outfit": "toga",
+   "color": "#E8E2D0",
+   "color2": "#5A4A3A",
+   "hair": "short",
+   "hairColor": "#5A3A22",
+   "beard": "goatee",
+   "skin": "olive",
+   "hold": "scroll",
+   "name": "Juvenal"
+  },
+  "severus": {
+   "hat": "laurel",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "color2": "#D4A52A",
+   "hair": "curly",
+   "hairColor": "#6A6A6A",
+   "beard": "full",
+   "skin": "tan",
+   "name": "Septimius Severus"
+  },
+  "baker": {
+   "outfit": "tunic",
+   "color": "#C8A060",
+   "apron": true,
+   "hair": "bald",
+   "stache": "bush",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "hold": "bread",
+   "name": "Baker"
+  },
+  "diocletian": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "beard": "full",
+   "skin": "light",
+   "name": "Diocletian"
+  },
+  "constantine": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#4A3222",
+   "skin": "light",
+   "hold": "coin",
+   "name": "Constantine"
+  },
+  "odoacer": {
+   "outfit": "fur",
+   "color": "#6A4A2A",
+   "hair": "long",
+   "hairColor": "#C8A060",
+   "beard": "full",
+   "skin": "peach",
+   "name": "Odoacer"
+  },
+  "minter": {
+   "preset": "roman",
+   "color": "#8A6A4A",
+   "hold": "hammer",
+   "stubble": true,
+   "name": "Mint worker"
+  },
+  "romulus": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#8A5A2A",
+   "skin": "light",
+   "name": "Romulus Augustulus"
+  }
+ },
+ "voices": {
+  "citizen": "am_puck",
+  "paullus": "bm_george",
+  "publicanus": "bm_lewis",
+  "farmer": "am_echo",
+  "augustus": "bm_daniel",
+  "senator": "am_eric",
+  "soldier": "am_liam",
+  "baker": "am_fenrir",
+  "odoacer": "am_onyx",
+  "romulus": "am_adam"
+ },
+ "description": "Rome got so rich from conquest that its citizens stopped paying direct taxes. Six hundred years later, the Western empire couldn't pay its soldiers. In plain words, we follow the money: loot, private tax collectors, a giant army bill, free grain, shrinking silver coins, inflation, Constantine's gold solidus and how the West finally went broke.\n\nChapters are added automatically.\n\n#history #romanempire #ancientrome #moneyhistory #animatedhistory",
+ "thumbnail": {
+  "style": "redbox",
+  "title": "ROME = BROKE?",
+  "bg": "rome",
+  "lines": [
+   "ROME =",
+   "BROKE?"
+  ],
+  "main": {
+   "id": "soldier",
+   "mood": "shock",
+   "hold": "coin"
+  },
+  "second": {
+   "id": "augustus",
+   "mood": "scared",
+   "hold": "moneybag"
+  }
+ },
+ "youtube_title": "How the Roman Empire Made (and Lost) Its Money",
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome, 167 BC. A victory parade rolls through the city, and it's hauling a king's entire treasure.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "paullus",
+      "x": 0.32,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.62,
+      "s": 0.5,
+      "load": "gold",
+      "label": "ROYAL TREASURE"
+     },
+     {
+      "k": "chest",
+      "x": 0.86,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "167 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "A KING'S TREASURE",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Rome · 167 BC",
+    "tag": {
+     "id": "paullus",
+     "text": "General Aemilius Paullus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The general Aemilius Paullus has just conquered Macedonia, the old homeland of Alexander the Great.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "paullus",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.15,
+      "s": 0.45,
+      "flag": "rome"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MACEDONIA",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His loot was so huge that Roman citizens stopped paying direct taxes, for more than a hundred years.",
+   "show": {
+    "k": "card",
+    "label": "Direct tax on Roman citizens",
+    "big": "STOPPED",
+    "sub": "from 167 BC until 43 BC"
+   }
+  },
+  {
+   "who": "citizen",
+   "say": "Wait. No taxes? Like, ever?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.32,
+      "mood": "shock",
+      "pose": "cheer"
+     },
+     {
+      "id": "paullus",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "paullus",
+   "say": "Let's not say ever."
+  },
+  {
+   "who": "N",
+   "say": "About six hundred years later, the Western Roman Empire couldn't even pay its own soldiers.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "EMPTY"
+     },
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABOUT AD 450",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "NO PAY",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how do you go from no taxes to flat broke? Today: how Rome made its money, and how it lost it. In plain words, promise.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.5,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.45
+     },
+     {
+      "k": "chest",
+      "x": 0.85,
+      "s": 0.4,
+      "label": "EMPTY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TAXES",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "COINS",
+      "at": 1.7,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "BROKE",
+      "at": 2.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "How the Roman Empire Made (and Lost) Its Money",
+    "sub": "loot, taxes, coins and a very big army",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.86,
+      "mood": "shock",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "200 BC",
+    "title": "Get Rich by Conquering",
+    "bg": "battlefield"
+   }
+  },
+  {
+   "who": "N",
+   "say": "First, how did Rome get rich? Simple. It conquered its neighbors and took their stuff.",
+   "show": {
+    "k": "map",
+    "lon": 14.0,
+    "lat": 39.0,
+    "z0": 1.05,
+    "z1": 1.25,
+    "date": "200 BC",
+    "labels": [
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ],
+     [
+      "Carthage",
+      10.3,
+      36.85,
+      14
+     ],
+     [
+      "Spain",
+      -4.0,
+      40.0,
+      14
+     ],
+     [
+      "Macedonia",
+      22.5,
+      40.8,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      12.5,
+      41.9,
+      1.2,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then Rome was a republic, run by elected officials and the Senate, a council of rich, powerful men.",
+   "show": {
+    "k": "flag",
+    "flag": "rome",
+    "label": "THE ROMAN REPUBLIC",
+    "sub": "no king, just elected officials and the Senate",
+    "bg": "rome"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every war brought home loot: gold, silver, art, and prisoners sold into slavery.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.6,
+      "s": 0.5,
+      "load": "gold",
+      "move": [
+       0.45,
+       0.7
+      ]
+     },
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LOOT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "After beating Carthage, a rival city in North Africa, Rome took over its silver mines in Spain.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.7,
+      "s": 0.55,
+      "label": "Silver mine"
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.4,
+      "flag": "rome"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SILVER",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "New Carthage, Spain · about 150 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Greek historian Polybius wrote that forty thousand workers labored in the mines near one Spanish city."
+  },
+  {
+   "who": "N",
+   "say": "And they earned the Roman state about twenty-five thousand drachmas, Greek silver coins, every single day.",
+   "show": {
+    "k": "card",
+    "label": "Silver mines near New Carthage",
+    "big": "25,000",
+    "sub": "drachmas a day for Rome, says Polybius"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even Julius Caesar got rich this way. He conquered Gaul, roughly modern France, in the 50s BC.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.38,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.4,
+      "flag": "rome"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "50s BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "GAUL",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Gaul · 50s BC",
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Suetonius, a Roman writer, says Caesar brought back so much gold that he sold it cheap all over Italy."
+  },
+  {
+   "who": "N",
+   "say": "But conquest has one problem. Eventually, you run out of rich neighbors.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.5,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.4,
+      "label": "EMPTY"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "123 BC",
+    "title": "The Tax Collectors",
+    "bg": "greek"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Conquered lands became provinces, and provinces paid taxes. Take Asia, a rich province in what's now western Turkey.",
+   "show": {
+    "k": "map",
+    "lon": 28.5,
+    "lat": 38.6,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "123 BC",
+    "labels": [
+     [
+      "Province of Asia",
+      29.0,
+      39.2,
+      14
+     ],
+     [
+      "Ephesus",
+      27.34,
+      37.94,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      28.5,
+      38.6,
+      2.2,
+      "rgba(212,165,42,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Rome had no tax office. So it hired private companies called publicani.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "publicanus",
+      "x": 0.38,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.45
+     },
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PUBLICANI",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Rome · 100s BC",
+    "tag": {
+     "id": "publicanus",
+     "text": "A publicanus (tax contractor)"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "They bid at an auction in Rome for a province's taxes. The winner paid the state up front."
+  },
+  {
+   "who": "N",
+   "say": "Then everything they squeezed out of the province above that price was their profit.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "publicanus",
+      "x": 0.32,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "farmer",
+      "x": 0.66,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.88,
+      "s": 0.4,
+      "load": "gold"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PROFIT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Province of Asia · 1st century BC"
+   }
+  },
+  {
+   "who": "publicanus",
+   "say": "Good news! Your taxes are due.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "publicanus",
+      "x": 0.32,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "farmer",
+      "x": 0.66,
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "HARVEST"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "I paid last month."
+  },
+  {
+   "who": "publicanus",
+   "say": "Those were the old taxes. These are the new ones."
+  },
+  {
+   "who": "N",
+   "say": "Governors who protected locals could pay for it. In 92 BC, an honest official named Rutilius Rufus was put on trial in Rome and convicted anyway.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "rutilius",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "92 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "CONVICTED",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Rome · 92 BC",
+    "tag": {
+     "id": "rutilius",
+     "text": "Rutilius Rufus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So where did he spend his exile? In Asia, among the very people he had protected. They welcomed him.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "rutilius",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "farmer",
+      "x": 0.66,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SMYRNA",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "No wonder tax collectors were hated. Old English Bibles even call them publicans.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.45,
+      "text": "PUBLICANS"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "AD 6",
+    "title": "The Army: Rome's Biggest Bill",
+    "bg": "camp"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After years of civil war, Augustus became Rome's first emperor. He ruled from 27 BC to AD 14.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "27 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "FIRST EMPEROR",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Rome · 27 BC",
+    "tag": {
+     "id": "augustus",
+     "text": "Augustus, first emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He kept a full-time, professional army, paid all year round, war or no war.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "salute"
+     },
+     {
+      "id": "soldier",
+      "x": 0.55,
+      "pose": "salute",
+      "flip": true
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.5
+     },
+     {
+      "k": "flag",
+      "x": 0.1,
+      "s": 0.45,
+      "flag": "rome"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And it was big. Twenty-eight legions, plus helper troops.",
+   "show": {
+    "k": "card",
+    "label": "Rome's army under Augustus",
+    "big": "28 LEGIONS",
+    "sub": "roughly a quarter of a million men with helper troops (estimate)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians estimate the army ate up at least half of the whole empire's budget.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     },
+     {
+      "k": "goldpile",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HALF THE BUDGET",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soldiers also expected a big cash bonus when they retired, after about twenty years of service."
+  },
+  {
+   "who": "N",
+   "say": "A regular soldier earned about ten copper coins a day. The historian Tacitus says mutinous soldiers complained that wasn't enough to live on.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "angry",
+      "pose": "fist"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "10 COINS A DAY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So in AD 6, Augustus set up a military treasury, funded by a new five percent tax on inheritances.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.32,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "senator",
+      "x": 0.66,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.35,
+      "label": "ARMY FUND"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AD 6",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "5% INHERITANCE TAX",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Rome · AD 6"
+   }
+  },
+  {
+   "who": "senator",
+   "say": "A tax on what our families inherit? Outrageous!",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.32,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "augustus",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "augustus",
+   "say": "Fine. Suggest a better one."
+  },
+  {
+   "who": "N",
+   "say": "The historian Cassius Dio says the senators came up with nothing. Later, Augustus hinted at a tax on land instead, and suddenly the inheritance tax looked great.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "senator",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "scared"
+     },
+     {
+      "id": "augustus",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.88,
+      "s": 0.35,
+      "text": "LAND TAX?"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "2 BC",
+    "title": "Bread and Circuses",
+    "bg": "wheat"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The second giant bill was feeding Rome itself, a city of maybe a million people.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "bread"
+     },
+     {
+      "id": "citizen2",
+      "x": 0.6,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "GRAIN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,000,000 PEOPLE?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Rome · 2 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Since 58 BC, poor citizens could get free grain, about thirty-three kilos of wheat a month."
+  },
+  {
+   "who": "N",
+   "say": "Augustus bragged that a little over two hundred thousand people were on the free grain list.",
+   "show": {
+    "k": "card",
+    "label": "Free grain list under Augustus, 2 BC",
+    "big": "200,000+",
+    "sub": "about 33 kg of wheat each, every month"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Much of that grain came by sea from Egypt, which Augustus had taken in 30 BC.",
+   "show": {
+    "k": "map",
+    "lon": 21.0,
+    "lat": 36.0,
+    "z0": 1.2,
+    "z1": 1.4,
+    "date": "AD 1",
+    "labels": [
+     [
+      "Alexandria",
+      29.92,
+      31.2,
+      14
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ],
+     [
+      "Egypt",
+      30.5,
+      27.5,
+      14
+     ]
+    ],
+    "route": [
+     [
+      29.92,
+      31.2
+     ],
+     [
+      26.0,
+      33.5
+     ],
+     [
+      20.0,
+      35.5
+     ],
+     [
+      15.6,
+      37.5
+     ],
+     [
+      12.3,
+      41.7
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Big grain ships sailed from Alexandria to Italy. If they came late, Rome got hungry, and a hungry Rome got angry.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "citizen2",
+      "x": 0.25,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.62,
+      "s": 0.6,
+      "flag": "rome"
+     },
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "GRAIN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GRAIN FLEET",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Ostia, Rome's port · 1st century AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Feeding people wasn't just kindness. Hungry crowds rioted, and riots could bring down a ruler."
+  },
+  {
+   "who": "N",
+   "say": "Emperors also paid for shows: chariot races and gladiator games, to keep the crowds happy.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     {
+      "id": "citizen2",
+      "x": 0.55,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CHARIOT RACES",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "GAMES",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around AD 100, a poet named Juvenal mocked his fellow Romans for it. They used to choose armies and leaders. But now, he wrote:",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "juvenal",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.4,
+      "text": "SATIRE 10"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABOUT AD 100",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "juvenal",
+     "text": "Juvenal, Roman poet"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The people now meddles no more, and longs eagerly for just two things: bread and games!",
+   "show": {
+    "k": "quote",
+    "text": "The people … now meddles no more, and longs eagerly for just two things: Bread and Games!",
+    "who": "Juvenal, Satire 10 (about AD 100), trans. G. G. Ramsay"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's where we get bread and circuses: keep people fed and entertained, and they stop asking hard questions.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "bread",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.45,
+      "text": "BREAD + CIRCUSES"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "AD 235",
+    "title": "The Shrinking Silver Coin",
+    "bg": "camp"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how did Rome pay all these bills? With coins, mostly a silver coin called the denarius.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "coin",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DENARIUS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Under Augustus, a denarius was almost pure silver. A coin was worth what its metal was worth."
+  },
+  {
+   "who": "N",
+   "say": "But what if you're short on silver? Easy trick: mix in cheap copper, and make more coins from the same silver. That's called debasement.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "minter",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.78,
+      "s": 0.45,
+      "load": "gold",
+      "label": "+ COPPER"
+     },
+     {
+      "k": "chest",
+      "x": 0.12,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEBASEMENT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Nero started trimming the denarius around AD 64. Later emperors kept going."
+  },
+  {
+   "who": "N",
+   "say": "Then came Septimius Severus, a tough general from North Africa who grabbed the throne in 193. He raised soldiers' pay a lot.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "severus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.45,
+      "flag": "rome"
+     },
+     {
+      "k": "chest",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AD 193",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "PAY RAISE",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Roman Empire · AD 193",
+    "tag": {
+     "id": "severus",
+     "text": "Emperor Septimius Severus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 211, dying in Britain, he gave his sons this advice, according to the historian Cassius Dio.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "severus",
+      "x": 0.45,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "York, Britain · AD 211"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Be harmonious, enrich the soldiers, and scorn all other men.",
+   "show": {
+    "k": "quote",
+    "text": "Be harmonious, enrich the soldiers, and scorn all other men.",
+    "who": "Septimius Severus to his sons, AD 211, as reported by Cassius Dio"
+   }
+  },
+  {
+   "who": "N",
+   "say": "From AD 235, things fell apart. In about fifty years, more than twenty men claimed the throne, and most died violently.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "severus",
+      "x": 0.65,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AD 235",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "20+ EMPERORS",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For a while the empire even split into three pieces.",
+   "show": {
+    "k": "map",
+    "lon": 16.0,
+    "lat": 44.0,
+    "z0": 1.0,
+    "z1": 1.15,
+    "date": "AD 270",
+    "labels": [
+     [
+      "Gallic Empire",
+      1.0,
+      47.5,
+      14
+     ],
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ],
+     [
+      "Palmyra",
+      38.27,
+      34.55,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      1.0,
+      47.5,
+      4.0,
+      "rgba(47,111,194,.35)"
+     ],
+     [
+      36.5,
+      33.0,
+      4.0,
+      "rgba(212,165,42,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Every new emperor needed cash for the army, fast. So they kept adding copper.",
+   "show": {
+    "k": "card",
+    "label": "Silver in Rome's everyday 'silver' coin",
+    "big": "98% → 2%",
+    "sub": "Augustus vs. the worst coins of the 260s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Remember: an emperor whose soldiers didn't get paid usually didn't stay emperor for long.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "soldier",
+      "x": 0.6,
+      "mood": "angry",
+      "pose": "point",
+      "flip": true
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.88,
+      "s": 0.35,
+      "label": "EMPTY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "One loaf, please.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.32,
+      "mood": "happy",
+      "hold": "coin"
+     },
+     {
+      "id": "baker",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "BREAD"
+     }
+    ],
+    "cam": "still",
+    "place": "A Roman market · AD 260s"
+   }
+  },
+  {
+   "who": "baker",
+   "say": "Sure. That'll be a whole bag of those."
+  },
+  {
+   "who": "soldier",
+   "say": "Last year it was one coin!"
+  },
+  {
+   "who": "baker",
+   "say": "Last year your coin had silver in it."
+  },
+  {
+   "who": "N",
+   "say": "That's inflation: when money is worth less, prices go up. People could see the coins were junk, so they wanted more of them.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.5,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.18,
+      "s": 0.45,
+      "text": "WORSE COINS"
+     },
+     {
+      "k": "sign",
+      "x": 0.82,
+      "s": 0.45,
+      "text": "HIGHER PRICES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "INFLATION",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "AD 312",
+    "title": "The Golden Fix",
+    "bg": "palace"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Diocletian, who took power in 284, tried to fix things. He reorganized taxes, and in 301 he set maximum prices for more than a thousand goods.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "diocletian",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.45,
+      "text": "MAX PRICES"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AD 301",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Roman Empire · AD 301",
+    "tag": {
+     "id": "diocletian",
+     "text": "Emperor Diocletian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It flopped. Lactantius, a writer who hated Diocletian, says goods simply vanished from the markets.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "baker",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.4,
+      "label": "EMPTY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FLOP",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Since the coins were junk, Diocletian also collected many taxes as goods instead of cash: grain, wine, meat and clothing for the army.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.65,
+      "s": 0.5,
+      "label": "TAX IN GRAIN"
+     },
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "WINE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TAXES IN FOOD",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The real fix came from Constantine, who took control of the West in 312.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "constantine",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AD 312",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Rome · AD 312",
+    "tag": {
+     "id": "constantine",
+     "text": "Emperor Constantine"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He built the money system around a new gold coin, the solidus, and kept it honest: seventy-two coins from every Roman pound of gold.",
+   "show": {
+    "k": "card",
+    "label": "Solidi struck from one Roman pound of gold",
+    "big": "72",
+    "sub": "each about 4.5 grams of nearly pure gold"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 330 he opened a new capital in the East, Constantinople, today's Istanbul.",
+   "show": {
+    "k": "map",
+    "lon": 28.97,
+    "lat": 41.0,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "AD 330",
+    "labels": [
+     [
+      "Constantinople",
+      28.97,
+      41.01,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      28.97,
+      41.01,
+      0.4,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The solidus kept its gold for about seven hundred years. Merchants far beyond the empire trusted it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "constantine",
+      "x": 0.35,
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.55,
+      "flag": "rome"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "700 YEARS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lesson: people will use money they trust. But a good coin only helps if you have the gold, and the taxes, to back it."
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "AD 439",
+    "title": "The West Runs Out of Money",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By the 400s, the empire had split into an Eastern half and a Western half, each with its own emperor.",
+   "show": {
+    "k": "map",
+    "lon": 16.0,
+    "lat": 38.0,
+    "z0": 1.1,
+    "z1": 1.3,
+    "date": "AD 439",
+    "labels": [
+     [
+      "Rome",
+      12.5,
+      41.9,
+      14
+     ],
+     [
+      "Carthage",
+      10.3,
+      36.85,
+      14
+     ],
+     [
+      "Constantinople",
+      28.97,
+      41.01,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      10.3,
+      36.85,
+      1.5,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The East kept rich lands like Egypt. The West was poorer, and attacked from all sides."
+  },
+  {
+   "who": "N",
+   "say": "Here's the trap. Less land means less tax. Less tax means fewer soldiers. Fewer soldiers means you lose more land.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.5,
+      "mood": "shock",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.15,
+      "s": 0.4,
+      "text": "LESS LAND"
+     },
+     {
+      "k": "sign",
+      "x": 0.85,
+      "s": 0.4,
+      "text": "LESS TAX"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LESS LAND",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "LESS TAX",
+      "at": 1.7,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "FEWER SOLDIERS",
+      "at": 2.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, in 439, a people called the Vandals captured Carthage, the capital of Roman North Africa, and the West's richest source of taxes.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.7,
+      "s": 0.55
+     },
+     {
+      "k": "fire",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AD 439",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "CARTHAGE LOST",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "Carthage, North Africa · AD 439"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Without that money, the West struggled to pay its armies, and leaned more and more on hired soldiers from outside."
+  },
+  {
+   "who": "N",
+   "say": "And hired soldiers wanted pay, or land. When Rome couldn't give them either, they started taking it."
+  },
+  {
+   "who": "N",
+   "say": "In Britain, Roman rule had already ended around 410. Someone there buried nearly fifteen thousand coins and never came back for them.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "citizen2",
+      "x": 0.35,
+      "mood": "scared",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.65,
+      "s": 0.45
+     },
+     {
+      "k": "tree",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABOUT AD 410",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Hoxne, Britain · about AD 410"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 476, Odoacer, the leader of the hired soldiers in Italy, removed the last Western emperor, a teenager called Romulus Augustulus.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "odoacer",
+      "x": 0.32,
+      "mood": "smug",
+      "pose": "hips"
+     },
+     {
+      "id": "romulus",
+      "x": 0.68,
+      "mood": "scared",
+      "s": 0.85
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AD 476",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Ravenna, Italy · AD 476",
+    "tag": {
+     "id": "odoacer",
+     "text": "Odoacer"
+    }
+   }
+  },
+  {
+   "who": "odoacer",
+   "say": "My men asked for land. Your side said no.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "odoacer",
+      "x": 0.32,
+      "mood": "angry",
+      "pose": "point"
+     },
+     {
+      "id": "romulus",
+      "x": 0.68,
+      "mood": "scared",
+      "s": 0.85
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "romulus",
+   "say": "So... I'm fired?"
+  },
+  {
+   "who": "N",
+   "say": "Odoacer didn't even kill him. He sent him to live near Naples, with a yearly income of six thousand gold solidi.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "romulus",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "wave",
+      "s": 0.85
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.9,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "6,000 SOLIDI",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile the Eastern empire, with its tax money and its gold solidus, kept going for almost another thousand years.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "constantine",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ALMOST 1,000 MORE YEARS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Rome got rich by conquering, and spent it on soldiers, grain and games. When the conquering stopped, it cheated with its coins.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "augustus",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "soldier",
+      "x": 0.6,
+      "mood": "happy",
+      "hold": "coin"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And when the taxes ran out, so did the Western empire. Turns out an empire works like your bank account: you can't spend money you don't have. Not for long."
+  },
+  {
+   "who": "N",
+   "say": "Subscribe, and next time: the entire history of the Mughal Empire in ten minutes.",
+   "show": {
+    "k": "end",
+    "next": "The ENTIRE History of the Mughal Empire in 10 Minutes",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.8,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "augustus",
+      "x": 0.9,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "tags": [
+  "roman empire",
+  "ancient rome",
+  "roman economy",
+  "roman money",
+  "debasement",
+  "inflation",
+  "solidus",
+  "publicani",
+  "bread and circuses",
+  "fall of rome",
+  "augustus",
+  "constantine",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Roman_economy",
+  "https://en.wikipedia.org/wiki/Roman_finance",
+  "https://en.wikipedia.org/wiki/Tributum",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Aemilius_Paullus*.html",
+  "https://www.attalus.org/bc2/year167.html",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/3B*.html",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius*.html",
+  "https://en.wikipedia.org/wiki/Publicani",
+  "https://brewminate.com/publicans-shareholder-owned-corporations-in-ancient-rome/",
+  "https://en.wikipedia.org/wiki/Publius_Rutilius_Rufus",
+  "https://en.wikipedia.org/wiki/Aerarium_militare",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/56*.html",
+  "https://en.wikipedia.org/wiki/Cura_annonae",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/3*.html",
+  "https://en.wikipedia.org/wiki/Bread_and_circuses",
+  "https://tertullian.org/fathers/juvenal_satires_10.htm",
+  "https://en.wikipedia.org/wiki/Denarius",
+  "https://www.thecollector.com/inflation-third-century-crisis/",
+  "https://coinweek.com/ngc-ancients-the-decline-of-roman-imperial-silver-coinage-part-ii/",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/77*.html",
+  "https://ostia-antica.org/caracalla/historians/cassius-dio.htm",
+  "https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century",
+  "https://en.wikipedia.org/wiki/Edict_on_Maximum_Prices",
+  "https://en.wikipedia.org/wiki/Solidus_(coin)",
+  "https://en.wikipedia.org/wiki/Byzantine_coinage",
+  "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire",
+  "https://en.wikipedia.org/wiki/Romulus_Augustulus",
+  "https://en.wikipedia.org/wiki/Hoxne_Hoard",
+  "https://www.britannica.com/place/Roman-Empire"
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "id": "2027w02-s16",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "The Golf Champion Who Drank Radioactive Water",
+ "hook": "HE DRANK RADIUM WATER",
+ "topic": "Eben Byers",
+ "music": "warm",
+ "cast": {
+  "byers": {
+   "outfit": "suit",
+   "color": "#6A5A48",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Eben Byers"
+  },
+  "bailey": {
+   "outfit": "suit",
+   "color": "#3A3E46",
+   "hair": "side",
+   "hairColor": "#2A1E16",
+   "glasses": "round",
+   "skin": "light",
+   "name": "William Bailey"
+  }
+ },
+ "voices": {
+  "byers": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In the 1920s, a rich golf champion drank radioactive water, believing it was medicine.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "byers",
+      "x": 0.38,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "car",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "place": "Pittsburgh · 1927",
+    "tag": {
+     "id": "byers",
+     "text": "Eben Byers"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Radium glows in the dark, so many people believed it was full of healthy energy.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "bailey",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "atom",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "IT GLOWS!",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A company sold Radithor: water mixed with radium, labeled Certified Radioactive Water.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "bailey",
+      "x": 0.38,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "RADITHOR"
+     }
+    ],
+    "tag": {
+     "id": "bailey",
+     "text": "William Bailey, its seller"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Eben Byers, a Pittsburgh steel businessman, hurt his arm in 1927 and started drinking it.",
+   "show": {
+    "k": "map",
+    "lon": -79.5,
+    "lat": 40.6,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "1927",
+    "labels": [
+     [
+      "PITTSBURGH",
+      -80.0,
+      40.44,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -80.0,
+      40.44,
+      0.5,
+      "rgba(212,160,16,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "byers",
+   "say": "I feel wonderful! Another bottle, please!",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "byers",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "cam": "close",
+    "focus": "byers"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over a few years, he drank roughly fourteen hundred bottles.",
+   "show": {
+    "k": "card",
+    "label": "Bottles Byers drank",
+    "big": "≈1,400",
+    "sub": "1927 to about 1930"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But radium collects in the bones and slowly destroys them. Byers died in 1932, at fifty-one.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "byers",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His death made headlines, and helped give U.S. health regulators more power over fake cures.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "bailey",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "RADITHOR"
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.35,
+      "flag": "usa48"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHUT DOWN",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "byers",
+      "x": 0.35,
+      "pose": "stand",
+      "mood": "neutral"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Radium water was sold as a health tonic in the 1920s.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #radium #medicalhistory #1920s #historytok",
+ "youtube_title": "The Golf Champion Who Drank Radioactive Water #shorts",
+ "tags": [
+  "eben byers",
+  "radithor",
+  "radium",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Eben_Byers",
+  "https://en.wikipedia.org/wiki/Radithor",
+  "https://www.orau.org/health-physics-museum/collection/radioactive-quack-cures/pills-potions-and-other-miscellany/radithor.html",
+  "https://www.popsci.com/science/radioactive-water/"
+ ]
+}

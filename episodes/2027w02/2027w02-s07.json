@@ -1,0 +1,282 @@
+{
+ "id": "2027w02-s07",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "The Emperor Who Lost His Nose and Came Back",
+ "hook": "HE LOST HIS NOSE",
+ "topic": "Justinian II",
+ "music": "playful",
+ "cast": {
+  "justinian2": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Justinian II"
+  },
+  "citizen": {
+   "outfit": "tunic",
+   "color": "#C8702A",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "goatee",
+   "skin": "olive"
+  },
+  "horse": {
+   "animal": "horse",
+   "color": "#8A5A34",
+   "mood": "neutral"
+  }
+ },
+ "voices": {
+  "justinian2": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Byzantine emperor lost his throne and his nose. He only got one of them back.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "justinian2",
+      "x": 0.4,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "place": "Constantinople · 695 AD",
+    "tag": {
+     "id": "justinian2",
+     "text": "Emperor Justinian II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Justinian the Second ruled the eastern Roman Empire from 685.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "justinian2",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He made a lot of enemies, and in 695 he was overthrown.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His rivals cut off his nose, since a disfigured man supposedly couldn't be emperor. Then they exiled him to Cherson, on the Black Sea.",
+   "show": {
+    "k": "map",
+    "lon": 31,
+    "lat": 43,
+    "z0": 2.0,
+    "z1": 2.2,
+    "date": "695 AD",
+    "labels": [
+     [
+      "Cherson",
+      33.5,
+      44.6,
+      0
+     ],
+     [
+      "Constantinople",
+      28.98,
+      41.01,
+      0
+     ]
+    ],
+    "route": [
+     [
+      28.98,
+      41.01
+     ],
+     [
+      31,
+      43
+     ],
+     [
+      33.5,
+      44.6
+     ]
+    ]
+   }
+  },
+  {
+   "who": "justinian2",
+   "say": "No nose? No problem. I'll be back.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "justinian2",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "place": "Cherson · around 700 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 705, he returned with Bulgar horsemen and retook his throne.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "justinian2",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "horse",
+      "x": 0.65
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "705: HE'S BACK",
+      "at": 1.0,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later stories say he wore a golden nose. That part might be a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "justinian2",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND?",
+      "at": 0.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Lesson: in Byzantium, losing your nose didn't mean losing your crown forever."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "justinian2",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "citizen",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Overthrown, mutilated, exiled, and back on the throne ten years later.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #byzantineempire #justinianii #weirdhistory #historytok",
+ "youtube_title": "The Emperor Who Lost His Nose and Came Back #shorts",
+ "tags": [
+  "justinian ii",
+  "byzantine empire",
+  "byzantine emperor",
+  "weird history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.britannica.com/biography/Justinian-II",
+  "https://www.worldhistory.org/Justinian_II/",
+  "https://en.wikipedia.org/wiki/Justinian_II",
+  "https://en.wikipedia.org/wiki/Rhinotomy"
+ ]
+}

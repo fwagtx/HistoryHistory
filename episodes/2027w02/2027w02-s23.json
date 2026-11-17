@@ -1,0 +1,240 @@
+{
+ "id": "2027w02-s23",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "The Barber Pole Probably Comes From Bloodletting",
+ "hook": "WHY BARBER POLES?",
+ "topic": "The Barber Pole",
+ "music": "playful",
+ "cast": {
+  "barber": {
+   "outfit": "tunic",
+   "color": "#E8E4D8",
+   "apron": true,
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "goatee",
+   "skin": "light",
+   "name": "Barber-surgeon"
+  },
+  "customer": {
+   "outfit": "coat",
+   "color": "#6A4A3A",
+   "hat": "capotain",
+   "hatColor": "#262322",
+   "hair": "long",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Customer"
+  }
+ },
+ "voices": {
+  "barber": "bm_lewis",
+  "customer": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "That red and white barber pole probably comes from bloodletting.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.38,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.68,
+      "s": 0.45,
+      "flag": "red",
+      "label": "BARBER"
+     }
+    ],
+    "place": "London, England · 1600s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "For centuries, barbers didn't just cut hair. They also pulled teeth and let blood.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HAIRCUTS",
+      "at": 0.6,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "TEETH",
+      "at": 1.4,
+      "color": "#B8860B"
+     },
+     {
+      "text": "BLOOD",
+      "at": 2.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Doctors believed draining blood could cure illness, and barbers did the job cheaply.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ]
+   }
+  },
+  {
+   "who": "customer",
+   "say": "Just a trim, please.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "customer",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "neutral"
+     },
+     {
+      "id": "barber",
+      "x": 0.65,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "barber",
+   "say": "And a little bloodletting while you wait?",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "barber"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The most popular explanation: patients gripped a pole, and afterward, bandages were hung outside to dry.",
+   "show": {
+    "k": "scene",
+    "bg": "village",
+    "cast": [
+     {
+      "id": "customer",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.7,
+      "s": 0.5,
+      "flag": "white",
+      "label": "BANDAGES"
+     }
+    ],
+    "place": "England · 1700s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Wrapped by the wind around the pole, they made red and white stripes.",
+   "show": {
+    "k": "card",
+    "label": "The barber pole",
+    "big": "RED + WHITE",
+    "sub": "the most popular explanation"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1745, London's surgeons split from the barbers. The pole stayed with the barbers.",
+   "show": {
+    "k": "map",
+    "lon": -0.5,
+    "lat": 51.5,
+    "z0": 3.0,
+    "z1": 3.3,
+    "date": "1745",
+    "labels": [
+     [
+      "LONDON",
+      -0.1,
+      51.5,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history hiding in plain sight.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "barber",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Your haircut used to come with a side of bloodletting.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #barber #medicalhistory #weirdhistory #historytok",
+ "youtube_title": "The Barber Pole Probably Comes From Bloodletting #shorts",
+ "tags": [
+  "barber pole",
+  "barber surgeons",
+  "bloodletting",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.snopes.com/articles/465529/origin-of-barber-poles/",
+  "https://en.wikipedia.org/wiki/Barber%27s_pole",
+  "https://www.todayifoundout.com/index.php/2013/10/bloody-history-barber-pole/",
+  "https://en.wikipedia.org/wiki/Barber_surgeon"
+ ]
+}

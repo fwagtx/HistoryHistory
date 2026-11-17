@@ -1,0 +1,249 @@
+{
+ "id": "2027w02-s11",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "The Byzantine Emperor's Throne Had Roaring Robot Lions",
+ "hook": "ROBOT LIONS AND A FLYING THRONE",
+ "topic": "Byzantine Emperor's Throne",
+ "music": "playful",
+ "cast": {
+  "con7": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "beard": "long",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Constantine VII"
+  },
+  "liutprand": {
+   "hat": null,
+   "outfit": "coat",
+   "color": "#3A4A6A",
+   "color2": "#A8322A",
+   "hair": "short",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Liutprand of Cremona",
+   "hold": null
+  }
+ },
+ "voices": {
+  "liutprand": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Byzantine emperor had a throne that rose toward the ceiling, guarded by roaring golden lions.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "con7",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "place": "Constantinople · 949 AD",
+    "tag": {
+     "id": "con7",
+     "text": "Emperor Constantine VII"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 949, an Italian diplomat named Liutprand visited the emperor in Constantinople.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "liutprand",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "liutprand",
+     "text": "Liutprand, Italian diplomat"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He wrote that golden lions roared and beat their tails, and metal birds sang in a golden tree.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "liutprand",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.62,
+      "s": 0.45
+     },
+     {
+      "k": "tree",
+      "x": 0.88,
+      "s": 0.4,
+      "color": "#E8C25A"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ROAR!",
+      "at": 0.8,
+      "color": "#D63A2F"
+     },
+     {
+      "text": "TWEET!",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "liutprand",
+   "say": "Okay. Stay calm. Just bow.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "liutprand",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He bowed to the floor. When he looked up, the emperor was high in the air, in different clothes.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "liutprand",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.68,
+      "s": 0.45,
+      "y": 0.25
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UP!",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Liutprand claimed he wasn't scared, because people had told him about the tricks beforehand.",
+   "show": {
+    "k": "card",
+    "label": "Liutprand's verdict",
+    "big": "NOT SCARED",
+    "sub": "(he says)"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians think hidden machines did it, but nobody knows exactly how. It was all built to impress visitors.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.45,
+      "s": 0.55,
+      "text": "HOW???"
+     },
+     {
+      "k": "desk",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "con7",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "liutprand",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 949, a visitor saw golden lions roar and a throne rise into the air.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #byzantineempire #automata #constantinople #historytok",
+ "youtube_title": "The Byzantine Emperor's Throne Had Roaring Robot Lions #shorts",
+ "tags": [
+  "byzantine throne",
+  "liutprand of cremona",
+  "automata",
+  "byzantine empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Liutprand_of_Cremona",
+  "https://en.wikipedia.org/wiki/Magnaura",
+  "https://leidenmedievalistsblog.nl/articles/robots-at-a-medieval-court-the-automata-of-tenth-century-baghdad-and-constantinople",
+  "https://www.roger-pearse.com/weblog/2010/11/04/byzantine-automata-the-emperor-is-on-the-throne/"
+ ]
+}

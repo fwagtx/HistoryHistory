@@ -1,0 +1,272 @@
+{
+ "id": "2027w02-s32",
+ "format": "short",
+ "date": "2027-01-15",
+ "slot": "09:00",
+ "title": "Rome Has a Hill Made of Millions of Broken Jars",
+ "hook": "A HILL OF OLD JARS",
+ "topic": "Monte Testaccio",
+ "music": "playful",
+ "cast": {
+  "worker1": {
+   "preset": "roman",
+   "color": "#8A6A4A",
+   "stubble": true,
+   "name": "Dock worker"
+  },
+  "worker2": {
+   "outfit": "tunic",
+   "color": "#2F5A8A",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "beard": "full",
+   "skin": "tan",
+   "name": "Dock worker"
+  }
+ },
+ "voices": {
+  "worker1": "am_liam",
+  "worker2": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "There's a hill in Rome made almost entirely of broken pottery.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "worker1",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.68,
+      "s": 0.8,
+      "label": "Monte Testaccio"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BROKEN POTTERY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Rome · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's Monte Testaccio, near Rome's old river docks, and it's about thirty-five meters tall.",
+   "show": {
+    "k": "map",
+    "lon": 12.48,
+    "lat": 41.88,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "AD 200",
+    "labels": [
+     [
+      "Rome",
+      12.48,
+      41.88,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      12.48,
+      41.88,
+      0.3,
+      "rgba(212,165,42,.55)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Experts estimate it holds about fifty-three million smashed jars.",
+   "show": {
+    "k": "card",
+    "label": "Broken jars in Monte Testaccio",
+    "big": "53 MILLION",
+    "sub": "an estimate"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were amphorae: big clay jars that brought olive oil by ship, mostly from southern Spain.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "worker2",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.62,
+      "s": 0.55
+     },
+     {
+      "k": "jar",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "OLIVE OIL"
+     }
+    ],
+    "place": "Rome's river port · 2nd century AD"
+   }
+  },
+  {
+   "who": "worker1",
+   "say": "Should we wash these and use them again?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "worker1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "worker2",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "worker2",
+   "say": "Smell one first."
+  },
+  {
+   "who": "N",
+   "say": "Oil soaked into the clay and went bad. So empty jars were smashed and stacked, very neatly.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "worker2",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.6,
+      "label": "JAR PILE"
+     },
+     {
+      "k": "jar",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SMASH",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "STACK",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many were painted with names and dates, so the hill is basically a giant receipt for Rome's food.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "worker1",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.4,
+      "text": "RECEIPT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GIANT RECEIPT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "worker1",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "worker2",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome used so much olive oil that its empty jars piled up into a hill.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #archaeology #historytok #rome",
+ "youtube_title": "Rome Has a Hill Made of Millions of Broken Jars #shorts",
+ "tags": [
+  "monte testaccio",
+  "amphorae",
+  "olive oil",
+  "ancient rome",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Monte_Testaccio",
+  "https://archaeology.org/issues/march-april-2009/features/trash-talk/",
+  "https://www.atlasobscura.com/places/monte-testaccio",
+  "https://www.openculture.com/2017/11/visit-monte-testaccio-the-ancient-roman-hill-made-of-50-million-crushed-olive-oil-jugs.html"
+ ]
+}

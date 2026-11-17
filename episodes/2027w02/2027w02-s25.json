@@ -1,0 +1,280 @@
+{
+ "id": "2027w02-s25",
+ "format": "short",
+ "date": "2027-01-15",
+ "slot": "09:00",
+ "title": "A Coin Celebrating Caesar's Murder Sold for $4.2 Million",
+ "hook": "THE MURDER COIN",
+ "topic": "EID MAR coin",
+ "music": "playful",
+ "cast": {
+  "brutus": {
+   "outfit": "armor",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "stubble": true,
+   "skin": "light",
+   "hold": "coin",
+   "name": "Marcus Brutus"
+  },
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  },
+  "auctioneer": {
+   "outfit": "suit",
+   "color": "#262322",
+   "hair": "side",
+   "hairColor": "#5A3A22",
+   "skin": "light",
+   "glasses": "square",
+   "name": "Auctioneer"
+  },
+  "bidder": {
+   "outfit": "suit",
+   "color": "#2F5A8A",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "name": "Bidder"
+  }
+ },
+ "voices": {
+  "auctioneer": "bm_lewis",
+  "bidder": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This little gold coin celebrated a murder, and sold for over four million dollars.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "brutus",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "tent",
+      "x": 0.15,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$4.2 MILLION",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Greece · 42 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On March fifteenth, 44 BC, senators killed Julius Caesar, Rome's ruler.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.45,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.15,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "15 MARCH 44 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    },
+    "place": "Rome · 44 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Brutus, one of the killers, needed to pay his army. So he made coins.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "brutus",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "brutus",
+     "text": "Marcus Brutus"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On the back: two daggers, a cap worn by freed slaves, and EID MAR, short for the Ides of March.",
+   "show": {
+    "k": "card",
+    "label": "The back of Brutus's coin",
+    "big": "EID MAR",
+    "sub": "two daggers + a freedom cap = the Ides of March"
+   }
+  },
+  {
+   "who": "auctioneer",
+   "say": "Sold, for three point two four million pounds!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "auctioneer",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "bidder",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.35
+     }
+    ],
+    "place": "London · 2020"
+   }
+  },
+  {
+   "who": "bidder",
+   "say": "Do the daggers come with it?"
+  },
+  {
+   "who": "N",
+   "say": "With fees, that's about four point two million dollars, a record for any ancient coin.",
+   "show": {
+    "k": "card",
+    "label": "Gold EID MAR coin, October 2020",
+    "big": "$4.2 MILLION",
+    "sub": "a record for an ancient coin"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in 2023, New York prosecutors seized it, saying its ownership papers were faked, and sent it to Greece.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "bidder",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.45,
+      "flag": "greece"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SEIZED",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "BACK TO GREECE",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "New York · 2023"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "brutus",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "bidder",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Brutus made a coin to brag about killing Caesar. In 2020 a gold one sold for $4.2 million.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #juliuscaesar #ancientrome #historytok #coins",
+ "youtube_title": "A Coin Celebrating Caesar's Murder Sold for $4.2 Million #shorts",
+ "tags": [
+  "eid mar",
+  "brutus",
+  "julius caesar",
+  "ides of march",
+  "roman coins",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Eid_Mar",
+  "https://coinweek.com/new-world-record-ngc-ancients-certified-eid-mar-aureus-realizes-nearly-4-2-million-at-auction/",
+  "https://www.coinworld.com/news/precious-metals/eid-mar-gold-example-sets-record-for-ancient-coin-selling-price",
+  "https://coinsweekly.com/breaking-news-eid-mar-aureus-returned-to-greece/",
+  "https://www.upi.com/Top_News/US/2023/03/23/coin-minted-brutus-assassination-julius-caeser-repatriated-greece/4441679625976/",
+  "https://penelope.uchicago.edu/encyclopaedia_romana/denarius.html"
+ ]
+}

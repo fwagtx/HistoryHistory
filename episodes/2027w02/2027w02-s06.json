@@ -1,0 +1,253 @@
+{
+ "id": "2027w02-s06",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "From Stage Performer to Byzantine Empress: Theodora",
+ "hook": "FROM STAGE TO THRONE",
+ "topic": "Empress Theodora",
+ "music": "playful",
+ "cast": {
+  "theodora": {
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#6A3E8E",
+   "hair": "long",
+   "hairColor": "#1E1612",
+   "skin": "light",
+   "name": "Empress Theodora"
+  },
+  "justinian": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Justinian I"
+  },
+  "citizen": {
+   "outfit": "tunic",
+   "color": "#C8702A",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "goatee",
+   "skin": "olive"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "One of the most powerful women in Roman history started out as a stage performer.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "theodora",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "place": "Constantinople · around 527 AD",
+    "tag": {
+     "id": "theodora",
+     "text": "Empress Theodora"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Theodora's father looked after the bears at Constantinople's giant racetrack, the Hippodrome.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "theodora",
+      "x": 0.35,
+      "mood": "happy",
+      "s": 0.8
+     }
+    ],
+    "objects": [
+     {
+      "k": "chariot",
+      "x": 0.7,
+      "s": 0.55
+     }
+    ],
+    "place": "The Hippodrome · around 500 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She became an actress, a job so looked down on that high-ranking men weren't allowed to marry one.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "theodora",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     },
+     {
+      "id": "citizen",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Justinian, the future emperor, fell for her, and the law was changed so they could marry.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "justinian",
+      "x": 0.35,
+      "mood": "happy"
+     },
+     {
+      "id": "theodora",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "justinian",
+     "text": "Justinian, future emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 532, during huge riots, Justinian prepared to flee.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "justinian",
+      "x": 0.35,
+      "pose": "run",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historian Procopius says Theodora refused, quoting an old saying.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "theodora",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Royalty is a good burial shroud.",
+   "show": {
+    "k": "quote",
+    "text": "Royalty is a good burial shroud.",
+    "who": "Empress Theodora, as reported by Procopius, History of the Wars 1.24"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meaning: better to die an empress than run. Justinian stayed, and kept his throne.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "justinian",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "theodora",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "theodora",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "justinian",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Theodora went from the stage to the throne, and saved her husband's crown.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #theodora #byzantineempire #womeninhistory #historytok",
+ "youtube_title": "From Stage Performer to Byzantine Empress: Theodora #shorts",
+ "tags": [
+  "empress theodora",
+  "justinian",
+  "byzantine empire",
+  "nika riots",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Theodora_(wife_of_Justinian_I)",
+  "https://www.newworldencyclopedia.org/entry/Theodora_(6th_century)",
+  "https://en.wikipedia.org/wiki/Nika_riots",
+  "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/theodora-c-500-548"
+ ]
+}

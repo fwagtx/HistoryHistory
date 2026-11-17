@@ -1,0 +1,254 @@
+{
+ "id": "2027w02-s28",
+ "format": "short",
+ "date": "2027-01-15",
+ "slot": "09:00",
+ "title": "Were Roman Soldiers Paid in Salt? Probably a Myth",
+ "hook": "PAID IN SALT?",
+ "topic": "Salary and salt",
+ "music": "playful",
+ "cast": {
+  "soldier": {
+   "preset": "legionary",
+   "skin": "olive",
+   "name": "Roman soldier"
+  },
+  "officer": {
+   "hat": "roman",
+   "hatColor": "#C9A04A",
+   "outfit": "armor",
+   "color": "#8E2A2A",
+   "hair": "short",
+   "skin": "light",
+   "hold": "moneybag",
+   "name": "Paymaster"
+  },
+  "pliny": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#5A4A3A",
+   "hair": "short",
+   "hairColor": "#8A8A8A",
+   "skin": "light",
+   "hold": "book",
+   "name": "Pliny the Elder"
+  }
+ },
+ "voices": {
+  "officer": "bm_george",
+  "soldier": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "You've probably heard Roman soldiers were paid in salt. That's probably a legend.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.38,
+      "mood": "shock",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "SALT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Roman army camp · 1st century AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The story says that's why we call our pay a salary.",
+   "show": {
+    "k": "card",
+    "label": "The famous story",
+    "big": "SALT = PAY?",
+    "sub": "legend: soldiers paid in salt"
+   }
+  },
+  {
+   "who": "officer",
+   "say": "Here's your pay. One bag of salt.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "officer",
+      "x": 0.3,
+      "mood": "smug",
+      "pose": "present"
+     },
+     {
+      "id": "soldier",
+      "x": 0.68,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LEGEND",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Great. Can I buy a sword with it?"
+  },
+  {
+   "who": "N",
+   "say": "The word part is true. Salary comes from the Latin salarium, and sal means salt.",
+   "show": {
+    "k": "card",
+    "label": "Latin",
+    "big": "SAL = SALT",
+    "sub": "salarium → salary"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pliny the Elder, a Roman writer, even linked salarium to salt.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "pliny",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.8,
+      "s": 0.4,
+      "text": "SALARIUM"
+     }
+    ],
+    "place": "Rome · AD 77",
+    "tag": {
+     "id": "pliny",
+     "text": "Pliny the Elder"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But no ancient writer says soldiers were handed salt as pay. In Roman texts, a salarium was paid in money.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "coin",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PAID IN COINS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So salary really is a salty word. The salty paycheck is just a story.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "SALT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "officer",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Were Roman soldiers really paid in salt? The word is real. The salty paycheck probably isn't.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #mythbusting #historytok #wordorigins",
+ "youtube_title": "Were Roman Soldiers Paid in Salt? Probably a Myth #shorts",
+ "tags": [
+  "salary",
+  "salt",
+  "roman soldiers",
+  "history myths",
+  "history shorts"
+ ],
+ "sources": [
+  "https://romanempiretimes.com/does-the-word-salary-derive-from-salt-what-is-the-connection-with-roman-soldiers",
+  "https://kiwihellenist.blogspot.com/2017/01/salt-and-salary.html",
+  "https://www.dhakatribune.com/tribune-z/415768/the-salt-in-your-salary",
+  "https://en.wiktionary.org/wiki/salarium",
+  "https://www.etymonline.com/word/salary"
+ ]
+}

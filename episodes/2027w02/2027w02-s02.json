@@ -1,0 +1,254 @@
+{
+ "id": "2027w02-s02",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "Nobody Knows the Recipe for Greek Fire",
+ "hook": "A LOST SUPERWEAPON",
+ "topic": "Greek Fire",
+ "music": "playful",
+ "cast": {
+  "sailor1": {
+   "outfit": "tunic",
+   "color": "#7A5A3A",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "beard": "goatee",
+   "skin": "olive"
+  },
+  "sailor2": {
+   "outfit": "tunic",
+   "color": "#4A6A8A",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "stubble": true,
+   "skin": "tan"
+  }
+ },
+ "voices": {
+  "sailor1": "am_echo",
+  "sailor2": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Nobody alive knows how to make the weapon that saved Constantinople.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.4,
+      "s": 0.7,
+      "move": [
+       0.25,
+       0.5
+      ]
+     },
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.4,
+      "y": 0.1
+     }
+    ],
+    "place": "Near Constantinople · 670s AD",
+    "stickers": [
+     {
+      "text": "GREEK FIRE",
+      "at": 1.0,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 670s, an Arab fleet attacked Constantinople, the capital of the Byzantine Empire.",
+   "show": {
+    "k": "map",
+    "lon": 29,
+    "lat": 41,
+    "z0": 2.2,
+    "z1": 2.6,
+    "date": "670s AD",
+    "labels": [
+     [
+      "Constantinople",
+      28.98,
+      41.01,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      28.98,
+      41.01,
+      0.4,
+      "rgba(214,48,40,.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The defenders had a secret: Greek fire, a burning liquid they sprayed through tubes on their ships.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor1",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.65,
+      "s": 0.6
+     },
+     {
+      "k": "fire",
+      "x": 0.82,
+      "s": 0.35,
+      "y": 0.08
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Accounts say it was terribly hard to put out, and kept burning even on water.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.3,
+      "s": 0.45,
+      "y": 0.05
+     },
+     {
+      "k": "fire",
+      "x": 0.6,
+      "s": 0.5,
+      "y": 0.05
+     },
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor2",
+   "say": "So what's actually in this stuff?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor2",
+      "x": 0.3,
+      "pose": "shrug",
+      "mood": "shock"
+     },
+     {
+      "id": "sailor1",
+      "x": 0.65,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.82,
+      "s": 0.4,
+      "label": "SECRET"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor1",
+   "say": "Top secret. Even I don't know."
+  },
+  {
+   "who": "N",
+   "say": "It was guarded so carefully that, over the centuries, the recipe was lost.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.45,
+      "s": 0.6,
+      "text": "RECIPE: ???"
+     },
+     {
+      "k": "barrel",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Historians guess things like crude oil and pine resin, but nobody knows for sure. A superweapon so secret, its owners lost it.",
+   "show": {
+    "k": "card",
+    "label": "The Greek fire recipe",
+    "big": "???",
+    "sub": "guesses: crude oil, pine resin, maybe more"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sailor1",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sailor2",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The Byzantines' fire weapon saved their capital. Then they lost the recipe.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #greekfire #byzantineempire #constantinople #historytok",
+ "youtube_title": "Nobody Knows the Recipe for Greek Fire #shorts",
+ "tags": [
+  "greek fire",
+  "byzantine empire",
+  "constantinople",
+  "medieval weapons",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Greek_fire",
+  "https://www.wearethemighty.com/mighty-history/hot-facts-about-greek-fire/",
+  "https://en.wikipedia.org/wiki/Siege_of_Constantinople_(674%E2%80%93678)"
+ ]
+}

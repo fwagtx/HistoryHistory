@@ -1,0 +1,252 @@
+{
+ "id": "2027w02-s33",
+ "format": "short",
+ "date": "2027-01-15",
+ "slot": "09:00",
+ "title": "A Pompeii Bar Wrote Its Wine Prices on the Wall",
+ "hook": "POMPEII'S DRINK MENU",
+ "topic": "Pompeii bar",
+ "music": "playful",
+ "cast": {
+  "hedone": {
+   "outfit": "dress",
+   "color": "#A8432F",
+   "hair": "bun",
+   "hairColor": "#2A1E16",
+   "skin": "olive",
+   "hold": "goblet",
+   "name": "Hedone"
+  },
+  "customer": {
+   "preset": "roman",
+   "name": "Customer"
+  }
+ },
+ "voices": {
+  "hedone": "af_bella",
+  "customer": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Two thousand years ago, a bar in Pompeii wrote its drink prices on the wall.",
+   "show": {
+    "k": "scene",
+    "bg": "volcano",
+    "cast": [
+     {
+      "id": "hedone",
+      "x": 0.38,
+      "mood": "happy",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "WINE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DRINK MENU",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Pompeii, Italy · before AD 79"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Pompeii was a Roman town buried by the volcano Vesuvius in AD 79.",
+   "show": {
+    "k": "map",
+    "lon": 14.47,
+    "lat": 40.78,
+    "z0": 2.6,
+    "z1": 3.0,
+    "date": "AD 79",
+    "labels": [
+     [
+      "Pompeii",
+      14.49,
+      40.75,
+      14
+     ],
+     [
+      "Vesuvius",
+      14.43,
+      40.82,
+      -14
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The writing seems to speak for a woman named Hedone.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "hedone",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "hedone",
+     "text": "Hedone (named on the wall)"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It says: you can drink here for one as. Give two, and you'll drink better. Give four, and you'll drink Falernian.",
+   "show": {
+    "k": "card",
+    "label": "Hedone's price list",
+    "big": "1 AS",
+    "sub": "2 = better wine · 4 = Falernian"
+   }
+  },
+  {
+   "who": "N",
+   "say": "An as was a cheap copper coin. Falernian was Italy's most famous fancy wine.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "customer",
+      "x": 0.38,
+      "mood": "happy",
+      "hold": "coin",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "FALERNIAN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1 AS = SMALL CHANGE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "customer",
+   "say": "What do I get for one coin?",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "customer",
+      "x": 0.3,
+      "mood": "happy",
+      "hold": "coin"
+     },
+     {
+      "id": "hedone",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "hedone",
+   "say": "Wine. Don't ask which one."
+  },
+  {
+   "who": "N",
+   "say": "Thanks to the ash, we know what a cheap drink cost in a Roman town.",
+   "show": {
+    "k": "scene",
+    "bg": "volcano",
+    "cast": [
+     {
+      "id": "customer",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hedone",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "customer",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A Pompeii bar left us its price list: 1 coin for wine, 4 for the fancy stuff.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #pompeii #ancientrome #historytok #funnyhistory",
+ "youtube_title": "A Pompeii Bar Wrote Its Wine Prices on the Wall #shorts",
+ "tags": [
+  "pompeii",
+  "roman bar",
+  "falernian wine",
+  "graffiti",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.csun.edu/~hcfll004/pompinsc.html",
+  "https://pompeii.pictures/R7/7%2002%2044.htm",
+  "https://audiala.com/en/italy/pompeii/taberna-hedones-vii244",
+  "https://en.wikipedia.org/wiki/Falernian_wine",
+  "https://en.wikipedia.org/wiki/As_(Roman_coin)"
+ ]
+}

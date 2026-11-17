@@ -1,0 +1,294 @@
+{
+ "id": "2027w02-s27",
+ "format": "short",
+ "date": "2027-01-15",
+ "slot": "09:00",
+ "title": "Rome Sold the Right to Collect Its Taxes",
+ "hook": "TAXES FOR SALE",
+ "topic": "Publicani",
+ "music": "playful",
+ "cast": {
+  "publicanus": {
+   "outfit": "toga",
+   "color": "#F2EEE4",
+   "color2": "#2F5A8A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "olive",
+   "hold": "scroll",
+   "name": "Tax contractor"
+  },
+  "farmer": {
+   "outfit": "tunic",
+   "color": "#7A5A3A",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "tan",
+   "name": "Greek farmer"
+  },
+  "caesar": {
+   "preset": "caesar",
+   "name": "Julius Caesar"
+  }
+ },
+ "voices": {
+  "publicanus": "bm_lewis",
+  "farmer": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Ancient Rome sold the right to collect its taxes to the highest bidder.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "publicanus",
+      "x": 0.38,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TAXES FOR SALE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Rome · 1st century BC",
+    "tag": {
+     "id": "publicanus",
+     "text": "A publicanus (tax contractor)"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Take Asia, a rich Roman province in what's now western Turkey.",
+   "show": {
+    "k": "map",
+    "lon": 28.0,
+    "lat": 38.6,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "61 BC",
+    "labels": [
+     [
+      "Asia",
+      28.6,
+      39.2,
+      14
+     ],
+     [
+      "Ephesus",
+      27.34,
+      37.94,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      28.3,
+      38.6,
+      1.8,
+      "rgba(212,165,42,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Companies called publicani bid for its taxes. The winner paid Rome up front, then kept any extra it collected.",
+   "show": {
+    "k": "card",
+    "label": "How tax farming worked",
+    "big": "BID → PAY → COLLECT",
+    "sub": "everything above the bid was profit"
+   }
+  },
+  {
+   "who": "farmer",
+   "say": "Why do you need so much?",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "mood": "angry",
+      "pose": "fist"
+     },
+     {
+      "id": "publicanus",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.35,
+      "label": "HARVEST"
+     }
+    ],
+    "place": "Province of Asia · 1st century BC"
+   }
+  },
+  {
+   "who": "publicanus",
+   "say": "Because I overpaid at the auction."
+  },
+  {
+   "who": "N",
+   "say": "In 61 BC, one group really did overbid for Asia, then begged the Senate for a discount.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "publicanus",
+      "x": 0.4,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "61 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "TOO MUCH",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 59 BC, Julius Caesar, now Rome's top official, gave them one. He cut their bill by a third.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "caesar",
+      "x": 0.35,
+      "mood": "smug",
+      "pose": "point"
+     },
+     {
+      "id": "publicanus",
+      "x": 0.68,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "59 BC",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "1/3 OFF",
+      "at": 1.7,
+      "color": "#D4A52A"
+     }
+    ],
+    "tag": {
+     "id": "caesar",
+     "text": "Julius Caesar"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "No wonder tax collectors were hated. Old English Bibles even call them publicans.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.45,
+      "text": "PUBLICANS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "farmer",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "publicanus",
+      "x": 0.7,
+      "mood": "smug"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Rome let private companies bid for the right to tax whole provinces. Then one overpaid.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #taxes #historytok #juliuscaesar",
+ "youtube_title": "Rome Sold the Right to Collect Its Taxes #shorts",
+ "tags": [
+  "publicani",
+  "tax farming",
+  "roman taxes",
+  "julius caesar",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Publicani",
+  "https://brewminate.com/publicans-shareholder-owned-corporations-in-ancient-rome/",
+  "https://classicsmalta.org/wp-content/uploads/2025/12/1-The-Publicani-and-the-Governors-of-Asia.pdf",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius*.html",
+  "https://www.worldatlas.com/ancient-world/how-roman-tax-collectors-got-rich.html"
+ ]
+}

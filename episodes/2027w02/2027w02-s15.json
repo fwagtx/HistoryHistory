@@ -1,0 +1,255 @@
+{
+ "id": "2027w02-s15",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "Doctors Drained About 40% of George Washington's Blood",
+ "hook": "THEY DRAINED HIS BLOOD",
+ "topic": "George Washington",
+ "music": "warm",
+ "cast": {
+  "washington": {
+   "preset": "washington",
+   "name": "George Washington"
+  },
+  "craik": {
+   "outfit": "coat",
+   "color": "#3A3A44",
+   "hair": "side",
+   "hairColor": "#E8E4DC",
+   "skin": "light",
+   "name": "Dr. James Craik"
+  },
+  "dick": {
+   "outfit": "coat",
+   "color": "#4A5A3A",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Dr. Elisha Dick"
+  }
+ },
+ "voices": {
+  "craik": "bm_george",
+  "dick": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "On his last day, George Washington's doctors drained around forty percent of his blood.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "washington",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.5,
+      "label": "MOUNT VERNON"
+     }
+    ],
+    "place": "Mount Vernon, Virginia · 14 December 1799",
+    "tag": {
+     "id": "washington",
+     "text": "George Washington"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In December 1799, America's first president woke up at his Virginia home with a severe throat infection.",
+   "show": {
+    "k": "map",
+    "lon": -77.3,
+    "lat": 38.7,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "December 1799",
+    "labels": [
+     [
+      "MOUNT VERNON",
+      -77.09,
+      38.71,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -77.09,
+      38.71,
+      0.4,
+      "rgba(47,111,194,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For centuries, doctors believed draining blood could fight illness.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "craik",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "BLOOD BOWL"
+     }
+    ],
+    "tag": {
+     "id": "craik",
+     "text": "Dr. James Craik"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So over about twelve hours, they bled him four times. That's about eighty ounces.",
+   "show": {
+    "k": "card",
+    "label": "Washington's blood drained",
+    "big": "≈40%",
+    "sub": "by most modern estimates"
+   }
+  },
+  {
+   "who": "dick",
+   "say": "Stop! He needs that blood!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "dick",
+      "x": 0.32,
+      "pose": "fist",
+      "mood": "shout"
+     },
+     {
+      "id": "craik",
+      "x": 0.68,
+      "pose": "cross",
+      "mood": "neutral"
+     }
+    ],
+    "tag": {
+     "id": "dick",
+     "text": "Dr. Elisha Dick"
+    }
+   }
+  },
+  {
+   "who": "craik",
+   "say": "We'll stick with what we know.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "craik",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "craik"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Washington died that night, at sixty-seven. Doctors today think the bleeding weakened him.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.5,
+      "s": 0.6,
+      "label": "MOUNT VERNON"
+     },
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.35,
+      "flag": "usa1776"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Within a few decades, careful studies showed bleeding rarely helped, and doctors slowly gave it up.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "dick",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "IT DIDN'T HELP",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "dick",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "neutral"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His doctors were following the best medicine of 1799.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #georgewashington #medicalhistory #americanhistory #historytok",
+ "youtube_title": "Doctors Drained About 40% of George Washington's Blood #shorts",
+ "tags": [
+  "george washington",
+  "bloodletting",
+  "1799",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.pbs.org/newshour/health/dec-14-1799-excruciating-final-hours-president-george-washington",
+  "https://www.mountvernon.org/digital-encyclopedia/article/the-death-of-george-washington",
+  "https://washingtonpapers.org/resources/articles/illness/",
+  "https://www.jameslindlibrary.org/articles/pierre-charles-alexandre-louis-and-the-evaluation-of-bloodletting/"
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "id": "2027w02-s05",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "Hagia Sophia Was the World's Biggest Cathedral for Almost 1,000 Years",
+ "hook": "BIGGEST FOR 1,000 YEARS",
+ "topic": "Hagia Sophia",
+ "music": "playful",
+ "cast": {
+  "justinian": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Justinian I"
+  },
+  "citizen": {
+   "outfit": "tunic",
+   "color": "#C8702A",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "goatee",
+   "skin": "olive"
+  },
+  "bluefan": {
+   "outfit": "tunic",
+   "color": "#2F6FC2",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "skin": "olive"
+  }
+ },
+ "voices": {
+  "justinian": "bm_george",
+  "citizen": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This building was the biggest cathedral on Earth for almost a thousand years.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.85,
+      "s": 0.5
+     }
+    ],
+    "place": "Hagia Sophia, Constantinople · 537 AD",
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 532, riots in Constantinople burned down the city's main church.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "bluefan",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Justinian, ruler of the eastern Roman Empire, decided to replace it with something nobody had ever seen.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "justinian",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "justinian",
+     "text": "Emperor Justinian"
+    }
+   }
+  },
+  {
+   "who": "justinian",
+   "say": "Make it huge. And make it fast.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "justinian",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "PLANS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Thousands of workers built Hagia Sophia in under six years. Its giant dome seemed to float.",
+   "show": {
+    "k": "scene",
+    "bg": "church",
+    "cast": [
+     {
+      "id": "justinian",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "UNDER 6 YEARS",
+      "at": 1.0,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "No cathedral was bigger until Seville Cathedral in Spain was finished in 1520.",
+   "show": {
+    "k": "card",
+    "label": "World's biggest cathedral for",
+    "big": "~1,000 YEARS",
+    "sub": "537 to 1520"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After 1453 it became a mosque, then a museum, and since 2020 a mosque again.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "place": "Istanbul · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Almost fifteen hundred years later, it's still standing."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "justinian",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "citizen",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Built in under six years, and nothing bigger for almost a millennium.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hagiasophia #istanbul #byzantineempire #historytok",
+ "youtube_title": "Hagia Sophia Was the World's Biggest Cathedral for Almost 1,000 Years #shorts",
+ "tags": [
+  "hagia sophia",
+  "istanbul",
+  "justinian",
+  "byzantine empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hagia_Sophia",
+  "https://artsandculture.google.com/entity/hagia-sophia/m0br5q",
+  "https://www.britannica.com/topic/Hagia-Sophia"
+ ]
+}

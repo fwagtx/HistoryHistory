@@ -1,0 +1,269 @@
+{
+ "id": "2027w02-s29",
+ "format": "short",
+ "date": "2027-01-15",
+ "slot": "09:00",
+ "title": "A Roman Grain Ship So Big a City Came to Stare",
+ "hook": "THE MEGA GRAIN SHIP",
+ "topic": "The grain ship Isis",
+ "music": "playful",
+ "cast": {
+  "lucian": {
+   "outfit": "toga",
+   "color": "#E8E2D0",
+   "color2": "#2F7A6A",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "olive",
+   "name": "Lucian"
+  },
+  "friend": {
+   "preset": "greek",
+   "name": "Athenian"
+  },
+  "sailor": {
+   "outfit": "tunic",
+   "color": "#2F5A8A",
+   "hair": "curly",
+   "hairColor": "#1E1C1B",
+   "stubble": true,
+   "skin": "tan",
+   "name": "Egyptian sailor"
+  }
+ },
+ "voices": {
+  "lucian": "am_echo",
+  "friend": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Nearly two thousand years ago, a cargo ship was so big that crowds came just to stare.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "lucian",
+      "x": 0.25,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.62,
+      "s": 0.75
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GIANT SHIP",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Piraeus, near Athens · 2nd century AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Isis was an Egyptian grain ship bound for Italy. Storms pushed her to Athens instead.",
+   "show": {
+    "k": "map",
+    "lon": 26.5,
+    "lat": 34.8,
+    "z0": 2.0,
+    "z1": 2.2,
+    "date": "AD 150",
+    "labels": [
+     [
+      "Alexandria",
+      29.92,
+      31.2,
+      14
+     ],
+     [
+      "Athens",
+      23.73,
+      37.98,
+      14
+     ]
+    ],
+    "route": [
+     [
+      29.92,
+      31.2
+     ],
+     [
+      27.5,
+      33.5
+     ],
+     [
+      24.5,
+      36.0
+     ],
+     [
+      23.65,
+      37.94
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Egypt's wheat helped feed the city of Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "egypt",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "WHEAT"
+     },
+     {
+      "k": "palm",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Alexandria, Egypt · 2nd century AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Greek writer Lucian says she was a hundred and eighty feet long. More than four buses!",
+   "show": {
+    "k": "card",
+    "label": "The Isis, according to Lucian",
+    "big": "180 FEET",
+    "sub": "about 55 meters long"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "That's not a ship. That's a building.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "friend",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "point"
+     },
+     {
+      "id": "lucian",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "lucian",
+     "text": "Lucian, Greek writer"
+    }
+   }
+  },
+  {
+   "who": "lucian",
+   "say": "A floating building full of bread."
+  },
+  {
+   "who": "N",
+   "say": "A character in Lucian's story claims one load could feed all of Athens for a year. Probably exaggerated.",
+   "show": {
+    "k": "scene",
+    "bg": "wheat",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "hips"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "GRAIN"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1 YEAR OF FOOD?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Modern historians estimate she carried over a thousand tonnes. If ships like her sank, Rome went hungry.",
+   "show": {
+    "k": "card",
+    "label": "Estimated cargo of the Isis",
+    "big": "1,000+ TONNES",
+    "sub": "mostly grain"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "lucian",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sailor",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A Roman grain ship was so huge that people walked to the harbor just to look at it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #ships #historytok #ancientegypt",
+ "youtube_title": "A Roman Grain Ship So Big a City Came to Stare #shorts",
+ "tags": [
+  "isis ship",
+  "roman grain ship",
+  "lucian",
+  "alexandria",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Isis_(ship)",
+  "https://topostext.org/work/349",
+  "https://cts.perseids.org/read/greekLit/tlg0062/tlg065/perseus-eng4/1-20",
+  "https://www.jewishencyclopedia.com/articles/1175-alexandrian-ships",
+  "https://en.wikipedia.org/wiki/Cura_annonae"
+ ]
+}

@@ -1,0 +1,302 @@
+{
+ "id": "2027w02-s22",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "Lewis and Clark's Mercury Pills Left a Trail",
+ "hook": "A TRAIL OF MERCURY",
+ "topic": "Lewis and Clark",
+ "music": "playful",
+ "cast": {
+  "lewis": {
+   "outfit": "coat",
+   "color": "#2A3A5A",
+   "hair": "side",
+   "hairColor": "#5A4632",
+   "skin": "light",
+   "name": "Meriwether Lewis"
+  },
+  "clark": {
+   "outfit": "coat",
+   "color": "#5A4A3A",
+   "hair": "short",
+   "hairColor": "#B8502A",
+   "skin": "light",
+   "name": "William Clark"
+  },
+  "rush": {
+   "outfit": "coat",
+   "color": "#3A2A1A",
+   "hair": "side",
+   "hairColor": "#D8D4CC",
+   "skin": "light",
+   "name": "Benjamin Rush"
+  },
+  "expert": {
+   "outfit": "labcoat",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "glasses": "square",
+   "skin": "brown",
+   "name": "Modern researcher"
+  }
+ },
+ "voices": {
+  "lewis": "bm_george",
+  "clark": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Archaeologists found one of Lewis and Clark's camps by testing their old toilet pit.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "lewis",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "neutral"
+     },
+     {
+      "id": "clark",
+      "x": 0.6,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Travelers' Rest, Montana · 1805"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1804, Meriwether Lewis and William Clark led a team across the West to the Pacific.",
+   "show": {
+    "k": "map",
+    "lon": -112.0,
+    "lat": 46.5,
+    "z0": 1.6,
+    "z1": 1.8,
+    "date": "1804–1806",
+    "labels": [
+     [
+      "MONTANA",
+      -110.0,
+      47.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -100.8,
+      46.8
+     ],
+     [
+      -110.6,
+      47.5
+     ],
+     [
+      -114.1,
+      46.7
+     ],
+     [
+      -118.0,
+      46.3
+     ],
+     [
+      -123.9,
+      46.2
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They packed hundreds of pills from Dr. Benjamin Rush, nicknamed thunderclappers.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "rush",
+      "x": 0.38,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "THUNDERCLAPPERS"
+     },
+     {
+      "k": "flag",
+      "x": 0.85,
+      "s": 0.35,
+      "flag": "usa1776"
+     }
+    ],
+    "place": "Philadelphia · 1803",
+    "tag": {
+     "id": "rush",
+     "text": "Dr. Benjamin Rush"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were full of mercury, and they sent you running to the toilet. Fast.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "clark",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RUN!",
+      "at": 0.8,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "clark",
+   "say": "Lewis, I need a minute!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "clark",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "shout"
+     },
+     {
+      "id": "lewis",
+      "x": 0.65,
+      "pose": "facepalm",
+      "mood": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "who": "lewis",
+   "say": "Again?!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "lewis",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "lewis"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Mercury doesn't break down. So two hundred years later, it was still in the dirt.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "expert",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "TOILET PIT"
+     }
+    ],
+    "place": "Lolo, Montana · 2002",
+    "tag": {
+     "id": "expert",
+     "text": "Archaeologist"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "That mercury helped prove Travelers' Rest in Montana was really their camp.",
+   "show": {
+    "k": "card",
+    "label": "Confirmed by mercury",
+    "big": "1805",
+    "sub": "Lewis and Clark's camp at Travelers' Rest"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "clark",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "lewis",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Their medicine was so strong it left evidence for 200 years.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #lewisandclark #americanhistory #archaeology #historytok",
+ "youtube_title": "Lewis and Clark's Mercury Pills Left a Trail #shorts",
+ "tags": [
+  "lewis and clark",
+  "benjamin rush",
+  "travelers rest",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.smithsonianmag.com/smart-news/how-reconstruct-lewis-and-clark-journey-follow-mercury-laden-latrine-pits-180956518/",
+  "https://www.nps.gov/articles/000/historic-latrines-help-archeologists-retrace-the-lewis-and-clark-trail.htm",
+  "https://www.discovermagazine.com/following-lewis-and-clarks-trail-of-mercurial-laxatives-43275",
+  "https://en.wikipedia.org/wiki/Travelers%27_Rest_(Lolo,_Montana)"
+ ]
+}

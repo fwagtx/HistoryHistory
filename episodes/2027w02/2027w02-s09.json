@@ -1,0 +1,280 @@
+{
+ "id": "2027w02-s09",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "The Walls of Constantinople Held for Over 1,000 Years",
+ "hook": "WALLS THAT HELD 1,000 YEARS",
+ "topic": "Theodosian Walls",
+ "music": "playful",
+ "cast": {
+  "crusader": {
+   "preset": "crusader"
+  },
+  "mehmed": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#A8322A",
+   "color2": "#E8C25A",
+   "beard": "goatee",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Sultan Mehmed II"
+  },
+  "citizen": {
+   "outfit": "tunic",
+   "color": "#C8702A",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "goatee",
+   "skin": "olive"
+  },
+  "guard": {
+   "preset": "legionary"
+  },
+  "attacker": {
+   "outfit": "fur",
+   "hair": "long",
+   "hairColor": "#6A4A2A",
+   "beard": "full",
+   "skin": "light"
+  }
+ },
+ "voices": {
+  "guard": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "No army broke through these walls for over a thousand years.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.7,
+      "s": 0.6,
+      "w": 1400
+     },
+     {
+      "k": "gate",
+      "x": 0.7,
+      "s": 0.35
+     }
+    ],
+    "place": "Constantinople · 413 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Around 413, the eastern Roman Empire built new land walls for its capital, Constantinople.",
+   "show": {
+    "k": "map",
+    "lon": 29,
+    "lat": 41,
+    "z0": 2.6,
+    "z1": 3.4,
+    "date": "413 AD",
+    "labels": [
+     [
+      "Constantinople",
+      28.98,
+      41.01,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      28.98,
+      41.01,
+      0.25,
+      "rgba(214,48,40,.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "They had three layers: a wide moat, an outer wall, and a giant inner wall with about ninety-six towers.",
+   "show": {
+    "k": "card",
+    "label": "The Theodosian Walls",
+    "big": "3 LAYERS",
+    "sub": "a moat, an outer wall, an inner wall with 96 towers"
+   }
+  },
+  {
+   "who": "guard",
+   "say": "First you swim the moat. Then climb two walls. Good luck!",
+   "show": {
+    "k": "scene",
+    "bg": "castle",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For centuries, army after army attacked. None got through these walls.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "attacker",
+      "x": 0.3,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.72,
+      "s": 0.6,
+      "w": 1400
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1204, crusaders did capture the city, but from the sea side.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.6
+     }
+    ],
+    "place": "Constantinople · 1204"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Finally, in 1453, giant Ottoman cannons blasted holes in the old walls.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "mehmed",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.6,
+      "s": 0.55,
+      "fire": true
+     }
+    ],
+    "cam": "shake",
+    "fx": [
+     "smoke"
+    ],
+    "place": "Constantinople · 1453",
+    "tag": {
+     "id": "mehmed",
+     "text": "Sultan Mehmed II"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Long stretches of those walls still stand in Istanbul today.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "citizen",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.7,
+      "s": 0.55
+     }
+    ],
+    "place": "Istanbul · today"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "guard",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "citizen",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Three layers, 96 towers, and over a thousand years without a breach.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #constantinople #byzantineempire #istanbul #historytok",
+ "youtube_title": "The Walls of Constantinople Held for Over 1,000 Years #shorts",
+ "tags": [
+  "walls of constantinople",
+  "theodosian walls",
+  "constantinople",
+  "byzantine empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Walls_of_Constantinople",
+  "https://www.worldhistory.org/Theodosian_Walls/",
+  "https://www.thecollector.com/who-built-the-theodosian-walls-of-constantinople/"
+ ]
+}

@@ -1,0 +1,258 @@
+{
+ "id": "2027w02-s14",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "Bayer Sold Heroin as a Cough Medicine",
+ "hook": "HEROIN FOR COUGHS?",
+ "topic": "Bayer's Heroin",
+ "music": "warm",
+ "cast": {
+  "dreser": {
+   "preset": "scientist",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "name": "Heinrich Dreser"
+  },
+  "frpatient": {
+   "outfit": "tunic",
+   "color": "#6A8AB8",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Patient"
+  }
+ },
+ "voices": {
+  "dreser": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1898, a big German drug company started selling heroin as a cough medicine.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "dreser",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "factory",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "BAYER"
+     },
+     {
+      "k": "flag",
+      "x": 0.82,
+      "s": 0.35,
+      "flag": "germany1914"
+     }
+    ],
+    "place": "Germany · 1898",
+    "stickers": [
+     {
+      "text": "1898",
+      "at": 1.0,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, lung diseases like tuberculosis were big killers, with terrible coughs.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "frpatient",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bayer's chemists made a new drug from morphine, a strong painkiller, and named it Heroin.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "dreser",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "bottle"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "dreser",
+     "text": "Heinrich Dreser, Bayer's drug tester"
+    },
+    "stickers": [
+     {
+      "text": "HEROIN",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "dreser",
+   "say": "It calms the cough, and it's safer than morphine!",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "dreser",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "dreser"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That was the sales pitch. Bayer even claimed it wasn't habit-forming.",
+   "show": {
+    "k": "card",
+    "label": "Bayer's claim about Heroin",
+    "big": "'SAFE'",
+    "sub": "spoiler: it wasn't"
+   }
+  },
+  {
+   "who": "N",
+   "say": "They were badly wrong. Within a few years, doctors saw patients becoming addicted.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "dreser",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bayer stopped making it in 1913, and in 1924 the United States banned making it.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.4,
+      "s": 0.45,
+      "label": "HEROIN"
+     },
+     {
+      "k": "flag",
+      "x": 0.72,
+      "s": 0.4,
+      "flag": "usa48"
+     }
+    ],
+    "place": "United States · 1924",
+    "stickers": [
+     {
+      "text": "BANNED",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today it's one of the most dangerous drugs there is. New isn't the same as safe.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "frpatient",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "TEST IT FIRST"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "dreser",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1898, heroin was sold as a cough medicine. It went badly.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #medicalhistory #germany #historytok #1890s",
+ "youtube_title": "Bayer Sold Heroin as a Cough Medicine #shorts",
+ "tags": [
+  "bayer heroin",
+  "medical history",
+  "1898",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.atlasobscura.com/articles/narcotics-in-medicine",
+  "https://en.wikipedia.org/wiki/Heroin",
+  "https://www.history.com/topics/history-of-heroin-morphine-and-opiates",
+  "https://www.unodc.org/unodc/en/data-and-analysis/bulletin/bulletin_1953-01-01_2_page007.html"
+ ]
+}

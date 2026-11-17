@@ -1,0 +1,257 @@
+{
+ "id": "2027w02-s10",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "Anna Komnene: The Byzantine Princess Who Wrote History",
+ "hook": "A PRINCESS HISTORIAN",
+ "topic": "Anna Komnene",
+ "music": "playful",
+ "cast": {
+  "anna": {
+   "hat": "tiara",
+   "outfit": "gown",
+   "color": "#8E2A5A",
+   "hair": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "book",
+   "name": "Anna Komnene"
+  },
+  "crusader": {
+   "preset": "crusader"
+  },
+  "emperor": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "beard": "full",
+   "hairColor": "#4A3A2A",
+   "skin": "light",
+   "name": "Alexios I Komnenos"
+  }
+ },
+ "voices": {
+  "anna": "bf_emma"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Nearly nine hundred years ago, a princess wrote one of the great history books of the Middle Ages.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "anna",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "place": "Constantinople · 1140s",
+    "tag": {
+     "id": "anna",
+     "text": "Anna Komnene, princess"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Anna Komnene was the daughter of Alexios the First, emperor of the Byzantine Empire.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "emperor",
+      "x": 0.35,
+      "mood": "happy"
+     },
+     {
+      "id": "anna",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "emperor",
+     "text": "Emperor Alexios I"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was extremely well educated, in philosophy, medicine and astronomy.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "anna",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PHILOSOPHY",
+      "at": 0.6,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "MEDICINE",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     },
+     {
+      "text": "ASTRONOMY",
+      "at": 2.2,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "When her father asked the West for help, the First Crusade marched right past her city.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "crusader",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.5
+     }
+    ],
+    "place": "Constantinople · 1096"
+   }
+  },
+  {
+   "who": "anna",
+   "say": "Those crusaders? I watched them arrive. I have notes.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "anna",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "NOTES"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Years later, she wrote the Alexiad, a history of her father's reign in fifteen books.",
+   "show": {
+    "k": "card",
+    "label": "The Alexiad",
+    "big": "15 BOOKS",
+    "sub": "about her father's reign, 1081–1118"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She's one of the earliest known women historians, and historians still use her book today.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "anna",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "ALEXIAD"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "anna",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "emperor",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A Byzantine princess wrote one of the most important histories of the First Crusade.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #annakomnene #byzantineempire #womeninhistory #historytok",
+ "youtube_title": "Anna Komnene: The Byzantine Princess Who Wrote History #shorts",
+ "tags": [
+  "anna komnene",
+  "alexiad",
+  "byzantine empire",
+  "first crusade",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Anna_Komnene",
+  "https://en.wikipedia.org/wiki/Alexiad",
+  "https://www.medievalists.net/2022/04/anna-komnene-purple-born-historian/",
+  "https://www.historyinthemargins.com/2018/01/05/who-was-the-first-female-historian/"
+ ]
+}

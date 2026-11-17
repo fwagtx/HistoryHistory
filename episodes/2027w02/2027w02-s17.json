@@ -1,0 +1,260 @@
+{
+ "id": "2027w02-s17",
+ "format": "short",
+ "date": "2027-01-13",
+ "slot": "09:00",
+ "title": "The Lobotomy Inventor Won a Nobel Prize",
+ "hook": "A NOBEL FOR LOBOTOMY",
+ "topic": "Egas Moniz",
+ "music": "warm",
+ "cast": {
+  "moniz": {
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "hair": "bald",
+   "hairColor": "#8A8A8A",
+   "glasses": "round",
+   "stache": "bush",
+   "skin": "light",
+   "name": "Egas Moniz"
+  },
+  "expert": {
+   "outfit": "labcoat",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "glasses": "square",
+   "skin": "brown",
+   "name": "Modern researcher"
+  }
+ },
+ "voices": {},
+ "beats": [
+  {
+   "who": "N",
+   "say": "The doctor who invented the lobotomy won a Nobel Prize for it.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "moniz",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "medal"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "Lisbon, Portugal · 1949",
+    "tag": {
+     "id": "moniz",
+     "text": "Egas Moniz"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Egas Moniz was a respected Portuguese brain doctor, in Lisbon.",
+   "show": {
+    "k": "map",
+    "lon": -8.5,
+    "lat": 39.5,
+    "z0": 2.2,
+    "z1": 2.5,
+    "date": "1935",
+    "labels": [
+     [
+      "LISBON",
+      -9.14,
+      38.72,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      -9.14,
+      38.72,
+      0.4,
+      "rgba(47,111,194,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1935, he began an operation cutting connections inside the brain, hoping to calm severe mental illness.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "moniz",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "place": "Lisbon, Portugal · 1935"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His first report covered only about twenty patients, and other doctors soon copied it.",
+   "show": {
+    "k": "card",
+    "label": "Patients in Moniz's first report",
+    "big": "20",
+    "sub": "1936"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over the next decades, an estimated hundred thousand people had one. Many were left permanently changed.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "moniz",
+      "x": 0.45,
+      "pose": "stand",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Still, in 1949, Moniz shared the Nobel Prize. The Soviet Union banned the operation in 1950.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "moniz",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "medal"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.75,
+      "s": 0.4,
+      "flag": "soviet"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1949",
+      "at": 0.8,
+      "color": "#B8860B"
+     },
+     {
+      "text": "BANNED 1950",
+      "at": 2.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today it's among the most criticized Nobel Prizes ever.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "expert",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "sad"
+     }
+    ],
+    "tag": {
+     "id": "expert",
+     "text": "Modern doctor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "It's one reason medicine now demands careful testing before trusting new treatments.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "expert",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TEST FIRST",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more true stories from history.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "expert",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "neutral"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "One of the most criticized Nobel Prizes ever awarded.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #nobelprize #medicalhistory #portugal #historytok",
+ "youtube_title": "The Lobotomy Inventor Won a Nobel Prize #shorts",
+ "tags": [
+  "egas moniz",
+  "lobotomy",
+  "nobel prize",
+  "history",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.nobelprize.org/prizes/medicine/1949/moniz/biographical/",
+  "https://www.britannica.com/biography/Antonio-Egas-Moniz",
+  "https://www.ebsco.com/research-starters/history/egas-moniz-develops-prefrontal-lobotomy",
+  "https://en.wikipedia.org/wiki/Lobotomy"
+ ]
+}

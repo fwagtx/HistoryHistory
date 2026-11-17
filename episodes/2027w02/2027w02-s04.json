@@ -1,0 +1,292 @@
+{
+ "id": "2027w02-s04",
+ "format": "short",
+ "date": "2027-01-11",
+ "slot": "09:00",
+ "title": "Monks Smuggled Silkworms to the Byzantine Emperor",
+ "hook": "THE GREAT SILK HEIST",
+ "topic": "Byzantine Silk",
+ "music": "playful",
+ "cast": {
+  "monk": {
+   "preset": "monk",
+   "beard": "full",
+   "hairColor": "#3A2A1A",
+   "skin": "olive"
+  },
+  "monk2": {
+   "preset": "monk",
+   "hatColor": "#5A4A3A",
+   "color": "#5A4A3A",
+   "stubble": true,
+   "skin": "tan"
+  },
+  "justinian": {
+   "hat": "crown",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "name": "Justinian I"
+  },
+  "citizenw": {
+   "hat": "veil",
+   "hatColor": "#2F6FC2",
+   "outfit": "dress",
+   "color": "#B8743A",
+   "hair": "long",
+   "hairColor": "#2A1E16",
+   "skin": "olive"
+  },
+  "merchant": {
+   "preset": "merchant"
+  },
+  "camel": {
+   "animal": "camel",
+   "load": "salt",
+   "mood": "neutral"
+  }
+ },
+ "voices": {
+  "monk": "am_eric",
+  "justinian": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Two monks may have pulled off one of the greatest smuggling jobs in history.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "monk2",
+      "x": 0.55,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.4,
+      "label": "SILK"
+     }
+    ],
+    "place": "Constantinople · around 552 AD"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back then, only China knew how to make silk. Constantinople bought it, often through rival Persia.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "smug"
+     },
+     {
+      "id": "camel",
+      "x": 0.65
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.35,
+      "label": "SILK"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Justinian hated paying his rivals for it.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "justinian",
+      "x": 0.45,
+      "pose": "facepalm",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "justinian",
+     "text": "Emperor Justinian"
+    }
+   }
+  },
+  {
+   "who": "monk",
+   "say": "We know the secret, Emperor. Silk comes from worms.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     },
+     {
+      "id": "justinian",
+      "x": 0.65,
+      "pose": "think",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "justinian",
+   "say": "Then go and get me some worms."
+  },
+  {
+   "who": "N",
+   "say": "According to the historian Procopius, monks traveled to Central Asia and brought back silkworm eggs.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "scared"
+     },
+     {
+      "id": "monk2",
+      "x": 0.55,
+      "pose": "walk",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "A later writer says the eggs were hidden inside a hollow walking stick. The exact details are debated.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "monk2",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HOLLOW CANE?",
+      "at": 1.0,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Either way, the empire soon made its own silk, famous for centuries.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "citizenw",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.4,
+      "label": "SILK"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "monk",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "monk2",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "How the Byzantine Empire got its hands on silkworms, according to Procopius.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #silk #byzantineempire #silkroad #historytok",
+ "youtube_title": "Monks Smuggled Silkworms to the Byzantine Emperor #shorts",
+ "tags": [
+  "silk",
+  "silkworms",
+  "byzantine empire",
+  "justinian",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Smuggling_of_silkworm_eggs_into_the_Byzantine_Empire",
+  "https://www.ebsco.com/research-starters/history/silk-worms-are-smuggled-byzantine-empire",
+  "https://www.worldhistory.org/article/1199/the-silk-road/"
+ ]
+}

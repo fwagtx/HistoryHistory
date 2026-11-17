@@ -1,0 +1,272 @@
+{
+ "id": "2027w02-s34",
+ "format": "short",
+ "date": "2027-01-15",
+ "slot": "09:00",
+ "title": "This Roman Gold Coin Kept Its Value for About 700 Years",
+ "hook": "THE 700-YEAR COIN",
+ "topic": "Gold solidus",
+ "music": "playful",
+ "cast": {
+  "constantine": {
+   "hat": "laurel",
+   "outfit": "toga",
+   "color": "#6A3E8E",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#4A3222",
+   "skin": "light",
+   "hold": "coin",
+   "name": "Emperor Constantine"
+  },
+  "merchant": {
+   "outfit": "robe",
+   "color": "#2F7A6A",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "olive",
+   "name": "Merchant"
+  },
+  "buyer": {
+   "preset": "roman",
+   "hold": "coin",
+   "name": "Buyer"
+  }
+ },
+ "voices": {
+  "merchant": "bm_george",
+  "buyer": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One Roman gold coin kept its value for about seven hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "constantine",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "700 YEARS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Roman Empire · AD 312"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In the 200s, Rome's 'silver' coins had become mostly copper, and prices went wild.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.4,
+      "mood": "angry",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "PRICES UP"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JUNK COINS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then Emperor Constantine built his money around a gold coin called the solidus, meaning solid.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "constantine",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "constantine",
+     "text": "Emperor Constantine"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Seventy-two coins from every Roman pound of gold. No tricks.",
+   "show": {
+    "k": "card",
+    "label": "Solidi from one Roman pound of gold",
+    "big": "72",
+    "sub": "each about 4.5 grams"
+   }
+  },
+  {
+   "who": "merchant",
+   "say": "Is it real gold?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "buyer",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "buyer",
+   "say": "Weigh it. It's always the same."
+  },
+  {
+   "who": "N",
+   "say": "The eastern empire, ruled from Constantinople, kept it the same until the 1000s. Europeans called it the bezant.",
+   "show": {
+    "k": "map",
+    "lon": 28.97,
+    "lat": 41.0,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "AD 900",
+    "labels": [
+     [
+      "Constantinople",
+      28.97,
+      41.01,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      28.97,
+      41.01,
+      0.4,
+      "rgba(212,165,42,.55)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "It even gave us a word. A soldier was originally someone who fought for pay, from solidus.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "salute"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.5
+     },
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SOLIDUS → SOLDIER",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "constantine",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "merchant",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Constantine's gold coin stayed solid for about 700 years, and it gave us the word soldier.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #ancientrome #byzantine #historytok #coins",
+ "youtube_title": "This Roman Gold Coin Kept Its Value for About 700 Years #shorts",
+ "tags": [
+  "solidus",
+  "constantine",
+  "bezant",
+  "byzantine empire",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Solidus_(coin)",
+  "https://en.wikipedia.org/wiki/Byzantine_coinage",
+  "https://www.worldhistory.org/Byzantine_Coinage/",
+  "https://www.etymonline.com/word/soldier"
+ ]
+}
