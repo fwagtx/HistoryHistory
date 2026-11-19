@@ -133,6 +133,16 @@ NARRATOR = "am_michael"
 NARRATOR_SPEED = 1.12
 CHARACTER_VOICES = ["bm_george", "am_fenrir", "bm_lewis", "am_puck", "af_heart", "am_echo", "bf_emma",
                     "am_eric", "af_bella", "bm_daniel", "am_liam", "bf_alice"]
+# Pocket TTS (Kyutai, CC-BY 4.0): voices modelled on real human recordings. A voice named "pk:<name>" is spoken
+# by it. HP_NARRATOR overrides the narrator (e.g. for voice tests); HP_ENGINE=pocket also moves the
+# character voices onto Pocket TTS so skits never mix a human-sounding narrator with synthetic characters.
+import os
+POCKET_VOICES = ["pk:peter_yearsley", "pk:bill_boerst", "pk:stuart_bell", "pk:george", "pk:jean", "pk:michael", "pk:charles",
+                 "pk:javert", "pk:paul", "pk:marius", "pk:caro_davy", "pk:mary", "pk:eve", "pk:alba", "pk:jane"]
+NARRATOR = os.environ.get("HP_NARRATOR", NARRATOR)
+if os.environ.get("HP_ENGINE") == "pocket":
+    CHARACTER_VOICES = [v for v in POCKET_VOICES if v != NARRATOR]
+POCKET_PY = os.environ.get("HP_POCKET_PY", "python3.13")
 POLISH = ("highpass=f=75,equalizer=f=140:t=q:w=1:g=2.5,equalizer=f=3200:t=q:w=1.5:g=2,equalizer=f=7500:t=q:w=2:g=-3,"
           "deesser=i=0.35,acompressor=threshold=-22dB:ratio=3:attack=4:release=120:makeup=2.5,"
           "aecho=0.85:0.8:18|29:0.05|0.03,loudnorm=I=-16:TP=-1.5:LRA=9,aresample=48000")
@@ -163,10 +173,27 @@ def phrases(line):
     return out
 
 
+def pocket_synth(jobs):
+    """Speak [(voice, text)] with Pocket TTS in one python3.13 worker (model loaded once). Returns float32 arrays at SR."""
+    import tempfile
+    with tempfile.TemporaryDirectory() as d:
+        d = Path(d); (d / "jobs.json").write_text(json.dumps([[v[3:], s] for v, s in jobs]))
+        subprocess.run([POCKET_PY, str(Path(__file__).parent / "pocket_worker.py"), str(d)], check=True)
+        out = []
+        for i in range(len(jobs)):
+            a, sr = sf.read(d / f"{i}.wav", dtype="float32")
+            if sr != SR:
+                a = np.interp(np.arange(int(len(a) * SR / sr)) * sr / SR, np.arange(len(a)), a).astype(np.float32)
+            out.append(a)
+    return out
+
+
 def toon_narrate(beats, voices, out_dir):
     """Speak every beat. beats: [{"who": "N"|cast id, "say": str} or {"hold": seconds}].
     voices maps cast ids to Kokoro voices ("N" is the narrator). Returns timings with word times."""
-    k = _kokoro()
+    pk_jobs = [(voices.get(b.get("who", "N"), NARRATOR), b["say"]) for b in beats if b.get("say") and voices.get(b.get("who", "N"), NARRATOR).startswith("pk:")]
+    pk_audio = iter(pocket_synth(pk_jobs)) if pk_jobs else iter(())
+    k = _kokoro() if len(pk_jobs) < sum(1 for b in beats if b.get("say")) else None
     parts, t, timed = [np.zeros(int(.2 * SR), np.float32)], .2, []
     for b in beats:
         if not b.get("say"):
@@ -176,6 +203,18 @@ def toon_narrate(beats, voices, out_dir):
             continue
         who = b.get("who", "N")
         voice = voices.get(who, NARRATOR)
+        if voice.startswith("pk:"):  # the whole line in one take, so sentences flow like a real reader
+            a = next(pk_audio); v = np.where(np.abs(a) > .008)[0]
+            if len(v):
+                a = a[max(0, v[0] - 240): v[-1] + 600]
+            f = int(.012 * SR); a[:f] *= np.linspace(0, 1, f); a[-f:] *= np.linspace(1, 0, f)
+            dur = len(a) / SR; ws = b["say"].split(); w8 = [len(w) + 2 for w in ws]; tot = sum(w8); acc = t; words = []
+            for w, n in zip(ws, w8):
+                words.append({"w": w, "s": round(acc, 3), "e": round(acc + dur * n / tot, 3)}); acc += dur * n / tot
+            end_pause = .28 if len(ws) <= 6 else .16
+            parts += [a, np.zeros(int(end_pause * SR), np.float32)]
+            timed.append({"who": who, "say": b["say"], "t0": round(t, 3), "t1": round(t + dur, 3), "words": words}); t += dur + end_pause
+            continue
         base = NARRATOR_SPEED if who == "N" else 1.06
         lang = "en-gb" if voice.startswith("b") else "en-us"
         t0, words = t, []
