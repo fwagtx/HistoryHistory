@@ -1,0 +1,288 @@
+{
+ "id": "2027w03-s26",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "Gold Was Found on His Land, and It Ruined Him",
+ "hook": "GOLD RUINED HIM",
+ "topic": "John Sutter",
+ "music": "playful",
+ "cast": {
+  "sutter": {
+   "outfit": "coat",
+   "color": "#2F4A6A",
+   "color2": "#D4A52A",
+   "hair": "bald",
+   "hairColor": "#8A7A6A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "John Sutter"
+  },
+  "marshall": {
+   "hat": "slouch",
+   "hatColor": "#5A4A3A",
+   "outfit": "coat",
+   "color": "#7A5A3A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "light",
+   "name": "James Marshall"
+  }
+ },
+ "voices": {
+  "sutter": "bm_lewis",
+  "marshall": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Gold was discovered on John Sutter's land, and it ruined him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.5,
+      "label": "SUTTER'S FORT"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.9,
+      "s": 0.25
+     }
+    ],
+    "place": "Sutter's Fort, California · 1848",
+    "tag": {
+     "id": "sutter",
+     "text": "John Sutter"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sutter was a Swiss immigrant who built a huge farming estate in California.",
+   "show": {
+    "k": "map",
+    "lon": -120.5,
+    "lat": 37.8,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "1848",
+    "labels": [
+     [
+      "California",
+      -119.5,
+      36.5,
+      14
+     ],
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ],
+     [
+      "Sacramento",
+      -121.49,
+      38.58,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -120.9,
+      38.8,
+      0.9,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In January 1848, his carpenter, James Marshall, found gold at Sutter's new sawmill.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.4
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Coloma, California · January 1848",
+    "tag": {
+     "id": "marshall",
+     "text": "James Marshall, carpenter"
+    }
+   }
+  },
+  {
+   "who": "sutter",
+   "say": "Keep it quiet. Nobody can know.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.3,
+      "mood": "scared"
+     },
+     {
+      "id": "marshall",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "marshall",
+   "say": "About that, boss. Everybody knows."
+  },
+  {
+   "who": "N",
+   "say": "His workers quit to go digging. Then thousands of gold seekers swarmed his land, squatted on it and stole his cattle.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.65,
+      "s": 0.4
+     },
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SQUATTERS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He later wrote: by this sudden discovery of the gold, all my great plans were destroyed.",
+   "show": {
+    "k": "quote",
+    "text": "By this sudden discovery of the gold, all my great plans were destroyed.",
+    "who": "John Sutter, Hutchings' California Magazine, 1857"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He spent years asking Congress to pay him back, and died in 1880, still waiting.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.4,
+      "text": "PAY ME BACK"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1880",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Washington, D.C. · 1880"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.3,
+      "mood": "sad",
+      "pose": "wave"
+     },
+     {
+      "id": "marshall",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The gold rush started on his land. He died broke.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #goldrush #johnsutter #historytok #california",
+ "youtube_title": "Gold Was Found on His Land, and It Ruined Him #shorts",
+ "tags": [
+  "john sutter",
+  "sutter's mill",
+  "california gold rush",
+  "gold rush",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/John_Sutter",
+  "https://www.britannica.com/biography/John-Sutter",
+  "https://www.legendsofamerica.com/ca-suttersgold/",
+  "https://www.voanews.com/a/man-who-found-california-gold-died-broke/1506478.html"
+ ]
+}

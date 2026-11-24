@@ -1,0 +1,219 @@
+{
+ "id": "2027w03-s12",
+ "format": "short",
+ "date": "2027-01-18",
+ "slot": "09:00",
+ "title": "The Last Mughal Emperor Died in Exile and Was Forgotten",
+ "hook": "THE LAST MUGHAL EMPEROR",
+ "topic": "Bahadur Shah Zafar",
+ "youtube_title": "The Last Mughal Emperor Died in Exile and Was Forgotten #shorts",
+ "music": "warm",
+ "tags": [
+  "bahadur shah zafar",
+  "last mughal emperor",
+  "1857",
+  "mughal empire",
+  "history shorts"
+ ],
+ "cast": {
+  "worker": {
+   "hat": "turban",
+   "hatColor": "#C8702A",
+   "outfit": "tunic",
+   "color": "#E8E0D0",
+   "stache": "bush",
+   "skin": "brown"
+  },
+  "zafar": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#6A8EC2",
+   "beard": "long",
+   "hairColor": "#EFEFEF",
+   "skin": "tan",
+   "name": "Bahadur Shah Zafar"
+  },
+  "sepoy": {
+   "preset": "redcoat",
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "stache": "bush",
+   "skin": "brown"
+  },
+  "brit": {
+   "preset": "redcoat"
+  }
+ },
+ "voices": {
+  "zafar": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The last Mughal emperor died in exile, and his grave was lost for over a century.",
+   "show": {
+    "k": "scene",
+    "bg": "prison",
+    "cast": [
+     {
+      "id": "zafar",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "place": "Rangoon, Burma · 1862",
+    "tag": {
+     "id": "zafar",
+     "text": "Bahadur Shah Zafar"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "By the 1850s, the British East India Company ruled most of India. The emperor barely ruled his own palace.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "zafar",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "sad"
+     },
+     {
+      "id": "brit",
+      "x": 0.68,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "place": "Red Fort, Delhi · 1850s"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Bahadur Shah Zafar was in his eighties, and he was famous for his poetry.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "zafar",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.35,
+      "text": "POEMS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1857, Indian soldiers rebelled against the Company and made him their leader.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "sepoy",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "shout"
+     },
+     {
+      "id": "zafar",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "gate",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "zafar",
+   "say": "Me? I'm a poet, not a general!"
+  },
+  {
+   "who": "N",
+   "say": "The British won. They exiled him to Rangoon, in Burma, where he died in 1862.",
+   "show": {
+    "k": "card",
+    "label": "Exiled to Rangoon",
+    "big": "1858 → 1862",
+    "sub": "the end of the Mughal dynasty"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His grave was barely marked. In 1991, workers digging a drain found it again.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOUND: 1991",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "zafar",
+      "x": 0.4,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The last Mughal emperor was a poet. His grave was lost until 1991.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #bahadurshahzafar #mughalempire #indianhistory #historytok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar",
+  "https://www.britannica.com/biography/Bahadur-Shah-II",
+  "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar_grave_dispute",
+  "https://indianculture.gov.in/stories/bahadur-shah-zafar",
+  "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+ ]
+}

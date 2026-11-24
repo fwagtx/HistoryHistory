@@ -1,0 +1,248 @@
+{
+ "id": "2027w03-s28",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "Gold Turned a Tiny Town Into San Francisco",
+ "hook": "1,000 TO 25,000",
+ "topic": "San Francisco",
+ "music": "playful",
+ "cast": {
+  "miner": {
+   "hat": "slouch",
+   "hatColor": "#6A5A48",
+   "outfit": "overalls",
+   "color": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Forty-niner"
+  },
+  "shopkeeper": {
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "apron": true,
+   "hair": "bald",
+   "hairColor": "#6A6A6A",
+   "stache": "handlebar",
+   "skin": "light",
+   "name": "Shopkeeper"
+  }
+ },
+ "voices": {
+  "miner": "am_puck",
+  "shopkeeper": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In about two years, San Francisco went from roughly a thousand people to about twenty-five thousand.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.35,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,000 → 25,000",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "San Francisco · 1849"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In early 1848, it was a small port town on a big bay.",
+   "show": {
+    "k": "map",
+    "lon": -122.3,
+    "lat": 37.8,
+    "z0": 2.3,
+    "z1": 2.5,
+    "date": "1848",
+    "labels": [
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ],
+     [
+      "Sacramento",
+      -121.49,
+      38.58,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -122.4,
+      37.8,
+      0.3,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then gold was found in the hills near Sacramento, and the news spread around the world.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "cheer",
+      "hold": "goldbar"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.4
+     },
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "place": "Gold country, California · 1848"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Ships packed with gold seekers poured in from the East Coast, Mexico, Chile, China and Europe.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.6,
+      "s": 0.5
+     },
+     {
+      "k": "steamship",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "There weren't enough houses, so people lived in tents, shacks, and even old ships.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "shopkeeper",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.86,
+      "s": 0.4,
+      "label": "HOTEL"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "miner",
+   "say": "Where's the hotel?"
+  },
+  {
+   "who": "shopkeeper",
+   "say": "You're looking at it. That'll be extra."
+  },
+  {
+   "who": "N",
+   "say": "By 1850, it was the biggest city on America's West Coast, built in a rush by people chasing gold.",
+   "show": {
+    "k": "card",
+    "label": "San Francisco's population (estimates)",
+    "big": "25x",
+    "sub": "early 1848 vs. 1850"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "shopkeeper",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "San Francisco grew about 25 times bigger in two years. Thank gold.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #sanfrancisco #goldrush #historytok #california",
+ "youtube_title": "Gold Turned a Tiny Town Into San Francisco #shorts",
+ "tags": [
+  "san francisco",
+  "california gold rush",
+  "boomtown",
+  "forty-niners",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/History_of_San_Francisco",
+  "https://www.nps.gov/places/000/gold-rush-transforms-san-francisco.htm",
+  "https://www.history.com/topics/us-states/san-francisco",
+  "https://en.wikipedia.org/wiki/California_gold_rush"
+ ]
+}

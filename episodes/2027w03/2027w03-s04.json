@@ -1,0 +1,221 @@
+{
+ "id": "2027w03-s04",
+ "format": "short",
+ "date": "2027-01-18",
+ "slot": "09:00",
+ "title": "This Emperor Couldn't Read but Owned 24,000 Books",
+ "hook": "HE COULDN'T READ",
+ "topic": "Akbar the Great",
+ "youtube_title": "This Emperor Couldn't Read but Owned 24,000 Books #shorts",
+ "music": "playful",
+ "tags": [
+  "akbar",
+  "mughal empire",
+  "library",
+  "indian history",
+  "history shorts"
+ ],
+ "cast": {
+  "akbar": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "hairColor": "#1E1612",
+   "skin": "tan",
+   "name": "Akbar"
+  },
+  "reader": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#6A8EC2",
+   "beard": "long",
+   "hairColor": "#8A8A8A",
+   "skin": "tan"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "akbar": "am_fenrir",
+  "reader": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "One of India's greatest emperors probably never learned to read. But he owned about twenty-four thousand books.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "place": "Agra, India · 1500s",
+    "tag": {
+     "id": "akbar",
+     "text": "Akbar, Mughal emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Akbar became emperor in 1556, at just thirteen.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "happy",
+      "s": 0.85
+     }
+    ],
+    "objects": [
+     {
+      "k": "crown",
+      "x": 0.72,
+      "s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "As a boy, he preferred hunting, horses and elephants to lessons.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "horse",
+      "x": 0.62
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So how did he enjoy books? Servants read them aloud to him every day.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.3,
+      "pose": "sit",
+      "mood": "happy"
+     },
+     {
+      "id": "reader",
+      "x": 0.62,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "book"
+     }
+    ]
+   }
+  },
+  {
+   "who": "akbar",
+   "say": "Read me another one."
+  },
+  {
+   "who": "reader",
+   "say": "Your Majesty, that's the fourth book today."
+  },
+  {
+   "who": "N",
+   "say": "When he died in 1605, an inventory counted about twenty-four thousand handwritten books.",
+   "show": {
+    "k": "card",
+    "label": "Books in Akbar's library, 1605",
+    "big": "24,000",
+    "sub": "handwritten manuscripts, by one inventory"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He couldn't read them, but he made sure they were read.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.4,
+      "text": "24,000 BOOKS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "reader",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He probably couldn't read. He still built one of the world's biggest libraries.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #akbar #mughalempire #books #historytok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Akbar",
+  "https://www.degruyterbrill.com/document/doi/10.1515/9783110779653-002/pdf",
+  "https://scroll.in/article/767632/scroll_in",
+  "https://dailytimes.com.pk/377146/how-akbar-came-to-love-books-despite-never-learning-to-read/"
+ ]
+}

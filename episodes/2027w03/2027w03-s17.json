@@ -1,0 +1,321 @@
+{
+ "id": "2027w03-s17",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "Hannibal Won a Battle Because Rome Skipped Breakfast",
+ "hook": "NO BREAKFAST, NO WIN",
+ "topic": "Battle of the Trebia",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "soldier": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stubble": true,
+   "outfit": "tunic",
+   "color": "#B8502A",
+   "hold": "spear",
+   "name": "Carthaginian soldier"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "sempronius": {
+   "preset": "legionary",
+   "beard": "goatee",
+   "color": "#A8201A",
+   "name": "Tiberius Sempronius Longus"
+  },
+  "mago": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#1E1A16",
+   "stubble": true,
+   "outfit": "armor",
+   "color": "#3A6A3A",
+   "color2": "#C9A240",
+   "name": "Mago Barca"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "sempronius": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Hannibal beat a Roman army by making them skip breakfast.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "smug"
+     },
+     {
+      "id": "sempronius",
+      "x": 0.66,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.48,
+      "s": 0.3
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "place": "Trebia River, northern Italy · 218 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "December, 218 BC. Hannibal, a general from Carthage, faces a Roman army across the freezing Trebia River.",
+   "show": {
+    "k": "map",
+    "lon": 9.6,
+    "lat": 44.9,
+    "z0": 3.4,
+    "z1": 3.9,
+    "date": "218 BC",
+    "labels": [
+     [
+      "TREBIA RIVER",
+      9.6,
+      45.0,
+      0
+     ],
+     [
+      "ALPS",
+      8.0,
+      46.2,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      9.6,
+      45.0,
+      0.3,
+      "rgba(47,111,194,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At dawn, he sends horsemen to tease the Roman camp.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "horse",
+      "x": 0.62,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "sempronius",
+   "say": "Attack! Everyone out, right now!",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "sempronius",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout",
+      "hold": "sword"
+     }
+    ],
+    "cam": "close",
+    "focus": "sempronius",
+    "tag": {
+     "id": "sempronius",
+     "text": "Sempronius, Roman commander"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Polybius says the Romans rushed out without eating and waded the icy river, chest deep, in sleet.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO BREAKFAST",
+      "at": 1.6,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal's men had eaten, warmed up by fires, and rubbed oil on their skin against the cold.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.65,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BREAKFAST",
+      "at": 1.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then his brother Mago burst out of a hidden riverbed behind the Romans.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "mago",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shout",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "mago",
+     "text": "Mago, Hannibal's brother"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Cold, hungry and surrounded, the Romans lost badly. It was Hannibal's first big win in Italy.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "explosion_cloud",
+      "x": 0.72,
+      "s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "The most important meal of the day decided an ancient battle.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #ancientrome #battle #historytok",
+ "youtube_title": "Hannibal Won a Battle Because Rome Skipped Breakfast #shorts",
+ "tags": [
+  "battle of the trebia",
+  "hannibal",
+  "second punic war",
+  "ancient rome",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_the_Trebia",
+  "https://www.historyhit.com/battle-of-the-trebia/",
+  "https://www.livius.org/sources/content/appian/appian-war-against-hannibal/appian-war-against-hannibal-2/"
+ ]
+}

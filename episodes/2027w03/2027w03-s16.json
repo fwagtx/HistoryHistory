@@ -1,0 +1,293 @@
+{
+ "id": "2027w03-s16",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "Rome Sold the Field Hannibal Was Camped On",
+ "hook": "ROME SOLD HIS CAMPSITE",
+ "topic": "Hannibal",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "auctioneer": {
+   "preset": "roman",
+   "hair": "bald",
+   "hold": "scroll",
+   "name": "Roman auctioneer"
+  },
+  "buyer": {
+   "preset": "senator",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "name": "Roman buyer"
+  }
+ },
+ "voices": {
+  "auctioneer": "am_echo",
+  "buyer": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Rome sold the field Hannibal was camping on. While he was camping on it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "auctioneer",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.45,
+      "text": "FOR SALE"
+     }
+    ],
+    "place": "Rome · 211 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal, a general from Carthage, had been beating Roman armies in Italy for years.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal, general of Carthage"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 211 BC, he marched right up to Rome and camped about three miles away.",
+   "show": {
+    "k": "map",
+    "lon": 13.0,
+    "lat": 41.6,
+    "z0": 3.2,
+    "z1": 3.8,
+    "date": "211 BC",
+    "labels": [
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ],
+     [
+      "CAPUA",
+      14.25,
+      41.1,
+      0
+     ]
+    ],
+    "route": [
+     [
+      14.25,
+      41.1
+     ],
+     [
+      13.4,
+      41.5
+     ],
+     [
+      12.6,
+      41.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "auctioneer",
+   "say": "Lot one! Lovely field. Slight Hannibal problem.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "auctioneer",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "cam": "close",
+    "focus": "auctioneer"
+   }
+  },
+  {
+   "who": "buyer",
+   "say": "Full price. He won't stay long.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to Livy, a Roman historian, the land really sold, and the price didn't drop at all.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "auctioneer",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "buyer",
+      "x": 0.62,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FULL PRICE",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal heard about it from a prisoner. So he put Rome's silversmith shops up for sale. Shops he didn't own.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.45,
+      "text": "SHOPS FOR SALE"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PETTY",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Soon after, he marched away. Rome hadn't even blinked.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.7,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "auctioneer",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "hannibal",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Hannibal camped outside Rome. Rome put his campsite up for sale.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #ancientrome #funnyhistory #historytok",
+ "youtube_title": "Rome Sold the Field Hannibal Was Camped On #shorts",
+ "tags": [
+  "hannibal",
+  "hannibal at the gates",
+  "ancient rome",
+  "second punic war",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hannibal%27s_raid_to_Rome",
+  "https://gutenberg.org/cache/epub/10907/pg10907-images.html",
+  "https://www.britannica.com/event/Punic-Wars/Second-Punic-War-218-201-bce"
+ ]
+}

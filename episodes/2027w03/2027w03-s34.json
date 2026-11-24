@@ -1,0 +1,289 @@
+{
+ "id": "2027w03-s34",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "Mexico Gave Up California 9 Days After Gold Was Found There",
+ "hook": "NINE DAYS TOO SOON",
+ "topic": "Treaty of Guadalupe Hidalgo",
+ "music": "playful",
+ "cast": {
+  "marshall": {
+   "hat": "slouch",
+   "hatColor": "#5A4A3A",
+   "outfit": "coat",
+   "color": "#7A5A3A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "light",
+   "name": "James Marshall"
+  },
+  "trist": {
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "hair": "side",
+   "hairColor": "#5A3A22",
+   "skin": "light",
+   "hold": "pen",
+   "name": "Nicholas Trist"
+  },
+  "envoy": {
+   "outfit": "coat",
+   "color": "#2F5A3A",
+   "color2": "#D4A52A",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stache": "bush",
+   "skin": "tan",
+   "name": "Mexican envoy"
+  }
+ },
+ "voices": {
+  "marshall": "am_liam",
+  "trist": "bm_george",
+  "envoy": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Mexico handed California to the United States just nine days after gold was found there.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.4,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.35
+     },
+     {
+      "k": "flag",
+      "x": 0.9,
+      "s": 0.4,
+      "flag": "mexico"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "9 DAYS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Coloma, California · January 24, 1848",
+    "tag": {
+     "id": "marshall",
+     "text": "James Marshall"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1848, the United States and Mexico were at war, and California was still Mexican land.",
+   "show": {
+    "k": "flag",
+    "flag": "mexico",
+    "label": "MEXICO",
+    "sub": "California was Mexican until 1848",
+    "bg": "desert"
+   }
+  },
+  {
+   "who": "N",
+   "say": "On January 24, a carpenter named James Marshall found gold at a sawmill in the California hills.",
+   "show": {
+    "k": "map",
+    "lon": -120.5,
+    "lat": 37.8,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "January 1848",
+    "labels": [
+     [
+      "California",
+      -119.5,
+      36.5,
+      14
+     ],
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ],
+     [
+      "Sacramento",
+      -121.49,
+      38.58,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -120.9,
+      38.8,
+      0.9,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But news traveled slowly. There was no telegraph in California yet.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.4,
+      "mood": "happy",
+      "hold": "goldbar"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO TELEGRAPH",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On February 2, the two countries signed a peace treaty at Guadalupe Hidalgo, near Mexico City.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "trist",
+      "x": 0.3,
+      "mood": "smug"
+     },
+     {
+      "id": "envoy",
+      "x": 0.66,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "place": "Guadalupe Hidalgo, Mexico · February 2, 1848",
+    "tag": {
+     "id": "trist",
+     "text": "Nicholas Trist, US negotiator"
+    },
+    "cam": "still"
+   }
+  },
+  {
+   "who": "envoy",
+   "say": "So, California is yours."
+  },
+  {
+   "who": "trist",
+   "say": "Lovely. Anything interesting out there?"
+  },
+  {
+   "who": "N",
+   "say": "Within a year, the gold rush was on, and California became a US state in 1850.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "flag",
+      "x": 0.68,
+      "s": 0.45,
+      "flag": "usa1859"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.88,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "STATE #31",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "1850",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "trist",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Gold was found in California on January 24, 1848. On February 2, Mexico signed it away.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #goldrush #mexico #historytok #california",
+ "youtube_title": "Mexico Gave Up California 9 Days After Gold Was Found There #shorts",
+ "tags": [
+  "treaty of guadalupe hidalgo",
+  "mexican american war",
+  "california gold rush",
+  "james marshall",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
+  "https://www.loc.gov/item/today-in-history/february-02",
+  "https://www.history.com/this-day-in-history/treaty-of-guadalupe-hidalgo-is-signed",
+  "https://en.wikipedia.org/wiki/James_W._Marshall",
+  "https://www.history.com/this-day-in-history/september-9/california-becomes-the-31st-state-in-record-time"
+ ]
+}

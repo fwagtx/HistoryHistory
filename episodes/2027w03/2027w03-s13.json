@@ -1,0 +1,328 @@
+{
+ "id": "2027w03-s13",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "Hannibal Swore to Fight Rome at Age 9",
+ "hook": "SWORN ENEMY AT 9",
+ "topic": "Hannibal",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "younghan": {
+   "preset": "child",
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "outfit": "tunic",
+   "color": "#B8502A",
+   "name": "Young Hannibal"
+  },
+  "hamilcar": {
+   "skin": "olive",
+   "hair": "short",
+   "hairColor": "#6A6460",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#5A2A6A",
+   "color2": "#C9A240",
+   "name": "Hamilcar Barca"
+  },
+  "polybius": {
+   "preset": "philosopher",
+   "name": "Polybius"
+  },
+  "elephant": {
+   "animal": "elephant"
+  }
+ },
+ "voices": {
+  "younghan": "am_puck",
+  "hamilcar": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "At nine years old, Hannibal swore to be Rome's enemy for life.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "younghan",
+      "x": 0.3,
+      "pose": "fist",
+      "mood": "angry"
+     },
+     {
+      "id": "hamilcar",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.48,
+      "s": 0.3
+     },
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "place": "Carthage, North Africa · 237 BC",
+    "tag": {
+     "id": "younghan",
+     "text": "Hannibal, age 9"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His dad, Hamilcar Barca, was the top general of Carthage, a rich city in North Africa.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "hamilcar",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "hamilcar",
+     "text": "Hamilcar Barca"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Carthage had just lost a long war to Rome. Now Hamilcar was sailing to Spain.",
+   "show": {
+    "k": "map",
+    "lon": 3.0,
+    "lat": 39.5,
+    "z0": 1.6,
+    "z1": 1.9,
+    "date": "237 BC",
+    "labels": [
+     [
+      "CARTHAGE",
+      10.3,
+      36.85,
+      0
+     ],
+     [
+      "SPAIN",
+      -4.0,
+      40.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      10.3,
+      36.85
+     ],
+     [
+      4.0,
+      37.2
+     ],
+     [
+      -1.0,
+      37.6
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Little Hannibal begged to go. So his dad led him to an altar to make a promise.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "younghan",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "hamilcar",
+      "x": 0.65,
+      "pose": "point",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.48,
+      "s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "hamilcar",
+   "say": "Swear you will never be a friend of Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "hamilcar",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "hamilcar"
+   }
+  },
+  {
+   "who": "younghan",
+   "say": "I swear it!",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "younghan",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "cam": "close",
+    "focus": "younghan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal told this story himself, decades later. The Greek historian Polybius wrote it down.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "polybius",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "polybius",
+     "text": "Polybius, Greek historian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "And he kept his word. At twenty-nine, he marched on Italy with war elephants.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "elephant",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "218 BC",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "younghan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "hannibal",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A nine-year-old made a promise that nearly destroyed Rome.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #carthage #ancientrome #historytok",
+ "youtube_title": "Hannibal Swore to Fight Rome at Age 9 #shorts",
+ "tags": [
+  "hannibal",
+  "hannibal oath",
+  "hamilcar barca",
+  "carthage",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hannibal",
+  "https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/H.hannibal_11",
+  "https://uvm.edu/~bsaylor/classics/polybius3.html",
+  "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE"
+ ]
+}

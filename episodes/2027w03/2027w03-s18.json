@@ -1,0 +1,306 @@
+{
+ "id": "2027w03-s18",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "Hannibal Wore Wigs to Stay Alive",
+ "hook": "HANNIBAL'S WIG COLLECTION",
+ "topic": "Hannibal",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "hannibalold": {
+   "skin": "olive",
+   "hair": "long",
+   "hairColor": "#D8D4CC",
+   "beard": "long",
+   "outfit": "robe",
+   "color": "#6A5A48",
+   "name": "Hannibal, in disguise"
+  },
+  "gaul": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#D8A040",
+   "stache": "handlebar",
+   "outfit": "tunic",
+   "color": "#3A7A4A",
+   "hold": "spear",
+   "name": "Gaulish warrior"
+  },
+  "polybius": {
+   "preset": "philosopher",
+   "name": "Polybius"
+  },
+  "elephant": {
+   "animal": "elephant"
+  }
+ },
+ "voices": {
+  "hannibalold": "am_fenrir",
+  "gaul": "bm_lewis"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Hannibal had a secret wig collection, and it may have saved his life.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "hannibalold",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "WIGS"
+     }
+    ],
+    "place": "Northern Italy · 218 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal was a general from Carthage, in North Africa, invading Italy to fight Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "elephant",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal, general of Carthage"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Thousands of Gauls, local tribes who hated Rome, joined his army.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "gaul",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "hannibal",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.48,
+      "s": 0.3
+     }
+    ],
+    "tag": {
+     "id": "gaul",
+     "text": "A Gaul"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But Polybius, a Greek historian, says Hannibal worried some of them might turn on him.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "gaul",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "angry"
+     },
+     {
+      "id": "hannibal",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he had wigs made that made him look like men of different ages, and switched them often.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "hannibalold",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "WIGS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OLD MAN",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "YOUNG MAN",
+      "at": 2.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "gaul",
+   "say": "Excuse me, grandpa. Seen Hannibal?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "gaul",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "neutral"
+     },
+     {
+      "id": "hannibalold",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ]
+   }
+  },
+  {
+   "who": "hannibalold",
+   "say": "Never heard of him.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibalold",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "hannibalold"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Polybius says even his close friends struggled to recognize him.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "polybius",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "polybius",
+     "text": "Polybius, Greek historian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibalold",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "gaul",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Hannibal's best defense wasn't armor. It was wigs.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #disguise #funnyhistory #historytok",
+ "youtube_title": "Hannibal Wore Wigs to Stay Alive #shorts",
+ "tags": [
+  "hannibal",
+  "hannibal disguise",
+  "gauls",
+  "second punic war",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.worldhistory.org/hannibal/",
+  "https://en.wikipedia.org/wiki/Hannibal",
+  "https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps"
+ ]
+}

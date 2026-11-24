@@ -1,0 +1,308 @@
+{
+ "id": "2027w03-s20",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "A Whole Roman Army Walked Into Hannibal's Fog Trap",
+ "hook": "AMBUSHED IN THE FOG",
+ "topic": "Lake Trasimene",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "livy": {
+   "preset": "roman",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "hold": "scroll",
+   "name": "Livy"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "flaminius": {
+   "preset": "legionary",
+   "stache": "brush",
+   "color": "#A8201A",
+   "name": "Gaius Flaminius"
+  }
+ },
+ "voices": {
+  "flaminius": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "At Lake Trasimene, a Roman army marched straight into a trap hidden in fog.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.78,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "place": "Lake Trasimene, Italy · 217 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "June, 217 BC. Hannibal, a general from Carthage, is loose in Italy.",
+   "show": {
+    "k": "map",
+    "lon": 12.2,
+    "lat": 42.9,
+    "z0": 3.2,
+    "z1": 3.7,
+    "date": "217 BC",
+    "labels": [
+     [
+      "LAKE TRASIMENE",
+      12.1,
+      43.15,
+      0
+     ],
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      12.1,
+      43.15,
+      0.25,
+      "rgba(47,111,194,0.5)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Roman commander Gaius Flaminius is chasing him, desperate for a fight.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "flaminius",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "angry",
+      "hold": "sword"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "flaminius",
+     "text": "Gaius Flaminius, Roman commander"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The road runs along the lake, squeezed between the water and the hills.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal hides his army in those hills. In the morning, thick fog rolls off the lake.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "smoke"
+    ],
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal, general of Carthage"
+    }
+   }
+  },
+  {
+   "who": "flaminius",
+   "say": "Can't see a thing. Keep marching!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "flaminius",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "flaminius",
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The trap snaps shut. Rome loses about fifteen thousand soldiers, including Flaminius.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "explosion_cloud",
+      "x": 0.72,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "AMBUSH",
+      "at": 1.0,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Livy, a Roman historian, claims an earthquake hit during the battle, and nobody even noticed.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "livy",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "EARTHQUAKE?!",
+      "at": 1.6,
+      "color": "#B8860B"
+     }
+    ],
+    "tag": {
+     "id": "livy",
+     "text": "Livy, Roman historian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "legionary",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Fog, hills, a lake, and one very bad morning for Rome.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #ancientrome #battle #historytok",
+ "youtube_title": "A Whole Roman Army Walked Into Hannibal's Fog Trap #shorts",
+ "tags": [
+  "lake trasimene",
+  "battle of lake trasimene",
+  "hannibal",
+  "second punic war",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_Lake_Trasimene",
+  "https://www.britannica.com/topic/Battle-of-Trasimene",
+  "https://www.livius.org/articles/battle/lake-trasimene/"
+ ]
+}

@@ -1,0 +1,239 @@
+{
+ "id": "2027w03-s30",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "The Gold Rush's Longest-Lasting Treasure Was Blue Jeans",
+ "hook": "THE PANTS THAT WON",
+ "topic": "Levi Strauss",
+ "music": "playful",
+ "cast": {
+  "levi": {
+   "outfit": "suit",
+   "color": "#262A36",
+   "hair": "side",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "skin": "light",
+   "name": "Levi Strauss"
+  },
+  "davis": {
+   "outfit": "suit",
+   "color": "#4A3A2A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Jacob Davis"
+  }
+ },
+ "voices": {
+  "levi": "am_adam",
+  "davis": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The longest-lasting treasure of the gold rush wasn't gold. It was a pair of pants.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "levi",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "CLOTH"
+     }
+    ],
+    "place": "San Francisco · 1853",
+    "tag": {
+     "id": "levi",
+     "text": "Levi Strauss"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Levi Strauss, a young German immigrant, came to San Francisco in 1853, during the gold rush.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "levi",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.72,
+      "s": 0.55
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1853",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He never dug for gold. He sold cloth and clothes to shops in the mining towns."
+  },
+  {
+   "who": "N",
+   "say": "Years later, a tailor in Reno, Nevada, named Jacob Davis, had customers who kept ripping their pants.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "davis",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "think"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "TAILOR"
+     }
+    ],
+    "place": "Reno, Nevada · 1872",
+    "tag": {
+     "id": "davis",
+     "text": "Jacob Davis, tailor"
+    }
+   }
+  },
+  {
+   "who": "davis",
+   "say": "What if I put metal rivets at the weak spots?",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "davis",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "levi",
+      "x": 0.66,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.86,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "levi",
+   "say": "Metal. In pants. Let's patent it."
+  },
+  {
+   "who": "N",
+   "say": "On May 20, 1873, they got a patent for riveted work pants.",
+   "show": {
+    "k": "card",
+    "label": "U.S. patent No. 139,121",
+    "big": "MAY 20, 1873",
+    "sub": "riveted work pants"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Those pants became blue jeans. The gold is mostly gone, but jeans are everywhere.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "levi",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "JEANS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BLUE JEANS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "levi",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "davis",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Levi Strauss never dug for gold. His pants outlasted the gold rush.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #levistrauss #bluejeans #historytok #goldrush",
+ "youtube_title": "The Gold Rush's Longest-Lasting Treasure Was Blue Jeans #shorts",
+ "tags": [
+  "levi strauss",
+  "jacob davis",
+  "blue jeans",
+  "california gold rush",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.pbs.org/wgbh/theymadeamerica/whomade/strauss_hi.html",
+  "https://prologue.blogs.archives.gov/2010/05/20/forever-in-blue-jeansand-in-court/",
+  "https://www.history.com/this-day-in-history/may-20/levi-strauss-and-jacob-davis-receive-patent-for-blue-jeans",
+  "https://www.npr.org/2023/05/21/1177391804/blue-jeans-were-invented-150-years-ago-this-week",
+  "https://en.wikipedia.org/wiki/Jacob_W._Davis"
+ ]
+}

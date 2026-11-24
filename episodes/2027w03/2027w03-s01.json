@@ -1,0 +1,234 @@
+{
+ "id": "2027w03-s01",
+ "format": "short",
+ "date": "2027-01-18",
+ "slot": "09:00",
+ "title": "Mughal India Made a Quarter of the World's Wealth",
+ "hook": "INDIA WAS THAT RICH",
+ "topic": "Mughal Empire",
+ "youtube_title": "Mughal India Made a Quarter of the World's Wealth #shorts",
+ "music": "playful",
+ "tags": [
+  "mughal empire",
+  "indian history",
+  "world economy",
+  "angus maddison",
+  "history shorts"
+ ],
+ "cast": {
+  "aurangzeb": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#3A7A4A",
+   "beard": "long",
+   "hairColor": "#3A2A1A",
+   "skin": "tan",
+   "name": "Aurangzeb"
+  },
+  "merchant": {
+   "preset": "merchant",
+   "hat": "turban",
+   "hatColor": "#C8322A",
+   "stache": "bush",
+   "skin": "brown"
+  }
+ },
+ "voices": {
+  "merchant": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Around 1700, one empire may have produced about a quarter of everything made on Earth.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.35,
+      "label": "COTTON"
+     },
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.35,
+      "label": "SPICES"
+     }
+    ],
+    "place": "Mughal India · around 1700"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It was the Mughal Empire, ruled by a family of emperors.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "aurangzeb",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "aurangzeb",
+     "text": "Aurangzeb, Mughal emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The economist Angus Maddison estimated India's share of the world economy at about twenty-four percent.",
+   "show": {
+    "k": "card",
+    "label": "India's share of the world economy, about 1700",
+    "big": "~24%",
+    "sub": "Angus Maddison's estimate"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's roughly one out of every four coins on the planet."
+  },
+  {
+   "who": "N",
+   "say": "The secret was cloth. Indian cotton was so good and so cheap that everyone wanted it.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.62,
+      "s": 0.55
+     },
+     {
+      "k": "crate",
+      "x": 0.8,
+      "s": 0.3,
+      "label": "CLOTH"
+     }
+    ]
+   }
+  },
+  {
+   "who": "merchant",
+   "say": "Cotton for Europe! Cotton for Africa! Cotton for everybody!"
+  },
+  {
+   "who": "N",
+   "say": "The emperors got so rich they built the Taj Mahal and a throne covered in jewels.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "aurangzeb",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.7,
+      "s": 0.45,
+      "label": "PEACOCK THRONE"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some historians call that number a rough guess. But Mughal India was clearly rich.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "aurangzeb",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ESTIMATE",
+      "at": 0.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "merchant",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "aurangzeb",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Around 1700, about a quarter of the world's wealth came from one empire.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mughalempire #indianhistory #economics #historytok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Economy_of_the_Mughal_Empire",
+  "https://en.wikipedia.org/wiki/Economic_history_of_India",
+  "https://en.wikipedia.org/wiki/Mughal_Empire",
+  "https://www.britannica.com/biography/Aurangzeb",
+  "https://en.wikipedia.org/wiki/Peacock_Throne"
+ ]
+}

@@ -1,0 +1,280 @@
+{
+ "id": "2027w03-s25",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "He Got Rich From the Gold Rush Without Digging",
+ "hook": "HE SOLD THE SHOVELS",
+ "topic": "Sam Brannan",
+ "music": "playful",
+ "cast": {
+  "brannan": {
+   "hat": "tophat",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "stubble": true,
+   "name": "Sam Brannan"
+  },
+  "miner": {
+   "hat": "slouch",
+   "hatColor": "#6A5A48",
+   "outfit": "overalls",
+   "color": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Forty-niner"
+  }
+ },
+ "voices": {
+  "brannan": "am_fenrir",
+  "miner": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The first big fortune of the California Gold Rush came from selling shovels, not digging.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "SHOVELS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SHOVELS > GOLD",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Sutter's Fort, California · 1848",
+    "tag": {
+     "id": "brannan",
+     "text": "Sam Brannan, shopkeeper"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1848, gold was found in the California hills. Sam Brannan ran a store nearby.",
+   "show": {
+    "k": "map",
+    "lon": -120.5,
+    "lat": 37.8,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "1848",
+    "labels": [
+     [
+      "California",
+      -119.5,
+      36.5,
+      14
+     ],
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ],
+     [
+      "Sacramento",
+      -121.49,
+      38.58,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -120.9,
+      38.8,
+      0.9,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Customers began paying him in gold dust. So he quietly bought up pans, picks and shovels.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "PANS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, the story goes, he ran through San Francisco waving a bottle of gold.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "GOLD"
+     },
+     {
+      "k": "sailship",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "place": "San Francisco · May 1848"
+   }
+  },
+  {
+   "who": "brannan",
+   "say": "Gold! Gold from the American River!"
+  },
+  {
+   "who": "N",
+   "say": "Pans he bought for twenty cents, he sold for fifteen dollars.",
+   "show": {
+    "k": "card",
+    "label": "One gold pan",
+    "big": "20¢ → $15",
+    "sub": "75 times the price"
+   }
+  },
+  {
+   "who": "miner",
+   "say": "Fifteen dollars for a pan?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "brannan",
+      "x": 0.68,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "brannan",
+   "say": "Want gold or not?"
+  },
+  {
+   "who": "N",
+   "say": "In about nine weeks, he reportedly made thirty-six thousand dollars. The surest gold was in selling tools.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$36,000",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "miner",
+      "x": 0.7,
+      "mood": "shock"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He didn't dig for gold. He sold the pans for 75 times what he paid.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #goldrush #california #historytok #moneyhistory",
+ "youtube_title": "He Got Rich From the Gold Rush Without Digging #shorts",
+ "tags": [
+  "sam brannan",
+  "california gold rush",
+  "gold rush",
+  "san francisco",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Samuel_Brannan",
+  "https://www.pbs.org/wgbh/americanexperience/features/goldrush-samuel-brannan",
+  "https://spartacus-educational.com/WWbrannan.htm",
+  "https://www.billofrightsinstitute.org/essays/the-49ers"
+ ]
+}

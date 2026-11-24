@@ -1,0 +1,235 @@
+{
+ "id": "2027w03-s11",
+ "format": "short",
+ "date": "2027-01-18",
+ "slot": "09:00",
+ "title": "A Persian King Stole the Peacock Throne and the Koh-i-Noor",
+ "hook": "HE TOOK THE THRONE",
+ "topic": "Nader Shah",
+ "youtube_title": "A Persian King Stole the Peacock Throne and the Koh-i-Noor #shorts",
+ "music": "playful",
+ "tags": [
+  "nader shah",
+  "koh-i-noor",
+  "peacock throne",
+  "mughal empire",
+  "history shorts"
+ ],
+ "cast": {
+  "nader": {
+   "hat": "turban",
+   "hatColor": "#C8322A",
+   "outfit": "armor",
+   "stache": "handlebar",
+   "beard": "goatee",
+   "hairColor": "#1E1612",
+   "skin": "light",
+   "name": "Nader Shah"
+  },
+  "muhammadshah": {
+   "hat": "turban",
+   "hatColor": "#E8C25A",
+   "outfit": "robe",
+   "color": "#6A3E8E",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "beard": "goatee",
+   "hairColor": "#1E1612",
+   "skin": "tan",
+   "name": "Emperor Muhammad Shah"
+  },
+  "camel": {
+   "animal": "camel",
+   "load": "gold"
+  }
+ },
+ "voices": {
+  "nader": "am_onyx"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1739, a Persian king walked off with the Mughal emperor's throne, and a giant diamond.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "nader",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "PEACOCK THRONE"
+     }
+    ],
+    "place": "Delhi, India · 1739",
+    "tag": {
+     "id": "nader",
+     "text": "Nader Shah, ruler of Persia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nader Shah ruled Persia, today's Iran. The Mughal Empire next door was rich but falling apart.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "nader",
+      "x": 0.35,
+      "pose": "fist",
+      "mood": "smug"
+     },
+     {
+      "id": "camel",
+      "x": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Near Delhi, his army beat the Mughals in about three hours.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "nader",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.65,
+      "s": 0.45
+     },
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then he took the Peacock Throne, a seat covered in gold and gems.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "nader",
+      "x": 0.3,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "muhammadshah",
+      "x": 0.65,
+      "pose": "facepalm",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "muhammadshah",
+     "text": "Emperor Muhammad Shah"
+    }
+   }
+  },
+  {
+   "who": "nader",
+   "say": "I'll also take that big diamond."
+  },
+  {
+   "who": "N",
+   "say": "It was the Koh-i-Noor, meaning Mountain of Light. Today it's in the British Crown Jewels.",
+   "show": {
+    "k": "card",
+    "label": "The diamond he took",
+    "big": "KOH-I-NOOR",
+    "sub": "\"Mountain of Light\""
+   }
+  },
+  {
+   "who": "N",
+   "say": "Accounts say he brought home so much loot that he cancelled taxes in Persia for three years.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "camel",
+      "x": 0.3
+     },
+     {
+      "id": "nader",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "NO TAXES x3 YEARS",
+      "at": 1.0,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "nader",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "muhammadshah",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1739 he took the Peacock Throne AND the Koh-i-Noor.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #kohinoor #nadershah #mughalempire #historytok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Nader_Shah%27s_invasion_of_India",
+  "https://en.wikipedia.org/wiki/Battle_of_Karnal",
+  "https://www.britannica.com/event/Battle-of-Karnal",
+  "https://en.wikipedia.org/wiki/Peacock_Throne",
+  "https://en.wikipedia.org/wiki/Koh-i-Noor",
+  "https://iranicaonline.org/articles/india-vii-relations-the-afsharid-and-zand-periods"
+ ]
+}

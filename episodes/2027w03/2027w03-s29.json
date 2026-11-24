@@ -1,0 +1,244 @@
+{
+ "id": "2027w03-s29",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "San Francisco Turned Abandoned Ships Into a Hotel and a Jail",
+ "hook": "SHIPS BECAME BUILDINGS",
+ "topic": "Gold Rush ghost ships",
+ "music": "playful",
+ "cast": {
+  "captain": {
+   "preset": "captain",
+   "name": "Ship captain"
+  },
+  "sailor": {
+   "preset": "sailor",
+   "name": "Sailor"
+  }
+ },
+ "voices": {
+  "captain": "bm_daniel",
+  "sailor": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In gold rush San Francisco, old ships became stores, a hotel, and even the city jail.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "captain",
+      "x": 0.3,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.62,
+      "s": 0.5,
+      "label": "HOTEL"
+     },
+     {
+      "k": "sailship",
+      "x": 0.82,
+      "s": 0.4,
+      "label": "JAIL"
+     }
+    ],
+    "place": "San Francisco · 1849"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1849, ships full of gold seekers sailed into San Francisco Bay.",
+   "show": {
+    "k": "map",
+    "lon": -122.3,
+    "lat": 37.8,
+    "z0": 2.3,
+    "z1": 2.5,
+    "date": "1849",
+    "labels": [
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ],
+     [
+      "Sacramento",
+      -121.49,
+      38.58,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -122.4,
+      37.8,
+      0.3,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But once they landed, the crews ran off to dig for gold too.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "captain",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "sailor",
+      "x": 0.66,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.86,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "captain",
+   "say": "Where do you think you're going?"
+  },
+  {
+   "who": "sailor",
+   "say": "Gold country, captain! Bye!"
+  },
+  {
+   "who": "N",
+   "say": "Hundreds of ships sat abandoned in the cove, with nobody left to sail them.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "captain",
+      "x": 0.25,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.4
+     },
+     {
+      "k": "sailship",
+      "x": 0.7,
+      "s": 0.45
+     },
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABANDONED",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Buildings were scarce, so people reused the ships. The whaling ship Niantic became a store and a hotel. The Euphemia became the city jail.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.62,
+      "s": 0.4,
+      "text": "NIANTIC HOTEL"
+     },
+     {
+      "k": "sailship",
+      "x": 0.84,
+      "s": 0.4,
+      "label": "EUPHEMIA JAIL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later the cove was filled in. Some of those ships still lie under downtown San Francisco.",
+   "show": {
+    "k": "card",
+    "label": "Under downtown San Francisco",
+    "big": "BURIED SHIPS",
+    "sub": "gold rush ships under the streets"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "captain",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sailor",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Sailors ditched their ships for gold, so the city turned the ships into buildings.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #sanfrancisco #goldrush #historytok #ships",
+ "youtube_title": "San Francisco Turned Abandoned Ships Into a Hotel and a Jail #shorts",
+ "tags": [
+  "niantic",
+  "buried ships",
+  "san francisco",
+  "california gold rush",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.nps.gov/safr/learn/historyculture/buried-ships-of-san-francisco.htm",
+  "https://www.nps.gov/safr/learn/historyculture/niantic.htm",
+  "https://en.wikipedia.org/wiki/Niantic_(whaling_vessel)",
+  "https://www.nationalgeographic.com/history/article/map-ships-buried-san-francisco",
+  "https://www.maritimeheritage.org/news/storeships.html"
+ ]
+}

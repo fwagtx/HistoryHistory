@@ -1,0 +1,2432 @@
+{
+ "id": "2027w03-l2",
+ "format": "long",
+ "date": "2027-01-20",
+ "title": "The Craziest Things Hannibal Did",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "hannibalold": {
+   "skin": "olive",
+   "hair": "long",
+   "hairColor": "#D8D4CC",
+   "beard": "long",
+   "outfit": "robe",
+   "color": "#6A5A48",
+   "name": "Hannibal, in disguise"
+  },
+  "younghan": {
+   "preset": "child",
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "outfit": "tunic",
+   "color": "#B8502A",
+   "name": "Young Hannibal"
+  },
+  "hamilcar": {
+   "skin": "olive",
+   "hair": "short",
+   "hairColor": "#6A6460",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#5A2A6A",
+   "color2": "#C9A240",
+   "name": "Hamilcar Barca"
+  },
+  "soldier": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stubble": true,
+   "outfit": "tunic",
+   "color": "#B8502A",
+   "hold": "spear",
+   "name": "Carthaginian soldier"
+  },
+  "gaul": {
+   "skin": "light",
+   "hair": "long",
+   "hairColor": "#D8A040",
+   "stache": "handlebar",
+   "outfit": "tunic",
+   "color": "#3A7A4A",
+   "hold": "spear",
+   "name": "Gaulish warrior"
+  },
+  "polybius": {
+   "preset": "philosopher",
+   "name": "Polybius"
+  },
+  "livy": {
+   "preset": "roman",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "hold": "scroll",
+   "name": "Livy"
+  },
+  "nepos": {
+   "preset": "roman",
+   "hair": "curly",
+   "hairColor": "#4A3A2A",
+   "hold": "scroll",
+   "name": "Cornelius Nepos"
+  },
+  "fabius": {
+   "preset": "senator",
+   "hair": "short",
+   "hairColor": "#E0DCD4",
+   "name": "Fabius Maximus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "legionary2": {
+   "preset": "legionary",
+   "stache": "bush",
+   "name": "Roman officer"
+  },
+  "auctioneer": {
+   "preset": "roman",
+   "hair": "bald",
+   "hold": "scroll",
+   "name": "Roman auctioneer"
+  },
+  "buyer": {
+   "preset": "senator",
+   "hair": "curly",
+   "hairColor": "#3A2A1A",
+   "name": "Roman buyer"
+  },
+  "prusias": {
+   "preset": "king",
+   "skin": "light",
+   "beard": "full",
+   "hairColor": "#4A3A2A",
+   "name": "King Prusias I"
+  },
+  "sailor1": {
+   "outfit": "tunic",
+   "color": "#2F6FC2",
+   "hat": "cap",
+   "hatColor": "#2A3A5A",
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "name": "Pergamon sailor"
+  },
+  "sailor2": {
+   "outfit": "tunic",
+   "color": "#C9A240",
+   "skin": "tan",
+   "hair": "curly",
+   "hairColor": "#1E1A16",
+   "stubble": true,
+   "name": "Pergamon sailor"
+  },
+  "maharbal": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#1E1A16",
+   "beard": "goatee",
+   "outfit": "armor",
+   "color": "#2A5A8A",
+   "color2": "#C9A240",
+   "name": "Maharbal"
+  },
+  "scipio": {
+   "preset": "legionary",
+   "hat": "roman",
+   "outfit": "armor",
+   "color": "#A8201A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "name": "Scipio Africanus"
+  },
+  "mago": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#1E1A16",
+   "stubble": true,
+   "outfit": "armor",
+   "color": "#3A6A3A",
+   "color2": "#C9A240",
+   "name": "Mago Barca"
+  },
+  "elephant": {
+   "animal": "elephant"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "hannibal": "am_fenrir",
+  "hannibalold": "am_fenrir",
+  "younghan": "am_puck",
+  "hamilcar": "bm_george",
+  "soldier": "am_liam",
+  "gaul": "bm_lewis",
+  "legionary": "am_eric",
+  "legionary2": "bm_daniel",
+  "auctioneer": "am_echo",
+  "buyer": "bm_lewis",
+  "sailor1": "am_liam",
+  "sailor2": "bm_daniel",
+  "maharbal": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "It's the year 218 BC, high in the Alps, the giant mountains between France and Italy.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.32,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "elephant",
+      "x": 0.66,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.5
+     },
+     {
+      "k": "tent",
+      "x": 0.12,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "218 BC",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "place": "The Alps · 218 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Snow is falling, the paths are icy, and soldiers are slipping on the narrow trails.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.75,
+      "s": 0.55
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And marching right in the middle of it all are thirty-seven war elephants.",
+   "show": {
+    "k": "card",
+    "label": "War elephants in Hannibal's army",
+    "big": "37",
+    "sub": "when he set out in 218 BC",
+    "cast": [
+     {
+      "id": "elephant",
+      "x": 0.85,
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Sir, quick question. Why did we bring the elephants?",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "soldier",
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "hannibal",
+   "say": "Because nobody in Rome will see them coming.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.45
+     }
+    ],
+    "cam": "close",
+    "focus": "hannibal"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's Hannibal, a general from Carthage, a rich trading city in North Africa. He's about to invade Italy and beat Rome again and again.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CARTHAGE",
+      "at": 1.4,
+      "color": "#B8860B"
+     }
+    ],
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal, general of Carthage"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Today we're counting down the craziest things Hannibal did. They all come from ancient history books, and we'll tell you which ones."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Craziest Things Hannibal Did",
+    "sub": "Seven true stories. Elephants included.",
+    "cast": [
+     {
+      "id": "elephant",
+      "x": 0.86,
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "7",
+    "title": "He Swore an Oath at Nine"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number seven goes back to when Hannibal was just nine years old.",
+   "show": {
+    "k": "map",
+    "lon": 2.0,
+    "lat": 38.5,
+    "z0": 1.6,
+    "z1": 1.9,
+    "date": "237 BC",
+    "labels": [
+     [
+      "CARTHAGE",
+      10.3,
+      36.85,
+      0
+     ],
+     [
+      "SPAIN",
+      -4.0,
+      40.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      10.3,
+      36.85
+     ],
+     [
+      4.0,
+      37.2
+     ],
+     [
+      -1.0,
+      37.6
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His father, Hamilcar Barca, was Carthage's top general. Carthage had just lost a long war to Rome, so Hamilcar was sailing to Spain to build a new power base.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "hamilcar",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "place": "Carthage, North Africa · 237 BC",
+    "tag": {
+     "id": "hamilcar",
+     "text": "Hamilcar Barca, Hannibal's dad"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fun fact: the family name Barca probably meant lightning. Very heavy metal."
+  },
+  {
+   "who": "N",
+   "say": "Little Hannibal begged to come along. So his father led him to an altar, a stone table for offerings to the gods.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "younghan",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "hamilcar",
+      "x": 0.65,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.48,
+      "s": 0.3
+     },
+     {
+      "k": "column",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "tag": {
+     "id": "younghan",
+     "text": "Hannibal, age 9"
+    }
+   }
+  },
+  {
+   "who": "hamilcar",
+   "say": "You can come. But first, swear you will never be a friend of Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "greek",
+    "cast": [
+     {
+      "id": "hamilcar",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "hamilcar"
+   }
+  },
+  {
+   "who": "younghan",
+   "say": "I swear it! Now can I see the boats?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "younghan",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "younghan"
+   }
+  },
+  {
+   "who": "N",
+   "say": "We know this story because Hannibal told it himself, decades later, to a foreign king. A Greek historian named Polybius wrote it down.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "polybius",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "POLYBIUS",
+      "at": 1.2,
+      "color": "#2F6FC2"
+     }
+    ],
+    "tag": {
+     "id": "polybius",
+     "text": "Polybius, Greek historian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Some historians think he told it to sound tough. Either way, he spent his whole life fighting Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "LIFELONG RIVAL",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "6",
+    "title": "Elephants on Fake Ground"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number six. To attack Rome, Hannibal didn't sail. He walked, all the way from Spain, with his elephants.",
+   "show": {
+    "k": "map",
+    "lon": 4.5,
+    "lat": 42.5,
+    "z0": 1.7,
+    "z1": 2.0,
+    "date": "218 BC",
+    "labels": [
+     [
+      "SPAIN",
+      -3.5,
+      40.0,
+      0
+     ],
+     [
+      "RHÔNE RIVER",
+      4.7,
+      43.9,
+      0
+     ],
+     [
+      "ALPS",
+      7.0,
+      45.3,
+      0
+     ],
+     [
+      "ITALY",
+      11.5,
+      43.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -0.9,
+      37.6
+     ],
+     [
+      0.5,
+      40.8
+     ],
+     [
+      2.8,
+      42.3
+     ],
+     [
+      4.6,
+      43.9
+     ],
+     [
+      6.5,
+      45.0
+     ],
+     [
+      7.7,
+      45.1
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By Polybius' count, that's close to a thousand miles on foot, across rivers and two mountain ranges."
+  },
+  {
+   "who": "N",
+   "say": "First problem: the Rhône, a huge, fast river in what's now France. Elephants don't do boats.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "neutral"
+     },
+     {
+      "id": "elephant",
+      "x": 0.65,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Rhône River, Gaul · 218 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So his engineers built giant rafts and piled dirt on top, so they looked like solid ground.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.62,
+      "s": 0.45,
+      "label": "RAFT + DIRT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE GROUND",
+      "at": 1.4,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two female elephants went first, and the others followed. Polybius says a few panicked and jumped into the river, but they walked across with their trunks held up, like snorkels.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "elephant",
+      "x": 0.5,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.85,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SNORKEL MODE",
+      "at": 1.8,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next came the Alps. It was autumn, snow was already falling, and local tribes attacked from above.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "scared",
+      "mood": "scared"
+     },
+     {
+      "id": "elephant",
+      "x": 0.65,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Roman historian Livy adds a wild detail. A giant rock blocked the path, so the soldiers heated it with fire, poured vinegar on it, and cracked it apart.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "livy",
+      "x": 0.25,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "scroll"
+     },
+     {
+      "id": "soldier",
+      "x": 0.55,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.8,
+      "s": 0.55
+     },
+     {
+      "k": "fire",
+      "x": 0.8,
+      "s": 0.3,
+      "front": true
+     }
+    ],
+    "stickers": [
+     {
+      "text": "VINEGAR?!",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ],
+    "tag": {
+     "id": "livy",
+     "text": "Livy, Roman historian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Polybius never mentions the vinegar, so take that one with a pinch of salt."
+  },
+  {
+   "who": "N",
+   "say": "After about two weeks in the mountains, Hannibal came down into Italy. He had lost nearly half his army on the way.",
+   "show": {
+    "k": "card",
+    "label": "Hannibal's army reaching Italy (Polybius)",
+    "big": "26,000",
+    "sub": "20,000 foot soldiers and 6,000 riders",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.86,
+      "mood": "sad",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Most of the elephants seem to have made it over. Sadly, the freezing winter that followed killed all but one."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "5",
+    "title": "The Wig Collection"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number five. Hannibal owned a wig collection, and it was for safety.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.68,
+      "s": 0.4,
+      "label": "WIGS"
+     },
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WIGS",
+      "at": 1.0,
+      "color": "#B8860B"
+     }
+    ],
+    "place": "Northern Italy · 218 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In northern Italy, thousands of Gauls joined his army. The Gauls were local tribes who also hated Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "gaul",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "hannibal",
+      "x": 0.65,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "gaul",
+     "text": "A Gaul"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But a hungry army camping on your land gets old fast. Hannibal worried that one of his new friends might turn on him.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "gaul",
+      "x": 0.3,
+      "pose": "cross",
+      "mood": "angry"
+     },
+     {
+      "id": "hannibal",
+      "x": 0.65,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.48,
+      "s": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So, Polybius says, he had wigs made that made him look like men of different ages, and he kept switching them, with matching clothes.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "hannibalold",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "WIGS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "OLD MAN",
+      "at": 1.0,
+      "color": "#2F6FC2"
+     },
+     {
+      "text": "YOUNG MAN",
+      "at": 2.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "gaul",
+   "say": "Excuse me, grandpa. Have you seen Hannibal?",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "gaul",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "neutral"
+     },
+     {
+      "id": "hannibalold",
+      "x": 0.65,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "hannibalold",
+   "say": "Never heard of him, young man.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibalold",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "cam": "close",
+    "focus": "hannibalold"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Polybius says even people who knew him well had trouble recognizing him."
+  },
+  {
+   "who": "N",
+   "say": "Then, crossing flooded marshes the next spring, he caught an eye infection and lost the sight in one eye. So the master of disguise ended up with a look nobody could miss.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "facepalm",
+      "mood": "sad"
+     },
+     {
+      "id": "elephant",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ONE EYE",
+      "at": 1.8,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "rain"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "4",
+    "title": "The Flaming Cattle"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number four. By 217 BC, Rome had a new plan: stop fighting Hannibal at all.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "fabius",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.8,
+      "s": 0.5
+     }
+    ],
+    "place": "Rome · 217 BC",
+    "tag": {
+     "id": "fabius",
+     "text": "Fabius Maximus, Roman leader"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "A Roman leader named Fabius Maximus just followed Hannibal around, blocking roads and waiting for a mistake. Romans nicknamed him the Delayer.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "fabius",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "legionary",
+      "x": 0.6,
+      "pose": "salute",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE DELAYER",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That autumn, Hannibal was raiding a rich farming area south of Rome. Fabius blocked the mountain pass he needed to get out.",
+   "show": {
+    "k": "map",
+    "lon": 14.0,
+    "lat": 41.3,
+    "z0": 3.0,
+    "z1": 3.4,
+    "date": "217 BC",
+    "labels": [
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ],
+     [
+      "CAMPANIA",
+      14.3,
+      41.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      14.1,
+      41.15,
+      0.35,
+      "rgba(168,50,42,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal was trapped. So he took about two thousand captured oxen and tied bundles of dry sticks to their horns.",
+   "show": {
+    "k": "card",
+    "label": "Oxen with sticks on their horns",
+    "big": "2,000",
+    "sub": "the number given by Polybius and Plutarch",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.86,
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At night, his men set the sticks on fire and drove the oxen up a hill.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "happy",
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.6,
+      "s": 0.3,
+      "move": [
+       0.5,
+       0.9
+      ]
+     },
+     {
+      "k": "fire",
+      "x": 0.75,
+      "s": 0.25,
+      "move": [
+       0.65,
+       1.0
+      ]
+     },
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FIRE COWS",
+      "at": 1.4,
+      "color": "#B8860B"
+     }
+    ],
+    "place": "Near Campania, Italy · 217 BC"
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "Torches on the hill! That must be Hannibal's whole army!",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.85,
+      "s": 0.3
+     }
+    ],
+    "cam": "close",
+    "focus": "legionary"
+   }
+  },
+  {
+   "who": "legionary2",
+   "say": "Leave the pass! After them!",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary2",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shout",
+      "hold": "sword"
+     }
+    ],
+    "cam": "close",
+    "focus": "legionary2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Roman guards left the pass to chase the lights. Meanwhile, Hannibal's real army walked straight through the empty pass.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "smug"
+     },
+     {
+      "id": "soldier",
+      "x": 0.55,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ESCAPED",
+      "at": 1.8,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The guards, meanwhile, found a herd of very confused, very upset cows."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "3",
+    "title": "Rome Sold His Campsite"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number three. In about fifteen years in Italy, Hannibal never laid siege to Rome itself. Its walls were huge, and he had no heavy siege machines.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.72,
+      "s": 0.5
+     },
+     {
+      "k": "gate",
+      "x": 0.72,
+      "s": 0.35
+     }
+    ],
+    "place": "Outside Rome · 211 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But in 211 BC, he finally marched right up to the city, to pull Roman armies away from a fight further south.",
+   "show": {
+    "k": "map",
+    "lon": 13.0,
+    "lat": 41.6,
+    "z0": 3.2,
+    "z1": 3.8,
+    "date": "211 BC",
+    "labels": [
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ],
+     [
+      "CAPUA",
+      14.25,
+      41.1,
+      0
+     ]
+    ],
+    "route": [
+     [
+      14.25,
+      41.1
+     ],
+     [
+      13.4,
+      41.5
+     ],
+     [
+      12.6,
+      41.9
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He camped about three miles from the walls. Then a prisoner told him what the Romans were doing.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     },
+     {
+      "id": "legionary",
+      "x": 0.68,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "auctioneer",
+   "say": "Lot number one! A lovely field just outside the city. Small issue: Hannibal is camping on it.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "auctioneer",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "FOR SALE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "buyer",
+   "say": "I'll pay full price. He won't stay long.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "buyer",
+      "x": 0.45,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.78,
+      "s": 0.35
+     }
+    ],
+    "cam": "close",
+    "focus": "buyer"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to Livy, that really happened. The land under Hannibal's camp was sold at auction, and the price didn't drop at all.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "auctioneer",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "buyer",
+      "x": 0.6,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.88,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FULL PRICE",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal was furious. So he put the silversmiths' shops in the middle of Rome up for sale. Shops he did not own, in a city he could not enter.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "angry"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.7,
+      "s": 0.45,
+      "text": "SHOPS FOR SALE"
+     },
+     {
+      "k": "tent",
+      "x": 0.92,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PETTY",
+      "at": 2.4,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Both sides were sending the same message: I'm not scared of you."
+  },
+  {
+   "who": "N",
+   "say": "Soon after, he marched away. Romans used the phrase Hannibal at the gates to mean real danger for centuries."
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "2",
+    "title": "Snake Bombs"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number two comes years after the war, when Hannibal was an old man on the run from Rome.",
+   "show": {
+    "k": "map",
+    "lon": 28.5,
+    "lat": 40.0,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "about 184 BC",
+    "labels": [
+     [
+      "BITHYNIA",
+      30.0,
+      40.6,
+      0
+     ],
+     [
+      "PERGAMON",
+      27.2,
+      39.1,
+      0
+     ],
+     [
+      "AEGEAN SEA",
+      25.0,
+      38.8,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was helping Prusias, the king of Bithynia, in what's now Turkey. Prusias was at war with a neighboring king, Eumenes of Pergamon, who had the bigger navy.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "prusias",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "scared"
+     },
+     {
+      "id": "hannibal",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "place": "Bithynia, modern Turkey · about 184 BC",
+    "tag": {
+     "id": "prusias",
+     "text": "King Prusias of Bithynia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Hannibal had his men catch lots of venomous snakes and pack them into clay pots.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.65,
+      "s": 0.4,
+      "label": "SNAKES"
+     },
+     {
+      "k": "jar",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HISSSS",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Nepos says he even sent a messenger over first, carrying a letter, just to see which ship the enemy king was on."
+  },
+  {
+   "who": "N",
+   "say": "In the sea battle, his sailors threw the pots onto the enemy ships.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.3,
+      "s": 0.5
+     },
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.5,
+      "flip": true,
+      "sail": "#C9D8E8"
+     }
+    ],
+    "cam": "pan"
+   }
+  },
+  {
+   "who": "sailor1",
+   "say": "Ha! They're throwing pottery at us!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor1",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor2",
+   "say": "Uh... why is the pottery moving?",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor2",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "sailor2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pots smashed, snakes slithered everywhere, and the enemy sailors were too busy dodging them to fight. Hannibal's side won.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor1",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "scared"
+     },
+     {
+      "id": "sailor2",
+      "x": 0.6,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SNAKES!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This story comes from Cornelius Nepos, a Roman writer who lived over a century later, so it may be stretched. But what a story.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "nepos",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "NEPOS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ONE SOURCE",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ],
+    "tag": {
+     "id": "nepos",
+     "text": "Cornelius Nepos, Roman writer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "hold": 2.5,
+   "show": {
+    "k": "list",
+    "n": "1",
+    "title": "The Perfect Trap at Cannae"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Number one is Hannibal's masterpiece: the Battle of Cannae, in southern Italy, in August of 216 BC.",
+   "show": {
+    "k": "map",
+    "lon": 15.5,
+    "lat": 41.2,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "216 BC",
+    "labels": [
+     [
+      "CANNAE",
+      16.13,
+      41.3,
+      0
+     ],
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      16.13,
+      41.3,
+      0.4,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome sent one of the biggest armies it had ever raised. Hannibal had far fewer men.",
+   "show": {
+    "k": "card",
+    "label": "Roman army at Cannae (Polybius)",
+    "big": "86,000",
+    "sub": "against about 50,000 with Hannibal",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.86,
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's about as many people as a giant football stadium holds."
+  },
+  {
+   "who": "N",
+   "say": "So he set a trap. He put weaker troops in the middle of his line and his toughest troops on the sides.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WEAK MIDDLE",
+      "at": 1.2,
+      "color": "#B8860B"
+     },
+     {
+      "text": "STRONG SIDES",
+      "at": 2.4,
+      "color": "#1F8A4A"
+     }
+    ],
+    "place": "Cannae, southern Italy · 216 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Romans charged the middle, and it slowly bent backward. They thought they were winning.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "happy",
+      "hold": "sword"
+     },
+     {
+      "id": "legionary2",
+      "x": 0.55,
+      "pose": "run",
+      "mood": "happy",
+      "hold": "sword"
+     },
+     {
+      "id": "soldier",
+      "x": 0.82,
+      "pose": "walk",
+      "mood": "scared"
+     }
+    ],
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then the toughest troops closed in from both sides, and his horsemen rode around to block the back.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "maharbal",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "horse",
+      "x": 0.6,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "maharbal",
+     "text": "Maharbal, cavalry commander"
+    },
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Romans were completely surrounded. Most of their army was wiped out in one afternoon, one of the worst days in Rome's history.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "explosion_cloud",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SURROUNDED",
+      "at": 1.4,
+      "color": "#A8322A"
+     }
+    ],
+    "fx": [
+     "smoke"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Generals still study this trap today, more than two thousand years later."
+  },
+  {
+   "who": "N",
+   "say": "Livy says so many gold rings were taken from fallen Roman nobles that Hannibal's brother poured them out in a heap in Carthage's senate house.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "mago",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.68,
+      "s": 0.45,
+      "label": "GOLD RINGS"
+     }
+    ],
+    "tag": {
+     "id": "mago",
+     "text": "Mago, Hannibal's brother"
+    },
+    "place": "Carthage · 216 BC"
+   }
+  },
+  {
+   "who": "maharbal",
+   "say": "Rome is wide open. Let me ride for it right now!",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "maharbal",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "maharbal"
+   }
+  },
+  {
+   "who": "hannibal",
+   "say": "Not yet. Let me think about it.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.45,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "cam": "close",
+    "focus": "hannibal"
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to Livy, his cavalry commander Maharbal then told him off.",
+   "show": {
+    "k": "quote",
+    "text": "You know how to win a victory, Hannibal, but not how to use one.",
+    "who": "Maharbal, as told by the Roman historian Livy"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many historians doubt he really said it, and Hannibal didn't march on Rome. He had no siege machines, so attacking those walls might have been hopeless."
+  },
+  {
+   "who": "N",
+   "say": "Think about it: the Trebia River, Lake Trasimene, then Cannae. Three giant wins in under two years.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "maharbal",
+      "x": 0.65,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "TREBIA",
+      "at": 0.8,
+      "color": "#B8860B"
+     },
+     {
+      "text": "TRASIMENE",
+      "at": 1.8,
+      "color": "#B8860B"
+     },
+     {
+      "text": "CANNAE",
+      "at": 2.8,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "And here's the twist. Rome never gave up. It just kept building new armies.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.3,
+      "pose": "salute",
+      "mood": "angry"
+     },
+     {
+      "id": "legionary2",
+      "x": 0.55,
+      "pose": "salute",
+      "mood": "angry"
+     },
+     {
+      "id": "fabius",
+      "x": 0.8,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.12,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 204 BC, a Roman general named Scipio landed in Africa, so Carthage called Hannibal home to defend it.",
+   "show": {
+    "k": "map",
+    "lon": 11.0,
+    "lat": 38.5,
+    "z0": 2.0,
+    "z1": 2.4,
+    "date": "203 BC",
+    "labels": [
+     [
+      "CARTHAGE",
+      10.3,
+      36.85,
+      0
+     ],
+     [
+      "ITALY",
+      15.5,
+      40.5,
+      0
+     ],
+     [
+      "ZAMA",
+      9.4,
+      36.0,
+      0
+     ]
+    ],
+    "route": [
+     [
+      16.5,
+      39.0
+     ],
+     [
+      13.5,
+      37.6
+     ],
+     [
+      10.6,
+      36.5
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At the Battle of Zama in 202 BC, Scipio's men opened lanes in their lines, so Hannibal's elephants ran straight through. Hannibal was beaten, and Carthage lost the war.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "scipio",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "elephant",
+      "x": 0.68,
+      "mood": "scared",
+      "walk": [
+       0.5,
+       0.9
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "palm",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ELEPHANT LANES",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ],
+    "place": "Zama, North Africa · 202 BC",
+    "tag": {
+     "id": "scipio",
+     "text": "Scipio, Roman general"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "So Hannibal crossed the Alps, won battle after battle, and still lost the war. But over two thousand years later, we still know his name.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "elephant",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Next up: the Gold Rush, and who actually got rich. Subscribe so you don't miss it.",
+   "show": {
+    "k": "end",
+    "next": "The Gold Rush: Who Actually Got Rich?",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "elephant",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "Elephants on fake-ground rafts, a wig collection, flaming cattle, Rome auctioning the field he was camped on, pots full of snakes, and the perfect trap at Cannae. Here are the craziest things Hannibal of Carthage did, counted down from seven to one, with the ancient writers who told each story. Chapters are added automatically.\n\n#history #hannibal #ancientrome #carthage #historypros",
+ "thumbnail": {
+  "style": "faces",
+  "title": "ELEPHANTS?!",
+  "bg": "snow",
+  "faces": [
+   {
+    "id": "hannibal",
+    "mood": "shout"
+   },
+   {
+    "id": "legionary",
+    "mood": "scared"
+   }
+  ],
+  "grade": "cold"
+ },
+ "youtube_title": "The Craziest Things Hannibal Did",
+ "tags": [
+  "hannibal",
+  "hannibal barca",
+  "carthage",
+  "second punic war",
+  "hannibal elephants",
+  "crossing the alps",
+  "battle of cannae",
+  "fabius maximus",
+  "punic wars",
+  "ancient rome",
+  "funny history",
+  "animated history",
+  "history pros"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hannibal",
+  "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE",
+  "https://www.worldhistory.org/hannibal/",
+  "https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/H.hannibal_11",
+  "https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps",
+  "https://www.history.com/articles/hannibal-crosses-alps",
+  "https://en.wikipedia.org/wiki/Battle_of_Rhone_Crossing",
+  "https://www.historyskills.com/classroom/ancient-history/hannibal-rhone-river-elephants/",
+  "https://web.stanford.edu/group/archaeolog/cgi-bin/archaeolog/2007/06/06/hannibals-engineers-and-livy-xxi-36-7-on-burned-rock-truth-or-legend/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7774543",
+  "https://en.wikipedia.org/wiki/Battle_of_Ager_Falernus",
+  "https://www.livius.org/sources/content/appian/appian-war-against-hannibal/appian-war-against-hannibal-3/",
+  "https://cts.perseids.org/read/greekLit/tlg0007/tlg013/perseus-eng2/6.1-6.7",
+  "https://en.wikipedia.org/wiki/Hannibal%27s_raid_to_Rome",
+  "https://gutenberg.org/cache/epub/10907/pg10907-images.html",
+  "https://dcc.dickinson.edu/node/229",
+  "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE/Exile-and-death",
+  "https://en.wikipedia.org/wiki/Battle_of_Cannae",
+  "https://www.britannica.com/summary/Battle-of-Cannae",
+  "https://camws.org/sites/default/files/meeting2018/abstracts/212.SayitWithRing.pdf",
+  "https://en.wikipedia.org/wiki/Maharbal",
+  "https://www.britannica.com/biography/Maharbal",
+  "https://en.wikipedia.org/wiki/Battle_of_Zama",
+  "https://www.britannica.com/event/Punic-Wars/Second-Punic-War-218-201-bce"
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "id": "2027w03-s02",
+ "format": "short",
+ "date": "2027-01-18",
+ "slot": "09:00",
+ "title": "The First Mughal Emperor Came From Genghis Khan AND Timur",
+ "hook": "TWO LEGENDARY ANCESTORS",
+ "topic": "Babur",
+ "youtube_title": "The First Mughal Emperor Came From Genghis Khan AND Timur #shorts",
+ "music": "playful",
+ "tags": [
+  "babur",
+  "genghis khan",
+  "timur",
+  "mughal empire",
+  "history shorts"
+ ],
+ "cast": {
+  "babur": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#3A7A4A",
+   "color2": "#E8C25A",
+   "beard": "goatee",
+   "stache": "thin",
+   "hairColor": "#2A1E16",
+   "skin": "light",
+   "name": "Babur"
+  },
+  "timur": {
+   "hat": "mongol",
+   "outfit": "armor",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Timur"
+  },
+  "genghis": {
+   "preset": "genghis",
+   "name": "Genghis Khan"
+  }
+ },
+ "voices": {
+  "babur": "bm_george"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The first Mughal emperor came from two of history's biggest conquerors.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "babur",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.72,
+      "s": 0.45
+     },
+     {
+      "k": "banner",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ],
+    "place": "Central Asia · 1490s",
+    "tag": {
+     "id": "babur",
+     "text": "Babur, first Mughal emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was Babur, and he was born in 1483 in what's now Uzbekistan."
+  },
+  {
+   "who": "N",
+   "say": "On his father's side, he came from Timur, who built a giant empire from the city of Samarkand.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "timur",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "timur",
+     "text": "Timur, Babur's ancestor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "On his mother's side, he came from Genghis Khan, founder of the Mongol Empire.",
+   "show": {
+    "k": "scene",
+    "bg": "steppe",
+    "cast": [
+     {
+      "id": "genghis",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "genghis",
+     "text": "Genghis Khan"
+    }
+   }
+  },
+  {
+   "who": "babur",
+   "say": "So yes, conquering runs in the family.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "babur",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cannon",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Even the word Mughal comes from the Persian word for Mongol.",
+   "show": {
+    "k": "card",
+    "label": "Where the name comes from",
+    "big": "MUGHAL = MONGOL",
+    "sub": "from the Persian word for Mongol"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1526, Babur beat the Sultan of Delhi and started an empire that lasted over three hundred years.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "babur",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "place": "Agra, India · 1526",
+    "fx": [
+     "confetti"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "babur",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "genghis",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "His dad's side: Timur. His mom's side: Genghis Khan.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #babur #genghiskhan #mughalempire #historytok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Babur",
+  "https://www.britannica.com/biography/Babur",
+  "https://en.wikipedia.org/wiki/Timur",
+  "https://en.wikipedia.org/wiki/Mughal_Empire",
+  "https://en.wikipedia.org/wiki/First_Battle_of_Panipat"
+ ]
+}

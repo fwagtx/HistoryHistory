@@ -1,0 +1,248 @@
+{
+ "id": "2027w03-s05",
+ "format": "short",
+ "date": "2027-01-18",
+ "slot": "09:00",
+ "title": "The Emperor Who Invited Every Faith to a Debate",
+ "hook": "THE EMPEROR'S DEBATE HALL",
+ "topic": "Akbar the Great",
+ "youtube_title": "The Emperor Who Invited Every Faith to a Debate #shorts",
+ "music": "playful",
+ "tags": [
+  "akbar",
+  "ibadat khana",
+  "fatehpur sikri",
+  "mughal empire",
+  "history shorts"
+ ],
+ "cast": {
+  "akbar": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "hairColor": "#1E1612",
+   "skin": "tan",
+   "name": "Akbar"
+  },
+  "scholar1": {
+   "hat": "turban",
+   "hatColor": "#3A7A4A",
+   "outfit": "robe",
+   "color": "#F2EEE4",
+   "beard": "full",
+   "hairColor": "#2A1E16",
+   "skin": "tan"
+  },
+  "scholar2": {
+   "outfit": "robe",
+   "color": "#E8A040",
+   "hair": "bald",
+   "stache": "thin",
+   "skin": "brown"
+  },
+  "scholar3": {
+   "preset": "monk",
+   "color": "#262322",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light"
+  },
+  "petitioner": {
+   "preset": "peasantW",
+   "skin": "brown"
+  }
+ },
+ "voices": {
+  "akbar": "am_fenrir"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1575, an emperor built a hall just so people of different faiths could debate in front of him.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "place": "Fatehpur Sikri, India · 1575",
+    "tag": {
+     "id": "akbar",
+     "text": "Akbar, Mughal emperor"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He was Akbar, ruler of the Mughal Empire, which covered much of India.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Akbar was Muslim, but he ruled millions of people of many faiths.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "scholar1",
+      "x": 0.25,
+      "mood": "neutral"
+     },
+     {
+      "id": "scholar2",
+      "x": 0.5
+     },
+     {
+      "id": "petitioner",
+      "x": 0.75,
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His hall was called the House of Worship. At first only Muslim scholars debated there.",
+   "show": {
+    "k": "card",
+    "label": "Akbar's debate hall",
+    "big": "HOUSE OF WORSHIP",
+    "sub": "Ibadat Khana, opened 1575"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later he invited Hindus, Jains, Zoroastrians and Christian priests too.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "scholar1",
+      "x": 0.2,
+      "pose": "point"
+     },
+     {
+      "id": "scholar2",
+      "x": 0.45,
+      "pose": "think"
+     },
+     {
+      "id": "scholar3",
+      "x": 0.7,
+      "pose": "present"
+     }
+    ]
+   }
+  },
+  {
+   "who": "akbar",
+   "say": "Go on. Tell me what you believe, and why.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.4,
+      "text": "QUESTIONS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The debates ended around 1582. Historians still argue about what Akbar took from them.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "akbar",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "scholar3",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In 1575, an emperor built a hall for debates between faiths.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #akbar #mughalempire #indianhistory #historytok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ibadat_Khana",
+  "https://www.worldhistory.org/Ibadat_Khana/",
+  "https://en.wikipedia.org/wiki/Akbar",
+  "https://en.wikipedia.org/wiki/Fatehpur_Sikri"
+ ]
+}

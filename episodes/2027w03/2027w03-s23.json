@@ -1,0 +1,298 @@
+{
+ "id": "2027w03-s23",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "Hannibal's Perfect Trap at Cannae",
+ "hook": "THE PERFECT TRAP",
+ "topic": "Battle of Cannae",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "maharbal": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#1E1A16",
+   "beard": "goatee",
+   "outfit": "armor",
+   "color": "#2A5A8A",
+   "color2": "#C9A240",
+   "name": "Maharbal"
+  },
+  "horse": {
+   "animal": "horse"
+  }
+ },
+ "voices": {
+  "legionary": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "At Cannae, Hannibal trapped a Roman army much bigger than his own.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "place": "Cannae, southern Italy · 216 BC",
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal, general of Carthage"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "August, 216 BC. Hannibal, a general from Carthage, faces Rome's biggest army yet.",
+   "show": {
+    "k": "map",
+    "lon": 15.5,
+    "lat": 41.2,
+    "z0": 2.6,
+    "z1": 3.2,
+    "date": "216 BC",
+    "labels": [
+     [
+      "CANNAE",
+      16.13,
+      41.3,
+      0
+     ],
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      16.13,
+      41.3,
+      0.4,
+      "rgba(168,50,42,0.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Polybius says about eighty-six thousand Romans and allies showed up. Hannibal had about fifty thousand.",
+   "show": {
+    "k": "card",
+    "label": "Roman army at Cannae",
+    "big": "86,000",
+    "sub": "vs about 50,000 with Hannibal",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.8,
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So he put weaker troops in the middle of his line, and his best troops on the sides.",
+   "show": {
+    "k": "scene",
+    "bg": "warroom",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.7,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WEAK MIDDLE",
+      "at": 1.0,
+      "color": "#B8860B"
+     },
+     {
+      "text": "STRONG SIDES",
+      "at": 2.2,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "The middle is falling back! We're winning!",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.45,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "sword"
+     }
+    ],
+    "cam": "close",
+    "focus": "legionary",
+    "fx": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "But the middle only bent. Then the sides swung in, and his horsemen blocked the back.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "maharbal",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "horse",
+      "x": 0.68,
+      "mood": "happy"
+     }
+    ],
+    "fx": [
+     "dust"
+    ],
+    "tag": {
+     "id": "maharbal",
+     "text": "Maharbal, cavalry commander"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Romans were surrounded and lost most of their army in one afternoon.",
+   "show": {
+    "k": "scene",
+    "bg": "battlefield",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "explosion_cloud",
+      "x": 0.72,
+      "s": 0.3
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SURROUNDED",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Generals still study this trap today, over two thousand years later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "globe",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "maharbal",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "How do you beat an army almost twice your size? Let it win, at first.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #cannae #hannibal #ancientrome #historytok",
+ "youtube_title": "Hannibal's Perfect Trap at Cannae #shorts",
+ "tags": [
+  "battle of cannae",
+  "hannibal",
+  "double envelopment",
+  "second punic war",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_Cannae",
+  "https://www.britannica.com/summary/Battle-of-Cannae",
+  "https://www.history.com/articles/ancient-romes-darkest-day-the-battle-of-cannae"
+ ]
+}

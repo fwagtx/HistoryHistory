@@ -1,0 +1,261 @@
+{
+ "id": "2027w03-s33",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "He Built Wheelbarrows for Miners, Then His Family Built Cars",
+ "hook": "WHEELBARROW JOHNNY",
+ "topic": "John Studebaker",
+ "music": "playful",
+ "cast": {
+  "studebaker": {
+   "hat": "cap",
+   "hatColor": "#4A3A2A",
+   "outfit": "overalls",
+   "color": "#6A5A48",
+   "apron": true,
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "hammer",
+   "name": "John Studebaker"
+  },
+  "miner": {
+   "hat": "slouch",
+   "hatColor": "#6A5A48",
+   "outfit": "overalls",
+   "color": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Forty-niner"
+  }
+ },
+ "voices": {
+  "studebaker": "am_eric",
+  "miner": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This young man went to the gold rush and made his money building wheelbarrows.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "studebaker",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "WHEELBARROW"
+     }
+    ],
+    "place": "Placerville, California · 1853",
+    "tag": {
+     "id": "studebaker",
+     "text": "John Studebaker"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "John Studebaker came from a family of wagon makers in Indiana. In 1853, he headed to California.",
+   "show": {
+    "k": "map",
+    "lon": -103.0,
+    "lat": 39.0,
+    "z0": 1.2,
+    "z1": 1.35,
+    "date": "1853",
+    "labels": [
+     [
+      "Indiana",
+      -86.2,
+      40.0,
+      14
+     ],
+     [
+      "California",
+      -119.5,
+      37.0,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -86.2,
+      41.7
+     ],
+     [
+      -95.0,
+      41.0
+     ],
+     [
+      -105.0,
+      41.5
+     ],
+     [
+      -112.0,
+      41.0
+     ],
+     [
+      -120.8,
+      38.7
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He reached the mining town of Placerville, where a wagon shop gave him work.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "studebaker",
+      "x": 0.3,
+      "mood": "neutral"
+     },
+     {
+      "id": "miner",
+      "x": 0.66,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.86,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "miner",
+   "say": "Can you build wheelbarrows?"
+  },
+  {
+   "who": "studebaker",
+   "say": "Mister, I can build anything with wheels."
+  },
+  {
+   "who": "N",
+   "say": "Miners needed wheelbarrows to haul dirt and rock, so he built lots of them. People called him Wheelbarrow Johnny.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.62,
+      "s": 0.45,
+      "move": [
+       0.5,
+       0.75
+      ]
+     },
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1858, he had saved eight thousand dollars, more than most miners ever found.",
+   "show": {
+    "k": "card",
+    "label": "Wheelbarrow Johnny's savings",
+    "big": "$8,000",
+    "sub": "by 1858"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He took it home to the family wagon company. Decades later, that company built Studebaker cars.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "studebaker",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.58,
+      "s": 0.4
+     },
+     {
+      "k": "car",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "place": "South Bend, Indiana · 1858"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "studebaker",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "miner",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He went for gold and found wheelbarrows. His family later built cars.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #goldrush #studebaker #historytok #business",
+ "youtube_title": "He Built Wheelbarrows for Miners, Then His Family Built Cars #shorts",
+ "tags": [
+  "john studebaker",
+  "studebaker",
+  "wheelbarrow johnny",
+  "california gold rush",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/John_Studebaker",
+  "https://studebakermuseum.org/meet-john-m-studebaker/",
+  "https://ohp.parks.ca.gov/ListedResources/Detail/142",
+  "https://www.automotivehalloffame.org/?p=1718",
+  "https://www.farmcollector.com/farm-life/lets-talk-rusty-iron-turning-tides/"
+ ]
+}

@@ -1,0 +1,327 @@
+{
+ "id": "2027w03-s24",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "Hannibal Threw Pots of Snakes at Enemy Ships",
+ "hook": "SNAKE BOMBS",
+ "topic": "Hannibal",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "soldier": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stubble": true,
+   "outfit": "tunic",
+   "color": "#B8502A",
+   "hold": "spear",
+   "name": "Carthaginian soldier"
+  },
+  "nepos": {
+   "preset": "roman",
+   "hair": "curly",
+   "hairColor": "#4A3A2A",
+   "hold": "scroll",
+   "name": "Cornelius Nepos"
+  },
+  "prusias": {
+   "preset": "king",
+   "skin": "light",
+   "beard": "full",
+   "hairColor": "#4A3A2A",
+   "name": "King Prusias I"
+  },
+  "sailor1": {
+   "outfit": "tunic",
+   "color": "#2F6FC2",
+   "hat": "cap",
+   "hatColor": "#2A3A5A",
+   "skin": "light",
+   "hair": "short",
+   "hairColor": "#4A3A2A",
+   "name": "Pergamon sailor"
+  },
+  "sailor2": {
+   "outfit": "tunic",
+   "color": "#C9A240",
+   "skin": "tan",
+   "hair": "curly",
+   "hairColor": "#1E1A16",
+   "stubble": true,
+   "name": "Pergamon sailor"
+  }
+ },
+ "voices": {
+  "sailor1": "am_liam",
+  "sailor2": "bm_daniel"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Hannibal once won a sea battle by throwing pots full of snakes at enemy ships.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.68,
+      "s": 0.4,
+      "label": "SNAKES"
+     }
+    ],
+    "place": "Off Pergamon, modern Turkey · about 184 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "By then, Hannibal, the old general from Carthage, was on the run from Rome.",
+   "show": {
+    "k": "map",
+    "lon": 28.5,
+    "lat": 40.0,
+    "z0": 2.4,
+    "z1": 2.8,
+    "date": "about 184 BC",
+    "labels": [
+     [
+      "BITHYNIA",
+      30.0,
+      40.6,
+      0
+     ],
+     [
+      "PERGAMON",
+      27.2,
+      39.1,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He worked for Prusias, king of Bithynia in modern Turkey, who was at war with King Eumenes of Pergamon.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "prusias",
+      "x": 0.35,
+      "pose": "shrug",
+      "mood": "scared"
+     },
+     {
+      "id": "hannibal",
+      "x": 0.68,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.12,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "prusias",
+     "text": "King Prusias of Bithynia"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Eumenes had more ships. So Hannibal had his men catch venomous snakes and seal them in clay pots.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "pose": "hold",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.62,
+      "s": 0.4,
+      "label": "SNAKES"
+     },
+     {
+      "k": "jar",
+      "x": 0.78,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "HISSSS",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor1",
+   "say": "Ha! They're throwing pottery!",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor1",
+      "x": 0.4,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.72,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "sailor2",
+   "say": "Why is the pottery moving?",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor2",
+      "x": 0.45,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "sailor2"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The pots smashed, snakes slithered everywhere, and the enemy sailors stopped fighting to dodge them.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "sailor1",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "scared"
+     },
+     {
+      "id": "sailor2",
+      "x": 0.62,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SNAKES!",
+      "at": 1.2,
+      "color": "#A8322A"
+     }
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "N",
+   "say": "This story comes from Cornelius Nepos, a Roman writer who lived over a century later.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "nepos",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.4,
+      "text": "NEPOS"
+     }
+    ],
+    "tag": {
+     "id": "nepos",
+     "text": "Cornelius Nepos, Roman writer"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "sailor2",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Hannibal's last navy trick: pottery. Filled with snakes.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #snakes #ancienthistory #historytok",
+ "youtube_title": "Hannibal Threw Pots of Snakes at Enemy Ships #shorts",
+ "tags": [
+  "hannibal",
+  "cornelius nepos",
+  "eumenes",
+  "ancient warfare",
+  "history shorts"
+ ],
+ "sources": [
+  "https://dcc.dickinson.edu/node/229",
+  "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE/Exile-and-death",
+  "https://camws.org/sites/default/files/meeting2018/abstracts/294.nepostrickster.pdf",
+  "https://en.wikipedia.org/wiki/Hannibal"
+ ]
+}

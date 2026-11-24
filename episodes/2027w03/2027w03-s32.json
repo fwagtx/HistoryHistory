@@ -1,0 +1,215 @@
+{
+ "id": "2027w03-s32",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "A Gold Miner Paid Her $10 for Biscuits",
+ "hook": "TEN-DOLLAR BISCUITS",
+ "topic": "Luzena Wilson",
+ "music": "playful",
+ "cast": {
+  "luzena": {
+   "preset": "pioneer",
+   "hairColor": "#5A3A22",
+   "name": "Luzena Wilson"
+  },
+  "miner": {
+   "hat": "slouch",
+   "hatColor": "#6A5A48",
+   "outfit": "overalls",
+   "color": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Forty-niner"
+  }
+ },
+ "voices": {
+  "luzena": "af_heart",
+  "miner": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 1849, a hungry gold miner paid ten dollars for one woman's biscuits.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "luzena",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$10",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Near Sacramento, California · 1849",
+    "tag": {
+     "id": "luzena",
+     "text": "Luzena Wilson"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Luzena Wilson had just crossed America by covered wagon with her husband and two little boys.",
+   "show": {
+    "k": "scene",
+    "bg": "desert",
+    "cast": [
+     {
+      "id": "luzena",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.65,
+      "s": 0.5,
+      "move": [
+       0.55,
+       0.75
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "BY WAGON",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Near Sacramento, she was cooking dinner over a campfire when a miner walked up.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "luzena",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "miner",
+      "x": 0.66,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.5,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "miner",
+   "say": "Five dollars for those biscuits!"
+  },
+  {
+   "who": "N",
+   "say": "She hesitated. Five dollars was a lot of money."
+  },
+  {
+   "who": "miner",
+   "say": "Fine. Ten dollars!",
+   "show": {
+    "k": "card",
+    "label": "Price of one batch of biscuits",
+    "big": "$10",
+    "sub": "paid by a hungry miner, 1849"
+   }
+  },
+  {
+   "who": "N",
+   "say": "She took the money. Soon her family bought into a hotel in Sacramento, with Luzena running the kitchen.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "luzena",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.55,
+      "label": "HOTEL"
+     }
+    ],
+    "place": "Sacramento · 1849"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many miners went home broke. Feeding them was often the smarter bet."
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "luzena",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hold": "bread"
+     },
+     {
+      "id": "miner",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "She didn't need to find gold. The miners brought it to her for biscuits.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #goldrush #womenshistory #historytok #california",
+ "youtube_title": "A Gold Miner Paid Her $10 for Biscuits #shorts",
+ "tags": [
+  "luzena wilson",
+  "women in history",
+  "california gold rush",
+  "sacramento",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Luzena_Wilson",
+  "https://www.pbs.org/wgbh/americanexperience/features/goldrush-luzena-stanlley-wilson",
+  "https://ejournals.sierracollege.edu/jsnhb/v4n2/wilson.html",
+  "https://www.loc.gov/item/37008794/"
+ ]
+}

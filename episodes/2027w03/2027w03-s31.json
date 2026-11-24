@@ -1,0 +1,296 @@
+{
+ "id": "2027w03-s31",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "Gold Rush Eggs Got So Pricey Men Fought an Egg War",
+ "hook": "A DOLLAR PER EGG",
+ "topic": "Farallon Egg War",
+ "music": "playful",
+ "cast": {
+  "miner": {
+   "hat": "slouch",
+   "hatColor": "#6A5A48",
+   "outfit": "overalls",
+   "color": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Forty-niner"
+  },
+  "shopkeeper": {
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "apron": true,
+   "hair": "bald",
+   "hairColor": "#6A6A6A",
+   "stache": "handlebar",
+   "skin": "light",
+   "name": "Shopkeeper"
+  },
+  "egger": {
+   "hat": "cap",
+   "outfit": "sailor",
+   "color": "#2F5A8A",
+   "stubble": true,
+   "skin": "light",
+   "name": "Egg hunter"
+  }
+ },
+ "voices": {
+  "miner": "am_puck",
+  "shopkeeper": "bm_george",
+  "egger": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In gold rush California, eggs got so pricey that men fought over them.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "shopkeeper",
+      "x": 0.4,
+      "mood": "smug",
+      "hold": "chicken"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "EGGS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$1 PER EGG",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "San Francisco · 1849"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1849, thousands of hungry miners poured into San Francisco. The chickens couldn't keep up.",
+   "show": {
+    "k": "map",
+    "lon": -122.3,
+    "lat": 37.8,
+    "z0": 2.3,
+    "z1": 2.5,
+    "date": "1849",
+    "labels": [
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ],
+     [
+      "Sacramento",
+      -121.49,
+      38.58,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -122.4,
+      37.8,
+      0.3,
+      "rgba(168,50,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "An egg could cost about a dollar. That's a lot of gold for breakfast.",
+   "show": {
+    "k": "card",
+    "label": "One egg in San Francisco, 1849",
+    "big": "$1",
+    "sub": "yes, for a single egg"
+   }
+  },
+  {
+   "who": "miner",
+   "say": "A whole dollar? For one egg?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "shopkeeper",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.86,
+      "s": 0.35,
+      "label": "EGGS"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "shopkeeper",
+   "say": "Supply and demand, friend."
+  },
+  {
+   "who": "N",
+   "say": "So egg hunters sailed to the Farallon Islands, rocky islands off San Francisco covered in seabird nests.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "egger",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.6,
+      "s": 0.45
+     },
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.5,
+      "label": "FARALLONS"
+     }
+    ],
+    "place": "Farallon Islands · 1850s",
+    "tag": {
+     "id": "egger",
+     "text": "An egg hunter"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Over the years, they shipped millions of seabird eggs to the city.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "egger",
+      "x": 0.35,
+      "mood": "happy",
+      "pose": "hold"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.68,
+      "s": 0.4,
+      "label": "EGGS"
+     },
+     {
+      "k": "crate",
+      "x": 0.86,
+      "s": 0.4,
+      "label": "MORE EGGS"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rival egg companies fought over the islands. In 1863, a gunfight broke out and two men died. It became known as the Egg War.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "egger",
+      "x": 0.3,
+      "mood": "scared",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.62,
+      "s": 0.45
+     },
+     {
+      "k": "rock",
+      "x": 0.86,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE EGG WAR",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "1863",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "egger",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "In gold rush San Francisco, one egg could cost a dollar. Then came the Egg War.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #goldrush #eggwar #historytok #sanfrancisco",
+ "youtube_title": "Gold Rush Eggs Got So Pricey Men Fought an Egg War #shorts",
+ "tags": [
+  "egg war",
+  "farallon islands",
+  "california gold rush",
+  "san francisco",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Egg_War",
+  "https://www.npr.org/sections/thesalt/2016/08/15/487644637/the-gold-hungry-forty-niners-also-plundered-something-else-eggs",
+  "https://www.smithsonianmag.com/history/when-california-went-war-over-eggs-180971960/",
+  "https://www.pbs.org/food/the-history-kitchen/food-california-gold-rush/",
+  "https://www.hmdb.org/m.asp?m=241705"
+ ]
+}

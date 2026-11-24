@@ -1,0 +1,300 @@
+{
+ "id": "2027w03-s35",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "A President's Speech Set Off the Gold Rush Stampede",
+ "hook": "THE PRESIDENT SAID GOLD",
+ "topic": "President James K. Polk",
+ "music": "playful",
+ "cast": {
+  "polk": {
+   "outfit": "suit",
+   "color": "#1E1E22",
+   "hair": "side",
+   "hairColor": "#9A9A9A",
+   "skin": "light",
+   "name": "President James K. Polk"
+  },
+  "miner": {
+   "hat": "slouch",
+   "hatColor": "#6A5A48",
+   "outfit": "overalls",
+   "color": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Forty-niner"
+  },
+  "shopkeeper": {
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "apron": true,
+   "hair": "bald",
+   "hairColor": "#6A6A6A",
+   "stache": "handlebar",
+   "skin": "light",
+   "name": "Shopkeeper"
+  }
+ },
+ "voices": {
+  "polk": "bm_george",
+  "miner": "am_puck",
+  "shopkeeper": "am_echo"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The gold rush really exploded when the president of the United States told Congress the gold was real.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "polk",
+      "x": 0.4,
+      "mood": "neutral",
+      "pose": "present"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.72,
+      "s": 0.4
+     },
+     {
+      "k": "flag",
+      "x": 0.88,
+      "s": 0.4,
+      "flag": "usa1859"
+     }
+    ],
+    "place": "Washington, D.C. · December 1848",
+    "tag": {
+     "id": "polk",
+     "text": "President James K. Polk"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Gold was found in California in January 1848. But many people back East thought the rumors were nonsense.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "shopkeeper",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.86,
+      "s": 0.35,
+      "text": "GOLD?"
+     }
+    ],
+    "place": "New York · 1848",
+    "cam": "still"
+   }
+  },
+  {
+   "who": "miner",
+   "say": "Gold just lying in California rivers?"
+  },
+  {
+   "who": "shopkeeper",
+   "say": "Sure. And I'm the King of France."
+  },
+  {
+   "who": "N",
+   "say": "Then, on December 5, 1848, President Polk confirmed it in his message to Congress.",
+   "show": {
+    "k": "quote",
+    "text": "The accounts of abundance of gold in that territory are of such an extraordinary character as would scarcely command belief…",
+    "who": "President James K. Polk, message to Congress, December 5, 1848"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In other words: it sounds fake, but it's true. Newspapers spread the news, and gold fever took off.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.35,
+      "mood": "shout",
+      "pose": "cheer"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.72,
+      "s": 0.45,
+      "text": "GOLD IN CALIFORNIA!"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD FEVER",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1849, tens of thousands headed west by land and sea. They were called the forty-niners.",
+   "show": {
+    "k": "map",
+    "lon": -98.0,
+    "lat": 30.0,
+    "z0": 1.0,
+    "z1": 1.15,
+    "date": "1849",
+    "labels": [
+     [
+      "New York",
+      -74.0,
+      40.7,
+      14
+     ],
+     [
+      "Panama",
+      -79.5,
+      9.0,
+      14
+     ],
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -74.0,
+      40.5
+     ],
+     [
+      -75.5,
+      31.0
+     ],
+     [
+      -77.5,
+      20.0
+     ],
+     [
+      -79.9,
+      9.4
+     ],
+     [
+      -79.5,
+      8.9
+     ],
+     [
+      -86.0,
+      12.0
+     ],
+     [
+      -100.0,
+      17.0
+     ],
+     [
+      -112.0,
+      25.0
+     ],
+     [
+      -122.4,
+      37.8
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "One official message, and a whole country packed its bags.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "walk"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.62,
+      "s": 0.5
+     },
+     {
+      "k": "steamship",
+      "x": 0.84,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "49ERS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "polk",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "miner",
+      "x": 0.7,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "People thought California gold was a hoax, until the president confirmed it.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #goldrush #jameskpolk #historytok #americanhistory",
+ "youtube_title": "A President's Speech Set Off the Gold Rush Stampede #shorts",
+ "tags": [
+  "james k polk",
+  "forty-niners",
+  "california gold rush",
+  "gold fever",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.presidency.ucsb.edu/documents/fourth-annual-message-6",
+  "https://millercenter.org/the-presidency/presidential-speeches/december-5-1848-fourth-annual-message-congress",
+  "https://teachingamericanhistory.org/document/annual-message-to-congress-5/",
+  "https://en.wikipedia.org/wiki/California_gold_rush",
+  "https://www.britannica.com/topic/California-Gold-Rush"
+ ]
+}

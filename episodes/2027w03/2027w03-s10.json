@@ -1,0 +1,255 @@
+{
+ "id": "2027w03-s10",
+ "format": "short",
+ "date": "2027-01-18",
+ "slot": "09:00",
+ "title": "It Took 20,000 Workers to Build the Taj Mahal",
+ "hook": "20,000 WORKERS, 20 YEARS",
+ "topic": "Taj Mahal",
+ "youtube_title": "It Took 20,000 Workers to Build the Taj Mahal #shorts",
+ "music": "playful",
+ "tags": [
+  "taj mahal",
+  "shah jahan",
+  "mumtaz mahal",
+  "mughal empire",
+  "history shorts"
+ ],
+ "cast": {
+  "shahjahan": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#E8C25A",
+   "color2": "#A8322A",
+   "beard": "full",
+   "hairColor": "#1E1612",
+   "skin": "tan",
+   "name": "Shah Jahan"
+  },
+  "mumtaz": {
+   "hat": "veil",
+   "hatColor": "#F2A0B0",
+   "outfit": "gown",
+   "color": "#A8322A",
+   "hair": "long",
+   "hairColor": "#1E1612",
+   "skin": "light",
+   "name": "Mumtaz Mahal"
+  },
+  "worker": {
+   "hat": "turban",
+   "hatColor": "#C8702A",
+   "outfit": "tunic",
+   "color": "#E8E0D0",
+   "stache": "bush",
+   "skin": "brown"
+  },
+  "elephant": {
+   "animal": "elephant"
+  }
+ },
+ "voices": {
+  "worker": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "The Taj Mahal took about twenty thousand workers and around twenty years.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.62,
+      "s": 0.5
+     },
+     {
+      "k": "column",
+      "x": 0.82,
+      "s": 0.5
+     }
+    ],
+    "place": "Agra, India · 1632",
+    "stickers": [
+     {
+      "text": "TAJ MAHAL",
+      "at": 1.0,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Emperor Shah Jahan built it for his wife, Mumtaz Mahal.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "mumtaz",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "happy"
+     },
+     {
+      "id": "shahjahan",
+      "x": 0.65,
+      "mood": "happy"
+     }
+    ],
+    "tag": {
+     "id": "shahjahan",
+     "text": "Emperor Shah Jahan"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1631, she died giving birth to their fourteenth child. He was heartbroken.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "shahjahan",
+      "x": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Work started around 1632. A French traveler, Tavernier, said twenty thousand workers built it.",
+   "show": {
+    "k": "card",
+    "label": "Workers on the Taj Mahal",
+    "big": "20,000",
+    "sub": "by French traveler Jean-Baptiste Tavernier's count"
+   }
+  },
+  {
+   "who": "worker",
+   "say": "More marble? We need more marble!",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "worker",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shout"
+     },
+     {
+      "id": "elephant",
+      "x": 0.62
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.82,
+      "s": 0.35,
+      "label": "MARBLE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The main tomb was finished around 1648. The full complex took until about 1653.",
+   "show": {
+    "k": "scene",
+    "bg": "islamic",
+    "cast": [
+     {
+      "id": "shahjahan",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "~1653",
+      "at": 0.8,
+      "color": "#D63A2F"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Shah Jahan was buried there too, right beside her.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "shahjahan",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "shahjahan",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "worker",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "About 20,000 workers and around 20 years, for one tomb.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #tajmahal #shahjahan #mughalempire #historytok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Taj_Mahal",
+  "https://whc.unesco.org/en/list/252/",
+  "https://www.history.com/articles/taj-mahal",
+  "https://www.nationalgeographic.com/history/history-magazine/article/a-husbands-love-built-the-taj-mahal-but-cost-him-an-empire",
+  "https://en.wikipedia.org/wiki/Mumtaz_Mahal"
+ ]
+}

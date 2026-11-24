@@ -1,0 +1,2229 @@
+{
+ "id": "2027w03-l3",
+ "format": "long",
+ "date": "2027-01-22",
+ "title": "The Gold Rush: Who Actually Got Rich?",
+ "music": "playful",
+ "cast": {
+  "host": {
+   "preset": "host",
+   "name": "Host"
+  },
+  "brannan": {
+   "hat": "tophat",
+   "outfit": "suit",
+   "color": "#2A2E3A",
+   "hair": "side",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "stubble": true,
+   "name": "Sam Brannan"
+  },
+  "sutter": {
+   "outfit": "coat",
+   "color": "#2F4A6A",
+   "color2": "#D4A52A",
+   "hair": "bald",
+   "hairColor": "#8A7A6A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "John Sutter"
+  },
+  "marshall": {
+   "hat": "slouch",
+   "hatColor": "#5A4A3A",
+   "outfit": "coat",
+   "color": "#7A5A3A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "light",
+   "name": "James Marshall"
+  },
+  "polk": {
+   "outfit": "suit",
+   "color": "#1E1E22",
+   "hair": "side",
+   "hairColor": "#9A9A9A",
+   "skin": "light",
+   "name": "President James K. Polk"
+  },
+  "miner": {
+   "hat": "slouch",
+   "hatColor": "#6A5A48",
+   "outfit": "overalls",
+   "color": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Forty-niner"
+  },
+  "miner2": {
+   "hat": "straw",
+   "outfit": "tunic",
+   "color": "#B8503A",
+   "stache": "bush",
+   "hairColor": "#2A1E16",
+   "skin": "tan",
+   "name": "Mexican miner"
+  },
+  "shopkeeper": {
+   "outfit": "suit",
+   "color": "#5A4A3A",
+   "apron": true,
+   "hair": "bald",
+   "hairColor": "#6A6A6A",
+   "stache": "handlebar",
+   "skin": "light",
+   "name": "Shopkeeper"
+  },
+  "captain": {
+   "preset": "captain",
+   "name": "Ship captain"
+  },
+  "sailor": {
+   "preset": "sailor",
+   "name": "Sailor"
+  },
+  "luzena": {
+   "preset": "pioneer",
+   "hairColor": "#5A3A22",
+   "name": "Luzena Wilson"
+  },
+  "studebaker": {
+   "hat": "cap",
+   "hatColor": "#4A3A2A",
+   "outfit": "overalls",
+   "color": "#6A5A48",
+   "apron": true,
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "skin": "light",
+   "hold": "hammer",
+   "name": "John Studebaker"
+  },
+  "levi": {
+   "outfit": "suit",
+   "color": "#262A36",
+   "hair": "side",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "skin": "light",
+   "name": "Levi Strauss"
+  },
+  "davis": {
+   "outfit": "suit",
+   "color": "#4A3A2A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "light",
+   "glasses": "round",
+   "name": "Jacob Davis"
+  }
+ },
+ "voices": {
+  "brannan": "am_fenrir",
+  "miner": "am_puck",
+  "miner2": "am_echo",
+  "sutter": "bm_lewis",
+  "marshall": "am_liam",
+  "captain": "bm_daniel",
+  "sailor": "am_eric",
+  "shopkeeper": "bm_george",
+  "luzena": "af_heart",
+  "levi": "am_adam",
+  "davis": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "San Francisco, May 1848. A man runs down the street, holding up a bottle of gold dust.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.4,
+      "pose": "run",
+      "mood": "shout",
+      "walk": [
+       0.2,
+       0.55
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "GOLD DUST"
+     },
+     {
+      "k": "sailship",
+      "x": 0.88,
+      "s": 0.5
+     }
+    ],
+    "stickers": [
+     {
+      "text": "MAY 1848",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "GOLD!",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "San Francisco · May 1848",
+    "tag": {
+     "id": "brannan",
+     "text": "Sam Brannan, shopkeeper"
+    }
+   }
+  },
+  {
+   "who": "brannan",
+   "say": "Gold! Gold from the American River!",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "jar",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "GOLD"
+     }
+    ],
+    "cam": "close"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was Sam Brannan, a shopkeeper and newspaper owner. And here's the sneaky part."
+  },
+  {
+   "who": "N",
+   "say": "The story goes that before he started yelling, he had quietly bought up all the pans and shovels he could get.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.35,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.68,
+      "s": 0.45,
+      "label": "PANS"
+     },
+     {
+      "k": "crate",
+      "x": 0.86,
+      "s": 0.45,
+      "label": "SHOVELS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SOLD OUT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "miner",
+   "say": "I need a pan!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "point"
+     },
+     {
+      "id": "brannan",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.35,
+      "label": "PANS"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "brannan",
+   "say": "Fifteen dollars."
+  },
+  {
+   "who": "miner",
+   "say": "It's a pan!"
+  },
+  {
+   "who": "brannan",
+   "say": "It's a gold pan now."
+  },
+  {
+   "who": "N",
+   "say": "So today: in the California Gold Rush, who actually got rich? Spoiler: mostly not the guys digging.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.5,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.15,
+      "s": 0.45
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.4,
+      "label": "SHOVELS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DIGGERS?",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "SELLERS?",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "title",
+    "text": "The Gold Rush: Who Actually Got Rich?",
+    "sub": "spoiler: follow the shovels",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.86,
+      "mood": "shock",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1848",
+    "title": "Gold in the Ditch",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "First, the setting. In early 1848, California was a land of ranches, a few small towns, and many Native nations.",
+   "show": {
+    "k": "map",
+    "lon": -120.5,
+    "lat": 37.5,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "1848",
+    "labels": [
+     [
+      "California",
+      -119.5,
+      36.5,
+      14
+     ],
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ],
+     [
+      "Sacramento",
+      -121.49,
+      38.58,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -120.9,
+      38.8,
+      0.9,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "John Sutter, a Swiss immigrant, ran a huge estate there, with a fort where the city of Sacramento stands today.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.38,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.75,
+      "s": 0.55,
+      "label": "SUTTER'S FORT"
+     },
+     {
+      "k": "wagon",
+      "x": 0.12,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SWISS IMMIGRANT",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Sutter's Fort, California · 1847",
+    "tag": {
+     "id": "sutter",
+     "text": "John Sutter"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Sutter dreamed of being the richest man on the Pacific coast. So he hired a carpenter, James Marshall, to build him a sawmill in the hills."
+  },
+  {
+   "who": "N",
+   "say": "On January 24, 1848, Marshall looked into the mill's ditch and saw something shiny.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.68,
+      "s": 0.4
+     },
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.2
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.55
+     }
+    ],
+    "stickers": [
+     {
+      "text": "JAN 24, 1848",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Coloma, California · January 24, 1848",
+    "tag": {
+     "id": "marshall",
+     "text": "James Marshall, carpenter"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He tested the little flakes. He hammered them, and they flattened instead of breaking. It was gold."
+  },
+  {
+   "who": "marshall",
+   "say": "Boss, I found gold at your mill.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "goldbar"
+     },
+     {
+      "id": "sutter",
+      "x": 0.66,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "sutter",
+   "say": "Wonderful! Now tell absolutely nobody."
+  },
+  {
+   "who": "N",
+   "say": "Sutter tried to keep it secret. He knew his workers would quit to go digging. Spoiler: they did.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.5,
+      "mood": "scared",
+      "pose": "facepalm"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.82,
+      "s": 0.5,
+      "label": "EMPTY"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Meanwhile, just nine days after the find, the United States and Mexico signed a treaty to end their war.",
+   "show": {
+    "k": "map",
+    "lon": -103.0,
+    "lat": 32.0,
+    "z0": 1.2,
+    "z1": 1.35,
+    "date": "February 2, 1848",
+    "labels": [
+     [
+      "United States",
+      -92.0,
+      39.0,
+      14
+     ],
+     [
+      "Mexico",
+      -102.0,
+      23.5,
+      14
+     ],
+     [
+      "California",
+      -119.5,
+      37.0,
+      14
+     ],
+     [
+      "Mexico City",
+      -99.13,
+      19.43,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -118.5,
+      37.0,
+      3.0,
+      "rgba(168,50,42,.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In it, Mexico handed California to the United States. And word of the gold hadn't spread yet. Talk about bad timing.",
+   "show": {
+    "k": "flag",
+    "flag": "mexico",
+    "label": "MEXICO",
+    "sub": "California was Mexican land until 1848",
+    "bg": "desert"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1848",
+    "title": "The Shovel King",
+    "bg": "market"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now back to Sam Brannan. He also ran a store at Sutter's Fort, and customers started paying him in gold dust.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.35,
+      "pose": "think",
+      "mood": "smug"
+     },
+     {
+      "id": "miner",
+      "x": 0.65,
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "GOLD DUST",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Brannan's store, Sutter's Fort · spring 1848"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Brannan figured something out. Not everyone would find gold. But every single miner would need tools."
+  },
+  {
+   "who": "N",
+   "say": "So he bought up pans, picks and shovels, then spread the news in San Francisco.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.7,
+      "s": 0.5,
+      "label": "TOOLS"
+     },
+     {
+      "k": "sailship",
+      "x": 0.9,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "PICKS",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "PANS",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     },
+     {
+      "text": "SHOVELS",
+      "at": 2.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "According to his biographers, pans he bought for twenty cents, he sold for fifteen dollars.",
+   "show": {
+    "k": "card",
+    "label": "One gold pan: bought vs. sold",
+    "big": "20¢ → $15",
+    "sub": "75 times the price"
+   }
+  },
+  {
+   "who": "N",
+   "say": "That's seventy-five times what he paid. Imagine buying a pizza for one dollar and selling it for seventy-five."
+  },
+  {
+   "who": "N",
+   "say": "In about nine weeks, he reportedly made thirty-six thousand dollars, a huge fortune back then.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "moneybag"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "chest",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$36,000",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "9 WEEKS",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "miner2",
+   "say": "Got any shovels left?",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "miner2",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "brannan",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.35,
+      "label": "LAST SHOVEL"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "brannan",
+   "say": "One. It's very expensive."
+  },
+  {
+   "who": "miner2",
+   "say": "How expensive?"
+  },
+  {
+   "who": "brannan",
+   "say": "How much gold do you have?"
+  },
+  {
+   "who": "N",
+   "say": "Brannan is often called California's first millionaire. And he got there without mining a day in his life.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.78,
+      "s": 0.5,
+      "label": "BRANNAN'S"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FIRST MILLIONAIRE",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1849",
+    "title": "The Whole World Rushes In",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1848, news moved slowly. No phones, no internet. Just ships and letters. Many people back East thought it was a hoax.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "shopkeeper",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.4,
+      "text": "GOLD?!"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE NEWS?",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Then, in December 1848, President James K. Polk told Congress the reports were real.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "polk",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.78,
+      "s": 0.45
+     },
+     {
+      "k": "flag",
+      "x": 0.12,
+      "s": 0.4,
+      "flag": "usa1859"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DEC 5, 1848",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Washington, D.C. · December 1848",
+    "tag": {
+     "id": "polk",
+     "text": "President James K. Polk"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "The accounts of abundance of gold in that territory are of such an extraordinary character as would scarcely command belief.",
+   "show": {
+    "k": "quote",
+    "text": "The accounts of abundance of gold in that territory are of such an extraordinary character as would scarcely command belief…",
+    "who": "President James K. Polk, message to Congress, December 5, 1848"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In other words: sounds fake, but it's true. In 1849, tens of thousands of people dropped everything and headed west. They were called the forty-niners."
+  },
+  {
+   "who": "N",
+   "say": "From the East Coast, the long way was sailing around South America, about five or six months. The shortcut crossed Panama, with a risk of deadly tropical diseases.",
+   "show": {
+    "k": "map",
+    "lon": -96.0,
+    "lat": 26.0,
+    "z0": 1.0,
+    "z1": 1.15,
+    "date": "1849",
+    "labels": [
+     [
+      "New York",
+      -74.0,
+      40.7,
+      14
+     ],
+     [
+      "Panama",
+      -79.5,
+      9.0,
+      14
+     ],
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -74.0,
+      40.5
+     ],
+     [
+      -75.5,
+      31.0
+     ],
+     [
+      -77.5,
+      20.0
+     ],
+     [
+      -79.9,
+      9.4
+     ],
+     [
+      -79.5,
+      8.9
+     ],
+     [
+      -86.0,
+      12.0
+     ],
+     [
+      -100.0,
+      17.0
+     ],
+     [
+      -112.0,
+      25.0
+     ],
+     [
+      -122.4,
+      37.8
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "People came from everywhere: Mexico, Chile, China, Europe and Australia. By about 1855, some three hundred thousand had arrived.",
+   "show": {
+    "k": "card",
+    "label": "People who came to California for gold",
+    "big": "300,000",
+    "sub": "by about 1855"
+   }
+  },
+  {
+   "who": "N",
+   "say": "San Francisco exploded. In early 1848 it had about a thousand people. By 1850, about twenty-five thousand.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "happy"
+     },
+     {
+      "id": "miner2",
+      "x": 0.55,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1,000",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "25,000",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "San Francisco · 1849"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So many ships arrived that the harbor filled up. And the sailors? They ran for the gold fields too.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "sailor",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "happy",
+      "walk": [
+       0.4,
+       0.1
+      ]
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.6,
+      "s": 0.5
+     },
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ABANDONED",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "captain",
+   "say": "Right, lads. Unload the cargo.",
+   "show": {
+    "k": "scene",
+    "bg": "deck",
+    "cast": [
+     {
+      "id": "captain",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "point"
+     },
+     {
+      "id": "sailor",
+      "x": 0.66,
+      "mood": "happy",
+      "pose": "wave"
+     }
+    ],
+    "objects": [
+     {
+      "k": "barrel",
+      "x": 0.88,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "sailor",
+   "say": "Sorry, captain. I quit. Gold!"
+  },
+  {
+   "who": "captain",
+   "say": "Wait. Who's going to sail us home?"
+  },
+  {
+   "who": "N",
+   "say": "Hundreds of ships were left behind. Buildings were scarce, so people reused them. The whaling ship Niantic became a store and a hotel. The Euphemia became the city jail.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "captain",
+      "x": 0.25,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.55,
+      "s": 0.5,
+      "label": "NIANTIC: HOTEL"
+     },
+     {
+      "k": "sailship",
+      "x": 0.85,
+      "s": 0.45,
+      "label": "EUPHEMIA: JAIL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Later the cove was filled in with dirt. Some of those ships are still buried under downtown San Francisco today."
+  },
+  {
+   "who": "N",
+   "say": "And in 1850, California became the thirty-first state, without ever being a territory first.",
+   "show": {
+    "k": "flag",
+    "flag": "usa1859",
+    "label": "CALIFORNIA JOINS THE USA",
+    "sub": "state number 31 · September 9, 1850",
+    "bg": "field"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1849",
+    "title": "A Dollar for an Egg",
+    "bg": "camp"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So did the miners get rich? A lucky few did, mostly early. In 1848, a miner could find about twenty dollars of gold a day.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy",
+      "hold": "goldbar"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.5
+     },
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$20 A DAY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Gold country, California · 1848",
+    "tag": {
+     "id": "miner",
+     "text": "A forty-niner (gold miner)"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "But as crowds poured in, the easy gold ran out. A few years later, the average was under eight dollars a day.",
+   "show": {
+    "k": "card",
+    "label": "Gold a typical miner found per day",
+    "big": "$20 → $8",
+    "sub": "1848 vs. a few years later"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And everything cost a fortune, because food and tools had to come from far away.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "shopkeeper",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug",
+      "hold": "chicken"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "EGGS"
+     },
+     {
+      "k": "barrel",
+      "x": 0.9,
+      "s": 0.35,
+      "label": "FLOUR"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$1 PER EGG",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "San Francisco · 1849"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1849, eggs in San Francisco cost around a dollar each. One miner's letter lists flour at two dollars a pound."
+  },
+  {
+   "who": "N",
+   "say": "Eggs got so valuable that egg hunters raided seabird nests on rocky islands near San Francisco. In 1863, rival egg companies even had a deadly gunfight there. People called it the Egg War.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "shopkeeper",
+      "x": 0.3,
+      "mood": "shock",
+      "pose": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.65,
+      "s": 0.5
+     },
+     {
+      "k": "rock",
+      "x": 0.88,
+      "s": 0.5,
+      "label": "BIRD ISLANDS"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "THE EGG WAR",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "1863",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "miner",
+   "say": "One egg, please.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "happy"
+     },
+     {
+      "id": "shopkeeper",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.35,
+      "label": "EGGS"
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "shopkeeper",
+   "say": "That's a dollar."
+  },
+  {
+   "who": "miner",
+   "say": "For one egg? What does this chicken lay, gold?"
+  },
+  {
+   "who": "N",
+   "say": "So who won? The people selling to miners. Take Luzena Wilson, who crossed America by wagon in 1849.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "luzena",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "bread"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.4
+     },
+     {
+      "k": "wagon",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "place": "Near Sacramento · September 1849",
+    "tag": {
+     "id": "luzena",
+     "text": "Luzena Wilson"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "She was cooking dinner when a hungry miner offered her five dollars for her biscuits. She hesitated, so he offered ten. She took it."
+  },
+  {
+   "who": "N",
+   "say": "Soon her family bought into a hotel in Sacramento, with Luzena running the kitchen.",
+   "show": {
+    "k": "scene",
+    "bg": "town",
+    "cast": [
+     {
+      "id": "luzena",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.72,
+      "s": 0.55,
+      "label": "HOTEL"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$10 BISCUITS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Sacramento · 1849"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Or take John Studebaker, from a family of wagon makers. In 1853 he reached the mining town of Placerville and built wheelbarrows for miners.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "studebaker",
+      "x": 0.4,
+      "pose": "hold",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.45,
+      "label": "WHEELBARROW"
+     },
+     {
+      "k": "rock",
+      "x": 0.9,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "WHEELBARROW JOHNNY",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Placerville, California · 1853",
+    "tag": {
+     "id": "studebaker",
+     "text": "John Studebaker"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "By 1858 he went home with eight thousand dollars and put it into the family wagon company. Decades later, that company built Studebaker cars.",
+   "show": {
+    "k": "scene",
+    "bg": "factory",
+    "cast": [
+     {
+      "id": "studebaker",
+      "x": 0.3,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.6,
+      "s": 0.45
+     },
+     {
+      "k": "car",
+      "x": 0.86,
+      "s": 0.45
+     }
+    ],
+    "stickers": [
+     {
+      "text": "$8,000",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "South Bend, Indiana · 1858"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1850",
+    "title": "The Terrible Cost",
+    "bg": "field"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Now a serious part of the story. California was already home to many Native peoples, around a hundred and fifty thousand before the rush.",
+   "show": {
+    "k": "map",
+    "lon": -120.0,
+    "lat": 37.5,
+    "z0": 2.1,
+    "z1": 2.2,
+    "date": "1848",
+    "labels": [
+     [
+      "California",
+      -119.5,
+      36.5,
+      14
+     ],
+     [
+      "Sierra Nevada",
+      -119.0,
+      38.8,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -121.0,
+      39.0,
+      2.0,
+      "rgba(47,111,194,.35)"
+     ],
+     [
+      -119.5,
+      35.5,
+      2.0,
+      "rgba(47,111,194,.35)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "For them, the gold rush was a disaster. Miners took their land and rivers, and destroyed the plants, fish and game they lived on.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.5,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.55
+     },
+     {
+      "k": "rock",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Many Native people were forced to work. Historians say Sutter himself held Native workers in near slavery."
+  },
+  {
+   "who": "N",
+   "say": "In 1850, a California law even let settlers force Native people, including children, into unpaid labor.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.5,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.78,
+      "s": 0.4,
+      "text": "1850 LAW"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1850",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "California · 1850",
+    "cam": "still"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Violence followed, often paid for by the state. In January 1851, California's governor, Peter Burnett, told lawmakers what he expected."
+  },
+  {
+   "who": "N",
+   "say": "That a war of extermination will continue to be waged between the races until the Indian race becomes extinct, must be expected.",
+   "show": {
+    "k": "quote",
+    "text": "That a war of extermination will continue to be waged between the races until the Indian race becomes extinct, must be expected.",
+    "who": "Governor Peter Burnett, address to the California legislature, January 1851"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Disease, hunger and killings followed. By 1873, only about thirty thousand Native Californians were left. Many historians call it a genocide.",
+   "show": {
+    "k": "card",
+    "label": "Native people in California (estimates)",
+    "big": "150,000 → 30,000",
+    "sub": "before 1848 vs. 1873"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Foreign miners were targeted too. In 1850, California charged non-citizens twenty dollars a month to mine. It hit Mexican, Chilean and Chinese miners hardest.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "miner2",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.75,
+      "s": 0.45,
+      "text": "$20 A MONTH"
+     },
+     {
+      "k": "tent",
+      "x": 0.92,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FOREIGN MINERS' TAX",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1873",
+    "title": "Pants, Not Gold",
+    "bg": "market"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Back to the money. In 1853, a young German immigrant named Levi Strauss arrived in San Francisco.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "levi",
+      "x": 0.35,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "steamship",
+      "x": 0.75,
+      "s": 0.55
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1853",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "San Francisco · 1853",
+    "tag": {
+     "id": "levi",
+     "text": "Levi Strauss"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "He didn't dig either. He sold cloth and clothes to the little shops in the mining towns.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "levi",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "CLOTH"
+     },
+     {
+      "k": "crate",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "THREAD"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "DRY GOODS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Years later, a tailor in Reno, Nevada, named Jacob Davis, had a problem. His customers kept ripping their pants.",
+   "show": {
+    "k": "map",
+    "lon": -121.0,
+    "lat": 38.5,
+    "z0": 2.2,
+    "z1": 2.5,
+    "date": "1872",
+    "labels": [
+     [
+      "Reno",
+      -119.81,
+      39.53,
+      14
+     ],
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ]
+    ],
+    "route": [
+     [
+      -119.81,
+      39.53
+     ],
+     [
+      -122.42,
+      37.77
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "His fix was tiny metal rivets at the weak spots. But he couldn't afford the patent paperwork.",
+   "show": {
+    "k": "scene",
+    "bg": "street",
+    "cast": [
+     {
+      "id": "davis",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "neutral",
+      "hold": "pen"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.78,
+      "s": 0.45,
+      "text": "TAILOR"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "RIVETS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Reno, Nevada · 1872",
+    "tag": {
+     "id": "davis",
+     "text": "Jacob Davis, tailor"
+    }
+   }
+  },
+  {
+   "who": "davis",
+   "say": "Mr. Strauss, I have an idea. Metal. In pants.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "davis",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "present"
+     },
+     {
+      "id": "levi",
+      "x": 0.66,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.88,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "levi",
+   "say": "Metal. In pants."
+  },
+  {
+   "who": "davis",
+   "say": "Trust me. They won't rip."
+  },
+  {
+   "who": "levi",
+   "say": "Fine. I'll pay for the patent."
+  },
+  {
+   "who": "N",
+   "say": "On May 20, 1873, they got it. Those riveted work pants became blue jeans.",
+   "show": {
+    "k": "card",
+    "label": "U.S. patent No. 139,121",
+    "big": "MAY 20, 1873",
+    "sub": "riveted work pants: the first blue jeans"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The gold miners are long gone. Their jeans are probably on your legs right now."
+  },
+  {
+   "who": "N",
+   "say": "Money people did well too. In 1852, Wells Fargo opened in San Francisco to carry miners' gold and mail, and to handle their money.",
+   "show": {
+    "k": "scene",
+    "bg": "vault",
+    "cast": [
+     {
+      "id": "shopkeeper",
+      "x": 0.4,
+      "mood": "smug",
+      "pose": "present",
+      "hold": "goldbar"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.75,
+      "s": 0.45,
+      "label": "GOLD SHIPMENT"
+     },
+     {
+      "k": "chest",
+      "x": 0.92,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1852",
+      "at": 0.8,
+      "color": "#A8322A"
+     },
+     {
+      "text": "BANKING",
+      "at": 1.7000000000000002,
+      "color": "#D4A52A"
+     }
+    ],
+    "place": "San Francisco · 1852"
+   }
+  },
+  {
+   "hold": 2.5,
+   "show": {
+    "k": "chapter",
+    "year": "1880",
+    "title": "So Who Got Rich?",
+    "bg": "office"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So what happened to our gold rush crew? Start with John Sutter. Gold seekers swarmed his land. Squatters moved in and his cattle were stolen.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.72,
+      "s": 0.4
+     },
+     {
+      "k": "tent",
+      "x": 0.9,
+      "s": 0.4
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SQUATTERS",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "By this sudden discovery of the gold, all my great plans were destroyed.",
+   "show": {
+    "k": "quote",
+    "text": "By this sudden discovery of the gold, all my great plans were destroyed.",
+    "who": "John Sutter, Hutchings' California Magazine, 1857"
+   }
+  },
+  {
+   "who": "N",
+   "say": "He spent years asking Congress to pay him back, and died in 1880, still waiting.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "sutter",
+      "x": 0.4,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.75,
+      "s": 0.4,
+      "text": "PLEASE PAY ME"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1880",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Washington, D.C. · 1880"
+   }
+  },
+  {
+   "who": "N",
+   "say": "James Marshall, who found the gold, died nearly penniless in 1885. Today his statue at Coloma points at the spot. The state gave him a small pension for a few years, then let it lapse. A statue, but no fortune.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.35,
+      "mood": "sad",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.55,
+      "label": "MARSHALL"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1885",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ],
+    "place": "Coloma, California · 1885"
+   }
+  },
+  {
+   "who": "N",
+   "say": "And Sam Brannan, the shovel king? He lost most of his fortune, partly in a costly divorce, and died poor in 1889.",
+   "show": {
+    "k": "scene",
+    "bg": "tavern",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.75,
+      "s": 0.4,
+      "label": "EMPTY"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1889",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "So the steadiest winners? The people selling pans, eggs, biscuits, wheelbarrows and pants.",
+   "show": {
+    "k": "compare",
+    "bg": "camp",
+    "left": {
+     "label": "DIGGING FOR GOLD",
+     "cast": [
+      {
+       "id": "miner",
+       "mood": "sad"
+      }
+     ]
+    },
+    "right": {
+     "label": "SELLING TO DIGGERS",
+     "cast": [
+      {
+       "id": "levi",
+       "mood": "happy"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Business people still call it a picks and shovels strategy. In a gold rush, sell the shovels.",
+   "show": {
+    "k": "scene",
+    "bg": "white",
+    "cast": [
+     {
+      "id": "host",
+      "x": 0.5,
+      "pose": "point",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "sign",
+      "x": 0.2,
+      "s": 0.45,
+      "text": "SHOVELS > GOLD"
+     },
+     {
+      "k": "goldpile",
+      "x": 0.85,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The gold rush built California fast, and it cost Native Californians terribly. Fortunes came and went. The pants stayed."
+  },
+  {
+   "who": "N",
+   "say": "Subscribe, and next time: the entire history of the Inca Empire in ten minutes.",
+   "show": {
+    "k": "end",
+    "next": "The ENTIRE History of the Inca Empire in 10 Minutes",
+    "cast": [
+     {
+      "id": "brannan",
+      "x": 0.8,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "levi",
+      "x": 0.9,
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "description": "In 1848 gold turned up at John Sutter's sawmill in California, and the whole world rushed in. But the people who got rich were mostly not the ones digging: they sold the pans, the eggs, the wheelbarrows and, eventually, the jeans. We follow the money from Sam Brannan's $15 gold pans to Levi Strauss, and look honestly at the terrible cost for California's Native peoples.\n\nChapters are added automatically.\n\n#history #goldrush #california #moneyhistory #animatedhistory",
+ "thumbnail": {
+  "style": "faces",
+  "title": "SHOVELS > GOLD",
+  "bg": "camp",
+  "faces": [
+   {
+    "id": "brannan",
+    "mood": "shout"
+   },
+   {
+    "id": "miner",
+    "mood": "shock"
+   }
+  ],
+  "grade": "warm"
+ },
+ "youtube_title": "The Gold Rush: Who Actually Got Rich?",
+ "tags": [
+  "california gold rush",
+  "gold rush",
+  "sam brannan",
+  "john sutter",
+  "james marshall",
+  "forty-niners",
+  "levi strauss",
+  "blue jeans",
+  "san francisco history",
+  "picks and shovels",
+  "money history",
+  "history",
+  "animated history"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/California_gold_rush",
+  "https://www.britannica.com/topic/California-Gold-Rush",
+  "https://www.history.com/topics/19th-century/gold-rush-of-1849",
+  "https://www.nationalgeographic.com/history/article/how-the-gold-rush-transformed-california",
+  "https://en.wikipedia.org/wiki/Samuel_Brannan",
+  "https://www.pbs.org/wgbh/americanexperience/features/goldrush-samuel-brannan",
+  "https://spartacus-educational.com/WWbrannan.htm",
+  "https://en.wikipedia.org/wiki/John_Sutter",
+  "https://www.britannica.com/biography/John-Sutter",
+  "https://www.legendsofamerica.com/ca-suttersgold/",
+  "https://en.wikipedia.org/wiki/James_W._Marshall",
+  "https://www.history.com/this-day-in-history/january-24/gold-discovered-at-sutters-creek",
+  "https://www.parks.ca.gov/pages/484/files/MarshallGoldWebBrochure2013.pdf",
+  "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
+  "https://www.presidency.ucsb.edu/documents/fourth-annual-message-6",
+  "https://millercenter.org/the-presidency/presidential-speeches/december-5-1848-fourth-annual-message-congress",
+  "https://www.northcoastjournal.com/life-outdoors/how-they-got-here-panama-20524358/",
+  "https://en.wikipedia.org/wiki/History_of_San_Francisco",
+  "https://www.nps.gov/places/000/gold-rush-transforms-san-francisco.htm",
+  "https://www.nps.gov/safr/learn/historyculture/buried-ships-of-san-francisco.htm",
+  "https://en.wikipedia.org/wiki/Niantic_(whaling_vessel)",
+  "https://www.nationalgeographic.com/history/article/map-ships-buried-san-francisco",
+  "https://www.history.com/this-day-in-history/september-9/california-becomes-the-31st-state-in-record-time",
+  "https://www.pbs.org/food/the-history-kitchen/food-california-gold-rush/",
+  "https://www.npr.org/sections/thesalt/2016/08/15/487644637/the-gold-hungry-forty-niners-also-plundered-something-else-eggs",
+  "https://en.wikipedia.org/wiki/Egg_War",
+  "https://www.smithsonianmag.com/history/when-california-went-war-over-eggs-180971960/",
+  "https://en.wikipedia.org/wiki/Luzena_Wilson",
+  "https://en.wikipedia.org/wiki/John_Studebaker",
+  "https://studebakermuseum.org/meet-john-m-studebaker/",
+  "https://en.wikipedia.org/wiki/Population_of_Native_California",
+  "https://en.wikipedia.org/wiki/California_genocide",
+  "https://www.history.com/articles/californias-little-known-genocide",
+  "https://www.history.com/articles/the-enslaved-native-americans-who-made-the-gold-rush-possible",
+  "https://en.wikipedia.org/wiki/Act_for_the_Government_and_Protection_of_Indians",
+  "https://en.wikipedia.org/wiki/Foreign_Miners%27_Tax_Act_of_1850",
+  "https://www.pbs.org/wgbh/theymadeamerica/whomade/strauss_hi.html",
+  "https://history.wf.com/the-surprising-start-of-wells-fargo-co/",
+  "https://en.wikipedia.org/wiki/Wells_Fargo_(1852%E2%80%931998)",
+  "https://prologue.blogs.archives.gov/2010/05/20/forever-in-blue-jeansand-in-court/",
+  "https://www.history.com/this-day-in-history/may-20/levi-strauss-and-jacob-davis-receive-patent-for-blue-jeans"
+ ]
+}

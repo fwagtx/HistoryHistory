@@ -1,0 +1,229 @@
+{
+ "id": "2027w03-s07",
+ "format": "short",
+ "date": "2027-01-18",
+ "slot": "09:00",
+ "title": "This Emperor Hung a Golden Chain Anyone Could Ring",
+ "hook": "RING FOR THE EMPEROR",
+ "topic": "Jahangir",
+ "youtube_title": "This Emperor Hung a Golden Chain Anyone Could Ring #shorts",
+ "music": "playful",
+ "tags": [
+  "jahangir",
+  "chain of justice",
+  "mughal empire",
+  "agra fort",
+  "history shorts"
+ ],
+ "cast": {
+  "jahangir": {
+   "hat": "turban",
+   "hatColor": "#E8C25A",
+   "outfit": "robe",
+   "color": "#C8702A",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "hairColor": "#1E1612",
+   "skin": "tan",
+   "name": "Jahangir"
+  },
+  "petitioner": {
+   "preset": "peasantW",
+   "skin": "brown"
+  }
+ },
+ "voices": {
+  "jahangir": "am_liam",
+  "petitioner": "af_bella"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "A Mughal emperor says he hung a golden chain from his fort, so anyone could ring for help.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "jahangir",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "place": "Agra Fort, India · 1605",
+    "tag": {
+     "id": "jahangir",
+     "text": "Emperor Jahangir"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Jahangir became emperor in 1605. He wanted to be known as a fair judge.",
+   "show": {
+    "k": "scene",
+    "bg": "courtroom",
+    "cast": [
+     {
+      "id": "jahangir",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.35,
+      "text": "JUSTICE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "In his memoir, he says the chain was pure gold, very long, with sixty bells.",
+   "show": {
+    "k": "card",
+    "label": "Jahangir's chain of justice",
+    "big": "60 BELLS",
+    "sub": "pure gold, by his own account"
+   }
+  },
+  {
+   "who": "N",
+   "say": "It ran from the fort down to a post by the river.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "petitioner",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.7,
+      "s": 0.45
+     },
+     {
+      "k": "tree",
+      "x": 0.85,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "petitioner",
+   "say": "Excuse me! An official cheated me!",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "petitioner",
+      "x": 0.4,
+      "pose": "fist",
+      "mood": "shout"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.35,
+      "label": "RICE"
+     }
+    ]
+   }
+  },
+  {
+   "who": "jahangir",
+   "say": "Who keeps ringing my bells?",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "jahangir",
+      "x": 0.4,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "throne",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "We don't know how often ordinary people really used it. It was also a brilliant piece of royal publicity.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "jahangir",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "smug"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "REPORTED",
+      "at": 0.8,
+      "color": "#6A3E8E"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "jahangir",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "petitioner",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "A gold chain with 60 bells, so anyone could call the emperor. That's his story, anyway.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #jahangir #mughalempire #indianhistory #historytok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jahangir",
+  "https://ibiblio.org/britishraj/Jackson5/chapter13.html",
+  "https://agakhanmuseum.org/collection/artifact/jahangir-jharoka-window-agra-fort-folio-jahangirnameh-memoirs-jahangir-akm136",
+  "https://iranicaonline.org/articles/jahangir"
+ ]
+}

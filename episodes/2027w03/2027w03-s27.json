@@ -1,0 +1,291 @@
+{
+ "id": "2027w03-s27",
+ "format": "short",
+ "date": "2027-01-22",
+ "slot": "09:00",
+ "title": "The Man Who Started the Gold Rush Died Poor",
+ "hook": "HE FOUND THE GOLD",
+ "topic": "James Marshall",
+ "music": "playful",
+ "cast": {
+  "marshall": {
+   "hat": "slouch",
+   "hatColor": "#5A4A3A",
+   "outfit": "coat",
+   "color": "#7A5A3A",
+   "hair": "short",
+   "hairColor": "#3A2A1A",
+   "beard": "full",
+   "skin": "light",
+   "name": "James Marshall"
+  },
+  "sutter": {
+   "outfit": "coat",
+   "color": "#2F4A6A",
+   "color2": "#D4A52A",
+   "hair": "bald",
+   "hairColor": "#8A7A6A",
+   "stache": "bush",
+   "skin": "light",
+   "name": "John Sutter"
+  },
+  "miner": {
+   "hat": "slouch",
+   "hatColor": "#6A5A48",
+   "outfit": "overalls",
+   "color": "#2F5A8A",
+   "beard": "full",
+   "hairColor": "#6A4A2A",
+   "skin": "light",
+   "name": "Forty-niner"
+  }
+ },
+ "voices": {
+  "marshall": "am_liam",
+  "miner": "am_puck"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "This man started the biggest gold rush in American history, and died poor.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.4,
+      "mood": "happy",
+      "pose": "present",
+      "hold": "goldbar"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.35
+     },
+     {
+      "k": "tree",
+      "x": 0.9,
+      "s": 0.5
+     }
+    ],
+    "place": "Coloma, California · 1848",
+    "tag": {
+     "id": "marshall",
+     "text": "James Marshall"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "James Marshall was a carpenter, building a sawmill for a rich landowner named John Sutter.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.3,
+      "mood": "neutral",
+      "pose": "hold"
+     },
+     {
+      "id": "sutter",
+      "x": 0.66,
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "house",
+      "x": 0.88,
+      "s": 0.4,
+      "label": "SAWMILL"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "On January 24, 1848, he spotted shiny flakes in the mill's ditch.",
+   "show": {
+    "k": "card",
+    "label": "Sutter's Mill, Coloma",
+    "big": "JAN 24, 1848",
+    "sub": "gold in the ditch"
+   }
+  },
+  {
+   "who": "miner",
+   "say": "What is it?",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "miner",
+      "x": 0.3,
+      "mood": "shock"
+     },
+     {
+      "id": "marshall",
+      "x": 0.66,
+      "mood": "shock",
+      "pose": "point"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.86,
+      "s": 0.35
+     }
+    ],
+    "cam": "still"
+   }
+  },
+  {
+   "who": "marshall",
+   "say": "Either gold, or I'm about to look very silly."
+  },
+  {
+   "who": "N",
+   "say": "It was gold. Soon crowds from around the world took over the land around the mill.",
+   "show": {
+    "k": "map",
+    "lon": -120.5,
+    "lat": 37.8,
+    "z0": 2.0,
+    "z1": 2.3,
+    "date": "1849",
+    "labels": [
+     [
+      "California",
+      -119.5,
+      36.5,
+      14
+     ],
+     [
+      "San Francisco",
+      -122.42,
+      37.77,
+      14
+     ],
+     [
+      "Sacramento",
+      -121.49,
+      38.58,
+      14
+     ]
+    ],
+    "areas": [
+     [
+      -120.9,
+      38.8,
+      0.9,
+      "rgba(212,165,42,.45)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Marshall never got rich. California gave him a small pension for a few years, then let it lapse.",
+   "show": {
+    "k": "scene",
+    "bg": "office",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.4,
+      "mood": "sad",
+      "pose": "shrug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "scrollbig",
+      "x": 0.72,
+      "s": 0.4,
+      "text": "PENSION"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "CANCELED",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He died nearly penniless in 1885. Today his statue at Coloma points to the spot where he found gold.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.3,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.68,
+      "s": 0.55,
+      "label": "MARSHALL"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "1885",
+      "at": 0.8,
+      "color": "#A8322A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "marshall",
+      "x": 0.3,
+      "mood": "happy",
+      "pose": "wave"
+     },
+     {
+      "id": "sutter",
+      "x": 0.7,
+      "mood": "sad"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "He found the gold that started the California Gold Rush. He died nearly penniless.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #goldrush #california #historytok #americanhistory",
+ "youtube_title": "The Man Who Started the Gold Rush Died Poor #shorts",
+ "tags": [
+  "james marshall",
+  "sutter's mill",
+  "california gold rush",
+  "gold rush",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/James_W._Marshall",
+  "https://www.history.com/this-day-in-history/january-24/gold-discovered-at-sutters-creek",
+  "https://www.parks.ca.gov/pages/484/files/MarshallGoldWebBrochure2013.pdf",
+  "https://www.voanews.com/a/man-who-found-california-gold-died-broke/1506478.html"
+ ]
+}

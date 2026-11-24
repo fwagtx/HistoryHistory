@@ -1,0 +1,322 @@
+{
+ "id": "2027w03-s21",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "Hannibal Escaped a Trap With Flaming Cattle",
+ "hook": "FIRE ON THEIR HORNS",
+ "topic": "Hannibal",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "soldier": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stubble": true,
+   "outfit": "tunic",
+   "color": "#B8502A",
+   "hold": "spear",
+   "name": "Carthaginian soldier"
+  },
+  "fabius": {
+   "preset": "senator",
+   "hair": "short",
+   "hairColor": "#E0DCD4",
+   "name": "Fabius Maximus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  }
+ },
+ "voices": {
+  "hannibal": "am_fenrir",
+  "legionary": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Hannibal escaped a Roman trap using two thousand oxen with fire on their horns.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "run",
+      "mood": "happy",
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.6,
+      "s": 0.3,
+      "move": [
+       0.5,
+       0.85
+      ]
+     },
+     {
+      "k": "tree",
+      "x": 0.15,
+      "s": 0.4
+     }
+    ],
+    "place": "Campania, Italy · 217 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 217 BC, Hannibal, a general from Carthage, was raiding farmland south of Rome.",
+   "show": {
+    "k": "map",
+    "lon": 14.0,
+    "lat": 41.3,
+    "z0": 3.0,
+    "z1": 3.4,
+    "date": "217 BC",
+    "labels": [
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ],
+     [
+      "CAMPANIA",
+      14.3,
+      41.0,
+      0
+     ]
+    ],
+    "areas": [
+     [
+      14.1,
+      41.15,
+      0.35,
+      "rgba(168,50,42,0.4)"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The Roman commander Fabius Maximus blocked the mountain pass out.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "fabius",
+      "x": 0.35,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wall",
+      "x": 0.75,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "fabius",
+     "text": "Fabius Maximus, Roman commander"
+    }
+   }
+  },
+  {
+   "who": "hannibal",
+   "say": "So we're trapped. Fine. Bring me the cows.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal, general of Carthage"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Polybius says his men tied bundles of dry sticks to the horns of about two thousand captured oxen.",
+   "show": {
+    "k": "card",
+    "label": "Oxen with sticks on their horns",
+    "big": "2,000",
+    "sub": "Polybius and Plutarch",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.8,
+      "mood": "smug",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "At night they lit the sticks and drove the oxen up a hill.",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "happy",
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.55,
+      "s": 0.3,
+      "move": [
+       0.45,
+       0.8
+      ]
+     },
+     {
+      "k": "fire",
+      "x": 0.7,
+      "s": 0.25,
+      "move": [
+       0.6,
+       0.9
+      ]
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FIRE COWS",
+      "at": 1.2,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "Torches on the hill! Hannibal's escaping! Go!",
+   "show": {
+    "k": "scene",
+    "bg": "night",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.45,
+      "pose": "point",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "legionary"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The guards left the pass to chase the lights, and Hannibal's army walked right through.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "walk",
+      "mood": "smug"
+     },
+     {
+      "id": "soldier",
+      "x": 0.6,
+      "pose": "walk",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "wagon",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "ESCAPED",
+      "at": 1.6,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "soldier",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Trapped by Rome, Hannibal set his cows on fire. Well, their horns.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #ancientrome #funnyhistory #historytok",
+ "youtube_title": "Hannibal Escaped a Trap With Flaming Cattle #shorts",
+ "tags": [
+  "hannibal",
+  "ager falernus",
+  "fabius maximus",
+  "second punic war",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_Ager_Falernus",
+  "https://cts.perseids.org/read/greekLit/tlg0007/tlg013/perseus-eng2/6.1-6.7",
+  "https://www.livius.org/sources/content/appian/appian-war-against-hannibal/appian-war-against-hannibal-3/"
+ ]
+}

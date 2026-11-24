@@ -1,0 +1,219 @@
+{
+ "id": "2027w03-s09",
+ "format": "short",
+ "date": "2027-01-18",
+ "slot": "09:00",
+ "title": "This Emperor Was Weighed in Gold Every Birthday",
+ "hook": "WEIGHED IN GOLD",
+ "topic": "Jahangir",
+ "youtube_title": "This Emperor Was Weighed in Gold Every Birthday #shorts",
+ "music": "playful",
+ "tags": [
+  "jahangir",
+  "thomas roe",
+  "mughal empire",
+  "weighing ceremony",
+  "history shorts"
+ ],
+ "cast": {
+  "jahangir": {
+   "hat": "turban",
+   "hatColor": "#E8C25A",
+   "outfit": "robe",
+   "color": "#C8702A",
+   "color2": "#E8C25A",
+   "stache": "thin",
+   "hairColor": "#1E1612",
+   "skin": "tan",
+   "name": "Jahangir"
+  },
+  "petitioner": {
+   "preset": "peasantW",
+   "skin": "brown"
+  },
+  "roe": {
+   "hat": "capotain",
+   "outfit": "coat",
+   "color": "#262322",
+   "beard": "goatee",
+   "stache": "thin",
+   "hairColor": "#6A4A2A",
+   "skin": "peach",
+   "name": "Sir Thomas Roe"
+  }
+ },
+ "voices": {
+  "jahangir": "am_liam",
+  "roe": "bm_fable"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "On his birthday, a Mughal emperor sat on a giant scale and got weighed against gold.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "jahangir",
+      "x": 0.4,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.72,
+      "s": 0.45
+     }
+    ],
+    "place": "Mughal court, India · 1610s",
+    "tag": {
+     "id": "jahangir",
+     "text": "Emperor Jahangir"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 1615, England sent its first official ambassador to the Mughal Empire.",
+   "show": {
+    "k": "flag",
+    "flag": "uk1606",
+    "label": "KING JAMES I'S ENGLAND",
+    "sub": "sends an ambassador, 1615",
+    "bg": "harbor"
+   }
+  },
+  {
+   "who": "N",
+   "say": "His name was Sir Thomas Roe, and he came looking for trade deals.",
+   "show": {
+    "k": "scene",
+    "bg": "palace",
+    "cast": [
+     {
+      "id": "roe",
+      "x": 0.4,
+      "pose": "present",
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "chest",
+      "x": 0.72,
+      "s": 0.35
+     }
+    ],
+    "tag": {
+     "id": "roe",
+     "text": "Sir Thomas Roe, English ambassador"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "At Emperor Jahangir's birthday, Roe watched him weighed against gold, silver, jewels, silk and food.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "roe",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "shock"
+     },
+     {
+      "id": "jahangir",
+      "x": 0.65,
+      "pose": "sit",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.82,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "who": "roe",
+   "say": "Is the emperor... being weighed?"
+  },
+  {
+   "who": "jahangir",
+   "say": "Against gold. Happy birthday to me."
+  },
+  {
+   "who": "N",
+   "say": "Then a lot of it was handed out to the poor and to holy men.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "petitioner",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "cart",
+      "x": 0.72,
+      "s": 0.45,
+      "load": "gold"
+     }
+    ],
+    "fx": [
+     "sparkle"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The custom came from Hindu kings. Akbar, Jahangir's father, made it a Mughal tradition.",
+   "show": {
+    "k": "card",
+    "label": "The birthday weighing",
+    "big": "GOLD = GIFTS",
+    "sub": "an old Indian royal custom"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "jahangir",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "roe",
+      "x": 0.68,
+      "pose": "wave",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Every birthday, this emperor was weighed against gold. Then he gave it away.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #jahangir #mughalempire #thomasroe #historytok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Thomas_Roe",
+  "https://franpritchett.com/00generallinks/kerr/vol09chap11sect06c.html",
+  "https://www.mygoldguide.in/when-emperor-jahangir-weighed-his-son-gold",
+  "https://en.wikipedia.org/wiki/Jahangir"
+ ]
+}

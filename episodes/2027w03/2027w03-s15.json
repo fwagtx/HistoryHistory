@@ -1,0 +1,348 @@
+{
+ "id": "2027w03-s15",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "Hannibal Marched War Elephants Over the Alps",
+ "hook": "ELEPHANTS OVER THE ALPS",
+ "topic": "Hannibal",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "soldier": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stubble": true,
+   "outfit": "tunic",
+   "color": "#B8502A",
+   "hold": "spear",
+   "name": "Carthaginian soldier"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  },
+  "elephant": {
+   "animal": "elephant"
+  }
+ },
+ "voices": {
+  "hannibal": "am_fenrir",
+  "soldier": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "In 218 BC, Hannibal marched war elephants over the Alps. In the snow.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.32,
+      "pose": "point",
+      "mood": "smug"
+     },
+     {
+      "id": "elephant",
+      "x": 0.66,
+      "mood": "neutral"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.82,
+      "s": 0.45
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "place": "The Alps · 218 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal was a general from Carthage, a rich city in North Africa, at war with Rome.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.4,
+      "pose": "hips",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "galley",
+      "x": 0.72,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal, general of Carthage"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Instead of sailing, he marched from Spain to Italy, the long way around.",
+   "show": {
+    "k": "map",
+    "lon": 4.5,
+    "lat": 42.5,
+    "z0": 1.7,
+    "z1": 2.0,
+    "date": "218 BC",
+    "labels": [
+     [
+      "SPAIN",
+      -3.5,
+      40.0,
+      0
+     ],
+     [
+      "RHÔNE",
+      4.7,
+      43.9,
+      0
+     ],
+     [
+      "ALPS",
+      7.0,
+      45.3,
+      0
+     ],
+     [
+      "ITALY",
+      11.5,
+      43.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -0.9,
+      37.6
+     ],
+     [
+      0.5,
+      40.8
+     ],
+     [
+      2.8,
+      42.3
+     ],
+     [
+      4.6,
+      43.9
+     ],
+     [
+      6.5,
+      45.0
+     ],
+     [
+      7.7,
+      45.1
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "He brought thirty-seven war elephants.",
+   "show": {
+    "k": "card",
+    "label": "War elephants",
+    "big": "37",
+    "sub": "when Hannibal set out in 218 BC",
+    "cast": [
+     {
+      "id": "elephant",
+      "x": 0.8,
+      "mood": "happy",
+      "s": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The mountain paths were narrow and icy, and local tribes attacked from above.",
+   "show": {
+    "k": "scene",
+    "bg": "arctic",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.35,
+      "pose": "scared",
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.72,
+      "s": 0.5
+     }
+    ],
+    "fx": [
+     "snow"
+    ],
+    "cam": "shake"
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Who brings elephants to a mountain?!",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "shock"
+     }
+    ],
+    "cam": "close",
+    "focus": "soldier",
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "hannibal",
+   "say": "Someone Rome won't expect.",
+   "show": {
+    "k": "scene",
+    "bg": "camp",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.45,
+      "pose": "fist",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tent",
+      "x": 0.8,
+      "s": 0.4
+     }
+    ],
+    "cam": "close",
+    "focus": "hannibal"
+   }
+  },
+  {
+   "who": "N",
+   "say": "After about two weeks, he came down into Italy, with nearly half his army gone.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "walk",
+      "mood": "sad"
+     },
+     {
+      "id": "elephant",
+      "x": 0.68,
+      "mood": "sad"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "place": "Northern Italy · 218 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "But now Rome had an enemy army in its own backyard.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.4,
+      "pose": "scared",
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.75,
+      "s": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "elephant",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "37 elephants. One mountain range. Zero roads.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #alps #ancienthistory #historytok",
+ "youtube_title": "Hannibal Marched War Elephants Over the Alps #shorts",
+ "tags": [
+  "hannibal",
+  "crossing the alps",
+  "war elephants",
+  "second punic war",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps",
+  "https://www.history.com/articles/hannibal-crosses-alps",
+  "https://www.nationalgeographic.com/culture/people/reference/hannibal/",
+  "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE"
+ ]
+}

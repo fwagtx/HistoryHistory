@@ -1,0 +1,305 @@
+{
+ "id": "2027w03-s22",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "Hannibal Burned Every Farm Except One",
+ "hook": "HE SPARED ONE FARM",
+ "topic": "Fabius Maximus",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "soldier": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stubble": true,
+   "outfit": "tunic",
+   "color": "#B8502A",
+   "hold": "spear",
+   "name": "Carthaginian soldier"
+  },
+  "livy": {
+   "preset": "roman",
+   "hair": "short",
+   "hairColor": "#5A4632",
+   "hold": "scroll",
+   "name": "Livy"
+  },
+  "fabius": {
+   "preset": "senator",
+   "hair": "short",
+   "hairColor": "#E0DCD4",
+   "name": "Fabius Maximus"
+  },
+  "legionary": {
+   "preset": "legionary",
+   "name": "Roman soldier"
+  }
+ },
+ "voices": {
+  "legionary": "am_eric"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Hannibal burned farms all over the area but left one Roman leader's farm untouched. On purpose.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "hold",
+      "mood": "smug",
+      "hold": "torch"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.55,
+      "s": 0.3
+     },
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.35
+     }
+    ],
+    "place": "Italy · 217 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 217 BC, Hannibal, a general from Carthage, was raiding Italy.",
+   "show": {
+    "k": "map",
+    "lon": 13.0,
+    "lat": 42.0,
+    "z0": 2.2,
+    "z1": 2.5,
+    "date": "217 BC",
+    "labels": [
+     [
+      "ITALY",
+      13.5,
+      42.5,
+      0
+     ],
+     [
+      "ROME",
+      12.5,
+      41.9,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Rome's leader, Fabius Maximus, refused to fight big battles. He just shadowed Hannibal and waited.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "fabius",
+      "x": 0.4,
+      "pose": "cross",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "column",
+      "x": 0.78,
+      "s": 0.45
+     }
+    ],
+    "tag": {
+     "id": "fabius",
+     "text": "Fabius Maximus, Roman leader"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Romans hated waiting. So Hannibal's men burned the land all around, except Fabius's own farm.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "point",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "fire",
+      "x": 0.55,
+      "s": 0.3
+     },
+     {
+      "k": "house",
+      "x": 0.8,
+      "s": 0.35,
+      "label": "FABIUS'S FARM"
+     }
+    ],
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal, general of Carthage"
+    }
+   }
+  },
+  {
+   "who": "legionary",
+   "say": "Funny how HIS farm is fine...",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "legionary",
+      "x": 0.45,
+      "pose": "cross",
+      "mood": "angry"
+     }
+    ],
+    "cam": "close",
+    "focus": "legionary"
+   }
+  },
+  {
+   "who": "N",
+   "say": "The idea, Livy says, was to make Romans suspect Fabius was making secret deals.",
+   "show": {
+    "k": "scene",
+    "bg": "library",
+    "cast": [
+     {
+      "id": "livy",
+      "x": 0.4,
+      "pose": "think",
+      "mood": "smug",
+      "hold": "scroll"
+     }
+    ],
+    "objects": [
+     {
+      "k": "desk",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "livy",
+     "text": "Livy, Roman historian"
+    }
+   }
+  },
+  {
+   "who": "N",
+   "say": "Fabius's answer? He sold that farm and used the money to buy back Roman prisoners from Hannibal.",
+   "show": {
+    "k": "scene",
+    "bg": "market",
+    "cast": [
+     {
+      "id": "fabius",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.7,
+      "s": 0.35
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SOLD",
+      "at": 1.4,
+      "color": "#1F8A4A"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Hannibal's trick backfired. Fabius looked more loyal than ever.",
+   "show": {
+    "k": "scene",
+    "bg": "rome",
+    "cast": [
+     {
+      "id": "fabius",
+      "x": 0.4,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "statue",
+      "x": 0.75,
+      "s": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "fabius",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "hannibal",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "Hannibal tried to frame a Roman by NOT burning his farm.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #ancientrome #rome #historytok",
+ "youtube_title": "Hannibal Burned Every Farm Except One #shorts",
+ "tags": [
+  "fabius maximus",
+  "hannibal",
+  "second punic war",
+  "ancient rome",
+  "history shorts"
+ ],
+ "sources": [
+  "https://www.livius.org/sources/content/livy/livy-periochae-21-25/",
+  "https://cts.perseids.org/read/greekLit/tlg0007/tlg013/perseus-eng2/7.1-7.5",
+  "https://en.wikipedia.org/wiki/Quintus_Fabius_Maximus_Verrucosus"
+ ]
+}

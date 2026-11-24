@@ -1,0 +1,322 @@
+{
+ "id": "2027w03-s14",
+ "format": "short",
+ "date": "2027-01-20",
+ "slot": "09:00",
+ "title": "Hannibal Tricked His Elephants With Dirt Rafts",
+ "hook": "ELEPHANTS ON RAFTS",
+ "topic": "Hannibal's Elephants",
+ "music": "playful",
+ "cast": {
+  "hannibal": {
+   "skin": "olive",
+   "hair": "curly",
+   "hairColor": "#2A1E16",
+   "beard": "full",
+   "outfit": "armor",
+   "color": "#8A2A22",
+   "color2": "#C9A240",
+   "hat": "goldhelm",
+   "name": "Hannibal Barca"
+  },
+  "soldier": {
+   "skin": "tan",
+   "hair": "short",
+   "hairColor": "#2A1E16",
+   "stubble": true,
+   "outfit": "tunic",
+   "color": "#B8502A",
+   "hold": "spear",
+   "name": "Carthaginian soldier"
+  },
+  "elephant": {
+   "animal": "elephant"
+  }
+ },
+ "voices": {
+  "soldier": "am_liam"
+ },
+ "beats": [
+  {
+   "who": "N",
+   "say": "Hannibal got his war elephants across a giant river with a dirt trick.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "elephant",
+      "x": 0.4,
+      "mood": "shock"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.72,
+      "s": 0.4,
+      "label": "RAFT"
+     }
+    ],
+    "place": "Rhône River, Gaul · 218 BC"
+   }
+  },
+  {
+   "who": "N",
+   "say": "In 218 BC, Hannibal, a general from Carthage in North Africa, was marching to attack Rome.",
+   "show": {
+    "k": "map",
+    "lon": 4.5,
+    "lat": 42.5,
+    "z0": 1.7,
+    "z1": 2.0,
+    "date": "218 BC",
+    "labels": [
+     [
+      "SPAIN",
+      -3.5,
+      40.0,
+      0
+     ],
+     [
+      "RHÔNE",
+      4.7,
+      43.9,
+      0
+     ],
+     [
+      "ALPS",
+      7.0,
+      45.3,
+      0
+     ],
+     [
+      "ITALY",
+      11.5,
+      43.5,
+      0
+     ]
+    ],
+    "route": [
+     [
+      -0.9,
+      37.6
+     ],
+     [
+      0.5,
+      40.8
+     ],
+     [
+      2.8,
+      42.3
+     ],
+     [
+      4.6,
+      43.9
+     ],
+     [
+      6.5,
+      45.0
+     ],
+     [
+      7.7,
+      45.1
+     ]
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "First came the Rhône, a fast river in what's now France.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "think",
+      "mood": "neutral"
+     },
+     {
+      "id": "elephant",
+      "x": 0.66,
+      "mood": "scared"
+     }
+    ],
+    "objects": [
+     {
+      "k": "tree",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "tag": {
+     "id": "hannibal",
+     "text": "Hannibal, general of Carthage"
+    }
+   }
+  },
+  {
+   "who": "soldier",
+   "say": "Sir, the elephants refuse to get on the rafts.",
+   "show": {
+    "k": "scene",
+    "bg": "field",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.45,
+      "pose": "shrug",
+      "mood": "scared"
+     }
+    ],
+    "cam": "close",
+    "focus": "soldier"
+   }
+  },
+  {
+   "who": "N",
+   "say": "So engineers built huge rafts and covered them with dirt, so they looked like normal ground.",
+   "show": {
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [
+     {
+      "id": "soldier",
+      "x": 0.3,
+      "pose": "present",
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.65,
+      "s": 0.45,
+      "label": "RAFT + DIRT"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "FAKE GROUND",
+      "at": 1.4,
+      "color": "#B8860B"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Two female elephants led the way, and the rest followed them on.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "elephant",
+      "x": 0.4,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "crate",
+      "x": 0.7,
+      "s": 0.4,
+      "label": "RAFT"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Polybius, a Greek historian, says some panicked and jumped in, but walked across, trunks up like snorkels.",
+   "show": {
+    "k": "scene",
+    "bg": "sea",
+    "cast": [
+     {
+      "id": "elephant",
+      "x": 0.45,
+      "mood": "shock"
+     }
+    ],
+    "stickers": [
+     {
+      "text": "SNORKEL MODE",
+      "at": 1.6,
+      "color": "#2F6FC2"
+     }
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "The trick worked. The elephants were across, and next came the Alps.",
+   "show": {
+    "k": "scene",
+    "bg": "snow",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.35,
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     {
+      "id": "elephant",
+      "x": 0.66,
+      "mood": "happy"
+     }
+    ],
+    "objects": [
+     {
+      "k": "rock",
+      "x": 0.82,
+      "s": 0.4
+     }
+    ],
+    "fx": [
+     "snow"
+    ]
+   }
+  },
+  {
+   "who": "N",
+   "say": "Follow for more history that sounds made up.",
+   "show": {
+    "k": "end",
+    "cast": [
+     {
+      "id": "hannibal",
+      "x": 0.3,
+      "pose": "wave",
+      "mood": "happy"
+     },
+     {
+      "id": "elephant",
+      "x": 0.68,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    ]
+   }
+  }
+ ],
+ "caption": "How do you get an elephant onto a raft? Hannibal had a plan.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #hannibal #elephants #ancienthistory #historytok",
+ "youtube_title": "Hannibal Tricked His Elephants With Dirt Rafts #shorts",
+ "tags": [
+  "hannibal",
+  "hannibal elephants",
+  "rhone crossing",
+  "war elephants",
+  "history shorts"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_Rhone_Crossing",
+  "https://www.historyskills.com/classroom/ancient-history/hannibal-rhone-river-elephants/",
+  "https://www.cambridge.org/core/journals/classical-quarterly/article/hannibals-elephants-and-the-crossing-of-the-rhone/279261C9F177A1D5751664D2B86C89B0",
+  "https://en.wikipedia.org/wiki/Hannibal"
+ ]
+}
