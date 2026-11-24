@@ -343,7 +343,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "1739. A Persian king named Nader Shah has just crushed the Mughal army north of Delhi, in about three hours.",
+   "say": "1739. A Persian king named Nader Shah has just crushed the army of India's Mughal emperors, in about three hours.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -493,7 +493,7 @@
   },
   {
    "who": "N",
-   "say": "So how did one family build the richest empire on Earth? And how did they lose it all? Let's go back to the start.",
+   "say": "So how did one family build one of the richest empires on Earth? And how did they lose it all? Let's go back to the start.",
    "show": {
     "k": "card",
     "label": "The Mughal Empire",
@@ -568,7 +568,7 @@
   },
   {
    "who": "N",
-   "say": "In 1494, a boy named Babur became king of Fergana, a small valley in today's Uzbekistan. He was about twelve.",
+   "say": "In 1494, a boy named Babur became king of Fergana, a small valley in today's Uzbekistan. He was just eleven.",
    "show": {
     "k": "scene",
     "bg": "steppe",
@@ -595,7 +595,7 @@
     "place": "Fergana Valley · 1494",
     "tag": {
      "id": "babur",
-     "text": "Babur, about 12"
+     "text": "Babur, age 11"
     }
    }
   },
@@ -814,12 +814,12 @@
   },
   {
    "who": "N",
-   "say": "Lodi's army was much bigger, and it had war elephants. One estimate says about a hundred thousand men against Babur's fifteen thousand.",
+   "say": "Lodi's army was much bigger, and it had war elephants. Babur guessed it at a hundred thousand men, against his own twelve thousand or so.",
    "show": {
     "k": "card",
-    "label": "Panipat, 1526 (rough estimates)",
-    "big": "100,000 vs 15,000",
-    "sub": "Lodi's army vs Babur's army"
+    "label": "Panipat, 1526 (Babur's own numbers)",
+    "big": "100,000 vs 12,000",
+    "sub": "Lodi's army vs Babur's. Historians think Lodi had fewer, but still far more."
    }
   },
   {
@@ -985,10 +985,10 @@
   },
   {
    "who": "N",
-   "say": "Hindustan is a country of few charms. There are no good horses, no good dogs, no grapes, musk-melons or first-rate fruits.",
+   "say": "Hindustan is a country of few charms… there are no good horses, no good dogs, no grapes, musk-melons or first-rate fruits.",
    "show": {
     "k": "quote",
-    "text": "Hindustan is a country of few charms... There are no good horses, no good dogs, no grapes, musk-melons or first-rate fruits.",
+    "text": "Hindustan is a country of few charms. … there are no good horses, no good dogs, no grapes, musk-melons or first-rate fruits.",
     "who": "Babur, the Baburnama (trans. Annette Beveridge)"
    }
   },
@@ -1493,7 +1493,7 @@
   },
   {
    "who": "N",
-   "say": "There, he built a House of Worship, where scholars of many faiths, Muslim, Hindu, Jain, Zoroastrian and Christian, came to debate big questions.",
+   "say": "There, he built a debate hall called the House of Worship. First Muslim scholars argued there, then Hindus, Jains, Zoroastrians and Christians too.",
    "show": {
     "k": "scene",
     "bg": "palace",
@@ -1534,7 +1534,7 @@
   },
   {
    "who": "N",
-   "say": "Akbar sat and listened to all of them. He wanted to understand what each one believed."
+   "say": "Akbar listened to all of them. Later he pushed an idea called peace with all: treat every faith fairly."
   },
   {
    "who": "N",
@@ -1795,16 +1795,30 @@
    "who": "N",
    "say": "Around then, England sent its first official ambassador to the Mughal court.",
    "show": {
-    "k": "flag",
-    "flag": "uk1606",
-    "label": "KING JAMES I'S BRITAIN",
-    "sub": "first ambassador to the Mughals: 1615",
-    "bg": "harbor"
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.7,
+      "flag": "uk1606",
+      "label": "ENGLISH SHIP"
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.35,
+      "label": "GIFTS"
+     }
+    ],
+    "place": "Surat, India · 1615"
    }
   },
   {
    "who": "N",
-   "say": "His name was Sir Thomas Roe, and on Jahangir's birthday he watched the emperor get weighed on a giant scale against gold, silver and jewels.",
+   "say": "His name was Sir Thomas Roe. On Jahangir's birthday in 1617, he watched the emperor get weighed on a giant scale against gold, silver and jewels.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -1834,7 +1848,7 @@
       "s": 0.35
      }
     ],
-    "place": "Jahangir's court · 1610s",
+    "place": "Jahangir's court, Mandu · 1617",
     "tag": {
      "id": "roe",
      "text": "Sir Thomas Roe, English ambassador"
@@ -1851,7 +1865,7 @@
   },
   {
    "who": "N",
-   "say": "Then much of that treasure was given away to the poor and holy men.",
+   "say": "Roe was told that much of that treasure was then given to the poor.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -2051,7 +2065,7 @@
   },
   {
    "who": "N",
-   "say": "The main tomb was done around 1648, and the whole complex took about twenty years.",
+   "say": "The main tomb was done in the 1640s, and the whole complex took about twenty years.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -2515,7 +2529,7 @@
       "k": "crate",
       "x": 0.88,
       "s": 0.35,
-      "label": "TEA"
+      "label": "CLOTH"
      }
     ],
     "place": "Bengal, India · 1760s"
@@ -2877,6 +2891,12 @@
   "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar",
   "https://www.britannica.com/biography/Bahadur-Shah-II",
   "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar_grave_dispute",
-  "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+  "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857",
+  "https://www.nytimes.com/2020/11/30/books/review-babur-nama.html",
+  "https://www.economist.com/christmas-specials/2010/12/16/wine-and-tulips-in-kabul",
+  "https://www.ebsco.com/research-starters/military-history-and-science/first-battle-panipat",
+  "https://tajmahal.gov.in/creation-history-of-taj-mahal.aspx",
+  "https://en.wikipedia.org/wiki/Sulh-i_kul",
+  "https://www.gutenberg.org/ebooks/53674"
  ]
 }

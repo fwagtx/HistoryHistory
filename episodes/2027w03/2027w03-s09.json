@@ -1,8 +1,8 @@
 {
  "id": "2027w03-s09",
  "format": "short",
- "date": "2027-01-18",
- "slot": "09:00",
+ "date": "2027-01-19",
+ "slot": "18:00",
  "title": "This Emperor Was Weighed in Gold Every Birthday",
  "hook": "WEIGHED IN GOLD",
  "topic": "Jahangir",
@@ -68,7 +68,7 @@
       "s": 0.45
      }
     ],
-    "place": "Mughal court, India · 1610s",
+    "place": "Mughal court, India · 1617",
     "tag": {
      "id": "jahangir",
      "text": "Emperor Jahangir"
@@ -77,13 +77,27 @@
   },
   {
    "who": "N",
-   "say": "In 1615, England sent its first official ambassador to the Mughal Empire.",
+   "say": "In 1615, England sent its first official ambassador to the Mughal Empire, which ruled most of India.",
    "show": {
-    "k": "flag",
-    "flag": "uk1606",
-    "label": "KING JAMES I'S ENGLAND",
-    "sub": "sends an ambassador, 1615",
-    "bg": "harbor"
+    "k": "scene",
+    "bg": "harbor",
+    "cast": [],
+    "objects": [
+     {
+      "k": "sailship",
+      "x": 0.5,
+      "s": 0.7,
+      "flag": "uk1606",
+      "label": "ENGLISH SHIP"
+     },
+     {
+      "k": "crate",
+      "x": 0.85,
+      "s": 0.35,
+      "label": "GIFTS"
+     }
+    ],
+    "place": "Surat, India · 1615"
    }
   },
   {
@@ -115,7 +129,7 @@
   },
   {
    "who": "N",
-   "say": "At Emperor Jahangir's birthday, Roe watched him weighed against gold, silver, jewels, silk and food.",
+   "say": "At Emperor Jahangir's birthday in 1617, Roe watched him weighed against gold, silver, jewels, silk and food.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -152,7 +166,7 @@
   },
   {
    "who": "N",
-   "say": "Then a lot of it was handed out to the poor and to holy men.",
+   "say": "Roe was told that a lot of it was then handed out to the poor.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -179,7 +193,7 @@
   },
   {
    "who": "N",
-   "say": "The custom came from Hindu kings. Akbar, Jahangir's father, made it a Mughal tradition.",
+   "say": "The custom came from an old Hindu ritual. Akbar, Jahangir's father, made it a Mughal tradition.",
    "show": {
     "k": "card",
     "label": "The birthday weighing",
@@ -214,6 +228,8 @@
   "https://en.wikipedia.org/wiki/Thomas_Roe",
   "https://franpritchett.com/00generallinks/kerr/vol09chap11sect06c.html",
   "https://www.mygoldguide.in/when-emperor-jahangir-weighed-his-son-gold",
-  "https://en.wikipedia.org/wiki/Jahangir"
+  "https://en.wikipedia.org/wiki/Jahangir",
+  "https://en.wikipedia.org/wiki/Tulabhara",
+  "https://chnm.gmu.edu/cyh/primary-sources/257"
  ]
 }

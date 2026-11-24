@@ -428,7 +428,7 @@
   },
   {
    "who": "N",
-   "say": "His father, Hamilcar Barca, was Carthage's top general. Carthage had just lost a long war to Rome, so Hamilcar was sailing to Spain to build a new power base.",
+   "say": "His father, Hamilcar Barca, was Carthage's top general. Carthage had recently lost a long war to Rome, so Hamilcar was sailing to Spain to build a new power base.",
    "show": {
     "k": "scene",
     "bg": "harbor",
@@ -456,7 +456,7 @@
   },
   {
    "who": "N",
-   "say": "Fun fact: the family name Barca probably meant lightning. Very heavy metal."
+   "say": "Fun fact: Hamilcar's nickname, Barca, probably meant lightning. Very heavy metal."
   },
   {
    "who": "N",
@@ -576,7 +576,7 @@
   },
   {
    "who": "N",
-   "say": "Some historians think he told it to sound tough. Either way, he spent his whole life fighting Rome.",
+   "say": "He told it to convince that king he would never side with Rome, so he may have polished it a little. Either way, he spent his whole life fighting Rome.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -1067,11 +1067,11 @@
   },
   {
    "who": "N",
-   "say": "Polybius says even people who knew him well had trouble recognizing him."
+   "say": "Polybius says even people who knew him well had trouble recognizing him. The Roman historian Livy tells the same story."
   },
   {
    "who": "N",
-   "say": "Then, crossing flooded marshes the next spring, he caught an eye infection and lost the sight in one eye. So the master of disguise ended up with a look nobody could miss.",
+   "say": "Then, crossing flooded marshes the next spring, he caught an eye infection and lost the sight in one eye. Polybius and Livy both tell this one. So the master of disguise ended up with a look nobody could miss.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1104,7 +1104,8 @@
     ],
     "fx": [
      "rain"
-    ]
+    ],
+    "place": "Arno marshes, Italy · 217 BC"
    }
   },
   {
@@ -1118,7 +1119,7 @@
   },
   {
    "who": "N",
-   "say": "Number four. By 217 BC, Rome had a new plan: stop fighting Hannibal at all.",
+   "say": "Number four. By 217 BC, Rome had a new plan: stop fighting big battles with Hannibal.",
    "show": {
     "k": "scene",
     "bg": "rome",
@@ -1140,13 +1141,13 @@
     "place": "Rome · 217 BC",
     "tag": {
      "id": "fabius",
-     "text": "Fabius Maximus, Roman leader"
+     "text": "Fabius Maximus, Rome's emergency leader"
     }
    }
   },
   {
    "who": "N",
-   "say": "A Roman leader named Fabius Maximus just followed Hannibal around, blocking roads and waiting for a mistake. Romans nicknamed him the Delayer.",
+   "say": "Rome made Fabius Maximus dictator, an emergency leader with total power for six months. He just followed Hannibal around, blocking roads and waiting for a mistake. Romans nicknamed him the Delayer.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -1221,7 +1222,7 @@
     "k": "card",
     "label": "Oxen with sticks on their horns",
     "big": "2,000",
-    "sub": "the number given by Polybius and Plutarch",
+    "sub": "the number given by Polybius, Livy and Plutarch",
     "cast": [
      {
       "id": "hannibal",
@@ -1377,7 +1378,7 @@
   },
   {
    "who": "N",
-   "say": "Number three. In about fifteen years in Italy, Hannibal never laid siege to Rome itself. Its walls were huge, and he had no heavy siege machines.",
+   "say": "Number three. In about fifteen years in Italy, Hannibal never laid siege to Rome itself. Its walls were huge, and historians think he lacked the heavy siege machines to break them.",
    "show": {
     "k": "scene",
     "bg": "rome",
@@ -1561,7 +1562,7 @@
   },
   {
    "who": "N",
-   "say": "Hannibal was furious. So he put the silversmiths' shops in the middle of Rome up for sale. Shops he did not own, in a city he could not enter.",
+   "say": "Hannibal was furious. So he put the silversmiths' shops around the Forum, Rome's main square, up for sale. Shops he did not own, in a city he could not enter.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -1822,7 +1823,7 @@
   },
   {
    "who": "N",
-   "say": "This story comes from Cornelius Nepos, a Roman writer who lived over a century later, so it may be stretched. But what a story.",
+   "say": "This story comes mainly from Cornelius Nepos, a Roman writer who lived over a century later, so it may be stretched. But what a story.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -1844,7 +1845,7 @@
     ],
     "stickers": [
      {
-      "text": "ONE SOURCE",
+      "text": "WRITTEN LATER",
       "at": 1.6,
       "color": "#2F6FC2"
      }
@@ -1918,7 +1919,7 @@
   },
   {
    "who": "N",
-   "say": "That's about as many people as a giant football stadium holds."
+   "say": "That's about as many people as a giant football stadium holds. Some modern historians think the real number was smaller."
   },
   {
    "who": "N",
@@ -2026,7 +2027,7 @@
   },
   {
    "who": "N",
-   "say": "The Romans were completely surrounded. Most of their army was wiped out in one afternoon, one of the worst days in Rome's history.",
+   "say": "The Romans were completely surrounded. Most of their army was killed or captured in one afternoon, one of the worst days in Rome's history.",
    "show": {
     "k": "scene",
     "bg": "battlefield",
@@ -2060,35 +2061,6 @@
   {
    "who": "N",
    "say": "Generals still study this trap today, more than two thousand years later."
-  },
-  {
-   "who": "N",
-   "say": "Livy says so many gold rings were taken from fallen Roman nobles that Hannibal's brother poured them out in a heap in Carthage's senate house.",
-   "show": {
-    "k": "scene",
-    "bg": "throne",
-    "cast": [
-     {
-      "id": "mago",
-      "x": 0.35,
-      "pose": "present",
-      "mood": "smug"
-     }
-    ],
-    "objects": [
-     {
-      "k": "goldpile",
-      "x": 0.68,
-      "s": 0.45,
-      "label": "GOLD RINGS"
-     }
-    ],
-    "tag": {
-     "id": "mago",
-     "text": "Mago, Hannibal's brother"
-    },
-    "place": "Carthage · 216 BC"
-   }
   },
   {
    "who": "maharbal",
@@ -2138,13 +2110,42 @@
    "say": "According to Livy, his cavalry commander Maharbal then told him off.",
    "show": {
     "k": "quote",
-    "text": "You know how to win a victory, Hannibal, but not how to use one.",
+    "text": "You know how to win a victory, Hannibal, but not how to use it.",
     "who": "Maharbal, as told by the Roman historian Livy"
    }
   },
   {
    "who": "N",
-   "say": "Many historians doubt he really said it, and Hannibal didn't march on Rome. He had no siege machines, so attacking those walls might have been hopeless."
+   "say": "Polybius never mentions this, so Maharbal may never have said it. Either way, Hannibal didn't march on Rome, and many historians think attacking those huge walls would have failed."
+  },
+  {
+   "who": "N",
+   "say": "Back home, Livy says, Hannibal's brother Mago poured out a heap of gold rings taken from fallen Roman nobles, right at the door of Carthage's senate house.",
+   "show": {
+    "k": "scene",
+    "bg": "throne",
+    "cast": [
+     {
+      "id": "mago",
+      "x": 0.35,
+      "pose": "present",
+      "mood": "smug"
+     }
+    ],
+    "objects": [
+     {
+      "k": "goldpile",
+      "x": 0.68,
+      "s": 0.45,
+      "label": "GOLD RINGS"
+     }
+    ],
+    "tag": {
+     "id": "mago",
+     "text": "Mago, Hannibal's brother"
+    },
+    "place": "Carthage · 216 BC"
+   }
   },
   {
    "who": "N",
@@ -2229,7 +2230,7 @@
   },
   {
    "who": "N",
-   "say": "In 204 BC, a Roman general named Scipio landed in Africa, so Carthage called Hannibal home to defend it.",
+   "say": "In 204 BC, a Roman general named Scipio landed in Africa. The next year, Carthage called Hannibal home to defend it.",
    "show": {
     "k": "map",
     "lon": 11.0,
@@ -2427,6 +2428,9 @@
   "https://en.wikipedia.org/wiki/Maharbal",
   "https://www.britannica.com/biography/Maharbal",
   "https://en.wikipedia.org/wiki/Battle_of_Zama",
-  "https://www.britannica.com/event/Punic-Wars/Second-Punic-War-218-201-bce"
+  "https://www.britannica.com/event/Punic-Wars/Second-Punic-War-218-201-bce",
+  "https://sourcebooks.web.fordham.edu/ancient/polybius-hannibal.asp",
+  "https://historyskills.com/classroom/ancient-history/hannibal-snake-bombs",
+  "https://www.livius.org/articles/person/hannibal-3-barca/hannibal-in-the-alps/"
  ]
 }

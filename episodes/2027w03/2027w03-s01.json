@@ -3,10 +3,10 @@
  "format": "short",
  "date": "2027-01-18",
  "slot": "09:00",
- "title": "Mughal India Made a Quarter of the World's Wealth",
+ "title": "Mughal India Made a Quarter of the World's Goods",
  "hook": "INDIA WAS THAT RICH",
  "topic": "Mughal Empire",
- "youtube_title": "Mughal India Made a Quarter of the World's Wealth #shorts",
+ "youtube_title": "Mughal India Made a Quarter of the World's Goods #shorts",
  "music": "playful",
  "tags": [
   "mughal empire",
@@ -33,6 +33,17 @@
    "hatColor": "#C8322A",
    "stache": "bush",
    "skin": "brown"
+  },
+  "shahjahan": {
+   "hat": "turban",
+   "hatColor": "#F2EEE4",
+   "outfit": "robe",
+   "color": "#E8C25A",
+   "color2": "#A8322A",
+   "beard": "full",
+   "hairColor": "#1E1612",
+   "skin": "tan",
+   "name": "Shah Jahan"
   }
  },
  "voices": {
@@ -41,7 +52,7 @@
  "beats": [
   {
    "who": "N",
-   "say": "Around 1700, one empire may have produced about a quarter of everything made on Earth.",
+   "say": "Around 1700, about a quarter of everything made on Earth came from one place: India.",
    "show": {
     "k": "scene",
     "bg": "market",
@@ -72,7 +83,7 @@
   },
   {
    "who": "N",
-   "say": "It was the Mughal Empire, ruled by a family of emperors.",
+   "say": "Most of India was ruled by the Mughals, a family of emperors.",
    "show": {
     "k": "scene",
     "bg": "throne",
@@ -93,13 +104,13 @@
     ],
     "tag": {
      "id": "aurangzeb",
-     "text": "Aurangzeb, Mughal emperor"
+     "text": "Aurangzeb, Mughal emperor in 1700"
     }
    }
   },
   {
    "who": "N",
-   "say": "The economist Angus Maddison estimated India's share of the world economy at about twenty-four percent.",
+   "say": "That's the estimate of Angus Maddison, an economist who measured old economies: about twenty-four percent.",
    "show": {
     "k": "card",
     "label": "India's share of the world economy, about 1700",
@@ -109,7 +120,7 @@
   },
   {
    "who": "N",
-   "say": "That's about one in every four coins on Earth."
+   "say": "Picture the world's goods in four piles. India made one."
   },
   {
    "who": "N",
@@ -146,13 +157,13 @@
   },
   {
    "who": "N",
-   "say": "The emperors got so rich they built the Taj Mahal and a throne covered in jewels.",
+   "say": "His father spent that wealth on the Taj Mahal and a jeweled throne.",
    "show": {
     "k": "scene",
     "bg": "islamic",
     "cast": [
      {
-      "id": "aurangzeb",
+      "id": "shahjahan",
       "x": 0.35,
       "pose": "present",
       "mood": "happy"
@@ -166,6 +177,10 @@
       "label": "PEACOCK THRONE"
      }
     ],
+    "tag": {
+     "id": "shahjahan",
+     "text": "Shah Jahan, Aurangzeb's father"
+    },
     "fx": [
      "sparkle"
     ]
@@ -173,7 +188,7 @@
   },
   {
    "who": "N",
-   "say": "Some historians call that number a rough guess. But Mughal India was clearly rich.",
+   "say": "Other historians think the real share was smaller. But Mughal India was clearly rich.",
    "show": {
     "k": "scene",
     "bg": "library",
@@ -223,12 +238,14 @@
    }
   }
  ],
- "caption": "Around 1700, about a quarter of the world's wealth came from one empire.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mughalempire #indianhistory #economics #historytok",
+ "caption": "Around 1700, about a quarter of the world's goods may have come from one empire.\n\nFull video on our YouTube channel. Follow for 5 stories a day.\n#history #mughalempire #indianhistory #economics #historytok",
  "sources": [
   "https://en.wikipedia.org/wiki/Economy_of_the_Mughal_Empire",
   "https://en.wikipedia.org/wiki/Economic_history_of_India",
   "https://en.wikipedia.org/wiki/Mughal_Empire",
   "https://www.britannica.com/biography/Aurangzeb",
-  "https://en.wikipedia.org/wiki/Peacock_Throne"
+  "https://en.wikipedia.org/wiki/Peacock_Throne",
+  "https://en.wikipedia.org/wiki/Angus_Maddison",
+  "https://en.wikipedia.org/wiki/Shah_Jahan"
  ]
 }
