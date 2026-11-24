@@ -66,10 +66,10 @@
       "s": 0.35
      },
      {
-      "k": "flag",
+      "k": "scrollbig",
       "x": 0.9,
-      "s": 0.4,
-      "flag": "mexico"
+      "s": 0.35,
+      "text": "TREATY"
      }
     ],
     "stickers": [
@@ -88,7 +88,7 @@
   },
   {
    "who": "N",
-   "say": "In 1848, the United States and Mexico were at war, and California was still Mexican land.",
+   "say": "In 1848, the United States and Mexico were at war. US troops held California, but on paper it was still Mexican land.",
    "show": {
     "k": "flag",
     "flag": "mexico",
@@ -210,7 +210,7 @@
   },
   {
    "who": "N",
-   "say": "Within a year, the gold rush was on, and California became a US state in 1850.",
+   "say": "Within months, the gold rush was on, and California became a US state in 1850.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -224,10 +224,10 @@
     ],
     "objects": [
      {
-      "k": "flag",
-      "x": 0.68,
-      "s": 0.45,
-      "flag": "usa1859"
+      "k": "scrollbig",
+      "x": 0.66,
+      "s": 0.4,
+      "text": "STATEHOOD"
      },
      {
       "k": "goldpile",

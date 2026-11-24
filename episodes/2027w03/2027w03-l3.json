@@ -707,7 +707,7 @@
   },
   {
    "who": "N",
-   "say": "According to his biographers, pans he bought for twenty cents, he sold for fifteen dollars.",
+   "say": "Accounts say he bought pans for twenty cents each and sold them for fifteen dollars.",
    "show": {
     "k": "card",
     "label": "One gold pan: bought vs. sold",
@@ -721,7 +721,7 @@
   },
   {
    "who": "N",
-   "say": "In about nine weeks, he reportedly made thirty-six thousand dollars, a huge fortune back then.",
+   "say": "In about nine weeks, he made around thirty-six thousand dollars, a huge fortune back then.",
    "show": {
     "k": "scene",
     "bg": "vault",
@@ -803,7 +803,7 @@
   },
   {
    "who": "N",
-   "say": "Brannan is often called California's first millionaire. And he got there without mining a day in his life.",
+   "say": "Brannan put his profits into land, and he's often called California's first millionaire. He got there by selling, not digging.",
    "show": {
     "k": "scene",
     "bg": "street",
@@ -893,10 +893,10 @@
       "s": 0.45
      },
      {
-      "k": "flag",
-      "x": 0.12,
+      "k": "scrollbig",
+      "x": 0.14,
       "s": 0.4,
-      "flag": "usa1859"
+      "text": "MESSAGE TO CONGRESS"
      }
     ],
     "stickers": [
@@ -915,10 +915,10 @@
   },
   {
    "who": "N",
-   "say": "The accounts of abundance of gold in that territory are of such an extraordinary character as would scarcely command belief.",
+   "say": "The accounts of the abundance of gold in that territory are of such an extraordinary character as would scarcely command belief.",
    "show": {
     "k": "quote",
-    "text": "The accounts of abundance of gold in that territory are of such an extraordinary character as would scarcely command belief…",
+    "text": "The accounts of the abundance of gold in that territory are of such an extraordinary character as would scarcely command belief…",
     "who": "President James K. Polk, message to Congress, December 5, 1848"
    }
   },
@@ -928,7 +928,7 @@
   },
   {
    "who": "N",
-   "say": "From the East Coast, the long way was sailing around South America, about five or six months. The shortcut crossed Panama, with a risk of deadly tropical diseases.",
+   "say": "From the East Coast, the long way was sailing around South America. That took five to eight months. The shortcut crossed Panama, but deadly tropical diseases lurked there.",
    "show": {
     "k": "map",
     "lon": -96.0,
@@ -1163,11 +1163,10 @@
    "who": "N",
    "say": "And in 1850, California became the thirty-first state, without ever being a territory first.",
    "show": {
-    "k": "flag",
-    "flag": "usa1859",
-    "label": "CALIFORNIA JOINS THE USA",
-    "sub": "state number 31 · September 9, 1850",
-    "bg": "field"
+    "k": "card",
+    "label": "California joins the USA",
+    "big": "STATE #31",
+    "sub": "September 9, 1850"
    }
   },
   {
@@ -1181,7 +1180,7 @@
   },
   {
    "who": "N",
-   "say": "So did the miners get rich? A lucky few did, mostly early. In 1848, a miner could find about twenty dollars of gold a day.",
+   "say": "So did the miners get rich? A lucky few did, mostly early. In 1848, an average miner found about twenty dollars of gold a day.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -1222,12 +1221,12 @@
   },
   {
    "who": "N",
-   "say": "But as crowds poured in, the easy gold ran out. A few years later, the average was under eight dollars a day.",
+   "say": "But as crowds poured in, the easy gold ran out. About three years later, the average was under eight dollars a day.",
    "show": {
     "k": "card",
     "label": "Gold a typical miner found per day",
     "big": "$20 → $8",
-    "sub": "1848 vs. a few years later"
+    "sub": "1848 vs. about three years later"
    }
   },
   {
@@ -1271,11 +1270,11 @@
   },
   {
    "who": "N",
-   "say": "In 1849, eggs in San Francisco cost around a dollar each. One miner's letter lists flour at two dollars a pound."
+   "say": "In 1849, eggs in San Francisco cost around a dollar each. Even a slice of bread could cost a dollar."
   },
   {
    "who": "N",
-   "say": "Eggs got so valuable that egg hunters raided seabird nests on rocky islands near San Francisco. In 1863, rival egg companies even had a deadly gunfight there. People called it the Egg War.",
+   "say": "Eggs got so valuable that egg hunters raided seabird nests on the Farallon Islands, about thirty miles off San Francisco. In 1863, rival egg companies even had a deadly gunfight there. People called it the Egg War.",
    "show": {
     "k": "scene",
     "bg": "sea",
@@ -1297,7 +1296,7 @@
       "k": "rock",
       "x": 0.88,
       "s": 0.5,
-      "label": "BIRD ISLANDS"
+      "label": "FARALLON ISLANDS"
      }
     ],
     "stickers": [
@@ -1311,7 +1310,8 @@
       "at": 1.7000000000000002,
       "color": "#D4A52A"
      }
-    ]
+    ],
+    "place": "Farallon Islands · 1863"
    }
   },
   {
@@ -1509,7 +1509,7 @@
   },
   {
    "who": "N",
-   "say": "Now a serious part of the story. California was already home to many Native peoples, around a hundred and fifty thousand before the rush.",
+   "say": "Now a serious part of the story. California was already home to many Native peoples, perhaps as many as a hundred and fifty thousand before the rush.",
    "show": {
     "k": "map",
     "lon": -120.0,
@@ -1581,7 +1581,7 @@
   },
   {
    "who": "N",
-   "say": "In 1850, a California law even let settlers force Native people, including children, into unpaid labor.",
+   "say": "In 1850, a California law even let settlers force Native people, including children, into forced labor.",
    "show": {
     "k": "scene",
     "bg": "courtroom",
@@ -1626,17 +1626,17 @@
   },
   {
    "who": "N",
-   "say": "Disease, hunger and killings followed. By 1873, only about thirty thousand Native Californians were left. Many historians call it a genocide.",
+   "say": "Disease, hunger and killings followed. By 1870, only about thirty thousand Native Californians were left. Many historians call it a genocide.",
    "show": {
     "k": "card",
     "label": "Native people in California (estimates)",
     "big": "150,000 → 30,000",
-    "sub": "before 1848 vs. 1873"
+    "sub": "1848 vs. 1870"
    }
   },
   {
    "who": "N",
-   "say": "Foreign miners were targeted too. In 1850, California charged non-citizens twenty dollars a month to mine. It hit Mexican, Chilean and Chinese miners hardest.",
+   "say": "Foreign miners were targeted too. In 1850, California charged non-citizens twenty dollars a month to mine. It hit Mexican and Chilean miners hardest, and later taxes targeted Chinese miners.",
    "show": {
     "k": "scene",
     "bg": "camp",
@@ -2008,7 +2008,7 @@
   },
   {
    "who": "N",
-   "say": "James Marshall, who found the gold, died nearly penniless in 1885. Today his statue at Coloma points at the spot. The state gave him a small pension for a few years, then let it lapse. A statue, but no fortune.",
+   "say": "James Marshall, who found the gold, never got rich. The state gave him a small pension for a few years, then let it lapse. He died nearly penniless in 1885. Today his statue at Coloma points at the spot. A statue, but no fortune.",
    "show": {
     "k": "scene",
     "bg": "field",
@@ -2035,7 +2035,7 @@
       "color": "#A8322A"
      }
     ],
-    "place": "Coloma, California · 1885"
+    "place": "Coloma, California · today"
    }
   },
   {
@@ -2224,6 +2224,12 @@
   "https://history.wf.com/the-surprising-start-of-wells-fargo-co/",
   "https://en.wikipedia.org/wiki/Wells_Fargo_(1852%E2%80%931998)",
   "https://prologue.blogs.archives.gov/2010/05/20/forever-in-blue-jeansand-in-court/",
-  "https://www.history.com/this-day-in-history/may-20/levi-strauss-and-jacob-davis-receive-patent-for-blue-jeans"
+  "https://www.history.com/this-day-in-history/may-20/levi-strauss-and-jacob-davis-receive-patent-for-blue-jeans",
+  "https://www.nps.gov/safr/learn/historyculture/niantic.htm",
+  "https://en.wikipedia.org/wiki/1848_State_of_the_Union_Address",
+  "https://en.wikipedia.org/wiki/Farallon_Islands",
+  "https://www.ebsco.com/research-starters/history/foreign-miner-taxes-california-gold-rush",
+  "https://www.pbs.org/wgbh/americanexperience/features/goldrush-value-land",
+  "https://www.pbs.org/wgbh/americanexperience/features/goldrush-luzena-stanlley-wilson"
  ]
 }
